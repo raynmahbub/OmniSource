@@ -4,6 +4,21 @@
   "count": 100,
   "updates": [
     {
+      "slug": "reynard",
+      "name": "Reynard",
+      "version": "0.15.0",
+      "previousVersion": "0.14.1",
+      "date": "2026-09-27",
+      "kind": "updated",
+      "changelog": "Reynard 0.15.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.1...0.15.0\n\n### New Features\n- Added support for printing a webpage or an online PDF viewed in the browser, accessible as a **Print** option in the share sheet or with the Command + P keyboard shortcut.\n- You can now see which tab is playing audio and mute tabs directly from the address bar.\n- You can now configure whether Reader Mode is shown automatically for a specific website or for all websites.\n- Built-in add-on pages, such as those that provide a custom new tab appearance, can now be set as your new tab page.\n- For links that open in a new tab automatically or from the context menu, you can now return to the opener tab using the back button, or by swiping from the left edge of the screen to the right.\n\n### Bug Fixes & Improvements\n- JIT can now be enabled on iPhone 18 Pro and iPhone 18 Pro Max.\n- Greatly reduced memory and power usage when the camera is active.\n- The Command + W keyboard shortcut now activates the adjacent tab instead of the most recently opened one.\n- If you set the last tab to show on startup, the browser now loads its URL immediately instead of after a short delay.\n- The list of recently closed tabs now clears when you remove browsing history in the browser settings.\n- Fixed a regression where Reader Mode’s serif font would be used as the default serif font for all websites.\n- Fixed numerous bugs and improved UI animations.\n\n### Translations\nAdded Vietnamese translation.\n\n### Engine\nUpdated Gecko to [156.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_1_RELEASE) (released Sep 22, 2026).",
+      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Reynard.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/reynard.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/reynard.xml",
+      "status": "stable",
+      "shortDescription": "Gecko-based browser, a real WebKit alternative"
+    },
+    {
       "slug": "nuvio",
       "name": "Nuvio",
       "version": "0.5.3",
@@ -1472,21 +1487,6 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/youmod.xml",
       "status": "stable",
       "shortDescription": "YouTube 21.37.4 extra-tweaks build (YouMod + player stack)"
-    },
-    {
-      "slug": "ttkillerplus",
-      "name": "TTKillerPlus",
-      "version": "46.8.0",
-      "previousVersion": "46.7.0",
-      "date": "2026-09-09",
-      "kind": "updated",
-      "changelog": "TikTok 46.8.0 | TikTok_46.8_TTKillerPlus_2.1\n\n• Add v46.0+ compatibility.\n• Fix like confirmation bypass on double tap.\n• Fix post date display format.\n• Fix settings localization & toggles.\n• Fix flag button not tappable.\n• Other fixes & improvements.\n• Update base IPA to TikTok v46.8",
-      "downloadURL": "https://ikghd.site/ipa/TikTok_46.8_TTKillerPlus_2.1.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/TikTok.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/ttkillerplus.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/ttkillerplus.xml",
-      "status": "stable",
-      "shortDescription": "TikTok with downloads, no ads and region switch"
     },
     {
       "slug": "uyouenhanced",
