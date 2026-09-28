@@ -4,6 +4,21 @@
   "count": 100,
   "updates": [
     {
+      "slug": "stikdebug",
+      "name": "StikDebug",
+      "version": "3.1.12",
+      "previousVersion": "3.1.11",
+      "date": "2026-09-27",
+      "kind": "updated",
+      "changelog": "StikDebug 3.1.12 | StikDebug-3.1.12\n\nShould fix issues with DDI for iOS versions below 26.4.\nAlso, lots of fixes and improvements for TXM scripts, location simulation, and keep-alives.\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.11...3.1.12",
+      "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.12/StikDebug-3.1.12.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/StikDebug.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/stikdebug.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/stikdebug.xml",
+      "status": "stable",
+      "shortDescription": "On-device JIT enabler and debugger"
+    },
+    {
       "slug": "reynard",
       "name": "Reynard",
       "version": "0.15.0",
@@ -1472,21 +1487,6 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/ytkp.xml",
       "status": "stable",
       "shortDescription": "Advanced YouTube tweak with extensive controls"
-    },
-    {
-      "slug": "youmod",
-      "name": "uPro Plus",
-      "version": "21.36.6",
-      "previousVersion": "21.35.3",
-      "date": "2026-09-09",
-      "kind": "updated",
-      "changelog": "YouTube 21.36.6 | YouMod_21.36.6_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K is available for A16+ devices.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.36.6_2.0.0.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/youmod.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/youmod.xml",
-      "status": "stable",
-      "shortDescription": "YouTube 21.37.4 extra-tweaks build (YouMod + player stack)"
     },
     {
       "slug": "uyouenhanced",
