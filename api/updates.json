@@ -19,6 +19,21 @@
       "shortDescription": "Lightweight YouTube tweak with no ads and PiP"
     },
     {
+      "slug": "ytkace",
+      "name": "YTKACE",
+      "version": "21.39.4",
+      "previousVersion": "21.38.3",
+      "date": "2026-09-28",
+      "kind": "updated",
+      "changelog": "YouTube 21.39.4 | YTKACE 1.1.1 | YTKACE_1.1.1_YouTube_21.39.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.39.4\n• Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups\n• Liquid Glass settings page with a toggle for each part\n• Selected Tab Color for the tab text or the text and icon\n• Added HLS mode in Playback Fix\n• Added 5x speed in the speed menu\n• Improved native share sheet\n\nFixed:\n• Multiple scrubber dots on feed videos with a custom scrubber\n• Direct downloads using an outdated client\n\nYouTube 21.39.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.1_YouTube_21.39.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/ytkace.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/ytkace.xml",
+      "status": "stable",
+      "shortDescription": "YTKACE"
+    },
+    {
       "slug": "youpro",
       "name": "YouPro",
       "version": "21.39.4",
@@ -49,6 +64,21 @@
       "shortDescription": "YouTube 21.37.4 extra-tweaks build (YouMod + player stack)"
     },
     {
+      "slug": "stikdebug",
+      "name": "StikDebug",
+      "version": "3.1.13",
+      "previousVersion": "3.1.12",
+      "date": "2026-09-28",
+      "kind": "updated",
+      "changelog": "StikDebug 3.1.13 | StikDebug-3.1.13\n\nFix MeloCafé auto assign\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.12...3.1.13",
+      "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/StikDebug.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/stikdebug.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/stikdebug.xml",
+      "status": "stable",
+      "shortDescription": "On-device JIT enabler and debugger"
+    },
+    {
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "version": "5.0.6",
@@ -77,6 +107,21 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/nuvio.xml",
       "status": "stable",
       "shortDescription": "Open-source media player, bring your own sources"
+    },
+    {
+      "slug": "nebuloiptv",
+      "name": "Nebulo",
+      "version": "3.0.0",
+      "previousVersion": "2.3",
+      "date": "2026-09-28",
+      "kind": "updated",
+      "changelog": "Nebulo 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
+      "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Nebulo.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/nebuloiptv.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/nebuloiptv.xml",
+      "status": "stable",
+      "shortDescription": "IPTV player"
     },
     {
       "slug": "conduit",
@@ -1442,51 +1487,6 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/apollo.xml",
       "status": "stable",
       "shortDescription": "The beloved Reddit client, continued by Apollo-Reborn"
-    },
-    {
-      "slug": "youpro",
-      "name": "YouPro",
-      "version": "21.36.6",
-      "previousVersion": "21.24.3",
-      "date": "2026-09-10",
-      "kind": "updated",
-      "changelog": "YouTube 21.36.6 | YouProExtra_21.36.6_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K is available for A16+ devices.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. \n> - for <A15 devices press share button in the arrow down panel and use external player for downloaded videos.\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa0/YouProExtra_21.36.6_1.3.1.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/youpro.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/youpro.xml",
-      "status": "stable",
-      "shortDescription": "Feature-rich YouTube tweak by alibusut"
-    },
-    {
-      "slug": "threadsaver",
-      "name": "ThreadSaver",
-      "version": "446.1",
-      "previousVersion": "445.1",
-      "date": "2026-09-10",
-      "kind": "updated",
-      "changelog": "Threads 446.1 | Threads-446.1-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 446.1",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-446.1-ThreadSaver.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Threads.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/threadsaver.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/threadsaver.xml",
-      "status": "stable",
-      "shortDescription": "Threads enhancement tweak (unofficial build)"
-    },
-    {
-      "slug": "sparkle",
-      "name": "Sparkle",
-      "version": "446.0.0",
-      "previousVersion": "445.0.0",
-      "date": "2026-09-10",
-      "kind": "updated",
-      "changelog": "Instagram 446.0.0 | Instagram-446.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 446.0.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-446.0.0-Sparkle.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Instagram.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/sparkle.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/sparkle.xml",
-      "status": "stable",
-      "shortDescription": "Bring the spark back to Instagram"
     },
     {
       "slug": "uyouenhanced",

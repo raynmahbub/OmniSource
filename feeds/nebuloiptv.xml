@@ -5,48 +5,45 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/nebuloiptv.json</link>
     <description>Release feed for Nebulo within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/nebuloiptv.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Nebulo v2.3</title>
+      <title>Nebulo v3.0.0</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/nebuloiptv.json</link>
-      <guid isPermaLink="false">nebuloiptv-2.3</guid>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nebulo 2.3 | Nebulo_V2.3
+      <guid isPermaLink="false">nebuloiptv-3.0.0</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nebulo 3.0.0 | OnsideTV_V3.0.0
 
-### **What's New in V2.3?**
+### **Nebulo is now Onside TV!**
+Same app, new name, and the biggest update so far.
 
-### **If the main ipa does is unable to be verified, try the backup it will work with users using signing apps**
+### **Read this before you install**
+- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.
+- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.
+- **There's just one IPA this time**, no backup version.
 
-### **Major Improvements**
-- **Expanded Sports Section:** New categories for soccer and more sports added
-       - Settings to customize sports tabs, press and hold on a game for more options, language and resolution tags added, improved the searching for game.
+### **What's New**
+- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.
+- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.
+- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.
+- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.
+- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.
+- **New search:** Live games, recently watched channels and your categories all in one place.
+- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.
+- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.
 
-- **Stronger recording abilities:** The user can now record in the background when the phone is off, can now watch another stream while one is recording, recording will start again if app is force quit, replaced the recording function with one that can fill in any gaps leading to a much more stable experience.
-
-- **Fixed KSPlayer bug:** KSPlayer is much more reliable now with some bug fixes.
-
-- **Increased Multi-view reliability:** Multi-view should now work smoother with bug fixed. Made the layout much cleaner and more optimized
-
-### **UI/UX Improvements**
-- **Significantly Quicker Startup:** After logging in for the first time, loading is much faster and the epg updates either manually or once every 24 hours.
-
-- **Smart Progress Bar:** Progress bar is accurate after the first time it loads.
-
-- **Settings Upgrades:** 
-       - Added a "System Up to Date" confirmation for manual update checks.
-       - Consolidated EPG loading status into the main overlay.
-       - Added a "System Up to Date" confirmation for manual update checks.
-
-### **Bug Fixes and Stability**
-- **EPG Parsing:** EPG parsing is faster and more efficient.
-- **KSPlayer Stalling:** KSPlayer would stop working after 30 seconds but it is much more stable now
-- **Memory Optimization:** Fixed memory leaks in the recording manager that would mess things up and crash app.
+### **Fixes**
+- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.
+- Streams don't keep playing sound anymore after you close them and lock your phone.
+- Smoother scrolling and less heat.
+- Show pictures on the home screen only appear when they actually match the show.
 
 ### **Under the Hood**
-- **Update Checker Connected to GitHub:** Checks github to see if any updates have been released.
-- **FFmpegKit:** Switched to a more stable and up to date version of FFmpegKit which helped to fix KSPlayer's stability issues.]]></description>
-      <enclosure url="https://github.com/mongoosemonke504/OnsideTV/releases/download/V2.3/Nebulo_V2.3.ipa" length="56279112" type="application/octet-stream" />
+- The code is open source now under the MIT license.
+- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.
+
+Questions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).]]></description>
+      <enclosure url="https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
