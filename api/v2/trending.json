@@ -16,11 +16,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.0.5",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "5.0.6",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -33,11 +33,11 @@
       "slug": "ytlite",
       "name": "YouTubePlus",
       "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -50,11 +50,11 @@
       "slug": "youpro",
       "name": "YouPro",
       "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -67,11 +67,11 @@
       "slug": "youmod",
       "name": "uPro Plus",
       "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -98,6 +98,57 @@
       "downloadReachable": true
     },
     {
+      "slug": "conduit",
+      "name": "Conduit",
+      "category": "utilities",
+      "version": "4.1.8",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "chan",
+      "name": "Chan",
+      "category": "social",
+      "version": "1.2.9",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "category": "photo-video",
+      "version": "0.5.4",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "stikdebug",
       "name": "StikDebug",
       "category": "developer-tools",
@@ -115,65 +166,14 @@
       "downloadReachable": true
     },
     {
-      "slug": "reynard",
-      "name": "Reynard",
-      "category": "utilities",
-      "version": "0.15.0",
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "category": "social",
+      "version": "8.80.0",
       "releaseDate": "2026-09-27",
       "score": 0.7933,
       "signals": {
         "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "category": "photo-video",
-      "version": "0.5.3",
-      "releaseDate": "2026-09-27",
-      "score": 0.7933,
-      "signals": {
-        "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkp",
-      "name": "YTKillerPlus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -185,10 +185,146 @@
   ],
   "rising": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.0.6",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "ytlite",
+      "name": "YouTubePlus",
+      "category": "photo-video",
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "youpro",
+      "name": "YouPro",
+      "category": "photo-video",
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "youmod",
+      "name": "uPro Plus",
+      "category": "photo-video",
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "conduit",
+      "name": "Conduit",
+      "category": "utilities",
+      "version": "4.1.8",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "chan",
+      "name": "Chan",
+      "category": "social",
+      "version": "1.2.9",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "category": "photo-video",
+      "version": "0.5.4",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "stikdebug",
       "name": "StikDebug",
       "category": "developer-tools",
       "version": "3.1.12",
+      "releaseDate": "2026-09-27",
+      "score": 0.7933,
+      "signals": {
+        "recency": 0.9833,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "category": "social",
+      "version": "8.80.0",
       "releaseDate": "2026-09-27",
       "score": 0.7933,
       "signals": {
@@ -210,142 +346,6 @@
       "score": 0.7933,
       "signals": {
         "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "category": "photo-video",
-      "version": "0.5.3",
-      "releaseDate": "2026-09-27",
-      "score": 0.7933,
-      "signals": {
-        "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "version": "5.0.5",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytlite",
-      "name": "YouTubePlus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "youpro",
-      "name": "YouPro",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "youmod",
-      "name": "uPro Plus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytmusic",
-      "name": "YTMusicUltimate",
-      "category": "music",
-      "version": "9.39.2",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkp",
-      "name": "YTKillerPlus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -357,10 +357,146 @@
   ],
   "recentlyUpdated": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.0.6",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "ytlite",
+      "name": "YouTubePlus",
+      "category": "photo-video",
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "youpro",
+      "name": "YouPro",
+      "category": "photo-video",
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "youmod",
+      "name": "uPro Plus",
+      "category": "photo-video",
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "conduit",
+      "name": "Conduit",
+      "category": "utilities",
+      "version": "4.1.8",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "chan",
+      "name": "Chan",
+      "category": "social",
+      "version": "1.2.9",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "category": "photo-video",
+      "version": "0.5.4",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "stikdebug",
       "name": "StikDebug",
       "category": "developer-tools",
       "version": "3.1.12",
+      "releaseDate": "2026-09-27",
+      "score": 0.7933,
+      "signals": {
+        "recency": 0.9833,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "category": "social",
+      "version": "8.80.0",
       "releaseDate": "2026-09-27",
       "score": 0.7933,
       "signals": {
@@ -382,142 +518,6 @@
       "score": 0.7933,
       "signals": {
         "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "category": "photo-video",
-      "version": "0.5.3",
-      "releaseDate": "2026-09-27",
-      "score": 0.7933,
-      "signals": {
-        "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "version": "5.0.5",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytlite",
-      "name": "YouTubePlus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "youpro",
-      "name": "YouPro",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "youmod",
-      "name": "uPro Plus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytmusic",
-      "name": "YTMusicUltimate",
-      "category": "music",
-      "version": "9.39.2",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkp",
-      "name": "YTKillerPlus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -532,11 +532,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.0.5",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "5.0.6",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -549,11 +549,11 @@
       "slug": "ytlite",
       "name": "YouTubePlus",
       "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -566,11 +566,11 @@
       "slug": "youpro",
       "name": "YouPro",
       "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -583,11 +583,11 @@
       "slug": "youmod",
       "name": "uPro Plus",
       "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.9867,
+      "version": "21.39.4",
+      "releaseDate": "2026-09-28",
+      "score": 1.0,
       "signals": {
-        "recency": 0.9667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -614,6 +614,57 @@
       "downloadReachable": true
     },
     {
+      "slug": "conduit",
+      "name": "Conduit",
+      "category": "utilities",
+      "version": "4.1.8",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "chan",
+      "name": "Chan",
+      "category": "social",
+      "version": "1.2.9",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "category": "photo-video",
+      "version": "0.5.4",
+      "releaseDate": "2026-09-28",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "stikdebug",
       "name": "StikDebug",
       "category": "developer-tools",
@@ -631,10 +682,10 @@
       "downloadReachable": true
     },
     {
-      "slug": "reynard",
-      "name": "Reynard",
-      "category": "utilities",
-      "version": "0.15.0",
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "category": "social",
+      "version": "8.80.0",
       "releaseDate": "2026-09-27",
       "score": 0.7933,
       "signals": {
@@ -648,10 +699,10 @@
       "downloadReachable": true
     },
     {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "category": "photo-video",
-      "version": "0.5.3",
+      "slug": "reynard",
+      "name": "Reynard",
+      "category": "utilities",
+      "version": "0.15.0",
       "releaseDate": "2026-09-27",
       "score": 0.7933,
       "signals": {
@@ -869,23 +920,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "conduit",
-      "name": "Conduit",
-      "category": "utilities",
-      "version": "4.1.7",
-      "releaseDate": "2026-09-22",
-      "score": 0.76,
-      "signals": {
-        "recency": 0.9,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "synkplay",
       "name": "Synkplay",
       "category": "photo-video",
@@ -958,23 +992,6 @@
       "name": "Sparkle",
       "category": "social",
       "version": "448.0.0",
-      "releaseDate": "2026-09-21",
-      "score": 0.7533,
-      "signals": {
-        "recency": 0.8833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "category": "social",
-      "version": "8.79.0",
       "releaseDate": "2026-09-21",
       "score": 0.7533,
       "signals": {
@@ -1444,23 +1461,6 @@
       },
       "verificationLevel": "VERIFIED",
       "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "chan",
-      "name": "Chan",
-      "category": "social",
-      "version": "1.2.9",
-      "releaseDate": "2026-08-28",
-      "score": 0.5933,
-      "signals": {
-        "recency": 0.4833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
       "downloadReachable": true
     },
     {

@@ -5,74 +5,49 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/chan.json</link>
     <description>Release feed for Chan within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/chan.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Chan v1.2.9</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/chan.json</link>
       <guid isPermaLink="false">chan-1.2.9</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[Chan 1.2.9 | Chance
-
-*Note: you may get spammed with Cloudflare popups on first launch of this version, this is normal to refresh how many files are supported for each site*
 
 ## New Features
 
-- Cookie editor
-- Reddit login
-  - Just to bypass 403 error for now, no voting
-- Setting to disable HTTP/3
-  - Appears to be blocked in Russia
+- New captcha cloud solver
+- Small redesign of captcha form
+- Support image pasting from keyboard on iOS 27
+- Rename saved attachments
 
 ## General Improvements
 
-- Setting to go back to continuously scrollable tabs
+- Reddit comments replaced by "Edit: comment has been cleaned" will retain their previous text
+- Many QUIC and HTTP/3 bugfixes and performance improvements
 
 ## Tweaks
 
-- Use single file pickers when site only supports one file
-- Put selected files on the right of file add buttons
-- New highlight effect for tabs
-- Restored the /slashes/ to the tab switcher
-- "Full filename" popup is now selectable
-- Tried to optimize file converter to avoid multiple passes
-- Collapse thread loading error when scrolling down
-- Offer to hide thread loading error when tapped
-- Rearrange reply posting status when reply form is open
+- Don't insert duplicate quotelinks when using "reply" to open the reply form
+- Added a confirmation before clearing cookies when banned
+- Hide archive name when scrolling to bottom of thread (it's already there)
+- Always restart videos from beginning in gallery
+- Slight tweak of tab bar resizing for long tab titles
 
 ## Bugfixes
 
-- Stuck forever on "Getting captcha"
-- Extra `}` after board name in saved list
-- Multiple notification setup errors were not retried
-- "Limit uploaded file dimensions" setting could cause images to get larger
-- Sometimes unable to tap on tabs in the first page
-- Threads did not properly transition to archived
-- GIF conversion did not respect maximum dimensions
-- pbs.twimg.com suggested files did not use maximum quality
-- Avoid causing extra Reddit requests when thumbnails were unavailable
-- Cloudflare was popping up due to 404 thumbnails in tab list or saved list
-- HTTP 429 queue could get deadlocked
-  - When request had a redirect
-  - When more than 5 attempts were blocked
-- Selected tab was buggy when using home board
-- Migration of sites to support more than 1 file was not done properly
-- Boards with updated maximum file count were not saved properly
-- Initial tab switcher position was not restored when launching app via some push notifications
-- Creating threads gave "Error: thread created" on lynxchan-based sites
-- Timeout logging in to pass was not handled properly
-- "Last page" warning appeared on page 1/1
-- Clearing cookies did not update pass login status
-- No way to cancel "Checking url..." popup
-- Bad handling of HTTP3 headers leading to failed pass login
-- Bad handling of closing multiple HTTP3 streams at once
-- Bad handling of HTTP3 error 256
-- TLS errors could get confused between different operations
-- Default user-agent was not fully readable on Android UI
-- Thread watcher loading bar didn't update immediately
-- In landscape mode some interface elements were hidden behind system UI
-- Tab switcher buggy when screen size changed (foldable)]]></description>
-      <enclosure url="https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/Chance.ipa" length="32710607" type="application/octet-stream" />
+- Threads not marked as archived
+- Gallery changed image when rotating the device
+- Compatibility error on some newer Android versions
+- Unable to tap tabs on first page sometimes
+- Intermittent errors about directories not existing
+- YouTube shorts embeds not shown
+- Posting multiple files on lynxchan-based sites didn't work and just combined their filenames
+- Thread tail requests were not properly optimized for caching
+- Cloudflare popup trying to load Twitter embed data
+- Backspacing an embeddable URL in the reply box would cause repeated network requests
+- Tab bar spazzed open and close when slowly scrolling to the bottom of a thread]]></description>
+      <enclosure url="https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

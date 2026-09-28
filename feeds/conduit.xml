@@ -5,8 +5,29 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/conduit.json</link>
     <description>Release feed for Conduit within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/conduit.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Conduit v4.1.8</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.1.8</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.1.8 | conduit
+
+## What's Changed
+* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753
+* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756
+* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761
+* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766
+* Fix streaming lag, tool-call walls, speaker routing, SVG-sniffed PNGs, and lingering Hermes approvals by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/767
+* Fix remaining Open WebUI streaming events and task checklists by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/771
+* Make icons and settings surfaces follow the theme palette, and fix sign-in from the settings sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/772
+* Build iOS and Android targets for ARM only by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/773
+
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.7...v4.1.8]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Conduit v4.1.7</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/conduit.json</link>

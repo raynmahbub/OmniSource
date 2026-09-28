@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-28",
-  "feedVersion": "e3ae0a5f680f",
+  "feedVersion": "97539e935cdc",
   "apps": {
     "total": 130,
     "reachable": 130,
@@ -9,18 +9,67 @@
   },
   "sync": {
     "synced": 130,
-    "incrementalHits": 120,
-    "updated": 1,
+    "incrementalHits": 112,
+    "updated": 8,
     "failed": 0,
-    "apiRequests": 116
+    "apiRequests": 114
   },
   "unreachable": [],
   "updates": [
     {
-      "slug": "stikdebug",
-      "name": "StikDebug",
-      "previousVersion": "3.1.11",
-      "version": "3.1.12",
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "previousVersion": "5.0.5",
+      "version": "5.0.6",
+      "kind": "updated"
+    },
+    {
+      "slug": "ytlite",
+      "name": "YouTubePlus",
+      "previousVersion": "21.38.3",
+      "version": "21.39.4",
+      "kind": "updated"
+    },
+    {
+      "slug": "youpro",
+      "name": "YouPro",
+      "previousVersion": "21.38.3",
+      "version": "21.39.4",
+      "kind": "updated"
+    },
+    {
+      "slug": "youmod",
+      "name": "uPro Plus",
+      "previousVersion": "21.38.3",
+      "version": "21.39.4",
+      "kind": "updated"
+    },
+    {
+      "slug": "conduit",
+      "name": "Conduit",
+      "previousVersion": "4.1.7",
+      "version": "4.1.8",
+      "kind": "updated"
+    },
+    {
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "previousVersion": "8.79.0",
+      "version": "8.80.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "chan",
+      "name": "Chan",
+      "previousVersion": "1.2.9",
+      "version": "1.2.9",
+      "kind": "updated"
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "previousVersion": "0.5.3",
+      "version": "0.5.4",
       "kind": "updated"
     }
   ],

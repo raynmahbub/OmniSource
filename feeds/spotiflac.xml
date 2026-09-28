@@ -5,8 +5,119 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/spotiflac.json</link>
     <description>Release feed for SpotiFLAC Mobile within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/spotiflac.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SpotiFLAC Mobile v5.0.6</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.0.6</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SpotiFLAC 5.0.6 | SpotiFLAC-v5.0.6-ios-unsigned
+
+### New Features
+
+- **player**: Show covers and expressive controls in Material queue
+- **material**: Unify search filters and extension actions
+- **player**: Show Material lyrics in the artwork area
+- **player**: Animate Material seek bar with expressive waves
+- **material**: Adopt expressive controls across the app
+- **album**: Zoom artwork when pulling down the Mornye header
+- **settings**: Give playback its own settings page
+- **player**: Add AAudio hi-res, WavPack DSD and DAC volume
+- **player**: Add direct USB audio and DSD transport
+- **player**: Add verified USB bit-perfect PCM output
+- **player**: Continue playback with Library autoplay
+- **appearance**: Add an optional system font
+- **mornye**: Add persistent accent color choices
+- **lyrics**: Group smaller backing vocals beneath their lead
+- **player**: Expand artwork when tapping the compact cover
+- **player**: Swipe track headers and remove individual queue entries
+- **library**: Search songs albums artists and playlists by relevance
+- **album**: Display disc groups from catalog metadata
+- **lyrics**: Support multiple vocalists and aligned lyrics
+
+### Bug Fixes
+
+- **download**: Align native metadata preparation and ReplayGain support
+- **library**: Index native completions and refresh background downloads
+- **library**: Preserve indexed tracks when a full scan is incomplete
+- **download**: Detect mislabeled MP4 before native metadata writes
+- **motion**: Pause loading effects when hidden or motion is reduced
+- **metadata**: Resolve album artist consistently across separate downloads
+- **settings**: Use neutral category icons in Material
+- **material**: Keep navigation tint continuous through system inset
+- **player**: Move Material audio output to bottom right
+- **player**: Align Material lyrics toggle to bottom left
+- **player**: Give Material quality badge and controls more space
+- **album**: Show Material quality badges only for exceptions
+- **ui**: Show Dolby Atmos as a compact logo
+- **queue**: Style Mornye swipe removal and simplify queue heading
+- **album**: Remove dividers above Mornye disc headings
+- **library**: Replace library badge text with a folder icon
+- **player**: Distinguish AAudio access and decoder failures
+- **lyrics**: Keep V3 collaborations on the primary side
+- **lyrics**: Reveal backing vocals and gaps at their start
+- **lyrics**: Preserve group alignment in eLRC fallback
+- **mornye**: Improve frosted menu contrast and readability
+- **mornye**: Keep popover glass clear and correctly clipped
+- **mornye**: Use translucent liquid glass for action menus
+- **mornye**: Preserve contrast with custom accent colors
+- **settings**: Restore distinct category icons on the main page
+- **player**: Align lyrics and compact header with timeline
+- **lyrics**: Preserve Apple vocal sides for group parts
+- **ios**: Scan app documents without the Files folder picker
+- **artist**: Restore artwork accents with neutral portrait fallback
+- **player**: Separate adjacent titles during track swipes
+- **player**: Swipe left to advance and right to return
+- **player**: Retain duration probing after queue edits during loading
+- **lyrics**: Stagger highlight lift across graphemes
+- **artist**: Use white Mornye header actions regardless of artwork color
+- **player**: Keep shuffle order stable and restore the original queue
+- **lyrics**: Keep the active line anchored during language transitions
+- **player**: Serialize source changes during rapid track selection
+- **album**: Show More only for truncated descriptions
+- **artist**: Zoom artwork during pull-down stretching
+- **navigation**: Preserve compact state and active icon colors
+- **updater**: Revalidate releases instead of hiding updates in cache
+- **metadata**: Clarify online autofill controls
+
+### Performance
+
+- **player**: Rebuild preview buttons only on status changes
+- **search**: Reduce list rendering and provider rebuilds
+
+### Styling
+
+- **playback**: Mark bit-perfect and DAP hi-res output as beta
+- **library**: Use theme colors for Material collections
+
+### Chores
+
+- **release**: Sync remote AltStore metadata
+- Update AltStore source to v5.0.5 by [@github-actions[bot]](https://github.com/github-actions[bot])
+- **release**: Bump app version to 5.0.6
+
+
+
+
+**Full Changelog**: [v5.0.5...v5.0.6](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.0.5...v5.0.6)
+
+---
+
+### Downloads
+
+#### Android
+- **arm64**: `SpotiFLAC-v5.0.6-arm64.apk` (recommended for modern devices)
+- **arm32**: `SpotiFLAC-v5.0.6-arm32.apk` (older devices)
+
+#### iOS
+- **iOS**: `SpotiFLAC-v5.0.6-ios-unsigned.ipa` (sideload required)
+
+### Installation
+**Android**: Enable "Install from unknown sources" and install the APK
+**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
+      <enclosure url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>SpotiFLAC Mobile v5.0.5</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/spotiflac.json</link>

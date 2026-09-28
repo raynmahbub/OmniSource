@@ -20,74 +20,74 @@
       "tintColor": "FF6B00",
       "category": "social",
       "version": "1.2.9",
-      "versionDate": "2026-08-28",
-      "versionDescription": "Chan 1.2.9 | Chance\n\n*Note: you may get spammed with Cloudflare popups on first launch of this version, this is normal to refresh how many files are supported for each site*\n\n## New Features\n\n- Cookie editor\n- Reddit login\n  - Just to bypass 403 error for now, no voting\n- Setting to disable HTTP/3\n  - Appears to be blocked in Russia\n\n## General Improvements\n\n- Setting to go back to continuously scrollable tabs\n\n## Tweaks\n\n- Use single file pickers when site only supports one file\n- Put selected files on the right of file add buttons\n- New highlight effect for tabs\n- Restored the /slashes/ to the tab switcher\n- \"Full filename\" popup is now selectable\n- Tried to optimize file converter to avoid multiple passes\n- Collapse thread loading error when scrolling down\n- Offer to hide thread loading error when tapped\n- Rearrange reply posting status when reply form is open\n\n## Bugfixes\n\n- Stuck forever on \"Getting captcha\"\n- Extra `}` after board name in saved list\n- Multiple notification setup errors were not retried\n- \"Limit uploaded file dimensions\" setting could cause images to get larger\n- Sometimes unable to tap on tabs in the first page\n- Threads did not properly transition to archived\n- GIF conversion did not respect maximum dimensions\n- pbs.twimg.com suggested files did not use maximum quality\n- Avoid causing extra Reddit requests when thumbnails were unavailable\n- Cloudflare was popping up due to 404 thumbnails in tab list or saved list\n- HTTP 429 queue could get deadlocked\n  - When request had a redirect\n  - When more than 5 attempts were blocked\n- Selected tab was buggy when using home board\n- Migration of sites to support more than 1 file was not done properly\n- Boards with updated maximum file count were not saved properly\n- Initial tab switcher position was not restored when launching app via some push notifications\n- Creating threads gave \"Error: thread created\" on lynxchan-based sites\n- Timeout logging in to pass was not handled properly\n- \"Last page\" warning appeared on page 1/1\n- Clearing cookies did not update pass login status\n- No way to cancel \"Checking url...\" popup\n- Bad handling of HTTP3 headers leading to failed pass login\n- Bad handling of closing multiple HTTP3 streams at once\n- Bad handling of HTTP3 error 256\n- TLS errors could get confused between different operations\n- Default user-agent was not fully readable on Android UI\n- Thread watcher loading bar didn't update immediately\n- In landscape mode some interface elements were hidden behind system UI\n- Tab switcher buggy when screen size changed (foldable)",
-      "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/Chance.ipa",
-      "size": 32710607,
+      "versionDate": "2026-09-28",
+      "versionDescription": "Chan 1.2.9 | Chance\n\n## New Features\n\n- New captcha cloud solver\n- Small redesign of captcha form\n- Support image pasting from keyboard on iOS 27\n- Rename saved attachments\n\n## General Improvements\n\n- Reddit comments replaced by \"Edit: comment has been cleaned\" will retain their previous text\n- Many QUIC and HTTP/3 bugfixes and performance improvements\n\n## Tweaks\n\n- Don't insert duplicate quotelinks when using \"reply\" to open the reply form\n- Added a confirmation before clearing cookies when banned\n- Hide archive name when scrolling to bottom of thread (it's already there)\n- Always restart videos from beginning in gallery\n- Slight tweak of tab bar resizing for long tab titles\n\n## Bugfixes\n\n- Threads not marked as archived\n- Gallery changed image when rotating the device\n- Compatibility error on some newer Android versions\n- Unable to tap tabs on first page sometimes\n- Intermittent errors about directories not existing\n- YouTube shorts embeds not shown\n- Posting multiple files on lynxchan-based sites didn't work and just combined their filenames\n- Thread tail requests were not properly optimized for caching\n- Cloudflare popup trying to load Twitter embed data\n- Backspacing an embeddable URL in the reply box would cause repeated network requests\n- Tab bar spazzed open and close when slowly scrolling to the bottom of a thread",
+      "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
+      "size": 32697918,
       "versions": [
         {
           "version": "1.2.9",
-          "date": "2026-08-28",
-          "localizedDescription": "Chan 1.2.9 | Chance\n\n*Note: you may get spammed with Cloudflare popups on first launch of this version, this is normal to refresh how many files are supported for each site*\n\n## New Features\n\n- Cookie editor\n- Reddit login\n  - Just to bypass 403 error for now, no voting\n- Setting to disable HTTP/3\n  - Appears to be blocked in Russia\n\n## General Improvements\n\n- Setting to go back to continuously scrollable tabs\n\n## Tweaks\n\n- Use single file pickers when site only supports one file\n- Put selected files on the right of file add buttons\n- New highlight effect for tabs\n- Restored the /slashes/ to the tab switcher\n- \"Full filename\" popup is now selectable\n- Tried to optimize file converter to avoid multiple passes\n- Collapse thread loading error when scrolling down\n- Offer to hide thread loading error when tapped\n- Rearrange reply posting status when reply form is open\n\n## Bugfixes\n\n- Stuck forever on \"Getting captcha\"\n- Extra `}` after board name in saved list\n- Multiple notification setup errors were not retried\n- \"Limit uploaded file dimensions\" setting could cause images to get larger\n- Sometimes unable to tap on tabs in the first page\n- Threads did not properly transition to archived\n- GIF conversion did not respect maximum dimensions\n- pbs.twimg.com suggested files did not use maximum quality\n- Avoid causing extra Reddit requests when thumbnails were unavailable\n- Cloudflare was popping up due to 404 thumbnails in tab list or saved list\n- HTTP 429 queue could get deadlocked\n  - When request had a redirect\n  - When more than 5 attempts were blocked\n- Selected tab was buggy when using home board\n- Migration of sites to support more than 1 file was not done properly\n- Boards with updated maximum file count were not saved properly\n- Initial tab switcher position was not restored when launching app via some push notifications\n- Creating threads gave \"Error: thread created\" on lynxchan-based sites\n- Timeout logging in to pass was not handled properly\n- \"Last page\" warning appeared on page 1/1\n- Clearing cookies did not update pass login status\n- No way to cancel \"Checking url...\" popup\n- Bad handling of HTTP3 headers leading to failed pass login\n- Bad handling of closing multiple HTTP3 streams at once\n- Bad handling of HTTP3 error 256\n- TLS errors could get confused between different operations\n- Default user-agent was not fully readable on Android UI\n- Thread watcher loading bar didn't update immediately\n- In landscape mode some interface elements were hidden behind system UI\n- Tab switcher buggy when screen size changed (foldable)",
-          "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/Chance.ipa",
-          "size": 32710607,
+          "date": "2026-09-28",
+          "localizedDescription": "Chan 1.2.9 | Chance\n\n## New Features\n\n- New captcha cloud solver\n- Small redesign of captcha form\n- Support image pasting from keyboard on iOS 27\n- Rename saved attachments\n\n## General Improvements\n\n- Reddit comments replaced by \"Edit: comment has been cleaned\" will retain their previous text\n- Many QUIC and HTTP/3 bugfixes and performance improvements\n\n## Tweaks\n\n- Don't insert duplicate quotelinks when using \"reply\" to open the reply form\n- Added a confirmation before clearing cookies when banned\n- Hide archive name when scrolling to bottom of thread (it's already there)\n- Always restart videos from beginning in gallery\n- Slight tweak of tab bar resizing for long tab titles\n\n## Bugfixes\n\n- Threads not marked as archived\n- Gallery changed image when rotating the device\n- Compatibility error on some newer Android versions\n- Unable to tap tabs on first page sometimes\n- Intermittent errors about directories not existing\n- YouTube shorts embeds not shown\n- Posting multiple files on lynxchan-based sites didn't work and just combined their filenames\n- Thread tail requests were not properly optimized for caching\n- Cloudflare popup trying to load Twitter embed data\n- Backspacing an embeddable URL in the reply box would cause repeated network requests\n- Tab bar spazzed open and close when slowly scrolling to the bottom of a thread",
+          "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
+          "size": 32697918,
           "minOSVersion": "13.0",
-          "releaseUrl": "https://github.com/moffatman/chan/releases/tag/v1.2.9%2B124-forked-engine",
+          "releaseUrl": "https://github.com/moffatman/chan/releases/tag/v1.2.9%2B125-forked-engine",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 29257758,
-              "sha256": "2b73f18e0487e2bd7399f6ac33486c8084e81e8062299ddede516e7d359bf1a7",
-              "downloads": 5628,
+              "size": 29863580,
+              "sha256": "883a62e84188ec019c9b7ac9fd80b2968548b94bbf3b609c15667207f33a4734",
+              "downloads": 634,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 28719794,
-              "sha256": "affd9dbd58e5b3ecb126b28e73aab9869df53ffa97cd00403b03549b46bbf426",
-              "downloads": 89,
+              "size": 29413820,
+              "sha256": "52c478a347e645b2c004e9c299d4fdfa4443a00c3619020ed46e464d06ea6013",
+              "downloads": 3,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-x86_64-release.apk",
-              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/app-x86_64-release.apk",
+              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/app-x86_64-release.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 30431986,
-              "sha256": "c987ea46efcb66a1bcfe31ddb930d97378a29adb0b870b4843daa41a00f521fb",
-              "downloads": 83,
+              "size": 31121206,
+              "sha256": "ea8cb465cc5004f253f13b719651dbe628b71c0c9cc6c6931abfcc943a9ad240",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "Chance.ipa",
-              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/Chance.ipa",
+              "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 32710607,
-              "sha256": "1a6ad6d5a90025ae81c7b77fa0039d37d4e06c6684989cd47fe526d14682f8e8",
-              "downloads": 248,
+              "size": 32697918,
+              "sha256": "f3cf8c3d81958fb140b462a795514d2643b4800e9c641a3b24ffd1ebffb650e6",
+              "downloads": 2,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "1a6ad6d5a90025ae81c7b77fa0039d37d4e06c6684989cd47fe526d14682f8e8",
-          "downloads": 248
+          "sha256": "f3cf8c3d81958fb140b462a795514d2643b4800e9c641a3b24ffd1ebffb650e6",
+          "downloads": 2
         }
       ],
       "screenshotURLs": [],
@@ -129,7 +129,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-13",
-          "lastUpdatedAt": "2026-08-28"
+          "lastUpdatedAt": "2026-09-28"
         }
       }
     }
