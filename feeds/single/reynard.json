@@ -18,63 +18,63 @@
       "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Reynard.webp",
       "tintColor": "FB3828",
       "category": "utilities",
-      "version": "0.14.1",
-      "versionDate": "2026-09-22",
-      "versionDescription": "Reynard 0.14.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.0...0.14.1\n\nThis is a minor release that fixes issues found in 0.14.0. For the complete list of changes, see the [0.14.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.14.0).\n\n### Bug Fixes & Improvements\n- Fixed a crash when opening Reader Mode settings on some older iOS versions.\n- Fixed the system serif font not being looked up correctly on webpages and in Reader Mode.\n- Fixed a misleading JIT enablement banner appearing on jailbroken iOS 17.4 and later.\n- Fixed media playback not resuming automatically after interruptions such as dictation.",
-      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard.ipa",
-      "size": 108452990,
+      "version": "0.15.0",
+      "versionDate": "2026-09-27",
+      "versionDescription": "Reynard 0.15.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.1...0.15.0\n\n### New Features\n- Added support for printing a webpage or an online PDF viewed in the browser, accessible as a **Print** option in the share sheet or with the Command + P keyboard shortcut.\n- You can now see which tab is playing audio and mute tabs directly from the address bar.\n- You can now configure whether Reader Mode is shown automatically for a specific website or for all websites.\n- Built-in add-on pages, such as those that provide a custom new tab appearance, can now be set as your new tab page.\n- For links that open in a new tab automatically or from the context menu, you can now return to the opener tab using the back button, or by swiping from the left edge of the screen to the right.\n\n### Bug Fixes & Improvements\n- JIT can now be enabled on iPhone 18 Pro and iPhone 18 Pro Max.\n- Greatly reduced memory and power usage when the camera is active.\n- The Command + W keyboard shortcut now activates the adjacent tab instead of the most recently opened one.\n- If you set the last tab to show on startup, the browser now loads its URL immediately instead of after a short delay.\n- The list of recently closed tabs now clears when you remove browsing history in the browser settings.\n- Fixed a regression where Reader Mode’s serif font would be used as the default serif font for all websites.\n- Fixed numerous bugs and improved UI animations.\n\n### Translations\nAdded Vietnamese translation.\n\n### Engine\nUpdated Gecko to [156.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_1_RELEASE) (released Sep 22, 2026).",
+      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+      "size": 108690287,
       "versions": [
         {
-          "version": "0.14.1",
-          "date": "2026-09-22",
-          "localizedDescription": "Reynard 0.14.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.0...0.14.1\n\nThis is a minor release that fixes issues found in 0.14.0. For the complete list of changes, see the [0.14.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.14.0).\n\n### Bug Fixes & Improvements\n- Fixed a crash when opening Reader Mode settings on some older iOS versions.\n- Fixed the system serif font not being looked up correctly on webpages and in Reader Mode.\n- Fixed a misleading JIT enablement banner appearing on jailbroken iOS 17.4 and later.\n- Fixed media playback not resuming automatically after interruptions such as dictation.",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard.ipa",
-          "size": 108452990,
+          "version": "0.15.0",
+          "date": "2026-09-27",
+          "localizedDescription": "Reynard 0.15.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.1...0.15.0\n\n### New Features\n- Added support for printing a webpage or an online PDF viewed in the browser, accessible as a **Print** option in the share sheet or with the Command + P keyboard shortcut.\n- You can now see which tab is playing audio and mute tabs directly from the address bar.\n- You can now configure whether Reader Mode is shown automatically for a specific website or for all websites.\n- Built-in add-on pages, such as those that provide a custom new tab appearance, can now be set as your new tab page.\n- For links that open in a new tab automatically or from the context menu, you can now return to the opener tab using the back button, or by swiping from the left edge of the screen to the right.\n\n### Bug Fixes & Improvements\n- JIT can now be enabled on iPhone 18 Pro and iPhone 18 Pro Max.\n- Greatly reduced memory and power usage when the camera is active.\n- The Command + W keyboard shortcut now activates the adjacent tab instead of the most recently opened one.\n- If you set the last tab to show on startup, the browser now loads its URL immediately instead of after a short delay.\n- The list of recently closed tabs now clears when you remove browsing history in the browser settings.\n- Fixed a regression where Reader Mode’s serif font would be used as the default serif font for all websites.\n- Fixed numerous bugs and improved UI animations.\n\n### Translations\nAdded Vietnamese translation.\n\n### Engine\nUpdated Gecko to [156.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_1_RELEASE) (released Sep 22, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+          "size": 108690287,
           "minOSVersion": "13.0",
-          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.14.1",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.15.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Reynard-Jailbroken.ipa",
-              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard-Jailbroken.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 108503085,
-              "sha256": "04ca6071def9ea560686ccdb7ba04dd7c9a30dfec77bde1b19b5238daa76dbd0",
-              "downloads": 309,
+              "size": 108723521,
+              "sha256": "990cc418190be1022074bc83c9b0107f177e9a3f66e1c9bf2cfbdcfa8b2d1a71",
+              "downloads": 96,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Reynard-TrollStore.tipa",
-              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard-TrollStore.tipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 108552628,
-              "sha256": "1904c54ab760b996dc436721d48a705a50f7a6b378e7502c91c563dc0c8eba3e",
-              "downloads": 1948,
+              "size": 108776530,
+              "sha256": "2405f2189fc0b1a449821b205182190542fd127cd15b0c7596ad677502679a72",
+              "downloads": 787,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Reynard.ipa",
-              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 108452990,
-              "sha256": "2d4d1bcfe984c9eb11f212835060262f8480c9ee65199ca65dd856e40729a7ec",
-              "downloads": 859,
+              "size": 108690287,
+              "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
+              "downloads": 257,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "2d4d1bcfe984c9eb11f212835060262f8480c9ee65199ca65dd856e40729a7ec",
-          "downloads": 859
+          "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
+          "downloads": 257
         }
       ],
       "screenshotURLs": [],
@@ -112,7 +112,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-09-22"
+          "lastUpdatedAt": "2026-09-27"
         }
       }
     }

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "ed9151eed8b2",
+  "feedVersion": "d3f4b9808087",
   "data": {
     "name": "Conduit",
     "bundleIdentifier": "app.cogwheel.conduit",
@@ -11,86 +11,74 @@
     "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Conduit.webp",
     "tintColor": "7794F0",
     "category": "utilities",
-    "version": "4.1.7",
-    "versionDate": "2026-09-22",
-    "versionDescription": "Conduit 4.1.7 | conduit\n\n## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.6...v4.1.7",
-    "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa",
-    "size": 35926535,
+    "version": "4.1.8",
+    "versionDate": "2026-09-28",
+    "versionDescription": "Conduit 4.1.8 | conduit\n\n## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix streaming lag, tool-call walls, speaker routing, SVG-sniffed PNGs, and lingering Hermes approvals by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/767\n* Fix remaining Open WebUI streaming events and task checklists by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/771\n* Make icons and settings surfaces follow the theme palette, and fix sign-in from the settings sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/772\n* Build iOS and Android targets for ARM only by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/773\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.7...v4.1.8",
+    "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
+    "size": 36256382,
     "versions": [
       {
-        "version": "4.1.7",
-        "date": "2026-09-22",
-        "localizedDescription": "Conduit 4.1.7 | conduit\n\n## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.6...v4.1.7",
-        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa",
-        "size": 35926535,
+        "version": "4.1.8",
+        "date": "2026-09-28",
+        "localizedDescription": "Conduit 4.1.8 | conduit\n\n## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix streaming lag, tool-call walls, speaker routing, SVG-sniffed PNGs, and lingering Hermes approvals by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/767\n* Fix remaining Open WebUI streaming events and task checklists by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/771\n* Make icons and settings surfaces follow the theme palette, and fix sign-in from the settings sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/772\n* Build iOS and Android targets for ARM only by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/773\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.7...v4.1.8",
+        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
+        "size": 36256382,
         "minOSVersion": "16.0",
-        "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.1.7",
+        "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.1.8",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
             "filename": "app-arm64-v8a-release.apk",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/app-arm64-v8a-release.apk",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/app-arm64-v8a-release.apk",
             "platform": "android",
             "architecture": "arm64",
             "fileType": "APK",
-            "size": 77828460,
-            "sha256": "e9d5cd9f97c4cfb44b292f80190938f288c7870a75e41b53d25ce532ba3f61c2",
-            "downloads": 69,
+            "size": 78424548,
+            "sha256": "3289791c5c3a4ddf0febcc4fb9001cef8677bdbaa1b3662aae0033f7c2630207",
+            "downloads": 67,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
             "filename": "app-armeabi-v7a-release.apk",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/app-armeabi-v7a-release.apk",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/app-armeabi-v7a-release.apk",
             "platform": "android",
             "architecture": "armv7",
             "fileType": "APK",
-            "size": 70256824,
-            "sha256": "d7991ed935ffa9c328fa86f066ee3e5691a1b49314b7e0ec55623621d834740d",
+            "size": 70983992,
+            "sha256": "dcaac7f59963cfe5436e2992ba9970da44526cd7c0b9783cc27677c4844ce95d",
             "downloads": 0,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
             "filename": "app-release.aab",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/app-release.aab",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/app-release.aab",
             "platform": "android",
             "architecture": null,
             "fileType": "AAB",
-            "size": 172017638,
-            "sha256": "a24ac2bd7daa5278a91b120b8b6708930ba841c56fbac565417763897f9d228e",
-            "downloads": 2,
+            "size": 120659909,
+            "sha256": "78d0188c3e67a6d0134339870facf825525f01c205960819109499d67414fae4",
+            "downloads": 1,
             "mimeType": "raw",
             "installable": true
           },
           {
-            "filename": "app-x86_64-release.apk",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/app-x86_64-release.apk",
-            "platform": "android",
-            "architecture": "x86_64",
-            "fileType": "APK",
-            "size": 83703860,
-            "sha256": "b4f088c4bcc69a849e87a7ec93ec86118be7517dfb9be24ffa9c90716e82c8ac",
-            "downloads": 0,
-            "mimeType": "application/vnd.android.package-archive",
-            "installable": true
-          },
-          {
             "filename": "conduit.ipa",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 35926535,
-            "sha256": "041d08d4dce6d2ae4a0fe597a78fd37a5c69382e65f0e664fd60d35f2f4a66dd",
+            "size": 36256382,
+            "sha256": "d202594c035e2e493656430315375ba9c043e8a8b88bd272c60f3384c5fd1f7d",
             "downloads": 0,
             "mimeType": "raw",
             "installable": true
           }
         ],
-        "sha256": "041d08d4dce6d2ae4a0fe597a78fd37a5c69382e65f0e664fd60d35f2f4a66dd"
+        "sha256": "d202594c035e2e493656430315375ba9c043e8a8b88bd272c60f3384c5fd1f7d"
       }
     ],
     "screenshotURLs": [],
@@ -128,7 +116,7 @@
         "downloadReachable": true,
         "detail": "HTTP 302",
         "statusSince": "2026-09-10",
-        "lastUpdatedAt": "2026-09-22"
+        "lastUpdatedAt": "2026-09-28"
       }
     },
     "id": "app.cogwheel.conduit"
