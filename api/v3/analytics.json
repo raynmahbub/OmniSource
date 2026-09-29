@@ -1,11 +1,11 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "d3f4b9808087",
+  "feedVersion": "6d9a24171fc3",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-09-28",
-    "lastSync": "2026-09-28",
+    "generatedAt": "2026-09-29",
+    "lastSync": "2026-09-29",
     "totals": {
       "apps": 130,
       "sources": 114,
@@ -20,11 +20,19 @@
       "downloadsReachable": 130,
       "deadLinks": 0,
       "newAppsThisWeek": 0,
-      "updatedAppsThisWeek": 50,
+      "updatedAppsThisWeek": 43,
       "clientsSupported": 7
     },
     "newThisWeek": [],
     "updatedThisWeek": [
+      {
+        "slug": "apollo",
+        "name": "Apollo",
+        "version": "3.8.5",
+        "previousVersion": "3.8.0",
+        "date": "2026-09-29",
+        "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.8.5/Apollo-Reborn-3.8.5.ipa"
+      },
       {
         "slug": "youmod",
         "name": "uPro Plus",
@@ -50,6 +58,22 @@
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.39.4_1.3.1.ipa"
       },
       {
+        "slug": "ytkace",
+        "name": "YTKACE",
+        "version": "21.39.4",
+        "previousVersion": "21.38.3",
+        "date": "2026-09-28",
+        "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa"
+      },
+      {
+        "slug": "stikdebug",
+        "name": "StikDebug",
+        "version": "3.1.13",
+        "previousVersion": "3.1.12",
+        "date": "2026-09-28",
+        "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa"
+      },
+      {
         "slug": "spotiflac",
         "name": "SpotiFLAC Mobile",
         "version": "5.0.6",
@@ -64,6 +88,14 @@
         "previousVersion": "0.5.3",
         "date": "2026-09-28",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/nuvio-0.5.4-full-release.ipa"
+      },
+      {
+        "slug": "nebuloiptv",
+        "name": "Nebulo",
+        "version": "3.0.0",
+        "previousVersion": "2.3",
+        "date": "2026-09-28",
+        "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa"
       },
       {
         "slug": "conduit",
@@ -336,94 +368,6 @@
         "previousVersion": "4.1.6",
         "date": "2026-09-22",
         "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa"
-      },
-      {
-        "slug": "youmod",
-        "name": "uPro Plus",
-        "version": "21.38.2",
-        "previousVersion": "21.37.5",
-        "date": "2026-09-21",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.38.2_2.0.0.ipa"
-      },
-      {
-        "slug": "youpro",
-        "name": "YouPro",
-        "version": "21.38.2",
-        "previousVersion": "21.37.5",
-        "date": "2026-09-21",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.38.2_1.3.1.ipa"
-      },
-      {
-        "slug": "ytkp",
-        "name": "YTKillerPlus",
-        "version": "21.38.2",
-        "previousVersion": "21.37.5",
-        "date": "2026-09-21",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa2/YTKillerPlus_21.38.2_6.1.ipa"
-      },
-      {
-        "slug": "ytkace",
-        "name": "YTKACE",
-        "version": "21.38.2",
-        "previousVersion": "21.37.5",
-        "date": "2026-09-21",
-        "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.0.1/YTKACE_1.0.1_YouTube_21.38.2.ipa"
-      },
-      {
-        "slug": "turrit-mxgram",
-        "name": "Turrit MxGram",
-        "version": "1.5.4",
-        "previousVersion": "1.5.3",
-        "date": "2026-09-21",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.4-iQTele.ipa"
-      },
-      {
-        "slug": "threadsaver",
-        "name": "ThreadSaver",
-        "version": "448.0",
-        "previousVersion": "447.0",
-        "date": "2026-09-21",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-448.0-ThreadSaver.ipa"
-      },
-      {
-        "slug": "swiftgram",
-        "name": "Swiftgram",
-        "version": "12.9.3",
-        "previousVersion": "12.9.2",
-        "date": "2026-09-21",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.3-iQTele.ipa"
-      },
-      {
-        "slug": "sparkle",
-        "name": "Sparkle",
-        "version": "448.0.0",
-        "previousVersion": "447.0.0",
-        "date": "2026-09-21",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-Sparkle.ipa"
-      },
-      {
-        "slug": "ryukgram",
-        "name": "RyukGram",
-        "version": "448.0.0",
-        "previousVersion": "447.0.0",
-        "date": "2026-09-21",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-RyukGram.ipa"
-      },
-      {
-        "slug": "nuvio",
-        "name": "Nuvio",
-        "version": "0.4.26",
-        "previousVersion": "0.4.25",
-        "date": "2026-09-21",
-        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.26-beta/nuvio-0.4.26-full-release.ipa"
-      },
-      {
-        "slug": "nexasc",
-        "name": "NexaSC",
-        "version": "8.79.0",
-        "previousVersion": "8.78.0",
-        "date": "2026-09-21",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.79.0-NexaSC.ipa"
       }
     ],
     "topCategories": [
@@ -519,13 +463,13 @@
     ],
     "history": [
       {
-        "date": "2026-09-28",
+        "date": "2026-09-29",
         "apps": 130,
         "sources": 114,
         "verified": 129,
         "deadLinks": 0,
         "newThisWeek": 0,
-        "updatedThisWeek": 50
+        "updatedThisWeek": 43
       }
     ]
   }
