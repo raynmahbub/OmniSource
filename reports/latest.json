@@ -3,9 +3,9 @@
   "feedVersion": "25bddd4bbd9f",
   "apps": {
     "total": 130,
-    "reachable": 130,
-    "unreachable": 0,
-    "verified": 129
+    "reachable": 129,
+    "unreachable": 1,
+    "verified": 128
   },
   "sync": {
     "synced": 130,
@@ -14,7 +14,9 @@
     "failed": 0,
     "apiRequests": 116
   },
-  "unreachable": [],
+  "unreachable": [
+    "ytkp"
+  ],
   "updates": [],
   "errors": [],
   "translations": {

@@ -767,23 +767,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "ytkp",
-      "name": "YTKillerPlus",
-      "category": "photo-video",
-      "version": "21.38.3",
-      "releaseDate": "2026-09-26",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "glow",
       "name": "Glow",
       "category": "social",
@@ -2737,6 +2720,23 @@
       "verificationLevel": "VERIFIED",
       "featured": false,
       "downloadReachable": true
+    },
+    {
+      "slug": "ytkp",
+      "name": "YTKillerPlus",
+      "category": "photo-video",
+      "version": "21.38.3",
+      "releaseDate": "2026-09-26",
+      "score": 0.38,
+      "signals": {
+        "recency": 0.95,
+        "availability": 0.0,
+        "featured": 0.0,
+        "verification": 0.0
+      },
+      "verificationLevel": "UNVERIFIED",
+      "featured": false,
+      "downloadReachable": false
     }
   ]
 }

@@ -3,13 +3,13 @@
   "generatedAt": "2026-09-29",
   "totals": {
     "apps": 130,
-    "verified": 129,
+    "verified": 128,
     "communityVerified": 1,
-    "unverified": 0,
+    "unverified": 1,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 19,
-    "avgTrustScore": 6.93,
+    "avgTrustScore": 6.91,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1800,8 +1800,8 @@
         "official upstream (altstore)"
       ],
       "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
-      "trustScore": 7.4,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ryukgram-sidebyside",
@@ -1821,8 +1821,8 @@
         "official upstream (altstore)"
       ],
       "downloadURL": "https://source.ryuksign.com/ipas/86bd8282219bf3b32dca.ipa",
-      "trustScore": 7.4,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "saber",
@@ -2665,27 +2665,6 @@
       "trustBadge": "Trusted"
     },
     {
-      "app": "ytkp",
-      "name": "YTKillerPlus",
-      "status": "VERIFIED",
-      "provenance": "community",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "mrdrvt99/YouProEXTRA",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": true
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
-    },
-    {
       "app": "ytmusic",
       "name": "YTMusicUltimate",
       "status": "VERIFIED",
@@ -2747,6 +2726,27 @@
       "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
       "trustScore": 5.0,
       "trustBadge": "Community"
+    },
+    {
+      "app": "ytkp",
+      "name": "YTKillerPlus",
+      "status": "UNVERIFIED",
+      "provenance": "community",
+      "hash_verified": true,
+      "method": "github-release",
+      "publisher": "mrdrvt99/YouProEXTRA",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": true
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
+      "trustScore": 4.5,
+      "trustBadge": "Experimental"
     }
   ]
 }

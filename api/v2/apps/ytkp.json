@@ -34,8 +34,8 @@
     "pageURL": "https://iamsmmh.github.io/OmniSource/apps/ytkp/",
     "feedURL": "https://iamsmmh.github.io/OmniSource/ytkp.json",
     "health": {
-      "reachable": true,
-      "detail": "HTTP 302",
+      "reachable": false,
+      "detail": "HTTP 500",
       "updatedAt": "2026-09-26"
     }
   },
@@ -56,8 +56,8 @@
     }
   ],
   "verification": {
-    "status": "VERIFIED",
-    "level": "VERIFIED",
+    "status": "UNVERIFIED",
+    "level": "UNVERIFIED",
     "method": "github-release"
   }
 }
