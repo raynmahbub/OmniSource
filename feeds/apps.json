@@ -899,7 +899,7 @@
               "fileType": "IPA",
               "size": 117820512,
               "sha256": "6dccb3085136ae5343dc79a0f32d498b73f443d2c29cdc0f32b5053ddc593648",
-              "downloads": 629,
+              "downloads": 667,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -911,7 +911,7 @@
               "fileType": "IPA",
               "size": 128072289,
               "sha256": "7ba150bc74ad756fc1c3db29b2aedf3f17db8f170299008a92dad8f80b0e6a99",
-              "downloads": 1850,
+              "downloads": 1956,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -935,7 +935,7 @@
               "fileType": "IPA",
               "size": 128072146,
               "sha256": "fb50ca9d203248699106ffe157a814f5261b63b0c5fa967ffe982ac50adea79b",
-              "downloads": 50,
+              "downloads": 51,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -947,7 +947,7 @@
               "fileType": "IPA",
               "size": 86444936,
               "sha256": "856c9ab42150025f42dc9235002dda7a367556442bae5d4e558b25e30b5ac0bf",
-              "downloads": 178,
+              "downloads": 181,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -959,7 +959,7 @@
               "fileType": "IPA",
               "size": 96696713,
               "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
-              "downloads": 298,
+              "downloads": 311,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -989,7 +989,7 @@
             }
           ],
           "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
-          "downloads": 298
+          "downloads": 311
         }
       ],
       "screenshotURLs": [],
@@ -5352,7 +5352,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 455,
+              "downloads": 458,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5400,13 +5400,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 261,
+              "downloads": 263,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 261
+          "downloads": 263
         }
       ],
       "screenshotURLs": [],
@@ -6319,13 +6319,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 1936,
+              "downloads": 1976,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 1936
+          "downloads": 1976
         }
       ],
       "screenshotURLs": [
@@ -6434,13 +6434,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 376,
+              "downloads": 378,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 376
+          "downloads": 378
         }
       ],
       "screenshotURLs": [
@@ -7525,87 +7525,87 @@
       "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Nuvio.webp",
       "tintColor": "5B5FE8",
       "category": "photo-video",
-      "version": "0.5.4",
-      "versionDate": "2026-09-28",
-      "versionDescription": "Nuvio 0.5.4 | nuvio-0.5.4-full-release\n\n- 80860602 fix(player): ignore short clips for tracking @tapframe  \n- cd4572e2 fix(ios): update quickjs to 1.0.15 @tapframe  \n- 9980d643 fix(player): reduce buffer durations @tapframe  \n- 75296263 fix(details): keep custom posters when returning to a title @tapframe  \n- 4bdcfa3a fix(settings): use shared chip on detail page @tapframe  \n- 2b8be69c fix(details): replay watched series from first episode @tapframe  \n- c69b643a fix(player): resume restored player from current position @tapframe  \n- c3920d40 fix(i18n): align episode labels and metadata with tv @tapframe  \n- 24c7c89c fix(streams): prevent rotation during binge group lookup @tapframe  \n- a1a43416 fix(profiles): center pin dialog content @tapframe  \n- [Plugin timeout (#2091)](https://github.com/NuvioMedia/NuvioMobile/pull/2091) @paregi12",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/nuvio-0.5.4-full-release.ipa",
-      "size": 66389579,
+      "version": "0.5.5",
+      "versionDate": "2026-09-30",
+      "versionDescription": "Nuvio 0.5.5 | nuvio-0.5.5-full-release\n\n- [feat(i18n): add Bengali (বাংলা) language support and UI localization (#2113)](https://github.com/NuvioMedia/NuvioMobile/pull/2113) @TanvirSdq  \n- [i18n(el): sync Greek translations and remove remaining English loanwords (#2132)](https://github.com/NuvioMedia/NuvioMobile/pull/2132) @nosvasedis  \n- [Landscape clearlogo toggle, Simkl type hint, TMDB source priority, folder TMDB ID resolution (#2084)](https://github.com/NuvioMedia/NuvioMobile/pull/2084) @skoruppa  \n- [fix(UI): Fix hero section sometimes shifting (#2128)](https://github.com/NuvioMedia/NuvioMobile/pull/2128) @ThEgIGN  \n- [fix(player): show the swipe-to-seek preview in the new player layout (#2122)](https://github.com/NuvioMedia/NuvioMobile/pull/2122) @deejay189393  \n- 6aa42153 fix(debrid): select requested episode files @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#2096)](https://github.com/NuvioMedia/NuvioMobile/pull/2096) @blueocean2308  \n- [Translation improvements and adjustments for Slovak language (#2104)](https://github.com/NuvioMedia/NuvioMobile/pull/2104) @mmsw91  \n- [fix(mdblist): show newest library additions first (#2103)](https://github.com/NuvioMedia/NuvioMobile/pull/2103) @halibiram",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/nuvio-0.5.5-full-release.ipa",
+      "size": 66647562,
       "versions": [
         {
-          "version": "0.5.4",
-          "date": "2026-09-28",
-          "localizedDescription": "Nuvio 0.5.4 | nuvio-0.5.4-full-release\n\n- 80860602 fix(player): ignore short clips for tracking @tapframe  \n- cd4572e2 fix(ios): update quickjs to 1.0.15 @tapframe  \n- 9980d643 fix(player): reduce buffer durations @tapframe  \n- 75296263 fix(details): keep custom posters when returning to a title @tapframe  \n- 4bdcfa3a fix(settings): use shared chip on detail page @tapframe  \n- 2b8be69c fix(details): replay watched series from first episode @tapframe  \n- c69b643a fix(player): resume restored player from current position @tapframe  \n- c3920d40 fix(i18n): align episode labels and metadata with tv @tapframe  \n- 24c7c89c fix(streams): prevent rotation during binge group lookup @tapframe  \n- a1a43416 fix(profiles): center pin dialog content @tapframe  \n- [Plugin timeout (#2091)](https://github.com/NuvioMedia/NuvioMobile/pull/2091) @paregi12",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/nuvio-0.5.4-full-release.ipa",
-          "size": 66389579,
+          "version": "0.5.5",
+          "date": "2026-09-30",
+          "localizedDescription": "Nuvio 0.5.5 | nuvio-0.5.5-full-release\n\n- [feat(i18n): add Bengali (বাংলা) language support and UI localization (#2113)](https://github.com/NuvioMedia/NuvioMobile/pull/2113) @TanvirSdq  \n- [i18n(el): sync Greek translations and remove remaining English loanwords (#2132)](https://github.com/NuvioMedia/NuvioMobile/pull/2132) @nosvasedis  \n- [Landscape clearlogo toggle, Simkl type hint, TMDB source priority, folder TMDB ID resolution (#2084)](https://github.com/NuvioMedia/NuvioMobile/pull/2084) @skoruppa  \n- [fix(UI): Fix hero section sometimes shifting (#2128)](https://github.com/NuvioMedia/NuvioMobile/pull/2128) @ThEgIGN  \n- [fix(player): show the swipe-to-seek preview in the new player layout (#2122)](https://github.com/NuvioMedia/NuvioMobile/pull/2122) @deejay189393  \n- 6aa42153 fix(debrid): select requested episode files @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#2096)](https://github.com/NuvioMedia/NuvioMobile/pull/2096) @blueocean2308  \n- [Translation improvements and adjustments for Slovak language (#2104)](https://github.com/NuvioMedia/NuvioMobile/pull/2104) @mmsw91  \n- [fix(mdblist): show newest library additions first (#2103)](https://github.com/NuvioMedia/NuvioMobile/pull/2103) @halibiram",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/nuvio-0.5.5-full-release.ipa",
+          "size": 66647562,
           "minOSVersion": "16.1",
-          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.5.4-beta",
+          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.5.5-beta",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "androidApp-full-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/androidApp-full-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/androidApp-full-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 42468402,
-              "sha256": "5413c9f9343b375594642b2e9ec4a9556269717ef330b48c84549bdc149ab634",
-              "downloads": 3022,
+              "size": 42840868,
+              "sha256": "b57f6ca7771275f660bfa7dda479bc81a1dfcc10b6dfbff14f73e1d91f8dd25e",
+              "downloads": 2533,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "androidApp-full-x86_64-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/androidApp-full-x86_64-release.apk",
-              "platform": "android",
-              "architecture": "x86_64",
-              "fileType": "APK",
-              "size": 43825723,
-              "sha256": "c76b88934a12a1a053e271dc0dd905ac948704dc77bf89cbddafd1df1b84b7a4",
-              "downloads": 41,
-              "mimeType": "application/vnd.android.package-archive",
+              "filename": "nuvio-0.5.5-full-release.ipa",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/nuvio-0.5.5-full-release.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 66647562,
+              "sha256": "ae4da6ce2738ea36e700b3774e0137dae5b0885d7d88ac46c6720b3be3c82433",
+              "downloads": 181,
+              "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "androidApp-full-x86-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/androidApp-full-x86-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/androidApp-full-x86-release.apk",
               "platform": "android",
               "architecture": "x86",
               "fileType": "APK",
-              "size": 42911120,
-              "sha256": "a2ab4aa725753a5eed40cbe9f885363c09a2e52985858ad8d006f55f381c79fa",
-              "downloads": 34,
+              "size": 43283586,
+              "sha256": "150f5e4fa843f71d0bc5e36549cae5a2b98913f73fa72b79e51084261ce6aa8d",
+              "downloads": 45,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "androidApp-full-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/androidApp-full-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/androidApp-full-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 40730908,
-              "sha256": "c09df83b5cc4e0cda0d7e27f44c04a5e6ff347df534d6ec417d7966ebac6928b",
-              "downloads": 107,
+              "size": 41103374,
+              "sha256": "5702aae03d9727384d523ea454518ca74534a48e0d9078af56bf5101098f0c5a",
+              "downloads": 137,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "nuvio-0.5.4-full-release.ipa",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/nuvio-0.5.4-full-release.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 66389579,
-              "sha256": "f605463d51f304564833e82a2fc1478a326c2bea7fa15519d99e854eebb50b94",
-              "downloads": 175,
-              "mimeType": "application/octet-stream",
+              "filename": "androidApp-full-x86_64-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/androidApp-full-x86_64-release.apk",
+              "platform": "android",
+              "architecture": "x86_64",
+              "fileType": "APK",
+              "size": 44198185,
+              "sha256": "dff5c728b6a696f470dc85d1cd8e6fb448c6f2d00abac0642b16de1c6b9765e8",
+              "downloads": 59,
+              "mimeType": "application/vnd.android.package-archive",
               "installable": true
             }
           ],
-          "sha256": "f605463d51f304564833e82a2fc1478a326c2bea7fa15519d99e854eebb50b94",
-          "downloads": 175
+          "sha256": "ae4da6ce2738ea36e700b3774e0137dae5b0885d7d88ac46c6720b3be3c82433",
+          "downloads": 181
         }
       ],
       "screenshotURLs": [],
@@ -7643,7 +7643,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-09-28"
+          "lastUpdatedAt": "2026-09-30"
         }
       }
     },
@@ -7974,7 +7974,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 532,
+              "downloads": 534,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8004,7 +8004,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 532
+          "downloads": 534
         }
       ],
       "screenshotURLs": [],
@@ -9511,7 +9511,7 @@
               "fileType": "IPA",
               "size": 108723521,
               "sha256": "990cc418190be1022074bc83c9b0107f177e9a3f66e1c9bf2cfbdcfa8b2d1a71",
-              "downloads": 208,
+              "downloads": 224,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9523,7 +9523,7 @@
               "fileType": "IPA",
               "size": 108776530,
               "sha256": "2405f2189fc0b1a449821b205182190542fd127cd15b0c7596ad677502679a72",
-              "downloads": 1534,
+              "downloads": 1573,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9535,13 +9535,13 @@
               "fileType": "IPA",
               "size": 108690287,
               "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
-              "downloads": 574,
+              "downloads": 609,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
-          "downloads": 574
+          "downloads": 609
         }
       ],
       "screenshotURLs": [],
@@ -11429,7 +11429,7 @@
               "fileType": "APK",
               "size": 197174334,
               "sha256": "9af07d922fbf5472a9f0caa1cb45bb7d2c28f1a9911b423237aefe0948317b81",
-              "downloads": 11745,
+              "downloads": 11762,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11441,7 +11441,7 @@
               "fileType": "APK",
               "size": 191577143,
               "sha256": "a908b39a34b567844e03cce36ffbc3fd3a01a0757dc05ad4952ec7a16251e1b4",
-              "downloads": 1596,
+              "downloads": 1599,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11477,13 +11477,13 @@
               "fileType": "IPA",
               "size": 53931137,
               "sha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
-              "downloads": 391,
+              "downloads": 393,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
-          "downloads": 391
+          "downloads": 393
         }
       ],
       "screenshotURLs": [],
@@ -12541,7 +12541,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 368026,
+              "downloads": 368068,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12553,12 +12553,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1254806,
+              "downloads": 1254957,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1254806
+          "downloads": 1254957
         }
       ],
       "screenshotURLs": [],
@@ -12845,7 +12845,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 635,
+              "downloads": 640,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12857,13 +12857,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 1710,
+              "downloads": 1723,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 1710
+          "downloads": 1723
         }
       ],
       "screenshotURLs": [],
@@ -15194,6 +15194,15 @@
   ],
   "news": [
     {
+      "title": "Nuvio v0.5.5",
+      "identifier": "news-nuvio-0-5-5",
+      "caption": "Open-source media player, bring your own sources",
+      "date": "2026-09-30",
+      "appID": "com.nuvio.app",
+      "imageURL": "https://iamsmmh.github.io/OmniSource/assets/Nuvio.webp",
+      "notify": true
+    },
+    {
       "title": "ThreadSaver v449.0",
       "identifier": "news-threadsaver-449-0",
       "caption": "Threads enhancement tweak (unofficial build)",
@@ -15272,15 +15281,6 @@
       "date": "2026-09-28",
       "appID": "com.zarz.spotiflacAndroid",
       "imageURL": "https://iamsmmh.github.io/OmniSource/assets/SpotiFLAC.webp",
-      "notify": true
-    },
-    {
-      "title": "Nuvio v0.5.4",
-      "identifier": "news-nuvio-0-5-4",
-      "caption": "Open-source media player, bring your own sources",
-      "date": "2026-09-28",
-      "appID": "com.nuvio.app",
-      "imageURL": "https://iamsmmh.github.io/OmniSource/assets/Nuvio.webp",
       "notify": true
     }
   ]

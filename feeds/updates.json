@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-09-29",
+  "generatedAt": "2026-09-30",
   "sourceURL": "https://iamsmmh.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "version": "0.5.5",
+      "previousVersion": "0.5.4",
+      "date": "2026-09-30",
+      "kind": "updated",
+      "changelog": "Nuvio 0.5.5 | nuvio-0.5.5-full-release\n\n- [feat(i18n): add Bengali (বাংলা) language support and UI localization (#2113)](https://github.com/NuvioMedia/NuvioMobile/pull/2113) @TanvirSdq  \n- [i18n(el): sync Greek translations and remove remaining English loanwords (#2132)](https://github.com/NuvioMedia/NuvioMobile/pull/2132) @nosvasedis  \n- [Landscape clearlogo toggle, Simkl type hint, TMDB source priority, folder TMDB ID resolution (#2084)](https://github.com/NuvioMedia/NuvioMobile/pull/2084) @skoruppa  \n- [fix(UI): Fix hero section sometimes shifting (#2128)](https://github.com/NuvioMedia/NuvioMobile/pull/2128) @ThEgIGN  \n- [fix(player): show the swipe-to-seek preview in the new player layout (#2122)](https://github.com/NuvioMedia/NuvioMobile/pull/2122) @deejay189393  \n- 6aa42153 fix(debrid): select requested episode files @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#2096)](https://github.com/NuvioMedia/NuvioMobile/pull/2096) @blueocean2308  \n- [Translation improvements and adjustments for Slovak language (#2104)](https://github.com/NuvioMedia/NuvioMobile/pull/2104) @mmsw91  \n- [fix(mdblist): show newest library additions first (#2103)](https://github.com/NuvioMedia/NuvioMobile/pull/2103) @halibiram",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/nuvio-0.5.5-full-release.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Nuvio.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/nuvio.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/nuvio.xml",
+      "status": "stable",
+      "shortDescription": "Open-source media player, bring your own sources"
+    },
     {
       "slug": "threadsaver",
       "name": "ThreadSaver",
@@ -1472,21 +1487,6 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/apollo.xml",
       "status": "stable",
       "shortDescription": "The beloved Reddit client, continued by Apollo-Reborn"
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "version": "21.36.6",
-      "previousVersion": "21.35.3",
-      "date": "2026-09-12",
-      "kind": "updated",
-      "changelog": "YouTube 21.36.6 | YTKACE 0.9.3 | YTKACE_0.9.3_YouTube_21.36.6\n\nby @itzzace0\n\nWhat's new:\n• Updated for YouTube 21.36.6\n• Added a toggle to remove the Save button from Shorts\n\nFixed:\n• Fixed the feed lagging while scrolling with Remove Shorts, Products, Mixes or Community Posts on\n• Fixed the You tab moving to the end of the tab bar after changing other tabs\n• Fixed hold to speed staying stuck at the held speed after letting go\n• Fixed the Save button in Shorts overlapping the other buttons\n• Fixed Block Premium Prompts stopping community post images from opening\n• Fixed Clear Cache saying there was nothing to clear while YouTube's video cache kept growing\n\nYouTube 21.36.6 requires iOS 17, so there are two IPAs:\n• `YTKACE_0.9.3_YouTube_21.36.6.ipa` for iOS 17 and newer\n• `YTKACE_0.9.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v0.9.3/YTKACE_0.9.3_YouTube_21.36.6.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/ytkace.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/ytkace.xml",
-      "status": "stable",
-      "shortDescription": "YTKACE"
     },
     {
       "slug": "uyouenhanced",
