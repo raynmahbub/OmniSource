@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T13:13:58Z",
+  "generatedAt": "2026-09-30T12:54:56Z",
   "count": 107,
   "inputRecords": 130,
   "mergedDuplicates": 23,
@@ -676,7 +676,7 @@
               "fileType": "ZIP",
               "size": 22223659,
               "sha256": "0bb90a79d9cfbbdc9d5b925c2b7269da1e1aaa16193bb897b1e3c6b9bb5fb9ee",
-              "downloads": 0,
+              "downloads": 3,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -688,7 +688,7 @@
               "fileType": "IPA",
               "size": 117820512,
               "sha256": "6dccb3085136ae5343dc79a0f32d498b73f443d2c29cdc0f32b5053ddc593648",
-              "downloads": 202,
+              "downloads": 576,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -700,7 +700,7 @@
               "fileType": "IPA",
               "size": 128072289,
               "sha256": "7ba150bc74ad756fc1c3db29b2aedf3f17db8f170299008a92dad8f80b0e6a99",
-              "downloads": 679,
+              "downloads": 1723,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -712,7 +712,7 @@
               "fileType": "IPA",
               "size": 117820368,
               "sha256": "75aa3de0cffb52b4c9634dac1559b1ea0e1b5912f604a8b05966c0d115c8912c",
-              "downloads": 9,
+              "downloads": 22,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -724,7 +724,7 @@
               "fileType": "IPA",
               "size": 128072146,
               "sha256": "fb50ca9d203248699106ffe157a814f5261b63b0c5fa967ffe982ac50adea79b",
-              "downloads": 22,
+              "downloads": 49,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -736,7 +736,7 @@
               "fileType": "IPA",
               "size": 86444936,
               "sha256": "856c9ab42150025f42dc9235002dda7a367556442bae5d4e558b25e30b5ac0bf",
-              "downloads": 68,
+              "downloads": 172,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -748,7 +748,7 @@
               "fileType": "IPA",
               "size": 96696713,
               "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
-              "downloads": 108,
+              "downloads": 280,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -760,7 +760,7 @@
               "fileType": "DEB",
               "size": 12581376,
               "sha256": "f6c8b7e1829af4f6cea8c6ad6d9a99074cd02438fc5b7a457bfcdd4ae9b39918",
-              "downloads": 4,
+              "downloads": 18,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -772,13 +772,13 @@
               "fileType": "DEB",
               "size": 12582478,
               "sha256": "6dfaeb13f4a18164a5406414d2f6dce9f7fe03284f1c6b8bafd77e813b9059af",
-              "downloads": 7,
+              "downloads": 17,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
-          "downloads": 108
+          "downloads": 280
         }
       ]
     },
@@ -3425,7 +3425,7 @@
               "fileType": "APK",
               "size": 108612022,
               "sha256": "d89ffb0f4c7d73099b4227f04599fa24fb9fbc85618d72797c8bba6b55921460",
-              "downloads": 76,
+              "downloads": 77,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3497,7 +3497,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 441,
+              "downloads": 454,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3509,7 +3509,7 @@
               "fileType": "APK",
               "size": 33275119,
               "sha256": "ad71c9f73d5e3879fd7f025cd0ce38c02c017f1228d48bdd8d041a01190ee86d",
-              "downloads": 20,
+              "downloads": 22,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3533,7 +3533,7 @@
               "fileType": "APK",
               "size": 88506651,
               "sha256": "00d612973399f6157b82cc6573ce13b8d98f0cd04e27f1c623e5d5bcd4000bd5",
-              "downloads": 134,
+              "downloads": 139,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3545,13 +3545,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 249,
+              "downloads": 259,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 249
+          "downloads": 259
         }
       ]
     },
@@ -4683,291 +4683,6 @@
       ]
     },
     {
-      "id": "com.soundcloud.TouchApp",
-      "name": "NexaSC",
-      "bundleIdentifier": "com.soundcloud.TouchApp",
-      "developerName": "cielogic & IPA Vault",
-      "category": "social",
-      "version": "8.80.0",
-      "versionDate": "2026-09-27",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.0-NexaSC.ipa",
-      "size": 115739742,
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/SoundCloud.webp",
-      "matchKeys": [
-        "bundle:com.soundcloud.TouchApp",
-        "url:raw.githubusercontent.com",
-        "binary:pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.0-NexaSC.ipa"
-      ],
-      "repositoryURLs": [],
-      "sources": [
-        "https://raw.githubusercontent.com"
-      ],
-      "sourceCount": 1,
-      "duplicates": 12,
-      "versions": [
-        {
-          "version": "8.80.0",
-          "date": "2026-09-27",
-          "localizedDescription": "SoundCloud 8.80.0 | SoundCloud-8.80.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.80.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.0-NexaSC.ipa",
-          "size": 115739742,
-          "minOSVersion": "16.4",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "SoundCloud-8.80.0-NexaSC.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.0-NexaSC.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 115739742,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "8.5.5",
-          "date": "2026-09-16",
-          "localizedDescription": "Infuse 8.5.5 | Infuse-8.5.5-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.5), version 8.5.5",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.5-Infuse-Plus.ipa",
-          "size": 99611121,
-          "minOSVersion": "18.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Infuse-8.5.5-Infuse-Plus.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.5-Infuse-Plus.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 99611121,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "580.0.0",
-          "date": "2026-09-24",
-          "localizedDescription": "Facebook 580.0.0 | Facebook-580.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 580.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-580.0.0-iQFace.ipa",
-          "size": 232578756,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Facebook-580.0.0-iQFace.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-580.0.0-iQFace.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 232578756,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "448.0.0",
-          "date": "2026-09-21",
-          "localizedDescription": "Instagram 448.0.0 | Instagram-448.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 448.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-Sparkle.ipa",
-          "size": 316037173,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Instagram-448.0.0-Sparkle.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-Sparkle.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 316037173,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "448.0",
-          "date": "2026-09-21",
-          "localizedDescription": "Threads 448.0 | Threads-448.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 448.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-448.0-ThreadSaver.ipa",
-          "size": 109017316,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Threads-448.0-ThreadSaver.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-448.0-ThreadSaver.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 109017316,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "2026.38.0",
-          "date": "2026-09-24",
-          "localizedDescription": "Facebook 2026.38.0 | Reddit-2026.38.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.38.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.38.0-RedditFilter.ipa",
-          "size": 144273472,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Reddit-2026.38.0-RedditFilter.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.38.0-RedditFilter.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 144273472,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "12.9.4",
-          "date": "2026-09-12",
-          "localizedDescription": "Telegram 12.9.4 | Telegram-12.9.4-iQTele\n\nIPA Vault build for Telegram (iQTele), version 12.9.4",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-12.9.4-iQTele.ipa",
-          "size": 76892313,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Telegram-12.9.4-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-12.9.4-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 76892313,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "12.9.3",
-          "date": "2026-09-21",
-          "localizedDescription": "Swiftgram 12.9.3 | Swiftgram-12.9.3-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.3",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.3-iQTele.ipa",
-          "size": 75578339,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Swiftgram-12.9.3-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.3-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 75578339,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "12.8.1",
-          "date": "2026-09-01",
-          "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nIPA Vault build for iMe (MxGram), version 12.8.1",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
-          "size": 148174542,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "iMe-12.8.1-MxGram.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 148174542,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "1.5.4",
-          "date": "2026-09-21",
-          "localizedDescription": "Turrit 1.5.4 | Turrit-1.5.4-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.4",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.4-iQTele.ipa",
-          "size": 97226634,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Turrit-1.5.4-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.4-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 97226634,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "app.nicegram",
       "name": "Nicegram",
       "bundleIdentifier": "app.nicegram",
@@ -5376,7 +5091,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 520,
+              "downloads": 530,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5406,7 +5121,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 520
+          "downloads": 530
         }
       ]
     },
@@ -6418,7 +6133,7 @@
               "fileType": "IPA",
               "size": 108723521,
               "sha256": "990cc418190be1022074bc83c9b0107f177e9a3f66e1c9bf2cfbdcfa8b2d1a71",
-              "downloads": 155,
+              "downloads": 196,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -6430,7 +6145,7 @@
               "fileType": "IPA",
               "size": 108776530,
               "sha256": "2405f2189fc0b1a449821b205182190542fd127cd15b0c7596ad677502679a72",
-              "downloads": 1207,
+              "downloads": 1482,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -6442,13 +6157,13 @@
               "fileType": "IPA",
               "size": 108690287,
               "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
-              "downloads": 422,
+              "downloads": 554,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
-          "downloads": 422
+          "downloads": 554
         }
       ]
     },
@@ -7588,7 +7303,7 @@
               "fileType": "APK",
               "size": 197174334,
               "sha256": "9af07d922fbf5472a9f0caa1cb45bb7d2c28f1a9911b423237aefe0948317b81",
-              "downloads": 11660,
+              "downloads": 11721,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -7600,7 +7315,7 @@
               "fileType": "APK",
               "size": 191577143,
               "sha256": "a908b39a34b567844e03cce36ffbc3fd3a01a0757dc05ad4952ec7a16251e1b4",
-              "downloads": 1587,
+              "downloads": 1595,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -7612,7 +7327,7 @@
               "fileType": "AAB",
               "size": 117678831,
               "sha256": "f2048d65a565ee5e9425b284b34e401bd21ef0e91cdb89660925eab47c40f469",
-              "downloads": 72,
+              "downloads": 73,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7636,13 +7351,13 @@
               "fileType": "IPA",
               "size": 53931137,
               "sha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
-              "downloads": 378,
+              "downloads": 389,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
-          "downloads": 378
+          "downloads": 389
         }
       ]
     },
@@ -7927,6 +7642,291 @@
       ]
     },
     {
+      "id": "com.burbn.barcelona",
+      "name": "ThreadSaver",
+      "bundleIdentifier": "com.burbn.barcelona",
+      "developerName": "swiftleopard & IPA Vault",
+      "category": "social",
+      "version": "449.0",
+      "versionDate": "2026-09-29",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
+      "size": 109945911,
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Threads.webp",
+      "matchKeys": [
+        "bundle:com.burbn.barcelona",
+        "url:raw.githubusercontent.com",
+        "binary:pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa"
+      ],
+      "repositoryURLs": [],
+      "sources": [
+        "https://raw.githubusercontent.com"
+      ],
+      "sourceCount": 1,
+      "duplicates": 12,
+      "versions": [
+        {
+          "version": "8.80.0",
+          "date": "2026-09-27",
+          "localizedDescription": "SoundCloud 8.80.0 | SoundCloud-8.80.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.80.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.0-NexaSC.ipa",
+          "size": 115739742,
+          "minOSVersion": "16.4",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "SoundCloud-8.80.0-NexaSC.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.0-NexaSC.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 115739742,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "8.5.5",
+          "date": "2026-09-16",
+          "localizedDescription": "Infuse 8.5.5 | Infuse-8.5.5-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.5), version 8.5.5",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.5-Infuse-Plus.ipa",
+          "size": 99611121,
+          "minOSVersion": "18.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Infuse-8.5.5-Infuse-Plus.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.5-Infuse-Plus.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 99611121,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "580.0.0",
+          "date": "2026-09-24",
+          "localizedDescription": "Facebook 580.0.0 | Facebook-580.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 580.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-580.0.0-iQFace.ipa",
+          "size": 232578756,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Facebook-580.0.0-iQFace.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-580.0.0-iQFace.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 232578756,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "449.0",
+          "date": "2026-09-29",
+          "localizedDescription": "Threads 449.0 | Threads-449.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 449.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
+          "size": 109945911,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Threads-449.0-ThreadSaver.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109945911,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "448.0.0",
+          "date": "2026-09-21",
+          "localizedDescription": "Instagram 448.0.0 | Instagram-448.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 448.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-Sparkle.ipa",
+          "size": 316037173,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Instagram-448.0.0-Sparkle.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-Sparkle.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 316037173,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "2026.39.0",
+          "date": "2026-09-29",
+          "localizedDescription": "Facebook 2026.39.0 | Reddit-2026.39.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.39.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.39.0-RedditFilter.ipa",
+          "size": 144673258,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reddit-2026.39.0-RedditFilter.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.39.0-RedditFilter.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 144673258,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "12.9.4",
+          "date": "2026-09-12",
+          "localizedDescription": "Telegram 12.9.4 | Telegram-12.9.4-iQTele\n\nIPA Vault build for Telegram (iQTele), version 12.9.4",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-12.9.4-iQTele.ipa",
+          "size": 76892313,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Telegram-12.9.4-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-12.9.4-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 76892313,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "12.9.3",
+          "date": "2026-09-21",
+          "localizedDescription": "Swiftgram 12.9.3 | Swiftgram-12.9.3-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.3",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.3-iQTele.ipa",
+          "size": 75578339,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Swiftgram-12.9.3-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.3-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 75578339,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "12.8.1",
+          "date": "2026-09-01",
+          "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nIPA Vault build for iMe (MxGram), version 12.8.1",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
+          "size": 148174542,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "iMe-12.8.1-MxGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 148174542,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "1.5.4",
+          "date": "2026-09-21",
+          "localizedDescription": "Turrit 1.5.4 | Turrit-1.5.4-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.4",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.4-iQTele.ipa",
+          "size": 97226634,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Turrit-1.5.4-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.4-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 97226634,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.hjiangsu.thunder",
       "name": "Thunder",
       "bundleIdentifier": "com.hjiangsu.thunder",
@@ -8167,7 +8167,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 367686,
+              "downloads": 367949,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8179,12 +8179,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1253663,
+              "downloads": 1254582,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1253663
+          "downloads": 1254582
         }
       ]
     },
@@ -8338,7 +8338,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 627,
+              "downloads": 635,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8350,13 +8350,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 1676,
+              "downloads": 1705,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 1676
+          "downloads": 1705
         }
       ]
     },
@@ -9441,13 +9441,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 364,
+              "downloads": 374,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 364
+          "downloads": 374
         },
         {
           "version": "21.24.3",
@@ -9619,13 +9619,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 1748,
+              "downloads": 1904,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 1748
+          "downloads": 1904
         }
       ]
     },
