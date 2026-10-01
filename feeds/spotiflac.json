@@ -19,63 +19,87 @@
       "iconURL": "https://iamsmmh.github.io/OmniSource/assets/SpotiFLAC.webp",
       "tintColor": "1DB954",
       "category": "music",
-      "version": "5.0.6",
-      "versionDate": "2026-09-28",
-      "versionDescription": "SpotiFLAC 5.0.6 | SpotiFLAC-v5.0.6-ios-unsigned\n\n### New Features\n\n- **player**: Show covers and expressive controls in Material queue\n- **material**: Unify search filters and extension actions\n- **player**: Show Material lyrics in the artwork area\n- **player**: Animate Material seek bar with expressive waves\n- **material**: Adopt expressive controls across the app\n- **album**: Zoom artwork when pulling down the Mornye header\n- **settings**: Give playback its own settings page\n- **player**: Add AAudio hi-res, WavPack DSD and DAC volume\n- **player**: Add direct USB audio and DSD transport\n- **player**: Add verified USB bit-perfect PCM output\n- **player**: Continue playback with Library autoplay\n- **appearance**: Add an optional system font\n- **mornye**: Add persistent accent color choices\n- **lyrics**: Group smaller backing vocals beneath their lead\n- **player**: Expand artwork when tapping the compact cover\n- **player**: Swipe track headers and remove individual queue entries\n- **library**: Search songs albums artists and playlists by relevance\n- **album**: Display disc groups from catalog metadata\n- **lyrics**: Support multiple vocalists and aligned lyrics\n\n### Bug Fixes\n\n- **download**: Align native metadata preparation and ReplayGain support\n- **library**: Index native completions and refresh background downloads\n- **library**: Preserve indexed tracks when a full scan is incomplete\n- **download**: Detect mislabeled MP4 before native metadata writes\n- **motion**: Pause loading effects when hidden or motion is reduced\n- **metadata**: Resolve album artist consistently across separate downloads\n- **settings**: Use neutral category icons in Material\n- **material**: Keep navigation tint continuous through system inset\n- **player**: Move Material audio output to bottom right\n- **player**: Align Material lyrics toggle to bottom left\n- **player**: Give Material quality badge and controls more space\n- **album**: Show Material quality badges only for exceptions\n- **ui**: Show Dolby Atmos as a compact logo\n- **queue**: Style Mornye swipe removal and simplify queue heading\n- **album**: Remove dividers above Mornye disc headings\n- **library**: Replace library badge text with a folder icon\n- **player**: Distinguish AAudio access and decoder failures\n- **lyrics**: Keep V3 collaborations on the primary side\n- **lyrics**: Reveal backing vocals and gaps at their start\n- **lyrics**: Preserve group alignment in eLRC fallback\n- **mornye**: Improve frosted menu contrast and readability\n- **mornye**: Keep popover glass clear and correctly clipped\n- **mornye**: Use translucent liquid glass for action menus\n- **mornye**: Preserve contrast with custom accent colors\n- **settings**: Restore distinct category icons on the main page\n- **player**: Align lyrics and compact header with timeline\n- **lyrics**: Preserve Apple vocal sides for group parts\n- **ios**: Scan app documents without the Files folder picker\n- **artist**: Restore artwork accents with neutral portrait fallback\n- **player**: Separate adjacent titles during track swipes\n- **player**: Swipe left to advance and right to return\n- **player**: Retain duration probing after queue edits during loading\n- **lyrics**: Stagger highlight lift across graphemes\n- **artist**: Use white Mornye header actions regardless of artwork color\n- **player**: Keep shuffle order stable and restore the original queue\n- **lyrics**: Keep the active line anchored during language transitions\n- **player**: Serialize source changes during rapid track selection\n- **album**: Show More only for truncated descriptions\n- **artist**: Zoom artwork during pull-down stretching\n- **navigation**: Preserve compact state and active icon colors\n- **updater**: Revalidate releases instead of hiding updates in cache\n- **metadata**: Clarify online autofill controls\n\n### Performance\n\n- **player**: Rebuild preview buttons only on status changes\n- **search**: Reduce list rendering and provider rebuilds\n\n### Styling\n\n- **playback**: Mark bit-perfect and DAP hi-res output as beta\n- **library**: Use theme colors for Material collections\n\n### Chores\n\n- **release**: Sync remote AltStore metadata\n- Update AltStore source to v5.0.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **release**: Bump app version to 5.0.6\n\n\n\n\n**Full Changelog**: [v5.0.5...v5.0.6](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.0.5...v5.0.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `SpotiFLAC-v5.0.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `SpotiFLAC-v5.0.6-arm32.apk` (older devices)\n\n#### iOS\n- **iOS**: `SpotiFLAC-v5.0.6-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
-      "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-ios-unsigned.ipa",
-      "size": 35472503,
+      "version": "5.0.7",
+      "versionDate": "2026-10-01",
+      "versionDescription": "SpotiFLAC 5.0.7 | SpotiFLAC-v5.0.7-ios-unsigned\n\n### New Features\n\n- **library**: Filter tracks missing verified ReplayGain tags\n- **library**: Pause and resume library scans\n- **backend**: Hold library scans in place while paused\n- **library**: Select search results with a long press\n- **metadata**: Add a primary artist tag mode\n- **metadata**: Write primary-artist tags in native writers\n- **album**: Replace selection sharing with metadata re-enrichment\n- **appearance**: Add glass clarity controls and directional highlights\n- **lyrics**: Keep the screen awake while viewing lyrics\n\n### Bug Fixes\n\n- **download**: Stop crashing native finalization on Android regex\n- **backup**: Restore download and metadata provider order\n- **background**: Keep library scans and update downloads running with the screen off\n- **mornye**: Preserve navbar blur during collapse animations\n- **mornye**: Soften glass rims and increase transparency\n- **mornye**: Respect glass clarity and accessibility limits\n- **library**: Spread filters across the search field width\n- **library**: Offer re-enrichment for downloaded selections\n- **lyrics**: Lift timed words together\n- **storage**: Retain document access for library metadata and covers\n- **startup**: Keep shared backend alive across activity recreation\n- **download**: Verify ReplayGain tags independently of metadata embedding\n- **metadata**: Preserve the selected recording during download enrichment\n- **library**: Preserve partial scans and ignore stale completion events\n- **library**: Open track metadata from search results\n\n### Performance\n\n- **mornye**: Share chrome backdrops and scale blur to clarity\n- **store**: Skip invisible backdrop blur on repo cards\n- **library**: Trim scan ingestion writes\n- **library**: Stat each walked entry once\n- **library**: Overlap SAF listings and metadata reads\n- **mornye**: Adapt glass and player effects to device capabilities\n- **player**: Suspend covered pages and streamline transitions\n- **download**: Avoid repeated progress decoding and queue regrouping\n- **download**: Reuse connections across probes and retries\n- **library**: Reduce scan allocations and keep SAF workers busy\n- **library**: Reuse bounded artwork thumbnails during scans\n\n### Refactoring\n\n- **library**: Share the track selection bar and delete action\n- **backend**: Retire unused native bridge entry points\n- **download**: Simplify finalization and remove the retired worker\n- **flutter**: Remove unreachable state and widget APIs\n- **library**: Remove unused history lookups and replacement paths\n- **ui**: Consolidate file feedback and shared display helpers\n\n### Testing\n\n- **library**: Keep notifier test counters private\n\n### Chores\n\n- Update AltStore source to v5.0.7 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- Update AltStore source to v5.0.6 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **release**: Bump app version to 5.0.7\n\n### Build\n\n- **android**: Reduce compat media deprecation warning noise\n- **android**: Sign release APKs with APK Signature Scheme v4\n\n\n\n\n**Full Changelog**: [v5.0.6...v5.0.7](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.0.6...v5.0.7)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `SpotiFLAC-v5.0.7-arm64.apk` (recommended for modern devices)\n- **arm32**: `SpotiFLAC-v5.0.7-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `SpotiFLAC-v5.0.7-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+      "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-ios-unsigned.ipa",
+      "size": 35416213,
       "versions": [
         {
-          "version": "5.0.6",
-          "date": "2026-09-28",
-          "localizedDescription": "SpotiFLAC 5.0.6 | SpotiFLAC-v5.0.6-ios-unsigned\n\n### New Features\n\n- **player**: Show covers and expressive controls in Material queue\n- **material**: Unify search filters and extension actions\n- **player**: Show Material lyrics in the artwork area\n- **player**: Animate Material seek bar with expressive waves\n- **material**: Adopt expressive controls across the app\n- **album**: Zoom artwork when pulling down the Mornye header\n- **settings**: Give playback its own settings page\n- **player**: Add AAudio hi-res, WavPack DSD and DAC volume\n- **player**: Add direct USB audio and DSD transport\n- **player**: Add verified USB bit-perfect PCM output\n- **player**: Continue playback with Library autoplay\n- **appearance**: Add an optional system font\n- **mornye**: Add persistent accent color choices\n- **lyrics**: Group smaller backing vocals beneath their lead\n- **player**: Expand artwork when tapping the compact cover\n- **player**: Swipe track headers and remove individual queue entries\n- **library**: Search songs albums artists and playlists by relevance\n- **album**: Display disc groups from catalog metadata\n- **lyrics**: Support multiple vocalists and aligned lyrics\n\n### Bug Fixes\n\n- **download**: Align native metadata preparation and ReplayGain support\n- **library**: Index native completions and refresh background downloads\n- **library**: Preserve indexed tracks when a full scan is incomplete\n- **download**: Detect mislabeled MP4 before native metadata writes\n- **motion**: Pause loading effects when hidden or motion is reduced\n- **metadata**: Resolve album artist consistently across separate downloads\n- **settings**: Use neutral category icons in Material\n- **material**: Keep navigation tint continuous through system inset\n- **player**: Move Material audio output to bottom right\n- **player**: Align Material lyrics toggle to bottom left\n- **player**: Give Material quality badge and controls more space\n- **album**: Show Material quality badges only for exceptions\n- **ui**: Show Dolby Atmos as a compact logo\n- **queue**: Style Mornye swipe removal and simplify queue heading\n- **album**: Remove dividers above Mornye disc headings\n- **library**: Replace library badge text with a folder icon\n- **player**: Distinguish AAudio access and decoder failures\n- **lyrics**: Keep V3 collaborations on the primary side\n- **lyrics**: Reveal backing vocals and gaps at their start\n- **lyrics**: Preserve group alignment in eLRC fallback\n- **mornye**: Improve frosted menu contrast and readability\n- **mornye**: Keep popover glass clear and correctly clipped\n- **mornye**: Use translucent liquid glass for action menus\n- **mornye**: Preserve contrast with custom accent colors\n- **settings**: Restore distinct category icons on the main page\n- **player**: Align lyrics and compact header with timeline\n- **lyrics**: Preserve Apple vocal sides for group parts\n- **ios**: Scan app documents without the Files folder picker\n- **artist**: Restore artwork accents with neutral portrait fallback\n- **player**: Separate adjacent titles during track swipes\n- **player**: Swipe left to advance and right to return\n- **player**: Retain duration probing after queue edits during loading\n- **lyrics**: Stagger highlight lift across graphemes\n- **artist**: Use white Mornye header actions regardless of artwork color\n- **player**: Keep shuffle order stable and restore the original queue\n- **lyrics**: Keep the active line anchored during language transitions\n- **player**: Serialize source changes during rapid track selection\n- **album**: Show More only for truncated descriptions\n- **artist**: Zoom artwork during pull-down stretching\n- **navigation**: Preserve compact state and active icon colors\n- **updater**: Revalidate releases instead of hiding updates in cache\n- **metadata**: Clarify online autofill controls\n\n### Performance\n\n- **player**: Rebuild preview buttons only on status changes\n- **search**: Reduce list rendering and provider rebuilds\n\n### Styling\n\n- **playback**: Mark bit-perfect and DAP hi-res output as beta\n- **library**: Use theme colors for Material collections\n\n### Chores\n\n- **release**: Sync remote AltStore metadata\n- Update AltStore source to v5.0.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **release**: Bump app version to 5.0.6\n\n\n\n\n**Full Changelog**: [v5.0.5...v5.0.6](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.0.5...v5.0.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `SpotiFLAC-v5.0.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `SpotiFLAC-v5.0.6-arm32.apk` (older devices)\n\n#### iOS\n- **iOS**: `SpotiFLAC-v5.0.6-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
-          "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-ios-unsigned.ipa",
-          "size": 35472503,
+          "version": "5.0.7",
+          "date": "2026-10-01",
+          "localizedDescription": "SpotiFLAC 5.0.7 | SpotiFLAC-v5.0.7-ios-unsigned\n\n### New Features\n\n- **library**: Filter tracks missing verified ReplayGain tags\n- **library**: Pause and resume library scans\n- **backend**: Hold library scans in place while paused\n- **library**: Select search results with a long press\n- **metadata**: Add a primary artist tag mode\n- **metadata**: Write primary-artist tags in native writers\n- **album**: Replace selection sharing with metadata re-enrichment\n- **appearance**: Add glass clarity controls and directional highlights\n- **lyrics**: Keep the screen awake while viewing lyrics\n\n### Bug Fixes\n\n- **download**: Stop crashing native finalization on Android regex\n- **backup**: Restore download and metadata provider order\n- **background**: Keep library scans and update downloads running with the screen off\n- **mornye**: Preserve navbar blur during collapse animations\n- **mornye**: Soften glass rims and increase transparency\n- **mornye**: Respect glass clarity and accessibility limits\n- **library**: Spread filters across the search field width\n- **library**: Offer re-enrichment for downloaded selections\n- **lyrics**: Lift timed words together\n- **storage**: Retain document access for library metadata and covers\n- **startup**: Keep shared backend alive across activity recreation\n- **download**: Verify ReplayGain tags independently of metadata embedding\n- **metadata**: Preserve the selected recording during download enrichment\n- **library**: Preserve partial scans and ignore stale completion events\n- **library**: Open track metadata from search results\n\n### Performance\n\n- **mornye**: Share chrome backdrops and scale blur to clarity\n- **store**: Skip invisible backdrop blur on repo cards\n- **library**: Trim scan ingestion writes\n- **library**: Stat each walked entry once\n- **library**: Overlap SAF listings and metadata reads\n- **mornye**: Adapt glass and player effects to device capabilities\n- **player**: Suspend covered pages and streamline transitions\n- **download**: Avoid repeated progress decoding and queue regrouping\n- **download**: Reuse connections across probes and retries\n- **library**: Reduce scan allocations and keep SAF workers busy\n- **library**: Reuse bounded artwork thumbnails during scans\n\n### Refactoring\n\n- **library**: Share the track selection bar and delete action\n- **backend**: Retire unused native bridge entry points\n- **download**: Simplify finalization and remove the retired worker\n- **flutter**: Remove unreachable state and widget APIs\n- **library**: Remove unused history lookups and replacement paths\n- **ui**: Consolidate file feedback and shared display helpers\n\n### Testing\n\n- **library**: Keep notifier test counters private\n\n### Chores\n\n- Update AltStore source to v5.0.7 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- Update AltStore source to v5.0.6 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **release**: Bump app version to 5.0.7\n\n### Build\n\n- **android**: Reduce compat media deprecation warning noise\n- **android**: Sign release APKs with APK Signature Scheme v4\n\n\n\n\n**Full Changelog**: [v5.0.6...v5.0.7](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.0.6...v5.0.7)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `SpotiFLAC-v5.0.7-arm64.apk` (recommended for modern devices)\n- **arm32**: `SpotiFLAC-v5.0.7-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `SpotiFLAC-v5.0.7-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+          "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-ios-unsigned.ipa",
+          "size": 35416213,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/tag/v5.0.6",
+          "releaseUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/tag/v5.0.7",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "SpotiFLAC-v5.0.6-arm32.apk",
-              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-arm32.apk",
+              "filename": "SpotiFLAC-v5.0.7-arm32.apk",
+              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-arm32.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 94321243,
-              "sha256": "1c20956479122447abad765adce38b3363633d6079cdadcb1d5c80aad9d7c3e8",
-              "downloads": 61,
+              "size": 94190171,
+              "sha256": "94a70733a9a454fb8317c6b863f1ce647c76586abe5ba4c5ab893afbaa8a69c2",
+              "downloads": 154,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "SpotiFLAC-v5.0.6-arm64.apk",
-              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-arm64.apk",
+              "filename": "SpotiFLAC-v5.0.7-arm32.apk.idsig",
+              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-arm32.apk.idsig",
+              "platform": "android",
+              "architecture": "armv7",
+              "fileType": "other",
+              "size": 751116,
+              "sha256": "7fdff3f740e34bbc2c74669ec97cf785562e9e38425f827add7538dcf70742bc",
+              "downloads": 24,
+              "mimeType": "application/octet-stream",
+              "installable": false
+            },
+            {
+              "filename": "SpotiFLAC-v5.0.7-arm64.apk",
+              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-arm64.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 77420459,
-              "sha256": "375ad949a6aeda5991d990e60cf8599853c14ad3084f7996af1d295afb3002f9",
-              "downloads": 1615,
+              "size": 77191083,
+              "sha256": "d0b262974f422ee5d16286cd9ae7e6c55cd8ea8145250f7de787078027e0c298",
+              "downloads": 3215,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "SpotiFLAC-v5.0.6-ios-unsigned.ipa",
-              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-ios-unsigned.ipa",
+              "filename": "SpotiFLAC-v5.0.7-arm64.apk.idsig",
+              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-arm64.apk.idsig",
+              "platform": "android",
+              "architecture": "arm64",
+              "fileType": "other",
+              "size": 620044,
+              "sha256": "54003a894383f9e25ce74e24a1e538ce5b788f415abbee789563f1e5fa08f6d7",
+              "downloads": 18,
+              "mimeType": "application/octet-stream",
+              "installable": false
+            },
+            {
+              "filename": "SpotiFLAC-v5.0.7-ios-unsigned.ipa",
+              "downloadUrl": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-ios-unsigned.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 35472503,
-              "sha256": "f317efc918c09401f3a900177bc2184d45a91309663aa42f407d0f11294b57b3",
-              "downloads": 21,
+              "size": 35416213,
+              "sha256": "4d0a5142d82f4da3d57eee021135fead7a0229a68064513f3778c1a95194d7c6",
+              "downloads": 62,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "f317efc918c09401f3a900177bc2184d45a91309663aa42f407d0f11294b57b3",
-          "downloads": 21
+          "sha256": "4d0a5142d82f4da3d57eee021135fead7a0229a68064513f3778c1a95194d7c6",
+          "downloads": 62
         }
       ],
       "screenshotURLs": [
@@ -117,7 +141,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-09-28"
+          "lastUpdatedAt": "2026-10-01"
         }
       }
     }

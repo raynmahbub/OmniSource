@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-01",
-  "feedVersion": "cab94938cfa5",
+  "feedVersion": "93e6811908f7",
   "app": {
     "id": "killmyota",
     "name": "KillMyOTA",
@@ -30,8 +30,8 @@
     "pageURL": "https://iamsmmh.github.io/OmniSource/apps/killmyota/",
     "feedURL": "https://iamsmmh.github.io/OmniSource/killmyota.json",
     "health": {
-      "reachable": true,
-      "detail": "HTTP 302",
+      "reachable": false,
+      "detail": "HTTP 404",
       "updatedAt": "2023-01-30"
     }
   },
@@ -52,8 +52,8 @@
     }
   ],
   "verification": {
-    "status": "VERIFIED",
-    "level": "VERIFIED",
+    "status": "UNVERIFIED",
+    "level": "UNVERIFIED",
     "method": "github-release"
   }
 }

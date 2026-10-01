@@ -9,6 +9,24 @@
       "score": 1.0
     },
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "score": 1.0
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "category": "networking",
+      "score": 1.0
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "score": 1.0
+    },
+    {
       "slug": "nuvio",
       "name": "Nuvio",
       "category": "photo-video",
@@ -55,32 +73,32 @@
       "name": "StikDebug",
       "category": "developer-tools",
       "score": 0.9825
-    },
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "score": 0.9825
-    },
-    {
-      "slug": "nebuloiptv",
-      "name": "Nebulo",
-      "category": "photo-video",
-      "score": 0.9825
-    },
-    {
-      "slug": "conduit",
-      "name": "Conduit",
-      "category": "utilities",
-      "score": 0.9825
     }
   ],
   "recentlyAdded": [
+    {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "firstSeen": "2026-10-01",
+      "category": "music"
+    },
     {
       "slug": "synkplay",
       "name": "Synkplay",
       "firstSeen": "2026-10-01",
       "category": "photo-video"
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "firstSeen": "2026-10-01",
+      "category": "networking"
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "firstSeen": "2026-10-01",
+      "category": "networking"
     },
     {
       "slug": "nuvio",
@@ -107,12 +125,6 @@
       "category": "social"
     },
     {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "firstSeen": "2026-09-28",
-      "category": "music"
-    },
-    {
       "slug": "youpro",
       "name": "YouPro",
       "firstSeen": "2026-09-28",
@@ -135,18 +147,6 @@
       "name": "StikDebug",
       "firstSeen": "2026-09-28",
       "category": "developer-tools"
-    },
-    {
-      "slug": "conduit",
-      "name": "Conduit",
-      "firstSeen": "2026-09-28",
-      "category": "utilities"
-    },
-    {
-      "slug": "chan",
-      "name": "Chan",
-      "firstSeen": "2026-09-28",
-      "category": "social"
     }
   ],
   "rising": [
@@ -226,8 +226,8 @@
   "requested": [],
   "counts": {
     "popular": 130,
-    "recentlyAdded": 36,
-    "rising": 53,
+    "recentlyAdded": 38,
+    "rising": 55,
     "requested": 0
   }
 }

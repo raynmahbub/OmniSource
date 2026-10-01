@@ -6,9 +6,9 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 58,
+  "count": 57,
   "summary": {
-    "warning": 10,
+    "warning": 9,
     "stale": 11,
     "archived": 36,
     "critical": 1
@@ -640,18 +640,6 @@
       ]
     },
     {
-      "slug": "orbot",
-      "name": "Orbot",
-      "lastUpdate": "2026-06-30",
-      "daysSinceUpdate": 93,
-      "classification": "warning",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 93 days (threshold 90)"
-      ]
-    },
-    {
       "slug": "ppsspp",
       "name": "PPSSPP",
       "lastUpdate": "2026-05-16",
@@ -716,8 +704,8 @@
     {
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
-      "lastUpdate": "2026-09-28",
-      "daysSinceUpdate": 3,
+      "lastUpdate": "2026-10-01",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1747,8 +1735,8 @@
     {
       "slug": "onionbrowser",
       "name": "Onion Browser",
-      "lastUpdate": "2026-08-11",
-      "daysSinceUpdate": 51,
+      "lastUpdate": "2026-10-01",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1757,14 +1745,12 @@
     {
       "slug": "orbot",
       "name": "Orbot",
-      "lastUpdate": "2026-06-30",
-      "daysSinceUpdate": 93,
-      "classification": "warning",
+      "lastUpdate": "2026-10-01",
+      "daysSinceUpdate": 0,
+      "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": [
-        "no update for 93 days (threshold 90)"
-      ]
+      "reasons": []
     },
     {
       "slug": "tablehabit",

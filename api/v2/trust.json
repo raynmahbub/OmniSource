@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-01",
   "totals": {
     "apps": 130,
-    "verified": 128,
+    "verified": 125,
     "communityVerified": 1,
-    "unverified": 1,
+    "unverified": 4,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 19,
-    "avgTrustScore": 6.91,
+    "avgTrustScore": 6.84,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -922,27 +922,6 @@
       "trustBadge": "Community"
     },
     {
-      "app": "jaility",
-      "name": "Jaility",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "haxi0/Jaility",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
-    },
-    {
       "app": "jellify",
       "name": "Jellify",
       "status": "VERIFIED",
@@ -983,27 +962,6 @@
       "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
-    },
-    {
-      "app": "killmyota",
-      "name": "KillMyOTA",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "haxi0/KillMyOTA",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
     },
     {
       "app": "ksign",
@@ -1442,7 +1400,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
+      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1463,7 +1421,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.12.0/Orbot.ipa",
+      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1988,7 +1946,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-ios-unsigned.ipa",
+      "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-ios-unsigned.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2243,27 +2201,6 @@
       "downloadURL": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
-    },
-    {
-      "app": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "haxi0/TrollBoard-Reborn",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
     },
     {
       "app": "trollfools",
@@ -2724,6 +2661,69 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+      "trustScore": 2.9,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "jaility",
+      "name": "Jaility",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "method": "github-release",
+      "publisher": "haxi0/Jaility",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
+      "trustScore": 3.0,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "killmyota",
+      "name": "KillMyOTA",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "method": "github-release",
+      "publisher": "haxi0/KillMyOTA",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
+      "trustScore": 3.0,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "trollboard-reborn",
+      "name": "TrollBoard Reborn",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "method": "github-release",
+      "publisher": "haxi0/TrollBoard-Reborn",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
       "trustScore": 3.0,
       "trustBadge": "Experimental"
     },

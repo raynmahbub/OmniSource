@@ -16,11 +16,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.0.6",
-      "releaseDate": "2026-09-28",
-      "score": 0.98,
+      "version": "5.0.7",
+      "releaseDate": "2026-10-01",
+      "score": 1.0,
       "signals": {
-        "recency": 0.95,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -115,6 +115,40 @@
       "downloadReachable": true
     },
     {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.2",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "category": "networking",
+      "version": "1.13.0",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "nuvio",
       "name": "Nuvio",
       "category": "photo-video",
@@ -136,40 +170,6 @@
       "name": "Apollo",
       "category": "social",
       "version": "3.8.5",
-      "releaseDate": "2026-09-29",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "glow",
-      "name": "Glow",
-      "category": "social",
-      "version": "2026.39.0",
-      "releaseDate": "2026-09-29",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "threadsaver",
-      "name": "ThreadSaver",
-      "category": "social",
-      "version": "449.0",
       "releaseDate": "2026-09-29",
       "score": 0.7867,
       "signals": {
@@ -185,10 +185,61 @@
   ],
   "rising": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.0.7",
+      "releaseDate": "2026-10-01",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
       "slug": "synkplay",
       "name": "Synkplay",
       "category": "photo-video",
       "version": "0.26.0",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.2",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "category": "networking",
+      "version": "1.13.0",
       "releaseDate": "2026-10-01",
       "score": 0.8,
       "signals": {
@@ -270,23 +321,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "version": "5.0.6",
-      "releaseDate": "2026-09-28",
-      "score": 0.98,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
       "slug": "ytlite",
       "name": "YouTubePlus",
       "category": "photo-video",
@@ -318,49 +352,66 @@
       },
       "verificationLevel": "VERIFIED",
       "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "youmod",
-      "name": "uPro Plus",
-      "category": "photo-video",
-      "version": "21.39.4",
-      "releaseDate": "2026-09-28",
-      "score": 0.98,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "category": "photo-video",
-      "version": "21.39.4",
-      "releaseDate": "2026-09-28",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
       "downloadReachable": true
     }
   ],
   "recentlyUpdated": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.0.7",
+      "releaseDate": "2026-10-01",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
       "slug": "synkplay",
       "name": "Synkplay",
       "category": "photo-video",
       "version": "0.26.0",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.2",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "category": "networking",
+      "version": "1.13.0",
       "releaseDate": "2026-10-01",
       "score": 0.8,
       "signals": {
@@ -442,23 +493,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "version": "5.0.6",
-      "releaseDate": "2026-09-28",
-      "score": 0.98,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
       "slug": "ytlite",
       "name": "YouTubePlus",
       "category": "photo-video",
@@ -490,40 +524,6 @@
       },
       "verificationLevel": "VERIFIED",
       "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "youmod",
-      "name": "uPro Plus",
-      "category": "photo-video",
-      "version": "21.39.4",
-      "releaseDate": "2026-09-28",
-      "score": 0.98,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "category": "photo-video",
-      "version": "21.39.4",
-      "releaseDate": "2026-09-28",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
       "downloadReachable": true
     }
   ],
@@ -532,11 +532,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.0.6",
-      "releaseDate": "2026-09-28",
-      "score": 0.98,
+      "version": "5.0.7",
+      "releaseDate": "2026-10-01",
+      "score": 1.0,
       "signals": {
-        "recency": 0.95,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -618,6 +618,40 @@
       "name": "Synkplay",
       "category": "photo-video",
       "version": "0.26.0",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.2",
+      "releaseDate": "2026-10-01",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "category": "networking",
+      "version": "1.13.0",
       "releaseDate": "2026-10-01",
       "score": 0.8,
       "signals": {
@@ -1583,23 +1617,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "onionbrowser",
-      "name": "Onion Browser",
-      "category": "networking",
-      "version": "3.4.1",
-      "releaseDate": "2026-08-11",
-      "score": 0.46,
-      "signals": {
-        "recency": 0.15,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "maxtube",
       "name": "MaxTube",
       "category": "photo-video",
@@ -2331,23 +2348,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "orbot",
-      "name": "Orbot",
-      "category": "networking",
-      "version": "1.12.0",
-      "releaseDate": "2026-06-30",
-      "score": 0.4,
-      "signals": {
-        "recency": 0.0,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "snmessenger",
       "name": "SNMessenger",
       "category": "social",
@@ -2433,62 +2433,11 @@
       "downloadReachable": true
     },
     {
-      "slug": "jaility",
-      "name": "Jaility",
-      "category": "utilities",
-      "version": "3.1.1",
-      "releaseDate": "2022-11-12",
-      "score": 0.4,
-      "signals": {
-        "recency": 0.0,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "category": "utilities",
-      "version": "1.1",
-      "releaseDate": "2023-01-30",
-      "score": 0.4,
-      "signals": {
-        "recency": 0.0,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
       "category": "utilities",
       "version": "1.0.3",
       "releaseDate": "2024-09-12",
-      "score": 0.4,
-      "signals": {
-        "recency": 0.0,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "category": "utilities",
-      "version": "1.0",
-      "releaseDate": "2023-12-05",
       "score": 0.4,
       "signals": {
         "recency": 0.0,
@@ -2730,6 +2679,57 @@
       "score": 0.3133,
       "signals": {
         "recency": 0.7833,
+        "availability": 0.0,
+        "featured": 0.0,
+        "verification": 0.0
+      },
+      "verificationLevel": "UNVERIFIED",
+      "featured": false,
+      "downloadReachable": false
+    },
+    {
+      "slug": "jaility",
+      "name": "Jaility",
+      "category": "utilities",
+      "version": "3.1.1",
+      "releaseDate": "2022-11-12",
+      "score": 0.0,
+      "signals": {
+        "recency": 0.0,
+        "availability": 0.0,
+        "featured": 0.0,
+        "verification": 0.0
+      },
+      "verificationLevel": "UNVERIFIED",
+      "featured": false,
+      "downloadReachable": false
+    },
+    {
+      "slug": "killmyota",
+      "name": "KillMyOTA",
+      "category": "utilities",
+      "version": "1.1",
+      "releaseDate": "2023-01-30",
+      "score": 0.0,
+      "signals": {
+        "recency": 0.0,
+        "availability": 0.0,
+        "featured": 0.0,
+        "verification": 0.0
+      },
+      "verificationLevel": "UNVERIFIED",
+      "featured": false,
+      "downloadReachable": false
+    },
+    {
+      "slug": "trollboard-reborn",
+      "name": "TrollBoard Reborn",
+      "category": "utilities",
+      "version": "1.0",
+      "releaseDate": "2023-12-05",
+      "score": 0.0,
+      "signals": {
+        "recency": 0.0,
         "availability": 0.0,
         "featured": 0.0,
         "verification": 0.0

@@ -5,20 +5,18 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/onionbrowser.json</link>
     <description>Release feed for Onion Browser within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/onionbrowser.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Onion Browser v3.4.1</title>
+      <title>Onion Browser v3.4.2</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/onionbrowser.json</link>
-      <guid isPermaLink="false">onionbrowser-3.4.1</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Onion Browser 3.4.1 | OnionBrowser
+      <guid isPermaLink="false">onionbrowser-3.4.2</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Onion Browser 3.4.2 | OnionBrowser
 
-- Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/
-  (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.)
-- Updated libevent to 2.1.13.
-- Updated Japanese and Pashto translations.]]></description>
-      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa" length="39611914" type="application/octet-stream" />
+- Fixed bug wtih DNSTT bridge parsing.
+- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.]]></description>
+      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -19,51 +19,51 @@
       "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Orbot.webp",
       "tintColor": "7D4698",
       "category": "networking",
-      "version": "1.12.0",
-      "versionDate": "2026-06-30",
-      "versionDescription": "Orbot 1.12.0 | Orbot\n\n- Updated Tor to 0.4.9.11.\n- Updated Snowflake to 2.14.1.\n- Improved explanation of Kindness Mode and its test implications. \n- Slightly improved status error display.\n- Added simplified Chinese translation.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.12.0/Orbot.ipa",
-      "size": 48820768,
+      "version": "1.13.0",
+      "versionDate": "2026-10-01",
+      "versionDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
+      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
+      "size": 49119120,
       "versions": [
         {
-          "version": "1.12.0",
-          "date": "2026-06-30",
-          "localizedDescription": "Orbot 1.12.0 | Orbot\n\n- Updated Tor to 0.4.9.11.\n- Updated Snowflake to 2.14.1.\n- Improved explanation of Kindness Mode and its test implications. \n- Slightly improved status error display.\n- Added simplified Chinese translation.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-          "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.12.0/Orbot.ipa",
-          "size": 48820768,
+          "version": "1.13.0",
+          "date": "2026-10-01",
+          "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
+          "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
+          "size": 49119120,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.12.0",
+          "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.13.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Orbot.ipa",
-              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.12.0/Orbot.ipa",
+              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 48820768,
-              "sha256": "d8d5d55f3ad92f36f5a8146e88771652635601de40639446ed73c3297a82555e",
-              "downloads": 853,
+              "size": 49119120,
+              "sha256": "4352ebda2f9730739420a633ba0121b1cbf85878b6d185b956a2d0208aeb1b8e",
+              "downloads": 3,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Orbot.pkg",
-              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.12.0/Orbot.pkg",
+              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.pkg",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
-              "size": 68472868,
-              "sha256": "43719f3713c5d39c0dbc21ccae0c18d4b215c7e2b90167628df6f94a42b550ef",
-              "downloads": 503,
+              "size": 68484591,
+              "sha256": "288ca8bb153d48b06e58823d593078cb4020c9b729aa3b1cc61760b966db9334",
+              "downloads": 1,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
-          "sha256": "d8d5d55f3ad92f36f5a8146e88771652635601de40639446ed73c3297a82555e",
-          "downloads": 853
+          "sha256": "4352ebda2f9730739420a633ba0121b1cbf85878b6d185b956a2d0208aeb1b8e",
+          "downloads": 3
         }
       ],
       "screenshotURLs": [],
@@ -101,7 +101,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-06-30"
+          "lastUpdatedAt": "2026-10-01"
         }
       }
     }
