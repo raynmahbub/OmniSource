@@ -3,27 +3,21 @@
   "feedVersion": "cab94938cfa5",
   "apps": {
     "total": 130,
-    "reachable": 130,
-    "unreachable": 0,
-    "verified": 129
+    "reachable": 129,
+    "unreachable": 1,
+    "verified": 128
   },
   "sync": {
     "synced": 130,
-    "incrementalHits": 120,
-    "updated": 1,
+    "incrementalHits": 121,
+    "updated": 0,
     "failed": 0,
     "apiRequests": 116
   },
-  "unreachable": [],
-  "updates": [
-    {
-      "slug": "synkplay",
-      "name": "Synkplay",
-      "previousVersion": "0.25.0",
-      "version": "0.26.0",
-      "kind": "updated"
-    }
+  "unreachable": [
+    "cercube"
   ],
+  "updates": [],
   "errors": [],
   "translations": {
     "ar": 100,

@@ -3,11 +3,11 @@
   "lastEventAt": "2026-10-01",
   "totals": {
     "apps": 130,
-    "reachable": 130,
-    "unreachable": 0,
+    "reachable": 129,
+    "unreachable": 1,
     "featured": 7,
-    "healthy": 130,
-    "warning": 0,
+    "healthy": 129,
+    "warning": 1,
     "critical": 0
   },
   "apps": [
@@ -2768,17 +2768,17 @@
       "version": "6.1.3",
       "updatedAt": "2026-09-18",
       "sizeBytes": 2017412,
-      "downloadReachable": true,
-      "detail": "HTTP 302",
-      "statusSince": "2026-09-18",
+      "downloadReachable": false,
+      "detail": "HTTP 404",
+      "statusSince": "2026-10-01",
       "updatedDaysAgo": 13,
       "stale": false,
-      "healthScore": 77,
-      "healthStatus": "healthy",
+      "healthScore": 56,
+      "healthStatus": "warning",
       "scoreBreakdown": {
-        "downloadSuccess": 1.0,
+        "downloadSuccess": 0.9667,
         "updateFrequency": 0.5,
-        "releaseAvailability": 1.0,
+        "releaseAvailability": 0.0,
         "metadataCompleteness": 0.625,
         "sourceReliability": 0.5
       }

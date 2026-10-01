@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-01",
   "totals": {
     "apps": 130,
-    "verified": 129,
+    "verified": 128,
     "communityVerified": 1,
-    "unverified": 0,
+    "unverified": 1,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 19,
-    "avgTrustScore": 6.93,
+    "avgTrustScore": 6.91,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -393,27 +393,6 @@
         "official upstream (github-release)"
       ],
       "downloadURL": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
-    },
-    {
-      "app": "cercube",
-      "name": "Cercube for YouTube",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (altstore)"
-      ],
-      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2726,6 +2705,27 @@
       "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
+    },
+    {
+      "app": "cercube",
+      "name": "Cercube for YouTube",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+      "trustScore": 3.0,
+      "trustBadge": "Experimental"
     },
     {
       "app": "uyouenhanced",

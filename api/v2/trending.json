@@ -1124,23 +1124,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "cercube",
-      "name": "Cercube for YouTube",
-      "category": "photo-video",
-      "version": "6.1.3",
-      "releaseDate": "2026-09-18",
-      "score": 0.7133,
-      "signals": {
-        "recency": 0.7833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "appstoreplusplus",
       "name": "AppStore++",
       "category": "utilities",
@@ -2737,6 +2720,23 @@
       "verificationLevel": "VERIFIED",
       "featured": false,
       "downloadReachable": true
+    },
+    {
+      "slug": "cercube",
+      "name": "Cercube for YouTube",
+      "category": "photo-video",
+      "version": "6.1.3",
+      "releaseDate": "2026-09-18",
+      "score": 0.3133,
+      "signals": {
+        "recency": 0.7833,
+        "availability": 0.0,
+        "featured": 0.0,
+        "verification": 0.0
+      },
+      "verificationLevel": "UNVERIFIED",
+      "featured": false,
+      "downloadReachable": false
     }
   ]
 }
