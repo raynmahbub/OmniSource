@@ -25,7 +25,7 @@ class TestAltStoreFeed(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.raynmahbub.omnisource",
+                "identifier": "app.omnisource",
                 "subtitle": "Curated iOS Apps",
                 "description": "AltStore feed aggregator",
                 "baseURL": "https://raynmahbub.github.io/OmniSource",
@@ -52,7 +52,7 @@ class TestAltStoreFeed(unittest.TestCase):
         envelope = feed_envelope(
             self.catalog,
             name="OmniSource",
-            identifier="com.raynmahbub.omnisource",
+            identifier="app.omnisource",
             subtitle="Curated apps",
             description="All apps",
         )

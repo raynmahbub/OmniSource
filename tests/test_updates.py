@@ -19,7 +19,7 @@ class TestUpdatesDoc(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.raynmahbub.omnisource",
+                "identifier": "app.omnisource",
                 "baseURL": "https://raynmahbub.github.io/OmniSource",
                 "icon": "OmniSource.png",
             },

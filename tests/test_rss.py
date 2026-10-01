@@ -20,7 +20,7 @@ class TestRssFeed(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.raynmahbub.omnisource",
+                "identifier": "app.omnisource",
                 "subtitle": "Curated iOS Apps",
                 "description": "AltStore feed aggregator",
                 "baseURL": "https://raynmahbub.github.io/OmniSource",
@@ -114,7 +114,7 @@ class TestAppRssFeed(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.raynmahbub.omnisource",
+                "identifier": "app.omnisource",
                 "subtitle": "Curated iOS Apps",
                 "description": "AltStore feed aggregator",
                 "baseURL": "https://raynmahbub.github.io/OmniSource",
