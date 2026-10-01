@@ -4,13 +4,13 @@ import SearchBox from "@/components/SearchBox";
 import { getAppsWithIds, getSources, getStatus } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
-const SOURCE_URL = "https://iamsmmh.github.io/OmniSource/apps.json";
+const SOURCE_URL = "https://raynmahbub.github.io/OmniSource/apps.json";
 
 const CLIENTS = [
   { name: "AltStore", href: `altstore://source?url=${SOURCE_URL}` },
   { name: "SideStore", href: `sidestore://source?url=${SOURCE_URL}` },
   { name: "FlareStore", href: `flarestore://source?url=${SOURCE_URL}` },
-  { name: "Feather", href: "feather://source/iamsmmh.github.io/OmniSource/apps.json" },
+  { name: "Feather", href: "feather://source/raynmahbub.github.io/OmniSource/apps.json" },
   { name: "ESign", href: `esign://addsource?url=${SOURCE_URL}` },
   { name: "Ksign", href: `ksign://addsource?url=${SOURCE_URL}` },
   { name: "LiveContainer", href: `livecontainer://sources?url=${SOURCE_URL}` },

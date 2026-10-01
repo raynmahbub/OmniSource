@@ -423,8 +423,8 @@ After deployment:
 ## Support
 
 For questions or issues:
-- **GitHub Issues**: https://github.com/iamsmmh/OmniSource/issues
-- **GitHub Discussions**: https://github.com/iamsmmh/OmniSource/discussions
+- **GitHub Issues**: https://github.com/raynmahbub/OmniSource/issues
+- **GitHub Discussions**: https://github.com/raynmahbub/OmniSource/discussions
 - **Documentation**: See `docs/FEATURES-P0-P3.md` for comprehensive details
 
 ---

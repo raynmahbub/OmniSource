@@ -221,7 +221,7 @@ def _api_manifest(base_url: str, generated_at: str) -> dict[str, Any]:
         "baseURL": base_url.rstrip("/"),
         "generatedAt": generated_at,
         "endpoints": sorted(endpoints, key=lambda item: item["path"]),
-        "docs": "https://github.com/iamsmmh/OmniSource/blob/main/docs/API.md",
+        "docs": "https://github.com/raynmahbub/OmniSource/blob/main/docs/API.md",
     }
 
 
@@ -230,7 +230,7 @@ def _base_url_from_catalog(root: Path) -> str:
         raw = json.loads((root / "catalog.json").read_text(encoding="utf-8"))
         return str(raw.get("source", {}).get("baseURL", ""))
     except (OSError, ValueError):
-        return "https://iamsmmh.github.io/OmniSource"
+        return "https://raynmahbub.github.io/OmniSource"
 
 
 def _app_slugs(root: Path) -> list[str]:

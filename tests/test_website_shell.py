@@ -51,8 +51,8 @@ class TestWebsiteShell(unittest.TestCase):
         home = (ROOT / "index.html").read_text(encoding="utf-8")
         install = (ROOT / "install" / "index.html").read_text(encoding="utf-8")
         css = (ROOT / "assets" / "design-system" / "components.css").read_text(encoding="utf-8")
-        self.assertIn('id="sourceUrlLink" href="https://iamsmmh.github.io/OmniSource/apps.json"', home)
-        self.assertIn('id="installFeedUrlLink" href="https://iamsmmh.github.io/OmniSource/apps.json"', install)
+        self.assertIn('id="sourceUrlLink" href="https://raynmahbub.github.io/OmniSource/apps.json"', home)
+        self.assertIn('id="installFeedUrlLink" href="https://raynmahbub.github.io/OmniSource/apps.json"', install)
         self.assertIn("@media (max-width: 620px)", css)
         self.assertIn("flex-direction: column", css)
         self.assertIn("overflow-wrap: anywhere", css)
@@ -140,7 +140,7 @@ class TestWebsiteShell(unittest.TestCase):
         )
 
     def test_installable_source_url_is_published_at_the_root(self) -> None:
-        # https://iamsmmh.github.io/OmniSource/apps.json is the URL installers
+        # https://raynmahbub.github.io/OmniSource/apps.json is the URL installers
         # register, and GitHub Pages serves it from this branch — so the file
         # must exist in the repository, byte-identical to feeds/apps.json.
         feed = ROOT / "feeds" / "apps.json"
@@ -622,7 +622,7 @@ class TestWebsiteShell(unittest.TestCase):
 
         sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
         for path, _priority, _changefreq in SITE_PAGES:
-            self.assertIn(f"<loc>https://iamsmmh.github.io/OmniSource{path}</loc>", sitemap)
+            self.assertIn(f"<loc>https://raynmahbub.github.io/OmniSource{path}</loc>", sitemap)
 
     def test_page_data_load_is_scoped_and_progressive(self) -> None:
         # Every page used to Promise.all the whole feed bundle (~2 MB) before

@@ -36,7 +36,7 @@ Three source types are supported:
 
 | `source` | Fields | Behavior |
 | --- | --- | --- |
-| `release` (recommended) | `repo`, `tagPrefix`, `assetGlob` | The newest release in your `repo` whose tag starts with `tagPrefix` and that carries an asset matching `assetGlob`. Example: a `iamsmmh/base-ipas` repo with releases `youtube-19.19.3`, `youtube-20.x`… each holding the decrypted IPA. |
+| `release` (recommended) | `repo`, `tagPrefix`, `assetGlob` | The newest release in your `repo` whose tag starts with `tagPrefix` and that carries an asset matching `assetGlob`. Example: a `raynmahbub/base-ipas` repo with releases `youtube-19.19.3`, `youtube-20.x`… each holding the decrypted IPA. |
 | `variable` | `envVar` | The URL is read from a repository **variable** (Settings → Secrets and variables → Actions → Variables) through the API at plan time. |
 | `url` | `url` | A fixed https URL. |
 
@@ -105,7 +105,7 @@ the same pattern `uyouenhanced` already uses for its self-built releases:
 ```json
 "upstream": {
   "method": "github-release",
-  "repo": "iamsmmh/OmniSource",
+  "repo": "raynmahbub/OmniSource",
   "tagPrefix": "tweak-build/ytlite/"
 }
 ```

@@ -2,12 +2,12 @@
   "$schema": "./schemas/catalog.schema.json",
   "source": {
     "name": "OmniSource",
-    "identifier": "com.iamsmmh.omnisource",
+    "identifier": "com.raynmahbub.omnisource",
     "subtitle": "A curated iOS app source for AltStore, SideStore, FlareStore, Feather, ESign, Ksign and LiveContainer",
     "description": "OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app's own official upstream project - GitHub Releases or the developer's official AltStore feed - and each download link is re-verified automatically.",
-    "owner": "iamsmmh",
-    "repository": "https://github.com/iamsmmh/OmniSource",
-    "baseURL": "https://iamsmmh.github.io/OmniSource",
+    "owner": "raynmahbub",
+    "repository": "https://github.com/raynmahbub/OmniSource",
+    "baseURL": "https://raynmahbub.github.io/OmniSource",
     "tintColor": "5B5BD6",
     "icon": "OmniSource.webp",
     "banner": "OmniSource.png"
@@ -178,7 +178,7 @@
         }
       },
       "upstream": {
-        "repo": "iamsmmh/OmniSource",
+        "repo": "raynmahbub/OmniSource",
         "tagPrefix": "uyouenhanced-v",
         "assetSuffixes": [
           ".ipa"

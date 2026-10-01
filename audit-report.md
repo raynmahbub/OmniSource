@@ -1,7 +1,7 @@
 # OmniSource complete repository audit
 
 **Audit date:** 2026-09-12
-**Repository:** `iamsmmh/OmniSource`
+**Repository:** `raynmahbub/OmniSource`
 **Method:** static audit (`python3 scripts/audit.py`), source review, schema/feed
 validation, full Python tests, generated-output checks, and web configuration
 review. The audit is offline and does not treat a missing external provider as

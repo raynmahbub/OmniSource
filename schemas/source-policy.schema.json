@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://iamsmmh.github.io/OmniSource/schemas/source-policy.schema.json",
+  "$id": "https://raynmahbub.github.io/OmniSource/schemas/source-policy.schema.json",
   "title": "OmniSource sourcing policy",
   "description": "Sourcing verdicts recorded in data/source_policy.json. Each rule documents a third-party host, repository or feed name that has been reviewed and must not become an OmniSource source, be promoted out of the discovery store, or be referenced from catalog.json. The rules are a rejection list only: the absence of a rule is not an approval.",
   "type": "object",

@@ -299,7 +299,7 @@ class PublishAndMergeTests(unittest.TestCase):
             "asset_name": "YTLite-v5.2.2.ipa",
             "ipa": "",
             "fragment": "",
-            "run_url": "https://github.com/iamsmmh/OmniSource/actions/runs/1",
+            "run_url": "https://github.com/raynmahbub/OmniSource/actions/runs/1",
             "deb_name": "ytlite.deb",
         }
         payload.update(overrides)

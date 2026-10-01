@@ -4,23 +4,23 @@
 
 <br>
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fiamsmmh.github.io%2FOmniSource%2F&label=website)](https://iamsmmh.github.io/OmniSource/)
-[![Apps](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fiamsmmh%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-apps.json)](https://iamsmmh.github.io/OmniSource/)
-[![Download health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fiamsmmh%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-health.json)](https://iamsmmh.github.io/OmniSource/status/)
-[![Validate](https://github.com/iamsmmh/OmniSource/actions/workflows/validate.yml/badge.svg)](https://github.com/iamsmmh/OmniSource/actions/workflows/validate.yml)
-[![License](https://img.shields.io/github/license/iamsmmh/OmniSource)](LICENSE)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fraynmahbub.github.io%2FOmniSource%2F&label=website)](https://raynmahbub.github.io/OmniSource/)
+[![Apps](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-apps.json)](https://raynmahbub.github.io/OmniSource/)
+[![Download health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-health.json)](https://raynmahbub.github.io/OmniSource/status/)
+[![Validate](https://github.com/raynmahbub/OmniSource/actions/workflows/validate.yml/badge.svg)](https://github.com/raynmahbub/OmniSource/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/raynmahbub/OmniSource)](LICENSE)
 
 <br>
 
-<a href="https://iamsmmh.github.io/OmniSource/install/"><img src="assets/brand/btn-add-source.svg" alt="Add the OmniSource source"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/"><img src="assets/brand/btn-add-source.svg" alt="Add the OmniSource source"></a>
 
 <br>
 
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=altstore"><img src="assets/brand/btn-add-altstore.svg" alt="Add to AltStore" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=sidestore"><img src="assets/brand/btn-add-sidestore.svg" alt="Add to SideStore" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=feather"><img src="assets/brand/btn-add-feather.svg" alt="Add to Feather" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=esign"><img src="assets/brand/btn-add-esign.svg" alt="Add to ESign" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=livecontainer"><img src="assets/brand/btn-add-livecontainer.svg" alt="Add to LiveContainer" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=altstore"><img src="assets/brand/btn-add-altstore.svg" alt="Add to AltStore" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=sidestore"><img src="assets/brand/btn-add-sidestore.svg" alt="Add to SideStore" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=feather"><img src="assets/brand/btn-add-feather.svg" alt="Add to Feather" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=esign"><img src="assets/brand/btn-add-esign.svg" alt="Add to ESign" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=livecontainer"><img src="assets/brand/btn-add-livecontainer.svg" alt="Add to LiveContainer" height="46"></a>
 
 **One installable source for AltStore, SideStore, Feather, ESign and LiveContainer.**
 
@@ -31,41 +31,41 @@
 ## Add the source
 
 ```text
-https://iamsmmh.github.io/OmniSource/apps.json
+https://raynmahbub.github.io/OmniSource/apps.json
 ```
 
 Paste that URL into your client's *Add Source* screen. On an iPhone, the buttons
-above open the [installation center](https://iamsmmh.github.io/OmniSource/install/),
+above open the [installation center](https://raynmahbub.github.io/OmniSource/install/),
 which hands off to the client directly and shows a QR code when it is not installed.
 GitHub and most chat apps strip client schemes (`altstore://`, `feather://`, …), so
 the HTTPS install page is the reliable entry point from anywhere.
 
 ## Everything else lives on the website
 
-**→ <https://iamsmmh.github.io/OmniSource/>**
+**→ <https://raynmahbub.github.io/OmniSource/>**
 
 The site is the primary documentation surface: app descriptions, screenshots,
 release history, per-app hashes and provenance, source health, install guides and
 the API reference. This README deliberately stays short and points there.
 
 <p>
-<a href="https://iamsmmh.github.io/OmniSource/"><img src="assets/brand/btn-website.svg" alt="Website" height="44"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/"><img src="assets/brand/btn-install.svg" alt="Add the source" height="44"></a>
-<a href="https://iamsmmh.github.io/OmniSource/docs/"><img src="assets/brand/btn-docs.svg" alt="Documentation" height="44"></a>
-<a href="https://iamsmmh.github.io/OmniSource/api/index.json"><img src="assets/brand/btn-api.svg" alt="API v3" height="44"></a>
+<a href="https://raynmahbub.github.io/OmniSource/"><img src="assets/brand/btn-website.svg" alt="Website" height="44"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/"><img src="assets/brand/btn-install.svg" alt="Add the source" height="44"></a>
+<a href="https://raynmahbub.github.io/OmniSource/docs/"><img src="assets/brand/btn-docs.svg" alt="Documentation" height="44"></a>
+<a href="https://raynmahbub.github.io/OmniSource/api/index.json"><img src="assets/brand/btn-api.svg" alt="API v3" height="44"></a>
 <a href="web/"><img src="assets/brand/btn-webapp.svg" alt="Web app" height="44"></a>
 <a href="CONTRIBUTING.md"><img src="assets/brand/btn-contribute.svg" alt="Contributing" height="44"></a>
 </p>
 
 | Page | What you get |
 |---|---|
-| [Home · catalog](https://iamsmmh.github.io/OmniSource/) | every app, search, filters, collections, live stats |
-| [Install center](https://iamsmmh.github.io/OmniSource/install/) | one-tap add links, QR codes, per-client walkthroughs |
-| [App page](https://iamsmmh.github.io/OmniSource/apps/delta/) | description, screenshots, release history, hashes, install |
-| [Sources](https://iamsmmh.github.io/OmniSource/sources/) | upstreams, maintainers, cadence, reputation |
-| [Status](https://iamsmmh.github.io/OmniSource/status/) | link health, verification, sync and security reports |
-| [Docs](https://iamsmmh.github.io/OmniSource/docs/) | architecture, API, operations, deployment |
-| [Machine API](https://iamsmmh.github.io/OmniSource/api/index.json) | JSON feeds, versions, gzip twins |
+| [Home · catalog](https://raynmahbub.github.io/OmniSource/) | every app, search, filters, collections, live stats |
+| [Install center](https://raynmahbub.github.io/OmniSource/install/) | one-tap add links, QR codes, per-client walkthroughs |
+| [App page](https://raynmahbub.github.io/OmniSource/apps/delta/) | description, screenshots, release history, hashes, install |
+| [Sources](https://raynmahbub.github.io/OmniSource/sources/) | upstreams, maintainers, cadence, reputation |
+| [Status](https://raynmahbub.github.io/OmniSource/status/) | link health, verification, sync and security reports |
+| [Docs](https://raynmahbub.github.io/OmniSource/docs/) | architecture, API, operations, deployment |
+| [Machine API](https://raynmahbub.github.io/OmniSource/api/index.json) | JSON feeds, versions, gzip twins |
 
 **What is OmniSource?** Every entry is resolved from the app's own official
 upstream — GitHub releases, a developer feed, or a project's own releases page —

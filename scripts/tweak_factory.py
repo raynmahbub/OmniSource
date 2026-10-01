@@ -63,7 +63,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "data" / "tweak-builds.json"
 STATE_PATH = ROOT / "data" / "tweak-builds-state.json"
 CATALOG_PATH = ROOT / "catalog.json"
-USER_AGENT = "omnisource-tweak-factory (+https://iamsmmh.github.io/OmniSource)"
+USER_AGENT = "omnisource-tweak-factory (+https://raynmahbub.github.io/OmniSource)"
 RELEASES_URL = "https://api.github.com/repos/{repo}/releases?per_page=30"
 RELEASE_TAG_URL = "https://api.github.com/repos/{repo}/releases/tags/{tag}"
 VARIABLE_URL = "https://api.github.com/repos/{repo}/actions/variables/{name}"

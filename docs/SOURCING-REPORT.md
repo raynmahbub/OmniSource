@@ -1,6 +1,6 @@
 # Sourcing report — OmniSource additions from RyukSign & Senumy
 
-Date: 2026-09-10 · Branch: `arena/01a08c5f-omnisource` · PR: https://github.com/iamsmmh/OmniSource/pull/42
+Date: 2026-09-10 · Branch: `arena/01a08c5f-omnisource` · PR: https://github.com/raynmahbub/OmniSource/pull/42
 Sources: `https://store.ryuksign.com/` and `https://senumy.com/ipa-library/` (jailbreak, emulator, tweaks, 3rd-party-store and IPA-installer pages)
 
 This report records what was taken from those pages and what was skipped, with the reason.

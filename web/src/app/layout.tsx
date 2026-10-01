@@ -7,7 +7,7 @@ import { getLangDict, isRtl } from "@/lib/lang";
 
 // Canonical origin for absolutised metadata. Deployments can override it with
 // NEXT_PUBLIC_SITE_URL; the default matches where the catalog is published.
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://iamsmmh.github.io/OmniSource";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raynmahbub.github.io/OmniSource";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

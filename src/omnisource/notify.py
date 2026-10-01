@@ -23,7 +23,7 @@ def send_discord_notification(
     updates: list[UpdateEvent | dict[str, Any]],
     *,
     source_name: str = "OmniSource",
-    base_url: str = "https://iamsmmh.github.io/OmniSource",
+    base_url: str = "https://raynmahbub.github.io/OmniSource",
     timeout: float = 15.0,
 ) -> bool:
     """Send a rich Discord webhook embed for a list of release updates."""
@@ -95,7 +95,7 @@ def send_telegram_notification(
     updates: list[UpdateEvent | dict[str, Any]],
     *,
     source_name: str = "OmniSource",
-    base_url: str = "https://iamsmmh.github.io/OmniSource",
+    base_url: str = "https://raynmahbub.github.io/OmniSource",
     timeout: float = 15.0,
 ) -> bool:
     """Send formatted Telegram HTML messages for a list of release updates."""
@@ -161,7 +161,7 @@ def send_ntfy_notification(
     updates: list[UpdateEvent | dict[str, Any]],
     *,
     source_name: str = "OmniSource",
-    base_url: str = "https://iamsmmh.github.io/OmniSource",
+    base_url: str = "https://raynmahbub.github.io/OmniSource",
     timeout: float = 15.0,
 ) -> bool:
     """Publish release updates to an ntfy.sh topic (push notifications)."""
@@ -223,7 +223,7 @@ def send_generic_webhook(
     updates: list[UpdateEvent | dict[str, Any]],
     *,
     source_name: str = "OmniSource",
-    base_url: str = "https://iamsmmh.github.io/OmniSource",
+    base_url: str = "https://raynmahbub.github.io/OmniSource",
     timeout: float = 15.0,
 ) -> bool:
     """POST a structured JSON payload to any webhook (Slack/Matrix/Pushover/...)."""
@@ -267,7 +267,7 @@ def dispatch_configured_notifications(
     updates: list[UpdateEvent | dict[str, Any]],
     *,
     source_name: str = "OmniSource",
-    base_url: str = "https://iamsmmh.github.io/OmniSource",
+    base_url: str = "https://raynmahbub.github.io/OmniSource",
 ) -> None:
     """Dispatch updates to every transport configured through environment variables.
 

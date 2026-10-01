@@ -8,7 +8,7 @@ the feeds, and the supply chain between an upstream release and your device.
 
 ## Reporting a vulnerability
 
-Use [private vulnerability reporting](https://github.com/iamsmmh/OmniSource/security/advisories/new).
+Use [private vulnerability reporting](https://github.com/raynmahbub/OmniSource/security/advisories/new).
 Do not open a public issue for:
 
 - a feed entry pointing at a malicious or hijacked download,

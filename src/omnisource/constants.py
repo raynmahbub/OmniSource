@@ -10,7 +10,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-USER_AGENT = "OmniSource-Sync/3.0 (+https://github.com/iamsmmh/OmniSource)"
+USER_AGENT = "OmniSource-Sync/3.0 (+https://github.com/raynmahbub/OmniSource)"
 GITHUB_API_ROOT = "https://api.github.com"
 
 VERSION_RE_PATTERN = r"(\d+\.\d+(?:\.\d+)?)"
