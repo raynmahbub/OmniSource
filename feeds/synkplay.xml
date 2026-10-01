@@ -5,8 +5,95 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/synkplay.json</link>
     <description>Release feed for Synkplay within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/synkplay.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Synkplay v0.26.0</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/synkplay.json</link>
+      <guid isPermaLink="false">synkplay-0.26.0</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Synkplay 0.26.0 | synkplay-0.26.0-ios
+
+<table align="center"><tr>
+<td align="center" rowspan="2"><img src="https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/synkplay_app_badge_512.png" width="128" alt="Synkplay"></td>
+<td align="center"><a href="https://play.google.com/store/apps/details?id=com.yuroyami.syncplay"><img src="https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/google-play.png" width="150" alt="Get it on Google Play"></a></td>
+<td align="center"><a href="https://apps.apple.com/us/app/synkplay/id6760187432"><img src="https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/app-store.png" width="150" alt="Download on the App Store"></a></td>
+</tr><tr>
+<td align="center"><a href="https://apt.izzysoft.de/fdroid/index/apk/com.reddnek.syncplay"><img src="https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/IzzyOnDroid.png" width="150" alt="Get it on IzzyOnDroid"></a></td>
+<td align="center"><a href="https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/yuroyami/syncplay-mobile/refs/heads/master/altstore_yuroyami.json"><img src="https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/AltSource_Blue.png" width="150" alt="Add the AltStore source"></a></td>
+</tr></table>
+
+> This release is not on Google Play or the App Store yet.
+
+<details open><summary><h2>Changelog <sub>since v0.25.0</sub></h2></summary>
+
+- iOS: picture-in-picture now works with AVPlayer and KitePlayer.
+- A hosted room can now encrypt its connections. Turn on Encrypt connections when you host. When a server's certificate is not trusted by the system, the app shows its fingerprint and lets you decide.
+- Small drifts between watchers are now corrected with a speed change of half a percent, which nobody notices, instead of a jump.
+- Headset buttons, the lock screen and the notification no longer pause or seek the whole room by accident. On a TV, the remote's media keys still control the room.
+- When a connection fails, the app now says why.
+- Home keeps your five recent rooms under the join key.
+- KitePlayer is now on 0.2.0. Its audio visualizer studies a linked song in seconds and remembers it, and switching between the visualizer and the video no longer cuts the sound.
+- The audio visualizer now asks once before it first turns on, because it can flash. Reduce motion also calms it, with no flashes at all. Two patterns that flashed too often on a busy beat were fixed.
+- ExoPlayer now shows chapters from MKV and MP4 files, and each chapter shows a still frame.
+- The seek bar shows what is buffered with mpv, KitePlayer and AVPlayer.
+- An audio or subtitle track that you pick now carries to the next file, by its language.
+- Subtitle searches now send the episode and the file's hash, for better matches.
+- Media folders show when the app lost access to them. A playlist file that none of your folders holds is marked, and you can point the app to it.
+- The hosted server now limits connections and drops a client that floods it.
+- A chat line or a playlist change can no longer reach the server twice after a reconnect.
+- Joining from a link, a shortcut or a Quick Action now works at any time.
+- Screen readers: the room controls stay on screen while a screen reader runs.
+- Android: you can pick the app's language in the system's per-app language setting.
+- Android: a baseline profile makes the app start faster.
+- About now lists the open source licences, and its panel is liquid glass.
+- iOS VLC: updated to VLCKit 4.0.0a24.
+- The log now hides identifying details and limits its size.
+- Notices now fade in and out.
+- Small fixes for Android TV focus, the picture-in-picture offer, mpv volume and ExoPlayer subtitles.
+
+
+</details>
+
+## Translations &nbsp;<a href="https://hosted.weblate.org/engage/syncplay-mobile/"><img src="https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg" alt="Translation status" height="20"></a>
+
+Help translate Synkplay on [Weblate](https://hosted.weblate.org/engage/syncplay-mobile/).
+
+<details><summary><h2>Downloads</h2></summary>
+
+<table>
+<tr><th colspan="2">Android &nbsp;<img src="https://img.shields.io/badge/8.0%2B-3DDC84?logo=android&logoColor=white&label=" alt="Android 8.0 and up" height="20"></th></tr>
+<tr><th width="380">Full universal build</th><th width="380">Lite IzzyOnDroid build</th></tr>
+<tr><td align="center"><a href="https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-full-universal.apk"><b>synkplay-0.26.0-full-universal.apk</b></a><br><sub>98 MB</sub></td><td align="center"><a href="https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/syncplay-0.26.0-exo-only.apk"><b>syncplay-0.26.0-exo-only.apk</b></a><br><sub>19 MB</sub></td></tr>
+<tr><td>✔️ All three engines (ExoPlayer, mpv and KitePlayer)</td><td>❌ ExoPlayer only, no mpv or KitePlayer</td></tr>
+</table>
+
+<table>
+<tr><th width="760">iOS &nbsp;<img src="https://img.shields.io/badge/15.0%2B-000000?logo=apple&logoColor=white&label=" alt="iOS 15.0 and up" height="20"></th></tr>
+<tr><td align="center"><a href="https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa"><b>synkplay-0.26.0-ios.ipa</b></a><br><sub>90 MB</sub><br><br>To sideload, follow the <a href="https://github.com/yuroyami/syncplay-mobile/wiki/How-to-install-the-app-on-iOS">install guide</a>. Otherwise, get it from the <a href="https://apps.apple.com/us/app/synkplay/id6760187432">App Store</a>.</td></tr>
+</table>
+
+</details>
+
+<details><summary><h2>Dependencies</h2></summary>
+
+| Component | Where | Version |
+|---|---|---|
+| Kotlin | Toolchain | 2.4.20 |
+| Compose Multiplatform | Toolchain | 1.12.1 |
+| Android Gradle Plugin | Toolchain | 9.4.1 |
+| Gradle | Toolchain | 9.8.0 |
+| Ktor | Network, all platforms | 3.6.0 |
+| Netty | Network, Android | 4.2.18.Final |
+| SwiftNIO | Network, iOS | 2.95.0 |
+| ExoPlayer (Media3) | Video engine, Android | 1.11.1 |
+| libmpvKt (mpv, FFmpeg, libass and libplacebo inside) | Video engine, Android, full build only | 0.3.0 |
+| VLCKit | Video engine, iOS | 4.0.0a24 |
+| KitePlayer, with KiteFFmpeg inside | Video engine, all platforms, experimental | 0.2.0 |
+
+</details>]]></description>
+      <enclosure url="https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Synkplay v0.25.0</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/synkplay.json</link>
