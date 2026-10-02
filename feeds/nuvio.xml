@@ -5,8 +5,25 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/nuvio.json</link>
     <description>Release feed for Nuvio within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/nuvio.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nuvio v0.5.6</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/nuvio.json</link>
+      <guid isPermaLink="false">nuvio-0.5.6</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nuvio 0.5.6 | nuvio-0.5.6-full-release
+
+- 312f7399 feat(details): use desktop hero layout on tablets @tapframe  
+- b3d7c5b6 feat(settings): show restart prompt when layout direction changes @tapframe  
+- a984b390 fix(ios): declare supported localizations @tapframe  
+- f0f980b3 fix(player): auto-play next episode on end after dismissing prompt @tapframe  
+- [i18n(vi): update latest Vietnamese strings (#2146)](https://github.com/NuvioMedia/NuvioMobile/pull/2146) @blueocean2308  
+- [Preload next episode sources (#2140)](https://github.com/NuvioMedia/NuvioMobile/pull/2140) @skoruppa  
+- [Fix mising poster fallback in Catalog Screen (#2139)](https://github.com/NuvioMedia/NuvioMobile/pull/2139) @skoruppa  
+- [fix(player): backport automatic skip notifications from Desktop (#2137)](https://github.com/NuvioMedia/NuvioMobile/pull/2137) @Laskco]]></description>
+      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.6-beta/nuvio-0.5.6-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Nuvio v0.5.5</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/nuvio.json</link>
