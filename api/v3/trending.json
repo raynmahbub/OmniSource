@@ -1,10 +1,10 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "d8083239bac1",
+  "feedVersion": "2e5b8f35af51",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-01",
+    "generatedAt": "2026-10-02",
     "count": 130,
     "formula": {
       "weights": {
@@ -20,11 +20,11 @@
         "slug": "spotiflac",
         "name": "SpotiFLAC Mobile",
         "category": "music",
-        "version": "5.0.6",
-        "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "version": "5.0.7",
+        "releaseDate": "2026-10-01",
+        "score": 0.9933,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9833,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -39,9 +39,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -56,9 +56,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -73,9 +73,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -90,9 +90,9 @@
         "category": "music",
         "version": "9.39.2",
         "releaseDate": "2026-09-26",
-        "score": 0.9667,
+        "score": 0.96,
         "signals": {
-          "recency": 0.9167,
+          "recency": 0.9,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -107,9 +107,43 @@
         "category": "photo-video",
         "version": "0.26.0",
         "releaseDate": "2026-10-01",
-        "score": 0.8,
+        "score": 0.7933,
         "signals": {
-          "recency": 1.0,
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "onionbrowser",
+        "name": "Onion Browser",
+        "category": "networking",
+        "version": "3.4.2",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "orbot",
+        "name": "Orbot",
+        "category": "networking",
+        "version": "1.13.0",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -124,9 +158,9 @@
         "category": "photo-video",
         "version": "0.5.5",
         "releaseDate": "2026-09-30",
-        "score": 0.7933,
+        "score": 0.7867,
         "signals": {
-          "recency": 0.9833,
+          "recency": 0.9667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -141,43 +175,9 @@
         "category": "social",
         "version": "3.8.5",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
-        "slug": "glow",
-        "name": "Glow",
-        "category": "social",
-        "version": "2026.39.0",
-        "releaseDate": "2026-09-29",
-        "score": 0.7867,
-        "signals": {
-          "recency": 0.9667,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
-        "slug": "threadsaver",
-        "name": "ThreadSaver",
-        "category": "social",
-        "version": "449.0",
-        "releaseDate": "2026-09-29",
-        "score": 0.7867,
-        "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -189,14 +189,65 @@
     ],
     "rising": [
       {
+        "slug": "spotiflac",
+        "name": "SpotiFLAC Mobile",
+        "category": "music",
+        "version": "5.0.7",
+        "releaseDate": "2026-10-01",
+        "score": 0.9933,
+        "signals": {
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 1.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": true,
+        "downloadReachable": true
+      },
+      {
         "slug": "synkplay",
         "name": "Synkplay",
         "category": "photo-video",
         "version": "0.26.0",
         "releaseDate": "2026-10-01",
-        "score": 0.8,
+        "score": 0.7933,
         "signals": {
-          "recency": 1.0,
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "onionbrowser",
+        "name": "Onion Browser",
+        "category": "networking",
+        "version": "3.4.2",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "orbot",
+        "name": "Orbot",
+        "category": "networking",
+        "version": "1.13.0",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -211,9 +262,9 @@
         "category": "photo-video",
         "version": "0.5.5",
         "releaseDate": "2026-09-30",
-        "score": 0.7933,
+        "score": 0.7867,
         "signals": {
-          "recency": 0.9833,
+          "recency": 0.9667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -228,9 +279,9 @@
         "category": "social",
         "version": "3.8.5",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -245,9 +296,9 @@
         "category": "social",
         "version": "2026.39.0",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -262,9 +313,9 @@
         "category": "social",
         "version": "449.0",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -274,31 +325,14 @@
         "downloadReachable": true
       },
       {
-        "slug": "spotiflac",
-        "name": "SpotiFLAC Mobile",
-        "category": "music",
-        "version": "5.0.6",
-        "releaseDate": "2026-09-28",
-        "score": 0.98,
-        "signals": {
-          "recency": 0.95,
-          "availability": 1.0,
-          "featured": 1.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": true,
-        "downloadReachable": true
-      },
-      {
         "slug": "ytlite",
         "name": "YouTubePlus",
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -313,62 +347,79 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
         },
         "verificationLevel": "VERIFIED",
         "featured": true,
-        "downloadReachable": true
-      },
-      {
-        "slug": "youmod",
-        "name": "uPro Plus",
-        "category": "photo-video",
-        "version": "21.39.4",
-        "releaseDate": "2026-09-28",
-        "score": 0.98,
-        "signals": {
-          "recency": 0.95,
-          "availability": 1.0,
-          "featured": 1.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": true,
-        "downloadReachable": true
-      },
-      {
-        "slug": "ytkace",
-        "name": "YTKACE",
-        "category": "photo-video",
-        "version": "21.39.4",
-        "releaseDate": "2026-09-28",
-        "score": 0.78,
-        "signals": {
-          "recency": 0.95,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
         "downloadReachable": true
       }
     ],
     "recentlyUpdated": [
       {
+        "slug": "spotiflac",
+        "name": "SpotiFLAC Mobile",
+        "category": "music",
+        "version": "5.0.7",
+        "releaseDate": "2026-10-01",
+        "score": 0.9933,
+        "signals": {
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 1.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": true,
+        "downloadReachable": true
+      },
+      {
         "slug": "synkplay",
         "name": "Synkplay",
         "category": "photo-video",
         "version": "0.26.0",
         "releaseDate": "2026-10-01",
-        "score": 0.8,
+        "score": 0.7933,
         "signals": {
-          "recency": 1.0,
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "onionbrowser",
+        "name": "Onion Browser",
+        "category": "networking",
+        "version": "3.4.2",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "orbot",
+        "name": "Orbot",
+        "category": "networking",
+        "version": "1.13.0",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -383,9 +434,9 @@
         "category": "photo-video",
         "version": "0.5.5",
         "releaseDate": "2026-09-30",
-        "score": 0.7933,
+        "score": 0.7867,
         "signals": {
-          "recency": 0.9833,
+          "recency": 0.9667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -400,9 +451,9 @@
         "category": "social",
         "version": "3.8.5",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -417,9 +468,9 @@
         "category": "social",
         "version": "2026.39.0",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -434,9 +485,9 @@
         "category": "social",
         "version": "449.0",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -446,31 +497,14 @@
         "downloadReachable": true
       },
       {
-        "slug": "spotiflac",
-        "name": "SpotiFLAC Mobile",
-        "category": "music",
-        "version": "5.0.6",
-        "releaseDate": "2026-09-28",
-        "score": 0.98,
-        "signals": {
-          "recency": 0.95,
-          "availability": 1.0,
-          "featured": 1.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": true,
-        "downloadReachable": true
-      },
-      {
         "slug": "ytlite",
         "name": "YouTubePlus",
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -485,49 +519,15 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
         },
         "verificationLevel": "VERIFIED",
         "featured": true,
-        "downloadReachable": true
-      },
-      {
-        "slug": "youmod",
-        "name": "uPro Plus",
-        "category": "photo-video",
-        "version": "21.39.4",
-        "releaseDate": "2026-09-28",
-        "score": 0.98,
-        "signals": {
-          "recency": 0.95,
-          "availability": 1.0,
-          "featured": 1.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": true,
-        "downloadReachable": true
-      },
-      {
-        "slug": "ytkace",
-        "name": "YTKACE",
-        "category": "photo-video",
-        "version": "21.39.4",
-        "releaseDate": "2026-09-28",
-        "score": 0.78,
-        "signals": {
-          "recency": 0.95,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
         "downloadReachable": true
       }
     ],
@@ -536,11 +536,11 @@
         "slug": "spotiflac",
         "name": "SpotiFLAC Mobile",
         "category": "music",
-        "version": "5.0.6",
-        "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "version": "5.0.7",
+        "releaseDate": "2026-10-01",
+        "score": 0.9933,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9833,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -555,9 +555,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -572,9 +572,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -589,9 +589,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.98,
+        "score": 0.9733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -606,9 +606,9 @@
         "category": "music",
         "version": "9.39.2",
         "releaseDate": "2026-09-26",
-        "score": 0.9667,
+        "score": 0.96,
         "signals": {
-          "recency": 0.9167,
+          "recency": 0.9,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 1.0
@@ -623,9 +623,43 @@
         "category": "photo-video",
         "version": "0.26.0",
         "releaseDate": "2026-10-01",
-        "score": 0.8,
+        "score": 0.7933,
         "signals": {
-          "recency": 1.0,
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "onionbrowser",
+        "name": "Onion Browser",
+        "category": "networking",
+        "version": "3.4.2",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
+        "slug": "orbot",
+        "name": "Orbot",
+        "category": "networking",
+        "version": "1.13.0",
+        "releaseDate": "2026-10-01",
+        "score": 0.7933,
+        "signals": {
+          "recency": 0.9833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -640,9 +674,9 @@
         "category": "photo-video",
         "version": "0.5.5",
         "releaseDate": "2026-09-30",
-        "score": 0.7933,
+        "score": 0.7867,
         "signals": {
-          "recency": 0.9833,
+          "recency": 0.9667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -657,9 +691,9 @@
         "category": "social",
         "version": "3.8.5",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -674,9 +708,9 @@
         "category": "social",
         "version": "2026.39.0",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -691,9 +725,9 @@
         "category": "social",
         "version": "449.0",
         "releaseDate": "2026-09-29",
-        "score": 0.7867,
+        "score": 0.78,
         "signals": {
-          "recency": 0.9667,
+          "recency": 0.95,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -708,9 +742,9 @@
         "category": "photo-video",
         "version": "21.39.4",
         "releaseDate": "2026-09-28",
-        "score": 0.78,
+        "score": 0.7733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -725,9 +759,9 @@
         "category": "developer-tools",
         "version": "3.1.13",
         "releaseDate": "2026-09-28",
-        "score": 0.78,
+        "score": 0.7733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -742,9 +776,9 @@
         "category": "utilities",
         "version": "4.1.8",
         "releaseDate": "2026-09-28",
-        "score": 0.78,
+        "score": 0.7733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -759,9 +793,9 @@
         "category": "social",
         "version": "1.2.9",
         "releaseDate": "2026-09-28",
-        "score": 0.78,
+        "score": 0.7733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -776,9 +810,9 @@
         "category": "photo-video",
         "version": "3.0.0",
         "releaseDate": "2026-09-28",
-        "score": 0.78,
+        "score": 0.7733,
         "signals": {
-          "recency": 0.95,
+          "recency": 0.9333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -793,9 +827,9 @@
         "category": "social",
         "version": "8.80.0",
         "releaseDate": "2026-09-27",
-        "score": 0.7733,
+        "score": 0.7667,
         "signals": {
-          "recency": 0.9333,
+          "recency": 0.9167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -810,9 +844,9 @@
         "category": "utilities",
         "version": "0.15.0",
         "releaseDate": "2026-09-27",
-        "score": 0.7733,
+        "score": 0.7667,
         "signals": {
-          "recency": 0.9333,
+          "recency": 0.9167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -827,9 +861,9 @@
         "category": "photo-video",
         "version": "21.38.3",
         "releaseDate": "2026-09-26",
-        "score": 0.7667,
+        "score": 0.76,
         "signals": {
-          "recency": 0.9167,
+          "recency": 0.9,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -844,9 +878,9 @@
         "category": "social",
         "version": "580.0.0",
         "releaseDate": "2026-09-24",
-        "score": 0.7533,
+        "score": 0.7467,
         "signals": {
-          "recency": 0.8833,
+          "recency": 0.8667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -861,9 +895,9 @@
         "category": "social",
         "version": "580.0.0",
         "releaseDate": "2026-09-24",
-        "score": 0.7533,
+        "score": 0.7467,
         "signals": {
-          "recency": 0.8833,
+          "recency": 0.8667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -878,9 +912,9 @@
         "category": "social",
         "version": "580.0.0",
         "releaseDate": "2026-09-24",
-        "score": 0.7533,
+        "score": 0.7467,
         "signals": {
-          "recency": 0.8833,
+          "recency": 0.8667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -895,9 +929,9 @@
         "category": "social",
         "version": "6.4.22",
         "releaseDate": "2026-09-24",
-        "score": 0.7533,
+        "score": 0.7467,
         "signals": {
-          "recency": 0.8833,
+          "recency": 0.8667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -912,9 +946,9 @@
         "category": "social",
         "version": "448.0.0",
         "releaseDate": "2026-09-23",
-        "score": 0.7467,
+        "score": 0.74,
         "signals": {
-          "recency": 0.8667,
+          "recency": 0.85,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -929,9 +963,9 @@
         "category": "social",
         "version": "47.0.0",
         "releaseDate": "2026-09-23",
-        "score": 0.7467,
+        "score": 0.74,
         "signals": {
-          "recency": 0.8667,
+          "recency": 0.85,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -946,9 +980,9 @@
         "category": "utilities",
         "version": "13.2.2",
         "releaseDate": "2026-09-23",
-        "score": 0.7467,
+        "score": 0.74,
         "signals": {
-          "recency": 0.8667,
+          "recency": 0.85,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -963,9 +997,9 @@
         "category": "utilities",
         "version": "3.0.10",
         "releaseDate": "2026-09-23",
-        "score": 0.7467,
+        "score": 0.74,
         "signals": {
-          "recency": 0.8667,
+          "recency": 0.85,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -980,9 +1014,9 @@
         "category": "other",
         "version": "0.9.7",
         "releaseDate": "2026-09-22",
-        "score": 0.74,
+        "score": 0.7333,
         "signals": {
-          "recency": 0.85,
+          "recency": 0.8333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -997,9 +1031,9 @@
         "category": "social",
         "version": "12.9.3",
         "releaseDate": "2026-09-21",
-        "score": 0.7333,
+        "score": 0.7267,
         "signals": {
-          "recency": 0.8333,
+          "recency": 0.8167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1014,9 +1048,9 @@
         "category": "social",
         "version": "448.0.0",
         "releaseDate": "2026-09-21",
-        "score": 0.7333,
+        "score": 0.7267,
         "signals": {
-          "recency": 0.8333,
+          "recency": 0.8167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1031,9 +1065,9 @@
         "category": "social",
         "version": "448.0.0",
         "releaseDate": "2026-09-21",
-        "score": 0.7333,
+        "score": 0.7267,
         "signals": {
-          "recency": 0.8333,
+          "recency": 0.8167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1048,9 +1082,9 @@
         "category": "social",
         "version": "1.5.4",
         "releaseDate": "2026-09-21",
-        "score": 0.7333,
+        "score": 0.7267,
         "signals": {
-          "recency": 0.8333,
+          "recency": 0.8167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1065,9 +1099,9 @@
         "category": "other",
         "version": "3.1.8",
         "releaseDate": "2026-09-20",
-        "score": 0.7267,
+        "score": 0.72,
         "signals": {
-          "recency": 0.8167,
+          "recency": 0.8,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1082,9 +1116,9 @@
         "category": "utilities",
         "version": "1.27.9",
         "releaseDate": "2026-09-20",
-        "score": 0.7267,
+        "score": 0.72,
         "signals": {
-          "recency": 0.8167,
+          "recency": 0.8,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1099,9 +1133,9 @@
         "category": "games",
         "version": "2.0.1",
         "releaseDate": "2026-09-18",
-        "score": 0.7133,
+        "score": 0.7067,
         "signals": {
-          "recency": 0.7833,
+          "recency": 0.7667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1116,9 +1150,9 @@
         "category": "utilities",
         "version": "0.1.6",
         "releaseDate": "2026-09-18",
-        "score": 0.7133,
+        "score": 0.7067,
         "signals": {
-          "recency": 0.7833,
+          "recency": 0.7667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1133,9 +1167,9 @@
         "category": "utilities",
         "version": "2.3.15",
         "releaseDate": "2026-09-17",
-        "score": 0.7067,
+        "score": 0.7,
         "signals": {
-          "recency": 0.7667,
+          "recency": 0.75,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1150,9 +1184,9 @@
         "category": "photo-video",
         "version": "8.5.5",
         "releaseDate": "2026-09-16",
-        "score": 0.7,
+        "score": 0.6933,
         "signals": {
-          "recency": 0.75,
+          "recency": 0.7333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1167,9 +1201,9 @@
         "category": "photo-video",
         "version": "1.1.6",
         "releaseDate": "2026-09-16",
-        "score": 0.7,
+        "score": 0.6933,
         "signals": {
-          "recency": 0.75,
+          "recency": 0.7333,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1184,9 +1218,9 @@
         "category": "music",
         "version": "9.37.2",
         "releaseDate": "2026-09-15",
-        "score": 0.6933,
+        "score": 0.6867,
         "signals": {
-          "recency": 0.7333,
+          "recency": 0.7167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1201,9 +1235,9 @@
         "category": "utilities",
         "version": "0.7.0",
         "releaseDate": "2026-09-15",
-        "score": 0.6933,
+        "score": 0.6867,
         "signals": {
-          "recency": 0.7333,
+          "recency": 0.7167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1218,9 +1252,9 @@
         "category": "utilities",
         "version": "2.0",
         "releaseDate": "2026-09-14",
-        "score": 0.6867,
+        "score": 0.68,
         "signals": {
-          "recency": 0.7167,
+          "recency": 0.7,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1235,9 +1269,9 @@
         "category": "social",
         "version": "2.49.1",
         "releaseDate": "2026-09-13",
-        "score": 0.68,
+        "score": 0.6733,
         "signals": {
-          "recency": 0.7,
+          "recency": 0.6833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1252,9 +1286,9 @@
         "category": "social",
         "version": "12.9.4",
         "releaseDate": "2026-09-12",
-        "score": 0.6733,
+        "score": 0.6667,
         "signals": {
-          "recency": 0.6833,
+          "recency": 0.6667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1269,9 +1303,9 @@
         "category": "utilities",
         "version": "2.4.9.27",
         "releaseDate": "2026-09-12",
-        "score": 0.6733,
+        "score": 0.6667,
         "signals": {
-          "recency": 0.6833,
+          "recency": 0.6667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1286,9 +1320,9 @@
         "category": "social",
         "version": "446.0.0",
         "releaseDate": "2026-09-09",
-        "score": 0.6533,
+        "score": 0.6467,
         "signals": {
-          "recency": 0.6333,
+          "recency": 0.6167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1303,9 +1337,9 @@
         "category": "other",
         "version": "1.4.1",
         "releaseDate": "2026-09-09",
-        "score": 0.6533,
+        "score": 0.6467,
         "signals": {
-          "recency": 0.6333,
+          "recency": 0.6167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1320,9 +1354,9 @@
         "category": "photo-video",
         "version": "0.11.1",
         "releaseDate": "2026-09-08",
-        "score": 0.6467,
+        "score": 0.64,
         "signals": {
-          "recency": 0.6167,
+          "recency": 0.6,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1337,9 +1371,9 @@
         "category": "music",
         "version": "1.2.5",
         "releaseDate": "2026-09-08",
-        "score": 0.6467,
+        "score": 0.64,
         "signals": {
-          "recency": 0.6167,
+          "recency": 0.6,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1354,9 +1388,9 @@
         "category": "social",
         "version": "2.6.1",
         "releaseDate": "2026-09-07",
-        "score": 0.64,
+        "score": 0.6333,
         "signals": {
-          "recency": 0.6,
+          "recency": 0.5833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1371,23 +1405,6 @@
         "category": "other",
         "version": "0.9",
         "releaseDate": "2026-09-03",
-        "score": 0.6133,
-        "signals": {
-          "recency": 0.5333,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
-        "slug": "jellify",
-        "name": "Jellify",
-        "category": "music",
-        "version": "1.2.10",
-        "releaseDate": "2026-09-02",
         "score": 0.6067,
         "signals": {
           "recency": 0.5167,
@@ -1417,14 +1434,31 @@
         "downloadReachable": true
       },
       {
+        "slug": "jellify",
+        "name": "Jellify",
+        "category": "music",
+        "version": "1.2.10",
+        "releaseDate": "2026-09-02",
+        "score": 0.6,
+        "signals": {
+          "recency": 0.5,
+          "availability": 1.0,
+          "featured": 0.0,
+          "verification": 1.0
+        },
+        "verificationLevel": "VERIFIED",
+        "featured": false,
+        "downloadReachable": true
+      },
+      {
         "slug": "ime",
         "name": "iMe MxGram",
         "category": "social",
         "version": "12.8.1",
         "releaseDate": "2026-09-01",
-        "score": 0.6,
+        "score": 0.5933,
         "signals": {
-          "recency": 0.5,
+          "recency": 0.4833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1439,9 +1473,9 @@
         "category": "music",
         "version": "2.5",
         "releaseDate": "2026-08-31",
-        "score": 0.5933,
+        "score": 0.5867,
         "signals": {
-          "recency": 0.4833,
+          "recency": 0.4667,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1456,9 +1490,9 @@
         "category": "utilities",
         "version": "1.36.1",
         "releaseDate": "2026-08-30",
-        "score": 0.5867,
+        "score": 0.58,
         "signals": {
-          "recency": 0.4667,
+          "recency": 0.45,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1473,9 +1507,9 @@
         "category": "utilities",
         "version": "1.0",
         "releaseDate": "2026-08-28",
-        "score": 0.5733,
+        "score": 0.5667,
         "signals": {
-          "recency": 0.4333,
+          "recency": 0.4167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1490,9 +1524,9 @@
         "category": "photo-video",
         "version": "21.14.4",
         "releaseDate": "2026-08-22",
-        "score": 0.5333,
+        "score": 0.5267,
         "signals": {
-          "recency": 0.3333,
+          "recency": 0.3167,
           "availability": 1.0,
           "featured": 1.0,
           "verification": 0.0
@@ -1507,9 +1541,9 @@
         "category": "developer-tools",
         "version": "813",
         "releaseDate": "2026-08-22",
-        "score": 0.5333,
+        "score": 0.5267,
         "signals": {
-          "recency": 0.3333,
+          "recency": 0.3167,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1524,9 +1558,9 @@
         "category": "photo-video",
         "version": "1.3.0",
         "releaseDate": "2026-08-20",
-        "score": 0.52,
+        "score": 0.5133,
         "signals": {
-          "recency": 0.3,
+          "recency": 0.2833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1541,9 +1575,9 @@
         "category": "games",
         "version": "1.7.5",
         "releaseDate": "2026-08-15",
-        "score": 0.4867,
+        "score": 0.48,
         "signals": {
-          "recency": 0.2167,
+          "recency": 0.2,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1558,9 +1592,9 @@
         "category": "social",
         "version": "30.7",
         "releaseDate": "2026-08-14",
-        "score": 0.48,
+        "score": 0.4733,
         "signals": {
-          "recency": 0.2,
+          "recency": 0.1833,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -1575,23 +1609,6 @@
         "category": "social",
         "version": "1.1.107",
         "releaseDate": "2026-08-12",
-        "score": 0.4667,
-        "signals": {
-          "recency": 0.1667,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
-        "slug": "onionbrowser",
-        "name": "Onion Browser",
-        "category": "networking",
-        "version": "3.4.1",
-        "releaseDate": "2026-08-11",
         "score": 0.46,
         "signals": {
           "recency": 0.15,
@@ -1609,9 +1626,9 @@
         "category": "photo-video",
         "version": "21.31.3",
         "releaseDate": "2026-08-03",
-        "score": 0.4067,
+        "score": 0.4,
         "signals": {
-          "recency": 0.0167,
+          "recency": 0.0,
           "availability": 1.0,
           "featured": 0.0,
           "verification": 1.0
@@ -2335,23 +2352,6 @@
         "downloadReachable": true
       },
       {
-        "slug": "orbot",
-        "name": "Orbot",
-        "category": "networking",
-        "version": "1.12.0",
-        "releaseDate": "2026-06-30",
-        "score": 0.4,
-        "signals": {
-          "recency": 0.0,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
         "slug": "snmessenger",
         "name": "SNMessenger",
         "category": "social",
@@ -2437,62 +2437,11 @@
         "downloadReachable": true
       },
       {
-        "slug": "jaility",
-        "name": "Jaility",
-        "category": "utilities",
-        "version": "3.1.1",
-        "releaseDate": "2022-11-12",
-        "score": 0.4,
-        "signals": {
-          "recency": 0.0,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
-        "slug": "killmyota",
-        "name": "KillMyOTA",
-        "category": "utilities",
-        "version": "1.1",
-        "releaseDate": "2023-01-30",
-        "score": 0.4,
-        "signals": {
-          "recency": 0.0,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
         "slug": "trollinstallerx",
         "name": "TrollInstallerX",
         "category": "utilities",
         "version": "1.0.3",
         "releaseDate": "2024-09-12",
-        "score": 0.4,
-        "signals": {
-          "recency": 0.0,
-          "availability": 1.0,
-          "featured": 0.0,
-          "verification": 1.0
-        },
-        "verificationLevel": "VERIFIED",
-        "featured": false,
-        "downloadReachable": true
-      },
-      {
-        "slug": "trollboard-reborn",
-        "name": "TrollBoard Reborn",
-        "category": "utilities",
-        "version": "1.0",
-        "releaseDate": "2023-12-05",
         "score": 0.4,
         "signals": {
           "recency": 0.0,
@@ -2731,9 +2680,60 @@
         "category": "photo-video",
         "version": "6.1.3",
         "releaseDate": "2026-09-18",
-        "score": 0.3133,
+        "score": 0.3067,
         "signals": {
-          "recency": 0.7833,
+          "recency": 0.7667,
+          "availability": 0.0,
+          "featured": 0.0,
+          "verification": 0.0
+        },
+        "verificationLevel": "UNVERIFIED",
+        "featured": false,
+        "downloadReachable": false
+      },
+      {
+        "slug": "jaility",
+        "name": "Jaility",
+        "category": "utilities",
+        "version": "3.1.1",
+        "releaseDate": "2022-11-12",
+        "score": 0.0,
+        "signals": {
+          "recency": 0.0,
+          "availability": 0.0,
+          "featured": 0.0,
+          "verification": 0.0
+        },
+        "verificationLevel": "UNVERIFIED",
+        "featured": false,
+        "downloadReachable": false
+      },
+      {
+        "slug": "killmyota",
+        "name": "KillMyOTA",
+        "category": "utilities",
+        "version": "1.1",
+        "releaseDate": "2023-01-30",
+        "score": 0.0,
+        "signals": {
+          "recency": 0.0,
+          "availability": 0.0,
+          "featured": 0.0,
+          "verification": 0.0
+        },
+        "verificationLevel": "UNVERIFIED",
+        "featured": false,
+        "downloadReachable": false
+      },
+      {
+        "slug": "trollboard-reborn",
+        "name": "TrollBoard Reborn",
+        "category": "utilities",
+        "version": "1.0",
+        "releaseDate": "2023-12-05",
+        "score": 0.0,
+        "signals": {
+          "recency": 0.0,
           "availability": 0.0,
           "featured": 0.0,
           "verification": 0.0

@@ -18,39 +18,39 @@
       "iconURL": "https://iamsmmh.github.io/OmniSource/assets/OnionBrowser.webp",
       "tintColor": "6D4C9F",
       "category": "networking",
-      "version": "3.4.1",
-      "versionDate": "2026-08-11",
-      "versionDescription": "Onion Browser 3.4.1 | OnionBrowser\n\n- Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/\n  (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.)\n- Updated libevent to 2.1.13.\n- Updated Japanese and Pashto translations.",
-      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
-      "size": 39611914,
+      "version": "3.4.2",
+      "versionDate": "2026-10-01",
+      "versionDescription": "Onion Browser 3.4.2 | OnionBrowser\n\n- Fixed bug wtih DNSTT bridge parsing.\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.",
+      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
+      "size": 42091072,
       "versions": [
         {
-          "version": "3.4.1",
-          "date": "2026-08-11",
-          "localizedDescription": "Onion Browser 3.4.1 | OnionBrowser\n\n- Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/\n  (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.)\n- Updated libevent to 2.1.13.\n- Updated Japanese and Pashto translations.",
-          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
-          "size": 39611914,
+          "version": "3.4.2",
+          "date": "2026-10-01",
+          "localizedDescription": "Onion Browser 3.4.2 | OnionBrowser\n\n- Fixed bug wtih DNSTT bridge parsing.\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.",
+          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
+          "size": 42091072,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.1",
+          "releaseUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.2",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "OnionBrowser.ipa",
-              "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
+              "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 39611914,
-              "sha256": "b3fa3d346b1a3b17353feb5e398f0bb752e149024b4241c4441c8dea494971c3",
-              "downloads": 631,
+              "size": 42091072,
+              "sha256": "62c3e4c3c5b71f1a77e266987e166630668bda48c8d2afa171dbda2404cb8caf",
+              "downloads": 7,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "b3fa3d346b1a3b17353feb5e398f0bb752e149024b4241c4441c8dea494971c3",
-          "downloads": 631
+          "sha256": "62c3e4c3c5b71f1a77e266987e166630668bda48c8d2afa171dbda2404cb8caf",
+          "downloads": 7
         }
       ],
       "screenshotURLs": [
@@ -92,7 +92,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-08-11"
+          "lastUpdatedAt": "2026-10-01"
         }
       }
     }
