@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-02",
-  "feedVersion": "bd56b2851429",
+  "feedVersion": "ab15385dd044",
   "app": {
     "id": "ryukgram-sidebyside",
     "name": "RyukGram Side by Side",
     "developer": "Ryuk (@axryuk)",
     "subtitle": "RyukGram under its own bundle id, next to Instagram",
     "bundleIdentifier": "com.ryuk.ryukgram",
-    "version": "446.0.0",
-    "versionDate": "2026-09-09",
+    "version": "448.0.0",
+    "versionDate": "2026-10-02",
     "description": "RyukGram Side by Side is the RyukGram build packaged under its own bundle identifier, com.ryuk.ryukgram, so it installs alongside the real Instagram app instead of replacing it. Both apps get their own name, icon and login, so you can stay signed into a stock account and a modded one at the same time. This variant ships the no-plugin-loader build.",
     "shortDescription": "RyukGram under its own bundle id, next to Instagram",
     "category": "social",
@@ -18,11 +18,11 @@
     ],
     "icon": "https://iamsmmh.github.io/OmniSource/assets/Instagram.webp",
     "screenshots": [],
-    "downloadURL": "https://source.ryuksign.com/ipas/86bd8282219bf3b32dca.ipa",
-    "size": 259670417,
+    "downloadURL": "https://source.ryuksign.com/ipas/69d9086497e16a17f5e3.ipa",
+    "size": 262887403,
     "source": "Ryuk / RyukSign (source.ryuksign.com)",
     "sourceURL": "https://store.ryuksign.com/",
-    "checksum": "fb58720a4bd6248165f6126f2514e6afd4af4ef7345534f35f515be3fb0060b9",
+    "checksum": "9534cebd1b36d72e2d579f19933854005e1b5919bed24068d0a9f863553edb02",
     "checksumPublished": false,
     "minOSVersion": "15.0",
     "status": "stable",
@@ -30,30 +30,30 @@
     "pageURL": "https://iamsmmh.github.io/OmniSource/apps/ryukgram-sidebyside/",
     "feedURL": "https://iamsmmh.github.io/OmniSource/ryukgram-sidebyside.json",
     "health": {
-      "reachable": false,
-      "detail": "timed out",
-      "updatedAt": "2026-09-09"
+      "reachable": true,
+      "detail": "HTTP 200",
+      "updatedAt": "2026-10-02"
     }
   },
   "newest": {
-    "version": "446.0.0",
-    "date": "2026-09-09",
-    "downloadURL": "https://source.ryuksign.com/ipas/86bd8282219bf3b32dca.ipa",
-    "size": 259670417,
-    "sha256": "fb58720a4bd6248165f6126f2514e6afd4af4ef7345534f35f515be3fb0060b9"
+    "version": "448.0.0",
+    "date": "2026-10-02",
+    "downloadURL": "https://source.ryuksign.com/ipas/69d9086497e16a17f5e3.ipa",
+    "size": 262887403,
+    "sha256": "9534cebd1b36d72e2d579f19933854005e1b5919bed24068d0a9f863553edb02"
   },
   "versions": [
     {
-      "version": "446.0.0",
-      "date": "2026-09-09",
-      "downloadURL": "https://source.ryuksign.com/ipas/86bd8282219bf3b32dca.ipa",
-      "size": 259670417,
-      "sha256": "fb58720a4bd6248165f6126f2514e6afd4af4ef7345534f35f515be3fb0060b9"
+      "version": "448.0.0",
+      "date": "2026-10-02",
+      "downloadURL": "https://source.ryuksign.com/ipas/69d9086497e16a17f5e3.ipa",
+      "size": 262887403,
+      "sha256": "9534cebd1b36d72e2d579f19933854005e1b5919bed24068d0a9f863553edb02"
     }
   ],
   "verification": {
-    "status": "UNVERIFIED",
-    "level": "UNVERIFIED",
+    "status": "VERIFIED",
+    "level": "VERIFIED",
     "method": "altstore"
   }
 }

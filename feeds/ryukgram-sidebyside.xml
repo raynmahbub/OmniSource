@@ -5,117 +5,90 @@
     <link>https://iamsmmh.github.io/OmniSource/feeds/ryukgram-sidebyside.json</link>
     <description>Release feed for RyukGram Side by Side within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/ryukgram-sidebyside.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>RyukGram Side by Side v446.0.0</title>
+      <title>RyukGram Side by Side v448.0.0</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/ryukgram-sidebyside.json</link>
-      <guid isPermaLink="false">ryukgram-sidebyside-446.0.0</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 446.0.0 | RyukGram Side by Side
-
-Updated for Instagram 446.0.0.
-
-### ✨ Highlights
-- **Setting profiles.** Keep several complete setups under names and switch between them in a tap. Give each one a color and icon, duplicate it, share it as a file, or tie it to an Instagram account so it follows your quick switch
-- **MobileConfig browser.** Read and change Instagram's own internal settings from inside the app, with search, copiable details, and export or import of everything you changed
-- **Story stats.** Overview numbers over your archive, a views-per-story chart, and a searchable audience list you can filter, sort and pin. Tap anyone to see every story of yours they watched and how they reacted
-- **Custom fonts.** Import your own .ttf or .otf files or download from thousands online, then use them across Instagram, RyukGram, or the story text tool
-- **Full-resolution photos.** Photos download at their original upload size, often far larger than the copy Instagram hands the app, with a picker showing dimensions, format and file size per option
-- **Post and Reel buttons.** Reorder Instagram's own like, comment, share, repost and save buttons, hide any of them, or drop a count without hiding its button
-- **View-once media while closed.** Catch disappearing DM media that arrives while Instagram is fully shut, and keep it in the log when it gets unsent
-- **Update checker.** RyukGram tells you when a newer release is out, shows what changed, and keeps every past release on its own page under About
+      <guid isPermaLink="false">ryukgram-sidebyside-448.0.0</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 448.0.0 | RyukGram Side by Side
 
 ### 🆕 New features
+- Pick from the RyukGram gallery inside Instagram: Send from gallery in the DM + menu, hold the photo button in comments, or hold Recents in the story, post and reel galleries
+- Repost from the gallery: hold any photo, video or GIF and post it as a story, post or reel
+- Activity notifications can track only the people in your list
+- Hold the story background button to pick any solid color or gradient, with a direction dial
+- Safari extension: Open in RyukGram banner at the top or bottom, removes Instagram's app prompts, blocks App Store jumps, and can open links automatically
+- Crash logs under Debug > Logging: saves a report when Instagram crashes, with search, share, and a hint when RyukGram is in the trace
+- Share log file can bundle your crash reports into the same file
+- Notification history: every notification in one place, filter by feature or type, search, choose which features get saved, and a home shortcut with new counts
+- Sound toggle in the reels and stories playback panels
+- Picture in Picture button in the reels playback panel
+- Reels auto-scroll moves past sponsored and photo reels
+- Post spoofing: pick your own posts and fake their likes, comments, views, shares, reposts and saves, only on your device
+- Strip tracking menu: one place for shared and opened links, edit which params get removed, or drop every param a shared link does not need
+- Embed domain and tracking param lists support multi-select delete
+- Instagram API page in Advanced: reuse recent replies for a set time, pace requests, and cap daily follows and unfollows
+- Hide Meta AI now also removes AI images from the gallery picker
+- Hide search suggestions: removes suggested accounts and searches from the search tab
+- Custom notification sounds: set your own sound for DMs and for other alerts, import from Files, Photos or the gallery and trim it, or use Instagram's own tones
+- Opening someone's profile picture now shows every picture on the account, not just the first
+- Each active MobileConfig override shows how many times Instagram read it
+- Find unnamed MobileConfig entries by the code that reads them, and label them with it
+- MobileConfig overrides can be switched off and back on without losing their values, one config or all at once
+- MobileConfig params can be filtered to overridden only, or by platform
+- Hold any MobileConfig config to give it your own note, shown on the row, inside it, and searchable
+- Search MobileConfig by note, param name or id as well as by name and number
+- Gallery editing: crop, rotate and resize photos, trim and crop videos, trim audio, pull or strip a video's audio, turn GIFs into videos, then save as new or replace the original
+- Gallery info page: edit a file's name and source details, see camera and codec info, and remove a photo's location
+- Redesigned photo crop editor for Draw and chat backgrounds: more ratios, draggable free crop, flip, and zoom out to fit
+- Spoofing is now one editor shaped like your profile header, Threads badge included: tap anything to change it, then Apply. A master switch turns it all off, and Edit Profile always shows your real info
+- Fake profile picture from Photos, the gallery, Files or a link, shown everywhere in the app on your device only
+- Hide explore reels: keeps only photo and carousel posts in explore, including the feed you open from it
+- Feed limits: cap how many posts load in a row and hide posts below a like, comment, view or repost count, on every home feed and the grid feed
+- Reels action button can save photo posts with their music, off by default
+- Keep Instants unseen after viewing them, and mark any one seen with the eye button in the viewer
+- Visited profiles: a private log of profiles you open, with notes, filters, multi-select and CSV or JSON export
+- Watchlist: add accounts from the profile menu, recent chats or search, checked on a schedule and for free when you open them, backing off for a day if Instagram limits you
+- Tracked changes: username, name, bio, link, picture, privacy, verification, follow back and count changes for watchlist accounts, with alerts per type and a home shortcut
+- Playback panel for reels and stories: live scrubber with elapsed and remaining time, bigger play/pause, custom skip step or frame by frame, hold skip to jump to the next or previous story or reel, and save the current frame
+- Playback speed can be remembered always, for the session, or just for the current video
+- Playback button in the reel sidebar: shows your speed, hold to flip between 1× and your last speed
+- Reel buttons can now move the action button and the playback button anywhere in the sidebar
+- Playback controls in the reels and stories action button, and an auto-advance switch in the story panel
+- Custom emoji fonts: import any color emoji font to replace emoji across Instagram
+- Force audio button: brings back the sound toggle in the DM camera ••• menu when your account is missing it
+- Group chats without a photo show their members' pictures in RyukGram lists
+- Links, emails and phone numbers in captions and comments are tappable; long-press one to copy or share it
+- Reels limit: choose Per session, the old doom scrolling cap, or Daily with time or reel caps per place or overall, a usage dashboard, day history, break nudges, a heads-up before the limit, strict mode and a shortcut. Once hit, reels stay paused everywhere and feed videos can hide
 
-#### Setting profiles
-- Keep several complete setups under names and switch between them in a tap
-- Profiles carry a name, color and icon, and can be duplicated, exported or shared as a file
-- Link a profile to Instagram accounts and it switches with the account, with an unlinked profile covering the rest
-- Reset a profile to defaults or turn everything off inside it, with a count of what is on and what differs
-- Importing a backup can send its settings to a new profile instead of the ones you are using
-- Backup & Restore is now Backup & Profiles, with a profile shortcut on the settings home page
-
-#### Fonts and theme
-- Import your own .ttf or .otf fonts, or download from thousands online
-- Use custom fonts for Instagram, RyukGram, or both, set under Theme
-- Your imported and device fonts show up in the story text tool next to the built-in ones
-- Manage fonts in bulk from either font picker, with multi-select and a delete confirmation
-
-#### Messages
-- Catch view-once media that arrives while Instagram is fully closed and keep it in the log when unsent, off by default, with size and age cleanup
-- Logging view-once media you open is now its own switch in the deleted messages log, off by default
-- Deleted messages log entries can open the chat and jump to where the message was
-- Mark kept unsent messages with a tag, a faded bubble, a tinted bubble or any mix, with your own tag text, position, size and colors
-- Confirm before a reaction sends in a chat, catching only the accidental double-tap or every reaction you send
-- Hide reels in chats so they never show or open in a thread
-- Messages-only mode switches in place with no restart, whether you flip it yourself or the schedule does
-- The messages-only schedule can ask first and switch only when you confirm
-
-#### Stories
-- Story stats for the archive: overview numbers, a views-per-story chart, and a searchable audience list with filters, sorting and pinned viewers on top
-- Story stats compares the last 7 or 30 days against the stretch before it
-- Tap someone in the audience list to see every story of yours they watched and what they reacted with
-- Refresh names and photos from the story stats screen and any story viewers list
-- Playback controls for stories with speed, seek and pause, held from the ⋯ or speaker button or opened from the story menu
-- Hold the story eye button to mark a whole reel as seen, or only the stories up to where you are
-- Disappearing media has its own settings page, and the mark-as-viewed button only shows when view receipts are blocked
-- A slider in the layout editor sets the spacing between story and disappearing media overlay buttons
-- Buttons placed next to each other close the gap when one of them is hidden, with a switch to turn it off
-
-#### Feed and reels
-- New Post buttons and Reel buttons pages to reorder Instagram's own like, comment, share, repost and save buttons, hide any of them, or drop a count without hiding its button
-- Hide metrics and the two hide repost switches moved into those pages, per button instead of all at once, and your old settings carry over
-- Tap a reel in the feed to play it in place instead of opening the Reels player, or play first and open on a second tap
-- Hold controls for reels: force hold-to-pause, force the options menu, or the options menu with picture in picture
-- The reels playback menu gains a pause control
-- Expanded view shows the whole reel instead of cropping the sides
-- Bring back the old Instagram logo in the feed header
-- Status bar tap on the feed can scroll up without refreshing, or be turned off
-- Stop the right swipe on the feed from opening the camera
-- The doom-scrolling limit can cap the grids on audio, effect, template and remix pages too
-
-#### Profile
-- Fake profile options moved to their own page under Profile, with the username, name, counts and badge together
-- Fake your own username and display name, shown only on your device
-- Follow indicator in follower and following lists, styled separately from the profile one
-- Hide the Threads button in the profile header
-- Long press a tracked follow request to open the profile, view the picture, filter to that user, copy the username or delete the entry
-
-#### Downloads and gallery
-- Photos download at their full upload size, often much larger than the copy Instagram hands the app
-- Pick the size a photo downloads at, with the dimensions, format and file size on every option
-- Duplicate check asks before you save the same media twice, and can remove the old gallery copy first
-- A post or story downloaded to the gallery stays one item you swipe through, with a switch in Gallery settings
-- Group any gallery files into an album, or split one back apart, from multi-select
-- Saved files share one naming scheme everywhere, stamped with the date the post went up instead of the moment you downloaded it
-- Optional ryuk_ prefix on saved file names, under Media saving
-- Hold a song in any music picker to download its audio
-
-#### Calls
-- Call recordings are tagged auto or manual in the list
-- Select recordings to save them to the gallery, share them, share video calls as audio only, or delete them together
-
-#### Interface and general
-- Always mute starts feed, reels, stories and DMs silent until you tap a speaker or press volume
-- Copied text can open in a sheet first so you can edit it or copy only the part you selected
-- Hold any tab in the bottom bar to open a RyukGram screen, picked per tab under Interface, Tab bar, Tab shortcuts, replacing the separate home, search and DM hold toggles
-- New MobileConfig browser to read and change Instagram's own internal settings, with search inside a config, copiable details and a home shortcut entry
-- MobileConfig changes can be exported and imported from the browser menu
-- Auto-clear cache can run on every launch
-- Indonesian translation added
-
-#### Updates
-- RyukGram tells you when a newer release is out, shows what changed in it, and links straight to the Telegram channel
-- New Updates page under About with the update status, what is new in your build, every past release, and switches for the automatic checks
-- Tapping the RyukGram name or version on the settings links sheet opens the Updates page
-
-#### Privacy
-- Machine ID masking, pinned like the rest of the identifiers, with copy and manual entry
-- Mask everything and relaunch rolls every identifier, blocks Apple attestation and clears saved logins in one tap, from Settings or the login screen button
-
-#### Backup…]]></description>
-      <enclosure url="https://source.ryuksign.com/ipas/86bd8282219bf3b32dca.ipa" length="259670417" type="application/octet-stream" />
+### 🛠 Fixes
+- DM inbox header buttons, chat menu, lock, refresh warning and Meta AI search button hiding work again on the new Instagram inbox
+- Posting and editing stories and taking photos no longer crash on iOS 15 backports
+- Downloading voice messages, forced DM save and Meta AI menu hiding work again on newer Instagram
+- Saved voice messages are named after the sender
+- Disabling feed autoplay, hiding story midcards and marking stories seen on sticker replies work again on newer Instagram
+- Profile and group pictures stay saved through expired links and cache clears, and Refresh names & photos updates every screen
+- Read notifications now work for people with their own settings even when the default for Read is off
+- Instagram's own reels auto-scroll mode works again, and turns off right away when you switch modes
+- Hide ads works again on accounts with the newer main feed and catches multi-ad carousels and sponsored posts in feed, profile feed and reels
+- Block surveys removes the "Are you interested in this ad" prompts under feed posts and reels
+- Profile updates in the analyzer show every change without cutting off the username, and entries no longer vanish while the list refreshes
+- Inbox header buttons and the profile action button no longer overlap the back button or username on older Instagram layouts
+- Reels opened from a profile no longer have a stuck comment bar covering the bottom, with a toggle to bring it back
+- Switching crop ratios no longer leaves the photo stuck zoomed in
+- Follow status in follower and following lists no longer shows the wrong answer, and loads without slowing down scrolling
+- Backup and restore now live on the Profiles page, so exporting, importing, resetting and storage are all in one place
+- The audio trimmer draws the real waveform of the clip, stays usable on long recordings with a draggable capped selection, and goes flat when the clip has no sound
+- A follow that becomes a request on a private account now shows as Requested instead of vanishing from the list
+- Batch follow and unfollow now run slower, pause on their own when Instagram pushes back, and stop before running past a safe daily amount
+- MobileConfig no longer wipes your overrides after repeated crashes, it turns them off and keeps them
+- MobileConfig overrides now actually apply, they were being written under an id Instagram never reads
+- Random crashes while chats or the inbox were loading, caused by keep deleted messages writing from two threads at once
+- Copying from the share sheet no longer closes Instagram
+- Rest…]]></description>
+      <enclosure url="https://source.ryuksign.com/ipas/69d9086497e16a17f5e3.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

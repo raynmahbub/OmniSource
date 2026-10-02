@@ -1,39 +1,35 @@
 {
   "generatedAt": "2026-10-02",
-  "feedVersion": "bd56b2851429",
+  "feedVersion": "ab15385dd044",
   "apps": {
     "total": 130,
-    "reachable": 124,
-    "unreachable": 6,
-    "verified": 123
+    "reachable": 126,
+    "unreachable": 4,
+    "verified": 125
   },
   "sync": {
-    "synced": 125,
-    "incrementalHits": 115,
+    "synced": 127,
+    "incrementalHits": 117,
     "updated": 1,
-    "failed": 5,
-    "apiRequests": 120
+    "failed": 3,
+    "apiRequests": 116
   },
   "unreachable": [
     "cercube",
     "jaility",
     "killmyota",
-    "ryukgram-ig410",
-    "ryukgram-sidebyside",
     "trollboard-reborn"
   ],
   "updates": [
     {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "previousVersion": "0.5.5",
-      "version": "0.5.6",
+      "slug": "ryukgram-sidebyside",
+      "name": "RyukGram Side by Side",
+      "previousVersion": "446.0.0",
+      "version": "448.0.0",
       "kind": "updated"
     }
   ],
   "errors": [
-    "ryukgram-ig410: all sources failed: altstore:https://source.ryuksign.com/ig410 error: HTTP request failed after 3 attempts: https://source.ryuksign.com/ig410 (<urlopen error timed out>)",
-    "ryukgram-sidebyside: all sources failed: altstore:https://source.ryuksign.com/duplicate error: HTTP request failed after 3 attempts: https://source.ryuksign.com/duplicate (<urlopen error timed out>)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "trollboard-reborn: all sources failed: github:haxi0/TrollBoard-Reborn error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/TrollBoard-Reborn/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
