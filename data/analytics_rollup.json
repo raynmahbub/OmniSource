@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-03",
   "totals": {
     "apps": 130,
     "sources": 114,
@@ -20,13 +20,6 @@
   },
   "coverageDays": 7,
   "daily": [
-    {
-      "date": "2026-09-26",
-      "metrics": {
-        "sourcesOk": 114.0,
-        "downloadsOk": 130.0
-      }
-    },
     {
       "date": "2026-09-27",
       "metrics": {
@@ -65,6 +58,13 @@
     {
       "date": "2026-10-02",
       "metrics": {
+        "sourcesOk": 111.0,
+        "downloadsOk": 126.0
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "metrics": {
         "apps": 130.0,
         "sources": 114.0,
         "verified": 125.0,
@@ -72,55 +72,55 @@
         "newThisWeek": 0.0,
         "updatedThisWeek": 32.0,
         "sourcesOk": 111.0,
-        "downloadsOk": 126.0
+        "downloadsOk": 124.0
       }
     }
   ],
   "weekly": [
     {
       "week": "2026-W39",
-      "days": 2,
+      "days": 1,
       "averages": {
-        "downloadsOk": 129.5,
+        "downloadsOk": 129.0,
         "sourcesOk": 114.0
       }
     },
     {
       "week": "2026-W40",
-      "days": 5,
+      "days": 6,
       "averages": {
-        "apps": 26.0,
-        "deadLinks": 0.8,
-        "downloadsOk": 128.4,
+        "apps": 21.67,
+        "deadLinks": 0.67,
+        "downloadsOk": 127.67,
         "newThisWeek": 0.0,
-        "sources": 22.8,
-        "sourcesOk": 112.8,
-        "updatedThisWeek": 6.4,
-        "verified": 25.0
+        "sources": 19.0,
+        "sourcesOk": 112.5,
+        "updatedThisWeek": 5.33,
+        "verified": 20.83
       }
     }
   ],
   "monthly": [
     {
       "month": "2026-09",
-      "days": 5,
+      "days": 4,
       "averages": {
-        "downloadsOk": 129.8,
+        "downloadsOk": 129.75,
         "sourcesOk": 114.0
       }
     },
     {
       "month": "2026-10",
-      "days": 2,
+      "days": 3,
       "averages": {
-        "apps": 65.0,
-        "deadLinks": 2.0,
-        "downloadsOk": 126.0,
+        "apps": 43.33,
+        "deadLinks": 1.33,
+        "downloadsOk": 125.33,
         "newThisWeek": 0.0,
-        "sources": 57.0,
+        "sources": 38.0,
         "sourcesOk": 111.0,
-        "updatedThisWeek": 16.0,
-        "verified": 62.5
+        "updatedThisWeek": 10.67,
+        "verified": 41.67
       }
     }
   ]
