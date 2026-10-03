@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-03",
   "feedVersion": "ab15385dd044",
   "apps": {
     "total": 130,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 117,
-    "updated": 1,
+    "incrementalHits": 118,
+    "updated": 0,
     "failed": 3,
     "apiRequests": 116
   },
@@ -20,15 +20,7 @@
     "killmyota",
     "trollboard-reborn"
   ],
-  "updates": [
-    {
-      "slug": "ryukgram-sidebyside",
-      "name": "RyukGram Side by Side",
-      "previousVersion": "446.0.0",
-      "version": "448.0.0",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
