@@ -9,10 +9,10 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 104,
-    "updated": 11,
+    "incrementalHits": 118,
+    "updated": 0,
     "failed": 3,
-    "apiRequests": 113
+    "apiRequests": 116
   },
   "unreachable": [
     "cercube",
@@ -20,85 +20,7 @@
     "killmyota",
     "trollboard-reborn"
   ],
-  "updates": [
-    {
-      "slug": "ytlite",
-      "name": "YouTubePlus",
-      "previousVersion": "21.39.4",
-      "version": "21.39.4",
-      "kind": "updated"
-    },
-    {
-      "slug": "infuseplus",
-      "name": "Infuse Plus",
-      "previousVersion": "8.5.5",
-      "version": "8.5.6",
-      "kind": "updated"
-    },
-    {
-      "slug": "swiftgram",
-      "name": "Swiftgram",
-      "previousVersion": "12.9.3",
-      "version": "12.9.4",
-      "kind": "updated"
-    },
-    {
-      "slug": "iqface",
-      "name": "iQFace",
-      "previousVersion": "580.0.0",
-      "version": "581.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "ryukgram",
-      "name": "RyukGram",
-      "previousVersion": "448.0.0",
-      "version": "449.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "sparkle",
-      "name": "Sparkle",
-      "previousVersion": "448.0.0",
-      "version": "449.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "previousVersion": "8.80.0",
-      "version": "8.80.1",
-      "kind": "updated"
-    },
-    {
-      "slug": "messenger-flow",
-      "name": "Messenger Flow",
-      "previousVersion": "580.0.0",
-      "version": "581.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "msgplusx",
-      "name": "MSGPlusX",
-      "previousVersion": "580.0.0",
-      "version": "581.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "turrit-mxgram",
-      "name": "Turrit MxGram",
-      "previousVersion": "1.5.4",
-      "version": "1.5.5",
-      "kind": "updated"
-    },
-    {
-      "slug": "ryukgram-sidebyside",
-      "name": "RyukGram Side by Side",
-      "previousVersion": "448.0.0",
-      "version": "449.0.0",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
