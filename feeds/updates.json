@@ -4,6 +4,21 @@
   "count": 100,
   "updates": [
     {
+      "slug": "ytkace",
+      "name": "YTKACE",
+      "version": "21.40.5",
+      "previousVersion": "21.39.4",
+      "date": "2026-10-04",
+      "kind": "updated",
+      "changelog": "YouTube 21.40.5 | YTKACE 1.1.2 | YTKACE_1.1.2_YouTube_21.40.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.40.5\n• Redesigned the download tab to look more like YouTube, with an All tab and your active downloads shown at the top\n• Smaller download popup that you can swipe away, and failed downloads stay so you can retry them\n• Playlist downloads now get the whole playlist, including private playlists and Liked videos\n• Liquid Glass tab bar is see-through while scrolling Shorts\n• Added Frosted Tab Bar option (Default, On, Off)\n• Added Normal Home Layout for the Home redesign some accounts get\n• Added Remove Horizontal Shelves\n• Added Hold to Copy Text for community posts and comments\n• Added Play Shorts Once\n• Added Two-Finger Tap to Pause\n• Added Extra Dim\n• Added Share at Current Time\n• Added Lock Screen Skip\n• Added Remove Suggestion Pill for Shorts\n• SponsorBlock skip popup now fades in and out\n\nFixed:\n• Shorts download button, Fullscreen and pinch to fullscreen on the new Shorts UI\n• Captions On picking the wrong language\n• App opening in Shorts when a different start tab is set\n• White or black bar behind the Liquid Glass tab bar\n• Share sheet position on iPad\n\nYouTube 21.40.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.2_YouTube_21.40.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.2/YTKACE_1.1.2_YouTube_21.40.5.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/ytkace.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/ytkace.xml",
+      "status": "stable",
+      "shortDescription": "YTKACE"
+    },
+    {
       "slug": "streamyfin",
       "name": "Streamyfin",
       "version": "0.55.0",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/iqface.xml",
       "status": "stable",
       "shortDescription": "Facebook tweak build by 7MD"
-    },
-    {
-      "slug": "infuseplus",
-      "name": "Infuse Plus",
-      "version": "8.5.5",
-      "previousVersion": "8.5.3",
-      "date": "2026-09-16",
-      "kind": "updated",
-      "changelog": "Infuse 8.5.5 | Infuse-8.5.5-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.5), version 8.5.5",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.5-Infuse-Plus.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Infuse.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/infuseplus.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/infuseplus.xml",
-      "status": "stable",
-      "shortDescription": "Enhancer tweak for the Infuse video player"
     }
   ]
 }

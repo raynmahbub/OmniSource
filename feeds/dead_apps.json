@@ -6,12 +6,12 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 58,
+  "count": 57,
   "summary": {
     "warning": 9,
     "stale": 11,
     "archived": 36,
-    "critical": 2
+    "critical": 1
   },
   "deadApps": [
     {
@@ -25,18 +25,6 @@
       "reasons": [
         "removed upstream release(s): 1.2.0 (newer than 0.9.3)",
         "no update for 107 days (threshold 90)"
-      ]
-    },
-    {
-      "slug": "reynard",
-      "name": "Reynard",
-      "lastUpdate": "2026-09-22",
-      "daysSinceUpdate": 12,
-      "classification": "critical",
-      "removedReleases": 1,
-      "supersededReleases": 0,
-      "reasons": [
-        "removed upstream release(s): 0.15.0 (newer than 0.14.1)"
       ]
     },
     {
@@ -766,8 +754,8 @@
     {
       "slug": "ytkace",
       "name": "YTKACE",
-      "lastUpdate": "2026-09-28",
-      "daysSinceUpdate": 6,
+      "lastUpdate": "2026-10-04",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1813,12 +1801,10 @@
       "name": "Reynard",
       "lastUpdate": "2026-09-22",
       "daysSinceUpdate": 12,
-      "classification": "critical",
-      "removedReleases": 1,
+      "classification": "healthy",
+      "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": [
-        "removed upstream release(s): 0.15.0 (newer than 0.14.1)"
-      ]
+      "reasons": []
     },
     {
       "slug": "pocketposter",
