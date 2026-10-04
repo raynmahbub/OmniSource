@@ -6,12 +6,12 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 57,
+  "count": 58,
   "summary": {
     "warning": 9,
     "stale": 11,
     "archived": 36,
-    "critical": 1
+    "critical": 2
   },
   "deadApps": [
     {
@@ -25,6 +25,18 @@
       "reasons": [
         "removed upstream release(s): 1.2.0 (newer than 0.9.3)",
         "no update for 107 days (threshold 90)"
+      ]
+    },
+    {
+      "slug": "reynard",
+      "name": "Reynard",
+      "lastUpdate": "2026-09-22",
+      "daysSinceUpdate": 12,
+      "classification": "critical",
+      "removedReleases": 1,
+      "supersededReleases": 0,
+      "reasons": [
+        "removed upstream release(s): 0.15.0 (newer than 0.14.1)"
       ]
     },
     {
@@ -1799,12 +1811,14 @@
     {
       "slug": "reynard",
       "name": "Reynard",
-      "lastUpdate": "2026-09-27",
-      "daysSinceUpdate": 7,
-      "classification": "healthy",
-      "removedReleases": 0,
+      "lastUpdate": "2026-09-22",
+      "daysSinceUpdate": 12,
+      "classification": "critical",
+      "removedReleases": 1,
       "supersededReleases": 0,
-      "reasons": []
+      "reasons": [
+        "removed upstream release(s): 0.15.0 (newer than 0.14.1)"
+      ]
     },
     {
       "slug": "pocketposter",
