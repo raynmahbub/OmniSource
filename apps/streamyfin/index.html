@@ -49,9 +49,9 @@
       "name": "Streamyfin",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "iOS",
-      "softwareVersion": "0.54.1",
+      "softwareVersion": "0.55.0",
       "url": "https://iamsmmh.github.io/OmniSource/apps/streamyfin/",
-      "downloadUrl": "https://github.com/streamyfin/streamyfin/releases/download/v0.54.1/streamyfin-ios.ipa",
+      "downloadUrl": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa",
             "author": { "@type": "Organization", "name": "fredrikburmester/streamyfin" }
     }
   </script>
@@ -109,10 +109,10 @@
         <p class="ap-sub">Open-source Jellyfin client for iOS</p>
         <p class="ap-dev">by fredrikburmester</p>
         <div class="ap-badges">
-<span class="badge stable">Stable</span><span class="badge verified" title="IPA published by the project&#39;s own upstream release channel">Official build</span><span class="badge ok"><span class="dot"></span>Online</span><span class="badge verified">✓ Verified</span><span class="badge warn">Stale release</span></div>
+<span class="badge stable">Stable</span><span class="badge verified" title="IPA published by the project&#39;s own upstream release channel">Official build</span><span class="badge ok"><span class="dot"></span>Online</span><span class="badge verified">✓ Verified</span></div>
       </div>
       <div class="ap-install">
-        <a class="get-capsule" href="https://github.com/streamyfin/streamyfin/releases/download/v0.54.1/streamyfin-ios.ipa" target="_blank" rel="noopener">Get · v0.54.1<span class="capsule-size">51.4 MB</span></a>
+        <a class="get-capsule" href="https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa" target="_blank" rel="noopener">Get · v0.55.0<span class="capsule-size">70.0 MB</span></a>
 <a class="button client-button" href="altstore://source?url=https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to AltStore"><img src="../../assets/AltStore.webp" alt="" width="20" height="20" loading="lazy">AltStore</a><a class="button client-button" href="sidestore://source?url=https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to SideStore"><img src="../../assets/SideStore.webp" alt="" width="20" height="20" loading="lazy">SideStore</a><a class="button client-button" href="flarestore://source?url=https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to FlareStore"><img src="../../assets/FlareStore.webp" alt="" width="20" height="20" loading="lazy">FlareStore</a><a class="button client-button" href="feather://source/iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to Feather"><img src="../../assets/Feather.webp" alt="" width="20" height="20" loading="lazy">Feather</a><a class="button client-button" href="esign://addsource?url=https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to ESign"><img src="../../assets/E-Sign.webp" alt="" width="20" height="20" loading="lazy">ESign</a><a class="button client-button" href="ksign://addsource?url=https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to Ksign"><img src="../../assets/Ksign.webp" alt="" width="20" height="20" loading="lazy">Ksign</a><a class="button client-button" href="livecontainer://sources?url=https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Add to LiveContainer"><img src="../../assets/LiveContainer.webp" alt="" width="20" height="20" loading="lazy">LiveContainer</a>        <button class="button ap-copy" type="button" data-copy="https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" data-copy-msg="Source URL copied">Copy source URL</button>
         <button class="button square" type="button" id="qrButton" data-qr-feed="https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" title="Show QR code" aria-label="Show QR code for the source URL">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4z"/><path d="M15 14h2v2h-2zM19 14h1.4v3.4H19zM14 19h3.4v1.4H14zM20 19.6V20h-1.4"/></svg>
@@ -134,74 +134,63 @@
     <section class="ap-section" data-reveal>
       <h2><span class="num">03</span> Release notes</h2>
       <div class="ap-version-list"><article class="ap-version">
-  <div class="ap-version-head"><span class="v">v0.54.1</span><span class="tag">Current</span>
-    <span class="d">Jun 02, 2026</span></div>
-  <div class="meta"><span>51.4 MB</span><code title="SHA-256">706adb7f41b60565…</code><a class="button small" href="https://github.com/streamyfin/streamyfin/releases/download/v0.54.1/streamyfin-ios.ipa" target="_blank" rel="noopener">Download</a></div>
-  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Streamyfin 0.54.1 | streamyfin-ios
+  <div class="ap-version-head"><span class="v">v0.55.0</span><span class="tag">Current</span>
+    <span class="d">Oct 04, 2026</span></div>
+  <div class="meta"><span>70.0 MB</span><code title="SHA-256">a3b9d1818688ae51…</code><a class="button small" href="https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Streamyfin 0.55.0 | streamyfin-ios
 
 ## What&#x27;s Changed
 
-This is a fairly substantial release, bringing major improvements to playback, TV support, mobile stability, and build infrastructure. Playback received the most attention, with MPV support on Android and iOS, hardware decoding, improved PiP and subtitle handling, chapter markers, and more reliable watch progress reporting
+This is the biggest Streamyfin release so far. The headline is a fully native video player on every platform: SwiftUI on iPhone, iPad and Apple TV, Jetpack Compose on Android and Android TV. It brings new gestures, a sleep timer, dialogue boost and in-player subtitle search, and it is the default on iPhone, iPad and Apple TV (tvOS 26+). On Android and Android TV it is opt-in for now
 
-TV support has also moved forward significantly. Streamyfin is now live on the App Store for tvOS and available for anyone to download, alongside a refreshed TV interface, better focus and navigation handling, Android TV recommendations, tvOS TopShelf support, native Apple controls, and enabled iOS / Apple TV builds
+Around the player, subtitles got a full overhaul, media segments can be skipped everywhere, transcoded downloads finally play offline with multiple subtitles, and the home screen has a new hero carousel and redesigned cards. Android TV gains an ExoPlayer engine with real HDR output, Dolby Vision and Atmos passthrough, plus a proper TV menu
 
 As usual, thanks to everyone filing issues, testing builds, translating strings, and helping move the project forward!
 
-
 ### ✨ Highlights
-- **Streamyfin for Apple TV is now live on the App Store** and available for anyone to download
-- **MPV player on Android &amp; iOS** with hardware decoding and PiP (with subtitles) (#1332), plus native Apple controls (#1411) and MPVKit 0.41 (#1604)
-- **Chapter markers and chapter list** in the player (#1586)
-- **Local network auto-switch** — automatically switches to your local server address (#1334)
-- **TV interface overhaul** — uniform scaling, tvOS TopShelf extension (#1561), Android TV recommendations (#1575), and iOS TV builds enabled (#1422)
-- Setting to **disable auto-play next episode** (#1342)
-- **Autorotate for landscape** (#1265)
+- **Fully native video player** on iPhone and iPad (#1929), Apple TV (#1930, #1935), Android (#1958) and Android TV (#1968)
+- **New player gestures and tools**, double tap to seek (#1933), hold for 2x speed, pinch to zoom-to-fill, sleep timer, dialogue boost and in-player subtitle search and download
+- **HDR on Android TV**, opt-in ExoPlayer engine with HDR10/HDR10+ (#1783), Dolby Vision Profile 5 direct play and Dolby Atmos passthrough (#2002)
+- **Skip intros, credits, recaps, previews and commercials** on every player (#1367)
+- **Subtitle styling**, font, colour, background and opacity (#1543), and subtitles shown automatically while muted (#1900)
+- **Transcoded downloads with offline subtitles** (#1889), with download progress as a Live Activity on iOS (#1924)
+- **New home screen**, native hero carousel on iOS (#1979) and Android (#1983), and media rows redrawn as artwork-backed cards (#1984)
+- **Seerr sign-in with Quick Connect**, no more retyping your password (#2008, #1908)
+- **Custom auth headers** for servers behind Cloudflare Zero Trust or an authenticating reverse proxy (#1961)
+- **Award and Oscar status** on movie and series pages (#1911)
 
 ### 🎬 Player
-- Caching progress shown in the seek bar (#1376)
-- Progress throttling for MPV (#1366)
-- Fixed progress bar / watch-time reporting (#1611, #1239)
-- SubRip subtitle fixes for MPV (#1375)
-- Stop external subs from auto-selecting when added (#1349)
-- Disable subtitle embedding on iOS simulator (#1544)
-- Don&#x27;t cache background media-source requests (#1602)
-- Android PiP fixes (#1605, #1628)
-- Keep landscape when opening chapter list on iOS (#1624)
+- Play resumes right where you left off by default, with a setting to be asked instead (#1998)
+- Audio and subtitle choices are remembered per series, plus a mono downmix option
+- Original audio language setting (#1938)
+- Subtitle and audio tracks are selected by identity instead of list position, fixing wrong tracks with duplicate languages and burned-in subtitles (#1781, #1944)
+- Subtitle menus are ordered like Jellyfin Web, and keep that order on iOS (#1781, #1847)
+- Bundled fallback fonts so subtitles render in more languages on iOS and tvOS (#1993, #2019)
+- AV1 transcoding (#2052), and AV1 direct play only when the device can hardware-decode it (#1923)
+- Hold-to-speed with a configurable rate (#1931) and hardware keyboard support (#1773) in the standard player
+- Source file bitrate in the technical info overlay (#1829)
+- Watch state is reported reliably on exit, on transitions and for downloaded items (#1662, #1823, #1872, #1873, #1879, #1890, #2003, #2017)
+- The &quot;still watching&quot; prompt only appears at the end of an episode and pauses playback while it waits (#1956)
+- Picture-in-picture fixes on iOS (#1667, #1870, #1918, #2094) and Android (#1778)
+- Chromecast delivers text subtitles as selectable tracks instead of burning them in, and H265 casting works again (#1972, #1910)
+- Other apps resume their audio after you leave the player (#1651)
+- Correct punctuation placement in right-to-left subtitles (#1932)
+- Previous and next episode buttons at season boundaries and with missing episodes (#1649)
 
 ### 📺 TV
-- TV menu/back navigation and overlay focus fixes (#1559, #1558)
-- TV password modal fix (#1598)
-- TV native search component
-
-### 🐛 Fixes
-- Music videos and home videos now show in libraries (#1326)
-- Close modal on Android back button (#1487)
-- Clear stored user on logout (fixes empty home on relaunch) (#1622)
-- Dedupe top people sections (#1623)
-- Correct mimeType/UTI for log export (#1424)
-- Downloads refactor — less prop drilling, improved layout (#1337)
-
-### 🔧 Build &amp; Infra
-- Expo SDK 55 → 56 upgrade (#1594, #1600)
-- iOS 26 / SDK 56 EAS build fixes (#1613)
-- Android MPV Kotlin build fix (#1614)
-- EAS build + auto-submit release workflow (#1616, #1632)
-- Xcode build script (#1296)
-
-### 🌍 Translations
-- Ongoing Crowdin sync; new strings for &quot;ends at&quot; and action sheet options; Russian updates (#1474, #1475, #1427)
-
-### 👋 New Contributors
-@quang-tran, @gallyamb, @a-collado, @stevebyatt10, @felixschndr, and @github-actions[bot] made their first contributions.
-
-**Full Changelog**: https://github.com/streamyfin/streamyfin/compare/v0.51.0...v0.54.1</pre></details>
+- Android TV now uses a proper TV menu instead of the mobile layout (#1709)
+- TV interface scales to the display resolution, with reworked focus styling (#1987)
+- Quality selector in the TV player controls (#1824)
+- Shuffle episodes from the series page
+- Scrubbing on tvOS shows an episode poster preview (#1941)
+- Subtitle search in the native tvOS player (#</pre></details>
 </article></div>
     </section>
 
     <section class="ap-section" data-reveal>
       <h2><span class="num">04</span> Details</h2>
       <div class="ap-detail-grid">
-<div class="ap-cell"><span>Version</span><strong>v0.54.1</strong></div><div class="ap-cell"><span>Updated</span><strong>Jun 02, 2026</strong></div><div class="ap-cell"><span>Size</span><strong>51.4 MB</strong></div><div class="ap-cell"><span>Requires iOS</span><strong>16.4</strong></div><div class="ap-cell"><span>Category</span><strong>Photo-Video</strong></div><div class="ap-cell"><span>Developer</span><strong>fredrikburmester</strong></div><div class="ap-cell"><span>Bundle ID</span><strong><code>com.fredrikburmester.streamyfin</code></strong></div><div class="ap-cell"><span>Verification</span><strong>VERIFIED</strong></div><div class="ap-cell"><span>Build</span><strong>Official build</strong></div><div class="ap-cell"><span>Checksum</span><strong><code>706adb7f41b60565c192</code></strong></div><div class="ap-cell"><span>Health</span><strong>Online</strong></div><div class="ap-cell"><span>Version history</span><strong>1</strong></div><div class="ap-cell"><span>Source</span><strong><a class="ap-source-link" href="https://github.com/fredrikburmester/streamyfin" target="_blank" rel="noopener">fredrikburmester/streamyfin</a></strong></div></div>
+<div class="ap-cell"><span>Version</span><strong>v0.55.0</strong></div><div class="ap-cell"><span>Updated</span><strong>Oct 04, 2026</strong></div><div class="ap-cell"><span>Size</span><strong>70.0 MB</strong></div><div class="ap-cell"><span>Requires iOS</span><strong>16.4</strong></div><div class="ap-cell"><span>Category</span><strong>Photo-Video</strong></div><div class="ap-cell"><span>Developer</span><strong>fredrikburmester</strong></div><div class="ap-cell"><span>Bundle ID</span><strong><code>com.fredrikburmester.streamyfin</code></strong></div><div class="ap-cell"><span>Verification</span><strong>VERIFIED</strong></div><div class="ap-cell"><span>Build</span><strong>Official build</strong></div><div class="ap-cell"><span>Checksum</span><strong><code>a3b9d1818688ae51323e</code></strong></div><div class="ap-cell"><span>Health</span><strong>Online</strong></div><div class="ap-cell"><span>Version history</span><strong>1</strong></div><div class="ap-cell"><span>Source</span><strong><a class="ap-source-link" href="https://github.com/fredrikburmester/streamyfin" target="_blank" rel="noopener">fredrikburmester/streamyfin</a></strong></div></div>
     </section>
 
     <section class="ap-section" data-reveal>
@@ -221,7 +210,7 @@ As usual, thanks to everyone filing issues, testing builds, translating strings,
     <section class="ap-section" data-reveal>
       <h2><span class="num">07</span> Downloads</h2>
       <div class="ap-links">
-        <a class="button primary" href="https://github.com/streamyfin/streamyfin/releases/download/v0.54.1/streamyfin-ios.ipa" target="_blank" rel="noopener">Primary IPA</a>
+        <a class="button primary" href="https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa" target="_blank" rel="noopener">Primary IPA</a>
         
         <a class="button" href="https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json" target="_blank" rel="noopener">App feed</a>
         <a class="button" href="https://iamsmmh.github.io/OmniSource/feeds/streamyfin.xml" target="_blank" rel="noopener">App RSS</a>
@@ -234,7 +223,7 @@ As usual, thanks to everyone filing issues, testing builds, translating strings,
 
   <footer class="ap-footer">
     <div class="ap-footer-inner">
-      <span>v0.54.1 of Streamyfin · refreshed automatically.</span>
+      <span>v0.55.0 of Streamyfin · refreshed automatically.</span>
       <a href="../../#catalog">← Back to catalog</a>
       <span>Independent community project. Apps and trademarks belong to their respective owners.</span>
     </div>

@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-04",
   "totals": {
     "apps": 130,
-    "verified": 125,
+    "verified": 124,
     "communityVerified": 1,
-    "unverified": 4,
+    "unverified": 5,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 19,
-    "avgTrustScore": 6.83,
+    "avgTrustScore": 6.81,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1002,27 +1002,6 @@
         "official upstream (github-release)"
       ],
       "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
-    },
-    {
-      "app": "livecontainer",
-      "name": "LiveContainer",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "LiveContainer/LiveContainer",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": true
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2051,7 +2030,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.54.1/streamyfin-ios.ipa",
+      "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2661,7 +2640,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-      "trustScore": 2.5,
+      "trustScore": 2.4,
       "trustBadge": "Experimental"
     },
     {
@@ -2704,6 +2683,27 @@
       ],
       "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
       "trustScore": 2.5,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "livecontainer",
+      "name": "LiveContainer",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "github-release",
+      "publisher": "LiveContainer/LiveContainer",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": true
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+      "trustScore": 4.5,
       "trustBadge": "Experimental"
     },
     {

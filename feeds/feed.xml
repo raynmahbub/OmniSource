@@ -5,8 +5,125 @@
     <link>https://iamsmmh.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iamsmmh.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Streamyfin v0.55.0</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/streamyfin.json</link>
+      <guid isPermaLink="false">streamyfin-0.55.0</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Streamyfin 0.55.0 | streamyfin-ios
+
+## What's Changed
+
+This is the biggest Streamyfin release so far. The headline is a fully native video player on every platform: SwiftUI on iPhone, iPad and Apple TV, Jetpack Compose on Android and Android TV. It brings new gestures, a sleep timer, dialogue boost and in-player subtitle search, and it is the default on iPhone, iPad and Apple TV (tvOS 26+). On Android and Android TV it is opt-in for now
+
+Around the player, subtitles got a full overhaul, media segments can be skipped everywhere, transcoded downloads finally play offline with multiple subtitles, and the home screen has a new hero carousel and redesigned cards. Android TV gains an ExoPlayer engine with real HDR output, Dolby Vision and Atmos passthrough, plus a proper TV menu
+
+As usual, thanks to everyone filing issues, testing builds, translating strings, and helping move the project forward!
+
+### ✨ Highlights
+- **Fully native video player** on iPhone and iPad (#1929), Apple TV (#1930, #1935), Android (#1958) and Android TV (#1968)
+- **New player gestures and tools**, double tap to seek (#1933), hold for 2x speed, pinch to zoom-to-fill, sleep timer, dialogue boost and in-player subtitle search and download
+- **HDR on Android TV**, opt-in ExoPlayer engine with HDR10/HDR10+ (#1783), Dolby Vision Profile 5 direct play and Dolby Atmos passthrough (#2002)
+- **Skip intros, credits, recaps, previews and commercials** on every player (#1367)
+- **Subtitle styling**, font, colour, background and opacity (#1543), and subtitles shown automatically while muted (#1900)
+- **Transcoded downloads with offline subtitles** (#1889), with download progress as a Live Activity on iOS (#1924)
+- **New home screen**, native hero carousel on iOS (#1979) and Android (#1983), and media rows redrawn as artwork-backed cards (#1984)
+- **Seerr sign-in with Quick Connect**, no more retyping your password (#2008, #1908)
+- **Custom auth headers** for servers behind Cloudflare Zero Trust or an authenticating reverse proxy (#1961)
+- **Award and Oscar status** on movie and series pages (#1911)
+
+### 🎬 Player
+- Play resumes right where you left off by default, with a setting to be asked instead (#1998)
+- Audio and subtitle choices are remembered per series, plus a mono downmix option
+- Original audio language setting (#1938)
+- Subtitle and audio tracks are selected by identity instead of list position, fixing wrong tracks with duplicate languages and burned-in subtitles (#1781, #1944)
+- Subtitle menus are ordered like Jellyfin Web, and keep that order on iOS (#1781, #1847)
+- Bundled fallback fonts so subtitles render in more languages on iOS and tvOS (#1993, #2019)
+- AV1 transcoding (#2052), and AV1 direct play only when the device can hardware-decode it (#1923)
+- Hold-to-speed with a configurable rate (#1931) and hardware keyboard support (#1773) in the standard player
+- Source file bitrate in the technical info overlay (#1829)
+- Watch state is reported reliably on exit, on transitions and for downloaded items (#1662, #1823, #1872, #1873, #1879, #1890, #2003, #2017)
+- The "still watching" prompt only appears at the end of an episode and pauses playback while it waits (#1956)
+- Picture-in-picture fixes on iOS (#1667, #1870, #1918, #2094) and Android (#1778)
+- Chromecast delivers text subtitles as selectable tracks instead of burning them in, and H265 casting works again (#1972, #1910)
+- Other apps resume their audio after you leave the player (#1651)
+- Correct punctuation placement in right-to-left subtitles (#1932)
+- Previous and next episode buttons at season boundaries and with missing episodes (#1649)
+
+### 📺 TV
+- Android TV now uses a proper TV menu instead of the mobile layout (#1709)
+- TV interface scales to the display resolution, with reworked focus styling (#1987)
+- Quality selector in the TV player controls (#1824)
+- Shuffle episodes from the series page
+- Scrubbing on tvOS shows an episode poster preview (#1941)
+- Subtitle search in the native tvOS player (#1936)
+- Fixed silent audio on tvOS with Atmos and Continuous Audio Output (#1970, #1990)
+- Playback pauses when the tvOS app is backgrounded (#1934)
+- Apple TV Top Shelf images are no longer cropped (#1726, #1825)
+- Home screen episodes show their series name, with the backdrop as a fallback image (#1888, #1887, #1999)
+- "See All" opens the library, and Back returns to the library list (#1782)
+- Changing audio track while transcoding re-negotiates the stream (#1791)
+- Seerr posters and search tabs match the rest of the TV interface (#1898)
+- Assorted Android TV fixes (#1672)
+
+### ⬇️ Downloads
+- More accurate size estimates for transcoded downloads (#2084)
+- Downloads survive the screen turning off on Android (#1546, #2000)
+- Faster with large download libraries, and no more crash when moving to the next downloaded episode (#1547)
+- Delete-all confirmation and live storage usage (#1808)
+- Items deleted on the server no longer break playback sync (#1845)
+- Posters show for downloaded content (#1652), and direct downloads use the right media source (#1666)
+
+### 🐛 Fixes
+- Jellyfin 12 compatibility (#1801, #2085)
+- Continue Watching updates instantly, including changes made on other devices (#1439)
+- Recently Added on mobile matches Jellyfin Web (#2128)
+- Unwatched episode count on series and box sets (#1787)
+- Option to use episode images in Next Up and Continue Watching (#1817), and no more black thumbnails there (#1815)
+- The app opens on Home after a cold boot instead of Libraries (#1945)
+- Each library remembers its own filters, and reset clears the sort too (#1814)
+- Quick Connect code opens in a sheet that closes itself once you are signed in (#1809)
+- Expired sessions are cleaned up properly, and the app no longer hangs on the splash screen when offline (#1809)
+- Server addresses with `http://` are honoured, and server probes time out instead of hanging (#1977, #2013)
+- Tapping a notification opens what it is about, even when the app was closed (#2078)
+- Live TV streams are released, so channels stop failing on the tuner stream limit (#1799)
+- Seerr requests seasons the same way Seerr does, and servers with non-semver versions are accepted (#2125, #1980)
+- Admin-locked settings are enforced, and plugin defaults apply correctly (#1807)
+- The music queue no longer follows you to another account (#1854)
+- Tapping a poster twice no longer opens the same screen twice (#1806)
+- The series page selects the season of the current episode (#2109)
+- Network location settings (#1800)
+
+### ⚡ Performance
+- Worklets are precompiled in production builds, roughly halving native memory use on Android (#1848)
+- General playback performance fixes (#1765)
+
+### 🔧 Build & Infra
+- Expo SDK 56 → 57 and React Native 0.86 (#1838, #2097)
+- TypeScript 6, with scripts, app config and config plugins migrated to TypeScript (#1717, #1718, #1719)
+- Android targets API 36 (#2096), and iOS scene lifecycle support (#2108)
+- MPVKit 0.41.0-av5 (#1995, #2029)
+- Anonymous crash and error reporting through Sentry, with an opt-out in settings (#1976, #1978, #1994)
+- Test suite moved to jest-expo and React Native Testing Library (#2006)
+- Dropped the third-party IP location lookup (#2014)
+
+### 🌍 Translations
+- Ongoing Crowdin sync (#1699, #1758, #1810, #1821, #1925, #1967, #2069)
+- German translations completed and corrected (#1843), and remaining hardcoded strings made translatable (#1818)
+- Want to help translate Streamyfin? Join us at [translate.streamyfin.app](https://translate.streamyfin.app)
+
+### 🛟 Support & Reporting Bugs
+
+The player was rewritten on every platform, so some rough edges are expected. Real-device reports are the fastest way to get them fixed.
+
+- **Bugs and feature requests:** [open an issue](https://github.com/streamyfin/streamyfin/issues/new/choose). Search [existing issues](https://github.com/streamyfin/streamyfin/issues) first and add to a match if there is one.
+- **Questions and help:** [Discord](https://discord.streamyfin.app)
+
+**Include in bug reports:** app version, platfo…]]></description>
+      <enclosure url="https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>YouTubePlus v21.39.4</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/ytlite.json</link>
@@ -716,18 +833,6 @@ YouTube 21.39.4 requires iOS 17, so there are two IPAs:
 > [!WARNING]
 > - 21.34.3+ builds require iOS 17+ now.]]></description>
       <enclosure url="https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.39.4_2.0.0.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>StikDebug v3.1.13</title>
-      <link>https://iamsmmh.github.io/OmniSource/feeds/stikdebug.json</link>
-      <guid isPermaLink="false">stikdebug-3.1.13</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[StikDebug 3.1.13 | StikDebug-3.1.13
-
-Fix MeloCafé auto assign
-
-**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.12...3.1.13]]></description>
-      <enclosure url="https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
