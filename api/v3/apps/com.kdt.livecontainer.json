@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "e61846f036b5",
+  "feedVersion": "55377a81fdeb",
   "data": {
     "name": "LiveContainer",
     "bundleIdentifier": "com.kdt.livecontainer",
@@ -103,9 +103,9 @@
         "notes": "Official AGPL-3.0 releases. The plain LiveContainer.ipa is tracked; the LiveContainer+SideStore.ipa bundle in the same release is skipped. Multitasking needs iPadOS 16 or later, and installing guest apps needs AltStore 2.0+ / SideStore 0.6.0+."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "downloadReachable": false,
+        "detail": "HTTP 404",
+        "statusSince": "2026-10-04",
         "lastUpdatedAt": "2026-07-17"
       }
     },

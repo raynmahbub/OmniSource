@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T11:55:46Z",
+  "generatedAt": "2026-10-04T12:45:55Z",
   "appCount": 130,
-  "releases": 252,
+  "releases": 253,
   "apps": {
     "3105": [
       {
@@ -1944,13 +1944,23 @@
     ],
     "streamyfin": [
       {
+        "version": "0.55.0",
+        "date": "2026-10-04",
+        "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa",
+        "size": 73400511,
+        "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
+        "localizedDescription": "Streamyfin 0.55.0 | streamyfin-ios\n\n## What's Changed\n\nThis is the biggest Streamyfin release so far. The headline is a fully native video player on every platform: SwiftUI on iPhone, iPad and Apple TV, Jetpack Compose on Android and Android TV. It brings new gestures, a sleep timer, dialogue boost and in-player subtitle search, and it is the default on iPhone, iPad and Apple TV (tvOS 26+). On Android and Android TV it is opt-in for now\n\nAround the player, subtitles got a full overhaul, media segments can be skipped everywhere, transcoded downloads finally play offline with multiple subtitles, and the home screen has a new hero carousel and redesigned cards. Android TV gains an ExoPlayer engine with real HDR output, Dolby Vision and Atmos passthrough, plus a proper TV menu\n\nAs usual, thanks to everyone filing issues, testing builds, translating strings, and helping move the project forward!\n\n### ✨ Highlights\n- **Fully native video player** on iPhone and iPad (#1929), Apple TV (#1930, #1935), Android (#1958) and Android TV (#1968)\n- **New player gestures and tools**, double tap to seek (#1933), hold for 2x speed, pinch to zoom-to-fill, sleep timer, dialogue boost and in-player subtitle search and download\n- **HDR on Android TV**, opt-in ExoPlayer engine with HDR10/HDR10+ (#1783), Dolby Vision Profile 5 direct play and Dolby Atmos passthrough (#2002)\n- **Skip intros, credits, recaps, previews and commercials** on every player (#1367)\n- **Subtitle styling**, font, colour, background and opacity (#1543), and subtitles shown automatically while muted (#1900)\n- **Transcoded downloads with offline subtitles** (#1889), with download progress as a Live Activity on iOS (#1924)\n- **New home screen**, native hero carousel on iOS (#1979) and Android (#1983), and media rows redrawn as artwork-backed cards (#1984)\n- **Seerr sign-in with Quick Connect**, no more retyping your password (#2008, #1908)\n- **Custom auth headers** for servers behind Cloudflare Zero Trust or an authentica",
+        "status": "current",
+        "firstSeen": "2026-10-04T12:45:55Z"
+      },
+      {
         "version": "0.54.1",
         "date": "2026-06-02",
         "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.54.1/streamyfin-ios.ipa",
         "size": 53931137,
         "sha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
         "localizedDescription": "Streamyfin 0.54.1 | streamyfin-ios\n\n## What's Changed\n\nThis is a fairly substantial release, bringing major improvements to playback, TV support, mobile stability, and build infrastructure. Playback received the most attention, with MPV support on Android and iOS, hardware decoding, improved PiP and subtitle handling, chapter markers, and more reliable watch progress reporting\n\nTV support has also moved forward significantly. Streamyfin is now live on the App Store for tvOS and available for anyone to download, alongside a refreshed TV interface, better focus and navigation handling, Android TV recommendations, tvOS TopShelf support, native Apple controls, and enabled iOS / Apple TV builds\n\nAs usual, thanks to everyone filing issues, testing builds, translating strings, and helping move the project forward!\n\n\n### ✨ Highlights\n- **Streamyfin for Apple TV is now live on the App Store** and available for anyone to download\n- **MPV player on Android & iOS** with hardware decoding and PiP (with subtitles) (#1332), plus native Apple controls (#1411) and MPVKit 0.41 (#1604)\n- **Chapter markers and chapter list** in the player (#1586)\n- **Local network auto-switch** — automatically switches to your local server address (#1334)\n- **TV interface overhaul** — uniform scaling, tvOS TopShelf extension (#1561), Android TV recommendations (#1575), and iOS TV builds enabled (#1422)\n- Setting to **disable auto-play next episode** (#1342)\n- **Autorotate for landscape** (#1265)\n\n### 🎬 Player\n- Caching progress shown in the seek bar (#1376)\n- Progress throttling for MPV (#1366)\n- Fixed progress bar / watch-time reporting (#1611, #1239)\n- SubRip subtitle fixes for MPV (#1375)\n- Stop external subs from auto-selecting when added (#1349)\n- Disable subtitle embedding on iOS simulator (#1544)\n- Don't cache background media-source requests (#1602)\n- Android PiP fixes (#1605, #1628)\n- Keep landscape when opening chapter list on iOS (#1624)\n\n### 📺 TV\n- TV menu/back navigation and overlay focus ",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
