@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03",
+  "generatedAt": "2026-10-04",
   "totals": {
     "apps": 130,
     "sources": 114,
@@ -15,18 +15,11 @@
     "downloadsReachable": 126,
     "deadLinks": 4,
     "newAppsThisWeek": 0,
-    "updatedAppsThisWeek": 32,
+    "updatedAppsThisWeek": 34,
     "clientsSupported": 7
   },
   "coverageDays": 7,
   "daily": [
-    {
-      "date": "2026-09-27",
-      "metrics": {
-        "sourcesOk": 114.0,
-        "downloadsOk": 129.0
-      }
-    },
     {
       "date": "2026-09-28",
       "metrics": {
@@ -65,62 +58,61 @@
     {
       "date": "2026-10-03",
       "metrics": {
+        "sourcesOk": 111.0,
+        "downloadsOk": 126.0
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "metrics": {
         "apps": 130.0,
         "sources": 114.0,
         "verified": 125.0,
         "deadLinks": 4.0,
         "newThisWeek": 0.0,
-        "updatedThisWeek": 32.0,
-        "sourcesOk": 111.0,
-        "downloadsOk": 124.0
+        "updatedThisWeek": 34.0,
+        "sourcesOk": 110.0,
+        "downloadsOk": 125.0
       }
     }
   ],
   "weekly": [
     {
-      "week": "2026-W39",
-      "days": 1,
-      "averages": {
-        "downloadsOk": 129.0,
-        "sourcesOk": 114.0
-      }
-    },
-    {
       "week": "2026-W40",
-      "days": 6,
+      "days": 7,
       "averages": {
-        "apps": 21.67,
-        "deadLinks": 0.67,
-        "downloadsOk": 127.67,
+        "apps": 18.57,
+        "deadLinks": 0.57,
+        "downloadsOk": 127.57,
         "newThisWeek": 0.0,
-        "sources": 19.0,
-        "sourcesOk": 112.5,
-        "updatedThisWeek": 5.33,
-        "verified": 20.83
+        "sources": 16.29,
+        "sourcesOk": 112.14,
+        "updatedThisWeek": 4.86,
+        "verified": 17.86
       }
     }
   ],
   "monthly": [
     {
       "month": "2026-09",
-      "days": 4,
+      "days": 3,
       "averages": {
-        "downloadsOk": 129.75,
+        "downloadsOk": 130.0,
         "sourcesOk": 114.0
       }
     },
     {
       "month": "2026-10",
-      "days": 3,
+      "days": 4,
       "averages": {
-        "apps": 43.33,
-        "deadLinks": 1.33,
-        "downloadsOk": 125.33,
+        "apps": 32.5,
+        "deadLinks": 1.0,
+        "downloadsOk": 125.75,
         "newThisWeek": 0.0,
-        "sources": 38.0,
-        "sourcesOk": 111.0,
-        "updatedThisWeek": 10.67,
-        "verified": 41.67
+        "sources": 28.5,
+        "sourcesOk": 110.75,
+        "updatedThisWeek": 8.5,
+        "verified": 31.25
       }
     }
   ]
