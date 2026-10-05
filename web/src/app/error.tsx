@@ -33,7 +33,7 @@ export default function RouteError({
         <button
           type="button"
           onClick={reset}
-          className="min-h-11 rounded-xl bg-red-600 px-5 font-semibold text-white transition-colors hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+          className="min-h-11 rounded-xl bg-violet-600 px-5 font-semibold text-white transition-colors hover:bg-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
         >
           Try again
         </button>
@@ -43,7 +43,7 @@ export default function RouteError({
         {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
         <a
           href="/"
-          className="inline-flex min-h-11 items-center rounded-xl border border-zinc-300 px-5 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
+          className="inline-flex min-h-11 items-center rounded-xl border border-zinc-300 px-5 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
         >
           Back to home
         </a>

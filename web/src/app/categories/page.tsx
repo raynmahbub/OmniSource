@@ -26,7 +26,7 @@ export default async function CategoriesPage() {
               </span>
             </div>
             <div className="mt-2 h-2 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
-              <div className="h-full rounded-full bg-gradient-to-r from-red-500 to-orange-500" style={{ width: `${(c.count / max) * 100}%` }} />
+              <div className="h-full rounded-full bg-gradient-to-r from-indigo-600 via-violet-500 to-purple-400" style={{ width: `${(c.count / max) * 100}%` }} />
             </div>
           </Link>
         ))}

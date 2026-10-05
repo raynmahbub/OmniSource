@@ -38,7 +38,7 @@ export default async function AboutPage() {
         </ul>
         <p>
           Source code:{" "}
-          <a href="https://github.com/raynmahbub/OmniSource" className="font-semibold text-red-600 hover:underline">
+          <a href="https://github.com/raynmahbub/OmniSource" className="font-semibold text-violet-700 hover:underline dark:text-violet-300">
             github.com/raynmahbub/OmniSource
           </a>
         </p>

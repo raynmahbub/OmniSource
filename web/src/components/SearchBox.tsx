@@ -59,11 +59,11 @@ export default function SearchBox({
         value={value}
         onChange={(event) => setValue(event.target.value)}
         placeholder={placeholder}
-        className="min-h-11 w-full min-w-0 rounded-xl border border-zinc-300 bg-white px-4 text-zinc-900 shadow-sm outline-none transition-colors focus:border-red-500 focus:ring-2 focus:ring-red-200 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+        className="min-h-11 w-full min-w-0 rounded-xl border border-zinc-300 bg-white px-4 text-zinc-900 shadow-sm outline-none transition-colors focus:border-violet-500 focus:ring-2 focus:ring-violet-200 dark:focus:ring-violet-900/50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
       />
       <button
         type="submit"
-        className="min-h-11 shrink-0 rounded-xl bg-red-600 px-5 font-semibold text-white shadow-sm transition-colors hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+        className="min-h-11 shrink-0 rounded-xl bg-violet-600 px-5 font-semibold text-white shadow-sm transition-colors hover:bg-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
       >
         {submitLabel}
       </button>

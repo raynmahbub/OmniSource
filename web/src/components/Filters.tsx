@@ -91,7 +91,7 @@ export default function Filters({
       ))}
       <button
         type="submit"
-        className="min-h-11 rounded-lg bg-zinc-900 px-4 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 dark:bg-zinc-100 dark:text-zinc-900"
+        className="min-h-11 rounded-lg bg-zinc-900 px-4 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 dark:bg-zinc-100 dark:text-zinc-900"
       >
         {submitLabel}
       </button>

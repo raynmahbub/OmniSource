@@ -9,7 +9,7 @@ export default async function NotFound() {
       <p className="text-sm text-zinc-600 dark:text-zinc-400">
         {dict.common.noResults ?? "No results found."}
       </p>
-      <Link href="/apps" className="font-semibold text-red-600 hover:underline">
+      <Link href="/apps" className="font-semibold text-violet-700 hover:underline dark:text-violet-300">
         {dict.sections.appsTitle ?? "Apps"} →
       </Link>
     </div>

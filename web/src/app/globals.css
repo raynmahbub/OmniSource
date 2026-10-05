@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   /* Long feed URLs, bundle identifiers and hashes wrap instead of widening the
      page. Nothing in this app should ever produce a horizontal scrollbar. */
   overflow-wrap: break-word;
@@ -51,9 +51,18 @@ body.nav-lock {
   line-height: 1.7;
 }
 
-/* Code and identifiers can be long; keep them inside their box. */
+/* Code and identifiers can be long; keep them inside their box. Feed URLs,
+   hashes and bundle identifiers share one mono voice with the static site. */
 code,
 kbd,
 pre {
+  font-family: "JetBrains Mono", ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
   overflow-wrap: anywhere;
+}
+
+/* Text selection and focus in the brand accent rather than the browser blue. */
+::selection {
+  background: #6a4cf0;
+  color: #ffffff;
 }
