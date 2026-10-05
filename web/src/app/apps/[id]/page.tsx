@@ -2,7 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import AppIcon from "@/components/AppIcon";
 import CopyButton from "@/components/CopyButton";
-import { getAppById, getAppsWithIds } from "@/lib/data";
+import ScreenshotGallery from "@/components/ScreenshotGallery";
+import { getAppById, getAppProjectURL, getAppsWithIds, getCatalogIconURL } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 import { safeExternalUrl } from "@/lib/url";
 
@@ -22,6 +23,14 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
   const { dict } = await getLangDict();
   const versions = Array.isArray(app.versions) ? app.versions : [];
   const downloadUrl = safeExternalUrl(app.downloadURL);
+  const projectURL = safeExternalUrl(getAppProjectURL(app));
+  const screenshotURLs = Array.from(
+    new Set(
+      (app.screenshotURLs ?? [])
+        .map((url) => safeExternalUrl(url))
+        .filter((url): url is string => Boolean(url && /^https?:\/\//i.test(url))),
+    ),
+  );
   const sourceFeed = app.bundleIdentifier ? singleAppFeed(app.bundleIdentifier) : "";
   return (
     <div className="space-y-6">
@@ -29,7 +38,7 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
         ← {dict.sections.appsTitle}
       </Link>
       <div className="flex flex-col gap-5 rounded-3xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900 md:flex-row">
-        <AppIcon app={app} size={112} className="rounded-3xl text-4xl" />
+        <AppIcon app={app} src={getCatalogIconURL(app)} size={112} className="rounded-3xl text-4xl" />
         <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-extrabold">{app.name}</h1>
           <p className="text-zinc-600 dark:text-zinc-400">
@@ -70,6 +79,16 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
                 failedLabel={dict.common.copyFailed ?? "Copy blocked — press and hold to copy"}
               />
             )}
+            {projectURL && (
+              <a
+                href={projectURL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center rounded-xl border border-zinc-300 px-4 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
+              >
+                {dict.common.officialProject ?? "Official project"} ↗
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -78,6 +97,17 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
           <p className="whitespace-pre-wrap text-[15px]">{app.localizedDescription}</p>
         </div>
       )}
+      <ScreenshotGallery
+        appName={app.name}
+        urls={screenshotURLs}
+        projectURL={projectURL}
+        title={dict.sections.screenshotsTitle ?? "Official screenshots"}
+        description={dict.sections.screenshotsIntro ?? "Original screenshots published by this app's official project."}
+        emptyMessage={dict.sections.noScreenshots ?? "No official screenshots are listed for this app yet. We won't substitute mockups or logos."}
+        unavailableLabel={dict.sections.screenshotUnavailable ?? "This screenshot could not be loaded."}
+        screenshotLabel={dict.sections.screenshotLabel ?? "Screenshot"}
+        officialProjectLabel={dict.common.officialProject ?? "Official project"}
+      />
       {!!versions.length && (
         <div className="rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
           <h2 className="mb-3 font-bold">

@@ -30,7 +30,16 @@ marketplace transactions, or personalized recommendations.
 pipeline outputs into `web/`:
 
 - `src/data/*.json` — server-bundled snapshots from `feeds/` and `data/`;
-- `public/data/v3/*.json` — client-fetchable API snapshots for search/PWA.
+- `public/data/v3/*.json` — client-fetchable API snapshots for search/PWA;
+- `public/assets/*` — only the app and client logos referenced by `catalog.json`.
+
+Catalog logos are copied from the reviewed repository artwork and served from
+the web app's own origin; sync fails if any referenced logo is missing. Each
+app detail page links back to its official project. Screenshot galleries use
+only the original screenshot URLs declared by that project's source (checked by
+the root catalog validator). If the catalog has no verified screenshots for an
+app, the page says so—no mockups, generated screenshots, or app-logo stand-ins
+are shown. Broken remote screenshots keep a labeled link to the original.
 
 The app builds without reaching localhost or an external database. Production
 browser requests remain relative to the deployed origin.

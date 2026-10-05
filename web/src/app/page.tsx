@@ -7,13 +7,13 @@ import { getLangDict } from "@/lib/lang";
 const SOURCE_URL = "https://raynmahbub.github.io/OmniSource/apps.json";
 
 const CLIENTS = [
-  { name: "AltStore", href: `altstore://source?url=${SOURCE_URL}` },
-  { name: "SideStore", href: `sidestore://source?url=${SOURCE_URL}` },
-  { name: "FlareStore", href: `flarestore://source?url=${SOURCE_URL}` },
-  { name: "Feather", href: "feather://source/raynmahbub.github.io/OmniSource/apps.json" },
-  { name: "ESign", href: `esign://addsource?url=${SOURCE_URL}` },
-  { name: "Ksign", href: `ksign://addsource?url=${SOURCE_URL}` },
-  { name: "LiveContainer", href: `livecontainer://sources?url=${SOURCE_URL}` },
+  { name: "AltStore", icon: "AltStore.webp", href: `altstore://source?url=${SOURCE_URL}` },
+  { name: "SideStore", icon: "SideStore.webp", href: `sidestore://source?url=${SOURCE_URL}` },
+  { name: "FlareStore", icon: "FlareStore.webp", href: `flarestore://source?url=${SOURCE_URL}` },
+  { name: "Feather", icon: "Feather.webp", href: "feather://source/raynmahbub.github.io/OmniSource/apps.json" },
+  { name: "ESign", icon: "E-Sign.webp", href: `esign://addsource?url=${SOURCE_URL}` },
+  { name: "Ksign", icon: "Ksign.webp", href: `ksign://addsource?url=${SOURCE_URL}` },
+  { name: "LiveContainer", icon: "LiveContainer.webp", href: `livecontainer://sources?url=${SOURCE_URL}` },
 ];
 
 export default async function Home() {
@@ -58,9 +58,17 @@ export default async function Home() {
                 href={c.href}
                 className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/15 px-4 py-1.5 text-sm font-semibold shadow-[inset_0_1px_0_rgba(255,255,255,0.35)] backdrop-blur transition-colors hover:bg-white/25"
               >
-                <svg aria-hidden viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
-                  <path d="M12 5v14M5 12h14" />
-                </svg>
+                {/* Official client marks from the catalog's reviewed artwork. */}
+                {/* eslint-disable-next-line @next/next/no-img-element -- local, pre-synced logo asset */}
+                <img
+                  src={`/assets/${c.icon}`}
+                  alt=""
+                  width={20}
+                  height={20}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-5 w-5 rounded-md object-contain"
+                />
                 {c.name}
               </a>
             ))}
