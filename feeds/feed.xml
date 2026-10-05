@@ -111,6 +111,16 @@ IPA Vault build for Threads (ThreadSaver), version 450.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>Sparkle v450.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
+      <guid isPermaLink="false">sparkle-450.0.0</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 450.0.0 | Instagram-450.0.0-Sparkle
+
+IPA Vault build for Instagram (Sparkle), version 450.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-Sparkle.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>RyukGram v450.0.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
       <guid isPermaLink="false">ryukgram-450.0.0</guid>
@@ -155,6 +165,16 @@ We are bringing you a highly stable update focused on fixing key areas related t
 *   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.
 *   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.]]></description>
       <enclosure url="https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Glow v2026.40.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/glow.json</link>
+      <guid isPermaLink="false">glow-2026.40.0</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 2026.40.0 | Reddit-2026.40.0-RedditFilter
+
+IPA Vault build for Reddit (RedditFilter), version 2026.40.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>YTKACE v21.40.5</title>
@@ -559,106 +579,6 @@ IPA Vault build for Facebook (iQFace), version 581.0.0]]></description>
 
 IPA Vault build for Infuse Plus (8.5.6), version 8.5.6]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>RyukGram Side by Side v448.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram-sidebyside.json</link>
-      <guid isPermaLink="false">ryukgram-sidebyside-448.0.0</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 448.0.0 | RyukGram Side by Side
-
-### 🆕 New features
-- Pick from the RyukGram gallery inside Instagram: Send from gallery in the DM + menu, hold the photo button in comments, or hold Recents in the story, post and reel galleries
-- Repost from the gallery: hold any photo, video or GIF and post it as a story, post or reel
-- Activity notifications can track only the people in your list
-- Hold the story background button to pick any solid color or gradient, with a direction dial
-- Safari extension: Open in RyukGram banner at the top or bottom, removes Instagram's app prompts, blocks App Store jumps, and can open links automatically
-- Crash logs under Debug > Logging: saves a report when Instagram crashes, with search, share, and a hint when RyukGram is in the trace
-- Share log file can bundle your crash reports into the same file
-- Notification history: every notification in one place, filter by feature or type, search, choose which features get saved, and a home shortcut with new counts
-- Sound toggle in the reels and stories playback panels
-- Picture in Picture button in the reels playback panel
-- Reels auto-scroll moves past sponsored and photo reels
-- Post spoofing: pick your own posts and fake their likes, comments, views, shares, reposts and saves, only on your device
-- Strip tracking menu: one place for shared and opened links, edit which params get removed, or drop every param a shared link does not need
-- Embed domain and tracking param lists support multi-select delete
-- Instagram API page in Advanced: reuse recent replies for a set time, pace requests, and cap daily follows and unfollows
-- Hide Meta AI now also removes AI images from the gallery picker
-- Hide search suggestions: removes suggested accounts and searches from the search tab
-- Custom notification sounds: set your own sound for DMs and for other alerts, import from Files, Photos or the gallery and trim it, or use Instagram's own tones
-- Opening someone's profile picture now shows every picture on the account, not just the first
-- Each active MobileConfig override shows how many times Instagram read it
-- Find unnamed MobileConfig entries by the code that reads them, and label them with it
-- MobileConfig overrides can be switched off and back on without losing their values, one config or all at once
-- MobileConfig params can be filtered to overridden only, or by platform
-- Hold any MobileConfig config to give it your own note, shown on the row, inside it, and searchable
-- Search MobileConfig by note, param name or id as well as by name and number
-- Gallery editing: crop, rotate and resize photos, trim and crop videos, trim audio, pull or strip a video's audio, turn GIFs into videos, then save as new or replace the original
-- Gallery info page: edit a file's name and source details, see camera and codec info, and remove a photo's location
-- Redesigned photo crop editor for Draw and chat backgrounds: more ratios, draggable free crop, flip, and zoom out to fit
-- Spoofing is now one editor shaped like your profile header, Threads badge included: tap anything to change it, then Apply. A master switch turns it all off, and Edit Profile always shows your real info
-- Fake profile picture from Photos, the gallery, Files or a link, shown everywhere in the app on your device only
-- Hide explore reels: keeps only photo and carousel posts in explore, including the feed you open from it
-- Feed limits: cap how many posts load in a row and hide posts below a like, comment, view or repost count, on every home feed and the grid feed
-- Reels action button can save photo posts with their music, off by default
-- Keep Instants unseen after viewing them, and mark any one seen with the eye button in the viewer
-- Visited profiles: a private log of profiles you open, with notes, filters, multi-select and CSV or JSON export
-- Watchlist: add accounts from the profile menu, recent chats or search, checked on a schedule and for free when you open them, backing off for a day if Instagram limits you
-- Tracked changes: username, name, bio, link, picture, privacy, verification, follow back and count changes for watchlist accounts, with alerts per type and a home shortcut
-- Playback panel for reels and stories: live scrubber with elapsed and remaining time, bigger play/pause, custom skip step or frame by frame, hold skip to jump to the next or previous story or reel, and save the current frame
-- Playback speed can be remembered always, for the session, or just for the current video
-- Playback button in the reel sidebar: shows your speed, hold to flip between 1× and your last speed
-- Reel buttons can now move the action button and the playback button anywhere in the sidebar
-- Playback controls in the reels and stories action button, and an auto-advance switch in the story panel
-- Custom emoji fonts: import any color emoji font to replace emoji across Instagram
-- Force audio button: brings back the sound toggle in the DM camera ••• menu when your account is missing it
-- Group chats without a photo show their members' pictures in RyukGram lists
-- Links, emails and phone numbers in captions and comments are tappable; long-press one to copy or share it
-- Reels limit: choose Per session, the old doom scrolling cap, or Daily with time or reel caps per place or overall, a usage dashboard, day history, break nudges, a heads-up before the limit, strict mode and a shortcut. Once hit, reels stay paused everywhere and feed videos can hide
-
-### 🛠 Fixes
-- DM inbox header buttons, chat menu, lock, refresh warning and Meta AI search button hiding work again on the new Instagram inbox
-- Posting and editing stories and taking photos no longer crash on iOS 15 backports
-- Downloading voice messages, forced DM save and Meta AI menu hiding work again on newer Instagram
-- Saved voice messages are named after the sender
-- Disabling feed autoplay, hiding story midcards and marking stories seen on sticker replies work again on newer Instagram
-- Profile and group pictures stay saved through expired links and cache clears, and Refresh names & photos updates every screen
-- Read notifications now work for people with their own settings even when the default for Read is off
-- Instagram's own reels auto-scroll mode works again, and turns off right away when you switch modes
-- Hide ads works again on accounts with the newer main feed and catches multi-ad carousels and sponsored posts in feed, profile feed and reels
-- Block surveys removes the "Are you interested in this ad" prompts under feed posts and reels
-- Profile updates in the analyzer show every change without cutting off the username, and entries no longer vanish while the list refreshes
-- Inbox header buttons and the profile action button no longer overlap the back button or username on older Instagram layouts
-- Reels opened from a profile no longer have a stuck comment bar covering the bottom, with a toggle to bring it back
-- Switching crop ratios no longer leaves the photo stuck zoomed in
-- Follow status in follower and following lists no longer shows the wrong answer, and loads without slowing down scrolling
-- Backup and restore now live on the Profiles page, so exporting, importing, resetting and storage are all in one place
-- The audio trimmer draws the real waveform of the clip, stays usable on long recordings with a draggable capped selection, and goes flat when the clip has no sound
-- A follow that becomes a request on a private account now shows as Requested instead of vanishing from the list
-- Batch follow and unfollow now run slower, pause on their own when Instagram pushes back, and stop before running past a safe daily amount
-- MobileConfig no longer wipes your overrides after repeated crashes, it turns them off and keeps them
-- MobileConfig overrides now actually apply, they were being written under an id Instagram never reads
-- Random crashes while chats or the inbox were loading, caused by keep deleted messages writing from two threads at once
-- Copying from the share sheet no longer closes Instagram
-- Rest…]]></description>
-      <enclosure url="https://source.ryuksign.com/ipas/69d9086497e16a17f5e3.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Nuvio v0.5.6</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
-      <guid isPermaLink="false">nuvio-0.5.6</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nuvio 0.5.6 | nuvio-0.5.6-full-release
-
-- 312f7399 feat(details): use desktop hero layout on tablets @tapframe  
-- b3d7c5b6 feat(settings): show restart prompt when layout direction changes @tapframe  
-- a984b390 fix(ios): declare supported localizations @tapframe  
-- f0f980b3 fix(player): auto-play next episode on end after dismissing prompt @tapframe  
-- [i18n(vi): update latest Vietnamese strings (#2146)](https://github.com/NuvioMedia/NuvioMobile/pull/2146) @blueocean2308  
-- [Preload next episode sources (#2140)](https://github.com/NuvioMedia/NuvioMobile/pull/2140) @skoruppa  
-- [Fix mising poster fallback in Catalog Screen (#2139)](https://github.com/NuvioMedia/NuvioMobile/pull/2139) @skoruppa  
-- [fix(player): backport automatic skip notifications from Desktop (#2137)](https://github.com/NuvioMedia/NuvioMobile/pull/2137) @Laskco]]></description>
-      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.6-beta/nuvio-0.5.6-full-release.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

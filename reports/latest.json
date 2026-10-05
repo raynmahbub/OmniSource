@@ -1,45 +1,43 @@
 {
   "generatedAt": "2026-10-05",
-  "feedVersion": "395bdb0daef1",
+  "feedVersion": "dddefe6bd8d3",
   "apps": {
     "total": 131,
-    "reachable": 125,
-    "unreachable": 6,
-    "verified": 124
+    "reachable": 126,
+    "unreachable": 5,
+    "verified": 125
   },
   "sync": {
-    "synced": 127,
-    "incrementalHits": 0,
+    "synced": 128,
+    "incrementalHits": 117,
     "updated": 2,
-    "failed": 4,
-    "apiRequests": 132
+    "failed": 3,
+    "apiRequests": 117
   },
   "unreachable": [
     "cercube",
     "jaility",
     "killmyota",
-    "livecontainer",
     "trollboard-reborn",
     "uprovid"
   ],
   "updates": [
     {
-      "slug": "ryukgram",
-      "name": "RyukGram",
-      "previousVersion": "449.0.0",
-      "version": "450.0.0",
+      "slug": "glow",
+      "name": "Glow",
+      "previousVersion": "2026.39.0",
+      "version": "2026.40.0",
       "kind": "updated"
     },
     {
-      "slug": "threadsaver",
-      "name": "ThreadSaver",
-      "previousVersion": "449.0",
-      "version": "450.0",
+      "slug": "sparkle",
+      "name": "Sparkle",
+      "previousVersion": "449.0.0",
+      "version": "450.0.0",
       "kind": "updated"
     }
   ],
   "errors": [
-    "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "trollboard-reborn: all sources failed: github:haxi0/TrollBoard-Reborn error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/TrollBoard-Reborn/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"

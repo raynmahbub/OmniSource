@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-05",
-  "feedVersion": "395bdb0daef1",
+  "feedVersion": "dddefe6bd8d3",
   "app": {
     "id": "livecontainer",
     "name": "LiveContainer",
@@ -32,8 +32,8 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/livecontainer/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/livecontainer.json",
     "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
+      "reachable": true,
+      "detail": "HTTP 302",
       "updatedAt": "2026-07-17"
     }
   },
@@ -54,8 +54,8 @@
     }
   ],
   "verification": {
-    "status": "UNVERIFIED",
-    "level": "UNVERIFIED",
+    "status": "VERIFIED",
+    "level": "VERIFIED",
     "method": "github-release"
   }
 }
