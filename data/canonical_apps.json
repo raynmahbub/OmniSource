@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T15:10:11Z",
+  "generatedAt": "2026-10-05T18:02:39Z",
   "count": 107,
-  "inputRecords": 130,
-  "mergedDuplicates": 23,
+  "inputRecords": 131,
+  "mergedDuplicates": 24,
   "apps": [
     {
       "id": "com.apple.mobile.MobileHouseArrest",
@@ -9344,11 +9344,12 @@
       "sources": [
         "https://github.com/Ashreq/ashstore-repo",
         "https://archive.org/details/YouTubeRebornPlus_19.10.5-4.2.6",
+        "https://github.com/iamsmmh/OmniSource",
         "https://github.com/mrdrvt99/YouProEXTRA",
         "https://github.com/itzzace/ytkace"
       ],
-      "sourceCount": 4,
-      "duplicates": 7,
+      "sourceCount": 5,
+      "duplicates": 8,
       "versions": [
         {
           "version": "21.40.5",
@@ -9441,6 +9442,14 @@
           ],
           "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
           "downloads": 250
+        },
+        {
+          "version": "21.37.4",
+          "date": "2026-09-14",
+          "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
+          "size": 131694546,
+          "minOSVersion": "17.0"
         },
         {
           "version": "21.33.6",

@@ -709,9 +709,9 @@
   "analyticsHistory": [
     {
       "date": "2026-10-05",
-      "apps": 130,
+      "apps": 131,
       "sources": 114,
-      "verified": 124,
+      "verified": 125,
       "deadLinks": 5,
       "newThisWeek": 0,
       "updatedThisWeek": 39
@@ -30819,6 +30819,21 @@
       "kind": "updated"
     }
   ],
+  "uprovid": {
+    "retryCount": 0,
+    "lastResolvedSource": "manual",
+    "versions": [
+      {
+        "version": "21.37.4",
+        "date": "2026-09-14",
+        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
+        "size": 131694546,
+        "minOSVersion": "17.0"
+      }
+    ],
+    "syncedAt": "2026-09-18"
+  },
   "utm": {
     "retryCount": 0,
     "versions": [

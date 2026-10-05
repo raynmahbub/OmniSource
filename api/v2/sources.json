@@ -764,35 +764,6 @@
       "feedURL": "https://iamsmmh.github.io/OmniSource/feeds/appstoreplusplus.json"
     },
     {
-      "id": "iamsmmh/OmniSource",
-      "source": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
-      "type": "github",
-      "homepage": "https://archive.org/details/YouTubeRebornPlus_19.10.5-4.2.6",
-      "sourceURL": "https://archive.org/details/YouTubeRebornPlus_19.10.5-4.2.6",
-      "publisher": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
-      "apps": [
-        {
-          "slug": "uyouenhanced",
-          "name": "uYouEnhanced",
-          "version": "21.14.4"
-        }
-      ],
-      "slug": "iamsmmh-omnisource",
-      "page": "/sources/iamsmmh-omnisource/",
-      "appSlugs": [
-        "uyouenhanced"
-      ],
-      "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 77.0,
-      "score": 73.9,
-      "status": "Community Verified",
-      "level": "RELIABLE",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2026-08-22",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/feeds/uyouenhanced.json"
-    },
-    {
       "id": "cranci1/AnimeGen",
       "source": "cranci1/AnimeGen",
       "type": "github",
@@ -1342,6 +1313,40 @@
       "updateFrequencyDays": null,
       "lastUpdate": "2026-05-16",
       "feedURL": "https://iamsmmh.github.io/OmniSource/feeds/ppsspp.json"
+    },
+    {
+      "id": "iamsmmh/OmniSource",
+      "source": "iamsmmh/OmniSource (Tweak Factory)",
+      "type": "github",
+      "homepage": "https://github.com/iamsmmh/OmniSource",
+      "sourceURL": "https://github.com/iamsmmh/OmniSource",
+      "publisher": "iamsmmh/OmniSource (Tweak Factory)",
+      "apps": [
+        {
+          "slug": "uprovid",
+          "name": "uProVid",
+          "version": "21.37.4"
+        },
+        {
+          "slug": "uyouenhanced",
+          "name": "uYouEnhanced",
+          "version": "21.14.4"
+        }
+      ],
+      "slug": "iamsmmh-omnisource",
+      "page": "/sources/iamsmmh-omnisource/",
+      "appSlugs": [
+        "uprovid",
+        "uyouenhanced"
+      ],
+      "appCount": 2,
+      "verifiedApps": 1,
+      "healthScore": 77.0,
+      "score": 76.4,
+      "status": "Community Verified",
+      "level": "RELIABLE",
+      "updateFrequencyDays": null,
+      "lastUpdate": "2026-09-14"
     },
     {
       "id": "https://repo.ikghd.me/repo.json",
@@ -2185,7 +2190,7 @@
         },
         {
           "slug": "youmod",
-          "name": "uPro Plus",
+          "name": "YouMod",
           "version": "21.40.5"
         }
       ],

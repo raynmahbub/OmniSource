@@ -1654,114 +1654,6 @@
       }
     },
     {
-      "name": "uPro Plus",
-      "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "Tonwalter888",
-      "subtitle": "YouTube 21.37.4 extra-tweaks build (YouMod + player stack)",
-      "localizedDescription": "uPro Plus is OmniSource's featured YouTube 21.37.4 extra-tweaks IPA. It is the YouProEXTRA YouMod 2.0.0 line on YouTube 21.37.4 with the extra player stack that release publishes: YouPip (Picture-in-Picture), YouQuality and YouChooseQuality, YTHoldForSpeed, YouGetCaption, YTABConfig, YTNativeShare, YTweaks, Return YouTube Dislike, DontEatMyContent, Gonerino, VolumeBoostYT and PleaseDontStopTheMusic. 120 Hz display refresh is used when the device supports it. Native 4K is available on A16+ devices; YTUHD is not bundled on this YouTube version. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time. YTLite, YTKACE and YouMod are competing main tweaks; stacking all three in one IPA is unstable, so this listing follows the extra-tweaks YouMod 21.37.4 release.",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
-      "tintColor": "FF0000",
-      "category": "photo-video",
-      "version": "21.40.5",
-      "versionDate": "2026-10-05",
-      "versionDescription": "YouTube 21.40.5 | uPro Plus extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
-      "size": 129816622,
-      "versions": [
-        {
-          "version": "21.40.5",
-          "date": "2026-10-05",
-          "localizedDescription": "YouTube 21.40.5 | uPro Plus extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
-          "size": 129816622,
-          "minOSVersion": "17.0",
-          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youmod-ipa1",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "YouMod_21.40.5_2.0.0.ipa",
-              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 129816622,
-              "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
-              "downloads": 5,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
-          "downloads": 5
-        }
-      ],
-      "screenshotURLs": [],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.declared-age-range",
-          "com.apple.developer.storekit.request-data",
-          "com.apple.developer.device-information.user-assigned-device-name",
-          "com.apple.developer.group-session",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.siri",
-          "com.apple.developer.networking.wifi-info"
-        ],
-        "privacy": {
-          "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-          "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-          "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-          "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-          "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-          "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-          "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-        }
-      },
-      "omnisource": {
-        "slug": "youmod",
-        "status": "stable",
-        "featured": true,
-        "upstreamURL": "https://github.com/Tonwalter888/YouMod",
-        "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
-        "verification": {
-          "method": "github-release",
-          "publisher": "mrdrvt99/YouProEXTRA",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "17.0",
-          "maxOSVersion": null,
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": "Requires iOS 17.0+ (YouTube 21.34.3+). Served from mrdrvt99/YouProEXTRA tags youmod-ipa* (YouMod_21.37.4_2.0.0 extra-tweaks IPA). Catalog name is uPro Plus; slug remains youmod for stable feed URLs. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
-        },
-        "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-05"
-        }
-      }
-    },
-    {
       "name": "uYouEnhanced",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "arichornlover",
@@ -1854,6 +1746,114 @@
           "detail": "HTTP 302",
           "statusSince": "2026-09-18",
           "lastUpdatedAt": "2026-08-22"
+        }
+      }
+    },
+    {
+      "name": "YouMod",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "Tonwalter888",
+      "subtitle": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
+      "localizedDescription": "YouMod is OmniSource's featured YouTube 21.37.4 extra-tweaks IPA. It is the YouProEXTRA YouMod 2.0.0 line on YouTube 21.37.4 with the extra player stack that release publishes: YouPip (Picture-in-Picture), YouQuality and YouChooseQuality, YTHoldForSpeed, YouGetCaption, YTABConfig, YTNativeShare, YTweaks, Return YouTube Dislike, DontEatMyContent, Gonerino, VolumeBoostYT and PleaseDontStopTheMusic. 120 Hz display refresh is used when the device supports it. Native 4K is available on A16+ devices; YTUHD is not bundled on this YouTube version. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time. YTLite, YTKACE and YouMod are competing main tweaks; stacking all three in one IPA is unstable, so this listing follows the extra-tweaks YouMod 21.37.4 release.",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/YouTube.webp",
+      "tintColor": "FF0000",
+      "category": "photo-video",
+      "version": "21.40.5",
+      "versionDate": "2026-10-05",
+      "versionDescription": "YouTube 21.40.5 | uPro Plus extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
+      "size": 129816622,
+      "versions": [
+        {
+          "version": "21.40.5",
+          "date": "2026-10-05",
+          "localizedDescription": "YouTube 21.40.5 | uPro Plus extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
+          "size": 129816622,
+          "minOSVersion": "17.0",
+          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youmod-ipa1",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "YouMod_21.40.5_2.0.0.ipa",
+              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 129816622,
+              "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
+              "downloads": 5,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
+          "downloads": 5
+        }
+      ],
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.group-session",
+          "keychain-access-groups",
+          "com.apple.developer.networking.multicast",
+          "aps-environment",
+          "com.apple.developer.siri",
+          "com.apple.developer.networking.wifi-info"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
+          "NSMicrophoneUsageDescription": "Used to record audio for videos.",
+          "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
+          "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
+          "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
+          "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
+          "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
+        }
+      },
+      "omnisource": {
+        "slug": "youmod",
+        "status": "stable",
+        "featured": true,
+        "upstreamURL": "https://github.com/Tonwalter888/YouMod",
+        "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
+        "verification": {
+          "method": "github-release",
+          "publisher": "mrdrvt99/YouProEXTRA",
+          "codeSigned": false,
+          "checksumPublished": false
+        },
+        "compatibility": {
+          "minOSVersion": "17.0",
+          "maxOSVersion": null,
+          "devices": [
+            "iphone",
+            "ipad"
+          ],
+          "clients": [
+            "altstore",
+            "sidestore",
+            "flarestore",
+            "feather",
+            "esign",
+            "ksign",
+            "livecontainer"
+          ],
+          "notes": "Requires iOS 17.0+ (YouTube 21.34.3+). Served from mrdrvt99/YouProEXTRA tags youmod-ipa* (YouMod_21.37.4_2.0.0 extra-tweaks IPA). The slug remains youmod for stable feed URLs. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
+        },
+        "health": {
+          "downloadReachable": true,
+          "detail": "HTTP 302",
+          "statusSince": "2026-09-07",
+          "lastUpdatedAt": "2026-10-05"
         }
       }
     },

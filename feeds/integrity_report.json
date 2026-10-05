@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "generatedAt": "2026-10-05",
   "totals": {
-    "apps": 130,
+    "apps": 131,
     "pass": 81,
-    "warn": 49,
+    "warn": 50,
     "fail": 0,
     "rejected": 0
   },
@@ -3431,6 +3431,24 @@
       }
     },
     {
+      "slug": "uprovid",
+      "name": "uProVid",
+      "asset": {
+        "sha256": null,
+        "size": 131694546,
+        "releaseId": "21.37.4",
+        "source": "",
+        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa"
+      },
+      "checks": {
+        "sizePositive": true,
+        "installable": true,
+        "digestFormat": true,
+        "reachable": true
+      },
+      "status": "warn"
+    },
+    {
       "slug": "utm",
       "name": "UTM",
       "asset": {
@@ -3702,7 +3720,7 @@
     },
     {
       "slug": "youmod",
-      "name": "uPro Plus",
+      "name": "YouMod",
       "asset": {
         "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
         "size": 129816622,
