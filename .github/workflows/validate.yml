@@ -158,12 +158,17 @@ jobs:
       # actionlint pinned via its release binary (no docker image to pull).
       # The upstream checksums.txt escapes underscores with backslashes
       # (e.g. actionlint\_1.7.12\_linux\_amd64.tar.gz), so extract the hash
-      # with awk instead of unescaping the file.
+      # with awk instead of unescaping the file. Retry transient failures from
+      # GitHub's release-asset redirect; checksum validation still fails closed.
       - name: Lint workflows
         run: |
           set -euo pipefail
-          curl -fsSL "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_checksums.txt" -o /tmp/actionlint.sha256
-          curl -fsSL "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz" -o /tmp/actionlint.tar.gz
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 --retry-max-time 90 \
+            "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_checksums.txt" \
+            -o /tmp/actionlint.sha256
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 --retry-max-time 90 \
+            "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz" \
+            -o /tmp/actionlint.tar.gz
           EXPECTED=$(awk '/linux/ && /amd64\.tar\.gz$/ {print $1}' /tmp/actionlint.sha256)
           test -n "$EXPECTED"
           test "$(sha256sum /tmp/actionlint.tar.gz | awk '{print $1}')" = "$EXPECTED"
