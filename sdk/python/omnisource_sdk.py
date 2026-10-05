@@ -23,7 +23,7 @@ import urllib.request
 from dataclasses import dataclass
 from typing import Any, Callable
 
-DEFAULT_BASE_URL = "https://iamsmmh.github.io/OmniSource"
+DEFAULT_BASE_URL = "https://raynmahbub.github.io/OmniSource"
 DEFAULT_TIMEOUT = 8.0
 
 

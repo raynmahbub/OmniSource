@@ -5626,3 +5626,143 @@ body[data-page="home"] main > section[id] {
   .stat-card strong { font-size: 14.5px; }
   .stat-card span { font-size: 11.5px; }
 }
+
+/* ============================================================================
+   v3 Refresh — Chrome & Violet (raynmahbub/OmniSource)
+   ----------------------------------------------------
+   Identity-level polish layered over the Liquid Glass system above. Every
+   rule here *tunes* an existing component — the markup contract shared with
+   js/core.js, js/site.js and src/omnisource/app_pages.py is unchanged.
+   Two materials carry the identity, exactly like the mark: chrome silver
+   (rings, the first headline line, dividers) and a monochrome violet aurora
+   (gradients, glows, the second headline line).
+   ========================================================================== */
+
+/* ── Brand mark — chrome ring around the logo tile ─────────────────────── */
+.brand img,
+.footer-brand img {
+  box-shadow: var(--chrome-ring), var(--shadow-sm);
+}
+.brand > span:not(.brand-badge) {
+  transition: color var(--dur-fast) var(--ease);
+}
+.brand:hover > span:not(.brand-badge) { color: var(--accent-text); }
+
+/* ── Chrome headline ───────────────────────────────────────────────────── */
+/* The first line of the hero title is set in metal (graphite on the light
+   canvas, silver on the dark one) and the second in the violet sheen — the
+   same two materials as the logo. Falls back to plain text where background
+   clipping is unsupported. */
+.chrome-text {
+  background: var(--chrome-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+@supports not (background-clip: text) {
+  .chrome-text { background: none; color: var(--text); -webkit-text-fill-color: currentColor; }
+}
+.hero h1 {
+  font-weight: 800;
+  letter-spacing: -0.055em;
+}
+.hero-logo {
+  box-shadow:
+    var(--chrome-ring),
+    0 0 0 7px color-mix(in srgb, var(--accent) 12%, transparent),
+    var(--shadow-lg),
+    0 0 72px color-mix(in srgb, var(--accent-2) 42%, transparent);
+}
+
+/* ── Primary action — chrome edge over the violet gradient ─────────────── */
+.button.primary {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.22),
+    var(--glow-accent);
+}
+.button.primary:hover {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.30),
+    var(--highlight-inset),
+    0 14px 44px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+/* ── Feed URL, hashes, identifiers — the mono voice ────────────────────── */
+/* JetBrains Mono carries every machine-readable string. Slightly tighter
+   than the body so long GitHub Pages URLs fit the capsule on a phone. */
+.source-address code,
+.source-link code,
+.text-mono,
+.mono {
+  font-family: var(--font-mono);
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Section kickers — a chrome dot instead of a plain one ─────────────── */
+.section-heading .kicker::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex: none;
+  background: var(--accent-grad);
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.7), 0 0 10px color-mix(in srgb, var(--accent) 70%, transparent);
+}
+
+/* ── Footer — maintainer byline ────────────────────────────────────────── */
+.footer-maintainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 6px 12px 6px 8px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--glass-border);
+  background: var(--glass-subtle);
+  box-shadow: var(--highlight-inset);
+  font-size: 12px;
+  color: var(--muted);
+  width: fit-content;
+  text-decoration: none;
+  transition: border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease-spring);
+}
+.footer-maintainer:hover {
+  color: var(--text);
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--glass-border));
+  transform: translateY(-1px);
+}
+.footer-maintainer svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  fill: currentColor;
+}
+.footer-maintainer strong {
+  font-weight: 700;
+  color: var(--accent-text);
+  letter-spacing: -0.01em;
+}
+.footer-maintainer:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── Fine print — a chrome hairline instead of a flat border ───────────── */
+.fine-print {
+  border-top: 0;
+  position: relative;
+}
+.fine-print::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--hairline-grad);
+  opacity: 0.7;
+}
+
+/* ── Reduced motion ────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .footer-maintainer:hover { transform: none; }
+}

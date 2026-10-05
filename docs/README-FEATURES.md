@@ -341,8 +341,8 @@ OS.I18n.setLanguage('es');
 ## 💬 Support & Feedback
 
 ### Questions?
-- **GitHub Issues**: https://github.com/iamsmmh/OmniSource/issues
-- **GitHub Discussions**: https://github.com/iamsmmh/OmniSource/discussions
+- **GitHub Issues**: https://github.com/raynmahbub/OmniSource/issues
+- **GitHub Discussions**: https://github.com/raynmahbub/OmniSource/discussions
 
 ### Found a Bug?
 Please include:

@@ -313,7 +313,7 @@ def _nav() -> str:
             "          </summary>",
             '          <div class="nav-menu" role="menu">',
             secondary,
-            '            <a href="https://github.com/iamsmmh/OmniSource" target="_blank" rel="noopener" '
+            '            <a href="https://github.com/raynmahbub/OmniSource" target="_blank" rel="noopener" '
             'class="nav-gh" role="menuitem" data-i18n="nav.github">GitHub ↗</a>',
             "          </div>",
             "        </details>",

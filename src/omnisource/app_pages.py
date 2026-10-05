@@ -5,7 +5,7 @@ Every catalog app gets a fully static, search-engine friendly page at
 feeds — catalog metadata, pipeline state (version history), health and
 verification documents — and are never hand-edited. The Pages builder copies
 the ``apps/`` directory into the deployed site, so each app has a permanent
-URL: ``https://iamsmmh.github.io/OmniSource/apps/<slug>/``.
+URL: ``https://raynmahbub.github.io/OmniSource/apps/<slug>/``.
 
 Pages are self-contained (shared design-system CSS, ``js/core.js`` for
 theme / clipboard / search palette / QR dialog / service worker,
@@ -428,7 +428,7 @@ def render_app_page(
 ) -> str:
     """Render one app detail page as an HTML string."""
     base = catalog.base_url.rstrip("/")
-    repo_url = str(catalog.source.get("repository") or "https://github.com/iamsmmh/OmniSource")
+    repo_url = str(catalog.source.get("repository") or "https://github.com/raynmahbub/OmniSource")
     app_state = state.get(app.slug) if isinstance(state.get(app.slug), dict) else {}
     versions = app_state.get("versions") if isinstance(app_state.get("versions"), list) else []
     newest = newest_version(state, app.slug)

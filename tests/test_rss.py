@@ -20,10 +20,10 @@ class TestRssFeed(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.iamsmmh.omnisource",
+                "identifier": "com.raynmahbub.omnisource",
                 "subtitle": "Curated iOS Apps",
                 "description": "AltStore feed aggregator",
-                "baseURL": "https://iamsmmh.github.io/OmniSource",
+                "baseURL": "https://raynmahbub.github.io/OmniSource",
                 "tintColor": "5B5BD6",
                 "icon": "OmniSource.png",
                 "banner": "OmniSource.png",
@@ -114,10 +114,10 @@ class TestAppRssFeed(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.iamsmmh.omnisource",
+                "identifier": "com.raynmahbub.omnisource",
                 "subtitle": "Curated iOS Apps",
                 "description": "AltStore feed aggregator",
-                "baseURL": "https://iamsmmh.github.io/OmniSource",
+                "baseURL": "https://raynmahbub.github.io/OmniSource",
                 "tintColor": "5B5BD6",
                 "icon": "OmniSource.png",
                 "banner": "OmniSource.png",
@@ -169,7 +169,7 @@ class TestAppRssFeed(unittest.TestCase):
     def test_render_app_rss_feed_only_lists_matching_app(self) -> None:
         app_xml = render_app_rss_feed(self.catalog, self.state, "spotiflac")
         self.assertIn("<title>SpotiFLAC Mobile — Releases</title>", app_xml)
-        self.assertIn('href="https://iamsmmh.github.io/OmniSource/feeds/spotiflac.xml"', app_xml)
+        self.assertIn('href="https://raynmahbub.github.io/OmniSource/feeds/spotiflac.xml"', app_xml)
         self.assertIn("SpotiFLAC Mobile v4.9.6", app_xml)
         # History from other apps must not leak into this feed.
         self.assertNotIn("Feather", app_xml)

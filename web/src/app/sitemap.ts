@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAppsWithIds, getSources } from "@/lib/data";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://iamsmmh.github.io/OmniSource";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raynmahbub.github.io/OmniSource";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

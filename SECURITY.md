@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="assets/brand/hero.svg" width="100%" alt="OmniSource">
+  <br><br>
+  <a href="README.md">Overview</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="docs/SECURITY-REPORT.md">Latest security report</a> · <a href="https://raynmahbub.github.io/OmniSource/status/">Status</a>
+</div>
+
+<img src="assets/brand/divider.svg" width="100%" alt="">
+
 # Security Policy
 
 ## Scope
@@ -8,7 +16,7 @@ the feeds, and the supply chain between an upstream release and your device.
 
 ## Reporting a vulnerability
 
-Use [private vulnerability reporting](https://github.com/iamsmmh/OmniSource/security/advisories/new).
+Use [private vulnerability reporting](https://github.com/raynmahbub/OmniSource/security/advisories/new).
 Do not open a public issue for:
 
 - a feed entry pointing at a malicious or hijacked download,

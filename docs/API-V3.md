@@ -55,8 +55,8 @@ GET /api/v3/search?q=trollstore&per_page=10
 ## Examples
 
 ```bash
-curl 'https://iamsmmh.github.io/OmniSource/api/v3/index.json'
-curl 'https://iamsmmh.github.io/OmniSource/api/v3/apps.json'
+curl 'https://raynmahbub.github.io/OmniSource/api/v3/index.json'
+curl 'https://raynmahbub.github.io/OmniSource/api/v3/apps.json'
 curl 'https://HOST/api/v3/search?q=music&per_page=5'
 ```
 

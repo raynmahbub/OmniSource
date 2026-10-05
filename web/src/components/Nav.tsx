@@ -153,15 +153,20 @@ export default function Nav({ dict, lang }: { dict: Dictionary; lang: Locale }) 
         {dict.common.skipToContent ?? "Skip to content"}
       </a>
 
-      <header className="sticky top-0 z-40 border-b border-zinc-200 bg-white/85 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/85">
+      <header className="sticky top-0 z-40 border-b border-zinc-200 bg-white/85 backdrop-blur after:pointer-events-none after:absolute after:inset-x-0 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-violet-500/60 after:to-transparent dark:border-zinc-800 dark:bg-zinc-950/85">
         <div className="mx-auto flex w-full max-w-6xl items-center gap-3 px-4 py-2">
           <Link
             href="/"
             className="flex min-w-0 items-center gap-2 font-extrabold tracking-tight text-zinc-900 dark:text-white"
           >
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-red-500 to-orange-500 text-lg text-white">
-              O
-            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element -- static SVG from /public, no optimisation needed */}
+            <img
+              src="/icon.svg"
+              alt=""
+              width={32}
+              height={32}
+              className="h-8 w-8 shrink-0 rounded-lg shadow-[0_0_0_1px_rgba(255,255,255,0.85),0_0_0_2px_rgba(148,163,184,0.45)] dark:shadow-[0_0_0_1px_rgba(255,255,255,0.35),0_0_0_2px_rgba(148,163,184,0.28)]"
+            />
             <span className="truncate">OmniSource</span>
           </Link>
 
@@ -192,7 +197,7 @@ export default function Nav({ dict, lang }: { dict: Dictionary; lang: Locale }) 
               aria-expanded={open}
               aria-controls={panelId}
               aria-label={open ? label("closeMenu", "Close menu") : label("openMenu", "Open menu")}
-              className="flex h-11 w-11 items-center justify-center rounded-xl border border-zinc-200 text-zinc-700 transition-colors hover:bg-zinc-100 active:bg-zinc-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 lg:hidden dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
+              className="flex h-11 w-11 items-center justify-center rounded-xl border border-zinc-200 text-zinc-700 transition-colors hover:bg-zinc-100 active:bg-zinc-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 lg:hidden dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
             >
               <svg aria-hidden viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                 {open ? <path d="m6 6 12 12M18 6 6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}

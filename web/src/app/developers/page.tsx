@@ -32,7 +32,7 @@ export default async function DevelopersPage() {
             <ul className="mt-3 space-y-1 text-sm">
               {(byDeveloper.get(developer.name) ?? []).slice(0, 8).map((app) => (
                 <li key={app.id}>
-                  <Link className="text-red-600 hover:underline" href={`/apps/${encodeURIComponent(app.id)}`}>
+                  <Link className="text-violet-700 hover:underline dark:text-violet-300" href={`/apps/${encodeURIComponent(app.id)}`}>
                     {app.name}
                   </Link>
                 </li>

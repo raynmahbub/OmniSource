@@ -42,8 +42,8 @@ class TestPipeline(unittest.TestCase):
             catalog_data = {
                 "source": {
                     "name": "OmniSource",
-                    "identifier": "com.iamsmmh.omnisource",
-                    "baseURL": "https://iamsmmh.github.io/OmniSource",
+                    "identifier": "com.raynmahbub.omnisource",
+                    "baseURL": "https://raynmahbub.github.io/OmniSource",
                     "icon": "OmniSource.png",
                     "banner": "OmniSource.png",
                 },
@@ -176,8 +176,8 @@ class TestManualReleaseFallback(unittest.TestCase):
                 {
                     "source": {
                         "name": "OmniSource",
-                        "identifier": "com.iamsmmh.omnisource",
-                        "baseURL": "https://iamsmmh.github.io/OmniSource",
+                        "identifier": "com.raynmahbub.omnisource",
+                        "baseURL": "https://raynmahbub.github.io/OmniSource",
                         "icon": "TestApp.png",
                     },
                     "apps": [

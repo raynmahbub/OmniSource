@@ -8,7 +8,7 @@ import { safeExternalUrl } from "@/lib/url";
 
 /** Every app is published as a single-app feed next to the master feed. */
 function singleAppFeed(bundleIdentifier: string): string {
-  return `https://iamsmmh.github.io/OmniSource/feeds/${encodeURIComponent(bundleIdentifier)}.json`;
+  return `https://raynmahbub.github.io/OmniSource/feeds/${encodeURIComponent(bundleIdentifier)}.json`;
 }
 
 export function generateStaticParams() {
@@ -25,7 +25,7 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
   const sourceFeed = app.bundleIdentifier ? singleAppFeed(app.bundleIdentifier) : "";
   return (
     <div className="space-y-6">
-      <Link href="/apps" className="text-sm font-semibold text-red-600 hover:underline">
+      <Link href="/apps" className="text-sm font-semibold text-violet-700 hover:underline dark:text-violet-300">
         ← {dict.sections.appsTitle}
       </Link>
       <div className="flex flex-col gap-5 rounded-3xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900 md:flex-row">
@@ -51,14 +51,14 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
               <a
                 href={downloadUrl}
                 rel="noopener noreferrer"
-                className="inline-flex min-h-11 items-center rounded-xl bg-red-600 px-5 font-semibold text-white transition-colors hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                className="inline-flex min-h-11 items-center rounded-xl bg-violet-600 px-5 font-semibold text-white transition-colors hover:bg-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
               >
                 ⬇ {dict.common.download} (.ipa)
               </a>
             )}
             <a
               href={sourceFeed}
-              className="inline-flex min-h-11 items-center rounded-xl border border-zinc-300 px-5 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
+              className="inline-flex min-h-11 items-center rounded-xl border border-zinc-300 px-5 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
             >
               {dict.home.addSource}
             </a>
@@ -94,7 +94,7 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
                     <a
                       href={safeExternalUrl(ver.downloadURL)}
                       rel="noopener noreferrer"
-                      className="ml-auto font-semibold text-red-600 hover:underline"
+                      className="ml-auto font-semibold text-violet-700 hover:underline dark:text-violet-300"
                     >
                       {dict.common.download}
                     </a>

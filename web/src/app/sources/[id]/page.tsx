@@ -23,7 +23,7 @@ export default async function SourceDetail({ params }: { params: Promise<{ id: s
   );
   return (
     <div className="space-y-6">
-      <Link href="/sources" className="text-sm font-semibold text-red-600 hover:underline">
+      <Link href="/sources" className="text-sm font-semibold text-violet-700 hover:underline dark:text-violet-300">
         ← {dict.sections.sourcesTitle}
       </Link>
       <div className="rounded-3xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
@@ -50,7 +50,7 @@ export default async function SourceDetail({ params }: { params: Promise<{ id: s
               <dt className="text-zinc-500">Homepage</dt>
               <dd className="min-w-0 break-words">
                 {homepage ? (
-                  <a href={homepage} rel="noopener noreferrer" className="font-semibold text-red-600 hover:underline">
+                  <a href={homepage} rel="noopener noreferrer" className="font-semibold text-violet-700 hover:underline dark:text-violet-300">
                     {source.homepage}
                   </a>
                 ) : (

@@ -16,7 +16,7 @@ contract the website and feed clients depend on:
 ``--root`` serves the repository tree instead of the ``_site/`` artifact —
 that is what GitHub Pages serves while it is configured for a *branch*
 deployment, and it is how the installable source URL
-(https://iamsmmh.github.io/OmniSource/apps.json) is reached. The two modes
+(https://raynmahbub.github.io/OmniSource/apps.json) is reached. The two modes
 share the same page/API expectations; the flat URL family is fully published
 in ``_site/`` and reduced to ``/apps.json`` at the repository root.
 

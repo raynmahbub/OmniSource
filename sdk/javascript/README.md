@@ -5,7 +5,7 @@ Browser- and Node-compatible client for the public OmniSource API.
 ```js
 import OmniSource from '@omnisource/sdk';
 
-const client = new OmniSource({ baseURL: 'https://iamsmmh.github.io/OmniSource' });
+const client = new OmniSource({ baseURL: 'https://raynmahbub.github.io/OmniSource' });
 
 // Search the catalog.
 const results = await client.search('spotify');

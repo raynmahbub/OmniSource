@@ -18,7 +18,7 @@ class OmniSourceError extends Error {
   }
 }
 
-const DEFAULT_BASE_URL = 'https://iamsmmh.github.io/OmniSource';
+const DEFAULT_BASE_URL = 'https://raynmahbub.github.io/OmniSource';
 const DEFAULT_TIMEOUT = 8000;
 
 // Linear-time trailing-slash trim. (A /\/+$/ regex backtracks

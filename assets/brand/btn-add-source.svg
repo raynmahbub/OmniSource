@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="250" height="60" viewBox="0 0 250 60" role="img" aria-label="Add the OmniSource source">
   <defs>
     <linearGradient id="ctaFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#6d5bff"/>
+      <stop offset="0" stop-color="#5b3df5"/>
       <stop offset="0.5" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#c084fc"/>
     </linearGradient>
     <linearGradient id="ctaSheen" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
       <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <filter id="ctaSoft" x="-30%" y="-60%" width="160%" height="240%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#3b2fb0" flood-opacity="0.38"/></filter>
+    <filter id="ctaSoft" x="-30%" y="-60%" width="160%" height="240%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#3a2bb8" flood-opacity="0.38"/></filter>
   </defs>
   <rect x="1" y="3" width="248" height="54" rx="27" fill="url(#ctaFill)" filter="url(#ctaSoft)"/>
   <rect x="1" y="3" width="248" height="27" rx="27" fill="url(#ctaSheen)" opacity="0.55"/>

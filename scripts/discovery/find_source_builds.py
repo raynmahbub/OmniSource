@@ -48,7 +48,7 @@ from omnisource.source_builds import (
 from omnisource.source_policy import decide, load_policy
 
 ROOT = Path(__file__).resolve().parents[2]
-UA = "omnisource-source-build-finder (+https://iamsmmh.github.io/OmniSource)"
+UA = "omnisource-source-build-finder (+https://raynmahbub.github.io/OmniSource)"
 
 
 def _get(url: str, *, token: str | None = None, raw: bool = False) -> Any:

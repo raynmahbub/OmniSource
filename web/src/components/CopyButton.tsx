@@ -76,7 +76,7 @@ export default function CopyButton({
       aria-live="polite"
       className={
         className ??
-        "inline-flex min-h-11 items-center gap-2 rounded-xl border border-zinc-300 px-4 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
+        "inline-flex min-h-11 items-center gap-2 rounded-xl border border-zinc-300 px-4 font-semibold transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 dark:border-zinc-700 dark:hover:bg-zinc-800"
       }
     >
       <span aria-hidden>{state === "copied" ? "✓" : state === "failed" ? "!" : "⧉"}</span>

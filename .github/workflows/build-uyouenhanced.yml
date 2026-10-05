@@ -4,7 +4,7 @@
 # Manually injects the arichornlover/uYouEnhanced tweak stack into a decrypted
 # YouTube .ipa (Theos + theos-jailed, then cyan — the maintained successor to
 # Azule / pyzule) and publishes the patched IPA as a GitHub Release asset on
-# iamsmmh/OmniSource.
+# raynmahbub/OmniSource.
 #
 # How to run:
 #   Actions → "Build uYouEnhanced" → Run workflow → paste a DIRECT IPA URL.
@@ -566,7 +566,7 @@ jobs:
 
       # -----------------------------------------------------------------------
       # 10. Publish — upload a workflow artifact (Actions tab) and create a
-      #     GitHub Release on iamsmmh/OmniSource with the IPA attached.
+      #     GitHub Release on raynmahbub/OmniSource with the IPA attached.
       # -----------------------------------------------------------------------
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v7
@@ -638,7 +638,7 @@ jobs:
           echo "RELEASE_TAG=$TAG" >> "$GITHUB_ENV"
           echo "RELEASE_URL=${{ github.server_url }}/${{ github.repository }}/releases/tag/${TAG}" >> "$GITHUB_ENV"
 
-      # The catalog treats iamsmmh/OmniSource releases tagged `uyouenhanced-v*`
+      # The catalog treats raynmahbub/OmniSource releases tagged `uyouenhanced-v*`
       # as the upstream for the uyouenhanced app, so publishing here is enough
       # to update the feed - we just kick the pipeline instead of waiting 6h.
       - name: Trigger feed sync

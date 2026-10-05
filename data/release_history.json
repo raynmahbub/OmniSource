@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T18:02:39Z",
+  "generatedAt": "2026-10-05T19:13:24Z",
   "appCount": 131,
-  "releases": 263,
+  "releases": 265,
   "apps": {
     "3105": [
       {
@@ -413,7 +413,7 @@
         "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.10/Dopamine.ipa",
         "size": 55415420,
         "sha256": "de8c87b564326e6b15bfc523ba764d343113bb2fa7582f637727d6fdc385f4b9",
-        "localizedDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Fix is in frida-gum upstream but a stable build on fridas end is still pending) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
+        "localizedDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Requires frida >=17.19.0) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
         "status": "current",
         "firstSeen": "2026-09-24T12:05:34Z"
       },
@@ -523,12 +523,22 @@
     "glow": [
       {
         "version": "2026.39.0",
+        "date": "2026-10-03",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.39.0-RedditFilter.ipa",
+        "size": 146182138,
+        "sha256": "",
+        "localizedDescription": "Facebook 2026.39.0 | Reddit-2026.39.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.39.0",
+        "status": "current",
+        "firstSeen": "2026-10-05T19:13:24Z"
+      },
+      {
+        "version": "2026.39.0",
         "date": "2026-09-29",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.39.0-RedditFilter.ipa",
         "size": 144673258,
         "sha256": "",
         "localizedDescription": "Facebook 2026.39.0 | Reddit-2026.39.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.39.0",
-        "status": "current",
+        "status": "removed",
         "firstSeen": "2026-09-30T12:54:56Z"
       },
       {
@@ -1226,13 +1236,23 @@
     ],
     "nicegram": [
       {
+        "version": "2.6.2",
+        "date": "2026-10-05",
+        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa",
+        "size": 104977076,
+        "sha256": "9cf0aca0b07a5c9f4f6809c80b5494d59016fe8d58d327ba60b5fa9915520b27",
+        "localizedDescription": "Nicegram 2.6.2 | build 2.6.2\n\nBuild of Nicegram for iOS 2.6.2 (718)",
+        "status": "current",
+        "firstSeen": "2026-10-05T19:13:24Z"
+      },
+      {
         "version": "2.6.1",
         "date": "2026-09-07",
         "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-713/Nicegram.ipa",
         "size": 126339077,
         "sha256": "2e884638cdbf264ef472449f83d244d5e8e32766fef7b29f76109db788f614cb",
         "localizedDescription": "Nicegram 2.6.1 | build 2.6.1\n\nBuild of Nicegram for iOS 2.6.1 (713)",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-17T23:15:53Z"
       }
     ],
@@ -1387,9 +1407,9 @@
         "version": "1.13.0",
         "date": "2026-10-01",
         "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-        "size": 49119120,
-        "sha256": "4352ebda2f9730739420a633ba0121b1cbf85878b6d185b956a2d0208aeb1b8e",
-        "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
+        "size": 49121859,
+        "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
+        "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
         "status": "current",
         "firstSeen": "2026-10-02T13:01:39Z"
       },
@@ -1625,7 +1645,7 @@
         "version": "449.0.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-RyukGram.ipa",
-        "size": 331736032,
+        "size": 339380711,
         "sha256": "",
         "localizedDescription": "Instagram 449.0.0 | Instagram-449.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 449.0.0",
         "status": "current",
@@ -2033,7 +2053,7 @@
         "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
         "size": 94047950,
         "sha256": "179399acdc36f6410cd40357de1ab3d2d9812f6f97da6c6c68184adcbed1126e",
-        "localizedDescription": "Synkplay 0.26.0 | synkplay-0.26.0-ios\n\n<table align=\"center\"><tr>\n<td align=\"center\" rowspan=\"2\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/synkplay_app_badge_512.png\" width=\"128\" alt=\"Synkplay\"></td>\n<td align=\"center\"><a href=\"https://play.google.com/store/apps/details?id=com.yuroyami.syncplay\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/google-play.png\" width=\"150\" alt=\"Get it on Google Play\"></a></td>\n<td align=\"center\"><a href=\"https://apps.apple.com/us/app/synkplay/id6760187432\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/app-store.png\" width=\"150\" alt=\"Download on the App Store\"></a></td>\n</tr><tr>\n<td align=\"center\"><a href=\"https://apt.izzysoft.de/fdroid/index/apk/com.reddnek.syncplay\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/IzzyOnDroid.png\" width=\"150\" alt=\"Get it on IzzyOnDroid\"></a></td>\n<td align=\"center\"><a href=\"https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/yuroyami/syncplay-mobile/refs/heads/master/altstore_yuroyami.json\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/AltSource_Blue.png\" width=\"150\" alt=\"Add the AltStore source\"></a></td>\n</tr></table>\n\n> This release is not on Google Play or the App Store yet.\n\n<details open><summary><h2>Changelog <sub>since v0.25.0</sub></h2></summary>\n\n- iOS: picture-in-picture now works with AVPlayer and KitePlayer.\n- A hosted room can now encrypt its connections. Turn on Encrypt connections when you host. When a server's certificate is not trusted by the system, the app shows its fingerprint and lets you decide.\n- Small drifts between watchers are now corrected with a speed change of half a percent, which",
+        "localizedDescription": "Synkplay 0.26.0 | synkplay-0.26.0-ios\n\n<table align=\"center\"><tr>\n<td align=\"center\" rowspan=\"2\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/synkplay_app_badge_512.png\" width=\"128\" alt=\"Synkplay\"></td>\n<td align=\"center\"><a href=\"https://play.google.com/store/apps/details?id=com.yuroyami.syncplay\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/google-play.png\" width=\"150\" alt=\"Get it on Google Play\"></a></td>\n<td align=\"center\"><a href=\"https://apps.apple.com/us/app/synkplay/id6760187432\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/app-store.png\" width=\"150\" alt=\"Download on the App Store\"></a></td>\n</tr><tr>\n<td align=\"center\"><a href=\"https://apt.izzysoft.de/fdroid/index/apk/com.reddnek.syncplay\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/IzzyOnDroid.png\" width=\"150\" alt=\"Get it on IzzyOnDroid\"></a></td>\n<td align=\"center\"><a href=\"https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/yuroyami/syncplay-mobile/refs/heads/master/altstore_yuroyami.json\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/AltSource_Blue.png\" width=\"150\" alt=\"Add the AltStore source\"></a></td>\n</tr></table>\n\n> This release is not on Google Play or the App Store yet.\n\nWe're approaching the v1.0 stable release. [KitePlayer](https://github.com/yuroyami/KitePlayer) is also looking promising to be the default player on iOS (VLC has always been such a mess to work with). I urge you to test KitePlayer which is a player I made specifically for the Kotlin multiplatform framework to match mpv and VLC capabilities. Be one of its first testers. I'd love the feedback. Note that it still does NOT support TrueHDR",
         "status": "current",
         "firstSeen": "2026-10-01T13:46:24Z"
       },
@@ -2429,7 +2449,7 @@
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
         "size": 129816622,
         "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
-        "localizedDescription": "YouTube 21.40.5 | uPro Plus extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "localizedDescription": "YouTube 21.40.5 | YouMod extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
         "status": "current",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
