@@ -1,6 +1,6 @@
 # FIX-PROMPT — OmniSource remediation (paste-ready)
 
-> Paste everything below into a fresh session working on `iamsmmh/OmniSource`.
+> Paste everything below into a fresh session working on `raynmahbub/OmniSource`.
 > Evidence for every claim lives in `AUDIT-2026-09-18.md` (same directory) —
 > read it before touching code; it carries the commands, the counts and the
 > exact annotations. Finding numbers F1–F8 were assigned in that audit and are
@@ -48,9 +48,9 @@
   Run lists, job steps and **annotations** are all reachable.
 * **Actions job logs do NOT**: `gh run view <id> --log-failed` → `EOF` from
   `results-receiver.actions.githubusercontent.com` (Azure blob redirect).
-  Use `gh api repos/iamsmmh/OmniSource/check-runs/<job_id>/annotations` — it
+  Use `gh api repos/raynmahbub/OmniSource/check-runs/<job_id>/annotations` — it
   carries the failing step's error message and is how F1 was diagnosed.
-* **No browser, no rendering engine, no network to `iamsmmh.github.io`**
+* **No browser, no rendering engine, no network to `raynmahbub.github.io`**
   (`curl` → `SSL_ERROR_SYSCALL`, HTTP `000`; same for `raw.githubusercontent.com`).
   **Nothing you conclude about layout, contrast, scroll position or pixel
   geometry can be verified here.** Say so rather than asserting it.
@@ -113,7 +113,7 @@ character: Colon :"*.
    `tests/test_api_v3.py`, and the `api/v3` regeneration: 114 deletions, 114
    additions) and open the PR.
 2. After merge, confirm the next scheduled `Backup and Recovery` run goes green
-   — `gh api "repos/iamsmmh/OmniSource/actions/workflows/backup.yml/runs?per_page=3"`.
+   — `gh api "repos/raynmahbub/OmniSource/actions/workflows/backup.yml/runs?per_page=3"`.
    Until that run is green, **F1 is not verified end to end**, and you should
    say so.
 3. Optional hardening while you are in there: `backup.yml`'s upload step is the
@@ -133,8 +133,8 @@ unverified**; do not propose a fix before you have read a real failure.
 * **Targets:** `.github/workflows/sync.yml` and `src/omnisource/pipeline.py`
   (`stage_sync`, `run`).
 * **Step 1 (investigation, not a fix):** pull annotations for the failed jobs —
-  `gh api repos/iamsmmh/OmniSource/actions/runs/<id>/jobs --jq '.jobs[]|select(.conclusion=="failure")|.id'`,
-  then `gh api repos/iamsmmh/OmniSource/check-runs/<job>/annotations`. If they
+  `gh api repos/raynmahbub/OmniSource/actions/runs/<id>/jobs --jq '.jobs[]|select(.conclusion=="failure")|.id'`,
+  then `gh api repos/raynmahbub/OmniSource/check-runs/<job>/annotations`. If they
   are as uninformative as `35272983595`'s, the real task is **observability**:
   add a step to `sync.yml` that uploads the pipeline log as an artifact on
   failure (`if: failure()`, `actions/upload-artifact`), so the next failure is
@@ -301,7 +301,7 @@ State what you did **not** verify, in the same breath as what you did. In this
 sandbox specifically:
 
 * no rendered-page, layout, contrast, scroll-position or pixel measurement is
-  possible — no browser, no network to `iamsmmh.github.io`;
+  possible — no browser, no network to `raynmahbub.github.io`;
 * Actions job logs are unreachable, so a workflow root cause that is not in the
   annotations is unverified;
 * a scheduled workflow's next run cannot be observed before merge.

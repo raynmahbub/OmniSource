@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://iamsmmh.github.io/OmniSource/schemas/app.schema.json",
+  "$id": "https://raynmahbub.github.io/OmniSource/schemas/app.schema.json",
   "title": "OmniSource normalized app record",
   "description": "Centralized schema for the normalized per-app record consumed by the OmniSource website and OmniStore Pro clients (feeds/api/v2/apps.json and feeds/api/v2/apps/<id>.json). AltStore distribution feeds keep their own shape (schemas/altstore-feed.schema.json); this schema is the stable client contract. The pipeline enforces it in src/omnisource/app_schema.py and the build fails when a record violates it.",
   "type": "object",

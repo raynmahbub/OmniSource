@@ -316,7 +316,7 @@ OS.Compare.renderComparison(['ytlite', 'youpro', 'ytmusic']);
 ```javascript
 // Show QR code
 OS.QRCode.showQR(
-  'https://iamsmmh.github.io/OmniSource/apps.json',
+  'https://raynmahbub.github.io/OmniSource/apps.json',
   'OmniSource Feed'
 );
 
@@ -683,7 +683,7 @@ web-push generate-vapid-keys
 **API Client**:
 ```javascript
 // services/api.js
-const API_BASE = 'https://iamsmmh.github.io/OmniSource/api';
+const API_BASE = 'https://raynmahbub.github.io/OmniSource/api';
 
 export const fetchCatalog = async () => {
   const response = await fetch(`${API_BASE}/catalog.json`);
@@ -1014,8 +1014,8 @@ For feature requests or bug reports, please use the GitHub Issues template.
 ## Support
 
 For questions or issues:
-- GitHub Discussions: https://github.com/iamsmmh/OmniSource/discussions
-- GitHub Issues: https://github.com/iamsmmh/OmniSource/issues
+- GitHub Discussions: https://github.com/raynmahbub/OmniSource/discussions
+- GitHub Issues: https://github.com/raynmahbub/OmniSource/issues
 
 ---
 

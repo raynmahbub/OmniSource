@@ -19,8 +19,8 @@ class TestUpdatesDoc(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.iamsmmh.omnisource",
-                "baseURL": "https://iamsmmh.github.io/OmniSource",
+                "identifier": "com.raynmahbub.omnisource",
+                "baseURL": "https://raynmahbub.github.io/OmniSource",
                 "icon": "OmniSource.png",
             },
             "apps": [
@@ -73,7 +73,7 @@ class TestUpdatesDoc(unittest.TestCase):
         self.assertEqual(first["name"], "SpotiFLAC Mobile")
         self.assertEqual(first["version"], "4.9.6")
         self.assertEqual(first["date"], "2026-09-07")
-        self.assertIn("https://iamsmmh.github.io/OmniSource/assets/SpotiFLAC.png", first["iconURL"])
+        self.assertIn("https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.png", first["iconURL"])
         self.assertIn(".xml", first["rssURL"])
 
     def test_current_versions_seed_sparse_history(self) -> None:

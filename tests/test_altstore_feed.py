@@ -25,10 +25,10 @@ class TestAltStoreFeed(unittest.TestCase):
         self.raw_catalog = {
             "source": {
                 "name": "OmniSource",
-                "identifier": "com.iamsmmh.omnisource",
+                "identifier": "com.raynmahbub.omnisource",
                 "subtitle": "Curated iOS Apps",
                 "description": "AltStore feed aggregator",
-                "baseURL": "https://iamsmmh.github.io/OmniSource",
+                "baseURL": "https://raynmahbub.github.io/OmniSource",
                 "tintColor": "5B5BD6",
                 "icon": "OmniSource.png",
                 "banner": "OmniSource.png",
@@ -52,15 +52,15 @@ class TestAltStoreFeed(unittest.TestCase):
         envelope = feed_envelope(
             self.catalog,
             name="OmniSource",
-            identifier="com.iamsmmh.omnisource",
+            identifier="com.raynmahbub.omnisource",
             subtitle="Curated apps",
             description="All apps",
         )
         self.assertEqual(envelope["name"], "OmniSource")
         self.assertEqual(envelope["apiVersion"], "v2")
         self.assertEqual(envelope["tintColor"], "5B5BD6")
-        self.assertEqual(envelope["iconURL"], "https://iamsmmh.github.io/OmniSource/assets/OmniSource.png")
-        self.assertEqual(envelope["sourceURL"], "https://iamsmmh.github.io/OmniSource/apps.json")
+        self.assertEqual(envelope["iconURL"], "https://raynmahbub.github.io/OmniSource/assets/OmniSource.png")
+        self.assertEqual(envelope["sourceURL"], "https://raynmahbub.github.io/OmniSource/apps.json")
 
     def test_render_altstore_app(self) -> None:
         raw_app = {

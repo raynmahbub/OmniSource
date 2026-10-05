@@ -2,12 +2,12 @@
   "$schema": "./schemas/catalog.schema.json",
   "source": {
     "name": "OmniSource",
-    "identifier": "com.iamsmmh.omnisource",
+    "identifier": "com.raynmahbub.omnisource",
     "subtitle": "A curated iOS app source for AltStore, SideStore, FlareStore, Feather, ESign, Ksign and LiveContainer",
     "description": "OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app's own official upstream project - GitHub Releases or the developer's official AltStore feed - and each download link is re-verified automatically.",
-    "owner": "iamsmmh",
-    "repository": "https://github.com/iamsmmh/OmniSource",
-    "baseURL": "https://iamsmmh.github.io/OmniSource",
+    "owner": "raynmahbub",
+    "repository": "https://github.com/raynmahbub/OmniSource",
+    "baseURL": "https://raynmahbub.github.io/OmniSource",
     "tintColor": "5B5BD6",
     "icon": "OmniSource.webp",
     "banner": "OmniSource.png"
@@ -116,18 +116,18 @@
       "subtitle": "Your YouTube, your tweaks: base IPA + the mods you pick",
       "bundleIdentifier": "com.google.ios.youtube",
       "alternativeTo": "ytlite",
-      "developerName": "iamsmmh",
+      "developerName": "raynmahbub",
       "category": "photo-video",
       "tintColor": "FF0000",
       "icon": "YouTube.webp",
       "featured": false,
       "status": "manual",
-      "upstreamURL": "https://github.com/iamsmmh/OmniSource",
+      "upstreamURL": "https://github.com/raynmahbub/OmniSource",
       "localizedDescription": "uProVid is a build-it-yourself YouTube mod. Bring your own decrypted YouTube base IPA (local file or link), pick the tweaks you want - YouMod and YTLite resolve from their official upstream releases, anything else by direct .deb link - set the app name, bundle ID and version, and the Tweak Factory injects the selection with Cyan and publishes the result back to this source as a provenance-tagged release with digests. Until the first uProVid factory build ships (tag tweak-build/uprovid/* in this repository), the listing serves ASJTube 1.2.1 on YouTube 21.37.4 - the same publisher's ready-to-sideload YouTube enhancer with the YouPip / YouQuality / dislikes/privacy tweak stack - as a stand-in. Build one: python3 scripts/tweak_factory.py build (docs/TWEAK-FACTORY.md). Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time.",
       "screenshots": [],
       "verification": {
         "method": "github-release",
-        "publisher": "iamsmmh/OmniSource (Tweak Factory)",
+        "publisher": "raynmahbub/OmniSource (Tweak Factory)",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -175,7 +175,7 @@
         }
       },
       "upstream": {
-        "repo": "iamsmmh/OmniSource",
+        "repo": "raynmahbub/OmniSource",
         "tagPrefix": "tweak-build/uprovid/",
         "assetSuffixes": [
           ".ipa"
@@ -262,7 +262,7 @@
         }
       },
       "upstream": {
-        "repo": "iamsmmh/OmniSource",
+        "repo": "raynmahbub/OmniSource",
         "tagPrefix": "uyouenhanced-v",
         "assetSuffixes": [
           ".ipa"

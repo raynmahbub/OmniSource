@@ -6,7 +6,7 @@
     "youtube": {
       "description": "Decrypted YouTube base app shared by every YouTube tweak injection. Configure ONE of the three sources before enabling builds: (1) 'release' — your own private/public dumps repo where each release tag starts with tagPrefix and holds the decrypted .ipa; (2) 'variable' — a repository variable named envVar holding a direct https URL; (3) 'url' — a fixed https URL. The repo below is the recommended layout and does not exist yet: create it and push your dumps, or repoint the source.",
       "source": "release",
-      "repo": "iamsmmh/base-ipas",
+      "repo": "raynmahbub/base-ipas",
       "tagPrefix": "youtube-",
       "assetGlob": "*.ipa"
     }

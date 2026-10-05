@@ -32,8 +32,8 @@ from omnisource.validation import (
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_SOURCE = {
-    "baseURL": "https://iamsmmh.github.io/OmniSource",
-    "repository": "https://github.com/iamsmmh/OmniSource",
+    "baseURL": "https://raynmahbub.github.io/OmniSource",
+    "repository": "https://github.com/raynmahbub/OmniSource",
 }
 UPSTREAM = "https://github.com/SomeDev/SomeApp"
 
@@ -74,7 +74,7 @@ class DeclaredProvenanceTests(unittest.TestCase):
         # The self-loop: declaring our own mirror as the source records no origin,
         # which is exactly how fabricated mockups survived review before.
         app = _app(
-            screenshots=["https://raw.githubusercontent.com/iamsmmh/OmniSource/main/assets/screenshots/x/x-1.png"]
+            screenshots=["https://raw.githubusercontent.com/raynmahbub/OmniSource/main/assets/screenshots/x/x-1.png"]
         )
         report = validate_catalog(_catalog(app), assets_dir=ROOT / "assets")
         self.assertTrue(any("points back at OmniSource" in e for e in report.errors), report.errors)
@@ -123,7 +123,7 @@ class ManifestTruthTests(unittest.TestCase):
                 {
                     "slug": "someapp",
                     "mirrored": True,
-                    "mirroredURL": "https://iamsmmh.github.io/OmniSource/assets/screenshots/someapp/x.png",
+                    "mirroredURL": "https://raynmahbub.github.io/OmniSource/assets/screenshots/someapp/x.png",
                 }
             ]
         }
@@ -231,7 +231,7 @@ class ShippedTreeTests(unittest.TestCase):
             if not shots:
                 continue
             with self.subTest(slug=app["slug"]):
-                self.assertNotIn("iamsmmh/OmniSource", " ".join(shots))
+                self.assertNotIn("raynmahbub/OmniSource", " ".join(shots))
                 self.assertTrue(all(str(u).startswith("https://") for u in shots), shots)
 
 

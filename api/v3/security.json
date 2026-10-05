@@ -4,22 +4,22 @@
   "feedVersion": "df8bd1af1fde",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-05T11:11:48Z",
+    "generatedAt": "2026-10-05T19:07:03Z",
     "verdict": "pass",
     "summary": {
-      "apps": 130,
+      "apps": 131,
       "sha256": 81,
       "sha512": 0,
-      "hashesMissing": 49,
+      "hashesMissing": 50,
       "hashesInvalid": 0,
       "duplicateBinaries": 0,
       "downloadsFailing": 0,
-      "provenanceOfficial": 130,
+      "provenanceOfficial": 131,
       "provenanceCommunity": 0,
       "provenanceUnknown": 0
     },
     "hashes": {
-      "apps": 130,
+      "apps": 131,
       "sha256": 81,
       "sha512": 0,
       "missing": [
@@ -70,6 +70,7 @@
         "iNKillerPlus",
         "iQFace",
         "iTransmission",
+        "uProVid",
         "uYouEnhanced",
         "unc0ver"
       ],
@@ -209,14 +210,15 @@
         "",
         "",
         "",
+        "",
         ""
       ]
     },
     "provenance": {
-      "official": 130,
+      "official": 131,
       "community": 0,
       "unknown": [],
-      "total": 130
+      "total": 131
     },
     "findings": [
       {
@@ -499,6 +501,12 @@
         "severity": "low",
         "check": "hash-missing",
         "id": "iTransmission",
+        "detail": "no SHA-256 recorded for the newest version"
+      },
+      {
+        "severity": "low",
+        "check": "hash-missing",
+        "id": "uProVid",
         "detail": "no SHA-256 recorded for the newest version"
       },
       {

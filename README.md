@@ -4,23 +4,23 @@
 
 <br>
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fiamsmmh.github.io%2FOmniSource%2F&label=website)](https://iamsmmh.github.io/OmniSource/)
-[![Apps](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fiamsmmh%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-apps.json)](https://iamsmmh.github.io/OmniSource/)
-[![Download health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fiamsmmh%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-health.json)](https://iamsmmh.github.io/OmniSource/status/)
-[![Validate](https://github.com/iamsmmh/OmniSource/actions/workflows/validate.yml/badge.svg)](https://github.com/iamsmmh/OmniSource/actions/workflows/validate.yml)
-[![License](https://img.shields.io/github/license/iamsmmh/OmniSource)](LICENSE)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fraynmahbub.github.io%2FOmniSource%2F&label=website)](https://raynmahbub.github.io/OmniSource/)
+[![Apps](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-apps.json)](https://raynmahbub.github.io/OmniSource/)
+[![Download health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-health.json)](https://raynmahbub.github.io/OmniSource/status/)
+[![Validate](https://github.com/raynmahbub/OmniSource/actions/workflows/validate.yml/badge.svg)](https://github.com/raynmahbub/OmniSource/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/raynmahbub/OmniSource)](LICENSE)
 
 <br>
 
-<a href="https://iamsmmh.github.io/OmniSource/install/"><img src="assets/brand/btn-add-source.svg" alt="Add the OmniSource source"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/"><img src="assets/brand/btn-add-source.svg" alt="Add the OmniSource source"></a>
 
 <br>
 
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=altstore"><img src="assets/brand/btn-add-altstore.svg" alt="Add to AltStore" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=sidestore"><img src="assets/brand/btn-add-sidestore.svg" alt="Add to SideStore" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=feather"><img src="assets/brand/btn-add-feather.svg" alt="Add to Feather" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=esign"><img src="assets/brand/btn-add-esign.svg" alt="Add to ESign" height="46"></a>
-<a href="https://iamsmmh.github.io/OmniSource/install/?add=livecontainer"><img src="assets/brand/btn-add-livecontainer.svg" alt="Add to LiveContainer" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=altstore"><img src="assets/brand/btn-add-altstore.svg" alt="Add to AltStore" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=sidestore"><img src="assets/brand/btn-add-sidestore.svg" alt="Add to SideStore" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=feather"><img src="assets/brand/btn-add-feather.svg" alt="Add to Feather" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=esign"><img src="assets/brand/btn-add-esign.svg" alt="Add to ESign" height="46"></a>
+<a href="https://raynmahbub.github.io/OmniSource/install/?add=livecontainer"><img src="assets/brand/btn-add-livecontainer.svg" alt="Add to LiveContainer" height="46"></a>
 
 **One installable source for AltStore, SideStore, Feather, ESign and LiveContainer.**
 
@@ -31,11 +31,11 @@
 ## The source
 
 ```text
-https://iamsmmh.github.io/OmniSource/apps.json
+https://raynmahbub.github.io/OmniSource/apps.json
 ```
 
 Paste that into your client's *Add Source* screen. On a phone, the buttons above
-open the [install center](https://iamsmmh.github.io/OmniSource/install/) — one
+open the [install center](https://raynmahbub.github.io/OmniSource/install/) — one
 tap, and a QR code when the client is not installed.
 
 ## What this is
@@ -49,7 +49,7 @@ accounts, no ads, no tracking, no re-hosted binaries.
 
 There is also a **Tweak Factory**: bring a decrypted base IPA and a set of
 official tweaks, and the pipeline injects them with Cyan and publishes a
-provenance-tagged release — that is how [uProVid](https://iamsmmh.github.io/OmniSource/apps/uprovid/)
+provenance-tagged release — that is how [uProVid](https://raynmahbub.github.io/OmniSource/apps/uprovid/)
 ships *your* selection of YouTube mods. See
 [`docs/TWEAK-FACTORY.md`](docs/TWEAK-FACTORY.md).
 
@@ -57,13 +57,13 @@ ships *your* selection of YouTube mods. See
 
 Catalog, app pages with screenshots and release history, per-app hashes and
 provenance, source reputation, status and the machine API all live at
-**[iamsmmh.github.io/OmniSource](https://iamsmmh.github.io/OmniSource/)** —
-[app pages](https://iamsmmh.github.io/OmniSource/apps/delta/) ·
-[install center](https://iamsmmh.github.io/OmniSource/install/) ·
-[sources](https://iamsmmh.github.io/OmniSource/sources/) ·
-[status](https://iamsmmh.github.io/OmniSource/status/) ·
-[docs](https://iamsmmh.github.io/OmniSource/docs/) ·
-[API](https://iamsmmh.github.io/OmniSource/api/index.json)
+**[raynmahbub.github.io/OmniSource](https://raynmahbub.github.io/OmniSource/)** —
+[app pages](https://raynmahbub.github.io/OmniSource/apps/delta/) ·
+[install center](https://raynmahbub.github.io/OmniSource/install/) ·
+[sources](https://raynmahbub.github.io/OmniSource/sources/) ·
+[status](https://raynmahbub.github.io/OmniSource/status/) ·
+[docs](https://raynmahbub.github.io/OmniSource/docs/) ·
+[API](https://raynmahbub.github.io/OmniSource/api/index.json)
 
 ## For maintainers
 

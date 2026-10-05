@@ -207,7 +207,7 @@ node scripts/validate-translations.js → all eight locales 100 %
 
 1. **Lighthouse run** — this sandbox has no Chrome, so the >95 targets are supported by
    structural proxies (0 blocking scripts, deferred JS, minified CSS, precached shell) rather than
-   measured. Run `npx lighthouse https://iamsmmh.github.io/OmniSource/` (and `/sources/`) in CI or
+   measured. Run `npx lighthouse https://raynmahbub.github.io/OmniSource/` (and `/sources/`) in CI or
    locally and paste the four scores into `reports/performance.md` before the public release.
 2. **`Verified` coverage is currently 0 sources** — the strictest status needs a source with zero
    broken releases, zero unreachable probes *and* ≤180-day cadence. It will light up as probes

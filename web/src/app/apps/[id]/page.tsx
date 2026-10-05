@@ -8,7 +8,7 @@ import { safeExternalUrl } from "@/lib/url";
 
 /** Every app is published as a single-app feed next to the master feed. */
 function singleAppFeed(bundleIdentifier: string): string {
-  return `https://iamsmmh.github.io/OmniSource/feeds/${encodeURIComponent(bundleIdentifier)}.json`;
+  return `https://raynmahbub.github.io/OmniSource/feeds/${encodeURIComponent(bundleIdentifier)}.json`;
 }
 
 export function generateStaticParams() {

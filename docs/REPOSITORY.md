@@ -128,7 +128,7 @@ change one. Existing subscriptions such as the following therefore continue
 to work from either mode:
 
 ```text
-https://iamsmmh.github.io/OmniSource/apps.json
+https://raynmahbub.github.io/OmniSource/apps.json
 ```
 
 ## Common commands

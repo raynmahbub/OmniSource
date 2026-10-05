@@ -3,7 +3,7 @@
 ```python
 from omnisource_sdk import OmniSource
 
-client = OmniSource(base_url="https://iamsmmh.github.io/OmniSource")
+client = OmniSource(base_url="https://raynmahbub.github.io/OmniSource")
 
 # Search the catalog.
 results = client.search("spotify")

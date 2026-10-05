@@ -1,13 +1,13 @@
 {
   "name": "OmniSource — Orbot",
-  "identifier": "com.iamsmmh.omnisource.orbot",
+  "identifier": "com.raynmahbub.omnisource.orbot",
   "apiVersion": "v2",
   "subtitle": "Single-app source",
   "description": "Single-app feed for Orbot.",
-  "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Orbot.webp",
+  "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Orbot.webp",
   "tintColor": "5B5BD6",
-  "website": "https://iamsmmh.github.io/OmniSource/",
-  "sourceURL": "https://iamsmmh.github.io/OmniSource/apps.json",
+  "website": "https://raynmahbub.github.io/OmniSource/",
+  "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "apps": [
     {
       "name": "Orbot",
@@ -15,21 +15,21 @@
       "developerName": "The Tor Project",
       "subtitle": "Tor network tunnel for iOS and iPadOS",
       "localizedDescription": "Orbot puts an iPhone, iPad or Mac behind the Tor network: it installs a local packet-tunnel configuration so device traffic leaves through Tor instead of the plain network. Obfs4 and Snowflake bridges are supported and fully configurable, Tor v3 onion-service authentication works, and Tor's EntryNodes, ExitNodes, ExcludeNodes and StrictNodes options can all be set. The sideloadable build is published from the project's own GitHub releases, which list the bundled Tor, OpenSSL, Lyrebird and Snowflake versions per app release.",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Orbot.webp",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Orbot.webp",
       "tintColor": "7D4698",
       "category": "networking",
       "version": "1.13.0",
       "versionDate": "2026-10-01",
-      "versionDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
+      "versionDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
       "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-      "size": 49119120,
+      "size": 49121859,
       "versions": [
         {
           "version": "1.13.0",
           "date": "2026-10-01",
-          "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
+          "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
           "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-          "size": 49119120,
+          "size": 49121859,
           "minOSVersion": "15.0",
           "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.13.0",
           "source": "github",
@@ -42,9 +42,9 @@
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 49119120,
-              "sha256": "4352ebda2f9730739420a633ba0121b1cbf85878b6d185b956a2d0208aeb1b8e",
-              "downloads": 3,
+              "size": 49121859,
+              "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
+              "downloads": 63,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -56,13 +56,13 @@
               "fileType": "other",
               "size": 68484591,
               "sha256": "288ca8bb153d48b06e58823d593078cb4020c9b729aa3b1cc61760b966db9334",
-              "downloads": 1,
+              "downloads": 31,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
-          "sha256": "4352ebda2f9730739420a633ba0121b1cbf85878b6d185b956a2d0208aeb1b8e",
-          "downloads": 3
+          "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
+          "downloads": 63
         }
       ],
       "screenshotURLs": [],

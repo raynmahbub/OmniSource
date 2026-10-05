@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://iamsmmh.github.io/OmniSource/schemas/source-builds.schema.json",
+  "$id": "https://raynmahbub.github.io/OmniSource/schemas/source-builds.schema.json",
   "title": "OmniSource source-build recipes",
   "description": "Reviewed build-from-source recipes in data/source_builds.json, for iOS projects whose upstream publishes source but no artifact OmniSource could attribute and verify. A recipe records the revision to build, the digest of that revision's source archive, the build commands and what to do about signing. Recipes are never published as feeds or app records, and OmniSource never signs or hosts their output.",
   "type": "object",
