@@ -1,84 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="OmniSource — automated, source-first aggregation platform for iOS sideloading clients">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="OmniSource — one verified, automatically maintained source for every iOS sideloading client. Maintained by raynmahbub.">
   <title>OmniSource</title>
+  <desc>Chrome and violet hero banner: the OmniSource wordmark over a liquid violet aurora, with the five supported clients and the maintainer handle.</desc>
   <defs>
-    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0a1c"/>
-      <stop offset="0.34" stop-color="#171039"/>
-      <stop offset="0.66" stop-color="#221247"/>
-      <stop offset="1" stop-color="#120c2e"/>
+    <!-- Canvas: deep violet night, like the dark half of the mark. -->
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07061a"/>
+      <stop offset="0.38" stop-color="#160c3a"/>
+      <stop offset="0.68" stop-color="#2a1160"/>
+      <stop offset="1" stop-color="#0e0828"/>
+    </linearGradient>
+    <!-- Liquid violet sweep. -->
+    <linearGradient id="liquid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b3df5"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <!-- Chrome: the silver liquid in the mark. -->
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.46" stop-color="#dfe4ee"/>
+      <stop offset="0.54" stop-color="#8e97ab"/>
+      <stop offset="0.72" stop-color="#cdd4e0"/>
+      <stop offset="1" stop-color="#f4f6fa"/>
+    </linearGradient>
+    <linearGradient id="chromeEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#b9c2d4" stop-opacity="0.9"/>
+      <stop offset="0.8" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="rgba(255,255,255,0.17)"/>
-      <stop offset="0.42" stop-color="rgba(255,255,255,0.06)"/>
-      <stop offset="1" stop-color="rgba(255,255,255,0.02)"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="rgba(255,255,255,0.22)"/>
-      <stop offset="1" stop-color="rgba(255,255,255,0.06)"/>
-    </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.62" stop-color="#f1efff"/>
-      <stop offset="1" stop-color="#cfc6ff"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5b4dff"/>
-      <stop offset="0.52" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#f472b6"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
     </linearGradient>
     <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5b4dff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#c9a9ff" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#5b3df5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d8c6ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
     </linearGradient>
-    <filter id="b1" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="90"/></filter>
-    <filter id="b2" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
-    <filter id="b3" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="16"/></filter>
-    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <radialGradient id="spot" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurXL" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="80"/></filter>
+    <filter id="blurL" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="46"/></filter>
+    <filter id="blurM" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="blurS" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <clipPath id="frame"><rect width="1200" height="630" rx="28"/></clipPath>
   </defs>
 
-  <rect width="1200" height="630" rx="28" fill="url(#aurora)"/>
+  <rect width="1200" height="630" rx="28" fill="url(#canvas)"/>
 
-  <circle cx="985" cy="120" r="240" fill="#5b4dff" opacity="0.50" filter="url(#b1)"/>
-  <circle cx="165" cy="520" r="270" fill="#8b5cf6" opacity="0.42" filter="url(#b1)"/>
-  <circle cx="610" cy="70" r="190" fill="#f472b6" opacity="0.32" filter="url(#b2)"/>
-  <circle cx="1120" cy="500" r="150" fill="#0891b2" opacity="0.28" filter="url(#b2)"/>
+  <g clip-path="url(#frame)">
+    <!-- Aurora orbs -->
+    <circle cx="990" cy="110" r="250" fill="#5b3df5" opacity="0.55" filter="url(#blurXL)"/>
+    <circle cx="150" cy="540" r="280" fill="#7c3aed" opacity="0.46" filter="url(#blurXL)"/>
+    <circle cx="640" cy="40" r="180" fill="#c084fc" opacity="0.30" filter="url(#blurL)"/>
+    <circle cx="1130" cy="520" r="150" fill="#38bdf8" opacity="0.16" filter="url(#blurL)"/>
 
-  <rect x="90" y="96" width="1020" height="438" rx="36" fill="url(#glass)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
-  <rect x="92" y="98" width="1016" height="2.4" rx="1.2" fill="rgba(255,255,255,0.32)"/>
-  <rect x="92" y="96" width="1016" height="438" rx="35" fill="none" stroke="rgba(40,50,90,0.16)" stroke-width="1"/>
+    <!-- Liquid violet ribbon (the swirl in the mark) -->
+    <path d="M-40 420 C 180 300, 330 560, 560 430 S 900 220, 1240 360 L 1240 700 L -40 700 Z" fill="url(#liquid)" opacity="0.22" filter="url(#blurM)"/>
+    <path d="M-40 470 C 200 380, 360 600, 600 480 S 940 300, 1240 420" fill="none" stroke="url(#liquid)" stroke-width="2.4" opacity="0.55"/>
+    <path d="M-40 478 C 200 388, 360 608, 600 488 S 940 308, 1240 428" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.22"/>
 
-  <text x="600" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#bca9ff" text-anchor="middle" letter-spacing="5">AUTOMATED · SOURCE-FIRST · VERIFIED</text>
+    <!-- Chrome liquid sweep (the silver half of the mark), top-left -->
+    <path d="M-60 -40 C 120 60, 150 220, 40 330 C -10 380, -60 400, -80 420 Z" fill="url(#chrome)" opacity="0.14" filter="url(#blurS)"/>
+    <path d="M-20 -20 C 150 70, 170 230, 60 340" fill="none" stroke="url(#chromeEdge)" stroke-width="1.4" opacity="0.6"/>
+  </g>
 
-  <text x="600" y="316" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#b39dff" opacity="0.85" text-anchor="middle" letter-spacing="-2" filter="url(#b3)">OmniSource</text>
-  <text x="600" y="316" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="url(#title)" text-anchor="middle" letter-spacing="-2">OmniSource</text>
+  <!-- Glass panel -->
+  <rect x="90" y="92" width="1020" height="446" rx="38" fill="url(#glass)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <rect x="92" y="94" width="1016" height="2.4" rx="1.2" fill="rgba(255,255,255,0.34)"/>
+  <rect x="91" y="93" width="1018" height="444" rx="37" fill="none" stroke="rgba(10,6,30,0.35)" stroke-width="1"/>
 
-  <rect x="432" y="352" width="336" height="2" rx="1" fill="url(#hairline)"/>
+  <!-- Eyebrow -->
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <rect x="378" y="144" width="444" height="32" rx="16" fill="url(#chip)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+    <circle cx="400" cy="160" r="4" fill="#34d399"/>
+    <circle cx="400" cy="160" r="7.5" fill="#34d399" opacity="0.25"/>
+    <text x="614" y="164.5" font-size="12" font-weight="700" fill="#d9ccff" text-anchor="middle" letter-spacing="2.6">AUTOMATED · SOURCE-FIRST · VERIFIED</text>
 
-  <text x="600" y="398" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="rgba(242,243,250,0.88)" text-anchor="middle">An automated, source-first aggregation platform for iOS sideloading clients.</text>
+    <!-- Wordmark: violet glow under chrome type -->
+    <text x="600" y="312" font-size="112" font-weight="800" fill="#8b5cf6" opacity="0.9" text-anchor="middle" letter-spacing="-4" filter="url(#blurM)">OmniSource</text>
+    <text x="600" y="312" font-size="112" font-weight="800" fill="url(#chrome)" text-anchor="middle" letter-spacing="-4">OmniSource</text>
+    <text x="600" y="312" font-size="112" font-weight="800" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="0.6" text-anchor="middle" letter-spacing="-4">OmniSource</text>
 
-  <rect x="248.6" y="452.0" width="125.1" height="42" rx="21.0" fill="url(#chip)" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
-  <rect x="250.1" y="453.5" width="122.1" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
-  <text x="311.1" y="479.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f2f3fa" text-anchor="middle" letter-spacing="0.2">AltStore</text>
-  <rect x="387.7" y="452.0" width="135.8" height="42" rx="21.0" fill="url(#chip)" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
-  <rect x="389.2" y="453.5" width="132.8" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
-  <text x="455.6" y="479.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f2f3fa" text-anchor="middle" letter-spacing="0.2">SideStore</text>
-  <rect x="537.4" y="452.0" width="114.5" height="42" rx="21.0" fill="url(#chip)" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
-  <rect x="538.9" y="453.5" width="111.5" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
-  <text x="594.7" y="479.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f2f3fa" text-anchor="middle" letter-spacing="0.2">Feather</text>
-  <rect x="665.9" y="452.0" width="93.2" height="42" rx="21.0" fill="url(#chip)" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
-  <rect x="667.4" y="453.5" width="90.2" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
-  <text x="712.5" y="479.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f2f3fa" text-anchor="middle" letter-spacing="0.2">ESign</text>
-  <rect x="773.1" y="452.0" width="178.3" height="42" rx="21.0" fill="url(#chip)" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
-  <rect x="774.6" y="453.5" width="175.3" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
-  <text x="862.3" y="479.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f2f3fa" text-anchor="middle" letter-spacing="0.2">LiveContainer</text>
+    <rect x="420" y="344" width="360" height="2" rx="1" fill="url(#hairline)"/>
 
-  <circle cx="248" cy="170" r="2.4" fill="#ffffff" opacity="0.8"/>
-  <circle cx="952" cy="210" r="2.0" fill="#ffffff" opacity="0.6"/>
-  <circle cx="1102" cy="138" r="1.6" fill="#ffffff" opacity="0.5"/>
-  <circle cx="150" cy="250" r="1.8" fill="#ffffff" opacity="0.5"/>
-  <circle cx="1046" cy="560" r="2.2" fill="#ffffff" opacity="0.55"/>
+    <text x="600" y="392" font-size="23.5" font-weight="500" fill="rgba(242,243,250,0.90)" text-anchor="middle">One verified, automatically maintained source for every iOS sideloading client.</text>
 
+    <!-- Client chips -->
+    <g font-size="18" font-weight="600" fill="#f2f3fa" text-anchor="middle">
+      <rect x="236.5" y="438" width="122" height="42" rx="21" fill="url(#chip)" stroke="rgba(255,255,255,0.16)"/>
+      <rect x="238" y="439.5" width="119" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
+      <text x="297.5" y="465">AltStore</text>
+
+      <rect x="372.5" y="438" width="134" height="42" rx="21" fill="url(#chip)" stroke="rgba(255,255,255,0.16)"/>
+      <rect x="374" y="439.5" width="131" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
+      <text x="439.5" y="465">SideStore</text>
+
+      <rect x="520.5" y="438" width="114" height="42" rx="21" fill="url(#chip)" stroke="rgba(255,255,255,0.16)"/>
+      <rect x="522" y="439.5" width="111" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
+      <text x="577.5" y="465">Feather</text>
+
+      <rect x="648.5" y="438" width="96" height="42" rx="21" fill="url(#chip)" stroke="rgba(255,255,255,0.16)"/>
+      <rect x="650" y="439.5" width="93" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
+      <text x="696.5" y="465">ESign</text>
+
+      <rect x="758.5" y="438" width="176" height="42" rx="21" fill="url(#chip)" stroke="rgba(255,255,255,0.16)"/>
+      <rect x="760" y="439.5" width="173" height="1.2" rx="0.6" fill="rgba(255,255,255,0.35)"/>
+      <text x="846.5" y="465">LiveContainer</text>
+    </g>
+
+    <!-- Footer strip inside the panel: promise (left) · maintainer (right) -->
+    <text x="128" y="515" font-size="12" font-weight="600" fill="rgba(217,204,255,0.78)" letter-spacing="1.4">UPSTREAM-ONLY · NO ACCOUNTS · NO TRACKING · GPL-3.0</text>
+
+    <g transform="translate(846 497)">
+      <rect x="0" y="0" width="226" height="28" rx="14" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.16)"/>
+      <path transform="translate(10 6) scale(1.0)" fill="#f2f3fa" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+      <text x="34" y="18.5" font-size="12.5" font-weight="600" fill="rgba(242,243,250,0.72)">maintained by <tspan font-weight="800" fill="#e9ddff">raynmahbub</tspan></text>
+    </g>
+  </g>
+
+  <!-- Specular highlights -->
+  <ellipse cx="600" cy="92" rx="420" ry="40" fill="url(#spot)" opacity="0.10"/>
+  <circle cx="246" cy="168" r="2.4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="956" cy="208" r="2.0" fill="#ffffff" opacity="0.6"/>
+  <circle cx="1100" cy="136" r="1.6" fill="#ffffff" opacity="0.5"/>
+  <circle cx="150" cy="252" r="1.8" fill="#ffffff" opacity="0.5"/>
+  <circle cx="1046" cy="562" r="2.2" fill="#ffffff" opacity="0.55"/>
+
+  <!-- Grain + frame -->
   <rect width="1200" height="630" rx="28" fill="#ffffff" filter="url(#grain)" opacity="0.045"/>
   <rect x="0.5" y="0.5" width="1199" height="629" rx="27.5" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
 </svg>

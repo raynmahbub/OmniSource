@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Resolved from the official upstream">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1140"/>
+      <stop offset="1" stop-color="#0d0926"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#5b3df5"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.9" r="0.8">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="54" height="54" rx="15" fill="url(#tile)"/>
+  <rect x="1" y="1" width="54" height="54" rx="15" fill="url(#glow)"/>
+  <rect x="1" y="1" width="54" height="27" rx="15" fill="url(#sheen)"/>
+  <rect x="1.5" y="1.5" width="53" height="53" rx="14.5" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+  <g fill="none" stroke="url(#stroke)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="18" cy="14" r="3.2"/><circle cx="18" cy="42" r="3.2"/><circle cx="38" cy="22" r="3.2"/><path d="M18 17.2v21.6M38 25.2c0 8-20 6-20 13.6"/>
+  </g>
+</svg>
