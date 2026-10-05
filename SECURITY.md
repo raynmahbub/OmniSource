@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="assets/brand/hero.svg" width="100%" alt="OmniSource">
+  <br><br>
+  <a href="README.md">Overview</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="docs/SECURITY-REPORT.md">Latest security report</a> · <a href="https://raynmahbub.github.io/OmniSource/status/">Status</a>
+</div>
+
+<img src="assets/brand/divider.svg" width="100%" alt="">
+
 # Security Policy
 
 ## Scope

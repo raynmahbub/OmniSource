@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="assets/brand/hero.svg" width="100%" alt="OmniSource">
+  <br><br>
+  <a href="README.md">Overview</a> · <a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/OPERATIONS.md">Operations</a> · <a href="SECURITY.md">Security</a> · <a href="https://raynmahbub.github.io/OmniSource/">Website</a>
+</div>
+
+<img src="assets/brand/divider.svg" width="100%" alt="">
+
 # Contributing to OmniSource
 
 Thanks for improving OmniSource. Contributions should preserve its narrow
