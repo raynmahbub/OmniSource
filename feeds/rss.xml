@@ -101,6 +101,32 @@
       <enclosure url="https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>NexaSC v8.81.0</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/nexasc.json</link>
+      <guid isPermaLink="false">nexasc-8.81.0</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SoundCloud 8.81.0 | SoundCloud-8.81.0-NexaSC
+
+IPA Vault build for SoundCloud (NexaSC), version 8.81.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Jellify v1.2.11</title>
+      <link>https://iamsmmh.github.io/OmniSource/feeds/jellify.json</link>
+      <guid isPermaLink="false">jellify-1.2.11</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Jellify 1.2.11 | Jellify-1.2.11
+
+Welcome to Jellify 1.2.11
+
+We are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.
+
+*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.
+*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.
+*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.]]></description>
+      <enclosure url="https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>YTKACE v21.40.5</title>
       <link>https://iamsmmh.github.io/OmniSource/feeds/ytkace.json</link>
       <guid isPermaLink="false">ytkace-21.40.5</guid>
@@ -800,35 +826,6 @@ Help translate Synkplay on [Weblate](https://hosted.weblate.org/engage/syncplay-
 
 **ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.]]></description>
       <enclosure url="https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Onion Browser v3.4.2</title>
-      <link>https://iamsmmh.github.io/OmniSource/feeds/onionbrowser.json</link>
-      <guid isPermaLink="false">onionbrowser-3.4.2</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Onion Browser 3.4.2 | OnionBrowser
-
-- Fixed bug wtih DNSTT bridge parsing.
-- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.]]></description>
-      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Nuvio v0.5.5</title>
-      <link>https://iamsmmh.github.io/OmniSource/feeds/nuvio.json</link>
-      <guid isPermaLink="false">nuvio-0.5.5</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nuvio 0.5.5 | nuvio-0.5.5-full-release
-
-- [feat(i18n): add Bengali (বাংলা) language support and UI localization (#2113)](https://github.com/NuvioMedia/NuvioMobile/pull/2113) @TanvirSdq  
-- [i18n(el): sync Greek translations and remove remaining English loanwords (#2132)](https://github.com/NuvioMedia/NuvioMobile/pull/2132) @nosvasedis  
-- [Landscape clearlogo toggle, Simkl type hint, TMDB source priority, folder TMDB ID resolution (#2084)](https://github.com/NuvioMedia/NuvioMobile/pull/2084) @skoruppa  
-- [fix(UI): Fix hero section sometimes shifting (#2128)](https://github.com/NuvioMedia/NuvioMobile/pull/2128) @ThEgIGN  
-- [fix(player): show the swipe-to-seek preview in the new player layout (#2122)](https://github.com/NuvioMedia/NuvioMobile/pull/2122) @deejay189393  
-- 6aa42153 fix(debrid): select requested episode files @tapframe  
-- [i18n(vi): update latest Vietnamese strings (#2096)](https://github.com/NuvioMedia/NuvioMobile/pull/2096) @blueocean2308  
-- [Translation improvements and adjustments for Slovak language (#2104)](https://github.com/NuvioMedia/NuvioMobile/pull/2104) @mmsw91  
-- [fix(mdblist): show newest library additions first (#2103)](https://github.com/NuvioMedia/NuvioMobile/pull/2103) @halibiram]]></description>
-      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/nuvio-0.5.5-full-release.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

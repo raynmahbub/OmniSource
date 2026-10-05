@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-05",
-  "feedVersion": "cb1668dfb2c1",
+  "feedVersion": "18b7e7196e10",
   "apps": {
     "total": 130,
     "reachable": 125,
@@ -9,10 +9,10 @@
   },
   "sync": {
     "synced": 126,
-    "incrementalHits": 112,
-    "updated": 5,
+    "incrementalHits": 115,
+    "updated": 2,
     "failed": 4,
-    "apiRequests": 113
+    "apiRequests": 118
   },
   "unreachable": [
     "cercube",
@@ -23,38 +23,17 @@
   ],
   "updates": [
     {
-      "slug": "ytlite",
-      "name": "YouTubePlus",
-      "previousVersion": "21.39.4",
-      "version": "21.40.5",
+      "slug": "jellify",
+      "name": "Jellify",
+      "previousVersion": "1.2.10",
+      "version": "1.2.11",
       "kind": "updated"
     },
     {
-      "slug": "youpro",
-      "name": "YouPro",
-      "previousVersion": "21.39.4",
-      "version": "21.40.5",
-      "kind": "updated"
-    },
-    {
-      "slug": "youmod",
-      "name": "uPro Plus",
-      "previousVersion": "21.39.4",
-      "version": "21.40.5",
-      "kind": "updated"
-    },
-    {
-      "slug": "ytmusic",
-      "name": "YTMusicUltimate",
-      "previousVersion": "9.39.2",
-      "version": "9.40.2",
-      "kind": "updated"
-    },
-    {
-      "slug": "reynard",
-      "name": "Reynard",
-      "previousVersion": "0.14.1",
-      "version": "0.16.0",
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "previousVersion": "8.80.1",
+      "version": "8.81.0",
       "kind": "updated"
     }
   ],

@@ -64,6 +64,36 @@
       "shortDescription": "YouTube 21.37.4 extra-tweaks build (YouMod + player stack)"
     },
     {
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "version": "8.81.0",
+      "previousVersion": "8.80.1",
+      "date": "2026-10-05",
+      "kind": "updated",
+      "changelog": "SoundCloud 8.81.0 | SoundCloud-8.81.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.81.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/SoundCloud.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/nexasc.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/nexasc.xml",
+      "status": "beta",
+      "shortDescription": "SoundCloud Go+ unlock and ad removal (unofficial build)"
+    },
+    {
+      "slug": "jellify",
+      "name": "Jellify",
+      "version": "1.2.11",
+      "previousVersion": "1.2.10",
+      "date": "2026-10-05",
+      "kind": "updated",
+      "changelog": "Jellify 1.2.11 | Jellify-1.2.11\n\nWelcome to Jellify 1.2.11\n\nWe are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.\n\n*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.\n*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.\n*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.",
+      "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
+      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Jellify.webp",
+      "feedURL": "https://iamsmmh.github.io/OmniSource/jellify.json",
+      "rssURL": "https://iamsmmh.github.io/OmniSource/jellify.xml",
+      "status": "stable",
+      "shortDescription": "Native Jellyfin music player for iOS"
+    },
+    {
       "slug": "ytkace",
       "name": "YTKACE",
       "version": "21.40.5",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://iamsmmh.github.io/OmniSource/threadsaver.xml",
       "status": "stable",
       "shortDescription": "Threads enhancement tweak (unofficial build)"
-    },
-    {
-      "slug": "sparkle",
-      "name": "Sparkle",
-      "version": "447.0.0",
-      "previousVersion": "446.0.0",
-      "date": "2026-09-16",
-      "kind": "updated",
-      "changelog": "Instagram 447.0.0 | Instagram-447.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 447.0.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-447.0.0-Sparkle.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Instagram.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/sparkle.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/sparkle.xml",
-      "status": "stable",
-      "shortDescription": "Bring the spark back to Instagram"
-    },
-    {
-      "slug": "ryukgram",
-      "name": "RyukGram",
-      "version": "447.0.0",
-      "previousVersion": "446.0.0",
-      "date": "2026-09-16",
-      "kind": "updated",
-      "changelog": "Instagram 447.0.0 | Instagram-447.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 447.0.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-447.0.0-RyukGram.ipa",
-      "iconURL": "https://iamsmmh.github.io/OmniSource/assets/Instagram.webp",
-      "feedURL": "https://iamsmmh.github.io/OmniSource/ryukgram.json",
-      "rssURL": "https://iamsmmh.github.io/OmniSource/ryukgram.xml",
-      "status": "stable",
-      "shortDescription": "Instagram tweak for power users by faroukbmiled"
     }
   ]
 }
