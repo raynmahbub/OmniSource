@@ -311,6 +311,12 @@ def process_screenshots(
             # Reused entries keep their recorded size (there is no local
             # mirror file to re-measure in an offline rebuild).
             if not reused:
+                # Always present, whatever this machine has installed: with
+                # Pillow available but no local mirror to resize, the block
+                # below used to finish without touching the field, so the key
+                # went missing on Pillow-equipped machines and was ``0`` on
+                # stdlib-only ones — a build-environment-dependent document.
+                entry["thumbnailSize"] = 0
                 try:
                     from PIL import Image  # type: ignore
 
