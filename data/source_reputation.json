@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T15:10:11Z",
+  "generatedAt": "2026-10-05T18:02:39Z",
   "count": 114,
   "summary": {
     "verified": 13,
@@ -352,6 +352,29 @@
         "uptime": 100.0,
         "probes": 60,
         "averageLatencyMs": 371.0,
+        "averageUpdateGapDays": null,
+        "brokenReleases": 0,
+        "currentlyReachable": "2/2",
+        "legacyScore": 60.0
+      }
+    },
+    {
+      "id": "iamsmmh/OmniSource",
+      "source": "iamsmmh/OmniSource (Tweak Factory)",
+      "score": 76.4,
+      "status": "trusted",
+      "legacy_level": "RELIABLE",
+      "legacy_status": "Community Verified",
+      "apps": [
+        "uprovid",
+        "uyouenhanced"
+      ],
+      "lastUpdate": "2026-09-14",
+      "health": "unknown",
+      "metrics": {
+        "uptime": 100.0,
+        "probes": 30,
+        "averageLatencyMs": 347.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "2/2",
@@ -1276,28 +1299,6 @@
         "uptime": 100.0,
         "probes": 30,
         "averageLatencyMs": 162.0,
-        "averageUpdateGapDays": null,
-        "brokenReleases": 0,
-        "currentlyReachable": "1/1",
-        "legacyScore": 60.0
-      }
-    },
-    {
-      "id": "iamsmmh/OmniSource",
-      "source": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
-      "score": 73.9,
-      "status": "trusted",
-      "legacy_level": "RELIABLE",
-      "legacy_status": "Community Verified",
-      "apps": [
-        "uyouenhanced"
-      ],
-      "lastUpdate": "2026-08-22",
-      "health": "unknown",
-      "metrics": {
-        "uptime": 100.0,
-        "probes": 30,
-        "averageLatencyMs": 347.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",

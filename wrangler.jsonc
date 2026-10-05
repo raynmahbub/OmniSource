@@ -1,0 +1,11 @@
+{
+  "name": "omnisource",
+  "compatibility_date": "2026-10-05",
+  "build": {
+    "command": "python3 scripts/build_site.py"
+  },
+  "assets": {
+    "directory": "./_site"
+  },
+  "previews": {}
+}

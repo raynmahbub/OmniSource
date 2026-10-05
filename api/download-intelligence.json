@@ -5,7 +5,7 @@
   "summary": {
     "averageAvailability": 98.23,
     "averageResponseTimeMs": 195.1,
-    "mirrorCount": 133,
+    "mirrorCount": 134,
     "probes": 3900
   },
   "apps": [
@@ -68,7 +68,7 @@
     },
     {
       "slug": "youmod",
-      "name": "uPro Plus",
+      "name": "YouMod",
       "availability": 100.0,
       "probes": 30,
       "averageLatencyMs": 184.2,
@@ -1443,6 +1443,17 @@
         "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm.deb",
         "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64e.deb"
       ]
+    },
+    {
+      "slug": "uprovid",
+      "name": "uProVid",
+      "availability": 0.0,
+      "probes": 0,
+      "averageLatencyMs": null,
+      "mirrorCount": 1,
+      "releaseConsistency": 0.0,
+      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
+      "fallbackURLs": []
     }
   ]
 }
