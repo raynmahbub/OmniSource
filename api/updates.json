@@ -64,6 +64,36 @@
       "shortDescription": "YouTube 21.37.4 extra-tweaks build by Tonwalter888"
     },
     {
+      "slug": "threadsaver",
+      "name": "ThreadSaver",
+      "version": "450.0",
+      "previousVersion": "449.0",
+      "date": "2026-10-05",
+      "kind": "updated",
+      "changelog": "Threads 450.0 | Threads-450.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 450.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Threads.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/threadsaver.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/threadsaver.xml",
+      "status": "stable",
+      "shortDescription": "Threads enhancement tweak (unofficial build)"
+    },
+    {
+      "slug": "ryukgram",
+      "name": "RyukGram",
+      "version": "450.0.0",
+      "previousVersion": "449.0.0",
+      "date": "2026-10-05",
+      "kind": "updated",
+      "changelog": "Instagram 450.0.0 | Instagram-450.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 450.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-RyukGram.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/ryukgram.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/ryukgram.xml",
+      "status": "stable",
+      "shortDescription": "Instagram tweak for power users by faroukbmiled"
+    },
+    {
       "slug": "nicegram",
       "name": "Nicegram",
       "version": "2.6.2",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/raintweak.xml",
       "status": "stable",
       "shortDescription": "Discord client mod with themes and QoL fixes"
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "version": "0.4.23",
-      "previousVersion": "",
-      "date": "2026-09-17",
-      "kind": "new",
-      "changelog": "Nuvio 0.4.23 | nuvio-0.4.23-full-release\n\n- 542aa570 fix(simkl): retain posters when marking items watched @tapframe  \n- 08bdd629 fix(home): restore wide continue watching sizing @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#1975)](https://github.com/NuvioMedia/NuvioMobile/pull/1975) @blueocean2308  \n- a599340e fix(ui): use filled chips and consistent surface colors @tapframe  \n- [feat(playback): support IntroDB movie segments and external forwarding (#1963)](https://github.com/NuvioMedia/NuvioMobile/pull/1963) @Laskco",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.23-beta/nuvio-0.4.23-full-release.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
-      "status": "stable",
-      "shortDescription": "Open-source media player, bring your own sources"
-    },
-    {
-      "slug": "appstoreplusplus",
-      "name": "AppStore++",
-      "version": "2.3.15",
-      "previousVersion": "",
-      "date": "2026-09-17",
-      "kind": "new",
-      "changelog": "AppStore++ 2.3.15 | TrollStore\n\n# AppStore++ — What’s New in v2.3.15-7\n\n- Added a delete all/trashcan button for ipa library\n- Fixed bug when an ipa download is cancelled when packaging & becoming corrupted\n- Run ipa packaging on background thread so the UI isn't lagged",
-      "downloadURL": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/AppStorePlus.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/appstoreplusplus.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/appstoreplusplus.xml",
-      "status": "stable",
-      "shortDescription": "App Store manager for TrollStore"
     }
   ]
 }

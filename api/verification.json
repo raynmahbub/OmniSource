@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-05",
   "totals": {
     "apps": 131,
-    "verified": 123,
+    "verified": 124,
     "communityVerified": 1,
-    "unverified": 7,
+    "unverified": 6,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.73,
+    "avgTrustScore": 6.75,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1694,7 +1694,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-RyukGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-RyukGram.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2136,6 +2136,27 @@
         "official upstream (altstore)"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-12.9.4-iQTele.ipa",
+      "trustScore": 6.0,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "threadsaver",
+      "name": "ThreadSaver",
+      "status": "VERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2640,7 +2661,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "trustScore": 2.2,
+      "trustScore": 2.1,
       "trustBadge": "Experimental"
     },
     {
@@ -2661,7 +2682,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "trustScore": 2.2,
+      "trustScore": 2.1,
       "trustBadge": "Experimental"
     },
     {
@@ -2686,27 +2707,6 @@
       "trustBadge": "Experimental"
     },
     {
-      "app": "threadsaver",
-      "name": "ThreadSaver",
-      "status": "UNVERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
-      "trustScore": 3.0,
-      "trustBadge": "Experimental"
-    },
-    {
       "app": "trollboard-reborn",
       "name": "TrollBoard Reborn",
       "status": "UNVERIFIED",
@@ -2724,7 +2724,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "trustScore": 2.2,
+      "trustScore": 2.1,
       "trustBadge": "Experimental"
     },
     {

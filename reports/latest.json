@@ -1,16 +1,16 @@
 {
   "generatedAt": "2026-10-05",
-  "feedVersion": "7f5680bcc337",
+  "feedVersion": "395bdb0daef1",
   "apps": {
     "total": 131,
-    "reachable": 124,
-    "unreachable": 7,
-    "verified": 123
+    "reachable": 125,
+    "unreachable": 6,
+    "verified": 124
   },
   "sync": {
     "synced": 127,
     "incrementalHits": 0,
-    "updated": 1,
+    "updated": 2,
     "failed": 4,
     "apiRequests": 132
   },
@@ -19,16 +19,22 @@
     "jaility",
     "killmyota",
     "livecontainer",
-    "threadsaver",
     "trollboard-reborn",
     "uprovid"
   ],
   "updates": [
     {
-      "slug": "nicegram",
-      "name": "Nicegram",
-      "previousVersion": "2.6.1",
-      "version": "2.6.2",
+      "slug": "ryukgram",
+      "name": "RyukGram",
+      "previousVersion": "449.0.0",
+      "version": "450.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "threadsaver",
+      "name": "ThreadSaver",
+      "previousVersion": "449.0",
+      "version": "450.0",
       "kind": "updated"
     }
   ],
