@@ -150,37 +150,29 @@
 
 &gt; This release is not on Google Play or the App Store yet.
 
-&lt;details open&gt;&lt;summary&gt;&lt;h2&gt;Changelog &lt;sub&gt;since v0.25.0&lt;/sub&gt;&lt;/h2&gt;&lt;/summary&gt;
+We&#x27;re approaching the v1.0 stable release. [KitePlayer](https://github.com/yuroyami/KitePlayer) is also looking promising to be the default player on iOS (VLC has always been such a mess to work with). I urge you to test KitePlayer which is a player I made specifically for the Kotlin multiplatform framework to match mpv and VLC capabilities. Be one of its first testers. I&#x27;d love the feedback. Note that it still does NOT support TrueHDR and HLS. Probably will add it in a not-so-far upcoming release.
 
-- iOS: picture-in-picture now works with AVPlayer and KitePlayer.
-- A hosted room can now encrypt its connections. Turn on Encrypt connections when you host. When a server&#x27;s certificate is not trusted by the system, the app shows its fingerprint and lets you decide.
-- Small drifts between watchers are now corrected with a speed change of half a percent, which nobody notices, instead of a jump.
+&lt;details open&gt;&lt;summary&gt;&lt;h2&gt;Changelog since v0.25.0&lt;/h2&gt;&lt;/summary&gt;
+
+- Extended iOS support for picture-in-picture to AVPlayer and KitePlayer.
+- Implemented secure connection support for servers hosted by the user in the mobile app (and when a server&#x27;s certificate is not trusted by the system, the app shows its fingerprint and lets you decide).
+- Small drifts between watchers are now corrected with a speed change of 0.5% which nobody notices instead of a jump.
 - Headset buttons, the lock screen and the notification no longer pause or seek the whole room by accident. On a TV, the remote&#x27;s media keys still control the room.
-- When a connection fails, the app now says why.
-- Home keeps your five recent rooms under the join key.
-- KitePlayer is now on 0.2.0. Its audio visualizer studies a linked song in seconds and remembers it, and switching between the visualizer and the video no longer cuts the sound.
-- The audio visualizer now asks once before it first turns on, because it can flash. Reduce motion also calms it, with no flashes at all. Two patterns that flashed too often on a busy beat were fixed.
-- ExoPlayer now shows chapters from MKV and MP4 files, and each chapter shows a still frame.
+- Show a non-generic explicitly-defined error when a connection fails.
+- New Feature: Home keeps your 5 recent rooms remembered (under the join key).
+- New Feature: ExoPlayer now loads chapters from MKV and MP4 files, and each chapter shows a still frame taken from around the time the chapter starts.
+- Enhanced focus control for Android TV.
 - The seek bar shows what is buffered with mpv, KitePlayer and AVPlayer.
-- An audio or subtitle track that you pick now carries to the next file, by its language.
-- Subtitle searches now send the episode and the file&#x27;s hash, for better matches.
-- Media folders show when the app lost access to them. A playlist file that none of your folders holds is marked, and you can point the app to it.
-- The hosted server now limits connections and drops a client that floods it.
+- An audio or subtitle track that you pick now is remembered with the next file by its language.
+- Subtitle searches now send the episode and the file&#x27;s hash for better matches.
+- Shared playlist quality-of-life change: Media folders show when the app lost access to them + a playlist file that none of your folders holds is now marked as such (and you can point the app to it).
+- The in-app hosted server now limits connections and drops a client that floods it.
 - A chat line or a playlist change can no longer reach the server twice after a reconnect.
-- Joining from a link, a shortcut or a Quick Action now works at any time.
+- Joining from an invite link, a shortcut or a Quick Action now works at any time.
 - Screen readers: the room controls stay on screen while a screen reader runs.
 - Android: you can pick the app&#x27;s language in the system&#x27;s per-app language setting.
-- Android: a baseline profile makes the app start faster.
-- About now lists the open source licences, and its panel is liquid glass.
-- iOS VLC: updated to VLCKit 4.0.0a24.
-- The log now hides identifying details and limits its size.
-- Notices now fade in and out.
-- Small fixes for Android TV focus, the picture-in-picture offer, mpv volume and ExoPlayer subtitles.
-
-
-&lt;/details&gt;
-
-## Translations &amp;nbsp;&lt;a href=&quot;https://ho</pre></details>
+- Android: added a baseline profile inside the APK which makes the app start faster.
+- I</pre></details>
 </article></div>
     </section>
 

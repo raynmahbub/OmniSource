@@ -1,39 +1,34 @@
 {
   "generatedAt": "2026-10-05",
-  "feedVersion": "6af01e9d6794",
+  "feedVersion": "7f5680bcc337",
   "apps": {
     "total": 131,
-    "reachable": 126,
-    "unreachable": 5,
-    "verified": 125
+    "reachable": 124,
+    "unreachable": 7,
+    "verified": 123
   },
   "sync": {
-    "synced": 126,
-    "incrementalHits": 115,
-    "updated": 2,
+    "synced": 127,
+    "incrementalHits": 0,
+    "updated": 1,
     "failed": 4,
-    "apiRequests": 118
+    "apiRequests": 132
   },
   "unreachable": [
     "cercube",
     "jaility",
     "killmyota",
     "livecontainer",
-    "trollboard-reborn"
+    "threadsaver",
+    "trollboard-reborn",
+    "uprovid"
   ],
   "updates": [
     {
-      "slug": "jellify",
-      "name": "Jellify",
-      "previousVersion": "1.2.10",
-      "version": "1.2.11",
-      "kind": "updated"
-    },
-    {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "previousVersion": "8.80.1",
-      "version": "8.81.0",
+      "slug": "nicegram",
+      "name": "Nicegram",
+      "previousVersion": "2.6.1",
+      "version": "2.6.2",
       "kind": "updated"
     }
   ],

@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-05",
   "totals": {
     "apps": 131,
-    "verified": 125,
+    "verified": 123,
     "communityVerified": 1,
-    "unverified": 5,
+    "unverified": 7,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.79,
+    "avgTrustScore": 6.73,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1316,7 +1316,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-713/Nicegram.ipa",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2140,27 +2140,6 @@
       "trustBadge": "Community"
     },
     {
-      "app": "threadsaver",
-      "name": "ThreadSaver",
-      "status": "VERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (altstore)"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
-    },
-    {
       "app": "thunder",
       "name": "Thunder",
       "status": "VERIFIED",
@@ -2304,27 +2283,6 @@
         "official upstream (github-release)"
       ],
       "downloadURL": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
-    },
-    {
-      "app": "uprovid",
-      "name": "uProVid",
-      "status": "VERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "iamsmmh/OmniSource (Tweak Factory)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2661,7 +2619,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-      "trustScore": 2.2,
+      "trustScore": 2.1,
       "trustBadge": "Experimental"
     },
     {
@@ -2728,6 +2686,27 @@
       "trustBadge": "Experimental"
     },
     {
+      "app": "threadsaver",
+      "name": "ThreadSaver",
+      "status": "UNVERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
+      "trustScore": 3.0,
+      "trustBadge": "Experimental"
+    },
+    {
       "app": "trollboard-reborn",
       "name": "TrollBoard Reborn",
       "status": "UNVERIFIED",
@@ -2746,6 +2725,27 @@
       ],
       "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
       "trustScore": 2.2,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "uprovid",
+      "name": "uProVid",
+      "status": "UNVERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "github-release",
+      "publisher": "iamsmmh/OmniSource (Tweak Factory)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
+      "trustScore": 1.5,
       "trustBadge": "Experimental"
     },
     {

@@ -21,14 +21,14 @@
       "category": "utilities",
       "version": "3.0.10",
       "versionDate": "2026-09-23",
-      "versionDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Fix is in frida-gum upstream but a stable build on fridas end is still pending) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
+      "versionDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Requires frida >=17.19.0) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
       "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.10/Dopamine.ipa",
       "size": 55415420,
       "versions": [
         {
           "version": "3.0.10",
           "date": "2026-09-23",
-          "localizedDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Fix is in frida-gum upstream but a stable build on fridas end is still pending) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
+          "localizedDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Requires frida >=17.19.0) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
           "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.10/Dopamine.ipa",
           "size": 55415420,
           "minOSVersion": "15.0",
@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 55415420,
               "sha256": "de8c87b564326e6b15bfc523ba764d343113bb2fa7582f637727d6fdc385f4b9",
-              "downloads": 1352,
+              "downloads": 80625,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -57,13 +57,13 @@
               "fileType": "IPA",
               "size": 55415420,
               "sha256": "de8c87b564326e6b15bfc523ba764d343113bb2fa7582f637727d6fdc385f4b9",
-              "downloads": 123,
+              "downloads": 5090,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "de8c87b564326e6b15bfc523ba764d343113bb2fa7582f637727d6fdc385f4b9",
-          "downloads": 1352
+          "downloads": 80625
         }
       ],
       "screenshotURLs": [],

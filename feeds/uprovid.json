@@ -91,9 +91,9 @@
           "notes": "Self-built lane: the base IPA is operator-supplied (a decrypted YouTube dump) and the tweaks are collected from their official upstreams by the Tweak Factory, then injected with Cyan. Factory builds publish under tag tweak-build/uprovid/* in this repository and take over automatically; until then the manualRelease stand-in below is served. Bases of YouTube 21.34.3+ require iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "not probed",
-          "statusSince": "2026-09-14",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-05",
           "lastUpdatedAt": "2026-09-14"
         }
       }
