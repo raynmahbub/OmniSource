@@ -2,14 +2,20 @@
    it previously sat at the bottom of this file and never fetched. The CSP
    on every page allows fonts.googleapis.com (style-src) and
    fonts.gstatic.com (font-src) so this request is not blocked either. */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+Arabic:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+Arabic:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&display=swap');
 /* ============================================================================
    OmniSource Design System — tokens
    ---------------------------------
-   LIQUID GLASS · Fluid Edition v2
+   LIQUID GLASS · Chrome & Violet Edition v3
    A cinematic glass system: ultra-translucent materials, depth layering,
    chromatic refraction, aurora diffusion, grain texture, and spring-fluid
    motion. Feels carved from light.
+
+   v3 (raynmahbub/OmniSource) tunes the identity to the logo: a chrome-silver
+   highlight over a monochrome violet aurora (electric indigo → violet →
+   orchid) instead of the indigo→pink sweep, one consistent type family on
+   every platform (Inter for text *and* display, JetBrains Mono for feed
+   URLs, hashes and bundle identifiers), and tabular figures for statistics.
 
    Theme model
    -----------
@@ -22,12 +28,17 @@
   color-scheme: light;
 
   /* ---------------------------------------------------------------- type */
-  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+  /* One family everywhere. Inter leads on every platform so the catalog
+     reads the same on an iPhone, a Windows laptop and Android; the system
+     stacks stay behind it for offline PWAs and blocked font hosts. The Noto
+     faces cover the Arabic/Bengali/CJK locales. */
+  --font-sans: "Inter", "Noto Sans", "Noto Sans Bengali", "Noto Sans Arabic",
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-display: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont,
     "Segoe UI Variable Display", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco,
-    "Cascadia Code", "Roboto Mono", monospace;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", SFMono-Regular, Menlo,
+    Monaco, "Cascadia Code", "Roboto Mono", monospace;
 
   --text-xxl: clamp(48px, 8vw, 96px);
   --text-xl: clamp(32px, 5vw, 58px);
@@ -66,18 +77,27 @@
   --line: rgba(255, 255, 255, 0.62);
   --line-strong: rgba(80, 90, 130, 0.16);
 
-  --accent-1: #5b4dff;
+  /* Chrome & Violet — the logo's palette: electric indigo → violet → orchid,
+     a single hue family so every gradient reads as one liquid sheen. */
+  --accent-1: #5b3df5;
   --accent-2: #8b5cf6;
-  --accent-3: #f472b6;
-  --accent: #6d5ef5;
+  --accent-3: #c084fc;
+  --accent: #6a4cf0;
   /* Accent as text on --accent-soft (score pills, links on tinted rows):
-     #6d5ef5 measures 3.5:1 there; this twin clears 4.5:1. */
-  --accent-text: #4c3fd0;
+     #6a4cf0 measures 4.05:1 there; this twin clears 5.4:1 (6.4:1 on --bg). */
+  --accent-text: #5533d6;
   --accent-ink: #ffffff;
-  --accent-soft: rgba(109, 94, 245, 0.10);
-  --accent-ring: rgba(109, 94, 245, 0.22);
+  --accent-soft: rgba(106, 76, 240, 0.10);
+  --accent-ring: rgba(106, 76, 240, 0.24);
   --accent-grad: linear-gradient(118deg, var(--accent-1) 0%, var(--accent-2) 52%, var(--accent-3) 112%);
-  --accent-grad-soft: linear-gradient(118deg, rgba(91, 77, 255, 0.12), rgba(244, 114, 182, 0.08));
+  --accent-grad-soft: linear-gradient(118deg, rgba(91, 61, 245, 0.12), rgba(192, 132, 252, 0.10));
+  /* Chrome — the silver liquid in the mark. Used for brand-mark rings, the
+     wordmark sheen and premium dividers; never for text on its own. */
+  --chrome: linear-gradient(135deg, #ffffff 0%, #e2e8f0 28%, #94a3b8 50%, #e2e8f0 72%, #f8fafc 100%);
+  /* On the light canvas the "chrome" headline is graphite metal (silver text
+     would vanish); the dark palette swaps it for true silver. */
+  --chrome-text: linear-gradient(180deg, #2a2f45 0%, #0c0d14 46%, #4a5068 54%, #1a1d2c 100%);
+  --chrome-ring: 0 0 0 1px rgba(255, 255, 255, 0.85), 0 0 0 2px rgba(148, 163, 184, 0.45);
 
   /* ── Liquid Glass materials · Fluid Edition ────────────────────── */
   --glass: linear-gradient(
@@ -132,14 +152,14 @@
   --refraction-edge: linear-gradient(
     135deg,
     rgba(160, 140, 255, 0.28),
-    rgba(255, 160, 220, 0.16) 38%,
+    rgba(216, 180, 254, 0.18) 38%,
     rgba(100, 200, 255, 0.14) 64%,
     rgba(180, 140, 255, 0.24)
   );
   --refraction-edge-strong: linear-gradient(
     135deg,
     rgba(160, 140, 255, 0.42),
-    rgba(255, 160, 220, 0.26) 36%,
+    rgba(216, 180, 254, 0.28) 36%,
     rgba(100, 200, 255, 0.22) 66%,
     rgba(180, 140, 255, 0.38)
   );
@@ -179,9 +199,9 @@
   --shadow-sm: 0 1px 1px rgba(40, 50, 90, 0.02), 0 8px 24px rgba(40, 50, 90, 0.04);
   --shadow-md: 0 4px 16px rgba(40, 50, 90, 0.05), 0 24px 64px rgba(40, 50, 90, 0.08);
   --shadow-lg: 0 10px 32px rgba(40, 50, 90, 0.07), 0 48px 120px rgba(40, 50, 90, 0.12);
-  --glow-accent: 0 10px 36px rgba(109, 94, 245, 0.30), 0 2px 10px rgba(244, 114, 182, 0.14);
-  --glow-soft: 0 20px 64px rgba(109, 94, 245, 0.12);
-  --glow-card: 0 28px 84px rgba(109, 94, 245, 0.13);
+  --glow-accent: 0 10px 36px rgba(106, 76, 240, 0.30), 0 2px 10px rgba(192, 132, 252, 0.16);
+  --glow-soft: 0 20px 64px rgba(106, 76, 240, 0.12);
+  --glow-card: 0 28px 84px rgba(106, 76, 240, 0.13);
 
   --highlight-inset: inset 0 1px 0 rgba(255, 255, 255, 0.88);
   --hairline-grad: linear-gradient(90deg,
@@ -315,27 +335,30 @@ html[data-theme="dark"] {
   --refraction-edge: linear-gradient(
     135deg,
     rgba(120, 100, 255, 0.38),
-    rgba(255, 120, 200, 0.20) 38%,
+    rgba(216, 180, 254, 0.22) 38%,
     rgba(80, 180, 255, 0.18) 64%,
     rgba(140, 100, 255, 0.32)
   );
   --refraction-edge-strong: linear-gradient(
     135deg,
     rgba(120, 100, 255, 0.52),
-    rgba(255, 120, 200, 0.28) 36%,
+    rgba(216, 180, 254, 0.30) 36%,
     rgba(80, 180, 255, 0.24) 66%,
     rgba(140, 100, 255, 0.44)
   );
 
-  --accent-1: #7c6cff;
-  --accent-2: #a06bff;
-  --accent-3: #f0abfc;
-  --accent: #9d8fff;
-  /* On dark surfaces the accent is already text-safe on its own tint. */
+  --accent-1: #7c5cff;
+  --accent-2: #a78bfa;
+  --accent-3: #d8b4fe;
+  --accent: #a894ff;
+  /* On dark surfaces the accent is already text-safe on its own tint (6.7:1). */
   --accent-text: var(--accent);
   --accent-ink: #0c0a14;
-  --accent-soft: rgba(157, 143, 255, 0.14);
-  --accent-ring: rgba(157, 143, 255, 0.26);
+  --accent-soft: rgba(168, 148, 255, 0.14);
+  --accent-ring: rgba(168, 148, 255, 0.26);
+  --chrome: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 28%, #64748b 50%, #cbd5e1 72%, #f1f5f9 100%);
+  --chrome-text: linear-gradient(180deg, #ffffff 0%, #e2e8f0 46%, #94a3b8 54%, #f1f5f9 100%);
+  --chrome-ring: 0 0 0 1px rgba(255, 255, 255, 0.35), 0 0 0 2px rgba(148, 163, 184, 0.28);
 
   --green: #30d158;
   --green-soft: rgba(48, 209, 88, 0.13);
@@ -358,9 +381,9 @@ html[data-theme="dark"] {
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.42), 0 8px 20px rgba(0, 0, 0, 0.32);
   --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.48), 0 24px 64px rgba(0, 0, 0, 0.48);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.48), 0 48px 120px rgba(0, 0, 0, 0.58);
-  --glow-accent: 0 12px 44px rgba(157, 143, 255, 0.34), 0 2px 12px rgba(240, 171, 252, 0.18);
-  --glow-soft: 0 20px 72px rgba(157, 143, 255, 0.14);
-  --glow-card: 0 28px 88px rgba(157, 143, 255, 0.20);
+  --glow-accent: 0 12px 44px rgba(168, 148, 255, 0.34), 0 2px 12px rgba(216, 180, 254, 0.18);
+  --glow-soft: 0 20px 72px rgba(168, 148, 255, 0.14);
+  --glow-card: 0 28px 88px rgba(168, 148, 255, 0.20);
 
   --highlight-inset: inset 0 1px 0 rgba(255, 255, 255, 0.16);
 }
@@ -393,17 +416,20 @@ html[data-theme="dark"] {
     --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.14), inset 0 -1px 0 rgba(255,255,255,0.02), 0 10px 28px rgba(0,0,0,0.32), 0 28px 72px rgba(0,0,0,0.42);
     --glass-shadow-lg: inset 0 1px 0 rgba(255,255,255,0.18), 0 28px 88px rgba(0,0,0,0.52), 0 68px 160px rgba(0,0,0,0.58);
     --glass-shadow-xl: inset 0 1px 0 rgba(255,255,255,0.20), 0 36px 112px rgba(0,0,0,0.62), 0 88px 200px rgba(0,0,0,0.68);
-    --refraction-edge: linear-gradient(135deg, rgba(120,100,255,0.38), rgba(255,120,200,0.20) 38%, rgba(80,180,255,0.18) 64%, rgba(140,100,255,0.32));
-    --refraction-edge-strong: linear-gradient(135deg, rgba(120,100,255,0.52), rgba(255,120,200,0.28) 36%, rgba(80,180,255,0.24) 66%, rgba(140,100,255,0.44));
-    --accent-1: #7c6cff;
-    --accent-2: #a06bff;
-    --accent-3: #f0abfc;
-    --accent: #9d8fff;
-    /* On dark surfaces the accent is already text-safe on its own tint. */
+    --refraction-edge: linear-gradient(135deg, rgba(120,100,255,0.38), rgba(216,180,254,0.22) 38%, rgba(80,180,255,0.18) 64%, rgba(140,100,255,0.32));
+    --refraction-edge-strong: linear-gradient(135deg, rgba(120,100,255,0.52), rgba(216,180,254,0.30) 36%, rgba(80,180,255,0.24) 66%, rgba(140,100,255,0.44));
+    --accent-1: #7c5cff;
+    --accent-2: #a78bfa;
+    --accent-3: #d8b4fe;
+    --accent: #a894ff;
+    /* On dark surfaces the accent is already text-safe on its own tint (6.7:1). */
     --accent-text: var(--accent);
     --accent-ink: #0c0a14;
-    --accent-soft: rgba(157, 143, 255, 0.14);
-    --accent-ring: rgba(157, 143, 255, 0.26);
+    --accent-soft: rgba(168, 148, 255, 0.14);
+    --accent-ring: rgba(168, 148, 255, 0.26);
+    --chrome: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 28%, #64748b 50%, #cbd5e1 72%, #f1f5f9 100%);
+    --chrome-text: linear-gradient(180deg, #ffffff 0%, #e2e8f0 46%, #94a3b8 54%, #f1f5f9 100%);
+    --chrome-ring: 0 0 0 1px rgba(255, 255, 255, 0.35), 0 0 0 2px rgba(148, 163, 184, 0.28);
     --green: #30d158; --green-soft: rgba(48, 209, 88, 0.13);
     --amber: #ffb340; --amber-soft: rgba(255, 179, 64, 0.13);
     --red: #ff453a; --red-soft: rgba(255, 69, 58, 0.12);
@@ -416,9 +442,9 @@ html[data-theme="dark"] {
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.42), 0 8px 20px rgba(0,0,0,0.32);
     --shadow-md: 0 4px 14px rgba(0,0,0,0.48), 0 24px 64px rgba(0,0,0,0.48);
     --shadow-lg: 0 8px 24px rgba(0,0,0,0.48), 0 48px 120px rgba(0,0,0,0.58);
-    --glow-accent: 0 12px 44px rgba(157,143,255,0.34), 0 2px 12px rgba(240,171,252,0.18);
-    --glow-soft: 0 20px 72px rgba(157,143,255,0.14);
-    --glow-card: 0 28px 88px rgba(157,143,255,0.20);
+    --glow-accent: 0 12px 44px rgba(168,148,255,0.34), 0 2px 12px rgba(216,180,254,0.18);
+    --glow-soft: 0 20px 72px rgba(168,148,255,0.14);
+    --glow-card: 0 28px 88px rgba(168,148,255,0.20);
     --highlight-inset: inset 0 1px 0 rgba(255, 255, 255, 0.16);
   }
 }
@@ -560,6 +586,19 @@ h1, h2, h3, h4 {
   text-wrap: balance;
 }
 
+/* Counters, tab counts, version strings and timestamps read in tabular
+   figures so digits stay aligned while the hero counters animate and the
+   release timeline lines up column by column. */
+[data-count],
+.tab-count,
+.stat-value,
+time,
+code,
+kbd,
+pre {
+  font-variant-numeric: tabular-nums;
+}
+
 p { margin: 0; }
 
 a { color: inherit; }
@@ -688,5 +727,9 @@ kbd {
 
 /* Unicode coverage for localized UI (loaded from Google Fonts when online;
    system fallbacks keep installed PWAs readable offline). */
-:root { --font-sans: Inter, "Noto Sans", "Noto Sans Bengali", "Noto Sans Arabic", system-ui, sans-serif; }
+:root {
+  --font-sans: "Inter", "Noto Sans", "Noto Sans Bengali", "Noto Sans Arabic",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Roboto Mono", monospace;
+}
 [dir="rtl"] { text-align: start; }

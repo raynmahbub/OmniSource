@@ -201,11 +201,13 @@ def render_collection_page(catalog: Catalog, collection: dict[str, Any]) -> str:
   <meta property="og:description" content="{html.escape(meta_desc)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{html.escape(page_url)}">
-  <meta property="og:image" content="{html.escape(catalog.base_url)}/assets/OmniSource.png">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{html.escape(catalog.base_url)}/assets/brand/social-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{html.escape(title)} — OmniSource">
   <meta name="twitter:description" content="{html.escape(meta_desc)}">
-  <meta name="twitter:image" content="{html.escape(catalog.base_url)}/assets/OmniSource.png">
+  <meta name="twitter:image" content="{html.escape(catalog.base_url)}/assets/brand/social-preview.jpg">
   <link rel="icon" type="image/png" href="../../assets/OmniSource.png">
   <link rel="apple-touch-icon" href="../../assets/OmniSource.png">
   <link rel="preload" href="../../assets/design-system/tokens.css" as="style">
