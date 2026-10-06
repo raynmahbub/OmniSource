@@ -32,6 +32,12 @@ export interface AltApp {
   screenshotURLs?: string[];
   slug?: string;
   id?: string;
+  /** Provenance emitted by the AltStore feed's OmniSource extension. */
+  omnisource?: {
+    slug?: string;
+    upstreamURL?: string;
+    sourceURL?: string;
+  };
 }
 
 export interface SourceEntry {
@@ -64,6 +70,34 @@ export interface CollectionEntry {
 
 function asArray<T>(value: unknown): T[] {
   return Array.isArray(value) ? (value as T[]) : [];
+}
+
+interface CatalogIconEntry {
+  slug?: string;
+  icon?: string;
+}
+
+const CATALOG_ICON_BY_SLUG = new Map(
+  asArray<CatalogIconEntry>((catalogDoc as { apps?: unknown }).apps)
+    .filter((entry) => Boolean(entry.slug && entry.icon))
+    .map((entry) => [entry.slug as string, entry.icon as string] as const),
+);
+
+/**
+ * Resolve a catalog app's official, reviewed icon to its same-origin copy.
+ * `sync-data.mjs` copies every referenced catalog icon into `public/assets/`
+ * and fails the build if one is missing, so catalog pages never depend on a
+ * third-party image host or silently replace the logo with a generic mark.
+ */
+export function getCatalogIconURL(app: AltApp): string {
+  const slug = app.omnisource?.slug || app.slug || app.id;
+  const icon = slug ? CATALOG_ICON_BY_SLUG.get(slug) : undefined;
+  return icon ? `/assets/${encodeURIComponent(icon)}` : app.iconURL || "";
+}
+
+/** The app's own project URL, carried in the feed's provenance extension. */
+export function getAppProjectURL(app: AltApp): string {
+  return app.omnisource?.upstreamURL || app.omnisource?.sourceURL || "";
 }
 
 export function appId(app: AltApp, index = 0): string {
