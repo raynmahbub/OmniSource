@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T19:13:24Z",
+  "generatedAt": "2026-10-06T13:31:45Z",
   "appCount": 131,
-  "releases": 265,
+  "releases": 270,
   "apps": {
     "3105": [
       {
@@ -308,13 +308,23 @@
     ],
     "conduit": [
       {
+        "version": "4.1.9",
+        "date": "2026-10-06",
+        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+        "size": 37477886,
+        "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
+        "localizedDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android spe",
+        "status": "current",
+        "firstSeen": "2026-10-06T13:31:45Z"
+      },
+      {
         "version": "4.1.8",
         "date": "2026-09-28",
         "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
         "size": 36256382,
         "sha256": "d202594c035e2e493656430315375ba9c043e8a8b88bd272c60f3384c5fd1f7d",
         "localizedDescription": "Conduit 4.1.8 | conduit\n\n## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix streaming lag, tool-call walls, speaker routing, SVG-sniffed PNGs, and lingering Hermes approvals by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/767\n* Fix remaining Open WebUI streaming events and task checklists by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/771\n* Make icons and settings surfaces follow the theme palette, and fix sign-in from the settings sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/772\n* Build iOS and Android targets for ARM only by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/773\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.7...v4.1.8",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-28T14:21:12Z"
       },
       {
@@ -522,13 +532,23 @@
     ],
     "glow": [
       {
+        "version": "2026.40.0",
+        "date": "2026-10-05",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa",
+        "size": 146909463,
+        "sha256": "",
+        "localizedDescription": "Facebook 2026.40.0 | Reddit-2026.40.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.40.0",
+        "status": "current",
+        "firstSeen": "2026-10-06T13:31:45Z"
+      },
+      {
         "version": "2026.39.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.39.0-RedditFilter.ipa",
         "size": 146182138,
         "sha256": "",
         "localizedDescription": "Facebook 2026.39.0 | Reddit-2026.39.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.39.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T19:13:24Z"
       },
       {
@@ -538,7 +558,7 @@
         "size": 144673258,
         "sha256": "",
         "localizedDescription": "Facebook 2026.39.0 | Reddit-2026.39.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.39.0",
-        "status": "removed",
+        "status": "superseded",
         "firstSeen": "2026-09-30T12:54:56Z"
       },
       {
@@ -1642,13 +1662,23 @@
     ],
     "ryukgram": [
       {
+        "version": "450.0.0",
+        "date": "2026-10-05",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-RyukGram.ipa",
+        "size": 351072589,
+        "sha256": "",
+        "localizedDescription": "Instagram 450.0.0 | Instagram-450.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 450.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-06T13:31:45Z"
+      },
+      {
         "version": "449.0.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-RyukGram.ipa",
         "size": 339380711,
         "sha256": "",
         "localizedDescription": "Instagram 449.0.0 | Instagram-449.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 449.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -1812,13 +1842,23 @@
     ],
     "sparkle": [
       {
+        "version": "450.0.0",
+        "date": "2026-10-05",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-Sparkle.ipa",
+        "size": 322621202,
+        "sha256": "",
+        "localizedDescription": "Instagram 450.0.0 | Instagram-450.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 450.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-06T13:31:45Z"
+      },
+      {
         "version": "449.0.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-Sparkle.ipa",
         "size": 323153117,
         "sha256": "",
         "localizedDescription": "Instagram 449.0.0 | Instagram-449.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 449.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -2136,13 +2176,23 @@
     ],
     "threadsaver": [
       {
+        "version": "450.0",
+        "date": "2026-10-05",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
+        "size": 113110827,
+        "sha256": "",
+        "localizedDescription": "Threads 450.0 | Threads-450.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 450.0",
+        "status": "current",
+        "firstSeen": "2026-10-06T13:31:45Z"
+      },
+      {
         "version": "449.0",
         "date": "2026-09-29",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-449.0-ThreadSaver.ipa",
         "size": 109945911,
         "sha256": "",
         "localizedDescription": "Threads 449.0 | Threads-449.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 449.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-30T12:54:56Z"
       },
       {

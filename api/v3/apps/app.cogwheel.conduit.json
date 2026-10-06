@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "df8bd1af1fde",
+  "feedVersion": "f219965f5a15",
   "data": {
     "name": "Conduit",
     "bundleIdentifier": "app.cogwheel.conduit",
@@ -11,75 +11,75 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
     "tintColor": "7794F0",
     "category": "utilities",
-    "version": "4.1.8",
-    "versionDate": "2026-09-28",
-    "versionDescription": "Conduit 4.1.8 | conduit\n\n## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix streaming lag, tool-call walls, speaker routing, SVG-sniffed PNGs, and lingering Hermes approvals by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/767\n* Fix remaining Open WebUI streaming events and task checklists by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/771\n* Make icons and settings surfaces follow the theme palette, and fix sign-in from the settings sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/772\n* Build iOS and Android targets for ARM only by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/773\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.7...v4.1.8",
-    "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
-    "size": 36256382,
+    "version": "4.1.9",
+    "versionDate": "2026-10-06",
+    "versionDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9",
+    "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+    "size": 37477886,
     "versions": [
       {
-        "version": "4.1.8",
-        "date": "2026-09-28",
-        "localizedDescription": "Conduit 4.1.8 | conduit\n\n## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix streaming lag, tool-call walls, speaker routing, SVG-sniffed PNGs, and lingering Hermes approvals by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/767\n* Fix remaining Open WebUI streaming events and task checklists by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/771\n* Make icons and settings surfaces follow the theme palette, and fix sign-in from the settings sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/772\n* Build iOS and Android targets for ARM only by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/773\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.7...v4.1.8",
-        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
-        "size": 36256382,
+        "version": "4.1.9",
+        "date": "2026-10-06",
+        "localizedDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9",
+        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+        "size": 37477886,
         "minOSVersion": "16.0",
-        "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.1.8",
+        "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.1.9",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
             "filename": "app-arm64-v8a-release.apk",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/app-arm64-v8a-release.apk",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-arm64-v8a-release.apk",
             "platform": "android",
             "architecture": "arm64",
             "fileType": "APK",
-            "size": 78424548,
-            "sha256": "3289791c5c3a4ddf0febcc4fb9001cef8677bdbaa1b3662aae0033f7c2630207",
-            "downloads": 1569,
+            "size": 80658070,
+            "sha256": "1faf23e692e520902feea3ec9151b5d10d12f947d733eafc4b4f62d0367f960b",
+            "downloads": 521,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
             "filename": "app-armeabi-v7a-release.apk",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/app-armeabi-v7a-release.apk",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-armeabi-v7a-release.apk",
             "platform": "android",
             "architecture": "armv7",
             "fileType": "APK",
-            "size": 70983992,
-            "sha256": "dcaac7f59963cfe5436e2992ba9970da44526cd7c0b9783cc27677c4844ce95d",
-            "downloads": 19,
+            "size": 73610730,
+            "sha256": "152d4d20d893e5fe01659ebfd1e5e57ff6a4fa637ac96f14c6f5b0c8a9cd87e8",
+            "downloads": 3,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
             "filename": "app-release.aab",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/app-release.aab",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-release.aab",
             "platform": "android",
             "architecture": null,
             "fileType": "AAB",
-            "size": 120659909,
-            "sha256": "78d0188c3e67a6d0134339870facf825525f01c205960819109499d67414fae4",
-            "downloads": 7,
+            "size": 124565293,
+            "sha256": "7ab9f1f83cf67c3396eaff44dab85660f779fccae9c0a2b6f19cc1e361834cc5",
+            "downloads": 1,
             "mimeType": "raw",
             "installable": true
           },
           {
             "filename": "conduit.ipa",
-            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
+            "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 36256382,
-            "sha256": "d202594c035e2e493656430315375ba9c043e8a8b88bd272c60f3384c5fd1f7d",
-            "downloads": 109,
+            "size": 37477886,
+            "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
+            "downloads": 3,
             "mimeType": "raw",
             "installable": true
           }
         ],
-        "sha256": "d202594c035e2e493656430315375ba9c043e8a8b88bd272c60f3384c5fd1f7d",
-        "downloads": 109
+        "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
+        "downloads": 3
       }
     ],
     "screenshotURLs": [],
@@ -117,7 +117,7 @@
         "downloadReachable": true,
         "detail": "HTTP 302",
         "statusSince": "2026-09-10",
-        "lastUpdatedAt": "2026-09-28"
+        "lastUpdatedAt": "2026-10-06"
       }
     },
     "id": "app.cogwheel.conduit"
