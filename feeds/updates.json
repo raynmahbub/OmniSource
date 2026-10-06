@@ -4,6 +4,36 @@
   "count": 100,
   "updates": [
     {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "version": "0.5.7",
+      "previousVersion": "0.5.6",
+      "date": "2026-10-06",
+      "kind": "updated",
+      "changelog": "Nuvio 0.5.7 | nuvio-0.5.7-full-release\n\n- c2127769 fix(p2p): correct torrent cache path and usage @tapframe  \n- [feat(player): add ExoPlayer native memory, VOD cache, and buffer setting (#2178)](https://github.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  \n- e22baece feat(details): add letterbox zoom to hero trailer @tapframe  \n- [feat(mdblist): choose which lists appear in the library (#2171)](https://github.com/NuvioMedia/NuvioMobile/pull/2171) @kernexshadow  \n- 53ac5e53 fix(player): follow system brightness when touch gestures are off @tapframe  \n- 459add64 feat(streams): match tv refresh spin in streams and player panels @tapframe  \n- d3786272 feat(player): add switch player and stream info actions @tapframe  \n- 909dd7dc feat(streams): spin refresh button until addons finish loading @tapframe  \n- [fix custom poster pattern URL validation and decoding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoruppa",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.7-beta/nuvio-0.5.7-full-release.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
+      "status": "stable",
+      "shortDescription": "Open-source media player, bring your own sources"
+    },
+    {
+      "slug": "mangayomi",
+      "name": "Mangayomi",
+      "version": "0.9.8",
+      "previousVersion": "0.9.7",
+      "date": "2026-10-06",
+      "kind": "updated",
+      "changelog": "Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios\n\n## What's Changed\n* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024\n* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030\n* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026\n* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027\n* Improve LNReader extension compatibility\n* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031\n* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032\n\n## New Contributors\n* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024\n* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026\n* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8",
+      "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Mangayomi.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/mangayomi.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/mangayomi.xml",
+      "status": "stable",
+      "shortDescription": "Manga, novel & anime reader"
+    },
+    {
       "slug": "conduit",
       "name": "Conduit",
       "version": "4.1.9",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
       "status": "stable",
       "shortDescription": "Open-source media player, bring your own sources"
-    },
-    {
-      "slug": "manicemu",
-      "name": "Manic EMU",
-      "version": "2.0.1",
-      "previousVersion": "2.0.0",
-      "date": "2026-09-18",
-      "kind": "updated",
-      "changelog": "Manic EMU 2.0.1 | ManicEMU.v2.0.1.SideloadJIT\n\n- Added WonderSwan support\n- Added NAOMI, Atomiswave, and System SP arcade support\n- Added Flash support\n  · Skin button binding\n  · Hardware keyboard input\n  · Software keyboard input\n  · Touch input\n- Built-in, self-contained JIT — no external debugger required\n- Added Slow Motion\n- Improved GameCube and Wii performance\n- GameCube now supports multi-disc games\n- Improved Wii motion controls\n- Simulate the Wii IR pointer by touch\n- Add games from other emulators via a link\n- Fixed some arcade systems that wouldn’t run\n- Fixed Dreamcast games running too fast\n- Fixed PSP crashes\n- Added NDS lid open/close\n- Improved rotation: with orientation lock on in Control Center, the app no longer snaps back to portrait\n- In-game shortcut tips can now be turned off\n- Landscape library can disable carousel style\n- Smoother landscape carousel scrolling\n- MultiDisc Helper supports more formats\n- Hardware keyboard input for Symbian, Amiga, and C64\n- Added RomM support\n  · LAN self-hosted servers only\n  · Sync only for games imported from RomM\n  · Manual sync only, from the service card’s long-press menu\n  · Pull ROMs, covers, metadata, manuals, and game saves\n- Fixed a launch timeout that could quit the app on older devices\n- N64 now supports ROMs larger than 64 MB",
-      "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/ManicEMU.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/manicemu.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/manicemu.xml",
-      "status": "stable",
-      "shortDescription": "All-in-one retro game emulator"
-    },
-    {
-      "slug": "mangayomi",
-      "name": "Mangayomi",
-      "version": "0.9.5",
-      "previousVersion": "0.9.4",
-      "date": "2026-09-18",
-      "kind": "updated",
-      "changelog": "Mangayomi 0.9.5 | Mangayomi-v0.9.5-ios\n\n## What's Changed\n\n## Reader & Novels\n\n* **Smart Double-Page Mode** (#1008):\n  * Automatically switch to double-page view based on screen orientation (landscape/portrait).\n  * Chapter transition pages now remain isolated for a natural, seamless reading experience.\n* **Complete Novel Reader Overhaul** (#1014):\n  * Added double-page reading mode support for novels.\n  * Added a **Keep screen on** toggle to prevent the display from turning off while reading (#1014).\n  * Added smooth auto-scroll with fine-tuned speed controls.\n  * Redesigned Novel bottom bar and settings sheets: more compact, with quick font-size adjustments.\n  * Centralized all novel settings under **More > Settings > Novel Reader** (#1014).\n* **Smooth Webtoon Scrolling**:\n  * Much smoother continuous scrolling without stutter or layout jumps.\n  * Fluid auto-scroll that reacts instantly to touch and drag gestures.\n* **Reliable Page Error Recovery**:\n  * The **Retry** button is now immediately clickable with no menu overlay interference.\n  * Added a manual **Refresh** button in the reader top bar to re-fetch fresh pages from the source.\n* **Dedicated Page Cache**:\n  * Redesigned chapter caching system (100 MB disk limit with automatic cleanup of older files) to save storage and speed up loading times.\n\n---\n\n##  Features & User Experience\n\n* **Quick Resume from History** (#1005):\n  * Double-tap or double-click the **History** icon in the navigation bar to instantly jump straight back into your latest read chapter or watched episode (filtered by Manga, Anime, or Novel).\n* **One-Tap Global Search**:\n  * Tap any title in the entry details header to immediately search for it across all extensions (long-press continues to copy to clipboard).\n  * Warns you before adding an entry that is already in your library.\n* **Customizable Chapter Swipe Actions** (#1005):\n  * Configure left and right swipe gestures for chapters in Reader settings (Mark as Read/Unread, Bookmark, Download, or Disable).\n* **Mass Migration from Library** (#1005):\n  * Added a dedicated shortcut button in the multi-select bottom action bar to quickly migrate multiple selected entries at once.\n* **Automatic Sync** (#1012):\n  * Added background auto-sync support and improved sync preference handling.\n\n---\n\n## Video Player & Desktop\n\n* **Desktop Controls & Performance** (#1015):\n  * Eliminated stutter caused by mouse hover on the player controls.\n  * Added a setting to toggle hardware acceleration on Windows.\n* **Audio & Subtitle Tracks**:\n  * Better track synchronization, duplicate removal, and cleaner track labels.\n\n---\n\n##  Localization\n\n* Fully updated and completed translations across **17 languages** (French, German, Spanish, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, and more).\n\n---\n\n##  Fixes & Stability\n\n* Fixed visual layout overflow issues in settings sheets and bottom bars (#1014).\n* Improved error handling and reliability for Kitsu discovery (#1011).\n* File picker improvements and stability updates (#1010).\n\n---\n\n##  Contributors\n\n* @kodjodevf \n* @NBA2K1 (#1010, #1011)\n* @not-akari\n\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.4...v0.9.5",
-      "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.5/Mangayomi-v0.9.5-ios.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Mangayomi.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/mangayomi.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/mangayomi.xml",
-      "status": "stable",
-      "shortDescription": "Manga, novel & anime reader"
     }
   ]
 }

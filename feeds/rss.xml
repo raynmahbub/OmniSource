@@ -8,6 +8,48 @@
     <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Nuvio v0.5.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
+      <guid isPermaLink="false">nuvio-0.5.7</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nuvio 0.5.7 | nuvio-0.5.7-full-release
+
+- c2127769 fix(p2p): correct torrent cache path and usage @tapframe  
+- [feat(player): add ExoPlayer native memory, VOD cache, and buffer setting (#2178)](https://github.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  
+- e22baece feat(details): add letterbox zoom to hero trailer @tapframe  
+- [feat(mdblist): choose which lists appear in the library (#2171)](https://github.com/NuvioMedia/NuvioMobile/pull/2171) @kernexshadow  
+- 53ac5e53 fix(player): follow system brightness when touch gestures are off @tapframe  
+- 459add64 feat(streams): match tv refresh spin in streams and player panels @tapframe  
+- d3786272 feat(player): add switch player and stream info actions @tapframe  
+- 909dd7dc feat(streams): spin refresh button until addons finish loading @tapframe  
+- [fix custom poster pattern URL validation and decoding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoruppa]]></description>
+      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.7-beta/nuvio-0.5.7-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mangayomi v0.9.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
+      <guid isPermaLink="false">mangayomi-0.9.8</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios
+
+## What's Changed
+* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024
+* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030
+* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026
+* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027
+* Improve LNReader extension compatibility
+* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031
+* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032
+
+## New Contributors
+* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024
+* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026
+* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031
+
+**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8]]></description>
+      <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit v4.1.9</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
       <guid isPermaLink="false">conduit-4.1.9</guid>
@@ -578,26 +620,6 @@ IPA Vault build for SoundCloud (NexaSC), version 8.80.1]]></description>
 
 IPA Vault build for Messenger (MSGPlusX), version 581.0.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Messenger Flow v581.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json</link>
-      <guid isPermaLink="false">messenger-flow-581.0.0</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Messenger 581.0.0 | Messenger-581.0.0-Flow
-
-IPA Vault build for Messenger (Flow), version 581.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-Flow.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>iQFace v581.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
-      <guid isPermaLink="false">iqface-581.0.0</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Facebook 581.0.0 | Facebook-581.0.0-iQFace
-
-IPA Vault build for Facebook (iQFace), version 581.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-581.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

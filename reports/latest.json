@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06",
-  "feedVersion": "29732f435eb1",
+  "feedVersion": "d988175a9606",
   "apps": {
     "total": 131,
     "reachable": 126,
@@ -9,10 +9,10 @@
   },
   "sync": {
     "synced": 128,
-    "incrementalHits": 118,
-    "updated": 1,
+    "incrementalHits": 117,
+    "updated": 2,
     "failed": 3,
-    "apiRequests": 118
+    "apiRequests": 117
   },
   "unreachable": [
     "cercube",
@@ -23,10 +23,17 @@
   ],
   "updates": [
     {
-      "slug": "conduit",
-      "name": "Conduit",
-      "previousVersion": "4.1.8",
-      "version": "4.1.9",
+      "slug": "mangayomi",
+      "name": "Mangayomi",
+      "previousVersion": "0.9.7",
+      "version": "0.9.8",
+      "kind": "updated"
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "previousVersion": "0.5.6",
+      "version": "0.5.7",
       "kind": "updated"
     }
   ],

@@ -5,8 +5,26 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
     <description>Release feed for Nuvio within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/nuvio.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nuvio v0.5.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
+      <guid isPermaLink="false">nuvio-0.5.7</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nuvio 0.5.7 | nuvio-0.5.7-full-release
+
+- c2127769 fix(p2p): correct torrent cache path and usage @tapframe  
+- [feat(player): add ExoPlayer native memory, VOD cache, and buffer setting (#2178)](https://github.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  
+- e22baece feat(details): add letterbox zoom to hero trailer @tapframe  
+- [feat(mdblist): choose which lists appear in the library (#2171)](https://github.com/NuvioMedia/NuvioMobile/pull/2171) @kernexshadow  
+- 53ac5e53 fix(player): follow system brightness when touch gestures are off @tapframe  
+- 459add64 feat(streams): match tv refresh spin in streams and player panels @tapframe  
+- d3786272 feat(player): add switch player and stream info actions @tapframe  
+- 909dd7dc feat(streams): spin refresh button until addons finish loading @tapframe  
+- [fix custom poster pattern URL validation and decoding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoruppa]]></description>
+      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.7-beta/nuvio-0.5.7-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Nuvio v0.5.6</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
