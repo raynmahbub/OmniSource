@@ -5,8 +5,37 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Conduit v4.1.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.1.9</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.1.9 | conduit
+
+## What's Changed
+* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774
+* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775
+* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783
+* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792
+* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790
+* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791
+* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793
+* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794
+* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795
+* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796
+* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797
+* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798
+* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799
+* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800
+* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803
+* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804
+
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>YTMusicUltimate v9.40.2</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json</link>
@@ -569,16 +598,6 @@ IPA Vault build for Messenger (Flow), version 581.0.0]]></description>
 
 IPA Vault build for Facebook (iQFace), version 581.0.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-581.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Infuse Plus v8.5.6</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/infuseplus.json</link>
-      <guid isPermaLink="false">infuseplus-8.5.6</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Infuse 8.5.6 | Infuse-8.5.6-Infuse-Plus
-
-IPA Vault build for Infuse Plus (8.5.6), version 8.5.6]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

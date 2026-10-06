@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-06",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "conduit",
+      "name": "Conduit",
+      "version": "4.1.9",
+      "previousVersion": "4.1.8",
+      "date": "2026-10-06",
+      "kind": "updated",
+      "changelog": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/conduit.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/conduit.xml",
+      "status": "stable",
+      "shortDescription": "Native client for Open WebUI & Ollama"
+    },
     {
       "slug": "ytmusic",
       "name": "YTMusicUltimate",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/mangayomi.xml",
       "status": "stable",
       "shortDescription": "Manga, novel & anime reader"
-    },
-    {
-      "slug": "escapeos",
-      "name": "EscapeOS",
-      "version": "0.1.6",
-      "previousVersion": "0.1.5",
-      "date": "2026-09-18",
-      "kind": "updated",
-      "changelog": "EscapeOS 0.1.6 | EscapeOS-0.1.6\n\n## EscapeOS 0.1.6\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, and v0.1.5 are unchanged.\n\n### Changed\n- **Import from Files** asks Replace, Keep Both, or Cancel when that name is already in the folder, instead of silently writing `foo 2.txt`. Replace overwrites the existing file at the same path and name ([#2](https://github.com/pwnapplehat/EscapeOS/issues/2)).\n- A same-named **folder** is not replaced with a file; Keep Both lands beside it.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.5. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n`EscapeOS-0.1.6.ipa` SHA-256:\n\n```\n234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2\n```",
-      "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/EscapeOS.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/escapeos.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/escapeos.xml",
-      "status": "beta",
-      "shortDescription": "App-data browser and backup for sideloaded apps"
     }
   ]
 }

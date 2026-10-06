@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06",
-  "feedVersion": "dddefe6bd8d3",
+  "feedVersion": "29732f435eb1",
   "apps": {
     "total": 131,
     "reachable": 126,
@@ -9,10 +9,10 @@
   },
   "sync": {
     "synced": 128,
-    "incrementalHits": 119,
-    "updated": 0,
+    "incrementalHits": 118,
+    "updated": 1,
     "failed": 3,
-    "apiRequests": 117
+    "apiRequests": 118
   },
   "unreachable": [
     "cercube",
@@ -21,7 +21,15 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "conduit",
+      "name": "Conduit",
+      "previousVersion": "4.1.8",
+      "version": "4.1.9",
+      "kind": "updated"
+    }
+  ],
   "errors": [
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
