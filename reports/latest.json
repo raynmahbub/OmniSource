@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-06",
   "feedVersion": "dddefe6bd8d3",
   "apps": {
     "total": 131,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 128,
-    "incrementalHits": 117,
-    "updated": 2,
+    "incrementalHits": 119,
+    "updated": 0,
     "failed": 3,
     "apiRequests": 117
   },
@@ -21,22 +21,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "glow",
-      "name": "Glow",
-      "previousVersion": "2026.39.0",
-      "version": "2026.40.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "sparkle",
-      "name": "Sparkle",
-      "previousVersion": "449.0.0",
-      "version": "450.0.0",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
