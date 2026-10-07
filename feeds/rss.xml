@@ -5,8 +5,48 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sparkle v450.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
+      <guid isPermaLink="false">sparkle-450.1.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 450.1.0 | Instagram-450.1.0-Sparkle
+
+IPA Vault build for Instagram (Sparkle), version 450.1.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RyukGram v450.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
+      <guid isPermaLink="false">ryukgram-450.1.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 450.1.0 | Instagram-450.1.0-RyukGram
+
+IPA Vault build for Instagram (RyukGram), version 450.1.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MSGPlusX v582.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
+      <guid isPermaLink="false">msgplusx-582.0.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 582.0.0 | Messenger-582.0.0-MSGPlusX
+
+IPA Vault build for Messenger (MSGPlusX), version 582.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Messenger Flow v582.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json</link>
+      <guid isPermaLink="false">messenger-flow-582.0.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 582.0.0 | Messenger-582.0.0-Flow
+
+IPA Vault build for Messenger (Flow), version 582.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-Flow.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Nuvio v0.5.7</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
@@ -476,150 +516,6 @@ IPA Vault build for Swiftgram (iQTele), version 12.9.4]]></description>
 
 IPA Vault build for Instagram (Sparkle), version 449.0.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-Sparkle.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>RyukGram Side by Side v449.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram-sidebyside.json</link>
-      <guid isPermaLink="false">ryukgram-sidebyside-449.0.0</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 449.0.0 | RyukGram Side by Side
-
-# [release] RyukGram v1.4.5
-
-### ✨ Highlights
-
-- **RyukGram Gallery** — Pick and repost media directly inside Instagram, edit photos and videos, manage file details, and save everything to your gallery
-- **Reels limits** — Set session or daily limits by time or reel count, track usage, get break reminders, and pause reels across the app when limits are reached
-- **Watchlist & profile tracking** — Monitor accounts for username, bio, picture, privacy, verification and count changes, with configurable alerts and a private profile history
-- **Playback controls** — A redesigned reels and stories panel with live seeking, frame-by-frame navigation, custom skip steps, playback speed memory and frame saving
-- **Notification history** — Search and filter saved notifications, choose which features are recorded, and access them from a home shortcut
-- **Custom notification sounds** — Import and trim your own sounds for DMs and other alerts, or use Instagram's built-in tones
-- **Gallery media limits and feed controls** — Control how much content loads, filter posts by engagement, and hide feed videos when your reels limit is reached
-- **MobileConfig Browser Update** — The browser now names all configs and fields Instagram exposes on iOS, with a coverage count at the bottom of the list
-
-### 🆕 New features
-
-#### Gallery & media
-
-- Pick media from the RyukGram Gallery directly in Instagram: use the DM + menu, hold the comment photo button, or hold Recents in story, post and reel galleries
-- Repost gallery photos, videos and GIFs as stories, posts or reels
-- Edit gallery media: crop, rotate and resize photos, trim and crop videos, trim audio, extract or remove video audio, and convert GIFs to video. Save as a new file or replace the original
-- Gallery info editor — Rename files, edit source details, view camera and codec information, and remove photo location data
-- Redesigned crop editor for Draw and chat backgrounds, with more ratios, free crop, flip and zoom-to-fit
-- Save photo posts with their music from the reels action button, disabled by default
-- Open profile pictures to browse every available picture on the account
-- Group chats without a picture now show member avatars in RyukGram lists
-
-#### Reels & stories
-
-- Reels and stories playback panel — Live progress, elapsed and remaining time, larger play/pause, custom skip intervals, frame-by-frame seeking, next/previous navigation and frame saving
-- Playback speed can be remembered globally, for the current session or only for the current video
-- Reel sidebar playback button shows the current speed and can switch between 1× and your last speed by holding it
-- Move the reels action and playback buttons anywhere in the sidebar
-- Access playback controls from the reels and stories action button, with auto-advance controls in the story panel
-- Reels auto-scroll can skip sponsored and photo reels
-- Keep Instants unseen after viewing, or mark an individual one seen with the viewer's eye button
-- Hold the story background button to choose a solid color or gradient, with an adjustable direction
-
-#### Profiles & tracking
-
-- Watchlist — Add accounts from profiles, recent chats or search. Accounts are checked on a schedule and for free when opened, with a 24-hour pause if Instagram rate-limits requests
-- Track watchlist changes to usernames, names, bios, links, pictures, privacy, verification, follow-back status and counts, with per-type alerts and a home shortcut
-- Visited profiles — Keep a private history of opened profiles with notes, filters, multi-select and CSV or JSON export
-- Activity notifications can now track only accounts in your list
-- Fake profile picture — Use an image from Photos, Gallery, Files or a link, displayed throughout Instagram on your device only
-- Spoofing editor redesigned around your profile header, including the Threads badge. Tap fields to edit, apply changes, or disable all spoofing with one switch. Edit Profile always shows your real information
-- Post spoofing — Select your own posts and change displayed likes, comments, views, shares, reposts and saves locally
-
-#### MobileConfig & advanced
-
-- Active MobileConfig overrides show how many times Instagram has read them
-- Identify unnamed MobileConfig entries by the code that reads them, and use that code as their label
-- Toggle individual or all overrides off and on without losing their values
-- Filter MobileConfig parameters by overridden status or platform
-- Add searchable notes to configs, visible in the list and config details
-- Search MobileConfig by notes, parameter names, IDs, names or numbers
-- Every MobileConfig config and field Instagram exposes on iOS now has a name, up from under a third
-- The MobileConfig list footer shows how many configs and fields are named out of the total
-- Instagram API settings — Reuse recent replies for a chosen period, pace requests, and set daily follow and unfollow limits
-
-#### Interface & customization
-
-- Custom emoji fonts — Import color emoji fonts to replace emoji throughout Instagram
-- Custom notification sounds for DMs and other alerts, with imports from Files, Photos or Gallery, trimming, and Instagram's built-in tones
-- Safari extension — Add an Open in RyukGram banner at the top or bottom, remove Instagram app prompts, block App Store redirects, and optionally open links automatically
-- Strip tracking menu — Manage tracking removal for shared and opened links, choose which parameters to remove, or strip unnecessary parameters from shared links
-- Embed domains and tracking parameters now support multi-select deletion
-- Hide search suggestions, including suggested accounts and searches in the Search tab
-- Hide Facebook cards: removes the Facebook suggestion cards from the feed
-- Hide Meta AI also removes AI-generated images from the gallery picker
-- Force audio button restores the DM camera sound toggle in the ••• menu when Instagram does not show it
-- Links, email addresses and phone numbers in captions, comments and profile bios are tappable, with long-press options to copy or share
-- Option to hide the disappearing media views toggle from the chat header
-
-#### Reels limits
-
-- Choose per-session limits, the previous doom-scrolling cap, or daily limits based on time or reel count
-- Set limits per location or across the app
-- Usage dashboard with daily history, break reminders and warnings before reaching a limit
-- Strict mode and a home shortcut
-- When a limit is reached, reels pause across the app, with an option to hide feed videos
-
-#### Diagnostics & notifications
-
-- Crash logging under Debug → Logging — Automatically save reports when Instagram crashes, with search, sharing and an indicator when RyukGram appears in the trace
-- Share log files can now include crash reports
-- Notification history — Save notifications in one searchable place, filter by feature or type, choose which features are recorded, and use a home shortcut with unread counts
-
-### 🛠 Fixes
-
-#### Instagram compatibility
-
-- Updated compatibility with Instagram 447, 448 and 449
-- DM inbox header buttons, chat menus, hidden chats, locks, refresh warnings and Meta AI search hiding work again on the new Swift inbox
-- Inbox and profile action buttons no longer overlap the back button or username on older layouts
-- Voice message downloads, forced DM saving and Meta AI menu hiding work again on newer Instagram
-- Feed autoplay controls, story midcard hiding and sticker-reply seen state work again on Instagram 448
-- Hiding the reels long-press menu and reels surveys works again on Instagram 448
-- Keep deleted messages, reels playback speed, tap-to-mute on photo reels and feed refresh interval overrides work again on Instagram 448
-- Hiding Meta AI and suggested people on the new chat screen works again
-- The chat message preview no longer displays a Try Instagram Plus label
-
-#### Media & downloads
-
-- Saved voice messages now use the sender's name
-- Profile and group pictures remain cached after links expire or caches are cleared, an…]]></description>
-      <enclosure url="https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>RyukGram v449.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
-      <guid isPermaLink="false">ryukgram-449.0.0</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 449.0.0 | Instagram-449.0.0-RyukGram
-
-IPA Vault build for Instagram (RyukGram), version 449.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-RyukGram.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>NexaSC v8.80.1</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
-      <guid isPermaLink="false">nexasc-8.80.1</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[SoundCloud 8.80.1 | SoundCloud-8.80.1-NexaSC
-
-IPA Vault build for SoundCloud (NexaSC), version 8.80.1]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.1-NexaSC.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>MSGPlusX v581.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
-      <guid isPermaLink="false">msgplusx-581.0.0</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Messenger 581.0.0 | Messenger-581.0.0-MSGPlusX
-
-IPA Vault build for Messenger (MSGPlusX), version 581.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

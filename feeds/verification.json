@@ -4,12 +4,12 @@
   "totals": {
     "apps": 131,
     "verified": 125,
-    "communityVerified": 0,
-    "unverified": 6,
+    "communityVerified": 1,
+    "unverified": 5,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.75,
+    "avgTrustScore": 6.77,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1148,7 +1148,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-Flow.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-Flow.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -1211,7 +1211,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-MSGPlusX.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-MSGPlusX.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -1715,7 +1715,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-RyukGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -1925,7 +1925,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-Sparkle.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2661,7 +2661,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-      "trustScore": 1.9,
+      "trustScore": 1.8,
       "trustBadge": "Experimental"
     },
     {
@@ -2751,7 +2751,7 @@
     {
       "app": "uyouenhanced",
       "name": "uYouEnhanced",
-      "status": "UNVERIFIED",
+      "status": "COMMUNITY VERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "method": "manual-mirror",
@@ -2759,15 +2759,15 @@
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": false,
+        "fileAvailable": true,
         "hashVerified": false
       },
       "reasons": [
-        "failed check: fileAvailable"
+        "community package (manual-mirror) — build provenance is not the upstream developer"
       ],
       "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
-      "trustScore": 3.0,
-      "trustBadge": "Experimental"
+      "trustScore": 5.0,
+      "trustBadge": "Community"
     }
   ]
 }

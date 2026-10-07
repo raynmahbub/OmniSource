@@ -1,16 +1,16 @@
 {
   "generatedAt": "2026-10-07",
-  "feedVersion": "d988175a9606",
+  "feedVersion": "ec2d7bed0e95",
   "apps": {
     "total": 131,
-    "reachable": 125,
-    "unreachable": 6,
+    "reachable": 126,
+    "unreachable": 5,
     "verified": 125
   },
   "sync": {
     "synced": 128,
-    "incrementalHits": 119,
-    "updated": 0,
+    "incrementalHits": 115,
+    "updated": 4,
     "failed": 3,
     "apiRequests": 117
   },
@@ -19,10 +19,38 @@
     "jaility",
     "killmyota",
     "trollboard-reborn",
-    "uprovid",
-    "uyouenhanced"
+    "uprovid"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "ryukgram",
+      "name": "RyukGram",
+      "previousVersion": "450.0.0",
+      "version": "450.1.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "sparkle",
+      "name": "Sparkle",
+      "previousVersion": "450.0.0",
+      "version": "450.1.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "messenger-flow",
+      "name": "Messenger Flow",
+      "previousVersion": "581.0.0",
+      "version": "582.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "msgplusx",
+      "name": "MSGPlusX",
+      "previousVersion": "581.0.0",
+      "version": "582.0.0",
+      "kind": "updated"
+    }
+  ],
   "errors": [
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
