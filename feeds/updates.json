@@ -49,6 +49,21 @@
       "shortDescription": "Messenger tweak by Dens0r & lucaspedrosa (unofficial build)"
     },
     {
+      "slug": "monal",
+      "name": "Monal",
+      "version": "6.4.23",
+      "previousVersion": "6.4.22",
+      "date": "2026-10-07",
+      "kind": "updated",
+      "changelog": "Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- We don't show the login view anymore, if all configured accounts are disabled\n- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now\n- Sharing something using the share sheet should no longer attach a spurious garbled file alongside",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Monal.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/monal.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/monal.xml",
+      "status": "stable",
+      "shortDescription": "XMPP instant messenger"
+    },
+    {
       "slug": "messenger-flow",
       "name": "Messenger Flow",
       "version": "582.0.0",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/ytkp.xml",
       "status": "stable",
       "shortDescription": "Advanced YouTube tweak with extensive controls"
-    },
-    {
-      "slug": "youpro",
-      "name": "YouPro",
-      "version": "21.37.5",
-      "previousVersion": "21.37.4",
-      "date": "2026-09-19",
-      "kind": "updated",
-      "changelog": "YouTube 21.37.5 | YouProExtra_21.37.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available for A12+ devices.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for downloaded videos.\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa3/YouProExtra_21.37.5_1.3.1.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/youpro.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/youpro.xml",
-      "status": "stable",
-      "shortDescription": "Feature-rich YouTube tweak by alibusut"
     }
   ]
 }

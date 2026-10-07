@@ -899,7 +899,7 @@
               "fileType": "IPA",
               "size": 117820512,
               "sha256": "6dccb3085136ae5343dc79a0f32d498b73f443d2c29cdc0f32b5053ddc593648",
-              "downloads": 1604,
+              "downloads": 1645,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -911,7 +911,7 @@
               "fileType": "IPA",
               "size": 128072289,
               "sha256": "7ba150bc74ad756fc1c3db29b2aedf3f17db8f170299008a92dad8f80b0e6a99",
-              "downloads": 3940,
+              "downloads": 4025,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -923,7 +923,7 @@
               "fileType": "IPA",
               "size": 117820368,
               "sha256": "75aa3de0cffb52b4c9634dac1559b1ea0e1b5912f604a8b05966c0d115c8912c",
-              "downloads": 45,
+              "downloads": 47,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -935,7 +935,7 @@
               "fileType": "IPA",
               "size": 128072146,
               "sha256": "fb50ca9d203248699106ffe157a814f5261b63b0c5fa967ffe982ac50adea79b",
-              "downloads": 86,
+              "downloads": 87,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -947,7 +947,7 @@
               "fileType": "IPA",
               "size": 86444936,
               "sha256": "856c9ab42150025f42dc9235002dda7a367556442bae5d4e558b25e30b5ac0bf",
-              "downloads": 378,
+              "downloads": 387,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -959,7 +959,7 @@
               "fileType": "IPA",
               "size": 96696713,
               "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
-              "downloads": 738,
+              "downloads": 750,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -983,13 +983,13 @@
               "fileType": "DEB",
               "size": 12582478,
               "sha256": "6dfaeb13f4a18164a5406414d2f6dce9f7fe03284f1c6b8bafd77e813b9059af",
-              "downloads": 29,
+              "downloads": 30,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
-          "downloads": 738
+          "downloads": 750
         }
       ],
       "screenshotURLs": [],
@@ -5353,7 +5353,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 573,
+              "downloads": 605,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5401,13 +5401,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 331,
+              "downloads": 334,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 331
+          "downloads": 334
         }
       ],
       "screenshotURLs": [],
@@ -6320,13 +6320,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 2869,
+              "downloads": 2933,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 2869
+          "downloads": 2933
         }
       ],
       "screenshotURLs": [
@@ -6435,13 +6435,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 441,
+              "downloads": 444,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 441
+          "downloads": 444
         }
       ],
       "screenshotURLs": [
@@ -6721,87 +6721,86 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Monal.webp",
       "tintColor": "00A8E8",
       "category": "social",
-      "version": "6.4.22",
-      "versionDate": "2026-09-24",
-      "versionDescription": "Monal 6.4.22 | Monal\n\n- Improve SRV-record handling for dot records\n- Allow voice-over localization of loading spinner in the chats overview\n- Obfuscate upload filenames when sending encrypted files",
-      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.ipa",
-      "size": 38407335,
+      "version": "6.4.23",
+      "versionDate": "2026-10-07",
+      "versionDescription": "Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- We don't show the login view anymore, if all configured accounts are disabled\n- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now\n- Sharing something using the share sheet should no longer attach a spurious garbled file alongside",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
+      "size": 39040077,
       "versions": [
         {
-          "version": "6.4.22",
-          "date": "2026-09-24",
-          "localizedDescription": "Monal 6.4.22 | Monal\n\n- Improve SRV-record handling for dot records\n- Allow voice-over localization of loading spinner in the chats overview\n- Obfuscate upload filenames when sending encrypted files",
-          "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.ipa",
-          "size": 38407335,
+          "version": "6.4.23",
+          "date": "2026-10-07",
+          "localizedDescription": "Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- We don't show the login view anymore, if all configured accounts are disabled\n- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now\n- Sharing something using the share sheet should no longer attach a spurious garbled file alongside",
+          "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
+          "size": 39040077,
           "minOSVersion": "16.1",
-          "releaseUrl": "https://github.com/monal-im/Monal/releases/tag/Build_iOS_1094",
+          "releaseUrl": "https://github.com/monal-im/Monal/releases/tag/Build_iOS_1098",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
+              "filename": "Monal.pkg",
+              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.pkg",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 51486267,
+              "sha256": "4f1d252f550ea87ac6ea300a0147ac68b2092ce221777a61e7bdcf983181c089",
+              "downloads": 0,
+              "mimeType": "application/octet-stream",
+              "installable": false
+            },
+            {
+              "filename": "monal-ios-dsym.zip",
+              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/monal-ios-dsym.zip",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 39480410,
+              "sha256": "e0f26e3544e3b04ea4fc797c8a22b1dc8c51da9bb4f5fed1488ec0dcca9f5e6e",
+              "downloads": 0,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
               "filename": "Monal.ipa",
-              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.ipa",
+              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 38407335,
-              "sha256": "5c05702731ef44fd203b3691b3462f56e0e238863f69083479cdd1712f428b08",
-              "downloads": 117,
+              "size": 39040077,
+              "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
+              "downloads": 0,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "monal-ios-dsym.zip",
-              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/monal-ios-dsym.zip",
-              "platform": "ios",
+              "filename": "Monal.zip",
+              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.zip",
+              "platform": "unknown",
               "architecture": null,
               "fileType": "ZIP",
-              "size": 38105987,
-              "sha256": "821b40df93165fdc524ee8f795e6bccbcb519d7ba67c58d0ab09cb2d6a1635da",
-              "downloads": 2,
+              "size": 47913063,
+              "sha256": "196b09114dec2917f81f69232be00327bd430a6bec0ca9d1c290f35509a1fb78",
+              "downloads": 0,
               "mimeType": "application/zip",
               "installable": false
             },
             {
               "filename": "monal-catalyst-dsym.zip",
-              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/monal-catalyst-dsym.zip",
+              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/monal-catalyst-dsym.zip",
               "platform": "unknown",
               "architecture": null,
               "fileType": "ZIP",
-              "size": 42006456,
-              "sha256": "7244c4b5b474af6255661e445e0814f3c6d75076ea1d0db51072462508d620a1",
-              "downloads": 1,
-              "mimeType": "application/zip",
-              "installable": false
-            },
-            {
-              "filename": "Monal.pkg",
-              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.pkg",
-              "platform": "unknown",
-              "architecture": null,
-              "fileType": "other",
-              "size": 50177822,
-              "sha256": "cee402f1773db50cb62e23825e03ed96cd8771753e13effc1f07cb9fdf6cef58",
-              "downloads": 9,
-              "mimeType": "application/octet-stream",
-              "installable": false
-            },
-            {
-              "filename": "Monal.zip",
-              "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.zip",
-              "platform": "unknown",
-              "architecture": null,
-              "fileType": "ZIP",
-              "size": 46664650,
-              "sha256": "1508c1e1a280fe5829016bbfe2750a32d3c143b8a58e168db0190591a590b22f",
-              "downloads": 6,
+              "size": 42463581,
+              "sha256": "0b4d0dec976bc195e023aacc14ecc99afc10125199690eadbc345cac41dbb983",
+              "downloads": 0,
               "mimeType": "application/zip",
               "installable": false
             }
           ],
-          "sha256": "5c05702731ef44fd203b3691b3462f56e0e238863f69083479cdd1712f428b08",
-          "downloads": 117
+          "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab"
         }
       ],
       "screenshotURLs": [],
@@ -6843,7 +6842,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-13",
-          "lastUpdatedAt": "2026-09-24"
+          "lastUpdatedAt": "2026-10-07"
         }
       }
     },
@@ -7975,7 +7974,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 597,
+              "downloads": 600,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8005,7 +8004,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 597
+          "downloads": 600
         }
       ],
       "screenshotURLs": [],
@@ -9512,7 +9511,7 @@
               "fileType": "IPA",
               "size": 109209550,
               "sha256": "704438eb40f0fc1cdd6197109aed004a20a79e45854e4d83a1fea43727004c03",
-              "downloads": 159,
+              "downloads": 172,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9524,7 +9523,7 @@
               "fileType": "IPA",
               "size": 109248801,
               "sha256": "2950d9279dcdf51644419cf0aa5a6e76017fdf7322c485e958c01769c8e4e044",
-              "downloads": 974,
+              "downloads": 1125,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9536,13 +9535,13 @@
               "fileType": "IPA",
               "size": 109163229,
               "sha256": "f2da434c66dc043db43c819630633f490da932e861785a0e3c1459470f5245b1",
-              "downloads": 373,
+              "downloads": 433,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "f2da434c66dc043db43c819630633f490da932e861785a0e3c1459470f5245b1",
-          "downloads": 373
+          "downloads": 433
         }
       ],
       "screenshotURLs": [],
@@ -11454,7 +11453,7 @@
               "fileType": "APK",
               "size": 217877725,
               "sha256": "b93dc1b21530d82d626acbf46667d4b56a1737f3dd1b04dcfa32364172cbbfff",
-              "downloads": 1072,
+              "downloads": 1158,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11466,7 +11465,7 @@
               "fileType": "APK",
               "size": 216822002,
               "sha256": "336a7fe09d3a00c93938c750acc9bcac4fa6bfb4ff01ece8ac67543a9dbd7563",
-              "downloads": 101,
+              "downloads": 110,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11478,7 +11477,7 @@
               "fileType": "AAB",
               "size": 130105753,
               "sha256": "3689681dcdd9577fedc91f682e8be318879f2ba6f158b52bf6f4aee69af2d83f",
-              "downloads": 4,
+              "downloads": 5,
               "mimeType": "application/x-authorware-bin",
               "installable": true
             },
@@ -11490,7 +11489,7 @@
               "fileType": "IPA",
               "size": 58936814,
               "sha256": "e854b36dea8544ef9f4f89e006983e8ebbe8f34ffac23a8f49a3709c64287335",
-              "downloads": 5,
+              "downloads": 6,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -11502,13 +11501,13 @@
               "fileType": "IPA",
               "size": 73400511,
               "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-              "downloads": 37,
+              "downloads": 41,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-          "downloads": 37
+          "downloads": 41
         }
       ],
       "screenshotURLs": [],
@@ -12567,7 +12566,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 369990,
+              "downloads": 370091,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12579,12 +12578,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1260688,
+              "downloads": 1261059,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1260688
+          "downloads": 1261059
         }
       ],
       "screenshotURLs": [],
@@ -12871,7 +12870,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 697,
+              "downloads": 700,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12883,13 +12882,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 1984,
+              "downloads": 1999,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 1984
+          "downloads": 1999
         }
       ],
       "screenshotURLs": [],
@@ -15336,6 +15335,15 @@
       "notify": true
     },
     {
+      "title": "Monal v6.4.23",
+      "identifier": "news-monal-6-4-23",
+      "caption": "XMPP instant messenger",
+      "date": "2026-10-07",
+      "appID": "G7YU7X7KRJ.SworIM",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Monal.webp",
+      "notify": true
+    },
+    {
       "title": "Messenger Flow v582.0.0",
       "identifier": "news-messenger-flow-582-0-0",
       "caption": "Facebook Messenger tweak by dvntms (unofficial build)",
@@ -15384,15 +15392,6 @@
       "title": "YouTubePlus v21.40.5",
       "identifier": "news-ytlite-21-40-5",
       "caption": "Lightweight YouTube tweak with no ads and PiP",
-      "date": "2026-10-05",
-      "appID": "com.google.ios.youtube",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "notify": true
-    },
-    {
-      "title": "YouPro v21.40.5",
-      "identifier": "news-youpro-21-40-5",
-      "caption": "Feature-rich YouTube tweak by alibusut",
       "date": "2026-10-05",
       "appID": "com.google.ios.youtube",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
