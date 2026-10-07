@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T13:31:45Z",
+  "generatedAt": "2026-10-07T13:45:29Z",
   "appCount": 131,
-  "releases": 270,
+  "releases": 276,
   "apps": {
     "3105": [
       {
@@ -890,13 +890,23 @@
     ],
     "mangayomi": [
       {
+        "version": "0.9.8",
+        "date": "2026-10-06",
+        "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa",
+        "size": 114518028,
+        "sha256": "20b2327c1650f1c809b71365f59413223a588584f6cc69ac4facac965c7965e1",
+        "localizedDescription": "Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios\n\n## What's Changed\n* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024\n* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030\n* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026\n* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027\n* Improve LNReader extension compatibility\n* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031\n* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032\n\n## New Contributors\n* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024\n* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026\n* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8",
+        "status": "current",
+        "firstSeen": "2026-10-07T13:45:29Z"
+      },
+      {
         "version": "0.9.7",
         "date": "2026-09-22",
         "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.7/Mangayomi-v0.9.7-ios.ipa",
         "size": 114301894,
         "sha256": "52f126352cce94f9a0772eea5786c17eee02337401cda735fbd44a77dc2465dd",
         "localizedDescription": "Mangayomi 0.9.7 | Mangayomi-v0.9.7-ios\n\n# What's New\n\n## Reader\n\n* **Reliable Resume to Saved Position** :\n  * Reopening a chapter in continuous vertical reading now jumps directly and instantly to the page where you left off, even before all images have finished loading.\n  * Eliminated the issue where the reader would land on a neighboring page or spinner instead of the correct saved position.\n\n* **Smoother Zoomed Panning & Inertia** (#1021):\n  * Dragging a zoomed page now follows your finger precisely using real movement delta instead of an accumulated offset, making panning far more responsive.\n  * Flinging a zoomed page now carries natural momentum with a longer, smoother coast animation.\n  * Overscrolling past the edge of a zoomed page automatically transfers the momentum to the page list scroll, allowing seamless continued scrolling without lifting your finger.\n\n* **Fixed Grey Screen in Double-Page Mode**:\n  * Chapter transition pages in vertical double-page reading no longer cause a crash or a blank grey screen when the spread is reached.\n\n* **Reader Bottom Bar Positioning**:\n  * The page slider and quick-action bar now correctly sit above the system gesture area and home indicator on all devices, preventing them from being hidden behind system UI.\n\n* **Novel Reader Performance**:\n  * Page swipes in paged novel mode no longer trigger a full rebuild of the reader tree, making navigation between pages considerably faster.\n\n---\n\n## Fixes & Stability\n\n* Fixed infinite loading spinner when resuming a continuous vertical chapter mid-chapter.\n* Corrected the visible range check that was preventing the initial scroll anchor from being applied reliably.\n* Page image load events now correctly trigger a re-jump to the saved position if the list had not yet settled on the right page.\n\n---\n\n## Contributors\n\n* @kodjodevf\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.6...v0.9.7",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-23T11:59:38Z"
       },
       {
@@ -1008,13 +1018,23 @@
     ],
     "messenger-flow": [
       {
+        "version": "582.0.0",
+        "date": "2026-10-07",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-Flow.ipa",
+        "size": 116709494,
+        "sha256": "",
+        "localizedDescription": "Messenger 582.0.0 | Messenger-582.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 582.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-07T13:45:29Z"
+      },
+      {
         "version": "581.0.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-Flow.ipa",
         "size": 116832544,
         "sha256": "",
         "localizedDescription": "Messenger 581.0.0 | Messenger-581.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 581.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -1084,13 +1104,23 @@
     ],
     "msgplusx": [
       {
+        "version": "582.0.0",
+        "date": "2026-10-07",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-MSGPlusX.ipa",
+        "size": 116866041,
+        "sha256": "",
+        "localizedDescription": "Messenger 582.0.0 | Messenger-582.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 582.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-07T13:45:29Z"
+      },
+      {
         "version": "581.0.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-581.0.0-MSGPlusX.ipa",
         "size": 117430146,
         "sha256": "",
         "localizedDescription": "Messenger 581.0.0 | Messenger-581.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 581.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -1278,13 +1308,23 @@
     ],
     "nuvio": [
       {
+        "version": "0.5.7",
+        "date": "2026-10-06",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.7-beta/nuvio-0.5.7-full-release.ipa",
+        "size": 66836754,
+        "sha256": "12e380470a1ba1aab42709480aa08fe440f9171d3872a91fa9ff7f9a3de194fe",
+        "localizedDescription": "Nuvio 0.5.7 | nuvio-0.5.7-full-release\n\n- c2127769 fix(p2p): correct torrent cache path and usage @tapframe  \n- [feat(player): add ExoPlayer native memory, VOD cache, and buffer setting (#2178)](https://github.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  \n- e22baece feat(details): add letterbox zoom to hero trailer @tapframe  \n- [feat(mdblist): choose which lists appear in the library (#2171)](https://github.com/NuvioMedia/NuvioMobile/pull/2171) @kernexshadow  \n- 53ac5e53 fix(player): follow system brightness when touch gestures are off @tapframe  \n- 459add64 feat(streams): match tv refresh spin in streams and player panels @tapframe  \n- d3786272 feat(player): add switch player and stream info actions @tapframe  \n- 909dd7dc feat(streams): spin refresh button until addons finish loading @tapframe  \n- [fix custom poster pattern URL validation and decoding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoruppa",
+        "status": "current",
+        "firstSeen": "2026-10-07T13:45:29Z"
+      },
+      {
         "version": "0.5.6",
         "date": "2026-10-02",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.6-beta/nuvio-0.5.6-full-release.ipa",
         "size": 66690752,
         "sha256": "503a38bb00d29c05d4d6b89443faf9c5004fbd0cd6496e177e0cb1b4dcd0ce4c",
         "localizedDescription": "Nuvio 0.5.6 | nuvio-0.5.6-full-release\n\n- 312f7399 feat(details): use desktop hero layout on tablets @tapframe  \n- b3d7c5b6 feat(settings): show restart prompt when layout direction changes @tapframe  \n- a984b390 fix(ios): declare supported localizations @tapframe  \n- f0f980b3 fix(player): auto-play next episode on end after dismissing prompt @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#2146)](https://github.com/NuvioMedia/NuvioMobile/pull/2146) @blueocean2308  \n- [Preload next episode sources (#2140)](https://github.com/NuvioMedia/NuvioMobile/pull/2140) @skoruppa  \n- [Fix mising poster fallback in Catalog Screen (#2139)](https://github.com/NuvioMedia/NuvioMobile/pull/2139) @skoruppa  \n- [fix(player): backport automatic skip notifications from Desktop (#2137)](https://github.com/NuvioMedia/NuvioMobile/pull/2137) @Laskco",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -1662,13 +1702,23 @@
     ],
     "ryukgram": [
       {
+        "version": "450.1.0",
+        "date": "2026-10-07",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
+        "size": 337114395,
+        "sha256": "",
+        "localizedDescription": "Instagram 450.1.0 | Instagram-450.1.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 450.1.0",
+        "status": "current",
+        "firstSeen": "2026-10-07T13:45:29Z"
+      },
+      {
         "version": "450.0.0",
         "date": "2026-10-05",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-RyukGram.ipa",
         "size": 351072589,
         "sha256": "",
         "localizedDescription": "Instagram 450.0.0 | Instagram-450.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 450.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-06T13:31:45Z"
       },
       {
@@ -1842,13 +1892,23 @@
     ],
     "sparkle": [
       {
+        "version": "450.1.0",
+        "date": "2026-10-07",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
+        "size": 322655738,
+        "sha256": "",
+        "localizedDescription": "Instagram 450.1.0 | Instagram-450.1.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 450.1.0",
+        "status": "current",
+        "firstSeen": "2026-10-07T13:45:29Z"
+      },
+      {
         "version": "450.0.0",
         "date": "2026-10-05",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.0.0-Sparkle.ipa",
         "size": 322621202,
         "sha256": "",
         "localizedDescription": "Instagram 450.0.0 | Instagram-450.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 450.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-06T13:31:45Z"
       },
       {
