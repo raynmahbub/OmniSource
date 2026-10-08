@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-08",
   "feedVersion": "8f3c10b835b5",
   "apps": {
     "total": 131,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 128,
-    "incrementalHits": 118,
-    "updated": 1,
+    "incrementalHits": 119,
+    "updated": 0,
     "failed": 3,
     "apiRequests": 117
   },
@@ -21,15 +21,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "monal",
-      "name": "Monal",
-      "previousVersion": "6.4.22",
-      "version": "6.4.23",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
