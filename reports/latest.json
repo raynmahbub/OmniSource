@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-08",
-  "feedVersion": "60c56ad738ae",
+  "feedVersion": "ccbd9192c3ae",
   "apps": {
     "total": 131,
     "reachable": 126,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 128,
-    "incrementalHits": 118,
-    "updated": 1,
+    "incrementalHits": 116,
+    "updated": 3,
     "failed": 3,
     "apiRequests": 117
   },
@@ -23,10 +23,24 @@
   ],
   "updates": [
     {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "previousVersion": "0.5.7",
-      "version": "0.5.8",
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "previousVersion": "5.0.7",
+      "version": "5.1.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "inkillerplus",
+      "name": "iNKillerPlus",
+      "previousVersion": "448.0.0",
+      "version": "449.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "ttkillerplus",
+      "name": "TTKillerPlus",
+      "previousVersion": "47.0.0",
+      "version": "47.1.0",
       "kind": "updated"
     }
   ],

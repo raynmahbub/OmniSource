@@ -8,6 +8,169 @@
     <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>TTKillerPlus v47.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ttkillerplus.json</link>
+      <guid isPermaLink="false">ttkillerplus-47.1.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[TikTok 47.1.0 | TikTok_47.1_TTKillerPlus_2.3
+
+• Fixes injection for jailbreaks may not be injected due to bundle iD missing
+- Add country flag to the profile page to know the creator origin country
+- Add follow status to new profile style user name
+- Add v46.7+ compatibility.
+- Fix like confirmation bypass on double tap.
+- Fix post date display format.
+- Fix flag button not tappable.
+- Other fixes & improvements.
+- Update base IPA to TikTok v47.1]]></description>
+      <enclosure url="https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>SpotiFLAC Mobile v5.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.1.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SpotiFLAC 5.1.0 | SpotiFLAC-v5.1.0-ios-unsigned
+
+### New Features
+
+- **library**: Expand audio format and ReplayGain filters
+- **player**: Warn when muted and allow manual resume
+- **native**: Add cancellable data workers and streamed file hashing
+- **playback**: Automate mute and headphone playback controls
+- **player**: Show mixing status beside audio quality
+- **automix**: Add configurable duration and transition effects
+- **lyrics**: Add staggered spring motion to visible rows
+- **build**: Require Discord in production and keep Lite opt-in
+- **settings**: Default to built-in playback and word-synced lyrics
+- **network**: Add SMB and WebDAV libraries with streaming and uploads
+- **statistics**: Show cover artwork and artists for top tracks
+- **mornye**: Restore liquid glass with continuous draggable navigation
+- **discord**: Add opt-in mobile rich presence with track artwork
+- **extensions**: Support personal account forms and direct downloads
+- **playback**: Add local listening statistics and annual recap
+- **library**: Show recent releases from favorite artists
+- **library**: Add batch playlist and queue actions
+- **library**: Filter albums with missing tracks
+
+### Bug Fixes
+
+- **repo**: Retry initialization before adding a registry
+- **storage**: Preserve extension encryption keys on read failures
+- **extensions**: Retain packages with unreadable settings
+- **downloads**: Finalize album ReplayGain after history is saved
+- **downloads**: Preserve actual provider audio format
+- **lyrics**: Treat placeholder zero timestamps as unsynced
+- **library**: Retry transient SQLite locks before scan transactions
+- **riverpod**: Remove public notifier getters
+- **queue**: Merge startup additions before persistence and processing
+- **library**: Stage native scans before owner SQLite publication
+- **cache**: Prune detached projections under source writer barrier
+- **backup**: Publish native restores through owning SQLite connection
+- **sqlite**: Isolate native staging from live database handles
+- **queue**: Preserve restored downloads during startup flush
+- **mornye**: Show provider checkmark spacing only when selected
+- **mornye**: Use glass for download queue confirmations
+- **settings**: Retain pending preferences during asynchronous loading
+- **recents**: Preserve early edits during history loading
+- **logs**: Retain polling ownership across restart and clear
+- **network**: Close request-owned HTTP clients reliably
+- **backup**: Close archive outputs when extraction fails
+- **android**: Release temporary media on failed SAF operations
+- **playlists**: Prevent overlapping picker submissions
+- **network**: Discard stale folder browsing responses
+- **downloads**: Recover queue ownership after setup failures
+- **playlists**: Serialize collection changes and isolate domain models
+- **history**: Serialize mutations and preserve newer file metadata
+- **lyrics**: Hold current line highlight until the next lead
+- **history**: Preserve bulk deletion failure handling
+- **library**: Distinguish unavailable storage from missing files
+- **player**: Retire deleted sources and stale SAF copies
+- **library**: Remove deleted files from both library indexes
+- **downloads**: Preserve filenames after decryption and conversion
+- **glass**: Refract navbar icons through the held lens
+- **glass**: Swell navbar glass without resizing icons
+- **library**: Serialize scan admission and retain reconnect requests
+- **artwork**: Promptly dispose failed video decoders
+- **home**: Protect fresh feeds from late cache restoration
+- **search**: Reject pending completions after clearing results
+- **library**: Honor album artist filters in summary counts
+- **home**: Anchor track menus to their source cards
+- **extensions**: Use themed account option picker
+- **automix**: Diagnose crossfade fallback reasons
+- **automix**: Use themed transition effect picker
+- **lyrics**: Keep simultaneous singers highlighted and visible
+- **extensions**: Accept account forms with optional cancel actions
+- **library**: Expose failed scan files and reasons in app logs
+- **library**: Preserve album view when returning from detail screens
+- **stats**: Show artwork for top artists
+- **mornye**: Match tab highlights to the expanding glass outline
+- **library**: Scan remote SAF folders when root metadata is unavailable
+- **library**: Match SAF documents across folder tree aliases
+- **mornye**: Use liquid glass for Home download and album actions
+- **lyrics**: Grant scoped access to selected audio files
+- **mornye**: Use consistent animated oval switches across glass levels
+- **artwork**: Recover missing SAF covers after transient provider failures
+- **library**: Reject filename guesses from failed NAS metadata reads
+- **selection**: Dismiss action panels with a downward swipe
+- **android**: Preserve remote SAF descriptors for audio and artwork
+- **playback**: Refresh notification favorite and shuffle controls
+- **lyrics**: Preserve manual scrolling during control transitions
+- **mornye**: Keep lyrics scrolling stable when controls fade
+- **library**: Preserve folders during upgrades and load failures
+- **ui**: Make snackbars transient and replace stale messages
+- **ios**: Preserve Now Playing ownership with motion artwork
+- **metadata**: Recognize featured artist credits consistently
+- **library**: Make missing-file cleanup responsive for downloaded tracks
+- **lyrics**: Preserve batch track identity and report results promptly
+- **album**: Open track metadata from local album rows
+- **history**: Prevent maintenance from restoring orphan downloads
+- **artwork**: Preserve thumbnail aspect ratio during decoding
+- **library**: Restore Material playlist drag and drop
+- **library**: Restore search selection actions after re-enrich
+- **metadata**: Show re-enrich results above Library cards
+- **library**: Preserve SD card visibility during transient access failures
+- **library**: Include unindexed tracks in missing ReplayGain filter
+- **download**: Preserve native media workspace across cache eviction
+
+### Performance
+
+- **downloads**: Index queued positions for scheduling
+- **downloads**: Stop queue selection when slots fill
+- **downloads**: Index progress notification candidates
+- **downloads**: Reuse committed queue snapshots
+- **downloads**: Retain queue indexes between item removals
+- **downloads**: Check album ReplayGain readiness in one pass
+- **downloads**: Batch queue failures when folder access is lost
+- **downloads**: Enqueue selected playlists in one update
+- **downloads**: Batch queue cancellation and progress cleanup
+- **downloads**: Batch cancellation resets for retry
+- **collections**: Delete selected playlists in one transaction
+- **downloads**: Enqueue Wishlist selections in one update
+- **collections**: Remove selected tracks in one transaction
+- **network**: Prepare large SMB listings off the UI thread
+- **library**: Buffer network scan output with bounded writes
+- **lyrics**: Short-circuit content availability checks
+- **collections**: Batch Love All updates and persistence
+- **collections**: Stage large playlist additions off the UI thread
+- **collections**: Split native chunks without per-line async events
+- **library**: Load bounded browse pages without rereading prefixes
+- **backup**: Stream encoded collections without cloning model graphs
+- **queue**: Bound SQLite transfers and move large codecs off UI
+- **collections**: Hydrate native snapshots on bounded workers
+- **collections**: Isolate action and track row rebuilds
+- **collections**: Reuse membership indexes for metadata changes
+- **library**: Rank playlist search pages on bounded workers
+- **cache**: Batch cover maintenance on Rust workers
+- **collections**: Restore backups on Rust SQLite workers
+- **backup**: Stream ZIP archives on Rust workers
+- **mornye**: Prepare overlay GPU pipeline before first opening
+- **mornye**: Compose overlay glass into one backdrop pass
+- **mornye**: Streamline download source and quality picker
+- **extensions**: Decode provider responses outside the UI isolat…]]></description>
+      <enclosure url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.1.0/SpotiFLAC-v5.1.0-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Nuvio v0.5.8</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
       <guid isPermaLink="false">nuvio-0.5.8</guid>
@@ -21,6 +184,24 @@
 - [feat(servers): add experimental Jellyfin and Emby support (#2081)](https://github.com/NuvioMedia/NuvioMobile/pull/2081) @tapframe  
 - [fix(streams): play streams that only have a ytId (#2115)](https://github.com/NuvioMedia/NuvioMobile/pull/2115) @deejay189393]]></description>
       <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.8-beta/nuvio-0.5.8-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iNKillerPlus v449.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json</link>
+      <guid isPermaLink="false">inkillerplus-449.0.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3
+
+• Fixes a possible crash on rootless JB
+- Add alternative icon to jailbreak since iG include the icon inside the app
+- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions
+- Fixes show email open in profiles or copied text to detect emails automaticlly
+- Fixes profile bio long press to copy detect email and links
+- Fixes read DM icon
+- Fixes user exception for direct message
+- Add full compatibility with IG v445+
+- Updated base IPA to Instagram v449.0]]></description>
+      <enclosure url="https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>Sparkle v450.1.0</title>
@@ -470,60 +651,6 @@ The player was rewritten on every platform, so some rough edges are expected. Re
 
 **Include in bug reports:** app version, platfo…]]></description>
       <enclosure url="https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Reynard v0.16.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
-      <guid isPermaLink="false">reynard-0.16.0</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Reynard 0.16.0 | Reynard
-
-## Changes
-**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.15.0...0.16.0
-
-### Bug Fixes & Improvements
-- Fixed an issue where the iPad floating keyboard pushed the web view upward.
-
-### Engine
-Updated Gecko to [157.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_RELEASE) (released Sep 29, 2026).]]></description>
-      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>YouTubePlus v21.39.4</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/ytlite.json</link>
-      <guid isPermaLink="false">ytlite-21.39.4</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[YouTube 21.39.4 | YouTubePlus_21.39.4_6.0b2
-
-### Latest Release, ENJOY!!
-
-**Cracked by** [@itzzace](https://github.com/itzzace)
-
-> [!NOTE]
-> - 🔑 No subscription required. 
-> - ✅ New Downloads manager.
-> - 📺 Full 4KHDR support. YTUHD no longer needed.
-> - ⚠️Beta release, some features may still glitch.
-> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) 
->
-> - - -
-> #### Extra Tweaks: 
-> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`
-> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` 
-
-> [!WARNING]
-> -  21.34.3+ builds require iOS 17+ now.]]></description>
-      <enclosure url="https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.39.4_6.0b2.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Turrit MxGram v1.5.5</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/turrit-mxgram.json</link>
-      <guid isPermaLink="false">turrit-mxgram-1.5.5</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Turrit 1.5.5 | Turrit-1.5.5-iQTele
-
-IPA Vault build for Turrit (iQTele), version 1.5.5]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
