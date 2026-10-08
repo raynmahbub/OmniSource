@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T13:45:29Z",
+  "generatedAt": "2026-10-08T13:53:14Z",
   "appCount": 131,
-  "releases": 276,
+  "releases": 278,
   "apps": {
     "3105": [
       {
@@ -1082,13 +1082,23 @@
     ],
     "monal": [
       {
+        "version": "6.4.23",
+        "date": "2026-10-07",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
+        "size": 39040077,
+        "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
+        "localizedDescription": "Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- We don't show the login view anymore, if all configured accounts are disabled\n- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now\n- Sharing something using the share sheet should no longer attach a spurious garbled file alongside",
+        "status": "current",
+        "firstSeen": "2026-10-08T13:53:14Z"
+      },
+      {
         "version": "6.4.22",
         "date": "2026-09-24",
         "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.ipa",
         "size": 38407335,
         "sha256": "5c05702731ef44fd203b3691b3462f56e0e238863f69083479cdd1712f428b08",
         "localizedDescription": "Monal 6.4.22 | Monal\n\n- Improve SRV-record handling for dot records\n- Allow voice-over localization of loading spinner in the chats overview\n- Obfuscate upload filenames when sending encrypted files",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-25T12:05:51Z"
       },
       {
@@ -1308,13 +1318,23 @@
     ],
     "nuvio": [
       {
+        "version": "0.5.8",
+        "date": "2026-10-08",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.8-beta/nuvio-0.5.8-full-release.ipa",
+        "size": 67558904,
+        "sha256": "7aa44bc33bfbf9e4edc8551fba5860d125e0ff5df418118d8bc2d668b5c4698f",
+        "localizedDescription": "Nuvio 0.5.8 | nuvio-0.5.8-full-release\n\n- [i18n: Add Croatian (hr) translation (#2169)](https://github.com/NuvioMedia/NuvioMobile/pull/2169) @Anarchydr  \n- [feat(mdblist): sort library lists by release date (#2196)](https://github.com/NuvioMedia/NuvioMobile/pull/2196) @kernexshadow  \n- [Reset next episode preload flag on episode transition (#2193)](https://github.com/NuvioMedia/NuvioMobile/pull/2193) @skoruppa  \n- [fix(UI): fix hero content shifting on horizontal and tablet layouts (#2190)](https://github.com/NuvioMedia/NuvioMobile/pull/2190) @ThEgIGN  \n- [feat(servers): add experimental Jellyfin and Emby support (#2081)](https://github.com/NuvioMedia/NuvioMobile/pull/2081) @tapframe  \n- [fix(streams): play streams that only have a ytId (#2115)](https://github.com/NuvioMedia/NuvioMobile/pull/2115) @deejay189393",
+        "status": "current",
+        "firstSeen": "2026-10-08T13:53:14Z"
+      },
+      {
         "version": "0.5.7",
         "date": "2026-10-06",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.7-beta/nuvio-0.5.7-full-release.ipa",
         "size": 66836754,
         "sha256": "12e380470a1ba1aab42709480aa08fe440f9171d3872a91fa9ff7f9a3de194fe",
         "localizedDescription": "Nuvio 0.5.7 | nuvio-0.5.7-full-release\n\n- c2127769 fix(p2p): correct torrent cache path and usage @tapframe  \n- [feat(player): add ExoPlayer native memory, VOD cache, and buffer setting (#2178)](https://github.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  \n- e22baece feat(details): add letterbox zoom to hero trailer @tapframe  \n- [feat(mdblist): choose which lists appear in the library (#2171)](https://github.com/NuvioMedia/NuvioMobile/pull/2171) @kernexshadow  \n- 53ac5e53 fix(player): follow system brightness when touch gestures are off @tapframe  \n- 459add64 feat(streams): match tv refresh spin in streams and player panels @tapframe  \n- d3786272 feat(player): add switch player and stream info actions @tapframe  \n- 909dd7dc feat(streams): spin refresh button until addons finish loading @tapframe  \n- [fix custom poster pattern URL validation and decoding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoruppa",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-07T13:45:29Z"
       },
       {

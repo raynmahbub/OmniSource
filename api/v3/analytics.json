@@ -1,11 +1,11 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cde00f6e414f",
+  "feedVersion": "77f50e06f484",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-07",
-    "lastSync": "2026-10-07",
+    "generatedAt": "2026-10-08",
+    "lastSync": "2026-10-08",
     "totals": {
       "apps": 131,
       "sources": 114,
@@ -20,11 +20,19 @@
       "downloadsReachable": 126,
       "deadLinks": 5,
       "newAppsThisWeek": 0,
-      "updatedAppsThisWeek": 39,
+      "updatedAppsThisWeek": 40,
       "clientsSupported": 7
     },
     "newThisWeek": [],
     "updatedThisWeek": [
+      {
+        "slug": "nuvio",
+        "name": "Nuvio",
+        "version": "0.5.8",
+        "previousVersion": "0.5.7",
+        "date": "2026-10-08",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.8-beta/nuvio-0.5.8-full-release.ipa"
+      },
       {
         "slug": "sparkle",
         "name": "Sparkle",
@@ -40,6 +48,14 @@
         "previousVersion": "450.0.0",
         "date": "2026-10-07",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa"
+      },
+      {
+        "slug": "monal",
+        "name": "Monal",
+        "version": "6.4.23",
+        "previousVersion": "6.4.22",
+        "date": "2026-10-07",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa"
       },
       {
         "slug": "messenger-flow",
@@ -328,14 +344,6 @@
         "previousVersion": "3.4.1",
         "date": "2026-10-01",
         "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa"
-      },
-      {
-        "slug": "nuvio",
-        "name": "Nuvio",
-        "version": "0.5.5",
-        "previousVersion": "0.5.4",
-        "date": "2026-09-30",
-        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.5-beta/nuvio-0.5.5-full-release.ipa"
       }
     ],
     "topCategories": [
@@ -431,13 +439,13 @@
     ],
     "history": [
       {
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "apps": 131,
         "sources": 114,
         "verified": 125,
         "deadLinks": 5,
         "newThisWeek": 0,
-        "updatedThisWeek": 39
+        "updatedThisWeek": 40
       }
     ]
   }
