@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-09",
   "totals": {
     "apps": 131,
-    "verified": 125,
+    "verified": 124,
     "communityVerified": 1,
-    "unverified": 5,
+    "unverified": 6,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.76,
+    "avgTrustScore": 6.73,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1004,27 +1004,6 @@
       "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
-    },
-    {
-      "app": "livecontainer",
-      "name": "LiveContainer",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "LiveContainer/LiveContainer",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": true
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-      "trustScore": 7.2,
-      "trustBadge": "Community"
     },
     {
       "app": "mame4ios",
@@ -2682,7 +2661,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "trustScore": 1.6,
+      "trustScore": 1.5,
       "trustBadge": "Experimental"
     },
     {
@@ -2703,7 +2682,28 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "trustScore": 1.6,
+      "trustScore": 1.5,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "livecontainer",
+      "name": "LiveContainer",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "github-release",
+      "publisher": "LiveContainer/LiveContainer",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": true
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+      "trustScore": 4.1,
       "trustBadge": "Experimental"
     },
     {
@@ -2724,7 +2724,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "trustScore": 1.6,
+      "trustScore": 1.5,
       "trustBadge": "Experimental"
     },
     {

@@ -32,8 +32,8 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/livecontainer/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/livecontainer.json",
     "health": {
-      "reachable": true,
-      "detail": "HTTP 302",
+      "reachable": false,
+      "detail": "HTTP 404",
       "updatedAt": "2026-07-17"
     }
   },
@@ -54,8 +54,8 @@
     }
   ],
   "verification": {
-    "status": "VERIFIED",
-    "level": "VERIFIED",
+    "status": "UNVERIFIED",
+    "level": "UNVERIFIED",
     "method": "github-release"
   }
 }
