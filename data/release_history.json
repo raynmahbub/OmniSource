@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T13:53:14Z",
+  "generatedAt": "2026-10-09T13:38:00Z",
   "appCount": 131,
-  "releases": 278,
+  "releases": 284,
   "apps": {
     "3105": [
       {
@@ -664,13 +664,23 @@
     ],
     "inkillerplus": [
       {
+        "version": "449.0.0",
+        "date": "2026-10-08",
+        "downloadURL": "https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa",
+        "size": 256829089,
+        "sha256": "",
+        "localizedDescription": "Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3\n\n• Fixes a possible crash on rootless JB\n- Add alternative icon to jailbreak since iG include the icon inside the app\n- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions\n- Fixes show email open in profiles or copied text to detect emails automaticlly\n- Fixes profile bio long press to copy detect email and links\n- Fixes read DM icon\n- Fixes user exception for direct message\n- Add full compatibility with IG v445+\n- Updated base IPA to Instagram v449.0",
+        "status": "current",
+        "firstSeen": "2026-10-09T13:38:00Z"
+      },
+      {
         "version": "448.0.0",
         "date": "2026-09-23",
         "downloadURL": "https://ikghd.site/ipa/Instagram_448.0_iNKillerPlus_5.2.ipa",
         "size": 250521187,
         "sha256": "",
         "localizedDescription": "Instagram 448.0.0 | Instagram_448.0_iNKillerPlus_5.2\n\n• Fixes a possible crash on rootless JB\n- Add alternative icon to jailbreak since iG include the icon inside the app\n- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions\n- Fixes show email open in profiles or copied text to detect emails automaticlly\n- Fixes profile bio long press to copy detect email and links\n- Fixes read DM icon\n- Fixes user exception for direct message\n- Add full compatibility with IG v445+\n- Updated base IPA to Instagram v448.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-24T12:05:34Z"
       },
       {
@@ -1296,13 +1306,23 @@
     ],
     "nicegram": [
       {
+        "version": "2.6.3",
+        "date": "2026-10-09",
+        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa",
+        "size": 105049734,
+        "sha256": "2dd5d4d11128787e84d29ef3e0f940e4be380351277e238cfcc4060f88998b8f",
+        "localizedDescription": "Nicegram 2.6.3 | build 2.6.3\n\nBuild of Nicegram for iOS 2.6.3 (721)",
+        "status": "current",
+        "firstSeen": "2026-10-09T13:38:00Z"
+      },
+      {
         "version": "2.6.2",
         "date": "2026-10-05",
         "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa",
         "size": 104977076,
         "sha256": "9cf0aca0b07a5c9f4f6809c80b5494d59016fe8d58d327ba60b5fa9915520b27",
         "localizedDescription": "Nicegram 2.6.2 | build 2.6.2\n\nBuild of Nicegram for iOS 2.6.2 (718)",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T19:13:24Z"
       },
       {
@@ -1830,13 +1850,23 @@
     ],
     "sameboy": [
       {
+        "version": "1.0.4",
+        "date": "2026-10-09",
+        "downloadURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
+        "size": 3178122,
+        "sha256": "4ec51175711b1bf123aeb86a7e711ed069104867a7f8008e775e3cae5cbdd188",
+        "localizedDescription": "SameBoy 1.0.4 | sameboy_ios_v1.0.4\n\nThis version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save states from any BESS compliant emulator\n\n## New/Improved Features\n* The libretro core now supports API extensions to retrieve additional metadata and create more portable battery save files\n* The iOS frontend has been updated with improved iOS 27 support\n* iPhone Duo support was added to the iOS frontend\n* The CRT scaling filter has been updated with an improved look\n* A new Pixelated/Sharp Bilinear scaling filter\n    * This new filter is now the default filter in the Cocoa and SDL frontends\n* VFS support was added to the libretro core\n* Logging support was added to the libretro core\n* The libretro core will now render audio directly in the frontend's audio sample rate, if supported\n* Recording audio to a VGM log file is now possible in the Cocoa and SDL frontends\n* Minor UI improvements in the Cocoa frontend\n\n## Accuracy Improvements/Fixes\n* Workboy emulation now correctly reports the current weekday\n* Fixed a bug that made certain small ROM files be incorrectly detected as MMM01 cartridges\n* More accurate emulation of SGB command processing\n\n## Bug Fixes\n* Fixed a bug where periodic battery saves were performed from the wrong thread in the Cocoa frontend, causing debug builds to crash\n* Fixed controller hotkeys not working on newer macOS versions in the Cocoa frontend\n* Fixed a bug that prevented mapping Load State commands to a controller hotkey in the Cocoa frontend\n* The libretro core no longer reports an RTC memory region when emulating cartridges without an RTC\n* Fixed a bug that could trigger memory corruptions on x86-64 platforms when loading malformed save states\n* Improved sanitization of the Game Boy Printer save state data\n* Fixed an incorrectly label “Rumble strength” label in the Cocoa frontend\n* File dialogs on Windows now switch Full Screen mode off before they appear, working around bugs in Windows' windowing syst",
+        "status": "current",
+        "firstSeen": "2026-10-09T13:38:00Z"
+      },
+      {
         "version": "1.0.3",
         "date": "2026-03-04",
         "downloadURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.3/sameboy_ios_v1.0.3.ipa",
         "size": 3170899,
         "sha256": "2dddc5dee5048713dcfc4f38450c503afa13e85ffd0d138b5f52fc4c4c39370f",
         "localizedDescription": "SameBoy 1.0.3 | sameboy_ios_v1.0.3\n\nThis version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save states from any BESS compliant emulator\n\n## New/Improved Features\n* Added support for more controllers in the iOS frontend, including singular Joy-Cons\n* Pressing buttons while in a locked rewind state now exits rewind mode in the iOS frontend\n* The iOS frontend now handles save conflicts with a dialog, making syncing saves across different machines and emulators easier\n* An `examine`/`x` command can now use the `/s` modifier to change its output style to RGBDS-compatible assembly\n* An `examine`/`x` command can now use `$` in its modifier to use hexadecimal count values\n* It is now possible to adjust the maximum rumble strength\n* It is now possible to modify and save a running ROM file from the Memory Viewer in the Cocoa frontend\n* Controller buttons can now be assigned to one of 4 hotkey commands in the iOS frontend\n* Periodic saves were added to the iOS frontend\n* A new screenshot hotkey was added to the SDL frontend\n* Controller UI hiding in the iOS frontend can now optionally disable the centering of the game screen\n* The Cocoa and SDL frontends now save the battery more frequently\n\n## Accuracy Improvements/Fixes\n* Added silence detection to eliminate rounding artifacts when playing nothing but frequencies above Nyquist\n* Prevented abnormal vblank events from updating the SNES-side buffers prematurely\n* Fixed a bug that made reading the PCM registers non-deterministic when emulating a CGB in CPU revision C or older\n* Fixed a bug that caused ROMs to be running in the background under some cases in the Cocoa frontend\n* Fixed a bug that caused channel `PCM12` to output incorrect channel 2 values when emulating CGB in CPU revision C or older\n* Improved the accuracy of the `PCM` registers when emulating CGB in CPU revision C or older\n* Emulated a new quirk where volume envelope ticks are delayed while emulating a CGB in CPU revision",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -1974,13 +2004,23 @@
     ],
     "spotiflac": [
       {
+        "version": "5.1.0",
+        "date": "2026-10-08",
+        "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.1.0/SpotiFLAC-v5.1.0-ios-unsigned.ipa",
+        "size": 33465739,
+        "sha256": "49d82e738de236c35e58d8abdfc050f28ab106850bad20e75740a0e5a5bd4ba0",
+        "localizedDescription": "SpotiFLAC 5.1.0 | SpotiFLAC-v5.1.0-ios-unsigned\n\n### New Features\n\n- **library**: Expand audio format and ReplayGain filters\n- **player**: Warn when muted and allow manual resume\n- **native**: Add cancellable data workers and streamed file hashing\n- **playback**: Automate mute and headphone playback controls\n- **player**: Show mixing status beside audio quality\n- **automix**: Add configurable duration and transition effects\n- **lyrics**: Add staggered spring motion to visible rows\n- **build**: Require Discord in production and keep Lite opt-in\n- **settings**: Default to built-in playback and word-synced lyrics\n- **network**: Add SMB and WebDAV libraries with streaming and uploads\n- **statistics**: Show cover artwork and artists for top tracks\n- **mornye**: Restore liquid glass with continuous draggable navigation\n- **discord**: Add opt-in mobile rich presence with track artwork\n- **extensions**: Support personal account forms and direct downloads\n- **playback**: Add local listening statistics and annual recap\n- **library**: Show recent releases from favorite artists\n- **library**: Add batch playlist and queue actions\n- **library**: Filter albums with missing tracks\n\n### Bug Fixes\n\n- **repo**: Retry initialization before adding a registry\n- **storage**: Preserve extension encryption keys on read failures\n- **extensions**: Retain packages with unreadable settings\n- **downloads**: Finalize album ReplayGain after history is saved\n- **downloads**: Preserve actual provider audio format\n- **lyrics**: Treat placeholder zero timestamps as unsynced\n- **library**: Retry transient SQLite locks before scan transactions\n- **riverpod**: Remove public notifier getters\n- **queue**: Merge startup additions before persistence and processing\n- **library**: Stage native scans before owner SQLite publication\n- **cache**: Prune detached projections under source writer barrier\n- **backup**: Publish native restores through owning SQLite connection\n- **sqlite**: Isolate native staging from l",
+        "status": "current",
+        "firstSeen": "2026-10-09T13:38:00Z"
+      },
+      {
         "version": "5.0.7",
         "date": "2026-10-01",
         "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.7/SpotiFLAC-v5.0.7-ios-unsigned.ipa",
         "size": 35416213,
         "sha256": "4d0a5142d82f4da3d57eee021135fead7a0229a68064513f3778c1a95194d7c6",
         "localizedDescription": "SpotiFLAC 5.0.7 | SpotiFLAC-v5.0.7-ios-unsigned\n\n### New Features\n\n- **library**: Filter tracks missing verified ReplayGain tags\n- **library**: Pause and resume library scans\n- **backend**: Hold library scans in place while paused\n- **library**: Select search results with a long press\n- **metadata**: Add a primary artist tag mode\n- **metadata**: Write primary-artist tags in native writers\n- **album**: Replace selection sharing with metadata re-enrichment\n- **appearance**: Add glass clarity controls and directional highlights\n- **lyrics**: Keep the screen awake while viewing lyrics\n\n### Bug Fixes\n\n- **download**: Stop crashing native finalization on Android regex\n- **backup**: Restore download and metadata provider order\n- **background**: Keep library scans and update downloads running with the screen off\n- **mornye**: Preserve navbar blur during collapse animations\n- **mornye**: Soften glass rims and increase transparency\n- **mornye**: Respect glass clarity and accessibility limits\n- **library**: Spread filters across the search field width\n- **library**: Offer re-enrichment for downloaded selections\n- **lyrics**: Lift timed words together\n- **storage**: Retain document access for library metadata and covers\n- **startup**: Keep shared backend alive across activity recreation\n- **download**: Verify ReplayGain tags independently of metadata embedding\n- **metadata**: Preserve the selected recording during download enrichment\n- **library**: Preserve partial scans and ignore stale completion events\n- **library**: Open track metadata from search results\n\n### Performance\n\n- **mornye**: Share chrome backdrops and scale blur to clarity\n- **store**: Skip invisible backdrop blur on repo cards\n- **library**: Trim scan ingestion writes\n- **library**: Stat each walked entry once\n- **library**: Overlap SAF listings and metadata reads\n- **mornye**: Adapt glass and player effects to device capabilities\n- **player**: Suspend covered pages and streamline transitions\n- **download**: Av",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-02T13:01:39Z"
       },
       {
@@ -2234,13 +2274,23 @@
     ],
     "telegram-mxgram": [
       {
+        "version": "13.0",
+        "date": "2026-10-09",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
+        "size": 84011090,
+        "sha256": "",
+        "localizedDescription": "Telegram 13.0 | Telegram-13.0-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.0",
+        "status": "current",
+        "firstSeen": "2026-10-09T13:38:00Z"
+      },
+      {
         "version": "12.9.4",
         "date": "2026-09-12",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-12.9.4-iQTele.ipa",
         "size": 76892313,
         "sha256": "",
         "localizedDescription": "Telegram 12.9.4 | Telegram-12.9.4-iQTele\n\nIPA Vault build for Telegram (iQTele), version 12.9.4",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-14T04:21:48Z"
       },
       {
@@ -2356,13 +2406,23 @@
     ],
     "ttkillerplus": [
       {
+        "version": "47.1.0",
+        "date": "2026-10-08",
+        "downloadURL": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
+        "size": 476223966,
+        "sha256": "",
+        "localizedDescription": "TikTok 47.1.0 | TikTok_47.1_TTKillerPlus_2.3\n\n• Fixes injection for jailbreaks may not be injected due to bundle iD missing\n- Add country flag to the profile page to know the creator origin country\n- Add follow status to new profile style user name\n- Add v46.7+ compatibility.\n- Fix like confirmation bypass on double tap.\n- Fix post date display format.\n- Fix flag button not tappable.\n- Other fixes & improvements.\n- Update base IPA to TikTok v47.1",
+        "status": "current",
+        "firstSeen": "2026-10-09T13:38:00Z"
+      },
+      {
         "version": "47.0.0",
         "date": "2026-09-23",
         "downloadURL": "https://ikghd.site/ipa/TikTok_47.0_TTKillerPlus_2.2.ipa",
         "size": 470033098,
         "sha256": "",
         "localizedDescription": "TikTok 47.0.0 | TikTok_47.0_TTKillerPlus_2.2\n\n• Fixes injection for jailbreaks may not be injected due to bundle iD missing\n- Add country flag to the profile page to know the creator origin country\n- Add follow status to new profile style user name\n- Add v46.7+ compatibility.\n- Fix like confirmation bypass on double tap.\n- Fix post date display format.\n- Fix flag button not tappable.\n- Other fixes & improvements.\n- Update base IPA to TikTok v47.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-24T12:05:34Z"
       },
       {
