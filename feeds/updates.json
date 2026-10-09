@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-09",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "telegram-mxgram",
+      "name": "Telegram MxGram",
+      "version": "13.0",
+      "previousVersion": "12.9.4",
+      "date": "2026-10-09",
+      "kind": "updated",
+      "changelog": "Telegram 13.0 | Telegram-13.0-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Telegram.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/telegram-mxgram.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/telegram-mxgram.xml",
+      "status": "stable",
+      "shortDescription": "Official Telegram with the MxGram tweak"
+    },
+    {
+      "slug": "sameboy",
+      "name": "SameBoy",
+      "version": "1.0.4",
+      "previousVersion": "1.0.3",
+      "date": "2026-10-09",
+      "kind": "updated",
+      "changelog": "SameBoy 1.0.4 | sameboy_ios_v1.0.4\n\nThis version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save states from any BESS compliant emulator\n\n## New/Improved Features\n* The libretro core now supports API extensions to retrieve additional metadata and create more portable battery save files\n* The iOS frontend has been updated with improved iOS 27 support\n* iPhone Duo support was added to the iOS frontend\n* The CRT scaling filter has been updated with an improved look\n* A new Pixelated/Sharp Bilinear scaling filter\n    * This new filter is now the default filter in the Cocoa and SDL frontends\n* VFS support was added to the libretro core\n* Logging support was added to the libretro core\n* The libretro core will now render audio directly in the frontend's audio sample rate, if supported\n* Recording audio to a VGM log file is now possible in the Cocoa and SDL frontends\n* Minor UI improvements in the Cocoa frontend\n\n## Accuracy Improvements/Fixes\n* Workboy emulation now correctly reports the current weekday\n* Fixed a bug that made certain small ROM files be incorrectly detected as MMM01 cartridges\n* More accurate emulation of SGB command processing\n\n## Bug Fixes\n* Fixed a bug where periodic battery saves were performed from the wrong thread in the Cocoa frontend, causing debug builds to crash\n* Fixed controller hotkeys not working on newer macOS versions in the Cocoa frontend\n* Fixed a bug that prevented mapping Load State commands to a controller hotkey in the Cocoa frontend\n* The libretro core no longer reports an RTC memory region when emulating cartridges without an RTC\n* Fixed a bug that could trigger memory corruptions on x86-64 platforms when loading malformed save states\n* Improved sanitization of the Game Boy Printer save state data\n* Fixed an incorrectly label “Rumble strength” label in the Cocoa frontend\n* File dialogs on Windows now switch Full Screen mode off before they appear, working around bugs in Windows' windowing system\n* Fixed a bug that made the Joycon autopair button not work in the Cocoa frontend\n* Fixed a bug that made breakpoints created by the `GB_debugger_execute_command` API would not trigger under some conditions when using SameBoy as a library\n\n## Misc Internal Changes\n* The build system no longer prints ignored errors when building SameBoy without RGBDS installed if prebuilt boot ROMs are used\n* `ibtool` no longer silently fails when building the Cocoa or iOS frontends\n* The logging API now has attribute flags that mark if a log line is an error or a warning caused by the previous API call",
+      "downloadURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SameBoy.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/sameboy.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/sameboy.xml",
+      "status": "stable",
+      "shortDescription": "High-accuracy Game Boy and Game Boy Color emulator"
+    },
+    {
+      "slug": "nicegram",
+      "name": "Nicegram",
+      "version": "2.6.3",
+      "previousVersion": "2.6.2",
+      "date": "2026-10-09",
+      "kind": "updated",
+      "changelog": "Nicegram 2.6.3 | build 2.6.3\n\nBuild of Nicegram for iOS 2.6.3 (721)",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nicegram.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/nicegram.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/nicegram.xml",
+      "status": "stable",
+      "shortDescription": "Independent Telegram client: multi-account, AI, privacy"
+    },
     {
       "slug": "ttkillerplus",
       "name": "TTKillerPlus",
@@ -1457,51 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/ryukgram.xml",
       "status": "stable",
       "shortDescription": "Instagram tweak for power users by faroukbmiled"
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "version": "0.4.26",
-      "previousVersion": "0.4.25",
-      "date": "2026-09-21",
-      "kind": "updated",
-      "changelog": "Nuvio 0.4.26 | nuvio-0.4.26-full-release\n\n- 458f810b fix(streams): share addon filtering across pickers @tapframe  \n- [i18n(nb): complete missing Norwegian Bokmål strings (#2005)](https://github.com/NuvioMedia/NuvioMobile/pull/2005) @SimSalabimse",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.26-beta/nuvio-0.4.26-full-release.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
-      "status": "stable",
-      "shortDescription": "Open-source media player, bring your own sources"
-    },
-    {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "version": "8.79.0",
-      "previousVersion": "8.78.0",
-      "date": "2026-09-21",
-      "kind": "updated",
-      "changelog": "SoundCloud 8.79.0 | SoundCloud-8.79.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.79.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.79.0-NexaSC.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SoundCloud.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nexasc.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nexasc.xml",
-      "status": "beta",
-      "shortDescription": "SoundCloud Go+ unlock and ad removal (unofficial build)"
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "version": "21.37.5",
-      "previousVersion": "21.36.6",
-      "date": "2026-09-20",
-      "kind": "updated",
-      "changelog": "YouTube 21.37.5 | YTKACE 1.0.0 | YTKACE_1.0.0_YouTube_21.37.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.37.5\n• Queue videos without Premium — play next, play last, reorder, shuffle, loop and clear\n• Playlist downloads — grab every video or pick the ones you want\n• YouTube's Download button can now open the YTKACE menu\n• Choose where the download button lives: player overlay, YouTube's button, or both\n• Save downloads to the share sheet, with separate video and audio destinations\n• Hide the products shelf\n• iOS 15 support for the tweak packages\n\nFixed:\n• 2K and 4K missing from the download quality list\n• Shorts Save button not removed unless YouTube was in English\n• Community posts breaking with Block Premium Prompts on\n• Action bar disappearing while scrolling the feed\n• Settings unreachable if both the YTKACE and Library tabs were removed\n• YTKACE settings opening another tweak's settings when both were installed\n\nYouTube 21.37.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.0.0_YouTube_21.37.5.ipa` for iOS 17 and newer\n• `YTKACE_1.0.0_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.0.0/YTKACE_1.0.0_YouTube_21.37.5.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/ytkace.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/ytkace.xml",
-      "status": "stable",
-      "shortDescription": "YTKACE"
     }
   ]
 }

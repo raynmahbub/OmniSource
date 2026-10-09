@@ -6,10 +6,10 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 57,
+  "count": 56,
   "summary": {
     "warning": 9,
-    "stale": 11,
+    "stale": 10,
     "archived": 36,
     "critical": 1
   },
@@ -553,18 +553,6 @@
       "supersededReleases": 0,
       "reasons": [
         "no update for 341 days (threshold 180)"
-      ]
-    },
-    {
-      "slug": "sameboy",
-      "name": "SameBoy",
-      "lastUpdate": "2026-03-04",
-      "daysSinceUpdate": 219,
-      "classification": "stale",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 219 days (threshold 180)"
       ]
     },
     {
@@ -1279,8 +1267,8 @@
     {
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
-      "lastUpdate": "2026-09-12",
-      "daysSinceUpdate": 27,
+      "lastUpdate": "2026-10-09",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1491,14 +1479,12 @@
     {
       "slug": "sameboy",
       "name": "SameBoy",
-      "lastUpdate": "2026-03-04",
-      "daysSinceUpdate": 219,
-      "classification": "stale",
+      "lastUpdate": "2026-10-09",
+      "daysSinceUpdate": 0,
+      "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": [
-        "no update for 219 days (threshold 180)"
-      ]
+      "reasons": []
     },
     {
       "slug": "gopeed",
@@ -2083,8 +2069,8 @@
     {
       "slug": "nicegram",
       "name": "Nicegram",
-      "lastUpdate": "2026-10-05",
-      "daysSinceUpdate": 4,
+      "lastUpdate": "2026-10-09",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
