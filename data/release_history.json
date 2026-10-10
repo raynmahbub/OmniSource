@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T13:38:00Z",
+  "generatedAt": "2026-10-10T12:55:26Z",
   "appCount": 131,
-  "releases": 284,
+  "releases": 288,
   "apps": {
     "3105": [
       {
@@ -100,13 +100,23 @@
     ],
     "apollo": [
       {
+        "version": "3.9.0",
+        "date": "2026-10-09",
+        "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa",
+        "size": 97026669,
+        "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
+        "localizedDescription": "Apollo 3.9.0 | Apollo-Reborn-3.9.0\n\n### Features\n\n- Add an **in-app update prompt**: from the next release on, Apollo Reborn checks for updates once a day and, when one is out, lets you send it to AltStore, SideStore, Feather, or FlareStore or download the IPA, with the release notes a tap away (#1343: @IllIIllIllIllII)\n  - Tap **Later** or **Skip this version** to put it off, check any time with **Check for Updates** (About), or turn off **Automatic Update Checks** (Privacy, on by default); jailbreak installs don't check\n  - What's New now shows the app icon you picked instead of the default one\n- Open the **subreddit switcher** as a native sheet when you tap a feed's title, with search, your favorites, and live results, instead of the small floating dropdown; typing a multireddit like apple+iphone still works (#1313, #1387: @IllIIllIllIllII)\n  - Press and hold the **Posts** tab to open it while a feed is open, now on Liquid Glass too, and the search field stays in place as you scroll the sheet\n- Add a **Liquid Glass** switch (Interface → Appearance, on by default) so Liquid Glass builds can use Apollo's classic look without installing a different IPA; quit and reopen Apollo for the change to apply (#1384: @IllIIllIllIllII)\n  - Shown on Liquid Glass builds on iOS 26 and later, except inside LiveContainer; while it's off, Liquid Glass-only options are hidden\n- Add a **Minimize** Hide Style for **Hide Bars on Scroll** (Interface → Tab Bar, Liquid Glass) that shrinks the tab bar into a small glass pill showing the current tab as you scroll, like Safari; tap the pill or scroll back up to bring the full bar back (#1349, #1384: @IllIIllIllIllII)\n  - With any Hide Style on Liquid Glass, a tab bar or header hidden by scrolling now slides back in when you open a page or go back or forward, and the tab bar no longer comes back on its own after 30 seconds\n- Add **Reduce Rate Limiting** (Accounts & API Keys → Experimental, off by default) so **API-Key-Free** accounts hit Reddi",
+        "status": "current",
+        "firstSeen": "2026-10-10T12:55:26Z"
+      },
+      {
         "version": "3.8.5",
         "date": "2026-09-29",
         "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.8.5/Apollo-Reborn-3.8.5.ipa",
         "size": 96696713,
         "sha256": "e90d101cb782c3b18ce28aab6833a51ae1bf1c19d9aabc274f98daed3d2f0783",
         "localizedDescription": "Apollo 3.8.5 | Apollo-Reborn-3.8.5\n\n### Features\n\n- Add **Google Search** to the Search tab: tap the magnifier and pick Google to find Reddit threads through Google, with its snippets, Any Time and Exact Words filters, and results that open natively in Apollo (#1260: @icpryde)\n- Open the fullscreen image viewer's **Copy / Save / Share** menu where you press and hold, instead of the middle of the screen (#1254: @IllIIllIllIllII)\n- Add **Toon Bot** and **Happy Toon Bot** to the Concepts icon pack (#1253: @IllIIllIllIllII)\n\n### Performance\n\n- Make Apollo lighter on memory and quicker to launch: image caches now have size limits and are freed when iOS runs low on memory, the Deleted Comments and sidebar text hooks stay idle when they aren't needed, editing a comment no longer holds up other loads for up to 20 seconds, and launch does less work (#1169: @paradoxally, @icpryde)\n  - Also stops the comments title flashing on non-Liquid-Glass builds, and makes **Remember Post Sort** open posts from links, the inbox, or Floating Post Tabs in your saved sort straight away instead of reloading them\n- Stop the **AI comment summary** from re-running over and over while you scroll a thread (#1270: @Thetromboneman1)\n- Stop filtered posts leaving stacks of gray gaps in feeds, correcting just the affected rows instead of redrawing the whole feed (#1274: @Thetromboneman1)\n\n### Fixes\n\n- Fix a feed **crash** when several RedGIFs posts load at once, most often right after launching or switching accounts (#1251: @icpryde)\n- Fix a crash tapping \"Translated from…\" on a recovered **deleted comment** (#1222: @icpryde)\n- Fix **RedGIFs** posts showing \"RedGIFs error\" on every post after switching Wi-Fi, cellular, or VPN, and on older RedGIFs videos with no listed length (#1256, #1258: @icpryde)\n- Fix **API-Key-Free** feeds getting stuck on a spinner: avatar lookups no longer use up Reddit's request limit for your session (#1220: @icpryde)\n- Keep avatar and subreddit lookups on the active account",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-29T13:13:58Z"
       },
       {
@@ -621,12 +631,22 @@
     "ime": [
       {
         "version": "12.8.1",
+        "date": "2026-09-05",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa",
+        "size": 139224713,
+        "sha256": "",
+        "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-iQTele\n\nIPA Vault build for iMe (iQTele), version 12.8.1",
+        "status": "current",
+        "firstSeen": "2026-10-10T12:55:26Z"
+      },
+      {
+        "version": "12.8.1",
         "date": "2026-09-01",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
         "size": 148174542,
         "sha256": "",
         "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nIPA Vault build for iMe (MxGram), version 12.8.1",
-        "status": "current",
+        "status": "removed",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -706,13 +726,23 @@
     ],
     "iqface": [
       {
+        "version": "582.0.0",
+        "date": "2026-10-09",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-582.0.0-iQFace.ipa",
+        "size": 234797502,
+        "sha256": "",
+        "localizedDescription": "Facebook 582.0.0 | Facebook-582.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 582.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-10T12:55:26Z"
+      },
+      {
         "version": "581.0.0",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-581.0.0-iQFace.ipa",
         "size": 232086340,
         "sha256": "",
         "localizedDescription": "Facebook 581.0.0 | Facebook-581.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 581.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -2240,13 +2270,23 @@
     ],
     "tablehabit": [
       {
+        "version": "1.27.13",
+        "date": "2026-10-10",
+        "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa",
+        "size": 15116961,
+        "sha256": "426fed496f74959371c9b723ba3258add6f3029b69dbaa4689e4314680ab52de",
+        "localizedDescription": "Table Habit 1.27.13 | mhabit-unsigned\n\n# Released: v1.27.13+202\n\n> Includes updates since the previous stable release, v1.27.9+198.\n\n## ✨ Features\n\n- Add adaptive, collapsible side navigation with an edge style on newer Apple\n  systems (#667)\n  - Preserve navigation state, search, selection, and page actions across\n    layout changes\n- Apply app theme colors and custom palettes to the side navigation (#668)\n- Let users show or hide navigation destinations in the top toolbar when the\n  Apple sidebar is collapsed (#671)\n- Adapt navigation and content safe areas for iPhone Duo and compact-height\n  layouts (#674)\n- Scroll Habits and Today to the top when reselecting the active root tab\n  (#675)\n  - Return nested pages to the tab's root before scrolling on a subsequent tap\n  - Respect reduced motion preferences and pages that prevent back navigation\n\n## 🐛 Fixes\n\n- Improve adaptive interaction styling, keyboard focus, and action-menu\n  behavior (#669)\n- Keep search filters available across layout changes (#669)\n- Align theme labels and Markdown typography (#669)\n- Refresh habit and group views as soon as synced changes are applied, while\n  preserving sync progress and in-progress edits (#672)\n- Keep neutral action colors consistent across app bars, dialogs, search,\n  sidebars, and group actions, and restore modal blur after nested navigation\n  (#673)\n- Keep system status and navigation bars visible while the app launches\n\n## 🌐 Localization\n\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.\n\n## 🧹 Others\n\n- Pin Apple build and submission workflows to Xcode 27.0 (#674)\n- Raise the minimum supported macOS version to 12.0 (#674)\n- Centralize generated-code formatting in the Melos workflow (#674)\n\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)",
+        "status": "current",
+        "firstSeen": "2026-10-10T12:55:26Z"
+      },
+      {
         "version": "1.27.9",
         "date": "2026-09-20",
         "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.9%2B198/mhabit-unsigned.ipa",
         "size": 15044222,
         "sha256": "85e8c4067880f6697dd01e8de480c252512dbc49ea2f4463d1a9f4815d98b123",
         "localizedDescription": "Table Habit 1.27.9 | mhabit-unsigned\n\n# Release: v1.27.9+198\n\n> Includes updates since the previous stable release, v1.27.6+195.\n\n## ✨ Features\n\n- Cycle check-ins from unknown to done, skipped, and back to unknown (#657)\n  - Delete a single check-in or several at once with confirmation\n  - Sync deletions across devices and keep record identity for later check-ins\n- Improve dialogs and page layouts across window sizes (#661)\n  - Adapt sheets and dialogs when resizing while preserving the open form\n    and navigation state\n  - Migrate group management, sync editing, changelog, donation, and about\n    dialogs to shared adaptive presentation\n  - Keep nested navigation and close confirmation within the active dialog\n  - Align scrolling page headers, safe areas, and window-control avoidance\n- Improve habit detail actions and refresh retained details when returning\n  to them (#662)\n- Improve Settings, grouped lists, and dialogs across window sizes (#663)\n  - Add date format, reminder, export, import progress, and group editing flows\n  - Keep import results and group actions tied to the selected items\n- Preserve unknown WebDAV fields when syncing groups and records, improving\n  compatibility with newer app versions (#665)\n\n## 🐛 Fixes\n\n- Restore batch check-in actions for selected habits in Apple layouts (#661)\n- Preserve Settings scroll position when rebuilding the page (#661)\n- Prevent a delayed group save from closing the group selector after the\n  user has already returned from the creation form (#661)\n- Improve loading error recovery (#662)\n- Bound import concurrency and expose failures for individual items (#663)\n\n## 🌐 Localization\n\n- Update Italian translation, thanks to Simone De Carli's contribution on\n  Weblate (#664)\n\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.6+195...v1.27.9+198)",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-21T13:12:18Z"
       },
       {
