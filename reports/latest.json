@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 116,
-    "updated": 2,
+    "incrementalHits": 118,
+    "updated": 0,
     "failed": 4,
     "apiRequests": 117
   },
@@ -22,22 +22,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "iqface",
-      "name": "iQFace",
-      "previousVersion": "581.0.0",
-      "version": "582.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "ime",
-      "name": "iMe MxGram",
-      "previousVersion": "12.8.1",
-      "version": "12.8.1",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
