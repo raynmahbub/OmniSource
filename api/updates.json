@@ -19,6 +19,21 @@
       "shortDescription": "Open-source micro-habit tracker with WebDAV sync"
     },
     {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "version": "0.5.9",
+      "previousVersion": "0.5.8",
+      "date": "2026-10-10",
+      "kind": "updated",
+      "changelog": "Nuvio 0.5.9 | nuvio-0.5.9-full-release\n\n- 1bb2b10e feat(servers): sync libraries that mix movies and shows @tapframe  \n- 6f98691d fix(servers): mark playback info requests as playback @tapframe  \n- e05178c8 feat(servers): show libraries that mix movies and shows @tapframe  \n- de69f9a9 fix(servers): open libraries that need a genre on their first one @tapframe  \n- c2ed4c5e fix(servers): skip versions that cannot play @tapframe  \n- 5a24beb0 fix(servers): search each server once per type @tapframe  \n- [i18n(vi): update strings.xml and add strings_mdblist.xml + strings_servers.xml (#2216)](https://github.com/NuvioMedia/NuvioMobile/pull/2216) @blueocean2308  \n- [Fix TorBox Cloud loading for large libraries (#2215)](https://github.com/NuvioMedia/NuvioMobile/pull/2215) @Laskco  \n- [Defer custom poster URL resolution to UI layer (#2207)](https://github.com/NuvioMedia/NuvioMobile/pull/2207) @skoruppa  \n- [fix(i18n): comprehensive update to Bengali localization (missing strings & UI fit) (#2204)](https://github.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
+      "status": "stable",
+      "shortDescription": "Open-source media player, bring your own sources"
+    },
+    {
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
       "version": "13.0",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/turrit-mxgram.xml",
       "status": "stable",
       "shortDescription": "MxGram-tweaked Turrit client (unofficial build)"
-    },
-    {
-      "slug": "threadsaver",
-      "name": "ThreadSaver",
-      "version": "448.0",
-      "previousVersion": "447.0",
-      "date": "2026-09-21",
-      "kind": "updated",
-      "changelog": "Threads 448.0 | Threads-448.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 448.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-448.0-ThreadSaver.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Threads.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/threadsaver.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/threadsaver.xml",
-      "status": "stable",
-      "shortDescription": "Threads enhancement tweak (unofficial build)"
     }
   ]
 }
