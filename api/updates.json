@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-10",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "version": "1.27.13",
+      "previousVersion": "1.27.9",
+      "date": "2026-10-10",
+      "kind": "updated",
+      "changelog": "Table Habit 1.27.13 | mhabit-unsigned\n\n# Released: v1.27.13+202\n\n> Includes updates since the previous stable release, v1.27.9+198.\n\n## ✨ Features\n\n- Add adaptive, collapsible side navigation with an edge style on newer Apple\n  systems (#667)\n  - Preserve navigation state, search, selection, and page actions across\n    layout changes\n- Apply app theme colors and custom palettes to the side navigation (#668)\n- Let users show or hide navigation destinations in the top toolbar when the\n  Apple sidebar is collapsed (#671)\n- Adapt navigation and content safe areas for iPhone Duo and compact-height\n  layouts (#674)\n- Scroll Habits and Today to the top when reselecting the active root tab\n  (#675)\n  - Return nested pages to the tab's root before scrolling on a subsequent tap\n  - Respect reduced motion preferences and pages that prevent back navigation\n\n## 🐛 Fixes\n\n- Improve adaptive interaction styling, keyboard focus, and action-menu\n  behavior (#669)\n- Keep search filters available across layout changes (#669)\n- Align theme labels and Markdown typography (#669)\n- Refresh habit and group views as soon as synced changes are applied, while\n  preserving sync progress and in-progress edits (#672)\n- Keep neutral action colors consistent across app bars, dialogs, search,\n  sidebars, and group actions, and restore modal blur after nested navigation\n  (#673)\n- Keep system status and navigation bars visible while the app launches\n\n## 🌐 Localization\n\n- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.\n\n## 🧹 Others\n\n- Pin Apple build and submission workflows to Xcode 27.0 (#674)\n- Raise the minimum supported macOS version to 12.0 (#674)\n- Centralize generated-code formatting in the Melos workflow (#674)\n\n[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)",
+      "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/TableHabit.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/tablehabit.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/tablehabit.xml",
+      "status": "stable",
+      "shortDescription": "Open-source micro-habit tracker with WebDAV sync"
+    },
     {
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
@@ -47,6 +62,21 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/nicegram.xml",
       "status": "stable",
       "shortDescription": "Independent Telegram client: multi-account, AI, privacy"
+    },
+    {
+      "slug": "apollo",
+      "name": "Apollo",
+      "version": "3.9.0",
+      "previousVersion": "3.8.5",
+      "date": "2026-10-09",
+      "kind": "updated",
+      "changelog": "Apollo 3.9.0 | Apollo-Reborn-3.9.0\n\n### Features\n\n- Add an **in-app update prompt**: from the next release on, Apollo Reborn checks for updates once a day and, when one is out, lets you send it to AltStore, SideStore, Feather, or FlareStore or download the IPA, with the release notes a tap away (#1343: @IllIIllIllIllII)\n  - Tap **Later** or **Skip this version** to put it off, check any time with **Check for Updates** (About), or turn off **Automatic Update Checks** (Privacy, on by default); jailbreak installs don't check\n  - What's New now shows the app icon you picked instead of the default one\n- Open the **subreddit switcher** as a native sheet when you tap a feed's title, with search, your favorites, and live results, instead of the small floating dropdown; typing a multireddit like apple+iphone still works (#1313, #1387: @IllIIllIllIllII)\n  - Press and hold the **Posts** tab to open it while a feed is open, now on Liquid Glass too, and the search field stays in place as you scroll the sheet\n- Add a **Liquid Glass** switch (Interface → Appearance, on by default) so Liquid Glass builds can use Apollo's classic look without installing a different IPA; quit and reopen Apollo for the change to apply (#1384: @IllIIllIllIllII)\n  - Shown on Liquid Glass builds on iOS 26 and later, except inside LiveContainer; while it's off, Liquid Glass-only options are hidden\n- Add a **Minimize** Hide Style for **Hide Bars on Scroll** (Interface → Tab Bar, Liquid Glass) that shrinks the tab bar into a small glass pill showing the current tab as you scroll, like Safari; tap the pill or scroll back up to bring the full bar back (#1349, #1384: @IllIIllIllIllII)\n  - With any Hide Style on Liquid Glass, a tab bar or header hidden by scrolling now slides back in when you open a page or go back or forward, and the tab bar no longer comes back on its own after 30 seconds\n- Add **Reduce Rate Limiting** (Accounts & API Keys → Experimental, off by default) so **API-Key-Free** accounts hit Reddit's request limit less often: profile pictures load in batches without their collectible frames, Community Highlights refresh every 30 minutes instead of every 2, and your sign-in is checked less often (#1369: @icpryde)\n  - Apollo offers it once: when you sign in without an API key, or, if you're already signed in, the first time you hit the limit\n  - Even with it off, API-Key-Free accounts skip repeated account requests at launch and when you come back to the app, Community Highlights wait out a rate limit, and your own profile no longer shows \"has been banned\" during one\n- Add **Kagi** to the Search tab's **Search With** menu for Kagi subscribers: paste your Kagi Session Link once, then search Reddit through Kagi with the same result cards, Read More, and filters as Google, plus each post's score, comments, and age right away (#1305: @nickclyde)\n  - Each page of results counts as one search on your Kagi plan; change or remove the link under Accounts & API Keys → Kagi Search\n- Add **Open via Nitter** (Open in App → X / Twitter, off by default) to open X and Twitter links on a Nitter instance you pick from a live list or enter yourself, so you can read posts and profiles without an X account (#1334: @nickclyde)\n  - Shared and copied links stay on x.com\n- Open **Edit Profile** (your profile's ••• menu) inside Apollo on iOS 16 and later, signed in as the current account and styled with your theme, instead of in Safari, which often wasn't signed in (#1367: @icpryde)\n  - API-key accounts without a **Reddit Web Sign-In** are asked to sign in once first\n- Add **True Black Keyboard** (Interface → Display & Navigation, off by default) to make the keyboard's background pure black for OLED screens, in dark mode, light mode, or always (#1316: @IllIIllIllIllII)\n- Add **Settings Icon Theme** (Settings → Appearance → Other, Light by default) to show settings icons as colored symbols on dark tiles, like iOS Settings in dark mode, either always (Dark) or only in dark mode (System) (#1377: @IllIIllIllIllII)\n  - Pixel Pals now gets a rounded-square icon with your current pet, and the main Settings list drops its duplicate Apollo Ultra row (it's still under About)\n- Add a **User Profiles** settings page that brings Profile Layout, **Show User Profile Pictures**, and **Profile Picture Shape** together, with a live sample comment showing how profile pictures look (#1352: @IllIIllIllIllII)\n  - Show User Profile Pictures and Profile Picture Shape move here from Interface → Display & Navigation\n- Reorganize **Subreddits** settings into Subreddit List, Subreddit Appearance, and Search Tab Sources, and redesign **Subreddit List Sections** (formerly Subreddit Sections) with a preview that looks like your real subreddit list (#1350, #1351: @IllIIllIllIllII)\n  - **Show Subreddit Icons** moves here from Apollo's Appearance settings, and Section Order rows now drag by their handle\n  - Also fixes subreddit list rows keeping the previous light or dark mode's colors with **Subreddit List Enhancements** off\n- Rework **Customize Action Menus** (Interface → Menus, formerly Action Menus) with clearer descriptions, a summary only on menus you've changed, **All Menus** showing where each action is hidden, and a **Reset Menu…** that can reset just the order (#1282, #1323, #1368: @AcornElf, @icpryde)\n  - Touch-and-hold menus on posts and comments now follow your layout too, so hidden actions stay hidden and the order matches the ••• menu\n  - Brings back **Remind Me In…** in the ••• menus on posts and comments on Liquid Glass, and lets you hide or move it\n- Add a **Comment Link** option to **Share as Image**: Include Link becomes a **Link** menu with No Link, Post Link, or Comment Link when you share a comment, and comment GIFs shared as video carry the chosen link too (#1278: @Thetromboneman1)\n  - If Include Link was on, it carries over as Post Link\n- Add tile size buttons to **Gallery View** (the − and + magnifying glasses at the top) to switch between four tile sizes, from a denser grid to a single column; your choice is remembered (#1357: @jordanearle)\n- Write **Apollo AI** summaries in your language even when the post, article, or comments are in another one, with a new **Language** setting (Apollo AI → Summaries, Device Default by default) (#1362: @icpryde)\n  - Summaries saved before this update are written again the next time you open their thread\n- Add **Custom Headers** to Apollo AI's Custom provider, for services that need extra request headers, such as the `x-opencode-session` header OpenCode Go now asks for (#1286: @icpryde)\n- Start a **crosspost**'s title as the original post's title, like reddit.com does, with an (x) to clear it; long titles now wrap onto up to five lines instead of being cut off (#1290: @icpryde)\n- Show the newest commenter's **profile picture** next to their name in the follow-thread **Live Activity** when **Show User Profile Pictures** is on (#1296: @icpryde)\n  - Needs a self-hosted Notification Backend with avatar support\n- Add **Witching Hour** and **Count Helios**, two Halloween icons, to the Helios icon pack (#1378: @IllIIllIllIllII)\n\n### Performance\n\n- Use less memory for very large images in **Gallery View**, Image Chest albums, and Chat, which now load at the size they're shown instead of at full resolution (#1320: @ryannair05)\n\n### Fixes\n\n- Fix crashes when adding or removing a **favorite** on the Subreddits list, while writing a **Media** post (for example after changing its flair), and when swiping between pages of the fullscreen **media viewer** (#1336: @icpryde)\n- Fix Apollo crashing when you switch accounts with the **Inbox** open, and a rare crash when the Inbox is closed right after it opens (#1284, #1379: @icpryde)\n- Fix very long **text posts** showing a blank body at the largest text sizes, or after Apollo had been open a while (#1381: @icpryde)\n- Fix **Continue with Google** doing nothing and **Continue with Apple** showing an error on Reddit's sign-in page; both now open Google's or Apple's sign-in in a sheet, …",
+      "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Apollo.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/apollo.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/apollo.xml",
+      "status": "stable",
+      "shortDescription": "The beloved Reddit client, continued by Apollo-Reborn"
     },
     {
       "slug": "ttkillerplus",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/swiftgram.xml",
       "status": "stable",
       "shortDescription": "Supercharged open-source Telegram fork"
-    },
-    {
-      "slug": "sparkle",
-      "name": "Sparkle",
-      "version": "448.0.0",
-      "previousVersion": "447.0.0",
-      "date": "2026-09-21",
-      "kind": "updated",
-      "changelog": "Instagram 448.0.0 | Instagram-448.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 448.0.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-Sparkle.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/sparkle.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/sparkle.xml",
-      "status": "stable",
-      "shortDescription": "Bring the spark back to Instagram"
-    },
-    {
-      "slug": "ryukgram",
-      "name": "RyukGram",
-      "version": "448.0.0",
-      "previousVersion": "447.0.0",
-      "date": "2026-09-21",
-      "kind": "updated",
-      "changelog": "Instagram 448.0.0 | Instagram-448.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 448.0.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-448.0.0-RyukGram.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/ryukgram.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/ryukgram.xml",
-      "status": "stable",
-      "shortDescription": "Instagram tweak for power users by faroukbmiled"
     }
   ]
 }

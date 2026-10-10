@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09",
-  "feedVersion": "e674f0dbcabf",
+  "generatedAt": "2026-10-10",
+  "feedVersion": "8d5688897042",
   "apps": {
     "total": 131,
     "reachable": 125,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 118,
-    "updated": 0,
+    "incrementalHits": 117,
+    "updated": 2,
     "failed": 4,
     "apiRequests": 118
   },
@@ -22,7 +22,22 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "apollo",
+      "name": "Apollo",
+      "previousVersion": "3.8.5",
+      "version": "3.9.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "previousVersion": "1.27.9",
+      "version": "1.27.13",
+      "kind": "updated"
+    }
+  ],
   "errors": [
     "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",

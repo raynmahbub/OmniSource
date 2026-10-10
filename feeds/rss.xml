@@ -5,8 +5,61 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Table Habit v1.27.13</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json</link>
+      <guid isPermaLink="false">tablehabit-1.27.13</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Table Habit 1.27.13 | mhabit-unsigned
+
+# Released: v1.27.13+202
+
+> Includes updates since the previous stable release, v1.27.9+198.
+
+## ✨ Features
+
+- Add adaptive, collapsible side navigation with an edge style on newer Apple
+  systems (#667)
+  - Preserve navigation state, search, selection, and page actions across
+    layout changes
+- Apply app theme colors and custom palettes to the side navigation (#668)
+- Let users show or hide navigation destinations in the top toolbar when the
+  Apple sidebar is collapsed (#671)
+- Adapt navigation and content safe areas for iPhone Duo and compact-height
+  layouts (#674)
+- Scroll Habits and Today to the top when reselecting the active root tab
+  (#675)
+  - Return nested pages to the tab's root before scrolling on a subsequent tap
+  - Respect reduced motion preferences and pages that prevent back navigation
+
+## 🐛 Fixes
+
+- Improve adaptive interaction styling, keyboard focus, and action-menu
+  behavior (#669)
+- Keep search filters available across layout changes (#669)
+- Align theme labels and Markdown typography (#669)
+- Refresh habit and group views as soon as synced changes are applied, while
+  preserving sync progress and in-progress edits (#672)
+- Keep neutral action colors consistent across app bars, dialogs, search,
+  sidebars, and group actions, and restore modal blur after nested navigation
+  (#673)
+- Keep system status and navigation bars visible while the app launches
+
+## 🌐 Localization
+
+- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.
+
+## 🧹 Others
+
+- Pin Apple build and submission workflows to Xcode 27.0 (#674)
+- Raise the minimum supported macOS version to 12.0 (#674)
+- Centralize generated-code formatting in the Melos workflow (#674)
+
+[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)]]></description>
+      <enclosure url="https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Telegram MxGram v13.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json</link>
@@ -71,6 +124,67 @@ This version is backwards compatible with save states from SameBoy 0.14.3 and ne
 
 Build of Nicegram for iOS 2.6.3 (721)]]></description>
       <enclosure url="https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Apollo v3.9.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/apollo.json</link>
+      <guid isPermaLink="false">apollo-3.9.0</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Apollo 3.9.0 | Apollo-Reborn-3.9.0
+
+### Features
+
+- Add an **in-app update prompt**: from the next release on, Apollo Reborn checks for updates once a day and, when one is out, lets you send it to AltStore, SideStore, Feather, or FlareStore or download the IPA, with the release notes a tap away (#1343: @IllIIllIllIllII)
+  - Tap **Later** or **Skip this version** to put it off, check any time with **Check for Updates** (About), or turn off **Automatic Update Checks** (Privacy, on by default); jailbreak installs don't check
+  - What's New now shows the app icon you picked instead of the default one
+- Open the **subreddit switcher** as a native sheet when you tap a feed's title, with search, your favorites, and live results, instead of the small floating dropdown; typing a multireddit like apple+iphone still works (#1313, #1387: @IllIIllIllIllII)
+  - Press and hold the **Posts** tab to open it while a feed is open, now on Liquid Glass too, and the search field stays in place as you scroll the sheet
+- Add a **Liquid Glass** switch (Interface → Appearance, on by default) so Liquid Glass builds can use Apollo's classic look without installing a different IPA; quit and reopen Apollo for the change to apply (#1384: @IllIIllIllIllII)
+  - Shown on Liquid Glass builds on iOS 26 and later, except inside LiveContainer; while it's off, Liquid Glass-only options are hidden
+- Add a **Minimize** Hide Style for **Hide Bars on Scroll** (Interface → Tab Bar, Liquid Glass) that shrinks the tab bar into a small glass pill showing the current tab as you scroll, like Safari; tap the pill or scroll back up to bring the full bar back (#1349, #1384: @IllIIllIllIllII)
+  - With any Hide Style on Liquid Glass, a tab bar or header hidden by scrolling now slides back in when you open a page or go back or forward, and the tab bar no longer comes back on its own after 30 seconds
+- Add **Reduce Rate Limiting** (Accounts & API Keys → Experimental, off by default) so **API-Key-Free** accounts hit Reddit's request limit less often: profile pictures load in batches without their collectible frames, Community Highlights refresh every 30 minutes instead of every 2, and your sign-in is checked less often (#1369: @icpryde)
+  - Apollo offers it once: when you sign in without an API key, or, if you're already signed in, the first time you hit the limit
+  - Even with it off, API-Key-Free accounts skip repeated account requests at launch and when you come back to the app, Community Highlights wait out a rate limit, and your own profile no longer shows "has been banned" during one
+- Add **Kagi** to the Search tab's **Search With** menu for Kagi subscribers: paste your Kagi Session Link once, then search Reddit through Kagi with the same result cards, Read More, and filters as Google, plus each post's score, comments, and age right away (#1305: @nickclyde)
+  - Each page of results counts as one search on your Kagi plan; change or remove the link under Accounts & API Keys → Kagi Search
+- Add **Open via Nitter** (Open in App → X / Twitter, off by default) to open X and Twitter links on a Nitter instance you pick from a live list or enter yourself, so you can read posts and profiles without an X account (#1334: @nickclyde)
+  - Shared and copied links stay on x.com
+- Open **Edit Profile** (your profile's ••• menu) inside Apollo on iOS 16 and later, signed in as the current account and styled with your theme, instead of in Safari, which often wasn't signed in (#1367: @icpryde)
+  - API-key accounts without a **Reddit Web Sign-In** are asked to sign in once first
+- Add **True Black Keyboard** (Interface → Display & Navigation, off by default) to make the keyboard's background pure black for OLED screens, in dark mode, light mode, or always (#1316: @IllIIllIllIllII)
+- Add **Settings Icon Theme** (Settings → Appearance → Other, Light by default) to show settings icons as colored symbols on dark tiles, like iOS Settings in dark mode, either always (Dark) or only in dark mode (System) (#1377: @IllIIllIllIllII)
+  - Pixel Pals now gets a rounded-square icon with your current pet, and the main Settings list drops its duplicate Apollo Ultra row (it's still under About)
+- Add a **User Profiles** settings page that brings Profile Layout, **Show User Profile Pictures**, and **Profile Picture Shape** together, with a live sample comment showing how profile pictures look (#1352: @IllIIllIllIllII)
+  - Show User Profile Pictures and Profile Picture Shape move here from Interface → Display & Navigation
+- Reorganize **Subreddits** settings into Subreddit List, Subreddit Appearance, and Search Tab Sources, and redesign **Subreddit List Sections** (formerly Subreddit Sections) with a preview that looks like your real subreddit list (#1350, #1351: @IllIIllIllIllII)
+  - **Show Subreddit Icons** moves here from Apollo's Appearance settings, and Section Order rows now drag by their handle
+  - Also fixes subreddit list rows keeping the previous light or dark mode's colors with **Subreddit List Enhancements** off
+- Rework **Customize Action Menus** (Interface → Menus, formerly Action Menus) with clearer descriptions, a summary only on menus you've changed, **All Menus** showing where each action is hidden, and a **Reset Menu…** that can reset just the order (#1282, #1323, #1368: @AcornElf, @icpryde)
+  - Touch-and-hold menus on posts and comments now follow your layout too, so hidden actions stay hidden and the order matches the ••• menu
+  - Brings back **Remind Me In…** in the ••• menus on posts and comments on Liquid Glass, and lets you hide or move it
+- Add a **Comment Link** option to **Share as Image**: Include Link becomes a **Link** menu with No Link, Post Link, or Comment Link when you share a comment, and comment GIFs shared as video carry the chosen link too (#1278: @Thetromboneman1)
+  - If Include Link was on, it carries over as Post Link
+- Add tile size buttons to **Gallery View** (the − and + magnifying glasses at the top) to switch between four tile sizes, from a denser grid to a single column; your choice is remembered (#1357: @jordanearle)
+- Write **Apollo AI** summaries in your language even when the post, article, or comments are in another one, with a new **Language** setting (Apollo AI → Summaries, Device Default by default) (#1362: @icpryde)
+  - Summaries saved before this update are written again the next time you open their thread
+- Add **Custom Headers** to Apollo AI's Custom provider, for services that need extra request headers, such as the `x-opencode-session` header OpenCode Go now asks for (#1286: @icpryde)
+- Start a **crosspost**'s title as the original post's title, like reddit.com does, with an (x) to clear it; long titles now wrap onto up to five lines instead of being cut off (#1290: @icpryde)
+- Show the newest commenter's **profile picture** next to their name in the follow-thread **Live Activity** when **Show User Profile Pictures** is on (#1296: @icpryde)
+  - Needs a self-hosted Notification Backend with avatar support
+- Add **Witching Hour** and **Count Helios**, two Halloween icons, to the Helios icon pack (#1378: @IllIIllIllIllII)
+
+### Performance
+
+- Use less memory for very large images in **Gallery View**, Image Chest albums, and Chat, which now load at the size they're shown instead of at full resolution (#1320: @ryannair05)
+
+### Fixes
+
+- Fix crashes when adding or removing a **favorite** on the Subreddits list, while writing a **Media** post (for example after changing its flair), and when swiping between pages of the fullscreen **media viewer** (#1336: @icpryde)
+- Fix Apollo crashing when you switch accounts with the **Inbox** open, and a rare crash when the Inbox is closed right after it opens (#1284, #1379: @icpryde)
+- Fix very long **text posts** showing a blank body at the largest text sizes, or after Apollo had been open a while (#1381: @icpryde)
+- Fix **Continue with Google** doing nothing and **Continue with Apple** showing an error on Reddit's sign-in page; both now open Google's or Apple's sign-in in a sheet, …]]></description>
+      <enclosure url="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>TTKillerPlus v47.1.0</title>
@@ -524,32 +638,6 @@ IPA Vault build for Instagram (RyukGram), version 450.0.0]]></description>
 
 Build of Nicegram for iOS 2.6.2 (718)]]></description>
       <enclosure url="https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>NexaSC v8.81.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
-      <guid isPermaLink="false">nexasc-8.81.0</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[SoundCloud 8.81.0 | SoundCloud-8.81.0-NexaSC
-
-IPA Vault build for SoundCloud (NexaSC), version 8.81.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Jellify v1.2.11</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/jellify.json</link>
-      <guid isPermaLink="false">jellify-1.2.11</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Jellify 1.2.11 | Jellify-1.2.11
-
-Welcome to Jellify 1.2.11
-
-We are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.
-
-*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.
-*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.
-*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.]]></description>
-      <enclosure url="https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
