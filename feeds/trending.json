@@ -16,11 +16,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.1.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.98,
+      "version": "5.1.1",
+      "releaseDate": "2026-10-11",
+      "score": 1.0,
       "signals": {
-        "recency": 0.95,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -98,6 +98,40 @@
       "downloadReachable": true
     },
     {
+      "slug": "trollfools",
+      "name": "TrollFools",
+      "category": "utilities",
+      "version": "4.4-257",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "reynard",
+      "name": "Reynard",
+      "category": "utilities",
+      "version": "0.17.0",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "tablehabit",
       "name": "Table Habit",
       "category": "utilities",
@@ -136,40 +170,6 @@
       "name": "Apollo",
       "category": "social",
       "version": "3.9.0",
-      "releaseDate": "2026-10-09",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "telegram-mxgram",
-      "name": "Telegram MxGram",
-      "category": "social",
-      "version": "13.0",
-      "releaseDate": "2026-10-09",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "iqface",
-      "name": "iQFace",
-      "category": "social",
-      "version": "582.0.0",
       "releaseDate": "2026-10-09",
       "score": 0.7867,
       "signals": {
@@ -185,6 +185,57 @@
   ],
   "rising": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.1.1",
+      "releaseDate": "2026-10-11",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "trollfools",
+      "name": "TrollFools",
+      "category": "utilities",
+      "version": "4.4-257",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "reynard",
+      "name": "Reynard",
+      "category": "utilities",
+      "version": "0.17.0",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "tablehabit",
       "name": "Table Habit",
       "category": "utilities",
@@ -295,57 +346,6 @@
       "score": 0.7867,
       "signals": {
         "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "version": "5.1.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.98,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "inkillerplus",
-      "name": "iNKillerPlus",
-      "category": "social",
-      "version": "449.0.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ttkillerplus",
-      "name": "TTKillerPlus",
-      "category": "social",
-      "version": "47.1.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -357,6 +357,57 @@
   ],
   "recentlyUpdated": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.1.1",
+      "releaseDate": "2026-10-11",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "trollfools",
+      "name": "TrollFools",
+      "category": "utilities",
+      "version": "4.4-257",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "reynard",
+      "name": "Reynard",
+      "category": "utilities",
+      "version": "0.17.0",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "tablehabit",
       "name": "Table Habit",
       "category": "utilities",
@@ -467,57 +518,6 @@
       "score": 0.7867,
       "signals": {
         "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "category": "music",
-      "version": "5.1.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.98,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 1.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": true,
-      "downloadReachable": true
-    },
-    {
-      "slug": "inkillerplus",
-      "name": "iNKillerPlus",
-      "category": "social",
-      "version": "449.0.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "ttkillerplus",
-      "name": "TTKillerPlus",
-      "category": "social",
-      "version": "47.1.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -532,11 +532,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.1.0",
-      "releaseDate": "2026-10-08",
-      "score": 0.98,
+      "version": "5.1.1",
+      "releaseDate": "2026-10-11",
+      "score": 1.0,
       "signals": {
-        "recency": 0.95,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -611,6 +611,40 @@
       },
       "verificationLevel": "VERIFIED",
       "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "trollfools",
+      "name": "TrollFools",
+      "category": "utilities",
+      "version": "4.4-257",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "reynard",
+      "name": "Reynard",
+      "category": "utilities",
+      "version": "0.17.0",
+      "releaseDate": "2026-10-11",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
       "downloadReachable": true
     },
     {
@@ -975,23 +1009,6 @@
       "name": "Streamyfin",
       "category": "photo-video",
       "version": "0.55.0",
-      "releaseDate": "2026-10-04",
-      "score": 0.7533,
-      "signals": {
-        "recency": 0.8833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "reynard",
-      "name": "Reynard",
-      "category": "utilities",
-      "version": "0.16.0",
       "releaseDate": "2026-10-04",
       "score": 0.7533,
       "signals": {
@@ -2285,23 +2302,6 @@
       "category": "social",
       "version": "1.1.107",
       "releaseDate": "2026-08-12",
-      "score": 0.4,
-      "signals": {
-        "recency": 0.0,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "trollfools",
-      "name": "TrollFools",
-      "category": "utilities",
-      "version": "4.3-253",
-      "releaseDate": "2026-04-23",
       "score": 0.4,
       "signals": {
         "recency": 0.0,
