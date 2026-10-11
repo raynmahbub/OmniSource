@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "feedVersion": "73f264b19e10",
   "apps": {
     "total": 131,
@@ -10,7 +10,7 @@
   "sync": {
     "synced": 127,
     "incrementalHits": 117,
-    "updated": 1,
+    "updated": 0,
     "failed": 4,
     "apiRequests": 117
   },
@@ -22,15 +22,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "previousVersion": "0.5.8",
-      "version": "0.5.9",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
