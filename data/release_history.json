@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T13:19:25Z",
+  "generatedAt": "2026-10-12T15:56:11Z",
   "appCount": 131,
-  "releases": 292,
+  "releases": 302,
   "apps": {
     "3105": [
       {
@@ -236,13 +236,23 @@
     ],
     "byetunes": [
       {
+        "version": "2.6",
+        "date": "2026-10-12",
+        "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
+        "size": 15631495,
+        "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
+        "localizedDescription": "ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix\n\n# ByeTunes v2.6 – Favorites, Playlist Pinning & Background Downloads Reworked\n\nHi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.\n\n**Favorites**\n\nThere are three new options inside Library Repair:\n\n- **Create Favorites Playlist** creates the Favorites playlist using the right name for your device region.\n- **Fix Missing Favorites** repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.\n- **Delete Favorites Playlist** lets you delete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.\n\n**Quick recommendation:** if you have older injected songs that you favorited but cannot find in Favorites, run **Fix Missing Favorites** inside Library Repair.\n\n**Playlist Pinning**\n\nYou can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.\n\n**Keep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.**\n\n**Background Downloads**\n\nBackground downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.\n\nThe window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own co",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "2.5",
         "date": "2026-08-31",
         "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.5/ByeTunes.ipa",
         "size": 16815108,
         "sha256": "e21fb481fc6a1ba8d5702dc34c33afa522c8b799479e0f0a38ed4c98525a56fa",
         "localizedDescription": "ByeTunes 2.5 | ByeTunes\n\nHi guys, here's the 2.5 update for ByeTunes. This one adds full Deezer support and real parallel downloads for way faster queues, plus a brand new Smart Playlists feature with custom cover art. On top of that, a bunch of reliability fixes across downloads, backups, and repair tools — including a crash fix for the download queue.\n\n**Quick recommendation:** for the best speed and match accuracy while searching, set Deezer as your Search Provider. And to keep full Apple Music compatibility (animated artwork, richer info), keep Apple Music as your Metadata Source.\n\n**Deezer — full provider support**\n\n- Deezer is now a full first-class search source alongside Apple Music/iTunes, with its own tab (\"Search or paste a Deezer link\")\n- Paste a Deezer track/album/artist/playlist link and it resolves directly — same one-tap flow Apple Music/Spotify links already had\n- Deezer artist pages now show real top tracks + full discography (up to 100 each), not just a flat track list\n- Deezer search results paginate (\"load more\"), merged into the same song/album results as other providers\n- \"Find on Deezer\" added alongside \"Find on Spotify\" as an in-app browser shortcut for failed downloads\n\n**Download Engine — real concurrency & speed**\n\n- Downloads used to run one at a time through a single sequential task; now use a real worker-pool so multiple tracks download in parallel\n- Concurrency is format-aware: 3 simultaneous downloads for lossy formats, capped to 2 for lossless (FLAC/ALAC), since lossless generation is much more expensive on the backend\n- Added a start-pacer that spaces out when new downloads begin (wider gap for lossless) on top of the concurrency cap — bursts of simultaneous requests were triggering backend 429/500 errors even within the concurrency limit\n- Fixed the download engine getting silently recreated from scratch whenever the Download tab's view was torn down (older iOS layout) — was orphaning in-flight downloads and losing queue state; no",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-15T06:46:35Z"
       }
     ],
@@ -1274,13 +1284,23 @@
     ],
     "nexasc": [
       {
+        "version": "8.82.0",
+        "date": "2026-10-11",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
+        "size": 227238033,
+        "sha256": "",
+        "localizedDescription": "SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.82.0",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "8.81.0",
         "date": "2026-10-05",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa",
         "size": 226507484,
         "sha256": "",
         "localizedDescription": "SoundCloud 8.81.0 | SoundCloud-8.81.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.81.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
       {
@@ -1730,13 +1750,23 @@
     ],
     "reynard": [
       {
+        "version": "0.17.1",
+        "date": "2026-10-12",
+        "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
+        "size": 109225943,
+        "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
+        "localizedDescription": "Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\n- Fixed a crash when editing in scrollable text fields on iOS 14 and older.\n- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.\n- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.\n- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.\n- Fixed an issue where images copied from another app would not paste into webpages.",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "0.17.0",
         "date": "2026-10-11",
         "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
         "size": 109222723,
         "sha256": "2c68228cf63b643d354a1921d8194b9c1b4ce428e7d4c744e61561e3c4088f3a",
         "localizedDescription": "Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### Improvements\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\n\n### New Features\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-11T13:19:25Z"
       },
       {
@@ -2160,13 +2190,23 @@
     ],
     "stikdebug": [
       {
+        "version": "3.1.14",
+        "date": "2026-10-12",
+        "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
+        "size": 13544340,
+        "sha256": "2a4ec1af798648dddda33d3a7730554529f7a172a9dd090a999eff02552c0a68",
+        "localizedDescription": "StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "3.1.13",
         "date": "2026-09-28",
         "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa",
         "size": 13544310,
         "sha256": "d730fdfde1aeb3d1d3cc0cc71404f85fb9eb295d38876e2bf668a5d630f20e8c",
         "localizedDescription": "StikDebug 3.1.13 | StikDebug-3.1.13\n\nFix MeloCafé auto assign\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.12...3.1.13",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-29T13:13:58Z"
       },
       {
@@ -2714,13 +2754,23 @@
     ],
     "youmod": [
       {
+        "version": "21.41.5",
+        "date": "2026-10-11",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
+        "size": 130590630,
+        "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
+        "localizedDescription": "YouTube 21.41.5 | YouMod extra tweaks | YouMod_21.41.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "21.40.5",
         "date": "2026-10-05",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.40.5_2.0.0.ipa",
         "size": 129816622,
         "sha256": "7903ef136e9b94dc803bdd9ccbfa8abb4e1d9533b4ff7c72f0f5e827d5abc4ba",
         "localizedDescription": "YouTube 21.40.5 | YouMod extra tweaks | YouMod_21.40.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
       {
@@ -2786,13 +2836,23 @@
     ],
     "youpro": [
       {
+        "version": "21.41.5",
+        "date": "2026-10-11",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
+        "size": 130721602,
+        "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
+        "localizedDescription": "YouTube 21.41.5 | YouProExtra_21.41.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - downloads are unstable for <A15 devices. some will fail due to no av1 codec. \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "21.40.5",
         "date": "2026-10-05",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa3/YouProExtra_21.40.5_1.3.1.ipa",
         "size": 129948434,
         "sha256": "09bb56a79abec72ce63cf3aee8bcd1c39fce42da284389d35c974f08dac694d3",
         "localizedDescription": "YouTube 21.40.5 | YouProExtra_21.40.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - downloads are unstable for <A15 devices. some will fail due to no av1 codec. \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
       {
@@ -2868,13 +2928,23 @@
     ],
     "ytkace": [
       {
+        "version": "21.41.5",
+        "date": "2026-10-11",
+        "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+        "size": 137158764,
+        "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
+        "localizedDescription": "YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "21.40.5",
         "date": "2026-10-04",
         "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.2/YTKACE_1.1.2_YouTube_21.40.5.ipa",
         "size": 137298992,
         "sha256": "7f68e0f56acd5d18155c210be1c7d7dfd9d65529ea47466c7eae9b40d5ae688e",
         "localizedDescription": "YouTube 21.40.5 | YTKACE 1.1.2 | YTKACE_1.1.2_YouTube_21.40.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.40.5\n• Redesigned the download tab to look more like YouTube, with an All tab and your active downloads shown at the top\n• Smaller download popup that you can swipe away, and failed downloads stay so you can retry them\n• Playlist downloads now get the whole playlist, including private playlists and Liked videos\n• Liquid Glass tab bar is see-through while scrolling Shorts\n• Added Frosted Tab Bar option (Default, On, Off)\n• Added Normal Home Layout for the Home redesign some accounts get\n• Added Remove Horizontal Shelves\n• Added Hold to Copy Text for community posts and comments\n• Added Play Shorts Once\n• Added Two-Finger Tap to Pause\n• Added Extra Dim\n• Added Share at Current Time\n• Added Lock Screen Skip\n• Added Remove Suggestion Pill for Shorts\n• SponsorBlock skip popup now fades in and out\n\nFixed:\n• Shorts download button, Fullscreen and pinch to fullscreen on the new Shorts UI\n• Captions On picking the wrong language\n• App opening in Shorts when a different start tab is set\n• White or black bar behind the Liquid Glass tab bar\n• Share sheet position on iPad\n\nYouTube 21.40.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.2_YouTube_21.40.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
       {
@@ -2992,13 +3062,23 @@
     ],
     "ytlite": [
       {
+        "version": "21.41.5",
+        "date": "2026-10-11",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
+        "size": 149026282,
+        "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
+        "localizedDescription": "YouTube 21.41.5 | YouTubePlus_21.41.5_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. \n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "21.40.5",
         "date": "2026-10-05",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.40.5_6.0b2.ipa",
         "size": 148252410,
         "sha256": "16f8a6c2e46c2b90d264a9fc14e015cdb3dd1027ba00e223dff2e99c627e88ca",
         "localizedDescription": "YouTube 21.40.5 | YouTubePlus_21.40.5_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. \n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n> - You can get local network access prompt from YTKace to enable casting in YTLite. just overwrite ytkace when done.\n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
       {
@@ -3114,13 +3194,23 @@
     ],
     "ytmusic": [
       {
+        "version": "9.41.2",
+        "date": "2026-10-11",
+        "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa",
+        "size": 105674200,
+        "sha256": "3f512786adc51e378357e9649fb5a7cc56a63aedff0932c0cd354c415fc89315",
+        "localizedDescription": "YTMusicUltimate 9.41.2 | YTMusic 2.4.1 | YTMusicUltimate_9.41.2_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "9.40.2",
         "date": "2026-10-05",
         "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa35/YTMusicUltimate_9.40.2_2.4.1.ipa",
         "size": 105365585,
         "sha256": "93bc36e0c0d063325be57a1229998690508d6ac08d18dd88123dad897146d183",
         "localizedDescription": "YTMusicUltimate 9.40.2 | YTMusic 2.4.1 | YTMusicUltimate_9.40.2_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T15:10:11Z"
       },
       {
@@ -3166,13 +3256,23 @@
     ],
     "zeus": [
       {
+        "version": "13.2.3",
+        "date": "2026-10-12",
+        "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
+        "size": 79812840,
+        "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
+        "localizedDescription": "Zeus 13.2.3 | zeus-v13.2.3\n\n<img width=\"1200\" height=\"670\" alt=\"ZEUS v13.2.3\" src=\"https://github.com/user-attachments/assets/471167a9-3581-4fc7-ba78-57668e721e6d\" />\n\n## v13.2.3 Highlights:\n\n- Embedded LND v0.21.4\n- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security fixes)\n- Further security hardening measures\n- Miscellaneous bug fixes\n- Miscellaneous UI improvements never transferred correctly through it. Single-device and Android users are not affected.\n\n## What's Changed\n* build: make Xcode Cloud post-clone survive Intel runners by @kaloudis in https://github.com/ZeusLN/zeus/pull/4677\n* Verify LSP wrapped invoices against the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/pull/4673\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4679\n* locales: fix 17 broken localeString references, add en.json coverage test by @kaloudis in https://github.com/ZeusLN/zeus/pull/4674\n* fix(ui): swap the GIF loading indicator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus/pull/4678\n* fix(channels): require a host when connecting a peer by @kaloudis in https://github.com/ZeusLN/zeus/pull/4644\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4681\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4682\n* tests: scan all literal keys in localeString calls by @kaloudis in https://github.com/ZeusLN/zeus/pull/4680\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4683\n* tests: surface coverage summary in CI logs and PR comments by @kaloudis in https://github.com/ZeusLN/zeus/pull/4676\n* fix(security): bind LNURL-auth callback host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pull/4576\n* build(ios): refresh Podfile.lock for react-native-get-random-values 2.0.0 by @kaloudis in https://gith",
+        "status": "current",
+        "firstSeen": "2026-10-12T15:56:11Z"
+      },
+      {
         "version": "13.2.2",
         "date": "2026-09-23",
         "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2.ipa",
         "size": 80785921,
         "sha256": "968a828196ae65d7c40b98a49cc3c59a1af6bf6b1bd2dc7d98657171affbda35",
         "localizedDescription": "Zeus 13.2.2 | zeus-v13.2.2\n\n<img width=\"1200\" height=\"670\" alt=\"ZEUS v13.2.2\" src=\"https://github.com/user-attachments/assets/8923813a-db5e-4984-a78d-7586e075f2f8\" />\n\n> [!WARNING]\n> **iOS users running ZEUS on more than one device are advised to read the warning below!**\n\n## v13.2.2 Highlights:\n\n- Embedded LND v0.21.3-beta\n- Swaps: SATS Routing (new default) and Coinos added as providers\n- iOS: automatic cleanup of stale iCloud Keychain wallet data (**see note below**)\n- Nostr Wallet Connect: view connection secrets after creation, stricter connection string validation\n- Cashu: P2PK locked token fixes\n- LND: imported account receive fixes\n- Seed recovery: catch typos before restoring\n- Channel migration export when the node won't start\n- Further security hardening measures\n- Miscellaneous bug fixes\n- Miscellaneous UI improvements\n\n> [!WARNING]\n> ### iOS users running ZEUS on more than one device\n>\n> Due to a bug in a third-party dependency, older versions of ZEUS unintentionally stored wallet data (including seeds and connection credentials) in the iCloud-synced keychain rather than in device-only storage. iCloud Keychain is end-to-end encrypted: the data was only readable by your own trusted devices, not by Apple or anyone else, and we have no indication that any user data was exposed. It did, however, have unintended side effects, such as stale or deleted wallet data reappearing on new or restored devices signed into the same Apple ID. It also ran against our principle that seeds should never leave your device. This release moves that data into device-local storage and then **automatically and permanently deletes the iCloud-synced copies**. No prompt is shown.\n>\n> If iCloud Keychain is enabled, that deletion propagates to every device signed into the same Apple ID. The first device you open on v13.2.2 keeps a local copy of everything and then removes the iCloud copies. **Any other device that has not yet been opened on v13.2.2 will lose its saved wallet configura",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-24T12:05:34Z"
       },
       {
