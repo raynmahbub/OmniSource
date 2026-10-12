@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-12",
   "totals": {
     "apps": 131,
-    "verified": 122,
+    "verified": 123,
     "communityVerified": 1,
-    "unverified": 8,
+    "unverified": 7,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.68,
+    "avgTrustScore": 6.7,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -350,7 +350,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.5/ByeTunes.ipa",
+      "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1295,7 +1295,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -1443,27 +1443,6 @@
         "official upstream (github-release)"
       ],
       "downloadURL": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
-    },
-    {
-      "app": "playtorrio",
-      "name": "PlayTorrio",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "ayman708-UX/PlayTorrioV3",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": true
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1673,7 +1652,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
+      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1697,6 +1676,48 @@
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
+    },
+    {
+      "app": "ryukgram-ig410",
+      "name": "RyukGram (IG 410)",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "altstore",
+      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
+    },
+    {
+      "app": "ryukgram-sidebyside",
+      "name": "RyukGram Side by Side",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "altstore",
+      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "saber",
@@ -2576,7 +2597,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2.ipa",
+      "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2665,13 +2686,13 @@
       "trustBadge": "Experimental"
     },
     {
-      "app": "ryukgram-ig410",
-      "name": "RyukGram (IG 410)",
+      "app": "playtorrio",
+      "name": "PlayTorrio",
       "status": "UNVERIFIED",
       "provenance": "official",
       "hash_verified": true,
-      "method": "altstore",
-      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "method": "github-release",
+      "publisher": "ayman708-UX/PlayTorrioV3",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -2681,28 +2702,7 @@
       "reasons": [
         "failed check: fileAvailable"
       ],
-      "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
-      "trustScore": 4.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "ryukgram-sidebyside",
-      "name": "RyukGram Side by Side",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "altstore",
-      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": true
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
+      "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
       "trustScore": 4.5,
       "trustBadge": "Experimental"
     },

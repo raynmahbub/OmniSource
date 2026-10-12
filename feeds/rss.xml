@@ -8,6 +8,90 @@
     <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Zeus v13.2.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/zeus.json</link>
+      <guid isPermaLink="false">zeus-13.2.3</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Zeus 13.2.3 | zeus-v13.2.3
+
+<img width="1200" height="670" alt="ZEUS v13.2.3" src="https://github.com/user-attachments/assets/471167a9-3581-4fc7-ba78-57668e721e6d" />
+
+## v13.2.3 Highlights:
+
+- Embedded LND v0.21.4
+- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security fixes)
+- Further security hardening measures
+- Miscellaneous bug fixes
+- Miscellaneous UI improvements never transferred correctly through it. Single-device and Android users are not affected.
+
+## What's Changed
+* build: make Xcode Cloud post-clone survive Intel runners by @kaloudis in https://github.com/ZeusLN/zeus/pull/4677
+* Verify LSP wrapped invoices against the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/pull/4673
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4679
+* locales: fix 17 broken localeString references, add en.json coverage test by @kaloudis in https://github.com/ZeusLN/zeus/pull/4674
+* fix(ui): swap the GIF loading indicator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus/pull/4678
+* fix(channels): require a host when connecting a peer by @kaloudis in https://github.com/ZeusLN/zeus/pull/4644
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4681
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4682
+* tests: scan all literal keys in localeString calls by @kaloudis in https://github.com/ZeusLN/zeus/pull/4680
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4683
+* tests: surface coverage summary in CI logs and PR comments by @kaloudis in https://github.com/ZeusLN/zeus/pull/4676
+* fix(security): bind LNURL-auth callback host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pull/4576
+* build(ios): refresh Podfile.lock for react-native-get-random-values 2.0.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4691
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4690
+* tests: cover StealthModeUtils, which had none by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4685
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4692
+* chore(deps): bump assert from 1.5.0 to 2.1.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4607
+* chore(deps): bump react-native-reanimated to 4.7.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4689
+* fix: LSP and LSPS1 reset button visibility and Olympus detection by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4664
+* fix(lsps1): show empty state when no orders match the current node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4704
+* fix(recovery): guard clearLegacyLocations behind __DEV__ by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4694
+* stores: no node calls until a wallet is picked by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4450
+* fix: gate simple taproot reset on backend support by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4705
+* fix: keep preset amounts when fiat has no rate by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4651
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4722
+* fix(lsps): arm custom-message timeout per-request, not per-subscription by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4702
+* fix(nwc): point empty NWC budget at Cashu settings when Lightning balance is zero by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4662
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4732
+* chore(deps): bump metro to 0.84.6 to drop image-size by @kaloudis in https://github.com/ZeusLN/zeus/pull/4734
+* views: drop the latch before taking the fetch lock by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4726
+* build: stop tracking LDK Node jniLibs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4737
+* Balance view: stop double counting unconfirmed on-chain funds by @kaloudis in https://github.com/ZeusLN/zeus/pull/4515
+* utils: stop accepting mainnet bech32 addresses on testnet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4721
+* utils: accept uppercase Lightning Address domains by @kaloudis in https://github.com/ZeusLN/zeus/pull/4731
+* remove SATSCARD bounty by @kaloudis in https://github.com/ZeusLN/zeus/pull/4767
+* docs: ask first-time contributors to disclose AI assistance by @kaloudis in https://github.com/ZeusLN/zeus/pull/4772
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4773
+* utils: share one LUD-16 lnurlp URL builder by @kaloudis in https://github.com/ZeusLN/zeus/pull/4762
+* fix(nwc): don't crash NWC settings when settings have no ecash key by @kaloudis in https://github.com/ZeusLN/zeus/pull/4763
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4777
+* nostr: lowercase NIP-05 identifiers before lookup by @kaloudis in https://github.com/ZeusLN/zeus/pull/4761
+* SweepStore: use regtest and testnet params on regtest and signet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4758
+* fix(balance): count a force close with an unconfirmed sweep once by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4775
+* chore(deps): bump @nostr-dev-kit/ndk to 3.0.3 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4701
+* AddressUtils: validate destinations against the node's network in one place by @kaloudis in https://github.com/ZeusLN/zeus/pull/4759
+* handleAnything: drop wrong-network addresses from unified URIs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4760
+* fix: harden the BIP 353 lookup (skip .onion, encode the query name) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4729
+* fix(settings): don't crash when a stored blob is missing a settings group by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4788
+* fix: avoid spurious node refetch after unlocking by @myxmaster in https://github.com/ZeusLN/zeus/pull/4423
+* LnurlChannel: use the themed Switch component by @kaloudis in https://github.com/ZeusLN/zeus/pull/4790
+* [feat] chore(deps): bump react-native to 0.87.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4566
+* build(deps): bump brace-expansion from 1.1.16 to 1.1.21 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4795
+* chore(deps): bump moment from 2.30.1 to 2.31.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4794
+* fix: pay BIP 353 offers from records with multiple params by @kaloudis in https://github.com/ZeusLN/zeus/pull/4658
+* chore(deps): bump brace-expansion and markdown-it to patched versions by @kaloudis in https://github.com/ZeusLN/zeus/pull/4798
+* chore(proto): regenerate bindings with protobufjs 8.8.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4799
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4801
+* chore(deps): bump minor and patch dependencies from #4796 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4800
+* Avoid keyboard-inserted spaces in URL and host inputs by @myxmaster in https://github.com/ZeusLN/zeus/pull/4793
+* chore(deps): bump react-native-nitro-tor from 0.6.0 to 0.6.1 in the minor-and-patch group across 1 directory by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4805
+* chore(ios): update Podfile.lock for react-native-nitro-tor 0.6.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4808
+* Handle LightningAddressStore promise rejections by @kaloudis in https://github.com/ZeusLN/zeus/pull/4485
+* fix(bolt12): show the actual payment outcome after LDK direct pay by @kaloudis in https://github.com/ZeusLN/zeus/pull/4307
+* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules…]]></description>
+      <enclosure url="https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>StikDebug v3.1.14</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json</link>
       <guid isPermaLink="false">stikdebug-3.1.14</guid>
@@ -18,6 +102,135 @@ Add Husk support
 
 **Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14]]></description>
       <enclosure url="https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Reynard v0.17.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
+      <guid isPermaLink="false">reynard-0.17.1</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reynard 0.17.1 | Reynard
+
+## Changes
+
+**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1
+
+This is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).
+
+### Bug Fixes & Improvements
+- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.
+- Fixed a crash when editing in scrollable text fields on iOS 14 and older.
+- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.
+- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.
+- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.
+- Fixed an issue where images copied from another app would not paste into webpages.]]></description>
+      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>ByeTunes v2.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/byetunes.json</link>
+      <guid isPermaLink="false">byetunes-2.6</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix
+
+# ByeTunes v2.6 – Favorites, Playlist Pinning & Background Downloads Reworked
+
+Hi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.
+
+**Favorites**
+
+There are three new options inside Library Repair:
+
+- **Create Favorites Playlist** creates the Favorites playlist using the right name for your device region.
+- **Fix Missing Favorites** repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.
+- **Delete Favorites Playlist** lets you delete that playlist from Library Repair.
+
+Songs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.
+
+**Quick recommendation:** if you have older injected songs that you favorited but cannot find in Favorites, run **Fix Missing Favorites** inside Library Repair.
+
+**Playlist Pinning**
+
+You can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.
+
+**Keep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.**
+
+**Background Downloads**
+
+Background downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.
+
+The window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own colors or a background picture. There is a live preview in Settings so you can see how it looks before using it.
+
+This replaces the old background download behavior and Live Activity support. Download progress now shows in the Picture in Picture window.
+
+If the app closes while songs are still downloading, those songs go back to the front of the queue the next time you open ByeTunes.
+
+Pause and Cancel were fixed too. They now properly stop background transfers instead of accidentally starting a fallback download after you already paused or cancelled the song.
+
+**Download Queue & Saving Files**
+
+Downloaded songs now get their metadata as part of the download process. You will see a "fetching metadata" state before the song is marked as done, instead of that work being left to a separate background metadata manager.
+
+A few other things got added or improved:
+
+- **Clear All** for completed items in the queue sheet.
+- Preview buttons in the album sheet and artist profile.
+- Icons instead of text in the download queue indicator.
+- Downloads are now limited to **2 at a time for MP3 and 1 for FLAC**, matching what the server supports. (This is temporal until I can pay for a better provider)
+- A **server status banner** appears when the server goes into maintenance. Downloads are blocked while the server is down.
+- A new **Save With Fetched Metadata** toggle that writes the fetched tags and cover artwork into the MP3 and FLAC copies you save.
+
+**Metadata Fixes**
+
+Metadata matching got a lot of attention in this update. There were cases where a remix could get the original song's information, or a song could get renamed to a different track from the same album. Those issues should now be fixed.
+
+- Downloaded songs now look up the exact Deezer track and album. An Apple Music match is only accepted if it belongs to the same album.
+- Apple Music track matching now checks the title, so songs should no longer get relabeled as another track from that album.
+- Apple Music search pages are requested in English so ByeTunes can find the Songs and Albums sections even when using a non-English storefront.
+- A Deezer result with missing artwork or an unreadable item no longer causes the entire search to come back empty.
+- The broken song.link mapping was replaced with Deezer matching, and download failures now show more accurate messages.
+
+FLAC handling was improved too. Some changes in the downloaded files were causing every song to take the album name as its title when an `ALBUMTITLE` tag was present. That is fixed now.
+
+Album artist is also read correctly from files using the `ALBUM ARTIST` or `album_artist` tags.
+
+**Library Management**
+
+Added sorting, a genre filter and multi-delete to the Library management tab.
+
+Fixed an issue where the library would only show some of your songs, for example just 50 tracks. ByeTunes was only scanning one folder. It now scans all folders so the rest of your songs show up too.
+
+Injected songs now use the file's creation date for a more accurate date.
+
+Deleting songs also cleans up any albums, artists and artwork entries left empty after the deletion.
+
+**Stability, Backups & Database Safety**
+
+There were also several fixes to make injection, transfers and backups more reliable:
+
+- One unreadable local file no longer stops the whole injection batch.
+- The export folder is checked before transferring files. If it cannot be used, ByeTunes falls back to its own Exports folder.
+- Snapshot backups keep the previous snapshot until the new one finishes successfully, and only replace snapshots of the same kind.
+- The heartbeat timeout handles stale connection attempts more reliably.
+- Matched songs now save their real catalog ID in `match_redownload_params` instead of placeholder text.
+
+Overall stability and database safety were improved too.
+
+**Cleanup**
+
+The old background metadata manager and its pending import pipeline were removed, since downloaded songs now get their metadata directly during the download process.
+
+The Live Activity extension and download tracking were also removed as part of the move to Picture in Picture, along with the old background download behavior and unused code.
+
+**Official Backend & Building Your Own**
+
+I also added [BACKEND_TERMS.md](https://github.com/EduAlexxis/ByeTunes/blob/main/BACKEND_TERMS.md), which explains how the official hosted backend may be used. **Modified builds need to use their own backend.**
+
+If you are building ByeTunes yourself, `Config.example.plist` is now included as a template for the backend address. The README explains how to set it up.
+
+I also reorganized the project structure. Files are now grouped into proper folders so everything is easier to find and work on. This should help anyone working on their own fork of ByeTunes understand where things are and make changes more easily. I am also considering a bigger rewrite of the app down the road, so this cleanup is a step towards that, but nothing is confirmed yet.
+
+Thanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.]]></description>
+      <enclosure url="https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>YTMusicUltimate v9.41.2</title>
@@ -277,6 +490,16 @@ Allows official Dopamine to be injected by TrollFools into third-party plugins t
 
 Updated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).]]></description>
       <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>NexaSC v8.82.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
+      <guid isPermaLink="false">nexasc-8.82.0</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC
+
+IPA Vault build for SoundCloud (NexaSC), version 8.82.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>Table Habit v1.27.13</title>
@@ -691,49 +914,6 @@ IPA Vault build for Facebook (iQFace), version 582.0.0]]></description>
 
 IPA Vault build for Instagram (Sparkle), version 450.1.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>RyukGram v450.1.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
-      <guid isPermaLink="false">ryukgram-450.1.0</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 450.1.0 | Instagram-450.1.0-RyukGram
-
-IPA Vault build for Instagram (RyukGram), version 450.1.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>MSGPlusX v582.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
-      <guid isPermaLink="false">msgplusx-582.0.0</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Messenger 582.0.0 | Messenger-582.0.0-MSGPlusX
-
-IPA Vault build for Messenger (MSGPlusX), version 582.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Monal v6.4.23</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/monal.json</link>
-      <guid isPermaLink="false">monal-6.4.23</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Monal 6.4.23 | Monal
-
-- Increased sync speed considerably
-- We don't show the login view anymore, if all configured accounts are disabled
-- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now
-- Sharing something using the share sheet should no longer attach a spurious garbled file alongside]]></description>
-      <enclosure url="https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Messenger Flow v582.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json</link>
-      <guid isPermaLink="false">messenger-flow-582.0.0</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Messenger 582.0.0 | Messenger-582.0.0-Flow
-
-IPA Vault build for Messenger (Flow), version 582.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-Flow.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

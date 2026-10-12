@@ -5,8 +5,92 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/zeus.json</link>
     <description>Release feed for Zeus within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/zeus.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Zeus v13.2.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/zeus.json</link>
+      <guid isPermaLink="false">zeus-13.2.3</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Zeus 13.2.3 | zeus-v13.2.3
+
+<img width="1200" height="670" alt="ZEUS v13.2.3" src="https://github.com/user-attachments/assets/471167a9-3581-4fc7-ba78-57668e721e6d" />
+
+## v13.2.3 Highlights:
+
+- Embedded LND v0.21.4
+- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security fixes)
+- Further security hardening measures
+- Miscellaneous bug fixes
+- Miscellaneous UI improvements never transferred correctly through it. Single-device and Android users are not affected.
+
+## What's Changed
+* build: make Xcode Cloud post-clone survive Intel runners by @kaloudis in https://github.com/ZeusLN/zeus/pull/4677
+* Verify LSP wrapped invoices against the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/pull/4673
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4679
+* locales: fix 17 broken localeString references, add en.json coverage test by @kaloudis in https://github.com/ZeusLN/zeus/pull/4674
+* fix(ui): swap the GIF loading indicator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus/pull/4678
+* fix(channels): require a host when connecting a peer by @kaloudis in https://github.com/ZeusLN/zeus/pull/4644
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4681
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4682
+* tests: scan all literal keys in localeString calls by @kaloudis in https://github.com/ZeusLN/zeus/pull/4680
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4683
+* tests: surface coverage summary in CI logs and PR comments by @kaloudis in https://github.com/ZeusLN/zeus/pull/4676
+* fix(security): bind LNURL-auth callback host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pull/4576
+* build(ios): refresh Podfile.lock for react-native-get-random-values 2.0.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4691
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4690
+* tests: cover StealthModeUtils, which had none by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4685
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4692
+* chore(deps): bump assert from 1.5.0 to 2.1.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4607
+* chore(deps): bump react-native-reanimated to 4.7.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4689
+* fix: LSP and LSPS1 reset button visibility and Olympus detection by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4664
+* fix(lsps1): show empty state when no orders match the current node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4704
+* fix(recovery): guard clearLegacyLocations behind __DEV__ by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4694
+* stores: no node calls until a wallet is picked by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4450
+* fix: gate simple taproot reset on backend support by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4705
+* fix: keep preset amounts when fiat has no rate by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4651
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4722
+* fix(lsps): arm custom-message timeout per-request, not per-subscription by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4702
+* fix(nwc): point empty NWC budget at Cashu settings when Lightning balance is zero by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4662
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4732
+* chore(deps): bump metro to 0.84.6 to drop image-size by @kaloudis in https://github.com/ZeusLN/zeus/pull/4734
+* views: drop the latch before taking the fetch lock by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4726
+* build: stop tracking LDK Node jniLibs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4737
+* Balance view: stop double counting unconfirmed on-chain funds by @kaloudis in https://github.com/ZeusLN/zeus/pull/4515
+* utils: stop accepting mainnet bech32 addresses on testnet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4721
+* utils: accept uppercase Lightning Address domains by @kaloudis in https://github.com/ZeusLN/zeus/pull/4731
+* remove SATSCARD bounty by @kaloudis in https://github.com/ZeusLN/zeus/pull/4767
+* docs: ask first-time contributors to disclose AI assistance by @kaloudis in https://github.com/ZeusLN/zeus/pull/4772
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4773
+* utils: share one LUD-16 lnurlp URL builder by @kaloudis in https://github.com/ZeusLN/zeus/pull/4762
+* fix(nwc): don't crash NWC settings when settings have no ecash key by @kaloudis in https://github.com/ZeusLN/zeus/pull/4763
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4777
+* nostr: lowercase NIP-05 identifiers before lookup by @kaloudis in https://github.com/ZeusLN/zeus/pull/4761
+* SweepStore: use regtest and testnet params on regtest and signet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4758
+* fix(balance): count a force close with an unconfirmed sweep once by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4775
+* chore(deps): bump @nostr-dev-kit/ndk to 3.0.3 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4701
+* AddressUtils: validate destinations against the node's network in one place by @kaloudis in https://github.com/ZeusLN/zeus/pull/4759
+* handleAnything: drop wrong-network addresses from unified URIs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4760
+* fix: harden the BIP 353 lookup (skip .onion, encode the query name) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4729
+* fix(settings): don't crash when a stored blob is missing a settings group by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4788
+* fix: avoid spurious node refetch after unlocking by @myxmaster in https://github.com/ZeusLN/zeus/pull/4423
+* LnurlChannel: use the themed Switch component by @kaloudis in https://github.com/ZeusLN/zeus/pull/4790
+* [feat] chore(deps): bump react-native to 0.87.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4566
+* build(deps): bump brace-expansion from 1.1.16 to 1.1.21 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4795
+* chore(deps): bump moment from 2.30.1 to 2.31.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4794
+* fix: pay BIP 353 offers from records with multiple params by @kaloudis in https://github.com/ZeusLN/zeus/pull/4658
+* chore(deps): bump brace-expansion and markdown-it to patched versions by @kaloudis in https://github.com/ZeusLN/zeus/pull/4798
+* chore(proto): regenerate bindings with protobufjs 8.8.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4799
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4801
+* chore(deps): bump minor and patch dependencies from #4796 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4800
+* Avoid keyboard-inserted spaces in URL and host inputs by @myxmaster in https://github.com/ZeusLN/zeus/pull/4793
+* chore(deps): bump react-native-nitro-tor from 0.6.0 to 0.6.1 in the minor-and-patch group across 1 directory by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4805
+* chore(ios): update Podfile.lock for react-native-nitro-tor 0.6.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4808
+* Handle LightningAddressStore promise rejections by @kaloudis in https://github.com/ZeusLN/zeus/pull/4485
+* fix(bolt12): show the actual payment outcome after LDK direct pay by @kaloudis in https://github.com/ZeusLN/zeus/pull/4307
+* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules…]]></description>
+      <enclosure url="https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Zeus v13.2.2</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/zeus.json</link>

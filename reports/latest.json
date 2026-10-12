@@ -1,77 +1,61 @@
 {
   "generatedAt": "2026-10-12",
-  "feedVersion": "f74372fe8a14",
+  "feedVersion": "3e0218bc4c47",
   "apps": {
     "total": 131,
-    "reachable": 123,
-    "unreachable": 8,
-    "verified": 122
+    "reachable": 124,
+    "unreachable": 7,
+    "verified": 123
   },
   "sync": {
-    "synced": 125,
-    "incrementalHits": 108,
-    "updated": 6,
-    "failed": 6,
-    "apiRequests": 118
+    "synced": 126,
+    "incrementalHits": 113,
+    "updated": 4,
+    "failed": 5,
+    "apiRequests": 119
   },
   "unreachable": [
     "cercube",
     "jaility",
     "killmyota",
     "livecontainer",
-    "ryukgram-ig410",
-    "ryukgram-sidebyside",
+    "playtorrio",
     "trollboard-reborn",
     "uprovid"
   ],
   "updates": [
     {
-      "slug": "ytlite",
-      "name": "YouTubePlus",
-      "previousVersion": "21.40.5",
-      "version": "21.41.5",
+      "slug": "zeus",
+      "name": "Zeus",
+      "previousVersion": "13.2.2",
+      "version": "13.2.3",
       "kind": "updated"
     },
     {
-      "slug": "youpro",
-      "name": "YouPro",
-      "previousVersion": "21.40.5",
-      "version": "21.41.5",
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "previousVersion": "8.81.0",
+      "version": "8.82.0",
       "kind": "updated"
     },
     {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "previousVersion": "21.40.5",
-      "version": "21.41.5",
+      "slug": "byetunes",
+      "name": "ByeTunes",
+      "previousVersion": "2.5",
+      "version": "2.6",
       "kind": "updated"
     },
     {
-      "slug": "youmod",
-      "name": "YouMod",
-      "previousVersion": "21.40.5",
-      "version": "21.41.5",
-      "kind": "updated"
-    },
-    {
-      "slug": "ytmusic",
-      "name": "YTMusicUltimate",
-      "previousVersion": "9.40.2",
-      "version": "9.41.2",
-      "kind": "updated"
-    },
-    {
-      "slug": "stikdebug",
-      "name": "StikDebug",
-      "previousVersion": "3.1.13",
-      "version": "3.1.14",
+      "slug": "reynard",
+      "name": "Reynard",
+      "previousVersion": "0.17.0",
+      "version": "0.17.1",
       "kind": "updated"
     }
   ],
   "errors": [
     "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "ryukgram-ig410: all sources failed: altstore:https://source.ryuksign.com/ig410 error: HTTP request failed after 3 attempts: https://source.ryuksign.com/ig410 (<urlopen error timed out>)",
-    "ryukgram-sidebyside: all sources failed: altstore:https://source.ryuksign.com/duplicate error: HTTP request failed after 3 attempts: https://source.ryuksign.com/duplicate (<urlopen error timed out>)",
+    "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "trollboard-reborn: all sources failed: github:haxi0/TrollBoard-Reborn error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/TrollBoard-Reborn/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"

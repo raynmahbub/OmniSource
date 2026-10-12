@@ -899,7 +899,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 636,
+              "downloads": 703,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -911,7 +911,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 1878,
+              "downloads": 2018,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -923,7 +923,7 @@
               "fileType": "IPA",
               "size": 118304297,
               "sha256": "e8eefa6d81b926c683752b27b4c45ec7b564764d726eb1906bc3986d3cba3915",
-              "downloads": 14,
+              "downloads": 17,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -935,7 +935,7 @@
               "fileType": "IPA",
               "size": 128560179,
               "sha256": "cac8ac36827e78e7d0ae628123caeccb8ba2c2601010dcd648d3e53532a00902",
-              "downloads": 42,
+              "downloads": 44,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -947,7 +947,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 148,
+              "downloads": 159,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -959,7 +959,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 234,
+              "downloads": 252,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -971,7 +971,7 @@
               "fileType": "DEB",
               "size": 12893758,
               "sha256": "7aa482c239ace6112fc3b71ea7fbaf17ed624cc42152b9bef7c15eba704712b6",
-              "downloads": 14,
+              "downloads": 17,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -989,7 +989,7 @@
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 234
+          "downloads": 252
         }
       ],
       "screenshotURLs": [],
@@ -1777,39 +1777,39 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/ByeTunes.webp",
       "tintColor": "FA243C",
       "category": "music",
-      "version": "2.5",
-      "versionDate": "2026-08-31",
-      "versionDescription": "ByeTunes 2.5 | ByeTunes\n\nHi guys, here's the 2.5 update for ByeTunes. This one adds full Deezer support and real parallel downloads for way faster queues, plus a brand new Smart Playlists feature with custom cover art. On top of that, a bunch of reliability fixes across downloads, backups, and repair tools — including a crash fix for the download queue.\n\n**Quick recommendation:** for the best speed and match accuracy while searching, set Deezer as your Search Provider. And to keep full Apple Music compatibility (animated artwork, richer info), keep Apple Music as your Metadata Source.\n\n**Deezer — full provider support**\n\n- Deezer is now a full first-class search source alongside Apple Music/iTunes, with its own tab (\"Search or paste a Deezer link\")\n- Paste a Deezer track/album/artist/playlist link and it resolves directly — same one-tap flow Apple Music/Spotify links already had\n- Deezer artist pages now show real top tracks + full discography (up to 100 each), not just a flat track list\n- Deezer search results paginate (\"load more\"), merged into the same song/album results as other providers\n- \"Find on Deezer\" added alongside \"Find on Spotify\" as an in-app browser shortcut for failed downloads\n\n**Download Engine — real concurrency & speed**\n\n- Downloads used to run one at a time through a single sequential task; now use a real worker-pool so multiple tracks download in parallel\n- Concurrency is format-aware: 3 simultaneous downloads for lossy formats, capped to 2 for lossless (FLAC/ALAC), since lossless generation is much more expensive on the backend\n- Added a start-pacer that spaces out when new downloads begin (wider gap for lossless) on top of the concurrency cap — bursts of simultaneous requests were triggering backend 429/500 errors even within the concurrency limit\n- Fixed the download engine getting silently recreated from scratch whenever the Download tab's view was torn down (older iOS layout) — was orphaning in-flight downloads and losing queue state; now backed by a shared instance that survives it\n- Aggregate download speed now tracked and shown live across all active downloads\n\n**Background Downloads**\n\n- Fixed isAppActive defaulting to true on a silent background relaunch, which routed transfers through the short-lived foreground path instead of the durable background session (caused FLAC→MP3 downgrades and stalls)\n- Fixed the candidate fallback loop not checking cancellation, which let a cancelled foreground download silently complete via the MP3 fallback instead of aborting\n- Completed-but-unclaimed background download results now persist to disk so a killed/relaunched app recovers them instead of re-downloading\n- Finished tracks now persist their own .done state so a relaunch mid-queue doesn't drop them from Queue Details\n- Added a genuine background-processing task (registered at launch) so metadata fetching can run even when the app isn't open, instead of only opportunistically while active\n- Each backend candidate now uses its own requested format for its file-extension fallback instead of a hardcoded \"flac\" default\n- Plain-language failure messages in the download queue instead of raw HTTP/backend error bodies\n- Fixed link.deezer.com short links not resolving\n- Fixed a crash: removing a failed download could resurrect it (and crash on the second removal) because a stray background-session completion callback fired after removal and wrote the state back. Removal now properly cancels the underlying background task too.\n\n**Smart Playlists**\n\n- Create playlists by rule: Genre, Artist, Decade, Format, or Explicit Rating\n- Multi-select across all rule types with combined naming (e.g. \"Rock, Pop\" or \"1990s, 2000s\")\n- Live match counts, search within Genre/Artist lists, lossless-format badges\n- Artist grouping splits collab credits (\"A & B\") into separate artists, matching the on-device Artists tab\n- \"Refresh Smart Playlist\" — remembers its rule and can re-sync to catch newly matching songs\n\n**Playlists**\n\n- New naming screen matches Apple Music: photo picker, large title field, X/checkmark controls — used for manual and smart playlist creation alike\n- Custom playlist cover photos: pick a photo, it's auto-cropped to a square and uploaded using the same on-device artwork system Apple Music itself uses; persists across relaunch\n- In-playlist rename\n- Playlist restore now lists which specific tracks failed to match instead of just a count\n\n**On-Device Library**\n\n- Select/Select All controls pinned so they stay visible while scrolling\n- Select/Select All/Add to Playlist/Add to Album/Export restricted to the Songs tab; Playlists tab gets Select/Select All/Export/Delete\n- Removed redundant header title/count and Export Folder picker from non-Songs tabs\n- Audio Quality Analysis (new): tapping a song shows a verdict flagging mislabeled files (e.g. an MP3 renamed .flac), suspiciously over-compressed \"lossless\" files, and low-bitrate lossy files\n- On-device album metadata editing\n- In-place device audio file replacement\n- Content Rating redesigned from a cramped segmented control to a compact menu row, with a new \"No Rating\" option\n- Fixed the explicit/clean rating editor: a binary toggle could only ever write explicit/none, silently flipping \"clean\" tracks to explicit\n\n**Reliability Fixes**\n\n- Injection failures no longer silently drop songs from the queue — unconfirmed songs are put back\n- Repair operations (artwork fix, database doctor, alphabetical order) use per-operation cancellation tokens instead of one shared flag, so cancelling one can no longer kill an unrelated one\n- Background metadata fetch no longer double-imports a song if the process is killed mid-drain\n- Artwork upload failures during metadata edits are now reported instead of silently swallowed\n- A failed database integrity check now aborts the library merge instead of writing on top of a known-corrupt database\n- Fixed the large-batch injection safeguard checking the wrong count\n- Fixed byetunes://download deep links opening the wrong tab on iOS 16–18\n- Fixed a Live Activity race that could resurrect it right after ending; orphaned Live Activities from a killed session now clean up on cold launch\n- Removed dead Tidal/Qobuz code and a broken last-resort Spotify mapping fallback\n\n**Backup & Restore**\n\n- Merged Light/Full Backup toggle and \"Export Full Library\" into two direct-action rows; Full Backup always bundles per-playlist files\n\n**Settings**\n\n- Store Region picker upgraded from a simple inline row to a full searchable, alphabetically-grouped screen with flags\n- About/Credits moved to its own section, separate from actionable controls\n- Added \"Keep Local Metadata\" to skip the fetch pipeline for imported local files",
-      "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.5/ByeTunes.ipa",
-      "size": 16815108,
+      "version": "2.6",
+      "versionDate": "2026-10-12",
+      "versionDescription": "ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix\n\n# ByeTunes v2.6 – Favorites, Playlist Pinning & Background Downloads Reworked\n\nHi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.\n\n**Favorites**\n\nThere are three new options inside Library Repair:\n\n- **Create Favorites Playlist** creates the Favorites playlist using the right name for your device region.\n- **Fix Missing Favorites** repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.\n- **Delete Favorites Playlist** lets you delete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.\n\n**Quick recommendation:** if you have older injected songs that you favorited but cannot find in Favorites, run **Fix Missing Favorites** inside Library Repair.\n\n**Playlist Pinning**\n\nYou can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.\n\n**Keep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.**\n\n**Background Downloads**\n\nBackground downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.\n\nThe window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own colors or a background picture. There is a live preview in Settings so you can see how it looks before using it.\n\nThis replaces the old background download behavior and Live Activity support. Download progress now shows in the Picture in Picture window.\n\nIf the app closes while songs are still downloading, those songs go back to the front of the queue the next time you open ByeTunes.\n\nPause and Cancel were fixed too. They now properly stop background transfers instead of accidentally starting a fallback download after you already paused or cancelled the song.\n\n**Download Queue & Saving Files**\n\nDownloaded songs now get their metadata as part of the download process. You will see a \"fetching metadata\" state before the song is marked as done, instead of that work being left to a separate background metadata manager.\n\nA few other things got added or improved:\n\n- **Clear All** for completed items in the queue sheet.\n- Preview buttons in the album sheet and artist profile.\n- Icons instead of text in the download queue indicator.\n- Downloads are now limited to **2 at a time for MP3 and 1 for FLAC**, matching what the server supports. (This is temporal until I can pay for a better provider)\n- A **server status banner** appears when the server goes into maintenance. Downloads are blocked while the server is down.\n- A new **Save With Fetched Metadata** toggle that writes the fetched tags and cover artwork into the MP3 and FLAC copies you save.\n\n**Metadata Fixes**\n\nMetadata matching got a lot of attention in this update. There were cases where a remix could get the original song's information, or a song could get renamed to a different track from the same album. Those issues should now be fixed.\n\n- Downloaded songs now look up the exact Deezer track and album. An Apple Music match is only accepted if it belongs to the same album.\n- Apple Music track matching now checks the title, so songs should no longer get relabeled as another track from that album.\n- Apple Music search pages are requested in English so ByeTunes can find the Songs and Albums sections even when using a non-English storefront.\n- A Deezer result with missing artwork or an unreadable item no longer causes the entire search to come back empty.\n- The broken song.link mapping was replaced with Deezer matching, and download failures now show more accurate messages.\n\nFLAC handling was improved too. Some changes in the downloaded files were causing every song to take the album name as its title when an `ALBUMTITLE` tag was present. That is fixed now.\n\nAlbum artist is also read correctly from files using the `ALBUM ARTIST` or `album_artist` tags.\n\n**Library Management**\n\nAdded sorting, a genre filter and multi-delete to the Library management tab.\n\nFixed an issue where the library would only show some of your songs, for example just 50 tracks. ByeTunes was only scanning one folder. It now scans all folders so the rest of your songs show up too.\n\nInjected songs now use the file's creation date for a more accurate date.\n\nDeleting songs also cleans up any albums, artists and artwork entries left empty after the deletion.\n\n**Stability, Backups & Database Safety**\n\nThere were also several fixes to make injection, transfers and backups more reliable:\n\n- One unreadable local file no longer stops the whole injection batch.\n- The export folder is checked before transferring files. If it cannot be used, ByeTunes falls back to its own Exports folder.\n- Snapshot backups keep the previous snapshot until the new one finishes successfully, and only replace snapshots of the same kind.\n- The heartbeat timeout handles stale connection attempts more reliably.\n- Matched songs now save their real catalog ID in `match_redownload_params` instead of placeholder text.\n\nOverall stability and database safety were improved too.\n\n**Cleanup**\n\nThe old background metadata manager and its pending import pipeline were removed, since downloaded songs now get their metadata directly during the download process.\n\nThe Live Activity extension and download tracking were also removed as part of the move to Picture in Picture, along with the old background download behavior and unused code.\n\n**Official Backend & Building Your Own**\n\nI also added [BACKEND_TERMS.md](https://github.com/EduAlexxis/ByeTunes/blob/main/BACKEND_TERMS.md), which explains how the official hosted backend may be used. **Modified builds need to use their own backend.**\n\nIf you are building ByeTunes yourself, `Config.example.plist` is now included as a template for the backend address. The README explains how to set it up.\n\nI also reorganized the project structure. Files are now grouped into proper folders so everything is easier to find and work on. This should help anyone working on their own fork of ByeTunes understand where things are and make changes more easily. I am also considering a bigger rewrite of the app down the road, so this cleanup is a step towards that, but nothing is confirmed yet.\n\nThanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.",
+      "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
+      "size": 15631495,
       "versions": [
         {
-          "version": "2.5",
-          "date": "2026-08-31",
-          "localizedDescription": "ByeTunes 2.5 | ByeTunes\n\nHi guys, here's the 2.5 update for ByeTunes. This one adds full Deezer support and real parallel downloads for way faster queues, plus a brand new Smart Playlists feature with custom cover art. On top of that, a bunch of reliability fixes across downloads, backups, and repair tools — including a crash fix for the download queue.\n\n**Quick recommendation:** for the best speed and match accuracy while searching, set Deezer as your Search Provider. And to keep full Apple Music compatibility (animated artwork, richer info), keep Apple Music as your Metadata Source.\n\n**Deezer — full provider support**\n\n- Deezer is now a full first-class search source alongside Apple Music/iTunes, with its own tab (\"Search or paste a Deezer link\")\n- Paste a Deezer track/album/artist/playlist link and it resolves directly — same one-tap flow Apple Music/Spotify links already had\n- Deezer artist pages now show real top tracks + full discography (up to 100 each), not just a flat track list\n- Deezer search results paginate (\"load more\"), merged into the same song/album results as other providers\n- \"Find on Deezer\" added alongside \"Find on Spotify\" as an in-app browser shortcut for failed downloads\n\n**Download Engine — real concurrency & speed**\n\n- Downloads used to run one at a time through a single sequential task; now use a real worker-pool so multiple tracks download in parallel\n- Concurrency is format-aware: 3 simultaneous downloads for lossy formats, capped to 2 for lossless (FLAC/ALAC), since lossless generation is much more expensive on the backend\n- Added a start-pacer that spaces out when new downloads begin (wider gap for lossless) on top of the concurrency cap — bursts of simultaneous requests were triggering backend 429/500 errors even within the concurrency limit\n- Fixed the download engine getting silently recreated from scratch whenever the Download tab's view was torn down (older iOS layout) — was orphaning in-flight downloads and losing queue state; now backed by a shared instance that survives it\n- Aggregate download speed now tracked and shown live across all active downloads\n\n**Background Downloads**\n\n- Fixed isAppActive defaulting to true on a silent background relaunch, which routed transfers through the short-lived foreground path instead of the durable background session (caused FLAC→MP3 downgrades and stalls)\n- Fixed the candidate fallback loop not checking cancellation, which let a cancelled foreground download silently complete via the MP3 fallback instead of aborting\n- Completed-but-unclaimed background download results now persist to disk so a killed/relaunched app recovers them instead of re-downloading\n- Finished tracks now persist their own .done state so a relaunch mid-queue doesn't drop them from Queue Details\n- Added a genuine background-processing task (registered at launch) so metadata fetching can run even when the app isn't open, instead of only opportunistically while active\n- Each backend candidate now uses its own requested format for its file-extension fallback instead of a hardcoded \"flac\" default\n- Plain-language failure messages in the download queue instead of raw HTTP/backend error bodies\n- Fixed link.deezer.com short links not resolving\n- Fixed a crash: removing a failed download could resurrect it (and crash on the second removal) because a stray background-session completion callback fired after removal and wrote the state back. Removal now properly cancels the underlying background task too.\n\n**Smart Playlists**\n\n- Create playlists by rule: Genre, Artist, Decade, Format, or Explicit Rating\n- Multi-select across all rule types with combined naming (e.g. \"Rock, Pop\" or \"1990s, 2000s\")\n- Live match counts, search within Genre/Artist lists, lossless-format badges\n- Artist grouping splits collab credits (\"A & B\") into separate artists, matching the on-device Artists tab\n- \"Refresh Smart Playlist\" — remembers its rule and can re-sync to catch newly matching songs\n\n**Playlists**\n\n- New naming screen matches Apple Music: photo picker, large title field, X/checkmark controls — used for manual and smart playlist creation alike\n- Custom playlist cover photos: pick a photo, it's auto-cropped to a square and uploaded using the same on-device artwork system Apple Music itself uses; persists across relaunch\n- In-playlist rename\n- Playlist restore now lists which specific tracks failed to match instead of just a count\n\n**On-Device Library**\n\n- Select/Select All controls pinned so they stay visible while scrolling\n- Select/Select All/Add to Playlist/Add to Album/Export restricted to the Songs tab; Playlists tab gets Select/Select All/Export/Delete\n- Removed redundant header title/count and Export Folder picker from non-Songs tabs\n- Audio Quality Analysis (new): tapping a song shows a verdict flagging mislabeled files (e.g. an MP3 renamed .flac), suspiciously over-compressed \"lossless\" files, and low-bitrate lossy files\n- On-device album metadata editing\n- In-place device audio file replacement\n- Content Rating redesigned from a cramped segmented control to a compact menu row, with a new \"No Rating\" option\n- Fixed the explicit/clean rating editor: a binary toggle could only ever write explicit/none, silently flipping \"clean\" tracks to explicit\n\n**Reliability Fixes**\n\n- Injection failures no longer silently drop songs from the queue — unconfirmed songs are put back\n- Repair operations (artwork fix, database doctor, alphabetical order) use per-operation cancellation tokens instead of one shared flag, so cancelling one can no longer kill an unrelated one\n- Background metadata fetch no longer double-imports a song if the process is killed mid-drain\n- Artwork upload failures during metadata edits are now reported instead of silently swallowed\n- A failed database integrity check now aborts the library merge instead of writing on top of a known-corrupt database\n- Fixed the large-batch injection safeguard checking the wrong count\n- Fixed byetunes://download deep links opening the wrong tab on iOS 16–18\n- Fixed a Live Activity race that could resurrect it right after ending; orphaned Live Activities from a killed session now clean up on cold launch\n- Removed dead Tidal/Qobuz code and a broken last-resort Spotify mapping fallback\n\n**Backup & Restore**\n\n- Merged Light/Full Backup toggle and \"Export Full Library\" into two direct-action rows; Full Backup always bundles per-playlist files\n\n**Settings**\n\n- Store Region picker upgraded from a simple inline row to a full searchable, alphabetically-grouped screen with flags\n- About/Credits moved to its own section, separate from actionable controls\n- Added \"Keep Local Metadata\" to skip the fetch pipeline for imported local files",
-          "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.5/ByeTunes.ipa",
-          "size": 16815108,
+          "version": "2.6",
+          "date": "2026-10-12",
+          "localizedDescription": "ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix\n\n# ByeTunes v2.6 – Favorites, Playlist Pinning & Background Downloads Reworked\n\nHi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.\n\n**Favorites**\n\nThere are three new options inside Library Repair:\n\n- **Create Favorites Playlist** creates the Favorites playlist using the right name for your device region.\n- **Fix Missing Favorites** repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.\n- **Delete Favorites Playlist** lets you delete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.\n\n**Quick recommendation:** if you have older injected songs that you favorited but cannot find in Favorites, run **Fix Missing Favorites** inside Library Repair.\n\n**Playlist Pinning**\n\nYou can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.\n\n**Keep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.**\n\n**Background Downloads**\n\nBackground downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.\n\nThe window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own colors or a background picture. There is a live preview in Settings so you can see how it looks before using it.\n\nThis replaces the old background download behavior and Live Activity support. Download progress now shows in the Picture in Picture window.\n\nIf the app closes while songs are still downloading, those songs go back to the front of the queue the next time you open ByeTunes.\n\nPause and Cancel were fixed too. They now properly stop background transfers instead of accidentally starting a fallback download after you already paused or cancelled the song.\n\n**Download Queue & Saving Files**\n\nDownloaded songs now get their metadata as part of the download process. You will see a \"fetching metadata\" state before the song is marked as done, instead of that work being left to a separate background metadata manager.\n\nA few other things got added or improved:\n\n- **Clear All** for completed items in the queue sheet.\n- Preview buttons in the album sheet and artist profile.\n- Icons instead of text in the download queue indicator.\n- Downloads are now limited to **2 at a time for MP3 and 1 for FLAC**, matching what the server supports. (This is temporal until I can pay for a better provider)\n- A **server status banner** appears when the server goes into maintenance. Downloads are blocked while the server is down.\n- A new **Save With Fetched Metadata** toggle that writes the fetched tags and cover artwork into the MP3 and FLAC copies you save.\n\n**Metadata Fixes**\n\nMetadata matching got a lot of attention in this update. There were cases where a remix could get the original song's information, or a song could get renamed to a different track from the same album. Those issues should now be fixed.\n\n- Downloaded songs now look up the exact Deezer track and album. An Apple Music match is only accepted if it belongs to the same album.\n- Apple Music track matching now checks the title, so songs should no longer get relabeled as another track from that album.\n- Apple Music search pages are requested in English so ByeTunes can find the Songs and Albums sections even when using a non-English storefront.\n- A Deezer result with missing artwork or an unreadable item no longer causes the entire search to come back empty.\n- The broken song.link mapping was replaced with Deezer matching, and download failures now show more accurate messages.\n\nFLAC handling was improved too. Some changes in the downloaded files were causing every song to take the album name as its title when an `ALBUMTITLE` tag was present. That is fixed now.\n\nAlbum artist is also read correctly from files using the `ALBUM ARTIST` or `album_artist` tags.\n\n**Library Management**\n\nAdded sorting, a genre filter and multi-delete to the Library management tab.\n\nFixed an issue where the library would only show some of your songs, for example just 50 tracks. ByeTunes was only scanning one folder. It now scans all folders so the rest of your songs show up too.\n\nInjected songs now use the file's creation date for a more accurate date.\n\nDeleting songs also cleans up any albums, artists and artwork entries left empty after the deletion.\n\n**Stability, Backups & Database Safety**\n\nThere were also several fixes to make injection, transfers and backups more reliable:\n\n- One unreadable local file no longer stops the whole injection batch.\n- The export folder is checked before transferring files. If it cannot be used, ByeTunes falls back to its own Exports folder.\n- Snapshot backups keep the previous snapshot until the new one finishes successfully, and only replace snapshots of the same kind.\n- The heartbeat timeout handles stale connection attempts more reliably.\n- Matched songs now save their real catalog ID in `match_redownload_params` instead of placeholder text.\n\nOverall stability and database safety were improved too.\n\n**Cleanup**\n\nThe old background metadata manager and its pending import pipeline were removed, since downloaded songs now get their metadata directly during the download process.\n\nThe Live Activity extension and download tracking were also removed as part of the move to Picture in Picture, along with the old background download behavior and unused code.\n\n**Official Backend & Building Your Own**\n\nI also added [BACKEND_TERMS.md](https://github.com/EduAlexxis/ByeTunes/blob/main/BACKEND_TERMS.md), which explains how the official hosted backend may be used. **Modified builds need to use their own backend.**\n\nIf you are building ByeTunes yourself, `Config.example.plist` is now included as a template for the backend address. The README explains how to set it up.\n\nI also reorganized the project structure. Files are now grouped into proper folders so everything is easier to find and work on. This should help anyone working on their own fork of ByeTunes understand where things are and make changes more easily. I am also considering a bigger rewrite of the app down the road, so this cleanup is a step towards that, but nothing is confirmed yet.\n\nThanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.",
+          "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
+          "size": 15631495,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/EduAlexxis/ByeTunes/releases/tag/v2.5",
+          "releaseUrl": "https://github.com/EduAlexxis/ByeTunes/releases/tag/v2.6",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "ByeTunes.ipa",
-              "downloadUrl": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.5/ByeTunes.ipa",
+              "filename": "ByeTunes.v2.6.-.Version.fix.ipa",
+              "downloadUrl": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 16815108,
-              "sha256": "e21fb481fc6a1ba8d5702dc34c33afa522c8b799479e0f0a38ed4c98525a56fa",
-              "downloads": 1226,
+              "size": 15631495,
+              "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
+              "downloads": 3,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "e21fb481fc6a1ba8d5702dc34c33afa522c8b799479e0f0a38ed4c98525a56fa",
-          "downloads": 1226
+          "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
+          "downloads": 3
         }
       ],
       "screenshotURLs": [],
@@ -1847,7 +1847,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-08-31"
+          "lastUpdatedAt": "2026-10-12"
         }
       }
     },
@@ -5281,7 +5281,7 @@
               "fileType": "APK",
               "size": 108612022,
               "sha256": "d89ffb0f4c7d73099b4227f04599fa24fb9fbc85618d72797c8bba6b55921460",
-              "downloads": 106,
+              "downloads": 108,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5317,7 +5317,7 @@
               "fileType": "APK",
               "size": 185536712,
               "sha256": "92cd4924c1c2a22f6ad88f2268bc0d4d77d5de27efc38af7fa010dcdae073c13",
-              "downloads": 22,
+              "downloads": 23,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5353,7 +5353,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 815,
+              "downloads": 827,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5365,7 +5365,7 @@
               "fileType": "APK",
               "size": 33275119,
               "sha256": "ad71c9f73d5e3879fd7f025cd0ce38c02c017f1228d48bdd8d041a01190ee86d",
-              "downloads": 28,
+              "downloads": 29,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5389,7 +5389,7 @@
               "fileType": "APK",
               "size": 88506651,
               "sha256": "00d612973399f6157b82cc6573ce13b8d98f0cd04e27f1c623e5d5bcd4000bd5",
-              "downloads": 181,
+              "downloads": 183,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5401,13 +5401,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 378,
+              "downloads": 383,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 378
+          "downloads": 383
         }
       ],
       "screenshotURLs": [],
@@ -6320,13 +6320,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3412,
+              "downloads": 3454,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3412
+          "downloads": 3454
         }
       ],
       "screenshotURLs": [
@@ -6435,13 +6435,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 482,
+              "downloads": 486,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 482
+          "downloads": 486
         }
       ],
       "screenshotURLs": [
@@ -7255,7 +7255,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23662,
+              "downloads": 23667,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7273,7 +7273,7 @@
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23662
+          "downloads": 23667
         }
       ],
       "screenshotURLs": [],
@@ -7324,18 +7324,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SoundCloud.webp",
       "tintColor": "FF5500",
       "category": "social",
-      "version": "8.81.0",
-      "versionDate": "2026-10-05",
-      "versionDescription": "SoundCloud 8.81.0 | SoundCloud-8.81.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.81.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa",
-      "size": 226507484,
+      "version": "8.82.0",
+      "versionDate": "2026-10-11",
+      "versionDescription": "SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.82.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
+      "size": 227238033,
       "versions": [
         {
-          "version": "8.81.0",
-          "date": "2026-10-05",
-          "localizedDescription": "SoundCloud 8.81.0 | SoundCloud-8.81.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.81.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa",
-          "size": 226507484,
+          "version": "8.82.0",
+          "date": "2026-10-11",
+          "localizedDescription": "SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.82.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
+          "size": 227238033,
           "minOSVersion": "16.4",
           "releaseUrl": null,
           "source": "altstore",
@@ -7343,12 +7343,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "SoundCloud-8.81.0-NexaSC.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.81.0-NexaSC.ipa",
+              "filename": "SoundCloud-8.82.0-NexaSC.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 226507484,
+              "size": 227238033,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -7417,7 +7417,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-18",
-          "lastUpdatedAt": "2026-10-05"
+          "lastUpdatedAt": "2026-10-11"
         }
       }
     },
@@ -7974,7 +7974,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 638,
+              "downloads": 642,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8004,7 +8004,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 638
+          "downloads": 642
         }
       ],
       "screenshotURLs": [],
@@ -8409,9 +8409,9 @@
           "notes": "Official IPA published by the developer on GitHub Releases."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-12",
           "lastUpdatedAt": "2026-09-16"
         }
       }
@@ -9485,63 +9485,63 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Reynard.webp",
       "tintColor": "FB3828",
       "category": "utilities",
-      "version": "0.17.0",
-      "versionDate": "2026-10-11",
-      "versionDescription": "Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### Improvements\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\n\n### New Features\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).",
-      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
-      "size": 109222723,
+      "version": "0.17.1",
+      "versionDate": "2026-10-12",
+      "versionDescription": "Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\n- Fixed a crash when editing in scrollable text fields on iOS 14 and older.\n- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.\n- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.\n- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.\n- Fixed an issue where images copied from another app would not paste into webpages.",
+      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
+      "size": 109225943,
       "versions": [
         {
-          "version": "0.17.0",
-          "date": "2026-10-11",
-          "localizedDescription": "Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### Improvements\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\n\n### New Features\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
-          "size": 109222723,
+          "version": "0.17.1",
+          "date": "2026-10-12",
+          "localizedDescription": "Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\n- Fixed a crash when editing in scrollable text fields on iOS 14 and older.\n- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.\n- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.\n- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.\n- Fixed an issue where images copied from another app would not paste into webpages.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
+          "size": 109225943,
           "minOSVersion": "13.0",
-          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.17.1",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Reynard-Jailbroken.ipa",
-              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard-Jailbroken.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 109254146,
-              "sha256": "f205038d8d1f318eba00bdfe7ea9a815fe25ba12eb30ad6746365851335a0d6c",
-              "downloads": 106,
+              "size": 109263826,
+              "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
+              "downloads": 19,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Reynard-TrollStore.tipa",
-              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard-TrollStore.tipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 109308328,
-              "sha256": "0baaa2b0e6f60f61bf2f20ef9df7e319f39a2a7da5e32eb6c83b7d0239b4611c",
-              "downloads": 708,
+              "size": 109311241,
+              "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
+              "downloads": 190,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Reynard.ipa",
-              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 109222723,
-              "sha256": "2c68228cf63b643d354a1921d8194b9c1b4ce428e7d4c744e61561e3c4088f3a",
-              "downloads": 201,
+              "size": 109225943,
+              "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
+              "downloads": 55,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "2c68228cf63b643d354a1921d8194b9c1b4ce428e7d4c744e61561e3c4088f3a",
-          "downloads": 201
+          "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
+          "downloads": 55
         }
       ],
       "screenshotURLs": [],
@@ -9579,7 +9579,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-10-11"
+          "lastUpdatedAt": "2026-10-12"
         }
       }
     },
@@ -9768,8 +9768,8 @@
           "notes": "The IG 410 line from the developer's own source (source.ryuksign.com/ig410); versions track the Instagram base build rather than the RyukGram tweak version. Shares com.burbn.instagram with RyukGram, RyukGram Side by Side's sibling builds and iNKillerPlus — install one Instagram mod at a time."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "timed out",
+          "downloadReachable": true,
+          "detail": "HTTP 200",
           "statusSince": "2026-10-12",
           "lastUpdatedAt": "2026-07-25"
         }
@@ -9854,8 +9854,8 @@
           "notes": "Distinct bundle identifier (com.ryuk.ryukgram) from the developer's own source, so it does not clash with Instagram or the other Instagram mods in this catalog. iPadOS is supported by the upstream build."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "timed out",
+          "downloadReachable": true,
+          "detail": "HTTP 200",
           "statusSince": "2026-10-12",
           "lastUpdatedAt": "2026-10-03"
         }
@@ -11465,7 +11465,7 @@
               "fileType": "APK",
               "size": 217877725,
               "sha256": "b93dc1b21530d82d626acbf46667d4b56a1737f3dd1b04dcfa32364172cbbfff",
-              "downloads": 1395,
+              "downloads": 1397,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11477,7 +11477,7 @@
               "fileType": "APK",
               "size": 216822002,
               "sha256": "336a7fe09d3a00c93938c750acc9bcac4fa6bfb4ff01ece8ac67543a9dbd7563",
-              "downloads": 144,
+              "downloads": 146,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11513,13 +11513,13 @@
               "fileType": "IPA",
               "size": 73400511,
               "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-              "downloads": 80,
+              "downloads": 85,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-          "downloads": 80
+          "downloads": 85
         }
       ],
       "screenshotURLs": [],
@@ -12578,7 +12578,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 371258,
+              "downloads": 371400,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12590,12 +12590,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1264694,
+              "downloads": 1265100,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1264694
+          "downloads": 1265100
         }
       ],
       "screenshotURLs": [],
@@ -12882,7 +12882,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 730,
+              "downloads": 734,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12894,13 +12894,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2129,
+              "downloads": 2140,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2129
+          "downloads": 2140
         }
       ],
       "screenshotURLs": [],
@@ -15171,111 +15171,111 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Zeus.webp",
       "tintColor": "FFC800",
       "category": "utilities",
-      "version": "13.2.2",
-      "versionDate": "2026-09-23",
-      "versionDescription": "Zeus 13.2.2 | zeus-v13.2.2\n\n<img width=\"1200\" height=\"670\" alt=\"ZEUS v13.2.2\" src=\"https://github.com/user-attachments/assets/8923813a-db5e-4984-a78d-7586e075f2f8\" />\n\n> [!WARNING]\n> **iOS users running ZEUS on more than one device are advised to read the warning below!**\n\n## v13.2.2 Highlights:\n\n- Embedded LND v0.21.3-beta\n- Swaps: SATS Routing (new default) and Coinos added as providers\n- iOS: automatic cleanup of stale iCloud Keychain wallet data (**see note below**)\n- Nostr Wallet Connect: view connection secrets after creation, stricter connection string validation\n- Cashu: P2PK locked token fixes\n- LND: imported account receive fixes\n- Seed recovery: catch typos before restoring\n- Channel migration export when the node won't start\n- Further security hardening measures\n- Miscellaneous bug fixes\n- Miscellaneous UI improvements\n\n> [!WARNING]\n> ### iOS users running ZEUS on more than one device\n>\n> Due to a bug in a third-party dependency, older versions of ZEUS unintentionally stored wallet data (including seeds and connection credentials) in the iCloud-synced keychain rather than in device-only storage. iCloud Keychain is end-to-end encrypted: the data was only readable by your own trusted devices, not by Apple or anyone else, and we have no indication that any user data was exposed. It did, however, have unintended side effects, such as stale or deleted wallet data reappearing on new or restored devices signed into the same Apple ID. It also ran against our principle that seeds should never leave your device. This release moves that data into device-local storage and then **automatically and permanently deletes the iCloud-synced copies**. No prompt is shown.\n>\n> If iCloud Keychain is enabled, that deletion propagates to every device signed into the same Apple ID. The first device you open on v13.2.2 keeps a local copy of everything and then removes the iCloud copies. **Any other device that has not yet been opened on v13.2.2 will lose its saved wallet configurations**, because older versions kept that data only in the synced keychain and had no separate on-device copy. This applies whether that device is still on an older version or has only auto-updated in the background. Because whichever device opens first performs the cleanup, no update order avoids this. Devices with iCloud Keychain turned off are not affected.\n>\n> **Before updating, on each device:**\n> - Make sure you have your seed phrase backed up for every embedded wallet (and your Cashu seed, if you use ecash)\n> - Export your wallet configurations via `Menu` > `Tools` > `Export/Import Wallet Configurations`\n>\n> **If a device loses its wallets:** your funds are not affected. Restore from your seed phrase, or import a wallet configuration export. The first device you opened on v13.2.2 still holds all of the data and can produce that export.\n>\n> Going forward, ZEUS wallet data will no longer appear automatically on new devices signed into your Apple ID. That behavior was never an intended feature, and embedded node wallets never transferred correctly through it. Single-device and Android users are not affected.\n\n## What's Changed\n* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4206\n* deps: patch ws, js-yaml, and markdown-it security alerts by @kaloudis in https://github.com/ZeusLN/zeus/pull/4214\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4219\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4220\n* docs: add Claude Code skill library under .claude/skills by @kaloudis in https://github.com/ZeusLN/zeus/pull/4209\n* fix: poll status for free LSPS1/LSPS7 orders by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4204\n* fix: display units for invoice expiry and CLTV expiry by @kaloudis in https://github.com/ZeusLN/zeus/pull/4225\n* SwipeButton: lock knob in place after successful swipe by @kaloudis in https://github.com/ZeusLN/zeus/pull/4224\n* fix: use TextInput suffix for fee limit percent fields by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4228\n* backends: fix amountless invoice creation for LDK Node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4232\n* chore(deps): bump protobufjs from 7.6.3 to 7.6.5 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4235\n* chore(deps): bump brace-expansion from 1.1.11 to 1.1.16 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4234\n* chore(deps): bump brace-expansion from 5.0.6 to 5.0.7 in /zeus_modules/@lightninglabs/lnc-rn by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4236\n* [feat] LND v0.21-beta by @kaloudis in https://github.com/ZeusLN/zeus/pull/4177\n* Receive: surface Flow LSP proposal rejection as dismissable warning by @kaloudis in https://github.com/ZeusLN/zeus/pull/4233\n* chore(deps): bump shell-quote from 1.8.4 to 1.10.0 in /zeus_modules/@lightninglabs/lnc-rn by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4237\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4238\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4240\n* fix: deep links handled twice with 'Select wallet on start-up' by @kaloudis in https://github.com/ZeusLN/zeus/pull/4226\n* stores: prevent stale closeChannel error from wiping channel list by @kaloudis in https://github.com/ZeusLN/zeus/pull/4230\n* chore(deps): bump fast-uri from 3.1.2 to 3.1.4 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4241\n* chore(deps): bump svgo from 3.3.3 to 3.3.4 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4242\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4243\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4244\n* ci: add Dependabot config for npm and GitHub Actions version updates by @kaloudis in https://github.com/ZeusLN/zeus/pull/4215\n* chore(deps): bump @babel/preset-env from 7.22.15 to 7.29.7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4256\n* chore(deps): bump mobx from 5.15.3 to 5.15.7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4253\n* ci: bump actions/setup-node from 6 to 7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4245\n* ci: bump actions/checkout from 6 to 7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4246\n* fix: prevent Security settings UI flash on open by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4239\n* chore(deps): bump events from 1.1.1 to 3.3.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4248\n* chore(deps): bump concurrently from 9.1.2 to 10.0.3 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4251\n* chore(deps): bump protobufjs-cli from 1.3.3 to 2.0.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4252\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4259\n* chore(deps): bump 47 minor and patch dependencies (slimmed #4247) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4260\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4263\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4264\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4265\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4266\n* chore(deps): bump json from 2.19.2 to 2.19.9 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4267\n* chore(deps): bump valibot from 1.2.0 to 1.4.2 by @dependabot[bot] in https://github.com/Ze…",
-      "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2.ipa",
-      "size": 80785921,
+      "version": "13.2.3",
+      "versionDate": "2026-10-12",
+      "versionDescription": "Zeus 13.2.3 | zeus-v13.2.3\n\n<img width=\"1200\" height=\"670\" alt=\"ZEUS v13.2.3\" src=\"https://github.com/user-attachments/assets/471167a9-3581-4fc7-ba78-57668e721e6d\" />\n\n## v13.2.3 Highlights:\n\n- Embedded LND v0.21.4\n- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security fixes)\n- Further security hardening measures\n- Miscellaneous bug fixes\n- Miscellaneous UI improvements never transferred correctly through it. Single-device and Android users are not affected.\n\n## What's Changed\n* build: make Xcode Cloud post-clone survive Intel runners by @kaloudis in https://github.com/ZeusLN/zeus/pull/4677\n* Verify LSP wrapped invoices against the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/pull/4673\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4679\n* locales: fix 17 broken localeString references, add en.json coverage test by @kaloudis in https://github.com/ZeusLN/zeus/pull/4674\n* fix(ui): swap the GIF loading indicator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus/pull/4678\n* fix(channels): require a host when connecting a peer by @kaloudis in https://github.com/ZeusLN/zeus/pull/4644\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4681\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4682\n* tests: scan all literal keys in localeString calls by @kaloudis in https://github.com/ZeusLN/zeus/pull/4680\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4683\n* tests: surface coverage summary in CI logs and PR comments by @kaloudis in https://github.com/ZeusLN/zeus/pull/4676\n* fix(security): bind LNURL-auth callback host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pull/4576\n* build(ios): refresh Podfile.lock for react-native-get-random-values 2.0.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4691\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4690\n* tests: cover StealthModeUtils, which had none by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4685\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4692\n* chore(deps): bump assert from 1.5.0 to 2.1.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4607\n* chore(deps): bump react-native-reanimated to 4.7.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4689\n* fix: LSP and LSPS1 reset button visibility and Olympus detection by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4664\n* fix(lsps1): show empty state when no orders match the current node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4704\n* fix(recovery): guard clearLegacyLocations behind __DEV__ by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4694\n* stores: no node calls until a wallet is picked by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4450\n* fix: gate simple taproot reset on backend support by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4705\n* fix: keep preset amounts when fiat has no rate by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4651\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4722\n* fix(lsps): arm custom-message timeout per-request, not per-subscription by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4702\n* fix(nwc): point empty NWC budget at Cashu settings when Lightning balance is zero by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4662\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4732\n* chore(deps): bump metro to 0.84.6 to drop image-size by @kaloudis in https://github.com/ZeusLN/zeus/pull/4734\n* views: drop the latch before taking the fetch lock by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4726\n* build: stop tracking LDK Node jniLibs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4737\n* Balance view: stop double counting unconfirmed on-chain funds by @kaloudis in https://github.com/ZeusLN/zeus/pull/4515\n* utils: stop accepting mainnet bech32 addresses on testnet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4721\n* utils: accept uppercase Lightning Address domains by @kaloudis in https://github.com/ZeusLN/zeus/pull/4731\n* remove SATSCARD bounty by @kaloudis in https://github.com/ZeusLN/zeus/pull/4767\n* docs: ask first-time contributors to disclose AI assistance by @kaloudis in https://github.com/ZeusLN/zeus/pull/4772\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4773\n* utils: share one LUD-16 lnurlp URL builder by @kaloudis in https://github.com/ZeusLN/zeus/pull/4762\n* fix(nwc): don't crash NWC settings when settings have no ecash key by @kaloudis in https://github.com/ZeusLN/zeus/pull/4763\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4777\n* nostr: lowercase NIP-05 identifiers before lookup by @kaloudis in https://github.com/ZeusLN/zeus/pull/4761\n* SweepStore: use regtest and testnet params on regtest and signet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4758\n* fix(balance): count a force close with an unconfirmed sweep once by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4775\n* chore(deps): bump @nostr-dev-kit/ndk to 3.0.3 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4701\n* AddressUtils: validate destinations against the node's network in one place by @kaloudis in https://github.com/ZeusLN/zeus/pull/4759\n* handleAnything: drop wrong-network addresses from unified URIs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4760\n* fix: harden the BIP 353 lookup (skip .onion, encode the query name) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4729\n* fix(settings): don't crash when a stored blob is missing a settings group by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4788\n* fix: avoid spurious node refetch after unlocking by @myxmaster in https://github.com/ZeusLN/zeus/pull/4423\n* LnurlChannel: use the themed Switch component by @kaloudis in https://github.com/ZeusLN/zeus/pull/4790\n* [feat] chore(deps): bump react-native to 0.87.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4566\n* build(deps): bump brace-expansion from 1.1.16 to 1.1.21 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4795\n* chore(deps): bump moment from 2.30.1 to 2.31.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4794\n* fix: pay BIP 353 offers from records with multiple params by @kaloudis in https://github.com/ZeusLN/zeus/pull/4658\n* chore(deps): bump brace-expansion and markdown-it to patched versions by @kaloudis in https://github.com/ZeusLN/zeus/pull/4798\n* chore(proto): regenerate bindings with protobufjs 8.8.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4799\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4801\n* chore(deps): bump minor and patch dependencies from #4796 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4800\n* Avoid keyboard-inserted spaces in URL and host inputs by @myxmaster in https://github.com/ZeusLN/zeus/pull/4793\n* chore(deps): bump react-native-nitro-tor from 0.6.0 to 0.6.1 in the minor-and-patch group across 1 directory by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4805\n* chore(ios): update Podfile.lock for react-native-nitro-tor 0.6.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4808\n* Handle LightningAddressStore promise rejections by @kaloudis in https://github.com/ZeusLN/zeus/pull/4485\n* fix(bolt12): show the actual payment outcome after LDK direct pay by @kaloudis in https://github.com/ZeusLN/zeus/pull/4307\n* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules…",
+      "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
+      "size": 79812840,
       "versions": [
         {
-          "version": "13.2.2",
-          "date": "2026-09-23",
-          "localizedDescription": "Zeus 13.2.2 | zeus-v13.2.2\n\n<img width=\"1200\" height=\"670\" alt=\"ZEUS v13.2.2\" src=\"https://github.com/user-attachments/assets/8923813a-db5e-4984-a78d-7586e075f2f8\" />\n\n> [!WARNING]\n> **iOS users running ZEUS on more than one device are advised to read the warning below!**\n\n## v13.2.2 Highlights:\n\n- Embedded LND v0.21.3-beta\n- Swaps: SATS Routing (new default) and Coinos added as providers\n- iOS: automatic cleanup of stale iCloud Keychain wallet data (**see note below**)\n- Nostr Wallet Connect: view connection secrets after creation, stricter connection string validation\n- Cashu: P2PK locked token fixes\n- LND: imported account receive fixes\n- Seed recovery: catch typos before restoring\n- Channel migration export when the node won't start\n- Further security hardening measures\n- Miscellaneous bug fixes\n- Miscellaneous UI improvements\n\n> [!WARNING]\n> ### iOS users running ZEUS on more than one device\n>\n> Due to a bug in a third-party dependency, older versions of ZEUS unintentionally stored wallet data (including seeds and connection credentials) in the iCloud-synced keychain rather than in device-only storage. iCloud Keychain is end-to-end encrypted: the data was only readable by your own trusted devices, not by Apple or anyone else, and we have no indication that any user data was exposed. It did, however, have unintended side effects, such as stale or deleted wallet data reappearing on new or restored devices signed into the same Apple ID. It also ran against our principle that seeds should never leave your device. This release moves that data into device-local storage and then **automatically and permanently deletes the iCloud-synced copies**. No prompt is shown.\n>\n> If iCloud Keychain is enabled, that deletion propagates to every device signed into the same Apple ID. The first device you open on v13.2.2 keeps a local copy of everything and then removes the iCloud copies. **Any other device that has not yet been opened on v13.2.2 will lose its saved wallet configurations**, because older versions kept that data only in the synced keychain and had no separate on-device copy. This applies whether that device is still on an older version or has only auto-updated in the background. Because whichever device opens first performs the cleanup, no update order avoids this. Devices with iCloud Keychain turned off are not affected.\n>\n> **Before updating, on each device:**\n> - Make sure you have your seed phrase backed up for every embedded wallet (and your Cashu seed, if you use ecash)\n> - Export your wallet configurations via `Menu` > `Tools` > `Export/Import Wallet Configurations`\n>\n> **If a device loses its wallets:** your funds are not affected. Restore from your seed phrase, or import a wallet configuration export. The first device you opened on v13.2.2 still holds all of the data and can produce that export.\n>\n> Going forward, ZEUS wallet data will no longer appear automatically on new devices signed into your Apple ID. That behavior was never an intended feature, and embedded node wallets never transferred correctly through it. Single-device and Android users are not affected.\n\n## What's Changed\n* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4206\n* deps: patch ws, js-yaml, and markdown-it security alerts by @kaloudis in https://github.com/ZeusLN/zeus/pull/4214\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4219\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4220\n* docs: add Claude Code skill library under .claude/skills by @kaloudis in https://github.com/ZeusLN/zeus/pull/4209\n* fix: poll status for free LSPS1/LSPS7 orders by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4204\n* fix: display units for invoice expiry and CLTV expiry by @kaloudis in https://github.com/ZeusLN/zeus/pull/4225\n* SwipeButton: lock knob in place after successful swipe by @kaloudis in https://github.com/ZeusLN/zeus/pull/4224\n* fix: use TextInput suffix for fee limit percent fields by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4228\n* backends: fix amountless invoice creation for LDK Node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4232\n* chore(deps): bump protobufjs from 7.6.3 to 7.6.5 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4235\n* chore(deps): bump brace-expansion from 1.1.11 to 1.1.16 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4234\n* chore(deps): bump brace-expansion from 5.0.6 to 5.0.7 in /zeus_modules/@lightninglabs/lnc-rn by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4236\n* [feat] LND v0.21-beta by @kaloudis in https://github.com/ZeusLN/zeus/pull/4177\n* Receive: surface Flow LSP proposal rejection as dismissable warning by @kaloudis in https://github.com/ZeusLN/zeus/pull/4233\n* chore(deps): bump shell-quote from 1.8.4 to 1.10.0 in /zeus_modules/@lightninglabs/lnc-rn by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4237\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4238\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4240\n* fix: deep links handled twice with 'Select wallet on start-up' by @kaloudis in https://github.com/ZeusLN/zeus/pull/4226\n* stores: prevent stale closeChannel error from wiping channel list by @kaloudis in https://github.com/ZeusLN/zeus/pull/4230\n* chore(deps): bump fast-uri from 3.1.2 to 3.1.4 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4241\n* chore(deps): bump svgo from 3.3.3 to 3.3.4 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4242\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4243\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4244\n* ci: add Dependabot config for npm and GitHub Actions version updates by @kaloudis in https://github.com/ZeusLN/zeus/pull/4215\n* chore(deps): bump @babel/preset-env from 7.22.15 to 7.29.7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4256\n* chore(deps): bump mobx from 5.15.3 to 5.15.7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4253\n* ci: bump actions/setup-node from 6 to 7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4245\n* ci: bump actions/checkout from 6 to 7 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4246\n* fix: prevent Security settings UI flash on open by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4239\n* chore(deps): bump events from 1.1.1 to 3.3.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4248\n* chore(deps): bump concurrently from 9.1.2 to 10.0.3 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4251\n* chore(deps): bump protobufjs-cli from 1.3.3 to 2.0.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4252\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4259\n* chore(deps): bump 47 minor and patch dependencies (slimmed #4247) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4260\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4263\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4264\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4265\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4266\n* chore(deps): bump json from 2.19.2 to 2.19.9 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4267\n* chore(deps): bump valibot from 1.2.0 to 1.4.2 by @dependabot[bot] in https://github.com/Ze…",
-          "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2.ipa",
-          "size": 80785921,
+          "version": "13.2.3",
+          "date": "2026-10-12",
+          "localizedDescription": "Zeus 13.2.3 | zeus-v13.2.3\n\n<img width=\"1200\" height=\"670\" alt=\"ZEUS v13.2.3\" src=\"https://github.com/user-attachments/assets/471167a9-3581-4fc7-ba78-57668e721e6d\" />\n\n## v13.2.3 Highlights:\n\n- Embedded LND v0.21.4\n- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security fixes)\n- Further security hardening measures\n- Miscellaneous bug fixes\n- Miscellaneous UI improvements never transferred correctly through it. Single-device and Android users are not affected.\n\n## What's Changed\n* build: make Xcode Cloud post-clone survive Intel runners by @kaloudis in https://github.com/ZeusLN/zeus/pull/4677\n* Verify LSP wrapped invoices against the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/pull/4673\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4679\n* locales: fix 17 broken localeString references, add en.json coverage test by @kaloudis in https://github.com/ZeusLN/zeus/pull/4674\n* fix(ui): swap the GIF loading indicator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus/pull/4678\n* fix(channels): require a host when connecting a peer by @kaloudis in https://github.com/ZeusLN/zeus/pull/4644\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4681\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4682\n* tests: scan all literal keys in localeString calls by @kaloudis in https://github.com/ZeusLN/zeus/pull/4680\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4683\n* tests: surface coverage summary in CI logs and PR comments by @kaloudis in https://github.com/ZeusLN/zeus/pull/4676\n* fix(security): bind LNURL-auth callback host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pull/4576\n* build(ios): refresh Podfile.lock for react-native-get-random-values 2.0.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4691\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4690\n* tests: cover StealthModeUtils, which had none by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4685\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4692\n* chore(deps): bump assert from 1.5.0 to 2.1.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4607\n* chore(deps): bump react-native-reanimated to 4.7.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4689\n* fix: LSP and LSPS1 reset button visibility and Olympus detection by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4664\n* fix(lsps1): show empty state when no orders match the current node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4704\n* fix(recovery): guard clearLegacyLocations behind __DEV__ by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4694\n* stores: no node calls until a wallet is picked by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4450\n* fix: gate simple taproot reset on backend support by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4705\n* fix: keep preset amounts when fiat has no rate by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4651\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4722\n* fix(lsps): arm custom-message timeout per-request, not per-subscription by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4702\n* fix(nwc): point empty NWC budget at Cashu settings when Lightning balance is zero by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4662\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4732\n* chore(deps): bump metro to 0.84.6 to drop image-size by @kaloudis in https://github.com/ZeusLN/zeus/pull/4734\n* views: drop the latch before taking the fetch lock by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4726\n* build: stop tracking LDK Node jniLibs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4737\n* Balance view: stop double counting unconfirmed on-chain funds by @kaloudis in https://github.com/ZeusLN/zeus/pull/4515\n* utils: stop accepting mainnet bech32 addresses on testnet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4721\n* utils: accept uppercase Lightning Address domains by @kaloudis in https://github.com/ZeusLN/zeus/pull/4731\n* remove SATSCARD bounty by @kaloudis in https://github.com/ZeusLN/zeus/pull/4767\n* docs: ask first-time contributors to disclose AI assistance by @kaloudis in https://github.com/ZeusLN/zeus/pull/4772\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4773\n* utils: share one LUD-16 lnurlp URL builder by @kaloudis in https://github.com/ZeusLN/zeus/pull/4762\n* fix(nwc): don't crash NWC settings when settings have no ecash key by @kaloudis in https://github.com/ZeusLN/zeus/pull/4763\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4777\n* nostr: lowercase NIP-05 identifiers before lookup by @kaloudis in https://github.com/ZeusLN/zeus/pull/4761\n* SweepStore: use regtest and testnet params on regtest and signet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4758\n* fix(balance): count a force close with an unconfirmed sweep once by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4775\n* chore(deps): bump @nostr-dev-kit/ndk to 3.0.3 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4701\n* AddressUtils: validate destinations against the node's network in one place by @kaloudis in https://github.com/ZeusLN/zeus/pull/4759\n* handleAnything: drop wrong-network addresses from unified URIs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4760\n* fix: harden the BIP 353 lookup (skip .onion, encode the query name) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4729\n* fix(settings): don't crash when a stored blob is missing a settings group by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4788\n* fix: avoid spurious node refetch after unlocking by @myxmaster in https://github.com/ZeusLN/zeus/pull/4423\n* LnurlChannel: use the themed Switch component by @kaloudis in https://github.com/ZeusLN/zeus/pull/4790\n* [feat] chore(deps): bump react-native to 0.87.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4566\n* build(deps): bump brace-expansion from 1.1.16 to 1.1.21 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4795\n* chore(deps): bump moment from 2.30.1 to 2.31.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4794\n* fix: pay BIP 353 offers from records with multiple params by @kaloudis in https://github.com/ZeusLN/zeus/pull/4658\n* chore(deps): bump brace-expansion and markdown-it to patched versions by @kaloudis in https://github.com/ZeusLN/zeus/pull/4798\n* chore(proto): regenerate bindings with protobufjs 8.8.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4799\n* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4801\n* chore(deps): bump minor and patch dependencies from #4796 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4800\n* Avoid keyboard-inserted spaces in URL and host inputs by @myxmaster in https://github.com/ZeusLN/zeus/pull/4793\n* chore(deps): bump react-native-nitro-tor from 0.6.0 to 0.6.1 in the minor-and-patch group across 1 directory by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4805\n* chore(ios): update Podfile.lock for react-native-nitro-tor 0.6.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4808\n* Handle LightningAddressStore promise rejections by @kaloudis in https://github.com/ZeusLN/zeus/pull/4485\n* fix(bolt12): show the actual payment outcome after LDK direct pay by @kaloudis in https://github.com/ZeusLN/zeus/pull/4307\n* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules…",
+          "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
+          "size": 79812840,
           "minOSVersion": "15.1",
-          "releaseUrl": "https://github.com/ZeusLN/zeus/releases/tag/v13.2.2",
+          "releaseUrl": "https://github.com/ZeusLN/zeus/releases/tag/v13.2.3",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "manifest-v13.2.2.txt",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/manifest-v13.2.2.txt",
+              "filename": "manifest-v13.2.3.txt",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/manifest-v13.2.3.txt",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
               "size": 861,
-              "sha256": "9591c6d8417be0edb8aab9128f190cc32c1ce62f87b93225cb26e695606e247a",
-              "downloads": 23,
+              "sha256": "ba54abd0b3d063b240cc9cec8d84a23136ed17e602bb38da673b36ffcb4c26eb",
+              "downloads": 0,
               "mimeType": "text/plain",
               "installable": false
             },
             {
-              "filename": "manifest-v13.2.2.txt.sig",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/manifest-v13.2.2.txt.sig",
+              "filename": "manifest-v13.2.3.txt.sig",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/manifest-v13.2.3.txt.sig",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
               "size": 615,
-              "sha256": "359ded3d552204477bf365a1c4ca7165f6b2b84425177b6906d354118d3fa444",
-              "downloads": 15,
+              "sha256": "b43191ad247fe0cb1b2561b731fb0205893f362eb4f309a5b339cd63fcbb5c2d",
+              "downloads": 0,
               "mimeType": "application/octet-stream",
               "installable": false
             },
             {
-              "filename": "zeus-v13.2.2-arm64-v8a.apk",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2-arm64-v8a.apk",
+              "filename": "zeus-v13.2.3-arm64-v8a.apk",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3-arm64-v8a.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 104939073,
-              "sha256": "e1850e6ac95e705e1535630f8e23b369b3dcbdad21594d2e8a64c6a368ec051e",
-              "downloads": 730,
+              "size": 99749394,
+              "sha256": "d27b1841b434e3d0652935266aef3f02777435f66d4eb0f4f4e99606e2ecc96a",
+              "downloads": 26,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "zeus-v13.2.2-armeabi-v7a.apk",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2-armeabi-v7a.apk",
+              "filename": "zeus-v13.2.3-armeabi-v7a.apk",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3-armeabi-v7a.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 100888191,
-              "sha256": "72cb84e6c6af4854cc2782a727db2cabfed32b367b4b722280890a12cc751415",
-              "downloads": 8,
+              "size": 96022096,
+              "sha256": "0e54b67551390551eed02297ae20671a3eb3886087939798a055bbcb8c6222d4",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "zeus-v13.2.2-universal.apk",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2-universal.apk",
+              "filename": "zeus-v13.2.3-universal.apk",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3-universal.apk",
               "platform": "android",
               "architecture": "universal",
               "fileType": "APK",
-              "size": 212181444,
-              "sha256": "e531241503d9cdc4b16ea712067c22e67758789a3104353a47c43d815b9230e1",
-              "downloads": 10,
+              "size": 208343445,
+              "sha256": "64cfed93c08748ce200579557a3d86be5e66f6cbccc52aaf457ff1185000bfed",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "zeus-v13.2.2-x86_64.apk",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2-x86_64.apk",
+              "filename": "zeus-v13.2.3-x86_64.apk",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3-x86_64.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 107281892,
-              "sha256": "7ed2ba0f75ee295b53792474abfee552fbc58efc4da00f4b75eb999f8401af3e",
-              "downloads": 7,
+              "size": 102174133,
+              "sha256": "ac9ce06c551987fff7fbbacfaadfb7904517cb3031a6f1c9050b9d54feba10e7",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "zeus-v13.2.2.ipa",
-              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.2/zeus-v13.2.2.ipa",
+              "filename": "zeus-v13.2.3.ipa",
+              "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 80785921,
-              "sha256": "968a828196ae65d7c40b98a49cc3c59a1af6bf6b1bd2dc7d98657171affbda35",
-              "downloads": 123,
+              "size": 79812840,
+              "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
+              "downloads": 1,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "968a828196ae65d7c40b98a49cc3c59a1af6bf6b1bd2dc7d98657171affbda35",
-          "downloads": 123
+          "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
+          "downloads": 1
         }
       ],
       "screenshotURLs": [],
@@ -15313,12 +15313,21 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-09-23"
+          "lastUpdatedAt": "2026-10-12"
         }
       }
     }
   ],
   "news": [
+    {
+      "title": "Zeus v13.2.3",
+      "identifier": "news-zeus-13-2-3",
+      "caption": "Self-custodial Bitcoin and Lightning wallet",
+      "date": "2026-10-12",
+      "appID": "com.zeusln.zeus",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Zeus.webp",
+      "notify": true
+    },
     {
       "title": "StikDebug v3.1.14",
       "identifier": "news-stikdebug-3-1-14",
@@ -15326,6 +15335,24 @@
       "date": "2026-10-12",
       "appID": "com.stik.stikdebug",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/StikDebug.webp",
+      "notify": true
+    },
+    {
+      "title": "Reynard v0.17.1",
+      "identifier": "news-reynard-0-17-1",
+      "caption": "Gecko-based browser, a real WebKit alternative",
+      "date": "2026-10-12",
+      "appID": "com.minh-ton.Reynard",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Reynard.webp",
+      "notify": true
+    },
+    {
+      "title": "ByeTunes v2.6",
+      "identifier": "news-byetunes-2-6",
+      "caption": "Add music to the iOS library without a computer",
+      "date": "2026-10-12",
+      "appID": "com.EduAlexxis.MusicManager",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/ByeTunes.webp",
       "notify": true
     },
     {
@@ -15380,33 +15407,6 @@
       "date": "2026-10-11",
       "appID": "wiki.qaq.TrollFools",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/TrollFools.webp",
-      "notify": true
-    },
-    {
-      "title": "SpotiFLAC Mobile v5.1.1",
-      "identifier": "news-spotiflac-5-1-1",
-      "caption": "FLAC Downloader for iOS",
-      "date": "2026-10-11",
-      "appID": "com.zarz.spotiflacAndroid",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
-      "notify": true
-    },
-    {
-      "title": "Reynard v0.17.0",
-      "identifier": "news-reynard-0-17-0",
-      "caption": "Gecko-based browser, a real WebKit alternative",
-      "date": "2026-10-11",
-      "appID": "com.minh-ton.Reynard",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Reynard.webp",
-      "notify": true
-    },
-    {
-      "title": "Table Habit v1.27.13",
-      "identifier": "news-tablehabit-1-27-13",
-      "caption": "Open-source micro-habit tracker with WebDAV sync",
-      "date": "2026-10-10",
-      "appID": "io.github.friesi23.mhabit",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/TableHabit.webp",
       "notify": true
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-12",
-  "feedVersion": "f74372fe8a14",
+  "feedVersion": "3e0218bc4c47",
   "app": {
     "id": "playtorrio",
     "name": "PlayTorrio",
@@ -30,8 +30,8 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/playtorrio/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/playtorrio.json",
     "health": {
-      "reachable": true,
-      "detail": "HTTP 302",
+      "reachable": false,
+      "detail": "HTTP 404",
       "updatedAt": "2026-09-16"
     }
   },
@@ -52,8 +52,8 @@
     }
   ],
   "verification": {
-    "status": "VERIFIED",
-    "level": "VERIFIED",
+    "status": "UNVERIFIED",
+    "level": "UNVERIFIED",
     "method": "github-release"
   }
 }
