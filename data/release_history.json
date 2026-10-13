@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T15:56:11Z",
+  "generatedAt": "2026-10-13T14:29:30Z",
   "appCount": 131,
-  "releases": 302,
+  "releases": 304,
   "apps": {
     "3105": [
       {
@@ -438,13 +438,23 @@
     ],
     "dopamine": [
       {
+        "version": "3.0.11",
+        "date": "2026-10-12",
+        "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa",
+        "size": 55420987,
+        "sha256": "fbd5b9086634cac0b6c7e5ba95c43d8c40ecafd814f8e620beb06f355480b973",
+        "localizedDescription": "Dopamine 3.0.11 | Dopamine\n\n- Fix support for iOS 26.0 beta 1 [3.0.1 regression]\n- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)\n- Update opainject and litehook",
+        "status": "current",
+        "firstSeen": "2026-10-13T14:29:30Z"
+      },
+      {
         "version": "3.0.10",
         "date": "2026-09-23",
         "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.10/Dopamine.ipa",
         "size": 55415420,
         "sha256": "de8c87b564326e6b15bfc523ba764d343113bb2fa7582f637727d6fdc385f4b9",
         "localizedDescription": "Dopamine 3.0.10 | Dopamine\n\n- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Requires frida >=17.19.0) (contributed by @devnoname120)\n- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-24T12:05:34Z"
       },
       {
@@ -940,13 +950,23 @@
     ],
     "mangayomi": [
       {
+        "version": "0.9.9",
+        "date": "2026-10-12",
+        "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
+        "size": 114603425,
+        "sha256": "21f13c65ccfd8cd6796df303820d8fbd436488645a5571bf9fae55ec1084b074",
+        "localizedDescription": "Mangayomi 0.9.9 | Mangayomi-v0.9.9-ios\n\n## What's Changed\n* fix(extension): enable mobile code copy by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1039\n* fix(reader): restore double-tap zoom toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037\n* feat(player): add hold-and-slide speed selector by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1038\n* fix(http): drop the quotes Linux wraps the saved user agent in by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1036\n* fix(security): show what deep links install and keep tokens out of sh… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1041\n* chore: await dropped writes, add guard lints, localize hardcoded strings by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1042\n* refactor: move the tracker library cache from Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1043\n* refactor: split large widget files and remove duplicated code by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044\n* Try to fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1035\n* Add a protected HLS proxy for extension playback by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1040\n* Fix reader by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051\n* fix(mobile): improve player controls and error handling by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1047\n* fix(restore): improve error handling and reporting during restore ope… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1052\n* fix(reader): pan a zoomed webtoon page without losing double tap by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1054\n* ci: run the test suite on pull requests and main by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056\n* Use neutral icons for extension repositories by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1045\n* Ad",
+        "status": "current",
+        "firstSeen": "2026-10-13T14:29:30Z"
+      },
+      {
         "version": "0.9.8",
         "date": "2026-10-06",
         "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa",
         "size": 114518028,
         "sha256": "20b2327c1650f1c809b71365f59413223a588584f6cc69ac4facac965c7965e1",
         "localizedDescription": "Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios\n\n## What's Changed\n* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024\n* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030\n* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026\n* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027\n* Improve LNReader extension compatibility\n* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031\n* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032\n\n## New Contributors\n* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024\n* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026\n* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-07T13:45:29Z"
       },
       {
