@@ -1,18 +1,18 @@
 {
   "generatedAt": "2026-10-13",
-  "feedVersion": "55f457aa2020",
+  "feedVersion": "f2fde40b3ff5",
   "apps": {
     "total": 131,
-    "reachable": 124,
-    "unreachable": 7,
-    "verified": 123
+    "reachable": 123,
+    "unreachable": 8,
+    "verified": 122
   },
   "sync": {
     "synced": 126,
-    "incrementalHits": 116,
-    "updated": 0,
+    "incrementalHits": 108,
+    "updated": 8,
     "failed": 5,
-    "apiRequests": 117
+    "apiRequests": 118
   },
   "unreachable": [
     "cercube",
@@ -20,10 +20,68 @@
     "killmyota",
     "livecontainer",
     "playtorrio",
+    "telegram-mxgram",
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "conduit",
+      "name": "Conduit",
+      "previousVersion": "4.1.9",
+      "version": "4.2.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "infuseplus",
+      "name": "Infuse Plus",
+      "previousVersion": "8.5.6",
+      "version": "8.5.7",
+      "kind": "updated"
+    },
+    {
+      "slug": "glow",
+      "name": "Glow",
+      "previousVersion": "2026.40.0",
+      "version": "2026.41.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "ryukgram",
+      "name": "RyukGram",
+      "previousVersion": "450.1.0",
+      "version": "451.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "sparkle",
+      "name": "Sparkle",
+      "previousVersion": "450.1.0",
+      "version": "451.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "threadsaver",
+      "name": "ThreadSaver",
+      "previousVersion": "450.0",
+      "version": "451.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "previousVersion": "3.4.2",
+      "version": "3.4.3",
+      "kind": "updated"
+    },
+    {
+      "slug": "orbot",
+      "name": "Orbot",
+      "previousVersion": "1.13.0",
+      "version": "1.14.0",
+      "kind": "updated"
+    }
+  ],
   "errors": [
     "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",

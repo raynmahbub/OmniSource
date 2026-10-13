@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-13",
-  "feedVersion": "55f457aa2020",
+  "feedVersion": "f2fde40b3ff5",
   "app": {
     "id": "orbot",
     "name": "Orbot",
     "developer": "The Tor Project",
     "subtitle": "Tor network tunnel for iOS and iPadOS",
     "bundleIdentifier": "org.torproject.orbot",
-    "version": "1.13.0",
-    "versionDate": "2026-10-01",
+    "version": "1.14.0",
+    "versionDate": "2026-10-13",
     "description": "Orbot puts an iPhone, iPad or Mac behind the Tor network: it installs a local packet-tunnel configuration so device traffic leaves through Tor instead of the plain network. Obfs4 and Snowflake bridges are supported and fully configurable, Tor v3 onion-service authentication works, and Tor's EntryNodes, ExitNodes, ExcludeNodes and StrictNodes options can all be set. The sideloadable build is published from the project's own GitHub releases, which list the bundled Tor, OpenSSL, Lyrebird and Snowflake versions per app release.",
     "shortDescription": "Tor network tunnel for iOS and iPadOS",
     "category": "networking",
@@ -18,11 +18,11 @@
     ],
     "icon": "https://raynmahbub.github.io/OmniSource/assets/Orbot.webp",
     "screenshots": [],
-    "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-    "size": 49121859,
+    "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+    "size": 51331248,
     "source": "guardianproject/orbot-ios",
     "sourceURL": "https://github.com/guardianproject/orbot-ios",
-    "checksum": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
+    "checksum": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
     "checksumPublished": false,
     "minOSVersion": "15.0",
     "status": "stable",
@@ -32,23 +32,23 @@
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
-      "updatedAt": "2026-10-01"
+      "updatedAt": "2026-10-13"
     }
   },
   "newest": {
-    "version": "1.13.0",
-    "date": "2026-10-01",
-    "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-    "size": 49121859,
-    "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e"
+    "version": "1.14.0",
+    "date": "2026-10-13",
+    "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+    "size": 51331248,
+    "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db"
   },
   "versions": [
     {
-      "version": "1.13.0",
-      "date": "2026-10-01",
-      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-      "size": 49121859,
-      "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e"
+      "version": "1.14.0",
+      "date": "2026-10-13",
+      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+      "size": 51331248,
+      "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db"
     }
   ],
   "verification": {

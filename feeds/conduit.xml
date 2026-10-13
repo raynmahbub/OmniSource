@@ -5,8 +5,40 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
     <description>Release feed for Conduit within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/conduit.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Conduit v4.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.2.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.2.0 | conduit
+
+## What's Changed
+* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807
+* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808
+* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810
+* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811
+* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812
+* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813
+* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814
+* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815
+* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821
+* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817
+* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818
+* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819
+* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820
+* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816
+* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826
+* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827
+* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828
+* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843
+* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842
+
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Conduit v4.1.9</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>

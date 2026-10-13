@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-13",
   "totals": {
     "apps": 131,
-    "verified": 123,
+    "verified": 122,
     "communityVerified": 1,
-    "unverified": 7,
+    "unverified": 8,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.7,
+    "avgTrustScore": 6.68,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -455,7 +455,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -707,7 +707,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -812,7 +812,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -1379,7 +1379,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
+      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1400,7 +1400,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
+      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -1673,7 +1673,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -1883,7 +1883,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2098,27 +2098,6 @@
       "trustBadge": "Community"
     },
     {
-      "app": "telegram-mxgram",
-      "name": "Telegram MxGram",
-      "status": "VERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (altstore)"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
-    },
-    {
       "app": "threadsaver",
       "name": "ThreadSaver",
       "status": "VERIFIED",
@@ -2135,7 +2114,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2704,6 +2683,27 @@
       ],
       "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
       "trustScore": 4.3,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "telegram-mxgram",
+      "name": "Telegram MxGram",
+      "status": "UNVERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
+      "trustScore": 3.0,
       "trustBadge": "Experimental"
     },
     {
