@@ -5,8 +5,43 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
     <description>Release feed for Mangayomi within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/mangayomi.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mangayomi v0.9.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
+      <guid isPermaLink="false">mangayomi-0.9.9</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mangayomi 0.9.9 | Mangayomi-v0.9.9-ios
+
+## What's Changed
+* fix(extension): enable mobile code copy by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1039
+* fix(reader): restore double-tap zoom toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037
+* feat(player): add hold-and-slide speed selector by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1038
+* fix(http): drop the quotes Linux wraps the saved user agent in by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1036
+* fix(security): show what deep links install and keep tokens out of sh… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1041
+* chore: await dropped writes, add guard lints, localize hardcoded strings by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1042
+* refactor: move the tracker library cache from Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1043
+* refactor: split large widget files and remove duplicated code by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044
+* Try to fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1035
+* Add a protected HLS proxy for extension playback by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1040
+* Fix reader by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051
+* fix(mobile): improve player controls and error handling by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1047
+* fix(restore): improve error handling and reporting during restore ope… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1052
+* fix(reader): pan a zoomed webtoon page without losing double tap by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1054
+* ci: run the test suite on pull requests and main by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056
+* Use neutral icons for extension repositories by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1045
+* Add western recommendations and trustworthy watch orders by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1050
+* Refine portrait player controls by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1058
+* fix: recognise "T1" seasons and "Episodio" episodes by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1060
+* Hide settings, that the user disabled by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1059
+* fix(tv): make Browse overscan safe and focus reachable by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1061
+* add useful comments to extension template by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1057
+
+
+**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.8...v0.9.9]]></description>
+      <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Mangayomi v0.9.8</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>

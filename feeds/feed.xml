@@ -126,6 +126,53 @@ This is a minor release that fixes issues found in 0.17.0. For the complete list
       <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>Mangayomi v0.9.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
+      <guid isPermaLink="false">mangayomi-0.9.9</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mangayomi 0.9.9 | Mangayomi-v0.9.9-ios
+
+## What's Changed
+* fix(extension): enable mobile code copy by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1039
+* fix(reader): restore double-tap zoom toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037
+* feat(player): add hold-and-slide speed selector by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1038
+* fix(http): drop the quotes Linux wraps the saved user agent in by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1036
+* fix(security): show what deep links install and keep tokens out of sh… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1041
+* chore: await dropped writes, add guard lints, localize hardcoded strings by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1042
+* refactor: move the tracker library cache from Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1043
+* refactor: split large widget files and remove duplicated code by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044
+* Try to fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1035
+* Add a protected HLS proxy for extension playback by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1040
+* Fix reader by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051
+* fix(mobile): improve player controls and error handling by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1047
+* fix(restore): improve error handling and reporting during restore ope… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1052
+* fix(reader): pan a zoomed webtoon page without losing double tap by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1054
+* ci: run the test suite on pull requests and main by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056
+* Use neutral icons for extension repositories by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1045
+* Add western recommendations and trustworthy watch orders by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1050
+* Refine portrait player controls by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1058
+* fix: recognise "T1" seasons and "Episodio" episodes by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1060
+* Hide settings, that the user disabled by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1059
+* fix(tv): make Browse overscan safe and focus reachable by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1061
+* add useful comments to extension template by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1057
+
+
+**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.8...v0.9.9]]></description>
+      <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Dopamine v3.0.11</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
+      <guid isPermaLink="false">dopamine-3.0.11</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine 3.0.11 | Dopamine
+
+- Fix support for iOS 26.0 beta 1 [3.0.1 regression]
+- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)
+- Update opainject and litehook]]></description>
+      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>ByeTunes v2.6</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/byetunes.json</link>
       <guid isPermaLink="false">byetunes-2.6</guid>
@@ -886,34 +933,6 @@ IPA Vault build for Facebook (iQFace), version 582.0.0]]></description>
 - [feat(servers): add experimental Jellyfin and Emby support (#2081)](https://github.com/NuvioMedia/NuvioMobile/pull/2081) @tapframe  
 - [fix(streams): play streams that only have a ytId (#2115)](https://github.com/NuvioMedia/NuvioMobile/pull/2115) @deejay189393]]></description>
       <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.8-beta/nuvio-0.5.8-full-release.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>iNKillerPlus v449.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json</link>
-      <guid isPermaLink="false">inkillerplus-449.0.0</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3
-
-• Fixes a possible crash on rootless JB
-- Add alternative icon to jailbreak since iG include the icon inside the app
-- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions
-- Fixes show email open in profiles or copied text to detect emails automaticlly
-- Fixes profile bio long press to copy detect email and links
-- Fixes read DM icon
-- Fixes user exception for direct message
-- Add full compatibility with IG v445+
-- Updated base IPA to Instagram v449.0]]></description>
-      <enclosure url="https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Sparkle v450.1.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
-      <guid isPermaLink="false">sparkle-450.1.0</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 450.1.0 | Instagram-450.1.0-Sparkle
-
-IPA Vault build for Instagram (Sparkle), version 450.1.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

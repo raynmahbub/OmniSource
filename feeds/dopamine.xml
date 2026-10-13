@@ -5,18 +5,19 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
     <description>Release feed for Dopamine within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/dopamine.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Dopamine v3.0.10</title>
+      <title>Dopamine v3.0.11</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
-      <guid isPermaLink="false">dopamine-3.0.10</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Dopamine 3.0.10 | Dopamine
+      <guid isPermaLink="false">dopamine-3.0.11</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine 3.0.11 | Dopamine
 
-- Expose an API to frida that allows it to hook memory over hookd, fixes panics when using frida on iOS 26+ (Requires frida >=17.19.0) (contributed by @devnoname120)
-- Fix Xcode debugging being broken on iOS 17+ after a userspace reboot if a developer disk image was already mounted before the userspace reboot]]></description>
-      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.10/Dopamine.ipa" length="55415420" type="application/octet-stream" />
+- Fix support for iOS 26.0 beta 1 [3.0.1 regression]
+- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)
+- Update opainject and litehook]]></description>
+      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

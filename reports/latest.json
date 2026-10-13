@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12",
-  "feedVersion": "3e0218bc4c47",
+  "generatedAt": "2026-10-13",
+  "feedVersion": "55f457aa2020",
   "apps": {
     "total": 131,
     "reachable": 124,
@@ -9,10 +9,10 @@
   },
   "sync": {
     "synced": 126,
-    "incrementalHits": 113,
-    "updated": 4,
+    "incrementalHits": 114,
+    "updated": 2,
     "failed": 5,
-    "apiRequests": 119
+    "apiRequests": 117
   },
   "unreachable": [
     "cercube",
@@ -25,31 +25,17 @@
   ],
   "updates": [
     {
-      "slug": "zeus",
-      "name": "Zeus",
-      "previousVersion": "13.2.2",
-      "version": "13.2.3",
+      "slug": "dopamine",
+      "name": "Dopamine",
+      "previousVersion": "3.0.10",
+      "version": "3.0.11",
       "kind": "updated"
     },
     {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "previousVersion": "8.81.0",
-      "version": "8.82.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "byetunes",
-      "name": "ByeTunes",
-      "previousVersion": "2.5",
-      "version": "2.6",
-      "kind": "updated"
-    },
-    {
-      "slug": "reynard",
-      "name": "Reynard",
-      "previousVersion": "0.17.0",
-      "version": "0.17.1",
+      "slug": "mangayomi",
+      "name": "Mangayomi",
+      "previousVersion": "0.9.8",
+      "version": "0.9.9",
       "kind": "updated"
     }
   ],
