@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 126,
-    "incrementalHits": 114,
-    "updated": 2,
+    "incrementalHits": 116,
+    "updated": 0,
     "failed": 5,
     "apiRequests": 117
   },
@@ -23,22 +23,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "dopamine",
-      "name": "Dopamine",
-      "previousVersion": "3.0.10",
-      "version": "3.0.11",
-      "kind": "updated"
-    },
-    {
-      "slug": "mangayomi",
-      "name": "Mangayomi",
-      "previousVersion": "0.9.8",
-      "version": "0.9.9",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
