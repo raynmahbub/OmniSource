@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T14:29:30Z",
+  "generatedAt": "2026-10-14T12:15:35Z",
   "appCount": 131,
-  "releases": 304,
+  "releases": 313,
   "apps": {
     "3105": [
       {
@@ -328,13 +328,23 @@
     ],
     "conduit": [
       {
+        "version": "4.2.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+        "size": 45085120,
+        "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
+        "localizedDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/condui",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "4.1.9",
         "date": "2026-10-06",
         "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
         "size": 37477886,
         "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
         "localizedDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android spe",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-06T13:31:45Z"
       },
       {
@@ -562,13 +572,23 @@
     ],
     "glow": [
       {
+        "version": "2026.41.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
+        "size": 147412514,
+        "sha256": "",
+        "localizedDescription": "Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.41.0",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "2026.40.0",
         "date": "2026-10-05",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa",
         "size": 146909463,
         "sha256": "",
         "localizedDescription": "Facebook 2026.40.0 | Reddit-2026.40.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.40.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-06T13:31:45Z"
       },
       {
@@ -672,13 +692,23 @@
     ],
     "infuseplus": [
       {
+        "version": "8.5.7",
+        "date": "2026-10-13",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
+        "size": 97173009,
+        "sha256": "",
+        "localizedDescription": "Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.7), version 8.5.7",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "8.5.6",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa",
         "size": 97789883,
         "sha256": "",
         "localizedDescription": "Infuse 8.5.6 | Infuse-8.5.6-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.6), version 8.5.6",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -1408,13 +1438,23 @@
     ],
     "nuvio": [
       {
+        "version": "0.5.10",
+        "date": "2026-10-14",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/nuvio-0.5.10-full-release.ipa",
+        "size": 67643251,
+        "sha256": "49e1d179f5a03ed641f46e6dda0958556bceb6a8776dd436d228c04f0974d3fa",
+        "localizedDescription": "Nuvio 0.5.10 | nuvio-0.5.10-full-release\n\n- [feat(ios): add native PiP with existing MPV VideoToolbox frames (#2248)](https://github.com/NuvioMedia/NuvioMobile/pull/2248) @WhiteGiso  \n- [Fix dismissed shows staying hidden after marking episodes watched (#2244)](https://github.com/NuvioMedia/NuvioMobile/pull/2244) @Laskco  \n- [Add non-AI Subtitle AutoSync for mobile add-on subtitles (#2143)](https://github.com/NuvioMedia/NuvioMobile/pull/2143) @DavidVamaiotu  \n- [fix(i18n): localize generic Episode N titles like TV (#2241)](https://github.com/NuvioMedia/NuvioMobile/pull/2241) @blueocean2308  \n- [ fix next episode card timing and prefetch with heuristic post-credits (#2238)](https://github.com/NuvioMedia/NuvioMobile/pull/2238) @skoruppa  \n- [Optimize custom poster URL resolving performance (#2239)](https://github.com/NuvioMedia/NuvioMobile/pull/2239) @halibiram  \n- [fix: In Poster Card Style settings screen one toggle get bigger then other and pushed out of the screen safe area. (#2219)](https://github.com/NuvioMedia/NuvioMobile/pull/2219) @AdityasahuX07",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "0.5.9",
         "date": "2026-10-10",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa",
         "size": 67606241,
         "sha256": "d656c9d689061ac1afacabd44867e4bf65012a253a30e7e755d022d3a3fea675",
         "localizedDescription": "Nuvio 0.5.9 | nuvio-0.5.9-full-release\n\n- 1bb2b10e feat(servers): sync libraries that mix movies and shows @tapframe  \n- 6f98691d fix(servers): mark playback info requests as playback @tapframe  \n- e05178c8 feat(servers): show libraries that mix movies and shows @tapframe  \n- de69f9a9 fix(servers): open libraries that need a genre on their first one @tapframe  \n- c2ed4c5e fix(servers): skip versions that cannot play @tapframe  \n- 5a24beb0 fix(servers): search each server once per type @tapframe  \n- [i18n(vi): update strings.xml and add strings_mdblist.xml + strings_servers.xml (#2216)](https://github.com/NuvioMedia/NuvioMobile/pull/2216) @blueocean2308  \n- [Fix TorBox Cloud loading for large libraries (#2215)](https://github.com/NuvioMedia/NuvioMobile/pull/2215) @Laskco  \n- [Defer custom poster URL resolution to UI layer (#2207)](https://github.com/NuvioMedia/NuvioMobile/pull/2207) @skoruppa  \n- [fix(i18n): comprehensive update to Bengali localization (missing strings & UI fit) (#2204)](https://github.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-11T13:19:25Z"
       },
       {
@@ -1562,13 +1602,23 @@
     ],
     "onionbrowser": [
       {
+        "version": "3.4.3",
+        "date": "2026-10-13",
+        "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
+        "size": 43256904,
+        "sha256": "0d1535efb9376446c591d59ef64ab72b1fe24cd4ebf309031ca8ccee0e27d16e",
+        "localizedDescription": "Onion Browser 3.4.3 | OnionBrowser\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "3.4.2",
         "date": "2026-10-01",
         "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
         "size": 42091072,
         "sha256": "62c3e4c3c5b71f1a77e266987e166630668bda48c8d2afa171dbda2404cb8caf",
         "localizedDescription": "Onion Browser 3.4.2 | OnionBrowser\n\n- Fixed bug wtih DNSTT bridge parsing.\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-02T13:01:39Z"
       },
       {
@@ -1584,13 +1634,23 @@
     ],
     "orbot": [
       {
+        "version": "1.14.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+        "size": 51331248,
+        "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+        "localizedDescription": "Orbot 1.14.0 | Orbot\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.\n- Fixed crashes that occurred seemingly at random.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "1.13.0",
         "date": "2026-10-01",
         "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
         "size": 49121859,
         "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
         "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-02T13:01:39Z"
       },
       {
@@ -1842,13 +1902,23 @@
     ],
     "ryukgram": [
       {
+        "version": "451.0.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+        "size": 345086224,
+        "sha256": "",
+        "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "450.1.0",
         "date": "2026-10-07",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
         "size": 337114395,
         "sha256": "",
         "localizedDescription": "Instagram 450.1.0 | Instagram-450.1.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 450.1.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-07T13:45:29Z"
       },
       {
@@ -2042,13 +2112,23 @@
     ],
     "sparkle": [
       {
+        "version": "451.0.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
+        "size": 338667077,
+        "sha256": "",
+        "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 451.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "450.1.0",
         "date": "2026-10-07",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
         "size": 322655738,
         "sha256": "",
         "localizedDescription": "Instagram 450.1.0 | Instagram-450.1.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 450.1.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-07T13:45:29Z"
       },
       {
@@ -2436,13 +2516,23 @@
     ],
     "threadsaver": [
       {
+        "version": "451.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
+        "size": 112995145,
+        "sha256": "",
+        "localizedDescription": "Threads 451.0 | Threads-451.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 451.0",
+        "status": "current",
+        "firstSeen": "2026-10-14T12:15:35Z"
+      },
+      {
         "version": "450.0",
         "date": "2026-10-05",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
         "size": 113110827,
         "sha256": "",
         "localizedDescription": "Threads 450.0 | Threads-450.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 450.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-06T13:31:45Z"
       },
       {

@@ -18,51 +18,51 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Orbot.webp",
       "tintColor": "7D4698",
       "category": "networking",
-      "version": "1.13.0",
-      "versionDate": "2026-10-01",
-      "versionDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-      "size": 49121859,
+      "version": "1.14.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Orbot 1.14.0 | Orbot\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.\n- Fixed crashes that occurred seemingly at random.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)",
+      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+      "size": 51331248,
       "versions": [
         {
-          "version": "1.13.0",
-          "date": "2026-10-01",
-          "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-          "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-          "size": 49121859,
+          "version": "1.14.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Orbot 1.14.0 | Orbot\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.\n- Fixed crashes that occurred seemingly at random.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)",
+          "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+          "size": 51331248,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.13.0",
+          "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.14.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Orbot.ipa",
-              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
+              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 49121859,
-              "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
-              "downloads": 64,
+              "size": 51331248,
+              "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+              "downloads": 6,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Orbot.pkg",
-              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.pkg",
+              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.pkg",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
-              "size": 68484591,
-              "sha256": "288ca8bb153d48b06e58823d593078cb4020c9b729aa3b1cc61760b966db9334",
-              "downloads": 31,
+              "size": 69964087,
+              "sha256": "5ab7626e2648d48788b711c3525f6f9ae517e04ca90e4f32b52358b31a0c192e",
+              "downloads": 6,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
-          "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
-          "downloads": 64
+          "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+          "downloads": 6
         }
       ],
       "screenshotURLs": [],
@@ -100,7 +100,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-10-01"
+          "lastUpdatedAt": "2026-10-13"
         }
       }
     }

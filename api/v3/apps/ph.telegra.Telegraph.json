@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "9b1190cda648",
+  "feedVersion": "13b105a51c72",
   "data": {
     "name": "Telegram MxGram",
     "bundleIdentifier": "ph.telegra.Telegraph",
@@ -101,9 +101,9 @@
         "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 200",
-        "statusSince": "2026-09-18",
+        "downloadReachable": false,
+        "detail": "HTTP 404",
+        "statusSince": "2026-10-13",
         "lastUpdatedAt": "2026-10-09"
       }
     },

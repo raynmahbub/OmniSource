@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T14:29:30Z",
+  "generatedAt": "2026-10-14T12:15:35Z",
   "count": 131,
   "incomplete": 0,
   "apps": [
@@ -888,7 +888,7 @@
               "fileType": "ZIP",
               "size": 22442483,
               "sha256": "1a8ad741fa0c02ea72b85c0ea4e191984512b173b8e5955f0e49f3ef43243eb0",
-              "downloads": 3,
+              "downloads": 4,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -900,7 +900,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 805,
+              "downloads": 928,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -912,7 +912,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 2228,
+              "downloads": 2532,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -924,7 +924,7 @@
               "fileType": "IPA",
               "size": 118304297,
               "sha256": "e8eefa6d81b926c683752b27b4c45ec7b564764d726eb1906bc3986d3cba3915",
-              "downloads": 23,
+              "downloads": 30,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -936,7 +936,7 @@
               "fileType": "IPA",
               "size": 128560179,
               "sha256": "cac8ac36827e78e7d0ae628123caeccb8ba2c2601010dcd648d3e53532a00902",
-              "downloads": 49,
+              "downloads": 53,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -948,7 +948,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 178,
+              "downloads": 213,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -960,7 +960,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 287,
+              "downloads": 339,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -972,7 +972,7 @@
               "fileType": "DEB",
               "size": 12893758,
               "sha256": "7aa482c239ace6112fc3b71ea7fbaf17ed624cc42152b9bef7c15eba704712b6",
-              "downloads": 17,
+              "downloads": 19,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -984,13 +984,13 @@
               "fileType": "DEB",
               "size": 12890174,
               "sha256": "c197022296d2c3d95e7e99c10872171ba064a9a28cce3c7aa0c7a0c18afc5444",
-              "downloads": 16,
+              "downloads": 24,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 287
+          "downloads": 339
         }
       ],
       "screenshotURLs": [],
@@ -2344,75 +2344,75 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
       "tintColor": "7794F0",
       "category": "utilities",
-      "version": "4.1.9",
-      "versionDate": "2026-10-06",
-      "versionDescription": "Conduit 4.1.9 | conduit ## What's Changed * Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774 * On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775 * Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783 * feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792 * Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790 * Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791 * Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793 * Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794 * Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795 * Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796 * Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797 * Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798 * Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799 * Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800 * Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803 * Fix Hermes Desktop Gateway setup and Android spe…",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
-      "size": 37477886,
+      "version": "4.2.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Conduit 4.2.0 | conduit ## What's Changed * Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807 * Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808 * CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810 * Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811 * Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812 * Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813 * Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814 * Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815 * Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821 * Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817 * Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818 * Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819 * Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820 * Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816 * Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/condui…",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+      "size": 45085120,
       "versions": [
         {
-          "version": "4.1.9",
-          "date": "2026-10-06",
-          "localizedDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
-          "size": 37477886,
+          "version": "4.2.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826\n* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827\n* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828\n* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843\n* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+          "size": 45085120,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.1.9",
+          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.2.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 80658070,
-              "sha256": "1faf23e692e520902feea3ec9151b5d10d12f947d733eafc4b4f62d0367f960b",
-              "downloads": 521,
+              "size": 97187500,
+              "sha256": "d2fe3e587a23bc21da21389aea8e8acde3d0e201126fd6564b0ba1b54194b216",
+              "downloads": 660,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 73610730,
-              "sha256": "152d4d20d893e5fe01659ebfd1e5e57ff6a4fa637ac96f14c6f5b0c8a9cd87e8",
-              "downloads": 3,
+              "size": 84946434,
+              "sha256": "64ec39a914f2ffa51569cd4a5cf5bbe393ddd58fb0b9d847f53de6218365d5fc",
+              "downloads": 4,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-release.aab",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-release.aab",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-release.aab",
               "platform": "android",
               "architecture": null,
               "fileType": "AAB",
-              "size": 124565293,
-              "sha256": "7ab9f1f83cf67c3396eaff44dab85660f779fccae9c0a2b6f19cc1e361834cc5",
+              "size": 142290388,
+              "sha256": "a9e4fbdab3a5ab7f72edd78a165a8075da33b5001fb68bc6e7aec1519ac3d99f",
               "downloads": 1,
               "mimeType": "raw",
               "installable": true
             },
             {
               "filename": "conduit.ipa",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 37477886,
-              "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
-              "downloads": 3,
+              "size": 45085120,
+              "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
+              "downloads": 8,
               "mimeType": "raw",
               "installable": true
             }
           ],
-          "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
-          "downloads": 3
+          "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
+          "downloads": 8
         }
       ],
       "screenshotURLs": [],
@@ -2450,7 +2450,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-10-06"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -3653,18 +3653,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
       "tintColor": "1877F2",
       "category": "Social Networking",
-      "version": "2026.40.0",
-      "versionDate": "2026-10-05",
-      "versionDescription": "Facebook 2026.40.0 | Reddit-2026.40.0-RedditFilter IPA Vault build for Reddit (RedditFilter), version 2026.40.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa",
-      "size": 146909463,
+      "version": "2026.41.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter IPA Vault build for Reddit (RedditFilter), version 2026.41.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
+      "size": 147412514,
       "versions": [
         {
-          "version": "2026.40.0",
-          "date": "2026-10-05",
-          "localizedDescription": "Facebook 2026.40.0 | Reddit-2026.40.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.40.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa",
-          "size": 146909463,
+          "version": "2026.41.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.41.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
+          "size": 147412514,
           "minOSVersion": "15.1",
           "releaseUrl": null,
           "source": "altstore",
@@ -3672,12 +3672,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Reddit-2026.40.0-RedditFilter.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.40.0-RedditFilter.ipa",
+              "filename": "Reddit-2026.41.0-RedditFilter.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 146909463,
+              "size": 147412514,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -3746,7 +3746,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-24",
-          "lastUpdatedAt": "2026-10-05"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -4473,18 +4473,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Infuse.webp",
       "tintColor": "FF6B00",
       "category": "photo-video",
-      "version": "8.5.6",
-      "versionDate": "2026-10-03",
-      "versionDescription": "Infuse 8.5.6 | Infuse-8.5.6-Infuse-Plus IPA Vault build for Infuse Plus (8.5.6), version 8.5.6",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa",
-      "size": 97789883,
+      "version": "8.5.7",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus IPA Vault build for Infuse Plus (8.5.7), version 8.5.7",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
+      "size": 97173009,
       "versions": [
         {
-          "version": "8.5.6",
-          "date": "2026-10-03",
-          "localizedDescription": "Infuse 8.5.6 | Infuse-8.5.6-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.6), version 8.5.6",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa",
-          "size": 97789883,
+          "version": "8.5.7",
+          "date": "2026-10-13",
+          "localizedDescription": "Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.7), version 8.5.7",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
+          "size": 97173009,
           "minOSVersion": "18.0",
           "releaseUrl": null,
           "source": "altstore",
@@ -4492,12 +4492,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Infuse-8.5.6-Infuse-Plus.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa",
+              "filename": "Infuse-8.5.7-Infuse-Plus.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 97789883,
+              "size": 97173009,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -4541,7 +4541,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-18",
-          "lastUpdatedAt": "2026-10-03"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -5309,7 +5309,7 @@
               "fileType": "APK",
               "size": 87021134,
               "sha256": "7409d39f514e287a39d0b9017cea7545ea719f68a4935870840678358fde7fcd",
-              "downloads": 26,
+              "downloads": 27,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5321,7 +5321,7 @@
               "fileType": "APK",
               "size": 108612022,
               "sha256": "d89ffb0f4c7d73099b4227f04599fa24fb9fbc85618d72797c8bba6b55921460",
-              "downloads": 112,
+              "downloads": 115,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5333,7 +5333,7 @@
               "fileType": "APK",
               "size": 94751948,
               "sha256": "57b16779da117f70fef0db0e0a9c23667545aae15a3e82d78fa69ec88a9391b7",
-              "downloads": 14,
+              "downloads": 15,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5345,7 +5345,7 @@
               "fileType": "AAB",
               "size": 94466844,
               "sha256": "29a7824385157f205607f5690b0e57edfff2044cc4c1cce7589563cc068a3873",
-              "downloads": 4,
+              "downloads": 5,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5357,7 +5357,7 @@
               "fileType": "APK",
               "size": 185536712,
               "sha256": "92cd4924c1c2a22f6ad88f2268bc0d4d77d5de27efc38af7fa010dcdae073c13",
-              "downloads": 23,
+              "downloads": 24,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5369,7 +5369,7 @@
               "fileType": "IPA",
               "size": 56199092,
               "sha256": "2418b6a4c8648bcad63a7b818dd017e7756953d7b5aa8e0f261f37b11e687d67",
-              "downloads": 12,
+              "downloads": 14,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5381,7 +5381,7 @@
               "fileType": "APK",
               "size": 29460082,
               "sha256": "0bd3099908fdb515f2ecb4725036cfdb94d183fd5726c6f1029b29f677640bf6",
-              "downloads": 32,
+              "downloads": 35,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5393,7 +5393,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 851,
+              "downloads": 895,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5405,7 +5405,7 @@
               "fileType": "APK",
               "size": 33275119,
               "sha256": "ad71c9f73d5e3879fd7f025cd0ce38c02c017f1228d48bdd8d041a01190ee86d",
-              "downloads": 29,
+              "downloads": 30,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5417,7 +5417,7 @@
               "fileType": "AAB",
               "size": 80537688,
               "sha256": "76200e3f88f25ab40dc074bfc48f934239983db60fd9b03a2327bc8b029e5d01",
-              "downloads": 6,
+              "downloads": 7,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5429,7 +5429,7 @@
               "fileType": "APK",
               "size": 88506651,
               "sha256": "00d612973399f6157b82cc6573ce13b8d98f0cd04e27f1c623e5d5bcd4000bd5",
-              "downloads": 186,
+              "downloads": 190,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5441,13 +5441,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 388,
+              "downloads": 400,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 388
+          "downloads": 400
         }
       ],
       "screenshotURLs": [],
@@ -5850,9 +5850,9 @@
           "notes": "Official AGPL-3.0 releases. The plain LiveContainer.ipa is tracked; the LiveContainer+SideStore.ipa bundle in the same release is skipped. Multitasking needs iPadOS 16 or later, and installing guest apps needs AltStore 2.0+ / SideStore 0.6.0+."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-09",
+          "downloadReachable": true,
+          "detail": "HTTP 302",
+          "statusSince": "2026-10-14",
           "lastUpdatedAt": "2026-07-17"
         }
       },
@@ -6368,13 +6368,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3533,
+              "downloads": 3667,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3533
+          "downloads": 3667
         }
       ],
       "screenshotURLs": [
@@ -6484,13 +6484,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 491,
+              "downloads": 501,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 491
+          "downloads": 501
         }
       ],
       "screenshotURLs": [
@@ -7312,7 +7312,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23672,
+              "downloads": 23684,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7324,13 +7324,13 @@
               "fileType": "IPA",
               "size": 153108663,
               "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22610,
+              "downloads": 22613,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23672
+          "downloads": 23684
         }
       ],
       "screenshotURLs": [],
@@ -7585,87 +7585,87 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "tintColor": "5B5FE8",
       "category": "photo-video",
-      "version": "0.5.9",
-      "versionDate": "2026-10-10",
-      "versionDescription": "Nuvio 0.5.9 | nuvio-0.5.9-full-release - 1bb2b10e feat(servers): sync libraries that mix movies and shows @tapframe - 6f98691d fix(servers): mark playback info requests as playback @tapframe - e05178c8 feat(servers): show libraries that mix movies and shows @tapframe - de69f9a9 fix(servers): open libraries that need a genre on their first one @tapframe - c2ed4c5e fix(servers): skip versions that cannot play @tapframe - 5a24beb0 fix(servers): search each server once per type @tapframe - [i18n(vi): update strings.xml and add strings_mdblist.xml + strings_servers.xml (#2216)](https://github.com/NuvioMedia/NuvioMobile/pull/2216) @blueocean2308 - [Fix TorBox Cloud loading for large libraries (#2215)](https://github.com/NuvioMedia/NuvioMobile/pull/2215) @Laskco - [Defer custom poster URL resolution to UI layer (#2207)](https://github.com/NuvioMedia/NuvioMobile/pull/2207) @skoruppa - [fix(i18n): comprehensive update to Bengali localization (missing strings & UI fit) (#2204)](https://github.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa",
-      "size": 67606241,
+      "version": "0.5.10",
+      "versionDate": "2026-10-14",
+      "versionDescription": "Nuvio 0.5.10 | nuvio-0.5.10-full-release - [feat(ios): add native PiP with existing MPV VideoToolbox frames (#2248)](https://github.com/NuvioMedia/NuvioMobile/pull/2248) @WhiteGiso - [Fix dismissed shows staying hidden after marking episodes watched (#2244)](https://github.com/NuvioMedia/NuvioMobile/pull/2244) @Laskco - [Add non-AI Subtitle AutoSync for mobile add-on subtitles (#2143)](https://github.com/NuvioMedia/NuvioMobile/pull/2143) @DavidVamaiotu - [fix(i18n): localize generic Episode N titles like TV (#2241)](https://github.com/NuvioMedia/NuvioMobile/pull/2241) @blueocean2308 - [ fix next episode card timing and prefetch with heuristic post-credits (#2238)](https://github.com/NuvioMedia/NuvioMobile/pull/2238) @skoruppa - [Optimize custom poster URL resolving performance (#2239)](https://github.com/NuvioMedia/NuvioMobile/pull/2239) @halibiram - [fix: In Poster Card Style settings screen one toggle get bigger then other and pushed out of the screen safe area. (#2219)](https://github.com/NuvioMedia/NuvioMobile/pull/2219) @AdityasahuX07",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/nuvio-0.5.10-full-release.ipa",
+      "size": 67643251,
       "versions": [
         {
-          "version": "0.5.9",
-          "date": "2026-10-10",
-          "localizedDescription": "Nuvio 0.5.9 | nuvio-0.5.9-full-release\n\n- 1bb2b10e feat(servers): sync libraries that mix movies and shows @tapframe  \n- 6f98691d fix(servers): mark playback info requests as playback @tapframe  \n- e05178c8 feat(servers): show libraries that mix movies and shows @tapframe  \n- de69f9a9 fix(servers): open libraries that need a genre on their first one @tapframe  \n- c2ed4c5e fix(servers): skip versions that cannot play @tapframe  \n- 5a24beb0 fix(servers): search each server once per type @tapframe  \n- [i18n(vi): update strings.xml and add strings_mdblist.xml + strings_servers.xml (#2216)](https://github.com/NuvioMedia/NuvioMobile/pull/2216) @blueocean2308  \n- [Fix TorBox Cloud loading for large libraries (#2215)](https://github.com/NuvioMedia/NuvioMobile/pull/2215) @Laskco  \n- [Defer custom poster URL resolution to UI layer (#2207)](https://github.com/NuvioMedia/NuvioMobile/pull/2207) @skoruppa  \n- [fix(i18n): comprehensive update to Bengali localization (missing strings & UI fit) (#2204)](https://github.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa",
-          "size": 67606241,
+          "version": "0.5.10",
+          "date": "2026-10-14",
+          "localizedDescription": "Nuvio 0.5.10 | nuvio-0.5.10-full-release\n\n- [feat(ios): add native PiP with existing MPV VideoToolbox frames (#2248)](https://github.com/NuvioMedia/NuvioMobile/pull/2248) @WhiteGiso  \n- [Fix dismissed shows staying hidden after marking episodes watched (#2244)](https://github.com/NuvioMedia/NuvioMobile/pull/2244) @Laskco  \n- [Add non-AI Subtitle AutoSync for mobile add-on subtitles (#2143)](https://github.com/NuvioMedia/NuvioMobile/pull/2143) @DavidVamaiotu  \n- [fix(i18n): localize generic Episode N titles like TV (#2241)](https://github.com/NuvioMedia/NuvioMobile/pull/2241) @blueocean2308  \n- [ fix next episode card timing and prefetch with heuristic post-credits (#2238)](https://github.com/NuvioMedia/NuvioMobile/pull/2238) @skoruppa  \n- [Optimize custom poster URL resolving performance (#2239)](https://github.com/NuvioMedia/NuvioMobile/pull/2239) @halibiram  \n- [fix: In Poster Card Style settings screen one toggle get bigger then other and pushed out of the screen safe area. (#2219)](https://github.com/NuvioMedia/NuvioMobile/pull/2219) @AdityasahuX07",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/nuvio-0.5.10-full-release.ipa",
+          "size": 67643251,
           "minOSVersion": "16.1",
-          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.5.9-beta",
+          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.5.10-beta",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "nuvio-0.5.9-full-release.ipa",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 67606241,
-              "sha256": "d656c9d689061ac1afacabd44867e4bf65012a253a30e7e755d022d3a3fea675",
-              "downloads": 261,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "androidApp-full-x86_64-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/androidApp-full-x86_64-release.apk",
-              "platform": "android",
-              "architecture": "x86_64",
-              "fileType": "APK",
-              "size": 46580018,
-              "sha256": "55faa981f667a8ead276e8a04e1a1a5a577e47bfee189faf0a0baabf03870161",
-              "downloads": 92,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "androidApp-full-x86-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/androidApp-full-x86-release.apk",
-              "platform": "android",
-              "architecture": "x86",
-              "fileType": "APK",
-              "size": 45604004,
-              "sha256": "e704d5b17d91ff6f6a388836f4dc8ff3c09262066ebdf403eed2094e1e324861",
-              "downloads": 78,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
               "filename": "androidApp-full-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/androidApp-full-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/androidApp-full-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 43472988,
-              "sha256": "db5c1704112d6b9577c8d92b2ab150fd5447858e7d37f3c7b2879a8d26567d63",
-              "downloads": 185,
+              "size": 43567032,
+              "sha256": "604e6c0f483ae19654bafb8cbcb39554e62c16dc2e5ba288a65ae6ebaf5b6298",
+              "downloads": 95,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "androidApp-full-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/androidApp-full-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/androidApp-full-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 45233932,
-              "sha256": "feb45afa85414c785d101919ca51eca99354b6f0294b2ddcb00086541da2f566",
-              "downloads": 3914,
+              "size": 45327972,
+              "sha256": "5c80df6bfedca629ce67e57b6f52f7f7b0c39ca2baf39bce60706b91dc1a64f3",
+              "downloads": 2477,
               "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "androidApp-full-x86-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/androidApp-full-x86-release.apk",
+              "platform": "android",
+              "architecture": "x86",
+              "fileType": "APK",
+              "size": 45698048,
+              "sha256": "2b682b35842367bc62ddfb9001739f379b80720c60b06de4a0f109d78c3541d8",
+              "downloads": 39,
+              "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "androidApp-full-x86_64-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/androidApp-full-x86_64-release.apk",
+              "platform": "android",
+              "architecture": "x86_64",
+              "fileType": "APK",
+              "size": 46674058,
+              "sha256": "539727fe7cd99ccbab2720323f9b978da70f757a17a7b9edcffc04486e39ff3a",
+              "downloads": 53,
+              "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "nuvio-0.5.10-full-release.ipa",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/nuvio-0.5.10-full-release.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 67643251,
+              "sha256": "49e1d179f5a03ed641f46e6dda0958556bceb6a8776dd436d228c04f0974d3fa",
+              "downloads": 185,
+              "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "d656c9d689061ac1afacabd44867e4bf65012a253a30e7e755d022d3a3fea675",
-          "downloads": 261
+          "sha256": "49e1d179f5a03ed641f46e6dda0958556bceb6a8776dd436d228c04f0974d3fa",
+          "downloads": 185
         }
       ],
       "screenshotURLs": [],
@@ -7703,7 +7703,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-10-10"
+          "lastUpdatedAt": "2026-10-14"
         }
       },
       "missingFields": []
@@ -7804,39 +7804,39 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OnionBrowser.webp",
       "tintColor": "6D4C9F",
       "category": "networking",
-      "version": "3.4.2",
-      "versionDate": "2026-10-01",
-      "versionDescription": "Onion Browser 3.4.2 | OnionBrowser - Fixed bug wtih DNSTT bridge parsing. - Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.",
-      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
-      "size": 42091072,
+      "version": "3.4.3",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Onion Browser 3.4.3 | OnionBrowser - Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5. - Updated Snowflake to 2.15.1. - Updated Lyrebird to version 0.9.0.",
+      "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
+      "size": 43256904,
       "versions": [
         {
-          "version": "3.4.2",
-          "date": "2026-10-01",
-          "localizedDescription": "Onion Browser 3.4.2 | OnionBrowser\n\n- Fixed bug wtih DNSTT bridge parsing.\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.",
-          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
-          "size": 42091072,
+          "version": "3.4.3",
+          "date": "2026-10-13",
+          "localizedDescription": "Onion Browser 3.4.3 | OnionBrowser\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.",
+          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
+          "size": 43256904,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.2",
+          "releaseUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.3",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "OnionBrowser.ipa",
-              "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
+              "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 42091072,
-              "sha256": "62c3e4c3c5b71f1a77e266987e166630668bda48c8d2afa171dbda2404cb8caf",
-              "downloads": 154,
+              "size": 43256904,
+              "sha256": "0d1535efb9376446c591d59ef64ab72b1fe24cd4ebf309031ca8ccee0e27d16e",
+              "downloads": 13,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "62c3e4c3c5b71f1a77e266987e166630668bda48c8d2afa171dbda2404cb8caf",
-          "downloads": 154
+          "sha256": "0d1535efb9376446c591d59ef64ab72b1fe24cd4ebf309031ca8ccee0e27d16e",
+          "downloads": 13
         }
       ],
       "screenshotURLs": [
@@ -7878,7 +7878,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-10-01"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -7892,51 +7892,51 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Orbot.webp",
       "tintColor": "7D4698",
       "category": "networking",
-      "version": "1.13.0",
-      "versionDate": "2026-10-01",
-      "versionDescription": "Orbot 1.13.0 | Orbot - Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4. - Fixed bug wtih DNSTT bridge parsing. - Fixed crash on iOS 27. **ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-      "size": 49121859,
+      "version": "1.14.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Orbot 1.14.0 | Orbot - Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5. - Updated Snowflake to 2.15.1. - Updated Lyrebird to version 0.9.0. - Fixed crashes that occurred seemingly at random. **ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)",
+      "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+      "size": 51331248,
       "versions": [
         {
-          "version": "1.13.0",
-          "date": "2026-10-01",
-          "localizedDescription": "Orbot 1.13.0 | Orbot\n\n- Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.\n- Fixed bug wtih DNSTT bridge parsing.\n- Fixed crash on iOS 27.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them, e.g. with [AltStore](https://altstore.io). Insofar, they're here mostly for documentary purposes.",
-          "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
-          "size": 49121859,
+          "version": "1.14.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Orbot 1.14.0 | Orbot\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.\n- Fixed crashes that occurred seemingly at random.\n\n**ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)",
+          "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+          "size": 51331248,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.13.0",
+          "releaseUrl": "https://github.com/guardianproject/orbot-apple/releases/tag/v1.14.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Orbot.ipa",
-              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.ipa",
+              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 49121859,
-              "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
-              "downloads": 64,
+              "size": 51331248,
+              "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+              "downloads": 6,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Orbot.pkg",
-              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.13.0/Orbot.pkg",
+              "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.pkg",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
-              "size": 68484591,
-              "sha256": "288ca8bb153d48b06e58823d593078cb4020c9b729aa3b1cc61760b966db9334",
-              "downloads": 31,
+              "size": 69964087,
+              "sha256": "5ab7626e2648d48788b711c3525f6f9ae517e04ca90e4f32b52358b31a0c192e",
+              "downloads": 6,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
-          "sha256": "8c2afc4965bec856e01b5f910f7007ed3d49027fbc1359c6897a7c2ee4a8eb6e",
-          "downloads": 64
+          "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+          "downloads": 6
         }
       ],
       "screenshotURLs": [],
@@ -7974,7 +7974,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-10-01"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -8038,7 +8038,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 647,
+              "downloads": 657,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8068,7 +8068,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 647
+          "downloads": 657
         }
       ],
       "screenshotURLs": [],
@@ -9587,7 +9587,7 @@
               "fileType": "IPA",
               "size": 109263826,
               "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
-              "downloads": 123,
+              "downloads": 184,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9599,7 +9599,7 @@
               "fileType": "IPA",
               "size": 109311241,
               "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
-              "downloads": 758,
+              "downloads": 1249,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9611,13 +9611,13 @@
               "fileType": "IPA",
               "size": 109225943,
               "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-              "downloads": 235,
+              "downloads": 405,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-          "downloads": 235
+          "downloads": 405
         }
       ],
       "screenshotURLs": [],
@@ -9669,18 +9669,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
       "tintColor": "E1306C",
       "category": "Social Networking",
-      "version": "450.1.0",
-      "versionDate": "2026-10-07",
-      "versionDescription": "Instagram 450.1.0 | Instagram-450.1.0-RyukGram IPA Vault build for Instagram (RyukGram), version 450.1.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
-      "size": 337114395,
+      "version": "451.0.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram IPA Vault build for Instagram (RyukGram), version 451.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+      "size": 345086224,
       "versions": [
         {
-          "version": "450.1.0",
-          "date": "2026-10-07",
-          "localizedDescription": "Instagram 450.1.0 | Instagram-450.1.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 450.1.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
-          "size": 337114395,
+          "version": "451.0.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+          "size": 345086224,
           "minOSVersion": "15.1",
           "releaseUrl": null,
           "source": "altstore",
@@ -9688,12 +9688,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Instagram-450.1.0-RyukGram.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa",
+              "filename": "Instagram-451.0.0-RyukGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 337114395,
+              "size": 345086224,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -9762,7 +9762,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-22",
-          "lastUpdatedAt": "2026-10-07"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -10757,18 +10757,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
       "tintColor": "E1306C",
       "category": "Social Networking",
-      "version": "450.1.0",
-      "versionDate": "2026-10-07",
-      "versionDescription": "Instagram 450.1.0 | Instagram-450.1.0-Sparkle IPA Vault build for Instagram (Sparkle), version 450.1.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
-      "size": 322655738,
+      "version": "451.0.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Instagram 451.0.0 | Instagram-451.0.0-Sparkle IPA Vault build for Instagram (Sparkle), version 451.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
+      "size": 338667077,
       "versions": [
         {
-          "version": "450.1.0",
-          "date": "2026-10-07",
-          "localizedDescription": "Instagram 450.1.0 | Instagram-450.1.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 450.1.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
-          "size": 322655738,
+          "version": "451.0.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 451.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
+          "size": 338667077,
           "minOSVersion": "15.1",
           "releaseUrl": null,
           "source": "altstore",
@@ -10776,12 +10776,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Instagram-450.1.0-Sparkle.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa",
+              "filename": "Instagram-451.0.0-Sparkle.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 322655738,
+              "size": 338667077,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -10850,7 +10850,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-22",
-          "lastUpdatedAt": "2026-10-07"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -11558,7 +11558,7 @@
               "fileType": "APK",
               "size": 217877725,
               "sha256": "b93dc1b21530d82d626acbf46667d4b56a1737f3dd1b04dcfa32364172cbbfff",
-              "downloads": 1397,
+              "downloads": 1398,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11570,7 +11570,7 @@
               "fileType": "APK",
               "size": 216822002,
               "sha256": "336a7fe09d3a00c93938c750acc9bcac4fa6bfb4ff01ece8ac67543a9dbd7563",
-              "downloads": 147,
+              "downloads": 148,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11606,13 +11606,13 @@
               "fileType": "IPA",
               "size": 73400511,
               "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-              "downloads": 90,
+              "downloads": 100,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-          "downloads": 90
+          "downloads": 100
         }
       ],
       "screenshotURLs": [],
@@ -12240,9 +12240,9 @@
           "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-13",
           "lastUpdatedAt": "2026-10-09"
         }
       },
@@ -12257,18 +12257,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Threads.webp",
       "tintColor": "000000",
       "category": "Social Networking",
-      "version": "450.0",
-      "versionDate": "2026-10-05",
-      "versionDescription": "Threads 450.0 | Threads-450.0-ThreadSaver IPA Vault build for Threads (ThreadSaver), version 450.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
-      "size": 113110827,
+      "version": "451.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Threads 451.0 | Threads-451.0-ThreadSaver IPA Vault build for Threads (ThreadSaver), version 451.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
+      "size": 112995145,
       "versions": [
         {
-          "version": "450.0",
-          "date": "2026-10-05",
-          "localizedDescription": "Threads 450.0 | Threads-450.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 450.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
-          "size": 113110827,
+          "version": "451.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Threads 451.0 | Threads-451.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 451.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
+          "size": 112995145,
           "minOSVersion": "15.1",
           "releaseUrl": null,
           "source": "altstore",
@@ -12276,12 +12276,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Threads-450.0-ThreadSaver.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-450.0-ThreadSaver.ipa",
+              "filename": "Threads-451.0-ThreadSaver.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 113110827,
+              "size": 112995145,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -12350,7 +12350,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-10-05",
-          "lastUpdatedAt": "2026-10-05"
+          "lastUpdatedAt": "2026-10-13"
         }
       },
       "missingFields": []
@@ -12681,7 +12681,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 371549,
+              "downloads": 371816,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12693,12 +12693,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1265590,
+              "downloads": 1266543,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1265590
+          "downloads": 1266543
         }
       ],
       "screenshotURLs": [],
@@ -12988,7 +12988,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 738,
+              "downloads": 749,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -13000,13 +13000,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2160,
+              "downloads": 2193,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2160
+          "downloads": 2193
         }
       ],
       "screenshotURLs": [],

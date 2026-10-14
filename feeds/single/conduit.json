@@ -18,75 +18,75 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
       "tintColor": "7794F0",
       "category": "utilities",
-      "version": "4.1.9",
-      "versionDate": "2026-10-06",
-      "versionDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
-      "size": 37477886,
+      "version": "4.2.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826\n* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827\n* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828\n* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843\n* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+      "size": 45085120,
       "versions": [
         {
-          "version": "4.1.9",
-          "date": "2026-10-06",
-          "localizedDescription": "Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\n* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796\n* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798\n* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
-          "size": 37477886,
+          "version": "4.2.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826\n* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827\n* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828\n* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843\n* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+          "size": 45085120,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.1.9",
+          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.2.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 80658070,
-              "sha256": "1faf23e692e520902feea3ec9151b5d10d12f947d733eafc4b4f62d0367f960b",
-              "downloads": 521,
+              "size": 97187500,
+              "sha256": "d2fe3e587a23bc21da21389aea8e8acde3d0e201126fd6564b0ba1b54194b216",
+              "downloads": 660,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 73610730,
-              "sha256": "152d4d20d893e5fe01659ebfd1e5e57ff6a4fa637ac96f14c6f5b0c8a9cd87e8",
-              "downloads": 3,
+              "size": 84946434,
+              "sha256": "64ec39a914f2ffa51569cd4a5cf5bbe393ddd58fb0b9d847f53de6218365d5fc",
+              "downloads": 4,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-release.aab",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/app-release.aab",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-release.aab",
               "platform": "android",
               "architecture": null,
               "fileType": "AAB",
-              "size": 124565293,
-              "sha256": "7ab9f1f83cf67c3396eaff44dab85660f779fccae9c0a2b6f19cc1e361834cc5",
+              "size": 142290388,
+              "sha256": "a9e4fbdab3a5ab7f72edd78a165a8075da33b5001fb68bc6e7aec1519ac3d99f",
               "downloads": 1,
               "mimeType": "raw",
               "installable": true
             },
             {
               "filename": "conduit.ipa",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 37477886,
-              "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
-              "downloads": 3,
+              "size": 45085120,
+              "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
+              "downloads": 8,
               "mimeType": "raw",
               "installable": true
             }
           ],
-          "sha256": "c0a416a23746fc1683f63de1b220b502889321f212ff1d0e4709d93b68f5195e",
-          "downloads": 3
+          "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
+          "downloads": 8
         }
       ],
       "screenshotURLs": [],
@@ -124,7 +124,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-10-06"
+          "lastUpdatedAt": "2026-10-13"
         }
       }
     }
