@@ -1,24 +1,23 @@
 {
-  "generatedAt": "2026-10-13",
-  "feedVersion": "f2fde40b3ff5",
+  "generatedAt": "2026-10-14",
+  "feedVersion": "ec9bca2e9757",
   "apps": {
     "total": 131,
-    "reachable": 123,
-    "unreachable": 8,
-    "verified": 122
+    "reachable": 124,
+    "unreachable": 7,
+    "verified": 123
   },
   "sync": {
-    "synced": 126,
-    "incrementalHits": 108,
-    "updated": 8,
-    "failed": 5,
-    "apiRequests": 118
+    "synced": 127,
+    "incrementalHits": 116,
+    "updated": 1,
+    "failed": 4,
+    "apiRequests": 117
   },
   "unreachable": [
     "cercube",
     "jaility",
     "killmyota",
-    "livecontainer",
     "playtorrio",
     "telegram-mxgram",
     "trollboard-reborn",
@@ -26,64 +25,14 @@
   ],
   "updates": [
     {
-      "slug": "conduit",
-      "name": "Conduit",
-      "previousVersion": "4.1.9",
-      "version": "4.2.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "infuseplus",
-      "name": "Infuse Plus",
-      "previousVersion": "8.5.6",
-      "version": "8.5.7",
-      "kind": "updated"
-    },
-    {
-      "slug": "glow",
-      "name": "Glow",
-      "previousVersion": "2026.40.0",
-      "version": "2026.41.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "ryukgram",
-      "name": "RyukGram",
-      "previousVersion": "450.1.0",
-      "version": "451.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "sparkle",
-      "name": "Sparkle",
-      "previousVersion": "450.1.0",
-      "version": "451.0.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "threadsaver",
-      "name": "ThreadSaver",
-      "previousVersion": "450.0",
-      "version": "451.0",
-      "kind": "updated"
-    },
-    {
-      "slug": "onionbrowser",
-      "name": "Onion Browser",
-      "previousVersion": "3.4.2",
-      "version": "3.4.3",
-      "kind": "updated"
-    },
-    {
-      "slug": "orbot",
-      "name": "Orbot",
-      "previousVersion": "1.13.0",
-      "version": "1.14.0",
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "previousVersion": "0.5.9",
+      "version": "0.5.10",
       "kind": "updated"
     }
   ],
   "errors": [
-    "livecontainer: all sources failed: github:LiveContainer/LiveContainer error: HTTP request failed after 3 attempts: https://api.github.com/repos/LiveContainer/LiveContainer/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",

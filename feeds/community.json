@@ -1,81 +1,87 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-10-14",
   "popular": [
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "category": "photo-video",
+      "score": 1.0
+    },
     {
       "slug": "sparkle",
       "name": "Sparkle",
       "category": "social",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "ryukgram",
       "name": "RyukGram",
       "category": "social",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "orbot",
       "name": "Orbot",
       "category": "networking",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "onionbrowser",
       "name": "Onion Browser",
       "category": "networking",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "infuseplus",
       "name": "Infuse Plus",
       "category": "photo-video",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "glow",
       "name": "Glow",
       "category": "social",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "conduit",
       "name": "Conduit",
       "category": "utilities",
-      "score": 1.0
+      "score": 0.9942
     },
     {
       "slug": "zeus",
       "name": "Zeus",
       "category": "utilities",
-      "score": 0.9942
+      "score": 0.9883
     },
     {
       "slug": "stikdebug",
       "name": "StikDebug",
       "category": "developer-tools",
-      "score": 0.9942
+      "score": 0.9883
     },
     {
       "slug": "reynard",
       "name": "Reynard",
       "category": "utilities",
-      "score": 0.9942
+      "score": 0.9883
     },
     {
       "slug": "mangayomi",
       "name": "Mangayomi",
       "category": "other",
-      "score": 0.9942
-    },
-    {
-      "slug": "dopamine",
-      "name": "Dopamine",
-      "category": "utilities",
-      "score": 0.9942
+      "score": 0.9883
     }
   ],
   "recentlyAdded": [
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "firstSeen": "2026-10-14",
+      "category": "photo-video"
+    },
     {
       "slug": "conduit",
       "name": "Conduit",
@@ -141,12 +147,6 @@
       "name": "Dopamine",
       "firstSeen": "2026-10-12",
       "category": "utilities"
-    },
-    {
-      "slug": "mangayomi",
-      "name": "Mangayomi",
-      "firstSeen": "2026-10-12",
-      "category": "other"
     }
   ],
   "rising": [
@@ -187,12 +187,6 @@
       "newThisMonth": 1
     },
     {
-      "slug": "voyager",
-      "name": "Voyager",
-      "category": "social",
-      "newThisMonth": 1
-    },
-    {
       "slug": "uprovid",
       "name": "uProVid",
       "category": "photo-video",
@@ -221,13 +215,19 @@
       "name": "ThreadSaver",
       "category": "social",
       "newThisMonth": 1
+    },
+    {
+      "slug": "telegram-mxgram",
+      "name": "Telegram MxGram",
+      "category": "social",
+      "newThisMonth": 1
     }
   ],
   "requested": [],
   "counts": {
     "popular": 131,
     "recentlyAdded": 39,
-    "rising": 53,
+    "rising": 52,
     "requested": 0
   }
 }

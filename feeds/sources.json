@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-10-14",
   "count": 114,
   "feed": {
     "name": "OmniSource",
@@ -147,7 +147,7 @@
       ],
       "appCount": 13,
       "verifiedApps": 12,
-      "healthScore": 74.7,
+      "healthScore": 74.6,
       "score": 98.0,
       "status": "Warning",
       "level": "TRUSTED",
@@ -321,10 +321,10 @@
       "appCount": 1,
       "verifiedApps": 1,
       "healthScore": 77.0,
-      "score": 91.9,
+      "score": 87.4,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 7.0,
+      "updateFrequencyDays": 10.0,
       "lastUpdate": "2026-10-09",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/apollo.json"
     },
@@ -436,8 +436,8 @@
       ],
       "appCount": 1,
       "verifiedApps": 0,
-      "healthScore": 53.0,
-      "score": 69.3,
+      "healthScore": 52.0,
+      "score": 68.5,
       "status": "Warning",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
@@ -1745,10 +1745,10 @@
         "livecontainer"
       ],
       "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 41.0,
-      "score": 57.6,
-      "status": "Warning",
+      "verifiedApps": 1,
+      "healthScore": 62.0,
+      "score": 59.7,
+      "status": "Maintained",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
       "lastUpdate": "2026-07-17",
@@ -2304,7 +2304,7 @@
         {
           "slug": "nuvio",
           "name": "Nuvio",
-          "version": "0.5.9"
+          "version": "0.5.10"
         }
       ],
       "slug": "nuviomedia-nuviomobile",
@@ -2318,8 +2318,8 @@
       "score": 99.4,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 2.1,
-      "lastUpdate": "2026-10-10",
+      "updateFrequencyDays": 2.4,
+      "lastUpdate": "2026-10-14",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/nuvio.json"
     },
     {
@@ -2698,7 +2698,7 @@
       "appCount": 2,
       "verifiedApps": 0,
       "healthScore": 51.5,
-      "score": 62.6,
+      "score": 62.4,
       "status": "Warning",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
@@ -3460,10 +3460,11 @@
     }
   ],
   "statuses": {
-    "Warning": 6,
+    "Warning": 5,
     "Community Verified": 59,
     "Inactive": 21,
     "Verified": 13,
-    "Deprecated": 15
+    "Deprecated": 15,
+    "Maintained": 1
   }
 }
