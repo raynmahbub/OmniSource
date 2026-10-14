@@ -19,6 +19,21 @@
       "shortDescription": "Open-source media player, bring your own sources"
     },
     {
+      "slug": "inkillerplus",
+      "name": "iNKillerPlus",
+      "version": "451.0.0",
+      "previousVersion": "449.0.0",
+      "date": "2026-10-14",
+      "kind": "updated",
+      "changelog": "Instagram 451.0.0 | Instagram_451.0_iNKillerPlus_5.3\n\n• Fixes Grid mode may crashes in v450+\n- Add full compatibility with IG v445+\n- Updated base IPA to Instagram v451",
+      "downloadURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/inkillerplus.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/inkillerplus.xml",
+      "status": "stable",
+      "shortDescription": "Instagram with downloads, ghost mode and no ads"
+    },
+    {
       "slug": "threadsaver",
       "name": "ThreadSaver",
       "version": "451.0",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/spotiflac.xml",
       "status": "stable",
       "shortDescription": "FLAC Downloader for iOS"
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "version": "0.5.2",
-      "previousVersion": "0.5.1",
-      "date": "2026-09-25",
-      "kind": "updated",
-      "changelog": "Nuvio 0.5.2 | nuvio-0.5.2-full-release\n\n- 353b8cd9 fix(exo): update buffer defaults @tapframe  \n- f50bd149 update engine libs @tapframe  \n- 23e4d3f7 fix(ios): hide home indicator during playback @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#2064)](https://github.com/NuvioMedia/NuvioMobile/pull/2064) @blueocean2308  \n- [Fix badge cache, library poster scope, and next-episode post-credits timing (#2059)](https://github.com/NuvioMedia/NuvioMobile/pull/2059) @skoruppa  \n- [Add landscape banner to Simkl More Like This items (#2058)](https://github.com/NuvioMedia/NuvioMobile/pull/2058) @skoruppa  \n- [added the percent value to the swipe up gesture bars (#2057)](https://github.com/NuvioMedia/NuvioMobile/pull/2057) @AdityasahuX07  \n- [Simkl more like this (#2052)](https://github.com/NuvioMedia/NuvioMobile/pull/2052) @skoruppa  \n- [Add per-screen toggles for custom poster URL overlay (#2050)](https://github.com/NuvioMedia/NuvioMobile/pull/2050) @skoruppa  \n- [fix(i18n): render Show \"All\" Tab without backslashes (#2047)](https://github.com/NuvioMedia/NuvioMobile/pull/2047) @blueocean2308  \n- d4b69c2d fix(player): key player lifecycle by episode and source @tapframe  \n- [Fix binary request and response handling in plugin fetch() (#2041)](https://github.com/NuvioMedia/NuvioMobile/pull/2041) @joojoooo",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.2-beta/nuvio-0.5.2-full-release.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
-      "status": "stable",
-      "shortDescription": "Open-source media player, bring your own sources"
     }
   ]
 }
