@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T12:15:35Z",
+  "generatedAt": "2026-10-15T11:57:01Z",
   "count": 107,
   "inputRecords": 131,
   "mergedDuplicates": 24,
@@ -676,7 +676,7 @@
               "fileType": "ZIP",
               "size": 22442483,
               "sha256": "1a8ad741fa0c02ea72b85c0ea4e191984512b173b8e5955f0e49f3ef43243eb0",
-              "downloads": 4,
+              "downloads": 5,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -688,7 +688,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 928,
+              "downloads": 1022,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -700,7 +700,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 2532,
+              "downloads": 2749,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -712,7 +712,7 @@
               "fileType": "IPA",
               "size": 118304297,
               "sha256": "e8eefa6d81b926c683752b27b4c45ec7b564764d726eb1906bc3986d3cba3915",
-              "downloads": 30,
+              "downloads": 31,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -724,7 +724,7 @@
               "fileType": "IPA",
               "size": 128560179,
               "sha256": "cac8ac36827e78e7d0ae628123caeccb8ba2c2601010dcd648d3e53532a00902",
-              "downloads": 53,
+              "downloads": 56,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -736,7 +736,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 213,
+              "downloads": 237,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -748,7 +748,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 339,
+              "downloads": 393,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -760,7 +760,7 @@
               "fileType": "DEB",
               "size": 12893758,
               "sha256": "7aa482c239ace6112fc3b71ea7fbaf17ed624cc42152b9bef7c15eba704712b6",
-              "downloads": 19,
+              "downloads": 20,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -772,13 +772,13 @@
               "fileType": "DEB",
               "size": 12890174,
               "sha256": "c197022296d2c3d95e7e99c10872171ba064a9a28cce3c7aa0c7a0c18afc5444",
-              "downloads": 24,
+              "downloads": 28,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 339
+          "downloads": 393
         }
       ]
     },
@@ -908,16 +908,16 @@
       "bundleIdentifier": "com.torrekie.Battman",
       "developerName": "Torrekie Gen",
       "category": "utilities",
-      "version": "1.0.3",
-      "versionDate": "2026-01-19",
-      "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.0.3.3/Battman.tipa",
-      "size": 675573,
+      "version": "1.1.0",
+      "versionDate": "2026-10-14",
+      "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
+      "size": 1685904,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Battman.webp",
       "matchKeys": [
         "bundle:com.torrekie.Battman",
         "github:torrekie/battman",
         "url:github.com/Torrekie/Battman",
-        "binary:github.com/Torrekie/Battman/releases/download/v1.0.3.3/Battman.tipa"
+        "binary:github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -927,56 +927,116 @@
       "duplicates": 1,
       "versions": [
         {
-          "version": "1.0.3",
-          "date": "2026-01-19",
-          "localizedDescription": "Battman 1.0.3 | TrollStore\n\n## Battman 1.0.3.3\nIn this hotfix version, I have only fixed few bugs cuz I'm a super lazyass and I cannot think of what to be added.\n\n**PLEASE LET ME KNOW** when you wish any new features or found any bugs, especially, you can create any GitHub issues to describe those, to effectively urge me to update this project (Or the most efficient way is to give me money and let me do your requests).\n\n- Fixed a bug where wrongly swapped \"⏾\" and \"▶\" when daemon runs.\n- Added a \"Unsupported\" notification popup when user attempts to run 'Charging Limit' with wireless chargers.\n- Attempt to fix a problem where iOS 17 cannot trigger iCloud autobackup when Battman has been installed.\n- Improved daemon communication logics to make daemon shutdowns gracefully.\n- Removed Herobrine.\n\n### Dependencies (deb)\n- `libintl8`\n\n### Support List\n| iOS \\ Chip \t| <= A10 / A10X \t|           A11          \t|       A12 Series       \t|           A13          \t|     A14 / M1 Series    \t|     A15 / M2 Series    \t| >= A16 / M3 Series \t|\n|:----------:\t|:-------------:\t|:----------------------:\t|:----------------------:\t|:----------------------:\t|:----------------------:\t|:----------------------:\t|:------------------:\t|\n|   <= 11.0  \t|  Unsupported  \t|       Unsupported      \t|            -           \t|            -           \t|            -           \t|            -           \t|          -         \t|\n|    12.0    \t|  Unsupported  \t|        Jailbreak       \t|        Jailbreak       \t|            -           \t|            -           \t|            -           \t|          -         \t|\n|    13.0    \t|  Unsupported  \t|        Jailbreak       \t|        Jailbreak       \t|        Jailbreak       \t|            -           \t|            -           \t|          -         \t|\n|    14.0    \t|  Unsupported  \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t|            -           \t|          -         \t|\n|    15.0    \t|  Unsupported  \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t|          -         \t|\n|    16.0    \t|  Unsupported  \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t|      Untested      \t|\n|   >= 17.0  \t|  Unsupported  \t|        Untested        \t|        Untested        \t|        Untested        \t|        Untested        \t|        Untested        \t|      Untested      \t|\n\n* Unsupported: Battman would not work on your device, at least for now\n* Untested: Battman has not been tested on your device, but it should theoretically work if you can jailbreak or use TrollStore\n* Jailbreak: You can install Battman after jailbreaking, **Please notice that Roothide jailbreak was not considered in this list**\n* TrollStore: You can install Battman by using [TrollStore](https://github.com/opa334/TrollStore)\n\n### Choose your package\n`com.torrekie.battman_1.0.3.3_iphoneos-arm.deb`: For your rooted jailbreaks, typically for devices which running iOS 12.0 ~ 14.x\n`com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb`: For your rootless jailbreaks, typically for devices which running iOS 15.0 or above\n`Battman.tipa`: TrollStore ipa, use when you prefer a TrollStore method, please notice that **DO NOT install deb and tipa versions at same time**. You can only keep one installation on your device.\n\n**Full Changelog**: https://github.com/Torrekie/Battman/compare/v1.0.3.2...v1.0.3.3",
-          "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.0.3.3/Battman.tipa",
-          "size": 675573,
+          "version": "1.1.0",
+          "date": "2026-10-14",
+          "localizedDescription": "Battman 1.1.0 | TrollStore\n\n## Battman 1.1.0\n\nIn this version, I have finally put something in the 'Analytics' page, added native plug-in support, and fixed a bunch of bugs.\n\n**PLEASE LET ME KNOW** when you want any new features or find any bugs. You can create a [GitHub issue](https://github.com/Torrekie/Battman/issues/new) to describe them, especially when something behaves differently on your device.\n\n- Implemented the 'Analytics' page with cards that you can add, remove, resize and rearrange ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added ten Analytics cards: live readings, capacity observations, cell voltages, charging sessions, battery discharge, connection and charging states, power readings, time by battery level, charging comparison, and discharge rhythm. Graphs include capacity history and comparisons of complete 20% to 80% charging sessions; available readings depend on your device and its recorded history.\n- Added native plug-in support, including `.battman` import, plug-in management, diagnostics and recovery mode. Third-party plug-ins require your approval, and changes take effect after restarting Battman ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added the public Plugin SDK and plug-in example sources for developers ([#53](https://github.com/Torrekie/Battman/pull/53)). Charge Gauge is provided as a **source example**, not as a shipped production plug-in.\n- Added a 'Temperature Unit' option: System, Celsius, or Fahrenheit ([#43](https://github.com/Torrekie/Battman/issues/43)).\n- Added `zh_TW` localization and documentation ([#35](https://github.com/Torrekie/Battman/pull/35)).\n- Added 'Export Powerlog' to the charging graph. Long-press the graph to export the available system battery log.\n- Improved charging-limit settings, daemon connections and charging controls; unavailable or invalid battery readings now have clearer explanations ([#54](https://github.com/Torrekie/Battman/pull/54)).\n- Fixed potential deadlocks in battery-status callbacks and improved battery refreshes while scrolling ([#39](https://github.com/Torrekie/Battman/pull/39), [#40](https://github.com/Torrekie/Battman/pull/40)).\n- Improved crash logging for the app, daemon and worker processes ([#38](https://github.com/Torrekie/Battman/pull/38)).\n- Fixed DOD0 units and misleading battery-authenticity warnings, and corrected invalid time-to-empty estimates ([#45](https://github.com/Torrekie/Battman/issues/45), [#46](https://github.com/Torrekie/Battman/pull/46)).\n- Fixed crashes when reading accessory and UPS battery information, including disconnects during a refresh ([#47](https://github.com/Torrekie/Battman/pull/47)).\n- Removed unused system-group entitlements to address the remaining iOS 17 backup issue after the earlier fix attempt ([#32](https://github.com/Torrekie/Battman/issues/32), [#41](https://github.com/Torrekie/Battman/pull/41)).\n- Improved Analytics history browsing, graph readability and scrolling responsiveness.\n- Bundled the gettext runtime so localization can work without a system gettext installation.\n- Improved **Wipe all Battman data** to wait for Analytics cache writes and report deletion failures, and replaced legacy icon-font dependencies with vector fallbacks.\n\n### Dependencies (deb)\n\n- `libintl8` or `libintl`\n\n### Support List\n\nThe table below retains the installation-method overview from previous releases. It is **not a complete tested-device list for 1.1.0**; you still need a jailbreak or TrollStore version compatible with your particular device and iOS build.\n\n| iOS \\ Chip | <= A10 / A10X | A11 | A12 Series | A13 | A14 / M1 Series | A15 / M2 Series | >= A16 / M3 Series |\n|:----------:|:-------------:|:---:|:----------:|:---:|:---------------:|:---------------:|:------------------:|\n| < 12.0 | Unsupported | Unsupported | - | - | - | - | - |\n| 12.0 | Unsupported | Jailbreak | Jailbreak | - | - | - | - |\n| 13.0 | Unsupported | Jailbreak | Jailbreak | Jailbreak | - | - | - |\n| 14.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | - | - |\n| 15.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | - |\n| 16.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Untested |\n| >= 17.0 | Unsupported | Untested | Untested | Untested | Untested | Untested | Untested |\n\n* Unsupported: Outside Battman's current iOS 12.0 / A11-or-newer baseline.\n* Untested: No independently completed device-testing coverage is claimed for this combination.\n* Jailbreak: An installation method on compatible jailbroken systems; **Roothide jailbreak was not considered in this list**.\n* TrollStore: An installation method using [TrollStore](https://github.com/opa334/TrollStore), where that device and iOS build support it.\n* Analytics: Individual readings depend on the hardware and available system logs. Missing readings remain unavailable, and incomplete history is not treated as a complete measurement.\n\n### Choose your package\n\n`com.torrekie.battman_1.1.0_iphoneos-arm.deb`: For your rooted jailbreaks, typically on iOS 12.0 ~ 14.x.\n\n`com.torrekie.battman_1.1.0_iphoneos-arm64.deb`: For your rootless jailbreaks, typically on iOS 15.0 or above.\n\n`Battman.tipa`: The Battman host app for TrollStore. Please notice that **DO NOT install deb and tipa versions at the same time**. You can only keep one installation on your device.\n\n`BattmanPluginSDK-1.1.0.tar.gz`: Plugin SDK source for developers, under the MIT License.\n\n`BattmanPluginExamples-1.1.0.tar.gz`: Buildable source examples, including the SDK Analytics card and Charge Gauge. Charge Gauge retains the repository's Non-Commercial Attribution License; the SDK subtree remains MIT-licensed. These are source archives, with no compiled plug-in packages or external plug-ins included in the release TIPA.\n\nNative plug-ins run inside Battman with its permissions. A valid signature identifies the publisher and package, but does not make the code safe. On TrollStore installations, activating an additional native plug-in requires a replacement TIPA containing it; importing a `.battman` package alone is not enough.\n\nOnly the `.deb` or `.tipa` package is needed to install Battman. The SDK and example source archives are for developers; the `SHA256SUMS*` files are for verification and do not need to be installed.\n\n`SHA256SUMS.p256.sig` signs the exact `SHA256SUMS` inventory. The SHA-256 fingerprint of the P-256 checksum key's uncompressed public point is:\n\n`5709282ae05ae482b09bde0f463ad6659ef33bc2237736917cddebd0c9069d75`\n\n**Full Changelog**: [v1.0.3.3...v1.1.0](https://github.com/Torrekie/Battman/compare/v1.0.3.3...v1.1.0)",
+          "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
+          "size": 1685904,
           "minOSVersion": "12.0",
-          "releaseUrl": "https://github.com/Torrekie/Battman/releases/tag/v1.0.3.3",
+          "releaseUrl": "https://github.com/Torrekie/Battman/releases/tag/v1.1.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Battman.tipa",
-              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.0.3.3/Battman.tipa",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 675573,
-              "sha256": "e290fec1b389c0c33e1af635c598f72fee1f39cfe22a7c0ca17c1919c5d8c060",
-              "downloads": 2443,
+              "size": 1685904,
+              "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
+              "downloads": 7,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "com.torrekie.battman_1.0.3.3_iphoneos-arm.deb",
-              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.0.3.3/com.torrekie.battman_1.0.3.3_iphoneos-arm.deb",
+              "filename": "BattmanPluginExamples-1.1.0.tar.gz",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/BattmanPluginExamples-1.1.0.tar.gz",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 53173,
+              "sha256": "c53692ad79590b22387faf3d56e0cba72d2472147ec35a220c0f677dcb1c4f8d",
+              "downloads": 0,
+              "mimeType": "application/x-gzip",
+              "installable": false
+            },
+            {
+              "filename": "BattmanPluginSDK-1.1.0.tar.gz",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/BattmanPluginSDK-1.1.0.tar.gz",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 36703,
+              "sha256": "baf7ae9577530f6964ab82c4deec4e7e80ba7f0772e0a4a681e93a40619fffd0",
+              "downloads": 0,
+              "mimeType": "application/x-gzip",
+              "installable": false
+            },
+            {
+              "filename": "com.torrekie.battman_1.1.0_iphoneos-arm.deb",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/com.torrekie.battman_1.1.0_iphoneos-arm.deb",
               "platform": "linux",
               "architecture": null,
               "fileType": "DEB",
-              "size": 3118352,
-              "sha256": "54c4af7ba6c5ef8a4b62ef392b75a22957d553fed2396620ed630e483c514684",
-              "downloads": 647,
+              "size": 1153200,
+              "sha256": "7b3ff455efb8c7e91298f2c5afbb1e9a6a984decf2a89dbf7ff66c0ffa65862c",
+              "downloads": 0,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb",
-              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.0.3.3/com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb",
+              "filename": "com.torrekie.battman_1.1.0_iphoneos-arm64.deb",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/com.torrekie.battman_1.1.0_iphoneos-arm64.deb",
               "platform": "linux",
               "architecture": "arm64",
               "fileType": "DEB",
-              "size": 441412,
-              "sha256": "c4f28720a7373ec67884a162db964c1405b4ca6e8f712fad2b1383b065000959",
-              "downloads": 667,
+              "size": 1153616,
+              "sha256": "46f474a18aa877f3b9d8ffeb09710f98b88b3c50b1a77e8db46a675af82ee528",
+              "downloads": 0,
               "mimeType": "application/octet-stream",
               "installable": true
+            },
+            {
+              "filename": "SHA256SUMS",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/SHA256SUMS",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 584,
+              "sha256": "ce2779fcb9f872ecc793353f73d583eb79baf396b63c0124c4d18740946520a2",
+              "downloads": 0,
+              "mimeType": "application/octet-stream",
+              "installable": false
+            },
+            {
+              "filename": "SHA256SUMS.p256.pub",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/SHA256SUMS.p256.pub",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 191,
+              "sha256": "0678b591921991ae503979e95a3e7de02bc1905017f4edf8d22cd99952133f03",
+              "downloads": 0,
+              "mimeType": "application/x-mspublisher",
+              "installable": false
+            },
+            {
+              "filename": "SHA256SUMS.p256.sig",
+              "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/SHA256SUMS.p256.sig",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 72,
+              "sha256": "724810ff4ffef539cc0e256b038fdece0f43fd75e70b085609373135b0c8a380",
+              "downloads": 0,
+              "mimeType": "application/octet-stream",
+              "installable": false
             }
           ],
-          "sha256": "e290fec1b389c0c33e1af635c598f72fee1f39cfe22a7c0ca17c1919c5d8c060",
-          "downloads": 2443
+          "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
+          "downloads": 7
         }
       ]
     },
@@ -3007,6 +3067,112 @@
       ]
     },
     {
+      "id": "com.burbn.instagram",
+      "name": "iNKillerPlus",
+      "bundleIdentifier": "com.burbn.instagram",
+      "developerName": "iKarwan",
+      "category": "social",
+      "version": "451.0.0",
+      "versionDate": "2026-10-14",
+      "downloadURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
+      "size": 265550574,
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
+      "matchKeys": [
+        "bundle:com.burbn.instagram",
+        "url:repo.ikghd.me",
+        "binary:ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa"
+      ],
+      "repositoryURLs": [],
+      "sources": [
+        "https://source.ryuksign.com/ig410",
+        "https://repo.ikghd.me",
+        "https://raw.githubusercontent.com"
+      ],
+      "sourceCount": 3,
+      "duplicates": 4,
+      "versions": [
+        {
+          "version": "47.1.0",
+          "date": "2026-10-08",
+          "localizedDescription": "TikTok 47.1.0 | TikTok_47.1_TTKillerPlus_2.3\n\n• Fixes injection for jailbreaks may not be injected due to bundle iD missing\n- Add country flag to the profile page to know the creator origin country\n- Add follow status to new profile style user name\n- Add v46.7+ compatibility.\n- Fix like confirmation bypass on double tap.\n- Fix post date display format.\n- Fix flag button not tappable.\n- Other fixes & improvements.\n- Update base IPA to TikTok v47.1",
+          "downloadURL": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
+          "size": 476223966,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "TikTok_47.1_TTKillerPlus_2.3.ipa",
+              "downloadUrl": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 476223966,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "451.0.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+          "size": 345086224,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Instagram-451.0.0-RyukGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 345086224,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "410.1.0",
+          "date": "2026-07-25",
+          "localizedDescription": "Instagram 410.1.0 | RyukGram (IG 410)\n\nUpdated for Instagram 439.0.0.\n\n### ✨ Highlights\n- **Call recording** — record voice and video calls, with auto-record, smart video grids and a per-person browser to play them back\n- **Activity notifications** — one log for who read your messages plus who came online, went offline or started typing, per person, with an accurate green dot\n- **Grid feed** — turn your home feed into a tappable grid of thumbnails with stats and author overlays, per account\n- **Stories archive** — saves every story you post before it expires, with its media and full viewer list, per account\n- **Story viewers list** — a searchable, filterable, sortable and pinnable \"who viewed my story\", with each viewer's reaction shown\n- **Instagram Plus** — turn on some Instagram's paid subscriber features inside the app\n- **Custom button icons** — pick any Instagram icon or iOS symbol for the action and home-shortcut buttons\n\n### 🆕 New features\n\n#### Messages\n- Activity notifications and Activity log — records who read your messages plus who came online, went offline or started typing, as a per-person timeline. Set each event to log silently, notify you, or both, and hold anyone to customise or mute them. A new accurate active-status option turns the green dot off the moment someone leaves. Filter by type and date, swipe or multi-select to delete, and lock the log behind your passcode\n- A dot in the DMs inbox to turn your active status on or off without opening settings\n- Keep deleted messages can now also keep the ones you unsend yourself, shown faded in chat and added to the deleted log\n- Mark chats seen locally — with read-receipt blocking on, opened chats look read on your device while the sender still gets no receipt; the eye button turns orange until you really mark seen\n- Hold the account name at the top of Direct to show or hide your hidden chats, with an optional passcode/Face ID lock\n- Messages-only mode is now its own menu, can turn on automatically during a daily window, and adds a notifications shortcut plus an optional home-shortcut button in the inbox header\n- Adding someone to a list (read-receipt blocking, hidden or locked chats, chat backgrounds, story viewer pins) now opens a picker of recent DMs with username search, instead of typing it in blind\n- The DM Draw feature can now send an image as your doodle — from the gallery, Photos, your Instagram or iOS stickers, or a pasted image — with an editor to crop, resize and remove the background\n- Custom chat backgrounds can now be videos or GIFs, framed with pan-zoom and trim, with the same opacity, blur and dim controls, and re-editable later\n- Hide suggested accounts and channels in Direct messages search\n\n#### Stories\n- Stories archive saves every story you post before it expires, with its media and full viewer list, per account. Browse by date in a grid, see who viewed, liked or reacted, with filter, sort, pinned viewers, an unread badge, optional alerts and its own backup and storage entry\n- The \"who viewed my story\" list is now searchable — filter (mutuals, following, follows you, verified, reacted, pinned), sort, and pin anyone to the top. Shows avatars, verified badges and each viewer's reaction, loads every viewer, and can switch back to Instagram's own list. Pick which one opens first\n- Marked-seen indicator — stories you already marked as seen hide the eye button or fill it green for 48 hours, per account\n- New \"Save image (no music)\" story download option for photo stories that have Instagram music on them\n- Story tray long-press \"Profile picture\" now also works in Instagram's new subscriber story preview menu\n\n#### Reels\n- New reels playback menu — hold the ⋯ or audio button for speed, seek (skip back/forward by a custom amount) and auto-scroll controls\n- Auto-scroll reels is back — Instagram default or RyukGram mode that keeps advancing after you swipe back\n- Filter reels by engagement — set a minimum for likes, comments, views or reposts and reels below it never show, plus an option to hide reels whose author hides their counts. Only the Reels tab is filtered by default, so reels you open from a post, profile or share stay untouched\n- Show when a reel was reposted — an optional date on the \"reposted this reel\" header\n\n#### Feed & Explore\n- New Grid feed — turn your home feed into a grid of post thumbnails showing likes, comments, views, shares and the author. Pinch to change columns, pull to refresh, tap a post to open it, or hold for a menu to like, follow, view profile, expand, share or copy the link. Choose which stats show, square or taller tiles, and how you switch back to Instagram's feed. Loads instantly, works per account and remembers where you left off\n- Search and explore grids now show stat pills on posts and reels — views, likes, comments, shares, reposts and date — with a page to pick which appear, reorder them and toggle them\n- New date format options — swap Instagram's relative timestamps on posts, notes, comments, stories and DMs for a fixed date, a preset like dd/MM/yyyy, or your own template, with a relative-time threshold\n- New \"Block surveys\" toggle — hides Instagram's in-app surveys and feedback prompts, including the \"Interested in this post?\" cards\n- Confirm feed refresh — an optional alert before a pull-to-refresh reloads the home feed\n- Refresh stories only — pull-to-refresh reloads just the stories tray and leaves the feed where it is\n\n#### Instants\n- Instants download now works on videos too — expand, save, share and download-all all handle video instants\n- Send a video from your gallery as an Instant — frame it square, trim any 7 seconds on a scrollable timeline, then hold to record\n- Confirm before capturing an Instant — an optional alert on a photo tap or held video, plus a confirm before tapping to switch Instants\n- Auto close the Instants viewer once you've seen them all\n\n#### Downloads & Gallery\n- Download manager got a rebuild — thumbnails for finished media, live size, speed and time left, a filter row, and swipe a row to cancel, retry or remove\n- Downloads now stay listed after you close the app and can be downloaded again from the history — kept from 12 hours up to forever, and cleared or exported from Backup and Storage\n- Download quality picker has an advanced view — download a video with no audio, or pick any of its audio tracks\n- Gallery — import your own photos, videos and files from the ••• menu, saved under an Imported filter\n- Gallery browsing got more controls — combine a sort with images, videos or favorites first, filter by date, pick 2 to 5 columns, and long-press a user section to select all their media\n- The gallery now uses Instagram icons throughout, grid tiles show a date chip, and long-pressing an item shows its date, source and size\n\n#### Profile\n- Profile card details now also show comment, share and repost counts, with a page to pick which stats appear, reorder them and toggle them\n- Followers and Following lists get a filter and sort button on Instagram's search bar — mutuals, following, follows you or verified, sorted by name or relationship\n- Profile Analyzer's badge now shows gains and losses — a green +N when a list grew, a red −N when it shrank\n- Profile Analyzer is out of beta\n\n#### Interface & notifications\n- Action button and home-shortcut icons are now fully customisable — a searchable browser for any Instagram icon or iOS symbol, per button or shared, including Instagram's colourful pet stickers\n- Tab bar icon order is now a live tab bar preview — drag to reorder, drag one up to hide, tap a hidden icon to add it back\n- Story and disappearing-media overlay buttons can be repositioned by dragging them on a preview\n- The notification pill can be placed anywhere on a phone preview, not just top or bottom\n- Notifications mirrored to the iOS notification centre can now also show as system banners while you're using the app\n- The home shortcut button shows a red dot for new deleted messages, read receipts or call recordings, with a count next…",
+          "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
+          "size": 267074754,
+          "minOSVersion": "15.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "959abf1407579dbd3f46.ipa",
+              "downloadUrl": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 267074754,
+              "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ],
+          "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d"
+        }
+      ]
+    },
+    {
       "id": "app.ish.iSH",
       "name": "iSH",
       "bundleIdentifier": "app.ish.iSH",
@@ -3474,7 +3640,7 @@
               "fileType": "IPA",
               "size": 56199092,
               "sha256": "2418b6a4c8648bcad63a7b818dd017e7756953d7b5aa8e0f261f37b11e687d67",
-              "downloads": 14,
+              "downloads": 17,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -3486,7 +3652,7 @@
               "fileType": "APK",
               "size": 29460082,
               "sha256": "0bd3099908fdb515f2ecb4725036cfdb94d183fd5726c6f1029b29f677640bf6",
-              "downloads": 35,
+              "downloads": 36,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3498,7 +3664,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 895,
+              "downloads": 910,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3534,7 +3700,7 @@
               "fileType": "APK",
               "size": 88506651,
               "sha256": "00d612973399f6157b82cc6573ce13b8d98f0cd04e27f1c623e5d5bcd4000bd5",
-              "downloads": 190,
+              "downloads": 193,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3546,13 +3712,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 400,
+              "downloads": 411,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 400
+          "downloads": 411
         }
       ]
     },
@@ -4660,7 +4826,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23684,
+              "downloads": 23697,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -4672,13 +4838,13 @@
               "fileType": "IPA",
               "size": 153108663,
               "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22613,
+              "downloads": 22614,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23684
+          "downloads": 23697
         }
       ]
     },
@@ -5091,7 +5257,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 657,
+              "downloads": 668,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5121,7 +5287,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 657
+          "downloads": 668
         }
       ]
     },
@@ -6133,7 +6299,7 @@
               "fileType": "IPA",
               "size": 109263826,
               "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
-              "downloads": 184,
+              "downloads": 247,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -6145,7 +6311,7 @@
               "fileType": "IPA",
               "size": 109311241,
               "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
-              "downloads": 1249,
+              "downloads": 1601,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -6157,145 +6323,13 @@
               "fileType": "IPA",
               "size": 109225943,
               "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-              "downloads": 405,
+              "downloads": 577,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-          "downloads": 405
-        }
-      ]
-    },
-    {
-      "id": "com.burbn.instagram",
-      "name": "RyukGram",
-      "bundleIdentifier": "com.burbn.instagram",
-      "developerName": "faroukbmiled & IPA Vault",
-      "category": "social",
-      "version": "451.0.0",
-      "versionDate": "2026-10-13",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
-      "size": 345086224,
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
-      "matchKeys": [
-        "bundle:com.burbn.instagram",
-        "url:raw.githubusercontent.com",
-        "binary:pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa"
-      ],
-      "repositoryURLs": [],
-      "sources": [
-        "https://source.ryuksign.com/ig410",
-        "https://repo.ikghd.me",
-        "https://raw.githubusercontent.com"
-      ],
-      "sourceCount": 3,
-      "duplicates": 4,
-      "versions": [
-        {
-          "version": "47.1.0",
-          "date": "2026-10-08",
-          "localizedDescription": "TikTok 47.1.0 | TikTok_47.1_TTKillerPlus_2.3\n\n• Fixes injection for jailbreaks may not be injected due to bundle iD missing\n- Add country flag to the profile page to know the creator origin country\n- Add follow status to new profile style user name\n- Add v46.7+ compatibility.\n- Fix like confirmation bypass on double tap.\n- Fix post date display format.\n- Fix flag button not tappable.\n- Other fixes & improvements.\n- Update base IPA to TikTok v47.1",
-          "downloadURL": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
-          "size": 476223966,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "TikTok_47.1_TTKillerPlus_2.3.ipa",
-              "downloadUrl": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 476223966,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "451.0.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
-          "size": 345086224,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Instagram-451.0.0-RyukGram.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 345086224,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "449.0.0",
-          "date": "2026-10-08",
-          "localizedDescription": "Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3\n\n• Fixes a possible crash on rootless JB\n- Add alternative icon to jailbreak since iG include the icon inside the app\n- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions\n- Fixes show email open in profiles or copied text to detect emails automaticlly\n- Fixes profile bio long press to copy detect email and links\n- Fixes read DM icon\n- Fixes user exception for direct message\n- Add full compatibility with IG v445+\n- Updated base IPA to Instagram v449.0",
-          "downloadURL": "https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa",
-          "size": 256829089,
-          "minOSVersion": "16.3",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Instagram_449.0_iNKillerPlus_5.3.ipa",
-              "downloadUrl": "https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 256829089,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "410.1.0",
-          "date": "2026-07-25",
-          "localizedDescription": "Instagram 410.1.0 | RyukGram (IG 410)\n\nUpdated for Instagram 439.0.0.\n\n### ✨ Highlights\n- **Call recording** — record voice and video calls, with auto-record, smart video grids and a per-person browser to play them back\n- **Activity notifications** — one log for who read your messages plus who came online, went offline or started typing, per person, with an accurate green dot\n- **Grid feed** — turn your home feed into a tappable grid of thumbnails with stats and author overlays, per account\n- **Stories archive** — saves every story you post before it expires, with its media and full viewer list, per account\n- **Story viewers list** — a searchable, filterable, sortable and pinnable \"who viewed my story\", with each viewer's reaction shown\n- **Instagram Plus** — turn on some Instagram's paid subscriber features inside the app\n- **Custom button icons** — pick any Instagram icon or iOS symbol for the action and home-shortcut buttons\n\n### 🆕 New features\n\n#### Messages\n- Activity notifications and Activity log — records who read your messages plus who came online, went offline or started typing, as a per-person timeline. Set each event to log silently, notify you, or both, and hold anyone to customise or mute them. A new accurate active-status option turns the green dot off the moment someone leaves. Filter by type and date, swipe or multi-select to delete, and lock the log behind your passcode\n- A dot in the DMs inbox to turn your active status on or off without opening settings\n- Keep deleted messages can now also keep the ones you unsend yourself, shown faded in chat and added to the deleted log\n- Mark chats seen locally — with read-receipt blocking on, opened chats look read on your device while the sender still gets no receipt; the eye button turns orange until you really mark seen\n- Hold the account name at the top of Direct to show or hide your hidden chats, with an optional passcode/Face ID lock\n- Messages-only mode is now its own menu, can turn on automatically during a daily window, and adds a notifications shortcut plus an optional home-shortcut button in the inbox header\n- Adding someone to a list (read-receipt blocking, hidden or locked chats, chat backgrounds, story viewer pins) now opens a picker of recent DMs with username search, instead of typing it in blind\n- The DM Draw feature can now send an image as your doodle — from the gallery, Photos, your Instagram or iOS stickers, or a pasted image — with an editor to crop, resize and remove the background\n- Custom chat backgrounds can now be videos or GIFs, framed with pan-zoom and trim, with the same opacity, blur and dim controls, and re-editable later\n- Hide suggested accounts and channels in Direct messages search\n\n#### Stories\n- Stories archive saves every story you post before it expires, with its media and full viewer list, per account. Browse by date in a grid, see who viewed, liked or reacted, with filter, sort, pinned viewers, an unread badge, optional alerts and its own backup and storage entry\n- The \"who viewed my story\" list is now searchable — filter (mutuals, following, follows you, verified, reacted, pinned), sort, and pin anyone to the top. Shows avatars, verified badges and each viewer's reaction, loads every viewer, and can switch back to Instagram's own list. Pick which one opens first\n- Marked-seen indicator — stories you already marked as seen hide the eye button or fill it green for 48 hours, per account\n- New \"Save image (no music)\" story download option for photo stories that have Instagram music on them\n- Story tray long-press \"Profile picture\" now also works in Instagram's new subscriber story preview menu\n\n#### Reels\n- New reels playback menu — hold the ⋯ or audio button for speed, seek (skip back/forward by a custom amount) and auto-scroll controls\n- Auto-scroll reels is back — Instagram default or RyukGram mode that keeps advancing after you swipe back\n- Filter reels by engagement — set a minimum for likes, comments, views or reposts and reels below it never show, plus an option to hide reels whose author hides their counts. Only the Reels tab is filtered by default, so reels you open from a post, profile or share stay untouched\n- Show when a reel was reposted — an optional date on the \"reposted this reel\" header\n\n#### Feed & Explore\n- New Grid feed — turn your home feed into a grid of post thumbnails showing likes, comments, views, shares and the author. Pinch to change columns, pull to refresh, tap a post to open it, or hold for a menu to like, follow, view profile, expand, share or copy the link. Choose which stats show, square or taller tiles, and how you switch back to Instagram's feed. Loads instantly, works per account and remembers where you left off\n- Search and explore grids now show stat pills on posts and reels — views, likes, comments, shares, reposts and date — with a page to pick which appear, reorder them and toggle them\n- New date format options — swap Instagram's relative timestamps on posts, notes, comments, stories and DMs for a fixed date, a preset like dd/MM/yyyy, or your own template, with a relative-time threshold\n- New \"Block surveys\" toggle — hides Instagram's in-app surveys and feedback prompts, including the \"Interested in this post?\" cards\n- Confirm feed refresh — an optional alert before a pull-to-refresh reloads the home feed\n- Refresh stories only — pull-to-refresh reloads just the stories tray and leaves the feed where it is\n\n#### Instants\n- Instants download now works on videos too — expand, save, share and download-all all handle video instants\n- Send a video from your gallery as an Instant — frame it square, trim any 7 seconds on a scrollable timeline, then hold to record\n- Confirm before capturing an Instant — an optional alert on a photo tap or held video, plus a confirm before tapping to switch Instants\n- Auto close the Instants viewer once you've seen them all\n\n#### Downloads & Gallery\n- Download manager got a rebuild — thumbnails for finished media, live size, speed and time left, a filter row, and swipe a row to cancel, retry or remove\n- Downloads now stay listed after you close the app and can be downloaded again from the history — kept from 12 hours up to forever, and cleared or exported from Backup and Storage\n- Download quality picker has an advanced view — download a video with no audio, or pick any of its audio tracks\n- Gallery — import your own photos, videos and files from the ••• menu, saved under an Imported filter\n- Gallery browsing got more controls — combine a sort with images, videos or favorites first, filter by date, pick 2 to 5 columns, and long-press a user section to select all their media\n- The gallery now uses Instagram icons throughout, grid tiles show a date chip, and long-pressing an item shows its date, source and size\n\n#### Profile\n- Profile card details now also show comment, share and repost counts, with a page to pick which stats appear, reorder them and toggle them\n- Followers and Following lists get a filter and sort button on Instagram's search bar — mutuals, following, follows you or verified, sorted by name or relationship\n- Profile Analyzer's badge now shows gains and losses — a green +N when a list grew, a red −N when it shrank\n- Profile Analyzer is out of beta\n\n#### Interface & notifications\n- Action button and home-shortcut icons are now fully customisable — a searchable browser for any Instagram icon or iOS symbol, per button or shared, including Instagram's colourful pet stickers\n- Tab bar icon order is now a live tab bar preview — drag to reorder, drag one up to hide, tap a hidden icon to add it back\n- Story and disappearing-media overlay buttons can be repositioned by dragging them on a preview\n- The notification pill can be placed anywhere on a phone preview, not just top or bottom\n- Notifications mirrored to the iOS notification centre can now also show as system banners while you're using the app\n- The home shortcut button shows a red dot for new deleted messages, read receipts or call recordings, with a count next…",
-          "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
-          "size": 267074754,
-          "minOSVersion": "15.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "959abf1407579dbd3f46.ipa",
-              "downloadUrl": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 267074754,
-              "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ],
-          "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d"
+          "downloads": 577
         }
       ]
     },
@@ -7471,7 +7505,7 @@
               "fileType": "APK",
               "size": 217877725,
               "sha256": "b93dc1b21530d82d626acbf46667d4b56a1737f3dd1b04dcfa32364172cbbfff",
-              "downloads": 1398,
+              "downloads": 1399,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -7519,13 +7553,13 @@
               "fileType": "IPA",
               "size": 73400511,
               "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-              "downloads": 100,
+              "downloads": 111,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
-          "downloads": 100
+          "downloads": 111
         }
       ]
     },
@@ -8336,7 +8370,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 371816,
+              "downloads": 372062,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8348,12 +8382,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1266543,
+              "downloads": 1267383,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1266543
+          "downloads": 1267383
         }
       ]
     },
@@ -8401,7 +8435,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 749,
+              "downloads": 758,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8413,13 +8447,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2193,
+              "downloads": 2219,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2193
+          "downloads": 2219
         }
       ]
     },
@@ -9513,13 +9547,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 501,
+              "downloads": 512,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 501
+          "downloads": 512
         },
         {
           "version": "21.24.3",
@@ -9691,13 +9725,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3667,
+              "downloads": 3780,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3667
+          "downloads": 3780
         }
       ]
     },

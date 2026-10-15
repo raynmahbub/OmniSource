@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T12:15:35Z",
+  "generatedAt": "2026-10-15T11:57:01Z",
   "appCount": 131,
-  "releases": 313,
+  "releases": 315,
   "apps": {
     "3105": [
       {
@@ -176,13 +176,23 @@
     ],
     "battman": [
       {
+        "version": "1.1.0",
+        "date": "2026-10-14",
+        "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
+        "size": 1685904,
+        "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
+        "localizedDescription": "Battman 1.1.0 | TrollStore\n\n## Battman 1.1.0\n\nIn this version, I have finally put something in the 'Analytics' page, added native plug-in support, and fixed a bunch of bugs.\n\n**PLEASE LET ME KNOW** when you want any new features or find any bugs. You can create a [GitHub issue](https://github.com/Torrekie/Battman/issues/new) to describe them, especially when something behaves differently on your device.\n\n- Implemented the 'Analytics' page with cards that you can add, remove, resize and rearrange ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added ten Analytics cards: live readings, capacity observations, cell voltages, charging sessions, battery discharge, connection and charging states, power readings, time by battery level, charging comparison, and discharge rhythm. Graphs include capacity history and comparisons of complete 20% to 80% charging sessions; available readings depend on your device and its recorded history.\n- Added native plug-in support, including `.battman` import, plug-in management, diagnostics and recovery mode. Third-party plug-ins require your approval, and changes take effect after restarting Battman ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added the public Plugin SDK and plug-in example sources for developers ([#53](https://github.com/Torrekie/Battman/pull/53)). Charge Gauge is provided as a **source example**, not as a shipped production plug-in.\n- Added a 'Temperature Unit' option: System, Celsius, or Fahrenheit ([#43](https://github.com/Torrekie/Battman/issues/43)).\n- Added `zh_TW` localization and documentation ([#35](https://github.com/Torrekie/Battman/pull/35)).\n- Added 'Export Powerlog' to the charging graph. Long-press the graph to export the available system battery log.\n- Improved charging-limit settings, daemon connections and charging controls; unavailable or invalid battery readings now have clearer explanations ([#54](https://github.com/Torrekie/Battman/pull/54)).\n- Fixed potential deadlocks in battery-s",
+        "status": "current",
+        "firstSeen": "2026-10-15T11:57:01Z"
+      },
+      {
         "version": "1.0.3",
         "date": "2026-01-19",
         "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.0.3.3/Battman.tipa",
         "size": 675573,
         "sha256": "e290fec1b389c0c33e1af635c598f72fee1f39cfe22a7c0ca17c1919c5d8c060",
         "localizedDescription": "Battman 1.0.3 | TrollStore\n\n## Battman 1.0.3.3\nIn this hotfix version, I have only fixed few bugs cuz I'm a super lazyass and I cannot think of what to be added.\n\n**PLEASE LET ME KNOW** when you wish any new features or found any bugs, especially, you can create any GitHub issues to describe those, to effectively urge me to update this project (Or the most efficient way is to give me money and let me do your requests).\n\n- Fixed a bug where wrongly swapped \"⏾\" and \"▶\" when daemon runs.\n- Added a \"Unsupported\" notification popup when user attempts to run 'Charging Limit' with wireless chargers.\n- Attempt to fix a problem where iOS 17 cannot trigger iCloud autobackup when Battman has been installed.\n- Improved daemon communication logics to make daemon shutdowns gracefully.\n- Removed Herobrine.\n\n### Dependencies (deb)\n- `libintl8`\n\n### Support List\n| iOS \\ Chip \t| <= A10 / A10X \t|           A11          \t|       A12 Series       \t|           A13          \t|     A14 / M1 Series    \t|     A15 / M2 Series    \t| >= A16 / M3 Series \t|\n|:----------:\t|:-------------:\t|:----------------------:\t|:----------------------:\t|:----------------------:\t|:----------------------:\t|:----------------------:\t|:------------------:\t|\n|   <= 11.0  \t|  Unsupported  \t|       Unsupported      \t|            -           \t|            -           \t|            -           \t|            -           \t|          -         \t|\n|    12.0    \t|  Unsupported  \t|        Jailbreak       \t|        Jailbreak       \t|            -           \t|            -           \t|            -           \t|          -         \t|\n|    13.0    \t|  Unsupported  \t|        Jailbreak       \t|        Jailbreak       \t|        Jailbreak       \t|            -           \t|            -           \t|          -         \t|\n|    14.0    \t|  Unsupported  \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t| Jailbreak / TrollStore \t|            -           \t|          -         \t|\n|    15.0    \t|  Unsupported  \t|",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-17T23:15:53Z"
       }
     ],
@@ -734,13 +744,23 @@
     ],
     "inkillerplus": [
       {
+        "version": "451.0.0",
+        "date": "2026-10-14",
+        "downloadURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
+        "size": 265550574,
+        "sha256": "",
+        "localizedDescription": "Instagram 451.0.0 | Instagram_451.0_iNKillerPlus_5.3\n\n• Fixes Grid mode may crashes in v450+\n- Add full compatibility with IG v445+\n- Updated base IPA to Instagram v451",
+        "status": "current",
+        "firstSeen": "2026-10-15T11:57:01Z"
+      },
+      {
         "version": "449.0.0",
         "date": "2026-10-08",
         "downloadURL": "https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa",
         "size": 256829089,
         "sha256": "",
         "localizedDescription": "Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3\n\n• Fixes a possible crash on rootless JB\n- Add alternative icon to jailbreak since iG include the icon inside the app\n- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions\n- Fixes show email open in profiles or copied text to detect emails automaticlly\n- Fixes profile bio long press to copy detect email and links\n- Fixes read DM icon\n- Fixes user exception for direct message\n- Add full compatibility with IG v445+\n- Updated base IPA to Instagram v449.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-09T13:38:00Z"
       },
       {
