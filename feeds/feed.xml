@@ -36,6 +36,83 @@
       <enclosure url="https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>Battman v1.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/battman.json</link>
+      <guid isPermaLink="false">battman-1.1.0</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Battman 1.1.0 | TrollStore
+
+## Battman 1.1.0
+
+In this version, I have finally put something in the 'Analytics' page, added native plug-in support, and fixed a bunch of bugs.
+
+**PLEASE LET ME KNOW** when you want any new features or find any bugs. You can create a [GitHub issue](https://github.com/Torrekie/Battman/issues/new) to describe them, especially when something behaves differently on your device.
+
+- Implemented the 'Analytics' page with cards that you can add, remove, resize and rearrange ([#53](https://github.com/Torrekie/Battman/pull/53)).
+- Added ten Analytics cards: live readings, capacity observations, cell voltages, charging sessions, battery discharge, connection and charging states, power readings, time by battery level, charging comparison, and discharge rhythm. Graphs include capacity history and comparisons of complete 20% to 80% charging sessions; available readings depend on your device and its recorded history.
+- Added native plug-in support, including `.battman` import, plug-in management, diagnostics and recovery mode. Third-party plug-ins require your approval, and changes take effect after restarting Battman ([#53](https://github.com/Torrekie/Battman/pull/53)).
+- Added the public Plugin SDK and plug-in example sources for developers ([#53](https://github.com/Torrekie/Battman/pull/53)). Charge Gauge is provided as a **source example**, not as a shipped production plug-in.
+- Added a 'Temperature Unit' option: System, Celsius, or Fahrenheit ([#43](https://github.com/Torrekie/Battman/issues/43)).
+- Added `zh_TW` localization and documentation ([#35](https://github.com/Torrekie/Battman/pull/35)).
+- Added 'Export Powerlog' to the charging graph. Long-press the graph to export the available system battery log.
+- Improved charging-limit settings, daemon connections and charging controls; unavailable or invalid battery readings now have clearer explanations ([#54](https://github.com/Torrekie/Battman/pull/54)).
+- Fixed potential deadlocks in battery-status callbacks and improved battery refreshes while scrolling ([#39](https://github.com/Torrekie/Battman/pull/39), [#40](https://github.com/Torrekie/Battman/pull/40)).
+- Improved crash logging for the app, daemon and worker processes ([#38](https://github.com/Torrekie/Battman/pull/38)).
+- Fixed DOD0 units and misleading battery-authenticity warnings, and corrected invalid time-to-empty estimates ([#45](https://github.com/Torrekie/Battman/issues/45), [#46](https://github.com/Torrekie/Battman/pull/46)).
+- Fixed crashes when reading accessory and UPS battery information, including disconnects during a refresh ([#47](https://github.com/Torrekie/Battman/pull/47)).
+- Removed unused system-group entitlements to address the remaining iOS 17 backup issue after the earlier fix attempt ([#32](https://github.com/Torrekie/Battman/issues/32), [#41](https://github.com/Torrekie/Battman/pull/41)).
+- Improved Analytics history browsing, graph readability and scrolling responsiveness.
+- Bundled the gettext runtime so localization can work without a system gettext installation.
+- Improved **Wipe all Battman data** to wait for Analytics cache writes and report deletion failures, and replaced legacy icon-font dependencies with vector fallbacks.
+
+### Dependencies (deb)
+
+- `libintl8` or `libintl`
+
+### Support List
+
+The table below retains the installation-method overview from previous releases. It is **not a complete tested-device list for 1.1.0**; you still need a jailbreak or TrollStore version compatible with your particular device and iOS build.
+
+| iOS \ Chip | <= A10 / A10X | A11 | A12 Series | A13 | A14 / M1 Series | A15 / M2 Series | >= A16 / M3 Series |
+|:----------:|:-------------:|:---:|:----------:|:---:|:---------------:|:---------------:|:------------------:|
+| < 12.0 | Unsupported | Unsupported | - | - | - | - | - |
+| 12.0 | Unsupported | Jailbreak | Jailbreak | - | - | - | - |
+| 13.0 | Unsupported | Jailbreak | Jailbreak | Jailbreak | - | - | - |
+| 14.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | - | - |
+| 15.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | - |
+| 16.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Untested |
+| >= 17.0 | Unsupported | Untested | Untested | Untested | Untested | Untested | Untested |
+
+* Unsupported: Outside Battman's current iOS 12.0 / A11-or-newer baseline.
+* Untested: No independently completed device-testing coverage is claimed for this combination.
+* Jailbreak: An installation method on compatible jailbroken systems; **Roothide jailbreak was not considered in this list**.
+* TrollStore: An installation method using [TrollStore](https://github.com/opa334/TrollStore), where that device and iOS build support it.
+* Analytics: Individual readings depend on the hardware and available system logs. Missing readings remain unavailable, and incomplete history is not treated as a complete measurement.
+
+### Choose your package
+
+`com.torrekie.battman_1.1.0_iphoneos-arm.deb`: For your rooted jailbreaks, typically on iOS 12.0 ~ 14.x.
+
+`com.torrekie.battman_1.1.0_iphoneos-arm64.deb`: For your rootless jailbreaks, typically on iOS 15.0 or above.
+
+`Battman.tipa`: The Battman host app for TrollStore. Please notice that **DO NOT install deb and tipa versions at the same time**. You can only keep one installation on your device.
+
+`BattmanPluginSDK-1.1.0.tar.gz`: Plugin SDK source for developers, under the MIT License.
+
+`BattmanPluginExamples-1.1.0.tar.gz`: Buildable source examples, including the SDK Analytics card and Charge Gauge. Charge Gauge retains the repository's Non-Commercial Attribution License; the SDK subtree remains MIT-licensed. These are source archives, with no compiled plug-in packages or external plug-ins included in the release TIPA.
+
+Native plug-ins run inside Battman with its permissions. A valid signature identifies the publisher and package, but does not make the code safe. On TrollStore installations, activating an additional native plug-in requires a replacement TIPA containing it; importing a `.battman` package alone is not enough.
+
+Only the `.deb` or `.tipa` package is needed to install Battman. The SDK and example source archives are for developers; the `SHA256SUMS*` files are for verification and do not need to be installed.
+
+`SHA256SUMS.p256.sig` signs the exact `SHA256SUMS` inventory. The SHA-256 fingerprint of the P-256 checksum key's uncompressed public point is:
+
+`5709282ae05ae482b09bde0f463ad6659ef33bc2237736917cddebd0c9069d75`
+
+**Full Changelog**: [v1.0.3.3...v1.1.0](https://github.com/Torrekie/Battman/compare/v1.0.3.3...v1.1.0)]]></description>
+      <enclosure url="https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>ThreadSaver v451.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json</link>
       <guid isPermaLink="false">threadsaver-451.0</guid>
@@ -674,16 +751,6 @@ Allows official Dopamine to be injected by TrollFools into third-party plugins t
 
 Updated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).]]></description>
       <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>NexaSC v8.82.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
-      <guid isPermaLink="false">nexasc-8.82.0</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC
-
-IPA Vault build for SoundCloud (NexaSC), version 8.82.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
