@@ -5,8 +5,19 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>StikDebug v3.1.15</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json</link>
+      <guid isPermaLink="false">stikdebug-3.1.15</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[StikDebug 3.1.15 | StikDebug-3.1.15
+
+**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15
+Attempt to fix ServiceNotFound errors, add debugging]]></description>
+      <enclosure url="https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Nuvio v0.5.10</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
@@ -722,35 +733,6 @@ Allows official Dopamine to be injected by TrollFools into third-party plugins t
 **Android**: Enable "Install from unknown sources" and install the APK
 **iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
       <enclosure url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.1.1/SpotiFLAC-v5.1.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Reynard v0.17.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
-      <guid isPermaLink="false">reynard-0.17.0</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Reynard 0.17.0 | Reynard
-
-## Changes
-
-**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0
-
-### Improvements
-- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.
-
-### New Features
-- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.
-- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.
-
-### Bug Fixes
-- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.
-- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.
-- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.
-- Fixed several UI issues.
-
-### Engine
-
-Updated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).]]></description>
-      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
