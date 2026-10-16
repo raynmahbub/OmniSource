@@ -899,7 +899,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 1124,
+              "downloads": 1138,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -911,7 +911,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 2999,
+              "downloads": 3052,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -923,7 +923,7 @@
               "fileType": "IPA",
               "size": 118304297,
               "sha256": "e8eefa6d81b926c683752b27b4c45ec7b564764d726eb1906bc3986d3cba3915",
-              "downloads": 34,
+              "downloads": 35,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -947,7 +947,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 271,
+              "downloads": 273,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -959,7 +959,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 449,
+              "downloads": 461,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -989,7 +989,7 @@
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 449
+          "downloads": 461
         }
       ],
       "screenshotURLs": [],
@@ -2389,75 +2389,75 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
       "tintColor": "7794F0",
       "category": "utilities",
-      "version": "4.2.0",
-      "versionDate": "2026-10-13",
-      "versionDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826\n* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827\n* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828\n* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843\n* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
-      "size": 45085120,
+      "version": "4.2.1",
+      "versionDate": "2026-10-16",
+      "versionDescription": "Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+      "size": 45123011,
       "versions": [
         {
-          "version": "4.2.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826\n* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827\n* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828\n* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843\n* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
-          "size": 45085120,
+          "version": "4.2.1",
+          "date": "2026-10-16",
+          "localizedDescription": "Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+          "size": 45123011,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.2.0",
+          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.2.1",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 97187500,
-              "sha256": "d2fe3e587a23bc21da21389aea8e8acde3d0e201126fd6564b0ba1b54194b216",
-              "downloads": 660,
+              "size": 97324692,
+              "sha256": "8ead0361499d3099aebb2a8f6fc599422172b35a1162c239dc0f40cb2852c3cf",
+              "downloads": 106,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 84946434,
-              "sha256": "64ec39a914f2ffa51569cd4a5cf5bbe393ddd58fb0b9d847f53de6218365d5fc",
-              "downloads": 4,
+              "size": 85034470,
+              "sha256": "606914599b5c149c5e4fd5d1b5820aef69a3207d8f17ed140f7e0a78023b6f28",
+              "downloads": 2,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-release.aab",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-release.aab",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/app-release.aab",
               "platform": "android",
               "architecture": null,
               "fileType": "AAB",
-              "size": 142290388,
-              "sha256": "a9e4fbdab3a5ab7f72edd78a165a8075da33b5001fb68bc6e7aec1519ac3d99f",
+              "size": 142433670,
+              "sha256": "1b49965a4548c3ae395b38b41f4a95cd3423203b6fac11ee9dcbc098d20c8427",
               "downloads": 1,
               "mimeType": "raw",
               "installable": true
             },
             {
               "filename": "conduit.ipa",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 45085120,
-              "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
-              "downloads": 8,
+              "size": 45123011,
+              "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
+              "downloads": 1,
               "mimeType": "raw",
               "installable": true
             }
           ],
-          "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
-          "downloads": 8
+          "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
+          "downloads": 1
         }
       ],
       "screenshotURLs": [],
@@ -2495,7 +2495,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-10-13"
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     },
@@ -2984,48 +2984,48 @@
       "version": "2.4.9.27",
       "versionDate": "2026-09-12",
       "versionDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-      "downloadURL": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
+      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
       "size": 54863273,
       "versions": [
         {
           "version": "2.4.9.27",
           "date": "2026-09-12",
           "localizedDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-          "downloadURL": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
+          "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
           "size": 54863273,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/roothide/Dopamine2-roothide/releases/tag/27",
+          "releaseUrl": "https://github.com/roothide/Dopamine-roothide/releases/tag/27",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Dopamine.ipa",
-              "downloadUrl": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
+              "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
               "size": 54863273,
               "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-              "downloads": 15901,
+              "downloads": 22318,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Dopamine.tipa",
-              "downloadUrl": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.tipa",
+              "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.tipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
               "size": 54863273,
               "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-              "downloads": 5919,
+              "downloads": 7795,
               "mimeType": "application/trollstore-ipa",
               "installable": true
             }
           ],
           "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-          "downloads": 15901
+          "downloads": 22318
         }
       ],
       "screenshotURLs": [],
@@ -5389,7 +5389,7 @@
               "fileType": "IPA",
               "size": 56199092,
               "sha256": "2418b6a4c8648bcad63a7b818dd017e7756953d7b5aa8e0f261f37b11e687d67",
-              "downloads": 17,
+              "downloads": 18,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5413,7 +5413,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 913,
+              "downloads": 917,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5461,13 +5461,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 426,
+              "downloads": 429,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 426
+          "downloads": 429
         }
       ],
       "screenshotURLs": [],
@@ -6380,13 +6380,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3931,
+              "downloads": 3959,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3931
+          "downloads": 3959
         }
       ],
       "screenshotURLs": [
@@ -6495,13 +6495,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 525,
+              "downloads": 527,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 525
+          "downloads": 527
         }
       ],
       "screenshotURLs": [
@@ -7315,7 +7315,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23711,
+              "downloads": 23713,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7333,7 +7333,7 @@
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23711
+          "downloads": 23713
         }
       ],
       "screenshotURLs": [],
@@ -8034,7 +8034,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 681,
+              "downloads": 683,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8064,7 +8064,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 681
+          "downloads": 683
         }
       ],
       "screenshotURLs": [],
@@ -9571,7 +9571,7 @@
               "fileType": "IPA",
               "size": 109263826,
               "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
-              "downloads": 308,
+              "downloads": 315,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9583,7 +9583,7 @@
               "fileType": "IPA",
               "size": 109311241,
               "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
-              "downloads": 1932,
+              "downloads": 1992,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9595,13 +9595,13 @@
               "fileType": "IPA",
               "size": 109225943,
               "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-              "downloads": 749,
+              "downloads": 773,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-          "downloads": 749
+          "downloads": 773
         }
       ],
       "screenshotURLs": [],
@@ -11525,7 +11525,7 @@
               "fileType": "APK",
               "size": 218533778,
               "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-              "downloads": 381,
+              "downloads": 487,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11537,7 +11537,7 @@
               "fileType": "APK",
               "size": 217470115,
               "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-              "downloads": 19,
+              "downloads": 30,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11573,13 +11573,13 @@
               "fileType": "IPA",
               "size": 73761532,
               "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-              "downloads": 4,
+              "downloads": 6,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-          "downloads": 4
+          "downloads": 6
         }
       ],
       "screenshotURLs": [],
@@ -12638,7 +12638,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 372396,
+              "downloads": 372443,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12650,12 +12650,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1268393,
+              "downloads": 1268553,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1268393
+          "downloads": 1268553
         }
       ],
       "screenshotURLs": [],
@@ -12942,7 +12942,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 771,
+              "downloads": 772,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12954,13 +12954,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2257,
+              "downloads": 2263,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2257
+          "downloads": 2263
         }
       ],
       "screenshotURLs": [],
@@ -15434,6 +15434,15 @@
       "notify": true
     },
     {
+      "title": "Conduit v4.2.1",
+      "identifier": "news-conduit-4-2-1",
+      "caption": "Native client for Open WebUI & Ollama",
+      "date": "2026-10-16",
+      "appID": "app.cogwheel.conduit",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
+      "notify": true
+    },
+    {
       "title": "StikDebug v3.1.15",
       "identifier": "news-stikdebug-3-1-15",
       "caption": "On-device JIT enabler and debugger",
@@ -15458,15 +15467,6 @@
       "date": "2026-10-15",
       "appID": "com.facebook.Messenger.flow",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
-      "notify": true
-    },
-    {
-      "title": "iQFace v583.0.0",
-      "identifier": "news-iqface-583-0-0",
-      "caption": "Facebook tweak build by 7MD",
-      "date": "2026-10-15",
-      "appID": "com.facebook.Facebook",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
       "notify": true
     }
   ]

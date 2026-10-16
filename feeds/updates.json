@@ -94,6 +94,21 @@
       "shortDescription": "App-data browser and backup for sideloaded apps"
     },
     {
+      "slug": "conduit",
+      "name": "Conduit",
+      "version": "4.2.1",
+      "previousVersion": "4.2.0",
+      "date": "2026-10-16",
+      "kind": "updated",
+      "changelog": "Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/conduit.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/conduit.xml",
+      "status": "stable",
+      "shortDescription": "Native client for Open WebUI & Ollama"
+    },
+    {
       "slug": "stikdebug",
       "name": "StikDebug",
       "version": "3.1.15",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/chan.xml",
       "status": "stable",
       "shortDescription": "4chan imageboard browser"
-    },
-    {
-      "slug": "stikdebug",
-      "name": "StikDebug",
-      "version": "3.1.12",
-      "previousVersion": "3.1.11",
-      "date": "2026-09-27",
-      "kind": "updated",
-      "changelog": "StikDebug 3.1.12 | StikDebug-3.1.12\n\nShould fix issues with DDI for iOS versions below 26.4.\nAlso, lots of fixes and improvements for TXM scripts, location simulation, and keep-alives.\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.11...3.1.12",
-      "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.12/StikDebug-3.1.12.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/StikDebug.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/stikdebug.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/stikdebug.xml",
-      "status": "stable",
-      "shortDescription": "On-device JIT enabler and debugger"
     }
   ]
 }
