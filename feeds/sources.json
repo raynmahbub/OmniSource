@@ -147,8 +147,8 @@
       ],
       "appCount": 13,
       "verifiedApps": 12,
-      "healthScore": 74.1,
-      "score": 97.5,
+      "healthScore": 74.0,
+      "score": 97.4,
       "status": "Warning",
       "level": "TRUSTED",
       "updateFrequencyDays": 5.9,
@@ -436,8 +436,8 @@
       ],
       "appCount": 1,
       "verifiedApps": 0,
-      "healthScore": 44.0,
-      "score": 61.8,
+      "healthScore": 43.0,
+      "score": 61.0,
       "status": "Warning",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
@@ -977,7 +977,7 @@
         {
           "slug": "streamyfin",
           "name": "Streamyfin",
-          "version": "0.55.0"
+          "version": "0.55.2"
         }
       ],
       "slug": "fredrikburmester-streamyfin",
@@ -988,11 +988,11 @@
       "appCount": 1,
       "verifiedApps": 1,
       "healthScore": 77.0,
-      "score": 73.9,
-      "status": "Community Verified",
-      "level": "RELIABLE",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2026-10-04",
+      "score": 87.4,
+      "status": "Verified",
+      "level": "TRUSTED",
+      "updateFrequencyDays": 12.0,
+      "lastUpdate": "2026-10-16",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json"
     },
     {
@@ -2174,7 +2174,7 @@
       "score": 96.9,
       "status": "Warning",
       "level": "TRUSTED",
-      "updateFrequencyDays": 6.5,
+      "updateFrequencyDays": 7.0,
       "lastUpdate": "2026-10-11"
     },
     {
@@ -2199,10 +2199,10 @@
       "appCount": 1,
       "verifiedApps": 1,
       "healthScore": 79.0,
-      "score": 89.9,
+      "score": 89.4,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 7.5,
+      "updateFrequencyDays": 6.0,
       "lastUpdate": "2026-10-11",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json"
     },
@@ -2304,7 +2304,7 @@
         {
           "slug": "nuvio",
           "name": "Nuvio",
-          "version": "0.5.10"
+          "version": "0.6.0"
         }
       ],
       "slug": "nuviomedia-nuviomobile",
@@ -2319,7 +2319,7 @@
       "status": "Verified",
       "level": "TRUSTED",
       "updateFrequencyDays": 2.4,
-      "lastUpdate": "2026-10-14",
+      "lastUpdate": "2026-10-16",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/nuvio.json"
     },
     {
@@ -3179,7 +3179,7 @@
         {
           "slug": "utm",
           "name": "UTM",
-          "version": "4.7.5"
+          "version": "5.0.7"
         }
       ],
       "slug": "utmapp-utm",
@@ -3194,7 +3194,7 @@
       "status": "Community Verified",
       "level": "RELIABLE",
       "updateFrequencyDays": null,
-      "lastUpdate": "2026-01-03",
+      "lastUpdate": "2026-10-16",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/utm.json"
     },
     {
@@ -3461,9 +3461,9 @@
   ],
   "statuses": {
     "Warning": 5,
-    "Community Verified": 58,
+    "Community Verified": 57,
     "Inactive": 21,
-    "Verified": 14,
+    "Verified": 15,
     "Deprecated": 15,
     "Maintained": 1
   }

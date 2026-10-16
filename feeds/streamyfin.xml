@@ -5,8 +5,81 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json</link>
     <description>Release feed for Streamyfin within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/streamyfin.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Streamyfin v0.55.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json</link>
+      <guid isPermaLink="false">streamyfin-0.55.2</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Streamyfin 0.55.2 | streamyfin-ios
+
+## What's Changed
+
+0.55.2 is another bug fix release. One thing does change: a TV is now signed in from your phone with Quick Connect, so Quick Connect has to be on in your server's dashboard (it is by default) and both devices need this version. The rest again comes out of the crash and error reports, plus a round of fixes to accounts and the Seerr sign-in
+
+Thanks to everyone who reported a problem, and to @Gauvino for the Quick Connect and Seerr fixes!
+
+### ✨ Highlights
+- **Signing a TV in from your phone uses Quick Connect**, with a code or a QR code, and no longer sends your password over the local network (#2240) by @Gauvino
+- **Freezes of a few seconds when playback starts or resumes** on iOS and tvOS are fixed (#2205) by @fredrikburmester
+- **Access tokens are kept out of the app log**, including the logs you export, and entries written by earlier versions are cleaned up (#2103) by @Gauvino
+- **Seerr access no longer carries over** to the next account signed in on the same device (#2233) by @Gauvino
+- **Quick Connect in Settings** sends the code on its sixth digit and tells you why a code fails (#2246) by @Gauvino
+- **Luxembourgish** is available as an app language (#2195) by @Gauvino
+
+### 🎬 Player
+- iOS and tvOS: the app no longer freezes for several seconds when playback starts or resumes while the system audio service is slow to answer (#2205) by @fredrikburmester
+- Music: tapping a track far down the queue before the rest has loaded no longer fails, and neither do previous and next with repeat all (#2212) by @fredrikburmester
+
+### 📺 TV
+- Pairing a TV with a phone goes through Quick Connect: the TV shows a code and a QR code, your phone approves it, and the TV signs in by itself. No password travels between the two devices, and the TV picks its own server (#2240) by @Gauvino
+- On the phone, Settings > Log in on TV scans the QR code or takes the code typed in, and the entry now shows on iPhones too (#2240) by @Gauvino
+- The TV offers a new code when the old one runs out after ten minutes, and says so when Quick Connect is turned off on the server (#2240) by @Gauvino
+- "Save this account" works with a Quick Connect sign-in: the TV asks how to protect the account before showing the code (#2240) by @Gauvino
+- The TV signs in as the phone's user, and a TV still on an older version has to be updated before it can be paired (#2240) by @Gauvino
+- Switching account on a TV no longer leaves the previous account's Seerr session and plugin settings in place for the next one (#2197, #2233) by @Gauvino
+
+### 🔑 Sign-in & Accounts
+- Settings > Quick Connect sends the code on its sixth digit or when you paste one, and shows why a code failed under the cells instead of in a dialog, with the code kept for a fix (#2246) by @Gauvino
+- Approving a Quick Connect code while Quick Connect is turned off on the server no longer signs you out. The app tells you it is off instead (#2246, #2247) by @Gauvino
+- iOS: the toolbar with a "Default" button above the number pad is gone from the Quick Connect code and the account PIN fields, and a tap beside the field closes the keyboard (#2236, #2242) by @Gauvino
+- Settings from the Streamyfin plugin are applied right after signing in, Quick Connect included, instead of at the next refresh (#2197) by @Gauvino
+- The Seerr sign-in that follows a login runs right away, and only once (#2197, #2231) by @Gauvino
+- One account's Seerr session, and the Seerr and OpenSubtitles keys the plugin gave it, no longer reach the next account signed in on the device (#2197, #2233) by @Gauvino
+
+### ⬇️ Downloads
+- An item with nothing to download, like a folder, a photo or a book, shows a message instead of doing nothing (#2210) by @fredrikburmester
+- Downloading the last missing episode of a season uses that episode's own version, audio and subtitle tracks, not the first episode's (#2214) by @fredrikburmester
+
+### 🐛 Fixes
+- Access tokens are redacted from the app log and from exported logs, and entries written before this update are redacted too. On iOS the name of an external subtitle track carried the token into the log (#2103) by @Gauvino
+- Opening a library sends one request with that library's own sort and filters, instead of a first one carrying the previous library's (#2256) by @fredrikburmester
+- The Live TV guide and the item counts on library cards load when they open before the session has been restored, instead of staying empty (#2209) by @fredrikburmester
+- Streamystats: an answer without results no longer breaks the home recommendation rows and search (#2203) by @fredrikburmester
+- A custom link the in-app browser cannot open is handed to the system, and one that nothing can open shows a message instead of doing nothing (#2211) by @fredrikburmester
+- Fixed an error after restarting the app when something had been changed while offline, like marking an item as played (#2208) by @fredrikburmester
+- iOS: custom header values can be read when the system starts the app in the background on a locked phone, once this version has been opened one time (#2215) by @fredrikburmester and @Gauvino
+
+### 🔧 Build & Infra
+- Crash reporting sends less: more network and proxy failures the app can do nothing about are skipped (#2204) by @fredrikburmester
+- Routine dependency updates (#1874) by @renovate[bot] and @Gauvino
+
+### 🌍 Translations
+- Luxembourgish (Lëtzebuergesch) is available in the language picker (#2195) by @Gauvino
+- Ongoing Crowdin sync (#2095, #2213, #2241) by our translators on Crowdin
+- Want to help translate Streamyfin? Join us at [translate.streamyfin.app](https://translate.streamyfin.app)
+
+### 🛟 Support & Reporting Bugs
+
+- **Bugs and feature requests:** [open an issue](https://github.com/streamyfin/streamyfin/issues/new/choose). Search [existing issues](https://github.com/streamyfin/streamyfin/issues) first and add to a match if there is one.
+- **Questions and help:** [Discord](https://discord.streamyfin.app)
+
+**Include in bug reports:** app version, platform and device, OS version, Jellyfin server version, direct play or transcoding, the media's codecs and subtitle format, which player you used (native or standard), steps to reproduce, and logs or a screen recording if possible.
+
+**Full Changelog**: https://github.com/streamyfin/streamyfin/compare/v0.55.1...v0.55.2]]></description>
+      <enclosure url="https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Streamyfin v0.55.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json</link>

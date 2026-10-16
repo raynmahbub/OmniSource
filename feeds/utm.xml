@@ -5,102 +5,92 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
     <description>Release feed for UTM within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 17:51:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 06:25:45 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/utm.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>UTM v4.7.5</title>
+      <title>UTM v5.0.7</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
-      <guid isPermaLink="false">utm-4.7.5</guid>
-      <pubDate>Sat, 03 Jan 2026 17:51:54 +0000</pubDate>
-      <description><![CDATA[UTM 4.7.5 | Universal IPA
+      <guid isPermaLink="false">utm-5.0.7</guid>
+      <pubDate>Fri, 16 Oct 2026 06:25:45 +0000</pubDate>
+      <description><![CDATA[UTM 5.0.7 | Universal IPA
 
 ## Highlights
-* **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.
-* **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.
-* **App Intents**: New support for automation with Shortcuts.
-* **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.
-* **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.
+* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.
+* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).
+* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.
+* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.
+* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.
+* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.
 
-## Changes (v4.7.5)
-* Fixed some rare conditions that could lead to a VM fail to start and spin infinitely
-* Fixed some rare crashes that can happen after a VM stops
-* Fixed parsing of file paths with commas in the name (thanks @nikolan123)
-* ANGLE: Fixed a memory leak issue in the GLES backend (#7546) (thanks @cnnn)
-* ANGLE: Fixed a memory leak issue in the Metal backend (#4958)
+## Notes
+* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.
+* The minimum supported versions are now macOS 12 and iOS 15.
+* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.
+* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.
+* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.
+* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.
+
+## Changes (v5.0.7)
+* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
+* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
+* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
+* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
 * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* (macOS) Fixed App Intents on macOS 26 (#7412) (thanks @peterneutron)
-* (macOS) Fixed an error when file locking is disabled and a removable drive with no image selected is started (#7527)
-* (macOS) AVF: Fixed shared directory disconnecting when window is resized (#7488) (thanks @evan314159)
-* Hotfix: (1/3/25) An earlier release of v4.7.5 has an issue that prevented VMs from starting. Make sure you are on build 118.
+* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad
+* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped
+* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with "Close" or "Quit" instead of "OK"
+* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
+* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
+* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
+* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)
+* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller
+* (macOS) Scripting: Force stopping a paused VM is now allowed
+* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing "VZErrorDomain error -6" (#7914)
+* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)
 
-## Changes (v4.7.4)
-* (macOS) Fixed a crash on VM start when a toolbar menu was reinitialized (note v4.7.4 was re-released to address this) (#7408)
-* Home: Fixed layout issue with button titles
-* (macOS) Fixed a crash when VM exits while USB is active
-* (iOS) Support for StikDebug on iOS 26 (non-SE only)
-
-## Changes (v4.7.3)
-* Fixed a crash when starting a VM results in a block device error
-* Stop button can now be used a second time to force kill a VM if it is unresponsive after stopping for the first time
-* libusb: Fixed multiple race conditions that caused crashes when using USB capture
-* CocoaSpice: Fixed multiple race conditions that caused crashes during VM start
+## Changes (v5.0.6)
+* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)
+* Updated the DXMT and MoltenVK graphics backends
+* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26
+* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery
+* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)
+* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)
+* SPICE: Fixed microphone audio quality (#7751)
+* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)
+* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)
+* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened
 * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* (macOS) Scripting: Fixed broken commands due to name collision (#7360)
-* (macOS) Fixed crash when exiting full screen (#7377)
+* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27
+* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)
+* (iOS 27) Confirm before closing the window of a running VM on iPad
+* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new "Touch mode (drag to scroll)" (#4738)
+* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard
+* (iOS) Input: Game controller Options and Home buttons can now be mapped
+* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver
+* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)
+* (macOS) Terminal: Added a find bar (Cmd-F)
+* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)
+* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen
+* (macOS) Settings: Improved the notes field
+* (macOS 26) Settings: The "New…" device menu now matches the sidebar
+* (macOS) AVF: Sound input and output can be enabled separately, so "Output Only" no longer switches Bluetooth headphones to headset mode (#7875)
+* (macOS 26) AVF: New "Shared Network (VM to VM)" and "Host Only" networking modes (#6975, #7480) (thanks @lovon-spec)
+* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)
+* (macOS 27) AVF: Run without saving changes (#4201, #7326)
+* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)
+* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands
+* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)
+* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)
+* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)
+* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)
 
-## Changes (v4.7.2)
-* (macOS) AVF: Fixed a crash when starting any Apple Virtualization VM (#7355) (We are re-releasing v4.7.2 with build 112 due to this critical bug.)
-* Home: Display network details and active IP addresses on the home details screen (thanks @gabefair)
-* Home: Show a security warning message when importing a .utm with custom arguments (#6252)
-* Config: Option to reset UEFI without pre-loading Secure Boot keys (useful for custom TPM configurations) (#7005)
-* Config: Pre-loading Secure Boot keys will now install Microsoft UEFI 2023 certificates (#7257)
-* Config: When PS/2 device is enabled, no longer create USB mouse and keyboard devices. This allows older Windows install to work out of the box.
-* Config: Quotes in custom arguments are no longer stripped (unless the only quotes wrap the entire argument) (#6343)
-* Config: Provide a fixed serial number for VirtIO block devices (#7332)
-* QEMU: Fixed an issue which causes Windows 98 to BSoD (#7342)
-* QEMU: Do not create a default floppy drive when -nodefaults is used. UTM configuration will set up a FDC device and this is the only way to set up bootindex for floppy.
-* Wizard: Legacy Windows configurations will now use PS/2 controller by default
-* Wizard: Update OS logos to be consistent with other icons
-* Wizard: Windows + i440fx hardware will now instantiate default devices (sound, VGA, networking) that should work with Windows 95/98
-* Wizard: Add additional supported hardware configurations for running older Windows
-* Wizard: Support floppy boot for Windows configuration
-* Scripting: New input automation suite for sending keyboard and mouse input (#6462)
-* USB: Fixed a rare crash when initializing the USB devices list (#5811)
-* SPICE: Fixed an issue where monitor configuration sent to spice-vdagent contains an invalid size (#5832)
+## Changes (v5.0.5)
+* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~
 * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* (iOS) Toolbar: Fix foreground issue on iOS 26 beta 5 and higher
-* (macOS) Added ability to auto-connect USB devices on start (#3400)
-* (macOS) Fixed connecting USB devices from secondary windows
-* (macOS) New "Virtual Machine" menu which mirrors the actions accessible through the toolbar
-* (macOS) Keyboard Shortcuts toolbar icon is no longer shown by default (it can be placed on the toolbar through View -> Customize Toolbar). It is also accessible through the "Virtual Machine" menu.
-* (macOS) Fixed sending simultaneous mouse button presses (#7068)
-* (macOS) utmctl: Add `version` command to detect current UTM version
-* (macOS) Settings: New option to disable key swapping on ISO keyboards (#6976)
-* (macOS) Settings: New option to randomize network MAC addresses on clone (#7035)
-
-## Changes (v4.7.1)
-* New Liquid Glass icon thanks to @forcequitOS
-* Added App Intents for VM operations (#6245)
-* Added UEFI boot support for RISC-V64 and LoongArch64. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)
-* QEMU PPC: Disable `bootindex` when `boot-device` is used in prom-env. This allows Yellow Dog Linux for PPC to work out of the box. (#6436)
-* QEMU x86_64: Fixed floppy boot order configuration for other PC models (isapc, i440fx) (#7166)
-* QEMU PPC/M68K: Includes classicvirtio drivers to support cursor input without capture and directory sharing (#6520)
-* QEMU M68K: Fixed virtio drive config (#7008)
-* Fixed a rare crash after stopping VM due to a race condition in libusb
-* Home: improve screenshot contrast in Dark Mode (#6894)
-* Config: Fixed a crash when trying to enter a large size value when creating a new drive (#7295)
-* Config: Corrected the default host IP address in port forwarding config to "0.0.0.0" when it incorrectly displayed "127.0.0.1" (#7132)
-* Keyboard Shortcuts: Create custom combinations of keyboard shortcuts from either Settings -> Input or via the Keyboard icon in the VM (press and hold on iOS/visionOS). This will allow you to easily send key commands such as Ctrl+Alt+Del or Stop+A to the VM. (#5698, #6310, #6757)
-* Wizard: New option to import an existing drive image when setting up a Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)
-* Wizard: New option to create a serial port only Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)
-* Wizard: Removed VHDX import option because Microsoft now provides ARM64 ISO images. Note: You can still create manually import an VHDX after creating a new VM.
-* Wizard: New template to create classic Mac OS VMs for M68K and PPC (#3504, #6890)
-* Wizard: Most common and supported machines for emulation are now listed prominently with the full list of supported QEMU architectures/targets hidden behind an "Expert" mode. This is necessary because most of the QEMU targets are not properly supported by the wizard anyways and does not generate a bootable config. They usually require a lot more manual tinkering. The page order of the wizard is also tweaked so the hardware config comes before the boot config now.
-* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* (iOS SE) Fixed a crash when launching ArchLinux due to mis-handling of REV32
-* (iOS SE) Fixed a crash when the first instruction executed is a goto
-* (iOS SE) Removed ARM32, RISC-V32, and added M68K. There is little use for ARM32 and RISC-V32 as they cannot boot anything useful that cannot also be booted by the 64-bit variant (which is still included). If you have a counter example of this, please open an issue on GitHub and we can consider re-adding it back in the future. However, removing these will …]]></description>
-      <enclosure url="https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa" length="130058389" type="application/octet-stream" />
+* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.
+* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files
+* Wizard: scaling is now default to "nearest" when a "classic" computer emulation is created in the wizard and "linear" otherwise. Previously …]]></description>
+      <enclosure url="https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

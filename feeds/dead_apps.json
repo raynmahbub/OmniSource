@@ -6,10 +6,10 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 56,
+  "count": 55,
   "summary": {
     "warning": 10,
-    "stale": 9,
+    "stale": 8,
     "archived": 36,
     "critical": 1
   },
@@ -556,18 +556,6 @@
       ]
     },
     {
-      "slug": "utm",
-      "name": "UTM",
-      "lastUpdate": "2026-01-03T17:51:54Z",
-      "daysSinceUpdate": 286,
-      "classification": "stale",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 286 days (threshold 180)"
-      ]
-    },
-    {
       "slug": "bootstrap",
       "name": "Bootstrap",
       "lastUpdate": "2026-06-12",
@@ -802,14 +790,12 @@
     {
       "slug": "utm",
       "name": "UTM",
-      "lastUpdate": "2026-01-03T17:51:54Z",
-      "daysSinceUpdate": 286,
-      "classification": "stale",
+      "lastUpdate": "2026-10-16T06:25:45Z",
+      "daysSinceUpdate": 0,
+      "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": [
-        "no update for 286 days (threshold 180)"
-      ]
+      "reasons": []
     },
     {
       "slug": "inkillerplus",
@@ -970,8 +956,8 @@
     {
       "slug": "streamyfin",
       "name": "Streamyfin",
-      "lastUpdate": "2026-10-04",
-      "daysSinceUpdate": 12,
+      "lastUpdate": "2026-10-16",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2009,8 +1995,8 @@
     {
       "slug": "nuvio",
       "name": "Nuvio",
-      "lastUpdate": "2026-10-14",
-      "daysSinceUpdate": 2,
+      "lastUpdate": "2026-10-16",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
