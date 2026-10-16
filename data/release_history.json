@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T11:57:01Z",
+  "generatedAt": "2026-10-16T11:47:32Z",
   "appCount": 131,
-  "releases": 315,
+  "releases": 322,
   "apps": {
     "3105": [
       {
@@ -796,13 +796,23 @@
     ],
     "iqface": [
       {
+        "version": "583.0.0",
+        "date": "2026-10-15",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa",
+        "size": 236422345,
+        "sha256": "",
+        "localizedDescription": "Facebook 583.0.0 | Facebook-583.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 583.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "582.0.0",
         "date": "2026-10-09",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-582.0.0-iQFace.ipa",
         "size": 234797502,
         "sha256": "",
         "localizedDescription": "Facebook 582.0.0 | Facebook-582.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 582.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-10T12:55:26Z"
       },
       {
@@ -1138,13 +1148,23 @@
     ],
     "messenger-flow": [
       {
+        "version": "583.0.0",
+        "date": "2026-10-15",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-Flow.ipa",
+        "size": 121058655,
+        "sha256": "",
+        "localizedDescription": "Messenger 583.0.0 | Messenger-583.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 583.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "582.0.0",
         "date": "2026-10-07",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-Flow.ipa",
         "size": 116709494,
         "sha256": "",
         "localizedDescription": "Messenger 582.0.0 | Messenger-582.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 582.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-07T13:45:29Z"
       },
       {
@@ -1234,13 +1254,23 @@
     ],
     "msgplusx": [
       {
+        "version": "583.0.0",
+        "date": "2026-10-15",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-MSGPlusX.ipa",
+        "size": 121745367,
+        "sha256": "",
+        "localizedDescription": "Messenger 583.0.0 | Messenger-583.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 583.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "582.0.0",
         "date": "2026-10-07",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-MSGPlusX.ipa",
         "size": 116866041,
         "sha256": "",
         "localizedDescription": "Messenger 582.0.0 | Messenger-582.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 582.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-07T13:45:29Z"
       },
       {
@@ -1458,13 +1488,23 @@
     ],
     "nuvio": [
       {
+        "version": "0.6.0",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
+        "size": 68513753,
+        "sha256": "4fe66dd483c6b18eab388c3fc419bc0e100336c120f2e8b2ce046842230dfbdd",
+        "localizedDescription": "Nuvio 0.6.0 | nuvio-0.6.0-full-release\n\n- [feat(party): add experimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobile/pull/2253) @tapframe  \n- b9d2c39d fix(player): pause other apps audio on android @tapframe  \n- [feat(mdblist): show dynamic and liked lists in the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) @kernexshadow  \n- [i18n(el): translate new 0.5.10 strings (#2263)](https://github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  \n- [Complete missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioMobile/pull/2260) @WhiteGiso  \n- [fix(ios): improve PiP transitions and recover playback after closing PiP (#2259)](https://github.com/NuvioMedia/NuvioMobile/pull/2259) @WhiteGiso  \n- [fix(ios): restore Now Playing by limiting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMobile/pull/2246) @WhiteGiso  \n- [fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234)](https://github.com/NuvioMedia/NuvioMobile/pull/2234) @jhojhocraazy  \n- [feat(mdblist): show external lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobile/pull/2172) @kernexshadow",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "0.5.10",
         "date": "2026-10-14",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.10-beta/nuvio-0.5.10-full-release.ipa",
         "size": 67643251,
         "sha256": "49e1d179f5a03ed641f46e6dda0958556bceb6a8776dd436d228c04f0974d3fa",
         "localizedDescription": "Nuvio 0.5.10 | nuvio-0.5.10-full-release\n\n- [feat(ios): add native PiP with existing MPV VideoToolbox frames (#2248)](https://github.com/NuvioMedia/NuvioMobile/pull/2248) @WhiteGiso  \n- [Fix dismissed shows staying hidden after marking episodes watched (#2244)](https://github.com/NuvioMedia/NuvioMobile/pull/2244) @Laskco  \n- [Add non-AI Subtitle AutoSync for mobile add-on subtitles (#2143)](https://github.com/NuvioMedia/NuvioMobile/pull/2143) @DavidVamaiotu  \n- [fix(i18n): localize generic Episode N titles like TV (#2241)](https://github.com/NuvioMedia/NuvioMobile/pull/2241) @blueocean2308  \n- [ fix next episode card timing and prefetch with heuristic post-credits (#2238)](https://github.com/NuvioMedia/NuvioMobile/pull/2238) @skoruppa  \n- [Optimize custom poster URL resolving performance (#2239)](https://github.com/NuvioMedia/NuvioMobile/pull/2239) @halibiram  \n- [fix: In Poster Card Style settings screen one toggle get bigger then other and pushed out of the screen safe area. (#2219)](https://github.com/NuvioMedia/NuvioMobile/pull/2219) @AdityasahuX07",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-14T12:15:35Z"
       },
       {
@@ -2310,13 +2350,23 @@
     ],
     "stikdebug": [
       {
+        "version": "3.1.15",
+        "date": "2026-10-15",
+        "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
+        "size": 13543234,
+        "sha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
+        "localizedDescription": "StikDebug 3.1.15 | StikDebug-3.1.15\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\nAttempt to fix ServiceNotFound errors, add debugging",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "3.1.14",
         "date": "2026-10-12",
         "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
         "size": 13544340,
         "sha256": "2a4ec1af798648dddda33d3a7730554529f7a172a9dd090a999eff02552c0a68",
         "localizedDescription": "StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {
@@ -2374,13 +2424,23 @@
     ],
     "streamyfin": [
       {
+        "version": "0.55.2",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
+        "size": 73761532,
+        "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
+        "localizedDescription": "Streamyfin 0.55.2 | streamyfin-ios\n\n## What's Changed\n\n0.55.2 is another bug fix release. One thing does change: a TV is now signed in from your phone with Quick Connect, so Quick Connect has to be on in your server's dashboard (it is by default) and both devices need this version. The rest again comes out of the crash and error reports, plus a round of fixes to accounts and the Seerr sign-in\n\nThanks to everyone who reported a problem, and to @Gauvino for the Quick Connect and Seerr fixes!\n\n### ✨ Highlights\n- **Signing a TV in from your phone uses Quick Connect**, with a code or a QR code, and no longer sends your password over the local network (#2240) by @Gauvino\n- **Freezes of a few seconds when playback starts or resumes** on iOS and tvOS are fixed (#2205) by @fredrikburmester\n- **Access tokens are kept out of the app log**, including the logs you export, and entries written by earlier versions are cleaned up (#2103) by @Gauvino\n- **Seerr access no longer carries over** to the next account signed in on the same device (#2233) by @Gauvino\n- **Quick Connect in Settings** sends the code on its sixth digit and tells you why a code fails (#2246) by @Gauvino\n- **Luxembourgish** is available as an app language (#2195) by @Gauvino\n\n### 🎬 Player\n- iOS and tvOS: the app no longer freezes for several seconds when playback starts or resumes while the system audio service is slow to answer (#2205) by @fredrikburmester\n- Music: tapping a track far down the queue before the rest has loaded no longer fails, and neither do previous and next with repeat all (#2212) by @fredrikburmester\n\n### 📺 TV\n- Pairing a TV with a phone goes through Quick Connect: the TV shows a code and a QR code, your phone approves it, and the TV signs in by itself. No password travels between the two devices, and the TV picks its own server (#2240) by @Gauvino\n- On the phone, Settings > Log in on TV scans the QR code or takes the code typed in, and the entry now shows on iPhones too (#2240) by @Gauvino\n- T",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "0.55.0",
         "date": "2026-10-04",
         "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.0/streamyfin-ios.ipa",
         "size": 73400511,
         "sha256": "a3b9d1818688ae51323e3126940d4d13bcaa482edef31e3af48787eb642cd1ab",
         "localizedDescription": "Streamyfin 0.55.0 | streamyfin-ios\n\n## What's Changed\n\nThis is the biggest Streamyfin release so far. The headline is a fully native video player on every platform: SwiftUI on iPhone, iPad and Apple TV, Jetpack Compose on Android and Android TV. It brings new gestures, a sleep timer, dialogue boost and in-player subtitle search, and it is the default on iPhone, iPad and Apple TV (tvOS 26+). On Android and Android TV it is opt-in for now\n\nAround the player, subtitles got a full overhaul, media segments can be skipped everywhere, transcoded downloads finally play offline with multiple subtitles, and the home screen has a new hero carousel and redesigned cards. Android TV gains an ExoPlayer engine with real HDR output, Dolby Vision and Atmos passthrough, plus a proper TV menu\n\nAs usual, thanks to everyone filing issues, testing builds, translating strings, and helping move the project forward!\n\n### ✨ Highlights\n- **Fully native video player** on iPhone and iPad (#1929), Apple TV (#1930, #1935), Android (#1958) and Android TV (#1968)\n- **New player gestures and tools**, double tap to seek (#1933), hold for 2x speed, pinch to zoom-to-fill, sleep timer, dialogue boost and in-player subtitle search and download\n- **HDR on Android TV**, opt-in ExoPlayer engine with HDR10/HDR10+ (#1783), Dolby Vision Profile 5 direct play and Dolby Atmos passthrough (#2002)\n- **Skip intros, credits, recaps, previews and commercials** on every player (#1367)\n- **Subtitle styling**, font, colour, background and opacity (#1543), and subtitles shown automatically while muted (#1900)\n- **Transcoded downloads with offline subtitles** (#1889), with download progress as a Live Activity on iOS (#1924)\n- **New home screen**, native hero carousel on iOS (#1979) and Android (#1983), and media rows redrawn as artwork-backed cards (#1984)\n- **Seerr sign-in with Quick Connect**, no more retyping your password (#2008, #1908)\n- **Custom auth headers** for servers behind Cloudflare Zero Trust or an authentica",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-04T12:45:55Z"
       },
       {
@@ -2766,13 +2826,23 @@
     ],
     "utm": [
       {
+        "version": "5.0.7",
+        "date": "2026-10-16T06:25:45Z",
+        "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
+        "size": 150507204,
+        "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec",
+        "localizedDescription": "UTM 5.0.7 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n* The minimum supported versions are now macOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL backend does not support Vulkan or Di",
+        "status": "current",
+        "firstSeen": "2026-10-16T11:47:32Z"
+      },
+      {
         "version": "4.7.5",
         "date": "2026-01-03T17:51:54Z",
         "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
         "size": 130058389,
         "sha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101",
         "localizedDescription": "UTM 4.7.5 | Universal IPA\n\n## Highlights\n* **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\n* **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.\n* **App Intents**: New support for automation with Shortcuts.\n* **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.\n* **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.\n\n## Changes (v4.7.5)\n* Fixed some rare conditions that could lead to a VM fail to start and spin infinitely\n* Fixed some rare crashes that can happen after a VM stops\n* Fixed parsing of file paths with commas in the name (thanks @nikolan123)\n* ANGLE: Fixed a memory leak issue in the GLES backend (#7546) (thanks @cnnn)\n* ANGLE: Fixed a memory leak issue in the Metal backend (#4958)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (macOS) Fixed App Intents on macOS 26 (#7412) (thanks @peterneutron)\n* (macOS) Fixed an error when file locking is disabled and a removable drive with no image selected is started (#7527)\n* (macOS) AVF: Fixed shared directory disconnecting when window is resized (#7488) (thanks @evan314159)\n* Hotfix: (1/3/25) An earlier release of v4.7.5 has an issue that prevented VMs from starting. Make sure you are on build 118.\n\n## Changes (v4.7.4)\n* (macOS) Fixed a crash on VM start when a toolbar menu was reinitialized (note v4.7.4 was re-released to address this) (#7408)\n* Home: Fixed layout issue with button titles\n* (macOS) Fixed a crash when VM exits while USB is active\n* (iOS) Support for StikDebug on iOS 26 (non-SE only)\n\n## Changes (v4.7.3)\n* Fixed a crash when starting a VM results in a block device error\n* Stop button ca",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],

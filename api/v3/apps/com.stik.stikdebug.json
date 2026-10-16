@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "3c054326a333",
+  "feedVersion": "9f48e3544b38",
   "data": {
     "name": "StikDebug",
     "bundleIdentifier": "com.stik.stikdebug",
@@ -11,39 +11,39 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/StikDebug.webp",
     "tintColor": "3B82F6",
     "category": "developer-tools",
-    "version": "3.1.14",
-    "versionDate": "2026-10-12",
-    "versionDescription": "StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14",
-    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
-    "size": 13544340,
+    "version": "3.1.15",
+    "versionDate": "2026-10-15",
+    "versionDescription": "StikDebug 3.1.15 | StikDebug-3.1.15\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\nAttempt to fix ServiceNotFound errors, add debugging",
+    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
+    "size": 13543234,
     "versions": [
       {
-        "version": "3.1.14",
-        "date": "2026-10-12",
-        "localizedDescription": "StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14",
-        "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
-        "size": 13544340,
+        "version": "3.1.15",
+        "date": "2026-10-15",
+        "localizedDescription": "StikDebug 3.1.15 | StikDebug-3.1.15\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\nAttempt to fix ServiceNotFound errors, add debugging",
+        "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
+        "size": 13543234,
         "minOSVersion": "17.4",
-        "releaseUrl": "https://github.com/StikDebug/StikDebug/releases/tag/3.1.14",
+        "releaseUrl": "https://github.com/StikDebug/StikDebug/releases/tag/3.1.15",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
-            "filename": "StikDebug-3.1.14.ipa",
-            "downloadUrl": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
+            "filename": "StikDebug-3.1.15.ipa",
+            "downloadUrl": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 13544340,
-            "sha256": "2a4ec1af798648dddda33d3a7730554529f7a172a9dd090a999eff02552c0a68",
-            "downloads": 42,
+            "size": 13543234,
+            "sha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
+            "downloads": 277,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "sha256": "2a4ec1af798648dddda33d3a7730554529f7a172a9dd090a999eff02552c0a68",
-        "downloads": 42
+        "sha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
+        "downloads": 277
       }
     ],
     "screenshotURLs": [
@@ -85,7 +85,7 @@
         "downloadReachable": true,
         "detail": "HTTP 302",
         "statusSince": "2026-09-07",
-        "lastUpdatedAt": "2026-10-12"
+        "lastUpdatedAt": "2026-10-15"
       }
     },
     "id": "com.stik.stikdebug"
