@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15",
-  "feedVersion": "dc9a0acd2cb9",
+  "generatedAt": "2026-10-16",
+  "feedVersion": "5dce3b502c62",
   "apps": {
     "total": 131,
     "reachable": 124,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 117,
-    "updated": 0,
+    "incrementalHits": 114,
+    "updated": 3,
     "failed": 4,
     "apiRequests": 117
   },
@@ -23,7 +23,29 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "iqface",
+      "name": "iQFace",
+      "previousVersion": "582.0.0",
+      "version": "583.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "messenger-flow",
+      "name": "Messenger Flow",
+      "previousVersion": "582.0.0",
+      "version": "583.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "msgplusx",
+      "name": "MSGPlusX",
+      "previousVersion": "582.0.0",
+      "version": "583.0.0",
+      "kind": "updated"
+    }
+  ],
   "errors": [
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",

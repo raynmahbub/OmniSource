@@ -19,6 +19,51 @@
       "shortDescription": "On-device JIT enabler and debugger"
     },
     {
+      "slug": "msgplusx",
+      "name": "MSGPlusX",
+      "version": "583.0.0",
+      "previousVersion": "582.0.0",
+      "date": "2026-10-15",
+      "kind": "updated",
+      "changelog": "Messenger 583.0.0 | Messenger-583.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 583.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-MSGPlusX.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/msgplusx.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/msgplusx.xml",
+      "status": "stable",
+      "shortDescription": "Messenger tweak by Dens0r & lucaspedrosa (unofficial build)"
+    },
+    {
+      "slug": "messenger-flow",
+      "name": "Messenger Flow",
+      "version": "583.0.0",
+      "previousVersion": "582.0.0",
+      "date": "2026-10-15",
+      "kind": "updated",
+      "changelog": "Messenger 583.0.0 | Messenger-583.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 583.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-Flow.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/messenger-flow.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/messenger-flow.xml",
+      "status": "stable",
+      "shortDescription": "Facebook Messenger tweak by dvntms (unofficial build)"
+    },
+    {
+      "slug": "iqface",
+      "name": "iQFace",
+      "version": "583.0.0",
+      "previousVersion": "582.0.0",
+      "date": "2026-10-15",
+      "kind": "updated",
+      "changelog": "Facebook 583.0.0 | Facebook-583.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 583.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/iqface.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/iqface.xml",
+      "status": "stable",
+      "shortDescription": "Facebook tweak build by 7MD"
+    },
+    {
       "slug": "nuvio",
       "name": "Nuvio",
       "version": "0.5.10",
@@ -1457,51 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/ytlite.xml",
       "status": "stable",
       "shortDescription": "Lightweight YouTube tweak with no ads and PiP"
-    },
-    {
-      "slug": "ytkp",
-      "name": "YTKillerPlus",
-      "version": "21.38.3",
-      "previousVersion": "21.38.2",
-      "date": "2026-09-26",
-      "kind": "updated",
-      "changelog": "YouTube 21.38.3 | YTKillerPlus_21.38.3_6.1\n\n### Latest Release, ENJOY!!\n\n- **Cracked by** [u/lowiqentity](https://www.reddit.com/user/lowiqentity/)\n\n> [!NOTE]\n> - **Sidestore is no longer supported!!.**\n> - **YTUHD** is not included.\n> - use **YTKACE or any other mod** for downloading. dev intentionally broke download feature.\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino`  `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/ytkp.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/ytkp.xml",
-      "status": "stable",
-      "shortDescription": "Advanced YouTube tweak with extensive controls"
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "version": "21.38.3",
-      "previousVersion": "21.38.2",
-      "date": "2026-09-26",
-      "kind": "updated",
-      "changelog": "YouTube 21.38.3 | YTKACE 1.1.0 | YTKACE_1.1.0_YouTube_21.38.3\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.38.3\n• Redesigned the YTKACE library player with a floating mini player, PiP and YouTube style controls\n• SponsorBlock now skips segments in downloaded videos\n• New Download Method option with Direct downloads\n• Modify YouTube's video zoom\n• Keep Shorts in Subscriptions\n• Option to disable PiP for Shorts\n• Speed menu button\n• Options to disable HDR, remove 1080p Premium and set a separate Shorts speed\n• Layout mode option\n• Choose the subtitle language for downloads\n\nFixed:\n• PiP not working for music videos\n• Gap left by hidden comment guidelines, topic chips and community posts\n• Download and queue buttons on older YouTube versions\n• Autoplay in queues\n• Improved Playback Fix and download retrying\n\nThanks to @Ganeron11 and @kes158 for contributions\n\nYouTube 21.38.3 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.0_YouTube_21.38.3.ipa` for iOS 17 and newer\n• `YTKACE_1.1.0_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.0/YTKACE_1.1.0_YouTube_21.38.3.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/ytkace.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/ytkace.xml",
-      "status": "stable",
-      "shortDescription": "YTKACE"
-    },
-    {
-      "slug": "youpro",
-      "name": "YouPro",
-      "version": "21.38.3",
-      "previousVersion": "21.38.2",
-      "date": "2026-09-26",
-      "kind": "updated",
-      "changelog": "YouTube 21.38.3 | YouProExtra_21.38.3_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa3/YouProExtra_21.38.3_1.3.1.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/youpro.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/youpro.xml",
-      "status": "stable",
-      "shortDescription": "Feature-rich YouTube tweak by alibusut"
     }
   ]
 }
