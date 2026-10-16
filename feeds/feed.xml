@@ -184,6 +184,63 @@ Thanks to everyone who reported a problem, and to @Gauvino for the Quick Connect
       <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>Nuvio v0.6.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
+      <guid isPermaLink="false">nuvio-0.6.1</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nuvio 0.6.1 | nuvio-0.6.1-full-release
+
+- f352f2b2 fix(party): let only the host change what's playing @tapframe]]></description>
+      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Infuse Plus v8.5.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/infuseplus.json</link>
+      <guid isPermaLink="false">infuseplus-8.5.8</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Infuse 8.5.8 | Infuse-8.5.8-Infuse-Plus
+
+IPA Vault build for Infuse Plus (8.5.8), version 8.5.8]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>EscapeOS v0.1.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/escapeos.json</link>
+      <guid isPermaLink="false">escapeos-0.1.8</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[EscapeOS 0.1.8 | EscapeOS-0.1.8
+
+## EscapeOS 0.1.8
+
+v0.1.0, v0.1.1, v0.1.3, v0.1.4, v0.1.5, and v0.1.6 are unchanged. 0.1.7 was never published; its two fixes are in this release.
+
+### Fixed
+- **Import from Files works again for new files and Keep Both.** Since 0.1.6 both failed with "That folder is outside this app's data." An app's container is reported under `/private/var`, and the folder check only stripped that prefix for paths that already exist ([#4](https://github.com/pwnapplehat/EscapeOS/issues/4)).
+- **`InvalidHostID` now explains itself.** It means the device does not recognise EscapeOS's pairing file. The message used to blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS/issues/5)).
+- **Sharing a file can no longer delete EscapeOS's own data.** Share wrote into EscapeOS's Documents and replaced whatever had that name, so sharing a file called `Backups` or `pairingFile.plist` removed every backup or the pairing file. Shares now use a private temporary folder.
+
+### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3), [#4](https://github.com/pwnapplehat/EscapeOS/issues/4))
+- **Search Whole App** finds a file or folder by name anywhere in an app's data.
+- **Favorites** at the top of the Apps tab; they still open after an app is reinstalled.
+- **Replace / Keep Both / Cancel when pasting** a name that already exists. A folder is never replaced, a file is never replaced by itself, and Replace swaps the file in atomically so a failure leaves the original.
+- **Free-space check** before Compress, Share Zip, Duplicate, Paste, Import and Backup, with a clear message instead of a late failure.
+- **Share / Save to Files** on each backup.
+
+### Changed
+- **Deleting a file now asks first**, naming what will be deleted. Files can opt out with "Delete, Don't Ask Again" (Settings turns it back on); folders and backup archives always ask.
+
+Theos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.6. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.
+
+**Verification:** built for iOS; 200 automated checks of the path, paste, delete, search, favorites and free-space logic run against the real source; the changes were reviewed independently and its findings fixed. **This build was not run on a device**, so the screens (search, favorites, the paste and delete prompts) have not been seen on a phone.
+
+`EscapeOS-0.1.8.ipa` SHA-256:
+
+```
+d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269
+```]]></description>
+      <enclosure url="https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>StikDebug v3.1.15</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json</link>
       <guid isPermaLink="false">stikdebug-3.1.15</guid>
@@ -590,142 +647,6 @@ This is a minor release that fixes issues found in 0.17.0. For the complete list
 
 **Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.8...v0.9.9]]></description>
       <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Dopamine v3.0.11</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
-      <guid isPermaLink="false">dopamine-3.0.11</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Dopamine 3.0.11 | Dopamine
-
-- Fix support for iOS 26.0 beta 1 [3.0.1 regression]
-- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)
-- Update opainject and litehook]]></description>
-      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>ByeTunes v2.6</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/byetunes.json</link>
-      <guid isPermaLink="false">byetunes-2.6</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix
-
-# ByeTunes v2.6 – Favorites, Playlist Pinning & Background Downloads Reworked
-
-Hi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.
-
-**Favorites**
-
-There are three new options inside Library Repair:
-
-- **Create Favorites Playlist** creates the Favorites playlist using the right name for your device region.
-- **Fix Missing Favorites** repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.
-- **Delete Favorites Playlist** lets you delete that playlist from Library Repair.
-
-Songs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.
-
-**Quick recommendation:** if you have older injected songs that you favorited but cannot find in Favorites, run **Fix Missing Favorites** inside Library Repair.
-
-**Playlist Pinning**
-
-You can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.
-
-**Keep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.**
-
-**Background Downloads**
-
-Background downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.
-
-The window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own colors or a background picture. There is a live preview in Settings so you can see how it looks before using it.
-
-This replaces the old background download behavior and Live Activity support. Download progress now shows in the Picture in Picture window.
-
-If the app closes while songs are still downloading, those songs go back to the front of the queue the next time you open ByeTunes.
-
-Pause and Cancel were fixed too. They now properly stop background transfers instead of accidentally starting a fallback download after you already paused or cancelled the song.
-
-**Download Queue & Saving Files**
-
-Downloaded songs now get their metadata as part of the download process. You will see a "fetching metadata" state before the song is marked as done, instead of that work being left to a separate background metadata manager.
-
-A few other things got added or improved:
-
-- **Clear All** for completed items in the queue sheet.
-- Preview buttons in the album sheet and artist profile.
-- Icons instead of text in the download queue indicator.
-- Downloads are now limited to **2 at a time for MP3 and 1 for FLAC**, matching what the server supports. (This is temporal until I can pay for a better provider)
-- A **server status banner** appears when the server goes into maintenance. Downloads are blocked while the server is down.
-- A new **Save With Fetched Metadata** toggle that writes the fetched tags and cover artwork into the MP3 and FLAC copies you save.
-
-**Metadata Fixes**
-
-Metadata matching got a lot of attention in this update. There were cases where a remix could get the original song's information, or a song could get renamed to a different track from the same album. Those issues should now be fixed.
-
-- Downloaded songs now look up the exact Deezer track and album. An Apple Music match is only accepted if it belongs to the same album.
-- Apple Music track matching now checks the title, so songs should no longer get relabeled as another track from that album.
-- Apple Music search pages are requested in English so ByeTunes can find the Songs and Albums sections even when using a non-English storefront.
-- A Deezer result with missing artwork or an unreadable item no longer causes the entire search to come back empty.
-- The broken song.link mapping was replaced with Deezer matching, and download failures now show more accurate messages.
-
-FLAC handling was improved too. Some changes in the downloaded files were causing every song to take the album name as its title when an `ALBUMTITLE` tag was present. That is fixed now.
-
-Album artist is also read correctly from files using the `ALBUM ARTIST` or `album_artist` tags.
-
-**Library Management**
-
-Added sorting, a genre filter and multi-delete to the Library management tab.
-
-Fixed an issue where the library would only show some of your songs, for example just 50 tracks. ByeTunes was only scanning one folder. It now scans all folders so the rest of your songs show up too.
-
-Injected songs now use the file's creation date for a more accurate date.
-
-Deleting songs also cleans up any albums, artists and artwork entries left empty after the deletion.
-
-**Stability, Backups & Database Safety**
-
-There were also several fixes to make injection, transfers and backups more reliable:
-
-- One unreadable local file no longer stops the whole injection batch.
-- The export folder is checked before transferring files. If it cannot be used, ByeTunes falls back to its own Exports folder.
-- Snapshot backups keep the previous snapshot until the new one finishes successfully, and only replace snapshots of the same kind.
-- The heartbeat timeout handles stale connection attempts more reliably.
-- Matched songs now save their real catalog ID in `match_redownload_params` instead of placeholder text.
-
-Overall stability and database safety were improved too.
-
-**Cleanup**
-
-The old background metadata manager and its pending import pipeline were removed, since downloaded songs now get their metadata directly during the download process.
-
-The Live Activity extension and download tracking were also removed as part of the move to Picture in Picture, along with the old background download behavior and unused code.
-
-**Official Backend & Building Your Own**
-
-I also added [BACKEND_TERMS.md](https://github.com/EduAlexxis/ByeTunes/blob/main/BACKEND_TERMS.md), which explains how the official hosted backend may be used. **Modified builds need to use their own backend.**
-
-If you are building ByeTunes yourself, `Config.example.plist` is now included as a template for the backend address. The README explains how to set it up.
-
-I also reorganized the project structure. Files are now grouped into proper folders so everything is easier to find and work on. This should help anyone working on their own fork of ByeTunes understand where things are and make changes more easily. I am also considering a bigger rewrite of the app down the road, so this cleanup is a step towards that, but nothing is confirmed yet.
-
-Thanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.]]></description>
-      <enclosure url="https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>YTMusicUltimate v9.41.2</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json</link>
-      <guid isPermaLink="false">ytmusic-9.41.2</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[YTMusicUltimate 9.41.2 | YTMusic 2.4.1 | YTMusicUltimate_9.41.2_2.4.1
-
-> [!NOTE]
-> ### Extra tweaks:
-> - Return YouTubeMusic Dislikes
-> - YTMABConfig
-> - VolumeBoostYT
-- - -
-- YouMusicPiP is only available in custom build
-- iOS14+ build is available in releases page]]></description>
-      <enclosure url="https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

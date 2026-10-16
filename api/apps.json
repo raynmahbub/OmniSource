@@ -899,7 +899,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 1100,
+              "downloads": 1124,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -911,7 +911,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 2961,
+              "downloads": 2999,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -935,7 +935,7 @@
               "fileType": "IPA",
               "size": 128560179,
               "sha256": "cac8ac36827e78e7d0ae628123caeccb8ba2c2601010dcd648d3e53532a00902",
-              "downloads": 58,
+              "downloads": 61,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -947,7 +947,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 265,
+              "downloads": 271,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -959,7 +959,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 439,
+              "downloads": 449,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -989,7 +989,7 @@
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 439
+          "downloads": 449
         }
       ],
       "screenshotURLs": [],
@@ -3247,63 +3247,63 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/EscapeOS.webp",
       "tintColor": "3D9A97",
       "category": "utilities",
-      "version": "0.1.6",
-      "versionDate": "2026-09-18",
-      "versionDescription": "EscapeOS 0.1.6 | EscapeOS-0.1.6\n\n## EscapeOS 0.1.6\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, and v0.1.5 are unchanged.\n\n### Changed\n- **Import from Files** asks Replace, Keep Both, or Cancel when that name is already in the folder, instead of silently writing `foo 2.txt`. Replace overwrites the existing file at the same path and name ([#2](https://github.com/pwnapplehat/EscapeOS/issues/2)).\n- A same-named **folder** is not replaced with a file; Keep Both lands beside it.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.5. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n`EscapeOS-0.1.6.ipa` SHA-256:\n\n```\n234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2\n```",
-      "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
-      "size": 7274676,
+      "version": "0.1.8",
+      "versionDate": "2026-10-16",
+      "versionDescription": "EscapeOS 0.1.8 | EscapeOS-0.1.8\n\n## EscapeOS 0.1.8\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, v0.1.5, and v0.1.6 are unchanged. 0.1.7 was never published; its two fixes are in this release.\n\n### Fixed\n- **Import from Files works again for new files and Keep Both.** Since 0.1.6 both failed with \"That folder is outside this app's data.\" An app's container is reported under `/private/var`, and the folder check only stripped that prefix for paths that already exist ([#4](https://github.com/pwnapplehat/EscapeOS/issues/4)).\n- **`InvalidHostID` now explains itself.** It means the device does not recognise EscapeOS's pairing file. The message used to blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS/issues/5)).\n- **Sharing a file can no longer delete EscapeOS's own data.** Share wrote into EscapeOS's Documents and replaced whatever had that name, so sharing a file called `Backups` or `pairingFile.plist` removed every backup or the pairing file. Shares now use a private temporary folder.\n\n### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3), [#4](https://github.com/pwnapplehat/EscapeOS/issues/4))\n- **Search Whole App** finds a file or folder by name anywhere in an app's data.\n- **Favorites** at the top of the Apps tab; they still open after an app is reinstalled.\n- **Replace / Keep Both / Cancel when pasting** a name that already exists. A folder is never replaced, a file is never replaced by itself, and Replace swaps the file in atomically so a failure leaves the original.\n- **Free-space check** before Compress, Share Zip, Duplicate, Paste, Import and Backup, with a clear message instead of a late failure.\n- **Share / Save to Files** on each backup.\n\n### Changed\n- **Deleting a file now asks first**, naming what will be deleted. Files can opt out with \"Delete, Don't Ask Again\" (Settings turns it back on); folders and backup archives always ask.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.6. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n**Verification:** built for iOS; 200 automated checks of the path, paste, delete, search, favorites and free-space logic run against the real source; the changes were reviewed independently and its findings fixed. **This build was not run on a device**, so the screens (search, favorites, the paste and delete prompts) have not been seen on a phone.\n\n`EscapeOS-0.1.8.ipa` SHA-256:\n\n```\nd374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269\n```",
+      "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
+      "size": 7307240,
       "versions": [
         {
-          "version": "0.1.6",
-          "date": "2026-09-18",
-          "localizedDescription": "EscapeOS 0.1.6 | EscapeOS-0.1.6\n\n## EscapeOS 0.1.6\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, and v0.1.5 are unchanged.\n\n### Changed\n- **Import from Files** asks Replace, Keep Both, or Cancel when that name is already in the folder, instead of silently writing `foo 2.txt`. Replace overwrites the existing file at the same path and name ([#2](https://github.com/pwnapplehat/EscapeOS/issues/2)).\n- A same-named **folder** is not replaced with a file; Keep Both lands beside it.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.5. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n`EscapeOS-0.1.6.ipa` SHA-256:\n\n```\n234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2\n```",
-          "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
-          "size": 7274676,
+          "version": "0.1.8",
+          "date": "2026-10-16",
+          "localizedDescription": "EscapeOS 0.1.8 | EscapeOS-0.1.8\n\n## EscapeOS 0.1.8\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, v0.1.5, and v0.1.6 are unchanged. 0.1.7 was never published; its two fixes are in this release.\n\n### Fixed\n- **Import from Files works again for new files and Keep Both.** Since 0.1.6 both failed with \"That folder is outside this app's data.\" An app's container is reported under `/private/var`, and the folder check only stripped that prefix for paths that already exist ([#4](https://github.com/pwnapplehat/EscapeOS/issues/4)).\n- **`InvalidHostID` now explains itself.** It means the device does not recognise EscapeOS's pairing file. The message used to blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS/issues/5)).\n- **Sharing a file can no longer delete EscapeOS's own data.** Share wrote into EscapeOS's Documents and replaced whatever had that name, so sharing a file called `Backups` or `pairingFile.plist` removed every backup or the pairing file. Shares now use a private temporary folder.\n\n### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3), [#4](https://github.com/pwnapplehat/EscapeOS/issues/4))\n- **Search Whole App** finds a file or folder by name anywhere in an app's data.\n- **Favorites** at the top of the Apps tab; they still open after an app is reinstalled.\n- **Replace / Keep Both / Cancel when pasting** a name that already exists. A folder is never replaced, a file is never replaced by itself, and Replace swaps the file in atomically so a failure leaves the original.\n- **Free-space check** before Compress, Share Zip, Duplicate, Paste, Import and Backup, with a clear message instead of a late failure.\n- **Share / Save to Files** on each backup.\n\n### Changed\n- **Deleting a file now asks first**, naming what will be deleted. Files can opt out with \"Delete, Don't Ask Again\" (Settings turns it back on); folders and backup archives always ask.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.6. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n**Verification:** built for iOS; 200 automated checks of the path, paste, delete, search, favorites and free-space logic run against the real source; the changes were reviewed independently and its findings fixed. **This build was not run on a device**, so the screens (search, favorites, the paste and delete prompts) have not been seen on a phone.\n\n`EscapeOS-0.1.8.ipa` SHA-256:\n\n```\nd374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269\n```",
+          "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
+          "size": 7307240,
           "minOSVersion": "18.0",
-          "releaseUrl": "https://github.com/pwnapplehat/EscapeOS/releases/tag/v0.1.6",
+          "releaseUrl": "https://github.com/pwnapplehat/EscapeOS/releases/tag/v0.1.8",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "EscapeOS-0.1.6.ipa",
-              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
+              "filename": "EscapeOS-0.1.8.ipa",
+              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 7274676,
-              "sha256": "234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2",
-              "downloads": 447,
-              "mimeType": "application/octet-stream",
+              "size": 7307240,
+              "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
+              "downloads": 4,
+              "mimeType": "application/x-itunes-ipa",
               "installable": true
             },
             {
               "filename": "libidevice_ffi.a",
-              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/libidevice_ffi.a",
+              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/libidevice_ffi.a",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
               "size": 97089368,
               "sha256": "6524066d54ef23e00d46445c04dfc694e180196d54119d718f68434fa225be35",
-              "downloads": 14,
-              "mimeType": "application/x-archive",
+              "downloads": 1,
+              "mimeType": "application/octet-stream",
               "installable": false
             },
             {
               "filename": "SHA256SUMS.txt",
-              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/SHA256SUMS.txt",
+              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/SHA256SUMS.txt",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
               "size": 168,
-              "sha256": "a8fb24260a20a9f36a45f9b0aeef89ea4da47f07353254221898504a31e6e3b6",
-              "downloads": 10,
+              "sha256": "b48a8a7d37763b2a9b4446e5dc62d4aac3b041b92cd34e1cf7f83947f3102149",
+              "downloads": 1,
               "mimeType": "text/plain; charset=utf-8",
               "installable": false
             }
           ],
-          "sha256": "234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2",
-          "downloads": 447
+          "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
+          "downloads": 4
         }
       ],
       "screenshotURLs": [],
@@ -3341,7 +3341,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-09-18"
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     },
@@ -4501,18 +4501,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Infuse.webp",
       "tintColor": "FF6B00",
       "category": "photo-video",
-      "version": "8.5.7",
-      "versionDate": "2026-10-13",
-      "versionDescription": "Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.7), version 8.5.7",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
-      "size": 97173009,
+      "version": "8.5.8",
+      "versionDate": "2026-10-16",
+      "versionDescription": "Infuse 8.5.8 | Infuse-8.5.8-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.8), version 8.5.8",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
+      "size": 99469134,
       "versions": [
         {
-          "version": "8.5.7",
-          "date": "2026-10-13",
-          "localizedDescription": "Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.7), version 8.5.7",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
-          "size": 97173009,
+          "version": "8.5.8",
+          "date": "2026-10-16",
+          "localizedDescription": "Infuse 8.5.8 | Infuse-8.5.8-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.8), version 8.5.8",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
+          "size": 99469134,
           "minOSVersion": "18.0",
           "releaseUrl": null,
           "source": "altstore",
@@ -4520,12 +4520,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Infuse-8.5.7-Infuse-Plus.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
+              "filename": "Infuse-8.5.8-Infuse-Plus.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 97173009,
+              "size": 99469134,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -4569,7 +4569,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-18",
-          "lastUpdatedAt": "2026-10-13"
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     },
@@ -5341,7 +5341,7 @@
               "fileType": "APK",
               "size": 108612022,
               "sha256": "d89ffb0f4c7d73099b4227f04599fa24fb9fbc85618d72797c8bba6b55921460",
-              "downloads": 115,
+              "downloads": 118,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5353,7 +5353,7 @@
               "fileType": "APK",
               "size": 94751948,
               "sha256": "57b16779da117f70fef0db0e0a9c23667545aae15a3e82d78fa69ec88a9391b7",
-              "downloads": 15,
+              "downloads": 16,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5377,7 +5377,7 @@
               "fileType": "APK",
               "size": 185536712,
               "sha256": "92cd4924c1c2a22f6ad88f2268bc0d4d77d5de27efc38af7fa010dcdae073c13",
-              "downloads": 25,
+              "downloads": 26,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5413,7 +5413,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 910,
+              "downloads": 913,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5461,13 +5461,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 424,
+              "downloads": 426,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 424
+          "downloads": 426
         }
       ],
       "screenshotURLs": [],
@@ -6380,13 +6380,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3901,
+              "downloads": 3931,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3901
+          "downloads": 3931
         }
       ],
       "screenshotURLs": [
@@ -6495,13 +6495,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 523,
+              "downloads": 525,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 523
+          "downloads": 525
         }
       ],
       "screenshotURLs": [
@@ -7315,7 +7315,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23708,
+              "downloads": 23711,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7327,13 +7327,13 @@
               "fileType": "IPA",
               "size": 153108663,
               "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22616,
+              "downloads": 22617,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23708
+          "downloads": 23711
         }
       ],
       "screenshotURLs": [],
@@ -7585,87 +7585,87 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "tintColor": "5B5FE8",
       "category": "photo-video",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "versionDate": "2026-10-16",
-      "versionDescription": "Nuvio 0.6.0 | nuvio-0.6.0-full-release\n\n- [feat(party): add experimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobile/pull/2253) @tapframe  \n- b9d2c39d fix(player): pause other apps audio on android @tapframe  \n- [feat(mdblist): show dynamic and liked lists in the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) @kernexshadow  \n- [i18n(el): translate new 0.5.10 strings (#2263)](https://github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  \n- [Complete missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioMobile/pull/2260) @WhiteGiso  \n- [fix(ios): improve PiP transitions and recover playback after closing PiP (#2259)](https://github.com/NuvioMedia/NuvioMobile/pull/2259) @WhiteGiso  \n- [fix(ios): restore Now Playing by limiting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMobile/pull/2246) @WhiteGiso  \n- [fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234)](https://github.com/NuvioMedia/NuvioMobile/pull/2234) @jhojhocraazy  \n- [feat(mdblist): show external lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobile/pull/2172) @kernexshadow",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
-      "size": 68513753,
+      "versionDescription": "Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party): let only the host change what's playing @tapframe",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
+      "size": 68517984,
       "versions": [
         {
-          "version": "0.6.0",
+          "version": "0.6.1",
           "date": "2026-10-16",
-          "localizedDescription": "Nuvio 0.6.0 | nuvio-0.6.0-full-release\n\n- [feat(party): add experimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobile/pull/2253) @tapframe  \n- b9d2c39d fix(player): pause other apps audio on android @tapframe  \n- [feat(mdblist): show dynamic and liked lists in the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) @kernexshadow  \n- [i18n(el): translate new 0.5.10 strings (#2263)](https://github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  \n- [Complete missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioMobile/pull/2260) @WhiteGiso  \n- [fix(ios): improve PiP transitions and recover playback after closing PiP (#2259)](https://github.com/NuvioMedia/NuvioMobile/pull/2259) @WhiteGiso  \n- [fix(ios): restore Now Playing by limiting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMobile/pull/2246) @WhiteGiso  \n- [fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234)](https://github.com/NuvioMedia/NuvioMobile/pull/2234) @jhojhocraazy  \n- [feat(mdblist): show external lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobile/pull/2172) @kernexshadow",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
-          "size": 68513753,
+          "localizedDescription": "Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party): let only the host change what's playing @tapframe",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
+          "size": 68517984,
           "minOSVersion": "16.1",
-          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.0-beta",
+          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.1-beta",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "androidApp-full-x86_64-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-x86_64-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-x86_64-release.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 47026682,
-              "sha256": "003b3293cc7d856fc654226ff29fb031b871ffbdfb53df2248fc0e2411e8fd97",
-              "downloads": 23,
+              "size": 47025886,
+              "sha256": "041fbc710157a18937b5b6305236a2182fb7ac3d54e89d6de7c99e3bfebf3e99",
+              "downloads": 26,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "androidApp-full-x86-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-x86-release.apk",
+              "filename": "nuvio-0.6.1-full-release.ipa",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 68517984,
+              "sha256": "d18faf37f1304d5d2a62c302077285aedf6de973e2b6eecbff3a0bfc1d28ad2d",
+              "downloads": 97,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "androidApp-full-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-armeabi-v7a-release.apk",
               "platform": "android",
-              "architecture": "x86",
+              "architecture": "armv7",
               "fileType": "APK",
-              "size": 46050224,
-              "sha256": "0983b886ce164f11ce859e266a3c6e5f1675b05afbcfa015102af2171f273f2b",
-              "downloads": 18,
+              "size": 43918408,
+              "sha256": "7e0a1ec4e4b935743bac27aca18c99deb02e6ffd5c8ecb2080813500ac84a5c1",
+              "downloads": 62,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "androidApp-full-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 45679216,
-              "sha256": "8b757572a5e5159ad7b361ed253c7f2b39f0535a224d8e015ae67ef6348d116a",
-              "downloads": 1706,
+              "size": 45678424,
+              "sha256": "c689bbd3376e6e105d7d821001a3c4e2cd01106d9abdcb5765a4d7dc3ef63bb2",
+              "downloads": 1661,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "androidApp-full-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-armeabi-v7a-release.apk",
+              "filename": "androidApp-full-x86-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-x86-release.apk",
               "platform": "android",
-              "architecture": "armv7",
+              "architecture": "x86",
               "fileType": "APK",
-              "size": 43919204,
-              "sha256": "83eb240a199416a8ca7d205ef030ff34a9b38b243dea43a0bd7e2db3937d5b17",
-              "downloads": 56,
+              "size": 46049428,
+              "sha256": "3d243f07e9155d32246a1033b2a32f07e7c4ea7d51f34cae5f04226da85f0069",
+              "downloads": 23,
               "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "nuvio-0.6.0-full-release.ipa",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 68513753,
-              "sha256": "4fe66dd483c6b18eab388c3fc419bc0e100336c120f2e8b2ce046842230dfbdd",
-              "downloads": 106,
-              "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "4fe66dd483c6b18eab388c3fc419bc0e100336c120f2e8b2ce046842230dfbdd",
-          "downloads": 106
+          "sha256": "d18faf37f1304d5d2a62c302077285aedf6de973e2b6eecbff3a0bfc1d28ad2d",
+          "downloads": 97
         }
       ],
       "screenshotURLs": [],
@@ -8034,7 +8034,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 679,
+              "downloads": 681,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8064,7 +8064,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 679
+          "downloads": 681
         }
       ],
       "screenshotURLs": [],
@@ -9571,7 +9571,7 @@
               "fileType": "IPA",
               "size": 109263826,
               "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
-              "downloads": 300,
+              "downloads": 308,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9583,7 +9583,7 @@
               "fileType": "IPA",
               "size": 109311241,
               "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
-              "downloads": 1875,
+              "downloads": 1932,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9595,13 +9595,13 @@
               "fileType": "IPA",
               "size": 109225943,
               "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-              "downloads": 718,
+              "downloads": 749,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-          "downloads": 718
+          "downloads": 749
         }
       ],
       "screenshotURLs": [],
@@ -11525,7 +11525,7 @@
               "fileType": "APK",
               "size": 218533778,
               "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-              "downloads": 131,
+              "downloads": 381,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11537,7 +11537,7 @@
               "fileType": "APK",
               "size": 217470115,
               "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-              "downloads": 5,
+              "downloads": 19,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11549,7 +11549,7 @@
               "fileType": "AAB",
               "size": 130383094,
               "sha256": "c36397afcd79643674023440db84d20e15aeaebcfaa0899530e6e79f85201adb",
-              "downloads": 0,
+              "downloads": 1,
               "mimeType": "application/x-authorware-bin",
               "installable": true
             },
@@ -11561,7 +11561,7 @@
               "fileType": "IPA",
               "size": 59246428,
               "sha256": "5e25358c26ba9c6687b256c715e389501f9a03f48ee22714a44c9126f8ca2932",
-              "downloads": 0,
+              "downloads": 1,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -11573,13 +11573,13 @@
               "fileType": "IPA",
               "size": 73761532,
               "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-              "downloads": 1,
+              "downloads": 4,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-          "downloads": 1
+          "downloads": 4
         }
       ],
       "screenshotURLs": [],
@@ -12638,7 +12638,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 372318,
+              "downloads": 372396,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12650,12 +12650,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1268168,
+              "downloads": 1268393,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1268168
+          "downloads": 1268393
         }
       ],
       "screenshotURLs": [],
@@ -12942,7 +12942,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 768,
+              "downloads": 771,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12954,13 +12954,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2255,
+              "downloads": 2257,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2255
+          "downloads": 2257
         }
       ],
       "screenshotURLs": [],
@@ -13185,135 +13185,135 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/UTM.webp",
       "tintColor": "7D93E0",
       "category": "utilities",
-      "version": "5.0.7",
-      "versionDate": "2026-10-16T06:25:45Z",
-      "versionDescription": "UTM 5.0.7 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n* The minimum supported versions are now macOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\n\n## Changes (v5.0.7)\n* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration\n* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)\n* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display\n* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad\n* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped\n* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with \"Close\" or \"Quit\" instead of \"OK\"\n* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)\n* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12\n* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)\n* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)\n* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller\n* (macOS) Scripting: Force stopping a paused VM is now allowed\n* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing \"VZErrorDomain error -6\" (#7914)\n* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)\n\n## Changes (v5.0.6)\n* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)\n* Updated the DXMT and MoltenVK graphics backends\n* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26\n* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery\n* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)\n* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)\n* SPICE: Fixed microphone audio quality (#7751)\n* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)\n* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)\n* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27\n* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)\n* (iOS 27) Confirm before closing the window of a running VM on iPad\n* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new \"Touch mode (drag to scroll)\" (#4738)\n* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard\n* (iOS) Input: Game controller Options and Home buttons can now be mapped\n* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver\n* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)\n* (macOS) Terminal: Added a find bar (Cmd-F)\n* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)\n* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen\n* (macOS) Settings: Improved the notes field\n* (macOS 26) Settings: The \"New…\" device menu now matches the sidebar\n* (macOS) AVF: Sound input and output can be enabled separately, so \"Output Only\" no longer switches Bluetooth headphones to headset mode (#7875)\n* (macOS 26) AVF: New \"Shared Network (VM to VM)\" and \"Host Only\" networking modes (#6975, #7480) (thanks @lovon-spec)\n* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)\n* (macOS 27) AVF: Run without saving changes (#4201, #7326)\n* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)\n* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands\n* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)\n* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)\n* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)\n* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)\n\n## Changes (v5.0.5)\n* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.\n* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files\n* Wizard: scaling is now default to \"nearest\" when a \"classic\" computer emulation is created in the wizard and \"linear\" otherwise. Previously …",
-      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-      "size": 150507204,
+      "version": "4.7.5",
+      "versionDate": "2026-01-03T17:51:54Z",
+      "versionDescription": "UTM 4.7.5 | Universal IPA\n\n## Highlights\n* **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\n* **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.\n* **App Intents**: New support for automation with Shortcuts.\n* **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.\n* **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.\n\n## Changes (v4.7.5)\n* Fixed some rare conditions that could lead to a VM fail to start and spin infinitely\n* Fixed some rare crashes that can happen after a VM stops\n* Fixed parsing of file paths with commas in the name (thanks @nikolan123)\n* ANGLE: Fixed a memory leak issue in the GLES backend (#7546) (thanks @cnnn)\n* ANGLE: Fixed a memory leak issue in the Metal backend (#4958)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (macOS) Fixed App Intents on macOS 26 (#7412) (thanks @peterneutron)\n* (macOS) Fixed an error when file locking is disabled and a removable drive with no image selected is started (#7527)\n* (macOS) AVF: Fixed shared directory disconnecting when window is resized (#7488) (thanks @evan314159)\n* Hotfix: (1/3/25) An earlier release of v4.7.5 has an issue that prevented VMs from starting. Make sure you are on build 118.\n\n## Changes (v4.7.4)\n* (macOS) Fixed a crash on VM start when a toolbar menu was reinitialized (note v4.7.4 was re-released to address this) (#7408)\n* Home: Fixed layout issue with button titles\n* (macOS) Fixed a crash when VM exits while USB is active\n* (iOS) Support for StikDebug on iOS 26 (non-SE only)\n\n## Changes (v4.7.3)\n* Fixed a crash when starting a VM results in a block device error\n* Stop button can now be used a second time to force kill a VM if it is unresponsive after stopping for the first time\n* libusb: Fixed multiple race conditions that caused crashes when using USB capture\n* CocoaSpice: Fixed multiple race conditions that caused crashes during VM start\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (macOS) Scripting: Fixed broken commands due to name collision (#7360)\n* (macOS) Fixed crash when exiting full screen (#7377)\n\n## Changes (v4.7.2)\n* (macOS) AVF: Fixed a crash when starting any Apple Virtualization VM (#7355) (We are re-releasing v4.7.2 with build 112 due to this critical bug.)\n* Home: Display network details and active IP addresses on the home details screen (thanks @gabefair)\n* Home: Show a security warning message when importing a .utm with custom arguments (#6252)\n* Config: Option to reset UEFI without pre-loading Secure Boot keys (useful for custom TPM configurations) (#7005)\n* Config: Pre-loading Secure Boot keys will now install Microsoft UEFI 2023 certificates (#7257)\n* Config: When PS/2 device is enabled, no longer create USB mouse and keyboard devices. This allows older Windows install to work out of the box.\n* Config: Quotes in custom arguments are no longer stripped (unless the only quotes wrap the entire argument) (#6343)\n* Config: Provide a fixed serial number for VirtIO block devices (#7332)\n* QEMU: Fixed an issue which causes Windows 98 to BSoD (#7342)\n* QEMU: Do not create a default floppy drive when -nodefaults is used. UTM configuration will set up a FDC device and this is the only way to set up bootindex for floppy.\n* Wizard: Legacy Windows configurations will now use PS/2 controller by default\n* Wizard: Update OS logos to be consistent with other icons\n* Wizard: Windows + i440fx hardware will now instantiate default devices (sound, VGA, networking) that should work with Windows 95/98\n* Wizard: Add additional supported hardware configurations for running older Windows\n* Wizard: Support floppy boot for Windows configuration\n* Scripting: New input automation suite for sending keyboard and mouse input (#6462)\n* USB: Fixed a rare crash when initializing the USB devices list (#5811)\n* SPICE: Fixed an issue where monitor configuration sent to spice-vdagent contains an invalid size (#5832)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Toolbar: Fix foreground issue on iOS 26 beta 5 and higher\n* (macOS) Added ability to auto-connect USB devices on start (#3400)\n* (macOS) Fixed connecting USB devices from secondary windows\n* (macOS) New \"Virtual Machine\" menu which mirrors the actions accessible through the toolbar\n* (macOS) Keyboard Shortcuts toolbar icon is no longer shown by default (it can be placed on the toolbar through View -> Customize Toolbar). It is also accessible through the \"Virtual Machine\" menu.\n* (macOS) Fixed sending simultaneous mouse button presses (#7068)\n* (macOS) utmctl: Add `version` command to detect current UTM version\n* (macOS) Settings: New option to disable key swapping on ISO keyboards (#6976)\n* (macOS) Settings: New option to randomize network MAC addresses on clone (#7035)\n\n## Changes (v4.7.1)\n* New Liquid Glass icon thanks to @forcequitOS\n* Added App Intents for VM operations (#6245)\n* Added UEFI boot support for RISC-V64 and LoongArch64. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\n* QEMU PPC: Disable `bootindex` when `boot-device` is used in prom-env. This allows Yellow Dog Linux for PPC to work out of the box. (#6436)\n* QEMU x86_64: Fixed floppy boot order configuration for other PC models (isapc, i440fx) (#7166)\n* QEMU PPC/M68K: Includes classicvirtio drivers to support cursor input without capture and directory sharing (#6520)\n* QEMU M68K: Fixed virtio drive config (#7008)\n* Fixed a rare crash after stopping VM due to a race condition in libusb\n* Home: improve screenshot contrast in Dark Mode (#6894)\n* Config: Fixed a crash when trying to enter a large size value when creating a new drive (#7295)\n* Config: Corrected the default host IP address in port forwarding config to \"0.0.0.0\" when it incorrectly displayed \"127.0.0.1\" (#7132)\n* Keyboard Shortcuts: Create custom combinations of keyboard shortcuts from either Settings -> Input or via the Keyboard icon in the VM (press and hold on iOS/visionOS). This will allow you to easily send key commands such as Ctrl+Alt+Del or Stop+A to the VM. (#5698, #6310, #6757)\n* Wizard: New option to import an existing drive image when setting up a Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\n* Wizard: New option to create a serial port only Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\n* Wizard: Removed VHDX import option because Microsoft now provides ARM64 ISO images. Note: You can still create manually import an VHDX after creating a new VM.\n* Wizard: New template to create classic Mac OS VMs for M68K and PPC (#3504, #6890)\n* Wizard: Most common and supported machines for emulation are now listed prominently with the full list of supported QEMU architectures/targets hidden behind an \"Expert\" mode. This is necessary because most of the QEMU targets are not properly supported by the wizard anyways and does not generate a bootable config. They usually require a lot more manual tinkering. The page order of the wizard is also tweaked so the hardware config comes before the boot config now.\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS SE) Fixed a crash when launching ArchLinux due to mis-handling of REV32\n* (iOS SE) Fixed a crash when the first instruction executed is a goto\n* (iOS SE) Removed ARM32, RISC-V32, and added M68K. There is little use for ARM32 and RISC-V32 as they cannot boot anything useful that cannot also be booted by the 64-bit variant (which is still included). If you have a counter example of this, please open an issue on GitHub and we can consider re-adding it back in the future. However, removing these will …",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+      "size": 130058389,
       "versions": [
         {
-          "version": "5.0.7",
-          "date": "2026-10-16T06:25:45Z",
-          "localizedDescription": "UTM 5.0.7 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n* The minimum supported versions are now macOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\n\n## Changes (v5.0.7)\n* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration\n* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)\n* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display\n* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad\n* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped\n* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with \"Close\" or \"Quit\" instead of \"OK\"\n* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)\n* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12\n* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)\n* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)\n* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller\n* (macOS) Scripting: Force stopping a paused VM is now allowed\n* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing \"VZErrorDomain error -6\" (#7914)\n* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)\n\n## Changes (v5.0.6)\n* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)\n* Updated the DXMT and MoltenVK graphics backends\n* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26\n* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery\n* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)\n* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)\n* SPICE: Fixed microphone audio quality (#7751)\n* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)\n* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)\n* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27\n* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)\n* (iOS 27) Confirm before closing the window of a running VM on iPad\n* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new \"Touch mode (drag to scroll)\" (#4738)\n* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard\n* (iOS) Input: Game controller Options and Home buttons can now be mapped\n* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver\n* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)\n* (macOS) Terminal: Added a find bar (Cmd-F)\n* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)\n* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen\n* (macOS) Settings: Improved the notes field\n* (macOS 26) Settings: The \"New…\" device menu now matches the sidebar\n* (macOS) AVF: Sound input and output can be enabled separately, so \"Output Only\" no longer switches Bluetooth headphones to headset mode (#7875)\n* (macOS 26) AVF: New \"Shared Network (VM to VM)\" and \"Host Only\" networking modes (#6975, #7480) (thanks @lovon-spec)\n* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)\n* (macOS 27) AVF: Run without saving changes (#4201, #7326)\n* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)\n* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands\n* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)\n* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)\n* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)\n* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)\n\n## Changes (v5.0.5)\n* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.\n* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files\n* Wizard: scaling is now default to \"nearest\" when a \"classic\" computer emulation is created in the wizard and \"linear\" otherwise. Previously …",
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-          "size": 150507204,
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "localizedDescription": "UTM 4.7.5 | Universal IPA\n\n## Highlights\n* **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\n* **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.\n* **App Intents**: New support for automation with Shortcuts.\n* **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.\n* **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.\n\n## Changes (v4.7.5)\n* Fixed some rare conditions that could lead to a VM fail to start and spin infinitely\n* Fixed some rare crashes that can happen after a VM stops\n* Fixed parsing of file paths with commas in the name (thanks @nikolan123)\n* ANGLE: Fixed a memory leak issue in the GLES backend (#7546) (thanks @cnnn)\n* ANGLE: Fixed a memory leak issue in the Metal backend (#4958)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (macOS) Fixed App Intents on macOS 26 (#7412) (thanks @peterneutron)\n* (macOS) Fixed an error when file locking is disabled and a removable drive with no image selected is started (#7527)\n* (macOS) AVF: Fixed shared directory disconnecting when window is resized (#7488) (thanks @evan314159)\n* Hotfix: (1/3/25) An earlier release of v4.7.5 has an issue that prevented VMs from starting. Make sure you are on build 118.\n\n## Changes (v4.7.4)\n* (macOS) Fixed a crash on VM start when a toolbar menu was reinitialized (note v4.7.4 was re-released to address this) (#7408)\n* Home: Fixed layout issue with button titles\n* (macOS) Fixed a crash when VM exits while USB is active\n* (iOS) Support for StikDebug on iOS 26 (non-SE only)\n\n## Changes (v4.7.3)\n* Fixed a crash when starting a VM results in a block device error\n* Stop button can now be used a second time to force kill a VM if it is unresponsive after stopping for the first time\n* libusb: Fixed multiple race conditions that caused crashes when using USB capture\n* CocoaSpice: Fixed multiple race conditions that caused crashes during VM start\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (macOS) Scripting: Fixed broken commands due to name collision (#7360)\n* (macOS) Fixed crash when exiting full screen (#7377)\n\n## Changes (v4.7.2)\n* (macOS) AVF: Fixed a crash when starting any Apple Virtualization VM (#7355) (We are re-releasing v4.7.2 with build 112 due to this critical bug.)\n* Home: Display network details and active IP addresses on the home details screen (thanks @gabefair)\n* Home: Show a security warning message when importing a .utm with custom arguments (#6252)\n* Config: Option to reset UEFI without pre-loading Secure Boot keys (useful for custom TPM configurations) (#7005)\n* Config: Pre-loading Secure Boot keys will now install Microsoft UEFI 2023 certificates (#7257)\n* Config: When PS/2 device is enabled, no longer create USB mouse and keyboard devices. This allows older Windows install to work out of the box.\n* Config: Quotes in custom arguments are no longer stripped (unless the only quotes wrap the entire argument) (#6343)\n* Config: Provide a fixed serial number for VirtIO block devices (#7332)\n* QEMU: Fixed an issue which causes Windows 98 to BSoD (#7342)\n* QEMU: Do not create a default floppy drive when -nodefaults is used. UTM configuration will set up a FDC device and this is the only way to set up bootindex for floppy.\n* Wizard: Legacy Windows configurations will now use PS/2 controller by default\n* Wizard: Update OS logos to be consistent with other icons\n* Wizard: Windows + i440fx hardware will now instantiate default devices (sound, VGA, networking) that should work with Windows 95/98\n* Wizard: Add additional supported hardware configurations for running older Windows\n* Wizard: Support floppy boot for Windows configuration\n* Scripting: New input automation suite for sending keyboard and mouse input (#6462)\n* USB: Fixed a rare crash when initializing the USB devices list (#5811)\n* SPICE: Fixed an issue where monitor configuration sent to spice-vdagent contains an invalid size (#5832)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Toolbar: Fix foreground issue on iOS 26 beta 5 and higher\n* (macOS) Added ability to auto-connect USB devices on start (#3400)\n* (macOS) Fixed connecting USB devices from secondary windows\n* (macOS) New \"Virtual Machine\" menu which mirrors the actions accessible through the toolbar\n* (macOS) Keyboard Shortcuts toolbar icon is no longer shown by default (it can be placed on the toolbar through View -> Customize Toolbar). It is also accessible through the \"Virtual Machine\" menu.\n* (macOS) Fixed sending simultaneous mouse button presses (#7068)\n* (macOS) utmctl: Add `version` command to detect current UTM version\n* (macOS) Settings: New option to disable key swapping on ISO keyboards (#6976)\n* (macOS) Settings: New option to randomize network MAC addresses on clone (#7035)\n\n## Changes (v4.7.1)\n* New Liquid Glass icon thanks to @forcequitOS\n* Added App Intents for VM operations (#6245)\n* Added UEFI boot support for RISC-V64 and LoongArch64. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\n* QEMU PPC: Disable `bootindex` when `boot-device` is used in prom-env. This allows Yellow Dog Linux for PPC to work out of the box. (#6436)\n* QEMU x86_64: Fixed floppy boot order configuration for other PC models (isapc, i440fx) (#7166)\n* QEMU PPC/M68K: Includes classicvirtio drivers to support cursor input without capture and directory sharing (#6520)\n* QEMU M68K: Fixed virtio drive config (#7008)\n* Fixed a rare crash after stopping VM due to a race condition in libusb\n* Home: improve screenshot contrast in Dark Mode (#6894)\n* Config: Fixed a crash when trying to enter a large size value when creating a new drive (#7295)\n* Config: Corrected the default host IP address in port forwarding config to \"0.0.0.0\" when it incorrectly displayed \"127.0.0.1\" (#7132)\n* Keyboard Shortcuts: Create custom combinations of keyboard shortcuts from either Settings -> Input or via the Keyboard icon in the VM (press and hold on iOS/visionOS). This will allow you to easily send key commands such as Ctrl+Alt+Del or Stop+A to the VM. (#5698, #6310, #6757)\n* Wizard: New option to import an existing drive image when setting up a Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\n* Wizard: New option to create a serial port only Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\n* Wizard: Removed VHDX import option because Microsoft now provides ARM64 ISO images. Note: You can still create manually import an VHDX after creating a new VM.\n* Wizard: New template to create classic Mac OS VMs for M68K and PPC (#3504, #6890)\n* Wizard: Most common and supported machines for emulation are now listed prominently with the full list of supported QEMU architectures/targets hidden behind an \"Expert\" mode. This is necessary because most of the QEMU targets are not properly supported by the wizard anyways and does not generate a bootable config. They usually require a lot more manual tinkering. The page order of the wizard is also tweaked so the hardware config comes before the boot config now.\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS SE) Fixed a crash when launching ArchLinux due to mis-handling of REV32\n* (iOS SE) Fixed a crash when the first instruction executed is a goto\n* (iOS SE) Removed ARM32, RISC-V32, and added M68K. There is little use for ARM32 and RISC-V32 as they cannot boot anything useful that cannot also be booted by the 64-bit variant (which is still included). If you have a counter example of this, please open an issue on GitHub and we can consider re-adding it back in the future. However, removing these will …",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "size": 130058389,
           "minOSVersion": "14.0",
-          "releaseUrl": "https://github.com/utmapp/UTM/releases/tag/v5.0.7",
+          "releaseUrl": "https://github.com/utmapp/UTM/releases/tag/v4.7.5",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "UTM-Remote.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-Remote.ipa",
+              "filename": "UTM-SE.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 37611518,
-              "sha256": "e88b956c5ea435b11e66e268eef056fb3d502ca2d218899306927330bd85645c",
-              "downloads": 7,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM.deb",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.deb",
-              "platform": "linux",
-              "architecture": null,
-              "fileType": "DEB",
-              "size": 149012000,
-              "sha256": "110ee31f5bb4490c60f8e9041e3c68585bb6833e9aef9d59c61a4289b2300d18",
-              "downloads": 12,
+              "size": 213878374,
+              "sha256": "ccb8529b8b8781410ff481e4ffbdf0d1b47ce5d431031e782e4b6f9601cac06d",
+              "downloads": 14957,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM-visionOS.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-visionOS.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-visionOS.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 145776074,
-              "sha256": "8a4f39e3adbc792631596d895d89ec4633798d5428c935f0382d442b1cce8e76",
-              "downloads": 2,
+              "size": 127860014,
+              "sha256": "a5723d0c41ea3e00793e05725cfab5dd343b1fe3256aba702a91f786128b734f",
+              "downloads": 766,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "UTM-SE.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-SE.ipa",
-              "platform": "ios",
+              "filename": "UTM.deb",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.deb",
+              "platform": "linux",
               "architecture": null,
-              "fileType": "IPA",
-              "size": 237075721,
-              "sha256": "f92eb2adff6e9050ca2f181967f033c0daa0ac8a3828e21d3203072ffd8245e0",
-              "downloads": 15,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 150507204,
-              "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec",
-              "downloads": 74,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM-SE-visionOS.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-SE-visionOS.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 232693786,
-              "sha256": "c7cab7a1b41fd1c7016334704138b377fdfb0ed94a80ed6c0d836c5c893e3a92",
-              "downloads": 2,
+              "fileType": "DEB",
+              "size": 128648546,
+              "sha256": "1ad80ea5a85651936f67757e173cf752dc21101a2275f01f441158da90d3ca9f",
+              "downloads": 11580,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM-Remote-visionOS.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-Remote-visionOS.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-Remote-visionOS.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 32875458,
-              "sha256": "9275e63c5fec254f0ac2c02585abe68e4f5e9f7e7095da89c1e7c346e3a66885",
-              "downloads": 3,
+              "size": 32233531,
+              "sha256": "bb0e11da406f98246f011950a976da29f1769dc0852718db766142c22b4ec6f9",
+              "downloads": 1356,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 130058389,
+              "sha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101",
+              "downloads": 93677,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM-Remote.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-Remote.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 34171465,
+              "sha256": "04e238b7efaf44d4b7f55dd8e3a5b23d08b040c2a60f8a166ed72409c60aca5e",
+              "downloads": 1323,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM-HV.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-HV.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-HV.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 150507448,
-              "sha256": "8cc98718a8d51075398f93b7af4a3f9b577f3416b51a49e6af8b5b4b1091456c",
-              "downloads": 26,
+              "size": 130058653,
+              "sha256": "42c568d53f12f2d594665daa7f7382af501b97880d61f58aceca73de23f17b28",
+              "downloads": 23500,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM-SE-visionOS.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE-visionOS.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 211943162,
+              "sha256": "840bee6474b1428a48a6d331e4c3cc0b062a90416914aca794e1abb90bc99f1f",
+              "downloads": 1022,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM.dmg",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.dmg",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.dmg",
               "platform": "macos",
               "architecture": null,
               "fileType": "DMG",
-              "size": 304297910,
-              "sha256": "80c2161cae4c1711ae364ed99de8a0e92396287abf85eb583426c7627d039ad9",
-              "downloads": 4767,
+              "size": 250021057,
+              "sha256": "a8435c93cfb5f8bbfeea4b134cfad1ac66b67632b75e438c63b1a8ae043bef0e",
+              "downloads": 4886694,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec",
-          "downloads": 74
+          "sha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101",
+          "downloads": 93677
         }
       ],
       "screenshotURLs": [
@@ -13377,7 +13377,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-16T06:25:45Z"
+          "lastUpdatedAt": "2026-01-03T17:51:54Z"
         }
       }
     },
@@ -15407,6 +15407,33 @@
       "notify": true
     },
     {
+      "title": "Nuvio v0.6.1",
+      "identifier": "news-nuvio-0-6-1",
+      "caption": "Open-source media player, bring your own sources",
+      "date": "2026-10-16",
+      "appID": "com.nuvio.app",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
+      "notify": true
+    },
+    {
+      "title": "Infuse Plus v8.5.8",
+      "identifier": "news-infuseplus-8-5-8",
+      "caption": "Enhancer tweak for the Infuse video player",
+      "date": "2026-10-16",
+      "appID": "com.firecore.infuse",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Infuse.webp",
+      "notify": true
+    },
+    {
+      "title": "EscapeOS v0.1.8",
+      "identifier": "news-escapeos-0-1-8",
+      "caption": "App-data browser and backup for sideloaded apps",
+      "date": "2026-10-16",
+      "appID": "com.ipaside.escapeos",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/EscapeOS.webp",
+      "notify": true
+    },
+    {
       "title": "StikDebug v3.1.15",
       "identifier": "news-stikdebug-3-1-15",
       "caption": "On-device JIT enabler and debugger",
@@ -15440,33 +15467,6 @@
       "date": "2026-10-15",
       "appID": "com.facebook.Facebook",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
-      "notify": true
-    },
-    {
-      "title": "Nuvio v0.5.10",
-      "identifier": "news-nuvio-0-5-10",
-      "caption": "Open-source media player, bring your own sources",
-      "date": "2026-10-14",
-      "appID": "com.nuvio.app",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
-      "notify": true
-    },
-    {
-      "title": "iNKillerPlus v451.0.0",
-      "identifier": "news-inkillerplus-451-0-0",
-      "caption": "Instagram with downloads, ghost mode and no ads",
-      "date": "2026-10-14",
-      "appID": "com.burbn.instagram",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
-      "notify": true
-    },
-    {
-      "title": "Battman v1.1.0",
-      "identifier": "news-battman-1-1-0",
-      "caption": "Battery health and charge management",
-      "date": "2026-10-14",
-      "appID": "com.torrekie.Battman",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Battman.webp",
       "notify": true
     }
   ]

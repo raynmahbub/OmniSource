@@ -6,12 +6,12 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 55,
+  "count": 56,
   "summary": {
     "warning": 10,
     "stale": 8,
     "archived": 36,
-    "critical": 1
+    "critical": 2
   },
   "deadApps": [
     {
@@ -25,6 +25,19 @@
       "reasons": [
         "removed upstream release(s): 1.2.0 (newer than 0.9.3)",
         "no update for 119 days (threshold 90)"
+      ]
+    },
+    {
+      "slug": "utm",
+      "name": "UTM",
+      "lastUpdate": "2026-01-03T17:51:54Z",
+      "daysSinceUpdate": 286,
+      "classification": "critical",
+      "removedReleases": 1,
+      "supersededReleases": 0,
+      "reasons": [
+        "removed upstream release(s): 5.0.7 (newer than 4.7.5)",
+        "no update for 286 days (threshold 180)"
       ]
     },
     {
@@ -790,12 +803,15 @@
     {
       "slug": "utm",
       "name": "UTM",
-      "lastUpdate": "2026-10-16T06:25:45Z",
-      "daysSinceUpdate": 0,
-      "classification": "healthy",
-      "removedReleases": 0,
+      "lastUpdate": "2026-01-03T17:51:54Z",
+      "daysSinceUpdate": 286,
+      "classification": "critical",
+      "removedReleases": 1,
       "supersededReleases": 0,
-      "reasons": []
+      "reasons": [
+        "removed upstream release(s): 5.0.7 (newer than 4.7.5)",
+        "no update for 286 days (threshold 180)"
+      ]
     },
     {
       "slug": "inkillerplus",
@@ -1225,8 +1241,8 @@
     {
       "slug": "infuseplus",
       "name": "Infuse Plus",
-      "lastUpdate": "2026-10-13",
-      "daysSinceUpdate": 3,
+      "lastUpdate": "2026-10-16",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2005,8 +2021,8 @@
     {
       "slug": "escapeos",
       "name": "EscapeOS",
-      "lastUpdate": "2026-09-18",
-      "daysSinceUpdate": 28,
+      "lastUpdate": "2026-10-16",
+      "daysSinceUpdate": 0,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,

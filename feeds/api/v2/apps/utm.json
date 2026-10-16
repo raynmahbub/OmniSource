@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-16",
-  "feedVersion": "1b09ae86cade",
+  "feedVersion": "c9e7a1a28dc5",
   "app": {
     "id": "utm",
     "name": "UTM",
     "developer": "UTM Team",
     "subtitle": "Virtual machines for iOS",
     "bundleIdentifier": "com.utmapp.UTM",
-    "version": "5.0.7",
-    "versionDate": "2026-10-16T06:25:45Z",
+    "version": "4.7.5",
+    "versionDate": "2026-01-03T17:51:54Z",
     "description": "Run real operating systems on your iPhone or iPad. UTM is an open-source (Apache-2.0) virtualization and emulation platform built on QEMU, capable of running Windows, Linux, classic Mac OS and dozens of other systems alongside your apps.\n\nHighlights:\n- QEMU v10.0.2 backend with support for dozens of CPU architectures (x86_64, ARM64, RISC-V, PowerPC and more)\n- Improved machine wizard with well-tested configurations such as Windows, Ubuntu, RISC-V64 Ubuntu, classic Mac OS 8.x/9.x and Windows 95/98\n- Custom keyboard shortcuts (e.g. Ctrl+Alt+Del) sent directly to the VM from the Keyboard menu\n- App Intents automation with the Shortcuts app\n- Liquid Glass design on iOS 26\n- Import and export .utm virtual machine bundles via the Files app\n- No jailbreak required; highest performance with JIT workarounds on supported iOS versions",
     "shortDescription": "Virtual machines for iOS",
     "category": "utilities",
@@ -21,11 +21,11 @@
       "https://raw.githubusercontent.com/utmapp/UTM/main/screen.png",
       "https://raw.githubusercontent.com/utmapp/UTM/main/screenmac.png"
     ],
-    "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-    "size": 150507204,
+    "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+    "size": 130058389,
     "source": "utmapp/UTM",
     "sourceURL": "https://github.com/utmapp/UTM",
-    "checksum": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec",
+    "checksum": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101",
     "checksumPublished": false,
     "minOSVersion": "14.0",
     "status": "stable",
@@ -35,23 +35,23 @@
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
-      "updatedAt": "2026-10-16T06:25:45Z"
+      "updatedAt": "2026-01-03T17:51:54Z"
     }
   },
   "newest": {
-    "version": "5.0.7",
-    "date": "2026-10-16T06:25:45Z",
-    "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-    "size": 150507204,
-    "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec"
+    "version": "4.7.5",
+    "date": "2026-01-03T17:51:54Z",
+    "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+    "size": 130058389,
+    "sha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101"
   },
   "versions": [
     {
-      "version": "5.0.7",
-      "date": "2026-10-16T06:25:45Z",
-      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-      "size": 150507204,
-      "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec"
+      "version": "4.7.5",
+      "date": "2026-01-03T17:51:54Z",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+      "size": 130058389,
+      "sha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101"
     }
   ],
   "verification": {

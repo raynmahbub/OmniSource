@@ -3,12 +3,6 @@
   "generatedAt": "2026-10-16",
   "popular": [
     {
-      "slug": "utm",
-      "name": "UTM",
-      "category": "utilities",
-      "score": 1.0
-    },
-    {
       "slug": "streamyfin",
       "name": "Streamyfin",
       "category": "photo-video",
@@ -18,6 +12,18 @@
       "slug": "nuvio",
       "name": "Nuvio",
       "category": "photo-video",
+      "score": 1.0
+    },
+    {
+      "slug": "infuseplus",
+      "name": "Infuse Plus",
+      "category": "photo-video",
+      "score": 1.0
+    },
+    {
+      "slug": "escapeos",
+      "name": "EscapeOS",
+      "category": "utilities",
       "score": 1.0
     },
     {
@@ -67,24 +73,18 @@
       "name": "Sparkle",
       "category": "social",
       "score": 0.9825
-    },
-    {
-      "slug": "ryukgram",
-      "name": "RyukGram",
-      "category": "social",
-      "score": 0.9825
     }
   ],
   "recentlyAdded": [
     {
-      "slug": "utm",
-      "name": "UTM",
-      "firstSeen": "2026-10-16",
-      "category": "utilities"
-    },
-    {
       "slug": "streamyfin",
       "name": "Streamyfin",
+      "firstSeen": "2026-10-16",
+      "category": "photo-video"
+    },
+    {
+      "slug": "infuseplus",
+      "name": "Infuse Plus",
       "firstSeen": "2026-10-16",
       "category": "photo-video"
     },
@@ -93,6 +93,12 @@
       "name": "Nuvio",
       "firstSeen": "2026-10-16",
       "category": "photo-video"
+    },
+    {
+      "slug": "escapeos",
+      "name": "EscapeOS",
+      "firstSeen": "2026-10-16",
+      "category": "utilities"
     },
     {
       "slug": "stikdebug",
@@ -135,12 +141,6 @@
       "name": "Conduit",
       "firstSeen": "2026-10-13",
       "category": "utilities"
-    },
-    {
-      "slug": "infuseplus",
-      "name": "Infuse Plus",
-      "firstSeen": "2026-10-13",
-      "category": "photo-video"
     },
     {
       "slug": "glow",
@@ -187,12 +187,6 @@
       "newThisMonth": 1
     },
     {
-      "slug": "utm",
-      "name": "UTM",
-      "category": "utilities",
-      "newThisMonth": 1
-    },
-    {
       "slug": "turrit-mxgram",
       "name": "Turrit MxGram",
       "category": "social",
@@ -221,13 +215,19 @@
       "name": "Telegram MxGram",
       "category": "social",
       "newThisMonth": 1
+    },
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "category": "utilities",
+      "newThisMonth": 1
     }
   ],
   "requested": [],
   "counts": {
     "popular": 131,
     "recentlyAdded": 40,
-    "rising": 50,
+    "rising": 49,
     "requested": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-16",
-  "feedVersion": "1b09ae86cade",
+  "feedVersion": "c9e7a1a28dc5",
   "apps": {
     "total": 131,
     "reachable": 124,
@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 115,
-    "updated": 3,
+    "incrementalHits": 113,
+    "updated": 4,
     "failed": 4,
     "apiRequests": 118
   },
@@ -27,22 +27,29 @@
     {
       "slug": "utm",
       "name": "UTM",
-      "previousVersion": "4.7.5",
-      "version": "5.0.7",
+      "previousVersion": "5.0.7",
+      "version": "4.7.5",
       "kind": "updated"
     },
     {
-      "slug": "streamyfin",
-      "name": "Streamyfin",
-      "previousVersion": "0.55.0",
-      "version": "0.55.2",
+      "slug": "infuseplus",
+      "name": "Infuse Plus",
+      "previousVersion": "8.5.7",
+      "version": "8.5.8",
       "kind": "updated"
     },
     {
       "slug": "nuvio",
       "name": "Nuvio",
-      "previousVersion": "0.5.10",
-      "version": "0.6.0",
+      "previousVersion": "0.6.0",
+      "version": "0.6.1",
+      "kind": "updated"
+    },
+    {
+      "slug": "escapeos",
+      "name": "EscapeOS",
+      "previousVersion": "0.1.6",
+      "version": "0.1.8",
       "kind": "updated"
     }
   ],
