@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T11:47:32Z",
+  "generatedAt": "2026-10-17T11:04:14Z",
   "count": 107,
   "inputRecords": 131,
   "mergedDuplicates": 24,
@@ -66,15 +66,15 @@
       "developerName": "Skitty",
       "category": "other",
       "version": "0.9",
-      "versionDate": "2026-09-03",
-      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
-      "size": 14731108,
+      "versionDate": "2026-10-16",
+      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+      "size": 14753154,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Aidoku.webp",
       "matchKeys": [
         "bundle:app.aidoku.Aidoku",
         "github:aidoku/aidoku",
         "url:github.com/Aidoku/Aidoku",
-        "binary:github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa"
+        "binary:github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -85,31 +85,31 @@
       "versions": [
         {
           "version": "0.9",
-          "date": "2026-09-03",
-          "localizedDescription": "Aidoku 0.9 | Aidoku\n\n- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\n- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\n- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\n- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
-          "size": 14731108,
+          "date": "2026-10-16",
+          "localizedDescription": "Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a number of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n- Various other bug fixes",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+          "size": 14753154,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/Aidoku/Aidoku/releases/tag/v0.9",
+          "releaseUrl": "https://github.com/Aidoku/Aidoku/releases/tag/v0.9-4",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Aidoku.ipa",
-              "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+              "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 14731108,
-              "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-              "downloads": 7852,
+              "size": 14753154,
+              "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+              "downloads": 186,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-          "downloads": 7852
+          "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+          "downloads": 186
         }
       ]
     },
@@ -676,7 +676,7 @@
               "fileType": "ZIP",
               "size": 22442483,
               "sha256": "1a8ad741fa0c02ea72b85c0ea4e191984512b173b8e5955f0e49f3ef43243eb0",
-              "downloads": 8,
+              "downloads": 9,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -688,7 +688,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 1100,
+              "downloads": 1175,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -700,7 +700,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 2961,
+              "downloads": 3148,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -712,7 +712,7 @@
               "fileType": "IPA",
               "size": 118304297,
               "sha256": "e8eefa6d81b926c683752b27b4c45ec7b564764d726eb1906bc3986d3cba3915",
-              "downloads": 34,
+              "downloads": 38,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -724,7 +724,7 @@
               "fileType": "IPA",
               "size": 128560179,
               "sha256": "cac8ac36827e78e7d0ae628123caeccb8ba2c2601010dcd648d3e53532a00902",
-              "downloads": 58,
+              "downloads": 63,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -736,7 +736,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 265,
+              "downloads": 291,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -748,7 +748,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 439,
+              "downloads": 496,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -760,7 +760,7 @@
               "fileType": "DEB",
               "size": 12893758,
               "sha256": "7aa482c239ace6112fc3b71ea7fbaf17ed624cc42152b9bef7c15eba704712b6",
-              "downloads": 22,
+              "downloads": 23,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -778,7 +778,7 @@
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 439
+          "downloads": 496
         }
       ]
     },
@@ -1644,16 +1644,16 @@
       "bundleIdentifier": "app.cogwheel.conduit",
       "developerName": "cogwheel0",
       "category": "utilities",
-      "version": "4.2.0",
-      "versionDate": "2026-10-13",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
-      "size": 45085120,
+      "version": "4.2.1",
+      "versionDate": "2026-10-16",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+      "size": 45123011,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Conduit.webp",
       "matchKeys": [
         "bundle:app.cogwheel.conduit",
         "github:cogwheel0/conduit",
         "url:github.com/cogwheel0/conduit",
-        "binary:github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa"
+        "binary:github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -1663,68 +1663,68 @@
       "duplicates": 1,
       "versions": [
         {
-          "version": "4.2.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814\n* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815\n* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818\n* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820\n* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816\n* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826\n* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827\n* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828\n* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843\n* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
-          "size": 45085120,
+          "version": "4.2.1",
+          "date": "2026-10-16",
+          "localizedDescription": "Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+          "size": 45123011,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.2.0",
+          "releaseUrl": "https://github.com/cogwheel0/conduit/releases/tag/v4.2.1",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 97187500,
-              "sha256": "d2fe3e587a23bc21da21389aea8e8acde3d0e201126fd6564b0ba1b54194b216",
-              "downloads": 660,
+              "size": 97324692,
+              "sha256": "8ead0361499d3099aebb2a8f6fc599422172b35a1162c239dc0f40cb2852c3cf",
+              "downloads": 106,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 84946434,
-              "sha256": "64ec39a914f2ffa51569cd4a5cf5bbe393ddd58fb0b9d847f53de6218365d5fc",
-              "downloads": 4,
+              "size": 85034470,
+              "sha256": "606914599b5c149c5e4fd5d1b5820aef69a3207d8f17ed140f7e0a78023b6f28",
+              "downloads": 2,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "app-release.aab",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/app-release.aab",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/app-release.aab",
               "platform": "android",
               "architecture": null,
               "fileType": "AAB",
-              "size": 142290388,
-              "sha256": "a9e4fbdab3a5ab7f72edd78a165a8075da33b5001fb68bc6e7aec1519ac3d99f",
+              "size": 142433670,
+              "sha256": "1b49965a4548c3ae395b38b41f4a95cd3423203b6fac11ee9dcbc098d20c8427",
               "downloads": 1,
               "mimeType": "raw",
               "installable": true
             },
             {
               "filename": "conduit.ipa",
-              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+              "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 45085120,
-              "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
-              "downloads": 8,
+              "size": 45123011,
+              "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
+              "downloads": 1,
               "mimeType": "raw",
               "installable": true
             }
           ],
-          "sha256": "6e8068dcacb7c6ba5788e04baeda9470ab5db65968e41aabf98c05f9fec5f3c0",
-          "downloads": 8
+          "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
+          "downloads": 1
         }
       ]
     },
@@ -2052,14 +2052,14 @@
       "category": "utilities",
       "version": "2.4.9.27",
       "versionDate": "2026-09-12",
-      "downloadURL": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
+      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
       "size": 54863273,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/DopamineRootHide.webp",
       "matchKeys": [
         "bundle:com.opa334.Dopamine-roothide",
         "github:roothide/dopamine2-roothide",
         "url:github.com/roothide/Dopamine2-roothide",
-        "binary:github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa"
+        "binary:github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -2072,41 +2072,41 @@
           "version": "2.4.9.27",
           "date": "2026-09-12",
           "localizedDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-          "downloadURL": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
+          "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
           "size": 54863273,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/roothide/Dopamine2-roothide/releases/tag/27",
+          "releaseUrl": "https://github.com/roothide/Dopamine-roothide/releases/tag/27",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Dopamine.ipa",
-              "downloadUrl": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
+              "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
               "size": 54863273,
               "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-              "downloads": 15901,
+              "downloads": 22318,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Dopamine.tipa",
-              "downloadUrl": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.tipa",
+              "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.tipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
               "size": 54863273,
               "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-              "downloads": 5919,
+              "downloads": 7795,
               "mimeType": "application/trollstore-ipa",
               "installable": true
             }
           ],
           "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-          "downloads": 15901
+          "downloads": 22318
         }
       ]
     },
@@ -2222,16 +2222,16 @@
       "bundleIdentifier": "com.ipaside.escapeos",
       "developerName": "pwnapplehat",
       "category": "utilities",
-      "version": "0.1.6",
-      "versionDate": "2026-09-18",
-      "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
-      "size": 7274676,
+      "version": "0.1.8",
+      "versionDate": "2026-10-16",
+      "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
+      "size": 7307240,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/EscapeOS.webp",
       "matchKeys": [
         "bundle:com.ipaside.escapeos",
         "github:pwnapplehat/escapeos",
         "url:github.com/pwnapplehat/EscapeOS",
-        "binary:github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa"
+        "binary:github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -2241,56 +2241,56 @@
       "duplicates": 1,
       "versions": [
         {
-          "version": "0.1.6",
-          "date": "2026-09-18",
-          "localizedDescription": "EscapeOS 0.1.6 | EscapeOS-0.1.6\n\n## EscapeOS 0.1.6\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, and v0.1.5 are unchanged.\n\n### Changed\n- **Import from Files** asks Replace, Keep Both, or Cancel when that name is already in the folder, instead of silently writing `foo 2.txt`. Replace overwrites the existing file at the same path and name ([#2](https://github.com/pwnapplehat/EscapeOS/issues/2)).\n- A same-named **folder** is not replaced with a file; Keep Both lands beside it.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.5. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n`EscapeOS-0.1.6.ipa` SHA-256:\n\n```\n234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2\n```",
-          "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
-          "size": 7274676,
+          "version": "0.1.8",
+          "date": "2026-10-16",
+          "localizedDescription": "EscapeOS 0.1.8 | EscapeOS-0.1.8\n\n## EscapeOS 0.1.8\n\nv0.1.0, v0.1.1, v0.1.3, v0.1.4, v0.1.5, and v0.1.6 are unchanged. 0.1.7 was never published; its two fixes are in this release.\n\n### Fixed\n- **Import from Files works again for new files and Keep Both.** Since 0.1.6 both failed with \"That folder is outside this app's data.\" An app's container is reported under `/private/var`, and the folder check only stripped that prefix for paths that already exist ([#4](https://github.com/pwnapplehat/EscapeOS/issues/4)).\n- **`InvalidHostID` now explains itself.** It means the device does not recognise EscapeOS's pairing file. The message used to blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS/issues/5)).\n- **Sharing a file can no longer delete EscapeOS's own data.** Share wrote into EscapeOS's Documents and replaced whatever had that name, so sharing a file called `Backups` or `pairingFile.plist` removed every backup or the pairing file. Shares now use a private temporary folder.\n\n### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3), [#4](https://github.com/pwnapplehat/EscapeOS/issues/4))\n- **Search Whole App** finds a file or folder by name anywhere in an app's data.\n- **Favorites** at the top of the Apps tab; they still open after an app is reinstalled.\n- **Replace / Keep Both / Cancel when pasting** a name that already exists. A folder is never replaced, a file is never replaced by itself, and Replace swaps the file in atomically so a failure leaves the original.\n- **Free-space check** before Compress, Share Zip, Duplicate, Paste, Import and Backup, with a clear message instead of a late failure.\n- **Share / Save to Files** on each backup.\n\n### Changed\n- **Deleting a file now asks first**, naming what will be deleted. Files can opt out with \"Delete, Don't Ask Again\" (Settings turns it back on); folders and backup archives always ask.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.6. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.\n\n**Verification:** built for iOS; 200 automated checks of the path, paste, delete, search, favorites and free-space logic run against the real source; the changes were reviewed independently and its findings fixed. **This build was not run on a device**, so the screens (search, favorites, the paste and delete prompts) have not been seen on a phone.\n\n`EscapeOS-0.1.8.ipa` SHA-256:\n\n```\nd374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269\n```",
+          "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
+          "size": 7307240,
           "minOSVersion": "18.0",
-          "releaseUrl": "https://github.com/pwnapplehat/EscapeOS/releases/tag/v0.1.6",
+          "releaseUrl": "https://github.com/pwnapplehat/EscapeOS/releases/tag/v0.1.8",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "EscapeOS-0.1.6.ipa",
-              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/EscapeOS-0.1.6.ipa",
+              "filename": "EscapeOS-0.1.8.ipa",
+              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 7274676,
-              "sha256": "234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2",
-              "downloads": 447,
-              "mimeType": "application/octet-stream",
+              "size": 7307240,
+              "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
+              "downloads": 4,
+              "mimeType": "application/x-itunes-ipa",
               "installable": true
             },
             {
               "filename": "libidevice_ffi.a",
-              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/libidevice_ffi.a",
+              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/libidevice_ffi.a",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
               "size": 97089368,
               "sha256": "6524066d54ef23e00d46445c04dfc694e180196d54119d718f68434fa225be35",
-              "downloads": 14,
-              "mimeType": "application/x-archive",
+              "downloads": 1,
+              "mimeType": "application/octet-stream",
               "installable": false
             },
             {
               "filename": "SHA256SUMS.txt",
-              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.6/SHA256SUMS.txt",
+              "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/SHA256SUMS.txt",
               "platform": "unknown",
               "architecture": null,
               "fileType": "other",
               "size": 168,
-              "sha256": "a8fb24260a20a9f36a45f9b0aeef89ea4da47f07353254221898504a31e6e3b6",
-              "downloads": 10,
+              "sha256": "b48a8a7d37763b2a9b4446e5dc62d4aac3b041b92cd34e1cf7f83947f3102149",
+              "downloads": 1,
               "mimeType": "text/plain; charset=utf-8",
               "installable": false
             }
           ],
-          "sha256": "234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2",
-          "downloads": 447
+          "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
+          "downloads": 4
         }
       ]
     },
@@ -3067,6 +3067,291 @@
       ]
     },
     {
+      "id": "com.firecore.infuse",
+      "name": "Infuse Plus",
+      "bundleIdentifier": "com.firecore.infuse",
+      "developerName": "dayanch96 & IPA Vault",
+      "category": "photo-video",
+      "version": "8.5.8",
+      "versionDate": "2026-10-16",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
+      "size": 99469134,
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Infuse.webp",
+      "matchKeys": [
+        "bundle:com.firecore.infuse",
+        "url:raw.githubusercontent.com",
+        "binary:pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa"
+      ],
+      "repositoryURLs": [],
+      "sources": [
+        "https://raw.githubusercontent.com"
+      ],
+      "sourceCount": 1,
+      "duplicates": 12,
+      "versions": [
+        {
+          "version": "8.82.0",
+          "date": "2026-10-11",
+          "localizedDescription": "SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.82.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
+          "size": 227238033,
+          "minOSVersion": "16.4",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "SoundCloud-8.82.0-NexaSC.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 227238033,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "8.5.8",
+          "date": "2026-10-16",
+          "localizedDescription": "Infuse 8.5.8 | Infuse-8.5.8-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.8), version 8.5.8",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
+          "size": 99469134,
+          "minOSVersion": "18.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Infuse-8.5.8-Infuse-Plus.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 99469134,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "583.0.0",
+          "date": "2026-10-15",
+          "localizedDescription": "Facebook 583.0.0 | Facebook-583.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 583.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa",
+          "size": 236422345,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Facebook-583.0.0-iQFace.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 236422345,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "451.0.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 451.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
+          "size": 338667077,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Instagram-451.0.0-Sparkle.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 338667077,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "451.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Threads 451.0 | Threads-451.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 451.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
+          "size": 112995145,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Threads-451.0-ThreadSaver.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 112995145,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "2026.41.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.41.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
+          "size": 147412514,
+          "minOSVersion": "15.1",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reddit-2026.41.0-RedditFilter.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 147412514,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "13.0",
+          "date": "2026-10-09",
+          "localizedDescription": "Telegram 13.0 | Telegram-13.0-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
+          "size": 84011090,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Telegram-13.0-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 84011090,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "12.9.4",
+          "date": "2026-10-03",
+          "localizedDescription": "Swiftgram 12.9.4 | Swiftgram-12.9.4-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.4",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
+          "size": 77976994,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Swiftgram-12.9.4-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 77976994,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "12.8.1",
+          "date": "2026-09-05",
+          "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-iQTele\n\nIPA Vault build for iMe (iQTele), version 12.8.1",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa",
+          "size": 139224713,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "iMe-12.8.1-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 139224713,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        },
+        {
+          "version": "1.5.5",
+          "date": "2026-10-03",
+          "localizedDescription": "Turrit 1.5.5 | Turrit-1.5.5-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.5",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa",
+          "size": 87212201,
+          "minOSVersion": "13.0",
+          "releaseUrl": null,
+          "source": "altstore",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Turrit-1.5.5-iQTele.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 87212201,
+              "sha256": null,
+              "downloads": 0,
+              "mimeType": null,
+              "installable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.burbn.instagram",
       "name": "iNKillerPlus",
       "bundleIdentifier": "com.burbn.instagram",
@@ -3428,16 +3713,16 @@
       "bundleIdentifier": "com.cosmonautical.jellify",
       "developerName": "anultravioletaurora",
       "category": "music",
-      "version": "1.2.11",
-      "versionDate": "2026-10-05",
-      "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
-      "size": 41199026,
+      "version": "1.3.0",
+      "versionDate": "2026-10-17",
+      "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+      "size": 41451346,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Jellify.webp",
       "matchKeys": [
         "bundle:com.cosmonautical.jellify",
         "github:jellify-music/app",
         "url:github.com/Jellify-Music/App",
-        "binary:github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa"
+        "binary:github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -3447,92 +3732,91 @@
       "duplicates": 1,
       "versions": [
         {
-          "version": "1.2.11",
-          "date": "2026-10-05",
-          "localizedDescription": "Jellify 1.2.11 | Jellify-1.2.11\n\nWelcome to Jellify 1.2.11\n\nWe are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.\n\n*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.\n*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.\n*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.",
-          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
-          "size": 41199026,
+          "version": "1.3.0",
+          "date": "2026-10-17",
+          "localizedDescription": "Jellify 1.3.0 | Jellify-1.3.0\n\nWelcome to Jellify 1.3.0\n\nHey music lovers! We've packed this update with some really sweet fixes and major stability improvements to make sure your playlist keeps going strong wherever you are. Grab your headphones and get ready to stream!\n\n*   **Improved Car Experience:** We've made some great updates for Android Auto users, giving you server-backed browsing and a much smoother experience when resuming playback in your car.\n*   **Flawless Playback:** We tackled some lingering glitches, including better buffering and fixes to the main player screen. Now your music should stream more reliably, even when switching between tracks or listening on the go.\n*   **Enhanced Stability on All Platforms:** This update includes better organization for music albums and fixes a small issue on iOS where the player dismiss gesture wasn't working correctly.",
+          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+          "size": 41451346,
           "minOSVersion": "16.4",
-          "releaseUrl": "https://github.com/Jellify-Music/App/releases/tag/1.2.11",
+          "releaseUrl": "https://github.com/Jellify-Music/App/releases/tag/1.3.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "Jellify-1.2.11-app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-arm64-v8a-release.apk",
+              "filename": "Jellify-1.3.0-app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 63368635,
-              "sha256": "9226417272c7203c832e5e2fb0c52955e273b2c191fca101a6529ea51f91f37a",
-              "downloads": 208,
+              "size": 63262903,
+              "sha256": "80d2b67cd7ec704881a2b711a58826624fc38e81930bfabb12a140022270d63f",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-armeabi-v7a-release.apk",
+              "filename": "Jellify-1.3.0-app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 49390183,
-              "sha256": "13017e9a95733db01b9c650987679c55eb7349716ff94f03863116d19eff209e",
-              "downloads": 1,
+              "size": 49235299,
+              "sha256": "52c9f2990ff01962a8fa0b0538e1d04bad75e12060a85a7fa98a24f8d0d738f4",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-universal-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-universal-release.apk",
+              "filename": "Jellify-1.3.0-app-universal-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-universal-release.apk",
               "platform": "android",
               "architecture": "universal",
               "fileType": "APK",
-              "size": 185500156,
-              "sha256": "e96e583ed46b81bdfa188da5ea6e0584c05c992f33fba02fbd87b16a1d53e2e1",
-              "downloads": 2,
+              "size": 186033400,
+              "sha256": "bb46c9423d6f1339a5c2f5b9a6b002e7d0d9bd8c469a71c76702f2a893dba495",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-x86-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-x86-release.apk",
+              "filename": "Jellify-1.3.0-app-x86-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-x86-release.apk",
               "platform": "android",
               "architecture": "x86",
               "fileType": "APK",
-              "size": 63348687,
-              "sha256": "a45a29cbff88f6adbdd9c8f03c8c21f89a5d8e3838ca1be5ffe9202bfbac8747",
+              "size": 63242955,
+              "sha256": "8428935686c8dda57ccc806018c070a87391e51d35ff14d0b4921c7a80c1c481",
               "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-x86_64-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-x86_64-release.apk",
+              "filename": "Jellify-1.3.0-app-x86_64-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-x86_64-release.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 65545379,
-              "sha256": "96e394f26736fd745efc9f072566f533ed08a379704f7f98ea5623c27a2c97cd",
+              "size": 65439647,
+              "sha256": "da9777bc2830d42cffce85ee8ca6507e4dfc42a58335f097aab9fc45f6b4877b",
               "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11.ipa",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
+              "filename": "Jellify-1.3.0.ipa",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 41199026,
-              "sha256": "447a78d354505b4b80f6bedc440e00f4ccf4279e0b4b74ee4d71ef546ad35468",
-              "downloads": 6,
+              "size": 41451346,
+              "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
+              "downloads": 0,
               "mimeType": "raw",
               "installable": true
             }
           ],
-          "sha256": "447a78d354505b4b80f6bedc440e00f4ccf4279e0b4b74ee4d71ef546ad35468",
-          "downloads": 6
+          "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4"
         }
       ]
     },
@@ -3580,7 +3864,7 @@
               "fileType": "APK",
               "size": 87021134,
               "sha256": "7409d39f514e287a39d0b9017cea7545ea719f68a4935870840678358fde7fcd",
-              "downloads": 27,
+              "downloads": 28,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3592,7 +3876,7 @@
               "fileType": "APK",
               "size": 108612022,
               "sha256": "d89ffb0f4c7d73099b4227f04599fa24fb9fbc85618d72797c8bba6b55921460",
-              "downloads": 115,
+              "downloads": 119,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3604,7 +3888,7 @@
               "fileType": "APK",
               "size": 94751948,
               "sha256": "57b16779da117f70fef0db0e0a9c23667545aae15a3e82d78fa69ec88a9391b7",
-              "downloads": 15,
+              "downloads": 17,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3628,7 +3912,7 @@
               "fileType": "APK",
               "size": 185536712,
               "sha256": "92cd4924c1c2a22f6ad88f2268bc0d4d77d5de27efc38af7fa010dcdae073c13",
-              "downloads": 25,
+              "downloads": 26,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3640,7 +3924,7 @@
               "fileType": "IPA",
               "size": 56199092,
               "sha256": "2418b6a4c8648bcad63a7b818dd017e7756953d7b5aa8e0f261f37b11e687d67",
-              "downloads": 17,
+              "downloads": 18,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -3652,7 +3936,7 @@
               "fileType": "APK",
               "size": 29460082,
               "sha256": "0bd3099908fdb515f2ecb4725036cfdb94d183fd5726c6f1029b29f677640bf6",
-              "downloads": 36,
+              "downloads": 38,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3664,7 +3948,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 910,
+              "downloads": 927,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3676,7 +3960,7 @@
               "fileType": "APK",
               "size": 33275119,
               "sha256": "ad71c9f73d5e3879fd7f025cd0ce38c02c017f1228d48bdd8d041a01190ee86d",
-              "downloads": 30,
+              "downloads": 31,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3688,7 +3972,7 @@
               "fileType": "AAB",
               "size": 80537688,
               "sha256": "76200e3f88f25ab40dc074bfc48f934239983db60fd9b03a2327bc8b029e5d01",
-              "downloads": 7,
+              "downloads": 8,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -3700,7 +3984,7 @@
               "fileType": "APK",
               "size": 88506651,
               "sha256": "00d612973399f6157b82cc6573ce13b8d98f0cd04e27f1c623e5d5bcd4000bd5",
-              "downloads": 196,
+              "downloads": 201,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -3712,13 +3996,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 424,
+              "downloads": 437,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 424
+          "downloads": 437
         }
       ]
     },
@@ -4493,291 +4777,6 @@
       ]
     },
     {
-      "id": "com.facebook.Messenger",
-      "name": "MSGPlusX",
-      "bundleIdentifier": "com.facebook.Messenger",
-      "developerName": "Dens0r & IPA Vault & lucaspedrosa",
-      "category": "social",
-      "version": "583.0.0",
-      "versionDate": "2026-10-15",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-MSGPlusX.ipa",
-      "size": 121745367,
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
-      "matchKeys": [
-        "bundle:com.facebook.Messenger",
-        "url:raw.githubusercontent.com",
-        "binary:pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-MSGPlusX.ipa"
-      ],
-      "repositoryURLs": [],
-      "sources": [
-        "https://raw.githubusercontent.com"
-      ],
-      "sourceCount": 1,
-      "duplicates": 12,
-      "versions": [
-        {
-          "version": "8.82.0",
-          "date": "2026-10-11",
-          "localizedDescription": "SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.82.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
-          "size": 227238033,
-          "minOSVersion": "16.4",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "SoundCloud-8.82.0-NexaSC.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 227238033,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "8.5.7",
-          "date": "2026-10-13",
-          "localizedDescription": "Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.7), version 8.5.7",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
-          "size": 97173009,
-          "minOSVersion": "18.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Infuse-8.5.7-Infuse-Plus.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.7-Infuse-Plus.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 97173009,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "583.0.0",
-          "date": "2026-10-15",
-          "localizedDescription": "Facebook 583.0.0 | Facebook-583.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 583.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa",
-          "size": 236422345,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Facebook-583.0.0-iQFace.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 236422345,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "451.0.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 451.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
-          "size": 338667077,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Instagram-451.0.0-Sparkle.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 338667077,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "451.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Threads 451.0 | Threads-451.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 451.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
-          "size": 112995145,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Threads-451.0-ThreadSaver.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 112995145,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "2026.41.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.41.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
-          "size": 147412514,
-          "minOSVersion": "15.1",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Reddit-2026.41.0-RedditFilter.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 147412514,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "13.0",
-          "date": "2026-10-09",
-          "localizedDescription": "Telegram 13.0 | Telegram-13.0-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-          "size": 84011090,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Telegram-13.0-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 84011090,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "12.9.4",
-          "date": "2026-10-03",
-          "localizedDescription": "Swiftgram 12.9.4 | Swiftgram-12.9.4-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.4",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
-          "size": 77976994,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Swiftgram-12.9.4-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 77976994,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "12.8.1",
-          "date": "2026-09-05",
-          "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-iQTele\n\nIPA Vault build for iMe (iQTele), version 12.8.1",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa",
-          "size": 139224713,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "iMe-12.8.1-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 139224713,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        },
-        {
-          "version": "1.5.5",
-          "date": "2026-10-03",
-          "localizedDescription": "Turrit 1.5.5 | Turrit-1.5.5-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.5",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa",
-          "size": 87212201,
-          "minOSVersion": "13.0",
-          "releaseUrl": null,
-          "source": "altstore",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Turrit-1.5.5-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 87212201,
-              "sha256": null,
-              "downloads": 0,
-              "mimeType": null,
-              "installable": true
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "dev.mineek.muffinstore",
       "name": "MuffinStore",
       "bundleIdentifier": "dev.mineek.muffinstore",
@@ -5111,7 +5110,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23708,
+              "downloads": 23720,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5123,13 +5122,13 @@
               "fileType": "IPA",
               "size": 153108663,
               "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22616,
+              "downloads": 22620,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23708
+          "downloads": 23720
         }
       ]
     },
@@ -5205,16 +5204,16 @@
       "bundleIdentifier": "com.nuvio.app",
       "developerName": "Nuvio Media",
       "category": "photo-video",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "versionDate": "2026-10-16",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
-      "size": 68513753,
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
+      "size": 68517984,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "matchKeys": [
         "bundle:com.nuvio.app",
         "github:nuviomedia/nuviomobile",
         "url:github.com/NuvioMedia/NuvioMobile",
-        "binary:github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa"
+        "binary:github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -5224,80 +5223,80 @@
       "duplicates": 1,
       "versions": [
         {
-          "version": "0.6.0",
+          "version": "0.6.1",
           "date": "2026-10-16",
-          "localizedDescription": "Nuvio 0.6.0 | nuvio-0.6.0-full-release\n\n- [feat(party): add experimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobile/pull/2253) @tapframe  \n- b9d2c39d fix(player): pause other apps audio on android @tapframe  \n- [feat(mdblist): show dynamic and liked lists in the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) @kernexshadow  \n- [i18n(el): translate new 0.5.10 strings (#2263)](https://github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  \n- [Complete missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioMobile/pull/2260) @WhiteGiso  \n- [fix(ios): improve PiP transitions and recover playback after closing PiP (#2259)](https://github.com/NuvioMedia/NuvioMobile/pull/2259) @WhiteGiso  \n- [fix(ios): restore Now Playing by limiting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMobile/pull/2246) @WhiteGiso  \n- [fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234)](https://github.com/NuvioMedia/NuvioMobile/pull/2234) @jhojhocraazy  \n- [feat(mdblist): show external lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobile/pull/2172) @kernexshadow",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
-          "size": 68513753,
+          "localizedDescription": "Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party): let only the host change what's playing @tapframe",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
+          "size": 68517984,
           "minOSVersion": "16.1",
-          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.0-beta",
+          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.1-beta",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "androidApp-full-x86_64-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-x86_64-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-x86_64-release.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 47026682,
-              "sha256": "003b3293cc7d856fc654226ff29fb031b871ffbdfb53df2248fc0e2411e8fd97",
-              "downloads": 23,
+              "size": 47025886,
+              "sha256": "041fbc710157a18937b5b6305236a2182fb7ac3d54e89d6de7c99e3bfebf3e99",
+              "downloads": 26,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "androidApp-full-x86-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-x86-release.apk",
+              "filename": "nuvio-0.6.1-full-release.ipa",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 68517984,
+              "sha256": "d18faf37f1304d5d2a62c302077285aedf6de973e2b6eecbff3a0bfc1d28ad2d",
+              "downloads": 97,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "androidApp-full-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-armeabi-v7a-release.apk",
               "platform": "android",
-              "architecture": "x86",
+              "architecture": "armv7",
               "fileType": "APK",
-              "size": 46050224,
-              "sha256": "0983b886ce164f11ce859e266a3c6e5f1675b05afbcfa015102af2171f273f2b",
-              "downloads": 18,
+              "size": 43918408,
+              "sha256": "7e0a1ec4e4b935743bac27aca18c99deb02e6ffd5c8ecb2080813500ac84a5c1",
+              "downloads": 62,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "androidApp-full-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 45679216,
-              "sha256": "8b757572a5e5159ad7b361ed253c7f2b39f0535a224d8e015ae67ef6348d116a",
-              "downloads": 1706,
+              "size": 45678424,
+              "sha256": "c689bbd3376e6e105d7d821001a3c4e2cd01106d9abdcb5765a4d7dc3ef63bb2",
+              "downloads": 1661,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "androidApp-full-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/androidApp-full-armeabi-v7a-release.apk",
+              "filename": "androidApp-full-x86-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-x86-release.apk",
               "platform": "android",
-              "architecture": "armv7",
+              "architecture": "x86",
               "fileType": "APK",
-              "size": 43919204,
-              "sha256": "83eb240a199416a8ca7d205ef030ff34a9b38b243dea43a0bd7e2db3937d5b17",
-              "downloads": 56,
+              "size": 46049428,
+              "sha256": "3d243f07e9155d32246a1033b2a32f07e7c4ea7d51f34cae5f04226da85f0069",
+              "downloads": 23,
               "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "nuvio-0.6.0-full-release.ipa",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 68513753,
-              "sha256": "4fe66dd483c6b18eab388c3fc419bc0e100336c120f2e8b2ce046842230dfbdd",
-              "downloads": 106,
-              "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "4fe66dd483c6b18eab388c3fc419bc0e100336c120f2e8b2ce046842230dfbdd",
-          "downloads": 106
+          "sha256": "d18faf37f1304d5d2a62c302077285aedf6de973e2b6eecbff3a0bfc1d28ad2d",
+          "downloads": 97
         }
       ]
     },
@@ -5542,7 +5541,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 679,
+              "downloads": 690,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -5572,7 +5571,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 679
+          "downloads": 690
         }
       ]
     },
@@ -6584,7 +6583,7 @@
               "fileType": "IPA",
               "size": 109263826,
               "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
-              "downloads": 300,
+              "downloads": 336,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -6596,7 +6595,7 @@
               "fileType": "IPA",
               "size": 109311241,
               "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
-              "downloads": 1875,
+              "downloads": 2129,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -6608,13 +6607,13 @@
               "fileType": "IPA",
               "size": 109225943,
               "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-              "downloads": 718,
+              "downloads": 836,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-          "downloads": 718
+          "downloads": 836
         }
       ]
     },
@@ -7790,7 +7789,7 @@
               "fileType": "APK",
               "size": 218533778,
               "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-              "downloads": 131,
+              "downloads": 708,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -7802,7 +7801,7 @@
               "fileType": "APK",
               "size": 217470115,
               "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-              "downloads": 5,
+              "downloads": 50,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -7814,7 +7813,7 @@
               "fileType": "AAB",
               "size": 130383094,
               "sha256": "c36397afcd79643674023440db84d20e15aeaebcfaa0899530e6e79f85201adb",
-              "downloads": 0,
+              "downloads": 3,
               "mimeType": "application/x-authorware-bin",
               "installable": true
             },
@@ -7826,7 +7825,7 @@
               "fileType": "IPA",
               "size": 59246428,
               "sha256": "5e25358c26ba9c6687b256c715e389501f9a03f48ee22714a44c9126f8ca2932",
-              "downloads": 0,
+              "downloads": 2,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7838,13 +7837,13 @@
               "fileType": "IPA",
               "size": 73761532,
               "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-              "downloads": 1,
+              "downloads": 14,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-          "downloads": 1
+          "downloads": 14
         }
       ]
     },
@@ -8370,7 +8369,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 372318,
+              "downloads": 372604,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8382,12 +8381,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1268168,
+              "downloads": 1269051,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1268168
+          "downloads": 1269051
         }
       ]
     },
@@ -8435,7 +8434,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 768,
+              "downloads": 779,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8447,13 +8446,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2255,
+              "downloads": 2278,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2255
+          "downloads": 2278
         }
       ]
     },
@@ -8516,16 +8515,16 @@
       "bundleIdentifier": "com.utmapp.UTM",
       "developerName": "UTM Team",
       "category": "utilities",
-      "version": "5.0.7",
-      "versionDate": "2026-10-16T06:25:45Z",
-      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-      "size": 150507204,
+      "version": "5.0.8",
+      "versionDate": "2026-10-17T02:44:56Z",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+      "size": 150556413,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/UTM.webp",
       "matchKeys": [
         "bundle:com.utmapp.UTM",
         "github:utmapp/utm",
         "url:github.com/utmapp/UTM",
-        "binary:github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa"
+        "binary:github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa"
       ],
       "repositoryURLs": [],
       "sources": [
@@ -8535,128 +8534,128 @@
       "duplicates": 1,
       "versions": [
         {
-          "version": "5.0.7",
-          "date": "2026-10-16T06:25:45Z",
-          "localizedDescription": "UTM 5.0.7 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n* The minimum supported versions are now macOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\n\n## Changes (v5.0.7)\n* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration\n* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)\n* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display\n* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad\n* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped\n* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with \"Close\" or \"Quit\" instead of \"OK\"\n* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)\n* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12\n* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)\n* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)\n* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller\n* (macOS) Scripting: Force stopping a paused VM is now allowed\n* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing \"VZErrorDomain error -6\" (#7914)\n* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)\n\n## Changes (v5.0.6)\n* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)\n* Updated the DXMT and MoltenVK graphics backends\n* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26\n* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery\n* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)\n* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)\n* SPICE: Fixed microphone audio quality (#7751)\n* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)\n* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)\n* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27\n* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)\n* (iOS 27) Confirm before closing the window of a running VM on iPad\n* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new \"Touch mode (drag to scroll)\" (#4738)\n* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard\n* (iOS) Input: Game controller Options and Home buttons can now be mapped\n* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver\n* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)\n* (macOS) Terminal: Added a find bar (Cmd-F)\n* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)\n* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen\n* (macOS) Settings: Improved the notes field\n* (macOS 26) Settings: The \"New…\" device menu now matches the sidebar\n* (macOS) AVF: Sound input and output can be enabled separately, so \"Output Only\" no longer switches Bluetooth headphones to headset mode (#7875)\n* (macOS 26) AVF: New \"Shared Network (VM to VM)\" and \"Host Only\" networking modes (#6975, #7480) (thanks @lovon-spec)\n* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)\n* (macOS 27) AVF: Run without saving changes (#4201, #7326)\n* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)\n* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands\n* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)\n* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)\n* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)\n* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)\n\n## Changes (v5.0.5)\n* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.\n* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files\n* Wizard: scaling is now default to \"nearest\" when a \"classic\" computer emulation is created in the wizard and \"linear\" otherwise. Previously …",
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-          "size": 150507204,
+          "version": "5.0.8",
+          "date": "2026-10-17T02:44:56Z",
+          "localizedDescription": "UTM 5.0.8 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n* The minimum supported versions are now macOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\n\n## Changes (v5.0.8)\n* Fixed several changes listed for v5.0.7 being left out of that build by mistake.\n* (macOS) Fixed Windows 3D acceleration on Apple Silicon Macs without Rosetta by falling back to DXMT\n* (macOS) QEMU: Fixed Windows installs from the USB CD drive stalling repeatedly, which made them much slower in v5.0.7 (#7970)\n\n## Changes (v5.0.7)\n* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration\n* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)\n* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display\n* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad\n* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped\n* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with \"Close\" or \"Quit\" instead of \"OK\"\n* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)\n* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12\n* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)\n* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)\n* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller\n* (macOS) Scripting: Force stopping a paused VM is now allowed\n* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing \"VZErrorDomain error -6\" (#7914)\n* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)\n\n## Changes (v5.0.6)\n* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)\n* Updated the DXMT and MoltenVK graphics backends\n* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26\n* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery\n* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)\n* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)\n* SPICE: Fixed microphone audio quality (#7751)\n* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)\n* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)\n* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27\n* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)\n* (iOS 27) Confirm before closing the window of a running VM on iPad\n* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new \"Touch mode (drag to scroll)\" (#4738)\n* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard\n* (iOS) Input: Game controller Options and Home buttons can now be mapped\n* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver\n* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)\n* (macOS) Terminal: Added a find bar (Cmd-F)\n* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)\n* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen\n* (macOS) Settings: Improved the notes field\n* (macOS 26) Settings: The \"New…\" device menu now matches the sidebar\n* (macOS) AVF: Sound input and output can be enabled separately, so \"Output Only\" no longer switches Bluetooth headphones to headset mode (#7875)\n* (macOS 26) AVF: New \"Shared Network (VM to VM)\" and \"Host Only\" networking modes (#6975, #7480) (thanks @lovon-spec)\n* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)\n* (macOS 27) AVF: Run without saving changes (#4201, #7326)\n* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)\n* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands\n* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)\n* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)\n* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)\n* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)\n\n## Changes (v5.0.5)\n* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* Config: For ARM64 configs, GICv3 is now selected by default. P…",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+          "size": 150556413,
           "minOSVersion": "14.0",
-          "releaseUrl": "https://github.com/utmapp/UTM/releases/tag/v5.0.7",
+          "releaseUrl": "https://github.com/utmapp/UTM/releases/tag/v5.0.8",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "UTM-Remote.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-Remote.ipa",
+              "filename": "UTM-visionOS.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-visionOS.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 37611518,
-              "sha256": "e88b956c5ea435b11e66e268eef056fb3d502ca2d218899306927330bd85645c",
-              "downloads": 7,
+              "size": 145802030,
+              "sha256": "1446516dc76331fe9d3a7106c54440441c7e9fc1182c66b89bafd22be004e212",
+              "downloads": 8,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM.deb",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.deb",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.deb",
               "platform": "linux",
               "architecture": null,
               "fileType": "DEB",
-              "size": 149012000,
-              "sha256": "110ee31f5bb4490c60f8e9041e3c68585bb6833e9aef9d59c61a4289b2300d18",
-              "downloads": 12,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM-visionOS.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-visionOS.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 145776074,
-              "sha256": "8a4f39e3adbc792631596d895d89ec4633798d5428c935f0382d442b1cce8e76",
-              "downloads": 2,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM-SE.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-SE.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 237075721,
-              "sha256": "f92eb2adff6e9050ca2f181967f033c0daa0ac8a3828e21d3203072ffd8245e0",
-              "downloads": 15,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 150507204,
-              "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec",
-              "downloads": 74,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "UTM-SE-visionOS.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-SE-visionOS.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 232693786,
-              "sha256": "c7cab7a1b41fd1c7016334704138b377fdfb0ed94a80ed6c0d836c5c893e3a92",
-              "downloads": 2,
+              "size": 149058050,
+              "sha256": "33383b2103ada51fbf13c4b40023f8eba9858010aa44ca5037ae3336762f133a",
+              "downloads": 38,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM-Remote-visionOS.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-Remote-visionOS.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-Remote-visionOS.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 32875458,
-              "sha256": "9275e63c5fec254f0ac2c02585abe68e4f5e9f7e7095da89c1e7c346e3a66885",
-              "downloads": 3,
+              "size": 32888599,
+              "sha256": "7216596304a48b5eee994298a091b8ba2fe20c33dc0ff7e55ec2a6f4a3a56c03",
+              "downloads": 6,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 150556413,
+              "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
+              "downloads": 169,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM-Remote.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-Remote.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 37648791,
+              "sha256": "c6aff984e95256d38d34ac8d0c8cdf6d533d709d4325d9c3faf8a5263c0e43a7",
+              "downloads": 8,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM-SE-visionOS.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-SE-visionOS.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 232703505,
+              "sha256": "c072a383dd4704c87907e56f3f95fbb7dfd9815b8f722338106fc08ca0cdd882",
+              "downloads": 5,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM-HV.ipa",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-HV.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-HV.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 150507448,
-              "sha256": "8cc98718a8d51075398f93b7af4a3f9b577f3416b51a49e6af8b5b4b1091456c",
-              "downloads": 26,
+              "size": 150556668,
+              "sha256": "d2669c9c2099eda208ae7536670cfa7046cb80abbb92ea806eda068877437365",
+              "downloads": 51,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "UTM-SE.ipa",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-SE.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 237108214,
+              "sha256": "d547ceb6e5a4b5adc10b996a1952a16933a7f133da66a6d9113219a45d2c5fd8",
+              "downloads": 32,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "UTM.dmg",
-              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.dmg",
+              "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.dmg",
               "platform": "macos",
               "architecture": null,
               "fileType": "DMG",
-              "size": 304297910,
-              "sha256": "80c2161cae4c1711ae364ed99de8a0e92396287abf85eb583426c7627d039ad9",
-              "downloads": 4767,
+              "size": 304304581,
+              "sha256": "7b2d7b2e2a02b3de1757ef19a8f36573e6d9cceae8c8cca0abcbcaa4a852019a",
+              "downloads": 7498,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "8ba0eb413be248acc4c1d8704ccfe5d32e7c77c0630a199e2bfdb8619aa2d1ec",
-          "downloads": 74
+          "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
+          "downloads": 169
         }
       ]
     },
@@ -9547,13 +9546,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 523,
+              "downloads": 534,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 523
+          "downloads": 534
         },
         {
           "version": "21.24.3",
@@ -9725,13 +9724,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3901,
+              "downloads": 4016,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3901
+          "downloads": 4016
         }
       ]
     },

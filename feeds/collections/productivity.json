@@ -20,38 +20,38 @@
       "tintColor": "FF375F",
       "category": "other",
       "version": "0.9",
-      "versionDate": "2026-09-03",
-      "versionDescription": "Aidoku 0.9 | Aidoku\n\n- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\n- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\n- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\n- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.",
-      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
-      "size": 14731108,
+      "versionDate": "2026-10-16",
+      "versionDescription": "Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a number of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n- Various other bug fixes",
+      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+      "size": 14753154,
       "versions": [
         {
           "version": "0.9",
-          "date": "2026-09-03",
-          "localizedDescription": "Aidoku 0.9 | Aidoku\n\n- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\n- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\n- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\n- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
-          "size": 14731108,
+          "date": "2026-10-16",
+          "localizedDescription": "Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a number of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n- Various other bug fixes",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+          "size": 14753154,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/Aidoku/Aidoku/releases/tag/v0.9",
+          "releaseUrl": "https://github.com/Aidoku/Aidoku/releases/tag/v0.9-4",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Aidoku.ipa",
-              "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+              "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 14731108,
-              "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-              "downloads": 7852,
+              "size": 14753154,
+              "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+              "downloads": 186,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-          "downloads": 7852
+          "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+          "downloads": 186
         }
       ],
       "screenshotURLs": [
@@ -93,7 +93,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-09-03"
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     },

@@ -1,11 +1,11 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "9f48e3544b38",
+  "feedVersion": "5f0c6ec228b2",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-16",
-    "lastSync": "2026-10-16",
+    "generatedAt": "2026-10-17",
+    "lastSync": "2026-10-17",
     "totals": {
       "apps": 131,
       "sources": 114,
@@ -20,11 +20,27 @@
       "downloadsReachable": 124,
       "deadLinks": 7,
       "newAppsThisWeek": 0,
-      "updatedAppsThisWeek": 40,
+      "updatedAppsThisWeek": 42,
       "clientsSupported": 7
     },
     "newThisWeek": [],
     "updatedThisWeek": [
+      {
+        "slug": "utm",
+        "name": "UTM",
+        "version": "5.0.8",
+        "previousVersion": "4.7.5",
+        "date": "2026-10-17T02:44:56Z",
+        "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa"
+      },
+      {
+        "slug": "jellify",
+        "name": "Jellify",
+        "version": "1.3.0",
+        "previousVersion": "1.2.11",
+        "date": "2026-10-17",
+        "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa"
+      },
       {
         "slug": "utm",
         "name": "UTM",
@@ -48,6 +64,46 @@
         "previousVersion": "0.5.10",
         "date": "2026-10-16",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa"
+      },
+      {
+        "slug": "nuvio",
+        "name": "Nuvio",
+        "version": "0.6.1",
+        "previousVersion": "0.6.0",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa"
+      },
+      {
+        "slug": "infuseplus",
+        "name": "Infuse Plus",
+        "version": "8.5.8",
+        "previousVersion": "8.5.7",
+        "date": "2026-10-16",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa"
+      },
+      {
+        "slug": "escapeos",
+        "name": "EscapeOS",
+        "version": "0.1.8",
+        "previousVersion": "0.1.6",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa"
+      },
+      {
+        "slug": "conduit",
+        "name": "Conduit",
+        "version": "4.2.1",
+        "previousVersion": "4.2.0",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa"
+      },
+      {
+        "slug": "aidoku",
+        "name": "Aidoku",
+        "version": "0.9",
+        "previousVersion": "0.9",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa"
       },
       {
         "slug": "iqface",
@@ -304,46 +360,6 @@
         "previousVersion": "0.5.8",
         "date": "2026-10-10",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa"
-      },
-      {
-        "slug": "iqface",
-        "name": "iQFace",
-        "version": "582.0.0",
-        "previousVersion": "581.0.0",
-        "date": "2026-10-09",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-582.0.0-iQFace.ipa"
-      },
-      {
-        "slug": "telegram-mxgram",
-        "name": "Telegram MxGram",
-        "version": "13.0",
-        "previousVersion": "12.9.4",
-        "date": "2026-10-09",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa"
-      },
-      {
-        "slug": "sameboy",
-        "name": "SameBoy",
-        "version": "1.0.4",
-        "previousVersion": "1.0.3",
-        "date": "2026-10-09",
-        "downloadURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa"
-      },
-      {
-        "slug": "nicegram",
-        "name": "Nicegram",
-        "version": "2.6.3",
-        "previousVersion": "2.6.2",
-        "date": "2026-10-09",
-        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa"
-      },
-      {
-        "slug": "apollo",
-        "name": "Apollo",
-        "version": "3.9.0",
-        "previousVersion": "3.8.5",
-        "date": "2026-10-09",
-        "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa"
       }
     ],
     "topCategories": [
@@ -439,13 +455,13 @@
     ],
     "history": [
       {
-        "date": "2026-10-16",
+        "date": "2026-10-17",
         "apps": 131,
         "sources": 114,
         "verified": 123,
         "deadLinks": 7,
         "newThisWeek": 0,
-        "updatedThisWeek": 40
+        "updatedThisWeek": 42
       }
     ]
   }
