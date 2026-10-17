@@ -107,38 +107,38 @@
       "tintColor": "FF375F",
       "category": "other",
       "version": "0.9",
-      "versionDate": "2026-09-03",
-      "versionDescription": "Aidoku 0.9 | Aidoku\n\n- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\n- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\n- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\n- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.",
-      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
-      "size": 14731108,
+      "versionDate": "2026-10-16",
+      "versionDescription": "Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a number of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n- Various other bug fixes",
+      "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+      "size": 14753154,
       "versions": [
         {
           "version": "0.9",
-          "date": "2026-09-03",
-          "localizedDescription": "Aidoku 0.9 | Aidoku\n\n- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\n- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\n- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\n- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
-          "size": 14731108,
+          "date": "2026-10-16",
+          "localizedDescription": "Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a number of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n- Various other bug fixes",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+          "size": 14753154,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/Aidoku/Aidoku/releases/tag/v0.9",
+          "releaseUrl": "https://github.com/Aidoku/Aidoku/releases/tag/v0.9-4",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Aidoku.ipa",
-              "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+              "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 14731108,
-              "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-              "downloads": 7852,
+              "size": 14753154,
+              "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+              "downloads": 186,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-          "downloads": 7852
+          "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+          "downloads": 186
         }
       ],
       "screenshotURLs": [
@@ -180,7 +180,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-09-03"
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     },
@@ -887,7 +887,7 @@
               "fileType": "ZIP",
               "size": 22442483,
               "sha256": "1a8ad741fa0c02ea72b85c0ea4e191984512b173b8e5955f0e49f3ef43243eb0",
-              "downloads": 8,
+              "downloads": 9,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -899,7 +899,7 @@
               "fileType": "IPA",
               "size": 118304442,
               "sha256": "3e020fe3f673f3e35bc67e5c78b94861157f379be9583ca5826f63aa37619f44",
-              "downloads": 1138,
+              "downloads": 1155,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -911,7 +911,7 @@
               "fileType": "IPA",
               "size": 128560322,
               "sha256": "2615fe26a8150edb3dfc39a562744e52d506e49b1fa859bc95b5d9351d9aa807",
-              "downloads": 3052,
+              "downloads": 3113,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -923,7 +923,7 @@
               "fileType": "IPA",
               "size": 118304297,
               "sha256": "e8eefa6d81b926c683752b27b4c45ec7b564764d726eb1906bc3986d3cba3915",
-              "downloads": 35,
+              "downloads": 38,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -935,7 +935,7 @@
               "fileType": "IPA",
               "size": 128560179,
               "sha256": "cac8ac36827e78e7d0ae628123caeccb8ba2c2601010dcd648d3e53532a00902",
-              "downloads": 61,
+              "downloads": 63,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -947,7 +947,7 @@
               "fileType": "IPA",
               "size": 86770789,
               "sha256": "ee4eefe6cde734451e822f28f81e11fc005014767184db8d728a8d4a004e14e1",
-              "downloads": 273,
+              "downloads": 283,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -959,7 +959,7 @@
               "fileType": "IPA",
               "size": 97026669,
               "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-              "downloads": 461,
+              "downloads": 473,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -971,7 +971,7 @@
               "fileType": "DEB",
               "size": 12893758,
               "sha256": "7aa482c239ace6112fc3b71ea7fbaf17ed624cc42152b9bef7c15eba704712b6",
-              "downloads": 22,
+              "downloads": 23,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -989,7 +989,7 @@
             }
           ],
           "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-          "downloads": 461
+          "downloads": 473
         }
       ],
       "screenshotURLs": [],
@@ -5160,99 +5160,98 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Jellify.webp",
       "tintColor": "19AFC8",
       "category": "music",
-      "version": "1.2.11",
-      "versionDate": "2026-10-05",
-      "versionDescription": "Jellify 1.2.11 | Jellify-1.2.11\n\nWelcome to Jellify 1.2.11\n\nWe are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.\n\n*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.\n*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.\n*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.",
-      "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
-      "size": 41199026,
+      "version": "1.3.0",
+      "versionDate": "2026-10-17",
+      "versionDescription": "Jellify 1.3.0 | Jellify-1.3.0\n\nWelcome to Jellify 1.3.0\n\nHey music lovers! We've packed this update with some really sweet fixes and major stability improvements to make sure your playlist keeps going strong wherever you are. Grab your headphones and get ready to stream!\n\n*   **Improved Car Experience:** We've made some great updates for Android Auto users, giving you server-backed browsing and a much smoother experience when resuming playback in your car.\n*   **Flawless Playback:** We tackled some lingering glitches, including better buffering and fixes to the main player screen. Now your music should stream more reliably, even when switching between tracks or listening on the go.\n*   **Enhanced Stability on All Platforms:** This update includes better organization for music albums and fixes a small issue on iOS where the player dismiss gesture wasn't working correctly.",
+      "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+      "size": 41451346,
       "versions": [
         {
-          "version": "1.2.11",
-          "date": "2026-10-05",
-          "localizedDescription": "Jellify 1.2.11 | Jellify-1.2.11\n\nWelcome to Jellify 1.2.11\n\nWe are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.\n\n*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.\n*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.\n*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.",
-          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
-          "size": 41199026,
+          "version": "1.3.0",
+          "date": "2026-10-17",
+          "localizedDescription": "Jellify 1.3.0 | Jellify-1.3.0\n\nWelcome to Jellify 1.3.0\n\nHey music lovers! We've packed this update with some really sweet fixes and major stability improvements to make sure your playlist keeps going strong wherever you are. Grab your headphones and get ready to stream!\n\n*   **Improved Car Experience:** We've made some great updates for Android Auto users, giving you server-backed browsing and a much smoother experience when resuming playback in your car.\n*   **Flawless Playback:** We tackled some lingering glitches, including better buffering and fixes to the main player screen. Now your music should stream more reliably, even when switching between tracks or listening on the go.\n*   **Enhanced Stability on All Platforms:** This update includes better organization for music albums and fixes a small issue on iOS where the player dismiss gesture wasn't working correctly.",
+          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+          "size": 41451346,
           "minOSVersion": "16.4",
-          "releaseUrl": "https://github.com/Jellify-Music/App/releases/tag/1.2.11",
+          "releaseUrl": "https://github.com/Jellify-Music/App/releases/tag/1.3.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "Jellify-1.2.11-app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-arm64-v8a-release.apk",
+              "filename": "Jellify-1.3.0-app-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-arm64-v8a-release.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 63368635,
-              "sha256": "9226417272c7203c832e5e2fb0c52955e273b2c191fca101a6529ea51f91f37a",
-              "downloads": 208,
+              "size": 63262903,
+              "sha256": "80d2b67cd7ec704881a2b711a58826624fc38e81930bfabb12a140022270d63f",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-armeabi-v7a-release.apk",
+              "filename": "Jellify-1.3.0-app-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 49390183,
-              "sha256": "13017e9a95733db01b9c650987679c55eb7349716ff94f03863116d19eff209e",
-              "downloads": 1,
+              "size": 49235299,
+              "sha256": "52c9f2990ff01962a8fa0b0538e1d04bad75e12060a85a7fa98a24f8d0d738f4",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-universal-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-universal-release.apk",
+              "filename": "Jellify-1.3.0-app-universal-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-universal-release.apk",
               "platform": "android",
               "architecture": "universal",
               "fileType": "APK",
-              "size": 185500156,
-              "sha256": "e96e583ed46b81bdfa188da5ea6e0584c05c992f33fba02fbd87b16a1d53e2e1",
-              "downloads": 2,
+              "size": 186033400,
+              "sha256": "bb46c9423d6f1339a5c2f5b9a6b002e7d0d9bd8c469a71c76702f2a893dba495",
+              "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-x86-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-x86-release.apk",
+              "filename": "Jellify-1.3.0-app-x86-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-x86-release.apk",
               "platform": "android",
               "architecture": "x86",
               "fileType": "APK",
-              "size": 63348687,
-              "sha256": "a45a29cbff88f6adbdd9c8f03c8c21f89a5d8e3838ca1be5ffe9202bfbac8747",
+              "size": 63242955,
+              "sha256": "8428935686c8dda57ccc806018c070a87391e51d35ff14d0b4921c7a80c1c481",
               "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11-app-x86_64-release.apk",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11-app-x86_64-release.apk",
+              "filename": "Jellify-1.3.0-app-x86_64-release.apk",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0-app-x86_64-release.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 65545379,
-              "sha256": "96e394f26736fd745efc9f072566f533ed08a379704f7f98ea5623c27a2c97cd",
+              "size": 65439647,
+              "sha256": "da9777bc2830d42cffce85ee8ca6507e4dfc42a58335f097aab9fc45f6b4877b",
               "downloads": 0,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Jellify-1.2.11.ipa",
-              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa",
+              "filename": "Jellify-1.3.0.ipa",
+              "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 41199026,
-              "sha256": "447a78d354505b4b80f6bedc440e00f4ccf4279e0b4b74ee4d71ef546ad35468",
-              "downloads": 6,
+              "size": 41451346,
+              "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
+              "downloads": 0,
               "mimeType": "raw",
               "installable": true
             }
           ],
-          "sha256": "447a78d354505b4b80f6bedc440e00f4ccf4279e0b4b74ee4d71ef546ad35468",
-          "downloads": 6
+          "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4"
         }
       ],
       "screenshotURLs": [],
@@ -5290,7 +5289,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-10-05"
+          "lastUpdatedAt": "2026-10-17"
         }
       }
     },
@@ -5329,7 +5328,7 @@
               "fileType": "APK",
               "size": 87021134,
               "sha256": "7409d39f514e287a39d0b9017cea7545ea719f68a4935870840678358fde7fcd",
-              "downloads": 27,
+              "downloads": 28,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5341,7 +5340,7 @@
               "fileType": "APK",
               "size": 108612022,
               "sha256": "d89ffb0f4c7d73099b4227f04599fa24fb9fbc85618d72797c8bba6b55921460",
-              "downloads": 118,
+              "downloads": 119,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5353,7 +5352,7 @@
               "fileType": "APK",
               "size": 94751948,
               "sha256": "57b16779da117f70fef0db0e0a9c23667545aae15a3e82d78fa69ec88a9391b7",
-              "downloads": 16,
+              "downloads": 17,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5401,7 +5400,7 @@
               "fileType": "APK",
               "size": 29460082,
               "sha256": "0bd3099908fdb515f2ecb4725036cfdb94d183fd5726c6f1029b29f677640bf6",
-              "downloads": 36,
+              "downloads": 37,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5413,7 +5412,7 @@
               "fileType": "APK",
               "size": 31553916,
               "sha256": "988baa0cab3119d0470e0228711e79f2d1f704ef397ff36059496972a7098b5c",
-              "downloads": 917,
+              "downloads": 922,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5425,7 +5424,7 @@
               "fileType": "APK",
               "size": 33275119,
               "sha256": "ad71c9f73d5e3879fd7f025cd0ce38c02c017f1228d48bdd8d041a01190ee86d",
-              "downloads": 30,
+              "downloads": 31,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5449,7 +5448,7 @@
               "fileType": "APK",
               "size": 88506651,
               "sha256": "00d612973399f6157b82cc6573ce13b8d98f0cd04e27f1c623e5d5bcd4000bd5",
-              "downloads": 196,
+              "downloads": 198,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -5461,13 +5460,13 @@
               "fileType": "IPA",
               "size": 14640159,
               "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-              "downloads": 429,
+              "downloads": 433,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-          "downloads": 429
+          "downloads": 433
         }
       ],
       "screenshotURLs": [],
@@ -6380,13 +6379,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 3959,
+              "downloads": 3987,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 3959
+          "downloads": 3987
         }
       ],
       "screenshotURLs": [
@@ -6495,13 +6494,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 527,
+              "downloads": 530,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 527
+          "downloads": 530
         }
       ],
       "screenshotURLs": [
@@ -7315,7 +7314,7 @@
               "fileType": "IPA",
               "size": 158452402,
               "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23713,
+              "downloads": 23716,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7327,13 +7326,13 @@
               "fileType": "IPA",
               "size": 153108663,
               "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22617,
+              "downloads": 22619,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23713
+          "downloads": 23716
         }
       ],
       "screenshotURLs": [],
@@ -8034,7 +8033,7 @@
               "fileType": "IPA",
               "size": 9414861,
               "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 683,
+              "downloads": 686,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -8064,7 +8063,7 @@
             }
           ],
           "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 683
+          "downloads": 686
         }
       ],
       "screenshotURLs": [],
@@ -9571,7 +9570,7 @@
               "fileType": "IPA",
               "size": 109263826,
               "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
-              "downloads": 315,
+              "downloads": 324,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9583,7 +9582,7 @@
               "fileType": "IPA",
               "size": 109311241,
               "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
-              "downloads": 1992,
+              "downloads": 2040,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -9595,13 +9594,13 @@
               "fileType": "IPA",
               "size": 109225943,
               "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-              "downloads": 773,
+              "downloads": 801,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
-          "downloads": 773
+          "downloads": 801
         }
       ],
       "screenshotURLs": [],
@@ -11525,7 +11524,7 @@
               "fileType": "APK",
               "size": 218533778,
               "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-              "downloads": 487,
+              "downloads": 603,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11537,7 +11536,7 @@
               "fileType": "APK",
               "size": 217470115,
               "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-              "downloads": 30,
+              "downloads": 40,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11549,7 +11548,7 @@
               "fileType": "AAB",
               "size": 130383094,
               "sha256": "c36397afcd79643674023440db84d20e15aeaebcfaa0899530e6e79f85201adb",
-              "downloads": 1,
+              "downloads": 2,
               "mimeType": "application/x-authorware-bin",
               "installable": true
             },
@@ -11561,7 +11560,7 @@
               "fileType": "IPA",
               "size": 59246428,
               "sha256": "5e25358c26ba9c6687b256c715e389501f9a03f48ee22714a44c9126f8ca2932",
-              "downloads": 1,
+              "downloads": 2,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -11573,13 +11572,13 @@
               "fileType": "IPA",
               "size": 73761532,
               "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-              "downloads": 6,
+              "downloads": 10,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-          "downloads": 6
+          "downloads": 10
         }
       ],
       "screenshotURLs": [],
@@ -12638,7 +12637,7 @@
               "fileType": "IPA",
               "size": 27098183,
               "sha256": null,
-              "downloads": 372443,
+              "downloads": 372481,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12650,12 +12649,12 @@
               "fileType": "IPA",
               "size": 6889214,
               "sha256": null,
-              "downloads": 1268553,
+              "downloads": 1268721,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 1268553
+          "downloads": 1268721
         }
       ],
       "screenshotURLs": [],
@@ -12942,7 +12941,7 @@
               "fileType": "IPA",
               "size": 143381478,
               "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 772,
+              "downloads": 778,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -12954,13 +12953,13 @@
               "fileType": "IPA",
               "size": 152372292,
               "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2263,
+              "downloads": 2270,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2263
+          "downloads": 2270
         }
       ],
       "screenshotURLs": [],
@@ -15380,6 +15379,15 @@
   ],
   "news": [
     {
+      "title": "Jellify v1.3.0",
+      "identifier": "news-jellify-1-3-0",
+      "caption": "Native Jellyfin music player for iOS",
+      "date": "2026-10-17",
+      "appID": "com.cosmonautical.jellify",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Jellify.webp",
+      "notify": true
+    },
+    {
       "title": "UTM v5.0.7",
       "identifier": "news-utm-5-0-7",
       "caption": "Virtual machines for iOS",
@@ -15443,30 +15451,21 @@
       "notify": true
     },
     {
+      "title": "Aidoku v0.9",
+      "identifier": "news-aidoku-0-9",
+      "caption": "Free and open-source manga reader",
+      "date": "2026-10-16",
+      "appID": "app.aidoku.Aidoku",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Aidoku.webp",
+      "notify": true
+    },
+    {
       "title": "StikDebug v3.1.15",
       "identifier": "news-stikdebug-3-1-15",
       "caption": "On-device JIT enabler and debugger",
       "date": "2026-10-15",
       "appID": "com.stik.stikdebug",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/StikDebug.webp",
-      "notify": true
-    },
-    {
-      "title": "MSGPlusX v583.0.0",
-      "identifier": "news-msgplusx-583-0-0",
-      "caption": "Messenger tweak by Dens0r & lucaspedrosa (unofficial build)",
-      "date": "2026-10-15",
-      "appID": "com.facebook.Messenger",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
-      "notify": true
-    },
-    {
-      "title": "Messenger Flow v583.0.0",
-      "identifier": "news-messenger-flow-583-0-0",
-      "caption": "Facebook Messenger tweak by dvntms (unofficial build)",
-      "date": "2026-10-15",
-      "appID": "com.facebook.Messenger.flow",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
       "notify": true
     }
   ]

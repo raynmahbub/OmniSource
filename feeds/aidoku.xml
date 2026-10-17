@@ -5,23 +5,22 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/aidoku.json</link>
     <description>Release feed for Aidoku within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/aidoku.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Aidoku v0.9</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/aidoku.json</link>
       <guid isPermaLink="false">aidoku-0.9</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[Aidoku 0.9 | Aidoku
 
-- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.
-- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.
-- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.
-- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.
-- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.
-- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.
-- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.]]></description>
-      <enclosure url="https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa" length="14731108" type="application/octet-stream" />
+A small build update for 0.9 with a number of bug fixes.
+
+- Fixed some pages not loading in webtoon reader
+- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)
+- Fixed crash when searching anywhere in the macOS app
+- Various other bug fixes]]></description>
+      <enclosure url="https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
