@@ -1,14 +1,14 @@
 {
   "generatedAt": "2026-10-17",
-  "lastEventAt": "2026-10-17",
+  "lastEventAt": "2026-10-17T02:44:56Z",
   "totals": {
     "apps": 131,
     "reachable": 124,
     "unreachable": 7,
     "featured": 7,
     "healthy": 123,
-    "warning": 3,
-    "critical": 5
+    "warning": 2,
+    "critical": 6
   },
   "apps": [
     {
@@ -257,14 +257,14 @@
       "slug": "utm",
       "name": "UTM",
       "status": "stable",
-      "version": "4.7.5",
-      "updatedAt": "2026-01-03T17:51:54Z",
-      "sizeBytes": 130058389,
+      "version": "5.0.8",
+      "updatedAt": "2026-10-17T02:44:56Z",
+      "sizeBytes": 150556413,
       "downloadReachable": true,
       "detail": "HTTP 302",
       "statusSince": "2026-09-07",
-      "updatedDaysAgo": 287,
-      "stale": true,
+      "updatedDaysAgo": 0,
+      "stale": false,
       "healthScore": 79,
       "healthStatus": "healthy",
       "scoreBreakdown": {
@@ -1211,10 +1211,10 @@
       "statusSince": "2026-10-13",
       "updatedDaysAgo": 8,
       "stale": false,
-      "healthScore": 43,
+      "healthScore": 42,
       "healthStatus": "warning",
       "scoreBreakdown": {
-        "downloadSuccess": 0.5333,
+        "downloadSuccess": 0.5,
         "updateFrequency": 0.5,
         "releaseAvailability": 0.0,
         "metadataCompleteness": 0.625,
@@ -2025,10 +2025,10 @@
       "statusSince": "2026-10-12",
       "updatedDaysAgo": 31,
       "stale": false,
-      "healthScore": 40,
-      "healthStatus": "warning",
+      "healthScore": 39,
+      "healthStatus": "critical",
       "scoreBreakdown": {
-        "downloadSuccess": 0.4333,
+        "downloadSuccess": 0.4,
         "updateFrequency": 0.5,
         "releaseAvailability": 0.0,
         "metadataCompleteness": 0.625,

@@ -6,12 +6,12 @@
     "stale": 180,
     "archived": 365
   },
-  "count": 57,
+  "count": 56,
   "summary": {
     "warning": 11,
     "stale": 8,
     "archived": 36,
-    "critical": 2
+    "critical": 1
   },
   "deadApps": [
     {
@@ -25,19 +25,6 @@
       "reasons": [
         "removed upstream release(s): 1.2.0 (newer than 0.9.3)",
         "no update for 120 days (threshold 90)"
-      ]
-    },
-    {
-      "slug": "utm",
-      "name": "UTM",
-      "lastUpdate": "2026-01-03T17:51:54Z",
-      "daysSinceUpdate": 287,
-      "classification": "critical",
-      "removedReleases": 1,
-      "supersededReleases": 0,
-      "reasons": [
-        "removed upstream release(s): 5.0.7 (newer than 4.7.5)",
-        "no update for 287 days (threshold 180)"
       ]
     },
     {
@@ -815,15 +802,12 @@
     {
       "slug": "utm",
       "name": "UTM",
-      "lastUpdate": "2026-01-03T17:51:54Z",
-      "daysSinceUpdate": 287,
-      "classification": "critical",
-      "removedReleases": 1,
+      "lastUpdate": "2026-10-17T02:44:56Z",
+      "daysSinceUpdate": 0,
+      "classification": "healthy",
+      "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": [
-        "removed upstream release(s): 5.0.7 (newer than 4.7.5)",
-        "no update for 287 days (threshold 180)"
-      ]
+      "reasons": []
     },
     {
       "slug": "inkillerplus",

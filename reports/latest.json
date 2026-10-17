@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17",
-  "feedVersion": "22766f0eb85c",
+  "feedVersion": "61f898dbb111",
   "apps": {
     "total": 131,
     "reachable": 124,
@@ -9,10 +9,10 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 115,
-    "updated": 2,
+    "incrementalHits": 116,
+    "updated": 1,
     "failed": 4,
-    "apiRequests": 119
+    "apiRequests": 118
   },
   "unreachable": [
     "cercube",
@@ -25,17 +25,10 @@
   ],
   "updates": [
     {
-      "slug": "aidoku",
-      "name": "Aidoku",
-      "previousVersion": "0.9",
-      "version": "0.9",
-      "kind": "updated"
-    },
-    {
-      "slug": "jellify",
-      "name": "Jellify",
-      "previousVersion": "1.2.11",
-      "version": "1.3.0",
+      "slug": "utm",
+      "name": "UTM",
+      "previousVersion": "4.7.5",
+      "version": "5.0.8",
       "kind": "updated"
     }
   ],
