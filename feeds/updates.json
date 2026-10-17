@@ -19,6 +19,51 @@
       "shortDescription": "Virtual machines for iOS"
     },
     {
+      "slug": "turrit-mxgram",
+      "name": "Turrit MxGram",
+      "version": "1.5.6",
+      "previousVersion": "1.5.5",
+      "date": "2026-10-17",
+      "kind": "updated",
+      "changelog": "Turrit 1.5.6 | Turrit-1.5.6-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.6",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Turrit.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/turrit-mxgram.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/turrit-mxgram.xml",
+      "status": "stable",
+      "shortDescription": "MxGram-tweaked Turrit client (unofficial build)"
+    },
+    {
+      "slug": "msgplusx",
+      "name": "MSGPlusX",
+      "version": "584.0.0",
+      "previousVersion": "583.0.0",
+      "date": "2026-10-17",
+      "kind": "updated",
+      "changelog": "Messenger 584.0.0 | Messenger-584.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 584.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-MSGPlusX.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/msgplusx.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/msgplusx.xml",
+      "status": "stable",
+      "shortDescription": "Messenger tweak by Dens0r & lucaspedrosa (unofficial build)"
+    },
+    {
+      "slug": "messenger-flow",
+      "name": "Messenger Flow",
+      "version": "584.0.0",
+      "previousVersion": "583.0.0",
+      "date": "2026-10-17",
+      "kind": "updated",
+      "changelog": "Messenger 584.0.0 | Messenger-584.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 584.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/messenger-flow.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/messenger-flow.xml",
+      "status": "stable",
+      "shortDescription": "Facebook Messenger tweak by dvntms (unofficial build)"
+    },
+    {
       "slug": "jellify",
       "name": "Jellify",
       "version": "1.3.0",
@@ -1457,51 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/youmod.xml",
       "status": "stable",
       "shortDescription": "YouTube 21.37.4 extra-tweaks build by Tonwalter888"
-    },
-    {
-      "slug": "stikdebug",
-      "name": "StikDebug",
-      "version": "3.1.13",
-      "previousVersion": "3.1.12",
-      "date": "2026-09-28",
-      "kind": "updated",
-      "changelog": "StikDebug 3.1.13 | StikDebug-3.1.13\n\nFix MeloCafé auto assign\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.12...3.1.13",
-      "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/StikDebug.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/stikdebug.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/stikdebug.xml",
-      "status": "stable",
-      "shortDescription": "On-device JIT enabler and debugger"
-    },
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "version": "5.0.6",
-      "previousVersion": "5.0.5",
-      "date": "2026-09-28",
-      "kind": "updated",
-      "changelog": "SpotiFLAC 5.0.6 | SpotiFLAC-v5.0.6-ios-unsigned\n\n### New Features\n\n- **player**: Show covers and expressive controls in Material queue\n- **material**: Unify search filters and extension actions\n- **player**: Show Material lyrics in the artwork area\n- **player**: Animate Material seek bar with expressive waves\n- **material**: Adopt expressive controls across the app\n- **album**: Zoom artwork when pulling down the Mornye header\n- **settings**: Give playback its own settings page\n- **player**: Add AAudio hi-res, WavPack DSD and DAC volume\n- **player**: Add direct USB audio and DSD transport\n- **player**: Add verified USB bit-perfect PCM output\n- **player**: Continue playback with Library autoplay\n- **appearance**: Add an optional system font\n- **mornye**: Add persistent accent color choices\n- **lyrics**: Group smaller backing vocals beneath their lead\n- **player**: Expand artwork when tapping the compact cover\n- **player**: Swipe track headers and remove individual queue entries\n- **library**: Search songs albums artists and playlists by relevance\n- **album**: Display disc groups from catalog metadata\n- **lyrics**: Support multiple vocalists and aligned lyrics\n\n### Bug Fixes\n\n- **download**: Align native metadata preparation and ReplayGain support\n- **library**: Index native completions and refresh background downloads\n- **library**: Preserve indexed tracks when a full scan is incomplete\n- **download**: Detect mislabeled MP4 before native metadata writes\n- **motion**: Pause loading effects when hidden or motion is reduced\n- **metadata**: Resolve album artist consistently across separate downloads\n- **settings**: Use neutral category icons in Material\n- **material**: Keep navigation tint continuous through system inset\n- **player**: Move Material audio output to bottom right\n- **player**: Align Material lyrics toggle to bottom left\n- **player**: Give Material quality badge and controls more space\n- **album**: Show Material quality badges only for exceptions\n- **ui**: Show Dolby Atmos as a compact logo\n- **queue**: Style Mornye swipe removal and simplify queue heading\n- **album**: Remove dividers above Mornye disc headings\n- **library**: Replace library badge text with a folder icon\n- **player**: Distinguish AAudio access and decoder failures\n- **lyrics**: Keep V3 collaborations on the primary side\n- **lyrics**: Reveal backing vocals and gaps at their start\n- **lyrics**: Preserve group alignment in eLRC fallback\n- **mornye**: Improve frosted menu contrast and readability\n- **mornye**: Keep popover glass clear and correctly clipped\n- **mornye**: Use translucent liquid glass for action menus\n- **mornye**: Preserve contrast with custom accent colors\n- **settings**: Restore distinct category icons on the main page\n- **player**: Align lyrics and compact header with timeline\n- **lyrics**: Preserve Apple vocal sides for group parts\n- **ios**: Scan app documents without the Files folder picker\n- **artist**: Restore artwork accents with neutral portrait fallback\n- **player**: Separate adjacent titles during track swipes\n- **player**: Swipe left to advance and right to return\n- **player**: Retain duration probing after queue edits during loading\n- **lyrics**: Stagger highlight lift across graphemes\n- **artist**: Use white Mornye header actions regardless of artwork color\n- **player**: Keep shuffle order stable and restore the original queue\n- **lyrics**: Keep the active line anchored during language transitions\n- **player**: Serialize source changes during rapid track selection\n- **album**: Show More only for truncated descriptions\n- **artist**: Zoom artwork during pull-down stretching\n- **navigation**: Preserve compact state and active icon colors\n- **updater**: Revalidate releases instead of hiding updates in cache\n- **metadata**: Clarify online autofill controls\n\n### Performance\n\n- **player**: Rebuild preview buttons only on status changes\n- **search**: Reduce list rendering and provider rebuilds\n\n### Styling\n\n- **playback**: Mark bit-perfect and DAP hi-res output as beta\n- **library**: Use theme colors for Material collections\n\n### Chores\n\n- **release**: Sync remote AltStore metadata\n- Update AltStore source to v5.0.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **release**: Bump app version to 5.0.6\n\n\n\n\n**Full Changelog**: [v5.0.5...v5.0.6](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.0.5...v5.0.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `SpotiFLAC-v5.0.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `SpotiFLAC-v5.0.6-arm32.apk` (older devices)\n\n#### iOS\n- **iOS**: `SpotiFLAC-v5.0.6-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
-      "downloadURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.0.6/SpotiFLAC-v5.0.6-ios-unsigned.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/spotiflac.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/spotiflac.xml",
-      "status": "stable",
-      "shortDescription": "FLAC Downloader for iOS"
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "version": "0.5.4",
-      "previousVersion": "0.5.3",
-      "date": "2026-09-28",
-      "kind": "updated",
-      "changelog": "Nuvio 0.5.4 | nuvio-0.5.4-full-release\n\n- 80860602 fix(player): ignore short clips for tracking @tapframe  \n- cd4572e2 fix(ios): update quickjs to 1.0.15 @tapframe  \n- 9980d643 fix(player): reduce buffer durations @tapframe  \n- 75296263 fix(details): keep custom posters when returning to a title @tapframe  \n- 4bdcfa3a fix(settings): use shared chip on detail page @tapframe  \n- 2b8be69c fix(details): replay watched series from first episode @tapframe  \n- c69b643a fix(player): resume restored player from current position @tapframe  \n- c3920d40 fix(i18n): align episode labels and metadata with tv @tapframe  \n- 24c7c89c fix(streams): prevent rotation during binge group lookup @tapframe  \n- a1a43416 fix(profiles): center pin dialog content @tapframe  \n- [Plugin timeout (#2091)](https://github.com/NuvioMedia/NuvioMobile/pull/2091) @paregi12",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.4-beta/nuvio-0.5.4-full-release.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
-      "status": "stable",
-      "shortDescription": "Open-source media player, bring your own sources"
     }
   ]
 }

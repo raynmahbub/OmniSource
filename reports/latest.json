@@ -1,30 +1,56 @@
 {
   "generatedAt": "2026-10-17",
-  "feedVersion": "61f898dbb111",
+  "feedVersion": "7a9d210e3cda",
   "apps": {
     "total": 131,
-    "reachable": 124,
-    "unreachable": 7,
-    "verified": 123
+    "reachable": 122,
+    "unreachable": 9,
+    "verified": 121
   },
   "sync": {
-    "synced": 127,
-    "incrementalHits": 117,
-    "updated": 0,
-    "failed": 4,
-    "apiRequests": 117
+    "synced": 125,
+    "incrementalHits": 112,
+    "updated": 3,
+    "failed": 6,
+    "apiRequests": 121
   },
   "unreachable": [
     "cercube",
     "jaility",
     "killmyota",
     "playtorrio",
+    "ryukgram-ig410",
+    "ryukgram-sidebyside",
     "telegram-mxgram",
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "messenger-flow",
+      "name": "Messenger Flow",
+      "previousVersion": "583.0.0",
+      "version": "584.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "msgplusx",
+      "name": "MSGPlusX",
+      "previousVersion": "583.0.0",
+      "version": "584.0.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "turrit-mxgram",
+      "name": "Turrit MxGram",
+      "previousVersion": "1.5.5",
+      "version": "1.5.6",
+      "kind": "updated"
+    }
+  ],
   "errors": [
+    "ryukgram-ig410: all sources failed: altstore:https://source.ryuksign.com/ig410 error: HTTP request failed after 3 attempts: https://source.ryuksign.com/ig410 (<urlopen error timed out>)",
+    "ryukgram-sidebyside: all sources failed: altstore:https://source.ryuksign.com/duplicate error: HTTP request failed after 3 attempts: https://source.ryuksign.com/duplicate (<urlopen error timed out>)",
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",

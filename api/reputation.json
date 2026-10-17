@@ -42,21 +42,21 @@
       "signals": {
         "jsonValidity": 100.0,
         "uptime": 100.0,
-        "updateFrequencyDays": 2.6,
+        "updateFrequencyDays": 2.7,
         "lastReleaseDaysAgo": 1,
         "brokenLinks": 0,
-        "releasesPastYear": 8,
+        "releasesPastYear": 7,
         "metadataCompleteness": 96,
         "probes": 30
       },
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 218.0,
-        "averageUpdateGapDays": 2.6,
+        "averageLatencyMs": 219.0,
+        "averageUpdateGapDays": 2.7,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
-        "legacyScore": 84.38
+        "legacyScore": 84.4
       }
     },
     {
@@ -83,25 +83,25 @@
       "score": 97.1,
       "level": "TRUSTED",
       "status": "Warning",
-      "lastUpdate": "2026-10-16",
+      "lastUpdate": "2026-10-17",
       "signals": {
         "jsonValidity": 100.0,
-        "uptime": 95.9,
-        "updateFrequencyDays": 5.5,
-        "lastReleaseDaysAgo": 1,
+        "uptime": 95.64,
+        "updateFrequencyDays": 6.0,
+        "lastReleaseDaysAgo": 0,
         "brokenLinks": 1,
-        "releasesPastYear": 33,
+        "releasesPastYear": 36,
         "metadataCompleteness": 96,
         "probes": 390
       },
       "metrics": {
-        "uptime": 95.9,
+        "uptime": 95.64,
         "probes": 390,
-        "averageLatencyMs": 126.0,
-        "averageUpdateGapDays": 5.5,
+        "averageLatencyMs": 125.8,
+        "averageUpdateGapDays": 6.0,
         "brokenReleases": 0,
         "currentlyReachable": "12/13",
-        "legacyScore": 82.74
+        "legacyScore": 82.69
       }
     },
     {
@@ -133,7 +133,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 120,
-        "averageLatencyMs": 205.5,
+        "averageLatencyMs": 206.2,
         "averageUpdateGapDays": 7.0,
         "brokenReleases": 2,
         "currentlyReachable": "4/4",
@@ -149,28 +149,28 @@
       "apps": [
         "spotiflac"
       ],
-      "score": 94.4,
+      "score": 91.9,
       "level": "TRUSTED",
       "status": "Verified",
       "lastUpdate": "2026-10-11",
       "signals": {
         "jsonValidity": 100.0,
         "uptime": 100.0,
-        "updateFrequencyDays": 4.3,
+        "updateFrequencyDays": 5.0,
         "lastReleaseDaysAgo": 6,
         "brokenLinks": 0,
-        "releasesPastYear": 4,
+        "releasesPastYear": 3,
         "metadataCompleteness": 96,
         "probes": 30
       },
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 196.0,
-        "averageUpdateGapDays": 4.3,
+        "averageLatencyMs": 195.0,
+        "averageUpdateGapDays": 5.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
-        "legacyScore": 84.63
+        "legacyScore": 84.72
       }
     },
     {
@@ -266,7 +266,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 60,
-        "averageLatencyMs": 271.5,
+        "averageLatencyMs": 272.0,
         "averageUpdateGapDays": 6.0,
         "brokenReleases": 0,
         "currentlyReachable": "2/2",
@@ -307,39 +307,6 @@
       }
     },
     {
-      "id": "StikDebug/StikDebug",
-      "source": "StikDebug/StikDebug",
-      "publisher": "StikDebug/StikDebug",
-      "homepage": "https://github.com/StikDebug/StikDebug",
-      "sourceURL": "https://github.com/StikDebug/StikDebug",
-      "apps": [
-        "stikdebug"
-      ],
-      "score": 89.9,
-      "level": "TRUSTED",
-      "status": "Verified",
-      "lastUpdate": "2026-10-15",
-      "signals": {
-        "jsonValidity": 100.0,
-        "uptime": 100.0,
-        "updateFrequencyDays": 8.5,
-        "lastReleaseDaysAgo": 2,
-        "brokenLinks": 0,
-        "releasesPastYear": 3,
-        "metadataCompleteness": 96,
-        "probes": 30
-      },
-      "metrics": {
-        "uptime": 100.0,
-        "probes": 30,
-        "averageLatencyMs": 214.0,
-        "averageUpdateGapDays": 8.5,
-        "brokenReleases": 0,
-        "currentlyReachable": "1/1",
-        "legacyScore": 84.79
-      }
-    },
-    {
       "id": "utmapp/UTM",
       "source": "utmapp/UTM",
       "publisher": "utmapp/UTM",
@@ -365,11 +332,44 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 188.0,
+        "averageLatencyMs": 189.0,
         "averageUpdateGapDays": 1.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
         "legacyScore": 84.17
+      }
+    },
+    {
+      "id": "StikDebug/StikDebug",
+      "source": "StikDebug/StikDebug",
+      "publisher": "StikDebug/StikDebug",
+      "homepage": "https://github.com/StikDebug/StikDebug",
+      "sourceURL": "https://github.com/StikDebug/StikDebug",
+      "apps": [
+        "stikdebug"
+      ],
+      "score": 89.4,
+      "level": "TRUSTED",
+      "status": "Verified",
+      "lastUpdate": "2026-10-15",
+      "signals": {
+        "jsonValidity": 100.0,
+        "uptime": 100.0,
+        "updateFrequencyDays": 3.0,
+        "lastReleaseDaysAgo": 2,
+        "brokenLinks": 0,
+        "releasesPastYear": 2,
+        "metadataCompleteness": 96,
+        "probes": 30
+      },
+      "metrics": {
+        "uptime": 100.0,
+        "probes": 30,
+        "averageLatencyMs": 213.0,
+        "averageUpdateGapDays": 3.0,
+        "brokenReleases": 0,
+        "currentlyReachable": "1/1",
+        "legacyScore": 84.44
       }
     },
     {
@@ -398,7 +398,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 206.0,
+        "averageLatencyMs": 207.0,
         "averageUpdateGapDays": 4.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -472,39 +472,6 @@
       }
     },
     {
-      "id": "https://source.ryuksign.com/duplicate",
-      "source": "Ryuk / RyukSign (source.ryuksign.com)",
-      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
-      "homepage": "https://source.ryuksign.com/duplicate",
-      "sourceURL": "https://source.ryuksign.com/duplicate",
-      "apps": [
-        "ryukgram-sidebyside"
-      ],
-      "score": 88.6,
-      "level": "TRUSTED",
-      "status": "Verified",
-      "lastUpdate": "2026-10-03",
-      "signals": {
-        "jsonValidity": 100.0,
-        "uptime": 96.67,
-        "updateFrequencyDays": 1.0,
-        "lastReleaseDaysAgo": 14,
-        "brokenLinks": 0,
-        "releasesPastYear": 2,
-        "metadataCompleteness": 96,
-        "probes": 30
-      },
-      "metrics": {
-        "uptime": 96.67,
-        "probes": 30,
-        "averageLatencyMs": 1328.0,
-        "averageUpdateGapDays": 1.0,
-        "brokenReleases": 0,
-        "currentlyReachable": "1/1",
-        "legacyScore": 82.5
-      }
-    },
-    {
       "id": "OnionBrowser/OnionBrowser",
       "source": "OnionBrowser/OnionBrowser",
       "publisher": "OnionBrowser/OnionBrowser",
@@ -530,7 +497,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 208.0,
+        "averageLatencyMs": 209.0,
         "averageUpdateGapDays": 12.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -596,7 +563,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 221.0,
+        "averageLatencyMs": 222.0,
         "averageUpdateGapDays": 12.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -629,7 +596,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 209.0,
+        "averageLatencyMs": 211.0,
         "averageUpdateGapDays": 12.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -662,11 +629,44 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 211.0,
+        "averageLatencyMs": 214.0,
         "averageUpdateGapDays": 10.0,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
         "legacyScore": 84.58
+      }
+    },
+    {
+      "id": "https://source.ryuksign.com/duplicate",
+      "source": "Ryuk / RyukSign (source.ryuksign.com)",
+      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "homepage": "https://source.ryuksign.com/duplicate",
+      "sourceURL": "https://source.ryuksign.com/duplicate",
+      "apps": [
+        "ryukgram-sidebyside"
+      ],
+      "score": 86.5,
+      "level": "TRUSTED",
+      "status": "Warning",
+      "lastUpdate": "2026-10-03",
+      "signals": {
+        "jsonValidity": 100.0,
+        "uptime": 93.33,
+        "updateFrequencyDays": 1.0,
+        "lastReleaseDaysAgo": 14,
+        "brokenLinks": 1,
+        "releasesPastYear": 2,
+        "metadataCompleteness": 96,
+        "probes": 30
+      },
+      "metrics": {
+        "uptime": 93.33,
+        "probes": 30,
+        "averageLatencyMs": 2163.0,
+        "averageUpdateGapDays": 1.0,
+        "brokenReleases": 0,
+        "currentlyReachable": "0/1",
+        "legacyScore": 80.83
       }
     },
     {
@@ -695,7 +695,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 211.0,
+        "averageLatencyMs": 212.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -728,7 +728,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 248.0,
+        "averageLatencyMs": 247.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -761,7 +761,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 183.0,
+        "averageLatencyMs": 184.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -794,7 +794,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 210.0,
+        "averageLatencyMs": 211.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -893,7 +893,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 215.0,
+        "averageLatencyMs": 216.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -926,7 +926,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 211.0,
+        "averageLatencyMs": 210.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -959,7 +959,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 182.0,
+        "averageLatencyMs": 181.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1025,7 +1025,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 211.0,
+        "averageLatencyMs": 212.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1058,7 +1058,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 188.0,
+        "averageLatencyMs": 189.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1157,7 +1157,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 222.0,
+        "averageLatencyMs": 223.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1256,7 +1256,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 210.0,
+        "averageLatencyMs": 212.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1289,7 +1289,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 183.0,
+        "averageLatencyMs": 185.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1388,7 +1388,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 214.0,
+        "averageLatencyMs": 215.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1421,7 +1421,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 222.0,
+        "averageLatencyMs": 221.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1454,7 +1454,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 224.0,
+        "averageLatencyMs": 225.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1487,7 +1487,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 209.0,
+        "averageLatencyMs": 210.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1520,7 +1520,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 203.0,
+        "averageLatencyMs": 202.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1619,7 +1619,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 187.0,
+        "averageLatencyMs": 188.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1718,7 +1718,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 199.0,
+        "averageLatencyMs": 200.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1784,7 +1784,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 221.0,
+        "averageLatencyMs": 222.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1817,7 +1817,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 216.0,
+        "averageLatencyMs": 215.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1883,7 +1883,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 217.0,
+        "averageLatencyMs": 219.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1916,7 +1916,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 188.0,
+        "averageLatencyMs": 189.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1949,7 +1949,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 216.0,
+        "averageLatencyMs": 215.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -1982,7 +1982,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 223.0,
+        "averageLatencyMs": 224.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2048,7 +2048,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 209.0,
+        "averageLatencyMs": 210.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2114,7 +2114,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 229.0,
+        "averageLatencyMs": 225.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2147,7 +2147,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 196.0,
+        "averageLatencyMs": 192.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2180,7 +2180,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 215.0,
+        "averageLatencyMs": 216.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2279,7 +2279,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 209.0,
+        "averageLatencyMs": 211.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2345,7 +2345,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 225.0,
+        "averageLatencyMs": 220.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2378,7 +2378,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 207.0,
+        "averageLatencyMs": 209.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2411,7 +2411,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 195.0,
+        "averageLatencyMs": 197.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2444,44 +2444,11 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 211.0,
+        "averageLatencyMs": 212.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
         "legacyScore": 60.0
-      }
-    },
-    {
-      "id": "https://source.ryuksign.com/ig410",
-      "source": "Ryuk / RyukSign (source.ryuksign.com)",
-      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
-      "homepage": "https://source.ryuksign.com/ig410",
-      "sourceURL": "https://source.ryuksign.com/ig410",
-      "apps": [
-        "ryukgram-ig410"
-      ],
-      "score": 73.1,
-      "level": "RELIABLE",
-      "status": "Community Verified",
-      "lastUpdate": "2026-07-25",
-      "signals": {
-        "jsonValidity": 100.0,
-        "uptime": 96.67,
-        "updateFrequencyDays": null,
-        "lastReleaseDaysAgo": 84,
-        "brokenLinks": 0,
-        "releasesPastYear": 1,
-        "metadataCompleteness": 96,
-        "probes": 30
-      },
-      "metrics": {
-        "uptime": 96.67,
-        "probes": 30,
-        "averageLatencyMs": 1325.0,
-        "averageUpdateGapDays": null,
-        "brokenReleases": 0,
-        "currentlyReachable": "1/1",
-        "legacyScore": 58.33
       }
     },
     {
@@ -2510,7 +2477,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 215.0,
+        "averageLatencyMs": 216.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2609,7 +2576,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 222.0,
+        "averageLatencyMs": 219.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2642,7 +2609,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 223.0,
+        "averageLatencyMs": 224.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2675,7 +2642,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 242.0,
+        "averageLatencyMs": 241.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2708,7 +2675,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 201.0,
+        "averageLatencyMs": 200.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2741,7 +2708,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 208.0,
+        "averageLatencyMs": 209.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2774,7 +2741,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 224.0,
+        "averageLatencyMs": 225.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2807,7 +2774,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 276.0,
+        "averageLatencyMs": 275.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2873,7 +2840,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 226.0,
+        "averageLatencyMs": 227.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2906,7 +2873,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 214.0,
+        "averageLatencyMs": 215.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2939,7 +2906,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 208.0,
+        "averageLatencyMs": 207.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -2972,7 +2939,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 220.0,
+        "averageLatencyMs": 221.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3005,7 +2972,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 219.0,
+        "averageLatencyMs": 220.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3038,7 +3005,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 211.0,
+        "averageLatencyMs": 212.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3071,7 +3038,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 224.0,
+        "averageLatencyMs": 226.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3104,7 +3071,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 199.0,
+        "averageLatencyMs": 200.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3137,7 +3104,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 237.0,
+        "averageLatencyMs": 238.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3170,7 +3137,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 206.0,
+        "averageLatencyMs": 207.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3236,7 +3203,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 217.0,
+        "averageLatencyMs": 218.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3302,7 +3269,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 213.0,
+        "averageLatencyMs": 214.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3335,7 +3302,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 212.0,
+        "averageLatencyMs": 213.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3368,7 +3335,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 329.0,
+        "averageLatencyMs": 331.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3401,7 +3368,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 222.0,
+        "averageLatencyMs": 223.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3434,7 +3401,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 330.0,
+        "averageLatencyMs": 326.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3467,7 +3434,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 222.0,
+        "averageLatencyMs": 223.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3500,7 +3467,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 223.0,
+        "averageLatencyMs": 216.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3533,7 +3500,7 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 189.0,
+        "averageLatencyMs": 190.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3566,11 +3533,44 @@
       "metrics": {
         "uptime": 100.0,
         "probes": 30,
-        "averageLatencyMs": 236.0,
+        "averageLatencyMs": 240.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
         "legacyScore": 60.0
+      }
+    },
+    {
+      "id": "https://source.ryuksign.com/ig410",
+      "source": "Ryuk / RyukSign (source.ryuksign.com)",
+      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "homepage": "https://source.ryuksign.com/ig410",
+      "sourceURL": "https://source.ryuksign.com/ig410",
+      "apps": [
+        "ryukgram-ig410"
+      ],
+      "score": 71.0,
+      "level": "RELIABLE",
+      "status": "Warning",
+      "lastUpdate": "2026-07-25",
+      "signals": {
+        "jsonValidity": 100.0,
+        "uptime": 93.33,
+        "updateFrequencyDays": null,
+        "lastReleaseDaysAgo": 84,
+        "brokenLinks": 1,
+        "releasesPastYear": 1,
+        "metadataCompleteness": 96,
+        "probes": 30
+      },
+      "metrics": {
+        "uptime": 93.33,
+        "probes": 30,
+        "averageLatencyMs": 2159.0,
+        "averageUpdateGapDays": null,
+        "brokenReleases": 0,
+        "currentlyReachable": "0/1",
+        "legacyScore": 56.67
       }
     },
     {
@@ -3633,7 +3633,7 @@
       "metrics": {
         "uptime": 53.33,
         "probes": 30,
-        "averageLatencyMs": 206.0,
+        "averageLatencyMs": 208.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
@@ -3649,13 +3649,13 @@
       "apps": [
         "playtorrio"
       ],
-      "score": 56.8,
+      "score": 56.0,
       "level": "AVERAGE",
       "status": "Warning",
       "lastUpdate": "2026-09-16",
       "signals": {
         "jsonValidity": 100.0,
-        "uptime": 36.67,
+        "uptime": 33.33,
         "updateFrequencyDays": null,
         "lastReleaseDaysAgo": 31,
         "brokenLinks": 1,
@@ -3664,13 +3664,13 @@
         "probes": 30
       },
       "metrics": {
-        "uptime": 36.67,
+        "uptime": 33.33,
         "probes": 30,
         "averageLatencyMs": 199.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "0/1",
-        "legacyScore": 28.33
+        "legacyScore": 26.67
       }
     },
     {
@@ -3699,7 +3699,7 @@
       "metrics": {
         "uptime": 0.0,
         "probes": 30,
-        "averageLatencyMs": 286.0,
+        "averageLatencyMs": 285.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "0/1",
@@ -3798,7 +3798,7 @@
       "metrics": {
         "uptime": 0.0,
         "probes": 30,
-        "averageLatencyMs": 253.0,
+        "averageLatencyMs": 252.0,
         "averageUpdateGapDays": null,
         "brokenReleases": 0,
         "currentlyReachable": "0/1",
