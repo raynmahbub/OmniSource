@@ -1,11 +1,11 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "5f0c6ec228b2",
+  "feedVersion": "5d9ced9c3952",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-17",
-    "lastSync": "2026-10-17",
+    "generatedAt": "2026-10-18",
+    "lastSync": "2026-10-18",
     "totals": {
       "apps": 131,
       "sources": 114,
@@ -20,11 +20,19 @@
       "downloadsReachable": 124,
       "deadLinks": 7,
       "newAppsThisWeek": 0,
-      "updatedAppsThisWeek": 42,
+      "updatedAppsThisWeek": 45,
       "clientsSupported": 7
     },
     "newThisWeek": [],
     "updatedThisWeek": [
+      {
+        "slug": "reynard",
+        "name": "Reynard",
+        "version": "0.18.0",
+        "previousVersion": "0.17.1",
+        "date": "2026-10-18",
+        "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa"
+      },
       {
         "slug": "utm",
         "name": "UTM",
@@ -32,6 +40,38 @@
         "previousVersion": "4.7.5",
         "date": "2026-10-17T02:44:56Z",
         "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa"
+      },
+      {
+        "slug": "turrit-mxgram",
+        "name": "Turrit MxGram",
+        "version": "1.5.6",
+        "previousVersion": "1.5.5",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa"
+      },
+      {
+        "slug": "saber",
+        "name": "Saber",
+        "version": "1.36.2",
+        "previousVersion": "1.36.1",
+        "date": "2026-10-17",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.2/Saber_v1.36.2.ipa"
+      },
+      {
+        "slug": "messenger-flow",
+        "name": "Messenger Flow",
+        "version": "584.0.0",
+        "previousVersion": "583.0.0",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa"
+      },
+      {
+        "slug": "msgplusx",
+        "name": "MSGPlusX",
+        "version": "584.0.0",
+        "previousVersion": "583.0.0",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-MSGPlusX.ipa"
       },
       {
         "slug": "jellify",
@@ -344,22 +384,6 @@
         "previousVersion": "8.81.0",
         "date": "2026-10-11",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa"
-      },
-      {
-        "slug": "tablehabit",
-        "name": "Table Habit",
-        "version": "1.27.13",
-        "previousVersion": "1.27.9",
-        "date": "2026-10-10",
-        "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa"
-      },
-      {
-        "slug": "nuvio",
-        "name": "Nuvio",
-        "version": "0.5.9",
-        "previousVersion": "0.5.8",
-        "date": "2026-10-10",
-        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.9-beta/nuvio-0.5.9-full-release.ipa"
       }
     ],
     "topCategories": [
@@ -455,13 +479,13 @@
     ],
     "history": [
       {
-        "date": "2026-10-17",
+        "date": "2026-10-18",
         "apps": 131,
         "sources": 114,
         "verified": 123,
         "deadLinks": 7,
         "newThisWeek": 0,
-        "updatedThisWeek": 42
+        "updatedThisWeek": 45
       }
     ]
   }

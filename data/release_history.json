@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T11:04:14Z",
+  "generatedAt": "2026-10-18T11:35:12Z",
   "appCount": 131,
-  "releases": 330,
+  "releases": 335,
   "apps": {
     "3105": [
       {
@@ -1208,13 +1208,23 @@
     ],
     "messenger-flow": [
       {
+        "version": "584.0.0",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa",
+        "size": 125027873,
+        "sha256": "",
+        "localizedDescription": "Messenger 584.0.0 | Messenger-584.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 584.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-18T11:35:12Z"
+      },
+      {
         "version": "583.0.0",
         "date": "2026-10-15",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-Flow.ipa",
         "size": 121058655,
         "sha256": "",
         "localizedDescription": "Messenger 583.0.0 | Messenger-583.0.0-Flow\n\nIPA Vault build for Messenger (Flow), version 583.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-16T11:47:32Z"
       },
       {
@@ -1314,13 +1324,23 @@
     ],
     "msgplusx": [
       {
+        "version": "584.0.0",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-MSGPlusX.ipa",
+        "size": 124270963,
+        "sha256": "",
+        "localizedDescription": "Messenger 584.0.0 | Messenger-584.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 584.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-18T11:35:12Z"
+      },
+      {
         "version": "583.0.0",
         "date": "2026-10-15",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-MSGPlusX.ipa",
         "size": 121745367,
         "sha256": "",
         "localizedDescription": "Messenger 583.0.0 | Messenger-583.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 583.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-16T11:47:32Z"
       },
       {
@@ -1960,13 +1980,23 @@
     ],
     "reynard": [
       {
+        "version": "0.18.0",
+        "date": "2026-10-18",
+        "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
+        "size": 109731773,
+        "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36",
+        "localizedDescription": "Reynard 0.18.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\n\n### New Features\n- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\n\n### Improvements\n- Scrolling on webpages is now smoother and more accurate.\n- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.\n\n### Bug Fixes\n- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.\n- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.\n- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.\n- Fixed an issue where touches on some webpages would land in the wrong place.\n- Added small performance improvements and fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).",
+        "status": "current",
+        "firstSeen": "2026-10-18T11:35:12Z"
+      },
+      {
         "version": "0.17.1",
         "date": "2026-10-12",
         "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
         "size": 109225943,
         "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
         "localizedDescription": "Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\n- Fixed a crash when editing in scrollable text fields on iOS 14 and older.\n- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.\n- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.\n- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.\n- Fixed an issue where images copied from another app would not paste into webpages.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {
@@ -2138,13 +2168,23 @@
     ],
     "saber": [
       {
+        "version": "1.36.2",
+        "date": "2026-10-17",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.2/Saber_v1.36.2.ipa",
+        "size": 37727005,
+        "sha256": "75080e1dc62b9d0692f2383efb29511747ea1a9e63b49fe2b9a8d98c23d8162d",
+        "localizedDescription": "Saber 1.36.2 | Saber_v1.36.2\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Added an Indonesian translation #1840 #1825 \n- Optimized color inversion to be much quicker #1849 \n- Fixed the AppImage's update URL #1812\n- Translations:\n  - i18n: Add Indonesian README by @Yoruxyv in a3430eddf476aa0811e921e82459fe8f090d5b35\n  - i18n: Update Chinese (Traditional Han script) by @s8321414 in 6547f59ae580de0cfce59b4847df8586768acd64\n  - i18n: Add Korean by @donngas in 9fdea89ce60d5cbb3a158bcf16d0946ba51f777d\n  - i18n: Update Spanish by @jmnu4245 in 1d50960f8e7fd01295f36d2beb4422a325e110b6\n  - i18n: Update Chinese (Simplified Han script) by @u3659477 in e4ee5b94b3d948b98c9c7871195c8202c5d9e540\n  - i18n: Update French by @ArTuPSly in 31eef99e07ba18b0d9ff1683b993a4ce9bbd33cc\n  - i18n: Update Portuguese (Brazil) by Givaldo B S Sobrinho in 89be7b7b5834454a4ddaaa70026b52f86dd7e3f5\n  - i18n: Update Portuguese (Brazil) by Carlos Pinto Jr. in 4c535d28b9e7e6362b99aaa33e3906bda0639334\n  - i18n: Up",
+        "status": "current",
+        "firstSeen": "2026-10-18T11:35:12Z"
+      },
+      {
         "version": "1.36.1",
         "date": "2026-08-30",
         "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.1/Saber_v1.36.1.ipa",
         "size": 37589281,
         "sha256": "e8432a6846230591d0f6a39ce4c370107ba68b2836135c907b82d96bcbd904ca",
         "localizedDescription": "Saber 1.36.1 | Saber_v1.36.1\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Improved the design of the login flow, making better use of space on landscape/desktop screens.\n- Tweaked scrolling friction in the editor to make it less slippery. #1785\n- Fixed handling of accounts with unlimited storage quota. #1796 \n- Fixed folders not being sorted in the browse page. #1809 \n- Fixed parts of the app using a hardcoded Ubuntu font. eafaf264b19a35cbf8e8831daa4118e1446fe16d and https://github.com/ubuntu/yaru.dart/pull/1075.\n- Fixed non-Latin language fonts and inconsistent UI elements in Flathub screenshots.\n- Improved build system... Now fewer custom patches are needed for various stores. Enabled the `--enforce-lockfile` flag for F-Droid for more reproducible builds. #1799 \n- Fixed Android 16KB page size support by forcing a newer NDK version. 87fcb037ba8792cd24ef3af66335007854dbdabc\n- Continued code cleanup, refactoring, testing, and small UX improvements.\n- Various fixes from [Flut",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -2828,13 +2868,23 @@
     ],
     "turrit-mxgram": [
       {
+        "version": "1.5.6",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa",
+        "size": 99832508,
+        "sha256": "",
+        "localizedDescription": "Turrit 1.5.6 | Turrit-1.5.6-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.6",
+        "status": "current",
+        "firstSeen": "2026-10-18T11:35:12Z"
+      },
+      {
         "version": "1.5.5",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa",
         "size": 87212201,
         "sha256": "",
         "localizedDescription": "Turrit 1.5.5 | Turrit-1.5.5-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.5",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
