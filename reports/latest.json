@@ -10,7 +10,7 @@
   "sync": {
     "synced": 127,
     "incrementalHits": 117,
-    "updated": 1,
+    "updated": 0,
     "failed": 4,
     "apiRequests": 117
   },
@@ -23,15 +23,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "reynard",
-      "name": "Reynard",
-      "previousVersion": "0.17.1",
-      "version": "0.18.0",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
