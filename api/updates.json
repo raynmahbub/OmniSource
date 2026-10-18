@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-18",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "reynard",
+      "name": "Reynard",
+      "version": "0.18.0",
+      "previousVersion": "0.17.1",
+      "date": "2026-10-18",
+      "kind": "updated",
+      "changelog": "Reynard 0.18.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\n\n### New Features\n- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\n\n### Improvements\n- Scrolling on webpages is now smoother and more accurate.\n- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.\n\n### Bug Fixes\n- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.\n- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.\n- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.\n- Fixed an issue where touches on some webpages would land in the wrong place.\n- Added small performance improvements and fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).",
+      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Reynard.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/reynard.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/reynard.xml",
+      "status": "stable",
+      "shortDescription": "Gecko-based browser, a real WebKit alternative"
+    },
     {
       "slug": "utm",
       "name": "UTM",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/ytkace.xml",
       "status": "stable",
       "shortDescription": "YTKACE"
-    },
-    {
-      "slug": "youpro",
-      "name": "YouPro",
-      "version": "21.39.4",
-      "previousVersion": "21.38.3",
-      "date": "2026-09-28",
-      "kind": "updated",
-      "changelog": "YouTube 21.39.4 | YouProExtra_21.39.4_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.39.4_1.3.1.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/youpro.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/youpro.xml",
-      "status": "stable",
-      "shortDescription": "Feature-rich YouTube tweak by alibusut"
     }
   ]
 }

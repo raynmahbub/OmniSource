@@ -5,8 +5,38 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
     <description>Release feed for Reynard within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/reynard.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Reynard v0.18.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
+      <guid isPermaLink="false">reynard-0.18.0</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reynard 0.18.0 | Reynard
+
+## Changes
+
+**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0
+
+### New Features
+- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.
+
+### Improvements
+- Scrolling on webpages is now smoother and more accurate.
+- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.
+
+### Bug Fixes
+- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.
+- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.
+- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.
+- Fixed an issue where touches on some webpages would land in the wrong place.
+- Added small performance improvements and fixed several UI issues.
+
+### Engine
+
+Updated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).]]></description>
+      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Reynard v0.17.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
