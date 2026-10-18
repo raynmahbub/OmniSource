@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-17",
-  "feedVersion": "7a9d210e3cda",
+  "generatedAt": "2026-10-18",
+  "feedVersion": "223a57ef1e14",
   "app": {
     "id": "ryukgram-sidebyside",
     "name": "RyukGram Side by Side",
@@ -30,8 +30,8 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/ryukgram-sidebyside/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/ryukgram-sidebyside.json",
     "health": {
-      "reachable": false,
-      "detail": "timed out",
+      "reachable": true,
+      "detail": "HTTP 200",
       "updatedAt": "2026-10-03"
     }
   },
@@ -52,8 +52,8 @@
     }
   ],
   "verification": {
-    "status": "UNVERIFIED",
-    "level": "UNVERIFIED",
+    "status": "VERIFIED",
+    "level": "VERIFIED",
     "method": "altstore"
   }
 }

@@ -106,6 +106,60 @@ IPA Vault build for Turrit (iQTele), version 1.5.6]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>Saber v1.36.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.36.2</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.36.2 | Saber_v1.36.2
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- Added an Indonesian translation #1840 #1825 
+- Optimized color inversion to be much quicker #1849 
+- Fixed the AppImage's update URL #1812
+- Translations:
+  - i18n: Add Indonesian README by @Yoruxyv in a3430eddf476aa0811e921e82459fe8f090d5b35
+  - i18n: Update Chinese (Traditional Han script) by @s8321414 in 6547f59ae580de0cfce59b4847df8586768acd64
+  - i18n: Add Korean by @donngas in 9fdea89ce60d5cbb3a158bcf16d0946ba51f777d
+  - i18n: Update Spanish by @jmnu4245 in 1d50960f8e7fd01295f36d2beb4422a325e110b6
+  - i18n: Update Chinese (Simplified Han script) by @u3659477 in e4ee5b94b3d948b98c9c7871195c8202c5d9e540
+  - i18n: Update French by @ArTuPSly in 31eef99e07ba18b0d9ff1683b993a4ce9bbd33cc
+  - i18n: Update Portuguese (Brazil) by Givaldo B S Sobrinho in 89be7b7b5834454a4ddaaa70026b52f86dd7e3f5
+  - i18n: Update Portuguese (Brazil) by Carlos Pinto Jr. in 4c535d28b9e7e6362b99aaa33e3906bda0639334
+  - i18n: Update German by @antonkesy in 2e3cdbdb94b3f792397af9727a91b66f47eabc97
+  - i18n: Update Catalan by @ocellz in 7cd6a55b4ff88bcd82042377132697113d64466b
+  - i18n: Update German metadata by @antonkesy in 98cfa1a815cd387d78e185dd93a0f8481d847a68
+  - i18n: Update Ukrainian by Sofiia Soldak in ef0086aefcb3b05888314aa2a6a7987ba76bbeca
+  - i18n: Update Italian by Alessandro Stoppani in 9bba250cd7474f57ddeb850a5c4aeaeb584dcefa
+  - i18n: Update Polish by @thesonofanxiety in 17365668af2b8367103404359c054199561bc126
+  - i18n: Update Hebrew by Omer I.S. in e8fdae06a05a88d5aaac36c423645dc87382721a
+  - i18n: Update Chinese (Simplified Han script) by Dogwen in c280145638570e46b8259c05636d444f04a52969
+  - i18n: Update Chinese (Simplified Han script) metadata by Dogwen in ba7f9422e346a8df617174c9efa8d3eeae5549cf
+- @Yoruxyv made their first contribution in https://github.com/saber-notes/saber/pull/1825
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.1...v1.36.2]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.2/Saber_v1.36.2.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>MSGPlusX v584.0.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
       <guid isPermaLink="false">msgplusx-584.0.0</guid>
@@ -594,18 +648,6 @@ IPA Vault build for Instagram (RyukGram), version 451.0.0]]></description>
 
 **ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)]]></description>
       <enclosure url="https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Onion Browser v3.4.3</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json</link>
-      <guid isPermaLink="false">onionbrowser-3.4.3</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Onion Browser 3.4.3 | OnionBrowser
-
-- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.
-- Updated Snowflake to 2.15.1.
-- Updated Lyrebird to version 0.9.0.]]></description>
-      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

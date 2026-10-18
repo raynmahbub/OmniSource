@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-18",
   "totals": {
     "apps": 131,
-    "verified": 121,
+    "verified": 123,
     "communityVerified": 1,
-    "unverified": 9,
+    "unverified": 7,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.64,
+    "avgTrustScore": 6.69,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1699,6 +1699,48 @@
       "trustBadge": "Community"
     },
     {
+      "app": "ryukgram-ig410",
+      "name": "RyukGram (IG 410)",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "altstore",
+      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
+      "trustScore": 7.4,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "ryukgram-sidebyside",
+      "name": "RyukGram Side by Side",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "altstore",
+      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
+      "trustScore": 7.4,
+      "trustBadge": "Community"
+    },
+    {
       "app": "saber",
       "name": "Saber",
       "status": "VERIFIED",
@@ -1715,7 +1757,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.1/Saber_v1.36.1.ipa",
+      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.2/Saber_v1.36.2.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2641,48 +2683,6 @@
       ],
       "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
       "trustScore": 3.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "ryukgram-ig410",
-      "name": "RyukGram (IG 410)",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "altstore",
-      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": true
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
-      "trustScore": 4.4,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "ryukgram-sidebyside",
-      "name": "RyukGram Side by Side",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "altstore",
-      "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": true
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
-      "trustScore": 4.4,
       "trustBadge": "Experimental"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-18",
   "count": 114,
   "feed": {
     "name": "OmniSource",
@@ -148,7 +148,7 @@
       "appCount": 13,
       "verifiedApps": 12,
       "healthScore": 73.5,
-      "score": 97.1,
+      "score": 97.0,
       "status": "Warning",
       "level": "TRUSTED",
       "updateFrequencyDays": 6.0,
@@ -436,8 +436,8 @@
       ],
       "appCount": 1,
       "verifiedApps": 0,
-      "healthScore": 37.0,
-      "score": 56.0,
+      "healthScore": 36.0,
+      "score": 55.1,
       "status": "Warning",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
@@ -1746,8 +1746,8 @@
       ],
       "appCount": 1,
       "verifiedApps": 1,
-      "healthScore": 65.0,
-      "score": 62.2,
+      "healthScore": 66.0,
+      "score": 63.1,
       "status": "Maintained",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
@@ -2174,7 +2174,7 @@
       "score": 96.9,
       "status": "Warning",
       "level": "TRUSTED",
-      "updateFrequencyDays": 7.0,
+      "updateFrequencyDays": 6.8,
       "lastUpdate": "2026-10-11"
     },
     {
@@ -2869,10 +2869,10 @@
         "ryukgram-sidebyside"
       ],
       "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 55.0,
-      "score": 86.5,
-      "status": "Warning",
+      "verifiedApps": 1,
+      "healthScore": 75.0,
+      "score": 87.7,
+      "status": "Verified",
       "level": "TRUSTED",
       "updateFrequencyDays": 1.0,
       "lastUpdate": "2026-10-03",
@@ -2898,10 +2898,10 @@
         "ryukgram-ig410"
       ],
       "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 55.0,
-      "score": 71.0,
-      "status": "Warning",
+      "verifiedApps": 1,
+      "healthScore": 75.0,
+      "score": 72.2,
+      "status": "Community Verified",
       "level": "RELIABLE",
       "updateFrequencyDays": null,
       "lastUpdate": "2026-07-25",
@@ -2947,7 +2947,7 @@
         {
           "slug": "saber",
           "name": "Saber",
-          "version": "1.36.1"
+          "version": "1.36.2"
         }
       ],
       "slug": "saber-notes-saber",
@@ -2962,7 +2962,7 @@
       "status": "Community Verified",
       "level": "RELIABLE",
       "updateFrequencyDays": null,
-      "lastUpdate": "2026-08-30",
+      "lastUpdate": "2026-10-17",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/saber.json"
     },
     {
@@ -3460,10 +3460,10 @@
     }
   ],
   "statuses": {
-    "Warning": 7,
-    "Community Verified": 54,
+    "Warning": 5,
+    "Community Verified": 55,
     "Inactive": 21,
-    "Verified": 16,
+    "Verified": 17,
     "Deprecated": 15,
     "Maintained": 1
   }
