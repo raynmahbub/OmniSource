@@ -19,6 +19,36 @@
       "shortDescription": "Gecko-based browser, a real WebKit alternative"
     },
     {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "version": "0.6.2",
+      "previousVersion": "0.6.1",
+      "date": "2026-10-18",
+      "kind": "updated",
+      "changelog": "Nuvio 0.6.2 | nuvio-0.6.2-full-release\n\n- b253a7c5 feat(party): add chat to watch parties @tapframe  \n- [Fix escaped apostrophes and missing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMobile/pull/2312) @WhiteGiso  \n- [fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMobile/pull/2308) @WhiteGiso  \n- [i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292)](https://github.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  \n- [Filename and infoHash matching for binge group, prefetch fixes (#2278)](https://github.com/NuvioMedia/NuvioMobile/pull/2278) @skoruppa",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
+      "status": "stable",
+      "shortDescription": "Open-source media player, bring your own sources"
+    },
+    {
+      "slug": "iqface",
+      "name": "iQFace",
+      "version": "584.0.0",
+      "previousVersion": "583.0.0",
+      "date": "2026-10-18",
+      "kind": "updated",
+      "changelog": "Facebook 584.0.0 | Facebook-584.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/iqface.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/iqface.xml",
+      "status": "stable",
+      "shortDescription": "Facebook tweak build by 7MD"
+    },
+    {
       "slug": "utm",
       "name": "UTM",
       "version": "5.0.8",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/glow.xml",
       "status": "stable",
       "shortDescription": "Clean, powerful Facebook tweak by dayanch96"
-    },
-    {
-      "slug": "apollo",
-      "name": "Apollo",
-      "version": "3.8.5",
-      "previousVersion": "3.8.0",
-      "date": "2026-09-29",
-      "kind": "updated",
-      "changelog": "Apollo 3.8.5 | Apollo-Reborn-3.8.5\n\n### Features\n\n- Add **Google Search** to the Search tab: tap the magnifier and pick Google to find Reddit threads through Google, with its snippets, Any Time and Exact Words filters, and results that open natively in Apollo (#1260: @icpryde)\n- Open the fullscreen image viewer's **Copy / Save / Share** menu where you press and hold, instead of the middle of the screen (#1254: @IllIIllIllIllII)\n- Add **Toon Bot** and **Happy Toon Bot** to the Concepts icon pack (#1253: @IllIIllIllIllII)\n\n### Performance\n\n- Make Apollo lighter on memory and quicker to launch: image caches now have size limits and are freed when iOS runs low on memory, the Deleted Comments and sidebar text hooks stay idle when they aren't needed, editing a comment no longer holds up other loads for up to 20 seconds, and launch does less work (#1169: @paradoxally, @icpryde)\n  - Also stops the comments title flashing on non-Liquid-Glass builds, and makes **Remember Post Sort** open posts from links, the inbox, or Floating Post Tabs in your saved sort straight away instead of reloading them\n- Stop the **AI comment summary** from re-running over and over while you scroll a thread (#1270: @Thetromboneman1)\n- Stop filtered posts leaving stacks of gray gaps in feeds, correcting just the affected rows instead of redrawing the whole feed (#1274: @Thetromboneman1)\n\n### Fixes\n\n- Fix a feed **crash** when several RedGIFs posts load at once, most often right after launching or switching accounts (#1251: @icpryde)\n- Fix a crash tapping \"Translated from…\" on a recovered **deleted comment** (#1222: @icpryde)\n- Fix **RedGIFs** posts showing \"RedGIFs error\" on every post after switching Wi-Fi, cellular, or VPN, and on older RedGIFs videos with no listed length (#1256, #1258: @icpryde)\n- Fix **API-Key-Free** feeds getting stuck on a spinner: avatar lookups no longer use up Reddit's request limit for your session (#1220: @icpryde)\n- Keep avatar and subreddit lookups on the active account, so avatars stop staying blank and follow and subscribe states are right when you have several accounts signed in (#1227: @icpryde)\n- Fix **Add Account** signing in with the active account's saved API key instead of the one set in Settings (#1237: @icpryde)\n- Explain what went wrong when Reddit rejects your API key during sign-in, instead of leaving a blank \"{}\" page (#1236: @icpryde)\n- Fix **Invalid Backup** when restoring backups made on 3.7.x and earlier (#1217: @icpryde)\n- Fix **Unmute Videos** swapping the sound between two playing feed videos on every frame, starting videos with sound from feeds you already left, and playing on with sound under a different fullscreen video (#1247, #1250, #1252: @icpryde)\n- Fix a post's video going grey, and the video scrubber not working, after opening the OP's profile or swiping forward back into the post (#1269: @icpryde)\n- Fix **Swipe Past Gallery to Navigate** only acting after you lift your finger, sometimes on the wrong thread: swiping past a feed gallery's first or last image now goes straight to your post swipes (vote, save, back, or forward) (#1271: @Thetromboneman1)\n- Fix tapping a post sometimes opening a gallery post from further up the feed with **Swipe Through Feed Galleries** on (#1248: @icpryde)\n- Fix **Gallery View** only playing the first video when swiping on CarPlay (CarBridge/CarCast) (#1257: @icpryde)\n- Fix **Download Video** sending the first video you shared again over Messages, and clean up the downloaded copies it left behind (#1216, #1219: @icpryde)\n- Reserve room for **inline comment images** up front, so comments no longer grow when the image finishes loading (#1273: @Thetromboneman1)\n- Explain why a **comment** couldn't post, such as the post being removed (and where the mods' reason is), the thread being locked or archived, the parent comment being removed, or a ban, instead of \"Reddit had a little hiccup\" (#1275: @icpryde)\n- Fix a just-posted **image comment** showing \"[Unknown Image]\" under the picture (#1246: @icpryde)\n- Keep the newest message above the reply bar in **modmail** and message threads on iOS 26 and 27, and bring the reply bar back after a cancelled swipe-back between threads (#1228, #1234: @icpryde)\n- Fix the **post composer**'s Post button turning white on Liquid Glass, the Media body editor's checkmark turning into Post as you type, and Command-Return submitting from the body editors instead of acting as Done (#1221, #1226, #1233: @icpryde)\n- On Liquid Glass, keep a scrolled-away feed **search bar** hidden after swiping back from a post, and the Search tab's placeholder dim after Cancel (#1249, #1261: @icpryde)\n- Fix **interactive posts**' Subscribe button doing nothing when Reddit needs your permission first, and keep Apollo's Join button and Subscriptions list in sync when a post subscribes you (#1264: @icpryde)\n- Put the post header's **translation** marker after the edited pencil instead of on top of it (#1259: @icpryde)\n- Keep feed avatars out of post titles that name their own author (#1218: @icpryde)\n- Show old-reddit sprite **user flairs** on every row of the flair picker again (#1215: @icpryde)\n- Stop **Random** and **RandNSFW** sometimes opening an empty feed that never loads (#1272: @Thetromboneman1)\n- Fix tapping a multireddit's expand arrow in the Subreddits list asking to change a favorite, and style expanded multireddit rows like the rest of the list (#1229: @nunoo)\n- Fix the Subreddits list's **Edit** mode putting moderator hide controls on the wrong rows and jumping the list up after Edit or Done (#1262: @icpryde)\n  - Swiping a row no longer turns on Edit controls, and stars stay put in Edit mode with Subreddit List Enhancements off\n- Open the multireddit editor in the Subreddits list's Edit mode again when Multireddits isn't the second section (#1267: @icpryde)\n- Make **settings section headers** match across Apollo's and Apollo Reborn's settings on iOS 26 and later, in one Title Case style that follows Text Size and your theme (#1241: @IllIIllIllIllII)\n- Fix **Settings Shortcuts**' Remove button not removing the shortcut (#1212: @IllIIllIllIllII)\n- Make **Pixel Pals** follow the real Dynamic Island on iPhone 18 Pro and newer (#1244: @JeffreyCA)\n- Fix **Open in Apollo (Legacy)** in Safari doing nothing without Link Companion installed (#1268: @Thetromboneman1)\n- Stop the **Social Links** row sometimes showing Reddit's copyright footer instead of a profile's links (#1231: @icpryde)\n- Stop forwarding Apollo's analytics to your **Notification Backend** when one is set; they're now always blocked (#1230: @DeltAndy123)",
-      "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.8.5/Apollo-Reborn-3.8.5.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Apollo.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/apollo.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/apollo.xml",
-      "status": "stable",
-      "shortDescription": "The beloved Reddit client, continued by Apollo-Reborn"
-    },
-    {
-      "slug": "ytkace",
-      "name": "YTKACE",
-      "version": "21.39.4",
-      "previousVersion": "21.38.3",
-      "date": "2026-09-28",
-      "kind": "updated",
-      "changelog": "YouTube 21.39.4 | YTKACE 1.1.1 | YTKACE_1.1.1_YouTube_21.39.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.39.4\n• Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups\n• Liquid Glass settings page with a toggle for each part\n• Selected Tab Color for the tab text or the text and icon\n• Added HLS mode in Playback Fix\n• Added 5x speed in the speed menu\n• Improved native share sheet\n\nFixed:\n• Multiple scrubber dots on feed videos with a custom scrubber\n• Direct downloads using an outdated client\n\nYouTube 21.39.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.1_YouTube_21.39.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/ytkace.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/ytkace.xml",
-      "status": "stable",
-      "shortDescription": "YTKACE"
     }
   ]
 }
