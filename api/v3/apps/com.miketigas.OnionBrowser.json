@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "5d9ced9c3952",
+  "feedVersion": "ffce4405dce0",
   "data": {
     "name": "Onion Browser",
     "bundleIdentifier": "com.miketigas.OnionBrowser",
@@ -11,39 +11,38 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OnionBrowser.webp",
     "tintColor": "6D4C9F",
     "category": "networking",
-    "version": "3.4.3",
-    "versionDate": "2026-10-13",
-    "versionDescription": "Onion Browser 3.4.3 | OnionBrowser\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.",
-    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
-    "size": 43256904,
+    "version": "3.4.4",
+    "versionDate": "2026-10-19",
+    "versionDescription": "Onion Browser 3.4.4 | OnionBrowser\n\n- Fixed crash when trying to create or edit a bookmark.",
+    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
+    "size": 42254891,
     "versions": [
       {
-        "version": "3.4.3",
-        "date": "2026-10-13",
-        "localizedDescription": "Onion Browser 3.4.3 | OnionBrowser\n\n- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.9.0.",
-        "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
-        "size": 43256904,
+        "version": "3.4.4",
+        "date": "2026-10-19",
+        "localizedDescription": "Onion Browser 3.4.4 | OnionBrowser\n\n- Fixed crash when trying to create or edit a bookmark.",
+        "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
+        "size": 42254891,
         "minOSVersion": "15.0",
-        "releaseUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.3",
+        "releaseUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.4",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
             "filename": "OnionBrowser.ipa",
-            "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa",
+            "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 43256904,
-            "sha256": "0d1535efb9376446c591d59ef64ab72b1fe24cd4ebf309031ca8ccee0e27d16e",
-            "downloads": 13,
+            "size": 42254891,
+            "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
+            "downloads": 0,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "sha256": "0d1535efb9376446c591d59ef64ab72b1fe24cd4ebf309031ca8ccee0e27d16e",
-        "downloads": 13
+        "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7"
       }
     ],
     "screenshotURLs": [
@@ -85,7 +84,7 @@
         "downloadReachable": true,
         "detail": "HTTP 302",
         "statusSince": "2026-09-17",
-        "lastUpdatedAt": "2026-10-13"
+        "lastUpdatedAt": "2026-10-19"
       }
     },
     "id": "com.miketigas.OnionBrowser"

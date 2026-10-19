@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "5d9ced9c3952",
+  "feedVersion": "ffce4405dce0",
   "data": {
     "name": "Nuvio",
     "bundleIdentifier": "com.nuvio.app",
@@ -11,87 +11,87 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
     "tintColor": "5B5FE8",
     "category": "photo-video",
-    "version": "0.6.1",
-    "versionDate": "2026-10-16",
-    "versionDescription": "Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party): let only the host change what's playing @tapframe",
-    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
-    "size": 68517984,
+    "version": "0.6.2",
+    "versionDate": "2026-10-18",
+    "versionDescription": "Nuvio 0.6.2 | nuvio-0.6.2-full-release\n\n- b253a7c5 feat(party): add chat to watch parties @tapframe  \n- [Fix escaped apostrophes and missing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMobile/pull/2312) @WhiteGiso  \n- [fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMobile/pull/2308) @WhiteGiso  \n- [i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292)](https://github.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  \n- [Filename and infoHash matching for binge group, prefetch fixes (#2278)](https://github.com/NuvioMedia/NuvioMobile/pull/2278) @skoruppa",
+    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa",
+    "size": 68666779,
     "versions": [
       {
-        "version": "0.6.1",
-        "date": "2026-10-16",
-        "localizedDescription": "Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party): let only the host change what's playing @tapframe",
-        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
-        "size": 68517984,
+        "version": "0.6.2",
+        "date": "2026-10-18",
+        "localizedDescription": "Nuvio 0.6.2 | nuvio-0.6.2-full-release\n\n- b253a7c5 feat(party): add chat to watch parties @tapframe  \n- [Fix escaped apostrophes and missing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMobile/pull/2312) @WhiteGiso  \n- [fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMobile/pull/2308) @WhiteGiso  \n- [i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292)](https://github.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  \n- [Filename and infoHash matching for binge group, prefetch fixes (#2278)](https://github.com/NuvioMedia/NuvioMobile/pull/2278) @skoruppa",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa",
+        "size": 68666779,
         "minOSVersion": "16.1",
-        "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.1-beta",
+        "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.2-beta",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
             "filename": "androidApp-full-x86_64-release.apk",
-            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-x86_64-release.apk",
+            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/androidApp-full-x86_64-release.apk",
             "platform": "android",
             "architecture": "x86_64",
             "fileType": "APK",
-            "size": 47025886,
-            "sha256": "041fbc710157a18937b5b6305236a2182fb7ac3d54e89d6de7c99e3bfebf3e99",
-            "downloads": 26,
-            "mimeType": "application/vnd.android.package-archive",
-            "installable": true
-          },
-          {
-            "filename": "nuvio-0.6.1-full-release.ipa",
-            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 68517984,
-            "sha256": "d18faf37f1304d5d2a62c302077285aedf6de973e2b6eecbff3a0bfc1d28ad2d",
-            "downloads": 97,
-            "mimeType": "application/octet-stream",
-            "installable": true
-          },
-          {
-            "filename": "androidApp-full-armeabi-v7a-release.apk",
-            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-armeabi-v7a-release.apk",
-            "platform": "android",
-            "architecture": "armv7",
-            "fileType": "APK",
-            "size": 43918408,
-            "sha256": "7e0a1ec4e4b935743bac27aca18c99deb02e6ffd5c8ecb2080813500ac84a5c1",
-            "downloads": 62,
-            "mimeType": "application/vnd.android.package-archive",
-            "installable": true
-          },
-          {
-            "filename": "androidApp-full-arm64-v8a-release.apk",
-            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-arm64-v8a-release.apk",
-            "platform": "android",
-            "architecture": "arm64",
-            "fileType": "APK",
-            "size": 45678424,
-            "sha256": "c689bbd3376e6e105d7d821001a3c4e2cd01106d9abdcb5765a4d7dc3ef63bb2",
-            "downloads": 1661,
+            "size": 47096732,
+            "sha256": "4949c0d7179428771ebb25b12c36bf442326e447ca30cde2b09943d11bd02a0a",
+            "downloads": 66,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
             "filename": "androidApp-full-x86-release.apk",
-            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/androidApp-full-x86-release.apk",
+            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/androidApp-full-x86-release.apk",
             "platform": "android",
             "architecture": "x86",
             "fileType": "APK",
-            "size": 46049428,
-            "sha256": "3d243f07e9155d32246a1033b2a32f07e7c4ea7d51f34cae5f04226da85f0069",
-            "downloads": 23,
+            "size": 46120274,
+            "sha256": "b79bc12c998c13ff13b057ed52e940aa9be411743b6582c5ed8eca0ea294f031",
+            "downloads": 54,
+            "mimeType": "application/vnd.android.package-archive",
+            "installable": true
+          },
+          {
+            "filename": "androidApp-full-armeabi-v7a-release.apk",
+            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/androidApp-full-armeabi-v7a-release.apk",
+            "platform": "android",
+            "architecture": "armv7",
+            "fileType": "APK",
+            "size": 43989254,
+            "sha256": "bcebd9fcb1ed26938d99c01d41feb363debfa9283d035803150d0ad16023138e",
+            "downloads": 132,
+            "mimeType": "application/vnd.android.package-archive",
+            "installable": true
+          },
+          {
+            "filename": "nuvio-0.6.2-full-release.ipa",
+            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa",
+            "platform": "ios",
+            "architecture": null,
+            "fileType": "IPA",
+            "size": 68666779,
+            "sha256": "99d318c5882d53ec644c09cbde852c6b45649cc20e8452f457e6e88b0bae5eb2",
+            "downloads": 209,
+            "mimeType": "application/octet-stream",
+            "installable": true
+          },
+          {
+            "filename": "androidApp-full-arm64-v8a-release.apk",
+            "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/androidApp-full-arm64-v8a-release.apk",
+            "platform": "android",
+            "architecture": "arm64",
+            "fileType": "APK",
+            "size": 45749270,
+            "sha256": "9ab7f09c235d4f88900bb35b144f10fd454bde94d03b10df1d9c8b6110871f39",
+            "downloads": 3238,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           }
         ],
-        "sha256": "d18faf37f1304d5d2a62c302077285aedf6de973e2b6eecbff3a0bfc1d28ad2d",
-        "downloads": 97
+        "sha256": "99d318c5882d53ec644c09cbde852c6b45649cc20e8452f457e6e88b0bae5eb2",
+        "downloads": 209
       }
     ],
     "screenshotURLs": [],
@@ -129,7 +129,7 @@
         "downloadReachable": true,
         "detail": "HTTP 302",
         "statusSince": "2026-09-17",
-        "lastUpdatedAt": "2026-10-16"
+        "lastUpdatedAt": "2026-10-18"
       }
     },
     "id": "com.nuvio.app"
