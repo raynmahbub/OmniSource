@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-19",
   "totals": {
     "apps": 131,
-    "verified": 122,
+    "verified": 123,
     "communityVerified": 1,
-    "unverified": 8,
+    "unverified": 7,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.66,
+    "avgTrustScore": 6.69,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -1023,7 +1023,7 @@
         "official upstream (github-release)"
       ],
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-      "trustScore": 7.1,
+      "trustScore": 7.2,
       "trustBadge": "Community"
     },
     {
@@ -1298,6 +1298,27 @@
       "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
+    },
+    {
+      "app": "nexasc",
+      "name": "NexaSC",
+      "status": "VERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
+      "trustScore": 6.0,
+      "trustBadge": "Community"
     },
     {
       "app": "nicegram",
@@ -2114,7 +2135,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.0-ThreadSaver.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2644,27 +2665,6 @@
       "trustBadge": "Experimental"
     },
     {
-      "app": "nexasc",
-      "name": "NexaSC",
-      "status": "UNVERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
-      "trustScore": 3.0,
-      "trustBadge": "Experimental"
-    },
-    {
       "app": "playtorrio",
       "name": "PlayTorrio",
       "status": "UNVERIFIED",
@@ -2682,7 +2682,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-      "trustScore": 3.2,
+      "trustScore": 3.1,
       "trustBadge": "Experimental"
     },
     {
@@ -2703,7 +2703,7 @@
         "failed check: fileAvailable"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-      "trustScore": 1.9,
+      "trustScore": 1.8,
       "trustBadge": "Experimental"
     },
     {

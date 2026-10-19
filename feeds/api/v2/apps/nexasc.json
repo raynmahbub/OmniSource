@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-19",
-  "feedVersion": "13141a0da354",
+  "feedVersion": "4a5bd4adeade",
   "app": {
     "id": "nexasc",
     "name": "NexaSC",
     "developer": "cielogic & IPA Vault",
     "subtitle": "SoundCloud Go+ unlock and ad removal (unofficial build)",
     "bundleIdentifier": "com.soundcloud.TouchApp",
-    "version": "8.82.0",
-    "versionDate": "2026-10-11",
+    "version": "8.83.0",
+    "versionDate": "2026-10-19",
     "description": "NexaSC is a community SoundCloud tweak by cielogic: it unlocks SoundCloud Go+ features, removes ads, adds track downloads and can fetch lyrics automatically (via LRCLIB). The tweak is opened by long-pressing the home icon.",
     "shortDescription": "SoundCloud Go+ unlock and ad removal (unofficial build)",
     "category": "social",
@@ -18,8 +18,8 @@
     ],
     "icon": "https://raynmahbub.github.io/OmniSource/assets/SoundCloud.webp",
     "screenshots": [],
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
-    "size": 227238033,
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
+    "size": 227377895,
     "source": "927tx/IPA-Vault",
     "sourceURL": "",
     "checksum": null,
@@ -30,30 +30,30 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/nexasc/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/nexasc.json",
     "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "updatedAt": "2026-10-11"
+      "reachable": true,
+      "detail": "HTTP 200",
+      "updatedAt": "2026-10-19"
     }
   },
   "newest": {
-    "version": "8.82.0",
-    "date": "2026-10-11",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
-    "size": 227238033,
+    "version": "8.83.0",
+    "date": "2026-10-19",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
+    "size": 227377895,
     "sha256": null
   },
   "versions": [
     {
-      "version": "8.82.0",
-      "date": "2026-10-11",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa",
-      "size": 227238033,
+      "version": "8.83.0",
+      "date": "2026-10-19",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
+      "size": 227377895,
       "sha256": null
     }
   ],
   "verification": {
-    "status": "UNVERIFIED",
-    "level": "UNVERIFIED",
+    "status": "VERIFIED",
+    "level": "VERIFIED",
     "method": "altstore"
   }
 }
