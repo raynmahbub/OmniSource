@@ -16,11 +16,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.1.1",
-      "releaseDate": "2026-10-11",
-      "score": 0.9467,
+      "version": "5.2.0",
+      "releaseDate": "2026-10-19",
+      "score": 1.0,
       "signals": {
-        "recency": 0.8667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -98,6 +98,57 @@
       "downloadReachable": true
     },
     {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "category": "utilities",
+      "version": "1.27.15",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nicegram",
+      "name": "Nicegram",
+      "category": "social",
+      "version": "2.6.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "iqface",
       "name": "iQFace",
       "category": "social",
@@ -123,57 +174,6 @@
       "score": 0.7933,
       "signals": {
         "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "category": "photo-video",
-      "version": "0.6.2",
-      "releaseDate": "2026-10-18",
-      "score": 0.7933,
-      "signals": {
-        "recency": 0.9833,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "utm",
-      "name": "UTM",
-      "category": "utilities",
-      "version": "5.0.8",
-      "releaseDate": "2026-10-17T02:44:56Z",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "jellify",
-      "name": "Jellify",
-      "category": "music",
-      "version": "1.3.0",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -185,6 +185,74 @@
   ],
   "rising": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.2.0",
+      "releaseDate": "2026-10-19",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "category": "utilities",
+      "version": "1.27.15",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nicegram",
+      "name": "Nicegram",
+      "category": "social",
+      "version": "2.6.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "iqface",
       "name": "iQFace",
       "category": "social",
@@ -278,74 +346,6 @@
       "score": 0.7867,
       "signals": {
         "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "messenger-flow",
-      "name": "Messenger Flow",
-      "category": "social",
-      "version": "584.0.0",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "msgplusx",
-      "name": "MSGPlusX",
-      "category": "social",
-      "version": "584.0.0",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "turrit-mxgram",
-      "name": "Turrit MxGram",
-      "category": "social",
-      "version": "1.5.6",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "aidoku",
-      "name": "Aidoku",
-      "category": "other",
-      "version": "0.9",
-      "releaseDate": "2026-10-16",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -357,6 +357,74 @@
   ],
   "recentlyUpdated": [
     {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "category": "music",
+      "version": "5.2.0",
+      "releaseDate": "2026-10-19",
+      "score": 1.0,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 1.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "category": "utilities",
+      "version": "1.27.15",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nicegram",
+      "name": "Nicegram",
+      "category": "social",
+      "version": "2.6.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
       "slug": "iqface",
       "name": "iQFace",
       "category": "social",
@@ -450,74 +518,6 @@
       "score": 0.7867,
       "signals": {
         "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "messenger-flow",
-      "name": "Messenger Flow",
-      "category": "social",
-      "version": "584.0.0",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "msgplusx",
-      "name": "MSGPlusX",
-      "category": "social",
-      "version": "584.0.0",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "turrit-mxgram",
-      "name": "Turrit MxGram",
-      "category": "social",
-      "version": "1.5.6",
-      "releaseDate": "2026-10-17",
-      "score": 0.7867,
-      "signals": {
-        "recency": 0.9667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "aidoku",
-      "name": "Aidoku",
-      "category": "other",
-      "version": "0.9",
-      "releaseDate": "2026-10-16",
-      "score": 0.78,
-      "signals": {
-        "recency": 0.95,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -532,11 +532,11 @@
       "slug": "spotiflac",
       "name": "SpotiFLAC Mobile",
       "category": "music",
-      "version": "5.1.1",
-      "releaseDate": "2026-10-11",
-      "score": 0.9467,
+      "version": "5.2.0",
+      "releaseDate": "2026-10-19",
+      "score": 1.0,
       "signals": {
-        "recency": 0.8667,
+        "recency": 1.0,
         "availability": 1.0,
         "featured": 1.0,
         "verification": 1.0
@@ -611,6 +611,57 @@
       },
       "verificationLevel": "VERIFIED",
       "featured": true,
+      "downloadReachable": true
+    },
+    {
+      "slug": "onionbrowser",
+      "name": "Onion Browser",
+      "category": "networking",
+      "version": "3.4.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "tablehabit",
+      "name": "Table Habit",
+      "category": "utilities",
+      "version": "1.27.15",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
+      "downloadReachable": true
+    },
+    {
+      "slug": "nicegram",
+      "name": "Nicegram",
+      "category": "social",
+      "version": "2.6.4",
+      "releaseDate": "2026-10-19",
+      "score": 0.8,
+      "signals": {
+        "recency": 1.0,
+        "availability": 1.0,
+        "featured": 0.0,
+        "verification": 1.0
+      },
+      "verificationLevel": "VERIFIED",
+      "featured": false,
       "downloadReachable": true
     },
     {
@@ -971,23 +1022,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "onionbrowser",
-      "name": "Onion Browser",
-      "category": "networking",
-      "version": "3.4.3",
-      "releaseDate": "2026-10-13",
-      "score": 0.76,
-      "signals": {
-        "recency": 0.9,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "orbot",
       "name": "Orbot",
       "category": "networking",
@@ -1090,23 +1124,6 @@
       "downloadReachable": true
     },
     {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "category": "social",
-      "version": "8.82.0",
-      "releaseDate": "2026-10-11",
-      "score": 0.7467,
-      "signals": {
-        "recency": 0.8667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
       "slug": "trollfools",
       "name": "TrollFools",
       "category": "utilities",
@@ -1115,23 +1132,6 @@
       "score": 0.7467,
       "signals": {
         "recency": 0.8667,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "tablehabit",
-      "name": "Table Habit",
-      "category": "utilities",
-      "version": "1.27.13",
-      "releaseDate": "2026-10-10",
-      "score": 0.74,
-      "signals": {
-        "recency": 0.85,
         "availability": 1.0,
         "featured": 0.0,
         "verification": 1.0
@@ -1162,23 +1162,6 @@
       "name": "SameBoy",
       "category": "games",
       "version": "1.0.4",
-      "releaseDate": "2026-10-09",
-      "score": 0.7333,
-      "signals": {
-        "recency": 0.8333,
-        "availability": 1.0,
-        "featured": 0.0,
-        "verification": 1.0
-      },
-      "verificationLevel": "VERIFIED",
-      "featured": false,
-      "downloadReachable": true
-    },
-    {
-      "slug": "nicegram",
-      "name": "Nicegram",
-      "category": "social",
-      "version": "2.6.3",
       "releaseDate": "2026-10-09",
       "score": 0.7333,
       "signals": {
@@ -2635,6 +2618,23 @@
       "verificationLevel": "VERIFIED",
       "featured": false,
       "downloadReachable": true
+    },
+    {
+      "slug": "nexasc",
+      "name": "NexaSC",
+      "category": "social",
+      "version": "8.82.0",
+      "releaseDate": "2026-10-11",
+      "score": 0.3467,
+      "signals": {
+        "recency": 0.8667,
+        "availability": 0.0,
+        "featured": 0.0,
+        "verification": 0.0
+      },
+      "verificationLevel": "UNVERIFIED",
+      "featured": false,
+      "downloadReachable": false
     },
     {
       "slug": "telegram-mxgram",
