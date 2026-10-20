@@ -18,51 +18,51 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Dopamine.webp",
       "tintColor": "6A4CFF",
       "category": "utilities",
-      "version": "3.0.11",
-      "versionDate": "2026-10-12",
-      "versionDescription": "Dopamine 3.0.11 | Dopamine\n\n- Fix support for iOS 26.0 beta 1 [3.0.1 regression]\n- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)\n- Update opainject and litehook",
-      "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa",
-      "size": 55420987,
+      "version": "3.0.12",
+      "versionDate": "2026-10-20",
+      "versionDescription": "Dopamine 3.0.12 | Dopamine\n\n- Add workaround for stock issue that causes touch not to work on certain A10/A11 aftermarket screens after a userspace reboot (Contributed by @moezemara)\n- Fix some system preference plists being redirected to /var/jb in rootlesshook (Contributed by @verygenericname)",
+      "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+      "size": 55420784,
       "versions": [
         {
-          "version": "3.0.11",
-          "date": "2026-10-12",
-          "localizedDescription": "Dopamine 3.0.11 | Dopamine\n\n- Fix support for iOS 26.0 beta 1 [3.0.1 regression]\n- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)\n- Update opainject and litehook",
-          "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa",
-          "size": 55420987,
+          "version": "3.0.12",
+          "date": "2026-10-20",
+          "localizedDescription": "Dopamine 3.0.12 | Dopamine\n\n- Add workaround for stock issue that causes touch not to work on certain A10/A11 aftermarket screens after a userspace reboot (Contributed by @moezemara)\n- Fix some system preference plists being redirected to /var/jb in rootlesshook (Contributed by @verygenericname)",
+          "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+          "size": 55420784,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/opa334/Dopamine/releases/tag/3.0.11",
+          "releaseUrl": "https://github.com/opa334/Dopamine/releases/tag/3.0.12",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
               "filename": "Dopamine.ipa",
-              "downloadUrl": "https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa",
+              "downloadUrl": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 55420987,
-              "sha256": "fbd5b9086634cac0b6c7e5ba95c43d8c40ecafd814f8e620beb06f355480b973",
-              "downloads": 335,
+              "size": 55420784,
+              "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
+              "downloads": 2165,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
               "filename": "Dopamine.tipa",
-              "downloadUrl": "https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.tipa",
+              "downloadUrl": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.tipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 55420987,
-              "sha256": "fbd5b9086634cac0b6c7e5ba95c43d8c40ecafd814f8e620beb06f355480b973",
-              "downloads": 28,
+              "size": 55420784,
+              "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
+              "downloads": 158,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "fbd5b9086634cac0b6c7e5ba95c43d8c40ecafd814f8e620beb06f355480b973",
-          "downloads": 335
+          "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
+          "downloads": 2165
         }
       ],
       "screenshotURLs": [],
@@ -104,7 +104,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-10-12"
+          "lastUpdatedAt": "2026-10-20"
         }
       }
     }
