@@ -9,8 +9,8 @@
   },
   "sync": {
     "synced": 127,
-    "incrementalHits": 115,
-    "updated": 2,
+    "incrementalHits": 117,
+    "updated": 0,
     "failed": 4,
     "apiRequests": 117
   },
@@ -23,22 +23,7 @@
     "trollboard-reborn",
     "uprovid"
   ],
-  "updates": [
-    {
-      "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "previousVersion": "5.2.0",
-      "version": "5.2.1",
-      "kind": "updated"
-    },
-    {
-      "slug": "dopamine",
-      "name": "Dopamine",
-      "previousVersion": "3.0.11",
-      "version": "3.0.12",
-      "kind": "updated"
-    }
-  ],
+  "updates": [],
   "errors": [
     "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
     "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
