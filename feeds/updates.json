@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-20",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "spotiflac",
+      "name": "SpotiFLAC Mobile",
+      "version": "5.2.1",
+      "previousVersion": "5.2.0",
+      "date": "2026-10-20",
+      "kind": "updated",
+      "changelog": "SpotiFLAC 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n\n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding**: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mornye logo across the app\n- **branding**: Rename app and native backend to Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- **playback**: Add normalization pre-amp and track or album gain\n- **ui**: Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- **crash**: Reduce repeated notices and retain diagnostics\n- **player**: Prefer embedded art for local files over online covers\n- **startup**: Wait for the Activity before backend startup calls\n- **library**: Use path index for network scan cache lookups\n- **ui**: Align Material screens with the design guide\n- **concerts**: Give the Material concert page a Material layout\n- **player**: Refresh late duration updates without reopening\n- **home**: Match On repeat tracks to their Library entry\n- **home**: Show listening sections on the Mornye Home without a feed\n- **lyrics**: Ease synced line changes with a spring scroll\n- **haptics**: Render music pulses on basic motors and add tuning sliders\n- **downloads**: Embed enriched artwork across audio formats\n- **artwork**: Read padded ID3 covers and repair cached previews\n- **crash**: Exclude system memory kills from crash notices\n- **backup**: Reconcile restored iOS paths before publishing history\n- **library**: Release network scan memory and cancel active metadata reads\n- **android**: Apply renderer compatibility before shared engine creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye player and library smoothness\n- **library**: Cache unchanged SMB and WebDAV scan metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects section\n- **readme**: Drop heading anchors from feature cards\n\n### Chores\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **branding**: Drop remaining SpotiFLAC references\n- **release**: Bump app to 5.2.1 build 163\n\n\n\n\n**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.2.0...v5.2.1)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.1-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.1-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.1-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/spotiflac.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/spotiflac.xml",
+      "status": "stable",
+      "shortDescription": "FLAC Downloader for iOS"
+    },
+    {
+      "slug": "dopamine",
+      "name": "Dopamine",
+      "version": "3.0.12",
+      "previousVersion": "3.0.11",
+      "date": "2026-10-20",
+      "kind": "updated",
+      "changelog": "Dopamine 3.0.12 | Dopamine\n\n- Add workaround for stock issue that causes touch not to work on certain A10/A11 aftermarket screens after a userspace reboot (Contributed by @moezemara)\n- Fix some system preference plists being redirected to /var/jb in rootlesshook (Contributed by @verygenericname)",
+      "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Dopamine.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/dopamine.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/dopamine.xml",
+      "status": "stable",
+      "shortDescription": "Semi-untethered jailbreak for iOS 15 – 26"
+    },
     {
       "slug": "threadsaver",
       "name": "ThreadSaver",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/iqface.xml",
       "status": "stable",
       "shortDescription": "Facebook tweak build by 7MD"
-    },
-    {
-      "slug": "infuseplus",
-      "name": "Infuse Plus",
-      "version": "8.5.6",
-      "previousVersion": "8.5.5",
-      "date": "2026-10-03",
-      "kind": "updated",
-      "changelog": "Infuse 8.5.6 | Infuse-8.5.6-Infuse-Plus\n\nIPA Vault build for Infuse Plus (8.5.6), version 8.5.6",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.6-Infuse-Plus.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Infuse.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/infuseplus.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/infuseplus.xml",
-      "status": "stable",
-      "shortDescription": "Enhancer tweak for the Infuse video player"
-    },
-    {
-      "slug": "ryukgram-sidebyside",
-      "name": "RyukGram Side by Side",
-      "version": "448.0.0",
-      "previousVersion": "446.0.0",
-      "date": "2026-10-02",
-      "kind": "updated",
-      "changelog": "Instagram 448.0.0 | RyukGram Side by Side\n\n### 🆕 New features\n- Pick from the RyukGram gallery inside Instagram: Send from gallery in the DM + menu, hold the photo button in comments, or hold Recents in the story, post and reel galleries\n- Repost from the gallery: hold any photo, video or GIF and post it as a story, post or reel\n- Activity notifications can track only the people in your list\n- Hold the story background button to pick any solid color or gradient, with a direction dial\n- Safari extension: Open in RyukGram banner at the top or bottom, removes Instagram's app prompts, blocks App Store jumps, and can open links automatically\n- Crash logs under Debug > Logging: saves a report when Instagram crashes, with search, share, and a hint when RyukGram is in the trace\n- Share log file can bundle your crash reports into the same file\n- Notification history: every notification in one place, filter by feature or type, search, choose which features get saved, and a home shortcut with new counts\n- Sound toggle in the reels and stories playback panels\n- Picture in Picture button in the reels playback panel\n- Reels auto-scroll moves past sponsored and photo reels\n- Post spoofing: pick your own posts and fake their likes, comments, views, shares, reposts and saves, only on your device\n- Strip tracking menu: one place for shared and opened links, edit which params get removed, or drop every param a shared link does not need\n- Embed domain and tracking param lists support multi-select delete\n- Instagram API page in Advanced: reuse recent replies for a set time, pace requests, and cap daily follows and unfollows\n- Hide Meta AI now also removes AI images from the gallery picker\n- Hide search suggestions: removes suggested accounts and searches from the search tab\n- Custom notification sounds: set your own sound for DMs and for other alerts, import from Files, Photos or the gallery and trim it, or use Instagram's own tones\n- Opening someone's profile picture now shows every picture on the account, not just the first\n- Each active MobileConfig override shows how many times Instagram read it\n- Find unnamed MobileConfig entries by the code that reads them, and label them with it\n- MobileConfig overrides can be switched off and back on without losing their values, one config or all at once\n- MobileConfig params can be filtered to overridden only, or by platform\n- Hold any MobileConfig config to give it your own note, shown on the row, inside it, and searchable\n- Search MobileConfig by note, param name or id as well as by name and number\n- Gallery editing: crop, rotate and resize photos, trim and crop videos, trim audio, pull or strip a video's audio, turn GIFs into videos, then save as new or replace the original\n- Gallery info page: edit a file's name and source details, see camera and codec info, and remove a photo's location\n- Redesigned photo crop editor for Draw and chat backgrounds: more ratios, draggable free crop, flip, and zoom out to fit\n- Spoofing is now one editor shaped like your profile header, Threads badge included: tap anything to change it, then Apply. A master switch turns it all off, and Edit Profile always shows your real info\n- Fake profile picture from Photos, the gallery, Files or a link, shown everywhere in the app on your device only\n- Hide explore reels: keeps only photo and carousel posts in explore, including the feed you open from it\n- Feed limits: cap how many posts load in a row and hide posts below a like, comment, view or repost count, on every home feed and the grid feed\n- Reels action button can save photo posts with their music, off by default\n- Keep Instants unseen after viewing them, and mark any one seen with the eye button in the viewer\n- Visited profiles: a private log of profiles you open, with notes, filters, multi-select and CSV or JSON export\n- Watchlist: add accounts from the profile menu, recent chats or search, checked on a schedule and for free when you open them, backing off for a day if Instagram limits you\n- Tracked changes: username, name, bio, link, picture, privacy, verification, follow back and count changes for watchlist accounts, with alerts per type and a home shortcut\n- Playback panel for reels and stories: live scrubber with elapsed and remaining time, bigger play/pause, custom skip step or frame by frame, hold skip to jump to the next or previous story or reel, and save the current frame\n- Playback speed can be remembered always, for the session, or just for the current video\n- Playback button in the reel sidebar: shows your speed, hold to flip between 1× and your last speed\n- Reel buttons can now move the action button and the playback button anywhere in the sidebar\n- Playback controls in the reels and stories action button, and an auto-advance switch in the story panel\n- Custom emoji fonts: import any color emoji font to replace emoji across Instagram\n- Force audio button: brings back the sound toggle in the DM camera ••• menu when your account is missing it\n- Group chats without a photo show their members' pictures in RyukGram lists\n- Links, emails and phone numbers in captions and comments are tappable; long-press one to copy or share it\n- Reels limit: choose Per session, the old doom scrolling cap, or Daily with time or reel caps per place or overall, a usage dashboard, day history, break nudges, a heads-up before the limit, strict mode and a shortcut. Once hit, reels stay paused everywhere and feed videos can hide\n\n### 🛠 Fixes\n- DM inbox header buttons, chat menu, lock, refresh warning and Meta AI search button hiding work again on the new Instagram inbox\n- Posting and editing stories and taking photos no longer crash on iOS 15 backports\n- Downloading voice messages, forced DM save and Meta AI menu hiding work again on newer Instagram\n- Saved voice messages are named after the sender\n- Disabling feed autoplay, hiding story midcards and marking stories seen on sticker replies work again on newer Instagram\n- Profile and group pictures stay saved through expired links and cache clears, and Refresh names & photos updates every screen\n- Read notifications now work for people with their own settings even when the default for Read is off\n- Instagram's own reels auto-scroll mode works again, and turns off right away when you switch modes\n- Hide ads works again on accounts with the newer main feed and catches multi-ad carousels and sponsored posts in feed, profile feed and reels\n- Block surveys removes the \"Are you interested in this ad\" prompts under feed posts and reels\n- Profile updates in the analyzer show every change without cutting off the username, and entries no longer vanish while the list refreshes\n- Inbox header buttons and the profile action button no longer overlap the back button or username on older Instagram layouts\n- Reels opened from a profile no longer have a stuck comment bar covering the bottom, with a toggle to bring it back\n- Switching crop ratios no longer leaves the photo stuck zoomed in\n- Follow status in follower and following lists no longer shows the wrong answer, and loads without slowing down scrolling\n- Backup and restore now live on the Profiles page, so exporting, importing, resetting and storage are all in one place\n- The audio trimmer draws the real waveform of the clip, stays usable on long recordings with a draggable capped selection, and goes flat when the clip has no sound\n- A follow that becomes a request on a private account now shows as Requested instead of vanishing from the list\n- Batch follow and unfollow now run slower, pause on their own when Instagram pushes back, and stop before running past a safe daily amount\n- MobileConfig no longer wipes your overrides after repeated crashes, it turns them off and keeps them\n- MobileConfig overrides now actually apply, they were being written under an id Instagram never reads\n- Random crashes while chats or the inbox were loading, caused by keep deleted messages writing from two threads at once\n- Copying from the share sheet no longer closes Instagram\n- Rest…",
-      "downloadURL": "https://source.ryuksign.com/ipas/69d9086497e16a17f5e3.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/ryukgram-sidebyside.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/ryukgram-sidebyside.xml",
-      "status": "stable",
-      "shortDescription": "RyukGram under its own bundle id, next to Instagram"
     }
   ]
 }

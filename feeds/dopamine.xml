@@ -5,8 +5,19 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
     <description>Release feed for Dopamine within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/dopamine.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Dopamine v3.0.12</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
+      <guid isPermaLink="false">dopamine-3.0.12</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine 3.0.12 | Dopamine
+
+- Add workaround for stock issue that causes touch not to work on certain A10/A11 aftermarket screens after a userspace reboot (Contributed by @moezemara)
+- Fix some system preference plists being redirected to /var/jb in rootlesshook (Contributed by @verygenericname)]]></description>
+      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Dopamine v3.0.11</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
