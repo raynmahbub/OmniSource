@@ -3,13 +3,13 @@
   "generatedAt": "2026-10-20",
   "totals": {
     "apps": 131,
-    "verified": 123,
+    "verified": 122,
     "communityVerified": 1,
-    "unverified": 7,
+    "unverified": 8,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.69,
+    "avgTrustScore": 6.66,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -689,27 +689,6 @@
       "downloadURL": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
-    },
-    {
-      "app": "glow",
-      "name": "Glow",
-      "status": "VERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "official upstream (altstore)"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
     },
     {
       "app": "gopeed",
@@ -2620,6 +2599,27 @@
       ],
       "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
       "trustScore": 1.5,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "glow",
+      "name": "Glow",
+      "status": "UNVERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": false,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed check: fileAvailable"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
+      "trustScore": 3.0,
       "trustBadge": "Experimental"
     },
     {
