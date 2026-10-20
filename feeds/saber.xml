@@ -5,8 +5,43 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
     <description>Release feed for Saber within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/saber.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Saber v1.36.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.36.3</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.36.3 | Saber_v1.36.3
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- Various visual improvements, including an Adwaita-inspired navigation bar for the Linux version of Saber
+- Fixed a deduplication bug causing many copies of PDF files to be saved #1856 
+- Fixed a bug preventing Saber from responding to light/dark mode switches on Linux
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Saber v1.36.2</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>

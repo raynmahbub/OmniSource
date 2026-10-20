@@ -49,6 +49,36 @@
       "shortDescription": "FLAC Downloader for iOS"
     },
     {
+      "slug": "sparkle",
+      "name": "Sparkle",
+      "version": "452.0.0",
+      "previousVersion": "451.0.0",
+      "date": "2026-10-19",
+      "kind": "updated",
+      "changelog": "Instagram 452.0.0 | Instagram-452.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 452.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/sparkle.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/sparkle.xml",
+      "status": "stable",
+      "shortDescription": "Bring the spark back to Instagram"
+    },
+    {
+      "slug": "saber",
+      "name": "Saber",
+      "version": "1.36.3",
+      "previousVersion": "1.36.2",
+      "date": "2026-10-19",
+      "kind": "updated",
+      "changelog": "Saber 1.36.3 | Saber_v1.36.3\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Various visual improvements, including an Adwaita-inspired navigation bar for the Linux version of Saber\n- Fixed a deduplication bug causing many copies of PDF files to be saved #1856 \n- Fixed a bug preventing Saber from responding to light/dark mode switches on Linux\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3",
+      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Saber.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/saber.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/saber.xml",
+      "status": "stable",
+      "shortDescription": "Open-source handwritten notes"
+    },
+    {
       "slug": "onionbrowser",
       "name": "Onion Browser",
       "version": "3.4.4",
@@ -1472,36 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/ryukgram-sidebyside.xml",
       "status": "stable",
       "shortDescription": "RyukGram under its own bundle id, next to Instagram"
-    },
-    {
-      "slug": "nuvio",
-      "name": "Nuvio",
-      "version": "0.5.6",
-      "previousVersion": "0.5.5",
-      "date": "2026-10-02",
-      "kind": "updated",
-      "changelog": "Nuvio 0.5.6 | nuvio-0.5.6-full-release\n\n- 312f7399 feat(details): use desktop hero layout on tablets @tapframe  \n- b3d7c5b6 feat(settings): show restart prompt when layout direction changes @tapframe  \n- a984b390 fix(ios): declare supported localizations @tapframe  \n- f0f980b3 fix(player): auto-play next episode on end after dismissing prompt @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#2146)](https://github.com/NuvioMedia/NuvioMobile/pull/2146) @blueocean2308  \n- [Preload next episode sources (#2140)](https://github.com/NuvioMedia/NuvioMobile/pull/2140) @skoruppa  \n- [Fix mising poster fallback in Catalog Screen (#2139)](https://github.com/NuvioMedia/NuvioMobile/pull/2139) @skoruppa  \n- [fix(player): backport automatic skip notifications from Desktop (#2137)](https://github.com/NuvioMedia/NuvioMobile/pull/2137) @Laskco",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.5.6-beta/nuvio-0.5.6-full-release.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
-      "status": "stable",
-      "shortDescription": "Open-source media player, bring your own sources"
-    },
-    {
-      "slug": "synkplay",
-      "name": "Synkplay",
-      "version": "0.26.0",
-      "previousVersion": "0.25.0",
-      "date": "2026-10-01",
-      "kind": "updated",
-      "changelog": "Synkplay 0.26.0 | synkplay-0.26.0-ios\n\n<table align=\"center\"><tr>\n<td align=\"center\" rowspan=\"2\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/synkplay_app_badge_512.png\" width=\"128\" alt=\"Synkplay\"></td>\n<td align=\"center\"><a href=\"https://play.google.com/store/apps/details?id=com.yuroyami.syncplay\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/google-play.png\" width=\"150\" alt=\"Get it on Google Play\"></a></td>\n<td align=\"center\"><a href=\"https://apps.apple.com/us/app/synkplay/id6760187432\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/app-store.png\" width=\"150\" alt=\"Download on the App Store\"></a></td>\n</tr><tr>\n<td align=\"center\"><a href=\"https://apt.izzysoft.de/fdroid/index/apk/com.reddnek.syncplay\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/IzzyOnDroid.png\" width=\"150\" alt=\"Get it on IzzyOnDroid\"></a></td>\n<td align=\"center\"><a href=\"https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/yuroyami/syncplay-mobile/refs/heads/master/altstore_yuroyami.json\"><img src=\"https://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/AltSource_Blue.png\" width=\"150\" alt=\"Add the AltStore source\"></a></td>\n</tr></table>\n\n> This release is not on Google Play or the App Store yet.\n\n<details open><summary><h2>Changelog <sub>since v0.25.0</sub></h2></summary>\n\n- iOS: picture-in-picture now works with AVPlayer and KitePlayer.\n- A hosted room can now encrypt its connections. Turn on Encrypt connections when you host. When a server's certificate is not trusted by the system, the app shows its fingerprint and lets you decide.\n- Small drifts between watchers are now corrected with a speed change of half a percent, which nobody notices, instead of a jump.\n- Headset buttons, the lock screen and the notification no longer pause or seek the whole room by accident. On a TV, the remote's media keys still control the room.\n- When a connection fails, the app now says why.\n- Home keeps your five recent rooms under the join key.\n- KitePlayer is now on 0.2.0. Its audio visualizer studies a linked song in seconds and remembers it, and switching between the visualizer and the video no longer cuts the sound.\n- The audio visualizer now asks once before it first turns on, because it can flash. Reduce motion also calms it, with no flashes at all. Two patterns that flashed too often on a busy beat were fixed.\n- ExoPlayer now shows chapters from MKV and MP4 files, and each chapter shows a still frame.\n- The seek bar shows what is buffered with mpv, KitePlayer and AVPlayer.\n- An audio or subtitle track that you pick now carries to the next file, by its language.\n- Subtitle searches now send the episode and the file's hash, for better matches.\n- Media folders show when the app lost access to them. A playlist file that none of your folders holds is marked, and you can point the app to it.\n- The hosted server now limits connections and drops a client that floods it.\n- A chat line or a playlist change can no longer reach the server twice after a reconnect.\n- Joining from a link, a shortcut or a Quick Action now works at any time.\n- Screen readers: the room controls stay on screen while a screen reader runs.\n- Android: you can pick the app's language in the system's per-app language setting.\n- Android: a baseline profile makes the app start faster.\n- About now lists the open source licences, and its panel is liquid glass.\n- iOS VLC: updated to VLCKit 4.0.0a24.\n- The log now hides identifying details and limits its size.\n- Notices now fade in and out.\n- Small fixes for Android TV focus, the picture-in-picture offer, mpv volume and ExoPlayer subtitles.\n\n\n</details>\n\n## Translations &nbsp;<a href=\"https://hosted.weblate.org/engage/syncplay-mobile/\"><img src=\"https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg\" alt=\"Translation status\" height=\"20\"></a>\n\nHelp translate Synkplay on [Weblate](https://hosted.weblate.org/engage/syncplay-mobile/).\n\n<details><summary><h2>Downloads</h2></summary>\n\n<table>\n<tr><th colspan=\"2\">Android &nbsp;<img src=\"https://img.shields.io/badge/8.0%2B-3DDC84?logo=android&logoColor=white&label=\" alt=\"Android 8.0 and up\" height=\"20\"></th></tr>\n<tr><th width=\"380\">Full universal build</th><th width=\"380\">Lite IzzyOnDroid build</th></tr>\n<tr><td align=\"center\"><a href=\"https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-full-universal.apk\"><b>synkplay-0.26.0-full-universal.apk</b></a><br><sub>98 MB</sub></td><td align=\"center\"><a href=\"https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/syncplay-0.26.0-exo-only.apk\"><b>syncplay-0.26.0-exo-only.apk</b></a><br><sub>19 MB</sub></td></tr>\n<tr><td>✔️ All three engines (ExoPlayer, mpv and KitePlayer)</td><td>❌ ExoPlayer only, no mpv or KitePlayer</td></tr>\n</table>\n\n<table>\n<tr><th width=\"760\">iOS &nbsp;<img src=\"https://img.shields.io/badge/15.0%2B-000000?logo=apple&logoColor=white&label=\" alt=\"iOS 15.0 and up\" height=\"20\"></th></tr>\n<tr><td align=\"center\"><a href=\"https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa\"><b>synkplay-0.26.0-ios.ipa</b></a><br><sub>90 MB</sub><br><br>To sideload, follow the <a href=\"https://github.com/yuroyami/syncplay-mobile/wiki/How-to-install-the-app-on-iOS\">install guide</a>. Otherwise, get it from the <a href=\"https://apps.apple.com/us/app/synkplay/id6760187432\">App Store</a>.</td></tr>\n</table>\n\n</details>\n\n<details><summary><h2>Dependencies</h2></summary>\n\n| Component | Where | Version |\n|---|---|---|\n| Kotlin | Toolchain | 2.4.20 |\n| Compose Multiplatform | Toolchain | 1.12.1 |\n| Android Gradle Plugin | Toolchain | 9.4.1 |\n| Gradle | Toolchain | 9.8.0 |\n| Ktor | Network, all platforms | 3.6.0 |\n| Netty | Network, Android | 4.2.18.Final |\n| SwiftNIO | Network, iOS | 2.95.0 |\n| ExoPlayer (Media3) | Video engine, Android | 1.11.1 |\n| libmpvKt (mpv, FFmpeg, libass and libplacebo inside) | Video engine, Android, full build only | 0.3.0 |\n| VLCKit | Video engine, iOS | 4.0.0a24 |\n| KitePlayer, with KiteFFmpeg inside | Video engine, all platforms, experimental | 0.2.0 |\n\n</details>",
-      "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Synkplay.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/synkplay.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/synkplay.xml",
-      "status": "stable",
-      "shortDescription": "Synced video playback"
     }
   ]
 }
