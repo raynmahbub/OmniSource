@@ -1,8 +1,23 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "count": 100,
   "updates": [
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "version": "0.6.3",
+      "previousVersion": "0.6.2",
+      "date": "2026-10-21",
+      "kind": "updated",
+      "changelog": "Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party): show the party's source as plain text @tapframe  \n- 37a6656a fix(player): keep center controls in place on pause @tapframe  \n- 344117e7 feat(player): show badges for what is playing @tapframe  \n- ebb17678 feat(party): chat from your phone with the same profile @tapframe  \n- 18268427 fix(player): move engine switch to top row with confirmation @tapframe  \n- [feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288)](https://github.com/NuvioMedia/NuvioMobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messages with the return key @tapframe  \n- [Update Hungarian translations (#2333)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix binge group initial state from stream args, apply custom posters in library see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) @skoruppa  \n- [i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/NuvioMobile/pull/2297) @blueocean2308",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
+      "rssURL": "https://raynmahbub.github.io/OmniSource/nuvio.xml",
+      "status": "stable",
+      "shortDescription": "Open-source media player, bring your own sources"
+    },
     {
       "slug": "threadsaver",
       "name": "ThreadSaver",
@@ -1487,21 +1502,6 @@
       "rssURL": "https://raynmahbub.github.io/OmniSource/ryukgram.xml",
       "status": "stable",
       "shortDescription": "Instagram tweak for power users by faroukbmiled"
-    },
-    {
-      "slug": "nexasc",
-      "name": "NexaSC",
-      "version": "8.80.1",
-      "previousVersion": "8.80.0",
-      "date": "2026-10-03",
-      "kind": "updated",
-      "changelog": "SoundCloud 8.80.1 | SoundCloud-8.80.1-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.80.1",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.80.1-NexaSC.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SoundCloud.webp",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/nexasc.json",
-      "rssURL": "https://raynmahbub.github.io/OmniSource/nexasc.xml",
-      "status": "beta",
-      "shortDescription": "SoundCloud Go+ unlock and ad removal (unofficial build)"
     }
   ]
 }

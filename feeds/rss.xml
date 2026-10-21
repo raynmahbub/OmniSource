@@ -5,8 +5,27 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nuvio v0.6.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
+      <guid isPermaLink="false">nuvio-0.6.3</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nuvio 0.6.3 | nuvio-0.6.3-full-release
+
+- d45d4d36 fix(party): show the party's source as plain text @tapframe  
+- 37a6656a fix(player): keep center controls in place on pause @tapframe  
+- 344117e7 feat(player): show badges for what is playing @tapframe  
+- ebb17678 feat(party): chat from your phone with the same profile @tapframe  
+- 18268427 fix(player): move engine switch to top row with confirmation @tapframe  
+- [feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288)](https://github.com/NuvioMedia/NuvioMobile/pull/2288) @jhojhocraazy  
+- b8249380 fix(party): send chat messages with the return key @tapframe  
+- [Update Hungarian translations (#2333)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  
+- [Fix binge group initial state from stream args, apply custom posters in library see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) @skoruppa  
+- [i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/NuvioMobile/pull/2297) @blueocean2308]]></description>
+      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>ThreadSaver v452.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json</link>
@@ -788,24 +807,6 @@ Thanks to everyone who reported a problem, and to @Gauvino for the Quick Connect
 
 **Full Changelog**: https://github.com/streamyfin/streamyfin/compare/v0.55.1...v0.55.2]]></description>
       <enclosure url="https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Nuvio v0.6.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
-      <guid isPermaLink="false">nuvio-0.6.0</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nuvio 0.6.0 | nuvio-0.6.0-full-release
-
-- [feat(party): add experimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobile/pull/2253) @tapframe  
-- b9d2c39d fix(player): pause other apps audio on android @tapframe  
-- [feat(mdblist): show dynamic and liked lists in the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) @kernexshadow  
-- [i18n(el): translate new 0.5.10 strings (#2263)](https://github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  
-- [Complete missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioMobile/pull/2260) @WhiteGiso  
-- [fix(ios): improve PiP transitions and recover playback after closing PiP (#2259)](https://github.com/NuvioMedia/NuvioMobile/pull/2259) @WhiteGiso  
-- [fix(ios): restore Now Playing by limiting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMobile/pull/2246) @WhiteGiso  
-- [fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234)](https://github.com/NuvioMedia/NuvioMobile/pull/2234) @jhojhocraazy  
-- [feat(mdblist): show external lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobile/pull/2172) @kernexshadow]]></description>
-      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
