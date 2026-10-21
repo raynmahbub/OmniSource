@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "totals": {
     "apps": 131,
-    "verified": 122,
+    "verified": 124,
     "communityVerified": 1,
-    "unverified": 8,
+    "unverified": 6,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.66,
+    "avgTrustScore": 6.71,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -691,6 +691,27 @@
       "trustBadge": "Trusted"
     },
     {
+      "app": "glow",
+      "name": "Glow",
+      "status": "VERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa",
+      "trustScore": 6.0,
+      "trustBadge": "Community"
+    },
+    {
       "app": "gopeed",
       "name": "Gopeed",
       "status": "VERIFIED",
@@ -1002,7 +1023,7 @@
         "official upstream (github-release)"
       ],
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-      "trustScore": 7.3,
+      "trustScore": 7.4,
       "trustBadge": "Community"
     },
     {
@@ -2098,6 +2119,27 @@
       "trustBadge": "Community"
     },
     {
+      "app": "telegram-mxgram",
+      "name": "Telegram MxGram",
+      "status": "VERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "altstore",
+      "publisher": "927tx/IPA-Vault",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+      "trustScore": 4.6,
+      "trustBadge": "Experimental"
+    },
+    {
       "app": "threadsaver",
       "name": "ThreadSaver",
       "status": "VERIFIED",
@@ -2114,7 +2156,7 @@
       "reasons": [
         "official upstream (altstore)"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.0-ThreadSaver.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
     },
@@ -2602,27 +2644,6 @@
       "trustBadge": "Experimental"
     },
     {
-      "app": "glow",
-      "name": "Glow",
-      "status": "UNVERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
-      "trustScore": 3.0,
-      "trustBadge": "Experimental"
-    },
-    {
       "app": "jaility",
       "name": "Jaility",
       "status": "UNVERIFIED",
@@ -2683,27 +2704,6 @@
       ],
       "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
       "trustScore": 3.0,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "telegram-mxgram",
-      "name": "Telegram MxGram",
-      "status": "UNVERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "927tx/IPA-Vault",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-      "trustScore": 1.6,
       "trustBadge": "Experimental"
     },
     {

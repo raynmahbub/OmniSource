@@ -8,6 +8,26 @@
     <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>ThreadSaver v452.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json</link>
+      <guid isPermaLink="false">threadsaver-452.1</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Threads 452.1 | Threads-452.1-ThreadSaver
+
+IPA Vault build for Threads (ThreadSaver), version 452.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Telegram MxGram v13.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json</link>
+      <guid isPermaLink="false">telegram-mxgram-13.1</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Telegram 13.1 | Telegram-13.1-iQTele
+
+IPA Vault build for Telegram (iQTele), version 13.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>SpotiFLAC Mobile v5.2.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.2.1</guid>
@@ -81,6 +101,16 @@
 **Android**: Enable "Install from unknown sources" and install the APK
 **iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
       <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Glow v2026.42.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/glow.json</link>
+      <guid isPermaLink="false">glow-2026.42.0</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 2026.42.0 | Reddit-2026.42.0-RedditFilter
+
+IPA Vault build for Reddit (RedditFilter), version 2026.42.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>Dopamine v3.0.12</title>
@@ -776,63 +806,6 @@ Thanks to everyone who reported a problem, and to @Gauvino for the Quick Connect
 - [fix(i18n): update, complete and review Brazilian Portuguese (pt-BR) localization (#2234)](https://github.com/NuvioMedia/NuvioMobile/pull/2234) @jhojhocraazy  
 - [feat(mdblist): show external lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobile/pull/2172) @kernexshadow]]></description>
       <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.0-beta/nuvio-0.6.0-full-release.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Nuvio v0.6.1</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
-      <guid isPermaLink="false">nuvio-0.6.1</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nuvio 0.6.1 | nuvio-0.6.1-full-release
-
-- f352f2b2 fix(party): let only the host change what's playing @tapframe]]></description>
-      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.1-beta/nuvio-0.6.1-full-release.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Infuse Plus v8.5.8</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/infuseplus.json</link>
-      <guid isPermaLink="false">infuseplus-8.5.8</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Infuse 8.5.8 | Infuse-8.5.8-Infuse-Plus
-
-IPA Vault build for Infuse Plus (8.5.8), version 8.5.8]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>EscapeOS v0.1.8</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/escapeos.json</link>
-      <guid isPermaLink="false">escapeos-0.1.8</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[EscapeOS 0.1.8 | EscapeOS-0.1.8
-
-## EscapeOS 0.1.8
-
-v0.1.0, v0.1.1, v0.1.3, v0.1.4, v0.1.5, and v0.1.6 are unchanged. 0.1.7 was never published; its two fixes are in this release.
-
-### Fixed
-- **Import from Files works again for new files and Keep Both.** Since 0.1.6 both failed with "That folder is outside this app's data." An app's container is reported under `/private/var`, and the folder check only stripped that prefix for paths that already exist ([#4](https://github.com/pwnapplehat/EscapeOS/issues/4)).
-- **`InvalidHostID` now explains itself.** It means the device does not recognise EscapeOS's pairing file. The message used to blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS/issues/5)).
-- **Sharing a file can no longer delete EscapeOS's own data.** Share wrote into EscapeOS's Documents and replaced whatever had that name, so sharing a file called `Backups` or `pairingFile.plist` removed every backup or the pairing file. Shares now use a private temporary folder.
-
-### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3), [#4](https://github.com/pwnapplehat/EscapeOS/issues/4))
-- **Search Whole App** finds a file or folder by name anywhere in an app's data.
-- **Favorites** at the top of the Apps tab; they still open after an app is reinstalled.
-- **Replace / Keep Both / Cancel when pasting** a name that already exists. A folder is never replaced, a file is never replaced by itself, and Replace swaps the file in atomically so a failure leaves the original.
-- **Free-space check** before Compress, Share Zip, Duplicate, Paste, Import and Backup, with a clear message instead of a late failure.
-- **Share / Save to Files** on each backup.
-
-### Changed
-- **Deleting a file now asks first**, naming what will be deleted. Files can opt out with "Delete, Don't Ask Again" (Settings turns it back on); folders and backup archives always ask.
-
-Theos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.6. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.
-
-**Verification:** built for iOS; 200 automated checks of the path, paste, delete, search, favorites and free-space logic run against the real source; the changes were reviewed independently and its findings fixed. **This build was not run on a device**, so the screens (search, favorites, the paste and delete prompts) have not been seen on a phone.
-
-`EscapeOS-0.1.8.ipa` SHA-256:
-
-```
-d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269
-```]]></description>
-      <enclosure url="https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

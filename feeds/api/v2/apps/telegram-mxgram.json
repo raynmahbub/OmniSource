@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20",
-  "feedVersion": "d6462534e63c",
+  "generatedAt": "2026-10-21",
+  "feedVersion": "a6a5c8984bc5",
   "app": {
     "id": "telegram-mxgram",
     "name": "Telegram MxGram",
     "developer": "m1ronx1412 & IPA Vault",
     "subtitle": "Official Telegram with the MxGram tweak",
     "bundleIdentifier": "ph.telegra.Telegraph",
-    "version": "13.0",
-    "versionDate": "2026-10-09",
+    "version": "13.1",
+    "versionDate": "2026-10-20",
     "description": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
     "shortDescription": "Official Telegram with the MxGram tweak",
     "category": "social",
@@ -18,8 +18,8 @@
     ],
     "icon": "https://raynmahbub.github.io/OmniSource/assets/Telegram.webp",
     "screenshots": [],
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-    "size": 84011090,
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+    "size": 81155632,
     "source": "927tx/IPA-Vault",
     "sourceURL": "https://github.com/m1ronx1412/mxgram",
     "checksum": null,
@@ -30,30 +30,30 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/telegram-mxgram/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/telegram-mxgram.json",
     "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "updatedAt": "2026-10-09"
+      "reachable": true,
+      "detail": "HTTP 200",
+      "updatedAt": "2026-10-20"
     }
   },
   "newest": {
-    "version": "13.0",
-    "date": "2026-10-09",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-    "size": 84011090,
+    "version": "13.1",
+    "date": "2026-10-20",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+    "size": 81155632,
     "sha256": null
   },
   "versions": [
     {
-      "version": "13.0",
-      "date": "2026-10-09",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
-      "size": 84011090,
+      "version": "13.1",
+      "date": "2026-10-20",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+      "size": 81155632,
       "sha256": null
     }
   ],
   "verification": {
-    "status": "UNVERIFIED",
-    "level": "UNVERIFIED",
+    "status": "VERIFIED",
+    "level": "VERIFIED",
     "method": "altstore"
   }
 }
