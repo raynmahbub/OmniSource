@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T11:57:48Z",
+  "generatedAt": "2026-10-21T12:13:23Z",
   "appCount": 131,
-  "releases": 347,
+  "releases": 351,
   "apps": {
     "3105": [
       {
@@ -632,13 +632,23 @@
     ],
     "glow": [
       {
+        "version": "2026.42.0",
+        "date": "2026-10-20",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa",
+        "size": 149902625,
+        "sha256": "",
+        "localizedDescription": "Facebook 2026.42.0 | Reddit-2026.42.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.42.0",
+        "status": "current",
+        "firstSeen": "2026-10-21T12:13:23Z"
+      },
+      {
         "version": "2026.41.0",
         "date": "2026-10-13",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa",
         "size": 147412514,
         "sha256": "",
         "localizedDescription": "Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.41.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-14T12:15:35Z"
       },
       {
@@ -1608,13 +1618,23 @@
     ],
     "nuvio": [
       {
+        "version": "0.6.3",
+        "date": "2026-10-21",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
+        "size": 68815810,
+        "sha256": "90cccaa6bfe194c0567e0eb763a2aa65c2fd32ea84660eab18ef336b83558640",
+        "localizedDescription": "Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party): show the party's source as plain text @tapframe  \n- 37a6656a fix(player): keep center controls in place on pause @tapframe  \n- 344117e7 feat(player): show badges for what is playing @tapframe  \n- ebb17678 feat(party): chat from your phone with the same profile @tapframe  \n- 18268427 fix(player): move engine switch to top row with confirmation @tapframe  \n- [feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288)](https://github.com/NuvioMedia/NuvioMobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messages with the return key @tapframe  \n- [Update Hungarian translations (#2333)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix binge group initial state from stream args, apply custom posters in library see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) @skoruppa  \n- [i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/NuvioMobile/pull/2297) @blueocean2308",
+        "status": "current",
+        "firstSeen": "2026-10-21T12:13:23Z"
+      },
+      {
         "version": "0.6.2",
         "date": "2026-10-18",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa",
         "size": 68666779,
         "sha256": "99d318c5882d53ec644c09cbde852c6b45649cc20e8452f457e6e88b0bae5eb2",
         "localizedDescription": "Nuvio 0.6.2 | nuvio-0.6.2-full-release\n\n- b253a7c5 feat(party): add chat to watch parties @tapframe  \n- [Fix escaped apostrophes and missing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMobile/pull/2312) @WhiteGiso  \n- [fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMobile/pull/2308) @WhiteGiso  \n- [i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292)](https://github.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  \n- [Filename and infoHash matching for binge group, prefetch fixes (#2278)](https://github.com/NuvioMedia/NuvioMobile/pull/2278) @skoruppa",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-19T13:49:12Z"
       },
       {
@@ -2784,13 +2804,23 @@
     ],
     "telegram-mxgram": [
       {
+        "version": "13.1",
+        "date": "2026-10-20",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+        "size": 81155632,
+        "sha256": "",
+        "localizedDescription": "Telegram 13.1 | Telegram-13.1-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.1",
+        "status": "current",
+        "firstSeen": "2026-10-21T12:13:23Z"
+      },
+      {
         "version": "13.0",
         "date": "2026-10-09",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa",
         "size": 84011090,
         "sha256": "",
         "localizedDescription": "Telegram 13.0 | Telegram-13.0-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-09T13:38:00Z"
       },
       {
@@ -2816,13 +2846,23 @@
     ],
     "threadsaver": [
       {
+        "version": "452.1",
+        "date": "2026-10-20",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa",
+        "size": 113844763,
+        "sha256": "",
+        "localizedDescription": "Threads 452.1 | Threads-452.1-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 452.1",
+        "status": "current",
+        "firstSeen": "2026-10-21T12:13:23Z"
+      },
+      {
         "version": "452.0",
         "date": "2026-10-19",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.0-ThreadSaver.ipa",
         "size": 111173156,
         "sha256": "",
         "localizedDescription": "Threads 452.0 | Threads-452.0-ThreadSaver\n\nIPA Vault build for Threads (ThreadSaver), version 452.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-20T11:57:48Z"
       },
       {
