@@ -4,12 +4,12 @@
   "totals": {
     "apps": 131,
     "verified": 124,
-    "communityVerified": 1,
-    "unverified": 6,
+    "communityVerified": 0,
+    "unverified": 7,
     "hashVerified": 81,
     "official": 111,
     "communityBuilds": 20,
-    "avgTrustScore": 6.71,
+    "avgTrustScore": 6.7,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -2136,7 +2136,7 @@
         "official upstream (altstore)"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
-      "trustScore": 4.6,
+      "trustScore": 4.7,
       "trustBadge": "Experimental"
     },
     {
@@ -2751,7 +2751,7 @@
     {
       "app": "uyouenhanced",
       "name": "uYouEnhanced",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "method": "manual-mirror",
@@ -2759,15 +2759,15 @@
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": true,
+        "fileAvailable": false,
         "hashVerified": false
       },
       "reasons": [
-        "community package (manual-mirror) — build provenance is not the upstream developer"
+        "failed check: fileAvailable"
       ],
       "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
-      "trustScore": 5.0,
-      "trustBadge": "Community"
+      "trustScore": 3.0,
+      "trustBadge": "Experimental"
     }
   ]
 }
