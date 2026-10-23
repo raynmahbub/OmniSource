@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
-  "count": 131,
+  "generatedAt": "2026-10-23",
+  "count": 127,
   "baseURL": "https://raynmahbub.github.io/OmniSource",
   "apps": [
     {
       "id": "spotiflac",
       "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
+      "name": "Mornye",
       "developer": "zarzet",
-      "version": "5.2.1",
-      "releaseDate": "2026-10-20",
+      "version": "5.2.6",
+      "releaseDate": "2026-10-23",
       "category": "music",
       "categories": [
         "music"
@@ -18,31 +18,31 @@
       "tags": [
         "music"
       ],
-      "source": "spotiflacapp/SpotiFLAC-Mobile",
-      "sourceURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
+      "source": "mornyeapp/Mornye",
+      "sourceURL": "https://github.com/mornyeapp/Mornye",
       "bundleId": "com.zarz.spotiflacAndroid",
       "bundleIdentifier": "com.zarz.spotiflacAndroid",
-      "description": "SpotiFLAC Mobile is an open-source Spotify track and playlist metadata downloader and FLAC converter for iOS and Android. Search and download high-quality FLAC and MP3 audio with complete ID3 metadata, embedded album artwork, and synchronized lyrics directly on your device.",
-      "shortDescription": "FLAC Downloader for iOS",
+      "description": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
+      "shortDescription": "Local music library, FLAC player and tag editor",
       "icon": "SpotiFLAC.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/spotiflac/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/spotiflac.json",
-      "homepage": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
+      "homepage": "https://github.com/mornyeapp/Mornye",
       "status": "stable",
       "featured": true,
-      "size": 34515412,
-      "downloads": 111,
-      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
-      "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
+      "size": 35645397,
+      "downloads": 412,
+      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+      "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
       "minOSVersion": "16.0",
       "verificationMethod": "github-release",
-      "publisher": "spotiflacapp/SpotiFLAC-Mobile",
+      "publisher": "mornyeapp/Mornye",
       "checksumPublished": false,
       "health": {
         "reachable": true,
         "detail": "HTTP 302",
-        "updatedAt": "2026-10-20"
+        "updatedAt": "2026-10-23"
       }
     },
     {
@@ -50,8 +50,8 @@
       "slug": "uprovid",
       "name": "uProVid",
       "developer": "raynmahbub",
-      "version": "21.37.4",
-      "releaseDate": "2026-09-14",
+      "version": "21.39.4",
+      "releaseDate": "2026-10-03",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -72,18 +72,18 @@
       "homepage": "https://github.com/raynmahbub/OmniSource",
       "status": "manual",
       "featured": false,
-      "size": 131694546,
+      "size": 147923687,
       "downloads": 0,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
+      "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
       "sha256": null,
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "raynmahbub/OmniSource (Tweak Factory)",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-09-14"
+        "reachable": true,
+        "detail": "HTTP 302",
+        "updatedAt": "2026-10-03"
       }
     },
     {
@@ -132,8 +132,8 @@
       "slug": "ytlite",
       "name": "YouTubePlus",
       "developer": "dayanch96",
-      "version": "21.41.5",
-      "releaseDate": "2026-10-11",
+      "version": "21.42.4",
+      "releaseDate": "2026-10-22",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -154,10 +154,10 @@
       "homepage": "https://github.com/Dayanch96/YTLite",
       "status": "stable",
       "featured": true,
-      "size": 149026282,
-      "downloads": 6791,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
-      "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
+      "size": 149834006,
+      "downloads": 8038,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
+      "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
       "minOSVersion": "16.0",
       "verificationMethod": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
@@ -165,7 +165,7 @@
       "health": {
         "reachable": true,
         "detail": "HTTP 302",
-        "updatedAt": "2026-10-11"
+        "updatedAt": "2026-10-22"
       }
     },
     {
@@ -173,8 +173,8 @@
       "slug": "youpro",
       "name": "YouPro",
       "developer": "alibusut",
-      "version": "21.41.5",
-      "releaseDate": "2026-10-11",
+      "version": "21.42.4",
+      "releaseDate": "2026-10-22",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -195,10 +195,10 @@
       "homepage": "https://github.com/mrdrvt99/YouProEXTRA",
       "status": "stable",
       "featured": true,
-      "size": 130721602,
-      "downloads": 11,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
-      "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
+      "size": 131280986,
+      "downloads": 199,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
+      "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
       "minOSVersion": "16.0",
       "verificationMethod": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
@@ -206,7 +206,7 @@
       "health": {
         "reachable": true,
         "detail": "HTTP 302",
-        "updatedAt": "2026-10-11"
+        "updatedAt": "2026-10-22"
       }
     },
     {
@@ -296,8 +296,8 @@
       "slug": "youmod",
       "name": "YouMod",
       "developer": "Tonwalter888",
-      "version": "21.41.5",
-      "releaseDate": "2026-10-11",
+      "version": "21.42.4",
+      "releaseDate": "2026-10-22",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -318,10 +318,10 @@
       "homepage": "https://github.com/Tonwalter888/YouMod",
       "status": "stable",
       "featured": true,
-      "size": 130590630,
-      "downloads": 9,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
-      "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
+      "size": 131398144,
+      "downloads": 120,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
+      "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
@@ -329,7 +329,7 @@
       "health": {
         "reachable": true,
         "detail": "HTTP 302",
-        "updatedAt": "2026-10-11"
+        "updatedAt": "2026-10-22"
       }
     },
     {
@@ -1084,8 +1084,8 @@
       "tags": [
         "photo-video"
       ],
-      "source": "fredrikburmester/streamyfin",
-      "sourceURL": "https://github.com/fredrikburmester/streamyfin",
+      "source": "streamyfin/streamyfin",
+      "sourceURL": "https://github.com/streamyfin/streamyfin",
       "bundleId": "com.fredrikburmester.streamyfin",
       "bundleIdentifier": "com.fredrikburmester.streamyfin",
       "description": "Streamyfin is an open-source Jellyfin client for iPhone and iPad built with Expo and React Native. Stream your Jellyfin server's library with offline downloads, background audio, Picture in Picture, Chromecast, intro skipping, live TV, and an optional MPV-based player — no server plugins required.",
@@ -1094,16 +1094,16 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Streamyfin.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/streamyfin/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/streamyfin.json",
-      "homepage": "https://github.com/fredrikburmester/streamyfin",
+      "homepage": "https://github.com/streamyfin/streamyfin",
       "status": "stable",
       "featured": false,
       "size": 73761532,
-      "downloads": 67,
+      "downloads": 94,
       "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
       "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
       "minOSVersion": "16.4",
       "verificationMethod": "github-release",
-      "publisher": "fredrikburmester/streamyfin",
+      "publisher": "streamyfin/streamyfin",
       "checksumPublished": false,
       "health": {
         "reachable": true,
@@ -1125,8 +1125,8 @@
       "tags": [
         "music"
       ],
-      "source": "KRTirtho/spotube",
-      "sourceURL": "https://github.com/KRTirtho/spotube",
+      "source": "team-spotube/spotube",
+      "sourceURL": "https://github.com/team-spotube/spotube",
       "bundleId": "oss.krtirtho.spotube.stable",
       "bundleIdentifier": "oss.krtirtho.spotube.stable",
       "description": "Spotube is an open-source, cross-platform music streaming client that combines Spotify's metadata — your playlists, albums, liked songs and recommendations — with community audio sources, so you can play your whole Spotify library without ads or telemetry. Includes lyrics and a plugin system for extending playback sources.",
@@ -1135,16 +1135,16 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Spotube.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/spotube/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/spotube.json",
-      "homepage": "https://github.com/KRTirtho/spotube",
+      "homepage": "https://github.com/team-spotube/spotube",
       "status": "stable",
       "featured": false,
       "size": 34853093,
-      "downloads": 16105,
+      "downloads": 19675,
       "downloadURL": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
       "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
-      "publisher": "KRTirtho/spotube",
+      "publisher": "team-spotube/spotube",
       "checksumPublished": true,
       "health": {
         "reachable": true,
@@ -1918,7 +1918,7 @@
       "status": "stable",
       "featured": false,
       "size": 45123011,
-      "downloads": 1,
+      "downloads": 117,
       "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
       "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
       "minOSVersion": "16.0",
@@ -2806,8 +2806,8 @@
       "tags": [
         "utilities"
       ],
-      "source": "roothide/Dopamine2-roothide",
-      "sourceURL": "https://github.com/roothide/Dopamine2-roothide",
+      "source": "roothide/Dopamine-roothide",
+      "sourceURL": "https://github.com/roothide/Dopamine-roothide",
       "bundleId": "com.opa334.Dopamine-roothide",
       "bundleIdentifier": "com.opa334.Dopamine-roothide",
       "description": "Dopamine (RootHide) is roothide's hardened Dopamine 2 build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
@@ -2816,16 +2816,16 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/DopamineRootHide.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/dopamine-roothide/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/dopamine-roothide.json",
-      "homepage": "https://github.com/roothide/Dopamine2-roothide",
+      "homepage": "https://github.com/roothide/Dopamine-roothide",
       "status": "stable",
       "featured": false,
       "size": 54863273,
-      "downloads": 22318,
+      "downloads": 26394,
       "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
       "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
-      "publisher": "roothide/Dopamine2-roothide",
+      "publisher": "roothide/Dopamine-roothide",
       "checksumPublished": false,
       "health": {
         "reachable": true,
@@ -2888,8 +2888,8 @@
       "tags": [
         "utilities"
       ],
-      "source": "mineek/Serotonin",
-      "sourceURL": "https://github.com/mineek/Serotonin",
+      "source": "SerotoninApp/Serotonin",
+      "sourceURL": "https://github.com/SerotoninApp/Serotonin",
       "bundleId": "pisshill.usprebooter",
       "bundleIdentifier": "pisshill.usprebooter",
       "description": "Serotonin is a semi-untethered 'semi-jailbreak' for iOS 16.5.1 through 16.7 RC and iOS 17.0 on arm64e devices. Built on the Fugu15 code base, it gives you tweak injection and a Procursus bootstrap without a full jailbreak: tweaks load into the apps you patch, and the device keeps working normally everywhere else.",
@@ -2898,16 +2898,16 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Serotonin.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/serotonin/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/serotonin.json",
-      "homepage": "https://github.com/mineek/Serotonin",
+      "homepage": "https://github.com/SerotoninApp/Serotonin",
       "status": "unmaintained",
       "featured": false,
       "size": 14986482,
-      "downloads": 51809,
+      "downloads": 52439,
       "downloadURL": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
       "sha256": null,
       "minOSVersion": "16.5.1",
       "verificationMethod": "github-release",
-      "publisher": "mineek/Serotonin",
+      "publisher": "SerotoninApp/Serotonin",
       "checksumPublished": false,
       "health": {
         "reachable": true,
@@ -3736,47 +3736,6 @@
       }
     },
     {
-      "id": "playtorrio",
-      "slug": "playtorrio",
-      "name": "PlayTorrio",
-      "developer": "ayman708",
-      "version": "1.1.6",
-      "releaseDate": "2026-09-16",
-      "category": "photo-video",
-      "categories": [
-        "photo-video"
-      ],
-      "tags": [
-        "photo-video"
-      ],
-      "source": "ayman708-UX/PlayTorrioV3",
-      "sourceURL": "https://github.com/ayman708-UX/PlayTorrioV3",
-      "bundleId": "com.example.playtorrio",
-      "bundleIdentifier": "com.example.playtorrio",
-      "description": "PlayTorrio is a movies, TV and anime streaming client for iOS. It aggregates content into a browsable home-screen library with a native player.",
-      "shortDescription": "Streaming client",
-      "icon": "PlayTorrio.webp",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/PlayTorrio.webp",
-      "pageURL": "https://raynmahbub.github.io/OmniSource/apps/playtorrio/",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/playtorrio.json",
-      "homepage": "https://github.com/ayman708-UX/PlayTorrioV3",
-      "status": "stable",
-      "featured": false,
-      "size": 48685274,
-      "downloads": 3993,
-      "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-      "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-      "minOSVersion": "14.0",
-      "verificationMethod": "github-release",
-      "publisher": "ayman708-UX/PlayTorrioV3",
-      "checksumPublished": false,
-      "health": {
-        "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-09-16"
-      }
-    },
-    {
       "id": "mangayomi",
       "slug": "mangayomi",
       "name": "Mangayomi",
@@ -3820,7 +3779,7 @@
     {
       "id": "nebuloiptv",
       "slug": "nebuloiptv",
-      "name": "Nebulo",
+      "name": "Onside TV",
       "developer": "mongoosemonke504",
       "version": "3.0.0",
       "releaseDate": "2026-09-28",
@@ -3831,26 +3790,26 @@
       "tags": [
         "photo-video"
       ],
-      "source": "mongoosemonke504/NebuloIPTV",
-      "sourceURL": "https://github.com/mongoosemonke504/NebuloIPTV",
+      "source": "mongoosemonke504/OnsideTV",
+      "sourceURL": "https://github.com/mongoosemonke504/OnsideTV",
       "bundleId": "personal.Nebulo-V2-3",
       "bundleIdentifier": "personal.Nebulo-V2-3",
-      "description": "Nebulo is a clean IPTV player for iOS with a built-in sports score center. Load your M3U playlists and watch live channels with a simple, focused interface.",
-      "shortDescription": "IPTV player",
+      "description": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
+      "shortDescription": "IPTV player with built-in sports scores",
       "icon": "Nebulo.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/nebuloiptv/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/nebuloiptv.json",
-      "homepage": "https://github.com/mongoosemonke504/NebuloIPTV",
+      "homepage": "https://github.com/mongoosemonke504/OnsideTV",
       "status": "stable",
       "featured": false,
       "size": 51168260,
-      "downloads": 150,
+      "downloads": 772,
       "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
       "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
       "minOSVersion": "26.0",
       "verificationMethod": "github-release",
-      "publisher": "mongoosemonke504/NebuloIPTV",
+      "publisher": "mongoosemonke504/OnsideTV",
       "checksumPublished": false,
       "health": {
         "reachable": true,
@@ -4036,8 +3995,8 @@
       "tags": [
         "networking"
       ],
-      "source": "guardianproject/orbot-ios",
-      "sourceURL": "https://github.com/guardianproject/orbot-ios",
+      "source": "guardianproject/orbot-apple",
+      "sourceURL": "https://github.com/guardianproject/orbot-apple",
       "bundleId": "org.torproject.orbot",
       "bundleIdentifier": "org.torproject.orbot",
       "description": "Orbot puts an iPhone, iPad or Mac behind the Tor network: it installs a local packet-tunnel configuration so device traffic leaves through Tor instead of the plain network. Obfs4 and Snowflake bridges are supported and fully configurable, Tor v3 onion-service authentication works, and Tor's EntryNodes, ExitNodes, ExcludeNodes and StrictNodes options can all be set. The sideloadable build is published from the project's own GitHub releases, which list the bundled Tor, OpenSSL, Lyrebird and Snowflake versions per app release.",
@@ -4046,16 +4005,16 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Orbot.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/orbot/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/orbot.json",
-      "homepage": "https://github.com/guardianproject/orbot-ios",
+      "homepage": "https://github.com/guardianproject/orbot-apple",
       "status": "stable",
       "featured": false,
       "size": 51331248,
-      "downloads": 6,
+      "downloads": 234,
       "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
       "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
-      "publisher": "guardianproject/orbot-ios",
+      "publisher": "guardianproject/orbot-apple",
       "checksumPublished": false,
       "health": {
         "reachable": true,
@@ -4392,88 +4351,6 @@
       }
     },
     {
-      "id": "jaility",
-      "slug": "jaility",
-      "name": "Jaility",
-      "developer": "haxi0",
-      "version": "3.1.1",
-      "releaseDate": "2022-11-12",
-      "category": "utilities",
-      "categories": [
-        "utilities"
-      ],
-      "tags": [
-        "utilities"
-      ],
-      "source": "haxi0/Jaility",
-      "sourceURL": "https://github.com/haxi0/Jaility",
-      "bundleId": "org.haxi0.Jaility",
-      "bundleIdentifier": "org.haxi0.Jaility",
-      "description": "Jaility is a simple iOS supercharger to be used with TrollStore. It keeps your device unlocked after a respring and adds supervision for extra control.",
-      "shortDescription": "TrollStore supercharger and supervision",
-      "icon": "Jaility.webp",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Jaility.webp",
-      "pageURL": "https://raynmahbub.github.io/OmniSource/apps/jaility/",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/jaility.json",
-      "homepage": "https://github.com/haxi0/Jaility",
-      "status": "unmaintained",
-      "featured": false,
-      "size": 108606,
-      "downloads": 19568,
-      "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "sha256": null,
-      "minOSVersion": "14.0",
-      "verificationMethod": "github-release",
-      "publisher": "haxi0/Jaility",
-      "checksumPublished": false,
-      "health": {
-        "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2022-11-12"
-      }
-    },
-    {
-      "id": "killmyota",
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "developer": "haxi0",
-      "version": "1.1",
-      "releaseDate": "2023-01-30",
-      "category": "utilities",
-      "categories": [
-        "utilities"
-      ],
-      "tags": [
-        "utilities"
-      ],
-      "source": "haxi0/KillMyOTA",
-      "sourceURL": "https://github.com/haxi0/KillMyOTA",
-      "bundleId": "org.haxi0.KillMyOTA",
-      "bundleIdentifier": "org.haxi0.KillMyOTA",
-      "description": "KillMyOTA enables or disables over-the-air iOS updates on jailbreak devices running iOS 15.0 to 16.1.2 - open the app and toggle updates on or off.",
-      "shortDescription": "Toggle OTA updates on iOS 15-16.1.2",
-      "icon": "KillMyOTA.webp",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/KillMyOTA.webp",
-      "pageURL": "https://raynmahbub.github.io/OmniSource/apps/killmyota/",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/killmyota.json",
-      "homepage": "https://github.com/haxi0/KillMyOTA",
-      "status": "unmaintained",
-      "featured": false,
-      "size": 339440,
-      "downloads": 18430,
-      "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "sha256": null,
-      "minOSVersion": "15.0",
-      "verificationMethod": "github-release",
-      "publisher": "haxi0/KillMyOTA",
-      "checksumPublished": false,
-      "health": {
-        "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2023-01-30"
-      }
-    },
-    {
       "id": "trollinstallerx",
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
@@ -4512,47 +4389,6 @@
         "reachable": true,
         "detail": "HTTP 302",
         "updatedAt": "2024-09-12"
-      }
-    },
-    {
-      "id": "trollboard-reborn",
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "developer": "haxi0",
-      "version": "1.0",
-      "releaseDate": "2023-12-05",
-      "category": "utilities",
-      "categories": [
-        "utilities"
-      ],
-      "tags": [
-        "utilities"
-      ],
-      "source": "haxi0/TrollBoard-Reborn",
-      "sourceURL": "https://github.com/haxi0/TrollBoard-Reborn",
-      "bundleId": "com.haxi0.TrollBoard-Reborn",
-      "bundleIdentifier": "com.haxi0.TrollBoard-Reborn",
-      "description": "TrollBoard Reborn is a WebClips icon pack manager - a theming engine for your home screen that runs with TrollStore on iOS 15 to 16.1.2.",
-      "shortDescription": "Web Clips icon manager for TrollStore",
-      "icon": "TrollBoardReborn.webp",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/TrollBoardReborn.webp",
-      "pageURL": "https://raynmahbub.github.io/OmniSource/apps/trollboard-reborn/",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/trollboard-reborn.json",
-      "homepage": "https://github.com/haxi0/TrollBoard-Reborn",
-      "status": "unmaintained",
-      "featured": false,
-      "size": 542040,
-      "downloads": 14525,
-      "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "sha256": null,
-      "minOSVersion": "15.0",
-      "verificationMethod": "github-release",
-      "publisher": "haxi0/TrollBoard-Reborn",
-      "checksumPublished": false,
-      "health": {
-        "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2023-12-05"
       }
     },
     {
@@ -5175,8 +5011,8 @@
       "slug": "cercube",
       "name": "Cercube for YouTube",
       "developer": "Cercube",
-      "version": "6.1.3",
-      "releaseDate": "2026-09-18",
+      "version": "6.4.2",
+      "releaseDate": "2026-10-23",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -5197,18 +5033,18 @@
       "homepage": "https://cercube.com",
       "status": "stable",
       "featured": false,
-      "size": 2017412,
+      "size": 2056048,
       "downloads": 0,
-      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-      "sha256": null,
+      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+      "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
       "minOSVersion": "15.0",
       "verificationMethod": "altstore",
       "publisher": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
       "checksumPublished": true,
       "health": {
-        "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-09-18"
+        "reachable": true,
+        "detail": "HTTP 200",
+        "updatedAt": "2026-10-23"
       }
     },
     {

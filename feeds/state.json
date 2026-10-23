@@ -708,13 +708,13 @@
   },
   "analyticsHistory": [
     {
-      "date": "2026-10-21",
-      "apps": 131,
-      "sources": 114,
-      "verified": 124,
-      "deadLinks": 7,
+      "date": "2026-10-23",
+      "apps": 127,
+      "sources": 110,
+      "verified": 126,
+      "deadLinks": 1,
       "newThisWeek": 0,
-      "updatedThisWeek": 38
+      "updatedThisWeek": 36
     }
   ],
   "animationspeed": {
@@ -4820,25 +4820,26 @@
     "lastResolvedSource": "manual",
     "versions": [
       {
-        "version": "6.1.3",
-        "date": "2026-09-18",
-        "localizedDescription": "Cercube for YouTube 6.1.3 - the current official release (verified against apt.cercube.com on 2026-09-18).\n\nThis release improves caching, ad blocking, and compatibility with older iOS versions.\n- Added compatibility for iOS 15-16\n- Minor bug fixes and improvements\n\nPreviously: 6.1.2 added dislike counts, sponsored segment skipping and 14 languages; 6.0.1 added compatibility for recent iOS versions.",
-        "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+        "version": "6.4.2",
+        "date": "2026-10-23",
+        "localizedDescription": "Cercube for YouTube 6.4.2 - the current official release (verified against apt.cercube.com on 2026-10-23).\n\nThis release improves the player layout for right-to-left languages.\n- Fixed the positioning and order of Cercube and player action buttons in right-to-left layouts.\n\nPreviously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.",
+        "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
         "fallbackDownloadURLs": [
-          "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm.deb",
-          "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64e.deb"
+          "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+          "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
         ],
-        "size": 2017412,
+        "size": 2056048,
+        "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
         "minOSVersion": "15.0"
       }
     ],
-    "syncedAt": "2026-09-17",
+    "syncedAt": "2026-10-23",
     "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
+      "reachable": true,
+      "detail": "HTTP 200",
+      "since": "2026-10-23",
       "latencyMs": 206,
-      "measuredAt": "2026-10-21",
-      "since": "2026-10-01"
+      "measuredAt": "2026-10-23"
     },
     "healthHistory": [
       {
@@ -5579,7 +5580,7 @@
             "fileType": "APK",
             "size": 97324692,
             "sha256": "8ead0361499d3099aebb2a8f6fc599422172b35a1162c239dc0f40cb2852c3cf",
-            "downloads": 106,
+            "downloads": 1613,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -5591,7 +5592,7 @@
             "fileType": "APK",
             "size": 85034470,
             "sha256": "606914599b5c149c5e4fd5d1b5820aef69a3207d8f17ed140f7e0a78023b6f28",
-            "downloads": 2,
+            "downloads": 20,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -5603,7 +5604,7 @@
             "fileType": "AAB",
             "size": 142433670,
             "sha256": "1b49965a4548c3ae395b38b41f4a95cd3423203b6fac11ee9dcbc098d20c8427",
-            "downloads": 1,
+            "downloads": 5,
             "mimeType": "raw",
             "installable": true
           },
@@ -5615,16 +5616,16 @@
             "fileType": "IPA",
             "size": 45123011,
             "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
-            "downloads": 1,
+            "downloads": 117,
             "mimeType": "raw",
             "installable": true
           }
         ],
         "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
-        "downloads": 1
+        "downloads": 117
       }
     ],
-    "syncedAt": "2026-10-16",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -7055,7 +7056,7 @@
   },
   "dopamine-roothide": {
     "retryCount": 0,
-    "lastResolvedSource": "github:roothide/Dopamine2-roothide",
+    "lastResolvedSource": "github:roothide/Dopamine-roothide",
     "versions": [
       {
         "version": "2.4.9.27",
@@ -7077,7 +7078,7 @@
             "fileType": "IPA",
             "size": 54863273,
             "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-            "downloads": 22318,
+            "downloads": 26394,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -7089,16 +7090,16 @@
             "fileType": "IPA",
             "size": 54863273,
             "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-            "downloads": 7795,
+            "downloads": 9087,
             "mimeType": "application/trollstore-ipa",
             "installable": true
           }
         ],
         "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-        "downloads": 22318
+        "downloads": 26394
       }
     ],
-    "syncedAt": "2026-10-16",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -11626,242 +11627,6 @@
       "durationMs": 393
     }
   },
-  "jaility": {
-    "retryCount": 73,
-    "lastResolvedSource": "github:haxi0/Jaility",
-    "versions": [
-      {
-        "version": "3.1.1",
-        "date": "2022-11-12",
-        "localizedDescription": "Jaility 3.1.1 | Jaility-3.1.1\n\n- Theming removed\n- Jaility is cancelled. No more major additions like Theming and etc. Some tweaks might be added in the future if they are found. This doesn't mean Jaility is dead and stuff, I'm just not feeling like adding new major features because tools like TrollTools and others exist.",
-        "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-        "size": 108606,
-        "minOSVersion": "14.0",
-        "releaseUrl": "https://github.com/haxi0/Jaility/releases/tag/3.1.1",
-        "source": "github",
-        "isPrerelease": false,
-        "isDraft": false,
-        "assets": [
-          {
-            "filename": "Jaility-3.1.1.ipa",
-            "downloadUrl": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 108606,
-            "sha256": null,
-            "downloads": 19568,
-            "mimeType": "application/octet-stream",
-            "installable": true
-          }
-        ],
-        "downloads": 19568
-      }
-    ],
-    "syncedAt": "2026-09-18",
-    "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "latencyMs": 186,
-      "measuredAt": "2026-10-21",
-      "since": "2026-10-01"
-    },
-    "healthHistory": [
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 114,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 237,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 295,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 166,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 299,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 304,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 387,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 249,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 181,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 171,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 282,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 374,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 334,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 268,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 292,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 222,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 223,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 269,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 150,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 222,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 206,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 225,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 223,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 230,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 130,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 218,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 259,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 290,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 290,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 186,
-        "detail": "HTTP 404"
-      }
-    ],
-    "lastFullVerification": {
-      "expectedSha256": null,
-      "expectedSha512": null,
-      "expectedSize": 108606,
-      "size": 108606,
-      "sha256": "54b98b5931345e4076c86161da193f7329da9fe6106c92c9c5d630b06b1e4503",
-      "sha512": "8777926bacbf0ed3f1bb874dbf4c1e398b53fe4662f1ce2463eae85b4ffc71b011f092c76e1a21d869eaf84c0fcf546d2cad34185b252f36a82bd37beb828b29",
-      "ok": true,
-      "detail": "ok",
-      "at": "2026-09-21",
-      "durationMs": 376
-    },
-    "lastError": "all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
-  },
   "jellify": {
     "retryCount": 0,
     "lastResolvedSource": "github:Jellify-Music/App",
@@ -12524,242 +12289,6 @@
       "at": "2026-09-21",
       "durationMs": 523
     }
-  },
-  "killmyota": {
-    "retryCount": 73,
-    "lastResolvedSource": "github:haxi0/KillMyOTA",
-    "versions": [
-      {
-        "version": "1.1",
-        "date": "2023-01-30",
-        "localizedDescription": "KillMyOTA 1.1 | KillMyOTA-1.1\n\n- The button doesn't appear as \"enable OTA\" or \"disable OTA\" momentally when you launch the app. This was made to fix some issues.",
-        "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-        "size": 339440,
-        "minOSVersion": "15.0",
-        "releaseUrl": "https://github.com/haxi0/KillMyOTA/releases/tag/1.1",
-        "source": "github",
-        "isPrerelease": false,
-        "isDraft": false,
-        "assets": [
-          {
-            "filename": "KillMyOTA-1.1.ipa",
-            "downloadUrl": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 339440,
-            "sha256": null,
-            "downloads": 18430,
-            "mimeType": "application/octet-stream",
-            "installable": true
-          }
-        ],
-        "downloads": 18430
-      }
-    ],
-    "syncedAt": "2026-09-18",
-    "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "latencyMs": 157,
-      "measuredAt": "2026-10-21",
-      "since": "2026-10-01"
-    },
-    "healthHistory": [
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 168,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 266,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 261,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 240,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 234,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 312,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 290,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 237,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 202,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 189,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 278,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 213,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 270,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 271,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 303,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 217,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 228,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 272,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 150,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 226,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 194,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 265,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 243,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 194,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 213,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 200,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 258,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 193,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 278,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 157,
-        "detail": "HTTP 404"
-      }
-    ],
-    "lastFullVerification": {
-      "expectedSha256": null,
-      "expectedSha512": null,
-      "expectedSize": 339440,
-      "size": 339440,
-      "sha256": "dde09186162f539fabcc3641296db387757cc756475b2ca8ada4fa72c48cbf6a",
-      "sha512": "364b26c20169284372645b9fda97120bd53da32eba445b89da587766ca229de4f4a0532bce17adf1a435129e8a96216173a4c6ef47aa70a0f42eb333db105539",
-      "ok": true,
-      "detail": "ok",
-      "at": "2026-09-21",
-      "durationMs": 334
-    },
-    "lastError": "all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
   },
   "ksign": {
     "retryCount": 0,
@@ -16371,12 +15900,12 @@
   },
   "nebuloiptv": {
     "retryCount": 0,
-    "lastResolvedSource": "github:mongoosemonke504/NebuloIPTV",
+    "lastResolvedSource": "github:mongoosemonke504/OnsideTV",
     "versions": [
       {
         "version": "3.0.0",
         "date": "2026-09-28",
-        "localizedDescription": "Nebulo 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
+        "localizedDescription": "Onside TV 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
         "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
         "size": 51168260,
         "minOSVersion": "26.0",
@@ -16393,16 +15922,16 @@
             "fileType": "IPA",
             "size": 51168260,
             "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-            "downloads": 150,
+            "downloads": 772,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-        "downloads": 150
+        "downloads": 772
       }
     ],
-    "syncedAt": "2026-10-05",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -18091,7 +17620,7 @@
   },
   "orbot": {
     "retryCount": 0,
-    "lastResolvedSource": "github:guardianproject/orbot-ios",
+    "lastResolvedSource": "github:guardianproject/orbot-apple",
     "versions": [
       {
         "version": "1.14.0",
@@ -18113,7 +17642,7 @@
             "fileType": "IPA",
             "size": 51331248,
             "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-            "downloads": 6,
+            "downloads": 234,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -18125,16 +17654,16 @@
             "fileType": "other",
             "size": 69964087,
             "sha256": "5ab7626e2648d48788b711c3525f6f9ae517e04ca90e4f32b52358b31a0c192e",
-            "downloads": 6,
+            "downloads": 99,
             "mimeType": "application/octet-stream",
             "installable": false
           }
         ],
         "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-        "downloads": 6
+        "downloads": 234
       }
     ],
-    "syncedAt": "2026-10-13",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -18928,363 +18457,6 @@
       "at": "2026-09-21",
       "durationMs": 685
     }
-  },
-  "playtorrio": {
-    "retryCount": 34,
-    "lastResolvedSource": "github:ayman708-UX/PlayTorrioV3",
-    "versions": [
-      {
-        "version": "1.1.6",
-        "date": "2026-09-16",
-        "localizedDescription": "PlayTorrio 1.1.6 | PlayTorrio-iOS\n\nCloudstream extenstion support added\nUI Fixes\nMultistream added in iptv\nCustom channels added in iptv\nnew sources\nPlayer fixes\nMacOS Torrent streaming fixed\nMobile player audio, brightness control and screen lock added\nGeneral fixes and improvements",
-        "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-        "size": 48685274,
-        "minOSVersion": "14.0",
-        "releaseUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/tag/v1.1.6",
-        "source": "github",
-        "isPrerelease": false,
-        "isDraft": false,
-        "assets": [
-          {
-            "filename": "app-arm64-v8a-release.apk",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/app-arm64-v8a-release.apk",
-            "platform": "android",
-            "architecture": "arm64",
-            "fileType": "APK",
-            "size": 50915362,
-            "sha256": "a8969bddf0c4adddec8b18601234df430bcad02883048f192e6d9bb77c696bde",
-            "downloads": 35047,
-            "mimeType": "application/vnd.android.package-archive",
-            "installable": true
-          },
-          {
-            "filename": "app-armeabi-v7a-release.apk",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/app-armeabi-v7a-release.apk",
-            "platform": "android",
-            "architecture": "armv7",
-            "fileType": "APK",
-            "size": 49932594,
-            "sha256": "984264555f472ce5c4d39dcb7d0e6292eb201dde13a80fbfbb93f3a75b28d2ff",
-            "downloads": 7331,
-            "mimeType": "application/vnd.android.package-archive",
-            "installable": true
-          },
-          {
-            "filename": "PlayTorrio-iOS.ipa",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 48685274,
-            "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-            "downloads": 3993,
-            "mimeType": "application/octet-stream",
-            "installable": true
-          },
-          {
-            "filename": "PlayTorrio-Linux-x86_64.AppImage",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Linux-x86_64.AppImage",
-            "platform": "linux",
-            "architecture": "x86_64",
-            "fileType": "AppImage",
-            "size": 59009528,
-            "sha256": "9445092ae52377fb0eb58842ca6e2f654d1a5ce01a5805f5d3d96409cd85c4a4",
-            "downloads": 1688,
-            "mimeType": "application/octet-stream",
-            "installable": true
-          },
-          {
-            "filename": "PlayTorrio-Linux-x86_64.tar.gz",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Linux-x86_64.tar.gz",
-            "platform": "linux",
-            "architecture": "x86_64",
-            "fileType": "other",
-            "size": 63145560,
-            "sha256": "50dc04050c4382eda1c50a16b7d069ef3004ee97ceb5cf9b665f6f669c5338cc",
-            "downloads": 222,
-            "mimeType": "application/gzip",
-            "installable": false
-          },
-          {
-            "filename": "PlayTorrio-macOS-arm64.dmg",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-arm64.dmg",
-            "platform": "macos",
-            "architecture": "arm64",
-            "fileType": "DMG",
-            "size": 87341259,
-            "sha256": "9ef71f49a31a391b495ab5581ca3394e4abb7edc05c4765997eeab9d65032b51",
-            "downloads": 2279,
-            "mimeType": "application/x-apple-diskimage",
-            "installable": true
-          },
-          {
-            "filename": "PlayTorrio-macOS-arm64.zip",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-arm64.zip",
-            "platform": "macos",
-            "architecture": "arm64",
-            "fileType": "ZIP",
-            "size": 77604571,
-            "sha256": "67a4fd1800252d0265f0b83390e756c64eb766e6dfa2928177aa24804e6e966d",
-            "downloads": 225,
-            "mimeType": "application/zip",
-            "installable": false
-          },
-          {
-            "filename": "PlayTorrio-macOS-intel.dmg",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-intel.dmg",
-            "platform": "macos",
-            "architecture": null,
-            "fileType": "DMG",
-            "size": 89072889,
-            "sha256": "fc2362c101c25b44243a45cc6b916a489c5f23632db18ddb0d64e3b19bc96b14",
-            "downloads": 248,
-            "mimeType": "application/x-apple-diskimage",
-            "installable": true
-          },
-          {
-            "filename": "PlayTorrio-macOS-intel.zip",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-intel.zip",
-            "platform": "macos",
-            "architecture": null,
-            "fileType": "ZIP",
-            "size": 78428082,
-            "sha256": "b27bbbad846271853abc7f4c51656069beed42c462a8ca4017acffd2da6cc95b",
-            "downloads": 182,
-            "mimeType": "application/zip",
-            "installable": false
-          },
-          {
-            "filename": "PlayTorrio-Windows-Setup.exe",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Windows-Setup.exe",
-            "platform": "windows",
-            "architecture": null,
-            "fileType": "EXE",
-            "size": 48765353,
-            "sha256": "92f5c5f585a3deb4427b1dc3a03e0c40f80f285f0e76a074ddabf1d0be6472e0",
-            "downloads": 12584,
-            "mimeType": "application/x-msdos-program",
-            "installable": true
-          },
-          {
-            "filename": "PlayTorrio-Windows-x64-Portable.zip",
-            "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Windows-x64-Portable.zip",
-            "platform": "windows",
-            "architecture": null,
-            "fileType": "ZIP",
-            "size": 65151673,
-            "sha256": "c7643cc160142c63f1b6b76e079d710e553777bdc946427b9a07d237840b383f",
-            "downloads": 773,
-            "mimeType": "application/zip",
-            "installable": false
-          }
-        ],
-        "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-        "downloads": 3993
-      }
-    ],
-    "syncedAt": "2026-10-05",
-    "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "latencyMs": 142,
-      "measuredAt": "2026-10-21",
-      "since": "2026-10-12"
-    },
-    "healthHistory": [
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 82,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 208,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 283,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 187,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 140,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 255,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 312,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 188,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 197,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 150,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 233,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 173,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 246,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 237,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 248,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 184,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 190,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 216,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 118,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 203,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 147,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 197,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 330,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 193,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 156,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 175,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 291,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 219,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 244,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 142,
-        "detail": "HTTP 404"
-      }
-    ],
-    "lastFullVerification": {
-      "expectedSha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-      "expectedSha512": null,
-      "expectedSize": 48685274,
-      "size": 48685274,
-      "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-      "sha512": "6469a5ffd6c2d4d8f38064e8f7008916d4eeeee4e50c83c101fa2f85665d1b5d2f8013eb0108804f14d855873f4a807ac7aee27e3451c8e1e04edcbbfa6059ec",
-      "ok": true,
-      "detail": "ok",
-      "at": "2026-09-21",
-      "durationMs": 547
-    },
-    "lastError": "all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
   },
   "pocketposter": {
     "retryCount": 0,
@@ -23503,7 +22675,7 @@
   },
   "serotonin": {
     "retryCount": 0,
-    "lastResolvedSource": "github:mineek/Serotonin",
+    "lastResolvedSource": "github:SerotoninApp/Serotonin",
     "versions": [
       {
         "version": "1.2.1",
@@ -23525,15 +22697,15 @@
             "fileType": "IPA",
             "size": 14986482,
             "sha256": null,
-            "downloads": 51809,
+            "downloads": 52439,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "downloads": 51809
+        "downloads": 52439
       }
     ],
-    "syncedAt": "2026-10-05",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -24718,95 +23890,95 @@
     "retryCount": 0,
     "versions": [
       {
-        "version": "5.2.1",
-        "date": "2026-10-20",
-        "localizedDescription": "SpotiFLAC 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n\n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding**: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mornye logo across the app\n- **branding**: Rename app and native backend to Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- **playback**: Add normalization pre-amp and track or album gain\n- **ui**: Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- **crash**: Reduce repeated notices and retain diagnostics\n- **player**: Prefer embedded art for local files over online covers\n- **startup**: Wait for the Activity before backend startup calls\n- **library**: Use path index for network scan cache lookups\n- **ui**: Align Material screens with the design guide\n- **concerts**: Give the Material concert page a Material layout\n- **player**: Refresh late duration updates without reopening\n- **home**: Match On repeat tracks to their Library entry\n- **home**: Show listening sections on the Mornye Home without a feed\n- **lyrics**: Ease synced line changes with a spring scroll\n- **haptics**: Render music pulses on basic motors and add tuning sliders\n- **downloads**: Embed enriched artwork across audio formats\n- **artwork**: Read padded ID3 covers and repair cached previews\n- **crash**: Exclude system memory kills from crash notices\n- **backup**: Reconcile restored iOS paths before publishing history\n- **library**: Release network scan memory and cancel active metadata reads\n- **android**: Apply renderer compatibility before shared engine creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye player and library smoothness\n- **library**: Cache unchanged SMB and WebDAV scan metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects section\n- **readme**: Drop heading anchors from feature cards\n\n### Chores\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **branding**: Drop remaining SpotiFLAC references\n- **release**: Bump app to 5.2.1 build 163\n\n\n\n\n**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.2.0...v5.2.1)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.1-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.1-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.1-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
-        "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
-        "size": 34515412,
+        "version": "5.2.6",
+        "date": "2026-10-23",
+        "localizedDescription": "Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n\n- **library**: Sort songs and albums by file size\n- **desktop**: Add fullscreen and borderless window modes\n- **library**: List the files a scan could not read\n- **downloads**: Add custom folder path templates\n- **network**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare native ARM64 builds and packages\n- **player**: Color the current track row from its artwork\n- **desktop**: Open the mini player on Windows and Linux\n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcuts\n- **automix**: Verify beat alignment and hold phase through the mix\n- **home**: Keep explore artwork square\n- **flutter**: Backport semantics geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\n- **library**: Keep playlists accessible without local songs\n- **conversion**: Preserve quoted paths in lossy exports\n- **library**: Index songs whose tags fail to parse\n- **playback**: Allow MP3 playback with malformed ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **desktop**: Keep artist album selection and scroll position\n- **android**: Refresh media controls when track metadata changes\n- **windows**: Use the MSVC coroutine deprecation macro's real name\n- **windows**: Install the libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tracks visible during cover fades\n- **windows**: Support UNC library paths and network downloads\n- **desktop**: Restore private file access after cache removal\n- **notifications**: Handle Linux launch callbacks and contain queue alerts\n- **repo**: Move the store button under the text on narrow rows\n- **library**: Simplify duplicate review rows and expose load errors\n- **settings**: Keep final controls clear of floating playback bars\n- **home**: Collapse the empty prompt after installing an extension\n- **library**: Emphasize Play in collection header actions\n- **library**: Read tagless audio without losing document names\n- **desktop**: Wrap search and store category filters\n- **desktop**: Add scroll arrows to artist and recent shelves\n- **settings**: Restore 5.2.1 card contrast\n- **network**: Flush and verify SMB uploads before publishing\n- **android**: Resolve SAF audio paths when saving lyrics\n- **desktop**: Handle missing initial download folders\n\n### Refactoring\n\n- **onboarding**: Remove the rebrand introduction tour\n\n### Testing\n\n- **library**: Expect the sort sheet to scroll at its cap\n- **player**: Cover mini player metadata refresh and session restore\n\n### Chores\n\n- Update AltStore source to v5.2.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- Bump version to 5.2.6 (165)\n- **license**: Adopt LGPL-3.0-only for Mornye\n\n\n\n\n**Full Changelog**: [v5.2.5...v5.2.6](https://github.com/mornyeapp/Mornye/compare/v5.2.5...v5.2.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.6-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.6-ios-unsigned.ipa` (sideload required)\n\n`SHA256SUMS.txt` lists the SHA-256 of every file above.\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+        "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+        "size": 35645397,
         "minOSVersion": "16.0",
-        "releaseUrl": "https://github.com/mornyeapp/Mornye/releases/tag/v5.2.1",
+        "releaseUrl": "https://github.com/mornyeapp/Mornye/releases/tag/v5.2.6",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
-            "filename": "Mornye-v5.2.1-arm32.apk",
-            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm32.apk",
+            "filename": "Mornye-v5.2.6-arm32.apk",
+            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm32.apk",
             "platform": "android",
             "architecture": "armv7",
             "fileType": "APK",
-            "size": 88314275,
-            "sha256": "632acdec2e40b68d3c8d411b8c928c6e195e549363010e7230bc897fd137d91d",
-            "downloads": 255,
+            "size": 90145818,
+            "sha256": "8b2fd15168b4c7f224030115c57a7e6cb15b21b804253ae2a0333022727dfc38",
+            "downloads": 1631,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
-            "filename": "Mornye-v5.2.1-arm32.apk.idsig",
-            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm32.apk.idsig",
+            "filename": "Mornye-v5.2.6-arm32.apk.idsig",
+            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm32.apk.idsig",
             "platform": "android",
             "architecture": "armv7",
             "fileType": "other",
-            "size": 706060,
-            "sha256": "a8751c5c273218fa0434f283d10af34447adb10bc43ae956a2da54261d263070",
-            "downloads": 15,
+            "size": 718348,
+            "sha256": "088fc28d7df9153c8333713caf0bacbcfb5492c7f29f6d90ff12f4e67f9b20df",
+            "downloads": 121,
             "mimeType": "application/octet-stream",
             "installable": false
           },
           {
-            "filename": "Mornye-v5.2.1-arm64.apk",
-            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm64.apk",
+            "filename": "Mornye-v5.2.6-arm64.apk",
+            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm64.apk",
             "platform": "android",
             "architecture": "arm64",
             "fileType": "APK",
-            "size": 80670445,
-            "sha256": "cde7af38c1fb2e59b816469ab18c1bf634671ec38564408faa5fef060ed66a24",
-            "downloads": 6248,
+            "size": 82420068,
+            "sha256": "e42094f409ba688d10bbb112523aed1ee929d1edc2f5e8eabc068dfa87fe770b",
+            "downloads": 22230,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
           {
-            "filename": "Mornye-v5.2.1-arm64.apk.idsig",
-            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm64.apk.idsig",
+            "filename": "Mornye-v5.2.6-arm64.apk.idsig",
+            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm64.apk.idsig",
             "platform": "android",
             "architecture": "arm64",
             "fileType": "other",
-            "size": 644620,
-            "sha256": "2c493f63410ac61ff3c93f2409309e1eaf8877fd2044204cc4138f293ec74b60",
-            "downloads": 40,
+            "size": 661004,
+            "sha256": "dbc158a4cc3451fd132a13e21e928e40e100c822be7296244b73d7f07ff33869",
+            "downloads": 162,
             "mimeType": "application/octet-stream",
             "installable": false
           },
           {
-            "filename": "Mornye-v5.2.1-ios-unsigned.ipa",
-            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
+            "filename": "Mornye-v5.2.6-ios-unsigned.ipa",
+            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 34515412,
-            "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
-            "downloads": 111,
+            "size": 35645397,
+            "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+            "downloads": 412,
             "mimeType": "application/octet-stream",
             "installable": true
           },
           {
             "filename": "SHA256SUMS.txt",
-            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/SHA256SUMS.txt",
+            "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/SHA256SUMS.txt",
             "platform": "unknown",
             "architecture": null,
             "fileType": "other",
-            "size": 180,
-            "sha256": "cdfe32373e522e8132356320271ba8bbdc987d66bb51d4509d598666e6c8b895",
-            "downloads": 33,
+            "size": 469,
+            "sha256": "de7e068a89661901ea059b5b54813e6fc8d228a3349d17a52775c4133dc7fbfc",
+            "downloads": 119,
             "mimeType": "text/plain",
             "installable": false
           }
         ],
-        "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
-        "downloads": 111
+        "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+        "downloads": 412
       }
     ],
-    "syncedAt": "2026-10-20",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -24996,7 +24168,7 @@
         "detail": "HTTP 302"
       }
     ],
-    "lastResolvedSource": "github:spotiflacapp/SpotiFLAC-Mobile",
+    "lastResolvedSource": "github:mornyeapp/Mornye",
     "lastFullVerification": {
       "expectedSha256": "c25683b5d36f8d1d55deb29058cd601ee23a8b1e3a9e67ded75d8d53f9fa8bef",
       "expectedSha512": null,
@@ -25012,7 +24184,7 @@
   },
   "spotube": {
     "retryCount": 0,
-    "lastResolvedSource": "github:KRTirtho/spotube",
+    "lastResolvedSource": "github:team-spotube/spotube",
     "versions": [
       {
         "version": "5.1.2",
@@ -25034,7 +24206,7 @@
             "fileType": "other",
             "size": 811,
             "sha256": "9056b0106032cd126a87d513e3d1a4025bba16689376e70b33e4113379a72599",
-            "downloads": 2644,
+            "downloads": 2985,
             "mimeType": "raw",
             "installable": false
           },
@@ -25046,7 +24218,7 @@
             "fileType": "other",
             "size": 1227,
             "sha256": "182c7196f7bae77b9b582e7165cf68da20410f5d5cd4f424dfd97f3e835141b7",
-            "downloads": 798,
+            "downloads": 996,
             "mimeType": "raw",
             "installable": false
           },
@@ -25058,7 +24230,7 @@
             "fileType": "APK",
             "size": 128388471,
             "sha256": "20de38abd2eea0c0998174c8a34b324f4a9531665110f67176257e7ecc5bf0fe",
-            "downloads": 249289,
+            "downloads": 285224,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -25070,7 +24242,7 @@
             "fileType": "IPA",
             "size": 34853093,
             "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-            "downloads": 16105,
+            "downloads": 19675,
             "mimeType": "raw",
             "installable": true
           },
@@ -25082,7 +24254,7 @@
             "fileType": "other",
             "size": 34254800,
             "sha256": "aba4a987e064c32852fb73a1847a3b77500f6f838e613faeffe4d0ca28b56518",
-            "downloads": 657,
+            "downloads": 777,
             "mimeType": "raw",
             "installable": false
           },
@@ -25094,7 +24266,7 @@
             "fileType": "other",
             "size": 35261468,
             "sha256": "cc04df17e43a8f36447942045cf81f514a0c88aeaa950cb17083510760dd25f5",
-            "downloads": 6276,
+            "downloads": 7362,
             "mimeType": "raw",
             "installable": false
           },
@@ -25106,7 +24278,7 @@
             "fileType": "AppImage",
             "size": 104290808,
             "sha256": "017d7b77919353b704990c71f80dee5e3381a4799ac46d3204cc5937a760b5c1",
-            "downloads": 1187,
+            "downloads": 1313,
             "mimeType": "raw",
             "installable": true
           },
@@ -25118,7 +24290,7 @@
             "fileType": "DEB",
             "size": 37636312,
             "sha256": "71bf6a3cd275c01df3511bc108b10922bf8be01198c2d82301ecd2466e104031",
-            "downloads": 703,
+            "downloads": 823,
             "mimeType": "raw",
             "installable": true
           },
@@ -25130,7 +24302,7 @@
             "fileType": "AppImage",
             "size": 106015224,
             "sha256": "a14dc29d7778fad748062159541cd47e797719f37175df2726c74cd3c5519a48",
-            "downloads": 4396,
+            "downloads": 5173,
             "mimeType": "raw",
             "installable": true
           },
@@ -25142,7 +24314,7 @@
             "fileType": "DEB",
             "size": 37996550,
             "sha256": "1446f998f986380330e279c5274902fb29a0e3305d5175a3bc83b4b06392e8cd",
-            "downloads": 8222,
+            "downloads": 9534,
             "mimeType": "raw",
             "installable": true
           },
@@ -25154,7 +24326,7 @@
             "fileType": "other",
             "size": 37131723,
             "sha256": "cf4feaa792133afe2887064de119899f102b78e77aff37499c09a3343b4e4abc",
-            "downloads": 1864,
+            "downloads": 2349,
             "mimeType": "raw",
             "installable": false
           },
@@ -25166,7 +24338,7 @@
             "fileType": "DMG",
             "size": 63167099,
             "sha256": "27627dfd44190040af1a6ba6a86cdc4450399296a43a616940a94ae687ac0913",
-            "downloads": 10566,
+            "downloads": 16486,
             "mimeType": "raw",
             "installable": true
           },
@@ -25178,7 +24350,7 @@
             "fileType": "other",
             "size": 62856766,
             "sha256": "a9bbdf6ac1961657187980c9751b53e6d8fa82408b546f0929dfbddd249757ad",
-            "downloads": 684,
+            "downloads": 778,
             "mimeType": "raw",
             "installable": false
           },
@@ -25190,7 +24362,7 @@
             "fileType": "EXE",
             "size": 38294732,
             "sha256": "e5641f3841ec724fcb5e00a22d980f410ee507fdd00669b86db0c29f9b741162",
-            "downloads": 71630,
+            "downloads": 85192,
             "mimeType": "raw",
             "installable": true
           },
@@ -25202,16 +24374,16 @@
             "fileType": "other",
             "size": 37749819,
             "sha256": "0d338156b2284863d3e4cc63020190e83f6ddcc71ceff048cb73ee882cabb5e9",
-            "downloads": 494,
+            "downloads": 588,
             "mimeType": "raw",
             "installable": false
           }
         ],
         "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-        "downloads": 16105
+        "downloads": 19675
       }
     ],
-    "syncedAt": "2026-10-05",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -26134,7 +25306,7 @@
   },
   "streamyfin": {
     "retryCount": 0,
-    "lastResolvedSource": "github:fredrikburmester/streamyfin",
+    "lastResolvedSource": "github:streamyfin/streamyfin",
     "versions": [
       {
         "version": "0.55.2",
@@ -26156,7 +25328,7 @@
             "fileType": "APK",
             "size": 218533778,
             "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-            "downloads": 1499,
+            "downloads": 1872,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -26168,7 +25340,7 @@
             "fileType": "APK",
             "size": 217470115,
             "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-            "downloads": 166,
+            "downloads": 218,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -26180,7 +25352,7 @@
             "fileType": "AAB",
             "size": 130383094,
             "sha256": "c36397afcd79643674023440db84d20e15aeaebcfaa0899530e6e79f85201adb",
-            "downloads": 6,
+            "downloads": 9,
             "mimeType": "application/x-authorware-bin",
             "installable": true
           },
@@ -26192,7 +25364,7 @@
             "fileType": "IPA",
             "size": 59246428,
             "sha256": "5e25358c26ba9c6687b256c715e389501f9a03f48ee22714a44c9126f8ca2932",
-            "downloads": 4,
+            "downloads": 5,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -26204,16 +25376,16 @@
             "fileType": "IPA",
             "size": 73761532,
             "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-            "downloads": 67,
+            "downloads": 94,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-        "downloads": 67
+        "downloads": 94
       }
     ],
-    "syncedAt": "2026-10-21",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -28217,242 +27389,6 @@
       "durationMs": 525
     }
   },
-  "trollboard-reborn": {
-    "retryCount": 73,
-    "lastResolvedSource": "github:haxi0/TrollBoard-Reborn",
-    "versions": [
-      {
-        "version": "1.0",
-        "date": "2023-12-05",
-        "localizedDescription": "TrollBoard Reborn 1.0 | TrollBoard.Reborn\n\n**Here we are, TrollBoard Reborn Stable Release 1.0!**\n\nThis is a WebClips manager app. It does **NOT** change the original icons.",
-        "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-        "size": 542040,
-        "minOSVersion": "15.0",
-        "releaseUrl": "https://github.com/haxi0/TrollBoard-Reborn/releases/tag/1.0",
-        "source": "github",
-        "isPrerelease": false,
-        "isDraft": false,
-        "assets": [
-          {
-            "filename": "TrollBoard.Reborn.ipa",
-            "downloadUrl": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 542040,
-            "sha256": null,
-            "downloads": 14525,
-            "mimeType": "application/octet-stream",
-            "installable": true
-          }
-        ],
-        "downloads": 14525
-      }
-    ],
-    "syncedAt": "2026-09-18",
-    "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "latencyMs": 183,
-      "measuredAt": "2026-10-21",
-      "since": "2026-10-01"
-    },
-    "healthHistory": [
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 181,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 211,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 241,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-14",
-        "reachable": false,
-        "latencyMs": 322,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 232,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 282,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 382,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-15",
-        "reachable": false,
-        "latencyMs": 225,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 258,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 131,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 294,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-16",
-        "reachable": false,
-        "latencyMs": 188,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 272,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 296,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 285,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-17",
-        "reachable": false,
-        "latencyMs": 208,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 189,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 246,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 154,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-18",
-        "reachable": false,
-        "latencyMs": 238,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 150,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 271,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-19",
-        "reachable": false,
-        "latencyMs": 286,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 221,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 130,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 205,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-20",
-        "reachable": false,
-        "latencyMs": 252,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 230,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 287,
-        "detail": "HTTP 404"
-      },
-      {
-        "at": "2026-10-21",
-        "reachable": false,
-        "latencyMs": 183,
-        "detail": "HTTP 404"
-      }
-    ],
-    "lastFullVerification": {
-      "expectedSha256": null,
-      "expectedSha512": null,
-      "expectedSize": 542040,
-      "size": 542040,
-      "sha256": "94721e92777d0a454cdbe40f34143296e70465212daf9f4232bd44f9d2de1d47",
-      "sha512": "f52f6a6531172554e7b3c7341b7e1674ae2b85ae29795c6f42c6ea27ffed38145755b3f235ea23c6ddc616267a8d959e2096e35f70996d7524518d885e7968b5",
-      "ok": true,
-      "detail": "ok",
-      "at": "2026-09-21",
-      "durationMs": 316
-    },
-    "lastError": "all sources failed: github:haxi0/TrollBoard-Reborn error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/TrollBoard-Reborn/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
-  },
   "trollfools": {
     "retryCount": 0,
     "lastResolvedSource": "github:Lessica/TrollFools",
@@ -29889,6 +28825,56 @@
   },
   "updateHistory": [
     {
+      "appId": "spotiflac",
+      "name": "Mornye",
+      "version": "5.2.6",
+      "previousVersion": "5.2.1",
+      "releaseDate": "2026-10-23",
+      "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+      "changelog": "Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n\n- **library**: Sort songs and albums by file size\n- **desktop**: Add fullscreen and borderless window modes\n- **library**: List the files a scan could not read\n- **downloads**: Add custom folder path templates\n- **network**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare native ARM64 builds and packages\n- **player**: Color the current track row from its artwork\n- **desktop**: Open the mini player on Windows and Linux\n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcuts\n- **automix**: Verify beat alignment and hold phase through the mix\n- **home**: Keep explore artwork square\n- **flutter**: Backport semantics geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\n- **library**: Keep playlists accessible without local songs\n- **conversion**: Preserve quoted paths in lossy exports\n- **library**: Index songs whose tags fail to parse\n- **playback**: Allow MP3 playback with malformed ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **desktop**: Keep artist album selection and scroll position\n- **android**: Refresh media controls when track metadata changes\n- **windows**: Use the MSVC coroutine deprecation macro's real name\n- **windows**: Install the libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tracks visible during cover fades\n- **windows**: Support UNC library paths and network downloads\n- **desktop**: Restore private file access after cache removal\n- **notifications**: Handle Linux launch callbacks and contain queue alerts\n- **repo**: Move the store button under the text on narrow rows\n- **library**: Simplify duplicate review rows and expose load errors\n- **settings**: Keep final controls clear of floating playback bars\n- **home**: Collapse the empty prompt after installing an extension\n- **library**: Emphasize Play in collection header actions\n- **library**: Read tagless audio without losing document names\n- **desktop**: Wrap search and store category filters\n- **desktop**: Add scroll arrows to artist and recent shelves\n- **settings**: Restore 5.2.1 card contrast\n- **network**: Flush and verify SMB uploads before publishing\n- **android**: Resolve SAF audio paths when saving lyrics\n- **desktop**: Handle missing initial download folders\n\n### Refactoring\n\n- **onboarding**: Remove the rebrand introduction tour\n\n### Testing\n\n- **library**: Expect the sort sheet to scroll at its cap\n- **player**: Cover mini player metadata refresh and session restore\n\n### Chores\n\n- Update AltStore source to v5.2.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- Bump version to 5.2.6 (165)\n- **license**: Adopt LGPL-3.0-only for Mornye\n\n\n\n\n**Full Changelog**: [v5.2.5...v5.2.6](https://github.com/mornyeapp/Mornye/compare/v5.2.5...v5.2.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.6-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.6-ios-unsigned.ipa` (sideload required)\n\n`SHA256SUMS.txt` lists the SHA-256 of every file above.\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+      "kind": "updated"
+    },
+    {
+      "appId": "cercube",
+      "name": "Cercube for YouTube",
+      "version": "6.4.2",
+      "previousVersion": "6.1.3",
+      "releaseDate": "2026-10-23",
+      "downloadUrl": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+      "changelog": "Cercube for YouTube 6.4.2 - the current official release (verified against apt.cercube.com on 2026-10-23).\n\nThis release improves the player layout for right-to-left languages.\n- Fixed the positioning and order of Cercube and player action buttons in right-to-left layouts.\n\nPreviously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.",
+      "kind": "updated"
+    },
+    {
+      "appId": "ytlite",
+      "name": "YouTubePlus",
+      "version": "21.42.4",
+      "previousVersion": "21.41.5",
+      "releaseDate": "2026-10-22",
+      "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
+      "changelog": "YouTube 21.42.4 | YouTubePlus_21.42.4_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. new YT versions can break tweak features.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
+      "kind": "updated"
+    },
+    {
+      "appId": "youpro",
+      "name": "YouPro",
+      "version": "21.42.4",
+      "previousVersion": "21.41.5",
+      "releaseDate": "2026-10-22",
+      "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
+      "changelog": "YouTube 21.42.4 | YouProExtra_21.42.4_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock and YouSlider. (unstable in newer builds)\n> - Downloads working partially. depending on hardware codecs. \n> \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+      "kind": "updated"
+    },
+    {
+      "appId": "youmod",
+      "name": "YouMod",
+      "version": "21.42.4",
+      "previousVersion": "21.41.5",
+      "releaseDate": "2026-10-22",
+      "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
+      "changelog": "YouTube 21.42.4 | YouMod extra tweaks | YouMod_21.42.4_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+      "kind": "updated"
+    },
+    {
       "appId": "nuvio",
       "name": "Nuvio",
       "version": "0.6.3",
@@ -30837,56 +29823,6 @@
       "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.39.4_6.0b2.ipa",
       "changelog": "YouTube 21.39.4 | YouTubePlus_21.39.4_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
       "kind": "updated"
-    },
-    {
-      "appId": "turrit-mxgram",
-      "name": "Turrit MxGram",
-      "version": "1.5.5",
-      "previousVersion": "1.5.4",
-      "releaseDate": "2026-10-03",
-      "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.5-iQTele.ipa",
-      "changelog": "Turrit 1.5.5 | Turrit-1.5.5-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.5",
-      "kind": "updated"
-    },
-    {
-      "appId": "swiftgram",
-      "name": "Swiftgram",
-      "version": "12.9.4",
-      "previousVersion": "12.9.3",
-      "releaseDate": "2026-10-03",
-      "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
-      "changelog": "Swiftgram 12.9.4 | Swiftgram-12.9.4-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.4",
-      "kind": "updated"
-    },
-    {
-      "appId": "sparkle",
-      "name": "Sparkle",
-      "version": "449.0.0",
-      "previousVersion": "448.0.0",
-      "releaseDate": "2026-10-03",
-      "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-Sparkle.ipa",
-      "changelog": "Instagram 449.0.0 | Instagram-449.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 449.0.0",
-      "kind": "updated"
-    },
-    {
-      "appId": "ryukgram-sidebyside",
-      "name": "RyukGram Side by Side",
-      "version": "449.0.0",
-      "previousVersion": "448.0.0",
-      "releaseDate": "2026-10-03",
-      "downloadUrl": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
-      "changelog": "Instagram 449.0.0 | RyukGram Side by Side\n\n# [release] RyukGram v1.4.5\n\n### ✨ Highlights\n\n- **RyukGram Gallery** — Pick and repost media directly inside Instagram, edit photos and videos, manage file details, and save everything to your gallery\n- **Reels limits** — Set session or daily limits by time or reel count, track usage, get break reminders, and pause reels across the app when limits are reached\n- **Watchlist & profile tracking** — Monitor accounts for username, bio, picture, privacy, verification and count changes, with configurable alerts and a private profile history\n- **Playback controls** — A redesigned reels and stories panel with live seeking, frame-by-frame navigation, custom skip steps, playback speed memory and frame saving\n- **Notification history** — Search and filter saved notifications, choose which features are recorded, and access them from a home shortcut\n- **Custom notification sounds** — Import and trim your own sounds for DMs and other alerts, or use Instagram's built-in tones\n- **Gallery media limits and feed controls** — Control how much content loads, filter posts by engagement, and hide feed videos when your reels limit is reached\n- **MobileConfig Browser Update** — The browser now names all configs and fields Instagram exposes on iOS, with a coverage count at the bottom of the list\n\n### 🆕 New features\n\n#### Gallery & media\n\n- Pick media from the RyukGram Gallery directly in Instagram: use the DM + menu, hold the comment photo button, or hold Recents in story, post and reel galleries\n- Repost gallery photos, videos and GIFs as stories, posts or reels\n- Edit gallery media: crop, rotate and resize photos, trim and crop videos, trim audio, extract or remove video audio, and convert GIFs to video. Save as a new file or replace the original\n- Gallery info editor — Rename files, edit source details, view camera and codec information, and remove photo location data\n- Redesigned crop editor for Draw and chat backgrounds, with more ratios, free crop, flip and zoom-to-fit\n- Save photo posts with their music from the reels action button, disabled by default\n- Open profile pictures to browse every available picture on the account\n- Group chats without a picture now show member avatars in RyukGram lists\n\n#### Reels & stories\n\n- Reels and stories playback panel — Live progress, elapsed and remaining time, larger play/pause, custom skip intervals, frame-by-frame seeking, next/previous navigation and frame saving\n- Playback speed can be remembered globally, for the current session or only for the current video\n- Reel sidebar playback button shows the current speed and can switch between 1× and your last speed by holding it\n- Move the reels action and playback buttons anywhere in the sidebar\n- Access playback controls from the reels and stories action button, with auto-advance controls in the story panel\n- Reels auto-scroll can skip sponsored and photo reels\n- Keep Instants unseen after viewing, or mark an individual one seen with the viewer's eye button\n- Hold the story background button to choose a solid color or gradient, with an adjustable direction\n\n#### Profiles & tracking\n\n- Watchlist — Add accounts from profiles, recent chats or search. Accounts are checked on a schedule and for free when opened, with a 24-hour pause if Instagram rate-limits requests\n- Track watchlist changes to usernames, names, bios, links, pictures, privacy, verification, follow-back status and counts, with per-type alerts and a home shortcut\n- Visited profiles — Keep a private history of opened profiles with notes, filters, multi-select and CSV or JSON export\n- Activity notifications can now track only accounts in your list\n- Fake profile picture — Use an image from Photos, Gallery, Files or a link, displayed throughout Instagram on your device only\n- Spoofing editor redesigned around your profile header, including the Threads badge. Tap fields to edit, apply changes, or disable all spoofing with one switch. Edit Profile always shows your real information\n- Post spoofing — Select your own posts and change displayed likes, comments, views, shares, reposts and saves locally\n\n#### MobileConfig & advanced\n\n- Active MobileConfig overrides show how many times Instagram has read them\n- Identify unnamed MobileConfig entries by the code that reads them, and use that code as their label\n- Toggle individual or all overrides off and on without losing their values\n- Filter MobileConfig parameters by overridden status or platform\n- Add searchable notes to configs, visible in the list and config details\n- Search MobileConfig by notes, parameter names, IDs, names or numbers\n- Every MobileConfig config and field Instagram exposes on iOS now has a name, up from under a third\n- The MobileConfig list footer shows how many configs and fields are named out of the total\n- Instagram API settings — Reuse recent replies for a chosen period, pace requests, and set daily follow and unfollow limits\n\n#### Interface & customization\n\n- Custom emoji fonts — Import color emoji fonts to replace emoji throughout Instagram\n- Custom notification sounds for DMs and other alerts, with imports from Files, Photos or Gallery, trimming, and Instagram's built-in tones\n- Safari extension — Add an Open in RyukGram banner at the top or bottom, remove Instagram app prompts, block App Store redirects, and optionally open links automatically\n- Strip tracking menu — Manage tracking removal for shared and opened links, choose which parameters to remove, or strip unnecessary parameters from shared links\n- Embed domains and tracking parameters now support multi-select deletion\n- Hide search suggestions, including suggested accounts and searches in the Search tab\n- Hide Facebook cards: removes the Facebook suggestion cards from the feed\n- Hide Meta AI also removes AI-generated images from the gallery picker\n- Force audio button restores the DM camera sound toggle in the ••• menu when Instagram does not show it\n- Links, email addresses and phone numbers in captions, comments and profile bios are tappable, with long-press options to copy or share\n- Option to hide the disappearing media views toggle from the chat header\n\n#### Reels limits\n\n- Choose per-session limits, the previous doom-scrolling cap, or daily limits based on time or reel count\n- Set limits per location or across the app\n- Usage dashboard with daily history, break reminders and warnings before reaching a limit\n- Strict mode and a home shortcut\n- When a limit is reached, reels pause across the app, with an option to hide feed videos\n\n#### Diagnostics & notifications\n\n- Crash logging under Debug → Logging — Automatically save reports when Instagram crashes, with search, sharing and an indicator when RyukGram appears in the trace\n- Share log files can now include crash reports\n- Notification history — Save notifications in one searchable place, filter by feature or type, choose which features are recorded, and use a home shortcut with unread counts\n\n### 🛠 Fixes\n\n#### Instagram compatibility\n\n- Updated compatibility with Instagram 447, 448 and 449\n- DM inbox header buttons, chat menus, hidden chats, locks, refresh warnings and Meta AI search hiding work again on the new Swift inbox\n- Inbox and profile action buttons no longer overlap the back button or username on older layouts\n- Voice message downloads, forced DM saving and Meta AI menu hiding work again on newer Instagram\n- Feed autoplay controls, story midcard hiding and sticker-reply seen state work again on Instagram 448\n- Hiding the reels long-press menu and reels surveys works again on Instagram 448\n- Keep deleted messages, reels playback speed, tap-to-mute on photo reels and feed refresh interval overrides work again on Instagram 448\n- Hiding Meta AI and suggested people on the new chat screen works again\n- The chat message preview no longer displays a Try Instagram Plus label\n\n#### Media & downloads\n\n- Saved voice messages now use the sender's name\n- Profile and group pictures remain cached after links expire or caches are cleared, an…",
-      "kind": "updated"
-    },
-    {
-      "appId": "ryukgram",
-      "name": "RyukGram",
-      "version": "449.0.0",
-      "previousVersion": "448.0.0",
-      "releaseDate": "2026-10-03",
-      "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-449.0.0-RyukGram.ipa",
-      "changelog": "Instagram 449.0.0 | Instagram-449.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 449.0.0",
-      "kind": "updated"
     }
   ],
   "uprovid": {
@@ -30894,21 +29830,24 @@
     "lastResolvedSource": "manual",
     "versions": [
       {
-        "version": "21.37.4",
-        "date": "2026-09-14",
-        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-        "size": 131694546,
+        "version": "21.39.4",
+        "date": "2026-10-03",
+        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+        "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+        "fallbackDownloadURLs": [
+          "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+        ],
+        "size": 147923687,
         "minOSVersion": "17.0"
       }
     ],
-    "syncedAt": "2026-09-18",
+    "syncedAt": "2026-10-23",
     "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
+      "reachable": true,
+      "detail": "HTTP 302",
+      "since": "2026-10-23",
       "latencyMs": 186,
-      "measuredAt": "2026-10-21",
-      "since": "2026-10-05"
+      "measuredAt": "2026-10-23"
     },
     "healthHistory": [
       {
@@ -33657,35 +32596,35 @@
     "retryCount": 0,
     "versions": [
       {
-        "version": "21.41.5",
-        "date": "2026-10-11",
-        "localizedDescription": "YouTube 21.41.5 | YouMod extra tweaks | YouMod_21.41.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
-        "size": 130590630,
+        "version": "21.42.4",
+        "date": "2026-10-22",
+        "localizedDescription": "YouTube 21.42.4 | YouMod extra tweaks | YouMod_21.42.4_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
+        "size": 131398144,
         "minOSVersion": "17.0",
-        "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youmod-ipa2",
+        "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youmod-ipa1",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
-            "filename": "YouMod_21.41.5_2.0.0.ipa",
-            "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
+            "filename": "YouMod_21.42.4_2.0.0.ipa",
+            "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 130590630,
-            "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
-            "downloads": 9,
+            "size": 131398144,
+            "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+            "downloads": 120,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
-        "downloads": 9
+        "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+        "downloads": 120
       }
     ],
-    "syncedAt": "2026-10-12",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -33893,35 +32832,35 @@
     "retryCount": 0,
     "versions": [
       {
-        "version": "21.41.5",
-        "date": "2026-10-11",
-        "localizedDescription": "YouTube 21.41.5 | YouProExtra_21.41.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - downloads are unstable for <A15 devices. some will fail due to no av1 codec. \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
-        "size": 130721602,
+        "version": "21.42.4",
+        "date": "2026-10-22",
+        "localizedDescription": "YouTube 21.42.4 | YouProExtra_21.42.4_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock and YouSlider. (unstable in newer builds)\n> - Downloads working partially. depending on hardware codecs. \n> \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
+        "size": 131280986,
         "minOSVersion": "16.0",
-        "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youproextra-ipa2",
+        "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youproextra-ipa4",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
-            "filename": "YouProExtra_21.41.5_1.3.1.ipa",
-            "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
+            "filename": "YouProExtra_21.42.4_1.3.1.ipa",
+            "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 130721602,
-            "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
-            "downloads": 11,
+            "size": 131280986,
+            "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+            "downloads": 199,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
-        "downloads": 11
+        "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+        "downloads": 199
       }
     ],
-    "syncedAt": "2026-10-12",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -34637,32 +33576,32 @@
     "retryCount": 0,
     "versions": [
       {
-        "version": "21.41.5",
-        "date": "2026-10-11",
-        "localizedDescription": "YouTube 21.41.5 | YouTubePlus_21.41.5_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. \n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
-        "size": 149026282,
+        "version": "21.42.4",
+        "date": "2026-10-22",
+        "localizedDescription": "YouTube 21.42.4 | YouTubePlus_21.42.4_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. new YT versions can break tweak features.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
+        "size": 149834006,
         "minOSVersion": "16.0",
-        "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa6",
+        "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa7",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
-            "filename": "YouTubePlus_21.41.5_6.0b2.ipa",
-            "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
+            "filename": "YouTubePlus_21.42.4_6.0b2.ipa",
+            "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 149026282,
-            "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
-            "downloads": 65,
+            "size": 149834006,
+            "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
+            "downloads": 948,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
-        "downloads": 65
+        "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
+        "downloads": 948
       },
       {
         "version": "21.33.6",
@@ -34684,13 +33623,13 @@
             "fileType": "IPA",
             "size": 145178333,
             "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-            "downloads": 80,
+            "downloads": 188,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-        "downloads": 80
+        "downloads": 188
       },
       {
         "version": "21.24.3",
@@ -34712,13 +33651,13 @@
             "fileType": "IPA",
             "size": 129031075,
             "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-            "downloads": 6286,
+            "downloads": 6413,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-        "downloads": 6286
+        "downloads": 6413
       },
       {
         "version": "20.21.6",
@@ -34740,13 +33679,13 @@
             "fileType": "IPA",
             "size": 115566999,
             "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-            "downloads": 229,
+            "downloads": 308,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-        "downloads": 229
+        "downloads": 308
       },
       {
         "version": "19.20.2",
@@ -34768,16 +33707,16 @@
             "fileType": "IPA",
             "size": 106247621,
             "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-            "downloads": 131,
+            "downloads": 181,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-        "downloads": 131
+        "downloads": 181
       }
     ],
-    "syncedAt": "2026-10-12",
+    "syncedAt": "2026-10-23",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",

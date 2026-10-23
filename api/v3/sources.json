@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "32388293f7d4",
+  "feedVersion": "b9b337bd7543",
   "data": [
     {
       "id": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
@@ -100,7 +100,7 @@
       "score": 97.5,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 6.3,
+      "updateFrequencyDays": 5.7,
       "lastUpdate": "2026-10-20"
     },
     {
@@ -365,35 +365,6 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/statusmagic.json"
     },
     {
-      "id": "ayman708-UX/PlayTorrioV3",
-      "source": "ayman708-UX/PlayTorrioV3",
-      "type": "github",
-      "homepage": "https://github.com/ayman708-UX/PlayTorrioV3",
-      "sourceURL": "https://github.com/ayman708-UX/PlayTorrioV3",
-      "publisher": "ayman708-UX/PlayTorrioV3",
-      "apps": [
-        {
-          "slug": "playtorrio",
-          "name": "PlayTorrio",
-          "version": "1.1.6"
-        }
-      ],
-      "slug": "ayman708-ux-playtorriov3",
-      "page": "/sources/ayman708-ux-playtorriov3/",
-      "appSlugs": [
-        "playtorrio"
-      ],
-      "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 27.0,
-      "score": 47.6,
-      "status": "Warning",
-      "level": "EXPERIMENTAL",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2026-09-16",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json"
-    },
-    {
       "id": "BandarHL/BHInstagram",
       "source": "BandarHL/BHInstagram",
       "type": "github",
@@ -549,7 +520,7 @@
         {
           "slug": "cercube",
           "name": "Cercube for YouTube",
-          "version": "6.1.3"
+          "version": "6.4.2"
         }
       ],
       "slug": "manual-cercube",
@@ -558,13 +529,13 @@
         "cercube"
       ],
       "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 27.0,
-      "score": 47.6,
-      "status": "Warning",
+      "verifiedApps": 1,
+      "healthScore": 47.0,
+      "score": 48.9,
+      "status": "Maintained",
       "level": "EXPERIMENTAL",
       "updateFrequencyDays": null,
-      "lastUpdate": "2026-09-18",
+      "lastUpdate": "2026-10-23",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/cercube.json"
     },
     {
@@ -916,35 +887,6 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/byetunes.json"
     },
     {
-      "id": "fredrikburmester/streamyfin",
-      "source": "fredrikburmester/streamyfin",
-      "type": "github",
-      "homepage": "https://github.com/fredrikburmester/streamyfin",
-      "sourceURL": "https://github.com/fredrikburmester/streamyfin",
-      "publisher": "fredrikburmester/streamyfin",
-      "apps": [
-        {
-          "slug": "streamyfin",
-          "name": "Streamyfin",
-          "version": "0.55.2"
-        }
-      ],
-      "slug": "fredrikburmester-streamyfin",
-      "page": "/sources/fredrikburmester-streamyfin/",
-      "appSlugs": [
-        "streamyfin"
-      ],
-      "appCount": 1,
-      "verifiedApps": 1,
-      "healthScore": 77.0,
-      "score": 87.4,
-      "status": "Verified",
-      "level": "TRUSTED",
-      "updateFrequencyDays": 12.0,
-      "lastUpdate": "2026-10-16",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json"
-    },
-    {
       "id": "FriesI23/mhabit",
       "source": "FriesI23/mhabit",
       "type": "github",
@@ -1090,12 +1032,12 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/gopeed.json"
     },
     {
-      "id": "guardianproject/orbot-ios",
-      "source": "guardianproject/orbot-ios",
+      "id": "guardianproject/orbot-apple",
+      "source": "guardianproject/orbot-apple",
       "type": "github",
-      "homepage": "https://github.com/guardianproject/orbot-ios",
-      "sourceURL": "https://github.com/guardianproject/orbot-ios",
-      "publisher": "guardianproject/orbot-ios",
+      "homepage": "https://github.com/guardianproject/orbot-apple",
+      "sourceURL": "https://github.com/guardianproject/orbot-apple",
+      "publisher": "guardianproject/orbot-apple",
       "apps": [
         {
           "slug": "orbot",
@@ -1103,8 +1045,8 @@
           "version": "1.14.0"
         }
       ],
-      "slug": "guardianproject-orbot-ios",
-      "page": "/sources/guardianproject-orbot-ios/",
+      "slug": "guardianproject-orbot-apple",
+      "page": "/sources/guardianproject-orbot-apple/",
       "appSlugs": [
         "orbot"
       ],
@@ -1146,93 +1088,6 @@
       "updateFrequencyDays": null,
       "lastUpdate": "2026-08-14",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json"
-    },
-    {
-      "id": "haxi0/Jaility",
-      "source": "haxi0/Jaility",
-      "type": "github",
-      "homepage": "https://github.com/haxi0/Jaility",
-      "sourceURL": "https://github.com/haxi0/Jaility",
-      "publisher": "haxi0/Jaility",
-      "apps": [
-        {
-          "slug": "jaility",
-          "name": "Jaility",
-          "version": "3.1.1"
-        }
-      ],
-      "slug": "haxi0-jaility",
-      "page": "/sources/haxi0-jaility/",
-      "appSlugs": [
-        "jaility"
-      ],
-      "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 27.0,
-      "score": 45.1,
-      "status": "Deprecated",
-      "level": "EXPERIMENTAL",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2022-11-12",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json"
-    },
-    {
-      "id": "haxi0/KillMyOTA",
-      "source": "haxi0/KillMyOTA",
-      "type": "github",
-      "homepage": "https://github.com/haxi0/KillMyOTA",
-      "sourceURL": "https://github.com/haxi0/KillMyOTA",
-      "publisher": "haxi0/KillMyOTA",
-      "apps": [
-        {
-          "slug": "killmyota",
-          "name": "KillMyOTA",
-          "version": "1.1"
-        }
-      ],
-      "slug": "haxi0-killmyota",
-      "page": "/sources/haxi0-killmyota/",
-      "appSlugs": [
-        "killmyota"
-      ],
-      "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 27.0,
-      "score": 45.1,
-      "status": "Deprecated",
-      "level": "EXPERIMENTAL",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2023-01-30",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json"
-    },
-    {
-      "id": "haxi0/TrollBoard-Reborn",
-      "source": "haxi0/TrollBoard-Reborn",
-      "type": "github",
-      "homepage": "https://github.com/haxi0/TrollBoard-Reborn",
-      "sourceURL": "https://github.com/haxi0/TrollBoard-Reborn",
-      "publisher": "haxi0/TrollBoard-Reborn",
-      "apps": [
-        {
-          "slug": "trollboard-reborn",
-          "name": "TrollBoard Reborn",
-          "version": "1.0"
-        }
-      ],
-      "slug": "haxi0-trollboard-reborn",
-      "page": "/sources/haxi0-trollboard-reborn/",
-      "appSlugs": [
-        "trollboard-reborn"
-      ],
-      "appCount": 1,
-      "verifiedApps": 0,
-      "healthScore": 27.0,
-      "score": 45.1,
-      "status": "Deprecated",
-      "level": "EXPERIMENTAL",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2023-12-05",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json"
     },
     {
       "id": "hrydgard/ppsspp",
@@ -1441,35 +1296,6 @@
       "updateFrequencyDays": 6.0,
       "lastUpdate": "2026-10-12",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json"
-    },
-    {
-      "id": "KRTirtho/spotube",
-      "source": "KRTirtho/spotube",
-      "type": "github",
-      "homepage": "https://github.com/KRTirtho/spotube",
-      "sourceURL": "https://github.com/KRTirtho/spotube",
-      "publisher": "KRTirtho/spotube",
-      "apps": [
-        {
-          "slug": "spotube",
-          "name": "Spotube",
-          "version": "5.1.2"
-        }
-      ],
-      "slug": "krtirtho-spotube",
-      "page": "/sources/krtirtho-spotube/",
-      "appSlugs": [
-        "spotube"
-      ],
-      "appCount": 1,
-      "verifiedApps": 1,
-      "healthScore": 77.0,
-      "score": 73.9,
-      "status": "Community Verified",
-      "level": "RELIABLE",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2026-06-05",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/spotube.json"
     },
     {
       "id": "leminlimez/Cowabunga",
@@ -1936,35 +1762,6 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/muffinstore.json"
     },
     {
-      "id": "mineek/Serotonin",
-      "source": "mineek/Serotonin",
-      "type": "github",
-      "homepage": "https://github.com/mineek/Serotonin",
-      "sourceURL": "https://github.com/mineek/Serotonin",
-      "publisher": "mineek/Serotonin",
-      "apps": [
-        {
-          "slug": "serotonin",
-          "name": "Serotonin",
-          "version": "1.2.1"
-        }
-      ],
-      "slug": "mineek-serotonin",
-      "page": "/sources/mineek-serotonin/",
-      "appSlugs": [
-        "serotonin"
-      ],
-      "appCount": 1,
-      "verifiedApps": 1,
-      "healthScore": 77.0,
-      "score": 71.4,
-      "status": "Deprecated",
-      "level": "RELIABLE",
-      "updateFrequencyDays": null,
-      "lastUpdate": "2024-01-17",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/serotonin.json"
-    },
-    {
       "id": "minh-ton/reynard-browser",
       "source": "minh-ton/reynard-browser",
       "type": "github",
@@ -2052,21 +1849,21 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/monal.json"
     },
     {
-      "id": "mongoosemonke504/NebuloIPTV",
-      "source": "mongoosemonke504/NebuloIPTV",
+      "id": "mongoosemonke504/OnsideTV",
+      "source": "mongoosemonke504/OnsideTV",
       "type": "github",
-      "homepage": "https://github.com/mongoosemonke504/NebuloIPTV",
-      "sourceURL": "https://github.com/mongoosemonke504/NebuloIPTV",
-      "publisher": "mongoosemonke504/NebuloIPTV",
+      "homepage": "https://github.com/mongoosemonke504/OnsideTV",
+      "sourceURL": "https://github.com/mongoosemonke504/OnsideTV",
+      "publisher": "mongoosemonke504/OnsideTV",
       "apps": [
         {
           "slug": "nebuloiptv",
-          "name": "Nebulo",
+          "name": "Onside TV",
           "version": "3.0.0"
         }
       ],
-      "slug": "mongoosemonke504-nebuloiptv",
-      "page": "/sources/mongoosemonke504-nebuloiptv/",
+      "slug": "mongoosemonke504-onsidetv",
+      "page": "/sources/mongoosemonke504-onsidetv/",
       "appSlugs": [
         "nebuloiptv"
       ],
@@ -2081,6 +1878,35 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/nebuloiptv.json"
     },
     {
+      "id": "mornyeapp/Mornye",
+      "source": "mornyeapp/Mornye",
+      "type": "github",
+      "homepage": "https://github.com/mornyeapp/Mornye",
+      "sourceURL": "https://github.com/mornyeapp/Mornye",
+      "publisher": "mornyeapp/Mornye",
+      "apps": [
+        {
+          "slug": "spotiflac",
+          "name": "Mornye",
+          "version": "5.2.6"
+        }
+      ],
+      "slug": "mornyeapp-mornye",
+      "page": "/sources/mornyeapp-mornye/",
+      "appSlugs": [
+        "spotiflac"
+      ],
+      "appCount": 1,
+      "verifiedApps": 1,
+      "healthScore": 79.0,
+      "score": 96.9,
+      "status": "Verified",
+      "level": "TRUSTED",
+      "updateFrequencyDays": 3.8,
+      "lastUpdate": "2026-10-23",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json"
+    },
+    {
       "id": "mrdrvt99/YouProEXTRA",
       "source": "mrdrvt99/YouProEXTRA",
       "type": "github",
@@ -2091,12 +1917,12 @@
         {
           "slug": "ytlite",
           "name": "YouTubePlus",
-          "version": "21.41.5"
+          "version": "21.42.4"
         },
         {
           "slug": "youpro",
           "name": "YouPro",
-          "version": "21.41.5"
+          "version": "21.42.4"
         },
         {
           "slug": "ytkp",
@@ -2106,7 +1932,7 @@
         {
           "slug": "youmod",
           "name": "YouMod",
-          "version": "21.41.5"
+          "version": "21.42.4"
         }
       ],
       "slug": "mrdrvt99-youproextra",
@@ -2120,11 +1946,11 @@
       "appCount": 4,
       "verifiedApps": 4,
       "healthScore": 80.8,
-      "score": 96.9,
+      "score": 94.9,
       "status": "Warning",
       "level": "TRUSTED",
-      "updateFrequencyDays": 6.7,
-      "lastUpdate": "2026-10-11"
+      "updateFrequencyDays": 8.5,
+      "lastUpdate": "2026-10-22"
     },
     {
       "id": "mrdrvt99/YTMusicUltimate",
@@ -2630,7 +2456,7 @@
         {
           "slug": "uprovid",
           "name": "uProVid",
-          "version": "21.37.4"
+          "version": "21.39.4"
         },
         {
           "slug": "uyouenhanced",
@@ -2645,13 +2471,13 @@
         "uyouenhanced"
       ],
       "appCount": 2,
-      "verifiedApps": 0,
-      "healthScore": 41.5,
-      "score": 61.0,
+      "verifiedApps": 1,
+      "healthScore": 51.5,
+      "score": 62.2,
       "status": "Warning",
       "level": "AVERAGE",
       "updateFrequencyDays": null,
-      "lastUpdate": "2026-09-14"
+      "lastUpdate": "2026-10-03"
     },
     {
       "id": "RileyTestut/Delta",
@@ -2741,12 +2567,12 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/bootstrap.json"
     },
     {
-      "id": "roothide/Dopamine2-roothide",
-      "source": "roothide/Dopamine2-roothide",
+      "id": "roothide/Dopamine-roothide",
+      "source": "roothide/Dopamine-roothide",
       "type": "github",
-      "homepage": "https://github.com/roothide/Dopamine2-roothide",
-      "sourceURL": "https://github.com/roothide/Dopamine2-roothide",
-      "publisher": "roothide/Dopamine2-roothide",
+      "homepage": "https://github.com/roothide/Dopamine-roothide",
+      "sourceURL": "https://github.com/roothide/Dopamine-roothide",
+      "publisher": "roothide/Dopamine-roothide",
       "apps": [
         {
           "slug": "dopamine-roothide",
@@ -2754,8 +2580,8 @@
           "version": "2.4.9.27"
         }
       ],
-      "slug": "roothide-dopamine2-roothide",
-      "page": "/sources/roothide-dopamine2-roothide/",
+      "slug": "roothide-dopamine-roothide",
+      "page": "/sources/roothide-dopamine-roothide/",
       "appSlugs": [
         "dopamine-roothide"
       ],
@@ -2915,6 +2741,35 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/saber.json"
     },
     {
+      "id": "SerotoninApp/Serotonin",
+      "source": "SerotoninApp/Serotonin",
+      "type": "github",
+      "homepage": "https://github.com/SerotoninApp/Serotonin",
+      "sourceURL": "https://github.com/SerotoninApp/Serotonin",
+      "publisher": "SerotoninApp/Serotonin",
+      "apps": [
+        {
+          "slug": "serotonin",
+          "name": "Serotonin",
+          "version": "1.2.1"
+        }
+      ],
+      "slug": "serotoninapp-serotonin",
+      "page": "/sources/serotoninapp-serotonin/",
+      "appSlugs": [
+        "serotonin"
+      ],
+      "appCount": 1,
+      "verifiedApps": 1,
+      "healthScore": 77.0,
+      "score": 71.4,
+      "status": "Deprecated",
+      "level": "RELIABLE",
+      "updateFrequencyDays": null,
+      "lastUpdate": "2024-01-17",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/serotonin.json"
+    },
+    {
       "id": "SideStore/SideStore",
       "source": "SideStore/SideStore",
       "type": "github",
@@ -2973,35 +2828,6 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/airtroller.json"
     },
     {
-      "id": "spotiflacapp/SpotiFLAC-Mobile",
-      "source": "spotiflacapp/SpotiFLAC-Mobile",
-      "type": "github",
-      "homepage": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
-      "sourceURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
-      "publisher": "spotiflacapp/SpotiFLAC-Mobile",
-      "apps": [
-        {
-          "slug": "spotiflac",
-          "name": "SpotiFLAC Mobile",
-          "version": "5.2.1"
-        }
-      ],
-      "slug": "spotiflacapp-spotiflac-mobile",
-      "page": "/sources/spotiflacapp-spotiflac-mobile/",
-      "appSlugs": [
-        "spotiflac"
-      ],
-      "appCount": 1,
-      "verifiedApps": 1,
-      "healthScore": 79.0,
-      "score": 94.4,
-      "status": "Verified",
-      "level": "TRUSTED",
-      "updateFrequencyDays": 4.0,
-      "lastUpdate": "2026-10-20",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json"
-    },
-    {
       "id": "StikDebug/StikDebug",
       "source": "StikDebug/StikDebug",
       "type": "github",
@@ -3058,6 +2884,64 @@
       "updateFrequencyDays": null,
       "lastUpdate": "2025-02-23",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/stiknes.json"
+    },
+    {
+      "id": "streamyfin/streamyfin",
+      "source": "streamyfin/streamyfin",
+      "type": "github",
+      "homepage": "https://github.com/streamyfin/streamyfin",
+      "sourceURL": "https://github.com/streamyfin/streamyfin",
+      "publisher": "streamyfin/streamyfin",
+      "apps": [
+        {
+          "slug": "streamyfin",
+          "name": "Streamyfin",
+          "version": "0.55.2"
+        }
+      ],
+      "slug": "streamyfin-streamyfin",
+      "page": "/sources/streamyfin-streamyfin/",
+      "appSlugs": [
+        "streamyfin"
+      ],
+      "appCount": 1,
+      "verifiedApps": 1,
+      "healthScore": 77.0,
+      "score": 87.4,
+      "status": "Verified",
+      "level": "TRUSTED",
+      "updateFrequencyDays": 12.0,
+      "lastUpdate": "2026-10-16",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json"
+    },
+    {
+      "id": "team-spotube/spotube",
+      "source": "team-spotube/spotube",
+      "type": "github",
+      "homepage": "https://github.com/team-spotube/spotube",
+      "sourceURL": "https://github.com/team-spotube/spotube",
+      "publisher": "team-spotube/spotube",
+      "apps": [
+        {
+          "slug": "spotube",
+          "name": "Spotube",
+          "version": "5.1.2"
+        }
+      ],
+      "slug": "team-spotube-spotube",
+      "page": "/sources/team-spotube-spotube/",
+      "appSlugs": [
+        "spotube"
+      ],
+      "appCount": 1,
+      "verifiedApps": 1,
+      "healthScore": 77.0,
+      "score": 73.9,
+      "status": "Community Verified",
+      "level": "RELIABLE",
+      "updateFrequencyDays": null,
+      "lastUpdate": "2026-06-05",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/spotube.json"
     },
     {
       "id": "thunder-app/thunder",

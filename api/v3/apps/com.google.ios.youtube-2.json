@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "32388293f7d4",
+  "feedVersion": "b9b337bd7543",
   "data": {
     "name": "uProVid",
     "bundleIdentifier": "com.google.ios.youtube",
@@ -11,18 +11,21 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
     "tintColor": "FF0000",
     "category": "photo-video",
-    "version": "21.37.4",
-    "versionDate": "2026-09-14",
-    "versionDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
-    "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-    "size": 131694546,
+    "version": "21.39.4",
+    "versionDate": "2026-10-03",
+    "versionDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+    "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+    "size": 147923687,
     "versions": [
       {
-        "version": "21.37.4",
-        "date": "2026-09-14",
-        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-        "size": 131694546,
+        "version": "21.39.4",
+        "date": "2026-10-03",
+        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+        "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+        "fallbackDownloadURLs": [
+          "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+        ],
+        "size": 147923687,
         "minOSVersion": "17.0"
       }
     ],
@@ -52,6 +55,9 @@
         "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
       }
     },
+    "fallbackDownloadURLs": [
+      "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+    ],
     "omnisource": {
       "slug": "uprovid",
       "status": "manual",
@@ -83,10 +89,10 @@
         "notes": "Self-built lane: the base IPA is operator-supplied (a decrypted YouTube dump) and the tweaks are collected from their official upstreams by the Tweak Factory, then injected with Cyan. Factory builds publish under tag tweak-build/uprovid/* in this repository and take over automatically; until then the manualRelease stand-in below is served. Bases of YouTube 21.34.3+ require iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
       },
       "health": {
-        "downloadReachable": false,
-        "detail": "HTTP 404",
-        "statusSince": "2026-10-05",
-        "lastUpdatedAt": "2026-09-14"
+        "downloadReachable": true,
+        "detail": "HTTP 302",
+        "statusSince": "2026-10-23",
+        "lastUpdatedAt": "2026-10-03"
       }
     },
     "id": "com.google.ios.youtube-2"

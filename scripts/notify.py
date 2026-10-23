@@ -34,12 +34,12 @@ def main(argv: list[str] | None = None) -> int:
     if args.test:
         test_event = UpdateEvent(
             app_id="spotiflac",
-            name="SpotiFLAC Mobile",
+            name="Mornye",
             version="4.9.6",
             previous_version="4.9.5",
             release_date=today(),
-            download_url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases",
-            changelog="SpotiFLAC Mobile v4.9.6 update test notification.",
+            download_url="https://github.com/mornyeapp/Mornye/releases",
+            changelog="Mornye v4.9.6 update test notification.",
             kind="updated",
         )
         dispatch_configured_notifications([test_event])

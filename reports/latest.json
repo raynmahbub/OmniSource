@@ -1,35 +1,32 @@
 {
-  "generatedAt": "2026-10-21",
-  "feedVersion": "90a59e370076",
+  "generatedAt": "2026-10-23",
+  "feedVersion": "b2419bca53e8",
   "apps": {
-    "total": 131,
-    "reachable": 124,
-    "unreachable": 7,
-    "verified": 124
+    "total": 127,
+    "reachable": 126,
+    "unreachable": 1,
+    "verified": 126
   },
   "sync": {
-    "synced": 127,
-    "incrementalHits": 117,
-    "updated": 0,
-    "failed": 4,
-    "apiRequests": 117
+    "synced": 8,
+    "incrementalHits": 0,
+    "updated": 1,
+    "failed": 0,
+    "apiRequests": 9
   },
   "unreachable": [
-    "cercube",
-    "jaility",
-    "killmyota",
-    "playtorrio",
-    "trollboard-reborn",
-    "uprovid",
     "uyouenhanced"
   ],
-  "updates": [],
-  "errors": [
-    "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "trollboard-reborn: all sources failed: github:haxi0/TrollBoard-Reborn error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/TrollBoard-Reborn/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
+  "updates": [
+    {
+      "slug": "spotiflac",
+      "name": "Mornye",
+      "previousVersion": "5.2.1",
+      "version": "5.2.6",
+      "kind": "updated"
+    }
   ],
+  "errors": [],
   "translations": {
     "ar": 100,
     "bn": 100,

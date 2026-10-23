@@ -1,14 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SpotiFLAC Mobile — Releases</title>
+    <title>Mornye — Releases</title>
     <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
-    <description>Release feed for SpotiFLAC Mobile within OmniSource, curated from official upstream sources.</description>
+    <description>Release feed for Mornye within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/spotiflac.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>SpotiFLAC Mobile v5.2.1</title>
+      <title>Mornye v5.2.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.2.6</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned
+
+### New Features
+
+- **library**: Sort songs and albums by file size
+- **desktop**: Add fullscreen and borderless window modes
+- **library**: List the files a scan could not read
+- **downloads**: Add custom folder path templates
+- **network**: Add Subsonic and OpenSubsonic support
+- **windows**: Prepare native ARM64 builds and packages
+- **player**: Color the current track row from its artwork
+- **desktop**: Open the mini player on Windows and Linux
+
+### Bug Fixes
+
+- **desktop**: List full screen and borderless shortcuts
+- **automix**: Verify beat alignment and hold phase through the mix
+- **home**: Keep explore artwork square
+- **flutter**: Backport semantics geometry crash fix
+- **tags**: Support ID3-prefixed FLAC metadata writes
+- **library**: Keep playlists accessible without local songs
+- **conversion**: Preserve quoted paths in lossy exports
+- **library**: Index songs whose tags fail to parse
+- **playback**: Allow MP3 playback with malformed ID3 tags
+- **automix**: Start the next song on the outgoing beat
+- **desktop**: Keep artist album selection and scroll position
+- **android**: Refresh media controls when track metadata changes
+- **windows**: Use the MSVC coroutine deprecation macro's real name
+- **windows**: Install the libmpv license and build on MSVC 14.5x
+- **library**: Keep liked local tracks visible during cover fades
+- **windows**: Support UNC library paths and network downloads
+- **desktop**: Restore private file access after cache removal
+- **notifications**: Handle Linux launch callbacks and contain queue alerts
+- **repo**: Move the store button under the text on narrow rows
+- **library**: Simplify duplicate review rows and expose load errors
+- **settings**: Keep final controls clear of floating playback bars
+- **home**: Collapse the empty prompt after installing an extension
+- **library**: Emphasize Play in collection header actions
+- **library**: Read tagless audio without losing document names
+- **desktop**: Wrap search and store category filters
+- **desktop**: Add scroll arrows to artist and recent shelves
+- **settings**: Restore 5.2.1 card contrast
+- **network**: Flush and verify SMB uploads before publishing
+- **android**: Resolve SAF audio paths when saving lyrics
+- **desktop**: Handle missing initial download folders
+
+### Refactoring
+
+- **onboarding**: Remove the rebrand introduction tour
+
+### Testing
+
+- **library**: Expect the sort sheet to scroll at its cap
+- **player**: Cover mini player metadata refresh and session restore
+
+### Chores
+
+- Update AltStore source to v5.2.5 by [@github-actions[bot]](https://github.com/github-actions[bot])
+- Bump version to 5.2.6 (165)
+- **license**: Adopt LGPL-3.0-only for Mornye
+
+
+
+
+**Full Changelog**: [v5.2.5...v5.2.6](https://github.com/mornyeapp/Mornye/compare/v5.2.5...v5.2.6)
+
+---
+
+### Downloads
+
+#### Android
+- **arm64**: `Mornye-v5.2.6-arm64.apk` (recommended for modern devices)
+- **arm32**: `Mornye-v5.2.6-arm32.apk` (older devices)
+- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them
+
+#### iOS
+- **iOS**: `Mornye-v5.2.6-ios-unsigned.ipa` (sideload required)
+
+`SHA256SUMS.txt` lists the SHA-256 of every file above.
+
+### Installation
+**Android**: Enable "Install from unknown sources" and install the APK
+**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mornye v5.2.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.2.1</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
@@ -83,7 +173,7 @@
       <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
-      <title>SpotiFLAC Mobile v5.2.0</title>
+      <title>Mornye v5.2.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.2.0</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
@@ -226,7 +316,7 @@
       <enclosure url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.2.0/SpotiFLAC-v5.2.0-ios-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
-      <title>SpotiFLAC Mobile v5.1.1</title>
+      <title>Mornye v5.1.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.1.1</guid>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
@@ -323,7 +413,7 @@
       <enclosure url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.1.1/SpotiFLAC-v5.1.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
-      <title>SpotiFLAC Mobile v5.1.0</title>
+      <title>Mornye v5.1.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.1.0</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>

@@ -10,7 +10,7 @@ report form: missing keys, orphaned keys, placeholder drift and untranslated chr
 ## Summary
 
 - Locales: **8** (ar, bn, de, en, es, fr, ja, zh)
-- Canonical keys (en): **151**
+- Canonical keys (en): **145**
 - Missing keys across locales: **0**
 - Keys used by markup/JS but missing from en.json: **0**
 - Orphaned en.json keys (no call site): **0**
@@ -19,14 +19,14 @@ report form: missing keys, orphaned keys, placeholder drift and untranslated chr
 
 | Locale | Keys | Coverage | Placeholder drift | Identical-to-English values |
 | --- | --- | --- | --- | --- |
-| `ar` | 151 | 100% | 0 | 2 |
-| `bn` | 151 | 100% | 0 | 2 |
-| `de` | 151 | 100% | 0 | 14 |
-| `en` | 151 | 100% | 0 | 0 |
-| `es` | 151 | 100% | 0 | 7 |
-| `fr` | 151 | 100% | 0 | 12 |
-| `ja` | 151 | 100% | 0 | 2 |
-| `zh` | 151 | 100% | 0 | 2 |
+| `ar` | 145 | 100% | 0 | 2 |
+| `bn` | 145 | 100% | 0 | 2 |
+| `de` | 145 | 100% | 0 | 14 |
+| `en` | 145 | 100% | 0 | 0 |
+| `es` | 145 | 100% | 0 | 7 |
+| `fr` | 145 | 100% | 0 | 11 |
+| `ja` | 145 | 100% | 0 | 2 |
+| `zh` | 145 | 100% | 0 | 2 |
 
 ## Missing keys
 
@@ -47,42 +47,58 @@ None. No orphaned keys and every used key resolves.
 | `discover/index.html` | 21 | translated chrome |
 | `favorites/index.html` | 27 | translated chrome |
 | `graph/index.html` | 21 | translated chrome |
-| `index.html` | 109 | translated chrome |
+| `index.html` | 107 | translated chrome |
 | `install/index.html` | 23 | translated chrome |
 | `search/index.html` | 23 | translated chrome |
 | `sources/aeharding-voyager/index.html` | 15 | translated chrome |
 | `sources/aidoku-aidoku/index.html` | 15 | translated chrome |
+| `sources/alexsvitlov-itransmission/index.html` | 15 | translated chrome |
+| `sources/alfiecg24-trollinstallerx/index.html` | 15 | translated chrome |
 | `sources/anxcye-anx-reader/index.html` | 15 | translated chrome |
 | `sources/apollo-reborn-apollo-reborn/index.html` | 15 | translated chrome |
 | `sources/ashreq-ashstore-repo/index.html` | 15 | translated chrome |
-| `sources/ayman708-ux-playtorriov3/index.html` | 15 | translated chrome |
+| `sources/avangelista-cartube/index.html` | 15 | translated chrome |
+| `sources/avangelista-statusmagic/index.html` | 15 | translated chrome |
+| `sources/bandarhl-bhinstagram/index.html` | 15 | translated chrome |
 | `sources/bandarhl-bhtwitter/index.html` | 15 | translated chrome |
 | `sources/bartuzen-qbitcontroller/index.html` | 15 | translated chrome |
 | `sources/bluewallet-bluewallet/index.html` | 15 | translated chrome |
+| `sources/bomberfish-caperfhudswift/index.html` | 15 | translated chrome |
 | `sources/chatsen-chatsen/index.html` | 15 | translated chrome |
 | `sources/claration-feather/index.html` | 15 | translated chrome |
 | `sources/clquwu-cosmos-music-player/index.html` | 15 | translated chrome |
 | `sources/cogwheel0-conduit/index.html` | 15 | translated chrome |
+| `sources/cokepokes-appstoreplus-trollstore/index.html` | 15 | translated chrome |
 | `sources/cranci1-animegen/index.html` | 15 | translated chrome |
 | `sources/cranci1-sora/index.html` | 15 | translated chrome |
+| `sources/developcubelab-animationspeed/index.html` | 15 | translated chrome |
+| `sources/developcubelab-batteryinfo/index.html` | 15 | translated chrome |
+| `sources/developcubelab-enablequic/index.html` | 15 | translated chrome |
 | `sources/donutware-fladder/index.html` | 15 | translated chrome |
-| `sources/fredrikburmester-streamyfin/index.html` | 15 | translated chrome |
+| `sources/edualexxis-byetunes/index.html` | 15 | translated chrome |
+| `sources/friesi23-mhabit/index.html` | 15 | translated chrome |
 | `sources/g-ray-pikatorrent/index.html` | 15 | translated chrome |
+| `sources/genericcoding-vibecontainers/index.html` | 15 | translated chrome |
+| `sources/ginsudev-wdbfontoverwrite/index.html` | 15 | translated chrome |
 | `sources/gopeedlab-gopeed/index.html` | 15 | translated chrome |
+| `sources/guardianproject-orbot-apple/index.html` | 15 | translated chrome |
 | `sources/gunnerkidbt-twitchadblock/index.html` | 15 | translated chrome |
 | `sources/hrydgard-ppsspp/index.html` | 15 | translated chrome |
 | `sources/https-raw-githubusercontent-com-927tx-ipa-vault/index.html` | 15 | translated chrome |
 | `sources/https-repo-ikghd-me-repo-json/index.html` | 15 | translated chrome |
 | `sources/https-source-ryuksign-com-duplicate/index.html` | 15 | translated chrome |
 | `sources/https-source-ryuksign-com-ig410/index.html` | 15 | translated chrome |
-| `sources/raynmahbub-omnisource/index.html` | 15 | translated chrome |
 | `sources/index.html` | 47 | translated chrome |
 | `sources/ish-app-ish/index.html` | 15 | translated chrome |
 | `sources/itzzace-ytkace/index.html` | 15 | translated chrome |
 | `sources/jellify-music-app/index.html` | 15 | translated chrome |
 | `sources/jellybookorg-jellybook/index.html` | 15 | translated chrome |
 | `sources/kodjodevf-mangayomi/index.html` | 15 | translated chrome |
-| `sources/krtirtho-spotube/index.html` | 15 | translated chrome |
+| `sources/leminlimez-cowabunga/index.html` | 15 | translated chrome |
+| `sources/leminlimez-helium/index.html` | 15 | translated chrome |
+| `sources/leminlimez-pocket-poster/index.html` | 15 | translated chrome |
+| `sources/leminlimez-secondhand/index.html` | 15 | translated chrome |
+| `sources/lessica-trollfools/index.html` | 15 | translated chrome |
 | `sources/level3tjg-redditfilter/index.html` | 15 | translated chrome |
 | `sources/liji32-sameboy/index.html` | 15 | translated chrome |
 | `sources/livecontainer-livecontainer/index.html` | 15 | translated chrome |
@@ -90,40 +106,56 @@ None. No orphaned keys and every used key resolves.
 | `sources/lotusprey-otraku/index.html` | 15 | translated chrome |
 | `sources/lrdsnow-purekfd/index.html` | 15 | translated chrome |
 | `sources/manic-emu-manicemu/index.html` | 15 | translated chrome |
+| `sources/manual-cercube/index.html` | 15 | translated chrome |
 | `sources/mark02-2012-maxmusic/index.html` | 15 | translated chrome |
+| `sources/matteozappia-dynamiccow/index.html` | 15 | translated chrome |
 | `sources/michael-128-qbitcontrol/index.html` | 15 | translated chrome |
 | `sources/mineek-muffinstore/index.html` | 15 | translated chrome |
-| `sources/mineek-serotonin/index.html` | 15 | translated chrome |
+| `sources/minh-ton-reynard-browser/index.html` | 15 | translated chrome |
 | `sources/moffatman-chan/index.html` | 15 | translated chrome |
 | `sources/monal-im-monal/index.html` | 15 | translated chrome |
-| `sources/mongoosemonke504-nebuloiptv/index.html` | 15 | translated chrome |
+| `sources/mongoosemonke504-onsidetv/index.html` | 15 | translated chrome |
+| `sources/mornyeapp-mornye/index.html` | 15 | translated chrome |
 | `sources/mrdrvt99-youproextra/index.html` | 15 | translated chrome |
 | `sources/mrdrvt99-ytmusicultimate/index.html` | 15 | translated chrome |
 | `sources/neofreebird-app/index.html` | 15 | translated chrome |
+| `sources/nguyenasang-snmessenger/index.html` | 15 | translated chrome |
+| `sources/nicegram-nicegram-ios/index.html` | 15 | translated chrome |
+| `sources/nuviomedia-nuviomobile/index.html` | 15 | translated chrome |
 | `sources/nyasami-ksign/index.html` | 15 | translated chrome |
 | `sources/oatmealdome-dolphin-ios/index.html` | 15 | translated chrome |
 | `sources/odyssey-team-odyssey/index.html` | 15 | translated chrome |
 | `sources/odyssey-team-taurine/index.html` | 15 | translated chrome |
+| `sources/onionbrowser-onionbrowser/index.html` | 15 | translated chrome |
 | `sources/oolxg-hanami/index.html` | 15 | translated chrome |
 | `sources/opa334-dopamine/index.html` | 15 | translated chrome |
 | `sources/provenance-emu-provenance/index.html` | 15 | translated chrome |
 | `sources/pwn20wndstuff-undecimus/index.html` | 15 | translated chrome |
+| `sources/pwnapplehat-escapeos/index.html` | 15 | translated chrome |
 | `sources/raincord-raintweak/index.html` | 15 | translated chrome |
 | `sources/rajnishone-qbitconnect/index.html` | 15 | translated chrome |
+| `sources/raynmahbub-omnisource/index.html` | 15 | translated chrome |
 | `sources/rileytestut-delta/index.html` | 15 | translated chrome |
+| `sources/rooootdev-lara/index.html` | 15 | translated chrome |
 | `sources/roothide-bootstrap/index.html` | 15 | translated chrome |
-| `sources/roothide-dopamine2-roothide/index.html` | 15 | translated chrome |
+| `sources/roothide-dopamine-roothide/index.html` | 15 | translated chrome |
 | `sources/ryanyuuki-anymex/index.html` | 15 | translated chrome |
+| `sources/s8ngyu-mugunghwa/index.html` | 15 | translated chrome |
 | `sources/saber-notes-saber/index.html` | 15 | translated chrome |
+| `sources/serotoninapp-serotonin/index.html` | 15 | translated chrome |
 | `sources/sidestore-sidestore/index.html` | 15 | translated chrome |
-| `sources/spotiflacapp-spotiflac-mobile/index.html` | 15 | translated chrome |
+| `sources/sourcelocation-airtroller/index.html` | 15 | translated chrome |
 | `sources/stikdebug-stikdebug/index.html` | 15 | translated chrome |
 | `sources/stikemu-stiknes-2-0/index.html` | 15 | translated chrome |
+| `sources/streamyfin-streamyfin/index.html` | 15 | translated chrome |
+| `sources/team-spotube-spotube/index.html` | 15 | translated chrome |
 | `sources/thunder-app-thunder/index.html` | 15 | translated chrome |
+| `sources/torrekie-battman/index.html` | 15 | translated chrome |
 | `sources/utmapp-utm/index.html` | 15 | translated chrome |
 | `sources/vcmi-vcmi/index.html` | 15 | translated chrome |
 | `sources/xenios-jp-xenios/index.html` | 15 | translated chrome |
 | `sources/xitrix-itorrent/index.html` | 15 | translated chrome |
+| `sources/yangjiiii-3105/index.html` | 15 | translated chrome |
 | `sources/yattee-yattee/index.html` | 15 | translated chrome |
 | `sources/yoshisuga-mame4ios/index.html` | 15 | translated chrome |
 | `sources/yuroyami-syncplay-mobile/index.html` | 15 | translated chrome |
@@ -143,6 +175,6 @@ registered in every locale.
 - `bn`: 2 key(s) still carry the English string: `hero.github`, `nav.github`
 - `de`: 14 key(s) still carry the English string: `catalog.sortName`, `footer.clients`, `footer.repository`, `hero.github`, `nav.apps`, `nav.community`, `nav.docs`, `nav.github`, `nav.graph`, `nav.health`, `sources.maintainer`, `sources.reputation` (+2 more)
 - `es`: 7 key(s) still carry the English string: `catalog.titleB`, `hero.github`, `nav.apps`, `nav.docs`, `nav.github`, `sources.appOne`, `sources.apps`
-- `fr`: 12 key(s) still carry the English string: `analytics.provenance`, `features.collectionsTitle`, `footer.clients`, `footer.documentation`, `hero.github`, `nav.apps`, `nav.collections`, `nav.docs`, `nav.github`, `nav.sources`, `sources.appOne`, `sources.apps`
+- `fr`: 11 key(s) still carry the English string: `analytics.provenance`, `footer.clients`, `footer.documentation`, `hero.github`, `nav.apps`, `nav.collections`, `nav.docs`, `nav.github`, `nav.sources`, `sources.appOne`, `sources.apps`
 - `ja`: 2 key(s) still carry the English string: `hero.github`, `nav.github`
 - `zh`: 2 key(s) still carry the English string: `hero.github`, `nav.github`

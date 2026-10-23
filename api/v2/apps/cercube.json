@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21",
-  "feedVersion": "90a59e370076",
+  "generatedAt": "2026-10-23",
+  "feedVersion": "b2419bca53e8",
   "app": {
     "id": "cercube",
     "name": "Cercube for YouTube",
     "developer": "Cercube",
     "subtitle": "Offline, PiP, background play and no ads for YouTube",
     "bundleIdentifier": "com.cercube.ios",
-    "version": "6.1.3",
-    "versionDate": "2026-09-18",
+    "version": "6.4.2",
+    "versionDate": "2026-10-23",
     "description": "Cercube for YouTube is the official YouTube enhancement from the original Cercube developer, relaunched in 2026: cache media for offline playback, use Picture in Picture and background playback, block supported video, feed and Shorts ads, choose default playback quality separately for Wi-Fi and cellular, reorder or hide tabs, auto-replay, skip sponsored segments, show dislike counts, queue videos - in 14 languages. It hooks the App Store YouTube app. Official distribution: apt.cercube.com (rootful, rootless and roothide jailbreak) and the altstore.cercube.com sideload source for AltStore (Classic), SideStore, Feather, eSign and friends.",
     "shortDescription": "Offline, PiP, background play and no ads for YouTube",
     "category": "photo-video",
@@ -18,11 +18,11 @@
     ],
     "icon": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
     "screenshots": [],
-    "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-    "size": 2017412,
+    "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+    "size": 2056048,
     "source": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
     "sourceURL": "https://cercube.com",
-    "checksum": null,
+    "checksum": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
     "checksumPublished": true,
     "minOSVersion": "15.0",
     "status": "stable",
@@ -30,30 +30,30 @@
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/cercube/",
     "feedURL": "https://raynmahbub.github.io/OmniSource/cercube.json",
     "health": {
-      "reachable": false,
-      "detail": "HTTP 404",
-      "updatedAt": "2026-09-18"
+      "reachable": true,
+      "detail": "HTTP 200",
+      "updatedAt": "2026-10-23"
     }
   },
   "newest": {
-    "version": "6.1.3",
-    "date": "2026-09-18",
-    "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-    "size": 2017412,
-    "sha256": null
+    "version": "6.4.2",
+    "date": "2026-10-23",
+    "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+    "size": 2056048,
+    "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35"
   },
   "versions": [
     {
-      "version": "6.1.3",
-      "date": "2026-09-18",
-      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-      "size": 2017412,
-      "sha256": null
+      "version": "6.4.2",
+      "date": "2026-10-23",
+      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+      "size": 2056048,
+      "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35"
     }
   ],
   "verification": {
-    "status": "UNVERIFIED",
-    "level": "UNVERIFIED",
+    "status": "VERIFIED",
+    "level": "VERIFIED",
     "method": "altstore"
   }
 }

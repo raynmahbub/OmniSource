@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-23",
   "totals": {
-    "sources": 131,
-    "healthy": 82,
-    "degraded": 42,
-    "unavailable": 7,
+    "sources": 127,
+    "healthy": 83,
+    "degraded": 43,
+    "unavailable": 1,
     "unknown": 0
   },
   "pipeline": {
-    "status": "degraded",
-    "lastBuild": "2026-10-21",
-    "appsTotal": 131,
-    "appsHealthy": 82,
-    "appsFailing": 4
+    "status": "ok",
+    "lastBuild": "2026-10-23",
+    "appsTotal": 127,
+    "appsHealthy": 83,
+    "appsFailing": 0
   },
   "providers": [
     {
@@ -52,9 +52,9 @@
     },
     {
       "provider": "github",
-      "apps": 112,
+      "apps": 108,
       "healthy": 65,
-      "unavailable": 6,
+      "unavailable": 1,
       "lastResolvedFrom": {
         "3105": "github:YangJiiii/3105",
         "aidoku": "github:Aidoku/Aidoku",
@@ -70,7 +70,7 @@
         "cosmos": "github:clquwu/Cosmos-Music-Player",
         "cowabunga": "github:leminlimez/Cowabunga",
         "dopamine": "github:opa334/Dopamine",
-        "dopamine-roothide": "github:roothide/Dopamine2-roothide",
+        "dopamine-roothide": "github:roothide/Dopamine-roothide",
         "dynamiccow": "github:matteozappia/DynamicCow",
         "escapeos": "github:pwnapplehat/EscapeOS",
         "fladder": "github:DonutWare/Fladder",
@@ -83,31 +83,31 @@
         "maxmusic": "github:Mark02-2012/MaxMusic",
         "maxtube": "github:Ashreq/ashstore-repo",
         "monal": "github:monal-im/Monal",
+        "spotiflac": "github:mornyeapp/Mornye",
         "mugunghwa": "github:s8ngyu/Mugunghwa",
-        "nebuloiptv": "github:mongoosemonke504/NebuloIPTV",
         "nicegram": "github:nicegram/Nicegram-iOS",
         "nuvio": "github:NuvioMedia/NuvioMobile",
         "odyssey": "github:Odyssey-Team/Odyssey",
         "onionbrowser": "github:OnionBrowser/OnionBrowser",
-        "orbot": "github:guardianproject/orbot-ios",
-        "qbitcontrol": "github:Michael-128/qBitControl",
+        "nebuloiptv": "github:mongoosemonke504/OnsideTV",
+        "orbot": "github:guardianproject/orbot-apple",
         "qbitcontroller": "github:Bartuzen/qBitController",
         "reynard": "github:minh-ton/reynard-browser",
         "saber": "github:saber-notes/saber",
         "sameboy": "github:LIJI32/SameBoy",
-        "serotonin": "github:mineek/Serotonin",
+        "serotonin": "github:SerotoninApp/Serotonin",
         "sidestore": "github:SideStore/SideStore",
         "sora": "github:cranci1/Sora",
-        "spotiflac": "github:spotiflacapp/SpotiFLAC-Mobile",
         "statusmagic": "github:Avangelista/StatusMagic",
         "stikdebug": "github:StikDebug/StikDebug",
-        "streamyfin": "github:fredrikburmester/streamyfin",
+        "streamyfin": "github:streamyfin/streamyfin",
         "synkplay": "github:yuroyami/syncplay-mobile",
         "tablehabit": "github:FriesI23/mhabit",
         "taurine": "github:Odyssey-Team/Taurine",
         "trollfools": "github:Lessica/TrollFools",
         "twitchadblock": "github:gunnerkidBT/TwitchAdBlock",
         "unc0ver": "github:pwn20wndstuff/Undecimus",
+        "uprovid": "manual",
         "utm": "github:utmapp/UTM",
         "vcmi": "github:vcmi/vcmi",
         "vibecontainers": "github:GenericCoding/VibeContainers",
@@ -139,8 +139,6 @@
         "hanami": "github:oolxg/Hanami",
         "itorrent": "github:XITRIX/iTorrent",
         "itransmission": "github:alexsvitlov/iTransmission",
-        "jaility": "github:haxi0/Jaility",
-        "killmyota": "github:haxi0/KillMyOTA",
         "ksign": "github:Nyasami/Ksign",
         "lara": "github:rooootdev/lara",
         "livecontainer": "github:LiveContainer/LiveContainer",
@@ -150,21 +148,19 @@
         "neofreebird": "github:NeoFreeBird/app",
         "otraku": "github:lotusprey/otraku",
         "pikatorrent": "github:G-Ray/pikatorrent",
-        "playtorrio": "github:ayman708-UX/PlayTorrioV3",
         "pocketposter": "github:leminlimez/Pocket-Poster",
         "ppsspp": "github:hrydgard/ppsspp",
         "provenance": "github:Provenance-Emu/Provenance",
         "purekfd": "github:Lrdsnow/PureKFD",
         "qbitconnect": "github:RajnishOne/qbitconnect",
+        "qbitcontrol": "github:Michael-128/qBitControl",
         "redditfilter": "github:level3tjg/RedditFilter",
         "secondhand": "github:leminlimez/SecondHand",
         "snmessenger": "github:NguyenASang/SNMessenger",
-        "spotube": "github:KRTirtho/spotube",
+        "spotube": "github:team-spotube/spotube",
         "stiknes": "github:StikEMU/StikNES-2.0",
         "thunder": "github:thunder-app/thunder",
-        "trollboard-reborn": "github:haxi0/TrollBoard-Reborn",
         "trollinstallerx": "github:alfiecg24/TrollInstallerX",
-        "uprovid": "manual",
         "uyouenhanced": "manual",
         "xenios": "github:xenios-jp/XeniOS",
         "yattee": "github:yattee/yattee"
@@ -173,8 +169,8 @@
     {
       "provider": "manual",
       "apps": 1,
-      "healthy": 0,
-      "unavailable": 1,
+      "healthy": 1,
+      "unavailable": 0,
       "lastResolvedFrom": {
         "cercube": "manual"
       }
@@ -183,8 +179,8 @@
   "deployment": {
     "platform": "GitHub Pages (static)",
     "status": "degraded",
-    "reachable": 124,
-    "total": 131
+    "reachable": 126,
+    "total": 127
   },
   "sources": [
     {
@@ -1004,6 +1000,108 @@
       ]
     },
     {
+      "id": "cercube",
+      "app": "cercube",
+      "name": "Cercube for YouTube",
+      "source": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
+      "sourceURL": "https://cercube.com",
+      "type": "manual",
+      "status": "healthy",
+      "reachable": true,
+      "latency": 206,
+      "latencyMs": 206,
+      "checkedAt": "2026-10-23",
+      "lastUpdate": "2026-10-23",
+      "valid": true,
+      "detail": "HTTP 200",
+      "history": [
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 253,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 286,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 194,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 287,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": false,
+          "latencyMs": 210,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": false,
+          "latencyMs": 259,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": false,
+          "latencyMs": 295,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 262,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 190,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 349,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 217,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": false,
+          "latencyMs": 266,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": false,
+          "latencyMs": 255,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": false,
+          "latencyMs": 206,
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    {
       "id": "chan",
       "app": "chan",
       "name": "Chan",
@@ -1619,8 +1717,8 @@
       "id": "dopamine-roothide",
       "app": "dopamine-roothide",
       "name": "Dopamine (RootHide)",
-      "source": "roothide/Dopamine2-roothide",
-      "sourceURL": "https://github.com/roothide/Dopamine2-roothide",
+      "source": "roothide/Dopamine-roothide",
+      "sourceURL": "https://github.com/roothide/Dopamine-roothide",
       "type": "github",
       "status": "healthy",
       "reachable": true,
@@ -3554,6 +3652,108 @@
       ]
     },
     {
+      "id": "spotiflac",
+      "app": "spotiflac",
+      "name": "Mornye",
+      "source": "mornyeapp/Mornye",
+      "sourceURL": "https://github.com/mornyeapp/Mornye",
+      "type": "github",
+      "status": "healthy",
+      "reachable": true,
+      "latency": 117,
+      "latencyMs": 117,
+      "checkedAt": "2026-09-07",
+      "lastUpdate": "2026-10-23",
+      "valid": true,
+      "detail": "HTTP 302",
+      "history": [
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 218,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 187,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 104,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 190,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 171,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 167,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 225,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 161,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 98,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 148,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 181,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 185,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 246,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 117,
+          "detail": "HTTP 302"
+        }
+      ]
+    },
+    {
       "id": "msgplusx",
       "app": "msgplusx",
       "name": "MSGPlusX",
@@ -3753,108 +3953,6 @@
           "at": "2026-10-21",
           "reachable": true,
           "latencyMs": 138,
-          "detail": "HTTP 302"
-        }
-      ]
-    },
-    {
-      "id": "nebuloiptv",
-      "app": "nebuloiptv",
-      "name": "Nebulo",
-      "source": "mongoosemonke504/NebuloIPTV",
-      "sourceURL": "https://github.com/mongoosemonke504/NebuloIPTV",
-      "type": "github",
-      "status": "healthy",
-      "reachable": true,
-      "latency": 148,
-      "latencyMs": 148,
-      "checkedAt": "2026-09-13",
-      "lastUpdate": "2026-09-28",
-      "valid": true,
-      "detail": "HTTP 302",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 182,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 239,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 104,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 202,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 169,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 253,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 233,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 199,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 143,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 202,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 211,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 215,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 278,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 148,
           "detail": "HTTP 302"
         }
       ]
@@ -4370,11 +4468,113 @@
       ]
     },
     {
+      "id": "nebuloiptv",
+      "app": "nebuloiptv",
+      "name": "Onside TV",
+      "source": "mongoosemonke504/OnsideTV",
+      "sourceURL": "https://github.com/mongoosemonke504/OnsideTV",
+      "type": "github",
+      "status": "healthy",
+      "reachable": true,
+      "latency": 148,
+      "latencyMs": 148,
+      "checkedAt": "2026-09-13",
+      "lastUpdate": "2026-09-28",
+      "valid": true,
+      "detail": "HTTP 302",
+      "history": [
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 182,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 239,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 104,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 202,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 169,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 253,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 233,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 199,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 143,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 202,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 211,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 215,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 278,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 148,
+          "detail": "HTTP 302"
+        }
+      ]
+    },
+    {
       "id": "orbot",
       "app": "orbot",
       "name": "Orbot",
-      "source": "guardianproject/orbot-ios",
-      "sourceURL": "https://github.com/guardianproject/orbot-ios",
+      "source": "guardianproject/orbot-apple",
+      "sourceURL": "https://github.com/guardianproject/orbot-apple",
       "type": "github",
       "status": "healthy",
       "reachable": true,
@@ -4467,108 +4667,6 @@
           "at": "2026-10-21",
           "reachable": true,
           "latencyMs": 123,
-          "detail": "HTTP 302"
-        }
-      ]
-    },
-    {
-      "id": "qbitcontrol",
-      "app": "qbitcontrol",
-      "name": "qBitControl",
-      "source": "Michael-128/qBitControl",
-      "sourceURL": "https://github.com/Michael-128/qBitControl",
-      "type": "github",
-      "status": "healthy",
-      "reachable": true,
-      "latency": 119,
-      "latencyMs": 119,
-      "checkedAt": "2026-09-10",
-      "lastUpdate": "2026-07-23",
-      "valid": true,
-      "detail": "HTTP 302",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 149,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 308,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 105,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 198,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 244,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 209,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 187,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 165,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 203,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 220,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 222,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 282,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 119,
           "detail": "HTTP 302"
         }
       ]
@@ -5291,8 +5389,8 @@
       "id": "serotonin",
       "app": "serotonin",
       "name": "Serotonin",
-      "source": "mineek/Serotonin",
-      "sourceURL": "https://github.com/mineek/Serotonin",
+      "source": "SerotoninApp/Serotonin",
+      "sourceURL": "https://github.com/SerotoninApp/Serotonin",
       "type": "github",
       "status": "healthy",
       "reachable": true,
@@ -5696,108 +5794,6 @@
       ]
     },
     {
-      "id": "spotiflac",
-      "app": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "source": "spotiflacapp/SpotiFLAC-Mobile",
-      "sourceURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
-      "type": "github",
-      "status": "healthy",
-      "reachable": true,
-      "latency": 117,
-      "latencyMs": 117,
-      "checkedAt": "2026-09-07",
-      "lastUpdate": "2026-10-20",
-      "valid": true,
-      "detail": "HTTP 302",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 218,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 187,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 104,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 171,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 167,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 225,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 98,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 148,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 181,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 185,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 246,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 117,
-          "detail": "HTTP 302"
-        }
-      ]
-    },
-    {
       "id": "statusmagic",
       "app": "statusmagic",
       "name": "StatusMagic",
@@ -6005,8 +6001,8 @@
       "id": "streamyfin",
       "app": "streamyfin",
       "name": "Streamyfin",
-      "source": "fredrikburmester/streamyfin",
-      "sourceURL": "https://github.com/fredrikburmester/streamyfin",
+      "source": "streamyfin/streamyfin",
+      "sourceURL": "https://github.com/streamyfin/streamyfin",
       "type": "github",
       "status": "healthy",
       "reachable": true,
@@ -7226,6 +7222,108 @@
       ]
     },
     {
+      "id": "uprovid",
+      "app": "uprovid",
+      "name": "uProVid",
+      "source": "raynmahbub/OmniSource (Tweak Factory)",
+      "sourceURL": "https://github.com/raynmahbub/OmniSource",
+      "type": "github",
+      "status": "healthy",
+      "reachable": true,
+      "latency": 186,
+      "latencyMs": 186,
+      "checkedAt": "2026-10-23",
+      "lastUpdate": "2026-10-03",
+      "valid": true,
+      "detail": "HTTP 302",
+      "history": [
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 223,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 263,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 143,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": false,
+          "latencyMs": 257,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": false,
+          "latencyMs": 195,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": false,
+          "latencyMs": 301,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": false,
+          "latencyMs": 227,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 240,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 222,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 254,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": false,
+          "latencyMs": 266,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": false,
+          "latencyMs": 226,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": false,
+          "latencyMs": 321,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": false,
+          "latencyMs": 186,
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    {
       "id": "utm",
       "app": "utm",
       "name": "UTM",
@@ -7849,7 +7947,7 @@
       "latency": 143,
       "latencyMs": 143,
       "checkedAt": "2026-09-07",
-      "lastUpdate": "2026-10-11",
+      "lastUpdate": "2026-10-22",
       "valid": true,
       "detail": "HTTP 302",
       "history": [
@@ -7951,7 +8049,7 @@
       "latency": 136,
       "latencyMs": 136,
       "checkedAt": "2026-09-07",
-      "lastUpdate": "2026-10-11",
+      "lastUpdate": "2026-10-22",
       "valid": true,
       "detail": "HTTP 302",
       "history": [
@@ -8053,7 +8151,7 @@
       "latency": 110,
       "latencyMs": 110,
       "checkedAt": "2026-09-07",
-      "lastUpdate": "2026-10-11",
+      "lastUpdate": "2026-10-22",
       "valid": true,
       "detail": "HTTP 302",
       "history": [
@@ -9572,108 +9670,6 @@
       ]
     },
     {
-      "id": "cercube",
-      "app": "cercube",
-      "name": "Cercube for YouTube",
-      "source": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
-      "sourceURL": "https://cercube.com",
-      "type": "manual",
-      "status": "unavailable",
-      "reachable": false,
-      "latency": 206,
-      "latencyMs": 206,
-      "checkedAt": "2026-10-01",
-      "lastUpdate": "2026-09-18",
-      "valid": true,
-      "detail": "HTTP 404",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 253,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 286,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 194,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 287,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 210,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 259,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 295,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 262,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 190,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 349,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 217,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 266,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 255,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 206,
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    {
       "id": "delta",
       "app": "delta",
       "name": "Delta",
@@ -10486,210 +10482,6 @@
           "reachable": true,
           "latencyMs": 111,
           "detail": "HTTP 302"
-        }
-      ]
-    },
-    {
-      "id": "jaility",
-      "app": "jaility",
-      "name": "Jaility",
-      "source": "haxi0/Jaility",
-      "sourceURL": "https://github.com/haxi0/Jaility",
-      "type": "github",
-      "status": "unavailable",
-      "reachable": false,
-      "latency": 186,
-      "latencyMs": 186,
-      "checkedAt": "2026-10-01",
-      "lastUpdate": "2022-11-12",
-      "valid": true,
-      "detail": "HTTP 404",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 223,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 269,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 150,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 222,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 206,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 225,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 223,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 230,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 130,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 218,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 259,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 290,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 290,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 186,
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    {
-      "id": "killmyota",
-      "app": "killmyota",
-      "name": "KillMyOTA",
-      "source": "haxi0/KillMyOTA",
-      "sourceURL": "https://github.com/haxi0/KillMyOTA",
-      "type": "github",
-      "status": "unavailable",
-      "reachable": false,
-      "latency": 157,
-      "latencyMs": 157,
-      "checkedAt": "2026-10-01",
-      "lastUpdate": "2023-01-30",
-      "valid": true,
-      "detail": "HTTP 404",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 228,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 272,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 150,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 226,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 194,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 265,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 243,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 194,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 213,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 200,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 258,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 193,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 278,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 157,
-          "detail": "HTTP 404"
         }
       ]
     },
@@ -11612,108 +11404,6 @@
       ]
     },
     {
-      "id": "playtorrio",
-      "app": "playtorrio",
-      "name": "PlayTorrio",
-      "source": "ayman708-UX/PlayTorrioV3",
-      "sourceURL": "https://github.com/ayman708-UX/PlayTorrioV3",
-      "type": "github",
-      "status": "unavailable",
-      "reachable": false,
-      "latency": 142,
-      "latencyMs": 142,
-      "checkedAt": "2026-10-12",
-      "lastUpdate": "2026-09-16",
-      "valid": true,
-      "detail": "HTTP 404",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 190,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 216,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 118,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 203,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 147,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 197,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 330,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 193,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 156,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 175,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 291,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 219,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 244,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 142,
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    {
       "id": "pocketposter",
       "app": "pocketposter",
       "name": "Pocket Poster",
@@ -12224,6 +11914,108 @@
       ]
     },
     {
+      "id": "qbitcontrol",
+      "app": "qbitcontrol",
+      "name": "qBitControl",
+      "source": "Michael-128/qBitControl",
+      "sourceURL": "https://github.com/Michael-128/qBitControl",
+      "type": "github",
+      "status": "degraded",
+      "reachable": true,
+      "latency": 119,
+      "latencyMs": 119,
+      "checkedAt": "2026-09-10",
+      "lastUpdate": "2026-07-23",
+      "valid": true,
+      "detail": "HTTP 302",
+      "history": [
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 149,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 308,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 105,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-18",
+          "reachable": true,
+          "latencyMs": 198,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 154,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 244,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 209,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 187,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 165,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 203,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 220,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 222,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 282,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 119,
+          "detail": "HTTP 302"
+        }
+      ]
+    },
+    {
       "id": "raintweak",
       "app": "raintweak",
       "name": "RainTweak",
@@ -12635,8 +12427,8 @@
       "id": "spotube",
       "app": "spotube",
       "name": "Spotube",
-      "source": "KRTirtho/spotube",
-      "sourceURL": "https://github.com/KRTirtho/spotube",
+      "source": "team-spotube/spotube",
+      "sourceURL": "https://github.com/team-spotube/spotube",
       "type": "github",
       "status": "degraded",
       "reachable": true,
@@ -12938,108 +12730,6 @@
       ]
     },
     {
-      "id": "trollboard-reborn",
-      "app": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "source": "haxi0/TrollBoard-Reborn",
-      "sourceURL": "https://github.com/haxi0/TrollBoard-Reborn",
-      "type": "github",
-      "status": "unavailable",
-      "reachable": false,
-      "latency": 183,
-      "latencyMs": 183,
-      "checkedAt": "2026-10-01",
-      "lastUpdate": "2023-12-05",
-      "valid": true,
-      "detail": "HTTP 404",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 189,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 246,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 154,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 238,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 150,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 271,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 286,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 221,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 130,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 205,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 252,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 230,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 287,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 183,
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    {
       "id": "trollinstallerx",
       "app": "trollinstallerx",
       "name": "TrollInstallerX",
@@ -13138,108 +12828,6 @@
           "reachable": true,
           "latencyMs": 118,
           "detail": "HTTP 302"
-        }
-      ]
-    },
-    {
-      "id": "uprovid",
-      "app": "uprovid",
-      "name": "uProVid",
-      "source": "raynmahbub/OmniSource (Tweak Factory)",
-      "sourceURL": "https://github.com/raynmahbub/OmniSource",
-      "type": "github",
-      "status": "unavailable",
-      "reachable": false,
-      "latency": 186,
-      "latencyMs": 186,
-      "checkedAt": "2026-10-05",
-      "lastUpdate": "2026-09-14",
-      "valid": true,
-      "detail": "HTTP 404",
-      "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 223,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 263,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 143,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 257,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 195,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 301,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 227,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 240,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 222,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 254,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": false,
-          "latencyMs": 266,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 226,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 321,
-          "detail": "HTTP 404"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": false,
-          "latencyMs": 186,
-          "detail": "HTTP 404"
         }
       ]
     },

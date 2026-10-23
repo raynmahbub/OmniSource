@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-23",
   "totals": {
-    "apps": 131,
-    "verified": 124,
+    "apps": 127,
+    "verified": 126,
     "communityVerified": 0,
-    "unverified": 7,
+    "unverified": 1,
     "hashVerified": 81,
-    "official": 111,
+    "official": 107,
     "communityBuilds": 20,
-    "avgTrustScore": 6.7,
+    "avgTrustScore": 6.91,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -397,6 +397,27 @@
       "trustBadge": "Community"
     },
     {
+      "app": "cercube",
+      "name": "Cercube for YouTube",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "altstore",
+      "publisher": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (altstore)"
+      ],
+      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+      "trustScore": 6.0,
+      "trustBadge": "Community"
+    },
+    {
       "app": "chan",
       "name": "Chan",
       "status": "VERIFIED",
@@ -571,7 +592,7 @@
       "provenance": "official",
       "hash_verified": true,
       "method": "github-release",
-      "publisher": "roothide/Dopamine2-roothide",
+      "publisher": "roothide/Dopamine-roothide",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -1195,6 +1216,27 @@
       "trustBadge": "Trusted"
     },
     {
+      "app": "spotiflac",
+      "name": "Mornye",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "github-release",
+      "publisher": "mornyeapp/Mornye",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (github-release)"
+      ],
+      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
+    },
+    {
       "app": "msgplusx",
       "name": "MSGPlusX",
       "status": "VERIFIED",
@@ -1256,27 +1298,6 @@
       "downloadURL": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
       "trustScore": 6.0,
       "trustBadge": "Community"
-    },
-    {
-      "app": "nebuloiptv",
-      "name": "Nebulo",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "mongoosemonke504/NebuloIPTV",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": true
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
     },
     {
       "app": "neofreebird",
@@ -1405,13 +1426,34 @@
       "trustBadge": "Trusted"
     },
     {
+      "app": "nebuloiptv",
+      "name": "Onside TV",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": true,
+      "method": "github-release",
+      "publisher": "mongoosemonke504/OnsideTV",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
+        "official upstream (github-release)"
+      ],
+      "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
+    },
+    {
       "app": "orbot",
       "name": "Orbot",
       "status": "VERIFIED",
       "provenance": "official",
       "hash_verified": true,
       "method": "github-release",
-      "publisher": "guardianproject/orbot-ios",
+      "publisher": "guardianproject/orbot-apple",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -1810,7 +1852,7 @@
       "provenance": "official",
       "hash_verified": false,
       "method": "github-release",
-      "publisher": "mineek/Serotonin",
+      "publisher": "SerotoninApp/Serotonin",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -1909,34 +1951,13 @@
       "trustBadge": "Community"
     },
     {
-      "app": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "spotiflacapp/SpotiFLAC-Mobile",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": true
-      },
-      "reasons": [
-        "official upstream (github-release)"
-      ],
-      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
-    },
-    {
       "app": "spotube",
       "name": "Spotube",
       "status": "VERIFIED",
       "provenance": "official",
       "hash_verified": true,
       "method": "github-release",
-      "publisher": "KRTirtho/spotube",
+      "publisher": "team-spotube/spotube",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -2020,7 +2041,7 @@
       "provenance": "official",
       "hash_verified": true,
       "method": "github-release",
-      "publisher": "fredrikburmester/streamyfin",
+      "publisher": "streamyfin/streamyfin",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -2308,6 +2329,27 @@
       "trustBadge": "Community"
     },
     {
+      "app": "uprovid",
+      "name": "uProVid",
+      "status": "VERIFIED",
+      "provenance": "community",
+      "hash_verified": false,
+      "method": "github-release",
+      "publisher": "raynmahbub/OmniSource (Tweak Factory)",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "official upstream (github-release)"
+      ],
+      "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+      "trustScore": 4.5,
+      "trustBadge": "Experimental"
+    },
+    {
       "app": "utm",
       "name": "UTM",
       "status": "VERIFIED",
@@ -2492,7 +2534,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2513,7 +2555,7 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
     },
@@ -2534,9 +2576,9 @@
       "reasons": [
         "official upstream (github-release)"
       ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
-      "trustScore": 8.6,
-      "trustBadge": "Trusted"
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
+      "trustScore": 9.3,
+      "trustBadge": "Verified"
     },
     {
       "app": "ytkace",
@@ -2621,132 +2663,6 @@
       "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
       "trustScore": 7.5,
       "trustBadge": "Trusted"
-    },
-    {
-      "app": "cercube",
-      "name": "Cercube for YouTube",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "altstore",
-      "publisher": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
-      "trustScore": 1.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "jaility",
-      "name": "Jaility",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "haxi0/Jaility",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "trustScore": 1.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "killmyota",
-      "name": "KillMyOTA",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "haxi0/KillMyOTA",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "trustScore": 1.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "playtorrio",
-      "name": "PlayTorrio",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": true,
-      "method": "github-release",
-      "publisher": "ayman708-UX/PlayTorrioV3",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": true
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-      "trustScore": 3.0,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "haxi0/TrollBoard-Reborn",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "trustScore": 1.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "uprovid",
-      "name": "uProVid",
-      "status": "UNVERIFIED",
-      "provenance": "community",
-      "hash_verified": false,
-      "method": "github-release",
-      "publisher": "raynmahbub/OmniSource (Tweak Factory)",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-      "trustScore": 1.5,
-      "trustBadge": "Experimental"
     },
     {
       "app": "uyouenhanced",

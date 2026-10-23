@@ -727,32 +727,35 @@ def stage_readme(
         return False
     start, end = README_MARKERS
     text = readme.read_text(encoding="utf-8")
-    if start not in text or end not in text:
-        log.debug("README has no generated catalog block - skipping")
-        return False
-
-    totals = health_doc["totals"]
-    block = "\n".join(
-        [
-            start,
-            "",
-            f"Browse the full **{totals['apps']}-app catalog** on the [website]({catalog.base_url}/#catalog) — "
-            f"all installable with one tap.",
-            "",
-            "- Combined feeds: [`feeds/apps.json`](./feeds/apps.json), "
-            "[`feeds/feed.xml`](./feeds/feed.xml), [`Catalog.json`](./Catalog.json)",
-            "- Substrate docs: [`feeds/sources.json`](./feeds/sources.json), "
-            "[`feeds/discovery.json`](./feeds/discovery.json), [`feeds/health.json`](./feeds/health.json), "
-            "[`feeds/updates.json`](./feeds/updates.json), [`feeds/verification.json`](./feeds/verification.json)",
-            "- Per-app feeds at `feeds/<slug>.json` and `feeds/<slug>.xml` — e.g. "
-            "[`feeds/esign.json`](./feeds/esign.json)",
-            "",
-            f"_Last sync {health_doc['generatedAt']} · {totals['reachable']}/{totals['apps']} downloads reachable._",
-            "",
-            end,
-        ]
-    )
-    updated, _ = _refresh_block(text, README_MARKERS, block)
+    updated = text
+    if start in text and end in text:
+        totals = health_doc["totals"]
+        block = "\n".join(
+            [
+                start,
+                "",
+                f"Browse the full **{totals['apps']}-app catalog** on the [website]({catalog.base_url}/#catalog) — "
+                f"all installable with one tap.",
+                "",
+                "- Combined feeds: [`feeds/apps.json`](./feeds/apps.json), "
+                "[`feeds/feed.xml`](./feeds/feed.xml), [`Catalog.json`](./Catalog.json)",
+                "- Substrate docs: [`feeds/sources.json`](./feeds/sources.json), "
+                "[`feeds/discovery.json`](./feeds/discovery.json), [`feeds/health.json`](./feeds/health.json), "
+                "[`feeds/updates.json`](./feeds/updates.json), [`feeds/verification.json`](./feeds/verification.json)",
+                "- Per-app feeds at `feeds/<slug>.json` and `feeds/<slug>.xml` — e.g. "
+                "[`feeds/esign.json`](./feeds/esign.json)",
+                "",
+                f"_Last sync {health_doc['generatedAt']} · {totals['reachable']}/{totals['apps']} downloads reachable._",
+                "",
+                end,
+            ]
+        )
+        updated, _ = _refresh_block(text, README_MARKERS, block)
+    else:
+        # The catalog block is optional: a README that only carries the live
+        # statistics block still gets its counts refreshed. Skipping the whole
+        # stage left the front page advertising a stale app count and sync date.
+        log.debug("README has no generated catalog block - refreshing the stats block only")
 
     # Live statistics block, refreshed from the analytics document.
     analytics_doc = analytics_doc or build_analytics_doc(catalog, load_state(container), health_doc)

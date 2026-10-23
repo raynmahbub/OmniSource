@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-23",
   "totals": {
-    "apps": 131,
+    "apps": 127,
     "pass": 81,
-    "warn": 50,
+    "warn": 46,
     "fail": 0,
     "rejected": 0
   },
@@ -554,19 +554,19 @@
       "slug": "cercube",
       "name": "Cercube for YouTube",
       "asset": {
-        "sha256": null,
-        "size": 2017412,
-        "releaseId": "6.1.3",
+        "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
+        "size": 2056048,
+        "releaseId": "6.4.2",
         "source": "",
-        "downloadUrl": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb"
+        "downloadUrl": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": false
+        "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1331,36 +1331,6 @@
       }
     },
     {
-      "slug": "jaility",
-      "name": "Jaility",
-      "asset": {
-        "sha256": null,
-        "size": 108606,
-        "releaseId": "3.1.1",
-        "source": "github",
-        "downloadUrl": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa"
-      },
-      "checks": {
-        "sizePositive": true,
-        "installable": true,
-        "digestFormat": true,
-        "reachable": false
-      },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 108606,
-        "size": 108606,
-        "sha256": "54b98b5931345e4076c86161da193f7329da9fe6106c92c9c5d630b06b1e4503",
-        "sha512": "8777926bacbf0ed3f1bb874dbf4c1e398b53fe4662f1ce2463eae85b4ffc71b011f092c76e1a21d869eaf84c0fcf546d2cad34185b252f36a82bd37beb828b29",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 376
-      }
-    },
-    {
       "slug": "jellify",
       "name": "Jellify",
       "asset": {
@@ -1418,36 +1388,6 @@
         "detail": "ok",
         "at": "2026-09-21",
         "durationMs": 523
-      }
-    },
-    {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "asset": {
-        "sha256": null,
-        "size": 339440,
-        "releaseId": "1.1",
-        "source": "github",
-        "downloadUrl": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa"
-      },
-      "checks": {
-        "sizePositive": true,
-        "installable": true,
-        "digestFormat": true,
-        "reachable": false
-      },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 339440,
-        "size": 339440,
-        "sha256": "dde09186162f539fabcc3641296db387757cc756475b2ca8ada4fa72c48cbf6a",
-        "sha512": "364b26c20169284372645b9fda97120bd53da32eba445b89da587766ca229de4f4a0532bce17adf1a435129e8a96216173a4c6ef47aa70a0f42eb333db105539",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 334
       }
     },
     {
@@ -1872,7 +1812,7 @@
     },
     {
       "slug": "nebuloiptv",
-      "name": "Nebulo",
+      "name": "Onside TV",
       "asset": {
         "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
         "size": 51168260,
@@ -2168,36 +2108,6 @@
         "detail": "ok",
         "at": "2026-09-21",
         "durationMs": 685
-      }
-    },
-    {
-      "slug": "playtorrio",
-      "name": "PlayTorrio",
-      "asset": {
-        "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-        "size": 48685274,
-        "releaseId": "1.1.6",
-        "source": "github",
-        "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa"
-      },
-      "checks": {
-        "sizePositive": true,
-        "installable": true,
-        "digestFormat": true,
-        "reachable": false
-      },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-        "expectedSha512": null,
-        "expectedSize": 48685274,
-        "size": 48685274,
-        "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-        "sha512": "6469a5ffd6c2d4d8f38064e8f7008916d4eeeee4e50c83c101fa2f85665d1b5d2f8013eb0108804f14d855873f4a807ac7aee27e3451c8e1e04edcbbfa6059ec",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 547
       }
     },
     {
@@ -2832,13 +2742,13 @@
     },
     {
       "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
+      "name": "Mornye",
       "asset": {
-        "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
-        "size": 34515412,
-        "releaseId": "5.2.1",
+        "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+        "size": 35645397,
+        "releaseId": "5.2.6",
         "source": "github",
-        "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa"
+        "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3221,36 +3131,6 @@
       }
     },
     {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "asset": {
-        "sha256": null,
-        "size": 542040,
-        "releaseId": "1.0",
-        "source": "github",
-        "downloadUrl": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa"
-      },
-      "checks": {
-        "sizePositive": true,
-        "installable": true,
-        "digestFormat": true,
-        "reachable": false
-      },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 542040,
-        "size": 542040,
-        "sha256": "94721e92777d0a454cdbe40f34143296e70465212daf9f4232bd44f9d2de1d47",
-        "sha512": "f52f6a6531172554e7b3c7341b7e1674ae2b85ae29795c6f42c6ea27ffed38145755b3f235ea23c6ddc616267a8d959e2096e35f70996d7524518d885e7968b5",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 316
-      }
-    },
-    {
       "slug": "trollfools",
       "name": "TrollFools",
       "asset": {
@@ -3435,16 +3315,16 @@
       "name": "uProVid",
       "asset": {
         "sha256": null,
-        "size": 131694546,
-        "releaseId": "21.37.4",
+        "size": 147923687,
+        "releaseId": "21.39.4",
         "source": "",
-        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa"
+        "downloadUrl": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": false
+        "reachable": true
       },
       "status": "warn"
     },
@@ -3722,11 +3602,11 @@
       "slug": "youmod",
       "name": "YouMod",
       "asset": {
-        "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
-        "size": 130590630,
-        "releaseId": "21.41.5",
+        "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+        "size": 131398144,
+        "releaseId": "21.42.4",
         "source": "github",
-        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa"
+        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3752,11 +3632,11 @@
       "slug": "youpro",
       "name": "YouPro",
       "asset": {
-        "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
-        "size": 130721602,
-        "releaseId": "21.41.5",
+        "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+        "size": 131280986,
+        "releaseId": "21.42.4",
         "source": "github",
-        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa"
+        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3842,11 +3722,11 @@
       "slug": "ytlite",
       "name": "YouTubePlus",
       "asset": {
-        "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
-        "size": 149026282,
-        "releaseId": "21.41.5",
+        "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
+        "size": 149834006,
+        "releaseId": "21.42.4",
         "source": "github",
-        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa"
+        "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa"
       },
       "checks": {
         "sizePositive": true,
