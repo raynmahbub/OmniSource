@@ -2623,10 +2623,15 @@ button.client-link:hover { color: var(--text); }
 }
 .ap-screenshots img {
   height: 380px;
-  /* Reserve the tile before the bytes land. Phone screenshots are ~9:19.5, the
-     markup declares width="175" height="380" to match, and the ratio here keeps
-     a slow third-party host from reflowing the row (and everything after it). */
-  aspect-ratio: 9 / 19.5;
+  /* Reserve the tile before the bytes land. Phone screenshots are ~9:19.5 and
+     the markup hints width="175" height="380" to match, so a slow third-party
+     host cannot reflow the row (and everything after it). `auto 9 / 19.5`
+     keeps that placeholder only *until* the image loads, then the intrinsic
+     ratio takes over: landscape art (a project's own multi-device showcase,
+     a desktop build) keeps its real proportions instead of being squashed
+     into a phone-shaped box. */
+  width: auto;
+  aspect-ratio: auto 9 / 19.5;
   background: var(--surface-2);
   border-radius: var(--radius-lg);
   border: 1px solid var(--line);

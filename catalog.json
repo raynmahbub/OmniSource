@@ -64,11 +64,12 @@
       "bundleIdentifier": "com.zarz.spotiflacAndroid",
       "developerName": "zarzet",
       "category": "music",
-      "tintColor": "1DB954",
+      "tintColor": "1E4E4F",
       "icon": "SpotiFLAC.webp",
       "localizedDescription": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
       "screenshots": [
-        "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png"
+        "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png",
+        "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-dark.png"
       ],
       "featured": true,
       "status": "stable",
@@ -1755,7 +1756,11 @@
       "tintColor": "4C86DE",
       "icon": "Yattee.webp",
       "localizedDescription": "Yattee is a privacy-oriented, fully native video player for iPhone, iPad and Apple TV. It plays from user-configured Invidious or Piped backends and local video libraries, with SponsorBlock, chapters, background audio, Picture in Picture, subscriptions, and full keyboard and remote control support.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_4/app-launch-home.png",
+        "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_4/settings-main.png",
+        "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_2/app-launch-home.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/yattee/yattee",
@@ -1806,7 +1811,11 @@
       "tintColor": "BF7BF2",
       "icon": "Streamyfin.webp",
       "localizedDescription": "Streamyfin is an open-source Jellyfin client for iPhone and iPad built with Expo and React Native. Stream your Jellyfin server's library with offline downloads, background audio, Picture in Picture, Chromecast, intro skipping, live TV, and an optional MPV-based player — no server plugins required.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/02-library.png",
+        "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/03-media-details.png",
+        "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/06-request-media.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/streamyfin/streamyfin",
@@ -1857,7 +1866,11 @@
       "tintColor": "207AB7",
       "icon": "Spotube.webp",
       "localizedDescription": "Spotube is an open-source, cross-platform music streaming client that combines Spotify's metadata — your playlists, albums, liked songs and recommendations — with community audio sources, so you can play your whole Spotify library without ads or telemetry. Includes lyrics and a plugin system for extending playback sources.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/team-spotube/spotube/master/assets/branding/mobile-screenshots/android-1.jpg",
+        "https://raw.githubusercontent.com/team-spotube/spotube/master/assets/branding/mobile-screenshots/android-2.jpg",
+        "https://raw.githubusercontent.com/team-spotube/spotube/master/assets/branding/mobile-screenshots/android-3.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/team-spotube/spotube",
@@ -1908,7 +1921,11 @@
       "tintColor": "19AFC8",
       "icon": "Jellify.webp",
       "localizedDescription": "Jellify is a free and open-source music player for Jellyfin, built with React Native. Browse and stream your Jellyfin music libraries on iPhone and iPad with a native interface, fast search, playlists, favorites and now-playing controls — available on the App Store and as sideload builds.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/album.png",
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/add_to_playlist.png",
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/artist.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/Jellify-Music/App",
@@ -2059,7 +2076,11 @@
       "tintColor": "4083BD",
       "icon": "Voyager.webp",
       "localizedDescription": "Voyager is a free and open-source client for Lemmy and PieFed with an iOS-native feel — swipe gestures, haptics, infinite scroll, rich markdown support, multi-account switching and deep theming. The same project powers the official Voyager App Store release; this feed tracks the developer's own GitHub build.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/aeharding/voyager/main/public/screenshots/android/3.png",
+        "https://raw.githubusercontent.com/aeharding/voyager/main/public/screenshots/android/4.png",
+        "https://raw.githubusercontent.com/aeharding/voyager/main/public/screenshots/android/5.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/aeharding/voyager",
@@ -2109,7 +2130,11 @@
       "tintColor": "F9C60A",
       "icon": "Saber.webp",
       "localizedDescription": "Saber is a free and open-source handwritten notes app built with Flutter. Write with your finger or Apple Pencil as if on paper, organize notes into folders, keep them private with encryption, and sync across devices using its optional Nextcloud-based sync — no vendor lock-in.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/iphoneScreenshots/1_home.png",
+        "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/iphoneScreenshots/2_editor.png",
+        "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/iphoneScreenshots/4_settings.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/saber-notes/saber",
@@ -2160,7 +2185,11 @@
       "tintColor": "336393",
       "icon": "AnxReader.webp",
       "localizedDescription": "Anx Reader is a free and open-source e-book reader for iPhone and iPad. Read EPUB, MOBI and other formats with a polished reader engine, AI-powered summaries and translations (bring your own key), text-to-speech, highlights and notes, reading statistics, and WebDAV sync across devices.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/Anxcye/anx-reader/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "https://raw.githubusercontent.com/Anxcye/anx-reader/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "https://raw.githubusercontent.com/Anxcye/anx-reader/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/Anxcye/anx-reader",
@@ -2211,7 +2240,11 @@
       "tintColor": "F0542D",
       "icon": "Apollo.webp",
       "localizedDescription": "Apollo was the beloved, award-winning Reddit client for iPhone and iPad known for its beautiful native interface, powerful gestures, jump-to-comments, inline media reading and fanatic attention to detail. After Reddit's API changes ended the original app, the Apollo-Reborn project now publishes official continuation builds that work against Reddit's public API — keeping the classic Apollo experience alive.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/main/Resources/screenshots/cloud-ai/model-browser.png",
+        "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/main/Resources/screenshots/cloud-ai/summary-card.png",
+        "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/main/img/custom.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/Apollo-Reborn/Apollo-Reborn",
@@ -2519,7 +2552,11 @@
       "tintColor": "354B60",
       "icon": "MAME4iOS.webp",
       "localizedDescription": "MAME4iOS brings the Multiple Arcade Machine Emulator to iPhone, iPad and Apple TV, running thousands of classic arcade games from the 70s, 80s, 90s and beyond. Includes an on-screen joystick, full MFi controller support, netplay, and a menu to organize your legally dumped ROM sets.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-iphone.png",
+        "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-menu.png",
+        "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-iphone-small.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/yoshisuga/MAME4iOS",
@@ -2773,7 +2810,11 @@
       "tintColor": "1D9BF0",
       "icon": "NeoFreeBird.webp",
       "localizedDescription": "NeoFreeBird is a modified build of the official Twitter app that reverts unpopular rebranding and interface changes, restores classic features, and bundles quality-of-life modifications including BHTwitter options — built and published automatically from the project's GitHub releases. Shares com.atebits.Tweetie2 with the App Store Twitter/X app and BHTwitter: install one at a time.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/1.png",
+        "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/2.png",
+        "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/3.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/NeoFreeBird/app",
@@ -2824,7 +2865,11 @@
       "tintColor": "7794F0",
       "icon": "Conduit.webp",
       "localizedDescription": "Conduit is a native, open-source iOS and Android client for Open WebUI, direct OpenAI-compatible endpoints, Ollama and Hermes. Chat with your own self-hosted local models or API-backed ones with a polished SwiftUI interface — conversations stay in sync, code blocks render properly, and your data never touches a third-party server.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/cogwheel0/conduit/main/docs/screenshots/2.png",
+        "https://raw.githubusercontent.com/cogwheel0/conduit/main/docs/screenshots/3.png",
+        "https://raw.githubusercontent.com/cogwheel0/conduit/main/docs/screenshots/4.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/cogwheel0/conduit",
@@ -2875,7 +2920,11 @@
       "tintColor": "A34920",
       "icon": "Fladder.webp",
       "localizedDescription": "Fladder is a free and open-source Jellyfin frontend built on Flutter, giving you a beautiful Netflix-style interface over your own media library on iPhone and iPad. Direct play and transcode support, offline viewing with sync, multi-server switching, and full library management — no server plugins required.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/DonutWare/Fladder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "https://raw.githubusercontent.com/DonutWare/Fladder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "https://raw.githubusercontent.com/DonutWare/Fladder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/DonutWare/Fladder",
@@ -2926,7 +2975,11 @@
       "tintColor": "131313",
       "icon": "AnymeX.webp",
       "localizedDescription": "AnymeX is an open-source, cross-platform app for streaming anime and reading manga, manhwa, light and web novels, with deep integration for tracking services (AniList, MyAnimeList, Simkl and Kitsu). Extensions keep sources working, and your library, progress and statistics stay in sync across services.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/repo/images/screenshots/image_0.webp",
+        "https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/repo/images/screenshots/image_1.webp",
+        "https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/repo/images/screenshots/image_2.webp"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/RyanYuuki/AnymeX",
@@ -2977,7 +3030,11 @@
       "tintColor": "EE4310",
       "icon": "Sora.webp",
       "localizedDescription": "Sora is a modular, open-source media player for iPhone, iPad and Mac that streams movies and shows from community-maintained modules, with AniList sync, watching collections, watch-next recommendations, bookmarks and a fast native SwiftUI interface. The current build line is distributed as Sulfur.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/cranci1/Sora/dev/assets/screenshots/ios-1.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/dev/assets/screenshots/ios-4.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/dev/assets/screenshots/ios-3.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/cranci1/Sora",
@@ -3115,7 +3172,11 @@
       "tintColor": "FF6B00",
       "icon": "Infuse.webp",
       "localizedDescription": "Infuse Plus (by Dayanch96) enhances the Infuse video player with extra appearance options, app icon choices and playback quality-of-life improvements on top of the stock Infuse 8 app. The build follows the latest Infuse release.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/screenshot1.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/screenshot2.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/screenshot3.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/dayanch96/InfusePlus",
@@ -3162,7 +3223,11 @@
       "tintColor": "1877F2",
       "icon": "Facebook.webp",
       "localizedDescription": "Glow is a simple, clean and powerful tweak for Facebook by Dayanch96: it removes ads and sponsored content, adds video downloads, unlocks media quality options and hides unwanted UI elements on top of the official Facebook app.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/screenshot4.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/dayanch96/Glow",
@@ -3308,7 +3373,11 @@
       "tintColor": "0088CC",
       "icon": "Telegram.webp",
       "localizedDescription": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/m1ronx1412/mxgram",
@@ -3527,7 +3596,10 @@
       "tintColor": "E1306C",
       "icon": "Instagram.webp",
       "localizedDescription": "Sparkle (by efibalogh) brings the spark back to Instagram: downloads for reels and stories, ghost mode, ad hiding, restored classic behaviours and UI customization on top of the official Instagram app.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/efibalogh/sparkle-ig/main/resources/screenshots/sparkle_settings.jpg",
+        "https://raw.githubusercontent.com/efibalogh/sparkle-ig/main/resources/screenshots/sparkle_settings_open.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/efibalogh/sparkle-ig",
@@ -3960,7 +4032,11 @@
       "tintColor": "2AABEE",
       "icon": "iMe.webp",
       "localizedDescription": "iMe MxGram is the third-party iMe messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the iMe Telegram client.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/m1ronx1412/mxgram",
@@ -4033,7 +4109,11 @@
       "tintColor": "0088CC",
       "icon": "Turrit.webp",
       "localizedDescription": "Turrit MxGram is the third-party Turrit messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the Turrit Telegram client.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
+        "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/m1ronx1412/mxgram",
@@ -4825,7 +4905,11 @@
       "icon": "PikaTorrent.webp",
       "localizedDescription": "PikaTorrent is a modern cross-platform BitTorrent client for iOS and Android. Pick a torrent and stream or download it on all your devices, with support for magnet links, .torrent files and pairing with a self-hosted bridge.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/G-Ray/pikatorrent/main/app/android/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+        "https://raw.githubusercontent.com/G-Ray/pikatorrent/main/screenshots/mobile-dark.png",
+        "https://raw.githubusercontent.com/G-Ray/pikatorrent/main/screenshots/mobile-light.png"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -4879,7 +4963,11 @@
       "icon": "Thunder.webp",
       "localizedDescription": "Thunder is an open-source, cross-platform Lemmy and PieFed client for iOS and Android built with Flutter. It supports multiple accounts, customizable feeds and gesture-based navigation against any Lemmy or PieFed instance.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/thunder-app/thunder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+        "https://raw.githubusercontent.com/thunder-app/thunder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+        "https://raw.githubusercontent.com/thunder-app/thunder/develop/docs/assets/screenshot_1.png"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -4987,7 +5075,11 @@
       "icon": "Monal.webp",
       "localizedDescription": "Monal is a free, open-source XMPP (Jabber) instant messenger for iOS and macOS. It offers OMEMO end-to-end encryption, multiple accounts, group chat and push notifications without a central server.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/01_groupchats.png",
+        "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/02_chats.png",
+        "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/04_contacts.png"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -5041,7 +5133,12 @@
       "icon": "JellyBook.webp",
       "localizedDescription": "JellyBook is a nice way to read books and comics from Jellyfin. It streams EPUB, CBZ and PDF titles from your Jellyfin server to your iPhone or iPad with a clean reading interface.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/JellyBookOrg/JellyBook/main/assets/githubImages/screenshots/Phone/LibraryView.png",
+        "https://raw.githubusercontent.com/JellyBookOrg/JellyBook/main/assets/githubImages/screenshots/Phone/CollectionScreenView.png",
+        "https://raw.githubusercontent.com/JellyBookOrg/JellyBook/main/assets/githubImages/screenshots/Phone/SearchScreenView.png",
+        "https://raw.githubusercontent.com/JellyBookOrg/JellyBook/main/assets/githubImages/screenshots/Phone/InfoScreenView.png"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -5150,7 +5247,11 @@
       "icon": "Otraku.webp",
       "localizedDescription": "Otraku is an unofficial AniList client for Android and iOS built with Flutter. Browse, search and update your anime and manga lists with a polished native interface.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -5529,7 +5630,11 @@
       "icon": "Mangayomi.webp",
       "localizedDescription": "Mangayomi is a free, open-source app for reading manga and novels and watching anime, available on Android, iOS, macOS, Linux and Windows. It supports extensions for a wide range of sources.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/kodjodevf/mangayomi/main/repo/images/screenshots/image_0_default.webp",
+        "https://raw.githubusercontent.com/kodjodevf/mangayomi/main/repo/images/screenshots/image_1_default.webp",
+        "https://raw.githubusercontent.com/kodjodevf/mangayomi/main/repo/images/screenshots/image_2_default.webp"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -5583,7 +5688,9 @@
       "icon": "Nebulo.webp",
       "localizedDescription": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
       "status": "stable",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/mongoosemonke504/OnsideTV/main/docs/screenshots/multiview.jpg"
+      ],
       "featured": false,
       "appPermissions": {
         "entitlements": [],
@@ -5846,7 +5953,11 @@
       "tintColor": "7D4698",
       "icon": "Orbot.webp",
       "localizedDescription": "Orbot puts an iPhone, iPad or Mac behind the Tor network: it installs a local packet-tunnel configuration so device traffic leaves through Tor instead of the plain network. Obfs4 and Snowflake bridges are supported and fully configurable, Tor v3 onion-service authentication works, and Tor's EntryNodes, ExitNodes, ExcludeNodes and StrictNodes options can all be set. The sideloadable build is published from the project's own GitHub releases, which list the bundled Tor, OpenSSL, Lyrebird and Snowflake versions per app release.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/guardianproject/orbot-apple/main/docs/screenshots/localizable-strings/Connect_1.png",
+        "https://raw.githubusercontent.com/guardianproject/orbot-apple/main/docs/screenshots/localizable-strings/Connect_2.png",
+        "https://raw.githubusercontent.com/guardianproject/orbot-apple/main/docs/screenshots/localizable-strings/Connect_3.png"
+      ],
       "featured": false,
       "status": "stable",
       "upstreamURL": "https://github.com/guardianproject/orbot-apple",
