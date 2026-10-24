@@ -88,3 +88,27 @@ the mirrored bytes and the thumbnails stay consistent with the catalog. Four
 stale mirror directories (BlueWallet, qBController, Synkplay, Zeus) were
 removed: their candidate art was reviewed and rejected during this pass, so
 neither the images nor the manifest entries survive.
+
+## Mornye (spotiflac) — official rebrand assets
+
+The entry still carried the pre-rebrand SpotiFLAC artwork: a green-on-black
+"music download" circle that the project retired when SpotiFLAC Mobile became
+Mornye in October 2026. Both assets now come from the project's own tree.
+
+| Asset | Source | Notes |
+| :-- | :-- | :-- |
+| Icon (`assets/SpotiFLAC.{png,webp}`, 512×512) | `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png` | the iOS app icon the project ships, downscaled with Lanczos; full-bleed Deep Teal `#1E4E4F` square with the Mist `#BBEBEC` mark, matching how the other catalog icons are cut |
+| Screenshot 1 | `assets/readme/showcase-light.png` | the project's README showcase (Home, Library, Now Playing, Equalizer) — unchanged upstream, re-mirrored and re-thumbnailed |
+| Screenshot 2 | `assets/readme/showcase-dark.png` | the dark-theme showcase, newly declared |
+
+`tintColor` moves from Spotify green `#1DB954` to the brand's Deep Teal
+`#1E4E4F` (`assets/brand/README.md` in the project lists Deep Teal, Mist, Ink
+and Paper as the palette). The icon *filename* stays `SpotiFLAC.*`: it is a
+published `iconURL` in the feeds and API, so renaming it would break consumers
+for a cosmetic gain.
+
+The showcase images are 1500×783 composites of four phone screens, not the
+usual 9:19.5 phone capture. `.ap-screenshots img` used to force that ratio on
+every tile, which squashed landscape art into a phone-shaped box; it now uses
+`aspect-ratio: auto 9 / 19.5`, keeping the phone-shaped placeholder only until
+the bytes land and then honouring each image's real proportions.
