@@ -745,7 +745,8 @@ def stage_readme(
                 "- Per-app feeds at `feeds/<slug>.json` and `feeds/<slug>.xml` — e.g. "
                 "[`feeds/esign.json`](./feeds/esign.json)",
                 "",
-                f"_Last sync {health_doc['generatedAt']} · {totals['reachable']}/{totals['apps']} downloads reachable._",
+                f"_Last sync {health_doc['generatedAt']} · "
+                f"{totals['reachable']}/{totals['apps']} downloads reachable._",
                 "",
                 end,
             ]
