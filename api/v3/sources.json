@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "b9b337bd7543",
+  "feedVersion": "93d6d39dc151",
   "data": [
     {
       "id": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
@@ -1783,10 +1783,10 @@
       "appCount": 1,
       "verifiedApps": 1,
       "healthScore": 77.0,
-      "score": 94.4,
+      "score": 91.9,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 4.7,
+      "updateFrequencyDays": 3.5,
       "lastUpdate": "2026-10-18",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/reynard.json"
     },
@@ -1946,10 +1946,10 @@
       "appCount": 4,
       "verifiedApps": 4,
       "healthScore": 80.8,
-      "score": 94.9,
+      "score": 96.2,
       "status": "Warning",
       "level": "TRUSTED",
-      "updateFrequencyDays": 8.5,
+      "updateFrequencyDays": 9.2,
       "lastUpdate": "2026-10-22"
     },
     {
@@ -1963,7 +1963,7 @@
         {
           "slug": "ytmusic",
           "name": "YTMusicUltimate",
-          "version": "9.41.2"
+          "version": "9.42.2"
         }
       ],
       "slug": "mrdrvt99-ytmusicultimate",
@@ -1974,11 +1974,11 @@
       "appCount": 1,
       "verifiedApps": 1,
       "healthScore": 79.0,
-      "score": 89.4,
+      "score": 89.9,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 6.0,
-      "lastUpdate": "2026-10-11",
+      "updateFrequencyDays": 8.5,
+      "lastUpdate": "2026-10-22",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json"
     },
     {
@@ -2079,7 +2079,7 @@
         {
           "slug": "nuvio",
           "name": "Nuvio",
-          "version": "0.6.3"
+          "version": "0.6.4"
         }
       ],
       "slug": "nuviomedia-nuviomobile",
@@ -2093,8 +2093,8 @@
       "score": 99.4,
       "status": "Verified",
       "level": "TRUSTED",
-      "updateFrequencyDays": 2.5,
-      "lastUpdate": "2026-10-21",
+      "updateFrequencyDays": 2.4,
+      "lastUpdate": "2026-10-23",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/nuvio.json"
     },
     {
@@ -2398,7 +2398,7 @@
         {
           "slug": "raintweak",
           "name": "RainTweak",
-          "version": "0.9.3"
+          "version": "1.2.0"
         }
       ],
       "slug": "raincord-raintweak",
@@ -2413,7 +2413,7 @@
       "status": "Community Verified",
       "level": "RELIABLE",
       "updateFrequencyDays": null,
-      "lastUpdate": "2026-06-19",
+      "lastUpdate": "2026-09-17",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/raintweak.json"
     },
     {
@@ -2799,6 +2799,35 @@
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/sidestore.json"
     },
     {
+      "id": "Soupy-dev/Eclipse",
+      "source": "Soupy-dev/Eclipse",
+      "type": "github",
+      "homepage": "https://github.com/Soupy-dev/Eclipse",
+      "sourceURL": "https://github.com/Soupy-dev/Eclipse",
+      "publisher": "Soupy-dev/Eclipse",
+      "apps": [
+        {
+          "slug": "eclipse",
+          "name": "Eclipse",
+          "version": "2.3.0"
+        }
+      ],
+      "slug": "soupy-dev-eclipse",
+      "page": "/sources/soupy-dev-eclipse/",
+      "appSlugs": [
+        "eclipse"
+      ],
+      "appCount": 1,
+      "verifiedApps": 1,
+      "healthScore": 79.0,
+      "score": 73.9,
+      "status": "Community Verified",
+      "level": "RELIABLE",
+      "updateFrequencyDays": null,
+      "lastUpdate": "2026-10-20",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+    },
+    {
       "id": "sourcelocation/AirTroller",
       "source": "sourcelocation/AirTroller",
       "type": "github",
@@ -2907,10 +2936,10 @@
       "appCount": 1,
       "verifiedApps": 1,
       "healthScore": 77.0,
-      "score": 87.4,
-      "status": "Verified",
-      "level": "TRUSTED",
-      "updateFrequencyDays": 12.0,
+      "score": 73.9,
+      "status": "Community Verified",
+      "level": "RELIABLE",
+      "updateFrequencyDays": null,
       "lastUpdate": "2026-10-16",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json"
     },

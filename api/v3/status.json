@@ -1,29 +1,29 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "b9b337bd7543",
+  "feedVersion": "93d6d39dc151",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-23",
+    "generatedAt": "2026-10-24",
     "totals": {
-      "sources": 127,
+      "sources": 128,
       "healthy": 83,
       "degraded": 43,
       "unavailable": 1,
-      "unknown": 0
+      "unknown": 1
     },
     "pipeline": {
-      "status": "ok",
-      "lastBuild": "2026-10-23",
-      "appsTotal": 127,
+      "status": "degraded",
+      "lastBuild": "2026-10-24",
+      "appsTotal": 128,
       "appsHealthy": 83,
-      "appsFailing": 0
+      "appsFailing": 17
     },
     "providers": [
       {
         "provider": "altstore",
         "apps": 17,
-        "healthy": 17,
+        "healthy": 16,
         "unavailable": 0,
         "lastResolvedFrom": {
           "glow": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
@@ -35,28 +35,28 @@
           "msgplusx": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
           "nexasc": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
           "ryukgram": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
-          "ryukgram-ig410": "altstore:https://source.ryuksign.com/ig410",
           "ryukgram-sidebyside": "altstore:https://source.ryuksign.com/duplicate",
           "sparkle": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
           "swiftgram": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
           "telegram-mxgram": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
           "threadsaver": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
           "ttkillerplus": "altstore:https://repo.ikghd.me/repo.json",
-          "turrit-mxgram": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json"
+          "turrit-mxgram": "altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
+          "ryukgram-ig410": "altstore:https://source.ryuksign.com/ig410"
         }
       },
       {
         "provider": "codeberg",
         "apps": 1,
-        "healthy": 0,
+        "healthy": 1,
         "unavailable": 0,
         "lastResolvedFrom": {
-          "raintweak": "manual"
+          "raintweak": "github:ra1ncord/RainTweak"
         }
       },
       {
         "provider": "github",
-        "apps": 108,
+        "apps": 109,
         "healthy": 65,
         "unavailable": 1,
         "lastResolvedFrom": {
@@ -137,6 +137,7 @@
           "cartube": "github:Avangelista/CarTube",
           "delta": "github:RileyTestut/Delta",
           "dolphinish": "github:OatmealDome/dolphin-ios",
+          "eclipse": "github:Soupy-dev/Eclipse",
           "enablequic": "github:DevelopCubeLab/EnableQUIC",
           "feather": "github:claration/Feather",
           "gopeed": "github:GopeedLab/gopeed",
@@ -183,8 +184,8 @@
     "deployment": {
       "platform": "GitHub Pages (static)",
       "status": "degraded",
-      "reachable": 126,
-      "total": 127
+      "reachable": 127,
+      "total": 128
     },
     "sources": [
       {
@@ -4177,7 +4178,7 @@
         "latency": 119,
         "latencyMs": 119,
         "checkedAt": "2026-09-17",
-        "lastUpdate": "2026-10-21",
+        "lastUpdate": "2026-10-23",
         "valid": true,
         "detail": "HTTP 302",
         "history": [
@@ -4778,6 +4779,108 @@
         ]
       },
       {
+        "id": "raintweak",
+        "app": "raintweak",
+        "name": "RainTweak",
+        "source": "raincord/RainTweak (Codeberg)",
+        "sourceURL": "https://codeberg.org/raincord/RainTweak",
+        "type": "codeberg",
+        "status": "healthy",
+        "reachable": true,
+        "latency": 181,
+        "latencyMs": 181,
+        "checkedAt": "2026-09-10",
+        "lastUpdate": "2026-09-17",
+        "valid": true,
+        "detail": "HTTP 302",
+        "history": [
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 197,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 263,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 120,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 226,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 147,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 231,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 248,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 187,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 200,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 173,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 238,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 237,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 276,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 181,
+            "detail": "HTTP 302"
+          }
+        ]
+      },
+      {
         "id": "reynard",
         "app": "reynard",
         "name": "Reynard",
@@ -4977,108 +5080,6 @@
             "at": "2026-10-21",
             "reachable": true,
             "latencyMs": 131,
-            "detail": "HTTP 200"
-          }
-        ]
-      },
-      {
-        "id": "ryukgram-ig410",
-        "app": "ryukgram-ig410",
-        "name": "RyukGram (IG 410)",
-        "source": "Ryuk / RyukSign (source.ryuksign.com)",
-        "sourceURL": "https://source.ryuksign.com/ig410",
-        "type": "altstore",
-        "status": "healthy",
-        "reachable": true,
-        "latency": 411,
-        "latencyMs": 411,
-        "checkedAt": "2026-10-18",
-        "lastUpdate": "2026-07-25",
-        "valid": true,
-        "detail": "HTTP 200",
-        "history": [
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 349,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 582,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 472,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 454,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 426,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 369,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 448,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 594,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 416,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 514,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 560,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 629,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 514,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 411,
             "detail": "HTTP 200"
           }
         ]
@@ -8461,7 +8462,7 @@
         "latency": 220,
         "latencyMs": 220,
         "checkedAt": "2026-09-14",
-        "lastUpdate": "2026-10-11",
+        "lastUpdate": "2026-10-22",
         "valid": true,
         "detail": "HTTP 302",
         "history": [
@@ -9876,6 +9877,23 @@
             "detail": "HTTP 302"
           }
         ]
+      },
+      {
+        "id": "eclipse",
+        "app": "eclipse",
+        "name": "Eclipse",
+        "source": "Soupy-dev/Eclipse",
+        "sourceURL": "https://github.com/Soupy-dev/Eclipse",
+        "type": "github",
+        "status": "unknown",
+        "reachable": null,
+        "latency": null,
+        "latencyMs": null,
+        "checkedAt": "",
+        "lastUpdate": "2026-10-20",
+        "valid": true,
+        "detail": "",
+        "history": []
       },
       {
         "id": "enablequic",
@@ -12020,108 +12038,6 @@
         ]
       },
       {
-        "id": "raintweak",
-        "app": "raintweak",
-        "name": "RainTweak",
-        "source": "raincord/RainTweak (Codeberg)",
-        "sourceURL": "https://codeberg.org/raincord/RainTweak",
-        "type": "codeberg",
-        "status": "degraded",
-        "reachable": true,
-        "latency": 181,
-        "latencyMs": 181,
-        "checkedAt": "2026-09-10",
-        "lastUpdate": "2026-06-19",
-        "valid": true,
-        "detail": "HTTP 302",
-        "history": [
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 197,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 263,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 120,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 226,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 147,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 231,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 248,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 187,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 200,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 173,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 238,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 237,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 276,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 181,
-            "detail": "HTTP 302"
-          }
-        ]
-      },
-      {
         "id": "redditfilter",
         "app": "redditfilter",
         "name": "RedditFilter",
@@ -12220,6 +12136,108 @@
             "reachable": true,
             "latencyMs": 206,
             "detail": "HTTP 302"
+          }
+        ]
+      },
+      {
+        "id": "ryukgram-ig410",
+        "app": "ryukgram-ig410",
+        "name": "RyukGram (IG 410)",
+        "source": "Ryuk / RyukSign (source.ryuksign.com)",
+        "sourceURL": "https://source.ryuksign.com/ig410",
+        "type": "altstore",
+        "status": "degraded",
+        "reachable": true,
+        "latency": 411,
+        "latencyMs": 411,
+        "checkedAt": "2026-10-18",
+        "lastUpdate": "2026-07-25",
+        "valid": true,
+        "detail": "HTTP 200",
+        "history": [
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 349,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 582,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 472,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 454,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 426,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 369,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 448,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 594,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 416,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 514,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 560,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 629,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 514,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 411,
+            "detail": "HTTP 200"
           }
         ]
       },

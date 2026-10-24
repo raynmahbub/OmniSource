@@ -1,11 +1,11 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "b9b337bd7543",
+  "feedVersion": "93d6d39dc151",
   "pagination": {
     "page": 1,
     "per_page": 50,
-    "total": 127,
+    "total": 128,
     "pages": 3
   },
   "data": [
@@ -358,6 +358,18 @@
       "size": 915515
     },
     {
+      "id": "app.Eclipse.Soupy",
+      "name": "Eclipse",
+      "bundleIdentifier": "app.Eclipse.Soupy",
+      "developerName": "Soupy-dev",
+      "category": "entertainment",
+      "version": "2.3.0",
+      "versionDate": "2026-10-20",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+      "downloadURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+      "size": 36182081
+    },
+    {
       "id": "com.developlab.EnableQUIC",
       "name": "EnableQUIC",
       "bundleIdentifier": "com.developlab.EnableQUIC",
@@ -596,18 +608,6 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/LiveContainer.webp",
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
       "size": 4707271
-    },
-    {
-      "id": "com.example.mame4ios",
-      "name": "MAME4iOS",
-      "bundleIdentifier": "com.example.mame4ios",
-      "developerName": "Yoshisuga & MAME4iOS Contributors",
-      "category": "games",
-      "version": "2022.5",
-      "versionDate": "2022-12-12",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/MAME4iOS.webp",
-      "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
-      "size": 52332306
     }
   ]
 }

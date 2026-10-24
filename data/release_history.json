@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T22:50:15Z",
-  "appCount": 127,
-  "releases": 352,
+  "generatedAt": "2026-10-24T05:19:25Z",
+  "appCount": 128,
+  "releases": 355,
   "apps": {
     "3105": [
       {
@@ -560,6 +560,18 @@
         "localizedDescription": "DynamicCow 1.1 | DynamicCow",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
+      }
+    ],
+    "eclipse": [
+      {
+        "version": "2.3.0",
+        "date": "2026-10-20",
+        "downloadURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+        "size": 36182081,
+        "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
+        "localizedDescription": "Eclipse 2.3.0 | Eclipse-unsigned-v2.3.0-20261020-090254\n\nAdditions:\n\n-Deep tracker library integration option (AniList, MAL, Trakt)\n-Simkl Tracking (Will NOT get deep tracking integration due to free tier limits)\n-Ratings and Notes setting\n-Concurrent download controls\n-Background HLS downloading (iOS 26+ only)\n-Subtitle delay\n-Dolby Atmos and Dolby Vision support\n-epub support (experimental)\n-Light novel reader rework\n\nFixes/Changes (fixes are not guaranteed, different devices behave differently) :\n\n-Fixed mpv backgrounding audio desync, it should take a sec to recover.\n-Fixed mpv downstream blowing up\n-Changed Alt poster and season building to be more accurate, tested 220 anime, and 100 western shows\n-Fixed unaired episode hiding\n-Fixed System calendar crash, app now enforces Gregorian calendar\n-Fixed Ratings and Notes getting lost\n-Removed Performance mode and watch together. No longer needed/wasn't popular. Perf mode is enforced On\n-Ratings and notes can now be assigned per season rather than the whole show\n-Subtitle edit fixes\n-Language filters are now hardcoded values instead of user inputted ones\n-Fixed Reader mode library importing not being able to connect a source\n-Rearranged settings to push more important ones higher\n-Changed some Auto Mode logic\n-Fixed audio name detection\n-Fixed subtitle name detection\n-Double tap to seek no longer brings up the player UI\n\nAs always, use GitHub issues or the discord for requests or bug reports.",
+        "status": "current",
+        "firstSeen": "2026-10-24T05:19:25Z"
       }
     ],
     "enablequic": [
@@ -1604,13 +1616,23 @@
     ],
     "nuvio": [
       {
+        "version": "0.6.4",
+        "date": "2026-10-23",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
+        "size": 67805794,
+        "sha256": "e7670fdba3adb96f6f8292dd19539fff04d1fbd792fa0fc7b1f602b84367d969",
+        "localizedDescription": "Nuvio 0.6.4 | nuvio-0.6.4-full-release\n\n- 8683505d fix(details): animate ratings on tablet @tapframe  \n- e6a05d1d feat(ios): support duo layout @tapframe  \n- b6287380 fix(deps): update haze to 1.7.3 @tapframe  \n- [fix(trakt): keep continue watching when a progress request fails (#2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow  \n- [perf(streams): compile badge rules once per change (#2365)](https://github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  \n- [perf(debrid): cache stream filter regexes and reuse stream facts (#2362)](https://github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  \n- [i18n(el): sync the Greek locale with 0.6.3 (player badges, Simkl statuses, engine switch, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/pull/2359) @nosvasedis  \n- [feat(i18n): complete pt-BR player badges and watch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull/2338) @jhojhocraazy  \n- [Replace libass renderer with atlas pipeline from Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @skoruppa  \n- [Update Hungarian translations (#2341)](https://github.com/NuvioMedia/NuvioMobile/pull/2341) @emgeje  \n- [i18n(vi): update strings.xml and strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pull/2339) @blueocean2308  \n- 90ab7f95 fix(ratings): use real imdb logo and grey label @tapframe  \n- d9046775 feat(home): show ratings and age rating on hero @tapframe  \n- b9fbc09c fix(player): keep side panels clear of the navigation bar @tapframe  \n- 83e528f0 feat(player): choose a badge pack for the player @tapframe  \n- [Complete Spanish mobile translations (#2344)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierPC  \n- [fix(ios): keep hardware decoding when PiP is interrupted by Notification Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306) @WhiteGiso  \n- [fix(android): scale ExoPlayer subtitles with the PiP window size (#2314)](https://github.c",
+        "status": "current",
+        "firstSeen": "2026-10-24T05:19:25Z"
+      },
+      {
         "version": "0.6.3",
         "date": "2026-10-21",
         "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
         "size": 68815810,
         "sha256": "90cccaa6bfe194c0567e0eb763a2aa65c2fd32ea84660eab18ef336b83558640",
         "localizedDescription": "Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party): show the party's source as plain text @tapframe  \n- 37a6656a fix(player): keep center controls in place on pause @tapframe  \n- 344117e7 feat(player): show badges for what is playing @tapframe  \n- ebb17678 feat(party): chat from your phone with the same profile @tapframe  \n- 18268427 fix(player): move engine switch to top row with confirmation @tapframe  \n- [feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288)](https://github.com/NuvioMedia/NuvioMobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messages with the return key @tapframe  \n- [Update Hungarian translations (#2333)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix binge group initial state from stream args, apply custom posters in library see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) @skoruppa  \n- [i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/NuvioMobile/pull/2297) @blueocean2308",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-21T12:13:23Z"
       },
       {
@@ -1996,7 +2018,7 @@
         "size": 107065935,
         "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
         "localizedDescription": "Discord 1.2.0 | RainTweak",
-        "status": "removed",
+        "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
       },
       {
@@ -2006,7 +2028,7 @@
         "size": 107515564,
         "sha256": "1ac871154ac2649158eea405f2c79e2e1d36ed7771c9b64748ce9f1c3f97703e",
         "localizedDescription": "Discord 0.9.3 | RainTweak\n\nRainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injected into the official Discord iOS app. Published as a ready-to-sideload IPA by the RainTweak project; official IPA comes from the Codeberg releases page with the GitHub mirror as a failover.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -3686,13 +3708,23 @@
     ],
     "ytmusic": [
       {
+        "version": "9.42.2",
+        "date": "2026-10-22",
+        "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
+        "size": 105940933,
+        "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
+        "localizedDescription": "YTMusicUltimate 9.42.2 | YTMusic 2.4.1 | YTMusicUltimate_9.42.2_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
+        "status": "current",
+        "firstSeen": "2026-10-24T05:19:25Z"
+      },
+      {
         "version": "9.41.2",
         "date": "2026-10-11",
         "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa",
         "size": 105674200,
         "sha256": "3f512786adc51e378357e9649fb5a7cc56a63aedff0932c0cd354c415fc89315",
         "localizedDescription": "YTMusicUltimate 9.41.2 | YTMusic 2.4.1 | YTMusicUltimate_9.41.2_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {
