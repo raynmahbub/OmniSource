@@ -806,7 +806,7 @@ def stage_assets(container: Container, catalog: Catalog) -> None:
         if len(missing_screenshots) > 6:
             preview += f", +{len(missing_screenshots) - 6} more"
         log.info(
-            "asset: %d app(s) declare no screenshots; their gallery uses the icon fallback (%s)",
+            "asset: %d app(s) declare no screenshots; the gallery stays empty and the gap is recorded (%s)",
             len(missing_screenshots),
             preview,
         )

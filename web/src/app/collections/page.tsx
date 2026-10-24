@@ -1,4 +1,6 @@
 import AppCard from "@/components/AppCard";
+import EmptyState from "@/components/EmptyState";
+import PageHeader from "@/components/PageHeader";
 import { getAppsWithIds, getCollections } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -10,17 +12,14 @@ export default async function CollectionsPage() {
   const byBundle = new Map(entries.map((e) => [e.app.bundleIdentifier, e]));
   return (
     <div className="space-y-8">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.collectionsTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.collectionsSubtitle}</p>
-      </div>
+      <PageHeader title={dict.sections.collectionsTitle} description={dict.sections.collectionsSubtitle} />
       {collections.map((c) => {
         const members = (c.appSlugs ?? [])
           .map((slug) => byId.get(slug) ?? byBundle.get(slug))
           .filter((e): e is { id: string; app: (typeof entries)[number]["app"] } => Boolean(e))
           .slice(0, 12);
         return (
-          <section key={c.slug} className="rounded-3xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
+          <section key={c.slug} className="os-panel p-5 sm:p-6">
             <h2 className="text-lg font-bold">{c.title}</h2>
             {c.description && <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{c.description}</p>}
             <p className="mt-1 text-xs text-zinc-500">
@@ -34,7 +33,7 @@ export default async function CollectionsPage() {
           </section>
         );
       })}
-      {!collections.length && <p className="text-zinc-500">{dict.common.noResults}</p>}
+      {!collections.length && <EmptyState>{dict.common.noResults}</EmptyState>}
     </div>
   );
 }

@@ -9,14 +9,11 @@ motion policy live in the design system and are noted per section.
 ## Summary
 
 - Pages scanned: **25**
-- Pages with structural findings: **2**
+- Pages with structural findings: **0**
 
 ## Findings by page
 
-- `index.html`
-  - most buttons rely on inner text only (screen-reader labels recommended for icon buttons)
-- `ipa-downloader/index.html`
-  - no skip link
+No structural findings — every scanned page declares `lang`, labels its controls, keeps heading order and guards `target=_blank`.
 
 ## Design-system guarantees
 

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import AppIcon from "@/components/AppIcon";
 import CopyButton from "@/components/CopyButton";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
-import { getAppById, getAppProjectURL, getAppsWithIds, getCatalogIconURL } from "@/lib/data";
+import { getAppById, getAppProjectURL, getAppScreenshots, getAppsWithIds, getCatalogIconURL } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 import { safeExternalUrl } from "@/lib/url";
 
@@ -24,20 +24,14 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
   const versions = Array.isArray(app.versions) ? app.versions : [];
   const downloadUrl = safeExternalUrl(app.downloadURL);
   const projectURL = safeExternalUrl(getAppProjectURL(app));
-  const screenshotURLs = Array.from(
-    new Set(
-      (app.screenshotURLs ?? [])
-        .map((url) => safeExternalUrl(url))
-        .filter((url): url is string => Boolean(url && /^https?:\/\//i.test(url))),
-    ),
-  );
+  const screenshots = getAppScreenshots(app);
   const sourceFeed = app.bundleIdentifier ? singleAppFeed(app.bundleIdentifier) : "";
   return (
     <div className="space-y-6">
       <Link href="/apps" className="text-sm font-semibold text-violet-700 hover:underline dark:text-violet-300">
         ← {dict.sections.appsTitle}
       </Link>
-      <div className="flex flex-col gap-5 rounded-3xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900 md:flex-row">
+      <div className="os-panel flex flex-col gap-5 p-6 md:flex-row">
         <AppIcon app={app} src={getCatalogIconURL(app)} size={112} className="rounded-3xl text-4xl" />
         <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-extrabold">{app.name}</h1>
@@ -99,7 +93,7 @@ export default async function AppDetail({ params }: { params: Promise<{ id: stri
       )}
       <ScreenshotGallery
         appName={app.name}
-        urls={screenshotURLs}
+        screenshots={screenshots}
         projectURL={projectURL}
         title={dict.sections.screenshotsTitle ?? "Official screenshots"}
         description={dict.sections.screenshotsIntro ?? "Original screenshots published by this app's official project."}

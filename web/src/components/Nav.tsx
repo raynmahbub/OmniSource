@@ -6,19 +6,26 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import type { Dictionary, Locale } from "@/i18n/dictionaries";
 
-const LINKS: Array<{ href: string; key: string; fallback: string }> = [
+type NavLink = { href: string; key: string; fallback: string };
+
+const PRIMARY_LINKS: NavLink[] = [
   { href: "/", key: "home", fallback: "Home" },
   { href: "/apps", key: "apps", fallback: "Apps" },
   { href: "/sources", key: "sources", fallback: "Sources" },
   { href: "/collections", key: "collections", fallback: "Collections" },
-  { href: "/categories", key: "categories", fallback: "Categories" },
-  { href: "/developers", key: "developers", fallback: "Developers" },
   { href: "/search", key: "search", fallback: "Search" },
   { href: "/status", key: "status", fallback: "Status" },
+];
+
+const MORE_LINKS: NavLink[] = [
+  { href: "/categories", key: "categories", fallback: "Categories" },
+  { href: "/developers", key: "developers", fallback: "Developers" },
   { href: "/security", key: "security", fallback: "Security" },
   { href: "/statistics", key: "statistics", fallback: "Statistics" },
   { href: "/about", key: "about", fallback: "About" },
 ];
+
+const LINKS = [...PRIMARY_LINKS, ...MORE_LINKS];
 
 /* The same scroll lock the static site uses, for the same reasons: pinning the
    body out of flow at the current offset is the only lock that both stops iOS
@@ -40,6 +47,7 @@ function unlockBody(y: number) {
 
 export default function Nav({ dict, lang }: { dict: Dictionary; lang: Locale }) {
   const pathname = usePathname() ?? "/";
+  const moreActive = MORE_LINKS.some((link) => pathname.startsWith(link.href));
   const [open, setOpen] = useState(false);
   const panelId = useId();
   const toggleRef = useRef<HTMLButtonElement>(null);
@@ -170,8 +178,8 @@ export default function Nav({ dict, lang }: { dict: Dictionary; lang: Locale }) 
             <span className="truncate">OmniSource</span>
           </Link>
 
-          <nav aria-label="Primary" className="ml-auto hidden min-w-0 flex-1 items-center justify-end gap-x-3 text-sm lg:flex">
-            {LINKS.map((link) => {
+          <nav aria-label="Primary" className="ml-auto hidden min-w-0 flex-1 items-center justify-end gap-x-1 text-[13px] lg:flex xl:gap-x-2 xl:text-sm">
+            {PRIMARY_LINKS.map((link) => {
               const active = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
               return (
                 <Link
@@ -186,6 +194,45 @@ export default function Nav({ dict, lang }: { dict: Dictionary; lang: Locale }) 
                 </Link>
               );
             })}
+            <details
+              className="relative"
+              onKeyDown={(event) => {
+                if (event.key !== "Escape") return;
+                event.preventDefault();
+                event.currentTarget.removeAttribute("open");
+                event.currentTarget.querySelector("summary")?.focus();
+              }}
+            >
+              <summary
+                aria-current={moreActive ? "page" : undefined}
+                className={`flex cursor-pointer list-none items-center gap-1 rounded px-1.5 py-1 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white [&::-webkit-details-marker]:hidden ${
+                  moreActive ? "font-semibold text-zinc-900 dark:text-white" : "text-zinc-600 dark:text-zinc-300"
+                }`}
+              >
+                {label("more", "More")}
+                <svg aria-hidden viewBox="0 0 12 12" className="h-3 w-3" fill="none" stroke="currentColor">
+                  <path d="m3 4.5 3 3 3-3" />
+                </svg>
+              </summary>
+              <div className="absolute right-0 top-[calc(100%+12px)] z-50 w-52 rounded-2xl border border-zinc-200 bg-white p-2 shadow-2xl dark:border-zinc-800 dark:bg-zinc-900">
+                {MORE_LINKS.map((link) => {
+                  const active = pathname.startsWith(link.href);
+                  return (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      aria-current={active ? "page" : undefined}
+                      onClick={(event) => event.currentTarget.closest("details")?.removeAttribute("open")}
+                      className={`block rounded-xl px-3 py-2.5 transition-colors hover:bg-zinc-100 dark:hover:bg-zinc-800 ${
+                        active ? "bg-zinc-100 font-semibold dark:bg-zinc-800" : "text-zinc-600 dark:text-zinc-300"
+                      }`}
+                    >
+                      {label(link.key, link.fallback)}
+                    </Link>
+                  );
+                })}
+              </div>
+            </details>
           </nav>
 
           <div className="ml-auto flex shrink-0 items-center gap-2 lg:ml-3">

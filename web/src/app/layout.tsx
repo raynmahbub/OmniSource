@@ -69,10 +69,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
         />
       </head>
-      <body className="min-h-screen bg-[#f7f6fd] text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
+      <body className="min-h-screen antialiased">
         <PwaRegister lang={lang} />
         <Nav dict={dict} lang={lang} />
-        <main id="main" className="mx-auto w-full max-w-6xl px-4 py-8">
+        <main id="main" className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
           {children}
         </main>
         <footer className="relative border-t border-zinc-200 py-8 text-center text-sm text-zinc-500 before:pointer-events-none before:absolute before:inset-x-0 before:-top-px before:h-px before:bg-gradient-to-r before:from-transparent before:via-violet-500/60 before:to-transparent dark:border-zinc-800 dark:text-zinc-400">

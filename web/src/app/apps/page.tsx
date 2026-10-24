@@ -1,5 +1,7 @@
 import AppCard from "@/components/AppCard";
+import EmptyState from "@/components/EmptyState";
 import Filters from "@/components/Filters";
+import PageHeader from "@/components/PageHeader";
 import { getAppsWithIds, getCategories } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -22,10 +24,7 @@ export default async function AppsPage({
   );
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.appsTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.appsSubtitle}</p>
-      </div>
+      <PageHeader title={dict.sections.appsTitle} description={dict.sections.appsSubtitle} />
       <Filters
         action="/apps"
         submitLabel={dict.common.apply ?? "Apply"}
@@ -58,7 +57,7 @@ export default async function AppsPage({
           <AppCard key={id} id={id} app={app} />
         ))}
       </div>
-      {!entries.length && <p className="text-zinc-500">{dict.common.noResults}</p>}
+      {!entries.length && <EmptyState>{dict.common.noResults}</EmptyState>}
     </div>
   );
 }

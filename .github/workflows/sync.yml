@@ -161,14 +161,14 @@ jobs:
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Generated feeds JSON/XML, app detail pages, static comparison +
-          # collection pages, monitoring reports, README blocks, and the
-          # published root surface (/apps.json, api/ + gz twins, sitemap,
+          # Generated feeds JSON/XML, upstream screenshot mirrors + thumbnails,
+          # app detail pages, static comparison + collection pages, monitoring
+          # reports, README blocks, and the published root surface (/apps.json, api/ + gz twins, sitemap,
           # robots, homepage stats) that GitHub Pages can serve for this
           # branch. The pipeline writes nothing else, so the allowlist stays
           # minimal on purpose: a stray file here means the build misbehaved.
           git add -A -- '*.json' '*.xml' '*.gz' 'api/**' 'apps/**' 'compare/**' \
-            'collections/**' 'sources/**' 'docs/index.html' 'discover/**' 'graph/**' \
+            'assets/screenshots/**' 'collections/**' 'sources/**' 'docs/index.html' 'discover/**' 'graph/**' \
             'reports/**' 'ipa-downloader/' README.md index.html \
             'sitemap.xml' 'robots.txt' '.nojekyll'
 

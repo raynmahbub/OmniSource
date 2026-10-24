@@ -1,5 +1,7 @@
 import AppCard from "@/components/AppCard";
+import EmptyState from "@/components/EmptyState";
 import Filters from "@/components/Filters";
+import PageHeader from "@/components/PageHeader";
 import SearchBox from "@/components/SearchBox";
 import { getAppsWithIds, getCategories } from "@/lib/data";
 import { searchApps } from "@/lib/search";
@@ -24,10 +26,7 @@ export default async function SearchPage({
   );
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.searchTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.searchSubtitle}</p>
-      </div>
+      <PageHeader title={dict.sections.searchTitle} description={dict.sections.searchSubtitle} />
       <SearchBox
         placeholder={dict.sections.searchPlaceholder}
         initial={q}
@@ -73,7 +72,7 @@ export default async function SearchPage({
           </div>
         ))}
       </div>
-      {!result.results.length && <p className="text-zinc-500">{dict.common.noResults}</p>}
+      {!result.results.length && <EmptyState>{dict.common.noResults}</EmptyState>}
     </div>
   );
 }

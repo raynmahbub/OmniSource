@@ -130,6 +130,7 @@ provenance, source reputation, status and the machine API all live at
 <div align="center">
 
 <a href="https://raynmahbub.github.io/OmniSource/#catalog"><img src="assets/brand/btn-website.svg" alt="Browse the catalog" height="44"></a>
+<a href="https://raynmahbub.github.io/OmniSource/"><img src="assets/brand/btn-webapp.svg" alt="Open the web app" height="44"></a>
 <a href="https://raynmahbub.github.io/OmniSource/install/"><img src="assets/brand/btn-install.svg" alt="Install center" height="44"></a>
 <a href="https://raynmahbub.github.io/OmniSource/docs/"><img src="assets/brand/btn-docs.svg" alt="Documentation" height="44"></a>
 <a href="https://raynmahbub.github.io/OmniSource/api/index.json"><img src="assets/brand/btn-api.svg" alt="API" height="44"></a>
@@ -149,6 +150,8 @@ provenance, source reputation, status and the machine API all live at
 <br>
 
 ## For maintainers
+
+<a href="CONTRIBUTING.md"><img src="assets/brand/btn-contribute.svg" alt="Read the contributing guide" height="44"></a>
 
 ```bash
 export PYTHONPATH=src                    # stdlib-only, Python 3.11+

@@ -31,6 +31,7 @@ const serverDocs = [
   "analytics.json",
   "search-index.json",
   "reputation.json",
+  "screenshots.json",
 ];
 for (const name of serverDocs) copy(join("feeds", name), join("src", "data", name));
 for (const name of ["security.json", "source_reputation.json", "analytics_rollup.json", "canonical_apps.json"]) {
@@ -57,6 +58,38 @@ for (const filename of artwork) {
   }
 }
 console.log(`sync-data: ${artwork.size} app/client logos copied from catalog artwork`);
+
+// Copy only screenshot bytes that the pipeline actually mirrored and digest-
+// checked. The gallery prefers the small WebP thumbnail, then the full local
+// mirror, and retains the original upstream URL for provenance and fallback.
+const screenshotManifest = JSON.parse(readFileSync(join(root, "feeds", "screenshots.json"), "utf8"));
+const copiedScreenshots = new Set();
+function screenshotRelativePath(value) {
+  const pathname = new URL(value).pathname;
+  const marker = "/assets/screenshots/";
+  const start = pathname.indexOf(marker);
+  if (start < 0) throw new Error(`sync-data: invalid screenshot asset URL: ${value}`);
+  const relative = decodeURIComponent(pathname.slice(start + marker.length));
+  if (!relative || relative.split("/").some((part) => !part || part === "." || part === "..")) {
+    throw new Error(`sync-data: unsafe screenshot asset path: ${value}`);
+  }
+  return relative;
+}
+for (const entry of screenshotManifest.screenshots ?? []) {
+  if (!entry.mirrored) continue;
+  const assets = [[entry.mirroredURL, true], [entry.thumbnailURL, Number(entry.thumbnailSize) > 0]];
+  for (const [url, required] of assets) {
+    if (!required) continue;
+    const relative = screenshotRelativePath(url);
+    if (copiedScreenshots.has(relative)) continue;
+    const destination = join("public", "assets", "screenshots", relative);
+    if (!copy(join("assets", "screenshots", relative), destination)) {
+      throw new Error(`sync-data: mirrored screenshot is missing: ${relative}`);
+    }
+    copiedScreenshots.add(relative);
+  }
+}
+console.log(`sync-data: ${copiedScreenshots.size} mirrored screenshot assets copied`);
 
 // Client-fetchable API snapshot (powers /search offline + PWA caching).
 copy("api/v3/apps.json", "public/data/v3/apps.json");

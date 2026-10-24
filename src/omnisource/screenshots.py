@@ -6,8 +6,8 @@ Catalog authors can declare remote screenshot URLs; the build pipeline
 * validates that each URL is well-formed and points to an image,
 * mirrors reachable screenshots to ``assets/screenshots/<slug>/...`` so the
   Pages deployment never depends on a third-party CDN,
-* produces 480px wide WebP + PNG thumbnails for fast gallery rendering, and
-* falls back to the existing app icon when no screenshot is reachable.
+* produces 480px-wide WebP thumbnails for fast gallery rendering, and
+* publishes an honest content gap when no real screenshot is available.
 
 The module never raises during the build — every issue is recorded and the
 final ``feeds/screenshots.json`` document lists what is in place. This keeps
@@ -16,22 +16,29 @@ the "missing screenshot" case from blocking feed generation.
 
 from __future__ import annotations
 
+import base64
+import binascii
 import hashlib
 import re
-import shutil
-import subprocess
+import urllib.parse
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from omnisource.constants import GITHUB_API_ROOT
 from omnisource.domain import Catalog, today
+from omnisource.http import github_accept_headers
 
 SCREENSHOTS_SCHEMA_VERSION = 1
 ALLOWED_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp", ".gif")
 # We never want to balloon the Pages deployment: anything above this many
 # screenshots per app is rejected (extra URLs are reported as warnings).
 MAX_PER_APP = 12
+# Screenshots are small website assets, not release payloads. Keep a corrupted
+# or unexpected upstream response from turning a metadata sync into a huge
+# download. ``get_bytes`` reads one extra byte so oversized files are detected.
+MAX_SCREENSHOT_BYTES = 12 * 1024 * 1024
 
 
 @dataclass
@@ -104,33 +111,116 @@ def _validate_remote_urls(slug: str, urls: Iterable[str], report: ScreenshotRepo
     return valid
 
 
-def _safe_download(http: Any, url: str) -> bytes | None:
-    """Best-effort download used by the mirror step.
+def _github_contents_location(url: str) -> tuple[str, str, str] | None:
+    """Translate a raw GitHub image URL to its Contents API endpoint.
 
-    The function is intentionally tolerant: any error (network, timeout,
-    decode) returns ``None`` so the pipeline keeps building. Screenshots are
-    a "nice to have" and the pipeline never depends on them.
+    The normal raw URL remains the first request. This fallback keeps image
+    mirroring usable on runners that can reach the GitHub API but block the
+    separate raw-content host. Owner, repository, ref and path all come from
+    the already validated catalog URL; the endpoint always stays on the fixed
+    GitHub API origin, where ``HttpClient`` can apply its host-scoped token.
+    """
+    try:
+        parsed = urllib.parse.urlsplit(url)
+    except ValueError:
+        return None
+    if parsed.scheme != "https" or parsed.hostname != "raw.githubusercontent.com":
+        return None
+    parts = [urllib.parse.unquote(segment) for segment in parsed.path.lstrip("/").split("/")]
+    if len(parts) < 4:
+        return None
+    owner, repo, ref = parts[:3]
+    path = "/".join(parts[3:])
+    if not owner or not repo or not ref or not path:
+        return None
+    if any(segment in {"", ".", ".."} for segment in parts):
+        return None
+    owner_part = urllib.parse.quote(owner, safe="")
+    repo_part = urllib.parse.quote(repo, safe="")
+    path_part = urllib.parse.quote(path, safe="/")
+    endpoint = (
+        f"{GITHUB_API_ROOT}/repos/{owner_part}/{repo_part}/contents/{path_part}?{urllib.parse.urlencode({'ref': ref})}"
+    )
+    return owner_part, repo_part, endpoint
+
+
+def _decode_github_base64(payload: Any) -> bytes | None:
+    """Decode a bounded Contents/Git Blob API response, or return ``None``."""
+    if not isinstance(payload, dict) or payload.get("type") not in {None, "file"}:
+        return None
+    try:
+        size = int(payload.get("size") or 0)
+    except (TypeError, ValueError):
+        return None
+    if size > MAX_SCREENSHOT_BYTES or payload.get("encoding") != "base64":
+        return None
+    content = payload.get("content")
+    if not isinstance(content, str) or not content.strip():
+        return None
+    try:
+        # Contents responses wrap base64 lines; Git Blob responses normally do
+        # not. Removing ASCII whitespace lets one strict decoder handle both.
+        decoded = base64.b64decode("".join(content.split()), validate=True)
+    except (ValueError, binascii.Error):
+        return None
+    if not decoded or len(decoded) > MAX_SCREENSHOT_BYTES:
+        return None
+    return decoded
+
+
+def _download_github_raw_via_api(http: Any, url: str) -> bytes | None:
+    """Fetch a raw GitHub file through Contents, then Git Blob if necessary."""
+    location = _github_contents_location(url)
+    get_json = getattr(http, "get_json", None)
+    if location is None or not callable(get_json):
+        return None
+    owner, repo, endpoint = location
+    payload = get_json(endpoint, extra_headers=github_accept_headers())
+    decoded = _decode_github_base64(payload)
+    if decoded is not None:
+        return decoded
+    # The Contents API omits content for files above its inline limit. Its
+    # blob SHA still lets us retrieve the same reviewed upstream bytes without
+    # guessing a branch, mirror, or download host.
+    if not isinstance(payload, dict):
+        return None
+    sha = payload.get("sha")
+    if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-fA-F]{40,64}", sha):
+        return None
+    blob_url = f"{GITHUB_API_ROOT}/repos/{owner}/{repo}/git/blobs/{sha}"
+    blob = get_json(blob_url, extra_headers=github_accept_headers())
+    return _decode_github_base64(blob)
+
+
+def _safe_download(http: Any, url: str) -> bytes | None:
+    """Best-effort, bounded download used by the mirror step.
+
+    Any network or decode failure returns ``None`` so an image can never block
+    feed generation. Real ``HttpClient`` instances use ``get_bytes``; the
+    ``fetch_bytes`` branch remains for lightweight integrations and tests.
     """
     if http is None:
         return None
     try:
-        # ``http.fetch_bytes`` is intentionally permissive: the pipeline must
-        # never fail because a screenshot is unreachable. We just skip the
-        # mirror step and rely on the remote URL.
         fetcher = getattr(http, "fetch_bytes", None)
+        getter = getattr(http, "get_bytes", None)
         if callable(fetcher):
-            return fetcher(url)
-        # Fall back to a basic GET using ``requests`` if the HttpClient does
-        # not expose a bytes fetcher. Kept local so the import remains
-        # optional — only used when explicitly wired in.
-        try:
+            payload = fetcher(url)
+        elif callable(getter):
+            payload = getter(url, limit=MAX_SCREENSHOT_BYTES + 1, timeout=12.0)
+        else:
+            # Compatibility for tiny HTTP adapters that expose neither method.
             import urllib.request
 
             with urllib.request.urlopen(url, timeout=8) as response:
-                return response.read()
-        except Exception:  # pragma: no cover - never block builds
-            return None
-    except Exception:  # pragma: no cover - never block builds
+                payload = response.read(MAX_SCREENSHOT_BYTES + 1)
+        if payload and len(payload) <= MAX_SCREENSHOT_BYTES:
+            return payload
+    except Exception:  # pragma: no cover - the fallback below is the recovery path
+        payload = None
+    try:
+        return _download_github_raw_via_api(http, url)
+    except Exception:  # pragma: no cover - screenshots never block builds
         return None
 
 
@@ -146,60 +236,6 @@ def _persist_mirror(
     tmp.replace(destination)
     digest = hashlib.sha256(payload).hexdigest()
     return True, len(payload), digest
-
-
-def _committed_mirror_paths(assets_dir: Path) -> set[str] | None:
-    """Mirror files under ``assets/screenshots`` that git actually carries.
-
-    ``mirrored: true`` in ``feeds/screenshots.json`` promises the bytes ship
-    beside the manifest. The scheduled sync job refreshes mirrors into its
-    workspace but commits only generated JSON/XML, so a run that downloaded
-    every screenshot produced a manifest pointing at binaries no checkout ever
-    sees — the published catalog then claimed art it did not have. The claim is
-    therefore tied to the git record: bytes that are only in the working tree
-    are reported as ``mirrored: false`` (they still land on disk for the local
-    build). Returns ``None`` when the repository state cannot be read - a
-    non-repository working directory, or no ``git`` binary - because then "the
-    file is on disk" is the only available answer and every existing caller
-    (and test) expects the historical behaviour.
-    """
-    try:
-        # Resolve the binary once: git is not a dependency of the runtime, and a
-        # partial path in subprocess is both a lint error and an easy way to run
-        # whatever ``git`` happens to be first on $PATH.
-        git = shutil.which("git")
-        if not git:
-            return None
-        top = subprocess.run(
-            [git, "-C", str(assets_dir), "rev-parse", "--show-toplevel"],
-            capture_output=True,
-            text=True,
-            timeout=5,
-        )
-        if top.returncode != 0 or not top.stdout.strip():
-            return None
-        repo = Path(top.stdout.strip())
-        try:
-            prefix = assets_dir.resolve().relative_to(repo.resolve()).as_posix()
-        except ValueError:
-            return None
-        listing = subprocess.run(
-            [git, "-C", str(repo), "ls-files", "-z", "--", f"{prefix}/screenshots"],
-            capture_output=True,
-            timeout=10,
-        )
-        if listing.returncode != 0:
-            return None
-        tracked: set[str] = set()
-        for raw in listing.stdout.decode("utf-8", "replace").split("\0"):
-            if not raw:
-                continue
-            # ``git ls-files`` answers relative to the repository root.
-            rel = raw[len(prefix) + 1 :] if raw.startswith(f"{prefix}/") else raw
-            tracked.add(rel)
-        return tracked
-    except Exception:  # pragma: no cover - git missing, timeout, odd worktree
-        return None
 
 
 def process_screenshots(
@@ -223,29 +259,33 @@ def process_screenshots(
     deterministic and a transient remote failure can never demote a good
     mirror (``feeds/screenshots.json`` must be reproducible offline).
 
-    ``previous`` is the last committed ``screenshots.json`` document, when
-    available, and supplies the recorded digest for a mirror that is still on
-    disk. ``mirrored`` describes this repository: an entry is only ever marked
-    mirrored when the file exists, because a manifest that points at a deleted
-    artifact is worse than one that admits the mirror has to be fetched again.
+    ``previous`` supplies source identity as well as backward compatibility:
+    an existing local path may be reused only while its upstream URL is
+    unchanged. Actual mirror files are otherwise authoritative: an entry is
+    marked mirrored only when its bytes exist and its digest can be measured,
+    because a manifest that points at a deleted artifact is worse than one
+    that admits the mirror must be fetched. The sync workflow commits these
+    assets together with the manifest.
     """
     report = ScreenshotReport()
-    prior: dict[tuple[str, int, str], dict[str, Any]] = {}
-    if isinstance(previous, dict):
-        for old in previous.get("screenshots", []) or []:
-            if isinstance(old, dict):
-                try:
-                    key = (str(old.get("slug")), int(old.get("index") or 0), str(old.get("originalURL")))
-                except (TypeError, ValueError):
-                    continue
-                prior[key] = old
     base = base_url.rstrip("/")
     icons_dir = assets_dir  # Catalog icons live here.
     screenshots_dir = assets_dir / "screenshots"
     thumbnails_dir = assets_dir / "screenshots" / "thumbnails"
     screenshots_dir.mkdir(parents=True, exist_ok=True)
     thumbnails_dir.mkdir(parents=True, exist_ok=True)
-    tracked_mirrors = _committed_mirror_paths(assets_dir)
+    previous_sources: dict[tuple[str, int], str] = {}
+    if isinstance(previous, dict):
+        for item in previous.get("screenshots") or []:
+            if not isinstance(item, dict):
+                continue
+            try:
+                key = (str(item.get("slug") or ""), int(item.get("index")))
+            except (TypeError, ValueError):
+                continue
+            original_url = item.get("originalURL")
+            if key[0] and isinstance(original_url, str):
+                previous_sources[key] = original_url
 
     for app in catalog.apps:
         declared = list(getattr(app, "screenshots", []) or [])
@@ -257,11 +297,18 @@ def process_screenshots(
             ext = Path(url.split("?", 1)[0]).suffix or ".png"
             mirror_name = _filename_for(app.slug, index, ext)
             mirror_path = screenshots_dir / app.slug / mirror_name
-            mirror_relative = f"screenshots/{app.slug}/{mirror_name}"
             mirrored_url = f"{base}/assets/screenshots/{app.slug}/{mirror_name}"
             thumbnail_name = f"{_slugify(mirror_name.rsplit('.', 1)[0])}.webp"
             thumbnail_path = thumbnails_dir / app.slug / thumbnail_name
             thumbnail_url = f"{base}/assets/screenshots/thumbnails/{app.slug}/{thumbnail_name}"
+            previous_url = previous_sources.get((app.slug, index))
+            source_changed = previous_url is not None and previous_url != url
+            if source_changed:
+                # The filename is only stable per app/index, not per remote
+                # URL. Never let a changed declaration inherit unrelated bytes
+                # (or an old thumbnail) merely because an offline file exists.
+                mirror_path.unlink(missing_ok=True)
+                thumbnail_path.unlink(missing_ok=True)
             entry: dict[str, Any] = {
                 "slug": app.slug,
                 "index": index,
@@ -287,30 +334,21 @@ def process_screenshots(
                         entry["mirrored"] = True
                         entry["size"] = size
                         entry["sha256"] = digest
-                else:
-                    # No fresh bytes (unreachable host, offline rebuild, or the
-                    # mirror was removed from the tree). ``mirrored`` describes this
-                    # repository, so it is only ever true while the file is here:
-                    # a manifest that advertises a mirror which no longer exists is
-                    # worse than one that admits it still has to be fetched, and
-                    # scripts/validate.py now rejects exactly that mismatch.
-                    reused = False
-            committed = tracked_mirrors is None or mirror_relative in tracked_mirrors
-            if entry["mirrored"] and not committed:
-                # Downloaded into the working tree, but the commit this
-                # manifest travels in carries JSON only: keeping the claim
-                # would make ``feeds/screenshots.json`` advertise a mirror that
-                # no checkout has (validate.py rejects exactly that), so the
-                # entry falls back to its upstream URL like any offline miss.
-                entry["mirrored"] = False
-                entry["size"] = 0
-                entry["sha256"] = ""
+                elif mirror_path.exists():
+                    # A transient refresh failure must not demote known-good
+                    # upstream art. Reuse the local bytes and their real digest;
+                    # a later successful sync will replace them.
+                    payload = mirror_path.read_bytes()
+                    entry["mirrored"] = True
+                    entry["size"] = len(payload)
+                    entry["sha256"] = hashlib.sha256(payload).hexdigest()
+                    reused = True
             # Thumbnail generation requires Pillow. The build environment
             # may not have it; if it is missing we record a transparent
             # placeholder and the website falls back to the full image.
             # Reused entries keep their recorded size (there is no local
             # mirror file to re-measure in an offline rebuild).
-            if not reused:
+            if not reused or not thumbnail_path.exists():
                 # Always present, whatever this machine has installed: with
                 # Pillow available but no local mirror to resize, the block
                 # below used to finish without touching the field, so the key
@@ -334,7 +372,7 @@ def process_screenshots(
                     # Pillow is optional. The website gracefully falls back to
                     # the full-size mirrored image.
                     entry["thumbnailSize"] = 0
-            if not entry.get("thumbnailSize") and thumbnail_path.exists() and committed:
+            if not entry.get("thumbnailSize") and thumbnail_path.exists():
                 # The thumbnail on disk is the truth whether or not this run could
                 # measure it with Pillow - reporting its real size keeps an offline
                 # rebuild byte-identical instead of quietly zeroing the field.

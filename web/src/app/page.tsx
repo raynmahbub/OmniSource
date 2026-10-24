@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AppCard from "@/components/AppCard";
+import CopyButton from "@/components/CopyButton";
 import SearchBox from "@/components/SearchBox";
 import { getAppsWithIds, getSources, getStatus } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
@@ -49,6 +50,13 @@ export default async function Home() {
           <div className="mt-6 flex flex-wrap items-center gap-3 rounded-2xl border border-white/20 bg-black/15 p-3 pl-4 backdrop-blur">
             <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">Source</span>
             <code className="min-w-0 flex-1 truncate font-mono text-sm text-white">{SOURCE_URL}</code>
+            <CopyButton
+              value={SOURCE_URL}
+              label={dict.common.copyUrl ?? "Copy source URL"}
+              copiedLabel={dict.common.copied ?? "Copied"}
+              failedLabel={dict.common.copyFailed ?? "Copy blocked — press and hold to copy"}
+              className="inline-flex min-h-9 items-center gap-2 rounded-lg bg-white px-3 text-xs font-semibold text-violet-700 transition-colors hover:bg-violet-50"
+            />
           </div>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -84,7 +92,7 @@ export default async function Home() {
         ].map((f) => (
           <div
             key={f.t}
-            className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-violet-300 hover:shadow-[0_18px_48px_-20px_rgba(106,76,240,0.45)] motion-reduce:transition-none dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-violet-700"
+            className="os-card group relative overflow-hidden p-5"
           >
             <span aria-hidden className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-indigo-600 via-violet-500 to-purple-400 opacity-70 transition-opacity group-hover:opacity-100" />
             <h2 className="font-bold">{f.t}</h2>

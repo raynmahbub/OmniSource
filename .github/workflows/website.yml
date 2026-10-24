@@ -68,6 +68,12 @@ jobs:
           set -euo pipefail
           npm run lint
 
+      - name: Data regression tests
+        working-directory: web
+        run: |
+          set -euo pipefail
+          npm test
+
       - name: Build
         working-directory: web
         run: |
