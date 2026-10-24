@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "windowDays": 30,
   "summary": {
     "averageAvailability": 97.59,
     "averageResponseTimeMs": 226.7,
-    "mirrorCount": 131,
+    "mirrorCount": 132,
     "probes": 3810
   },
   "apps": [
@@ -94,7 +94,7 @@
       "averageLatencyMs": 215.9,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa",
+      "primaryURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
       "fallbackURLs": []
     },
     {
@@ -545,7 +545,7 @@
       "averageLatencyMs": 220.3,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/ra1ncord/RainTweak/releases/download/v0.9.3/RainTweak.ipa",
+      "primaryURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
       "fallbackURLs": []
     },
     {
@@ -1227,7 +1227,7 @@
       "averageLatencyMs": 209.9,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
+      "primaryURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
       "fallbackURLs": []
     },
     {
@@ -1412,6 +1412,17 @@
         "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
         "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
       ]
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "availability": 0.0,
+      "probes": 0,
+      "averageLatencyMs": null,
+      "mirrorCount": 1,
+      "releaseConsistency": 0.0,
+      "primaryURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+      "fallbackURLs": []
     }
   ]
 }

@@ -172,7 +172,7 @@ Highlights:
 
 ## Changes (v5.0.7)
 * Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
-* QEMU: Windows guests now use the host display&#x27;s refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
+* ~~QEMU: Windows guests now use the host display&#x27;s refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)~~ This was dropped and will be included in the next update.
 * QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
 * Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
 * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
@@ -182,8 +182,7 @@ Highlights:
 * (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
 * (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
 * (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
-* (macOS) Wizard: Fixed the Name field&#x27;s focus ring being clipped on the summary page (thanks @dnicolson)
-* (macOS 15) QEMU: Better pe</pre></details>
+* (macOS) Wizard: Fixed the Name field&#x27;s focus ring being clipped on the</pre></details>
 </article></div>
     </section>
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "icons": {
     "3105": {
       "file": "3105.webp",
@@ -233,6 +233,14 @@
       "exists": true,
       "bytes": 19490,
       "sha256": "43b2470fa236c5d45f2c26b00d36b454b89560222d52b8bba501445fc5d83f0d"
+    },
+    "eclipse": {
+      "file": "Eclipse.png",
+      "url": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+      "fallback": "https://raynmahbub.github.io/OmniSource/assets/placeholders/app.svg",
+      "exists": true,
+      "bytes": 184386,
+      "sha256": "bdaf0d4ccc1ac6c3de26f7dbdfd273f8a6bece304497bc6fb0d9ac5838a6c2b7"
     },
     "enablequic": {
       "file": "EnableQUIC.webp",
@@ -1049,6 +1057,13 @@
       ],
       "count": 3
     },
+    "entertainment": {
+      "icon": "https://raynmahbub.github.io/OmniSource/assets/placeholders/category.svg",
+      "apps": [
+        "eclipse"
+      ],
+      "count": 1
+    },
     "games": {
       "icon": "https://raynmahbub.github.io/OmniSource/assets/placeholders/category.svg",
       "apps": [
@@ -1322,11 +1337,11 @@
     "zeus"
   ],
   "totals": {
-    "apps": 127,
-    "iconsOk": 127,
+    "apps": 128,
+    "iconsOk": 128,
     "iconsMissing": 0,
     "placeholdersOk": 3,
-    "screenshotsDeclared": 25,
+    "screenshotsDeclared": 26,
     "screenshotsMissing": 102
   }
 }

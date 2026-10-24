@@ -1,9 +1,9 @@
 {
   "name": "OmniSource IPA Downloader",
   "description": "Direct download links for every app in the OmniSource catalog, resolved from each app's official upstream and refreshed by the build pipeline. downloadURL is the newest published asset; install[] are one-tap source-add deep links per client.",
-  "generatedAt": "2026-10-23T22:57:54Z",
+  "generatedAt": "2026-10-24T00:00:37Z",
   "baseURL": "https://raynmahbub.github.io/OmniSource",
-  "count": 127,
+  "count": 128,
   "apps": [
     {
       "slug": "3105",
@@ -1829,6 +1829,69 @@
           "client": "livecontainer",
           "name": "LiveContainer",
           "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/dynamiccow.json"
+        }
+      ]
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "developer": "Soupy-dev",
+      "bundleIdentifier": "app.Eclipse.Soupy",
+      "version": "2.3.0",
+      "date": "2026-10-20",
+      "size": 36182081,
+      "sizeHuman": "34.5 MB",
+      "downloadURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+      "tintColor": "FF6B6B",
+      "category": "entertainment",
+      "status": "stable",
+      "minOSVersion": "15.0",
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+      "install": [
+        {
+          "client": "altstore",
+          "name": "AltStore",
+          "url": "altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+        },
+        {
+          "client": "sidestore",
+          "name": "SideStore",
+          "url": "sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+        },
+        {
+          "client": "flarestore",
+          "name": "FlareStore",
+          "url": "flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+        },
+        {
+          "client": "feather",
+          "name": "Feather",
+          "url": "feather://source/raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+        },
+        {
+          "client": "esign",
+          "name": "ESign",
+          "url": "esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+        },
+        {
+          "client": "ksign",
+          "name": "Ksign",
+          "url": "ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
+        },
+        {
+          "client": "livecontainer",
+          "name": "LiveContainer",
+          "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json"
         }
       ]
     },
@@ -4042,11 +4105,11 @@
       "name": "Nuvio",
       "developer": "Nuvio Media",
       "bundleIdentifier": "com.nuvio.app",
-      "version": "0.6.3",
-      "date": "2026-10-21",
-      "size": 68815810,
-      "sizeHuman": "65.6 MB",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
+      "version": "0.6.4",
+      "date": "2026-10-23",
+      "size": 67805794,
+      "sizeHuman": "64.7 MB",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "tintColor": "5B5FE8",
       "category": "photo-video",
@@ -4861,11 +4924,11 @@
       "name": "RainTweak",
       "developer": "raincord & IPA Vault",
       "bundleIdentifier": "com.hammerandchisel.discord",
-      "version": "0.9.3",
-      "date": "2026-06-19",
-      "size": 107515564,
-      "sizeHuman": "102.5 MB",
-      "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v0.9.3/RainTweak.ipa",
+      "version": "1.2.0",
+      "date": "2026-09-17",
+      "size": 107065935,
+      "sizeHuman": "102.1 MB",
+      "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Discord.webp",
       "tintColor": "5865F2",
       "category": "social",
@@ -7885,11 +7948,11 @@
       "name": "YTMusicUltimate",
       "developer": "dayanch96",
       "bundleIdentifier": "com.google.ios.youtubemusic",
-      "version": "9.41.2",
-      "date": "2026-10-11",
-      "size": 105674200,
-      "sizeHuman": "100.8 MB",
-      "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa",
+      "version": "9.42.2",
+      "date": "2026-10-22",
+      "size": 105940933,
+      "sizeHuman": "101.0 MB",
+      "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTubeMusic.webp",
       "tintColor": "FF0000",
       "category": "music",

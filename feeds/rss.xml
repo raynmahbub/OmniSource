@@ -98,6 +98,34 @@
       <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>Nuvio v0.6.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
+      <guid isPermaLink="false">nuvio-0.6.4</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nuvio 0.6.4 | nuvio-0.6.4-full-release
+
+- 8683505d fix(details): animate ratings on tablet @tapframe  
+- e6a05d1d feat(ios): support duo layout @tapframe  
+- b6287380 fix(deps): update haze to 1.7.3 @tapframe  
+- [fix(trakt): keep continue watching when a progress request fails (#2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow  
+- [perf(streams): compile badge rules once per change (#2365)](https://github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  
+- [perf(debrid): cache stream filter regexes and reuse stream facts (#2362)](https://github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  
+- [i18n(el): sync the Greek locale with 0.6.3 (player badges, Simkl statuses, engine switch, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/pull/2359) @nosvasedis  
+- [feat(i18n): complete pt-BR player badges and watch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull/2338) @jhojhocraazy  
+- [Replace libass renderer with atlas pipeline from Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @skoruppa  
+- [Update Hungarian translations (#2341)](https://github.com/NuvioMedia/NuvioMobile/pull/2341) @emgeje  
+- [i18n(vi): update strings.xml and strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pull/2339) @blueocean2308  
+- 90ab7f95 fix(ratings): use real imdb logo and grey label @tapframe  
+- d9046775 feat(home): show ratings and age rating on hero @tapframe  
+- b9fbc09c fix(player): keep side panels clear of the navigation bar @tapframe  
+- 83e528f0 feat(player): choose a badge pack for the player @tapframe  
+- [Complete Spanish mobile translations (#2344)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierPC  
+- [fix(ios): keep hardware decoding when PiP is interrupted by Notification Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306) @WhiteGiso  
+- [fix(android): scale ExoPlayer subtitles with the PiP window size (#2314)](https://github.com/NuvioMedia/NuvioMobile/pull/2314) @sap6  
+- [feat(player): auto-sync add-on subtitles on the libmpv engine (#2275)](https://github.com/NuvioMedia/NuvioMobile/pull/2275) @kernexshadow]]></description>
+      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cercube for YouTube v6.4.2</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/cercube.json</link>
       <guid isPermaLink="false">cercube-6.4.2</guid>
@@ -109,6 +137,23 @@ This release improves the player layout for right-to-left languages.
 
 Previously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.]]></description>
       <enclosure url="https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>YTMusicUltimate v9.42.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json</link>
+      <guid isPermaLink="false">ytmusic-9.42.2</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[YTMusicUltimate 9.42.2 | YTMusic 2.4.1 | YTMusicUltimate_9.42.2_2.4.1
+
+> [!NOTE]
+> ### Extra tweaks:
+> - Return YouTubeMusic Dislikes
+> - YTMABConfig
+> - VolumeBoostYT
+- - -
+- YouMusicPiP is only available in custom build
+- iOS14+ build is available in releases page]]></description>
+      <enclosure url="https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>YouTubePlus v21.42.4</title>
@@ -308,6 +353,47 @@ IPA Vault build for Telegram (iQTele), version 13.1]]></description>
 
 IPA Vault build for Reddit (RedditFilter), version 2026.42.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Eclipse v2.3.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/eclipse.json</link>
+      <guid isPermaLink="false">eclipse-2.3.0</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Eclipse 2.3.0 | Eclipse-unsigned-v2.3.0-20261020-090254
+
+Additions:
+
+-Deep tracker library integration option (AniList, MAL, Trakt)
+-Simkl Tracking (Will NOT get deep tracking integration due to free tier limits)
+-Ratings and Notes setting
+-Concurrent download controls
+-Background HLS downloading (iOS 26+ only)
+-Subtitle delay
+-Dolby Atmos and Dolby Vision support
+-epub support (experimental)
+-Light novel reader rework
+
+Fixes/Changes (fixes are not guaranteed, different devices behave differently) :
+
+-Fixed mpv backgrounding audio desync, it should take a sec to recover.
+-Fixed mpv downstream blowing up
+-Changed Alt poster and season building to be more accurate, tested 220 anime, and 100 western shows
+-Fixed unaired episode hiding
+-Fixed System calendar crash, app now enforces Gregorian calendar
+-Fixed Ratings and Notes getting lost
+-Removed Performance mode and watch together. No longer needed/wasn't popular. Perf mode is enforced On
+-Ratings and notes can now be assigned per season rather than the whole show
+-Subtitle edit fixes
+-Language filters are now hardcoded values instead of user inputted ones
+-Fixed Reader mode library importing not being able to connect a source
+-Rearranged settings to push more important ones higher
+-Changed some Auto Mode logic
+-Fixed audio name detection
+-Fixed subtitle name detection
+-Double tap to seek no longer brings up the player UI
+
+As always, use GitHub issues or the discord for requests or bug reports.]]></description>
+      <enclosure url="https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>Dopamine v3.0.12</title>
@@ -639,158 +725,6 @@ Updated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREF
 
 IPA Vault build for Facebook (iQFace), version 584.0.0]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>UTM v5.0.8</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
-      <guid isPermaLink="false">utm-5.0.8</guid>
-      <pubDate>Sat, 17 Oct 2026 02:44:56 +0000</pubDate>
-      <description><![CDATA[UTM 5.0.8 | Universal IPA
-
-## Highlights
-* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.
-* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).
-* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.
-* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.
-* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.
-* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.
-
-## Notes
-* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.
-* The minimum supported versions are now macOS 12 and iOS 15.
-* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.
-* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.
-* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.
-* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.
-
-## Changes (v5.0.8)
-* Fixed several changes listed for v5.0.7 being left out of that build by mistake.
-* (macOS) Fixed Windows 3D acceleration on Apple Silicon Macs without Rosetta by falling back to DXMT
-* (macOS) QEMU: Fixed Windows installs from the USB CD drive stalling repeatedly, which made them much slower in v5.0.7 (#7970)
-
-## Changes (v5.0.7)
-* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
-* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
-* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
-* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
-* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad
-* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped
-* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with "Close" or "Quit" instead of "OK"
-* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
-* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
-* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
-* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)
-* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller
-* (macOS) Scripting: Force stopping a paused VM is now allowed
-* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing "VZErrorDomain error -6" (#7914)
-* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)
-
-## Changes (v5.0.6)
-* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)
-* Updated the DXMT and MoltenVK graphics backends
-* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26
-* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery
-* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)
-* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)
-* SPICE: Fixed microphone audio quality (#7751)
-* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)
-* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)
-* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened
-* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27
-* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)
-* (iOS 27) Confirm before closing the window of a running VM on iPad
-* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new "Touch mode (drag to scroll)" (#4738)
-* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard
-* (iOS) Input: Game controller Options and Home buttons can now be mapped
-* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver
-* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)
-* (macOS) Terminal: Added a find bar (Cmd-F)
-* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)
-* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen
-* (macOS) Settings: Improved the notes field
-* (macOS 26) Settings: The "New…" device menu now matches the sidebar
-* (macOS) AVF: Sound input and output can be enabled separately, so "Output Only" no longer switches Bluetooth headphones to headset mode (#7875)
-* (macOS 26) AVF: New "Shared Network (VM to VM)" and "Host Only" networking modes (#6975, #7480) (thanks @lovon-spec)
-* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)
-* (macOS 27) AVF: Run without saving changes (#4201, #7326)
-* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)
-* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands
-* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)
-* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)
-* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)
-* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)
-
-## Changes (v5.0.5)
-* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~
-* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
-* Config: For ARM64 configs, GICv3 is now selected by default. P…]]></description>
-      <enclosure url="https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Turrit MxGram v1.5.6</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/turrit-mxgram.json</link>
-      <guid isPermaLink="false">turrit-mxgram-1.5.6</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Turrit 1.5.6 | Turrit-1.5.6-iQTele
-
-IPA Vault build for Turrit (iQTele), version 1.5.6]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Saber v1.36.2</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
-      <guid isPermaLink="false">saber-1.36.2</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Saber 1.36.2 | Saber_v1.36.2
-
-## External links
-
-[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
-    alt='Get it on Google Play'
-    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
-    alt="Get it on F-Droid"
-    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
-    alt="Download on the App Store"
-    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
-    alt="Download on Flathub"
-    height=50>][flathub]
-
-For other downloads, scroll down and find the relevant file under "Assets".
-
-[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
-[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
-[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
-[app_store]: https://apps.apple.com/us/app/saber/id1671523739
-[releases]: https://github.com/adil192/saber/releases
-
-## Changelog
-
-- Added an Indonesian translation #1840 #1825 
-- Optimized color inversion to be much quicker #1849 
-- Fixed the AppImage's update URL #1812
-- Translations:
-  - i18n: Add Indonesian README by @Yoruxyv in a3430eddf476aa0811e921e82459fe8f090d5b35
-  - i18n: Update Chinese (Traditional Han script) by @s8321414 in 6547f59ae580de0cfce59b4847df8586768acd64
-  - i18n: Add Korean by @donngas in 9fdea89ce60d5cbb3a158bcf16d0946ba51f777d
-  - i18n: Update Spanish by @jmnu4245 in 1d50960f8e7fd01295f36d2beb4422a325e110b6
-  - i18n: Update Chinese (Simplified Han script) by @u3659477 in e4ee5b94b3d948b98c9c7871195c8202c5d9e540
-  - i18n: Update French by @ArTuPSly in 31eef99e07ba18b0d9ff1683b993a4ce9bbd33cc
-  - i18n: Update Portuguese (Brazil) by Givaldo B S Sobrinho in 89be7b7b5834454a4ddaaa70026b52f86dd7e3f5
-  - i18n: Update Portuguese (Brazil) by Carlos Pinto Jr. in 4c535d28b9e7e6362b99aaa33e3906bda0639334
-  - i18n: Update German by @antonkesy in 2e3cdbdb94b3f792397af9727a91b66f47eabc97
-  - i18n: Update Catalan by @ocellz in 7cd6a55b4ff88bcd82042377132697113d64466b
-  - i18n: Update German metadata by @antonkesy in 98cfa1a815cd387d78e185dd93a0f8481d847a68
-  - i18n: Update Ukrainian by Sofiia Soldak in ef0086aefcb3b05888314aa2a6a7987ba76bbeca
-  - i18n: Update Italian by Alessandro Stoppani in 9bba250cd7474f57ddeb850a5c4aeaeb584dcefa
-  - i18n: Update Polish by @thesonofanxiety in 17365668af2b8367103404359c054199561bc126
-  - i18n: Update Hebrew by Omer I.S. in e8fdae06a05a88d5aaac36c423645dc87382721a
-  - i18n: Update Chinese (Simplified Han script) by Dogwen in c280145638570e46b8259c05636d444f04a52969
-  - i18n: Update Chinese (Simplified Han script) metadata by Dogwen in ba7f9422e346a8df617174c9efa8d3eeae5549cf
-- @Yoruxyv made their first contribution in https://github.com/saber-notes/saber/pull/1825
-- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.1...v1.36.2]]></description>
-      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.2/Saber_v1.36.2.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

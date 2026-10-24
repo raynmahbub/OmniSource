@@ -19,87 +19,87 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "tintColor": "5B5FE8",
       "category": "photo-video",
-      "version": "0.6.3",
-      "versionDate": "2026-10-21",
-      "versionDescription": "Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party): show the party's source as plain text @tapframe  \n- 37a6656a fix(player): keep center controls in place on pause @tapframe  \n- 344117e7 feat(player): show badges for what is playing @tapframe  \n- ebb17678 feat(party): chat from your phone with the same profile @tapframe  \n- 18268427 fix(player): move engine switch to top row with confirmation @tapframe  \n- [feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288)](https://github.com/NuvioMedia/NuvioMobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messages with the return key @tapframe  \n- [Update Hungarian translations (#2333)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix binge group initial state from stream args, apply custom posters in library see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) @skoruppa  \n- [i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/NuvioMobile/pull/2297) @blueocean2308",
-      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
-      "size": 68815810,
+      "version": "0.6.4",
+      "versionDate": "2026-10-23",
+      "versionDescription": "Nuvio 0.6.4 | nuvio-0.6.4-full-release\n\n- 8683505d fix(details): animate ratings on tablet @tapframe  \n- e6a05d1d feat(ios): support duo layout @tapframe  \n- b6287380 fix(deps): update haze to 1.7.3 @tapframe  \n- [fix(trakt): keep continue watching when a progress request fails (#2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow  \n- [perf(streams): compile badge rules once per change (#2365)](https://github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  \n- [perf(debrid): cache stream filter regexes and reuse stream facts (#2362)](https://github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  \n- [i18n(el): sync the Greek locale with 0.6.3 (player badges, Simkl statuses, engine switch, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/pull/2359) @nosvasedis  \n- [feat(i18n): complete pt-BR player badges and watch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull/2338) @jhojhocraazy  \n- [Replace libass renderer with atlas pipeline from Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @skoruppa  \n- [Update Hungarian translations (#2341)](https://github.com/NuvioMedia/NuvioMobile/pull/2341) @emgeje  \n- [i18n(vi): update strings.xml and strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pull/2339) @blueocean2308  \n- 90ab7f95 fix(ratings): use real imdb logo and grey label @tapframe  \n- d9046775 feat(home): show ratings and age rating on hero @tapframe  \n- b9fbc09c fix(player): keep side panels clear of the navigation bar @tapframe  \n- 83e528f0 feat(player): choose a badge pack for the player @tapframe  \n- [Complete Spanish mobile translations (#2344)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierPC  \n- [fix(ios): keep hardware decoding when PiP is interrupted by Notification Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306) @WhiteGiso  \n- [fix(android): scale ExoPlayer subtitles with the PiP window size (#2314)](https://github.com/NuvioMedia/NuvioMobile/pull/2314) @sap6  \n- [feat(player): auto-sync add-on subtitles on the libmpv engine (#2275)](https://github.com/NuvioMedia/NuvioMobile/pull/2275) @kernexshadow",
+      "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
+      "size": 67805794,
       "versions": [
         {
-          "version": "0.6.3",
-          "date": "2026-10-21",
-          "localizedDescription": "Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party): show the party's source as plain text @tapframe  \n- 37a6656a fix(player): keep center controls in place on pause @tapframe  \n- 344117e7 feat(player): show badges for what is playing @tapframe  \n- ebb17678 feat(party): chat from your phone with the same profile @tapframe  \n- 18268427 fix(player): move engine switch to top row with confirmation @tapframe  \n- [feat(i18n): add Brazilian Portuguese (pt-BR) localization for watch party, servers, mdblist and autosync (#2288)](https://github.com/NuvioMedia/NuvioMobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messages with the return key @tapframe  \n- [Update Hungarian translations (#2333)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix binge group initial state from stream args, apply custom posters in library see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) @skoruppa  \n- [i18n(vi): update strings.xml, translate watch party and auto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/NuvioMobile/pull/2297) @blueocean2308",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
-          "size": 68815810,
+          "version": "0.6.4",
+          "date": "2026-10-23",
+          "localizedDescription": "Nuvio 0.6.4 | nuvio-0.6.4-full-release\n\n- 8683505d fix(details): animate ratings on tablet @tapframe  \n- e6a05d1d feat(ios): support duo layout @tapframe  \n- b6287380 fix(deps): update haze to 1.7.3 @tapframe  \n- [fix(trakt): keep continue watching when a progress request fails (#2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow  \n- [perf(streams): compile badge rules once per change (#2365)](https://github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  \n- [perf(debrid): cache stream filter regexes and reuse stream facts (#2362)](https://github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  \n- [i18n(el): sync the Greek locale with 0.6.3 (player badges, Simkl statuses, engine switch, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/pull/2359) @nosvasedis  \n- [feat(i18n): complete pt-BR player badges and watch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull/2338) @jhojhocraazy  \n- [Replace libass renderer with atlas pipeline from Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @skoruppa  \n- [Update Hungarian translations (#2341)](https://github.com/NuvioMedia/NuvioMobile/pull/2341) @emgeje  \n- [i18n(vi): update strings.xml and strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pull/2339) @blueocean2308  \n- 90ab7f95 fix(ratings): use real imdb logo and grey label @tapframe  \n- d9046775 feat(home): show ratings and age rating on hero @tapframe  \n- b9fbc09c fix(player): keep side panels clear of the navigation bar @tapframe  \n- 83e528f0 feat(player): choose a badge pack for the player @tapframe  \n- [Complete Spanish mobile translations (#2344)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierPC  \n- [fix(ios): keep hardware decoding when PiP is interrupted by Notification Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306) @WhiteGiso  \n- [fix(android): scale ExoPlayer subtitles with the PiP window size (#2314)](https://github.com/NuvioMedia/NuvioMobile/pull/2314) @sap6  \n- [feat(player): auto-sync add-on subtitles on the libmpv engine (#2275)](https://github.com/NuvioMedia/NuvioMobile/pull/2275) @kernexshadow",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
+          "size": 67805794,
           "minOSVersion": "16.1",
-          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.3-beta",
+          "releaseUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/tag/0.6.4-beta",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "nuvio-0.6.3-full-release.ipa",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 68815810,
-              "sha256": "90cccaa6bfe194c0567e0eb763a2aa65c2fd32ea84660eab18ef336b83558640",
-              "downloads": 421,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "androidApp-full-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/androidApp-full-arm64-v8a-release.apk",
-              "platform": "android",
-              "architecture": "arm64",
-              "fileType": "APK",
-              "size": 45840031,
-              "sha256": "9ae7c0a2c49cb71420de93fe98708a2caa64c2fc9c6d57fca275841a6f41284d",
-              "downloads": 6559,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "androidApp-full-x86-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/androidApp-full-x86-release.apk",
-              "platform": "android",
-              "architecture": "x86",
-              "fileType": "APK",
-              "size": 46211039,
-              "sha256": "33edabcb4902e46d5d8a38d431da3eecd41353b0bcccb3c9a831e3bdb805276e",
-              "downloads": 114,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
               "filename": "androidApp-full-x86_64-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/androidApp-full-x86_64-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/androidApp-full-x86_64-release.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 47187497,
-              "sha256": "85bffdcd1aca039cacf544620195c2b1b65b39e90432ac2e6886728aac67897b",
-              "downloads": 134,
+              "size": 47314273,
+              "sha256": "a91ac74e261a870573402514dd4335d45f3293d09a97b49e1cb4ee92da450db8",
+              "downloads": 8,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
               "filename": "androidApp-full-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/androidApp-full-armeabi-v7a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/androidApp-full-armeabi-v7a-release.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 44080019,
-              "sha256": "6038783bd7a4f1974e1e7a227361410509376751724e75a8d07cb5195d66ce15",
-              "downloads": 190,
+              "size": 44276506,
+              "sha256": "5d4e9e29026658c92abc895d2528f24475900df3fc8596324333deb9a035e877",
+              "downloads": 30,
               "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "androidApp-full-arm64-v8a-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/androidApp-full-arm64-v8a-release.apk",
+              "platform": "android",
+              "architecture": "arm64",
+              "fileType": "APK",
+              "size": 45925852,
+              "sha256": "f757e9b44e71dad41107181cc887fa0f8142fa8e43b518f0b970e28e0d197d97",
+              "downloads": 856,
+              "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "androidApp-full-x86-release.apk",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/androidApp-full-x86-release.apk",
+              "platform": "android",
+              "architecture": "x86",
+              "fileType": "APK",
+              "size": 46339498,
+              "sha256": "3dbda841092102fe1f77039486e50269476c5a25d564817f83d43d75613a3a98",
+              "downloads": 10,
+              "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "nuvio-0.6.4-full-release.ipa",
+              "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 67805794,
+              "sha256": "e7670fdba3adb96f6f8292dd19539fff04d1fbd792fa0fc7b1f602b84367d969",
+              "downloads": 61,
+              "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "90cccaa6bfe194c0567e0eb763a2aa65c2fd32ea84660eab18ef336b83558640",
-          "downloads": 421
+          "sha256": "e7670fdba3adb96f6f8292dd19539fff04d1fbd792fa0fc7b1f602b84367d969",
+          "downloads": 61
         }
       ],
       "screenshotURLs": [],
@@ -137,7 +137,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-17",
-          "lastUpdatedAt": "2026-10-21"
+          "lastUpdatedAt": "2026-10-23"
         }
       }
     }

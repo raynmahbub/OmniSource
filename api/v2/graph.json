@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23",
-  "count": 346,
-  "edgeCount": 1034,
+  "generatedAt": "2026-10-24",
+  "count": 349,
+  "edgeCount": 1036,
   "nodes": [
     {
       "id": "app:spotiflac",
@@ -173,7 +173,7 @@
       "slug": "ytmusic",
       "bundleId": "com.google.ios.youtubemusic",
       "category": "music",
-      "version": "9.41.2"
+      "version": "9.42.2"
     },
     {
       "id": "source:mrdrvt99ytmusicultimate",
@@ -967,7 +967,7 @@
       "slug": "raintweak",
       "bundleId": "com.hammerandchisel.discord",
       "category": "social",
-      "version": "0.9.3"
+      "version": "1.2.0"
     },
     {
       "id": "dev:raincord-&-ipa-vault",
@@ -2169,7 +2169,7 @@
       "slug": "nuvio",
       "bundleId": "com.nuvio.app",
       "category": "photo-video",
-      "version": "0.6.3"
+      "version": "0.6.4"
     },
     {
       "id": "dev:nuvio-media",
@@ -2351,6 +2351,26 @@
       "type": "source",
       "label": "DevelopCubeLab/AnimationSpeed",
       "url": "https://github.com/DevelopCubeLab/AnimationSpeed"
+    },
+    {
+      "id": "app:eclipse",
+      "type": "app",
+      "label": "Eclipse",
+      "slug": "eclipse",
+      "bundleId": "app.Eclipse.Soupy",
+      "category": "entertainment",
+      "version": "2.3.0"
+    },
+    {
+      "id": "dev:soupy-dev",
+      "type": "developer",
+      "label": "Soupy-dev"
+    },
+    {
+      "id": "source:soupydeveclipse",
+      "type": "source",
+      "label": "Soupy-dev/Eclipse",
+      "url": "https://github.com/Soupy-dev/Eclipse"
     }
   ],
   "edges": [
@@ -3622,6 +3642,16 @@
     {
       "source": "app:animationspeed",
       "target": "source:developcubelabanimationspeed",
+      "type": "source"
+    },
+    {
+      "source": "app:eclipse",
+      "target": "dev:soupy-dev",
+      "type": "developer"
+    },
+    {
+      "source": "app:eclipse",
+      "target": "source:soupydeveclipse",
       "type": "source"
     },
     {

@@ -35,7 +35,7 @@
 
 <!-- omnisource:stats:start -->
 
-**127** apps · **110** upstream sources · **126** verified · **0** community verified · **126/127** downloads online · last sync **2026-10-23**.
+**128** apps · **111** upstream sources · **127** verified · **0** community verified · **127/128** downloads online · last sync **2026-10-24**.
 
 <!-- omnisource:stats:end -->
 
