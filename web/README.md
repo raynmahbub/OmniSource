@@ -31,15 +31,17 @@ pipeline outputs into `web/`:
 
 - `src/data/*.json` — server-bundled snapshots from `feeds/` and `data/`;
 - `public/data/v3/*.json` — client-fetchable API snapshots for search/PWA;
-- `public/assets/*` — only the app and client logos referenced by `catalog.json`.
+- `public/assets/*` — reviewed app/client logos and manifest-verified screenshot mirrors.
 
 Catalog logos are copied from the reviewed repository artwork and served from
 the web app's own origin; sync fails if any referenced logo is missing. Each
 app detail page links back to its official project. Screenshot galleries use
-only the original screenshot URLs declared by that project's source (checked by
-the root catalog validator). If the catalog has no verified screenshots for an
-app, the page says so—no mockups, generated screenshots, or app-logo stand-ins
-are shown. Broken remote screenshots keep a labeled link to the original.
+only URLs declared by that project's source (checked by the root catalog
+validator) and recorded in `feeds/screenshots.json`. They prefer the pipeline's
+WebP thumbnail, then the full same-origin mirror, then the original upstream
+image; the gallery link always retains the original URL for provenance. If the
+catalog has no verified screenshots for an app, the page says so—no mockups,
+generated screenshots, or app-logo stand-ins are shown.
 
 The app builds without reaching localhost or an external database. Production
 browser requests remain relative to the deployed origin.
@@ -51,6 +53,7 @@ cd web
 npm ci
 npm run typecheck
 npm run lint
+npm test
 npm run dev                 # binds Next's normal development port
 npm run build && npm start
 ```

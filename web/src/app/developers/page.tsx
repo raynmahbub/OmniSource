@@ -1,4 +1,6 @@
 import Link from "next/link";
+import EmptyState from "@/components/EmptyState";
+import PageHeader from "@/components/PageHeader";
 import { getAppsWithIds, getDevelopers } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -16,15 +18,13 @@ export default async function DevelopersPage() {
 
   return (
     <div className="space-y-8">
-      <header>
-        <h1 className="text-2xl font-extrabold">{dict.nav.developers ?? "Developers"}</h1>
-        <p className="mt-1 text-zinc-600 dark:text-zinc-400">
-          Publishers represented in the validated catalog, with source-backed app records.
-        </p>
-      </header>
+      <PageHeader
+        title={dict.nav.developers ?? "Developers"}
+        description="Publishers represented in the validated catalog, with source-backed app records."
+      />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {developers.map((developer) => (
-          <article key={developer.name} className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
+          <article key={developer.name} className="os-card p-5">
             <h2 className="font-bold">{developer.name}</h2>
             <p className="mt-1 text-sm text-zinc-500">
               {developer.appCount} {dict.common.apps} · {developer.sourceCount} {dict.common.sources}
@@ -41,7 +41,7 @@ export default async function DevelopersPage() {
           </article>
         ))}
       </div>
-      {!developers.length && <p className="text-zinc-500">{dict.common.noResults}</p>}
+      {!developers.length && <EmptyState>{dict.common.noResults}</EmptyState>}
     </div>
   );
 }

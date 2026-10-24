@@ -144,6 +144,7 @@ None. No orphaned keys and every used key resolves.
 | `sources/saber-notes-saber/index.html` | 15 | translated chrome |
 | `sources/serotoninapp-serotonin/index.html` | 15 | translated chrome |
 | `sources/sidestore-sidestore/index.html` | 15 | translated chrome |
+| `sources/soupy-dev-eclipse/index.html` | 15 | translated chrome |
 | `sources/sourcelocation-airtroller/index.html` | 15 | translated chrome |
 | `sources/stikdebug-stikdebug/index.html` | 15 | translated chrome |
 | `sources/stikemu-stiknes-2-0/index.html` | 15 | translated chrome |

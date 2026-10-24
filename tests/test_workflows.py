@@ -183,6 +183,14 @@ class WorkflowShapeTests(unittest.TestCase):
                 self.assertRegex(text, r"(?m)^name: ")
                 self.assertRegex(text, r"(?m)^jobs:")
 
+    def test_sync_commits_screenshot_bytes_with_their_manifest(self) -> None:
+        text = (WORKFLOWS / "sync.yml").read_text(encoding="utf-8")
+        match = re.search(r"git add -A(?P<body>.*?)^\s*if git diff", text, re.MULTILINE | re.DOTALL)
+        self.assertIsNotNone(match, "sync.yml generated-file staging block not found")
+        body = match.group("body") if match else ""
+        self.assertIn("'assets/screenshots/**'", body)
+        self.assertIn("'api/**'", body)
+
 
 if __name__ == "__main__":  # pragma: no cover
     unittest.main()

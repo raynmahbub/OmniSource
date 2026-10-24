@@ -2,28 +2,182 @@
 
 :root {
   color-scheme: light dark;
+  --os-bg: #f5f6fb;
+  --os-panel: rgba(255, 255, 255, 0.78);
+  --os-panel-solid: #ffffff;
+  --os-text: #191923;
+  --os-muted: #606577;
+  --os-border: rgba(36, 32, 66, 0.11);
+  --os-border-strong: rgba(103, 65, 217, 0.34);
+  --os-accent: #6741d9;
+  --os-accent-soft: rgba(103, 65, 217, 0.1);
+  --os-shadow: 0 1px 2px rgba(29, 22, 56, 0.03), 0 14px 40px rgba(46, 35, 85, 0.055);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --os-bg: #09090d;
+    --os-panel: rgba(24, 24, 31, 0.76);
+    --os-panel-solid: #17171e;
+    --os-text: #f4f3f8;
+    --os-muted: #aaa8b8;
+    --os-border: rgba(255, 255, 255, 0.09);
+    --os-border-strong: rgba(167, 139, 250, 0.42);
+    --os-accent: #b6a0ff;
+    --os-accent-soft: rgba(167, 139, 250, 0.12);
+    --os-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 50px rgba(0, 0, 0, 0.22);
+  }
 }
 
 html {
-  /* A fast downward fling at the top of the page must not hand the gesture to
-     the browser's pull-to-refresh (which reloads the document); `contain` keeps
-     it inside the page. The reserved gutter keeps the layout width identical
-     when the body leaves the flow for the mobile drawer. */
+  /* Keep flings inside the document and avoid a layout shift when the mobile
+     drawer takes the body out of flow. */
   overscroll-behavior-y: contain;
   scrollbar-gutter: stable;
 }
 
 body {
+  background:
+    radial-gradient(70rem 32rem at 4% -12%, rgba(124, 92, 255, 0.09), transparent 64%),
+    radial-gradient(58rem 30rem at 98% -8%, rgba(192, 132, 252, 0.075), transparent 66%),
+    var(--os-bg);
+  color: var(--os-text);
   font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  /* Long feed URLs, bundle identifiers and hashes wrap instead of widening the
-     page. Nothing in this app should ever produce a horizontal scrollbar. */
+  /* Long feed URLs, bundle identifiers and hashes wrap instead of widening
+     the page. Nothing in this app should create horizontal page overflow. */
   overflow-wrap: break-word;
 }
 
+/* Shared Liquid Glass surfaces. Keeping these outside individual pages makes
+   the Next edition visually consistent and removes repeated utility strings. */
+.os-panel,
+.os-card {
+  border: 1px solid var(--os-border);
+  background: var(--os-panel);
+  box-shadow: var(--os-shadow);
+  -webkit-backdrop-filter: blur(22px) saturate(1.25);
+  backdrop-filter: blur(22px) saturate(1.25);
+}
+
+.os-panel {
+  border-radius: 1.35rem;
+}
+
+.os-card {
+  border-radius: 1.05rem;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.os-card:hover {
+  border-color: var(--os-border-strong);
+  box-shadow: 0 18px 44px rgba(74, 49, 145, 0.12);
+  transform: translateY(-2px);
+}
+
+.os-page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.os-eyebrow {
+  margin: 0 0 0.45rem;
+  color: var(--os-accent);
+  font-size: 0.69rem;
+  font-weight: 750;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.os-page-title {
+  margin: 0;
+  max-width: 24ch;
+  font-size: clamp(1.75rem, 4vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.os-page-description {
+  max-width: 68ch;
+  margin: 0.55rem 0 0;
+  color: var(--os-muted);
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.os-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr));
+  gap: 0.75rem;
+}
+
+.os-metric {
+  min-width: 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--os-border);
+  border-radius: 1rem;
+  background: var(--os-panel);
+  box-shadow: var(--os-shadow);
+}
+
+.os-metric dt {
+  overflow: hidden;
+  color: var(--os-muted);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.035em;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.os-metric dd {
+  margin: 0.25rem 0 0;
+  font-size: 1.55rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+.os-empty-state {
+  display: grid;
+  place-items: center;
+  gap: 0.65rem;
+  padding: 2.5rem 1rem;
+  border: 1px dashed var(--os-border-strong);
+  border-radius: 1.1rem;
+  color: var(--os-muted);
+  text-align: center;
+}
+
+.os-empty-state svg {
+  width: 1.75rem;
+  height: 1.75rem;
+  color: var(--os-accent);
+}
+
+.os-empty-state p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.os-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+.os-table-wrap table {
+  min-width: 40rem;
+}
+
 /* Mobile drawer scroll lock: pinning the body out of flow at its current
-   offset is the only technique that stops iOS touch scrolling without breaking
-   `position: sticky` on the header. Applied by components/Nav.tsx only while
-   the drawer is open; the offset is restored on close. */
+   offset stops iOS touch scrolling without breaking the sticky header. */
 body.nav-lock {
   position: fixed;
   left: 0;
@@ -32,17 +186,25 @@ body.nav-lock {
   overflow: hidden;
 }
 
+:where(a, button, input, select, summary):focus-visible {
+  outline: 2px solid var(--os-accent);
+  outline-offset: 3px;
+}
+
 /* One motion system: short, transform/opacity based, and switched off for
-   readers who ask for reduced motion (the utilities above already use
-   `motion-reduce:` variants; this is the global backstop). */
+   readers who ask for reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .os-card:hover {
+    transform: none;
   }
 }
 
@@ -51,8 +213,6 @@ body.nav-lock {
   line-height: 1.7;
 }
 
-/* Code and identifiers can be long; keep them inside their box. Feed URLs,
-   hashes and bundle identifiers share one mono voice with the static site. */
 code,
 kbd,
 pre {
@@ -61,7 +221,6 @@ pre {
   overflow-wrap: anywhere;
 }
 
-/* Text selection and focus in the brand accent rather than the browser blue. */
 ::selection {
   background: #6a4cf0;
   color: #ffffff;

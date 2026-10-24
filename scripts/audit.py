@@ -44,6 +44,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORTS_DIR = ROOT / "reports"
+AUDIT_REPORT_NAMES = frozenset(
+    {
+        "accessibility.md",
+        "dead-code.md",
+        "duplicates.md",
+        "links.md",
+        "localization.md",
+        "performance.md",
+        "recommendations.md",
+        "workflows.md",
+    }
+)
 
 # Directories that never count as "code" for ownership/usage scans.
 SKIP_DIRS = {
@@ -101,6 +113,11 @@ def rel(path: Path) -> str:
         except ValueError:
             return str(path)
     return path.as_posix()
+
+
+def _is_generated_audit_report(path: Path) -> bool:
+    """Audit output is not evidence that a product asset is referenced."""
+    return path.name in AUDIT_REPORT_NAMES and rel(path).startswith("reports/")
 
 
 def read(path: Path) -> str:
@@ -262,6 +279,17 @@ def audit_files_and_globals() -> tuple[list[str], list[str], list[str], list[str
         *iter_files((".md",), trees=(".",)),
         *iter_files((".md", ".json", ".xml", ".webmanifest"), trees=("docs", "schemas", "locales")),
     ]:
+        # Otherwise a previous dead-code.md "references" every file it lists,
+        # and consecutive audit runs alternate between used and unused.
+        if _is_generated_audit_report(p):
+            continue
+        other_text[p] = read(ROOT / p)
+    # Package scripts and CI commands are real entry-point references too;
+    # without these, a test invoked by `npm test` looks like an orphan file.
+    for p in iter_files((".json",), trees=(".",)):
+        if p.name == "package.json":
+            other_text[p] = read(ROOT / p)
+    for p in iter_files((".yml", ".yaml"), trees=(".github/workflows",)):
         other_text[p] = read(ROOT / p)
 
     # --- committed files never referenced anywhere -----------------------
@@ -931,6 +959,8 @@ class A11yParser(HTMLParser):
         self.imgs: list[dict] = []
         self.links: list[dict] = []
         self.buttons: list[dict] = []
+        self.button_text: list[str] = []
+        self._current_button: int | None = None
         self.inputs: list[dict] = []
         self.selects: list[dict] = []
         self.headings: list[tuple[int, str]] = []
@@ -950,6 +980,8 @@ class A11yParser(HTMLParser):
             self.links.append(a)
         elif tag == "button":
             self.buttons.append(a)
+            self.button_text.append("")
+            self._current_button = len(self.buttons) - 1
         elif tag == "input":
             self.inputs.append(a)
         elif tag == "select":
@@ -960,11 +992,15 @@ class A11yParser(HTMLParser):
             self._skip = True
 
     def handle_data(self, data):
+        if self._current_button is not None:
+            self.button_text[self._current_button] += data
         if self.headings and not self.headings[-1][1]:
             level, _ = self.headings[-1]
             self.headings[-1] = (level, data.strip()[:60])
 
     def handle_endtag(self, tag):
+        if tag == "button":
+            self._current_button = None
         if tag in ("script", "style"):
             self._skip = False
 
@@ -981,15 +1017,13 @@ def audit_page(page: Path) -> list[str]:
     img_unlabeled = [i for i in parser.imgs if "alt" not in i]
     if img_unlabeled:
         problems.append(f"{len(img_unlabeled)}/{img_total} `<img>` without `alt`")
-    no_label_buttons = [
+    no_name_buttons = [
         b
-        for b in parser.buttons
-        if not (
-            b.get("aria-label") or b.get("data-i18n-aria-label") or b.get("title") or "close" in (b.get("class") or "")
-        )
+        for b, text in zip(parser.buttons, parser.button_text, strict=True)
+        if not text.strip() and not (b.get("aria-label") or b.get("data-i18n-aria-label") or b.get("title"))
     ]
-    if parser.buttons and len(no_label_buttons) > len(parser.buttons) * 0.6:
-        problems.append("most buttons rely on inner text only (screen-reader labels recommended for icon buttons)")
+    if no_name_buttons:
+        problems.append(f"{len(no_name_buttons)} button(s) without accessible text or a label")
     dup_ids = sorted({i for i in parser.ids if i and parser.ids.count(i) > 1})
     if dup_ids:
         problems.append("duplicate ids: " + ", ".join(f"`{d}`" for d in dup_ids[:6]))

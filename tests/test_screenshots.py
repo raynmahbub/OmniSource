@@ -3,14 +3,14 @@
 The mirror state must be reproducible offline: a mirror already on disk is
 trusted, so an offline rebuild never flips ``mirrored`` based on this
 machine's network reachability. Real sync runs pass ``refresh=True`` to
-re-download and pick up upstream changes. When no mirror is on disk (a fresh
-CI checkout never has them — mirrors are not committed to git), entries
-whose remote URL is unchanged keep the last committed mirror metadata via
-``previous`` instead of degrading to ``mirrored: false``.
+re-download and pick up upstream changes, while a transient refresh failure
+keeps known-good local bytes. The manifest is generated from actual files and
+the sync workflow commits those files beside it.
 """
 
 from __future__ import annotations
 
+import base64
 import hashlib
 import tempfile
 import unittest
@@ -85,6 +85,28 @@ class TestScreenshotMirror(unittest.TestCase):
         self.assertEqual(entry["sha256"], hashlib.sha256(fresh).hexdigest())
         self.assertEqual(http.requests, [URL])
 
+    def test_failed_refresh_keeps_known_good_mirror(self) -> None:
+        class FailingHttp:
+            def get_bytes(self, url: str, *, limit: int, timeout: float) -> bytes:
+                raise OSError("temporarily offline")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            assets = Path(tmpdir)
+            mirror = assets / "screenshots" / "demo" / "demo-01.png"
+            mirror.parent.mkdir(parents=True)
+            mirror.write_bytes(PAYLOAD)
+            report = process_screenshots(
+                _catalog(),
+                "https://example.invalid",
+                assets,
+                http=FailingHttp(),
+                refresh=True,
+            )
+            self.assertEqual(mirror.read_bytes(), PAYLOAD)
+        (entry,) = _screenshot_entries(report)
+        self.assertTrue(entry["mirrored"])
+        self.assertEqual(entry["sha256"], hashlib.sha256(PAYLOAD).hexdigest())
+
     def test_no_refresh_does_not_call_the_network(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             assets = Path(tmpdir) / "assets"
@@ -97,6 +119,65 @@ class TestScreenshotMirror(unittest.TestCase):
             (entry,) = _screenshot_entries(report)
         self.assertEqual(http.requests, [])  # local mirror wins, no download
         self.assertEqual(entry["sha256"], hashlib.sha256(PAYLOAD).hexdigest())
+
+    def test_http_client_get_bytes_is_bounded(self) -> None:
+        class Http:
+            def __init__(self) -> None:
+                self.calls: list[tuple[str, int, float]] = []
+
+            def get_bytes(self, url: str, *, limit: int, timeout: float) -> bytes:
+                self.calls.append((url, limit, timeout))
+                return PAYLOAD
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            http = Http()
+            report = process_screenshots(
+                _catalog(),
+                "https://example.invalid",
+                Path(tmpdir),
+                http=http,
+                refresh=True,
+            )
+        (entry,) = _screenshot_entries(report)
+        self.assertTrue(entry["mirrored"])
+        self.assertEqual(http.calls, [(URL, 12 * 1024 * 1024 + 1, 12.0)])
+
+    def test_raw_github_image_falls_back_to_contents_api(self) -> None:
+        raw_url = "https://raw.githubusercontent.com/SomeDev/SomeApp/main/shot%201.png"
+
+        class Http:
+            def __init__(self) -> None:
+                self.endpoints: list[str] = []
+
+            def get_bytes(self, url: str, *, limit: int, timeout: float) -> bytes:
+                raise OSError("raw host unavailable")
+
+            def get_json(self, url: str, *, extra_headers: dict[str, str]) -> dict:
+                self.endpoints.append(url)
+                return {
+                    "type": "file",
+                    "encoding": "base64",
+                    "size": len(PAYLOAD),
+                    "content": base64.b64encode(PAYLOAD).decode("ascii"),
+                }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            http = Http()
+            report = process_screenshots(
+                _catalog([raw_url]),
+                "https://example.invalid",
+                Path(tmpdir),
+                http=http,
+                refresh=True,
+            )
+            mirror = Path(tmpdir) / "screenshots" / "demo" / "demo-01.png"
+            self.assertEqual(mirror.read_bytes(), PAYLOAD)
+        (entry,) = _screenshot_entries(report)
+        self.assertTrue(entry["mirrored"])
+        self.assertEqual(
+            http.endpoints,
+            ["https://api.github.com/repos/SomeDev/SomeApp/contents/shot%201.png?ref=main"],
+        )
 
 
 _PREVIOUS = {
@@ -182,20 +263,52 @@ class TestScreenshotsKeepLastGood(unittest.TestCase):
         self.assertTrue(any(issue.kind == "screenshot" for issue in report.issues) or True)
 
     def test_changed_url_does_not_reuse_stale_mirror(self) -> None:
-        """A new remote URL must not inherit another URL's mirror metadata."""
+        """A new remote URL must not inherit another URL's files or metadata."""
         previous = {"screenshots": [{**_PREVIOUS["screenshots"][0], "originalURL": "https://example.com/old.png"}]}
         with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            mirror = root / "screenshots" / "demo" / "demo-01.png"
+            mirror.parent.mkdir(parents=True)
+            mirror.write_bytes(PAYLOAD)
+            thumbnail = root / "screenshots" / "thumbnails" / "demo" / "demo-01.webp"
+            thumbnail.parent.mkdir(parents=True)
+            thumbnail.write_bytes(b"old thumbnail")
             report = process_screenshots(
                 _catalog(),
                 base_url="https://example.invalid",
-                assets_dir=Path(tmpdir),
+                assets_dir=root,
                 http=None,
                 previous=previous,
             )
+            self.assertFalse(mirror.exists())
+            self.assertFalse(thumbnail.exists())
         (entry,) = _screenshot_entries(report)
         self.assertFalse(entry["mirrored"])
         self.assertEqual(entry["size"], 0)
         self.assertEqual(entry["sha256"], "")
+        self.assertEqual(entry["thumbnailSize"], 0)
+
+    def test_changed_url_fetches_new_bytes_without_a_full_refresh(self) -> None:
+        previous = {"screenshots": [{**_PREVIOUS["screenshots"][0], "originalURL": "https://example.com/old.png"}]}
+        fresh = b"new upstream screenshot"
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            mirror = root / "screenshots" / "demo" / "demo-01.png"
+            mirror.parent.mkdir(parents=True)
+            mirror.write_bytes(PAYLOAD)
+            http = _FakeHttp(fresh)
+            report = process_screenshots(
+                _catalog(),
+                base_url="https://example.invalid",
+                assets_dir=root,
+                http=http,
+                previous=previous,
+            )
+            self.assertEqual(mirror.read_bytes(), fresh)
+        (entry,) = _screenshot_entries(report)
+        self.assertTrue(entry["mirrored"])
+        self.assertEqual(entry["sha256"], hashlib.sha256(fresh).hexdigest())
+        self.assertEqual(http.requests, [URL])
 
     def test_first_build_without_previous(self) -> None:
         """A first build with no previous doc degrades gracefully, offline."""

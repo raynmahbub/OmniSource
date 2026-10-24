@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
 import { getSources } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -16,16 +17,13 @@ export default async function SourcesPage() {
   const sources = [...getSources()].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.sourcesTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.sourcesSubtitle}</p>
-      </div>
+      <PageHeader title={dict.sections.sourcesTitle} description={dict.sections.sourcesSubtitle} />
       <div className="grid gap-3 md:grid-cols-2">
         {sources.map((s) => (
           <Link
             key={s.id}
             href={`/sources/${encodeURIComponent(s.id)}`}
-            className="rounded-2xl border border-zinc-200 bg-white p-4 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900"
+            className="os-card block p-4"
           >
             <div className="flex items-center justify-between gap-2">
               <span className="truncate font-bold">{s.source}</span>

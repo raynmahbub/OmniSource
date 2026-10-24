@@ -1,3 +1,5 @@
+import MetricGrid from "@/components/MetricGrid";
+import PageHeader from "@/components/PageHeader";
 import { getStatus } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -31,19 +33,9 @@ export default async function StatusPage() {
   const totals = doc.totals ?? {};
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.statusTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.statusSubtitle}</p>
-      </div>
-      <div className="grid gap-3 sm:grid-cols-4">
-        {Object.entries(totals).map(([k, v]) => (
-          <div key={k} className="rounded-2xl border border-zinc-200 bg-white p-4 text-center dark:border-zinc-800 dark:bg-zinc-900">
-            <div className="text-2xl font-extrabold">{v}</div>
-            <div className="text-xs uppercase tracking-wide text-zinc-500">{k}</div>
-          </div>
-        ))}
-      </div>
-      <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+      <PageHeader title={dict.sections.statusTitle} description={dict.sections.statusSubtitle} />
+      <MetricGrid metrics={totals} />
+      <div className="os-panel os-table-wrap">
         <table className="w-full text-left text-sm">
           <thead className="bg-zinc-50 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
             <tr>

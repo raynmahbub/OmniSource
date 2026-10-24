@@ -1,3 +1,5 @@
+import MetricGrid from "@/components/MetricGrid";
+import PageHeader from "@/components/PageHeader";
 import { getSecurity } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -29,11 +31,8 @@ export default async function SecurityPage() {
   const dupes = Array.isArray(doc.duplicateBinaries) ? doc.duplicateBinaries : [];
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.securityTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.securitySubtitle}</p>
-      </div>
-      <div className="flex items-center gap-3 rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
+      <PageHeader title={dict.sections.securityTitle} description={dict.sections.securitySubtitle} />
+      <div className="os-panel flex items-center gap-3 p-5">
         <span className="font-semibold">Verdict:</span>
         <span
           className={`rounded-full px-4 py-1 font-bold ${
@@ -45,14 +44,7 @@ export default async function SecurityPage() {
           {doc.verdict ?? "unknown"}
         </span>
       </div>
-      <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-5">
-        {Object.entries(summary).map(([k, v]) => (
-          <div key={k} className="rounded-2xl border border-zinc-200 bg-white p-4 text-center dark:border-zinc-800 dark:bg-zinc-900">
-            <div className="text-2xl font-extrabold">{v}</div>
-            <div className="text-xs text-zinc-500">{k}</div>
-          </div>
-        ))}
-      </div>
+      <MetricGrid metrics={summary} />
       {!!dupes.length && (
         <div className="rounded-2xl border border-amber-300 bg-amber-50 p-5 dark:border-amber-800 dark:bg-amber-950">
           <h2 className="font-bold">Duplicate binaries ({dupes.length})</h2>
@@ -65,7 +57,7 @@ export default async function SecurityPage() {
           </ul>
         </div>
       )}
-      <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+      <div className="os-panel os-table-wrap">
         <table className="w-full text-left text-sm">
           <thead className="bg-zinc-50 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
             <tr>

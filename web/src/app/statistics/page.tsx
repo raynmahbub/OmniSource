@@ -1,3 +1,5 @@
+import MetricGrid from "@/components/MetricGrid";
+import PageHeader from "@/components/PageHeader";
 import { getAnalytics, getAnalyticsRollup } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
@@ -13,7 +15,7 @@ interface Window {
 function WindowTable({ title, rows }: { title: string; rows: Window[] }) {
   const keys = [...new Set(rows.flatMap((r) => Object.keys(r.metrics ?? r.averages ?? {})))].slice(0, 6);
   return (
-    <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+    <div className="os-panel os-table-wrap">
       <h2 className="border-b border-zinc-100 px-4 py-3 font-bold dark:border-zinc-800">{title}</h2>
       <table className="w-full text-left text-sm">
         <thead className="bg-zinc-50 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
@@ -50,18 +52,8 @@ export default async function StatisticsPage() {
   const rollup = getAnalyticsRollup() as { daily?: Window[]; weekly?: Window[]; monthly?: Window[] };
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold">{dict.sections.statisticsTitle}</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">{dict.sections.statisticsSubtitle}</p>
-      </div>
-      <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-5">
-        {Object.entries(analytics.totals ?? {}).map(([k, v]) => (
-          <div key={k} className="rounded-2xl border border-zinc-200 bg-white p-4 text-center dark:border-zinc-800 dark:bg-zinc-900">
-            <div className="text-2xl font-extrabold">{v}</div>
-            <div className="text-xs text-zinc-500">{k}</div>
-          </div>
-        ))}
-      </div>
+      <PageHeader title={dict.sections.statisticsTitle} description={dict.sections.statisticsSubtitle} />
+      <MetricGrid metrics={analytics.totals ?? {}} />
       <WindowTable title="Daily (30 days)" rows={rollup.daily ?? []} />
       <WindowTable title="Weekly (12 weeks)" rows={rollup.weekly ?? []} />
       <WindowTable title="Monthly (12 months)" rows={rollup.monthly ?? []} />

@@ -9,9 +9,9 @@ description, canonical, Open Graph, Twitter card.
 ## Summary
 
 - Broken internal link targets: **0**
-- Pages missing SEO metadata: **0** (of 259 HTML files)
+- Pages missing SEO metadata: **0** (of 261 HTML files)
 - Sitemap URLs not resolvable in the tree: **0**
-- External references (not resolved offline): 4663
+- External references (not resolved offline): 4700
 
 ## Broken internal links
 
@@ -23,7 +23,7 @@ Every scanned page ships title, description, canonical, Open Graph and Twitter c
 
 ## Sitemap
 
-- 256 URLs listed in `sitemap.xml`.
+- 258 URLs listed in `sitemap.xml`.
 - All listed URLs resolve in the repository tree (branch-deployment mode).
 
 ## Redirect/alias notes

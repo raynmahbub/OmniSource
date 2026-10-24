@@ -112,7 +112,7 @@ recipes-find:
 
 # Modern website (Next.js): install, typecheck, lint, production build.
 web:
-	cd web && npm ci && npm run typecheck && npm run lint && npm run build
+	cd web && npm ci && npm run typecheck && npm run lint && npm test && npm run build
 
 clean:
 	rm -rf _site

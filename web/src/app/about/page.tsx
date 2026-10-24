@@ -1,11 +1,12 @@
+import PageHeader from "@/components/PageHeader";
 import { getLangDict } from "@/lib/lang";
 
 export default async function AboutPage() {
   const { dict } = await getLangDict();
   return (
     <div className="mx-auto max-w-3xl space-y-6">
-      <h1 className="text-2xl font-extrabold">{dict.sections.aboutTitle}</h1>
-      <div className="prose-omni space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 text-[15px] text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300">
+      <PageHeader title={dict.sections.aboutTitle} />
+      <div className="os-panel prose-omni space-y-4 p-6 text-[15px] text-zinc-700 dark:text-zinc-300">
         <p>
           <strong>OmniSource</strong> is a fully autonomous AltStore, SideStore, Feather, ESign and LiveContainer
           source aggregation platform. It discovers third-party feeds, validates every app, tracks releases,
