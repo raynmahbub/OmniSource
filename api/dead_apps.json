@@ -1,228 +1,143 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-24",
   "thresholds": {
     "warning": 90,
     "stale": 180,
     "archived": 365
   },
-  "count": 58,
+  "count": 55,
   "summary": {
-    "warning": 13,
+    "warning": 14,
     "stale": 8,
-    "archived": 36,
-    "critical": 1
+    "archived": 33,
+    "critical": 0
   },
   "deadApps": [
-    {
-      "slug": "raintweak",
-      "name": "RainTweak",
-      "lastUpdate": "2026-06-19",
-      "daysSinceUpdate": 124,
-      "classification": "critical",
-      "removedReleases": 1,
-      "supersededReleases": 0,
-      "reasons": [
-        "removed upstream release(s): 1.2.0 (newer than 0.9.3)",
-        "no update for 124 days (threshold 90)"
-      ]
-    },
     {
       "slug": "airtroller",
       "name": "AirTroller",
       "lastUpdate": "2022-11-26",
-      "daysSinceUpdate": 1425,
+      "daysSinceUpdate": 1428,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1425 days (threshold 365)"
+        "no update for 1428 days (threshold 365)"
       ]
     },
     {
       "slug": "animationspeed",
       "name": "Animation Speed",
       "lastUpdate": "2025-05-27",
-      "daysSinceUpdate": 512,
+      "daysSinceUpdate": 515,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 512 days (threshold 365)"
+        "no update for 515 days (threshold 365)"
       ]
     },
     {
       "slug": "animegen",
       "name": "AnimeGen",
       "lastUpdate": "2025-03-04",
-      "daysSinceUpdate": 596,
+      "daysSinceUpdate": 599,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 596 days (threshold 365)"
+        "no update for 599 days (threshold 365)"
       ]
     },
     {
       "slug": "batteryinfo",
       "name": "Battery Info",
       "lastUpdate": "2025-07-09",
-      "daysSinceUpdate": 469,
+      "daysSinceUpdate": 472,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 469 days (threshold 365)"
+        "no update for 472 days (threshold 365)"
       ]
     },
     {
       "slug": "bhinstagram",
       "name": "BHInstagram",
       "lastUpdate": "2025-05-14",
-      "daysSinceUpdate": 525,
+      "daysSinceUpdate": 528,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 525 days (threshold 365)"
+        "no update for 528 days (threshold 365)"
       ]
     },
     {
       "slug": "bhtwitter",
       "name": "BHTwitter",
       "lastUpdate": "2025-05-13",
-      "daysSinceUpdate": 526,
+      "daysSinceUpdate": 529,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 526 days (threshold 365)"
+        "no update for 529 days (threshold 365)"
       ]
     },
     {
       "slug": "caperfhud",
       "name": "CAPerfHUD",
       "lastUpdate": "2023-12-19",
-      "daysSinceUpdate": 1037,
+      "daysSinceUpdate": 1040,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1037 days (threshold 365)"
+        "no update for 1040 days (threshold 365)"
       ]
     },
     {
       "slug": "cartube",
       "name": "CarTube",
       "lastUpdate": "2023-01-23",
-      "daysSinceUpdate": 1367,
+      "daysSinceUpdate": 1370,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1367 days (threshold 365)"
+        "no update for 1370 days (threshold 365)"
       ]
     },
     {
       "slug": "cowabunga",
       "name": "Cowabunga",
       "lastUpdate": "2023-05-29",
-      "daysSinceUpdate": 1241,
+      "daysSinceUpdate": 1244,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1241 days (threshold 365)"
+        "no update for 1244 days (threshold 365)"
       ]
     },
     {
       "slug": "delta",
       "name": "Delta",
       "lastUpdate": "2024-07-11",
-      "daysSinceUpdate": 832,
+      "daysSinceUpdate": 835,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 832 days (threshold 365)"
+        "no update for 835 days (threshold 365)"
       ]
     },
     {
       "slug": "dynamiccow",
       "name": "DynamicCow",
       "lastUpdate": "2023-02-02",
-      "daysSinceUpdate": 1357,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1357 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "enablequic",
-      "name": "EnableQUIC",
-      "lastUpdate": "2025-02-21",
-      "daysSinceUpdate": 607,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 607 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "hanami",
-      "name": "Hanami",
-      "lastUpdate": "2024-06-03",
-      "daysSinceUpdate": 870,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 870 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "helium",
-      "name": "Helium",
-      "lastUpdate": "2024-02-13",
-      "daysSinceUpdate": 981,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 981 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "itransmission",
-      "name": "iTransmission",
-      "lastUpdate": "2024-01-12",
-      "daysSinceUpdate": 1013,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1013 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "jaility",
-      "name": "Jaility",
-      "lastUpdate": "2022-11-12",
-      "daysSinceUpdate": 1439,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1439 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "lastUpdate": "2023-01-30",
       "daysSinceUpdate": 1360,
       "classification": "archived",
       "removedReleases": 0,
@@ -232,465 +147,525 @@
       ]
     },
     {
-      "slug": "mame4ios",
-      "name": "MAME4iOS",
-      "lastUpdate": "2022-12-12",
-      "daysSinceUpdate": 1409,
+      "slug": "enablequic",
+      "name": "EnableQUIC",
+      "lastUpdate": "2025-02-21",
+      "daysSinceUpdate": 610,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1409 days (threshold 365)"
+        "no update for 610 days (threshold 365)"
+      ]
+    },
+    {
+      "slug": "hanami",
+      "name": "Hanami",
+      "lastUpdate": "2024-06-03",
+      "daysSinceUpdate": 873,
+      "classification": "archived",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 873 days (threshold 365)"
+      ]
+    },
+    {
+      "slug": "helium",
+      "name": "Helium",
+      "lastUpdate": "2024-02-13",
+      "daysSinceUpdate": 984,
+      "classification": "archived",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 984 days (threshold 365)"
+      ]
+    },
+    {
+      "slug": "itransmission",
+      "name": "iTransmission",
+      "lastUpdate": "2024-01-12",
+      "daysSinceUpdate": 1016,
+      "classification": "archived",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 1016 days (threshold 365)"
+      ]
+    },
+    {
+      "slug": "mame4ios",
+      "name": "MAME4iOS",
+      "lastUpdate": "2022-12-12",
+      "daysSinceUpdate": 1412,
+      "classification": "archived",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 1412 days (threshold 365)"
       ]
     },
     {
       "slug": "minivmac",
       "name": "Mini vMac",
       "lastUpdate": "2024-07-09",
-      "daysSinceUpdate": 834,
+      "daysSinceUpdate": 837,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 834 days (threshold 365)"
+        "no update for 837 days (threshold 365)"
       ]
     },
     {
       "slug": "mugunghwa",
       "name": "Mugunghwa",
       "lastUpdate": "2022-11-10",
-      "daysSinceUpdate": 1441,
+      "daysSinceUpdate": 1444,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1441 days (threshold 365)"
+        "no update for 1444 days (threshold 365)"
       ]
     },
     {
       "slug": "odyssey",
       "name": "Odyssey",
       "lastUpdate": "2023-04-04",
-      "daysSinceUpdate": 1296,
+      "daysSinceUpdate": 1299,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1296 days (threshold 365)"
+        "no update for 1299 days (threshold 365)"
       ]
     },
     {
       "slug": "pocketposter",
       "name": "Pocket Poster",
       "lastUpdate": "2025-08-29",
-      "daysSinceUpdate": 418,
+      "daysSinceUpdate": 421,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 418 days (threshold 365)"
+        "no update for 421 days (threshold 365)"
       ]
     },
     {
       "slug": "purekfd",
       "name": "PureKFD",
       "lastUpdate": "2024-11-23",
-      "daysSinceUpdate": 697,
+      "daysSinceUpdate": 700,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 697 days (threshold 365)"
+        "no update for 700 days (threshold 365)"
       ]
     },
     {
       "slug": "redditfilter",
       "name": "RedditFilter",
       "lastUpdate": "2025-09-26",
-      "daysSinceUpdate": 390,
+      "daysSinceUpdate": 393,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 390 days (threshold 365)"
+        "no update for 393 days (threshold 365)"
       ]
     },
     {
       "slug": "secondhand",
       "name": "SecondHand",
       "lastUpdate": "2024-12-31",
-      "daysSinceUpdate": 659,
+      "daysSinceUpdate": 662,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 659 days (threshold 365)"
+        "no update for 662 days (threshold 365)"
       ]
     },
     {
       "slug": "serotonin",
       "name": "Serotonin",
       "lastUpdate": "2024-01-17",
-      "daysSinceUpdate": 1008,
+      "daysSinceUpdate": 1011,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1008 days (threshold 365)"
+        "no update for 1011 days (threshold 365)"
       ]
     },
     {
       "slug": "snmessenger",
       "name": "SNMessenger",
       "lastUpdate": "2025-07-29",
-      "daysSinceUpdate": 449,
+      "daysSinceUpdate": 452,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 449 days (threshold 365)"
+        "no update for 452 days (threshold 365)"
       ]
     },
     {
       "slug": "statusmagic",
       "name": "StatusMagic",
       "lastUpdate": "2023-02-08",
-      "daysSinceUpdate": 1351,
+      "daysSinceUpdate": 1354,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1351 days (threshold 365)"
+        "no update for 1354 days (threshold 365)"
       ]
     },
     {
       "slug": "stiknes",
       "name": "StikNES",
       "lastUpdate": "2025-02-23",
-      "daysSinceUpdate": 605,
+      "daysSinceUpdate": 608,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 605 days (threshold 365)"
+        "no update for 608 days (threshold 365)"
       ]
     },
     {
       "slug": "taurine",
       "name": "Taurine",
       "lastUpdate": "2023-09-23",
-      "daysSinceUpdate": 1124,
+      "daysSinceUpdate": 1127,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1124 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "lastUpdate": "2023-12-05",
-      "daysSinceUpdate": 1051,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1051 days (threshold 365)"
+        "no update for 1127 days (threshold 365)"
       ]
     },
     {
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
       "lastUpdate": "2024-09-12",
-      "daysSinceUpdate": 769,
+      "daysSinceUpdate": 772,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 769 days (threshold 365)"
+        "no update for 772 days (threshold 365)"
       ]
     },
     {
       "slug": "unc0ver",
       "name": "unc0ver",
       "lastUpdate": "2020-06-09",
-      "daysSinceUpdate": 2325,
+      "daysSinceUpdate": 2328,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 2325 days (threshold 365)"
+        "no update for 2328 days (threshold 365)"
       ]
     },
     {
       "slug": "wdbfontoverwrite",
       "name": "WDBFontOverwrite",
       "lastUpdate": "2023-02-09",
-      "daysSinceUpdate": 1350,
+      "daysSinceUpdate": 1353,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1350 days (threshold 365)"
+        "no update for 1353 days (threshold 365)"
       ]
     },
     {
       "slug": "winston",
       "name": "Winston",
       "lastUpdate": "2024-06-24",
-      "daysSinceUpdate": 849,
+      "daysSinceUpdate": 852,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 849 days (threshold 365)"
+        "no update for 852 days (threshold 365)"
       ]
     },
     {
       "slug": "yattee",
       "name": "Yattee",
       "lastUpdate": "2024-01-28",
-      "daysSinceUpdate": 997,
+      "daysSinceUpdate": 1000,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 997 days (threshold 365)"
+        "no update for 1000 days (threshold 365)"
       ]
     },
     {
       "slug": "anxreader",
       "name": "Anx Reader",
       "lastUpdate": "2026-03-19",
-      "daysSinceUpdate": 216,
+      "daysSinceUpdate": 219,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 216 days (threshold 180)"
+        "no update for 219 days (threshold 180)"
       ]
     },
     {
       "slug": "gopeed",
       "name": "Gopeed",
       "lastUpdate": "2026-03-18",
-      "daysSinceUpdate": 217,
+      "daysSinceUpdate": 220,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 217 days (threshold 180)"
+        "no update for 220 days (threshold 180)"
       ]
     },
     {
       "slug": "neofreebird",
       "name": "NeoFreeBird",
       "lastUpdate": "2025-11-03",
-      "daysSinceUpdate": 352,
+      "daysSinceUpdate": 355,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 352 days (threshold 180)"
+        "no update for 355 days (threshold 180)"
       ]
     },
     {
       "slug": "otraku",
       "name": "Otraku",
       "lastUpdate": "2026-03-20",
-      "daysSinceUpdate": 215,
+      "daysSinceUpdate": 218,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 215 days (threshold 180)"
+        "no update for 218 days (threshold 180)"
       ]
     },
     {
       "slug": "pikatorrent",
       "name": "PikaTorrent",
       "lastUpdate": "2026-01-11",
-      "daysSinceUpdate": 283,
+      "daysSinceUpdate": 286,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 283 days (threshold 180)"
+        "no update for 286 days (threshold 180)"
       ]
     },
     {
       "slug": "provenance",
       "name": "Provenance",
       "lastUpdate": "2026-03-14",
-      "daysSinceUpdate": 221,
+      "daysSinceUpdate": 224,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 221 days (threshold 180)"
+        "no update for 224 days (threshold 180)"
       ]
     },
     {
       "slug": "qbitconnect",
       "name": "qBitConnect",
       "lastUpdate": "2025-11-02",
-      "daysSinceUpdate": 353,
+      "daysSinceUpdate": 356,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 353 days (threshold 180)"
+        "no update for 356 days (threshold 180)"
       ]
     },
     {
       "slug": "thunder",
       "name": "Thunder",
       "lastUpdate": "2026-01-07",
-      "daysSinceUpdate": 287,
+      "daysSinceUpdate": 290,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 287 days (threshold 180)"
+        "no update for 290 days (threshold 180)"
       ]
     },
     {
       "slug": "bluewallet",
       "name": "BlueWallet",
       "lastUpdate": "2026-07-21",
-      "daysSinceUpdate": 92,
+      "daysSinceUpdate": 95,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 92 days (threshold 90)"
+        "no update for 95 days (threshold 90)"
       ]
     },
     {
       "slug": "bootstrap",
       "name": "Bootstrap",
       "lastUpdate": "2026-06-12",
-      "daysSinceUpdate": 131,
+      "daysSinceUpdate": 134,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 131 days (threshold 90)"
+        "no update for 134 days (threshold 90)"
       ]
     },
     {
       "slug": "dolphinish",
       "name": "DolphiniOS",
       "lastUpdate": "2026-06-20",
-      "daysSinceUpdate": 123,
+      "daysSinceUpdate": 126,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 123 days (threshold 90)"
+        "no update for 126 days (threshold 90)"
       ]
     },
     {
       "slug": "feather",
       "name": "Feather",
       "lastUpdate": "2026-07-05",
-      "daysSinceUpdate": 108,
+      "daysSinceUpdate": 111,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 108 days (threshold 90)"
+        "no update for 111 days (threshold 90)"
       ]
     },
     {
       "slug": "itorrent",
       "name": "iTorrent",
       "lastUpdate": "2026-07-19",
-      "daysSinceUpdate": 94,
+      "daysSinceUpdate": 97,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 94 days (threshold 90)"
+        "no update for 97 days (threshold 90)"
       ]
     },
     {
       "slug": "ksign",
       "name": "Ksign",
       "lastUpdate": "2026-05-24",
-      "daysSinceUpdate": 150,
+      "daysSinceUpdate": 153,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 150 days (threshold 90)"
+        "no update for 153 days (threshold 90)"
       ]
     },
     {
       "slug": "lara",
       "name": "Lara",
       "lastUpdate": "2026-05-22",
-      "daysSinceUpdate": 152,
+      "daysSinceUpdate": 155,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 152 days (threshold 90)"
+        "no update for 155 days (threshold 90)"
       ]
     },
     {
       "slug": "livecontainer",
       "name": "LiveContainer",
       "lastUpdate": "2026-07-17",
-      "daysSinceUpdate": 96,
+      "daysSinceUpdate": 99,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 96 days (threshold 90)"
+        "no update for 99 days (threshold 90)"
       ]
     },
     {
       "slug": "muffinstore",
       "name": "MuffinStore",
       "lastUpdate": "2026-07-12",
-      "daysSinceUpdate": 101,
+      "daysSinceUpdate": 104,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 101 days (threshold 90)"
+        "no update for 104 days (threshold 90)"
       ]
     },
     {
       "slug": "ppsspp",
       "name": "PPSSPP",
       "lastUpdate": "2026-05-16",
-      "daysSinceUpdate": 158,
+      "daysSinceUpdate": 161,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 158 days (threshold 90)"
+        "no update for 161 days (threshold 90)"
       ]
     },
     {
       "slug": "qbitcontrol",
       "name": "qBitControl",
       "lastUpdate": "2026-07-23",
-      "daysSinceUpdate": 90,
+      "daysSinceUpdate": 93,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 90 days (threshold 90)"
+        "no update for 93 days (threshold 90)"
+      ]
+    },
+    {
+      "slug": "ryukgram-ig410",
+      "name": "RyukGram (IG 410)",
+      "lastUpdate": "2026-07-25",
+      "daysSinceUpdate": 91,
+      "classification": "warning",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 91 days (threshold 90)"
       ]
     },
     {
       "slug": "spotube",
       "name": "Spotube",
       "lastUpdate": "2026-06-05",
+      "daysSinceUpdate": 141,
+      "classification": "warning",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 141 days (threshold 90)"
+      ]
+    },
+    {
+      "slug": "xenios",
+      "name": "XeniOS",
+      "lastUpdate": "2026-06-08",
       "daysSinceUpdate": 138,
       "classification": "warning",
       "removedReleases": 0,
@@ -698,25 +673,13 @@
       "reasons": [
         "no update for 138 days (threshold 90)"
       ]
-    },
-    {
-      "slug": "xenios",
-      "name": "XeniOS",
-      "lastUpdate": "2026-06-08",
-      "daysSinceUpdate": 135,
-      "classification": "warning",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 135 days (threshold 90)"
-      ]
     }
   ],
   "apps": [
     {
       "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "lastUpdate": "2026-10-20",
+      "name": "Mornye",
+      "lastUpdate": "2026-10-23",
       "daysSinceUpdate": 1,
       "classification": "healthy",
       "removedReleases": 0,
@@ -726,8 +689,8 @@
     {
       "slug": "uprovid",
       "name": "uProVid",
-      "lastUpdate": "2026-09-14",
-      "daysSinceUpdate": 37,
+      "lastUpdate": "2026-10-03",
+      "daysSinceUpdate": 21,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -737,7 +700,7 @@
       "slug": "uyouenhanced",
       "name": "uYouEnhanced",
       "lastUpdate": "2026-08-22",
-      "daysSinceUpdate": 60,
+      "daysSinceUpdate": 63,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -746,8 +709,8 @@
     {
       "slug": "ytlite",
       "name": "YouTubePlus",
-      "lastUpdate": "2026-10-11",
-      "daysSinceUpdate": 10,
+      "lastUpdate": "2026-10-22",
+      "daysSinceUpdate": 2,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -756,8 +719,8 @@
     {
       "slug": "youpro",
       "name": "YouPro",
-      "lastUpdate": "2026-10-11",
-      "daysSinceUpdate": 10,
+      "lastUpdate": "2026-10-22",
+      "daysSinceUpdate": 2,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -767,7 +730,7 @@
       "slug": "ytkp",
       "name": "YTKillerPlus",
       "lastUpdate": "2026-09-26",
-      "daysSinceUpdate": 25,
+      "daysSinceUpdate": 28,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -777,7 +740,7 @@
       "slug": "ytkace",
       "name": "YTKACE",
       "lastUpdate": "2026-10-11",
-      "daysSinceUpdate": 10,
+      "daysSinceUpdate": 13,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -786,8 +749,8 @@
     {
       "slug": "youmod",
       "name": "YouMod",
-      "lastUpdate": "2026-10-11",
-      "daysSinceUpdate": 10,
+      "lastUpdate": "2026-10-22",
+      "daysSinceUpdate": 2,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -797,7 +760,7 @@
       "slug": "maxtube",
       "name": "MaxTube",
       "lastUpdate": "2026-08-03",
-      "daysSinceUpdate": 79,
+      "daysSinceUpdate": 82,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -806,8 +769,8 @@
     {
       "slug": "ytmusic",
       "name": "YTMusicUltimate",
-      "lastUpdate": "2026-10-11",
-      "daysSinceUpdate": 10,
+      "lastUpdate": "2026-10-22",
+      "daysSinceUpdate": 2,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -817,7 +780,7 @@
       "slug": "maxmusic",
       "name": "MaxMusic",
       "lastUpdate": "2026-09-15",
-      "daysSinceUpdate": 36,
+      "daysSinceUpdate": 39,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -827,7 +790,7 @@
       "slug": "utm",
       "name": "UTM",
       "lastUpdate": "2026-10-17T02:44:56Z",
-      "daysSinceUpdate": 4,
+      "daysSinceUpdate": 7,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -837,7 +800,7 @@
       "slug": "inkillerplus",
       "name": "iNKillerPlus",
       "lastUpdate": "2026-10-14",
-      "daysSinceUpdate": 7,
+      "daysSinceUpdate": 10,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -847,7 +810,7 @@
       "slug": "ttkillerplus",
       "name": "TTKillerPlus",
       "lastUpdate": "2026-10-08",
-      "daysSinceUpdate": 13,
+      "daysSinceUpdate": 16,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -857,31 +820,31 @@
       "slug": "winston",
       "name": "Winston",
       "lastUpdate": "2024-06-24",
-      "daysSinceUpdate": 849,
+      "daysSinceUpdate": 852,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 849 days (threshold 365)"
+        "no update for 852 days (threshold 365)"
       ]
     },
     {
       "slug": "itorrent",
       "name": "iTorrent",
       "lastUpdate": "2026-07-19",
-      "daysSinceUpdate": 94,
+      "daysSinceUpdate": 97,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 94 days (threshold 90)"
+        "no update for 97 days (threshold 90)"
       ]
     },
     {
       "slug": "stikdebug",
       "name": "StikDebug",
       "lastUpdate": "2026-10-15",
-      "daysSinceUpdate": 6,
+      "daysSinceUpdate": 9,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -891,43 +854,43 @@
       "slug": "bhtwitter",
       "name": "BHTwitter",
       "lastUpdate": "2025-05-13",
-      "daysSinceUpdate": 526,
+      "daysSinceUpdate": 529,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 526 days (threshold 365)"
+        "no update for 529 days (threshold 365)"
       ]
     },
     {
       "slug": "livecontainer",
       "name": "LiveContainer",
       "lastUpdate": "2026-07-17",
-      "daysSinceUpdate": 96,
+      "daysSinceUpdate": 99,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 96 days (threshold 90)"
+        "no update for 99 days (threshold 90)"
       ]
     },
     {
       "slug": "feather",
       "name": "Feather",
       "lastUpdate": "2026-07-05",
-      "daysSinceUpdate": 108,
+      "daysSinceUpdate": 111,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 108 days (threshold 90)"
+        "no update for 111 days (threshold 90)"
       ]
     },
     {
       "slug": "sidestore",
       "name": "SideStore",
       "lastUpdate": "2026-09-15",
-      "daysSinceUpdate": 36,
+      "daysSinceUpdate": 39,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -937,7 +900,7 @@
       "slug": "aidoku",
       "name": "Aidoku",
       "lastUpdate": "2026-10-16",
-      "daysSinceUpdate": 5,
+      "daysSinceUpdate": 8,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -947,55 +910,55 @@
       "slug": "provenance",
       "name": "Provenance",
       "lastUpdate": "2026-03-14",
-      "daysSinceUpdate": 221,
+      "daysSinceUpdate": 224,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 221 days (threshold 180)"
+        "no update for 224 days (threshold 180)"
       ]
     },
     {
       "slug": "delta",
       "name": "Delta",
       "lastUpdate": "2024-07-11",
-      "daysSinceUpdate": 832,
+      "daysSinceUpdate": 835,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 832 days (threshold 365)"
+        "no update for 835 days (threshold 365)"
       ]
     },
     {
       "slug": "ppsspp",
       "name": "PPSSPP",
       "lastUpdate": "2026-05-16",
-      "daysSinceUpdate": 158,
+      "daysSinceUpdate": 161,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 158 days (threshold 90)"
+        "no update for 161 days (threshold 90)"
       ]
     },
     {
       "slug": "yattee",
       "name": "Yattee",
       "lastUpdate": "2024-01-28",
-      "daysSinceUpdate": 997,
+      "daysSinceUpdate": 1000,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 997 days (threshold 365)"
+        "no update for 1000 days (threshold 365)"
       ]
     },
     {
       "slug": "streamyfin",
       "name": "Streamyfin",
       "lastUpdate": "2026-10-16",
-      "daysSinceUpdate": 5,
+      "daysSinceUpdate": 8,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1005,19 +968,19 @@
       "slug": "spotube",
       "name": "Spotube",
       "lastUpdate": "2026-06-05",
-      "daysSinceUpdate": 138,
+      "daysSinceUpdate": 141,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 138 days (threshold 90)"
+        "no update for 141 days (threshold 90)"
       ]
     },
     {
       "slug": "jellify",
       "name": "Jellify",
       "lastUpdate": "2026-10-17",
-      "daysSinceUpdate": 4,
+      "daysSinceUpdate": 7,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1027,7 +990,7 @@
       "slug": "zeus",
       "name": "Zeus",
       "lastUpdate": "2026-10-12",
-      "daysSinceUpdate": 9,
+      "daysSinceUpdate": 12,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1037,19 +1000,19 @@
       "slug": "bluewallet",
       "name": "BlueWallet",
       "lastUpdate": "2026-07-21",
-      "daysSinceUpdate": 92,
+      "daysSinceUpdate": 95,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 92 days (threshold 90)"
+        "no update for 95 days (threshold 90)"
       ]
     },
     {
       "slug": "voyager",
       "name": "Voyager",
       "lastUpdate": "2026-09-13",
-      "daysSinceUpdate": 38,
+      "daysSinceUpdate": 41,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1059,7 +1022,7 @@
       "slug": "saber",
       "name": "Saber",
       "lastUpdate": "2026-10-19",
-      "daysSinceUpdate": 2,
+      "daysSinceUpdate": 5,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1069,19 +1032,19 @@
       "slug": "anxreader",
       "name": "Anx Reader",
       "lastUpdate": "2026-03-19",
-      "daysSinceUpdate": 216,
+      "daysSinceUpdate": 219,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 216 days (threshold 180)"
+        "no update for 219 days (threshold 180)"
       ]
     },
     {
       "slug": "apollo",
       "name": "Apollo",
       "lastUpdate": "2026-10-09",
-      "daysSinceUpdate": 12,
+      "daysSinceUpdate": 15,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1091,19 +1054,19 @@
       "slug": "dolphinish",
       "name": "DolphiniOS",
       "lastUpdate": "2026-06-20",
-      "daysSinceUpdate": 123,
+      "daysSinceUpdate": 126,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 123 days (threshold 90)"
+        "no update for 126 days (threshold 90)"
       ]
     },
     {
       "slug": "ish",
       "name": "iSH",
       "lastUpdate": "2026-08-22",
-      "daysSinceUpdate": 60,
+      "daysSinceUpdate": 63,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1113,31 +1076,31 @@
       "slug": "qbitcontrol",
       "name": "qBitControl",
       "lastUpdate": "2026-07-23",
-      "daysSinceUpdate": 90,
+      "daysSinceUpdate": 93,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 90 days (threshold 90)"
+        "no update for 93 days (threshold 90)"
       ]
     },
     {
       "slug": "qbitconnect",
       "name": "qBitConnect",
       "lastUpdate": "2025-11-02",
-      "daysSinceUpdate": 353,
+      "daysSinceUpdate": 356,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 353 days (threshold 180)"
+        "no update for 356 days (threshold 180)"
       ]
     },
     {
       "slug": "vcmi",
       "name": "VCMI",
       "lastUpdate": "2026-08-15",
-      "daysSinceUpdate": 67,
+      "daysSinceUpdate": 70,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1147,19 +1110,19 @@
       "slug": "mame4ios",
       "name": "MAME4iOS",
       "lastUpdate": "2022-12-12",
-      "daysSinceUpdate": 1409,
+      "daysSinceUpdate": 1412,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1409 days (threshold 365)"
+        "no update for 1412 days (threshold 365)"
       ]
     },
     {
       "slug": "qbitcontroller",
       "name": "qBitController",
       "lastUpdate": "2026-07-28",
-      "daysSinceUpdate": 85,
+      "daysSinceUpdate": 88,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1169,31 +1132,31 @@
       "slug": "minivmac",
       "name": "Mini vMac",
       "lastUpdate": "2024-07-09",
-      "daysSinceUpdate": 834,
+      "daysSinceUpdate": 837,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 834 days (threshold 365)"
+        "no update for 837 days (threshold 365)"
       ]
     },
     {
       "slug": "stiknes",
       "name": "StikNES",
       "lastUpdate": "2025-02-23",
-      "daysSinceUpdate": 605,
+      "daysSinceUpdate": 608,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 605 days (threshold 365)"
+        "no update for 608 days (threshold 365)"
       ]
     },
     {
       "slug": "twitchadblock",
       "name": "TwitchAdBlock",
       "lastUpdate": "2026-08-14",
-      "daysSinceUpdate": 68,
+      "daysSinceUpdate": 71,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1203,19 +1166,19 @@
       "slug": "neofreebird",
       "name": "NeoFreeBird",
       "lastUpdate": "2025-11-03",
-      "daysSinceUpdate": 352,
+      "daysSinceUpdate": 355,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 352 days (threshold 180)"
+        "no update for 355 days (threshold 180)"
       ]
     },
     {
       "slug": "conduit",
       "name": "Conduit",
       "lastUpdate": "2026-10-16",
-      "daysSinceUpdate": 5,
+      "daysSinceUpdate": 8,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1225,7 +1188,7 @@
       "slug": "fladder",
       "name": "Fladder",
       "lastUpdate": "2026-09-08",
-      "daysSinceUpdate": 43,
+      "daysSinceUpdate": 46,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1235,7 +1198,7 @@
       "slug": "anymex",
       "name": "AnymeX",
       "lastUpdate": "2026-09-20",
-      "daysSinceUpdate": 31,
+      "daysSinceUpdate": 34,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1245,7 +1208,7 @@
       "slug": "sora",
       "name": "Sora",
       "lastUpdate": "2026-08-20",
-      "daysSinceUpdate": 62,
+      "daysSinceUpdate": 65,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1254,21 +1217,18 @@
     {
       "slug": "raintweak",
       "name": "RainTweak",
-      "lastUpdate": "2026-06-19",
-      "daysSinceUpdate": 124,
-      "classification": "critical",
-      "removedReleases": 1,
+      "lastUpdate": "2026-09-17",
+      "daysSinceUpdate": 37,
+      "classification": "healthy",
+      "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": [
-        "removed upstream release(s): 1.2.0 (newer than 0.9.3)",
-        "no update for 124 days (threshold 90)"
-      ]
+      "reasons": []
     },
     {
       "slug": "infuseplus",
       "name": "Infuse Plus",
       "lastUpdate": "2026-10-16",
-      "daysSinceUpdate": 5,
+      "daysSinceUpdate": 8,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1278,7 +1238,7 @@
       "slug": "glow",
       "name": "Glow",
       "lastUpdate": "2026-10-20",
-      "daysSinceUpdate": 1,
+      "daysSinceUpdate": 4,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1288,7 +1248,7 @@
       "slug": "swiftgram",
       "name": "Swiftgram",
       "lastUpdate": "2026-10-03",
-      "daysSinceUpdate": 18,
+      "daysSinceUpdate": 21,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1298,7 +1258,7 @@
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
       "lastUpdate": "2026-10-20",
-      "daysSinceUpdate": 1,
+      "daysSinceUpdate": 4,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1308,7 +1268,7 @@
       "slug": "iqface",
       "name": "iQFace",
       "lastUpdate": "2026-10-18",
-      "daysSinceUpdate": 3,
+      "daysSinceUpdate": 6,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1318,7 +1278,7 @@
       "slug": "ryukgram",
       "name": "RyukGram",
       "lastUpdate": "2026-10-13",
-      "daysSinceUpdate": 8,
+      "daysSinceUpdate": 11,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1328,7 +1288,7 @@
       "slug": "sparkle",
       "name": "Sparkle",
       "lastUpdate": "2026-10-19",
-      "daysSinceUpdate": 2,
+      "daysSinceUpdate": 5,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1338,19 +1298,19 @@
       "slug": "redditfilter",
       "name": "RedditFilter",
       "lastUpdate": "2025-09-26",
-      "daysSinceUpdate": 390,
+      "daysSinceUpdate": 393,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 390 days (threshold 365)"
+        "no update for 393 days (threshold 365)"
       ]
     },
     {
       "slug": "nexasc",
       "name": "NexaSC",
       "lastUpdate": "2026-10-19",
-      "daysSinceUpdate": 2,
+      "daysSinceUpdate": 5,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1360,7 +1320,7 @@
       "slug": "messenger-flow",
       "name": "Messenger Flow",
       "lastUpdate": "2026-10-17",
-      "daysSinceUpdate": 4,
+      "daysSinceUpdate": 7,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1370,7 +1330,7 @@
       "slug": "msgplusx",
       "name": "MSGPlusX",
       "lastUpdate": "2026-10-17",
-      "daysSinceUpdate": 4,
+      "daysSinceUpdate": 7,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1380,7 +1340,7 @@
       "slug": "threadsaver",
       "name": "ThreadSaver",
       "lastUpdate": "2026-10-20",
-      "daysSinceUpdate": 1,
+      "daysSinceUpdate": 4,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1390,7 +1350,7 @@
       "slug": "ime",
       "name": "iMe MxGram",
       "lastUpdate": "2026-09-05",
-      "daysSinceUpdate": 46,
+      "daysSinceUpdate": 49,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1400,7 +1360,7 @@
       "slug": "turrit-mxgram",
       "name": "Turrit MxGram",
       "lastUpdate": "2026-10-17",
-      "daysSinceUpdate": 4,
+      "daysSinceUpdate": 7,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1410,17 +1370,19 @@
       "slug": "ryukgram-ig410",
       "name": "RyukGram (IG 410)",
       "lastUpdate": "2026-07-25",
-      "daysSinceUpdate": 88,
-      "classification": "healthy",
+      "daysSinceUpdate": 91,
+      "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
-      "reasons": []
+      "reasons": [
+        "no update for 91 days (threshold 90)"
+      ]
     },
     {
       "slug": "ryukgram-sidebyside",
       "name": "RyukGram Side by Side",
       "lastUpdate": "2026-10-03",
-      "daysSinceUpdate": 18,
+      "daysSinceUpdate": 21,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1430,7 +1392,7 @@
       "slug": "dopamine",
       "name": "Dopamine",
       "lastUpdate": "2026-10-20",
-      "daysSinceUpdate": 1,
+      "daysSinceUpdate": 4,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1440,7 +1402,7 @@
       "slug": "dopamine-roothide",
       "name": "Dopamine (RootHide)",
       "lastUpdate": "2026-09-12",
-      "daysSinceUpdate": 39,
+      "daysSinceUpdate": 42,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1450,67 +1412,67 @@
       "slug": "bootstrap",
       "name": "Bootstrap",
       "lastUpdate": "2026-06-12",
-      "daysSinceUpdate": 131,
+      "daysSinceUpdate": 134,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 131 days (threshold 90)"
+        "no update for 134 days (threshold 90)"
       ]
     },
     {
       "slug": "serotonin",
       "name": "Serotonin",
       "lastUpdate": "2024-01-17",
-      "daysSinceUpdate": 1008,
+      "daysSinceUpdate": 1011,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1008 days (threshold 365)"
+        "no update for 1011 days (threshold 365)"
       ]
     },
     {
       "slug": "taurine",
       "name": "Taurine",
       "lastUpdate": "2023-09-23",
-      "daysSinceUpdate": 1124,
+      "daysSinceUpdate": 1127,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1124 days (threshold 365)"
+        "no update for 1127 days (threshold 365)"
       ]
     },
     {
       "slug": "odyssey",
       "name": "Odyssey",
       "lastUpdate": "2023-04-04",
-      "daysSinceUpdate": 1296,
+      "daysSinceUpdate": 1299,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1296 days (threshold 365)"
+        "no update for 1299 days (threshold 365)"
       ]
     },
     {
       "slug": "unc0ver",
       "name": "unc0ver",
       "lastUpdate": "2020-06-09",
-      "daysSinceUpdate": 2325,
+      "daysSinceUpdate": 2328,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 2325 days (threshold 365)"
+        "no update for 2328 days (threshold 365)"
       ]
     },
     {
       "slug": "sameboy",
       "name": "SameBoy",
       "lastUpdate": "2026-10-09",
-      "daysSinceUpdate": 12,
+      "daysSinceUpdate": 15,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1520,19 +1482,19 @@
       "slug": "gopeed",
       "name": "Gopeed",
       "lastUpdate": "2026-03-18",
-      "daysSinceUpdate": 217,
+      "daysSinceUpdate": 220,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 217 days (threshold 180)"
+        "no update for 220 days (threshold 180)"
       ]
     },
     {
       "slug": "manicemu",
       "name": "Manic EMU",
       "lastUpdate": "2026-09-18",
-      "daysSinceUpdate": 33,
+      "daysSinceUpdate": 36,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1542,43 +1504,43 @@
       "slug": "xenios",
       "name": "XeniOS",
       "lastUpdate": "2026-06-08",
-      "daysSinceUpdate": 135,
+      "daysSinceUpdate": 138,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 135 days (threshold 90)"
+        "no update for 138 days (threshold 90)"
       ]
     },
     {
       "slug": "pikatorrent",
       "name": "PikaTorrent",
       "lastUpdate": "2026-01-11",
-      "daysSinceUpdate": 283,
+      "daysSinceUpdate": 286,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 283 days (threshold 180)"
+        "no update for 286 days (threshold 180)"
       ]
     },
     {
       "slug": "thunder",
       "name": "Thunder",
       "lastUpdate": "2026-01-07",
-      "daysSinceUpdate": 287,
+      "daysSinceUpdate": 290,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 287 days (threshold 180)"
+        "no update for 290 days (threshold 180)"
       ]
     },
     {
       "slug": "chan",
       "name": "Chan",
       "lastUpdate": "2026-09-28",
-      "daysSinceUpdate": 23,
+      "daysSinceUpdate": 26,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1588,7 +1550,7 @@
       "slug": "monal",
       "name": "Monal",
       "lastUpdate": "2026-10-07",
-      "daysSinceUpdate": 14,
+      "daysSinceUpdate": 17,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1598,7 +1560,7 @@
       "slug": "jellybook",
       "name": "JellyBook",
       "lastUpdate": "2026-09-09",
-      "daysSinceUpdate": 42,
+      "daysSinceUpdate": 45,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1608,43 +1570,43 @@
       "slug": "hanami",
       "name": "Hanami",
       "lastUpdate": "2024-06-03",
-      "daysSinceUpdate": 870,
+      "daysSinceUpdate": 873,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 870 days (threshold 365)"
+        "no update for 873 days (threshold 365)"
       ]
     },
     {
       "slug": "otraku",
       "name": "Otraku",
       "lastUpdate": "2026-03-20",
-      "daysSinceUpdate": 215,
+      "daysSinceUpdate": 218,
       "classification": "stale",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 215 days (threshold 180)"
+        "no update for 218 days (threshold 180)"
       ]
     },
     {
       "slug": "purekfd",
       "name": "PureKFD",
       "lastUpdate": "2024-11-23",
-      "daysSinceUpdate": 697,
+      "daysSinceUpdate": 700,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 697 days (threshold 365)"
+        "no update for 700 days (threshold 365)"
       ]
     },
     {
       "slug": "synkplay",
       "name": "Synkplay",
       "lastUpdate": "2026-10-01",
-      "daysSinceUpdate": 20,
+      "daysSinceUpdate": 23,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1654,19 +1616,19 @@
       "slug": "ksign",
       "name": "Ksign",
       "lastUpdate": "2026-05-24",
-      "daysSinceUpdate": 150,
+      "daysSinceUpdate": 153,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 150 days (threshold 90)"
+        "no update for 153 days (threshold 90)"
       ]
     },
     {
       "slug": "cosmos",
       "name": "Cosmos Music Player",
       "lastUpdate": "2026-09-08",
-      "daysSinceUpdate": 43,
+      "daysSinceUpdate": 46,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1676,41 +1638,31 @@
       "slug": "animegen",
       "name": "AnimeGen",
       "lastUpdate": "2025-03-04",
-      "daysSinceUpdate": 596,
+      "daysSinceUpdate": 599,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 596 days (threshold 365)"
+        "no update for 599 days (threshold 365)"
       ]
     },
     {
       "slug": "muffinstore",
       "name": "MuffinStore",
       "lastUpdate": "2026-07-12",
-      "daysSinceUpdate": 101,
+      "daysSinceUpdate": 104,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 101 days (threshold 90)"
+        "no update for 104 days (threshold 90)"
       ]
-    },
-    {
-      "slug": "playtorrio",
-      "name": "PlayTorrio",
-      "lastUpdate": "2026-09-16",
-      "daysSinceUpdate": 35,
-      "classification": "healthy",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": []
     },
     {
       "slug": "mangayomi",
       "name": "Mangayomi",
       "lastUpdate": "2026-10-12",
-      "daysSinceUpdate": 9,
+      "daysSinceUpdate": 12,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1718,9 +1670,9 @@
     },
     {
       "slug": "nebuloiptv",
-      "name": "Nebulo",
+      "name": "Onside TV",
       "lastUpdate": "2026-09-28",
-      "daysSinceUpdate": 23,
+      "daysSinceUpdate": 26,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1730,7 +1682,7 @@
       "slug": "chatsen",
       "name": "Chatsen",
       "lastUpdate": "2026-08-12",
-      "daysSinceUpdate": 70,
+      "daysSinceUpdate": 73,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1740,7 +1692,7 @@
       "slug": "trollfools",
       "name": "TrollFools",
       "lastUpdate": "2026-10-11",
-      "daysSinceUpdate": 10,
+      "daysSinceUpdate": 13,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1750,19 +1702,19 @@
       "slug": "lara",
       "name": "Lara",
       "lastUpdate": "2026-05-22",
-      "daysSinceUpdate": 152,
+      "daysSinceUpdate": 155,
       "classification": "warning",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 152 days (threshold 90)"
+        "no update for 155 days (threshold 90)"
       ]
     },
     {
       "slug": "onionbrowser",
       "name": "Onion Browser",
       "lastUpdate": "2026-10-19",
-      "daysSinceUpdate": 2,
+      "daysSinceUpdate": 5,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1772,7 +1724,7 @@
       "slug": "orbot",
       "name": "Orbot",
       "lastUpdate": "2026-10-13",
-      "daysSinceUpdate": 8,
+      "daysSinceUpdate": 11,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1782,7 +1734,7 @@
       "slug": "tablehabit",
       "name": "Table Habit",
       "lastUpdate": "2026-10-19",
-      "daysSinceUpdate": 2,
+      "daysSinceUpdate": 5,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1792,7 +1744,7 @@
       "slug": "byetunes",
       "name": "ByeTunes",
       "lastUpdate": "2026-10-12",
-      "daysSinceUpdate": 9,
+      "daysSinceUpdate": 12,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1802,31 +1754,31 @@
       "slug": "snmessenger",
       "name": "SNMessenger",
       "lastUpdate": "2025-07-29",
-      "daysSinceUpdate": 449,
+      "daysSinceUpdate": 452,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 449 days (threshold 365)"
+        "no update for 452 days (threshold 365)"
       ]
     },
     {
       "slug": "bhinstagram",
       "name": "BHInstagram",
       "lastUpdate": "2025-05-14",
-      "daysSinceUpdate": 525,
+      "daysSinceUpdate": 528,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 525 days (threshold 365)"
+        "no update for 528 days (threshold 365)"
       ]
     },
     {
       "slug": "reynard",
       "name": "Reynard",
       "lastUpdate": "2026-10-18",
-      "daysSinceUpdate": 3,
+      "daysSinceUpdate": 6,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -1836,54 +1788,78 @@
       "slug": "pocketposter",
       "name": "Pocket Poster",
       "lastUpdate": "2025-08-29",
-      "daysSinceUpdate": 418,
+      "daysSinceUpdate": 421,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 418 days (threshold 365)"
+        "no update for 421 days (threshold 365)"
       ]
     },
     {
       "slug": "mugunghwa",
       "name": "Mugunghwa",
       "lastUpdate": "2022-11-10",
-      "daysSinceUpdate": 1441,
+      "daysSinceUpdate": 1444,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1441 days (threshold 365)"
+        "no update for 1444 days (threshold 365)"
       ]
     },
     {
       "slug": "wdbfontoverwrite",
       "name": "WDBFontOverwrite",
       "lastUpdate": "2023-02-09",
-      "daysSinceUpdate": 1350,
+      "daysSinceUpdate": 1353,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1350 days (threshold 365)"
+        "no update for 1353 days (threshold 365)"
       ]
     },
     {
-      "slug": "jaility",
-      "name": "Jaility",
-      "lastUpdate": "2022-11-12",
-      "daysSinceUpdate": 1439,
+      "slug": "trollinstallerx",
+      "name": "TrollInstallerX",
+      "lastUpdate": "2024-09-12",
+      "daysSinceUpdate": 772,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1439 days (threshold 365)"
+        "no update for 772 days (threshold 365)"
       ]
     },
     {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "lastUpdate": "2023-01-30",
+      "slug": "statusmagic",
+      "name": "StatusMagic",
+      "lastUpdate": "2023-02-08",
+      "daysSinceUpdate": 1354,
+      "classification": "archived",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 1354 days (threshold 365)"
+      ]
+    },
+    {
+      "slug": "cartube",
+      "name": "CarTube",
+      "lastUpdate": "2023-01-23",
+      "daysSinceUpdate": 1370,
+      "classification": "archived",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": [
+        "no update for 1370 days (threshold 365)"
+      ]
+    },
+    {
+      "slug": "dynamiccow",
+      "name": "DynamicCow",
+      "lastUpdate": "2023-02-02",
       "daysSinceUpdate": 1360,
       "classification": "archived",
       "removedReleases": 0,
@@ -1893,142 +1869,82 @@
       ]
     },
     {
-      "slug": "trollinstallerx",
-      "name": "TrollInstallerX",
-      "lastUpdate": "2024-09-12",
-      "daysSinceUpdate": 769,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 769 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "lastUpdate": "2023-12-05",
-      "daysSinceUpdate": 1051,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1051 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "statusmagic",
-      "name": "StatusMagic",
-      "lastUpdate": "2023-02-08",
-      "daysSinceUpdate": 1351,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1351 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "cartube",
-      "name": "CarTube",
-      "lastUpdate": "2023-01-23",
-      "daysSinceUpdate": 1367,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1367 days (threshold 365)"
-      ]
-    },
-    {
-      "slug": "dynamiccow",
-      "name": "DynamicCow",
-      "lastUpdate": "2023-02-02",
-      "daysSinceUpdate": 1357,
-      "classification": "archived",
-      "removedReleases": 0,
-      "supersededReleases": 0,
-      "reasons": [
-        "no update for 1357 days (threshold 365)"
-      ]
-    },
-    {
       "slug": "itransmission",
       "name": "iTransmission",
       "lastUpdate": "2024-01-12",
-      "daysSinceUpdate": 1013,
+      "daysSinceUpdate": 1016,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1013 days (threshold 365)"
+        "no update for 1016 days (threshold 365)"
       ]
     },
     {
       "slug": "cowabunga",
       "name": "Cowabunga",
       "lastUpdate": "2023-05-29",
-      "daysSinceUpdate": 1241,
+      "daysSinceUpdate": 1244,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1241 days (threshold 365)"
+        "no update for 1244 days (threshold 365)"
       ]
     },
     {
       "slug": "airtroller",
       "name": "AirTroller",
       "lastUpdate": "2022-11-26",
-      "daysSinceUpdate": 1425,
+      "daysSinceUpdate": 1428,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1425 days (threshold 365)"
+        "no update for 1428 days (threshold 365)"
       ]
     },
     {
       "slug": "helium",
       "name": "Helium",
       "lastUpdate": "2024-02-13",
-      "daysSinceUpdate": 981,
+      "daysSinceUpdate": 984,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 981 days (threshold 365)"
+        "no update for 984 days (threshold 365)"
       ]
     },
     {
       "slug": "secondhand",
       "name": "SecondHand",
       "lastUpdate": "2024-12-31",
-      "daysSinceUpdate": 659,
+      "daysSinceUpdate": 662,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 659 days (threshold 365)"
+        "no update for 662 days (threshold 365)"
       ]
     },
     {
       "slug": "caperfhud",
       "name": "CAPerfHUD",
       "lastUpdate": "2023-12-19",
-      "daysSinceUpdate": 1037,
+      "daysSinceUpdate": 1040,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 1037 days (threshold 365)"
+        "no update for 1040 days (threshold 365)"
       ]
     },
     {
       "slug": "appstoreplusplus",
       "name": "AppStore++",
       "lastUpdate": "2026-09-17",
-      "daysSinceUpdate": 34,
+      "daysSinceUpdate": 37,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2037,8 +1953,8 @@
     {
       "slug": "nuvio",
       "name": "Nuvio",
-      "lastUpdate": "2026-10-21",
-      "daysSinceUpdate": 0,
+      "lastUpdate": "2026-10-23",
+      "daysSinceUpdate": 1,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2048,7 +1964,7 @@
       "slug": "escapeos",
       "name": "EscapeOS",
       "lastUpdate": "2026-10-16",
-      "daysSinceUpdate": 5,
+      "daysSinceUpdate": 8,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2058,7 +1974,7 @@
       "slug": "3105",
       "name": "3105",
       "lastUpdate": "2026-09-14",
-      "daysSinceUpdate": 37,
+      "daysSinceUpdate": 40,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2068,7 +1984,7 @@
       "slug": "vibecontainers",
       "name": "VibeContainers",
       "lastUpdate": "2026-08-28",
-      "daysSinceUpdate": 54,
+      "daysSinceUpdate": 57,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2078,7 +1994,7 @@
       "slug": "battman",
       "name": "Battman",
       "lastUpdate": "2026-10-14",
-      "daysSinceUpdate": 7,
+      "daysSinceUpdate": 10,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2087,8 +2003,8 @@
     {
       "slug": "cercube",
       "name": "Cercube for YouTube",
-      "lastUpdate": "2026-09-18",
-      "daysSinceUpdate": 33,
+      "lastUpdate": "2026-10-23",
+      "daysSinceUpdate": 1,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2098,7 +2014,7 @@
       "slug": "nicegram",
       "name": "Nicegram",
       "lastUpdate": "2026-10-19",
-      "daysSinceUpdate": 2,
+      "daysSinceUpdate": 5,
       "classification": "healthy",
       "removedReleases": 0,
       "supersededReleases": 0,
@@ -2108,37 +2024,47 @@
       "slug": "batteryinfo",
       "name": "Battery Info",
       "lastUpdate": "2025-07-09",
-      "daysSinceUpdate": 469,
+      "daysSinceUpdate": 472,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 469 days (threshold 365)"
+        "no update for 472 days (threshold 365)"
       ]
     },
     {
       "slug": "enablequic",
       "name": "EnableQUIC",
       "lastUpdate": "2025-02-21",
-      "daysSinceUpdate": 607,
+      "daysSinceUpdate": 610,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 607 days (threshold 365)"
+        "no update for 610 days (threshold 365)"
       ]
     },
     {
       "slug": "animationspeed",
       "name": "Animation Speed",
       "lastUpdate": "2025-05-27",
-      "daysSinceUpdate": 512,
+      "daysSinceUpdate": 515,
       "classification": "archived",
       "removedReleases": 0,
       "supersededReleases": 0,
       "reasons": [
-        "no update for 512 days (threshold 365)"
+        "no update for 515 days (threshold 365)"
       ]
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "lastUpdate": "2026-10-20",
+      "daysSinceUpdate": 4,
+      "classification": "healthy",
+      "removedReleases": 0,
+      "supersededReleases": 0,
+      "reasons": []
     }
   ]
 }

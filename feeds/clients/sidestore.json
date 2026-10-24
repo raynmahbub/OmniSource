@@ -2091,10 +2091,10 @@
       "bundleIdentifier": "com.cercube.ios",
       "category": "photo-video",
       "developerName": "Cercube",
-      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+      "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
       "fallbackDownloadURLs": [
-        "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm.deb",
-        "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64e.deb"
+        "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+        "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
       ],
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "localizedDescription": "Cercube for YouTube is the official YouTube enhancement from the original Cercube developer, relaunched in 2026: cache media for offline playback, use Picture in Picture and background playback, block supported video, feed and Shorts ads, choose default playback quality separately for Wi-Fi and cellular, reorder or hide tabs, auto-replay, skip sponsored segments, show dislike counts, queue videos - in 14 languages. It hooks the App Store YouTube app. Official distribution: apt.cercube.com (rootful, rootless and roothide jailbreak) and the altstore.cercube.com sideload source for AltStore (Classic), SideStore, Feather, eSign and friends.",
@@ -2130,30 +2130,31 @@
           "notes": "Official package com.cercube.ios v6.1.3 from the developer's own repository (apt.cercube.com, SHA256-published). The direct link below is the official arm64 .deb - install it with TrollStore or on a jailbroken device. Without a jailbreak, add the official source https://altstore.cercube.com to AltStore (Classic), SideStore or Feather instead; it injects Cercube into the App Store YouTube app. The sideloaded home-screen icon is the YouTube icon (this entry reuses it); the tweak's own branding icon is published at https://cdn.cercube.com/assets/icon.png."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-01",
-          "lastUpdatedAt": "2026-09-18"
+          "downloadReachable": true,
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-23",
+          "lastUpdatedAt": "2026-10-23"
         }
       },
       "screenshotURLs": [],
-      "size": 2017412,
+      "size": 2056048,
       "subtitle": "Offline, PiP, background play and no ads for YouTube",
       "tintColor": "FF0000",
-      "version": "6.1.3",
-      "versionDate": "2026-09-18",
-      "versionDescription": "Cercube for YouTube 6.1.3 - the current official release (verified against apt.cercube.com on 2026-09-18).\n\nThis release improves caching, ad blocking, and compatibility with older iOS versions.\n- Added compatibility for iOS 15-16\n- Minor bug fixes and improvements\n\nPreviously: 6.1.2 added dislike counts, sponsored segment skipping and 14 languages; 6.0.1 added compatibility for recent iOS versions.",
+      "version": "6.4.2",
+      "versionDate": "2026-10-23",
+      "versionDescription": "Cercube for YouTube 6.4.2 - the current official release (verified against apt.cercube.com on 2026-10-23).\n\nThis release improves the player layout for right-to-left languages.\n- Fixed the positioning and order of Cercube and player action buttons in right-to-left layouts.\n\nPreviously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.",
       "versions": [
         {
-          "version": "6.1.3",
-          "date": "2026-09-18",
-          "localizedDescription": "Cercube for YouTube 6.1.3 - the current official release (verified against apt.cercube.com on 2026-09-18).\n\nThis release improves caching, ad blocking, and compatibility with older iOS versions.\n- Added compatibility for iOS 15-16\n- Minor bug fixes and improvements\n\nPreviously: 6.1.2 added dislike counts, sponsored segment skipping and 14 languages; 6.0.1 added compatibility for recent iOS versions.",
-          "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+          "version": "6.4.2",
+          "date": "2026-10-23",
+          "localizedDescription": "Cercube for YouTube 6.4.2 - the current official release (verified against apt.cercube.com on 2026-10-23).\n\nThis release improves the player layout for right-to-left languages.\n- Fixed the positioning and order of Cercube and player action buttons in right-to-left layouts.\n\nPreviously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.",
+          "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
           "fallbackDownloadURLs": [
-            "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm.deb",
-            "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64e.deb"
+            "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+            "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
           ],
-          "size": 2017412,
+          "size": 2056048,
+          "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
           "minOSVersion": "15.0"
         }
       ]
@@ -2453,7 +2454,7 @@
               "fileType": "APK",
               "size": 97324692,
               "sha256": "8ead0361499d3099aebb2a8f6fc599422172b35a1162c239dc0f40cb2852c3cf",
-              "downloads": 106,
+              "downloads": 1613,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -2465,7 +2466,7 @@
               "fileType": "APK",
               "size": 85034470,
               "sha256": "606914599b5c149c5e4fd5d1b5820aef69a3207d8f17ed140f7e0a78023b6f28",
-              "downloads": 2,
+              "downloads": 20,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -2477,7 +2478,7 @@
               "fileType": "AAB",
               "size": 142433670,
               "sha256": "1b49965a4548c3ae395b38b41f4a95cd3423203b6fac11ee9dcbc098d20c8427",
-              "downloads": 1,
+              "downloads": 5,
               "mimeType": "raw",
               "installable": true
             },
@@ -2489,13 +2490,13 @@
               "fileType": "IPA",
               "size": 45123011,
               "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
-              "downloads": 1,
+              "downloads": 117,
               "mimeType": "raw",
               "installable": true
             }
           ],
           "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
-          "downloads": 1
+          "downloads": 117
         }
       ]
     },
@@ -2988,11 +2989,11 @@
         "slug": "dopamine-roothide",
         "status": "stable",
         "featured": false,
-        "upstreamURL": "https://github.com/roothide/Dopamine2-roothide",
-        "sourceURL": "https://github.com/roothide/Dopamine2-roothide",
+        "upstreamURL": "https://github.com/roothide/Dopamine-roothide",
+        "sourceURL": "https://github.com/roothide/Dopamine-roothide",
         "verification": {
           "method": "github-release",
-          "publisher": "roothide/Dopamine2-roothide",
+          "publisher": "roothide/Dopamine-roothide",
           "codeSigned": false,
           "checksumPublished": false
         },
@@ -3012,7 +3013,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official unsigned IPA from roothide/Dopamine2-roothide. Upstream tags releases by iOS generation (26, 25, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
+          "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by iOS generation (26, 25, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
         },
         "health": {
           "downloadReachable": true,
@@ -3049,7 +3050,7 @@
               "fileType": "IPA",
               "size": 54863273,
               "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-              "downloads": 22318,
+              "downloads": 26394,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -3061,13 +3062,13 @@
               "fileType": "IPA",
               "size": 54863273,
               "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-              "downloads": 7795,
+              "downloads": 9087,
               "mimeType": "application/trollstore-ipa",
               "installable": true
             }
           ],
           "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-          "downloads": 22318
+          "downloads": 26394
         }
       ]
     },
@@ -5070,88 +5071,6 @@
       ]
     },
     {
-      "bundleIdentifier": "org.haxi0.Jaility",
-      "category": "utilities",
-      "developerName": "haxi0",
-      "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Jaility.webp",
-      "localizedDescription": "Jaility is a simple iOS supercharger to be used with TrollStore. It keeps your device unlocked after a respring and adds supervision for extra control.",
-      "name": "Jaility",
-      "omnisource": {
-        "slug": "jaility",
-        "status": "unmaintained",
-        "featured": false,
-        "upstreamURL": "https://github.com/haxi0/Jaility",
-        "sourceURL": "https://github.com/haxi0/Jaility",
-        "verification": {
-          "method": "github-release",
-          "publisher": "haxi0/Jaility",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "14.0",
-          "maxOSVersion": null,
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": "Official IPA from haxi0/Jaility. Unmaintained since 3.1.1 (September 2023)."
-        },
-        "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-01",
-          "lastUpdatedAt": "2022-11-12"
-        }
-      },
-      "screenshotURLs": [],
-      "size": 108606,
-      "subtitle": "TrollStore supercharger and supervision",
-      "tintColor": "1AA0F7",
-      "version": "3.1.1",
-      "versionDate": "2022-11-12",
-      "versionDescription": "Jaility 3.1.1 | Jaility-3.1.1\n\n- Theming removed\n- Jaility is cancelled. No more major additions like Theming and etc. Some tweaks might be added in the future if they are found. This doesn't mean Jaility is dead and stuff, I'm just not feeling like adding new major features because tools like TrollTools and others exist.",
-      "versions": [
-        {
-          "version": "3.1.1",
-          "date": "2022-11-12",
-          "localizedDescription": "Jaility 3.1.1 | Jaility-3.1.1\n\n- Theming removed\n- Jaility is cancelled. No more major additions like Theming and etc. Some tweaks might be added in the future if they are found. This doesn't mean Jaility is dead and stuff, I'm just not feeling like adding new major features because tools like TrollTools and others exist.",
-          "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-          "size": 108606,
-          "minOSVersion": "14.0",
-          "releaseUrl": "https://github.com/haxi0/Jaility/releases/tag/3.1.1",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Jaility-3.1.1.ipa",
-              "downloadUrl": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 108606,
-              "sha256": null,
-              "downloads": 19568,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "downloads": 19568
-        }
-      ]
-    },
-    {
       "bundleIdentifier": "com.cosmonautical.jellify",
       "category": "music",
       "developerName": "anultravioletaurora",
@@ -5509,88 +5428,6 @@
           ],
           "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
           "downloads": 484
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "org.haxi0.KillMyOTA",
-      "category": "utilities",
-      "developerName": "haxi0",
-      "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/KillMyOTA.webp",
-      "localizedDescription": "KillMyOTA enables or disables over-the-air iOS updates on jailbreak devices running iOS 15.0 to 16.1.2 - open the app and toggle updates on or off.",
-      "name": "KillMyOTA",
-      "omnisource": {
-        "slug": "killmyota",
-        "status": "unmaintained",
-        "featured": false,
-        "upstreamURL": "https://github.com/haxi0/KillMyOTA",
-        "sourceURL": "https://github.com/haxi0/KillMyOTA",
-        "verification": {
-          "method": "github-release",
-          "publisher": "haxi0/KillMyOTA",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "15.0",
-          "maxOSVersion": "16.1.2",
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": "Official IPA from haxi0/KillMyOTA. Supports the KFD-era firmware range iOS 15.0 - 16.1.2. Unmaintained since 1.1 (January 2023)."
-        },
-        "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-01",
-          "lastUpdatedAt": "2023-01-30"
-        }
-      },
-      "screenshotURLs": [],
-      "size": 339440,
-      "subtitle": "Toggle OTA updates on iOS 15-16.1.2",
-      "tintColor": "FEA909",
-      "version": "1.1",
-      "versionDate": "2023-01-30",
-      "versionDescription": "KillMyOTA 1.1 | KillMyOTA-1.1\n\n- The button doesn't appear as \"enable OTA\" or \"disable OTA\" momentally when you launch the app. This was made to fix some issues.",
-      "versions": [
-        {
-          "version": "1.1",
-          "date": "2023-01-30",
-          "localizedDescription": "KillMyOTA 1.1 | KillMyOTA-1.1\n\n- The button doesn't appear as \"enable OTA\" or \"disable OTA\" momentally when you launch the app. This was made to fix some issues.",
-          "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-          "size": 339440,
-          "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/haxi0/KillMyOTA/releases/tag/1.1",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "KillMyOTA-1.1.ipa",
-              "downloadUrl": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 339440,
-              "sha256": null,
-              "downloads": 18430,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "downloads": 18430
         }
       ]
     },
@@ -6906,6 +6743,151 @@
       ]
     },
     {
+      "bundleIdentifier": "com.zarz.spotiflacAndroid",
+      "category": "music",
+      "developerName": "zarzet",
+      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
+      "localizedDescription": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
+      "name": "Mornye",
+      "omnisource": {
+        "slug": "spotiflac",
+        "status": "stable",
+        "featured": true,
+        "upstreamURL": "https://github.com/mornyeapp/Mornye",
+        "sourceURL": "https://github.com/mornyeapp/Mornye",
+        "verification": {
+          "method": "github-release",
+          "publisher": "mornyeapp/Mornye",
+          "codeSigned": false,
+          "checksumPublished": false
+        },
+        "compatibility": {
+          "minOSVersion": "16.0",
+          "maxOSVersion": null,
+          "devices": [
+            "iphone",
+            "ipad"
+          ],
+          "clients": [
+            "altstore",
+            "sidestore",
+            "flarestore",
+            "feather",
+            "esign",
+            "ksign",
+            "livecontainer"
+          ],
+          "notes": "Official unsigned iOS build from the project's own GitHub Releases (mornyeapp/Mornye, the repository that SpotiFLAC Mobile was renamed to in October 2026)."
+        },
+        "health": {
+          "downloadReachable": true,
+          "detail": "HTTP 302",
+          "statusSince": "2026-09-07",
+          "lastUpdatedAt": "2026-10-23"
+        }
+      },
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png"
+      ],
+      "size": 35645397,
+      "subtitle": "Local music library, FLAC player and tag editor",
+      "tintColor": "1DB954",
+      "version": "5.2.6",
+      "versionDate": "2026-10-23",
+      "versionDescription": "Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n\n- **library**: Sort songs and albums by file size\n- **desktop**: Add fullscreen and borderless window modes\n- **library**: List the files a scan could not read\n- **downloads**: Add custom folder path templates\n- **network**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare native ARM64 builds and packages\n- **player**: Color the current track row from its artwork\n- **desktop**: Open the mini player on Windows and Linux\n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcuts\n- **automix**: Verify beat alignment and hold phase through the mix\n- **home**: Keep explore artwork square\n- **flutter**: Backport semantics geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\n- **library**: Keep playlists accessible without local songs\n- **conversion**: Preserve quoted paths in lossy exports\n- **library**: Index songs whose tags fail to parse\n- **playback**: Allow MP3 playback with malformed ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **desktop**: Keep artist album selection and scroll position\n- **android**: Refresh media controls when track metadata changes\n- **windows**: Use the MSVC coroutine deprecation macro's real name\n- **windows**: Install the libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tracks visible during cover fades\n- **windows**: Support UNC library paths and network downloads\n- **desktop**: Restore private file access after cache removal\n- **notifications**: Handle Linux launch callbacks and contain queue alerts\n- **repo**: Move the store button under the text on narrow rows\n- **library**: Simplify duplicate review rows and expose load errors\n- **settings**: Keep final controls clear of floating playback bars\n- **home**: Collapse the empty prompt after installing an extension\n- **library**: Emphasize Play in collection header actions\n- **library**: Read tagless audio without losing document names\n- **desktop**: Wrap search and store category filters\n- **desktop**: Add scroll arrows to artist and recent shelves\n- **settings**: Restore 5.2.1 card contrast\n- **network**: Flush and verify SMB uploads before publishing\n- **android**: Resolve SAF audio paths when saving lyrics\n- **desktop**: Handle missing initial download folders\n\n### Refactoring\n\n- **onboarding**: Remove the rebrand introduction tour\n\n### Testing\n\n- **library**: Expect the sort sheet to scroll at its cap\n- **player**: Cover mini player metadata refresh and session restore\n\n### Chores\n\n- Update AltStore source to v5.2.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- Bump version to 5.2.6 (165)\n- **license**: Adopt LGPL-3.0-only for Mornye\n\n\n\n\n**Full Changelog**: [v5.2.5...v5.2.6](https://github.com/mornyeapp/Mornye/compare/v5.2.5...v5.2.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.6-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.6-ios-unsigned.ipa` (sideload required)\n\n`SHA256SUMS.txt` lists the SHA-256 of every file above.\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+      "versions": [
+        {
+          "version": "5.2.6",
+          "date": "2026-10-23",
+          "localizedDescription": "Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n\n- **library**: Sort songs and albums by file size\n- **desktop**: Add fullscreen and borderless window modes\n- **library**: List the files a scan could not read\n- **downloads**: Add custom folder path templates\n- **network**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare native ARM64 builds and packages\n- **player**: Color the current track row from its artwork\n- **desktop**: Open the mini player on Windows and Linux\n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcuts\n- **automix**: Verify beat alignment and hold phase through the mix\n- **home**: Keep explore artwork square\n- **flutter**: Backport semantics geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\n- **library**: Keep playlists accessible without local songs\n- **conversion**: Preserve quoted paths in lossy exports\n- **library**: Index songs whose tags fail to parse\n- **playback**: Allow MP3 playback with malformed ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **desktop**: Keep artist album selection and scroll position\n- **android**: Refresh media controls when track metadata changes\n- **windows**: Use the MSVC coroutine deprecation macro's real name\n- **windows**: Install the libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tracks visible during cover fades\n- **windows**: Support UNC library paths and network downloads\n- **desktop**: Restore private file access after cache removal\n- **notifications**: Handle Linux launch callbacks and contain queue alerts\n- **repo**: Move the store button under the text on narrow rows\n- **library**: Simplify duplicate review rows and expose load errors\n- **settings**: Keep final controls clear of floating playback bars\n- **home**: Collapse the empty prompt after installing an extension\n- **library**: Emphasize Play in collection header actions\n- **library**: Read tagless audio without losing document names\n- **desktop**: Wrap search and store category filters\n- **desktop**: Add scroll arrows to artist and recent shelves\n- **settings**: Restore 5.2.1 card contrast\n- **network**: Flush and verify SMB uploads before publishing\n- **android**: Resolve SAF audio paths when saving lyrics\n- **desktop**: Handle missing initial download folders\n\n### Refactoring\n\n- **onboarding**: Remove the rebrand introduction tour\n\n### Testing\n\n- **library**: Expect the sort sheet to scroll at its cap\n- **player**: Cover mini player metadata refresh and session restore\n\n### Chores\n\n- Update AltStore source to v5.2.5 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- Bump version to 5.2.6 (165)\n- **license**: Adopt LGPL-3.0-only for Mornye\n\n\n\n\n**Full Changelog**: [v5.2.5...v5.2.6](https://github.com/mornyeapp/Mornye/compare/v5.2.5...v5.2.6)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.6-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.6-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.6-ios-unsigned.ipa` (sideload required)\n\n`SHA256SUMS.txt` lists the SHA-256 of every file above.\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
+          "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+          "size": 35645397,
+          "minOSVersion": "16.0",
+          "releaseUrl": "https://github.com/mornyeapp/Mornye/releases/tag/v5.2.6",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Mornye-v5.2.6-arm32.apk",
+              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm32.apk",
+              "platform": "android",
+              "architecture": "armv7",
+              "fileType": "APK",
+              "size": 90145818,
+              "sha256": "8b2fd15168b4c7f224030115c57a7e6cb15b21b804253ae2a0333022727dfc38",
+              "downloads": 1631,
+              "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "Mornye-v5.2.6-arm32.apk.idsig",
+              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm32.apk.idsig",
+              "platform": "android",
+              "architecture": "armv7",
+              "fileType": "other",
+              "size": 718348,
+              "sha256": "088fc28d7df9153c8333713caf0bacbcfb5492c7f29f6d90ff12f4e67f9b20df",
+              "downloads": 121,
+              "mimeType": "application/octet-stream",
+              "installable": false
+            },
+            {
+              "filename": "Mornye-v5.2.6-arm64.apk",
+              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm64.apk",
+              "platform": "android",
+              "architecture": "arm64",
+              "fileType": "APK",
+              "size": 82420068,
+              "sha256": "e42094f409ba688d10bbb112523aed1ee929d1edc2f5e8eabc068dfa87fe770b",
+              "downloads": 22230,
+              "mimeType": "application/vnd.android.package-archive",
+              "installable": true
+            },
+            {
+              "filename": "Mornye-v5.2.6-arm64.apk.idsig",
+              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-arm64.apk.idsig",
+              "platform": "android",
+              "architecture": "arm64",
+              "fileType": "other",
+              "size": 661004,
+              "sha256": "dbc158a4cc3451fd132a13e21e928e40e100c822be7296244b73d7f07ff33869",
+              "downloads": 162,
+              "mimeType": "application/octet-stream",
+              "installable": false
+            },
+            {
+              "filename": "Mornye-v5.2.6-ios-unsigned.ipa",
+              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 35645397,
+              "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+              "downloads": 412,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "SHA256SUMS.txt",
+              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/SHA256SUMS.txt",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "other",
+              "size": 469,
+              "sha256": "de7e068a89661901ea059b5b54813e6fc8d228a3349d17a52775c4133dc7fbfc",
+              "downloads": 119,
+              "mimeType": "text/plain",
+              "installable": false
+            }
+          ],
+          "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+          "downloads": 412
+        }
+      ]
+    },
+    {
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -7189,93 +7171,6 @@
             }
           ],
           "downloads": 161150
-        }
-      ]
-    },
-    {
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "bundleIdentifier": "personal.Nebulo-V2-3",
-      "category": "photo-video",
-      "developerName": "mongoosemonke504",
-      "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
-      "localizedDescription": "Nebulo is a clean IPTV player for iOS with a built-in sports score center. Load your M3U playlists and watch live channels with a simple, focused interface.",
-      "name": "Nebulo",
-      "omnisource": {
-        "slug": "nebuloiptv",
-        "status": "stable",
-        "featured": false,
-        "upstreamURL": "https://github.com/mongoosemonke504/NebuloIPTV",
-        "sourceURL": "https://github.com/mongoosemonke504/NebuloIPTV",
-        "verification": {
-          "method": "github-release",
-          "publisher": "mongoosemonke504/NebuloIPTV",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "26.0",
-          "maxOSVersion": null,
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": "Official IPA published by the developer on GitHub Releases."
-        },
-        "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
-          "lastUpdatedAt": "2026-09-28"
-        }
-      },
-      "screenshotURLs": [],
-      "size": 51168260,
-      "subtitle": "IPTV player",
-      "tintColor": "1B5E20",
-      "version": "3.0.0",
-      "versionDate": "2026-09-28",
-      "versionDescription": "Nebulo 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
-      "versions": [
-        {
-          "version": "3.0.0",
-          "date": "2026-09-28",
-          "localizedDescription": "Nebulo 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
-          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
-          "size": 51168260,
-          "minOSVersion": "26.0",
-          "releaseUrl": "https://github.com/mongoosemonke504/OnsideTV/releases/tag/V3.0.0",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "OnsideTV_V3.0.0.ipa",
-              "downloadUrl": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 51168260,
-              "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-              "downloads": 150,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-          "downloads": 150
         }
       ]
     },
@@ -7879,6 +7774,93 @@
       ]
     },
     {
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "bundleIdentifier": "personal.Nebulo-V2-3",
+      "category": "photo-video",
+      "developerName": "mongoosemonke504",
+      "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
+      "localizedDescription": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
+      "name": "Onside TV",
+      "omnisource": {
+        "slug": "nebuloiptv",
+        "status": "stable",
+        "featured": false,
+        "upstreamURL": "https://github.com/mongoosemonke504/OnsideTV",
+        "sourceURL": "https://github.com/mongoosemonke504/OnsideTV",
+        "verification": {
+          "method": "github-release",
+          "publisher": "mongoosemonke504/OnsideTV",
+          "codeSigned": false,
+          "checksumPublished": false
+        },
+        "compatibility": {
+          "minOSVersion": "26.0",
+          "maxOSVersion": null,
+          "devices": [
+            "iphone",
+            "ipad"
+          ],
+          "clients": [
+            "altstore",
+            "sidestore",
+            "flarestore",
+            "feather",
+            "esign",
+            "ksign",
+            "livecontainer"
+          ],
+          "notes": "Official IPA published by the developer on GitHub Releases (mongoosemonke504/OnsideTV, the repository that Nebulo was renamed to). Onside TV ships no channels of its own - you need your own IPTV subscription."
+        },
+        "health": {
+          "downloadReachable": true,
+          "detail": "HTTP 302",
+          "statusSince": "2026-09-13",
+          "lastUpdatedAt": "2026-09-28"
+        }
+      },
+      "screenshotURLs": [],
+      "size": 51168260,
+      "subtitle": "IPTV player with built-in sports scores",
+      "tintColor": "1B5E20",
+      "version": "3.0.0",
+      "versionDate": "2026-09-28",
+      "versionDescription": "Onside TV 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
+      "versions": [
+        {
+          "version": "3.0.0",
+          "date": "2026-09-28",
+          "localizedDescription": "Onside TV 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under the MIT license.\n- Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.\n\nQuestions or bugs? Come say hi in the [Discord](https://discord.gg/msq2tcd5Rg) or [open an issue](https://github.com/mongoosemonke504/OnsideTV/issues).",
+          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+          "size": 51168260,
+          "minOSVersion": "26.0",
+          "releaseUrl": "https://github.com/mongoosemonke504/OnsideTV/releases/tag/V3.0.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "OnsideTV_V3.0.0.ipa",
+              "downloadUrl": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 51168260,
+              "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
+              "downloads": 772,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
+          "downloads": 772
+        }
+      ]
+    },
+    {
       "bundleIdentifier": "org.torproject.orbot",
       "category": "networking",
       "developerName": "The Tor Project",
@@ -7890,11 +7872,11 @@
         "slug": "orbot",
         "status": "stable",
         "featured": false,
-        "upstreamURL": "https://github.com/guardianproject/orbot-ios",
-        "sourceURL": "https://github.com/guardianproject/orbot-ios",
+        "upstreamURL": "https://github.com/guardianproject/orbot-apple",
+        "sourceURL": "https://github.com/guardianproject/orbot-apple",
         "verification": {
           "method": "github-release",
-          "publisher": "guardianproject/orbot-ios",
+          "publisher": "guardianproject/orbot-apple",
           "codeSigned": false,
           "checksumPublished": false
         },
@@ -7951,7 +7933,7 @@
               "fileType": "IPA",
               "size": 51331248,
               "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-              "downloads": 6,
+              "downloads": 234,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -7963,13 +7945,13 @@
               "fileType": "other",
               "size": 69964087,
               "sha256": "5ab7626e2648d48788b711c3525f6f9ae517e04ca90e4f32b52358b31a0c192e",
-              "downloads": 6,
+              "downloads": 99,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
           "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-          "downloads": 6
+          "downloads": 234
         }
       ]
     },
@@ -8264,213 +8246,6 @@
           ],
           "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
           "downloads": 2598
-        }
-      ]
-    },
-    {
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "bundleIdentifier": "com.example.playtorrio",
-      "category": "photo-video",
-      "developerName": "ayman708",
-      "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/PlayTorrio.webp",
-      "localizedDescription": "PlayTorrio is a movies, TV and anime streaming client for iOS. It aggregates content into a browsable home-screen library with a native player.",
-      "name": "PlayTorrio",
-      "omnisource": {
-        "slug": "playtorrio",
-        "status": "stable",
-        "featured": false,
-        "upstreamURL": "https://github.com/ayman708-UX/PlayTorrioV3",
-        "sourceURL": "https://github.com/ayman708-UX/PlayTorrioV3",
-        "verification": {
-          "method": "github-release",
-          "publisher": "ayman708-UX/PlayTorrioV3",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "14.0",
-          "maxOSVersion": null,
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": "Official IPA published by the developer on GitHub Releases."
-        },
-        "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-12",
-          "lastUpdatedAt": "2026-09-16"
-        }
-      },
-      "screenshotURLs": [],
-      "size": 48685274,
-      "subtitle": "Streaming client",
-      "tintColor": "D32F2F",
-      "version": "1.1.6",
-      "versionDate": "2026-09-16",
-      "versionDescription": "PlayTorrio 1.1.6 | PlayTorrio-iOS\n\nCloudstream extenstion support added\nUI Fixes\nMultistream added in iptv\nCustom channels added in iptv\nnew sources\nPlayer fixes\nMacOS Torrent streaming fixed\nMobile player audio, brightness control and screen lock added\nGeneral fixes and improvements",
-      "versions": [
-        {
-          "version": "1.1.6",
-          "date": "2026-09-16",
-          "localizedDescription": "PlayTorrio 1.1.6 | PlayTorrio-iOS\n\nCloudstream extenstion support added\nUI Fixes\nMultistream added in iptv\nCustom channels added in iptv\nnew sources\nPlayer fixes\nMacOS Torrent streaming fixed\nMobile player audio, brightness control and screen lock added\nGeneral fixes and improvements",
-          "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-          "size": 48685274,
-          "minOSVersion": "14.0",
-          "releaseUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/tag/v1.1.6",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "app-arm64-v8a-release.apk",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/app-arm64-v8a-release.apk",
-              "platform": "android",
-              "architecture": "arm64",
-              "fileType": "APK",
-              "size": 50915362,
-              "sha256": "a8969bddf0c4adddec8b18601234df430bcad02883048f192e6d9bb77c696bde",
-              "downloads": 35047,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "app-armeabi-v7a-release.apk",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/app-armeabi-v7a-release.apk",
-              "platform": "android",
-              "architecture": "armv7",
-              "fileType": "APK",
-              "size": 49932594,
-              "sha256": "984264555f472ce5c4d39dcb7d0e6292eb201dde13a80fbfbb93f3a75b28d2ff",
-              "downloads": 7331,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "PlayTorrio-iOS.ipa",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 48685274,
-              "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-              "downloads": 3993,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "PlayTorrio-Linux-x86_64.AppImage",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Linux-x86_64.AppImage",
-              "platform": "linux",
-              "architecture": "x86_64",
-              "fileType": "AppImage",
-              "size": 59009528,
-              "sha256": "9445092ae52377fb0eb58842ca6e2f654d1a5ce01a5805f5d3d96409cd85c4a4",
-              "downloads": 1688,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "PlayTorrio-Linux-x86_64.tar.gz",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Linux-x86_64.tar.gz",
-              "platform": "linux",
-              "architecture": "x86_64",
-              "fileType": "other",
-              "size": 63145560,
-              "sha256": "50dc04050c4382eda1c50a16b7d069ef3004ee97ceb5cf9b665f6f669c5338cc",
-              "downloads": 222,
-              "mimeType": "application/gzip",
-              "installable": false
-            },
-            {
-              "filename": "PlayTorrio-macOS-arm64.dmg",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-arm64.dmg",
-              "platform": "macos",
-              "architecture": "arm64",
-              "fileType": "DMG",
-              "size": 87341259,
-              "sha256": "9ef71f49a31a391b495ab5581ca3394e4abb7edc05c4765997eeab9d65032b51",
-              "downloads": 2279,
-              "mimeType": "application/x-apple-diskimage",
-              "installable": true
-            },
-            {
-              "filename": "PlayTorrio-macOS-arm64.zip",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-arm64.zip",
-              "platform": "macos",
-              "architecture": "arm64",
-              "fileType": "ZIP",
-              "size": 77604571,
-              "sha256": "67a4fd1800252d0265f0b83390e756c64eb766e6dfa2928177aa24804e6e966d",
-              "downloads": 225,
-              "mimeType": "application/zip",
-              "installable": false
-            },
-            {
-              "filename": "PlayTorrio-macOS-intel.dmg",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-intel.dmg",
-              "platform": "macos",
-              "architecture": null,
-              "fileType": "DMG",
-              "size": 89072889,
-              "sha256": "fc2362c101c25b44243a45cc6b916a489c5f23632db18ddb0d64e3b19bc96b14",
-              "downloads": 248,
-              "mimeType": "application/x-apple-diskimage",
-              "installable": true
-            },
-            {
-              "filename": "PlayTorrio-macOS-intel.zip",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-macOS-intel.zip",
-              "platform": "macos",
-              "architecture": null,
-              "fileType": "ZIP",
-              "size": 78428082,
-              "sha256": "b27bbbad846271853abc7f4c51656069beed42c462a8ca4017acffd2da6cc95b",
-              "downloads": 182,
-              "mimeType": "application/zip",
-              "installable": false
-            },
-            {
-              "filename": "PlayTorrio-Windows-Setup.exe",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Windows-Setup.exe",
-              "platform": "windows",
-              "architecture": null,
-              "fileType": "EXE",
-              "size": 48765353,
-              "sha256": "92f5c5f585a3deb4427b1dc3a03e0c40f80f285f0e76a074ddabf1d0be6472e0",
-              "downloads": 12584,
-              "mimeType": "application/x-msdos-program",
-              "installable": true
-            },
-            {
-              "filename": "PlayTorrio-Windows-x64-Portable.zip",
-              "downloadUrl": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-Windows-x64-Portable.zip",
-              "platform": "windows",
-              "architecture": null,
-              "fileType": "ZIP",
-              "size": 65151673,
-              "sha256": "c7643cc160142c63f1b6b76e079d710e553777bdc946427b9a07d237840b383f",
-              "downloads": 773,
-              "mimeType": "application/zip",
-              "installable": false
-            }
-          ],
-          "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-          "downloads": 3993
         }
       ]
     },
@@ -10346,11 +10121,11 @@
         "slug": "serotonin",
         "status": "unmaintained",
         "featured": false,
-        "upstreamURL": "https://github.com/mineek/Serotonin",
-        "sourceURL": "https://github.com/mineek/Serotonin",
+        "upstreamURL": "https://github.com/SerotoninApp/Serotonin",
+        "sourceURL": "https://github.com/SerotoninApp/Serotonin",
         "verification": {
           "method": "github-release",
-          "publisher": "mineek/Serotonin",
+          "publisher": "SerotoninApp/Serotonin",
           "codeSigned": false,
           "checksumPublished": false
         },
@@ -10370,7 +10145,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official .tipa from mineek/Serotonin. Supported firmware is iOS 16.5.1 – 16.7 RC and 17.0; the upstream release line stopped in January 2024 and later Dopamine versions cover much of the same range, so treat this as a legacy option for devices that cannot run Dopamine. Upstream ships the TrollStore-named .tipa (identical container to an .ipa); rename it to .ipa if your client rejects the extension."
+          "notes": "Official .tipa from SerotoninApp/Serotonin. Supported firmware is iOS 16.5.1 – 16.7 RC and 17.0; the upstream release line stopped in January 2024 and later Dopamine versions cover much of the same range, so treat this as a legacy option for devices that cannot run Dopamine. Upstream ships the TrollStore-named .tipa (identical container to an .ipa); rename it to .ipa if your client rejects the extension."
         },
         "health": {
           "downloadReachable": true,
@@ -10407,12 +10182,12 @@
               "fileType": "IPA",
               "size": 14986482,
               "sha256": null,
-              "downloads": 51809,
+              "downloads": 52439,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 51809
+          "downloads": 52439
         }
       ]
     },
@@ -10826,153 +10601,6 @@
       ]
     },
     {
-      "bundleIdentifier": "com.zarz.spotiflacAndroid",
-      "category": "music",
-      "developerName": "zarzet",
-      "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
-      "localizedDescription": "SpotiFLAC Mobile is an open-source Spotify track and playlist metadata downloader and FLAC converter for iOS and Android. Search and download high-quality FLAC and MP3 audio with complete ID3 metadata, embedded album artwork, and synchronized lyrics directly on your device.",
-      "name": "SpotiFLAC Mobile",
-      "omnisource": {
-        "slug": "spotiflac",
-        "status": "stable",
-        "featured": true,
-        "upstreamURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
-        "sourceURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
-        "verification": {
-          "method": "github-release",
-          "publisher": "spotiflacapp/SpotiFLAC-Mobile",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "16.0",
-          "maxOSVersion": null,
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": ""
-        },
-        "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-20"
-        }
-      },
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/main/assets/readme/1.jpg",
-        "https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/main/assets/readme/2.jpg",
-        "https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/main/assets/readme/3.jpg"
-      ],
-      "size": 34515412,
-      "subtitle": "FLAC Downloader for iOS",
-      "tintColor": "1DB954",
-      "version": "5.2.1",
-      "versionDate": "2026-10-20",
-      "versionDescription": "SpotiFLAC 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n\n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding**: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mornye logo across the app\n- **branding**: Rename app and native backend to Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- **playback**: Add normalization pre-amp and track or album gain\n- **ui**: Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- **crash**: Reduce repeated notices and retain diagnostics\n- **player**: Prefer embedded art for local files over online covers\n- **startup**: Wait for the Activity before backend startup calls\n- **library**: Use path index for network scan cache lookups\n- **ui**: Align Material screens with the design guide\n- **concerts**: Give the Material concert page a Material layout\n- **player**: Refresh late duration updates without reopening\n- **home**: Match On repeat tracks to their Library entry\n- **home**: Show listening sections on the Mornye Home without a feed\n- **lyrics**: Ease synced line changes with a spring scroll\n- **haptics**: Render music pulses on basic motors and add tuning sliders\n- **downloads**: Embed enriched artwork across audio formats\n- **artwork**: Read padded ID3 covers and repair cached previews\n- **crash**: Exclude system memory kills from crash notices\n- **backup**: Reconcile restored iOS paths before publishing history\n- **library**: Release network scan memory and cancel active metadata reads\n- **android**: Apply renderer compatibility before shared engine creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye player and library smoothness\n- **library**: Cache unchanged SMB and WebDAV scan metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects section\n- **readme**: Drop heading anchors from feature cards\n\n### Chores\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **branding**: Drop remaining SpotiFLAC references\n- **release**: Bump app to 5.2.1 build 163\n\n\n\n\n**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.2.0...v5.2.1)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.1-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.1-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.1-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
-      "versions": [
-        {
-          "version": "5.2.1",
-          "date": "2026-10-20",
-          "localizedDescription": "SpotiFLAC 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n\n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding**: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mornye logo across the app\n- **branding**: Rename app and native backend to Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- **playback**: Add normalization pre-amp and track or album gain\n- **ui**: Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- **crash**: Reduce repeated notices and retain diagnostics\n- **player**: Prefer embedded art for local files over online covers\n- **startup**: Wait for the Activity before backend startup calls\n- **library**: Use path index for network scan cache lookups\n- **ui**: Align Material screens with the design guide\n- **concerts**: Give the Material concert page a Material layout\n- **player**: Refresh late duration updates without reopening\n- **home**: Match On repeat tracks to their Library entry\n- **home**: Show listening sections on the Mornye Home without a feed\n- **lyrics**: Ease synced line changes with a spring scroll\n- **haptics**: Render music pulses on basic motors and add tuning sliders\n- **downloads**: Embed enriched artwork across audio formats\n- **artwork**: Read padded ID3 covers and repair cached previews\n- **crash**: Exclude system memory kills from crash notices\n- **backup**: Reconcile restored iOS paths before publishing history\n- **library**: Release network scan memory and cancel active metadata reads\n- **android**: Apply renderer compatibility before shared engine creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye player and library smoothness\n- **library**: Cache unchanged SMB and WebDAV scan metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects section\n- **readme**: Drop heading anchors from feature cards\n\n### Chores\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **branding**: Drop remaining SpotiFLAC references\n- **release**: Bump app to 5.2.1 build 163\n\n\n\n\n**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.2.0...v5.2.1)\n\n---\n\n### Downloads\n\n#### Android\n- **arm64**: `Mornye-v5.2.1-arm64.apk` (recommended for modern devices)\n- **arm32**: `Mornye-v5.2.1-arm32.apk` (older devices)\n- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them\n\n#### iOS\n- **iOS**: `Mornye-v5.2.1-ios-unsigned.ipa` (sideload required)\n\n### Installation\n**Android**: Enable \"Install from unknown sources\" and install the APK\n**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA",
-          "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
-          "size": 34515412,
-          "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/mornyeapp/Mornye/releases/tag/v5.2.1",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "Mornye-v5.2.1-arm32.apk",
-              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm32.apk",
-              "platform": "android",
-              "architecture": "armv7",
-              "fileType": "APK",
-              "size": 88314275,
-              "sha256": "632acdec2e40b68d3c8d411b8c928c6e195e549363010e7230bc897fd137d91d",
-              "downloads": 255,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "Mornye-v5.2.1-arm32.apk.idsig",
-              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm32.apk.idsig",
-              "platform": "android",
-              "architecture": "armv7",
-              "fileType": "other",
-              "size": 706060,
-              "sha256": "a8751c5c273218fa0434f283d10af34447adb10bc43ae956a2da54261d263070",
-              "downloads": 15,
-              "mimeType": "application/octet-stream",
-              "installable": false
-            },
-            {
-              "filename": "Mornye-v5.2.1-arm64.apk",
-              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm64.apk",
-              "platform": "android",
-              "architecture": "arm64",
-              "fileType": "APK",
-              "size": 80670445,
-              "sha256": "cde7af38c1fb2e59b816469ab18c1bf634671ec38564408faa5fef060ed66a24",
-              "downloads": 6248,
-              "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "Mornye-v5.2.1-arm64.apk.idsig",
-              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-arm64.apk.idsig",
-              "platform": "android",
-              "architecture": "arm64",
-              "fileType": "other",
-              "size": 644620,
-              "sha256": "2c493f63410ac61ff3c93f2409309e1eaf8877fd2044204cc4138f293ec74b60",
-              "downloads": 40,
-              "mimeType": "application/octet-stream",
-              "installable": false
-            },
-            {
-              "filename": "Mornye-v5.2.1-ios-unsigned.ipa",
-              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 34515412,
-              "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
-              "downloads": 111,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "SHA256SUMS.txt",
-              "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/SHA256SUMS.txt",
-              "platform": "unknown",
-              "architecture": null,
-              "fileType": "other",
-              "size": 180,
-              "sha256": "cdfe32373e522e8132356320271ba8bbdc987d66bb51d4509d598666e6c8b895",
-              "downloads": 33,
-              "mimeType": "text/plain",
-              "installable": false
-            }
-          ],
-          "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
-          "downloads": 111
-        }
-      ]
-    },
-    {
       "bundleIdentifier": "oss.krtirtho.spotube.stable",
       "category": "music",
       "developerName": "KRTirtho",
@@ -10984,11 +10612,11 @@
         "slug": "spotube",
         "status": "stable",
         "featured": false,
-        "upstreamURL": "https://github.com/KRTirtho/spotube",
-        "sourceURL": "https://github.com/KRTirtho/spotube",
+        "upstreamURL": "https://github.com/team-spotube/spotube",
+        "sourceURL": "https://github.com/team-spotube/spotube",
         "verification": {
           "method": "github-release",
-          "publisher": "KRTirtho/spotube",
+          "publisher": "team-spotube/spotube",
           "codeSigned": false,
           "checksumPublished": true
         },
@@ -11045,7 +10673,7 @@
               "fileType": "other",
               "size": 811,
               "sha256": "9056b0106032cd126a87d513e3d1a4025bba16689376e70b33e4113379a72599",
-              "downloads": 2644,
+              "downloads": 2985,
               "mimeType": "raw",
               "installable": false
             },
@@ -11057,7 +10685,7 @@
               "fileType": "other",
               "size": 1227,
               "sha256": "182c7196f7bae77b9b582e7165cf68da20410f5d5cd4f424dfd97f3e835141b7",
-              "downloads": 798,
+              "downloads": 996,
               "mimeType": "raw",
               "installable": false
             },
@@ -11069,7 +10697,7 @@
               "fileType": "APK",
               "size": 128388471,
               "sha256": "20de38abd2eea0c0998174c8a34b324f4a9531665110f67176257e7ecc5bf0fe",
-              "downloads": 249289,
+              "downloads": 285224,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11081,7 +10709,7 @@
               "fileType": "IPA",
               "size": 34853093,
               "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-              "downloads": 16105,
+              "downloads": 19675,
               "mimeType": "raw",
               "installable": true
             },
@@ -11093,7 +10721,7 @@
               "fileType": "other",
               "size": 34254800,
               "sha256": "aba4a987e064c32852fb73a1847a3b77500f6f838e613faeffe4d0ca28b56518",
-              "downloads": 657,
+              "downloads": 777,
               "mimeType": "raw",
               "installable": false
             },
@@ -11105,7 +10733,7 @@
               "fileType": "other",
               "size": 35261468,
               "sha256": "cc04df17e43a8f36447942045cf81f514a0c88aeaa950cb17083510760dd25f5",
-              "downloads": 6276,
+              "downloads": 7362,
               "mimeType": "raw",
               "installable": false
             },
@@ -11117,7 +10745,7 @@
               "fileType": "AppImage",
               "size": 104290808,
               "sha256": "017d7b77919353b704990c71f80dee5e3381a4799ac46d3204cc5937a760b5c1",
-              "downloads": 1187,
+              "downloads": 1313,
               "mimeType": "raw",
               "installable": true
             },
@@ -11129,7 +10757,7 @@
               "fileType": "DEB",
               "size": 37636312,
               "sha256": "71bf6a3cd275c01df3511bc108b10922bf8be01198c2d82301ecd2466e104031",
-              "downloads": 703,
+              "downloads": 823,
               "mimeType": "raw",
               "installable": true
             },
@@ -11141,7 +10769,7 @@
               "fileType": "AppImage",
               "size": 106015224,
               "sha256": "a14dc29d7778fad748062159541cd47e797719f37175df2726c74cd3c5519a48",
-              "downloads": 4396,
+              "downloads": 5173,
               "mimeType": "raw",
               "installable": true
             },
@@ -11153,7 +10781,7 @@
               "fileType": "DEB",
               "size": 37996550,
               "sha256": "1446f998f986380330e279c5274902fb29a0e3305d5175a3bc83b4b06392e8cd",
-              "downloads": 8222,
+              "downloads": 9534,
               "mimeType": "raw",
               "installable": true
             },
@@ -11165,7 +10793,7 @@
               "fileType": "other",
               "size": 37131723,
               "sha256": "cf4feaa792133afe2887064de119899f102b78e77aff37499c09a3343b4e4abc",
-              "downloads": 1864,
+              "downloads": 2349,
               "mimeType": "raw",
               "installable": false
             },
@@ -11177,7 +10805,7 @@
               "fileType": "DMG",
               "size": 63167099,
               "sha256": "27627dfd44190040af1a6ba6a86cdc4450399296a43a616940a94ae687ac0913",
-              "downloads": 10566,
+              "downloads": 16486,
               "mimeType": "raw",
               "installable": true
             },
@@ -11189,7 +10817,7 @@
               "fileType": "other",
               "size": 62856766,
               "sha256": "a9bbdf6ac1961657187980c9751b53e6d8fa82408b546f0929dfbddd249757ad",
-              "downloads": 684,
+              "downloads": 778,
               "mimeType": "raw",
               "installable": false
             },
@@ -11201,7 +10829,7 @@
               "fileType": "EXE",
               "size": 38294732,
               "sha256": "e5641f3841ec724fcb5e00a22d980f410ee507fdd00669b86db0c29f9b741162",
-              "downloads": 71630,
+              "downloads": 85192,
               "mimeType": "raw",
               "installable": true
             },
@@ -11213,13 +10841,13 @@
               "fileType": "other",
               "size": 37749819,
               "sha256": "0d338156b2284863d3e4cc63020190e83f6ddcc71ceff048cb73ee882cabb5e9",
-              "downloads": 494,
+              "downloads": 588,
               "mimeType": "raw",
               "installable": false
             }
           ],
           "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-          "downloads": 16105
+          "downloads": 19675
         }
       ]
     },
@@ -11500,11 +11128,11 @@
         "slug": "streamyfin",
         "status": "stable",
         "featured": false,
-        "upstreamURL": "https://github.com/fredrikburmester/streamyfin",
-        "sourceURL": "https://github.com/fredrikburmester/streamyfin",
+        "upstreamURL": "https://github.com/streamyfin/streamyfin",
+        "sourceURL": "https://github.com/streamyfin/streamyfin",
         "verification": {
           "method": "github-release",
-          "publisher": "fredrikburmester/streamyfin",
+          "publisher": "streamyfin/streamyfin",
           "codeSigned": false,
           "checksumPublished": false
         },
@@ -11561,7 +11189,7 @@
               "fileType": "APK",
               "size": 218533778,
               "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-              "downloads": 1499,
+              "downloads": 1872,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11573,7 +11201,7 @@
               "fileType": "APK",
               "size": 217470115,
               "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-              "downloads": 166,
+              "downloads": 218,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -11585,7 +11213,7 @@
               "fileType": "AAB",
               "size": 130383094,
               "sha256": "c36397afcd79643674023440db84d20e15aeaebcfaa0899530e6e79f85201adb",
-              "downloads": 6,
+              "downloads": 9,
               "mimeType": "application/x-authorware-bin",
               "installable": true
             },
@@ -11597,7 +11225,7 @@
               "fileType": "IPA",
               "size": 59246428,
               "sha256": "5e25358c26ba9c6687b256c715e389501f9a03f48ee22714a44c9126f8ca2932",
-              "downloads": 4,
+              "downloads": 5,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -11609,13 +11237,13 @@
               "fileType": "IPA",
               "size": 73761532,
               "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-              "downloads": 67,
+              "downloads": 94,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-          "downloads": 67
+          "downloads": 94
         }
       ]
     },
@@ -12437,88 +12065,6 @@
       ]
     },
     {
-      "bundleIdentifier": "com.haxi0.TrollBoard-Reborn",
-      "category": "utilities",
-      "developerName": "haxi0",
-      "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/TrollBoardReborn.webp",
-      "localizedDescription": "TrollBoard Reborn is a WebClips icon pack manager - a theming engine for your home screen that runs with TrollStore on iOS 15 to 16.1.2.",
-      "name": "TrollBoard Reborn",
-      "omnisource": {
-        "slug": "trollboard-reborn",
-        "status": "unmaintained",
-        "featured": false,
-        "upstreamURL": "https://github.com/haxi0/TrollBoard-Reborn",
-        "sourceURL": "https://github.com/haxi0/TrollBoard-Reborn",
-        "verification": {
-          "method": "github-release",
-          "publisher": "haxi0/TrollBoard-Reborn",
-          "codeSigned": false,
-          "checksumPublished": false
-        },
-        "compatibility": {
-          "minOSVersion": "15.0",
-          "maxOSVersion": null,
-          "devices": [
-            "iphone",
-            "ipad"
-          ],
-          "clients": [
-            "altstore",
-            "sidestore",
-            "flarestore",
-            "feather",
-            "esign",
-            "ksign",
-            "livecontainer"
-          ],
-          "notes": "Official IPA from haxi0/TrollBoard-Reborn (a TrollStore theming app; the same payload also installs on standard clients). Unmaintained since 1.0 (December 2023)."
-        },
-        "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-01",
-          "lastUpdatedAt": "2023-12-05"
-        }
-      },
-      "screenshotURLs": [],
-      "size": 542040,
-      "subtitle": "Web Clips icon manager for TrollStore",
-      "tintColor": "56C7F8",
-      "version": "1.0",
-      "versionDate": "2023-12-05",
-      "versionDescription": "TrollBoard Reborn 1.0 | TrollBoard.Reborn\n\n**Here we are, TrollBoard Reborn Stable Release 1.0!**\n\nThis is a WebClips manager app. It does **NOT** change the original icons.",
-      "versions": [
-        {
-          "version": "1.0",
-          "date": "2023-12-05",
-          "localizedDescription": "TrollBoard Reborn 1.0 | TrollBoard.Reborn\n\n**Here we are, TrollBoard Reborn Stable Release 1.0!**\n\nThis is a WebClips manager app. It does **NOT** change the original icons.",
-          "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-          "size": 542040,
-          "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/haxi0/TrollBoard-Reborn/releases/tag/1.0",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "TrollBoard.Reborn.ipa",
-              "downloadUrl": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 542040,
-              "sha256": null,
-              "downloads": 14525,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "downloads": 14525
-        }
-      ]
-    },
-    {
       "bundleIdentifier": "wiki.qaq.TrollFools",
       "category": "utilities",
       "developerName": "Lessica",
@@ -13115,7 +12661,10 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "category": "photo-video",
       "developerName": "raynmahbub",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
+      "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+      "fallbackDownloadURLs": [
+        "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+      ],
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "localizedDescription": "uProVid is a build-it-yourself YouTube mod. Bring your own decrypted YouTube base IPA (local file or link), pick the tweaks you want - YouMod and YTLite resolve from their official upstream releases, anything else by direct .deb link - set the app name, bundle ID and version, and the Tweak Factory injects the selection with Cyan and publishes the result back to this source as a provenance-tagged release with digests. Until the first uProVid factory build ships (tag tweak-build/uprovid/* in this repository), the listing serves ASJTube 1.2.1 on YouTube 21.37.4 - the same publisher's ready-to-sideload YouTube enhancer with the YouPip / YouQuality / dislikes/privacy tweak stack - as a stand-in. Build one: python3 scripts/tweak_factory.py build (docs/TWEAK-FACTORY.md). Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time.",
       "name": "uProVid",
@@ -13150,26 +12699,29 @@
           "notes": "Self-built lane: the base IPA is operator-supplied (a decrypted YouTube dump) and the tweaks are collected from their official upstreams by the Tweak Factory, then injected with Cyan. Factory builds publish under tag tweak-build/uprovid/* in this repository and take over automatically; until then the manualRelease stand-in below is served. Bases of YouTube 21.34.3+ require iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "HTTP 404",
-          "statusSince": "2026-10-05",
-          "lastUpdatedAt": "2026-09-14"
+          "downloadReachable": true,
+          "detail": "HTTP 302",
+          "statusSince": "2026-10-23",
+          "lastUpdatedAt": "2026-10-03"
         }
       },
       "screenshotURLs": [],
-      "size": 131694546,
+      "size": 147923687,
       "subtitle": "Your YouTube, your tweaks: base IPA + the mods you pick",
       "tintColor": "FF0000",
-      "version": "21.37.4",
-      "versionDate": "2026-09-14",
-      "versionDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+      "version": "21.39.4",
+      "versionDate": "2026-10-03",
+      "versionDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
       "versions": [
         {
-          "version": "21.37.4",
-          "date": "2026-09-14",
-          "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-          "size": 131694546,
+          "version": "21.39.4",
+          "date": "2026-10-03",
+          "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+          "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+          "fallbackDownloadURLs": [
+            "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+          ],
+          "size": 147923687,
           "minOSVersion": "17.0"
         }
       ]
@@ -14446,7 +13998,7 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "category": "photo-video",
       "developerName": "Tonwalter888",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "localizedDescription": "YouMod is OmniSource's featured YouTube 21.37.4 extra-tweaks IPA. It is the YouProEXTRA YouMod 2.0.0 line on YouTube 21.37.4 with the extra player stack that release publishes: YouPip (Picture-in-Picture), YouQuality and YouChooseQuality, YTHoldForSpeed, YouGetCaption, YTABConfig, YTNativeShare, YTweaks, Return YouTube Dislike, DontEatMyContent, Gonerino, VolumeBoostYT and PleaseDontStopTheMusic. 120 Hz display refresh is used when the device supports it. Native 4K is available on A16+ devices; YTUHD is not bundled on this YouTube version. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time. YTLite, YTKACE and YouMod are competing main tweaks; stacking all three in one IPA is unstable, so this listing follows the extra-tweaks YouMod 21.37.4 release.",
       "name": "YouMod",
@@ -14484,44 +14036,44 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-11"
+          "lastUpdatedAt": "2026-10-22"
         }
       },
       "screenshotURLs": [],
-      "size": 130590630,
+      "size": 131398144,
       "subtitle": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
       "tintColor": "FF0000",
-      "version": "21.41.5",
-      "versionDate": "2026-10-11",
-      "versionDescription": "YouTube 21.41.5 | YouMod extra tweaks | YouMod_21.41.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+      "version": "21.42.4",
+      "versionDate": "2026-10-22",
+      "versionDescription": "YouTube 21.42.4 | YouMod extra tweaks | YouMod_21.42.4_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
       "versions": [
         {
-          "version": "21.41.5",
-          "date": "2026-10-11",
-          "localizedDescription": "YouTube 21.41.5 | YouMod extra tweaks | YouMod_21.41.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
-          "size": 130590630,
+          "version": "21.42.4",
+          "date": "2026-10-22",
+          "localizedDescription": "YouTube 21.42.4 | YouMod extra tweaks | YouMod_21.42.4_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
+          "size": 131398144,
           "minOSVersion": "17.0",
-          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youmod-ipa2",
+          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youmod-ipa1",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "YouMod_21.41.5_2.0.0.ipa",
-              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
+              "filename": "YouMod_21.42.4_2.0.0.ipa",
+              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 130590630,
-              "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
-              "downloads": 9,
+              "size": 131398144,
+              "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+              "downloads": 120,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
-          "downloads": 9
+          "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+          "downloads": 120
         }
       ]
     },
@@ -14554,7 +14106,7 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "category": "photo-video",
       "developerName": "alibusut",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "localizedDescription": "YouPro is an advanced YouTube modification tweak developed by alibusut. It features background playback, ad-free streaming, inline download capabilities, OLED true dark theme, SponsorBlock, and enhanced media playback controls.",
       "name": "YouPro",
@@ -14592,44 +14144,44 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-11"
+          "lastUpdatedAt": "2026-10-22"
         }
       },
       "screenshotURLs": [],
-      "size": 130721602,
+      "size": 131280986,
       "subtitle": "Feature-rich YouTube tweak by alibusut",
       "tintColor": "FF0000",
-      "version": "21.41.5",
-      "versionDate": "2026-10-11",
-      "versionDescription": "YouTube 21.41.5 | YouProExtra_21.41.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - downloads are unstable for <A15 devices. some will fail due to no av1 codec. \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+      "version": "21.42.4",
+      "versionDate": "2026-10-22",
+      "versionDescription": "YouTube 21.42.4 | YouProExtra_21.42.4_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock and YouSlider. (unstable in newer builds)\n> - Downloads working partially. depending on hardware codecs. \n> \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
       "versions": [
         {
-          "version": "21.41.5",
-          "date": "2026-10-11",
-          "localizedDescription": "YouTube 21.41.5 | YouProExtra_21.41.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - downloads are unstable for <A15 devices. some will fail due to no av1 codec. \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
-          "size": 130721602,
+          "version": "21.42.4",
+          "date": "2026-10-22",
+          "localizedDescription": "YouTube 21.42.4 | YouProExtra_21.42.4_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock and YouSlider. (unstable in newer builds)\n> - Downloads working partially. depending on hardware codecs. \n> \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
+          "size": 131280986,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youproextra-ipa2",
+          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/youproextra-ipa4",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "YouProExtra_21.41.5_1.3.1.ipa",
-              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
+              "filename": "YouProExtra_21.42.4_1.3.1.ipa",
+              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 130721602,
-              "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
-              "downloads": 11,
+              "size": 131280986,
+              "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+              "downloads": 199,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
-          "downloads": 11
+          "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+          "downloads": 199
         }
       ]
     },
@@ -14662,7 +14214,7 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "category": "photo-video",
       "developerName": "dayanch96",
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "localizedDescription": "YouTubePlus (formerly YTLite) is a lightweight enhancer for YouTube developed by Dayanch96. It provides complete ad blocking, background playback, offline video and audio downloads, Picture-in-Picture (PiP), SponsorBlock integration, gesture controls, and customizable interface settings.",
       "name": "YouTubePlus",
@@ -14700,7 +14252,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-11"
+          "lastUpdatedAt": "2026-10-22"
         }
       },
       "screenshotURLs": [
@@ -14708,40 +14260,40 @@
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr2.jpg",
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr3.jpg"
       ],
-      "size": 149026282,
+      "size": 149834006,
       "subtitle": "Lightweight YouTube tweak with no ads and PiP",
       "tintColor": "FF0000",
-      "version": "21.41.5",
-      "versionDate": "2026-10-11",
-      "versionDescription": "YouTube 21.41.5 | YouTubePlus_21.41.5_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. \n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
+      "version": "21.42.4",
+      "versionDate": "2026-10-22",
+      "versionDescription": "YouTube 21.42.4 | YouTubePlus_21.42.4_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. new YT versions can break tweak features.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
       "versions": [
         {
-          "version": "21.41.5",
-          "date": "2026-10-11",
-          "localizedDescription": "YouTube 21.41.5 | YouTubePlus_21.41.5_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. \n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
-          "size": 149026282,
+          "version": "21.42.4",
+          "date": "2026-10-22",
+          "localizedDescription": "YouTube 21.42.4 | YouTubePlus_21.42.4_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. new YT versions can break tweak features.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
+          "size": 149834006,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa6",
+          "releaseUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/tag/ytl-ipa7",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "YouTubePlus_21.41.5_6.0b2.ipa",
-              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
+              "filename": "YouTubePlus_21.42.4_6.0b2.ipa",
+              "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 149026282,
-              "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
-              "downloads": 65,
+              "size": 149834006,
+              "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
+              "downloads": 948,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
-          "downloads": 65
+          "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
+          "downloads": 948
         },
         {
           "version": "21.33.6",
@@ -14763,13 +14315,13 @@
               "fileType": "IPA",
               "size": 145178333,
               "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-              "downloads": 80,
+              "downloads": 188,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-          "downloads": 80
+          "downloads": 188
         },
         {
           "version": "21.24.3",
@@ -14791,13 +14343,13 @@
               "fileType": "IPA",
               "size": 129031075,
               "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-              "downloads": 6286,
+              "downloads": 6413,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-          "downloads": 6286
+          "downloads": 6413
         },
         {
           "version": "20.21.6",
@@ -14819,13 +14371,13 @@
               "fileType": "IPA",
               "size": 115566999,
               "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-              "downloads": 229,
+              "downloads": 308,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-          "downloads": 229
+          "downloads": 308
         },
         {
           "version": "19.20.2",
@@ -14847,13 +14399,13 @@
               "fileType": "IPA",
               "size": 106247621,
               "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-              "downloads": 131,
+              "downloads": 181,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-          "downloads": 131
+          "downloads": 181
         }
       ]
     },
@@ -15378,6 +14930,51 @@
   ],
   "news": [
     {
+      "title": "Mornye v5.2.6",
+      "identifier": "news-spotiflac-5-2-6",
+      "caption": "Local music library, FLAC player and tag editor",
+      "date": "2026-10-23",
+      "appID": "com.zarz.spotiflacAndroid",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
+      "notify": true
+    },
+    {
+      "title": "Cercube for YouTube v6.4.2",
+      "identifier": "news-cercube-6-4-2",
+      "caption": "Offline, PiP, background play and no ads for YouTube",
+      "date": "2026-10-23",
+      "appID": "com.cercube.ios",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
+      "notify": true
+    },
+    {
+      "title": "YouTubePlus v21.42.4",
+      "identifier": "news-ytlite-21-42-4",
+      "caption": "Lightweight YouTube tweak with no ads and PiP",
+      "date": "2026-10-22",
+      "appID": "com.google.ios.youtube",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
+      "notify": true
+    },
+    {
+      "title": "YouPro v21.42.4",
+      "identifier": "news-youpro-21-42-4",
+      "caption": "Feature-rich YouTube tweak by alibusut",
+      "date": "2026-10-22",
+      "appID": "com.google.ios.youtube",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
+      "notify": true
+    },
+    {
+      "title": "YouMod v21.42.4",
+      "identifier": "news-youmod-21-42-4",
+      "caption": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
+      "date": "2026-10-22",
+      "appID": "com.google.ios.youtube",
+      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
+      "notify": true
+    },
+    {
       "title": "Nuvio v0.6.3",
       "identifier": "news-nuvio-0-6-3",
       "caption": "Open-source media player, bring your own sources",
@@ -15405,9 +15002,9 @@
       "notify": true
     },
     {
-      "title": "SpotiFLAC Mobile v5.2.1",
+      "title": "Mornye v5.2.1",
       "identifier": "news-spotiflac-5-2-1",
-      "caption": "FLAC Downloader for iOS",
+      "caption": "Local music library, FLAC player and tag editor",
       "date": "2026-10-20",
       "appID": "com.zarz.spotiflacAndroid",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
@@ -15420,51 +15017,6 @@
       "date": "2026-10-20",
       "appID": "com.facebook.Facebook.glow",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
-      "notify": true
-    },
-    {
-      "title": "Dopamine v3.0.12",
-      "identifier": "news-dopamine-3-0-12",
-      "caption": "Semi-untethered jailbreak for iOS 15 – 26",
-      "date": "2026-10-20",
-      "appID": "com.opa334.Dopamine",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Dopamine.webp",
-      "notify": true
-    },
-    {
-      "title": "ThreadSaver v452.0",
-      "identifier": "news-threadsaver-452-0",
-      "caption": "Threads enhancement tweak (unofficial build)",
-      "date": "2026-10-19",
-      "appID": "com.burbn.barcelona",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Threads.webp",
-      "notify": true
-    },
-    {
-      "title": "Table Habit v1.27.15",
-      "identifier": "news-tablehabit-1-27-15",
-      "caption": "Open-source micro-habit tracker with WebDAV sync",
-      "date": "2026-10-19",
-      "appID": "io.github.friesi23.mhabit",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/TableHabit.webp",
-      "notify": true
-    },
-    {
-      "title": "SpotiFLAC Mobile v5.2.0",
-      "identifier": "news-spotiflac-5-2-0",
-      "caption": "FLAC Downloader for iOS",
-      "date": "2026-10-19",
-      "appID": "com.zarz.spotiflacAndroid",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
-      "notify": true
-    },
-    {
-      "title": "Sparkle v452.0.0",
-      "identifier": "news-sparkle-452-0-0",
-      "caption": "Bring the spark back to Instagram",
-      "date": "2026-10-19",
-      "appID": "com.burbn.instagram.sparkle",
-      "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
       "notify": true
     }
   ]

@@ -302,7 +302,7 @@ OS.Compare.renderComparison(['ytlite', 'youpro', 'ytmusic']);
 **Purpose**: Generate QR codes for easy mobile installation of feeds.
 
 **Implementation**:
-- Uses [qrcode.js](https://github.com/lifthrasiir/qrcode.js) library
+- Uses [qrcode.js](https://github.com/soldair/node-qrcode) library
 - CDN: `https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js`
 - Fallback: Opens online QR generator if library fails to load
 

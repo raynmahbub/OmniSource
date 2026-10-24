@@ -1,34 +1,70 @@
 {
-  "generatedAt": "2026-10-21",
-  "feedVersion": "90a59e370076",
+  "generatedAt": "2026-10-24",
+  "feedVersion": "dc3a0fc423f4",
   "apps": {
-    "total": 131,
-    "reachable": 124,
-    "unreachable": 7,
-    "verified": 124
+    "total": 128,
+    "reachable": 127,
+    "unreachable": 1,
+    "verified": 127
   },
   "sync": {
-    "synced": 127,
-    "incrementalHits": 117,
-    "updated": 0,
-    "failed": 4,
-    "apiRequests": 117
+    "synced": 111,
+    "incrementalHits": 0,
+    "updated": 4,
+    "failed": 17,
+    "apiRequests": 179
   },
   "unreachable": [
-    "cercube",
-    "jaility",
-    "killmyota",
-    "playtorrio",
-    "trollboard-reborn",
-    "uprovid",
     "uyouenhanced"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "ytmusic",
+      "name": "YTMusicUltimate",
+      "previousVersion": "9.41.2",
+      "version": "9.42.2",
+      "kind": "updated"
+    },
+    {
+      "slug": "raintweak",
+      "name": "RainTweak",
+      "previousVersion": "0.9.3",
+      "version": "1.2.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "nuvio",
+      "name": "Nuvio",
+      "previousVersion": "0.6.3",
+      "version": "0.6.4",
+      "kind": "updated"
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "previousVersion": null,
+      "version": "2.3.0",
+      "kind": "new"
+    }
+  ],
   "errors": [
-    "playtorrio: all sources failed: github:ayman708-UX/PlayTorrioV3 error: HTTP request failed after 3 attempts: https://api.github.com/repos/ayman708-UX/PlayTorrioV3/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "jaility: all sources failed: github:haxi0/Jaility error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/Jaility/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "killmyota: all sources failed: github:haxi0/KillMyOTA error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/KillMyOTA/releases?per_page=100&page=1 (HTTP Error 404: Not Found)",
-    "trollboard-reborn: all sources failed: github:haxi0/TrollBoard-Reborn error: HTTP request failed after 3 attempts: https://api.github.com/repos/haxi0/TrollBoard-Reborn/releases?per_page=100&page=1 (HTTP Error 404: Not Found)"
+    "inkillerplus: all sources failed: altstore:https://repo.ikghd.me/repo.json error: HTTP request failed after 3 attempts: https://repo.ikghd.me/repo.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "ttkillerplus: all sources failed: altstore:https://repo.ikghd.me/repo.json error: HTTP request failed after 3 attempts: https://repo.ikghd.me/repo.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "infuseplus: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "glow: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "swiftgram: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "telegram-mxgram: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "iqface: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "ryukgram: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "sparkle: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "nexasc: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "messenger-flow: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "msgplusx: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "threadsaver: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "ime: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "turrit-mxgram: all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: HTTP request failed after 3 attempts: https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "ryukgram-ig410: all sources failed: altstore:https://source.ryuksign.com/ig410 error: HTTP request failed after 3 attempts: https://source.ryuksign.com/ig410 (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)",
+    "ryukgram-sidebyside: all sources failed: altstore:https://source.ryuksign.com/duplicate error: HTTP request failed after 3 attempts: https://source.ryuksign.com/duplicate (<urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:992)>)"
   ],
   "translations": {
     "ar": 100,

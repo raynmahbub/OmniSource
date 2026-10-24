@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-24",
   "icons": {
     "3105": {
       "file": "3105.webp",
@@ -234,6 +234,14 @@
       "bytes": 19490,
       "sha256": "43b2470fa236c5d45f2c26b00d36b454b89560222d52b8bba501445fc5d83f0d"
     },
+    "eclipse": {
+      "file": "Eclipse.png",
+      "url": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+      "fallback": "https://raynmahbub.github.io/OmniSource/assets/placeholders/app.svg",
+      "exists": true,
+      "bytes": 184386,
+      "sha256": "bdaf0d4ccc1ac6c3de26f7dbdfd273f8a6bece304497bc6fb0d9ac5838a6c2b7"
+    },
     "enablequic": {
       "file": "EnableQUIC.webp",
       "url": "https://raynmahbub.github.io/OmniSource/assets/EnableQUIC.webp",
@@ -354,14 +362,6 @@
       "bytes": 6420,
       "sha256": "1b4112fde926960839ca7d83d5a6f8fb8bd63f038ae665de0c41e1454d2fb1dc"
     },
-    "jaility": {
-      "file": "Jaility.webp",
-      "url": "https://raynmahbub.github.io/OmniSource/assets/Jaility.webp",
-      "fallback": "https://raynmahbub.github.io/OmniSource/assets/placeholders/app.svg",
-      "exists": true,
-      "bytes": 3106,
-      "sha256": "1461f37e9c7b2ca06c683cc19894aade5d01f386fbedcb54f3e1bbe330f6a593"
-    },
     "jellify": {
       "file": "Jellify.webp",
       "url": "https://raynmahbub.github.io/OmniSource/assets/Jellify.webp",
@@ -377,14 +377,6 @@
       "exists": true,
       "bytes": 3562,
       "sha256": "6e6758be0c4e4d4c1787bd79b1cad676b25270f22785bbf2e7dabd6dfa6a4d4a"
-    },
-    "killmyota": {
-      "file": "KillMyOTA.webp",
-      "url": "https://raynmahbub.github.io/OmniSource/assets/KillMyOTA.webp",
-      "fallback": "https://raynmahbub.github.io/OmniSource/assets/placeholders/app.svg",
-      "exists": true,
-      "bytes": 8246,
-      "sha256": "197d8bbc733a1bd8d6ad4bafa78ed57afd6106ebd4dddfa60b3fe92d194fb563"
     },
     "ksign": {
       "file": "Ksign.webp",
@@ -577,14 +569,6 @@
       "exists": true,
       "bytes": 7982,
       "sha256": "e9cd37fb2dc71174018195fc00d08e050ac7c885c3158e818e42e2ff9bd756c3"
-    },
-    "playtorrio": {
-      "file": "PlayTorrio.webp",
-      "url": "https://raynmahbub.github.io/OmniSource/assets/PlayTorrio.webp",
-      "fallback": "https://raynmahbub.github.io/OmniSource/assets/placeholders/app.svg",
-      "exists": true,
-      "bytes": 6846,
-      "sha256": "d1307b0c9b6b73a0bb27d3fab5a2045e2903633a36887111606bf035d95fa355"
     },
     "pocketposter": {
       "file": "PocketPoster.webp",
@@ -858,14 +842,6 @@
       "bytes": 1266,
       "sha256": "89382ace71f755d58ff19235e156d0286438c62157c6f7f007bd8af6a74bc43f"
     },
-    "trollboard-reborn": {
-      "file": "TrollBoardReborn.webp",
-      "url": "https://raynmahbub.github.io/OmniSource/assets/TrollBoardReborn.webp",
-      "fallback": "https://raynmahbub.github.io/OmniSource/assets/placeholders/app.svg",
-      "exists": true,
-      "bytes": 15996,
-      "sha256": "13cbb744b3b7ca76e5014a2ffbe627cab5bc6c43f1e548a07684153e750c2c58"
-    },
     "trollfools": {
       "file": "TrollFools.webp",
       "url": "https://raynmahbub.github.io/OmniSource/assets/TrollFools.webp",
@@ -1081,6 +1057,13 @@
       ],
       "count": 3
     },
+    "entertainment": {
+      "icon": "https://raynmahbub.github.io/OmniSource/assets/placeholders/category.svg",
+      "apps": [
+        "eclipse"
+      ],
+      "count": 1
+    },
     "games": {
       "icon": "https://raynmahbub.github.io/OmniSource/assets/placeholders/category.svg",
       "apps": [
@@ -1147,7 +1130,6 @@
         "maxtube",
         "nebuloiptv",
         "nuvio",
-        "playtorrio",
         "pocketposter",
         "sora",
         "streamyfin",
@@ -1161,7 +1143,7 @@
         "ytkp",
         "ytlite"
       ],
-      "count": 21
+      "count": 20
     },
     "social": {
       "icon": "https://raynmahbub.github.io/OmniSource/assets/placeholders/category.svg",
@@ -1220,8 +1202,6 @@
         "escapeos",
         "feather",
         "helium",
-        "jaility",
-        "killmyota",
         "ksign",
         "lara",
         "livecontainer",
@@ -1240,7 +1220,6 @@
         "statusmagic",
         "tablehabit",
         "taurine",
-        "trollboard-reborn",
         "trollfools",
         "trollinstallerx",
         "unc0ver",
@@ -1249,7 +1228,7 @@
         "wdbfontoverwrite",
         "zeus"
       ],
-      "count": 45
+      "count": 42
     }
   },
   "missing": [],
@@ -1290,10 +1269,8 @@
     "ish",
     "itorrent",
     "itransmission",
-    "jaility",
     "jellify",
     "jellybook",
-    "killmyota",
     "ksign",
     "lara",
     "mame4ios",
@@ -1314,7 +1291,6 @@
     "orbot",
     "otraku",
     "pikatorrent",
-    "playtorrio",
     "ppsspp",
     "provenance",
     "purekfd",
@@ -1342,7 +1318,6 @@
     "telegram-mxgram",
     "threadsaver",
     "thunder",
-    "trollboard-reborn",
     "trollfools",
     "trollinstallerx",
     "turrit-mxgram",
@@ -1362,11 +1337,11 @@
     "zeus"
   ],
   "totals": {
-    "apps": 131,
-    "iconsOk": 131,
+    "apps": 128,
+    "iconsOk": 128,
     "iconsMissing": 0,
     "placeholdersOk": 3,
-    "screenshotsDeclared": 25,
-    "screenshotsMissing": 106
+    "screenshotsDeclared": 26,
+    "screenshotsMissing": 102
   }
 }

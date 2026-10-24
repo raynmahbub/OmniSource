@@ -59,25 +59,23 @@
   "apps": [
     {
       "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
-      "subtitle": "FLAC Downloader for iOS",
+      "name": "Mornye",
+      "subtitle": "Local music library, FLAC player and tag editor",
       "bundleIdentifier": "com.zarz.spotiflacAndroid",
       "developerName": "zarzet",
       "category": "music",
       "tintColor": "1DB954",
       "icon": "SpotiFLAC.webp",
-      "localizedDescription": "SpotiFLAC Mobile is an open-source Spotify track and playlist metadata downloader and FLAC converter for iOS and Android. Search and download high-quality FLAC and MP3 audio with complete ID3 metadata, embedded album artwork, and synchronized lyrics directly on your device.",
+      "localizedDescription": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
       "screenshots": [
-        "https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/main/assets/readme/1.jpg",
-        "https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/main/assets/readme/2.jpg",
-        "https://raw.githubusercontent.com/spotiflacapp/SpotiFLAC-Mobile/main/assets/readme/3.jpg"
+        "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png"
       ],
       "featured": true,
       "status": "stable",
-      "upstreamURL": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
+      "upstreamURL": "https://github.com/mornyeapp/Mornye",
       "verification": {
         "method": "github-release",
-        "publisher": "spotiflacapp/SpotiFLAC-Mobile",
+        "publisher": "mornyeapp/Mornye",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -97,17 +95,17 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": ""
+        "notes": "Official unsigned iOS build from the project's own GitHub Releases (mornyeapp/Mornye, the repository that SpotiFLAC Mobile was renamed to in October 2026)."
       },
       "upstream": {
-        "repo": "spotiflacapp/SpotiFLAC-Mobile",
+        "repo": "mornyeapp/Mornye",
         "assetSuffixes": [
           "-ios-unsigned.ipa",
           ".ipa"
         ],
         "maxPages": 3,
         "keepVersions": 1,
-        "descriptionTemplate": "SpotiFLAC {version} | {label}"
+        "descriptionTemplate": "Mornye {version} | {label}"
       }
     },
     {
@@ -186,11 +184,14 @@
         "minOSVersion": "17.0"
       },
       "manualRelease": {
-        "version": "21.37.4",
-        "date": "2026-09-14",
-        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
-        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-        "size": 131694546,
+        "version": "21.39.4",
+        "date": "2026-10-03",
+        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+        "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+        "fallbackDownloadURLs": [
+          "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+        ],
+        "size": 147923687,
         "minOSVersion": "17.0"
       }
     },
@@ -1808,10 +1809,10 @@
       "screenshots": [],
       "featured": false,
       "status": "stable",
-      "upstreamURL": "https://github.com/fredrikburmester/streamyfin",
+      "upstreamURL": "https://github.com/streamyfin/streamyfin",
       "verification": {
         "method": "github-release",
-        "publisher": "fredrikburmester/streamyfin",
+        "publisher": "streamyfin/streamyfin",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -1834,7 +1835,7 @@
         "notes": "Official unsigned CI IPA (streamyfin-ios.ipa) built by the developer's GitHub release pipeline. Requires a Jellyfin server to connect to. The streamyfin-ios-tv.ipa asset in the same release is a separate Apple TV build and is intentionally not distributed here."
       },
       "upstream": {
-        "repo": "fredrikburmester/streamyfin",
+        "repo": "streamyfin/streamyfin",
         "tagPrefix": "v",
         "assetNamePattern": "^streamyfin-ios\\.ipa$",
         "assetSuffixes": [
@@ -1859,10 +1860,10 @@
       "screenshots": [],
       "featured": false,
       "status": "stable",
-      "upstreamURL": "https://github.com/KRTirtho/spotube",
+      "upstreamURL": "https://github.com/team-spotube/spotube",
       "verification": {
         "method": "github-release",
-        "publisher": "KRTirtho/spotube",
+        "publisher": "team-spotube/spotube",
         "codeSigned": false,
         "checksumPublished": true
       },
@@ -1885,7 +1886,7 @@
         "notes": "Official release IPA (Spotube-iOS.ipa, stable flavor) built by the developer's release pipeline and published with SHA-256/MD5 checksum files. It does not conflict with the official Spotify app. Android and desktop builds ship in the same release."
       },
       "upstream": {
-        "repo": "KRTirtho/spotube",
+        "repo": "team-spotube/spotube",
         "tagPrefix": "v",
         "assetNamePattern": "^Spotube-iOS\\.ipa$",
         "assetSuffixes": [
@@ -4287,10 +4288,10 @@
       "icon": "DopamineRootHide.webp",
       "localizedDescription": "Dopamine (RootHide) is roothide's hardened Dopamine 2 build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
       "status": "stable",
-      "upstreamURL": "https://github.com/roothide/Dopamine2-roothide",
+      "upstreamURL": "https://github.com/roothide/Dopamine-roothide",
       "verification": {
         "method": "github-release",
-        "publisher": "roothide/Dopamine2-roothide",
+        "publisher": "roothide/Dopamine-roothide",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -4310,10 +4311,10 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official unsigned IPA from roothide/Dopamine2-roothide. Upstream tags releases by iOS generation (26, 25, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
+        "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by iOS generation (26, 25, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
       },
       "upstream": {
-        "repo": "roothide/Dopamine2-roothide",
+        "repo": "roothide/Dopamine-roothide",
         "assetNamePattern": "^Dopamine\\.ipa$",
         "assetSuffixes": [
           ".ipa"
@@ -4396,10 +4397,10 @@
       "icon": "Serotonin.webp",
       "localizedDescription": "Serotonin is a semi-untethered 'semi-jailbreak' for iOS 16.5.1 through 16.7 RC and iOS 17.0 on arm64e devices. Built on the Fugu15 code base, it gives you tweak injection and a Procursus bootstrap without a full jailbreak: tweaks load into the apps you patch, and the device keeps working normally everywhere else.",
       "status": "unmaintained",
-      "upstreamURL": "https://github.com/mineek/Serotonin",
+      "upstreamURL": "https://github.com/SerotoninApp/Serotonin",
       "verification": {
         "method": "github-release",
-        "publisher": "mineek/Serotonin",
+        "publisher": "SerotoninApp/Serotonin",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -4419,10 +4420,10 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official .tipa from mineek/Serotonin. Supported firmware is iOS 16.5.1 – 16.7 RC and 17.0; the upstream release line stopped in January 2024 and later Dopamine versions cover much of the same range, so treat this as a legacy option for devices that cannot run Dopamine. Upstream ships the TrollStore-named .tipa (identical container to an .ipa); rename it to .ipa if your client rejects the extension."
+        "notes": "Official .tipa from SerotoninApp/Serotonin. Supported firmware is iOS 16.5.1 – 16.7 RC and 17.0; the upstream release line stopped in January 2024 and later Dopamine versions cover much of the same range, so treat this as a legacy option for devices that cannot run Dopamine. Upstream ships the TrollStore-named .tipa (identical container to an .ipa); rename it to .ipa if your client rejects the extension."
       },
       "upstream": {
-        "repo": "mineek/Serotonin",
+        "repo": "SerotoninApp/Serotonin",
         "assetNamePattern": "^Serotonin.*\\.tipa$",
         "assetSuffixes": [
           ".tipa"
@@ -5518,60 +5519,6 @@
       }
     },
     {
-      "slug": "playtorrio",
-      "name": "PlayTorrio",
-      "subtitle": "Streaming client",
-      "bundleIdentifier": "com.example.playtorrio",
-      "developerName": "ayman708",
-      "category": "photo-video",
-      "tintColor": "D32F2F",
-      "icon": "PlayTorrio.webp",
-      "localizedDescription": "PlayTorrio is a movies, TV and anime streaming client for iOS. It aggregates content into a browsable home-screen library with a native player.",
-      "status": "stable",
-      "screenshots": [],
-      "featured": false,
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "upstreamURL": "https://github.com/ayman708-UX/PlayTorrioV3",
-      "verification": {
-        "method": "github-release",
-        "publisher": "ayman708-UX/PlayTorrioV3",
-        "codeSigned": false,
-        "checksumPublished": false
-      },
-      "compatibility": {
-        "minOSVersion": "14.0",
-        "maxOSVersion": null,
-        "devices": [
-          "iphone",
-          "ipad"
-        ],
-        "clients": [
-          "altstore",
-          "sidestore",
-          "flarestore",
-          "feather",
-          "esign",
-          "ksign",
-          "livecontainer"
-        ],
-        "notes": "Official IPA published by the developer on GitHub Releases."
-      },
-      "upstream": {
-        "provider": "github",
-        "repo": "ayman708-UX/PlayTorrioV3",
-        "assetSuffixes": [
-          ".ipa"
-        ],
-        "maxPages": 3,
-        "keepVersions": 1,
-        "minOSVersion": "14.0",
-        "descriptionTemplate": "PlayTorrio {version} | {label}"
-      }
-    },
-    {
       "slug": "mangayomi",
       "name": "Mangayomi",
       "subtitle": "Manga, novel & anime reader",
@@ -5627,14 +5574,14 @@
     },
     {
       "slug": "nebuloiptv",
-      "name": "Nebulo",
-      "subtitle": "IPTV player",
+      "name": "Onside TV",
+      "subtitle": "IPTV player with built-in sports scores",
       "bundleIdentifier": "personal.Nebulo-V2-3",
       "developerName": "mongoosemonke504",
       "category": "photo-video",
       "tintColor": "1B5E20",
       "icon": "Nebulo.webp",
-      "localizedDescription": "Nebulo is a clean IPTV player for iOS with a built-in sports score center. Load your M3U playlists and watch live channels with a simple, focused interface.",
+      "localizedDescription": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
       "status": "stable",
       "screenshots": [],
       "featured": false,
@@ -5642,10 +5589,10 @@
         "entitlements": [],
         "privacy": {}
       },
-      "upstreamURL": "https://github.com/mongoosemonke504/NebuloIPTV",
+      "upstreamURL": "https://github.com/mongoosemonke504/OnsideTV",
       "verification": {
         "method": "github-release",
-        "publisher": "mongoosemonke504/NebuloIPTV",
+        "publisher": "mongoosemonke504/OnsideTV",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -5665,18 +5612,18 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official IPA published by the developer on GitHub Releases."
+        "notes": "Official IPA published by the developer on GitHub Releases (mongoosemonke504/OnsideTV, the repository that Nebulo was renamed to). Onside TV ships no channels of its own - you need your own IPTV subscription."
       },
       "upstream": {
         "provider": "github",
-        "repo": "mongoosemonke504/NebuloIPTV",
+        "repo": "mongoosemonke504/OnsideTV",
         "assetSuffixes": [
           ".ipa"
         ],
         "maxPages": 3,
         "keepVersions": 1,
         "minOSVersion": "26.0",
-        "descriptionTemplate": "Nebulo {version} | {label}"
+        "descriptionTemplate": "Onside TV {version} | {label}"
       }
     },
     {
@@ -5902,10 +5849,10 @@
       "screenshots": [],
       "featured": false,
       "status": "stable",
-      "upstreamURL": "https://github.com/guardianproject/orbot-ios",
+      "upstreamURL": "https://github.com/guardianproject/orbot-apple",
       "verification": {
         "method": "github-release",
-        "publisher": "guardianproject/orbot-ios",
+        "publisher": "guardianproject/orbot-apple",
         "codeSigned": false,
         "checksumPublished": false
       },
@@ -5928,7 +5875,7 @@
         "notes": "Uses the Network Extension (packet tunnel) entitlement, which a free personal Apple ID cannot sign: expect it to run only where your certificate allows network-extension configurations (AltStore or SideStore with a paid developer account, Feather/ESign with a developer certificate). Network extensions do not run in simulators."
       },
       "upstream": {
-        "repo": "guardianproject/orbot-ios",
+        "repo": "guardianproject/orbot-apple",
         "assetNamePattern": "^Orbot\\.ipa$",
         "assetSuffixes": [
           ".ipa"
@@ -6350,107 +6297,6 @@
       }
     },
     {
-      "slug": "jaility",
-      "name": "Jaility",
-      "subtitle": "TrollStore supercharger and supervision",
-      "bundleIdentifier": "org.haxi0.Jaility",
-      "developerName": "haxi0",
-      "category": "utilities",
-      "tintColor": "1AA0F7",
-      "icon": "Jaility.webp",
-      "localizedDescription": "Jaility is a simple iOS supercharger to be used with TrollStore. It keeps your device unlocked after a respring and adds supervision for extra control.",
-      "screenshots": [],
-      "featured": false,
-      "status": "unmaintained",
-      "upstreamURL": "https://github.com/haxi0/Jaility",
-      "verification": {
-        "method": "github-release",
-        "publisher": "haxi0/Jaility",
-        "codeSigned": false,
-        "checksumPublished": false
-      },
-      "compatibility": {
-        "minOSVersion": "14.0",
-        "maxOSVersion": null,
-        "devices": [
-          "iphone",
-          "ipad"
-        ],
-        "clients": [
-          "altstore",
-          "sidestore",
-          "flarestore",
-          "feather",
-          "esign",
-          "ksign",
-          "livecontainer"
-        ],
-        "notes": "Official IPA from haxi0/Jaility. Unmaintained since 3.1.1 (September 2023)."
-      },
-      "upstream": {
-        "provider": "github",
-        "repo": "haxi0/Jaility",
-        "assetSuffixes": [
-          ".ipa"
-        ],
-        "assetNamePattern": "^Jaility.*\\.ipa$",
-        "maxPages": 3,
-        "keepVersions": 1,
-        "minOSVersion": "14.0",
-        "descriptionTemplate": "Jaility {version} | {label}"
-      }
-    },
-    {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "subtitle": "Toggle OTA updates on iOS 15-16.1.2",
-      "bundleIdentifier": "org.haxi0.KillMyOTA",
-      "developerName": "haxi0",
-      "category": "utilities",
-      "tintColor": "FEA909",
-      "icon": "KillMyOTA.webp",
-      "localizedDescription": "KillMyOTA enables or disables over-the-air iOS updates on jailbreak devices running iOS 15.0 to 16.1.2 - open the app and toggle updates on or off.",
-      "screenshots": [],
-      "featured": false,
-      "status": "unmaintained",
-      "upstreamURL": "https://github.com/haxi0/KillMyOTA",
-      "verification": {
-        "method": "github-release",
-        "publisher": "haxi0/KillMyOTA",
-        "codeSigned": false,
-        "checksumPublished": false
-      },
-      "compatibility": {
-        "minOSVersion": "15.0",
-        "maxOSVersion": "16.1.2",
-        "devices": [
-          "iphone",
-          "ipad"
-        ],
-        "clients": [
-          "altstore",
-          "sidestore",
-          "flarestore",
-          "feather",
-          "esign",
-          "ksign",
-          "livecontainer"
-        ],
-        "notes": "Official IPA from haxi0/KillMyOTA. Supports the KFD-era firmware range iOS 15.0 - 16.1.2. Unmaintained since 1.1 (January 2023)."
-      },
-      "upstream": {
-        "provider": "github",
-        "repo": "haxi0/KillMyOTA",
-        "assetSuffixes": [
-          ".ipa"
-        ],
-        "maxPages": 3,
-        "keepVersions": 1,
-        "minOSVersion": "15.0",
-        "descriptionTemplate": "KillMyOTA {version} | {label}"
-      }
-    },
-    {
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
       "subtitle": "One-tap TrollStore installer",
@@ -6499,57 +6345,6 @@
         "keepVersions": 1,
         "minOSVersion": "14.0",
         "descriptionTemplate": "TrollInstallerX {version} | {label}"
-      }
-    },
-    {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "subtitle": "Web Clips icon manager for TrollStore",
-      "bundleIdentifier": "com.haxi0.TrollBoard-Reborn",
-      "developerName": "haxi0",
-      "category": "utilities",
-      "tintColor": "56C7F8",
-      "icon": "TrollBoardReborn.webp",
-      "localizedDescription": "TrollBoard Reborn is a WebClips icon pack manager - a theming engine for your home screen that runs with TrollStore on iOS 15 to 16.1.2.",
-      "screenshots": [],
-      "featured": false,
-      "status": "unmaintained",
-      "upstreamURL": "https://github.com/haxi0/TrollBoard-Reborn",
-      "verification": {
-        "method": "github-release",
-        "publisher": "haxi0/TrollBoard-Reborn",
-        "codeSigned": false,
-        "checksumPublished": false
-      },
-      "compatibility": {
-        "minOSVersion": "15.0",
-        "maxOSVersion": null,
-        "devices": [
-          "iphone",
-          "ipad"
-        ],
-        "clients": [
-          "altstore",
-          "sidestore",
-          "flarestore",
-          "feather",
-          "esign",
-          "ksign",
-          "livecontainer"
-        ],
-        "notes": "Official IPA from haxi0/TrollBoard-Reborn (a TrollStore theming app; the same payload also installs on standard clients). Unmaintained since 1.0 (December 2023)."
-      },
-      "upstream": {
-        "provider": "github",
-        "repo": "haxi0/TrollBoard-Reborn",
-        "assetSuffixes": [
-          ".ipa"
-        ],
-        "maxPages": 3,
-        "keepVersions": 1,
-        "minOSVersion": "15.0",
-        "descriptionTemplate": "TrollBoard Reborn {version} | {label}",
-        "assetNamePattern": "^TrollBoard\\.Reborn\\.ipa$"
       }
     },
     {
@@ -7375,15 +7170,16 @@
         "notes": "Official package com.cercube.ios v6.1.3 from the developer's own repository (apt.cercube.com, SHA256-published). The direct link below is the official arm64 .deb - install it with TrollStore or on a jailbroken device. Without a jailbreak, add the official source https://altstore.cercube.com to AltStore (Classic), SideStore or Feather instead; it injects Cercube into the App Store YouTube app. The sideloaded home-screen icon is the YouTube icon (this entry reuses it); the tweak's own branding icon is published at https://cdn.cercube.com/assets/icon.png."
       },
       "manualRelease": {
-        "version": "6.1.3",
-        "date": "2026-09-18",
-        "localizedDescription": "Cercube for YouTube 6.1.3 - the current official release (verified against apt.cercube.com on 2026-09-18).\n\nThis release improves caching, ad blocking, and compatibility with older iOS versions.\n- Added compatibility for iOS 15-16\n- Minor bug fixes and improvements\n\nPreviously: 6.1.2 added dislike counts, sponsored segment skipping and 14 languages; 6.0.1 added compatibility for recent iOS versions.",
-        "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+        "version": "6.4.2",
+        "date": "2026-10-23",
+        "localizedDescription": "Cercube for YouTube 6.4.2 - the current official release (verified against apt.cercube.com on 2026-10-23).\n\nThis release improves the player layout for right-to-left languages.\n- Fixed the positioning and order of Cercube and player action buttons in right-to-left layouts.\n\nPreviously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.",
+        "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
         "fallbackDownloadURLs": [
-          "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm.deb",
-          "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64e.deb"
+          "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+          "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
         ],
-        "size": 2017412,
+        "size": 2056048,
+        "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
         "minOSVersion": "15.0"
       }
     },
@@ -7590,6 +7386,60 @@
         "keepVersions": 1,
         "minOSVersion": "12.2",
         "descriptionTemplate": "Animation Speed {version} | TrollStore"
+      }
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "subtitle": "Watch, read, and track in one place.",
+      "bundleIdentifier": "app.Eclipse.Soupy",
+      "developerName": "Soupy-dev",
+      "category": "entertainment",
+      "tintColor": "FF6B6B",
+      "icon": "Eclipse.png",
+      "localizedDescription": "Discover anime, movies, and shows; organize your library; watch with in-app playback; and read manga and light novels. Eclipse supports user-installed Services, Stremio add-ons, SkyStream packages, Nuvio providers, and Reader extensions. Keep track of progress with AniList, MyAnimeList, Trakt, and Simkl, download media for offline use, and back up your settings and library. Cloud sync is optional and off by default. Eclipse does not include media, content sources, or bundled provider add-ons. Install and configure your own sources to watch or read.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Soupy-dev/Eclipse/main/docs/screenshots/home-v2.jpeg",
+        "https://raw.githubusercontent.com/Soupy-dev/Eclipse/main/docs/screenshots/discover-v2.jpeg",
+        "https://raw.githubusercontent.com/Soupy-dev/Eclipse/main/docs/screenshots/schedule-v2.jpeg",
+        "https://raw.githubusercontent.com/Soupy-dev/Eclipse/main/docs/screenshots/library-v2.jpeg",
+        "https://raw.githubusercontent.com/Soupy-dev/Eclipse/main/docs/screenshots/settings-v2.jpeg"
+      ],
+      "status": "stable",
+      "upstreamURL": "https://github.com/Soupy-dev/Eclipse",
+      "verification": {
+        "method": "github-release",
+        "publisher": "Soupy-dev/Eclipse",
+        "codeSigned": false,
+        "checksumPublished": true
+      },
+      "compatibility": {
+        "minOSVersion": "15.0",
+        "maxOSVersion": null,
+        "devices": [
+          "iphone",
+          "ipad"
+        ],
+        "clients": [
+          "altstore",
+          "sidestore",
+          "flarestore",
+          "feather",
+          "esign",
+          "ksign",
+          "livecontainer"
+        ],
+        "notes": "Official unsigned iOS build from the project's own GitHub Releases (Soupy-dev/Eclipse), published through the Eclipse AltStore/SideStore feed (soupy-dev.github.io/Eclipse/source.json). Sideload to iPhone or iPad."
+      },
+      "upstream": {
+        "provider": "github",
+        "repo": "Soupy-dev/Eclipse",
+        "assetSuffixes": [
+          "-ios-unsigned.ipa",
+          ".ipa"
+        ],
+        "maxPages": 3,
+        "keepVersions": 1
       }
     }
   ]

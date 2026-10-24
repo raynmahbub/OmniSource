@@ -36,9 +36,9 @@ developer's own GitHub Releases or their own AltStore source.
 | Entry | Category | Upstream |
 | --- | --- | --- |
 | `dopamine` | Jailbreak | `opa334/Dopamine` — v3.0.9 |
-| `dopamine-roothide` | Jailbreak | `roothide/Dopamine2-roothide` — "2.4.9.26" |
+| `dopamine-roothide` | Jailbreak | `roothide/Dopamine-roothide` — "2.4.9.26" |
 | `bootstrap` | Jailbreak | `roothide/Bootstrap` — .tipa, iOS 15–17 |
-| `serotonin` | Jailbreak | `mineek/Serotonin` — final .tipa (16.5.1–16.7 RC / 17.0), `unmaintained` |
+| `serotonin` | Jailbreak | `SerotoninApp/Serotonin` — final .tipa (16.5.1–16.7 RC / 17.0), `unmaintained` |
 | `taurine` | Jailbreak | `Odyssey-Team/Taurine` — final build for 14.0–14.3, `unmaintained` |
 | `odyssey` | Jailbreak | `Odyssey-Team/Odyssey` — final build for 13.0–13.7, `unmaintained` |
 | `unc0ver` | Jailbreak | `pwn20wndstuff/Undecimus` — final build, 11.0–14.8.1, `unmaintained` |

@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-24",
   "windowDays": 30,
   "summary": {
-    "averageAvailability": 94.61,
-    "averageResponseTimeMs": 226.8,
-    "mirrorCount": 134,
-    "probes": 3930
+    "averageAvailability": 97.59,
+    "averageResponseTimeMs": 226.7,
+    "mirrorCount": 132,
+    "probes": 3810
   },
   "apps": [
     {
       "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
+      "name": "Mornye",
       "availability": 100.0,
       "probes": 30,
       "averageLatencyMs": 190.5,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
+      "primaryURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
       "fallbackURLs": []
     },
     {
@@ -27,8 +27,8 @@
       "probes": 30,
       "averageLatencyMs": 188.2,
       "mirrorCount": 1,
-      "releaseConsistency": 0.0687,
-      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
+      "releaseConsistency": 0.5178,
+      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
       "fallbackURLs": []
     },
     {
@@ -39,7 +39,7 @@
       "averageLatencyMs": 190.5,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
+      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
       "fallbackURLs": []
     },
     {
@@ -72,7 +72,7 @@
       "averageLatencyMs": 193.1,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
+      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
       "fallbackURLs": []
     },
     {
@@ -94,7 +94,7 @@
       "averageLatencyMs": 215.9,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa",
+      "primaryURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
       "fallbackURLs": []
     },
     {
@@ -545,7 +545,7 @@
       "averageLatencyMs": 220.3,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/ra1ncord/RainTweak/releases/download/v0.9.3/RainTweak.ipa",
+      "primaryURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
       "fallbackURLs": []
     },
     {
@@ -946,7 +946,7 @@
     },
     {
       "slug": "nebuloiptv",
-      "name": "Nebulo",
+      "name": "Onside TV",
       "availability": 100.0,
       "probes": 30,
       "averageLatencyMs": 219.5,
@@ -1227,7 +1227,7 @@
       "averageLatencyMs": 209.9,
       "mirrorCount": 1,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.3-beta/nuvio-0.6.3-full-release.ipa",
+      "primaryURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
       "fallbackURLs": []
     },
     {
@@ -1392,54 +1392,12 @@
       "availability": 0.0,
       "probes": 30,
       "averageLatencyMs": 267.1,
-      "mirrorCount": 1,
+      "mirrorCount": 2,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
-      "fallbackURLs": []
-    },
-    {
-      "slug": "playtorrio",
-      "name": "PlayTorrio",
-      "availability": 0.0,
-      "probes": 30,
-      "averageLatencyMs": 204.8,
-      "mirrorCount": 1,
-      "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-      "fallbackURLs": []
-    },
-    {
-      "slug": "jaility",
-      "name": "Jaility",
-      "availability": 0.0,
-      "probes": 30,
-      "averageLatencyMs": 243.2,
-      "mirrorCount": 1,
-      "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-      "fallbackURLs": []
-    },
-    {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "availability": 0.0,
-      "probes": 30,
-      "averageLatencyMs": 234.1,
-      "mirrorCount": 1,
-      "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-      "fallbackURLs": []
-    },
-    {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "availability": 0.0,
-      "probes": 30,
-      "averageLatencyMs": 235.0,
-      "mirrorCount": 1,
-      "releaseConsistency": 0.0,
-      "primaryURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-      "fallbackURLs": []
+      "primaryURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+      "fallbackURLs": [
+        "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
+      ]
     },
     {
       "slug": "cercube",
@@ -1449,11 +1407,22 @@
       "averageLatencyMs": 270.8,
       "mirrorCount": 3,
       "releaseConsistency": 0.0,
-      "primaryURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
+      "primaryURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
       "fallbackURLs": [
-        "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm.deb",
-        "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64e.deb"
+        "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+        "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
       ]
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "availability": 0.0,
+      "probes": 0,
+      "averageLatencyMs": null,
+      "mirrorCount": 1,
+      "releaseConsistency": 0.0,
+      "primaryURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+      "fallbackURLs": []
     }
   ]
 }

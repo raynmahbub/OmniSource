@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T12:13:23Z",
-  "appCount": 131,
-  "releases": 351,
+  "generatedAt": "2026-10-23T22:50:15Z",
+  "appCount": 127,
+  "releases": 352,
   "apps": {
     "3105": [
       {
@@ -302,13 +302,23 @@
     ],
     "cercube": [
       {
+        "version": "6.4.2",
+        "date": "2026-10-23",
+        "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+        "size": 2056048,
+        "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
+        "localizedDescription": "Cercube for YouTube 6.4.2 - the current official release (verified against apt.cercube.com on 2026-10-23).\n\nThis release improves the player layout for right-to-left languages.\n- Fixed the positioning and order of Cercube and player action buttons in right-to-left layouts.\n\nPreviously: 6.4.x added hiding Shorts and Shop sections, an optional Cercube tab, drag-to-reorder tabs, iPad sidebar layouts and cache filters; 6.1.3 added compatibility for iOS 15-16.",
+        "status": "current",
+        "firstSeen": "2026-10-23T22:49:16Z"
+      },
+      {
         "version": "6.1.3",
         "date": "2026-09-18",
         "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.1.3_iphoneos-arm64.deb",
         "size": 2017412,
         "sha256": "",
         "localizedDescription": "Cercube for YouTube 6.1.3 - the current official release (verified against apt.cercube.com on 2026-09-18).\n\nThis release improves caching, ad blocking, and compatibility with older iOS versions.\n- Added compatibility for iOS 15-16\n- Minor bug fixes and improvements\n\nPreviously: 6.1.2 added dislike counts, sponsored segment skipping and 14 languages; 6.0.1 added compatibility for recent iOS versions.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-17T23:15:53Z"
       }
     ],
@@ -982,18 +992,6 @@
         "firstSeen": "2026-09-17T23:15:53Z"
       }
     ],
-    "jaility": [
-      {
-        "version": "3.1.1",
-        "date": "2022-11-12",
-        "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-        "size": 108606,
-        "sha256": "",
-        "localizedDescription": "Jaility 3.1.1 | Jaility-3.1.1\n\n- Theming removed\n- Jaility is cancelled. No more major additions like Theming and etc. Some tweaks might be added in the future if they are found. This doesn't mean Jaility is dead and stuff, I'm just not feeling like adding new major features because tools like TrollTools and others exist.",
-        "status": "current",
-        "firstSeen": "2026-09-17T23:15:53Z"
-      }
-    ],
     "jellify": [
       {
         "version": "1.3.0",
@@ -1036,18 +1034,6 @@
         "localizedDescription": "JellyBook 1.4.1 | JellyBook-Release\n\nSorry for the error in the previous version 😅\n## What's Changed\n* chore: clarifications by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/223\n* fix: fix auth headers by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/225\n\n\n**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.4.0...v1.4.1\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook-Debug-arm32.apk</code>: <code>ebbaf6954023d544454e208d0252ac8b677cf2bc</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>f89c75aaf7debf647a6862fd401209aee4417110</code></li>\n<li><code>JellyBook-Debug-x86_64.apk</code>: <code>393f2b232e60c20e339be08f2b0fe0311ef06694</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>924fa1c6f34072205884366522c428e394f62ec7</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>29f8f3b49a9704745947251d24dfee5ed17eb67e</code></li>\n<li><code>JellyBook-Debug.ipa</code>: <code>2ead28016efc584defd6ea6d7e6c9f9cd9627aa6</code></li>\n<li><code>JellyBook-Release-arm32.apk</code>: <code>0587957d7a109283f0b31cc4bd8d634a6f9cff06</code></li>\n<li><code>JellyBook-Release-arm64.apk</code>: <code>48568af90caa5e67387b35ab7567f356ac8f43cc</code></li>\n<li><code>JellyBook-Release-x86_64.apk</code>: <code>0f3230be1ced4c74f7483e08ec08a247fc3fe650</code></li>\n<li><code>JellyBook-Release.aab</code>: <code>f3256e5c70f8bd09cbadc6f142cbb5949966a2d6</code></li>\n<li><code>JellyBook-Release.apk</code>: <code>030e3ec3aece59a66340f7784c3165650a27d4dc</code></li>\n<li><code>JellyBook-Release.ipa</code>: <code>f3a3c8b10b7538442b65a97f037f6e42a43deba3</code></li>\n</ul>\n</details>",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
-      }
-    ],
-    "killmyota": [
-      {
-        "version": "1.1",
-        "date": "2023-01-30",
-        "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
-        "size": 339440,
-        "sha256": "",
-        "localizedDescription": "KillMyOTA 1.1 | KillMyOTA-1.1\n\n- The button doesn't appear as \"enable OTA\" or \"disable OTA\" momentally when you launch the app. This was made to fix some issues.",
-        "status": "current",
-        "firstSeen": "2026-09-17T23:15:53Z"
       }
     ],
     "ksign": [
@@ -1455,7 +1441,7 @@
         "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
         "size": 51168260,
         "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-        "localizedDescription": "Nebulo 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now under ",
+        "localizedDescription": "Onside TV 3.0.0 | OnsideTV_V3.0.0\n\n### **Nebulo is now Onside TV!**\nSame app, new name, and the biggest update so far.\n\n### **Read this before you install**\n- **You need iOS 26 or newer.** If your phone is on an older version, stay on Nebulo V2.3 for now.\n- **Onside TV installs as a new app next to Nebulo.** You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n- **There's just one IPA this time**, no backup version.\n\n### **What's New**\n- **New look:** Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n- **Way bigger sports section:** Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n- **Favorite teams:** Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n- **Live Activities:** Follow the score from your Lock Screen and Dynamic Island.\n- **Smarter game search:** Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n- **New search:** Live games, recently watched channels and your categories all in one place.\n- **Recordings:** Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n- **Connection warning:** If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\n### **Fixes**\n- If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n- Streams don't keep playing sound anymore after you close them and lock your phone.\n- Smoother scrolling and less heat.\n- Show pictures on the home screen only appear when they actually match the show.\n\n### **Under the Hood**\n- The code is open source now und",
         "status": "current",
         "firstSeen": "2026-09-29T13:13:58Z"
       },
@@ -1915,28 +1901,6 @@
         "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
         "localizedDescription": "PikaTorrent 0.15.0 | PikaTorrent-v0.15.0-ios\n\n- Improved streaming performance and reliability\n- Added playable files filter\n- Multi-selection support for bulk torrent deletion\n- Initial translations and localization support\n- Support for 16KB page sizes for Android\n- Bug fixes\n\n**Full Changelog**: https://github.com/G-Ray/pikatorrent/compare/v0.14.0...v0.15.0",
         "status": "current",
-        "firstSeen": "2026-09-12T17:13:52Z"
-      }
-    ],
-    "playtorrio": [
-      {
-        "version": "1.1.6",
-        "date": "2026-09-16",
-        "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.6/PlayTorrio-iOS.ipa",
-        "size": 48685274,
-        "sha256": "dfb6ca4f282ebb82bcdbad5fd1abd82b17ee2ebb42b28c3b8cbffda11a95463c",
-        "localizedDescription": "PlayTorrio 1.1.6 | PlayTorrio-iOS\n\nCloudstream extenstion support added\nUI Fixes\nMultistream added in iptv\nCustom channels added in iptv\nnew sources\nPlayer fixes\nMacOS Torrent streaming fixed\nMobile player audio, brightness control and screen lock added\nGeneral fixes and improvements",
-        "status": "current",
-        "firstSeen": "2026-09-17T23:15:53Z"
-      },
-      {
-        "version": "1.1.5",
-        "date": "2026-09-09",
-        "downloadURL": "https://github.com/ayman708-UX/PlayTorrioV3/releases/download/v1.1.5/PlayTorrio-iOS.ipa",
-        "size": 48421258,
-        "sha256": "3d6568b6f872fe089cdc3a8692f187abab004e178555bc861a3d6c6c5623aeda",
-        "localizedDescription": "PlayTorrio 1.1.5 | PlayTorrio-iOS\n\nDownloader enhancements\nFixed streaming issues\nFixed audiobook generation\nAdded fullscreen mode\nUI Fixes",
-        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -2454,13 +2418,23 @@
     ],
     "spotiflac": [
       {
+        "version": "5.2.6",
+        "date": "2026-10-23",
+        "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+        "size": 35645397,
+        "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+        "localizedDescription": "Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n\n- **library**: Sort songs and albums by file size\n- **desktop**: Add fullscreen and borderless window modes\n- **library**: List the files a scan could not read\n- **downloads**: Add custom folder path templates\n- **network**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare native ARM64 builds and packages\n- **player**: Color the current track row from its artwork\n- **desktop**: Open the mini player on Windows and Linux\n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcuts\n- **automix**: Verify beat alignment and hold phase through the mix\n- **home**: Keep explore artwork square\n- **flutter**: Backport semantics geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\n- **library**: Keep playlists accessible without local songs\n- **conversion**: Preserve quoted paths in lossy exports\n- **library**: Index songs whose tags fail to parse\n- **playback**: Allow MP3 playback with malformed ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **desktop**: Keep artist album selection and scroll position\n- **android**: Refresh media controls when track metadata changes\n- **windows**: Use the MSVC coroutine deprecation macro's real name\n- **windows**: Install the libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tracks visible during cover fades\n- **windows**: Support UNC library paths and network downloads\n- **desktop**: Restore private file access after cache removal\n- **notifications**: Handle Linux launch callbacks and contain queue alerts\n- **repo**: Move the store button under the text on narrow rows\n- **library**: Simplify duplicate review rows and expose load errors\n- **settings**: Keep final controls clear of floating playback bars\n- **home**: Collapse the empty prompt after installing an extension\n- **library**: Emphasize Play in collection header actions\n- **library**: Read tagless audio without losing document names\n- **desk",
+        "status": "current",
+        "firstSeen": "2026-10-23T22:50:15Z"
+      },
+      {
         "version": "5.2.1",
         "date": "2026-10-20",
         "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa",
         "size": 34515412,
         "sha256": "bddb253718253ddae04320fac9ad58009c5fbb693a79713c741478694f5a7216",
         "localizedDescription": "SpotiFLAC 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n\n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding**: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mornye logo across the app\n- **branding**: Rename app and native backend to Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- **playback**: Add normalization pre-amp and track or album gain\n- **ui**: Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- **crash**: Reduce repeated notices and retain diagnostics\n- **player**: Prefer embedded art for local files over online covers\n- **startup**: Wait for the Activity before backend startup calls\n- **library**: Use path index for network scan cache lookups\n- **ui**: Align Material screens with the design guide\n- **concerts**: Give the Material concert page a Material layout\n- **player**: Refresh late duration updates without reopening\n- **home**: Match On repeat tracks to their Library entry\n- **home**: Show listening sections on the Mornye Home without a feed\n- **lyrics**: Ease synced line changes with a spring scroll\n- **haptics**: Render music pulses on basic motors and add tuning sliders\n- **downloads**: Embed enriched artwork across audio formats\n- **artwork**: Read padded ID3 covers and repair cached previews\n- **crash**: Exclude system memory kills from crash notices\n- **backup**: Reconcile restored iOS paths before publishing history\n- **library**: Release network scan memory and cancel active metadata reads\n- **android**: Apply renderer compatibility before shared engine creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye player and library smoothness\n- **library**: Cache unchanged SMB and WebDAV scan metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects section\n- **readme**: Drop heading anchors from feature cards\n\n### Chores\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https://github.com/github-actions[bot])\n- **branding**: Drop ",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-20T11:57:48Z"
       },
       {
@@ -2938,18 +2912,6 @@
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
-    "trollboard-reborn": [
-      {
-        "version": "1.0",
-        "date": "2023-12-05",
-        "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
-        "size": 542040,
-        "sha256": "",
-        "localizedDescription": "TrollBoard Reborn 1.0 | TrollBoard.Reborn\n\n**Here we are, TrollBoard Reborn Stable Release 1.0!**\n\nThis is a WebClips manager app. It does **NOT** change the original icons.",
-        "status": "current",
-        "firstSeen": "2026-09-17T23:15:53Z"
-      }
-    ],
     "trollfools": [
       {
         "version": "4.4-257",
@@ -3094,13 +3056,23 @@
     ],
     "uprovid": [
       {
+        "version": "21.39.4",
+        "date": "2026-10-03",
+        "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+        "size": 147923687,
+        "sha256": "",
+        "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
+        "status": "current",
+        "firstSeen": "2026-10-23T22:49:16Z"
+      },
+      {
         "version": "21.37.4",
         "date": "2026-09-14",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ASJTube-ipa3/ASJTube_21.37.4_1.2.1.ipa",
         "size": 131694546,
         "sha256": "",
         "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.2.1 by asjrx on YouTube 21.37.4 (ready-to-sideload build served by mrdrvt99/YouProEXTRA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-05T18:02:39Z"
       }
     ],
@@ -3244,13 +3216,23 @@
     ],
     "youmod": [
       {
+        "version": "21.42.4",
+        "date": "2026-10-22",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
+        "size": 131398144,
+        "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+        "localizedDescription": "YouTube 21.42.4 | YouMod extra tweaks | YouMod_21.42.4_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "status": "current",
+        "firstSeen": "2026-10-23T22:49:16Z"
+      },
+      {
         "version": "21.41.5",
         "date": "2026-10-11",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.41.5_2.0.0.ipa",
         "size": 130590630,
         "sha256": "15cad9d4e61a4879f78609c06a6574435406a8e2ef31a2cf699e1feec40a8db3",
         "localizedDescription": "YouTube 21.41.5 | YouMod extra tweaks | YouMod_21.41.5_2.0.0\n\n### Latest Release, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonwalter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (unstable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `PleaseDontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may be unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {
@@ -3326,13 +3308,23 @@
     ],
     "youpro": [
       {
+        "version": "21.42.4",
+        "date": "2026-10-22",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
+        "size": 131280986,
+        "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+        "localizedDescription": "YouTube 21.42.4 | YouProExtra_21.42.4_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock and YouSlider. (unstable in newer builds)\n> - Downloads working partially. depending on hardware codecs. \n> \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
+        "status": "current",
+        "firstSeen": "2026-10-23T22:49:16Z"
+      },
+      {
         "version": "21.41.5",
         "date": "2026-10-11",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.41.5_1.3.1.ipa",
         "size": 130721602,
         "sha256": "8c2c2df34209e9acd4dad74b22ac90d6dbaadb9bdabb029569882d5b78b8f3f4",
         "localizedDescription": "YouTube 21.41.5 | YouProExtra_21.41.5_1.3.1\n\n### Latest Release, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is available.\n> - if you're signed out you can sign in manually. \n> - no iSponsorBlock. (unstable in newer builds)\n> - for <A15 devices press share button in the arrow down panel and use external player for AV1 videos.\n> - downloads are unstable for <A15 devices. some will fail due to no av1 codec. \n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {
@@ -3552,13 +3544,23 @@
     ],
     "ytlite": [
       {
+        "version": "21.42.4",
+        "date": "2026-10-22",
+        "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
+        "size": 149834006,
+        "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
+        "localizedDescription": "YouTube 21.42.4 | YouTubePlus_21.42.4_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. new YT versions can break tweak features.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
+        "status": "current",
+        "firstSeen": "2026-10-23T22:49:16Z"
+      },
+      {
         "version": "21.41.5",
         "date": "2026-10-11",
         "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.41.5_6.0b2.ipa",
         "size": 149026282,
         "sha256": "5da40c72d638118ce45ceaead8f499937a5da3b14d6f1b82860c03c2252700ca",
         "localizedDescription": "YouTube 21.41.5 | YouTubePlus_21.41.5_6.0b2\n\n### Latest Release, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta release, some features may still glitch. \n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS 17+ now.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {

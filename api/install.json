@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-24",
   "baseURL": "https://raynmahbub.github.io/OmniSource",
   "clients": [
     {
@@ -251,7 +251,7 @@
   "apps": [
     {
       "slug": "spotiflac",
-      "name": "SpotiFLAC Mobile",
+      "name": "Mornye",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json",
       "cards": [
         {
@@ -8531,97 +8531,6 @@
       ]
     },
     {
-      "slug": "playtorrio",
-      "name": "PlayTorrio",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-      "cards": [
-        {
-          "client": "altstore",
-          "name": "AltStore",
-          "icon": "AltStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "The reference client, and the EU option (AltStore PAL, iOS 17.4+) that installs with no computer.",
-          "manualSetup": false,
-          "url": "altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to AltStore."
-        },
-        {
-          "client": "sidestore",
-          "name": "SideStore",
-          "icon": "SideStore.webp",
-          "compatible": true,
-          "recommended": true,
-          "bestFor": "Most people: free, and after one computer setup it refreshes on the phone with no computer attached.",
-          "manualSetup": false,
-          "url": "sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to SideStore."
-        },
-        {
-          "client": "flarestore",
-          "name": "FlareStore",
-          "icon": "FlareStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "No computer at all, or no weekly re-signing: it can sell/attach a ~1-year signing certificate.",
-          "manualSetup": false,
-          "url": "flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to FlareStore. If nothing happens, paste the feed URL in Sources."
-        },
-        {
-          "client": "feather",
-          "name": "Feather",
-          "icon": "Feather.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Jailbroken or TrollStore devices, where apps are not limited by Apple's 7-day signing window.",
-          "manualSetup": false,
-          "url": "feather://source/raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to Feather."
-        },
-        {
-          "client": "esign",
-          "name": "ESign",
-          "icon": "E-Sign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Signing IPAs by hand with a certificate you already trust.",
-          "manualSetup": false,
-          "url": "esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to ESign. If nothing happens, open ESign → App Sources → + and paste the URL."
-        },
-        {
-          "client": "ksign",
-          "name": "Ksign",
-          "icon": "Ksign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "An ESign-style on-device signer with source import.",
-          "manualSetup": false,
-          "url": "ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to Ksign. If nothing happens, open Ksign sources and paste the URL."
-        },
-        {
-          "client": "livecontainer",
-          "name": "LiveContainer",
-          "icon": "LiveContainer.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Running many apps under one signature without spending App ID slots.",
-          "manualSetup": false,
-          "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/playtorrio.json",
-          "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
-        }
-      ]
-    },
-    {
       "slug": "mangayomi",
       "name": "Mangayomi",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json",
@@ -8714,7 +8623,7 @@
     },
     {
       "slug": "nebuloiptv",
-      "name": "Nebulo",
+      "name": "Onside TV",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/nebuloiptv.json",
       "cards": [
         {
@@ -9987,188 +9896,6 @@
       ]
     },
     {
-      "slug": "jaility",
-      "name": "Jaility",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-      "cards": [
-        {
-          "client": "altstore",
-          "name": "AltStore",
-          "icon": "AltStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "The reference client, and the EU option (AltStore PAL, iOS 17.4+) that installs with no computer.",
-          "manualSetup": false,
-          "url": "altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to AltStore."
-        },
-        {
-          "client": "sidestore",
-          "name": "SideStore",
-          "icon": "SideStore.webp",
-          "compatible": true,
-          "recommended": true,
-          "bestFor": "Most people: free, and after one computer setup it refreshes on the phone with no computer attached.",
-          "manualSetup": false,
-          "url": "sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to SideStore."
-        },
-        {
-          "client": "flarestore",
-          "name": "FlareStore",
-          "icon": "FlareStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "No computer at all, or no weekly re-signing: it can sell/attach a ~1-year signing certificate.",
-          "manualSetup": false,
-          "url": "flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to FlareStore. If nothing happens, paste the feed URL in Sources."
-        },
-        {
-          "client": "feather",
-          "name": "Feather",
-          "icon": "Feather.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Jailbroken or TrollStore devices, where apps are not limited by Apple's 7-day signing window.",
-          "manualSetup": false,
-          "url": "feather://source/raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to Feather."
-        },
-        {
-          "client": "esign",
-          "name": "ESign",
-          "icon": "E-Sign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Signing IPAs by hand with a certificate you already trust.",
-          "manualSetup": false,
-          "url": "esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to ESign. If nothing happens, open ESign → App Sources → + and paste the URL."
-        },
-        {
-          "client": "ksign",
-          "name": "Ksign",
-          "icon": "Ksign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "An ESign-style on-device signer with source import.",
-          "manualSetup": false,
-          "url": "ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to Ksign. If nothing happens, open Ksign sources and paste the URL."
-        },
-        {
-          "client": "livecontainer",
-          "name": "LiveContainer",
-          "icon": "LiveContainer.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Running many apps under one signature without spending App ID slots.",
-          "manualSetup": false,
-          "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/jaility.json",
-          "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
-        }
-      ]
-    },
-    {
-      "slug": "killmyota",
-      "name": "KillMyOTA",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-      "cards": [
-        {
-          "client": "altstore",
-          "name": "AltStore",
-          "icon": "AltStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "The reference client, and the EU option (AltStore PAL, iOS 17.4+) that installs with no computer.",
-          "manualSetup": false,
-          "url": "altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to AltStore."
-        },
-        {
-          "client": "sidestore",
-          "name": "SideStore",
-          "icon": "SideStore.webp",
-          "compatible": true,
-          "recommended": true,
-          "bestFor": "Most people: free, and after one computer setup it refreshes on the phone with no computer attached.",
-          "manualSetup": false,
-          "url": "sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to SideStore."
-        },
-        {
-          "client": "flarestore",
-          "name": "FlareStore",
-          "icon": "FlareStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "No computer at all, or no weekly re-signing: it can sell/attach a ~1-year signing certificate.",
-          "manualSetup": false,
-          "url": "flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to FlareStore. If nothing happens, paste the feed URL in Sources."
-        },
-        {
-          "client": "feather",
-          "name": "Feather",
-          "icon": "Feather.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Jailbroken or TrollStore devices, where apps are not limited by Apple's 7-day signing window.",
-          "manualSetup": false,
-          "url": "feather://source/raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to Feather."
-        },
-        {
-          "client": "esign",
-          "name": "ESign",
-          "icon": "E-Sign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Signing IPAs by hand with a certificate you already trust.",
-          "manualSetup": false,
-          "url": "esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to ESign. If nothing happens, open ESign → App Sources → + and paste the URL."
-        },
-        {
-          "client": "ksign",
-          "name": "Ksign",
-          "icon": "Ksign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "An ESign-style on-device signer with source import.",
-          "manualSetup": false,
-          "url": "ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to Ksign. If nothing happens, open Ksign sources and paste the URL."
-        },
-        {
-          "client": "livecontainer",
-          "name": "LiveContainer",
-          "icon": "LiveContainer.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Running many apps under one signature without spending App ID slots.",
-          "manualSetup": false,
-          "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/killmyota.json",
-          "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
-        }
-      ]
-    },
-    {
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
       "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollinstallerx.json",
@@ -10255,97 +9982,6 @@
           "manualSetup": false,
           "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/trollinstallerx.json",
           "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollinstallerx.json",
-          "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
-        }
-      ]
-    },
-    {
-      "slug": "trollboard-reborn",
-      "name": "TrollBoard Reborn",
-      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-      "cards": [
-        {
-          "client": "altstore",
-          "name": "AltStore",
-          "icon": "AltStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "The reference client, and the EU option (AltStore PAL, iOS 17.4+) that installs with no computer.",
-          "manualSetup": false,
-          "url": "altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "instructions": "Tap to add the source to AltStore."
-        },
-        {
-          "client": "sidestore",
-          "name": "SideStore",
-          "icon": "SideStore.webp",
-          "compatible": true,
-          "recommended": true,
-          "bestFor": "Most people: free, and after one computer setup it refreshes on the phone with no computer attached.",
-          "manualSetup": false,
-          "url": "sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "instructions": "Tap to add the source to SideStore."
-        },
-        {
-          "client": "flarestore",
-          "name": "FlareStore",
-          "icon": "FlareStore.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "No computer at all, or no weekly re-signing: it can sell/attach a ~1-year signing certificate.",
-          "manualSetup": false,
-          "url": "flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "instructions": "Tap to add the source to FlareStore. If nothing happens, paste the feed URL in Sources."
-        },
-        {
-          "client": "feather",
-          "name": "Feather",
-          "icon": "Feather.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Jailbroken or TrollStore devices, where apps are not limited by Apple's 7-day signing window.",
-          "manualSetup": false,
-          "url": "feather://source/raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "instructions": "Tap to add the source to Feather."
-        },
-        {
-          "client": "esign",
-          "name": "ESign",
-          "icon": "E-Sign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Signing IPAs by hand with a certificate you already trust.",
-          "manualSetup": false,
-          "url": "esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "instructions": "Tap to add the source to ESign. If nothing happens, open ESign → App Sources → + and paste the URL."
-        },
-        {
-          "client": "ksign",
-          "name": "Ksign",
-          "icon": "Ksign.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "An ESign-style on-device signer with source import.",
-          "manualSetup": false,
-          "url": "ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "instructions": "Tap to add the source to Ksign. If nothing happens, open Ksign sources and paste the URL."
-        },
-        {
-          "client": "livecontainer",
-          "name": "LiveContainer",
-          "icon": "LiveContainer.webp",
-          "compatible": true,
-          "recommended": false,
-          "bestFor": "Running many apps under one signature without spending App ID slots.",
-          "manualSetup": false,
-          "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
-          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/trollboard-reborn.json",
           "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
         }
       ]
@@ -12166,6 +11802,97 @@
           "manualSetup": false,
           "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/animationspeed.json",
           "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/animationspeed.json",
+          "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
+        }
+      ]
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+      "cards": [
+        {
+          "client": "altstore",
+          "name": "AltStore",
+          "icon": "AltStore.webp",
+          "compatible": true,
+          "recommended": false,
+          "bestFor": "The reference client, and the EU option (AltStore PAL, iOS 17.4+) that installs with no computer.",
+          "manualSetup": false,
+          "url": "altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "instructions": "Tap to add the source to AltStore."
+        },
+        {
+          "client": "sidestore",
+          "name": "SideStore",
+          "icon": "SideStore.webp",
+          "compatible": true,
+          "recommended": true,
+          "bestFor": "Most people: free, and after one computer setup it refreshes on the phone with no computer attached.",
+          "manualSetup": false,
+          "url": "sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "instructions": "Tap to add the source to SideStore."
+        },
+        {
+          "client": "flarestore",
+          "name": "FlareStore",
+          "icon": "FlareStore.webp",
+          "compatible": true,
+          "recommended": false,
+          "bestFor": "No computer at all, or no weekly re-signing: it can sell/attach a ~1-year signing certificate.",
+          "manualSetup": false,
+          "url": "flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "instructions": "Tap to add the source to FlareStore. If nothing happens, paste the feed URL in Sources."
+        },
+        {
+          "client": "feather",
+          "name": "Feather",
+          "icon": "Feather.webp",
+          "compatible": true,
+          "recommended": false,
+          "bestFor": "Jailbroken or TrollStore devices, where apps are not limited by Apple's 7-day signing window.",
+          "manualSetup": false,
+          "url": "feather://source/raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "instructions": "Tap to add the source to Feather."
+        },
+        {
+          "client": "esign",
+          "name": "ESign",
+          "icon": "E-Sign.webp",
+          "compatible": true,
+          "recommended": false,
+          "bestFor": "Signing IPAs by hand with a certificate you already trust.",
+          "manualSetup": false,
+          "url": "esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "instructions": "Tap to add the source to ESign. If nothing happens, open ESign → App Sources → + and paste the URL."
+        },
+        {
+          "client": "ksign",
+          "name": "Ksign",
+          "icon": "Ksign.webp",
+          "compatible": true,
+          "recommended": false,
+          "bestFor": "An ESign-style on-device signer with source import.",
+          "manualSetup": false,
+          "url": "ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "instructions": "Tap to add the source to Ksign. If nothing happens, open Ksign sources and paste the URL."
+        },
+        {
+          "client": "livecontainer",
+          "name": "LiveContainer",
+          "icon": "LiveContainer.webp",
+          "compatible": true,
+          "recommended": false,
+          "bestFor": "Running many apps under one signature without spending App ID slots.",
+          "manualSetup": false,
+          "url": "livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
+          "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/eclipse.json",
           "instructions": "Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL."
         }
       ]

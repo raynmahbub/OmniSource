@@ -146,6 +146,16 @@ PAGE_TEMPLATE = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>OmniSource — IPA Downloader (direct links)</title>
 <meta name="description" content="Direct download links for every app in the OmniSource catalog.">
+<link rel="canonical" href="__BASE__/ipa-downloader/">
+<meta property="og:site_name" content="OmniSource">
+<meta property="og:title" content="OmniSource — IPA Downloader (direct links)">
+<meta property="og:description" content="Direct download links for every app in the OmniSource catalog.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="__BASE__/ipa-downloader/">
+<meta property="og:image" content="__BASE__/assets/brand/hero.svg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OmniSource — IPA Downloader (direct links)">
+<meta name="twitter:description" content="Direct download links for every app in the OmniSource catalog.">
 <style>
   :root {
     color-scheme: dark;
@@ -267,7 +277,9 @@ PAGE_TEMPLATE = """<!doctype html>
 
 def render_html(document: dict) -> str:
     payload = json.dumps(document, ensure_ascii=False, separators=(",", ":"))
+    base = str(document.get("baseURL") or "https://raynmahbub.github.io/OmniSource").rstrip("/")
     page = PAGE_TEMPLATE.replace("__GENERATED__", escape(document["generatedAt"]))
+    page = page.replace("__BASE__", base)
     page = page.replace("__DATA__", payload.replace("</", "<\\/"))
     return page
 

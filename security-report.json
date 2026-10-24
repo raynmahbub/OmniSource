@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T09:07:16Z",
+  "generatedAt": "2026-10-23T22:50:16Z",
   "verdict": "pass",
   "summary": {
-    "apps": 131,
+    "apps": 127,
     "sha256": 81,
     "sha512": 0,
-    "hashesMissing": 50,
+    "hashesMissing": 46,
     "hashesInvalid": 0,
     "duplicateBinaries": 0,
     "downloadsFailing": 0,
-    "provenanceOfficial": 131,
+    "provenanceOfficial": 127,
     "provenanceCommunity": 0,
     "provenanceUnknown": 0
   },
   "hashes": {
-    "apps": 131,
+    "apps": 127,
     "sha256": 81,
     "sha512": 0,
     "missing": [
@@ -26,7 +26,6 @@
       "BHTwitter",
       "CAPerfHUD",
       "CarTube",
-      "Cercube for YouTube",
       "Cowabunga",
       "Delta",
       "DynamicCow",
@@ -35,8 +34,6 @@
       "Hanami",
       "Helium",
       "Infuse Plus",
-      "Jaility",
-      "KillMyOTA",
       "MAME4iOS",
       "MSGPlusX",
       "Messenger Flow",
@@ -56,7 +53,6 @@
       "Taurine",
       "Telegram MxGram",
       "ThreadSaver",
-      "TrollBoard Reborn",
       "TrollInstallerX",
       "Turrit MxGram",
       "WDBFontOverwrite",
@@ -203,18 +199,14 @@
       "",
       "",
       "",
-      "",
-      "",
-      "",
-      "",
       ""
     ]
   },
   "provenance": {
-    "official": 131,
+    "official": 127,
     "community": 0,
     "unknown": [],
-    "total": 131
+    "total": 127
   },
   "findings": [
     {
@@ -257,12 +249,6 @@
       "severity": "low",
       "check": "hash-missing",
       "id": "CarTube",
-      "detail": "no SHA-256 recorded for the newest version"
-    },
-    {
-      "severity": "low",
-      "check": "hash-missing",
-      "id": "Cercube for YouTube",
       "detail": "no SHA-256 recorded for the newest version"
     },
     {
@@ -311,18 +297,6 @@
       "severity": "low",
       "check": "hash-missing",
       "id": "Infuse Plus",
-      "detail": "no SHA-256 recorded for the newest version"
-    },
-    {
-      "severity": "low",
-      "check": "hash-missing",
-      "id": "Jaility",
-      "detail": "no SHA-256 recorded for the newest version"
-    },
-    {
-      "severity": "low",
-      "check": "hash-missing",
-      "id": "KillMyOTA",
       "detail": "no SHA-256 recorded for the newest version"
     },
     {
@@ -437,12 +411,6 @@
       "severity": "low",
       "check": "hash-missing",
       "id": "ThreadSaver",
-      "detail": "no SHA-256 recorded for the newest version"
-    },
-    {
-      "severity": "low",
-      "check": "hash-missing",
-      "id": "TrollBoard Reborn",
       "detail": "no SHA-256 recorded for the newest version"
     },
     {
