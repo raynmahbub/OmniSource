@@ -211,7 +211,11 @@ def build_verification_doc(
         # Trust Score (Phase 7): five observable factors, 0..10.
         app_state = state.get(app.slug) if isinstance(state.get(app.slug), dict) else {}
         versions = app_state.get("versions")
-        release_count = len(versions) if isinstance(versions, list) else 0
+        release_dates = app_state.get("releaseDates")
+        release_count = max(
+            len(versions) if isinstance(versions, list) else 0,
+            len(release_dates) if isinstance(release_dates, list) else 0,
+        )
         probes, reachable, _ = probe_window(app_state)
         if probes:
             uptime = reachable / probes

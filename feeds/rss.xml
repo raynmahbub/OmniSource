@@ -5,8 +5,272 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app&#x27;s own official upstream project - GitHub Releases or the developer&#x27;s official AltStore feed - and each download link is re-verified automatically.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>YTKACE v21.42.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ytkace.json</link>
+      <guid isPermaLink="false">ytkace-21.42.4</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4
+
+by @itzzace0
+
+What's new:
+• Updated to YouTube 21.42.4
+• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones
+• Added Report AI Channels to report channels to AiSList from the ⋯ menu
+• Added Clean Copied Links to remove tracking like si= from links you copy or share
+• Added options to remove items from the ⋯ menu
+• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off
+• Added Keep Shorts in Home, Search and on Channels
+
+Fixed:
+• Remove Previous/Next not working in playlists
+• Blank space left when fullscreen actions are hidden
+• Remove Mixes missing some mixes
+
+YouTube 21.42.4 requires iOS 17, so there are two IPAs:
+• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer
+• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16]]></description>
+      <enclosure url="https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Apollo v4.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/apollo.json</link>
+      <guid isPermaLink="false">apollo-4.0.0</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Apollo 4.0.0 | Apollo-Reborn-4.0.0
+
+### Features
+
+- Add **iPhone Duo** support with layouts that adapt to the closed display, open portrait, open landscape and partially folded positions, using the existing Apollo Reborn builds (#1245: @IllIIllIllIllII)
+  - Browse a feed beside its comments, choose Original or Focused content widths, and open the subreddit list in a Standard or Liquid Glass panel
+  - Inbox, Account and Settings gain sidebar/detail layouts in open landscape, while Search can keep results beside the page you open
+  - Pixel Pals is unavailable on Duo; regular iPhones keep it
+- Add an optional **iPad Layout (Beta)** on iPadOS 18 and later, with a native sidebar, adjustable feed and reader columns, and full-width Gallery View (#1385: @jordanearle)
+  - Try it from the one-time invitation or turn on iPad Layout under Interface; quit and reopen Apollo to apply it, or turn it off to return to the classic layout
+- Add **Restore Reading Session** to reopen your last feed, post and nearby reading position after iOS closes Apollo, including feed and comment sorting (#1441: @Thetromboneman1)
+  - On by default under Media → Browsing; explicit links and notifications take priority, and turning it off deletes the saved session
+- Add a **Setup Assistant** for new installations to connect or restore, choose Classic, Balanced or Full Featured preferences, select appearance, and review before applying (#1401: @jordanearle)
+  - Existing users can open it from Apollo Reborn settings with Keep My Settings selected; updating does not automatically apply a preset
+- Rework **Gallery View** with faster opening, pinch-to-resize tiles including a denser four-column layout, and native press-and-hold menus in the grid and fullscreen viewer (#1389, #1434: @icpryde, @IllIIllIllIllII)
+  - Sports clips can play silently in the grid, newly visible tiles start reliably, and returning from a fullscreen image no longer leaves a black screen
+- Open **Gallery View** for All Saved or a selected **Saved category**, with empty categories shown without an endless spinner (#1440: @IllIIllIllIllII)
+- Rebuild **Recently Read** as a native Apollo feed that follows your post layout, thumbnails, text size, themes, swipe actions and menus (#1442: @IllIIllIllIllII)
+  - Open it from its own row on your profile, switch its layout without changing other feeds, clear the history, or remove individual posts
+- Add **Recently Visited** subreddits to Search, with configurable section order and limits under Subreddits settings (#1404: @IllIIllIllIllII)
+  - History clears on restart or account change and is not saved to backups
+- Add **Add Downvote Tap** under Posts & Feeds → Info Row so tapping a score can cycle through upvote, downvote and no vote; off by default (#1403: @AcornElf)
+- Add a **Subreddit Icon** switch to Compact and Immersive subreddit header layouts, updating the preview and live header together (#1426: @IllIIllIllIllII)
+- Feature seasonal icons in **Daily Spotlight** around holidays, including Apollo's original holiday icons; the spotlight now shows six picks (#1390, #1245: @icpryde, @IllIIllIllIllII)
+- Tint **Apollo Reborn maintainer usernames** purple in posts, comments and the Inbox, while retaining their real profiles and normal moderator indicators (#1411: @IllIIllIllIllII)
+- Make **Bug Reports** attach a removable debug log automatically, and mask usernames, account details, links and sensitive values before logs are exported or shared (#1422, #1423: @icpryde)
+  - Export Debug Logs now shares a file that can be attached on GitHub; subreddit names, post/comment IDs and diagnostic details remain readable
+
+### Performance
+
+- Reduce unnecessary **API-Key-Free** requests by fetching subscriptions in larger pages and, with Reduce Rate Limiting on, batching feed avatars by page; interrupted subscription refreshes keep the existing list (#1416: @icpryde)
+  - Deleted or unavailable Bluesky previews stop repeatedly fetching themselves and using Reddit requests as a fallback
+
+### Fixes
+
+- Refine **Duo navigation** with steadier feed positions and search bars when columns change, a smoother subreddit drawer, correct Home/Popular/All restoration, and Reddit links opened from Settings routed to Posts (#1470: @nnastasi)
+  - Resume videos that were playing before folding or unfolding, covering both shared Reddit videos and direct-player media
+- Center **folded Duo title pills** in the usable header and keep composer text clear of the right-hand system strip, with correct wrapping and height through folding and unfolding (#1480: @jordanearle)
+- Keep the same **Duo comments thread** when returning from a linked subreddit after rotation or folding, and let the drawer return to an older retained feed correctly (#1464: @jordanearle)
+- Correct **Duo video autoplay** around the side rail and both columns' navigation bars (#1466: @kiliantyler)
+- Keep **View All Comments** visible inside its Duo comments pane when opening a specific comment (#1468: @d0lb33)
+- Stop the hidden **subreddit index** swallowing favorite taps and scrolling near the stars on Duo (#1469: @kiliantyler)
+- Open **native action menus** from controls moved into UIKit's overflow menu instead of silently dismissing without showing the actions (#1474: @kiliantyler)
+- Keep loading **API-Key-Free Inbox** rows when looking up a reply's quoted parent fails, showing the messages without that quote (#1455: @icpryde, @DeltAndy123)
+- Keep **API-Key-Free infinite scrolling** retryable after Reddit returns a rate limit or block page, rather than treating the refusal as the end of the feed (#1424: @icpryde)
+- Load the next feed page when **Hide Read** hides every loaded post, including with Infinite Scrolling off (#1412: @icpryde)
+- Fix **Reddit image uploads** becoming broken links when Imgur is selected, single-photo comment uploads failing, and synthetic album links in comments (#1402, #1406: @jordanearle, @IllIIllIllIllII)
+  - Previously broken uploads still need to be uploaded again
+- Give **inline comment images and GIFs** Copy Image, Save Image and Share actions, and open loaded images fullscreen without a second loading fade (#1400: @IllIIllIllIllII)
+- Show the correct **image, GIF, video and album menus** when pressing and holding media inside a post, including Save All Media for albums (#1435: @IllIIllIllIllII)
+- Fix a crash when opening a **compact album** from its long-press preview (#1398: @IllIIllIllIllII)
+- Fix crashes while **feed videos** wait to play and while **deleted comments** are being prepared (#1428, #1450: @Thetromboneman1)
+- Keep a playing **feed video's sound and mute icon** in step when opening its post, including with the phone's silent switch on (#1425: @icpryde)
+- Stop **rich link cards** shifting the feed or changing their image crop after voting (#1457: @icpryde)
+- Open **Find in Comments** from the Liquid Glass post menu with its search field, keyboard and result navigation working correctly (#1446: @icpryde)
+- Keep a collapsed **feed search bar** hidden when returning from the fullscreen image viewer (#1447: @Thetromboneman1)
+- Bring back the complete **Liquid Glass tab bar** after swiping back from Edit Profile, including its glass background (#1431: @icpryde)
+- Refresh **subreddit icons and banners** from current Reddit artwork instead of retaining older images (#1396: @IllIIllIllIllII)
+- Preserve **usernames in comment and post headers** by shortening flair first, while keeping timestamps and other trailing details visible (#1366: @AcornElf)
+- Open **Reddit social links** on profiles directly in Apollo instead of the browser (#1407: @IllIIllIllIllII)
+- Explain why **Notifications settings** are unavailable when no notification backend is configured, instead of spinning forever (#1399: @IllIIllIllIllII)
+- Open **Poll, Media, Link and Text** post shortcuts in the correct editor even when the composer finishes preparing after its sheet appears (#1414: @IllIIllIllIllII)
+- Keep the separator below **Home's first post** visible after switchi…]]></description>
+      <enclosure url="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>AnymeX v3.1.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/anymex.json</link>
+      <guid isPermaLink="false">anymex-3.1.9</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[AnymeX 3.1.9 | AnymeX-iOS-v3.1.9
+
+### 🆕 Changelog
+### 🌟 Features
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/80f279c6) enhanced downloads ui and ux by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9c04ca66) runtime bridge support for IOS (thanks to dartotsu) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9a109267) mpv config, some fixes and ui changes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/538c3538) torrent download support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/55b6b13f) online subtitles back again by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/07b88757) audio delay support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/429a43ee) cold cache for instant load by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/1a21ab40) network settings (dns, proxy, tls ts) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5d44cc54) donation page for my broke ass by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b6131248) markdown, reply support, moderation tools, and settings UI notifications & unread badges (comments) (#416) by @Shebyyy
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5c6465d5) kotatsu, aniyomi backup support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/8346d033) backup and restore full support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/3bc096c2) addons support (torrent) = practically nothing changes just 1 extra step for torrent by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/6a91e1ef) dock drag-to-reorder and history card poster navigation to details (#595) by @Shebyyy
+
+
+### 🔧 Bug Fixes & Improvements
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/e4d0b981) fixed duplicate media entry, nearest download bug, overall enhancement by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/fb6b505a) fixed ios flashing during navigation by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/eba12ae1) fixed abrupt crashes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/2d28d284) fixed cancelling downloads still running in background by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/f158ab90) fixed cf backing out on its own by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/511910e9) fixed random crashes by sources by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b61a3b8b) guarding class members and backup backward compatibility patch by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/45b1b544) fixed ios discord login issue and auto save al settings by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5d82148d) fixed romaji title on details and offline media when english is selected by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/7d092307) fixed comments showing input for non logged in user, bad lifecycle causing grey screens by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/296a2787) proper error handler on anime and manga pages by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/4e7fb2e7) fixed syntax issue by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b000bd37) fixed deleting media not working sometime by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/f207ce8e) improved dc rich presence fixed some issues by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9672d46b) progress not syncing when reading offline manga fixed by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/cda59ce9) repeating status change fix when reading by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/4f64fe02) series type mismatch on simkl by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/7e1f4617) fixed offline reader crash by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/bf46b551) fixed login crash, torrserver issues by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b2665f9c) ui changes and fixes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/abd9fbaa) comments fixes and perf changes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b7d43799) TV ts by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/34121972) fixed comment minimze on action presses by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/19fb988d) incognito fixes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/7791e409) watchium comeback (#582) by @Rieversed
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5a455b59) fixed progress tracking of novels by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/a88d21dd) fixed novels tweaking by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/435ee7ef) potential crash fixes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/cc44321c) fixed some new cs sources not working by @RyanYuuki
+
+
+### 🎨 Style Changes
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9b373664) minor ui tweaks for desktop by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/92cf09df) minor ui tweak on add ons page by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b7b3d137) fixed some styling issue in account page by @RyanYuuki
+
+
+### 🚀 Performance Improvements
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/0acd3d03) some performance fixes by @RyanYuuki
+
+
+### 🧹 Chores & Documentation
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/bc6e8a61) bump version to v3.1.9 (patch release) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/f638e950) update sideloading source by @ghost
+
+
+![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.1.9/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)]]></description>
+      <enclosure url="https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>TwitchAdBlock v31.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json</link>
+      <guid isPermaLink="false">twitchadblock-31.7</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Twitch 31.7 | TwitchAdBlock 0.1.15
+
+**TwitchMods v0.1.15**, for Twitch iOS **31.7**
+
+### New: see what moderators delete
+Turn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **"🛡 ronni was timed out for 10m"** shows up so you know what happened.
+- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.
+- Both are off by default. It only works for things that happen while you're in chat.
+
+### New: hide the "From channels you follow" bar
+Turn on **Hide "From Channels You Follow"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.
+
+### Fixed
+- The **"Go Ad-Free"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.
+
+Everything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.
+
+### Downloads
+- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.
+- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.
+
+Using the AltStore / SideStore / Feather source? You'll get this update automatically:
+```
+https://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json
+```
+
+Full plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)]]></description>
+      <enclosure url="https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Saber v1.36.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.36.4</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.36.4 | Saber_v1.36.4
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- Minor UI improvements
+- Minor memory efficiency improvements #1858
+- A security fix
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.3...v1.36.4]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Dopamine (RootHide) v3.0.12-28</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine-roothide.json</link>
+      <guid isPermaLink="false">dopamine-roothide-3.0.12-28</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine (RootHide) 3.0.12-28 | Dopamine-2026-10-25_20-23-30
+
+roothide Dopamine 3 is now released and open source on github for everyone:
+
+https://x.com/roothideDev/status/2114091036318564808]]></description>
+      <enclosure url="https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Telegram MxGram v13.1.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json</link>
+      <guid isPermaLink="false">telegram-mxgram-13.1.1</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Telegram 13.1.1 | Telegram-13.1.1-MxGram
+
+IPA Vault build for Telegram (MxGram), version 13.1.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Mornye v5.2.6</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
@@ -98,6 +362,16 @@
       <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>RyukGram v452.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
+      <guid isPermaLink="false">ryukgram-452.0.0</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 452.0.0 | Instagram-452.0.0-RyukGram
+
+IPA Vault build for Instagram (RyukGram), version 452.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Nuvio v0.6.4</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
       <guid isPermaLink="false">nuvio-0.6.4</guid>
@@ -124,6 +398,16 @@
 - [fix(android): scale ExoPlayer subtitles with the PiP window size (#2314)](https://github.com/NuvioMedia/NuvioMobile/pull/2314) @sap6  
 - [feat(player): auto-sync add-on subtitles on the libmpv engine (#2275)](https://github.com/NuvioMedia/NuvioMobile/pull/2275) @kernexshadow]]></description>
       <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iQFace v584.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
+      <guid isPermaLink="false">iqface-584.1.0</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 584.1.0 | Facebook-584.1.0-iQFace
+
+IPA Vault build for Facebook (iQFace), version 584.1.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>Cercube for YouTube v6.4.2</title>
@@ -274,7 +558,7 @@ IPA Vault build for Telegram (iQTele), version 13.1]]></description>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.2.1</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[SpotiFLAC 5.2.1 | Mornye-v5.2.1-ios-unsigned
+      <description><![CDATA[Mornye 5.2.1 | Mornye-v5.2.1-ios-unsigned
 
 ### New Features
 
@@ -325,7 +609,7 @@ IPA Vault build for Telegram (iQTele), version 13.1]]></description>
 
 
 
-**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/spotiflacapp/SpotiFLAC-Mobile/compare/v5.2.0...v5.2.1)
+**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/mornyeapp/Mornye/compare/v5.2.0...v5.2.1)
 
 ---
 
@@ -343,16 +627,6 @@ IPA Vault build for Telegram (iQTele), version 13.1]]></description>
 **Android**: Enable "Install from unknown sources" and install the APK
 **iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
       <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Glow v2026.42.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/glow.json</link>
-      <guid isPermaLink="false">glow-2026.42.0</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Facebook 2026.42.0 | Reddit-2026.42.0-RedditFilter
-
-IPA Vault build for Reddit (RedditFilter), version 2026.42.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>Eclipse v2.3.0</title>
@@ -459,7 +733,7 @@ IPA Vault build for Threads (ThreadSaver), version 452.0]]></description>
       <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
       <guid isPermaLink="false">spotiflac-5.2.0</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[SpotiFLAC 5.2.0 | SpotiFLAC-v5.2.0-ios-unsigned
+      <description><![CDATA[Mornye 5.2.0 | SpotiFLAC-v5.2.0-ios-unsigned
 
 ### New Features
 
@@ -595,136 +869,7 @@ IPA Vault build for Threads (ThreadSaver), version 452.0]]></description>
 - **rust**: Consolidate small duplicate helpers
 - **core**: Move the lenient Go-style JSON decoder to core::json
 - **me…]]></description>
-      <enclosure url="https://github.com/spotiflacapp/SpotiFLAC-Mobile/releases/download/v5.2.0/SpotiFLAC-v5.2.0-ios-unsigned.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Sparkle v452.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
-      <guid isPermaLink="false">sparkle-452.0.0</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Instagram 452.0.0 | Instagram-452.0.0-Sparkle
-
-IPA Vault build for Instagram (Sparkle), version 452.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Saber v1.36.3</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
-      <guid isPermaLink="false">saber-1.36.3</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Saber 1.36.3 | Saber_v1.36.3
-
-## External links
-
-[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
-    alt='Get it on Google Play'
-    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
-    alt="Get it on F-Droid"
-    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
-    alt="Download on the App Store"
-    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
-    alt="Download on Flathub"
-    height=50>][flathub]
-
-For other downloads, scroll down and find the relevant file under "Assets".
-
-[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
-[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
-[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
-[app_store]: https://apps.apple.com/us/app/saber/id1671523739
-[releases]: https://github.com/adil192/saber/releases
-
-## Changelog
-
-- Various visual improvements, including an Adwaita-inspired navigation bar for the Linux version of Saber
-- Fixed a deduplication bug causing many copies of PDF files to be saved #1856 
-- Fixed a bug preventing Saber from responding to light/dark mode switches on Linux
-- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3]]></description>
-      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Onion Browser v3.4.4</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json</link>
-      <guid isPermaLink="false">onionbrowser-3.4.4</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Onion Browser 3.4.4 | OnionBrowser
-
-- Fixed crash when trying to create or edit a bookmark.]]></description>
-      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Nicegram v2.6.4</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nicegram.json</link>
-      <guid isPermaLink="false">nicegram-2.6.4</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nicegram 2.6.4 | build 2.6.4
-
-Build of Nicegram for iOS 2.6.4 (725)]]></description>
-      <enclosure url="https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>NexaSC v8.83.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
-      <guid isPermaLink="false">nexasc-8.83.0</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[SoundCloud 8.83.0 | SoundCloud-8.83.0-NexaSC
-
-IPA Vault build for SoundCloud (NexaSC), version 8.83.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Reynard v0.18.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
-      <guid isPermaLink="false">reynard-0.18.0</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Reynard 0.18.0 | Reynard
-
-## Changes
-
-**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0
-
-### New Features
-- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.
-
-### Improvements
-- Scrolling on webpages is now smoother and more accurate.
-- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.
-
-### Bug Fixes
-- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.
-- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.
-- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.
-- Fixed an issue where touches on some webpages would land in the wrong place.
-- Added small performance improvements and fixed several UI issues.
-
-### Engine
-
-Updated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).]]></description>
-      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Nuvio v0.6.2</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/nuvio.json</link>
-      <guid isPermaLink="false">nuvio-0.6.2</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Nuvio 0.6.2 | nuvio-0.6.2-full-release
-
-- b253a7c5 feat(party): add chat to watch parties @tapframe  
-- [Fix escaped apostrophes and missing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMobile/pull/2312) @WhiteGiso  
-- [fix(ios): keep Watch Party in sync and apply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMobile/pull/2308) @WhiteGiso  
-- [i18n(el): finish the Greek locale (party, media servers, MDBList, Auto Sync, season count) (#2292)](https://github.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  
-- [Filename and infoHash matching for binge group, prefetch fixes (#2278)](https://github.com/NuvioMedia/NuvioMobile/pull/2278) @skoruppa]]></description>
-      <enclosure url="https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.2-beta/nuvio-0.6.2-full-release.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>iQFace v584.0.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
-      <guid isPermaLink="false">iqface-584.0.0</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Facebook 584.0.0 | Facebook-584.0.0-iQFace
-
-IPA Vault build for Facebook (iQFace), version 584.0.0]]></description>
-      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.0/SpotiFLAC-v5.2.0-ios-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

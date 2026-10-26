@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 167001383,
               "sha256": null,
-              "downloads": 18351,
+              "downloads": 18439,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -69,7 +69,7 @@
               "fileType": "DEB",
               "size": 7336848,
               "sha256": null,
-              "downloads": 2511,
+              "downloads": 2513,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -81,12 +81,13 @@
               "fileType": "DEB",
               "size": 7336826,
               "sha256": null,
-              "downloads": 2689,
+              "downloads": 2691,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 18351
+          "downloads": 18439,
+          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981"
         }
       ],
       "screenshotURLs": [
@@ -168,13 +169,13 @@
               "fileType": "IPA",
               "size": 55704386,
               "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
-              "downloads": 11108,
+              "downloads": 11221,
               "mimeType": "application/trollstore-ipa",
               "installable": true
             }
           ],
           "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
-          "downloads": 11108
+          "downloads": 11221
         }
       ],
       "screenshotURLs": [],
@@ -446,13 +447,13 @@
               "fileType": "IPA",
               "size": 5474210,
               "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
-              "downloads": 20847,
+              "downloads": 21121,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
-          "downloads": 20847
+          "downloads": 21121
         }
       ],
       "screenshotURLs": [],
@@ -529,13 +530,13 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 4811,
+              "downloads": 5005,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 4811
+          "downloads": 5005
         }
       ],
       "screenshotURLs": [
@@ -644,13 +645,13 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 610,
+              "downloads": 633,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 610
+          "downloads": 633
         }
       ],
       "screenshotURLs": [
@@ -730,51 +731,99 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/NeoFreeBird.webp",
       "tintColor": "1D9BF0",
       "category": "social",
-      "version": "2.2",
-      "versionDate": "2025-11-03",
-      "versionDescription": "Twitter 2.2 | NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin\n\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\n\n### Change log:\n\n**Twitter, version 11.35:**\n- Updated the Twitter build to 11.35\n\n**NeoFreeBird, version 2.2:**\n- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]\n- Localized the Post > Tweet replacer\n- Improved the Open in Twitter extension\n- Minor bug fixes and other minor improvements\n\nThere are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you’re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.\n\nIf you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.",
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-      "size": 158452402,
+      "version": "7.2.0",
+      "versionDate": "2026-10-16",
+      "versionDescription": "Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33\n\n# Version 7.2.0\n\n## New Features\n- Added an option to choose the default reply sort\n- Updated X to 12.33\n- Added an option to hide retweets and quotes from the “For You” page\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\n- Brought back the Tweet source labels!\n- Removed the “Money” tab\n- Enabling the option to hide views now also hides it in the tweet footer.\n\n## Fixes\n- Fixed more webview issues\n- NeoFreeBird now more reliably filters out video ads\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\n- Added localization support for the “Show quote numbers option”\n- Fixed the app crashing when adding more than 1 account\n\n## Localizations\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\n\n## New Contributors\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139\n* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeBird/app/pull/142\n* @sekiranunn made their first contribution in https://github.com/NeoFreeBird/app/pull/140\n\n**Full Changelog**: https://github.com/NeoFreeBird/app/compare/v7.1.1...v7.2.0",
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+      "size": 259047406,
       "versions": [
         {
-          "version": "2.2",
-          "date": "2025-11-03",
-          "localizedDescription": "Twitter 2.2 | NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin\n\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\n\n### Change log:\n\n**Twitter, version 11.35:**\n- Updated the Twitter build to 11.35\n\n**NeoFreeBird, version 2.2:**\n- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]\n- Localized the Post > Tweet replacer\n- Improved the Open in Twitter extension\n- Minor bug fixes and other minor improvements\n\nThere are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you’re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.\n\nIf you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-          "size": 158452402,
+          "version": "7.2.0",
+          "date": "2026-10-16",
+          "localizedDescription": "Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33\n\n# Version 7.2.0\n\n## New Features\n- Added an option to choose the default reply sort\n- Updated X to 12.33\n- Added an option to hide retweets and quotes from the “For You” page\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\n- Brought back the Tweet source labels!\n- Removed the “Money” tab\n- Enabling the option to hide views now also hides it in the tweet footer.\n\n## Fixes\n- Fixed more webview issues\n- NeoFreeBird now more reliably filters out video ads\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\n- Added localization support for the “Show quote numbers option”\n- Fixed the app crashing when adding more than 1 account\n\n## Localizations\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\n\n## New Contributors\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139\n* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeBird/app/pull/142\n* @sekiranunn made their first contribution in https://github.com/NeoFreeBird/app/pull/140\n\n**Full Changelog**: https://github.com/NeoFreeBird/app/compare/v7.1.1...v7.2.0",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+          "size": 259047406,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/NeoFreeBird/app/releases/tag/2.2",
+          "releaseUrl": "https://github.com/NeoFreeBird/app/releases/tag/v7.2.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
+              "filename": "com.nfb.tweak_7.2.0-1+debug_iphoneos-arm.deb",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/com.nfb.tweak_7.2.0-1%2Bdebug_iphoneos-arm.deb",
+              "platform": "linux",
+              "architecture": null,
+              "fileType": "DEB",
+              "size": 4781958,
+              "sha256": "3c85c34078c4b74f174974d4d1435d2f7ce131cf0fda238af8a4bc4630a0e301",
+              "downloads": 119,
+              "mimeType": "application/x-debian-package",
+              "installable": true
+            },
+            {
+              "filename": "com.nfb.tweak_7.2.0-1+debug_iphoneos-arm64.deb",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/com.nfb.tweak_7.2.0-1%2Bdebug_iphoneos-arm64.deb",
+              "platform": "linux",
+              "architecture": "arm64",
+              "fileType": "DEB",
+              "size": 4782026,
+              "sha256": "fbb2f2a9dc9d76c57261dbbfaa607ccc61ca66e25b6a66d23128dcac8aef9f67",
+              "downloads": 187,
+              "mimeType": "application/x-debian-package",
+              "installable": true
+            },
+            {
+              "filename": "NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 158452402,
-              "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23821,
+              "size": 259047406,
+              "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+              "downloads": 1813,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "NeoFreeBird-2.2-Twitter-11.35.ipa",
-              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35.ipa",
+              "filename": "NeoFreeBird-sideloaded-X_7.2.0_12.33.ipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-X_7.2.0_12.33.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 153108663,
-              "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22634,
+              "size": 262415275,
+              "sha256": "3af6d39257fa47568db88c9aa9f77ad7ce138688b7a00c4cd103f9944e5e5c66",
+              "downloads": 1342,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "NeoFreeBird-trollstore-Twitter_7.2.0_12.33.tipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-trollstore-Twitter_7.2.0_12.33.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 259036449,
+              "sha256": "d534a255ca3cbaebc09fec934a675728bc93fa20ca45d15dc586ca5fccf7ba8a",
+              "downloads": 181,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "NeoFreeBird-trollstore-X_7.2.0_12.33.tipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-trollstore-X_7.2.0_12.33.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 262404318,
+              "sha256": "b3e5f6b89e8dd3a12053a334cca5b0d5a9a373c2534878c0b60223bd33ba120e",
+              "downloads": 115,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23821
+          "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+          "downloads": 1813
         }
       ],
       "screenshotURLs": [
@@ -792,7 +841,7 @@
           "method": "github-release",
           "publisher": "NeoFreeBird/app",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": true
         },
         "compatibility": {
           "minOSVersion": "15.0",
@@ -810,13 +859,13 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
+          "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x+ builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
         },
         "health": {
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2025-11-03"
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     },
@@ -855,7 +904,7 @@
               "fileType": "IPA",
               "size": 10806164,
               "sha256": null,
-              "downloads": 20195,
+              "downloads": 20239,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -867,7 +916,7 @@
               "fileType": "IPA",
               "size": 3932657,
               "sha256": null,
-              "downloads": 1893,
+              "downloads": 1894,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -879,12 +928,13 @@
               "fileType": "IPA",
               "size": 4042969,
               "sha256": null,
-              "downloads": 1355,
+              "downloads": 1359,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 20195
+          "downloads": 20239,
+          "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763"
         }
       ],
       "screenshotURLs": [],
@@ -965,7 +1015,7 @@
               "fileType": "DEB",
               "size": 41230,
               "sha256": "73048c2d44806bdf34749f7743067724516098a12311fb51d1f5c37f302d697a",
-              "downloads": 933,
+              "downloads": 963,
               "mimeType": "application/vnd.debian.binary-package",
               "installable": true
             },
@@ -977,13 +1027,13 @@
               "fileType": "IPA",
               "size": 107065935,
               "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
-              "downloads": 5642,
+              "downloads": 5876,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
-          "downloads": 5642
+          "downloads": 5876
         }
       ],
       "screenshotURLs": [],
@@ -1017,7 +1067,7 @@
         "status": "stable",
         "featured": false,
         "upstreamURL": "https://codeberg.org/raincord/RainTweak",
-        "sourceURL": "https://codeberg.org/raincord/RainTweak",
+        "sourceURL": "https://github.com/ra1ncord/RainTweak",
         "verification": {
           "method": "codeberg-release",
           "publisher": "raincord/RainTweak (Codeberg)",
@@ -1085,7 +1135,7 @@
               "fileType": "DEB",
               "size": 19086,
               "sha256": "1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83",
-              "downloads": 866,
+              "downloads": 867,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
@@ -1097,7 +1147,7 @@
               "fileType": "DEB",
               "size": 19154,
               "sha256": "e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12",
-              "downloads": 869,
+              "downloads": 871,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
@@ -1109,13 +1159,13 @@
               "fileType": "IPA",
               "size": 137114565,
               "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-              "downloads": 6599,
+              "downloads": 6641,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-          "downloads": 6599
+          "downloads": 6641
         }
       ],
       "screenshotURLs": [],
@@ -1191,18 +1241,18 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
       "tintColor": "E1306C",
       "category": "social",
-      "version": "451.0.0",
-      "versionDate": "2026-10-13",
-      "versionDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
-      "size": 345086224,
+      "version": "452.0.0",
+      "versionDate": "2026-10-23",
+      "versionDescription": "Instagram 452.0.0 | Instagram-452.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 452.0.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
+      "size": 353948142,
       "versions": [
         {
-          "version": "451.0.0",
-          "date": "2026-10-13",
-          "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
-          "size": 345086224,
+          "version": "452.0.0",
+          "date": "2026-10-23",
+          "localizedDescription": "Instagram 452.0.0 | Instagram-452.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 452.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
+          "size": 353948142,
           "minOSVersion": "15.1",
           "releaseUrl": null,
           "source": "altstore",
@@ -1210,12 +1260,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Instagram-451.0.0-RyukGram.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+              "filename": "Instagram-452.0.0-RyukGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 345086224,
+              "size": 353948142,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -1284,7 +1334,7 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-22",
-          "lastUpdatedAt": "2026-10-13"
+          "lastUpdatedAt": "2026-10-23"
         }
       }
     },
@@ -1323,7 +1373,7 @@
               "fileType": "DEB",
               "size": 420364,
               "sha256": "6f480032c25f644682f9d5be9e4e4dff985856074495d9bd9552045235da1c6c",
-              "downloads": 395,
+              "downloads": 396,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -1359,7 +1409,7 @@
               "fileType": "IPA",
               "size": 74865911,
               "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
-              "downloads": 1205,
+              "downloads": 1230,
               "mimeType": "application/x-itunes-ipa",
               "installable": true
             },
@@ -1371,13 +1421,13 @@
               "fileType": "ZIP",
               "size": 354291,
               "sha256": "f47e5f1964a28d18016bf27d669bfef4f2403c1d5876bd934b6ac7c811b8f571",
-              "downloads": 21,
+              "downloads": 23,
               "mimeType": "application/x-zip-compressed",
               "installable": false
             }
           ],
           "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
-          "downloads": 1205
+          "downloads": 1230
         }
       ],
       "screenshotURLs": [
@@ -1456,13 +1506,13 @@
               "fileType": "IPA",
               "size": 6213777,
               "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
-              "downloads": 4385,
+              "downloads": 4809,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
-          "downloads": 4385
+          "downloads": 4809
         }
       ],
       "screenshotURLs": [],
@@ -1617,51 +1667,51 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/TAB.webp",
       "tintColor": "9146FF",
       "category": "social",
-      "version": "30.7",
-      "versionDate": "2026-08-14",
-      "versionDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
-      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-      "size": 152372292,
+      "version": "31.7",
+      "versionDate": "2026-10-24",
+      "versionDescription": "Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**, for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **\"🛡 ronni was timed out for 10m\"** shows up so you know what happened.\n- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.\n- Both are off by default. It only works for things that happen while you're in chat.\n\n### New: hide the \"From channels you follow\" bar\nTurn on **Hide \"From Channels You Follow\"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.\n\n### Fixed\n- The **\"Go Ad-Free\"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore / Feather source? You'll get this update automatically:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+      "size": 197800481,
       "versions": [
         {
-          "version": "30.7",
-          "date": "2026-08-14",
-          "localizedDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
-          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-          "size": 152372292,
+          "version": "31.7",
+          "date": "2026-10-24",
+          "localizedDescription": "Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**, for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **\"🛡 ronni was timed out for 10m\"** shows up so you know what happened.\n- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.\n- Both are off by default. It only works for things that happen while you're in chat.\n\n### New: hide the \"From channels you follow\" bar\nTurn on **Hide \"From Channels You Follow\"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.\n\n### Fixed\n- The **\"Go Ad-Free\"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore / Feather source? You'll get this update automatically:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+          "size": 197800481,
           "minOSVersion": "14.0",
-          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v30.7-0.1.13",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v31.7-0.1.15",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
-              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
+              "filename": "tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 143381478,
-              "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 825,
+              "size": 187321413,
+              "sha256": "d74979cb15a0c03983f065ad1d1bfd5ac45df143d9b0b9fbbebeaee7a28b500a",
+              "downloads": 13,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+              "filename": "tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 152372292,
-              "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2542,
+              "size": 197800481,
+              "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+              "downloads": 76,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2542
+          "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+          "downloads": 76
         }
       ],
       "screenshotURLs": [],
@@ -1699,7 +1749,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-08-14"
+          "lastUpdatedAt": "2026-10-24"
         }
       }
     },
@@ -1727,7 +1777,8 @@
             "https://dn720705.ca.archive.org/0/items/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa"
           ],
           "size": 135840058,
-          "minOSVersion": "16.0"
+          "minOSVersion": "16.0",
+          "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb"
         }
       ],
       "screenshotURLs": [],
@@ -1834,13 +1885,13 @@
               "fileType": "IPA",
               "size": 131398144,
               "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
-              "downloads": 137,
+              "downloads": 239,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
-          "downloads": 137
+          "downloads": 239
         }
       ],
       "screenshotURLs": [],
@@ -1942,13 +1993,13 @@
               "fileType": "IPA",
               "size": 131280986,
               "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-              "downloads": 234,
+              "downloads": 455,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-          "downloads": 234
+          "downloads": 455
         }
       ],
       "screenshotURLs": [],
@@ -2050,13 +2101,13 @@
               "fileType": "IPA",
               "size": 149834006,
               "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-              "downloads": 1145,
+              "downloads": 1896,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-          "downloads": 1145
+          "downloads": 1896
         },
         {
           "version": "21.33.6",
@@ -2078,13 +2129,13 @@
               "fileType": "IPA",
               "size": 145178333,
               "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-              "downloads": 194,
+              "downloads": 213,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-          "downloads": 194
+          "downloads": 213
         },
         {
           "version": "21.24.3",
@@ -2106,13 +2157,13 @@
               "fileType": "IPA",
               "size": 129031075,
               "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-              "downloads": 6417,
+              "downloads": 6441,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-          "downloads": 6417
+          "downloads": 6441
         },
         {
           "version": "20.21.6",
@@ -2134,13 +2185,13 @@
               "fileType": "IPA",
               "size": 115566999,
               "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-              "downloads": 312,
+              "downloads": 326,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-          "downloads": 312
+          "downloads": 326
         },
         {
           "version": "19.20.2",
@@ -2162,13 +2213,13 @@
               "fileType": "IPA",
               "size": 106247621,
               "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-              "downloads": 183,
+              "downloads": 191,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-          "downloads": 183
+          "downloads": 191
         }
       ],
       "screenshotURLs": [
@@ -2248,75 +2299,75 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "tintColor": "FF0000",
       "category": "photo-video",
-      "version": "21.41.5",
-      "versionDate": "2026-10-11",
-      "versionDescription": "YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
-      "size": 137158764,
+      "version": "21.42.4",
+      "versionDate": "2026-10-25",
+      "versionDescription": "YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking like si= from links you copy or share\n• Added options to remove items from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n• Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Blank space left when fullscreen actions are hidden\n• Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+      "size": 138006169,
       "versions": [
         {
-          "version": "21.41.5",
-          "date": "2026-10-11",
-          "localizedDescription": "YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
-          "size": 137158764,
+          "version": "21.42.4",
+          "date": "2026-10-25",
+          "localizedDescription": "YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking like si= from links you copy or share\n• Added options to remove items from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n• Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Blank space left when fullscreen actions are hidden\n• Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+          "size": 138006169,
           "minOSVersion": "17.0",
-          "releaseUrl": "https://github.com/itzzace/ytkace/releases/tag/v1.1.3",
+          "releaseUrl": "https://github.com/itzzace/ytkace/releases/tag/v1.1.4",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "com.itzzace.ytkace_1.1.3_roothide.deb",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/com.itzzace.ytkace_1.1.3_roothide.deb",
+              "filename": "com.itzzace.ytkace_1.1.4_roothide.deb",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/com.itzzace.ytkace_1.1.4_roothide.deb",
               "platform": "linux",
               "architecture": null,
               "fileType": "DEB",
-              "size": 2037774,
-              "sha256": "eb1c8e5708e975c114ab0e54fa3e25663488a3b4056cec58dfd0b74ff52f52b5",
-              "downloads": 149,
+              "size": 2070596,
+              "sha256": "859060a3e8ed2e6ed81e490e97546ed4430b0cc33ae9c6b7daa47dee4490f460",
+              "downloads": 5,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
             {
-              "filename": "com.itzzace.ytkace_1.1.3_rootless.deb",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/com.itzzace.ytkace_1.1.3_rootless.deb",
+              "filename": "com.itzzace.ytkace_1.1.4_rootless.deb",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/com.itzzace.ytkace_1.1.4_rootless.deb",
               "platform": "linux",
               "architecture": null,
               "fileType": "DEB",
-              "size": 2038226,
-              "sha256": "26d6aa39123a183879276a75673cc2e854b38e648483a7e9b709ffc0a7060755",
-              "downloads": 202,
+              "size": 2070900,
+              "sha256": "80093cf9e3b58b98201e37359e33044580a34fce09b3a3f1825c391aa4ab1603",
+              "downloads": 12,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
             {
-              "filename": "YTKACE_1.1.3_YouTube_21.41.5.ipa",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+              "filename": "YTKACE_1.1.4_YouTube_21.42.4.ipa",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 137158764,
-              "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
-              "downloads": 4683,
+              "size": 138006169,
+              "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+              "downloads": 296,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa",
+              "filename": "YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 134130360,
-              "sha256": "716650fd44633389d37b45283be2ddb189afc2d3463b3697340fc831f4bfe6a1",
-              "downloads": 440,
+              "size": 134178929,
+              "sha256": "2f36f81a50f3a6dfb86902699198d2b0f68eadad0a205debe252b2fb1da51231",
+              "downloads": 48,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
-          "downloads": 4683
+          "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+          "downloads": 296
         }
       ],
       "screenshotURLs": [
@@ -2383,7 +2434,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-11"
+          "lastUpdatedAt": "2026-10-25"
         }
       }
     },
@@ -2422,13 +2473,13 @@
               "fileType": "IPA",
               "size": 143635824,
               "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-              "downloads": 709,
+              "downloads": 749,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-          "downloads": 709
+          "downloads": 749
         }
       ],
       "screenshotURLs": [
@@ -2534,13 +2585,13 @@
               "fileType": "IPA",
               "size": 105940933,
               "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
-              "downloads": 150,
+              "downloads": 247,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
-          "downloads": 150
+          "downloads": 247
         }
       ],
       "screenshotURLs": [

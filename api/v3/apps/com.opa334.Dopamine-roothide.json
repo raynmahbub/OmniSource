@@ -1,61 +1,61 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "1571e10e1775",
   "data": {
     "name": "Dopamine (RootHide)",
     "bundleIdentifier": "com.opa334.Dopamine-roothide",
     "developerName": "roothide",
     "subtitle": "Dopamine fork that hides the jailbreak from apps",
-    "localizedDescription": "Dopamine (RootHide) is roothide's hardened Dopamine 2 build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
+    "localizedDescription": "Dopamine (RootHide) is roothide's hardened Dopamine build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/DopamineRootHide.webp",
     "tintColor": "7B4DFF",
     "category": "utilities",
-    "version": "2.4.9.27",
-    "versionDate": "2026-09-12",
-    "versionDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-    "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
-    "size": 54863273,
+    "version": "3.0.12-28",
+    "versionDate": "2026-10-24",
+    "versionDescription": "Dopamine (RootHide) 3.0.12-28 | Dopamine-2026-10-25_20-23-30\n\nroothide Dopamine 3 is now released and open source on github for everyone:\n\nhttps://x.com/roothideDev/status/2114091036318564808",
+    "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+    "size": 55497406,
     "versions": [
       {
-        "version": "2.4.9.27",
-        "date": "2026-09-12",
-        "localizedDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-        "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
-        "size": 54863273,
+        "version": "3.0.12-28",
+        "date": "2026-10-24",
+        "localizedDescription": "Dopamine (RootHide) 3.0.12-28 | Dopamine-2026-10-25_20-23-30\n\nroothide Dopamine 3 is now released and open source on github for everyone:\n\nhttps://x.com/roothideDev/status/2114091036318564808",
+        "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+        "size": 55497406,
         "minOSVersion": "15.0",
-        "releaseUrl": "https://github.com/roothide/Dopamine-roothide/releases/tag/27",
+        "releaseUrl": "https://github.com/roothide/Dopamine-roothide/releases/tag/28",
         "source": "github",
         "isPrerelease": false,
         "isDraft": false,
         "assets": [
           {
-            "filename": "Dopamine.ipa",
-            "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
+            "filename": "Dopamine-2026-10-25_20-23-30.ipa",
+            "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 54863273,
-            "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-            "downloads": 26625,
+            "size": 55497406,
+            "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+            "downloads": 1014,
             "mimeType": "application/octet-stream",
             "installable": true
           },
           {
-            "filename": "Dopamine.tipa",
-            "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.tipa",
+            "filename": "Dopamine-2026-10-25_20-23-30.tipa",
+            "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.tipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 54863273,
-            "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-            "downloads": 9155,
+            "size": 55497406,
+            "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+            "downloads": 431,
             "mimeType": "application/trollstore-ipa",
             "installable": true
           }
         ],
-        "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-        "downloads": 26625
+        "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+        "downloads": 1014
       }
     ],
     "screenshotURLs": [],
@@ -73,7 +73,7 @@
         "method": "github-release",
         "publisher": "roothide/Dopamine-roothide",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": true
       },
       "compatibility": {
         "minOSVersion": "15.0",
@@ -91,13 +91,13 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by iOS generation (26, 25, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
+        "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by generation (28, 27, 26, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
       },
       "health": {
         "downloadReachable": true,
         "detail": "HTTP 302",
         "statusSince": "2026-09-10",
-        "lastUpdatedAt": "2026-09-12"
+        "lastUpdatedAt": "2026-10-24"
       }
     },
     "id": "com.opa334.Dopamine-roothide"

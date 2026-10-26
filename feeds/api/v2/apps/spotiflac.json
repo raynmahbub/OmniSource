@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-24",
-  "feedVersion": "dc3a0fc423f4",
+  "generatedAt": "2026-10-25",
+  "feedVersion": "32b3b24e99c0",
   "app": {
     "id": "spotiflac",
     "name": "Mornye",
     "developer": "zarzet",
     "subtitle": "Local music library, FLAC player and tag editor",
-    "bundleIdentifier": "com.zarz.spotiflacAndroid",
+    "bundleIdentifier": "com.zarz.mornye",
     "version": "5.2.6",
     "versionDate": "2026-10-23",
     "description": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
@@ -16,7 +16,7 @@
     "tags": [
       "music"
     ],
-    "icon": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
+    "icon": "https://raynmahbub.github.io/OmniSource/assets/Mornye.webp",
     "screenshots": [
       "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png",
       "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-dark.png"
@@ -26,7 +26,7 @@
     "source": "mornyeapp/Mornye",
     "sourceURL": "https://github.com/mornyeapp/Mornye",
     "checksum": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
-    "checksumPublished": false,
+    "checksumPublished": true,
     "minOSVersion": "16.0",
     "status": "stable",
     "featured": true,

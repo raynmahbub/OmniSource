@@ -12,11 +12,13 @@ if str(_SRC) not in sys.path:
 import unittest
 from unittest.mock import MagicMock
 
-from omnisource.domain import RepositoryRef, SourceType
+from omnisource.domain import RemoteAsset, RemoteRelease, RepositoryRef, SourceType
 from omnisource.http import HttpClient
 from omnisource.providers.feed import AltStoreFeedProvider
 from omnisource.providers.github import GitHubReleasesProvider
 from omnisource.providers.registry import build_default_registry
+from omnisource.tracking import matched_release_dates
+from omnisource.utils.dates import average_update_gap_days, version_dates
 
 
 class TestProviders(unittest.TestCase):
@@ -90,6 +92,100 @@ class TestProviders(unittest.TestCase):
         releases = provider.fetch_releases(ref)
         self.assertEqual(len(releases), 1)
         self.assertEqual(releases[0].tag, "2.0.0")
+
+    def test_generic_feed_provider_missing_app_id_does_not_leak_sibling_apps(self) -> None:
+        self.http_mock.get_json.return_value = {
+            "name": "Multi App Source",
+            "identifier": "com.multi.source",
+            "apps": [
+                {
+                    "name": "Reddit (RedditFilter)",
+                    "bundleIdentifier": "com.reddit.Reddit",
+                    "versions": [
+                        {
+                            "version": "2026.42.1",
+                            "date": "2026-10-21",
+                            "downloadURL": "https://example.com/Reddit.ipa",
+                            "size": 100000,
+                        }
+                    ],
+                },
+                {
+                    "name": "Swiftgram (MxGram)",
+                    "bundleIdentifier": "app.swiftgram.ios.mx",
+                    "versions": [
+                        {
+                            "version": "13.0",
+                            "date": "2026-10-13",
+                            "downloadURL": "https://example.com/Swiftgram.ipa",
+                            "size": 90000,
+                        }
+                    ],
+                },
+            ],
+        }
+        provider = AltStoreFeedProvider(self.http_mock)
+        missing_ref = RepositoryRef(
+            provider=SourceType.ALTSTORE,
+            feed_url="https://example.com/multi.json",
+            app_id="com.facebook.Facebook.glow",
+        )
+        self.assertEqual(provider.fetch_releases(missing_ref), [])
+
+        matched_by_name = RepositoryRef(
+            provider=SourceType.ALTSTORE,
+            feed_url="https://example.com/multi.json",
+            app_id="Swiftgram (MxGram)",
+        )
+        releases = provider.fetch_releases(matched_by_name)
+        self.assertEqual(len(releases), 1)
+        self.assertEqual(releases[0].tag, "13.0")
+
+    def test_matched_release_dates_feeds_cadence_series(self) -> None:
+        ref = RepositoryRef(provider=SourceType.GITHUB_RELEASES, repo="owner/repo")
+        releases = [
+            RemoteRelease(
+                tag="v1.2.0",
+                name="v1.2.0",
+                body="",
+                published_at="2026-10-15T10:00:00Z",
+                prerelease=False,
+                draft=False,
+                assets=[
+                    RemoteAsset(
+                        name="App.ipa",
+                        download_url="https://example.com/App-1.2.0.ipa",
+                        size=1000,
+                    )
+                ],
+            ),
+            RemoteRelease(
+                tag="v1.1.0",
+                name="v1.1.0",
+                body="",
+                published_at="2026-10-05T10:00:00Z",
+                prerelease=False,
+                draft=False,
+                assets=[
+                    RemoteAsset(
+                        name="App.ipa",
+                        download_url="https://example.com/App-1.1.0.ipa",
+                        size=1000,
+                    )
+                ],
+            ),
+        ]
+        dates = matched_release_dates(ref=ref, releases=releases)
+        self.assertEqual(dates, ["2026-10-05", "2026-10-15"])
+        state = {
+            "testapp": {
+                "versions": [{"version": "1.2.0", "date": "2026-10-15"}],
+                "releaseDates": dates,
+            }
+        }
+        parsed = version_dates(state, "testapp", include_history=True)
+        self.assertEqual(len(parsed), 2)
+        self.assertEqual(average_update_gap_days(state, "testapp", include_history=True), 10.0)
 
 
 if __name__ == "__main__":

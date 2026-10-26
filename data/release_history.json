@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T05:19:25Z",
+  "generatedAt": "2026-10-25T23:20:10Z",
   "appCount": 128,
-  "releases": 355,
+  "releases": 368,
   "apps": {
     "3105": [
       {
@@ -44,7 +44,7 @@
         "date": "2022-11-26",
         "downloadURL": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa",
         "size": 782388,
-        "sha256": "",
+        "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
         "localizedDescription": "AirTroller 1.1.1 | TrollStore\n\n- Fix a slow send bug introduced in 1.1\n\n♡ Support - https://ko-fi.com/sourcelocation",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -56,7 +56,7 @@
         "date": "2025-05-27",
         "downloadURL": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa",
         "size": 96650,
-        "sha256": "",
+        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
         "localizedDescription": "Animation Speed 1.0.1 | TrollStore\n\n1. Limit the speed to [0~10]\n\nZh:\n1. 限制设置速度为[0~10]",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -68,7 +68,7 @@
         "date": "2025-03-04",
         "downloadURL": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa",
         "size": 3026218,
-        "sha256": "",
+        "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7",
         "localizedDescription": "AnimeGen 3.0.0 | AnimeGen\n\n# Finally AnimeGen v3.0.0. is here!\n\nTook me a bit but i finally recoded the app completely. No new sources but they were all improved a lot. \nSome sources got removed since they were not working at lot for a lot of time.\n\nThe UI now is more simple and made to work all on the bottom of the screen.\nThe app size is now 3 times smaller. The only real issue anyone could find is that it cant save .gif images yet.\n\nYou can either sideload the ipa or install AnimeGen via [TestFlight](https://testflight.apple.com/join/jqx2hEkN)\n\n> [!Important]\n> The NSFW option has been removed and it will **never return back**",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -88,13 +88,23 @@
     ],
     "anymex": [
       {
+        "version": "3.1.9",
+        "date": "2026-10-25",
+        "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa",
+        "size": 81113053,
+        "sha256": "057dbcd47f9e6c56ce57d88934450c7557b4d4c848e731961466cb79a1615b1d",
+        "localizedDescription": "AnymeX 3.1.9 | AnymeX-iOS-v3.1.9\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/80f279c6) enhanced downloads ui and ux by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9c04ca66) runtime bridge support for IOS (thanks to dartotsu) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9a109267) mpv config, some fixes and ui changes by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/538c3538) torrent download support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/55b6b13f) online subtitles back again by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/07b88757) audio delay support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/429a43ee) cold cache for instant load by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1a21ab40) network settings (dns, proxy, tls ts) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5d44cc54) donation page for my broke ass by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b6131248) markdown, reply support, moderation tools, and settings UI notifications & unread badges (comments) (#416) by @Shebyyy\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5c6465d5) kotatsu, aniyomi backup support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/8346d033) backup and restore full support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/3bc096c2) addons support (torrent) = practically nothing changes just 1 extra step for torrent by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6a91e1ef) dock drag-to-reorder and history card poster navigation to details (#595) by @Shebyyy\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e4d0b981) fixed duplicate media entry, nearest download bug, overall enhancement by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/fb6b505a) fixed ios flashing during navigation by @RyanYuuki\n- [֍](https",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "3.1.8",
         "date": "2026-09-20",
         "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.8/AnymeX-iOS-v3.1.8.ipa",
         "size": 39830598,
         "sha256": "b844eba2cde7ea276aeb79fc5ae5ee47c257eba7d9f3b49eae0af96ab13389b2",
         "localizedDescription": "AnymeX 3.1.8 | AnymeX-iOS-v3.1.8\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/84601c75) full cast support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/a8d6b9db) option to hide/show continue watching by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5b39e824) enhanced orientation control by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d2c4fd5c) Full download support on metadata services, lots of fixes by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d1e44740) continue watching bar on home by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6f030199) improved episode releases cards by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/64de01b2) fcm support so i can notify users anytime i want by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/ff1551de) external font support (bring your own font for the entire app) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/674b53a6) add Smoke Trace logo animation, custom animated logo support (#578) by @Shebyyy\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/ec836e49) persistent ui mode on wrong title sheet and fix title not showing up fully by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9d7868f7) discord rpc settings by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d10a6f0c) custom font import for subtitles font style by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e2cbbe56) proper progress, total released total episode count in cards by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9fd0c0b2) proper message handler for anilist errors by @RyanYuuki\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/79e96c3c) repeated search calls on errror fixed by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9605b5f1) fixed tracking issues and new episode release stale states by @RyanYuuki\n- [֍](https",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-21T13:12:18Z"
       },
       {
@@ -110,13 +120,23 @@
     ],
     "apollo": [
       {
+        "version": "4.0.0",
+        "date": "2026-10-25",
+        "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
+        "size": 97618297,
+        "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
+        "localizedDescription": "Apollo 4.0.0 | Apollo-Reborn-4.0.0\n\n### Features\n\n- Add **iPhone Duo** support with layouts that adapt to the closed display, open portrait, open landscape and partially folded positions, using the existing Apollo Reborn builds (#1245: @IllIIllIllIllII)\n  - Browse a feed beside its comments, choose Original or Focused content widths, and open the subreddit list in a Standard or Liquid Glass panel\n  - Inbox, Account and Settings gain sidebar/detail layouts in open landscape, while Search can keep results beside the page you open\n  - Pixel Pals is unavailable on Duo; regular iPhones keep it\n- Add an optional **iPad Layout (Beta)** on iPadOS 18 and later, with a native sidebar, adjustable feed and reader columns, and full-width Gallery View (#1385: @jordanearle)\n  - Try it from the one-time invitation or turn on iPad Layout under Interface; quit and reopen Apollo to apply it, or turn it off to return to the classic layout\n- Add **Restore Reading Session** to reopen your last feed, post and nearby reading position after iOS closes Apollo, including feed and comment sorting (#1441: @Thetromboneman1)\n  - On by default under Media → Browsing; explicit links and notifications take priority, and turning it off deletes the saved session\n- Add a **Setup Assistant** for new installations to connect or restore, choose Classic, Balanced or Full Featured preferences, select appearance, and review before applying (#1401: @jordanearle)\n  - Existing users can open it from Apollo Reborn settings with Keep My Settings selected; updating does not automatically apply a preset\n- Rework **Gallery View** with faster opening, pinch-to-resize tiles including a denser four-column layout, and native press-and-hold menus in the grid and fullscreen viewer (#1389, #1434: @icpryde, @IllIIllIllIllII)\n  - Sports clips can play silently in the grid, newly visible tiles start reliably, and returning from a fullscreen image no longer leaves a black screen\n- Open **Gallery View** for All Saved or a selec",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "3.9.0",
         "date": "2026-10-09",
         "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa",
         "size": 97026669,
         "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
         "localizedDescription": "Apollo 3.9.0 | Apollo-Reborn-3.9.0\n\n### Features\n\n- Add an **in-app update prompt**: from the next release on, Apollo Reborn checks for updates once a day and, when one is out, lets you send it to AltStore, SideStore, Feather, or FlareStore or download the IPA, with the release notes a tap away (#1343: @IllIIllIllIllII)\n  - Tap **Later** or **Skip this version** to put it off, check any time with **Check for Updates** (About), or turn off **Automatic Update Checks** (Privacy, on by default); jailbreak installs don't check\n  - What's New now shows the app icon you picked instead of the default one\n- Open the **subreddit switcher** as a native sheet when you tap a feed's title, with search, your favorites, and live results, instead of the small floating dropdown; typing a multireddit like apple+iphone still works (#1313, #1387: @IllIIllIllIllII)\n  - Press and hold the **Posts** tab to open it while a feed is open, now on Liquid Glass too, and the search field stays in place as you scroll the sheet\n- Add a **Liquid Glass** switch (Interface → Appearance, on by default) so Liquid Glass builds can use Apollo's classic look without installing a different IPA; quit and reopen Apollo for the change to apply (#1384: @IllIIllIllIllII)\n  - Shown on Liquid Glass builds on iOS 26 and later, except inside LiveContainer; while it's off, Liquid Glass-only options are hidden\n- Add a **Minimize** Hide Style for **Hide Bars on Scroll** (Interface → Tab Bar, Liquid Glass) that shrinks the tab bar into a small glass pill showing the current tab as you scroll, like Safari; tap the pill or scroll back up to bring the full bar back (#1349, #1384: @IllIIllIllIllII)\n  - With any Hide Style on Liquid Glass, a tab bar or header hidden by scrolling now slides back in when you open a page or go back or forward, and the tab bar no longer comes back on its own after 30 seconds\n- Add **Reduce Rate Limiting** (Accounts & API Keys → Experimental, off by default) so **API-Key-Free** accounts hit Reddi",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-10T12:55:26Z"
       },
       {
@@ -212,7 +232,7 @@
         "date": "2025-05-14",
         "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
         "size": 228416558,
-        "sha256": "",
+        "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453",
         "localizedDescription": "BHInstagram 1.2 | bhinsta_sideloaded\n\nUpdate 2.1:\n- Fix downloading Reels in lasted versions.\n- Fix Removing Ads in Reels.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -224,7 +244,7 @@
         "date": "2025-05-13",
         "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
         "size": 167001383,
-        "sha256": "",
+        "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
         "localizedDescription": "BHTwitter 4.4 | BHTwitter-sideloaded\n\nUpdate BHTwitter 4.4:\n- Fix all the crashes in the newer versions.\n- Add the new tabs to the hide page.\n- New feature: DM replay later page and tags.\n- New feature: Upload 4K media.\n- New feature: Voice feature in posts and replies.\n- Update the localizations.\n- Remove unnecessary options.\n\nThanks for:\n- @actuallyaridan\n- @Tulugaak",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -282,7 +302,7 @@
         "date": "2023-12-19",
         "downloadURL": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa",
         "size": 1058266,
-        "sha256": "",
+        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
         "localizedDescription": "CAPerfHUD 1.0.2 | TrollStore\n\nHOTFIX 2: Electric Boogaloo\n- Fix labels not displaying correctly on light mode",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -294,7 +314,7 @@
         "date": "2023-01-23",
         "downloadURL": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
         "size": 574441,
-        "sha256": "",
+        "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
         "localizedDescription": "CarTube 1.3 | CarTube\n\nBig Fixes + Some Features Update!\n- Much smoother experience\n- Swipe left or right anywhere on the screen to go Back or Forward\n- Native m.youtube.com player, so ALL videos should work plus comments and playlists, and should be all around smoother\n- New \"Play on CarPlay\" share extension, works with YouTube app\n- Zoom in settings works better and scales content correctly\n- Added age restriction bypass\n- Added ad blocker (beta)\n- Fixed awful scrolling\n- Fixed Google signin page zoom\n- Fixed the buggy keyboard bar\n- Small fixes to the persistence helper, Siri no longer breaks it",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -456,7 +476,7 @@
         "date": "2023-05-29",
         "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
         "size": 16288960,
-        "sha256": "",
+        "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c",
         "localizedDescription": "Cowabunga 10.3.2 | Cowabunga\n\n- Changing carrier bar strength now works when you do not have a sim card (or dual sim for secondary carrier)",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -468,7 +488,7 @@
         "date": "2024-07-11",
         "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
         "size": 87734964,
-        "sha256": "",
+        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
         "localizedDescription": "Delta 1.6 | Delta_1_6\n\n## New\n\nApp Icon\n* Brand new legally-compliant app icon (thanks Caroline Moore!)\n* Includes alternative app icons designed by community members:\n* \"Halogenide\" by Sebastiaan de With\n* \"Ketchup\" by Ben McCarthy\n* \"Microchip\" by Sean Fletcher\n\niPad Support\n* Play games full screen on iPad's beautiful display\n* Brand new controller skins designed specifically for iPad (thanks Caroline Moore!)\n* Supports multiple windows in Stage Manager and Split View\n* Automatically pauses games when switching windows (optional)\n\nHandoff\n* Seamlessly switch between iPhone and iPad\n* Continues playing exactly where you left off\n* Also supports Delta on Apple Silicon Macs via Mac App Store\n\nmelonDS 0.9.5\n* Improves DS game compatibility & performance\n* BIOS files are now optional!\n* Supports \"inserting\" GBA games into DS dual-slot\n* Increased Fast Forward speed to 3x (A15 processor or later)\n\nMenu Button Gestures\n* Use gestures while holding menu button to perform quick actions\n* Menu + Horizontal Swipe: Fast Forward\n* Menu + Any Button: Hold Button\n* Menu + Double-Tap: Quick Save\n* Menu + Long-Press: Quick Load\n\nExperimental Features\n* New section in Settings for features by third-party contributors\n* Features are WIP and should be used at user’s discretion\n* Available for Patrons on \"Beta Access\" tier or higher\n\nSave States\n* Sort save states by name\n* View all incompatible screenshots on a separate screen\n* Export save states to import into other emulators\n\n“Display Full Screen” AirPlay Setting\n* Control whether Delta shows games full screen on external displays\n* Disable to use multiple windows on external display with Stage Manager\n\nMisc.\n* Supports Game Mode on iOS 18+\n* Increased DS screen size for default edge-to-edge iPhone landscape skin\n\n## Fixed\n\n* Fixed exporting save file without file extension\n* Fixed interface rotating when playing WarioWare: Twisted!\n* Fixed Pokemon Black & White (2) freezing with C-Gear enabled",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -530,13 +550,23 @@
     ],
     "dopamine-roothide": [
       {
+        "version": "3.0.12-28",
+        "date": "2026-10-24",
+        "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+        "size": 55497406,
+        "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+        "localizedDescription": "Dopamine (RootHide) 3.0.12-28 | Dopamine-2026-10-25_20-23-30\n\nroothide Dopamine 3 is now released and open source on github for everyone:\n\nhttps://x.com/roothideDev/status/2114091036318564808",
+        "status": "current",
+        "firstSeen": "2026-10-25T23:20:10Z"
+      },
+      {
         "version": "2.4.9.27",
         "date": "2026-09-12",
         "downloadURL": "https://github.com/roothide/Dopamine2-roothide/releases/download/27/Dopamine.ipa",
         "size": 54863273,
         "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
         "localizedDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-        "status": "removed",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       },
       {
@@ -546,7 +576,7 @@
         "size": 54863273,
         "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
         "localizedDescription": "Dopamine (RootHide) 2.4.9.27 | Dopamine\n\n1: some improvements and fixes\n\n2: hide more jailbreak traces",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-17T11:04:14Z"
       }
     ],
@@ -556,7 +586,7 @@
         "date": "2023-02-02",
         "downloadURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
         "size": 915515,
-        "sha256": "",
+        "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
         "localizedDescription": "DynamicCow 1.1 | DynamicCow",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -580,7 +610,7 @@
         "date": "2025-02-21",
         "downloadURL": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa",
         "size": 362372,
-        "sha256": "",
+        "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9",
         "localizedDescription": "EnableQUIC 1.2.4 | TrollStore\n\n1. Bug fix #4, Improve the process of 'Restore default settings'. Firstly, restore the default configuration from the backup after improvement. If the backup configuration file does not exist, use the built-in rules to restore the default settings.\n\nAdvanced settings to enable:\nClick the icon at the top of the app 5 times, then shake the device to open Advanced Mode.  \n\nZh:\n1. 修复#4，改进恢复默认设置流程，改进后先从备份中恢复默认配置，如果备份的配置文件不存在，则使用内置规则恢复默认设置。  \n\n开启流程（普通用户）：启用->注销  \n关闭流程（普通用户）：恢复默认->注销  \n**App无需保留后台，设置成功后即可关闭App**  \n\n高级设置仅供了解原理的用户使用，您可以自定义每一项的设置，如果您不知道这些开关的含义，请使用默认设置  \n高级设置开启方法：\n点击App顶部的图标5次，然后摇晃下设备，即可打开高级模式  \n开启流程（高级用户）：启用->注销(可省略)->锁定文件权限->注销  \n关闭流程（高级用户）：解锁文件权限->恢复默认->注销  \n**卸载App或抹除/升级设备系统之前请解锁文件权限，以防止出现未知错误**",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -660,7 +690,7 @@
         "size": 149902625,
         "sha256": "",
         "localizedDescription": "Facebook 2026.42.0 | Reddit-2026.42.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.42.0",
-        "status": "current",
+        "status": "removed",
         "firstSeen": "2026-10-21T12:13:23Z"
       },
       {
@@ -718,9 +748,9 @@
         "date": "2026-09-05",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
         "size": 226667533,
-        "sha256": "",
-        "localizedDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nIPA Vault build for Facebook (Glow), version 577.1",
-        "status": "superseded",
+        "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
+        "localizedDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected into Facebook 577.1.",
+        "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -742,7 +772,7 @@
         "date": "2024-06-03",
         "downloadURL": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
         "size": 6305751,
-        "sha256": "",
+        "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
         "localizedDescription": "Hanami 0.28.2 | Hanami\n\n# Fixes\n- fixed crash #10\n- bump package versions",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -754,7 +784,7 @@
         "date": "2024-02-13",
         "downloadURL": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa",
         "size": 4168281,
-        "sha256": "",
+        "sha256": "120a6c1002885d6c3ac1b8dbbe62cc91b66c8bd79955f3034a191dec93fc77fd",
         "localizedDescription": "Helium 3.2.5 | TrollStore\n\nMassive merge of features from [AsakuraFuuko's repo](https://github.com/AsakuraFuuko/Helium)\n\n**Top features from v3.0.0-v3.2.5 include:**\n- Landscape mode now works properly!\n- Massive improvements to the adaptive color functionality\n- Choosing the text font\n- Option for italic text\n- Update interval can be controlled for each widget\n- New weather widget (must set your own API key)\n- Enabling and disabling widget sets\n- HUD now updates widget sets without having to restart the HUD\n- Option for a debug border around the widgets\n- Date locale fixes for Chinese users\n- Chinese translation\n- A whole lot of other improvements/fixes\n\nOnce again, thank you so much to AsakuraFuuko for this huge update. I would like to welcome them to the development team, where they will hopefully continue to update the app! Keep an eye out for this up-and-coming dev 👀",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -768,7 +798,7 @@
         "size": 139224713,
         "sha256": "",
         "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-iQTele\n\nIPA Vault build for iMe (iQTele), version 12.8.1",
-        "status": "current",
+        "status": "removed",
         "firstSeen": "2026-10-10T12:55:26Z"
       },
       {
@@ -776,9 +806,9 @@
         "date": "2026-09-01",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
         "size": 148174542,
-        "sha256": "",
-        "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nIPA Vault build for iMe (MxGram), version 12.8.1",
-        "status": "removed",
+        "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
+        "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nMxGram v3.8 injected into iMe 12.8.1.",
+        "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -888,13 +918,23 @@
     ],
     "iqface": [
       {
+        "version": "584.1.0",
+        "date": "2026-10-23",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
+        "size": 241651824,
+        "sha256": "",
+        "localizedDescription": "Facebook 584.1.0 | Facebook-584.1.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.1.0",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "584.0.0",
         "date": "2026-10-18",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa",
         "size": 239358167,
         "sha256": "",
         "localizedDescription": "Facebook 584.0.0 | Facebook-584.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-19T13:49:12Z"
       },
       {
@@ -998,7 +1038,7 @@
         "date": "2024-01-12",
         "downloadURL": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa",
         "size": 3718662,
-        "sha256": "",
+        "sha256": "ded952869d151799271a31534f0d3ac2de18399171fba0c4351132eecf82bd48",
         "localizedDescription": "iTransmission 1.0.0 | iTransmission\n\nThe very first release of iTransmission app for iOS.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -1090,7 +1130,7 @@
         "date": "2022-12-12",
         "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
         "size": 52332306,
-        "sha256": "",
+        "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
         "localizedDescription": "MAME4iOS 2022.5 | MAME4iOS-2022.5-139\n\n* Updated to [MAME 250](https://www.mamedev.org/releases/whatsnew_0250.txt).\n* tvOS UX: use a Alert instead of a inline Segmented Control.\n* Show upload feedback in Web Server UX.\n* Added `Make First Favorite` to game context menu.",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -1312,7 +1352,7 @@
         "date": "2024-07-09",
         "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
         "size": 668434,
-        "sha256": "",
+        "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4",
         "localizedDescription": "Mini vMac 2.6 | minivmac4ios-2.6\n\n* Added 512×384 variant of Mac II\n* Requires iOS 13.4\n    * Dropping 32-bit support (iOS 9) made the app smaller\n* Prefer pixel-perfect scaling when display scaling filter is set to nearest\n* Auto-hide iOS home indicator\n* Partially fix some command-key shortcuts going to iOS instead of the emulated Mac (#45)\n    * ⌘-w and most others will get passed to the emulated machine if it's running\n    * ⌘-q and ⌘-h don't seem interceptable, the app doesn't receive any key events for them, but ⌘-q doesn't do anything (or maybe it does in some other configuration?), and ⌘-h will take you to the home screen\n* visionOS support (only tested in simulator)\n\n**Full Changelog**: https://github.com/zydeco/minivmac4ios/compare/v2.5...v2.6",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -1440,7 +1480,7 @@
         "date": "2022-11-10",
         "downloadURL": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
         "size": 3889341,
-        "sha256": "",
+        "sha256": "df6d6273ccb7bb77d4de9426822f68b343890ea180992fdecffe822706c9f636",
         "localizedDescription": "Mugunghwa 3.0.2 | Mugunghwa\n\nFixed crashes.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -1480,13 +1520,23 @@
     ],
     "neofreebird": [
       {
+        "version": "7.2.0",
+        "date": "2026-10-16",
+        "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+        "size": 259047406,
+        "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+        "localizedDescription": "Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33\n\n# Version 7.2.0\n\n## New Features\n- Added an option to choose the default reply sort\n- Updated X to 12.33\n- Added an option to hide retweets and quotes from the “For You” page\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\n- Brought back the Tweet source labels!\n- Removed the “Money” tab\n- Enabling the option to hide views now also hides it in the tweet footer.\n\n## Fixes\n- Fixed more webview issues\n- NeoFreeBird now more reliably filters out video ads\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\n- Added localization support for the “Show quote numbers option”\n- Fixed the app crashing when adding more than 1 account\n\n## Localizations\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\n\n## New Contributors\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\n* @ipapplus made their first contribution in https://",
+        "status": "current",
+        "firstSeen": "2026-10-25T23:20:10Z"
+      },
+      {
         "version": "2.2",
         "date": "2025-11-03",
         "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
         "size": 158452402,
         "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
         "localizedDescription": "Twitter 2.2 | NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin\n\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\n\n### Change log:\n\n**Twitter, version 11.35:**\n- Updated the Twitter build to 11.35\n\n**NeoFreeBird, version 2.2:**\n- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]\n- Localized the Post > Tweet replacer\n- Improved the Open in Twitter extension\n- Minor bug fixes and other minor improvements\n\nThere are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you’re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.\n\nIf you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -1822,7 +1872,7 @@
         "date": "2023-04-04",
         "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
         "size": 27204395,
-        "sha256": "",
+        "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
         "localizedDescription": "Odyssey 1.4.3 | Odyssey-1.4.3\n\n- Update Sileo to 2.3-1",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -1904,13 +1954,23 @@
     ],
     "otraku": [
       {
+        "version": "1.13.1",
+        "date": "2026-09-22",
+        "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
+        "size": 10342358,
+        "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+        "localizedDescription": "Otraku 1.13.1 | Otraku-v.1.13.1-ios17+\n\n- Added localizations support.\n- Added Turkish localization (thanks @kyoyacchi).\n- Unfinished messages are persisted in storage, so mistakenly closing the sheet won't cause you to loose your progress (thanks @0-BlackSpectrum-0).\n- Added progress and repeats info to the following tab in the media page. (thanks @0-BlackSpectrum-0).\n- Added \"Watchable On\"/\"Readable On\" filter in discover filters for anime/manga.\n- Added support for underline formatting.\n- Added support for the \"Same Universe\" media relation.\n- Made all markdown content selectable: activities, replies, threads, comments, user/character/staff bios, reviews and media descriptions.\n- Expanded images now have a menu with buttons to download the image or share it (thanks @0-BlackSpectrum-0).\n- The copy button in the link sheet was replaced by a share button.\n- Fixed the last item in the collection list sheet being cut off.\n- Fixed incorrect marker clipping of unread notifications (thanks @0-BlackSpectrum-0).\n- Fixed markdown not being rendered in list notes.\n- Fixed the back button briefly appearing on some tabs of the home page.",
+        "status": "current",
+        "firstSeen": "2026-10-25T23:20:10Z"
+      },
+      {
         "version": "1.12.1",
         "date": "2026-03-20",
         "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
         "size": 9414861,
         "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
         "localizedDescription": "Otraku 1.12.1 | Otraku-v.1.12.1-ios15+\n\n- Added support for the new AniList notification types, which fixes the recent app errors.\n- Media activity filter has a \"Self\" option now (thanks @0-BlackSpectrum-0).\n- Bar charts in user/media statistics are not horizontal, more compact and more informative (thanks @0-BlackSpectrum-0).\n- Buttons on the user page are now a grid (thanks @0-BlackSpectrum-0).\n- Android app icon changes depending on light/dark mode (thanks @0-BlackSpectrum-0).\n- Fixed the status bar tint on older android versions (thanks @0-BlackSpectrum-0).\n- Fixed layout issues with the text being cut off.",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -1968,7 +2028,7 @@
         "date": "2024-11-23",
         "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
         "size": 10806164,
-        "sha256": "",
+        "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
         "localizedDescription": "PureKFD 6.0.2 | PureKFD\n\n- more optimization\n- more syncing for accents\n- new repo\n- fixed individual tweak restore",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -2128,13 +2188,23 @@
     ],
     "ryukgram": [
       {
+        "version": "452.0.0",
+        "date": "2026-10-23",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
+        "size": 353948142,
+        "sha256": "",
+        "localizedDescription": "Instagram 452.0.0 | Instagram-452.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 452.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "451.0.0",
         "date": "2026-10-13",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
         "size": 345086224,
         "sha256": "",
         "localizedDescription": "Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault build for Instagram (RyukGram), version 451.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-14T12:15:35Z"
       },
       {
@@ -2234,13 +2304,23 @@
     ],
     "saber": [
       {
+        "version": "1.36.4",
+        "date": "2026-10-24",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa",
+        "size": 37254734,
+        "sha256": "e1c8932fbe8d8cd4df3dc2177a1fe038f353067600b90f3d2399b68b68928082",
+        "localizedDescription": "Saber 1.36.4 | Saber_v1.36.4\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Minor UI improvements\n- Minor memory efficiency improvements #1858\n- A security fix\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.3...v1.36.4",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "1.36.3",
         "date": "2026-10-19",
         "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa",
         "size": 37736807,
         "sha256": "85a3ccb2f2c5c69a6bffaa848d82c43bc9874c8907b8a9a09ba39d23cc9179b1",
         "localizedDescription": "Saber 1.36.3 | Saber_v1.36.3\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Various visual improvements, including an Adwaita-inspired navigation bar for the Linux version of Saber\n- Fixed a deduplication bug causing many copies of PDF files to be saved #1856 \n- Fixed a bug preventing Saber from responding to light/dark mode switches on Linux\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-20T11:57:48Z"
       },
       {
@@ -2292,7 +2372,7 @@
         "date": "2024-12-31",
         "downloadURL": "https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa",
         "size": 2786937,
-        "sha256": "",
+        "sha256": "5ea276d7c5230b4eb17dd03fae0b23333d505a05dd82c08ae2a66f46b75d9ec0",
         "localizedDescription": "SecondHand 1.3.1 | TrollStore\n\n- Fixed applying on iOS 17.0+ (hopefully)\n  - Reverts to using the iOS 16.1 offsets",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -2304,7 +2384,7 @@
         "date": "2024-01-17",
         "downloadURL": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
         "size": 14986482,
-        "sha256": "",
+        "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b",
         "localizedDescription": "Serotonin 1.2.1 | Serotonin.tipa\n\n# Serotonin 1.2.1\n## Changelog\n### Cleanup\n\n- Fixed memory hogger\n- Fixed exploit picker\n- Fixed launchd entitlements\n- Remove a bunch of unused code\n- Slight UI changes",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -2568,7 +2648,7 @@
         "date": "2023-02-08",
         "downloadURL": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa",
         "size": 1218528,
-        "sha256": "",
+        "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
         "localizedDescription": "StatusMagic 1.0.2 | StatusMagic\n\nEven in the best tested code, mistakes slip through. Sorry for such a hasty update.\n\n## Changes\n- Fixed \"Hide DND\" on iOS 15 (I accidentally left experimental code in there that enabled every single status bar icon, see #12) \n- And... that's it. Sorry!\n\n## Installation\n- iOS 14.*: Install the app with [TrollStore](https://github.com/opa334/TrollStore)\n- iOS 15.0 - 15.4.1: Install the app with [TrollStore](https://github.com/opa334/TrollStore) (recommended), [AltStore](https://altstore.io/), or [Sideloadly](https://sideloadly.io/)\n- iOS 15.5 - 16.1.2: Install the app with [AltStore](https://altstore.io/) or [Sideloadly](https://sideloadly.io/) (excludes iOS 15.7.2 & 15.7.3)\n- iOS 16.2+: Not supported, and never will be\n\n> __Warning__ ESign has been known to have issues. To avoid it, use other installation methods.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -2642,7 +2722,7 @@
         "date": "2025-02-23",
         "downloadURL": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
         "size": 7141231,
-        "sha256": "",
+        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
         "localizedDescription": "StikNES 2.0.2 | StikNES\n\nFixed some crashes and removed the network requirement.",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -2682,13 +2762,23 @@
     ],
     "swiftgram": [
       {
+        "version": "13.0",
+        "date": "2026-10-13",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
+        "size": 97568937,
+        "sha256": "",
+        "localizedDescription": "Swiftgram 13.0 | Swiftgram-13.0-MxGram\n\nIPA Vault build for Swiftgram (MxGram), version 13.0",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "12.9.4",
         "date": "2026-10-03",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
         "size": 77976994,
         "sha256": "",
         "localizedDescription": "Swiftgram 12.9.4 | Swiftgram-12.9.4-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.4",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-03T11:55:46Z"
       },
       {
@@ -2792,7 +2882,7 @@
         "date": "2023-09-23",
         "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
         "size": 32244737,
-        "sha256": "",
+        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
         "localizedDescription": "Taurine 1.1.7 | Taurine.1.1.7-3\n\nFix kfd change being implemented incorrectly",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -2800,13 +2890,23 @@
     ],
     "telegram-mxgram": [
       {
+        "version": "13.1.1",
+        "date": "2026-10-23",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
+        "size": 88831869,
+        "sha256": "",
+        "localizedDescription": "Telegram 13.1.1 | Telegram-13.1.1-MxGram\n\nIPA Vault build for Telegram (MxGram), version 13.1.1",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "13.1",
         "date": "2026-10-20",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
         "size": 81155632,
         "sha256": "",
         "localizedDescription": "Telegram 13.1 | Telegram-13.1-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.1",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-21T12:13:23Z"
       },
       {
@@ -2962,7 +3062,7 @@
         "date": "2024-09-12",
         "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
         "size": 6889214,
-        "sha256": "",
+        "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
         "localizedDescription": "TrollInstallerX 1.0.3 | TrollInstallerX\n\n# TrollInstallerX v1.0.3\n\n## Changes:\n* Update for Xcode 15.4+ compilation (fixes #25)\n* Added a temporary fix for yellow iPhone 14 (Plus) devices on iOS 16.3, please use `TrollInstallerX-20D50.ipa` (fixes #33)\n* Removing confusing logging around exploit deinitialisation (e.g. #11)\n* Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2 (should, in theory, fix #21)\n\n**Note**: A8 devices on iOS 15.2+ will not be supported until a future release of TrollInstallerX. Furthermore, support for arm64e (A12+) devices on early iOS 17.0 betas is not planned, unless someone else would like to implement it. You can now use [TrollRestore](https://github.com/JJTech0130/TrollRestore) for both of these cases.\n\n# DO NOT DOWNLOAD THE 20D50 IPA UNLESS YOU HAVE A YELLOW IPHONE 14 (PLUS) ON IOS 16.3.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -3018,8 +3118,18 @@
         "size": 99832508,
         "sha256": "",
         "localizedDescription": "Turrit 1.5.6 | Turrit-1.5.6-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.6",
-        "status": "current",
+        "status": "removed",
         "firstSeen": "2026-10-18T11:35:12Z"
+      },
+      {
+        "version": "1.5.6",
+        "date": "2026-10-17",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
+        "size": 107518899,
+        "sha256": "",
+        "localizedDescription": "Turrit 1.5.6 | Turrit-1.5.6-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.6",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
       },
       {
         "version": "1.5.5",
@@ -3054,13 +3164,23 @@
     ],
     "twitchadblock": [
       {
+        "version": "31.7",
+        "date": "2026-10-24",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+        "size": 197800481,
+        "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+        "localizedDescription": "Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**, for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **\"🛡 ronni was timed out for 10m\"** shows up so you know what happened.\n- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.\n- Both are off by default. It only works for things that happen while you're in chat.\n\n### New: hide the \"From channels you follow\" bar\nTurn on **Hide \"From Channels You Follow\"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.\n\n### Fixed\n- The **\"Go Ad-Free\"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore / Feather source? You'll get this update automatically:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "30.7",
         "date": "2026-08-14",
         "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
         "size": 152372292,
         "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
         "localizedDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
       }
     ],
@@ -3070,7 +3190,7 @@
         "date": "2020-06-09",
         "downloadURL": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
         "size": 43235739,
-        "sha256": "",
+        "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234",
         "localizedDescription": "unc0ver 5.2.0 | unc0ver_5.2.0\n\nLast updated at: 06/09/2020\n\n06/09/2020 - v5.2.0 was released for production with the following changes:\n\n### ⚠️ Support development with https://phonerebel.com ⚠️\n\n- Enable iOS 13.5.5~b1 support\n- Fix a logic bug in disabling auto updates\n- Update bundled Cydia to fix crashes on iOS 13.5 with Hardware Keyboard enabled",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -3082,7 +3202,7 @@
         "date": "2026-10-03",
         "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
         "size": 147923687,
-        "sha256": "",
+        "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
         "localizedDescription": "Stand-in until the first uProVid factory release ships: ASJTube 1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IPA), with YouPip, YTABConfig, YouQuality, YouChooseQuality, YouGetCaptions, YTHoldForSpeed, YTNativeShare, YTweaks, VolumeBoostYT, Return YouTube Dislikes, DontEatMyContent, PleaseDontStopTheMusic and Gonerino. Once this repository publishes a tweak-build/uprovid/* release, this listing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_factory.py build",
         "status": "current",
         "firstSeen": "2026-10-23T22:49:16Z"
@@ -3136,7 +3256,7 @@
         "date": "2026-08-22",
         "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
         "size": 135840058,
-        "sha256": "",
+        "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
         "localizedDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Downloads fixed for modern YouTube (fixes infinite \"Downloading...\")\n• Fixed iSponsorBlock startup crash on 21.x\n• App Icons now actually work + fresh grid picker UI\n• Notifications Tab is now reorderable\n• iPad & landscape UI fixes across all custom menus\n• uYou rebranded to 3.0.5 (Unofficial build)",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -3194,7 +3314,7 @@
         "date": "2023-02-09",
         "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
         "size": 5348316,
-        "sha256": "",
+        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
         "localizedDescription": "WDBFontOverwrite 1.10.8 | WDBFontOverwrite\n\n- Updated grant_full_disk_access.\n- Concurrency and code improvements/fixes.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
@@ -3206,7 +3326,7 @@
         "date": "2024-06-24",
         "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
         "size": 50003343,
-        "sha256": "",
+        "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
         "localizedDescription": "Winston 1.1.5 | winston\n\n- Fixed placeholder message alignment\n- Fixed Reddit API preferences page\n- Added localization support\n- Cleaned unused code and replaced glitchy book Lottie\n- Removed old, unused TipJar component\n- Added back GlobalLoaderProvider\n- Fixed broken build\n- Improved RedditListingFeed component and cleaned up some files\n- Fixed many UI bugs and stutters; added new NukeUI Opt components\n- Removed redundant code calling setAudioToMixWithOthers three times\n- Provided RedditListingFeed with a force refresh handler; fixed UserView issues\n- Fixed blur flash on app open\n- Fixed cache clear button not working\n- Added support for inline image within comments\n- Improved spoiler handling in selftext\n- Corrected tab bar hit detection in Split View on iPad",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -3230,7 +3350,7 @@
         "date": "2024-01-28",
         "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
         "size": 20792685,
-        "sha256": "",
+        "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
         "localizedDescription": "Yattee 1.5.1 | Yattee-1.5.1-iOS\n\n## What's Changed\n\n* support for private instances by @stonerl in https://github.com/yattee/yattee/pull/565\n* honour the aspect ratio when resizing by @stonerl in https://github.com/yattee/yattee/pull/562\n* make links in description clickable by @stonerl in https://github.com/yattee/yattee/pull/560\n* make description collapsible by @stonerl in https://github.com/yattee/yattee/pull/559\n* macOS: disable hit testing when not expanded by @stonerl in https://github.com/yattee/yattee/pull/578\n* disable portraitUpsideDown on iPhones by @stonerl in https://github.com/yattee/yattee/pull/569\n* make chapters collapsible and highlight current chapter by @stonerl in https://github.com/yattee/yattee/pull/564\n* more robust regex for chapters from description by @stonerl in https://github.com/yattee/yattee/pull/597\n* Translations update from Weblate\n* Added Persian, Spanish, Turkish and Russian localizations\n* Other changes and improvements\n## New Contributors\n* @stonerl made their first contribution in https://github.com/yattee/yattee/pull/565\n\n**Full Changelog**: https://github.com/yattee/yattee/compare/v1.5...v1.5.1",
         "status": "current",
         "firstSeen": "2026-09-12T17:13:52Z"
@@ -3432,13 +3552,23 @@
     ],
     "ytkace": [
       {
+        "version": "21.42.4",
+        "date": "2026-10-25",
+        "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+        "size": 138006169,
+        "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+        "localizedDescription": "YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking like si= from links you copy or share\n• Added options to remove items from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n• Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Blank space left when fullscreen actions are hidden\n• Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+        "status": "current",
+        "firstSeen": "2026-10-25T22:52:51Z"
+      },
+      {
         "version": "21.41.5",
         "date": "2026-10-11",
         "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
         "size": 137158764,
         "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
         "localizedDescription": "YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-12T15:56:11Z"
       },
       {

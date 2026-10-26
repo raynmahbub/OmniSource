@@ -5,32 +5,41 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json</link>
     <description>Release feed for TwitchAdBlock within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>TwitchAdBlock v30.7</title>
+      <title>TwitchAdBlock v31.7</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json</link>
-      <guid isPermaLink="false">twitchadblock-30.7</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Twitch 30.7 | TwitchAdBlock 0.1.13
+      <guid isPermaLink="false">twitchadblock-31.7</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Twitch 31.7 | TwitchAdBlock 0.1.15
 
-**TwitchMods v0.1.13** — for Twitch iOS **30.7**
+**TwitchMods v0.1.15**, for Twitch iOS **31.7**
 
-### New in v0.1.13
-- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show "offline." The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)
+### New: see what moderators delete
+Turn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **"🛡 ronni was timed out for 10m"** shows up so you know what happened.
+- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.
+- Both are off by default. It only works for things that happen while you're in chat.
 
-### Everything else (v0.1.12)
-- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the "Go Ad-Free" Turbo button)
-- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories
+### New: hide the "From channels you follow" bar
+Turn on **Hide "From Channels You Follow"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.
+
+### Fixed
+- The **"Go Ad-Free"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.
+
+Everything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.
 
 ### Downloads
-- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.
-- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.
+- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.
+- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.
 
-Install with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).
+Using the AltStore / SideStore / Feather source? You'll get this update automatically:
+```
+https://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json
+```
 
 Full plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)]]></description>
-      <enclosure url="https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa" length="152372292" type="application/octet-stream" />
+      <enclosure url="https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

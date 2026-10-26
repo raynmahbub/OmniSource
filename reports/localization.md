@@ -132,7 +132,7 @@ None. No orphaned keys and every used key resolves.
 | `sources/provenance-emu-provenance/index.html` | 15 | translated chrome |
 | `sources/pwn20wndstuff-undecimus/index.html` | 15 | translated chrome |
 | `sources/pwnapplehat-escapeos/index.html` | 15 | translated chrome |
-| `sources/raincord-raintweak/index.html` | 15 | translated chrome |
+| `sources/ra1ncord-raintweak/index.html` | 15 | translated chrome |
 | `sources/rajnishone-qbitconnect/index.html` | 15 | translated chrome |
 | `sources/raynmahbub-omnisource/index.html` | 15 | translated chrome |
 | `sources/rileytestut-delta/index.html` | 15 | translated chrome |

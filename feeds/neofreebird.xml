@@ -5,32 +5,52 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/neofreebird.json</link>
     <description>Release feed for NeoFreeBird within OmniSource, curated from official upstream sources.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/neofreebird.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>NeoFreeBird v2.2</title>
+      <title>NeoFreeBird v7.2.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/neofreebird.json</link>
-      <guid isPermaLink="false">neofreebird-2.2</guid>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <description><![CDATA[Twitter 2.2 | NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin
+      <guid isPermaLink="false">neofreebird-7.2.0</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33
 
-NeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.
+# Version 7.2.0
 
-### Change log:
+## New Features
+- Added an option to choose the default reply sort
+- Updated X to 12.33
+- Added an option to hide retweets and quotes from the “For You” page
+- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135
+- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings
+- Brought back the Tweet source labels!
+- Removed the “Money” tab
+- Enabling the option to hide views now also hides it in the tweet footer.
 
-**Twitter, version 11.35:**
-- Updated the Twitter build to 11.35
+## Fixes
+- Fixed more webview issues
+- NeoFreeBird now more reliably filters out video ads
+- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140
+- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138
+- Added localization support for the “Show quote numbers option”
+- Fixed the app crashing when adding more than 1 account
 
-**NeoFreeBird, version 2.2:**
-- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]
-- Localized the Post > Tweet replacer
-- Improved the Open in Twitter extension
-- Minor bug fixes and other minor improvements
+## Localizations
+* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130
+* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132
+* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136
+* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139
+* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142
 
-There are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you’re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.
+## New Contributors
+* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130
+* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132
+* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135
+* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139
+* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeBird/app/pull/142
+* @sekiranunn made their first contribution in https://github.com/NeoFreeBird/app/pull/140
 
-If you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.]]></description>
-      <enclosure url="https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa" length="158452402" type="application/octet-stream" />
+**Full Changelog**: https://github.com/NeoFreeBird/app/compare/v7.1.1...v7.2.0]]></description>
+      <enclosure url="https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

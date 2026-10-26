@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "1571e10e1775",
   "data": {
     "name": "Glow",
     "bundleIdentifier": "com.facebook.Facebook.glow",
@@ -11,37 +11,21 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
     "tintColor": "1877F2",
     "category": "social",
-    "version": "2026.42.0",
-    "versionDate": "2026-10-20",
-    "versionDescription": "Facebook 2026.42.0 | Reddit-2026.42.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.42.0",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa",
-    "size": 149902625,
+    "version": "577.1",
+    "versionDate": "2026-09-05",
+    "versionDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected into Facebook 577.1.",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
+    "size": 226667533,
     "versions": [
       {
-        "version": "2026.42.0",
-        "date": "2026-10-20",
-        "localizedDescription": "Facebook 2026.42.0 | Reddit-2026.42.0-RedditFilter\n\nIPA Vault build for Reddit (RedditFilter), version 2026.42.0",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa",
-        "size": 149902625,
+        "version": "577.1",
+        "date": "2026-09-05",
+        "localizedDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected into Facebook 577.1.",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
+        "size": 226667533,
+        "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
         "minOSVersion": "15.1",
-        "releaseUrl": null,
-        "source": "altstore",
-        "isPrerelease": false,
-        "isDraft": false,
-        "assets": [
-          {
-            "filename": "Reddit-2026.42.0-RedditFilter.ipa",
-            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 149902625,
-            "sha256": null,
-            "downloads": 0,
-            "mimeType": null,
-            "installable": true
-          }
-        ]
+        "releaseUrl": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json"
       }
     ],
     "screenshotURLs": [
@@ -107,8 +91,8 @@
       "health": {
         "downloadReachable": true,
         "detail": "HTTP 200",
-        "statusSince": "2026-10-21",
-        "lastUpdatedAt": "2026-10-20"
+        "statusSince": "2026-09-05",
+        "lastUpdatedAt": "2026-09-05"
       }
     },
     "id": "com.facebook.Facebook.glow"

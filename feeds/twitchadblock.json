@@ -19,51 +19,51 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/TAB.webp",
       "tintColor": "9146FF",
       "category": "social",
-      "version": "30.7",
-      "versionDate": "2026-08-14",
-      "versionDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
-      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-      "size": 152372292,
+      "version": "31.7",
+      "versionDate": "2026-10-24",
+      "versionDescription": "Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**, for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **\"🛡 ronni was timed out for 10m\"** shows up so you know what happened.\n- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.\n- Both are off by default. It only works for things that happen while you're in chat.\n\n### New: hide the \"From channels you follow\" bar\nTurn on **Hide \"From Channels You Follow\"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.\n\n### Fixed\n- The **\"Go Ad-Free\"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore / Feather source? You'll get this update automatically:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+      "size": 197800481,
       "versions": [
         {
-          "version": "30.7",
-          "date": "2026-08-14",
-          "localizedDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
-          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-          "size": 152372292,
+          "version": "31.7",
+          "date": "2026-10-24",
+          "localizedDescription": "Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**, for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **\"🛡 ronni was timed out for 10m\"** shows up so you know what happened.\n- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.\n- Both are off by default. It only works for things that happen while you're in chat.\n\n### New: hide the \"From channels you follow\" bar\nTurn on **Hide \"From Channels You Follow\"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.\n\n### Fixed\n- The **\"Go Ad-Free\"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore / Feather source? You'll get this update automatically:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+          "size": 197800481,
           "minOSVersion": "14.0",
-          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v30.7-0.1.13",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v31.7-0.1.15",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
-              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
+              "filename": "tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 143381478,
-              "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
-              "downloads": 825,
+              "size": 187321413,
+              "sha256": "d74979cb15a0c03983f065ad1d1bfd5ac45df143d9b0b9fbbebeaee7a28b500a",
+              "downloads": 13,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+              "filename": "tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 152372292,
-              "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-              "downloads": 2542,
+              "size": 197800481,
+              "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+              "downloads": 76,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-          "downloads": 2542
+          "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+          "downloads": 76
         }
       ],
       "screenshotURLs": [],
@@ -101,7 +101,7 @@
           "downloadReachable": true,
           "detail": "HTTP 302",
           "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2026-08-14"
+          "lastUpdatedAt": "2026-10-24"
         }
       }
     }

@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-24",
-  "feedVersion": "dc3a0fc423f4",
+  "generatedAt": "2026-10-25",
+  "feedVersion": "32b3b24e99c0",
   "app": {
     "id": "dopamine-roothide",
     "name": "Dopamine (RootHide)",
     "developer": "roothide",
     "subtitle": "Dopamine fork that hides the jailbreak from apps",
     "bundleIdentifier": "com.opa334.Dopamine-roothide",
-    "version": "2.4.9.27",
-    "versionDate": "2026-09-12",
-    "description": "Dopamine (RootHide) is roothide's hardened Dopamine 2 build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
+    "version": "3.0.12-28",
+    "versionDate": "2026-10-24",
+    "description": "Dopamine (RootHide) is roothide's hardened Dopamine build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
     "shortDescription": "Dopamine fork that hides the jailbreak from apps",
     "category": "utilities",
     "tags": [
@@ -18,12 +18,12 @@
     ],
     "icon": "https://raynmahbub.github.io/OmniSource/assets/DopamineRootHide.webp",
     "screenshots": [],
-    "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
-    "size": 54863273,
+    "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+    "size": 55497406,
     "source": "roothide/Dopamine-roothide",
     "sourceURL": "https://github.com/roothide/Dopamine-roothide",
-    "checksum": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-    "checksumPublished": false,
+    "checksum": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+    "checksumPublished": true,
     "minOSVersion": "15.0",
     "status": "stable",
     "featured": false,
@@ -32,23 +32,23 @@
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
-      "updatedAt": "2026-09-12"
+      "updatedAt": "2026-10-24"
     }
   },
   "newest": {
-    "version": "2.4.9.27",
-    "date": "2026-09-12",
-    "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
-    "size": 54863273,
-    "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e"
+    "version": "3.0.12-28",
+    "date": "2026-10-24",
+    "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+    "size": 55497406,
+    "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba"
   },
   "versions": [
     {
-      "version": "2.4.9.27",
-      "date": "2026-09-12",
-      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
-      "size": 54863273,
-      "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e"
+      "version": "3.0.12-28",
+      "date": "2026-10-24",
+      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+      "size": 55497406,
+      "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba"
     }
   ],
   "verification": {

@@ -53,6 +53,12 @@ def version_dates(state: dict[str, Any], slug: str, *, include_history: bool = F
                 if when is not None:
                     parsed.append(when)
     if include_history:
+        release_dates = (state.get(slug) or {}).get("releaseDates") or []
+        if isinstance(release_dates, list):
+            for raw_date in release_dates:
+                when = parse_date(raw_date)
+                if when is not None:
+                    parsed.append(when)
         history = state.get("updateHistory") or []
         if isinstance(history, list):
             for event in history:

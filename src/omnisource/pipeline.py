@@ -69,7 +69,12 @@ from omnisource.screenshots import process_screenshots
 from omnisource.search_index import build_search_index
 from omnisource.site import publish_repo_artifacts
 from omnisource.source_pages import build_source_pages, build_sources_doc
-from omnisource.tracking import compile_version_pattern, detect_update, select_versions
+from omnisource.tracking import (
+    compile_version_pattern,
+    detect_update,
+    matched_release_dates,
+    select_versions,
+)
 from omnisource.translations import build_translation_status_doc
 from omnisource.trending import build_trending_doc
 from omnisource.utils.versioning import compare_versions
@@ -126,6 +131,7 @@ def sync_app(
     *,
     incremental: bool,
     previous: dict[str, Any] | None,
+    observed_dates: list[str] | None = None,
 ) -> tuple[list[dict[str, Any]] | None, str | None]:
     """Return ``(versions, resolved_source)`` for ``app``.
 
@@ -166,7 +172,10 @@ def sync_app(
         manual = _manual_versions(app, f"no published release with a matching asset in {up.repo or up.feed_url}")
         return manual, "manual" if manual else ""
 
-    versions = select_versions(app_name=app.name, ref=up, releases=releases, pattern=_compile_pattern(app))
+    pattern = _compile_pattern(app)
+    if observed_dates is not None:
+        observed_dates.extend(matched_release_dates(ref=up, releases=releases, pattern=pattern))
+    versions = select_versions(app_name=app.name, ref=up, releases=releases, pattern=pattern)
     if not versions:
         manual = _manual_versions(app, "upstream produced no usable version entries")
         return manual, "manual" if manual else ""
@@ -188,13 +197,20 @@ def _sync_result(
     *,
     incremental: bool,
     previous: dict[str, Any] | None,
-) -> tuple[str, list[dict[str, Any]] | None, str | None, str | None]:
+) -> tuple[str, list[dict[str, Any]] | None, str | None, str | None, list[str]]:
     """Worker boundary: one provider failure becomes one isolated result."""
+    dates: list[str] = []
     try:
-        versions, source = sync_app(container, app, incremental=incremental, previous=previous)
-        return app.slug, versions, None, source
+        versions, source = sync_app(
+            container,
+            app,
+            incremental=incremental,
+            previous=previous,
+            observed_dates=dates,
+        )
+        return app.slug, versions, None, source, dates
     except Exception as error:  # provider failures must not stop sibling apps
-        return app.slug, None, str(error), None
+        return app.slug, None, str(error), None, dates
 
 
 def _remember_update(state: dict[str, Any], event: UpdateEvent, *, limit: int) -> None:
@@ -231,7 +247,7 @@ def stage_sync(
     report.repositories_checked = len(selected)
     max_workers = max(1, workers or container.settings.sync_workers)
     previous_by_slug = {app.slug: state.get(app.slug) for app in selected}
-    results: dict[str, tuple[list[dict[str, Any]] | None, str | None, str | None]] = {}
+    results: dict[str, tuple[list[dict[str, Any]] | None, str | None, str | None, list[str]]] = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=min(max_workers, max(1, len(selected)))) as pool:
         futures = {
             pool.submit(
@@ -246,14 +262,14 @@ def stage_sync(
         for future in concurrent.futures.as_completed(futures):
             app = futures[future]
             try:
-                slug, versions, error, source = future.result()
+                slug, versions, error, source, dates = future.result()
             except Exception as error:  # executor boundary; preserve all known state
-                slug, versions, error, source = app.slug, None, str(error), None
-            results[slug] = (versions, error, source)
+                slug, versions, error, source, dates = app.slug, None, str(error), None, []
+            results[slug] = (versions, error, source, dates)
 
     for app in selected:
         previous = previous_by_slug[app.slug]
-        versions, error, source = results.get(app.slug, (None, "worker returned no result", None))
+        versions, error, source, dates = results.get(app.slug, (None, "worker returned no result", None, []))
         if error is not None:
             log.error("%s: upstream sync failed (%s) - keeping last known state", app.slug, error)
             report.apps_failed += 1
@@ -270,9 +286,44 @@ def stage_sync(
         if source:
             entry["lastResolvedSource"] = source
         previous_versions = (previous or {}).get("versions") if isinstance(previous, dict) else None
+        combined_dates: set[str] = set()
+        for existing_date in entry.get("releaseDates") or []:
+            if isinstance(existing_date, str) and re.match(r"^\d{4}-\d{2}-\d{2}$", existing_date[:10]):
+                combined_dates.add(existing_date[:10])
+        for ver_list in (previous_versions, versions):
+            if isinstance(ver_list, list):
+                for ver in ver_list:
+                    if isinstance(ver, dict):
+                        ver_date = str(ver.get("date") or "")[:10]
+                        if re.match(r"^\d{4}-\d{2}-\d{2}$", ver_date):
+                            combined_dates.add(ver_date)
+        for observed in dates:
+            if isinstance(observed, str) and re.match(r"^\d{4}-\d{2}-\d{2}$", observed[:10]):
+                combined_dates.add(observed[:10])
+        if len(combined_dates) >= 2:
+            entry["releaseDates"] = sorted(combined_dates)[-12:]
         if versions is None:
             report.apps_incremental_hit += 1
             continue
+
+        # Preserve already-verified SHA-256 digests when the upstream API
+        # response omits a digest for an unchanged release asset.
+        prev_sha_by_url = {
+            (str(v.get("downloadURL") or ""), int(v.get("size") or 0)): str(v["sha256"])
+            for v in (previous_versions if isinstance(previous_versions, list) else [])
+            if isinstance(v, dict) and v.get("sha256")
+        }
+        lfv = entry.get("lastFullVerification") if isinstance(entry.get("lastFullVerification"), dict) else {}
+        lfv_sha = str(lfv.get("sha256") or "") if lfv.get("ok") else ""
+        lfv_size = int(lfv.get("size") or 0)
+        for ver in versions:
+            if not isinstance(ver, dict) or ver.get("sha256"):
+                continue
+            key = (str(ver.get("downloadURL") or ""), int(ver.get("size") or 0))
+            if key in prev_sha_by_url:
+                ver["sha256"] = prev_sha_by_url[key]
+            elif lfv_sha and lfv_size and int(ver.get("size") or 0) == lfv_size:
+                ver["sha256"] = lfv_sha
 
         kind = detect_update(previous_versions if isinstance(previous_versions, list) else None, versions)
         if entry.get("versions") != versions:
@@ -349,11 +400,12 @@ def stage_health(
     *,
     enabled: bool,
     workers: int,
+    only: set[str] | None = None,
 ) -> None:
     targets = {
         app.slug: state[app.slug]["versions"][0]["downloadURL"]
         for app in catalog.apps
-        if state.get(app.slug, {}).get("versions")
+        if state.get(app.slug, {}).get("versions") and (not only or app.slug in only)
     }
     if not enabled:
         log.info("Link health probing disabled (--no-health); reusing stored results")
@@ -423,6 +475,7 @@ def stage_build(
     report: SyncReport,
     *,
     refresh_mirrors: bool = False,
+    refresh_only: set[str] | None = None,
 ) -> tuple[list[Path], dict[str, Any]]:
     rendered: list[tuple[App, dict[str, Any]]] = []
 
@@ -596,6 +649,7 @@ def stage_build(
         assets_dir=container.paths.assets,
         http=container.http,
         refresh=refresh_mirrors,
+        refresh_only=refresh_only,
         previous=previous_screenshots if isinstance(previous_screenshots, dict) else None,
     )
     screenshot_doc = screenshot_report.to_doc()
@@ -898,7 +952,7 @@ def run(
             )
 
     with Group("Check download health"):
-        stage_health(container, catalog, state, enabled=not no_health, workers=max(1, workers))
+        stage_health(container, catalog, state, enabled=not no_health, workers=max(1, workers), only=only)
 
     verify_failed: list[dict[str, Any]] = []
     if verify:
@@ -913,7 +967,14 @@ def run(
         stage_assets(container, catalog)
 
     with Group("Build feeds"):
-        changed, health_doc, analytics_doc = stage_build(container, catalog, state, report, refresh_mirrors=not no_sync)
+        changed, health_doc, analytics_doc = stage_build(
+            container,
+            catalog,
+            state,
+            report,
+            refresh_mirrors=not no_sync,
+            refresh_only=only,
+        )
 
     # Persist state only after the complete generated dataset passed validation;
     # a failed build therefore leaves both data and memory at last-known-good.

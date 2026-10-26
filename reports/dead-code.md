@@ -13,7 +13,7 @@ should do before deleting.
 
 - Unused files: **0**
 - Dead JS globals: **0**
-- Unreferenced CSS selectors: **10**
+- Unreferenced CSS selectors: **0**
 - Uncalled public Python functions: **0**
 
 ## Unused files
@@ -26,16 +26,7 @@ None. Every committed script, stylesheet, icon and helper file is referenced.
 
 ## Unreferenced CSS selectors
 
-- `assets/design-system/components.css: .feature-card`
-- `assets/design-system/components.css: .feature-grid`
-- `assets/design-system/components.css: .feature-icon`
-- `assets/design-system/components.css: .featured-rail`
-- `assets/design-system/components.css: .metrics-grid`
-- `assets/design-system/components.css: .qt-emoji`
-- `assets/design-system/components.css: .quick-tabs-hint`
-- `assets/design-system/components.css: .skeleton-rail`
-- `assets/design-system/components.css: .source-grid`
-- `assets/design-system/tokens.css: .stat-value`
+None found across the design system.
 
 ## Dead Python functions
 

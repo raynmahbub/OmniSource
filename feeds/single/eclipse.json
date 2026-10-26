@@ -4,7 +4,7 @@
   "apiVersion": "v2",
   "subtitle": "Single-app source",
   "description": "Single-app feed for Eclipse.",
-  "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+  "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.webp",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
@@ -15,7 +15,7 @@
       "developerName": "Soupy-dev",
       "subtitle": "Watch, read, and track in one place.",
       "localizedDescription": "Discover anime, movies, and shows; organize your library; watch with in-app playback; and read manga and light novels. Eclipse supports user-installed Services, Stremio add-ons, SkyStream packages, Nuvio providers, and Reader extensions. Keep track of progress with AniList, MyAnimeList, Trakt, and Simkl, download media for offline use, and back up your settings and library. Cloud sync is optional and off by default. Eclipse does not include media, content sources, or bundled provider add-ons. Install and configure your own sources to watch or read.",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.webp",
       "tintColor": "FF6B6B",
       "category": "entertainment",
       "version": "2.3.0",
@@ -44,13 +44,13 @@
               "fileType": "IPA",
               "size": 36182081,
               "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
-              "downloads": 80,
+              "downloads": 122,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
-          "downloads": 80
+          "downloads": 122
         }
       ],
       "screenshotURLs": [
@@ -92,8 +92,8 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "not probed",
-          "statusSince": "2026-10-20",
+          "detail": "HTTP 302",
+          "statusSince": "2026-10-25",
           "lastUpdatedAt": "2026-10-20"
         }
       }

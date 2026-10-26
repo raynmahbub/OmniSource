@@ -246,6 +246,7 @@ def process_screenshots(
     http: Any = None,
     thumbnail_width: int = 480,
     refresh: bool = False,
+    refresh_only: set[str] | None = None,
     previous: dict[str, Any] | None = None,
 ) -> ScreenshotReport:
     """Validate, mirror and produce thumbnail metadata.
@@ -321,7 +322,8 @@ def process_screenshots(
                 "sha256": "",
             }
             reused = False
-            if mirror_path.exists() and not refresh:
+            refresh_app = refresh and (refresh_only is None or app.slug in refresh_only)
+            if mirror_path.exists() and not refresh_app:
                 payload = mirror_path.read_bytes()
                 entry["mirrored"] = True
                 entry["size"] = len(payload)

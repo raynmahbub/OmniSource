@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-25",
   "totals": {
     "apps": 128,
-    "pass": 82,
-    "warn": 46,
+    "pass": 115,
+    "warn": 13,
     "fail": 0,
     "rejected": 0
   },
@@ -74,7 +74,7 @@
       "slug": "airtroller",
       "name": "AirTroller",
       "asset": {
-        "sha256": null,
+        "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
         "size": 782388,
         "releaseId": "1.1.1",
         "source": "github",
@@ -86,7 +86,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -104,7 +104,7 @@
       "slug": "animationspeed",
       "name": "Animation Speed",
       "asset": {
-        "sha256": null,
+        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
         "size": 96650,
         "releaseId": "1.0.1",
         "source": "github",
@@ -116,7 +116,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -134,7 +134,7 @@
       "slug": "animegen",
       "name": "AnimeGen",
       "asset": {
-        "sha256": null,
+        "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7",
         "size": 3026218,
         "releaseId": "3.0.0",
         "source": "github",
@@ -146,7 +146,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -194,11 +194,11 @@
       "slug": "anymex",
       "name": "AnymeX",
       "asset": {
-        "sha256": "b844eba2cde7ea276aeb79fc5ae5ee47c257eba7d9f3b49eae0af96ab13389b2",
-        "size": 39830598,
-        "releaseId": "3.1.8",
+        "sha256": "057dbcd47f9e6c56ce57d88934450c7557b4d4c848e731961466cb79a1615b1d",
+        "size": 81113053,
+        "releaseId": "3.1.9",
         "source": "github",
-        "downloadUrl": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.8/AnymeX-iOS-v3.1.8.ipa"
+        "downloadUrl": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -224,11 +224,11 @@
       "slug": "apollo",
       "name": "Apollo",
       "asset": {
-        "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-        "size": 97026669,
-        "releaseId": "3.9.0",
+        "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
+        "size": 97618297,
+        "releaseId": "4.0.0",
         "source": "github",
-        "downloadUrl": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa"
+        "downloadUrl": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -344,7 +344,7 @@
       "slug": "bhinstagram",
       "name": "BHInstagram",
       "asset": {
-        "sha256": null,
+        "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453",
         "size": 228416558,
         "releaseId": "1.2",
         "source": "github",
@@ -356,7 +356,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -374,7 +374,7 @@
       "slug": "bhtwitter",
       "name": "BHTwitter",
       "asset": {
-        "sha256": null,
+        "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
         "size": 167001383,
         "releaseId": "4.4",
         "source": "github",
@@ -386,7 +386,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -494,7 +494,7 @@
       "slug": "caperfhud",
       "name": "CAPerfHUD",
       "asset": {
-        "sha256": null,
+        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
         "size": 1058266,
         "releaseId": "1.0.2",
         "source": "github",
@@ -506,7 +506,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -524,7 +524,7 @@
       "slug": "cartube",
       "name": "CarTube",
       "asset": {
-        "sha256": null,
+        "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
         "size": 574441,
         "releaseId": "1.3",
         "source": "github",
@@ -536,7 +536,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -704,7 +704,7 @@
       "slug": "cowabunga",
       "name": "Cowabunga",
       "asset": {
-        "sha256": null,
+        "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c",
         "size": 16288960,
         "releaseId": "10.3.2",
         "source": "github",
@@ -716,7 +716,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -734,7 +734,7 @@
       "slug": "delta",
       "name": "Delta",
       "asset": {
-        "sha256": null,
+        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
         "size": 87734964,
         "releaseId": "1.6",
         "source": "github",
@@ -746,7 +746,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -824,11 +824,11 @@
       "slug": "dopamine-roothide",
       "name": "Dopamine (RootHide)",
       "asset": {
-        "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-        "size": 54863273,
-        "releaseId": "2.4.9.27",
+        "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+        "size": 55497406,
+        "releaseId": "3.0.12-28",
         "source": "github",
-        "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa"
+        "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -854,7 +854,7 @@
       "slug": "dynamiccow",
       "name": "DynamicCow",
       "asset": {
-        "sha256": null,
+        "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
         "size": 915515,
         "releaseId": "1.1",
         "source": "github",
@@ -866,7 +866,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -902,7 +902,7 @@
       "slug": "enablequic",
       "name": "EnableQUIC",
       "asset": {
-        "sha256": null,
+        "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9",
         "size": 362372,
         "releaseId": "1.2.4",
         "source": "github",
@@ -914,7 +914,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1022,11 +1022,11 @@
       "slug": "glow",
       "name": "Glow",
       "asset": {
-        "sha256": null,
-        "size": 149902625,
-        "releaseId": "2026.42.0",
-        "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa"
+        "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
+        "size": 226667533,
+        "releaseId": "577.1",
+        "source": "",
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -1034,7 +1034,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1082,7 +1082,7 @@
       "slug": "hanami",
       "name": "Hanami",
       "asset": {
-        "sha256": null,
+        "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
         "size": 6305751,
         "releaseId": "0.28.2",
         "source": "github",
@@ -1094,7 +1094,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1112,7 +1112,7 @@
       "slug": "helium",
       "name": "Helium",
       "asset": {
-        "sha256": null,
+        "sha256": "120a6c1002885d6c3ac1b8dbbe62cc91b66c8bd79955f3034a191dec93fc77fd",
         "size": 4168281,
         "releaseId": "3.2.5",
         "source": "github",
@@ -1124,7 +1124,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1142,11 +1142,11 @@
       "slug": "ime",
       "name": "iMe MxGram",
       "asset": {
-        "sha256": null,
-        "size": 139224713,
+        "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
+        "size": 148174542,
         "releaseId": "12.8.1",
-        "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa"
+        "source": "",
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -1154,7 +1154,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1233,10 +1233,10 @@
       "name": "iQFace",
       "asset": {
         "sha256": null,
-        "size": 239358167,
-        "releaseId": "584.0.0",
+        "size": 241651824,
+        "releaseId": "584.1.0",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -1322,7 +1322,7 @@
       "slug": "itransmission",
       "name": "iTransmission",
       "asset": {
-        "sha256": null,
+        "sha256": "ded952869d151799271a31534f0d3ac2de18399171fba0c4351132eecf82bd48",
         "size": 3718662,
         "releaseId": "1.0.0",
         "source": "github",
@@ -1334,7 +1334,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1502,7 +1502,7 @@
       "slug": "mame4ios",
       "name": "MAME4iOS",
       "asset": {
-        "sha256": null,
+        "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
         "size": 52332306,
         "releaseId": "2022.5",
         "source": "github",
@@ -1514,7 +1514,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1682,7 +1682,7 @@
       "slug": "minivmac",
       "name": "Mini vMac",
       "asset": {
-        "sha256": null,
+        "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4",
         "size": 668434,
         "releaseId": "2.6",
         "source": "github",
@@ -1694,7 +1694,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1802,7 +1802,7 @@
       "slug": "mugunghwa",
       "name": "Mugunghwa",
       "asset": {
-        "sha256": null,
+        "sha256": "df6d6273ccb7bb77d4de9426822f68b343890ea180992fdecffe822706c9f636",
         "size": 3889341,
         "releaseId": "3.0.2",
         "source": "github",
@@ -1814,7 +1814,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -1862,11 +1862,11 @@
       "slug": "neofreebird",
       "name": "NeoFreeBird",
       "asset": {
-        "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-        "size": 158452402,
-        "releaseId": "2.2",
+        "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+        "size": 259047406,
+        "releaseId": "7.2.0",
         "source": "github",
-        "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa"
+        "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -1982,7 +1982,7 @@
       "slug": "odyssey",
       "name": "Odyssey",
       "asset": {
-        "sha256": null,
+        "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
         "size": 27204395,
         "releaseId": "1.4.3",
         "source": "github",
@@ -1994,7 +1994,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -2072,11 +2072,11 @@
       "slug": "otraku",
       "name": "Otraku",
       "asset": {
-        "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-        "size": 9414861,
-        "releaseId": "1.12.1",
+        "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+        "size": 10342358,
+        "releaseId": "1.13.1",
         "source": "github",
-        "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa"
+        "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -2222,7 +2222,7 @@
       "slug": "purekfd",
       "name": "PureKFD",
       "asset": {
-        "sha256": null,
+        "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
         "size": 10806164,
         "releaseId": "6.0.2",
         "source": "github",
@@ -2234,7 +2234,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -2433,10 +2433,10 @@
       "name": "RyukGram",
       "asset": {
         "sha256": null,
-        "size": 345086224,
-        "releaseId": "451.0.0",
+        "size": 353948142,
+        "releaseId": "452.0.0",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -2522,11 +2522,11 @@
       "slug": "saber",
       "name": "Saber",
       "asset": {
-        "sha256": "85a3ccb2f2c5c69a6bffaa848d82c43bc9874c8907b8a9a09ba39d23cc9179b1",
-        "size": 37736807,
-        "releaseId": "1.36.3",
+        "sha256": "e1c8932fbe8d8cd4df3dc2177a1fe038f353067600b90f3d2399b68b68928082",
+        "size": 37254734,
+        "releaseId": "1.36.4",
         "source": "github",
-        "downloadUrl": "https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa"
+        "downloadUrl": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -2582,7 +2582,7 @@
       "slug": "secondhand",
       "name": "SecondHand",
       "asset": {
-        "sha256": null,
+        "sha256": "5ea276d7c5230b4eb17dd03fae0b23333d505a05dd82c08ae2a66f46b75d9ec0",
         "size": 2786937,
         "releaseId": "1.3.1",
         "source": "github",
@@ -2594,7 +2594,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -2612,7 +2612,7 @@
       "slug": "serotonin",
       "name": "Serotonin",
       "asset": {
-        "sha256": null,
+        "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b",
         "size": 14986482,
         "releaseId": "1.2.1",
         "source": "github",
@@ -2624,7 +2624,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -2822,7 +2822,7 @@
       "slug": "statusmagic",
       "name": "StatusMagic",
       "asset": {
-        "sha256": null,
+        "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
         "size": 1218528,
         "releaseId": "1.0.2",
         "source": "github",
@@ -2834,7 +2834,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -2882,7 +2882,7 @@
       "slug": "stiknes",
       "name": "StikNES",
       "asset": {
-        "sha256": null,
+        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
         "size": 7141231,
         "releaseId": "2.0.2",
         "source": "github",
@@ -2894,7 +2894,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -2943,10 +2943,10 @@
       "name": "Swiftgram",
       "asset": {
         "sha256": null,
-        "size": 77976994,
-        "releaseId": "12.9.4",
+        "size": 97568937,
+        "releaseId": "13.0",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3032,7 +3032,7 @@
       "slug": "taurine",
       "name": "Taurine",
       "asset": {
-        "sha256": null,
+        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
         "size": 32244737,
         "releaseId": "1.1.7",
         "source": "github",
@@ -3044,7 +3044,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3063,10 +3063,10 @@
       "name": "Telegram MxGram",
       "asset": {
         "sha256": null,
-        "size": 81155632,
-        "releaseId": "13.1",
+        "size": 88831869,
+        "releaseId": "13.1.1",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3182,7 +3182,7 @@
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
       "asset": {
-        "sha256": null,
+        "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
         "size": 6889214,
         "releaseId": "1.0.3",
         "source": "github",
@@ -3194,7 +3194,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3243,10 +3243,10 @@
       "name": "Turrit MxGram",
       "asset": {
         "sha256": null,
-        "size": 99832508,
+        "size": 107518899,
         "releaseId": "1.5.6",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3272,11 +3272,11 @@
       "slug": "twitchadblock",
       "name": "TwitchAdBlock",
       "asset": {
-        "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-        "size": 152372292,
-        "releaseId": "30.7",
+        "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+        "size": 197800481,
+        "releaseId": "31.7",
         "source": "github",
-        "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa"
+        "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa"
       },
       "checks": {
         "sizePositive": true,
@@ -3302,7 +3302,7 @@
       "slug": "unc0ver",
       "name": "unc0ver",
       "asset": {
-        "sha256": null,
+        "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234",
         "size": 43235739,
         "releaseId": "5.2.0",
         "source": "github",
@@ -3314,7 +3314,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3332,7 +3332,7 @@
       "slug": "uprovid",
       "name": "uProVid",
       "asset": {
-        "sha256": null,
+        "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
         "size": 147923687,
         "releaseId": "21.39.4",
         "source": "",
@@ -3344,7 +3344,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn"
+      "status": "pass"
     },
     {
       "slug": "utm",
@@ -3380,7 +3380,7 @@
       "slug": "uyouenhanced",
       "name": "uYouEnhanced",
       "asset": {
-        "sha256": null,
+        "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
         "size": 135840058,
         "releaseId": "21.14.4",
         "source": "",
@@ -3392,7 +3392,7 @@
         "digestFormat": true,
         "reachable": false
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3500,7 +3500,7 @@
       "slug": "wdbfontoverwrite",
       "name": "WDBFontOverwrite",
       "asset": {
-        "sha256": null,
+        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
         "size": 5348316,
         "releaseId": "1.10.8",
         "source": "github",
@@ -3512,7 +3512,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3530,7 +3530,7 @@
       "slug": "winston",
       "name": "Winston",
       "asset": {
-        "sha256": null,
+        "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
         "size": 50003343,
         "releaseId": "1.1.5",
         "source": "github",
@@ -3542,7 +3542,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3590,7 +3590,7 @@
       "slug": "yattee",
       "name": "Yattee",
       "asset": {
-        "sha256": null,
+        "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
         "size": 20792685,
         "releaseId": "1.5.1",
         "source": "github",
@@ -3602,7 +3602,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
+      "status": "pass",
       "fullVerification": {
         "expectedSha256": null,
         "expectedSha512": null,
@@ -3680,11 +3680,11 @@
       "slug": "ytkace",
       "name": "YTKACE",
       "asset": {
-        "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
-        "size": 137158764,
-        "releaseId": "21.41.5",
+        "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+        "size": 138006169,
+        "releaseId": "21.42.4",
         "source": "github",
-        "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa"
+        "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa"
       },
       "checks": {
         "sizePositive": true,
