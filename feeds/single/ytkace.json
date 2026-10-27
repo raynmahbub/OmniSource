@@ -94,6 +94,20 @@
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/audio-queue.png",
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/download-library.png"
       ],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -150,9 +164,11 @@
           "notes": "Tracks the official itzzace/ytkace releases. The published build follows the latest YouTube release and needs iOS 17 or newer; upstream also ships a separate iOS 16 IPA (YTKACE_<version>_YouTube_iOS16_<youtube>.ipa) on the same release page."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-25"
         }
       }

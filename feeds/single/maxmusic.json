@@ -58,6 +58,20 @@
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn3.png",
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn4.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -106,8 +120,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
           "lastUpdatedAt": "2026-09-15"
         }
       }

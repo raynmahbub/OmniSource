@@ -32,11 +32,13 @@ const serverDocs = [
   "search-index.json",
   "reputation.json",
   "screenshots.json",
+  "verification.json",
 ];
 for (const name of serverDocs) copy(join("feeds", name), join("src", "data", name));
 for (const name of ["security.json", "source_reputation.json", "analytics_rollup.json", "canonical_apps.json"]) {
   copy(join("data", name), join("src", "data", name));
 }
+copy("data/status.json", "src/data/monitoring.json");
 copy("catalog.json", "src/data/catalog.json");
 
 // Serve every reviewed app logo from this website's own origin. The catalog

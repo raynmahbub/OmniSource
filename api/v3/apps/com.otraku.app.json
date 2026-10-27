@@ -99,6 +99,20 @@
       "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
       "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
     ],
+    "minOSVersion": "16.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [],
       "privacy": {}
@@ -134,9 +148,11 @@
         "notes": "Official IPA published by the developer on GitHub Releases."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-13",
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
         "lastUpdatedAt": "2026-09-22"
       }
     },

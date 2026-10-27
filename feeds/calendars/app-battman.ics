@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Battman releases
+BEGIN:VEVENT
+UID:battman-1.1.0@omnisource
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Battman v1.1.0
+DESCRIPTION:Battman 1.1.0 | TrollStore\n\n## Battman 1.1.0\n\nIn this versi
+ on\, I have finally put something in the 'Analytics' page\, added native p
+ lug-in support\, and fixed a bunch of bugs.\n\n**PLEASE LET ME KNOW** when
+  you want any new features or find any bugs. You can create a [GitHub issu
+ e](https://github.com/Torrekie/Battman/issues/new) to describe them\, espe
+ cially when something behaves differently on your device.\n\n- Implemented
+  the 'Analytics' page with cards that you can add\, remove\, resize and re
+ arrange ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added ten
+  Analytics cards: live readings\, capacity observations\, cell voltages\, 
+ charging sessions\, battery discharge\, connection and charging states\, p
+ ower readings\, time by battery level\, charging comparison\, and discharg
+ e rhythm. Graphs include capacity history and comparisons of complete 20% 
+ to 80% charging sessions\; available readings depend on your device and it
+ s recorded history.\n- Added native plug-in support\, including `.battman`
+  import\, plug-in management\, diagnostics and recovery mode. Third-party 
+ plug-ins require your approval\, and changes take effect after restarting 
+ Battman ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added the
+  public Plugin SDK and plug-in example sources for developers ([#53](https
+ ://github.com/Torrekie/Battman/pull/53)). Charge Gauge is provided as a **
+ source example**\, not as a shipped production plug-in.\n- Added a 'Temper
+ ature Unit' option: System\, Celsius\, or Fahrenheit ([#43](https://github
+ .com/Torrekie/Battman/issues/43)).\n- Added `zh_TW` localization and docum
+ entation ([#35](https://github.com/Torrekie/Battman/pull/35)).\n- Added 'E
+ xport Powerlog' to the charging graph. Long-press the graph to export the 
+ available system battery log.\n- Improved charging-limit settings\, daemon
+  connections and charging controls\; unavailable or invalid battery readin
+ gs now have clearer explanations ([#54](https://github.com/Torrekie/Battma
+ n/pull/54)).\n- Fixed potential deadlocks in battery-s
+URL:https://raynmahbub.github.io/OmniSource/feeds/battman.json
+END:VEVENT
+END:VCALENDAR

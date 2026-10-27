@@ -112,6 +112,7 @@ API_DOCUMENTS = {
     "compare.json": "Side-by-side comparison matrix (app summaries only; pairs computed client-side).",
     "screenshots.json": "Screenshot catalog + mirror URLs + WebP thumbnails.",
     "integrity_report.json": "Per-asset integrity: sha256, size, release id, source and reject checks.",
+    "transparency.json": "Hash-chained observations of bytes actually downloaded; not publisher signatures.",
     "dead_apps.json": "Dead/stale/approaching-dead classification (90/180/365 day thresholds).",
     "collections.json": "Curated collections (YouTube, Music, Emulators, Utilities, Productivity).",
     "translation-status.json": "Per-locale translation coverage (%) against the canonical English locale.",
@@ -577,8 +578,9 @@ def _publish_v2_contract(
     apps_written: set[str] = set()
     if apps_src.is_dir():
         apps_dir.mkdir(parents=True, exist_ok=True)
-        for source in sorted(apps_src.glob("*.json")):
-            target = apps_dir / source.name
+        for source in sorted(apps_src.rglob("*.json")):
+            target = apps_dir / source.relative_to(apps_src)
+            target.parent.mkdir(parents=True, exist_ok=True)
             # Track per-app twins separately: v2_written holds names relative
             # to v2_dir (for pruning it), while apps_written is relative to
             # v2_dir/apps/ (for pruning that).
@@ -700,9 +702,9 @@ def _homepage_stat_values(health_doc: dict[str, Any], analytics_doc: dict[str, A
     if not total:
         banner = "Checking source health…"
     elif reachable == total:
-        banner = f"All {total} downloads verified online"
+        banner = f"All {total} downloads last seen reachable"
     else:
-        banner = f"{reachable} of {total} downloads online"
+        banner = f"{reachable} of {total} downloads last seen reachable"
     last_sync = str(analytics_doc.get("lastSync") or "").strip()
     return {
         "statApps": str(total),
@@ -882,7 +884,20 @@ def publish_repo_artifacts(
     # The v2 directory keeps the hand-maintained index.json plus everything
     # the mirror just published; per-app records of removed apps are pruned.
     removed.extend(_prune_mirror(root / "api" / "v2", set(api["v2_published"]) | {"index.json"}))
-    removed.extend(_prune_mirror(root / "api" / "v2" / "apps", set(api["v2_apps_published"])))
+    apps_dir = root / "api" / "v2" / "apps"
+    removed.extend(_prune_mirror(apps_dir, set(api["v2_apps_published"])))
+    source_apps = root / "feeds" / "api" / "v2" / "apps"
+    active = {path.stem for path in source_apps.glob("*.json")}
+    if apps_dir.is_dir():
+        for directory in apps_dir.iterdir():
+            if directory.is_dir() and directory.name not in active:
+                for name in ("versions.json", "versions.json.gz", "versions.json.br"):
+                    target = directory / name
+                    if target.is_file():
+                        target.unlink()
+                        removed.append(target)
+                if not any(directory.iterdir()):
+                    directory.rmdir()
     keep = {*ROOT_GENERATED_FILES, *ROOT_HAND_MAINTAINED, *ROOT_EXTERNALLY_PUBLISHED}
     keep.update(f"{name}.gz" for name in ROOT_GENERATED_FILES if name.endswith(".json"))
     removed.extend(_prune_mirror(root, keep))

@@ -53,13 +53,20 @@ def build_status_doc(
         app_state = state.get(app.slug, {}) if isinstance(state.get(app.slug), dict) else {}
         health = app_state.get("health", {}) if isinstance(app_state.get("health"), dict) else {}
         health_item = health_by_slug.get(app.slug, {})
-        reachable = health.get("reachable")
+        reachable = health.get("reachable") if isinstance(health.get("reachable"), bool) else None
+        newest = newest_version(state, app.slug)
+        checked_url = str(health.get("checkedURL") or "")
+        if not checked_url or checked_url != str(newest.get("downloadURL") or ""):
+            reachable = None
         raw_latency = health.get("latencyMs")
-        latency = None if raw_latency is None else int(raw_latency)
+        latency = None if raw_latency is None or reachable is None else int(raw_latency)
         status = _status(reachable, bool(health_item.get("stale", False)))
         totals[status] += 1
 
         history = [item for item in app_state.get("healthHistory", []) if isinstance(item, dict)][-WINDOW:]
+        last_check = str(
+            health.get("measuredAt") or (history[-1].get("at") or history[-1].get("date") if history else "") or ""
+        )
         entries.append(
             {
                 "id": app.slug,
@@ -72,8 +79,9 @@ def build_status_doc(
                 "reachable": reachable,
                 "latency": latency,
                 "latencyMs": latency,
-                "checkedAt": health.get("since", ""),
-                "lastUpdate": str(newest_version(state, app.slug).get("date") or ""),
+                "checkedAt": last_check if reachable is not None else "",
+                "checkedURL": checked_url if reachable is not None else "",
+                "lastUpdate": str(newest.get("date") or ""),
                 "valid": True,  # the feed JSON was parsed and rebuilt on this run
                 "detail": health.get("detail", ""),
                 "history": history,

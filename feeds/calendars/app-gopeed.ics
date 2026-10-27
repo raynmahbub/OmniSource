@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gopeed releases
+BEGIN:VEVENT
+UID:gopeed-1.9.3@omnisource
+DTSTAMP:20260318T000000Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:Gopeed v1.9.3
+DESCRIPTION:Gopeed 1.9.3 | Gopeed-v1.9.3-ios\n\n<table>\n  <tbody>\n    <tr
+ >\n      <td rowspan="4">🪟 Windows</td>\n      <td rowspan="2"><code>EX
+ E</code></td>\n      <td>amd64</td>\n      <td><a href="https://gopeed.com
+ /api/download?tpl=Gopeed-v1.9.3-windows-amd64.zip">📥</a></td>\n    </tr
+ >\n    <tr>\n      <td>arm64</td>\n      <td><a href="https://gopeed.com/a
+ pi/download?tpl=Gopeed-v1.9.3-windows-arm64.zip">📥</a></td>\n    </tr>\
+ n    <tr>\n      <td rowspan="2"><code>Portable</code></td>\n      <td>amd
+ 64</td>\n      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.
+ 9.3-windows-amd64-portable.zip">📥</a></td>\n    </tr>\n    <tr>\n      
+ <td>arm64</td>\n      <td><a href="https://gopeed.com/api/download?tpl=Gop
+ eed-v1.9.3-windows-arm64-portable.zip">📥</a></td>\n    </tr>\n    <tr>\
+ n      <td rowspan="3">🍎 MacOS</td>\n      <td rowspan="3"><code>DMG</c
+ ode></td>\n      <td>universal</td>\n      <td><a href="https://gopeed.com
+ /api/download?tpl=Gopeed-v1.9.3-macos.dmg">📥</a></td>\n    </tr>\n    <
+ tr>\n      <td>amd64</td>\n      <td><a href="https://gopeed.com/api/downl
+ oad?tpl=Gopeed-v1.9.3-macos-amd64.dmg">📥</a></td>\n    </tr>\n    <tr>\
+ n      <td>arm64</td>\n      <td><a href="https://gopeed.com/api/download?
+ tpl=Gopeed-v1.9.3-macos-arm64.dmg">📥</a></td>\n    </tr>\n    <tr>\n   
+    <td rowspan="6">🐧 Linux</td>\n      <td><code>Flathub</code></td>\n 
+      <td>amd64</td>\n      <td><a href="https://flathub.org/apps/com.gopee
+ d.Gopeed">📥</a></td>\n    </tr>\n    <tr>\n      <td><code>SNAP</code><
+ /td>\n      <td>amd64</td>\n      <td><a href="https://snapcraft.io/gopeed
+ ">📥</a></td>\n    </tr>\n    <tr>\n      <td rowspan="2"><code>DEB</cod
+ e></td>\n      <td>amd64</td>\n      <td><a href="https://gopeed.com/api/d
+ ownload?tpl=Gopeed-v1.9.3-linux-amd64.deb">📥</a></td>\n    </tr>\n    <
+ tr>\n      <td>arm64</td>\n      <td><a href="https://gopeed.com/api/downl
+ oad?tpl=Gopeed-v1.9.3-linux-arm64.deb">📥</a></td>\n    </tr>\n    <tr>\
+ n      <td rowspan="2"><code>AppImage</code></td>\n      <td>amd64</td>\n 
+      <td><a href="https://gopeed.com/api/
+URL:https://raynmahbub.github.io/OmniSource/feeds/gopeed.json
+END:VEVENT
+END:VCALENDAR

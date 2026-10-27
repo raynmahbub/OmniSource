@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>utilities releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-utilities.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Saber v1.36.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.36.4</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.36.4 | Saber_v1.36.4
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- Minor UI improvements
+- Minor memory efficiency improvements #1858
+- A security fix
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.3...v1.36.4]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Dopamine (RootHide) v3.0.12-28</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine-roothide.json</link>
+      <guid isPermaLink="false">dopamine-roothide-3.0.12-28</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine (RootHide) 3.0.12-28 | Dopamine-2026-10-25_20-23-30
+
+roothide Dopamine 3 is now released and open source on github for everyone:
+
+https://x.com/roothideDev/status/2114091036318564808]]></description>
+      <enclosure url="https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Dopamine v3.0.12</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
+      <guid isPermaLink="false">dopamine-3.0.12</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine 3.0.12 | Dopamine
+
+- Add workaround for stock issue that causes touch not to work on certain A10/A11 aftermarket screens after a userspace reboot (Contributed by @moezemara)
+- Fix some system preference plists being redirected to /var/jb in rootlesshook (Contributed by @verygenericname)]]></description>
+      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Table Habit v1.27.15</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json</link>
+      <guid isPermaLink="false">tablehabit-1.27.15</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Table Habit 1.27.15 | mhabit-unsigned
+
+# Released: v1.27.15+204
+
+## ✨ Features
+
+- Integrate native desktop title bars and keep app bars pinned while scrolling
+  (#677)
+  - Fuse macOS window controls with adaptive toolbars and handle fullscreen
+    transitions
+  - Match native title bar colors to the app theme on Windows and Linux
+- Keep a manually collapsed sidebar closed across layout and interface-style
+  changes within the current session (#679)
+- Restore desktop window size and position before the window first appears
+  (#681)
+  - Save ordinary window geometry without treating fullscreen or maximized
+    bounds as the preferred window size
+
+## 🐛 Fixes
+
+- Preserve open dialogs and their state while updating theme colors, and keep
+  dialog app bars consistent with their local theme (#677)
+- Restore the Settings Back button when the sidebar and its collapsed toolbar
+  navigation are hidden (#678)
+
+## 🧹 Others
+
+- Add desktop native regression tests and integrate them into local and CI
+  test workflows (#677)
+
+[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.13+202...v1.27.15+204)]]></description>
+      <enclosure url="https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Saber v1.36.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.36.3</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.36.3 | Saber_v1.36.3
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- Various visual improvements, including an Adwaita-inspired navigation bar for the Linux version of Saber
+- Fixed a deduplication bug causing many copies of PDF files to be saved #1856]]>&#32;<![CDATA[
+- Fixed a bug preventing Saber from responding to light/dark mode switches on Linux
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Reynard v0.18.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
+      <guid isPermaLink="false">reynard-0.18.0</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reynard 0.18.0 | Reynard
+
+## Changes
+
+**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0
+
+### New Features
+- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.
+
+### Improvements
+- Scrolling on webpages is now smoother and more accurate.
+- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.
+
+### Bug Fixes
+- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.
+- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.
+- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.
+- Fixed an issue where touches on some webpages would land in the wrong place.
+- Added small performance improvements and fixed several UI issues.
+
+### Engine
+
+Updated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).]]></description>
+      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>UTM v5.0.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
+      <guid isPermaLink="false">utm-5.0.8</guid>
+      <pubDate>Sat, 17 Oct 2026 02:44:56 +0000</pubDate>
+      <description><![CDATA[UTM 5.0.8 | Universal IPA
+
+## Highlights
+* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.
+* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).
+* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.
+* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.
+* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.
+* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.
+
+## Notes
+* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.
+* The minimum supported versions are now macOS 12 and iOS 15.
+* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.
+* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.
+* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.
+* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.
+
+## Changes (v5.0.8)
+* Fixed several changes listed for v5.0.7 being left out of that build by mistake.
+* (macOS) Fixed Windows 3D acceleration on Apple Silicon Macs without Rosetta by falling back to DXMT
+* (macOS) QEMU: Fixed Windows installs from the USB CD drive stalling repeatedly, which made them much slower in v5.0.7 (#7970)
+
+## Changes (v5.0.7)
+* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
+* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
+* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
+* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad
+* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped
+* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with "Close" or "Quit" instead of "OK"
+* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
+* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
+* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
+* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)
+* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller
+* (macOS) Scripting: Force stopping a paused VM is now allowed
+* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing "VZErrorDomain error -6" (#7914)
+* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)
+
+## Changes (v5.0.6)
+* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)
+* Updated the DXMT and MoltenVK graphics backends
+* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26
+* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery
+* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)
+* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)
+* SPICE: Fixed microphone audio quality (#7751)
+* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)
+* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)
+* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27
+* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)
+* (iOS 27) Confirm before closing the window of a running VM on iPad
+* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new "Touch mode (drag to scroll)" (#4738)
+* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard
+* (iOS) Input: Game controller Options and Home buttons can now be mapped
+* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver
+* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)
+* (macOS) Terminal: Added a find bar (Cmd-F)
+* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)
+* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen
+* (macOS) Settings: Improved the notes field
+* (macOS 26) Settings: The "New…" device menu now matches the sidebar
+* (macOS) AVF: Sound input and output can be enabled separately, so "Output Only" no longer switches Bluetooth headphones to headset mode (#7875)
+* (macOS 26) AVF: New "Shared Network (VM to VM)" and "Host Only" networking modes (#6975, #7480) (thanks @lovon-spec)
+* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)
+* (macOS 27) AVF: Run without saving changes (#4201, #7326)
+* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)
+* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands
+* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)
+* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)
+* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)
+* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)
+
+## Changes (v5.0.5)
+* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* Config: For ARM64 configs, GICv3 is now selected by default. P…]]></description>
+      <enclosure url="https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Saber v1.36.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.36.2</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.36.2 | Saber_v1.36.2
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- Added an Indonesian translation #1840 #1825]]>&#32;<![CDATA[
+- Optimized color inversion to be much quicker #1849]]>&#32;<![CDATA[
+- Fixed the AppImage's update URL #1812
+- Translations:
+  - i18n: Add Indonesian README by @Yoruxyv in a3430eddf476aa0811e921e82459fe8f090d5b35
+  - i18n: Update Chinese (Traditional Han script) by @s8321414 in 6547f59ae580de0cfce59b4847df8586768acd64
+  - i18n: Add Korean by @donngas in 9fdea89ce60d5cbb3a158bcf16d0946ba51f777d
+  - i18n: Update Spanish by @jmnu4245 in 1d50960f8e7fd01295f36d2beb4422a325e110b6
+  - i18n: Update Chinese (Simplified Han script) by @u3659477 in e4ee5b94b3d948b98c9c7871195c8202c5d9e540
+  - i18n: Update French by @ArTuPSly in 31eef99e07ba18b0d9ff1683b993a4ce9bbd33cc
+  - i18n: Update Portuguese (Brazil) by Givaldo B S Sobrinho in 89be7b7b5834454a4ddaaa70026b52f86dd7e3f5
+  - i18n: Update Portuguese (Brazil) by Carlos Pinto Jr. in 4c535d28b9e7e6362b99aaa33e3906bda0639334
+  - i18n: Update German by @antonkesy in 2e3cdbdb94b3f792397af9727a91b66f47eabc97
+  - i18n: Update Catalan by @ocellz in 7cd6a55b4ff88bcd82042377132697113d64466b
+  - i18n: Update German metadata by @antonkesy in 98cfa1a815cd387d78e185dd93a0f8481d847a68
+  - i18n: Update Ukrainian by Sofiia Soldak in ef0086aefcb3b05888314aa2a6a7987ba76bbeca
+  - i18n: Update Italian by Alessandro Stoppani in 9bba250cd7474f57ddeb850a5c4aeaeb584dcefa
+  - i18n: Update Polish by @thesonofanxiety in 17365668af2b8367103404359c054199561bc126
+  - i18n: Update Hebrew by Omer I.S. in e8fdae06a05a88d5aaac36c423645dc87382721a
+  - i18n: Update Chinese (Simplified Han script) by Dogwen in c280145638570e46b8259c05636d444f04a52969
+  - i18n: Update Chinese (Simplified Han script) metadata by Dogwen in ba7f9422e346a8df617174c9efa8d3eeae5549cf
+- @Yoruxyv made their first contribution in https://github.com/saber-notes/saber/pull/1825
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.1...v1.36.2]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.2/Saber_v1.36.2.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>UTM v5.0.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
+      <guid isPermaLink="false">utm-5.0.7</guid>
+      <pubDate>Fri, 16 Oct 2026 06:25:45 +0000</pubDate>
+      <description><![CDATA[UTM 5.0.7 | Universal IPA
+
+## Highlights
+* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.
+* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).
+* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.
+* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.
+* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.
+* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.
+
+## Notes
+* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.
+* The minimum supported versions are now macOS 12 and iOS 15.
+* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.
+* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.
+* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.
+* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.
+
+## Changes (v5.0.7)
+* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
+* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
+* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
+* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad
+* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped
+* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with "Close" or "Quit" instead of "OK"
+* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
+* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
+* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
+* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)
+* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller
+* (macOS) Scripting: Force stopping a paused VM is now allowed
+* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing "VZErrorDomain error -6" (#7914)
+* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)
+
+## Changes (v5.0.6)
+* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)
+* Updated the DXMT and MoltenVK graphics backends
+* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26
+* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery
+* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)
+* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)
+* SPICE: Fixed microphone audio quality (#7751)
+* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)
+* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)
+* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27
+* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)
+* (iOS 27) Confirm before closing the window of a running VM on iPad
+* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new "Touch mode (drag to scroll)" (#4738)
+* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard
+* (iOS) Input: Game controller Options and Home buttons can now be mapped
+* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver
+* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)
+* (macOS) Terminal: Added a find bar (Cmd-F)
+* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)
+* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen
+* (macOS) Settings: Improved the notes field
+* (macOS 26) Settings: The "New…" device menu now matches the sidebar
+* (macOS) AVF: Sound input and output can be enabled separately, so "Output Only" no longer switches Bluetooth headphones to headset mode (#7875)
+* (macOS 26) AVF: New "Shared Network (VM to VM)" and "Host Only" networking modes (#6975, #7480) (thanks @lovon-spec)
+* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)
+* (macOS 27) AVF: Run without saving changes (#4201, #7326)
+* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)
+* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands
+* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)
+* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)
+* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)
+* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)
+
+## Changes (v5.0.5)
+* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.
+* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files
+* Wizard: scaling is now default to "nearest" when a "classic" computer emulation is created in the wizard and "linear" otherwise. Previously …]]></description>
+      <enclosure url="https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>EscapeOS v0.1.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/escapeos.json</link>
+      <guid isPermaLink="false">escapeos-0.1.8</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[EscapeOS 0.1.8 | EscapeOS-0.1.8
+
+## EscapeOS 0.1.8
+
+v0.1.0, v0.1.1, v0.1.3, v0.1.4, v0.1.5, and v0.1.6 are unchanged. 0.1.7 was never published; its two fixes are in this release.
+
+### Fixed
+- **Import from Files works again for new files and Keep Both.** Since 0.1.6 both failed with "That folder is outside this app's data." An app's container is reported under `/private/var`, and the folder check only stripped that prefix for paths that already exist ([#4](https://github.com/pwnapplehat/EscapeOS/issues/4)).
+- **`InvalidHostID` now explains itself.** It means the device does not recognise EscapeOS's pairing file. The message used to blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS/issues/5)).
+- **Sharing a file can no longer delete EscapeOS's own data.** Share wrote into EscapeOS's Documents and replaced whatever had that name, so sharing a file called `Backups` or `pairingFile.plist` removed every backup or the pairing file. Shares now use a private temporary folder.
+
+### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3), [#4](https://github.com/pwnapplehat/EscapeOS/issues/4))
+- **Search Whole App** finds a file or folder by name anywhere in an app's data.
+- **Favorites** at the top of the Apps tab; they still open after an app is reinstalled.
+- **Replace / Keep Both / Cancel when pasting** a name that already exists. A folder is never replaced, a file is never replaced by itself, and Replace swaps the file in atomically so a failure leaves the original.
+- **Free-space check** before Compress, Share Zip, Duplicate, Paste, Import and Backup, with a clear message instead of a late failure.
+- **Share / Save to Files** on each backup.
+
+### Changed
+- **Deleting a file now asks first**, naming what will be deleted. Files can opt out with "Delete, Don't Ask Again" (Settings turns it back on); folders and backup archives always ask.
+
+Theos arm64 IPA (iPhoneOS 16.5 SDK, `MinimumOSVersion` 18.0), same build path as 0.1.6. After install, reconnect LocalDevVPN if the list is empty; iPASide places `pairingFile.plist` again after sideload.
+
+**Verification:** built for iOS; 200 automated checks of the path, paste, delete, search, favorites and free-space logic run against the real source; the changes were reviewed independently and its findings fixed. **This build was not run on a device**, so the screens (search, favorites, the paste and delete prompts) have not been seen on a phone.
+
+`EscapeOS-0.1.8.ipa` SHA-256:
+
+```
+d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269
+```]]></description>
+      <enclosure url="https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Conduit v4.2.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.2.1</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.2.1 | conduit
+
+## What's Changed
+* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847
+* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849
+
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Battman v1.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/battman.json</link>
+      <guid isPermaLink="false">battman-1.1.0</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Battman 1.1.0 | TrollStore
+
+## Battman 1.1.0
+
+In this version, I have finally put something in the 'Analytics' page, added native plug-in support, and fixed a bunch of bugs.
+
+**PLEASE LET ME KNOW** when you want any new features or find any bugs. You can create a [GitHub issue](https://github.com/Torrekie/Battman/issues/new) to describe them, especially when something behaves differently on your device.
+
+- Implemented the 'Analytics' page with cards that you can add, remove, resize and rearrange ([#53](https://github.com/Torrekie/Battman/pull/53)).
+- Added ten Analytics cards: live readings, capacity observations, cell voltages, charging sessions, battery discharge, connection and charging states, power readings, time by battery level, charging comparison, and discharge rhythm. Graphs include capacity history and comparisons of complete 20% to 80% charging sessions; available readings depend on your device and its recorded history.
+- Added native plug-in support, including `.battman` import, plug-in management, diagnostics and recovery mode. Third-party plug-ins require your approval, and changes take effect after restarting Battman ([#53](https://github.com/Torrekie/Battman/pull/53)).
+- Added the public Plugin SDK and plug-in example sources for developers ([#53](https://github.com/Torrekie/Battman/pull/53)). Charge Gauge is provided as a **source example**, not as a shipped production plug-in.
+- Added a 'Temperature Unit' option: System, Celsius, or Fahrenheit ([#43](https://github.com/Torrekie/Battman/issues/43)).
+- Added `zh_TW` localization and documentation ([#35](https://github.com/Torrekie/Battman/pull/35)).
+- Added 'Export Powerlog' to the charging graph. Long-press the graph to export the available system battery log.
+- Improved charging-limit settings, daemon connections and charging controls; unavailable or invalid battery readings now have clearer explanations ([#54](https://github.com/Torrekie/Battman/pull/54)).
+- Fixed potential deadlocks in battery-status callbacks and improved battery refreshes while scrolling ([#39](https://github.com/Torrekie/Battman/pull/39), [#40](https://github.com/Torrekie/Battman/pull/40)).
+- Improved crash logging for the app, daemon and worker processes ([#38](https://github.com/Torrekie/Battman/pull/38)).
+- Fixed DOD0 units and misleading battery-authenticity warnings, and corrected invalid time-to-empty estimates ([#45](https://github.com/Torrekie/Battman/issues/45), [#46](https://github.com/Torrekie/Battman/pull/46)).
+- Fixed crashes when reading accessory and UPS battery information, including disconnects during a refresh ([#47](https://github.com/Torrekie/Battman/pull/47)).
+- Removed unused system-group entitlements to address the remaining iOS 17 backup issue after the earlier fix attempt ([#32](https://github.com/Torrekie/Battman/issues/32), [#41](https://github.com/Torrekie/Battman/pull/41)).
+- Improved Analytics history browsing, graph readability and scrolling responsiveness.
+- Bundled the gettext runtime so localization can work without a system gettext installation.
+- Improved **Wipe all Battman data** to wait for Analytics cache writes and report deletion failures, and replaced legacy icon-font dependencies with vector fallbacks.
+
+### Dependencies (deb)
+
+- `libintl8` or `libintl`
+
+### Support List
+
+The table below retains the installation-method overview from previous releases. It is **not a complete tested-device list for 1.1.0**; you still need a jailbreak or TrollStore version compatible with your particular device and iOS build.
+
+| iOS \ Chip | <= A10 / A10X | A11 | A12 Series | A13 | A14 / M1 Series | A15 / M2 Series | >= A16 / M3 Series |
+|:----------:|:-------------:|:---:|:----------:|:---:|:---------------:|:---------------:|:------------------:|
+| < 12.0 | Unsupported | Unsupported | - | - | - | - | - |
+| 12.0 | Unsupported | Jailbreak | Jailbreak | - | - | - | - |
+| 13.0 | Unsupported | Jailbreak | Jailbreak | Jailbreak | - | - | - |
+| 14.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | - | - |
+| 15.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | - |
+| 16.0 | Unsupported | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Jailbreak / TrollStore | Untested |
+| >= 17.0 | Unsupported | Untested | Untested | Untested | Untested | Untested | Untested |
+
+* Unsupported: Outside Battman's current iOS 12.0 / A11-or-newer baseline.
+* Untested: No independently completed device-testing coverage is claimed for this combination.
+* Jailbreak: An installation method on compatible jailbroken systems; **Roothide jailbreak was not considered in this list**.
+* TrollStore: An installation method using [TrollStore](https://github.com/opa334/TrollStore), where that device and iOS build support it.
+* Analytics: Individual readings depend on the hardware and available system logs. Missing readings remain unavailable, and incomplete history is not treated as a complete measurement.
+
+### Choose your package
+
+`com.torrekie.battman_1.1.0_iphoneos-arm.deb`: For your rooted jailbreaks, typically on iOS 12.0 ~ 14.x.
+
+`com.torrekie.battman_1.1.0_iphoneos-arm64.deb`: For your rootless jailbreaks, typically on iOS 15.0 or above.
+
+`Battman.tipa`: The Battman host app for TrollStore. Please notice that **DO NOT install deb and tipa versions at the same time**. You can only keep one installation on your device.
+
+`BattmanPluginSDK-1.1.0.tar.gz`: Plugin SDK source for developers, under the MIT License.
+
+`BattmanPluginExamples-1.1.0.tar.gz`: Buildable source examples, including the SDK Analytics card and Charge Gauge. Charge Gauge retains the repository's Non-Commercial Attribution License; the SDK subtree remains MIT-licensed. These are source archives, with no compiled plug-in packages or external plug-ins included in the release TIPA.
+
+Native plug-ins run inside Battman with its permissions. A valid signature identifies the publisher and package, but does not make the code safe. On TrollStore installations, activating an additional native plug-in requires a replacement TIPA containing it; importing a `.battman` package alone is not enough.
+
+Only the `.deb` or `.tipa` package is needed to install Battman. The SDK and example source archives are for developers; the `SHA256SUMS*` files are for verification and do not need to be installed.
+
+`SHA256SUMS.p256.sig` signs the exact `SHA256SUMS` inventory. The SHA-256 fingerprint of the P-256 checksum key's uncompressed public point is:
+
+`5709282ae05ae482b09bde0f463ad6659ef33bc2237736917cddebd0c9069d75`
+
+**Full Changelog**: [v1.0.3.3...v1.1.0](https://github.com/Torrekie/Battman/compare/v1.0.3.3...v1.1.0)]]></description>
+      <enclosure url="https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Conduit v4.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.2.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.2.0 | conduit
+
+## What's Changed
+* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807
+* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808
+* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810
+* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811
+* Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/812
+* Route settings selection controls through platform UI (3/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/813
+* Use platform UI chips for reactions, decisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/814
+* Use platform UI controls for launcher loading and Direct retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/815
+* Keep the chosen reasoning effort when the model selector is reopened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821
+* Store Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/817
+* Keep several Open WebUI accounts signed in and switch between them (2/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/818
+* Switch, add and sign out of Open WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/819
+* Reach an Open WebUI server through whichever of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/820
+* Save several named Hermes connections and switch between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/816
+* Stop downloading whole chats again when they open by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/826
+* Keep the docked iPad sidebar visible to VoiceOver by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/827
+* Put every account and connection on one Accounts page, and add them from one sheet by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/828
+* Support Open WebUI 0.12 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/843
+* Talk with a realtime voice in calls on Open WebUI, Hermes and Direct by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/842
+
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Zeus v13.2.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/zeus.json</link>
+      <guid isPermaLink="false">zeus-13.2.3</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Zeus 13.2.3 | zeus-v13.2.3
+
+<img width="1200" height="670" alt="ZEUS v13.2.3" src="https://github.com/user-attachments/assets/471167a9-3581-4fc7-ba78-57668e721e6d" />
+
+## v13.2.3 Highlights:
+
+- Embedded LND v0.21.4
+- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security fixes)
+- Further security hardening measures
+- Miscellaneous bug fixes
+- Miscellaneous UI improvements never transferred correctly through it. Single-device and Android users are not affected.
+
+## What's Changed
+* build: make Xcode Cloud post-clone survive Intel runners by @kaloudis in https://github.com/ZeusLN/zeus/pull/4677
+* Verify LSP wrapped invoices against the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/pull/4673
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4679
+* locales: fix 17 broken localeString references, add en.json coverage test by @kaloudis in https://github.com/ZeusLN/zeus/pull/4674
+* fix(ui): swap the GIF loading indicator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus/pull/4678
+* fix(channels): require a host when connecting a peer by @kaloudis in https://github.com/ZeusLN/zeus/pull/4644
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4681
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4682
+* tests: scan all literal keys in localeString calls by @kaloudis in https://github.com/ZeusLN/zeus/pull/4680
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4683
+* tests: surface coverage summary in CI logs and PR comments by @kaloudis in https://github.com/ZeusLN/zeus/pull/4676
+* fix(security): bind LNURL-auth callback host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pull/4576
+* build(ios): refresh Podfile.lock for react-native-get-random-values 2.0.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4691
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4690
+* tests: cover StealthModeUtils, which had none by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4685
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4692
+* chore(deps): bump assert from 1.5.0 to 2.1.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4607
+* chore(deps): bump react-native-reanimated to 4.7.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4689
+* fix: LSP and LSPS1 reset button visibility and Olympus detection by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4664
+* fix(lsps1): show empty state when no orders match the current node by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4704
+* fix(recovery): guard clearLegacyLocations behind __DEV__ by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4694
+* stores: no node calls until a wallet is picked by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4450
+* fix: gate simple taproot reset on backend support by @shubhamkmr04 in https://github.com/ZeusLN/zeus/pull/4705
+* fix: keep preset amounts when fiat has no rate by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4651
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4722
+* fix(lsps): arm custom-message timeout per-request, not per-subscription by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4702
+* fix(nwc): point empty NWC budget at Cashu settings when Lightning balance is zero by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4662
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4732
+* chore(deps): bump metro to 0.84.6 to drop image-size by @kaloudis in https://github.com/ZeusLN/zeus/pull/4734
+* views: drop the latch before taking the fetch lock by @TheSeydiCharyyev in https://github.com/ZeusLN/zeus/pull/4726
+* build: stop tracking LDK Node jniLibs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4737
+* Balance view: stop double counting unconfirmed on-chain funds by @kaloudis in https://github.com/ZeusLN/zeus/pull/4515
+* utils: stop accepting mainnet bech32 addresses on testnet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4721
+* utils: accept uppercase Lightning Address domains by @kaloudis in https://github.com/ZeusLN/zeus/pull/4731
+* remove SATSCARD bounty by @kaloudis in https://github.com/ZeusLN/zeus/pull/4767
+* docs: ask first-time contributors to disclose AI assistance by @kaloudis in https://github.com/ZeusLN/zeus/pull/4772
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4773
+* utils: share one LUD-16 lnurlp URL builder by @kaloudis in https://github.com/ZeusLN/zeus/pull/4762
+* fix(nwc): don't crash NWC settings when settings have no ecash key by @kaloudis in https://github.com/ZeusLN/zeus/pull/4763
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4777
+* nostr: lowercase NIP-05 identifiers before lookup by @kaloudis in https://github.com/ZeusLN/zeus/pull/4761
+* SweepStore: use regtest and testnet params on regtest and signet by @kaloudis in https://github.com/ZeusLN/zeus/pull/4758
+* fix(balance): count a force close with an unconfirmed sweep once by @kunalKumar-13 in https://github.com/ZeusLN/zeus/pull/4775
+* chore(deps): bump @nostr-dev-kit/ndk to 3.0.3 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4701
+* AddressUtils: validate destinations against the node's network in one place by @kaloudis in https://github.com/ZeusLN/zeus/pull/4759
+* handleAnything: drop wrong-network addresses from unified URIs by @kaloudis in https://github.com/ZeusLN/zeus/pull/4760
+* fix: harden the BIP 353 lookup (skip .onion, encode the query name) by @kaloudis in https://github.com/ZeusLN/zeus/pull/4729
+* fix(settings): don't crash when a stored blob is missing a settings group by @ajaysehwal in https://github.com/ZeusLN/zeus/pull/4788
+* fix: avoid spurious node refetch after unlocking by @myxmaster in https://github.com/ZeusLN/zeus/pull/4423
+* LnurlChannel: use the themed Switch component by @kaloudis in https://github.com/ZeusLN/zeus/pull/4790
+* [feat] chore(deps): bump react-native to 0.87.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4566
+* build(deps): bump brace-expansion from 1.1.16 to 1.1.21 in /zeus_modules/@lightninglabs/lnc-core by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4795
+* chore(deps): bump moment from 2.30.1 to 2.31.0 by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4794
+* fix: pay BIP 353 offers from records with multiple params by @kaloudis in https://github.com/ZeusLN/zeus/pull/4658
+* chore(deps): bump brace-expansion and markdown-it to patched versions by @kaloudis in https://github.com/ZeusLN/zeus/pull/4798
+* chore(proto): regenerate bindings with protobufjs 8.8.0 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4799
+* [Transifex] Updates for project ZEUS by @transifex-integration[bot] in https://github.com/ZeusLN/zeus/pull/4801
+* chore(deps): bump minor and patch dependencies from #4796 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4800
+* Avoid keyboard-inserted spaces in URL and host inputs by @myxmaster in https://github.com/ZeusLN/zeus/pull/4793
+* chore(deps): bump react-native-nitro-tor from 0.6.0 to 0.6.1 in the minor-and-patch group across 1 directory by @dependabot[bot] in https://github.com/ZeusLN/zeus/pull/4805
+* chore(ios): update Podfile.lock for react-native-nitro-tor 0.6.1 by @kaloudis in https://github.com/ZeusLN/zeus/pull/4808
+* Handle LightningAddressStore promise rejections by @kaloudis in https://github.com/ZeusLN/zeus/pull/4485
+* fix(bolt12): show the actual payment outcome after LDK direct pay by @kaloudis in https://github.com/ZeusLN/zeus/pull/4307
+* chore(deps): bump js-yaml from 3.14.2 to 3.15.0 in /zeus_modules…]]></description>
+      <enclosure url="https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Reynard v0.17.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
+      <guid isPermaLink="false">reynard-0.17.1</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reynard 0.17.1 | Reynard
+
+## Changes
+
+**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1
+
+This is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).
+
+### Bug Fixes & Improvements
+- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.
+- Fixed a crash when editing in scrollable text fields on iOS 14 and older.
+- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.
+- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.
+- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.
+- Fixed an issue where images copied from another app would not paste into webpages.]]></description>
+      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Dopamine v3.0.11</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dopamine.json</link>
+      <guid isPermaLink="false">dopamine-3.0.11</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Dopamine 3.0.11 | Dopamine
+
+- Fix support for iOS 26.0 beta 1 [3.0.1 regression]
+- Fix boot logo not being cleaned up correctly before backboardd starts, fixes framebuffer getting stuck with it's last content during sbreload when a boot logo is used (now the screen will correctly fade to a black screen like when no boot logo is used)
+- Update opainject and litehook]]></description>
+      <enclosure url="https://github.com/opa334/Dopamine/releases/download/3.0.11/Dopamine.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>TrollFools v4.4-257</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/trollfools.json</link>
+      <guid isPermaLink="false">trollfools-4.4-257</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[TrollFools 4.4-257 | TrollFools_4.4-257.tipa
+
+允许 Dopamine 被 TrollFools 注入第三方插件，以提供自定义背景、倒计时自动越狱及其他扩展功能。
+
+------
+
+Allows official Dopamine to be injected by TrollFools into third-party plugins to provide custom backgrounds, automatic jailbreak countdowns, and other extended features.]]></description>
+      <enclosure url="https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Reynard v0.17.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
+      <guid isPermaLink="false">reynard-0.17.0</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reynard 0.17.0 | Reynard
+
+## Changes
+
+**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0
+
+### Improvements
+- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.
+
+### New Features
+- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.
+- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.
+
+### Bug Fixes
+- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.
+- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.
+- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.
+- Fixed several UI issues.
+
+### Engine
+
+Updated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).]]></description>
+      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Table Habit v1.27.13</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json</link>
+      <guid isPermaLink="false">tablehabit-1.27.13</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Table Habit 1.27.13 | mhabit-unsigned
+
+# Released: v1.27.13+202
+
+> Includes updates since the previous stable release, v1.27.9+198.
+
+## ✨ Features
+
+- Add adaptive, collapsible side navigation with an edge style on newer Apple
+  systems (#667)
+  - Preserve navigation state, search, selection, and page actions across
+    layout changes
+- Apply app theme colors and custom palettes to the side navigation (#668)
+- Let users show or hide navigation destinations in the top toolbar when the
+  Apple sidebar is collapsed (#671)
+- Adapt navigation and content safe areas for iPhone Duo and compact-height
+  layouts (#674)
+- Scroll Habits and Today to the top when reselecting the active root tab
+  (#675)
+  - Return nested pages to the tab's root before scrolling on a subsequent tap
+  - Respect reduced motion preferences and pages that prevent back navigation
+
+## 🐛 Fixes
+
+- Improve adaptive interaction styling, keyboard focus, and action-menu
+  behavior (#669)
+- Keep search filters available across layout changes (#669)
+- Align theme labels and Markdown typography (#669)
+- Refresh habit and group views as soon as synced changes are applied, while
+  preserving sync progress and in-progress edits (#672)
+- Keep neutral action colors consistent across app bars, dialogs, search,
+  sidebars, and group actions, and restore modal blur after nested navigation
+  (#673)
+- Keep system status and navigation bars visible while the app launches
+
+## 🌐 Localization
+
+- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.
+
+## 🧹 Others
+
+- Pin Apple build and submission workflows to Xcode 27.0 (#674)
+- Raise the minimum supported macOS version to 12.0 (#674)
+- Centralize generated-code formatting in the Melos workflow (#674)
+
+[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)]]></description>
+      <enclosure url="https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Conduit v4.1.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.1.9</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.1.9 | conduit
+
+## What's Changed
+* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774
+* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775
+* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783
+* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792
+* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790
+* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791
+* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793
+* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794
+* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795
+* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796
+* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797
+* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798
+* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799
+* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800
+* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803
+* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804
+
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>AppStore++ v2.3.15</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/appstoreplusplus.json</link>
+      <guid isPermaLink="false">appstoreplusplus-2.3.15</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[AppStore++ 2.3.15 | TrollStore
+
+# AppStore++ — What’s New in v2.3.15-7
+
+- Added a delete all/trashcan button for ipa library
+- Fixed bug when an ipa download is cancelled when packaging & becoming corrupted
+- Run ipa packaging on background thread so the UI isn't lagged]]></description>
+      <enclosure url="https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa" length="11078209" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>SideStore v0.7.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sidestore.json</link>
+      <guid isPermaLink="false">sidestore-0.7.0</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SideStore 0.7.0 | SideStore
+
+## Build Info
+
+Built at (UTC): `Fri Sep 11 21:25:58 2026`
+Built at (UTC date): `2026-09-11`
+Commit SHA: `6032424a0e56c1c319762e786099bdd9186a238b`
+Version: `0.7.0-20260911.328+6032424a`
+
+#### What's Changed:
+- **fixes for 503 during sign-in**: There were some changes from apple server side which broke 0.6.4 and prior versions and prevent them from signing into sidestore. This temporary version addresses the sign-in issue with 503 status code
+
+#### Full Changelog: [0.6.4...0.7.0-alpha](https://github.com/SideStore/SideStore/compare/0.6.4...0.7.0-alpha)]]></description>
+      <enclosure url="https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa" length="27770821" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>3105 v2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/3105.json</link>
+      <guid isPermaLink="false">3105-2.0</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[3105 2.0 | 3105-2.0-build8-20260914-125906-unsigned
+
+# 3105 2.0
+
+Bản 2.0 chuyển 3105 thành một nơi thống nhất để tìm, cài đặt và quản lý Patch, hình nền, Dialer và các tính năng dành cho thiết bị.
+
+## Điểm mới
+
+- Kho nội dung mới với Dành cho bạn, Mới cập nhật và nhiều nguồn.
+- Mục Đã cài quản lý mọi loại nội dung, có biểu tượng, phân loại và thông báo cập nhật.
+- Patch hỗ trợ nhiều ứng dụng và App Group trong cùng một gói, tùy chỉnh trước khi áp dụng và mật khẩu tùy chọn.
+- Cải thiện sao lưu, đặt lại, khôi phục và xóa Patch đang hoạt động.
+- Hỗ trợ giao diện Dialer dạng .3105pass và hình nền .tendies từ kho.
+- Trình quản lý Tệp mới có Workspace, Application, App Group, tệp ẩn, thẻ, yêu thích và trình sửa plist.
+- Dọn dẹp trở thành tính năng có thể cài hoặc gỡ; các bản iOS 27 được hỗ trợ có thêm Footnote và Supervised.
+- Thiết kế lại trang chủ, nguồn, chi tiết gói và mục Đã cài; tiến trình tải và kết quả thao tác rõ ràng hơn.
+
+## Cài đặt
+
+- Asset đính kèm là IPA unsigned dành cho việc ký lại bằng chứng chỉ doanh nghiệp.
+- Bundle đích: com.apple.mobile.MobileHouseArrest.
+- Không hỗ trợ SideStore, AltStore, 3uTools hoặc LiveContainer.
+- Chỉ tiếp tục trên các phiên bản iOS được ứng dụng xác nhận hỗ trợ và luôn sao lưu dữ liệu trước khi áp dụng Patch.
+
+---
+
+## English summary
+
+3105 2.0 adds a repository marketplace, a unified Installed library, multi-app and App Group patches, configurable plist/JSON edits, dialer themes, repository wallpapers, installable 3105 features, a redesigned Files experience, and safer restore flows.
+
+The attached IPA is unsigned and intended for enterprise-certificate signing. Bundle: com.apple.mobile.MobileHouseArrest.]]></description>
+      <enclosure url="https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa" length="4604223" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>VibeContainers v1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/vibecontainers.json</link>
+      <guid isPermaLink="false">vibecontainers-1.0</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[VibeContainers 1.0 | VibeContainers-1.0-unsigned
+
+Initial release.]]></description>
+      <enclosure url="https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa" length="8948447" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>qBitController v2.2.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/qbitcontroller.json</link>
+      <guid isPermaLink="false">qbitcontroller-2.2.1</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[qBitController 2.2.1 | qbitcontroller-2.2.1-ios
+
+- Updated translations]]></description>
+      <enclosure url="https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-ios.ipa" length="18243979" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>qBitControl v1.4.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/qbitcontrol.json</link>
+      <guid isPermaLink="false">qbitcontrol-1.4.1</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[qBitControl 1.4.1 | qBitControl
+
+## 📊 Performance & Efficiency
+
+- **Reduced Data Usage:** Network traffic reduced by **93%** thanks to optimized data syncing.
+- **Smooth Charts:** Statistics charts now scroll continuously and smoothly instead of updating every two seconds.
+- **Responsive Progress Bars:** Progress indicators now feature fluid animations for a more natural feel.
+
+## 🛠️ Interface & Usability
+
+- **Custom Headers:** Specify custom HTTP headers for server connections—offering seamless support for reverse proxies and zero-trust networks (e.g., Cloudflare Access, Authelia).
+- **Reworked Server Addition:** Redesigned server setup and edit screens with an updated *Advanced* settings page and deferred saving.
+- **Limit Configuration:** Configure precise speed limits, seeding time limits, and share ratios for individual torrents directly in-app.
+- **Cleaner Torrent List:** Torrent rows now adapt dynamically to show the most relevant details depending on whether a transfer is downloading, seeding, or paused.
+- **Repositioned Add Button:** Moved the "Add Torrent" button to the toolbar for cleaner, more intuitive access.
+- **Offline Banner:** A clear overlay banner now appears whenever your connection drops.
+- **In-App Logs:** Added a built-in log viewer to review and easily share system events directly inside the app.
+
+## 🐛 Fixes & Refinements
+
+- **Self-Signed Certificate Support:** Full support for untrusted and self-signed SSL certificates, making it easier to connect to home-hosted servers.
+- **Stable RSS Downloads:** Fixed an issue in the RSS view where tapping a row to download a torrent caused the confirmation sheet to glitch and reopen unexpectedly.
+- **Connection Timeouts:** Implemented strict network timeouts to prevent the app from hanging indefinitely on the launch screen if a server is unresponsive.
+- **Clearer Error Alerts:** If adding a `.torrent` file or magnet link fails, a clear error message now pops up explaining what went wrong.]]></description>
+      <enclosure url="https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa" length="4777720" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>BlueWallet v8.0.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/bluewallet.json</link>
+      <guid isPermaLink="false">bluewallet-8.0.1</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[BlueWallet 8.0.1 | BlueWallet_8.0.1_1784575843
+
+### New Features
+
+iOS 26 Liquid Glass design
+Import Unchained JSON as a multisig cosigner
+Support BC-UR v2 air-gap scanning for hardware wallets (OneKey, Keystone)
+Option to redact push notification content
+Arkade Lightning push notifications
+Enable RBF for single-sig watch-only wallets (HD Bech32)
+Human-readable data on transaction status screen
+19 new languages, including Filipino, Armenian, Akan, and Sesotho
+
+### Improvements
+
+Renewed Settings UI
+Better green success color contrast
+Removed GroundControl server URL option from notification settings
+Faster transaction fetching for HD wallets
+Replaced crypto-js with modern @noble crypto libraries
+
+### Fixes
+
+Startup crash
+Amount input lag in RBF custom fee input
+Text size on main app views and clipped wallet balance in carousel
+QR codes no longer have rounded corners
+Signed transaction hex screen stays scrollable
+Arkade LNURL payment result now persists
+Floating button no longer overlaps the transaction list
+Various modal and navigation UX polish
+
+Under the hood: dependency updates, TypeScript coverage improvements, CI and translation tooling fixes.
+
+## What's Changed
+* FIX: startup crash by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8618
+* OPS: Bump version by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8621
+* fix: no round corners in qrcode by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8631
+* REF: remove GroundControl server URL option from notification settings by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8636
+* ADD: arkade ln pushes by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8634
+* REF: single-pass tx-to-address mapping in HD fetchTransactions by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8639
+* fix(deps): update dependency @noble/secp256k1 to v1.7.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8590
+* chore(deps): update actions/checkout action to v6.0.3 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8643
+* Retyui remove dead code by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8645
+* fix(deps): update dependency @arkade-os/sdk to v0.4.33 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8647
+* fix(deps): update dependency @arkade-os/boltz-swap to v0.3.38 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8646
+* fix(deps): update dependency @react-native-vector-icons/ionicons to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8650
+* fix(deps): update dependency @react-native-vector-icons/fontawesome to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8648
+* fix(deps): update dependency @react-native-vector-icons/material-design-icons to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8652
+* FIX: Remove chevron on modal open ux by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8651
+* fix(deps): update dependency @react-native-vector-icons/fontawesome6 to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8649
+* fix(deps): update dependency @react-native-vector-icons/material-icons to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8653
+* fix(deps): update dependency dayjs to v1.11.21 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8669
+* fix: improve typescript coverage by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8239
+* fix(deps): update dependency @react-native-vector-icons/entypo to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8617
+* OPS: bump Arkade SDKs (sdk 0.4.35, boltz-swap 0.3.40) by @Kukks in https://github.com/BlueWallet/BlueWallet/pull/8675
+* tst: fix flaky goBack in iOS e2e tests by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8569
+* ADD: support importing Unchained JSON as multisig cosigner by @r6mez in https://github.com/BlueWallet/BlueWallet/pull/8568
+* chore(deps): update dependency @react-native/js-polyfills to ^0.86.0 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8679
+* fix(deps): update react-navigation monorepo by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8678
+* FIX: persist Arkade LNURL payment result by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8635
+* fix(deps): update dependency react-native-permissions to v5.5.3 - abandoned by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8670
+* fix: key on tx list by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8687
+* feat: iOS 26 glass by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8508
+* REF: swap crypto-js for @noble/ciphers + hashes by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8566
+* FIX: Amount input lag in rbf custom fee input by @ojokne in https://github.com/BlueWallet/BlueWallet/pull/8632
+* FIX: text size on main app views by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8689
+* FIX: clipping wallet balance on carousel by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8695
+* OPS: Update dependency concurrent-ruby to '< 1.3.8' [SECURITY] by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8694
+* FIX: ark tests Premature close — drop node-fetch, use native fetch by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8726
+* FIX: keep signed transaction hex screen scrollable by @K-i-Q in https://github.com/BlueWallet/BlueWallet/pull/8700
+* FIX: repair Transifex fastlane metadata integration by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8723
+* ADD: Filipino (fil_PH) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8709
+* fix: sync language files by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8703
+* ADD: Armenian (hy) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8704
+* ADD: Akan (ak) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8714
+* fix: fastlate android  by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8724
+* ADD: Sesotho (st_ZA) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8708
+* ADD: setting to redact push notification content by @r6mez in https://github.com/BlueWallet/BlueWallet/pull/8696
+* ADD: 15 new languages by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8734
+* Updates for file loc/en.json in es_419 by @transifex-integration[bot] in https://github.com/BlueWallet/BlueWallet/pull/8736
+* FIX: stray tool artifacts in ak/fil_PH vocabularies by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8730
+* REF: Change header ownership by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8735
+* chore: upgrade @arkade-os sdk@0.4.41  boltz-swap@0.3.46 by @pietro909 in https://github.com/BlueWallet/BlueWallet/pull/8744
+* OPS: Update all dependencies by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8743
+* FIX: bump qr to 0.6.0 by @GladosBlueWallet in https://github.com/BlueWallet/BlueWallet/pull/8748
+* fix: passphrase term by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8738
+* REF: improve green success contrast by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8751
+* FIX: reserve floating-button space in wallet tx list on both platforms by @r6mez in https://github.com/BlueWallet/BlueWallet/pull/8742
+* feat: readable data on tx status by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8688
+* OPS: Update all dependencies by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8761
+* Updates for file loc/en.json in es_419 by @transifex-integration[bot] in https://github.com/BlueWallet/BlueWallet/pull/8763
+* ADD: Enable RBF for single sig watch only wallet(HD Bech32) by @ojokne in https://github.com/BlueWallet/BlueWallet/pull/8641
+* REF: Use new saveDocument for fs by @marcosrdz in https://gi…]]></description>
+      <enclosure url="https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa" length="29811150" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>LiveContainer v3.8.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/livecontainer.json</link>
+      <guid isPermaLink="false">livecontainer-3.8.0</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[LiveContainer 3.8.0 | LiveContainer
+
+# LiveContainer 3.8.0
+
+> [!Warning]
+> The standalone version requires **SideStore 0.6.2+** or **AltStore 2.2.1+** for installation.
+> To install LiveContainer with built-in SideStore (`LiveContainer+SideStore.ipa`), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.
+
+# New Features
+
+## Storage Management
+
+- Added a new storage management view with a breakdown of app bundles, containers, temporary files, app group data, tweaks, and other files. (Hidden apps' size is included in "other" section until unlocked)
+- Added per-app storage details, including app bundle size, container sizes, and last-used date.
+- Added actions to clean temporary files and caches, including guest app caches and LiveContainer's own caches.
+
+## Multiple LiveContainers
+- Added configurable launch priority for multiple LiveContainer instances, making shared-app shortcuts choose available instances in the order you prefer. (#1367)
+
+## Share to Apps in LiveContainer
+Added a share extension to LiveContainer. When you share a URL or a file from iOS's share sheet, LiveContainer will ask which app you would like to open the URL/file in, so the old share to LiveContainer shortcut method is no longer needed. When an ipa file is shared in this way, LiveContainer will ask if you want to install it in LiveContainer or in the built-in SideStore (if installed) (#1357)
+
+## Multitasking
+
+- Added per-app multitask preferences. Each app can now follow the global setting, always launch in multitask mode, or avoid multitask mode. (#1208)
+- Improved multitask dock behavior: the dock can be made smaller, hidden more cleanly, and has improved padding. (#1228, #1250)
+- Added more multitask window animations and improved native-window scene handling.
+- URL schemes and `open-url` payloads can be passed to already-running multitask apps and native windows.
+
+## JIT
+- Added StosDebug support as a JIT enabler.
+
+## TweakLoader
+You can now disable tweaks in the "Tweaks" page in LiveContainer's UI. by @SAOMDVN
+
+# Improvements
+- Added support for manually setting a container's IDFV. (#1194)
+- IDFV spoofing works even when Tweakloader is not loaded.
+- Reworked signing logic for tweaks and app installation, with multithreaded signing support.
+- Download alerts now block tab switching while a download is in progress.
+- Crash reports are shown in a sheet instead of a large alert for better performance on newer iOS versions.
+- Add a "Clear Notification" button (#1388)
+- Added some popular NSBonjourServices keys so apps can discover AirPlay devices and remote pairing pairable hosts in the local network. (#1417)
+
+# Bug Fixes
+
+- Fixed `livecontainer://open-url` dropping the deep link when launching an app from a cold start. (#1339)
+- Fixed the Add to Home Screen menu failing or behaving incorrectly by replacing the SwiftUI context menu implementation. (#1209)
+- Fixed a crash when opening Container Preferences if the app did not contain an `en.lproj` path. (#1239)
+- Fixed apps and AltStore sources not being searchable in some cases. (#1365, #1368)
+- Fixed converting a shared app back to private after aborting an install with the same bundle identifier, which could leave stale container state behind. (#1347)
+- Fixed shortcuts and JIT flows getting stuck on a busy LiveContainer instance instead of using another available instance. (#1386)
+- Fixed file picker not workings for some apps because Tweakloader is not loaded after enabling "Hide LiveContainer from dyld API". (#1430)
+- Fixed several app launch compatibility issues on iOS 26.5 beta, and some multitask/JIT app launches. (#1300, #1310, #1329)
+- Fixed multitask keyboard focus issues on iOS 17.4+, including cases where the keyboard would not appear, Passwords would immediately close, or video playback would freeze in multitask mode. (#1402, #844, #870)
+- Added support for iOS 27 developer beta. (#1394, #1417, #1416)
+- Fix background downloads in multitask apps (choosing "Keep App Extensions (Register App ID for Each Extension)" is required). (#1415)
+
+# Localization
+
+- Updated translations. Added Spanish translation by @Deci8BelioS
+
+# Credits
+
+Thanks to everyone who contributed code, fixes, testing, and reports for this release, including @boa-z, @ruri1208, @Project516, @yazdipour, @stossy11, and @SAOMDVN.
+
+Great thanks to everyone who helped translate LiveContainer.]]></description>
+      <enclosure url="https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa" length="4707271" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MuffinStore v1.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/muffinstore.json</link>
+      <guid isPermaLink="false">muffinstore-1.3</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[MuffinStore 1.3 | TrollStore
+
+Adds an app icon, and other changes.
+
+The app icon is designed by [Kate](https://github.com/2x6k), thank you!]]></description>
+      <enclosure url="https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa" length="126091" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Feather v2.9.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/feather.json</link>
+      <guid isPermaLink="false">feather-2.9.0</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Feather 2.9.0 | Feather
+
+Thank you for all your feedback and contributions!
+
+> [!TIP]
+> For `idevice` configuration, you can use [Impactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-file) for easily retrieving a pairing file for installing!
+
+## What's Changed
+* Added tweak options in default signing options.
+* Added ability to search for identifier's in Library @ismailcarlik in https://github.com/claration/Feather/pull/652
+* Fixed issue in the file enumeration logic, by using the path property instead of method.
+* Fixed credit links.
+* Fixed duplicate repository in recommended repositories.
+
+## New Contributors
+* @xiangfeidexiaohuo made their first contribution in https://github.com/claration/Feather/pull/634
+* @osageling made their first contribution in https://github.com/claration/Feather/pull/642
+
+**Full Changelog**: https://github.com/claration/Feather/compare/v2.8.2...v2.9.0]]></description>
+      <enclosure url="https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa" length="14241853" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Bootstrap v2.2.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/bootstrap.json</link>
+      <guid isPermaLink="false">bootstrap-2.2.1</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Bootstrap 2.2.1 | Bootstrap.tipa
+
+1: add procursus(alt) repo by default
+
+2: hide more jailbreak traces]]></description>
+      <enclosure url="https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa" length="55704386" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Ksign v1.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ksign.json</link>
+      <guid isPermaLink="false">ksign-1.6</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Ksign 1.6 | Ksign
+
+Hawoo everywan its been half a year since the last release I'm really sorry because ever since beta build I got lazy from release a new version, anyways]]>&#32;<![CDATA[
+
+## What's Changed
+* fix: handle empty display name in info.plist
+* fix: url scheme for ksign
+* fix: signing on a few apps with weird bundles
+* feat: injection path & inject into extensions
+* feat: optimized for iOS 26 by @Nyasami in https://github.com/Nyasami/Ksign/pull/87
+* feat: bulk install by @Nyasami in https://github.com/Nyasami/Ksign/pull/88
+* feat: idevice installation method by @Nyasami in https://github.com/Nyasami/Ksign/pull/96
+* feat: Add support for .bundle files as tweaks (copy into .app) by @Mikasa-san in https://github.com/Nyasami/Ksign/pull/112
+* chore: update language: German, Russian by @MrCookie-For-Programmers in https://github.com/Nyasami/Ksign/pull/105
+* chore: update Arabic translation by @mohammed1d1 in https://github.com/Nyasami/Ksign/pull/108
+* chore: update Vietnamese localizations by @Astear17 in https://github.com/Nyasami/Ksign/pull/109
+* feat: rsd support by @claration in https://github.com/Nyasami/Ksign/pull/117
+
+## New Contributors
+* @MrCookie-For-Programmers made their first contribution in https://github.com/Nyasami/Ksign/pull/76
+* @mohammed1d1 made their first contribution in https://github.com/Nyasami/Ksign/pull/108
+* @Mikasa-san made their first contribution in https://github.com/Nyasami/Ksign/pull/112
+* @Astear17 made their first contribution in https://github.com/Nyasami/Ksign/pull/109
+* @claration made their first contribution in https://github.com/Nyasami/Ksign/pull/117
+
+**Full Changelog**: https://github.com/Nyasami/Ksign/compare/v1.5.1...v1.6]]></description>
+      <enclosure url="https://github.com/Nyasami/Ksign/releases/download/v1.6/Ksign.ipa" length="16394645" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Lara v0.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/lara.json</link>
+      <guid isPermaLink="false">lara-0.2</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[lara 0.2 | lara_v0.2
+
+## UX Changes
+- Moved tweaks into its own accessible section, and put Tools there at the bottom.
+- Moved logs out of the tab bar and into a toolbar item at the top of the primary views (you can change this back in settings).
+- Settings has been completed reorganized, with some new customization toggles for the app itself.
+
+## Applying/Handling
+- Fixed kernelcache weirdness (kernelcache is now fetched locally)
+- Hybrid will now be used by default.
+
+## Tweaks
+- Rewrote MobileGestalt View + Added a ton of tweaks! (thanks @jurre111)
+- Rewrote Liquid Glass View with nice previewer.
+- Fixed Passcode + Add repo viewer (thanks @neonmodder123)
+- Add SpringBoard Customizer (thanks @leminlimez and Cowabunga, as well as @jurre111 for fixing the view)
+- Add SystemColor patcher.]]></description>
+      <enclosure url="https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa" length="5474210" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Anx Reader v1.14.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/anxreader.json</link>
+      <guid isPermaLink="false">anxreader-1.14.0</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Anx Reader 1.14.0 | Anx-Reader-ios-1.14.0-unsigned
+
+## 1.14.0
+- Fix(translate): Remove legacy Microsoft reverse-engineered translation service and migrate saved full-text translation preference to Microsoft Azure API
+- Fix(l10n): Remove legacy Microsoft translation localization entries
+- Feat(ai): Support separate AI reasoning content with lightweight collapsible thinking UI in chat and stream views (#787)
+- Feat(reader): Add background image fit mode setting with cover and stretch options
+- Feat(appearance): Add setting to toggle action button labels visibility in selection context menu
+- Feat(reader): Add background image blur and opacity controls in reading settings (#753)
+- Feat(tts): Add Narrator option to text selection toolbar to start TTS from selected text (#794) Thanks @deskangel
+- Feat(tts): Add click to pause/resume TTS playback on currently reading text (#794) Thanks @deskangel
+- Feat(tts): Add floating action button in reader for quick TTS controls (previous, pause/resume, next, stop) (#723)
+- Feat(reader): Add Ctrl+[ and Ctrl+] page turning shortcuts on macOS, support Logitech Options+ mouse button mapping (#794) Thanks @deskangel
+- Feat(ai): Add global AI RPM rate limiting in AI service layer
+- Feat(ai): Add AI Provider Configuration Center with support for OpenAI-compatible, Claude, and Gemini protocols
+- Feat(ai): Support multiple API keys per provider with round-robin rotation
+- Feat(ai): Add provider-level reasoning_effort configuration with auto mode and advanced settings entry
+- Feat(ai): Add provider test connection with streaming preview
+- Feat(ai): Add AI chat display mode settings with adaptive, split, and popup options
+- Feat(ai): Add resizable AI panel with drag to resize, sizes persisted
+- Feat(ai): Add AI panel position settings (bottom/right) for non-popup modes
+- Feat(ai): Add font size setting for AI chat via three-dot menu
+- Feat(ai): Add quick model switcher in AI chat input bar (tune icon button)
+- Feat(ai): Add model picker in provider detail page with showMenu dropdown after fetching
+- Fix(ui): Fix context menu action buttons layout and icon color issues when labels are hidden
+- Fix(reader): Fix background image effects not applying and switch reader background fill mode to cover (#753)
+- Fix(reader): Fix RangeError crash when read theme color is null/invalid (#759)
+- Fix(tts): Fix TTS type selection having no effect when changed in reading interface (#794) Thanks @deskangel
+- Fix(tts): Fix incorrect reading position after modifying pitch or rate (#794) Thanks @deskangel
+- Fix(tts): Fix crash when SystemTts speak() receives null text from WebView
+- Fix(ai): Fix unable to use AI for full-text translation
+- Fix(ai): Fix test connection using default provider instead of current provider
+- Fix(ai): Fix AI crash prevention by adding guards for null webViewEnvironment on Windows
+- Fix(ai): Fix type cast error when using Gemini AI with tools (#747)
+- Fix(reader): Desktop resource lifecycle, WebView stability, and scroll UX optimization (#790) Thanks @yi124773651
+- Fix(reader): Fix window close cleanup to properly stop server, dispose WebView2, close database, and destroy window
+- Fix(reader): Add scroll debounce mechanism for smoother page turning experience
+- Fix(reader): Fix image saving permission issue on Android 10+ devices by removing unnecessary storage permission requests (#793)
+- Fix(reader): Disable WebView2 right-click context menu (back, reload, save as, print) on Windows (#746)
+- Fix(reader): Fix images with large inline max-width overflowing column width and appearing on wrong page (#742)
+- Fix(reader): Fix epub heading color not following theme color when useBookStyles is disabled (#749)
+- Fix(toc): Show full chapter titles in TOC by wrapping long text instead of truncating with ellipsis (#751)
+- Fix(l10n): Fallback to English when system language is unsupported on first launch (#785)
+- Feat(reader): Support independent left/right margins and font size for header and footer reading info, with shared section-based configuration model (#791)
+- Fix(l10n): Update Russian translation in app_ru.arb (#774) Thanks @Xapitonov
+- Fix(l10n): Update full_description.txt (#775) Thanks @Xapitonov
+- L10n: Complete Romanian translation (#714) Thanks @Steinhagen
+
+- Feat(ai): AI 支持单独的思考内容字段，并在聊天与流式界面中以轻量可折叠方式展示思考过程 (#787)
+- Fix(translate): 移除旧版 Microsoft 逆向翻译服务，并将已保存的全文翻译偏好迁移到 Microsoft Azure API
+- Fix(l10n): 移除旧版 Microsoft 翻译相关本地化条目
+- Feat(appearance): 新增设置项，可开关选中文本菜单等操作按钮的底部文字提示
+- Feat(reader): 新增背景图缩放模式设置，支持 cover 和 stretch 两种模式
+- Feat(reader): 阅读设置新增背景图模糊度和透明度调节 (#753)
+- Feat(tts): 在文本选择工具栏新增朗读选项，支持从选中文本开始 TTS (#794) 感谢 @deskangel
+- Feat(tts): 新增点击正在朗读的文本以暂停/继续 TTS 播放 (#794) 感谢 @deskangel
+- Feat(tts): 新增阅读界面朗读快捷操作悬浮按钮（上一句、暂停/继续、下一句、停止）(#723)
+- Feat(reader): macOS 新增 Ctrl+[ 和 Ctrl+] 翻页快捷键，支持 Logitech Options+ 鼠标按键映射 (#794) 感谢 @deskangel
+- Feat(ai): 在 AI 服务层添加全局 AI 请求限流（RPM）
+- Feat(ai): 新增 AI 供应商配置中心，支持 OpenAI 兼容、Claude 和 Gemini 协议
+- Feat(ai): 支持每个供应商配置多个 API Key，自动轮询使用
+- Feat(ai): 新增供应商级 reasoning_effort 配置，支持自动模式并收纳到高级设置中
+- Feat(ai): 新增供应商连接测试，支持流式预览
+- Feat(ai): 新增 AI 对话显示模式设置，支持自适应、分屏和弹出三种模式
+- Feat(ai): 新增可调整尺寸的 AI 面板，支持拖动调整大小，尺寸自动保存
+- Feat(ai): 新增 AI 面板位置设置（非弹出模式下可选择底部或右侧）
+- Feat(ai): 新增 AI 对话字体大小设置，通过三点菜单访问
+- Feat(ai): 新增 AI 聊天输入栏快速切换模型按钮（调谐图标）
+- Feat(ai): 供应商详情页新增模型选择器，获取后通过下拉菜单显示
+- Fix(ui): 修复关闭文字提示时上下文菜单按钮布局及图标颜色变灰的问题
+- Fix(reader): 修复背景图效果不生效的问题，并将阅读器背景图填充方式调整为 cover (#753)
+- Fix(reader): 修复阅读主题颜色为空/无效时的 RangeError 崩溃 (#759)
+- Fix(tts): 修复在阅读界面切换 TTS 类型无效的问题 (#794) 感谢 @deskangel
+- Fix(tts): 修复调整音调或语速后朗读位置不正确的问题 (#794) 感谢 @deskangel
+- Fix(tts): 修复 SystemTts 从 WebView 获取文本为空时的崩溃问题
+- Fix(ai): 修复无法使用 AI 进行全文翻译的问题
+- Fix(ai): 修复测试连接时使用默认供应商而非当前供应商的问题
+- Fix(ai): 修复 AI 崩溃问题，为 Windows 上空 webViewEnvironment 添加防护
+- Fix(ai): 修复使用 Gemini AI 工具时的类型转换错误 (#747)
+- Fix(reader): 桌面端资源生命周期管理、WebView 稳定性及滚动体验优化 (#790) 感谢 @yi124773651
+- Fix(reader): 修复窗口关闭时的清理流程，正确停止服务器、释放 WebView2、关闭数据库并销毁窗口
+- Fix(reader): 添加滚动防抖机制，优化翻页体验
+- Fix(reader): 修复 Android 10+ 设备图片保存权限问题，移除不必要的存储权限请求 (#793)
+- Fix(reader): 修复 Windows 端右键触发 WebView2 系统上下文菜单（返回、刷新、另存为、打印）的问题 (#746)
+- Fix(reader): 修复图片内嵌大 max-width 导致宽度超出栏宽而显示到下一页的问题 (#742)
+- Fix(reader): 修复禁用书籍自带样式时 epub 标题颜色不跟随主题色的问题，智能识别黑色标题并进行覆盖 (#749)
+- Fix(toc): 目录中过长的章节标题现在会自动换行显示完整内容，不再以省略号截断 (#751)
+- Fix(l10n): 修复首次启动时系统语言不受支持会错误回退到阿拉伯语的问题，改为回退到英文 (#785)
+- Feat(reader): 页眉和页脚阅读信息支持分别设置左右边距与字体大小，并重构为共享的分区配置模型 (#791)
+- Fix(l10n): 更新俄语翻译 app_ru.arb (#774) 感谢 @Xapitonov
+- L10n: 完成罗马尼亚语翻译 (#714) 感谢 @Steinhagen]]></description>
+      <enclosure url="https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa" length="28677588" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>qBitConnect v1.6.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/qbitconnect.json</link>
+      <guid isPermaLink="false">qbitconnect-1.6.6</guid>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[qBitConnect 1.6.6 | qBitConnect
+
+This release includes:
+• Minor improvements and bug fixes
+• UI Enhancements]]></description>
+      <enclosure url="https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa" length="11798221" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Battery Info v1.2.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/batteryinfo.json</link>
+      <guid isPermaLink="false">batteryinfo-1.2.2</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[Battery Info 1.2.2 | TrollStore
+
+1. Added 'full capacity'.
+2. Improve history add saving of QMax and limit voltage data.
+3. Improve the database.
+4. Other improvements.
+
+
+Zh:
+1. 新增 满充容量
+2. 改进历史记录，新增保存QMax和限制电压数据
+3. 改进数据库，为将来的非TrollStore版做好准备，当前进度新建文件夹，并验证了可行性
+4. 其他小改进]]></description>
+      <enclosure url="https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa" length="346882" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Animation Speed v1.0.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/animationspeed.json</link>
+      <guid isPermaLink="false">animationspeed-1.0.1</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[Animation Speed 1.0.1 | TrollStore
+
+1. Limit the speed to [0~10]
+
+Zh:
+1. 限制设置速度为[0~10]]]></description>
+      <enclosure url="https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa" length="96650" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>EnableQUIC v1.2.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/enablequic.json</link>
+      <guid isPermaLink="false">enablequic-1.2.4</guid>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[EnableQUIC 1.2.4 | TrollStore
+
+1. Bug fix #4, Improve the process of 'Restore default settings'. Firstly, restore the default configuration from the backup after improvement. If the backup configuration file does not exist, use the built-in rules to restore the default settings.
+
+Advanced settings to enable:
+Click the icon at the top of the app 5 times, then shake the device to open Advanced Mode.]]>&#32;&#32;<![CDATA[
+
+Zh:
+1. 修复#4，改进恢复默认设置流程，改进后先从备份中恢复默认配置，如果备份的配置文件不存在，则使用内置规则恢复默认设置。]]>&#32;&#32;<![CDATA[
+
+开启流程（普通用户）：启用->注销]]>&#32;&#32;<![CDATA[
+关闭流程（普通用户）：恢复默认->注销]]>&#32;&#32;<![CDATA[
+**App无需保留后台，设置成功后即可关闭App**]]>&#32;&#32;<![CDATA[
+
+高级设置仅供了解原理的用户使用，您可以自定义每一项的设置，如果您不知道这些开关的含义，请使用默认设置]]>&#32;&#32;<![CDATA[
+高级设置开启方法：
+点击App顶部的图标5次，然后摇晃下设备，即可打开高级模式]]>&#32;&#32;<![CDATA[
+开启流程（高级用户）：启用->注销(可省略)->锁定文件权限->注销]]>&#32;&#32;<![CDATA[
+关闭流程（高级用户）：解锁文件权限->恢复默认->注销]]>&#32;&#32;<![CDATA[
+**卸载App或抹除/升级设备系统之前请解锁文件权限，以防止出现未知错误**]]></description>
+      <enclosure url="https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa" length="362372" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>SecondHand v1.3.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/secondhand.json</link>
+      <guid isPermaLink="false">secondhand-1.3.1</guid>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[SecondHand 1.3.1 | TrollStore
+
+- Fixed applying on iOS 17.0+ (hopefully)
+  - Reverts to using the iOS 16.1 offsets]]></description>
+      <enclosure url="https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa" length="2786937" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>PureKFD v6.0.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/purekfd.json</link>
+      <guid isPermaLink="false">purekfd-6.0.2</guid>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[PureKFD 6.0.2 | PureKFD
+
+- more optimization
+- more syncing for accents
+- new repo
+- fixed individual tweak restore]]></description>
+      <enclosure url="https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa" length="10806164" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>TrollInstallerX v1.0.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/trollinstallerx.json</link>
+      <guid isPermaLink="false">trollinstallerx-1.0.3</guid>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[TrollInstallerX 1.0.3 | TrollInstallerX
+
+# TrollInstallerX v1.0.3
+
+## Changes:
+* Update for Xcode 15.4+ compilation (fixes #25)
+* Added a temporary fix for yellow iPhone 14 (Plus) devices on iOS 16.3, please use `TrollInstallerX-20D50.ipa` (fixes #33)
+* Removing confusing logging around exploit deinitialisation (e.g. #11)
+* Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2 (should, in theory, fix #21)
+
+**Note**: A8 devices on iOS 15.2+ will not be supported until a future release of TrollInstallerX. Furthermore, support for arm64e (A12+) devices on early iOS 17.0 betas is not planned, unless someone else would like to implement it. You can now use [TrollRestore](https://github.com/JJTech0130/TrollRestore) for both of these cases.
+
+# DO NOT DOWNLOAD THE 20D50 IPA UNLESS YOU HAVE A YELLOW IPHONE 14 (PLUS) ON IOS 16.3.]]></description>
+      <enclosure url="https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa" length="6889214" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Helium v3.2.5</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/helium.json</link>
+      <guid isPermaLink="false">helium-3.2.5</guid>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[Helium 3.2.5 | TrollStore
+
+Massive merge of features from [AsakuraFuuko's repo](https://github.com/AsakuraFuuko/Helium)
+
+**Top features from v3.0.0-v3.2.5 include:**
+- Landscape mode now works properly!
+- Massive improvements to the adaptive color functionality
+- Choosing the text font
+- Option for italic text
+- Update interval can be controlled for each widget
+- New weather widget (must set your own API key)
+- Enabling and disabling widget sets
+- HUD now updates widget sets without having to restart the HUD
+- Option for a debug border around the widgets
+- Date locale fixes for Chinese users
+- Chinese translation
+- A whole lot of other improvements/fixes
+
+Once again, thank you so much to AsakuraFuuko for this huge update. I would like to welcome them to the development team, where they will hopefully continue to update the app! Keep an eye out for this up-and-coming dev 👀]]></description>
+      <enclosure url="https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa" length="4168281" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Serotonin v1.2.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/serotonin.json</link>
+      <guid isPermaLink="false">serotonin-1.2.1</guid>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[Serotonin 1.2.1 | Serotonin.tipa
+
+# Serotonin 1.2.1
+## Changelog
+### Cleanup
+
+- Fixed memory hogger
+- Fixed exploit picker
+- Fixed launchd entitlements
+- Remove a bunch of unused code
+- Slight UI changes]]></description>
+      <enclosure url="https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa" length="14986482" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Taurine v1.1.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/taurine.json</link>
+      <guid isPermaLink="false">taurine-1.1.7</guid>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      <description><![CDATA[Taurine 1.1.7 | Taurine.1.1.7-3
+
+Fix kfd change being implemented incorrectly]]></description>
+      <enclosure url="https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa" length="32244737" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Cowabunga v10.3.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/cowabunga.json</link>
+      <guid isPermaLink="false">cowabunga-10.3.2</guid>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <description><![CDATA[Cowabunga 10.3.2 | Cowabunga
+
+- Changing carrier bar strength now works when you do not have a sim card (or dual sim for secondary carrier)]]></description>
+      <enclosure url="https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa" length="16288960" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Odyssey v1.4.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/odyssey.json</link>
+      <guid isPermaLink="false">odyssey-1.4.3</guid>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      <description><![CDATA[Odyssey 1.4.3 | Odyssey-1.4.3
+
+- Update Sileo to 2.3-1]]></description>
+      <enclosure url="https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa" length="27204395" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>WDBFontOverwrite v1.10.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/wdbfontoverwrite.json</link>
+      <guid isPermaLink="false">wdbfontoverwrite-1.10.8</guid>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      <description><![CDATA[WDBFontOverwrite 1.10.8 | WDBFontOverwrite
+
+- Updated grant_full_disk_access.
+- Concurrency and code improvements/fixes.]]></description>
+      <enclosure url="https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa" length="5348316" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>StatusMagic v1.0.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/statusmagic.json</link>
+      <guid isPermaLink="false">statusmagic-1.0.2</guid>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <description><![CDATA[StatusMagic 1.0.2 | StatusMagic
+
+Even in the best tested code, mistakes slip through. Sorry for such a hasty update.
+
+## Changes
+- Fixed "Hide DND" on iOS 15 (I accidentally left experimental code in there that enabled every single status bar icon, see #12)]]>&#32;<![CDATA[
+- And... that's it. Sorry!
+
+## Installation
+- iOS 14.*: Install the app with [TrollStore](https://github.com/opa334/TrollStore)
+- iOS 15.0 - 15.4.1: Install the app with [TrollStore](https://github.com/opa334/TrollStore) (recommended), [AltStore](https://altstore.io/), or [Sideloadly](https://sideloadly.io/)
+- iOS 15.5 - 16.1.2: Install the app with [AltStore](https://altstore.io/) or [Sideloadly](https://sideloadly.io/) (excludes iOS 15.7.2 & 15.7.3)
+- iOS 16.2+: Not supported, and never will be
+
+> __Warning__ ESign has been known to have issues. To avoid it, use other installation methods.]]></description>
+      <enclosure url="https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa" length="1218528" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>DynamicCow v1.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dynamiccow.json</link>
+      <guid isPermaLink="false">dynamiccow-1.1</guid>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <description><![CDATA[DynamicCow 1.1 | DynamicCow]]></description>
+      <enclosure url="https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa" length="915515" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mugunghwa v3.0.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mugunghwa.json</link>
+      <guid isPermaLink="false">mugunghwa-3.0.2</guid>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mugunghwa 3.0.2 | Mugunghwa
+
+Fixed crashes.]]></description>
+      <enclosure url="https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa" length="3889341" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

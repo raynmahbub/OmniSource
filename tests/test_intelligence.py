@@ -275,6 +275,7 @@ class CollectionsTests(unittest.TestCase):
         doc = build_collections_doc(catalog, {})
         self.assertEqual(doc["count"], len(COLLECTIONS))
         self.assertEqual({c["slug"] for c in doc["collections"]}, set(collection_slugs()))
+        self.assertTrue(all(c["name"] == c["title"] and c["name"] for c in doc["collections"]))
         # Only apps present in the catalog are referenced: curated membership is
         # filtered against the catalog, so a renamed slug cannot linger in a page.
         for collection in doc["collections"]:

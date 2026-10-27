@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Battery Info releases
+BEGIN:VEVENT
+UID:batteryinfo-1.2.2@omnisource
+DTSTAMP:20250709T000000Z
+DTSTART;VALUE=DATE:20250709
+DTEND;VALUE=DATE:20250710
+SUMMARY:Battery Info v1.2.2
+DESCRIPTION:Battery Info 1.2.2 | TrollStore\n\n1. Added 'full capacity'.\n2
+ . Improve history add saving of QMax and limit voltage data.\n3. Improve t
+ he database.\n4. Other improvements.\n\n\nZh:\n1. 新增 满充容量\n2. 
+ 改进历史记录，新增保存QMax和限制电压数据\n3. 改进数
+ 据库，为将来的非TrollStore版做好准备，当前进度新建文
+ 件夹，并验证了可行性\n4. 其他小改进
+URL:https://raynmahbub.github.io/OmniSource/feeds/batteryinfo.json
+END:VEVENT
+END:VCALENDAR

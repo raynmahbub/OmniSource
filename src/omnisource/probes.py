@@ -38,38 +38,51 @@ def utcnow() -> str:
     return datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
-def probe_url(url: str, *, timeout: int = 12) -> dict[str, Any]:
-    """Probe one URL; never raises. A 2xx/3xx is reachable."""
+def probe_url(url: str, *, timeout: int = 12, retries: int = 1) -> dict[str, Any]:
+    """Probe anonymously, retrying transient failures and bounding GET reads."""
     result: dict[str, Any] = {"url": url, "ok": False, "status": 0, "latency_ms": None, "error": ""}
     if not is_http_url(url):
         result["error"] = "not an http(s) URL"
         return result
-    for method in ("HEAD", "GET"):
-        request = urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT})
-        started = time.monotonic()
-        try:
-            with urllib.request.urlopen(request, timeout=timeout) as response:
-                code = response.status
-                if method == "GET":
-                    response.read(1024)  # Confirm the body actually starts flowing.
-        except urllib.error.HTTPError as exc:
+    attempts = max(1, min(retries + 1, 3))
+    for attempt in range(attempts):
+        transient = False
+        for method in ("HEAD", "GET"):
+            headers = {"User-Agent": USER_AGENT}
+            if method == "GET":
+                headers["Range"] = "bytes=0-0"
+            started = time.monotonic()
+            try:
+                request = urllib.request.Request(url, method=method, headers=headers)
+                with urllib.request.urlopen(request, timeout=timeout) as response:
+                    code = response.status
+                    if method == "GET":
+                        response.read(1)
+            except urllib.error.HTTPError as exc:
+                result["latency_ms"] = int((time.monotonic() - started) * 1000)
+                if exc.code in (403, 405, 501) and method == "HEAD":
+                    continue
+                result["status"] = exc.code
+                result["error"] = f"HTTP {exc.code}"
+                transient = exc.code in (408, 425, 429, 500, 502, 503, 504)
+                break
+            except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+                result["latency_ms"] = int((time.monotonic() - started) * 1000)
+                result["status"] = 0
+                result["error"] = str(exc) or "unreachable"
+                transient = not isinstance(exc, ValueError)
+                break
             result["latency_ms"] = int((time.monotonic() - started) * 1000)
-            if exc.code in (403, 405) and method == "HEAD":
-                continue
-            result["status"] = exc.code
-            result["error"] = f"HTTP {exc.code}"
-            return result
-        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-            result["latency_ms"] = int((time.monotonic() - started) * 1000)
-            result["error"] = str(exc) or "unreachable"
-            return result
-        result["latency_ms"] = int((time.monotonic() - started) * 1000)
-        result["status"] = code
-        if 200 <= code < 400:
-            result["ok"] = True
-            return result
-        result["error"] = f"HTTP {code}"
-        return result
+            result["status"] = code
+            if 200 <= code < 400:
+                result.update(ok=True, error="")
+                return result
+            result["error"] = f"HTTP {code}"
+            transient = code in (408, 425, 429, 500, 502, 503, 504)
+            break
+        if not transient or attempt + 1 == attempts:
+            break
+        time.sleep(0.5 * (attempt + 1))
     return result
 
 
@@ -102,25 +115,67 @@ def check_sources(
     return sorted(results, key=lambda item: item["id"])
 
 
+def app_key(app: dict[str, Any]) -> str:
+    """Prefer the stable catalog slug carried by an AltStore feed entry."""
+    omni = app.get("omnisource") if isinstance(app.get("omnisource"), dict) else {}
+    return str(app.get("slug") or omni.get("slug") or app.get("id") or app.get("name") or "")
+
+
+def declared_fallbacks(app: dict[str, Any]) -> list[str]:
+    """Return only configured HTTPS fallbacks, without inventing mirrors."""
+    versions = app.get("versions")
+    newest = versions[0] if isinstance(versions, list) and versions and isinstance(versions[0], dict) else {}
+    primary = str(app.get("downloadURL") or newest.get("downloadURL") or "")
+    candidates = []
+    for value in (app.get("fallbackDownloadURLs"), newest.get("fallbackDownloadURLs")):
+        if isinstance(value, list):
+            candidates.extend(value)
+    return list(
+        dict.fromkeys(
+            url
+            for url in candidates
+            if isinstance(url, str) and url.startswith("https://") and is_http_url(url) and url != primary
+        )
+    )
+
+
 def check_downloads(
     apps: list[dict[str, Any]],
     *,
     timeout: int = 12,
     workers: int = 16,
+    max_fallbacks: int = 3,
 ) -> list[dict[str, Any]]:
-    """Probe each app's newest download URL concurrently."""
-    targets = []
+    """Probe primary URLs, then declared fallbacks only for failed primaries.
+
+    Reachability is not proof that a mirror serves the same binary; no URL is
+    automatically substituted. Results retain the primary's status.
+    """
+    targets: list[tuple[str, str, dict[str, Any]]] = []
     for app in apps:
         if not isinstance(app, dict):
             continue
         url = app.get("downloadURL") or ""
         if is_http_url(url):
-            targets.append((str(app.get("slug") or app.get("id") or app.get("name") or url), url))
-    probed = {item["url"]: item for item in _run([url for _, url in targets], timeout=timeout, workers=workers)}
+            targets.append((app_key(app) or str(url), str(url), app))
+    urls = list(dict.fromkeys(url for _, url, _ in targets))
+    probed = {item["url"]: item for item in _run(urls, timeout=timeout, workers=workers)}
+    fallback_by_id = {
+        app_id: declared_fallbacks(app)[: max(0, max_fallbacks)]
+        for app_id, url, app in targets
+        if not probed.get(url, {}).get("ok")
+    }
+    fallback_urls = list(dict.fromkeys(url for values in fallback_by_id.values() for url in values))
+    mirrors = (
+        {item["url"]: item for item in _run(fallback_urls, timeout=timeout, workers=workers)} if fallback_urls else {}
+    )
     results = []
-    for app_id, url in targets:
+    for app_id, url, _ in targets:
         probe = probed.get(url, {})
-        results.append({"id": app_id, "url": url, **{k: v for k, v in probe.items() if k != "url"}})
+        result = {"id": app_id, "url": url, **{k: v for k, v in probe.items() if k != "url"}}
+        if fallback_by_id.get(app_id):
+            result["fallbacks"] = [mirrors[item] for item in fallback_by_id[app_id] if item in mirrors]
+        results.append(result)
     return sorted(results, key=lambda item: item["id"])
 
 
@@ -154,12 +209,13 @@ def build_status(
     history: list[dict[str, Any]] = []
     if isinstance(previous, dict) and isinstance(previous.get("history"), list):
         history = [entry for entry in previous["history"] if isinstance(entry, dict)][-29:]
+    checked_at = utcnow()
     history.append(
-        {"at": utcnow(), "overall": overall, "sourcesOk": sources_ok, "downloadsOk": downloads_ok},
+        {"at": checked_at, "overall": overall, "sourcesOk": sources_ok, "downloadsOk": downloads_ok},
     )
     return {
         "schemaVersion": STATUS_SCHEMA_VERSION,
-        "generatedAt": utcnow(),
+        "generatedAt": checked_at,
         "overall": overall,
         "summary": {
             "sources": len(source_results),

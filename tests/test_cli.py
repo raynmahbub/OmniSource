@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import io
+import json
+import tempfile
 import unittest
 from contextlib import redirect_stderr, redirect_stdout
+from pathlib import Path
 from unittest import mock
 
 from omnisource import __version__
@@ -25,6 +28,17 @@ class CLIParseTests(unittest.TestCase):
 
 
 class CLIRunTests(unittest.TestCase):
+    def test_receipt_is_written_only_when_verification_completes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            receipt = Path(tmp) / "receipt.json"
+            with mock.patch("omnisource.cli.run", return_value=(1, object())):
+                self.assertEqual(main(["--verify-downloads", "--verification-receipt", str(receipt)]), 1)
+            self.assertEqual(json.loads(receipt.read_text()), {"completed": True, "exitCode": 1})
+            # A stale receipt from a previous invocation must not make a crash publishable.
+            with mock.patch("omnisource.cli.run", side_effect=SyncError("boom")):
+                self.assertEqual(main(["--verify-downloads", "--verification-receipt", str(receipt)]), 1)
+            self.assertFalse(receipt.exists())
+
     def test_sync_error_returns_failure_code(self):
         with (
             mock.patch("omnisource.cli.run", side_effect=SyncError("boom")),

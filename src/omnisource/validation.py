@@ -157,6 +157,9 @@ def validate_catalog(catalog: Any, *, assets_dir: Path) -> Report:
         if app.get("bundleIdentifier") and not BUNDLE_RE.match(app["bundleIdentifier"]):
             report.error(f"{prefix}: bundleIdentifier contains invalid characters")
 
+        if "archive" in app and not isinstance(app["archive"], bool):
+            report.error(f"{prefix}: archive must be a boolean")
+
         status = app.get("status")
         if status and status not in VALID_STATUSES:
             report.error(f"{prefix}: unknown status '{status}' (expected one of {sorted(VALID_STATUSES)})")
@@ -323,6 +326,11 @@ def _validate_verification(prefix: str, verification: Any) -> Report:
         report.error(f"{prefix}: verification.method must be one of {sorted(VALID_VERIFICATION_METHODS)}")
     if not verification.get("publisher"):
         report.error(f"{prefix}: verification.publisher is required")
+    provenance = verification.get("provenance")
+    if provenance is not None and (
+        not isinstance(provenance, str) or provenance not in {"official", "community", "unknown"}
+    ):
+        report.error(f"{prefix}: verification.provenance must be official, community or unknown")
     return report
 
 
@@ -1257,6 +1265,99 @@ def validate_source_builds(paths: Paths, catalog: Any) -> Report:
     return report
 
 
+def validate_roadmap_docs(paths: Paths) -> Report:
+    """Check the new static subscriptions, source variants and evidence chain."""
+    from omnisource.transparency import validate_log
+
+    report = Report()
+    ledger = load_json(paths.feeds / "transparency.json", report, root=paths.root)
+    if isinstance(ledger, dict):
+        try:
+            validate_log(ledger)
+        except (TypeError, ValueError) as error:
+            report.error(f"feeds/transparency.json: {error}")
+    elif ledger is not None:
+        report.error("feeds/transparency.json: root must be an object")
+
+    subscriptions = load_json(paths.feeds / "subscriptions.json", report, root=paths.root)
+    entries = subscriptions.get("subscriptions") if isinstance(subscriptions, dict) else None
+    if not isinstance(entries, list):
+        report.error("feeds/subscriptions.json: subscriptions must be an array")
+    else:
+        for item in entries:
+            path = item.get("path") if isinstance(item, dict) else None
+            if not isinstance(path, str) or not re.fullmatch(r"[a-z0-9/-]+\.(?:xml|ics)", path) or path.startswith("/"):
+                report.error("feeds/subscriptions.json: invalid relative subscription path")
+            elif not (paths.feeds / path).is_file():
+                report.error(f"feeds/subscriptions.json: missing {path}")
+
+    master = load_json(paths.feeds / "apps.json", report, root=paths.root)
+    index = load_json(paths.feeds / "variants" / "index.json", report, root=paths.root)
+    apps = master.get("apps") if isinstance(master, dict) else None
+    groups = index.get("groups") if isinstance(index, dict) else None
+    if not isinstance(apps, list) or not isinstance(groups, list) or any(not isinstance(app, dict) for app in apps):
+        report.error("feeds/variants/index.json: master apps and groups must be arrays of records")
+        return report
+
+    def slug_for(item: Any) -> str:
+        meta = item.get("omnisource") if isinstance(item, dict) else None
+        return str(meta.get("slug") or "") if isinstance(meta, dict) else ""
+
+    by_bundle: dict[str, list[dict[str, Any]]] = {}
+    for app in apps:
+        if isinstance(app, dict) and isinstance(app.get("bundleIdentifier"), str):
+            by_bundle.setdefault(app["bundleIdentifier"], []).append(app)
+    expected_groups = {key for key, members in by_bundle.items() if len(members) > 1}
+    seen_groups: set[str] = set()
+    for group in groups:
+        if not isinstance(group, dict) or not isinstance(group.get("bundleIdentifier"), str):
+            report.error("feeds/variants/index.json: invalid group")
+            continue
+        bundle = group["bundleIdentifier"]
+        choices = group.get("choices")
+        if bundle in seen_groups or bundle not in expected_groups or not isinstance(choices, list):
+            report.error(f"feeds/variants/index.json: unexpected or duplicate group {bundle}")
+            continue
+        seen_groups.add(bundle)
+        expected_slugs = {slug_for(app) for app in by_bundle[bundle]}
+        seen_slugs: set[str] = set()
+        for choice in choices:
+            slug = choice.get("slug") if isinstance(choice, dict) else None
+            url = choice.get("url") if isinstance(choice, dict) else None
+            if (
+                not isinstance(slug, str)
+                or not SLUG_RE.fullmatch(slug)
+                or slug not in expected_slugs
+                or slug in seen_slugs
+            ):
+                report.error(f"feeds/variants/index.json: invalid choice in {bundle}")
+                continue
+            seen_slugs.add(slug)
+            if (
+                not isinstance(url, str)
+                or not url.startswith("https://")
+                or not url.endswith(f"/feeds/variants/{slug}.json")
+            ):
+                report.error(f"feeds/variants/index.json: invalid URL for {slug}")
+            path = paths.feeds / "variants" / f"{slug}.json"
+            feed = load_json(path, report, root=paths.root)
+            expected_apps = [app for app in apps if app.get("bundleIdentifier") != bundle or slug_for(app) == slug]
+            if (
+                not isinstance(feed, dict)
+                or not feed.get("name")
+                or not feed.get("identifier")
+                or feed.get("identifier") == master.get("identifier")
+                or feed.get("sourceURL") != url
+                or feed.get("apps") != expected_apps
+            ):
+                report.error(f"feeds/variants/{slug}.json: variant differs from the selected master feed")
+        if seen_slugs != expected_slugs:
+            report.error(f"feeds/variants/index.json: incomplete choices for {bundle}")
+    if seen_groups != expected_groups:
+        report.error("feeds/variants/index.json: collision groups are incomplete")
+    return report
+
+
 # ---------------------------------------------------------------------------
 # Entry
 # ---------------------------------------------------------------------------
@@ -1308,6 +1409,7 @@ def validate_tree(paths: Paths) -> Report:
             report.extend(validate_feed(path, feed, root=paths.root))
 
     report.extend(validate_generated_docs(catalog, paths))
+    report.extend(validate_roadmap_docs(paths))
     report.extend(validate_published_app_records(catalog, paths))
     report.extend(validate_api_v2(catalog, paths))
     print(

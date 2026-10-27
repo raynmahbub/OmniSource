@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Taurine releases
+BEGIN:VEVENT
+UID:taurine-1.1.7@omnisource
+DTSTAMP:20230923T000000Z
+DTSTART;VALUE=DATE:20230923
+DTEND;VALUE=DATE:20230924
+SUMMARY:Taurine v1.1.7
+DESCRIPTION:Taurine 1.1.7 | Taurine.1.1.7-3\n\nFix kfd change being impleme
+ nted incorrectly
+URL:https://raynmahbub.github.io/OmniSource/feeds/taurine.json
+END:VEVENT
+END:VCALENDAR

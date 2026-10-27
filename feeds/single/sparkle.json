@@ -55,6 +55,20 @@
         "https://raw.githubusercontent.com/efibalogh/sparkle-ig/main/resources/screenshots/sparkle_settings.jpg",
         "https://raw.githubusercontent.com/efibalogh/sparkle-ig/main/resources/screenshots/sparkle_settings_open.jpg"
       ],
+      "minOSVersion": "15.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -90,7 +104,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "15.1",
@@ -111,9 +126,11 @@
           "notes": "Official project: efibalogh/sparkle-ig (publishes .deb assets); this source serves the ready-to-sideload IPA build from the IPA Vault. Instagram 445.x builds require iOS 15.1 or newer. Uses its own bundle identifier (com.burbn.instagram.sparkle) - installs alongside the stock app."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-22",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
           "lastUpdatedAt": "2026-10-19"
         }
       }

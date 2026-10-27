@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CAPerfHUD releases
+BEGIN:VEVENT
+UID:caperfhud-1.0.2@omnisource
+DTSTAMP:20231219T000000Z
+DTSTART;VALUE=DATE:20231219
+DTEND;VALUE=DATE:20231220
+SUMMARY:CAPerfHUD v1.0.2
+DESCRIPTION:CAPerfHUD 1.0.2 | TrollStore\n\nHOTFIX 2: Electric Boogaloo\n- 
+ Fix labels not displaying correctly on light mode
+URL:https://raynmahbub.github.io/OmniSource/feeds/caperfhud.json
+END:VEVENT
+END:VCALENDAR

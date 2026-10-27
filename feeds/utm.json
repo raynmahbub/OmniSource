@@ -154,6 +154,20 @@
         "https://raw.githubusercontent.com/utmapp/UTM/main/screen.png",
         "https://raw.githubusercontent.com/utmapp/UTM/main/screenmac.png"
       ],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -209,8 +223,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
           "lastUpdatedAt": "2026-10-17T02:44:56Z"
         }
       }

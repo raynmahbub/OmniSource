@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>OmniSource — The App Store for Sideloaded iOS</title>
-  <meta name="description" content="A verified, automatically updated iOS sideloading source for AltStore, SideStore, Feather, ESign and LiveContainer. Every app resolves from its official upstream.">
+  <meta name="description" content="An automatically updated iOS sideloading source for AltStore, SideStore, Feather, ESign and LiveContainer, with developer and community sources clearly attributed.">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#e8eef8" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#07070f" media="(prefers-color-scheme: dark)">
@@ -52,6 +52,9 @@
     })();
   </script>
   <script src="js/core.js" defer></script>
+  <script src="js/device.js" defer></script>
+  <script src="js/updates-local.js" defer></script>
+  <script src="js/app-guide.js" defer></script>
   <script src="js/site.js" defer></script>
   <script src="src/js/i18n.js" defer></script>
   <script src="js/features.js" defer></script>
@@ -64,7 +67,7 @@
     "@type": "WebSite",
     "name": "OmniSource",
     "url": "https://raynmahbub.github.io/OmniSource/",
-    "description": "A verified, automatically updated iOS sideloading source for AltStore, SideStore, Feather, ESign and LiveContainer.",
+    "description": "An iOS sideloading source with declared provenance and dated checks for AltStore-compatible clients.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "https://raynmahbub.github.io/OmniSource/search/?q={search_term_string}",
@@ -135,13 +138,13 @@
     <!-- ================================ HERO ================================ -->
     <section class="hero os-hero" aria-label="OmniSource introduction">
       <div class="shell hero-inner">
-        <span class="eyebrow" id="healthPill"><span class="live-dot" id="healthDot"></span><span id="healthLabel">127 of 128 downloads online</span></span>
+        <span class="eyebrow" id="healthPill"><span class="live-dot" id="healthDot"></span><span id="healthLabel">108 of 128 downloads last seen reachable</span></span>
         <picture class="hero-logo-wrap">
           <source srcset="assets/OmniSource.webp" type="image/webp">
           <img class="hero-logo" src="assets/OmniSource.png" alt="OmniSource logo" width="72" height="72" fetchpriority="high">
         </picture>
         <h1><span class="chrome-text" data-i18n="hero.titleA">One Source.</span><br><span class="grad-text" data-i18n="hero.titleB">Every Source.</span></h1>
-        <p class="hero-tagline" data-i18n="hero.tagline">Discover trusted AltStore-compatible repositories.</p>
+        <p class="hero-tagline" data-i18n="hero.tagline">Explore AltStore-compatible apps with transparent source details.</p>
 
         <div class="hero-ctas">
           <a class="button primary os-press" href="install/" data-i18n="hero.quickInstall">Quick install</a>
@@ -191,8 +194,8 @@
         <div class="stats-grid" id="statCards" aria-label="Live catalog statistics">
           <div class="stat-card"><strong id="statApps" data-count>128</strong><span data-i18n="stats.apps">Total apps</span></div>
           <div class="stat-card"><strong id="statSources" data-count>111</strong><span data-i18n="stats.sources">Upstream sources</span></div>
-          <div class="stat-card"><strong id="statOnline" data-count>127/128</strong><span data-i18n="stats.online">Downloads online</span></div>
-          <div class="stat-card"><strong id="statVerified" data-count>127/128</strong><span data-i18n="stats.verified">Verified apps</span></div>
+          <div class="stat-card"><strong id="statOnline" data-count>108/128</strong><span data-i18n="stats.online">Downloads online</span></div>
+          <div class="stat-card"><strong id="statVerified" data-count>98/128</strong><span data-i18n="stats.verified">Official-source checks passed</span></div>
         </div>
         <p class="text-mono text-xs text-faint mt-2" id="statSyncLabel" aria-live="polite">last sync 2026-10-25</p>
       </div>
@@ -251,6 +254,7 @@
           <button class="subtab active" data-tab-provenance="all" role="tab" aria-selected="true" type="button">All builds</button>
           <button class="subtab" data-tab-provenance="official" role="tab" aria-selected="false" type="button">Official</button>
           <button class="subtab" data-tab-provenance="community" role="tab" aria-selected="false" type="button">Community</button>
+          <button class="subtab" data-tab-provenance="unknown" role="tab" aria-selected="false" type="button">Unknown</button>
         </div>
 
         <div class="catalog-tools">
@@ -279,6 +283,29 @@
           </label>
         </div>
 
+        <details class="device-profile">
+          <summary>My device compatibility</summary>
+          <p>Compare declared requirements. This profile stays in this browser; results are not an installation guarantee.</p>
+          <form id="deviceProfileForm" class="device-profile-form">
+            <label>iOS version <input name="ios" inputmode="decimal" placeholder="e.g. 16.4" autocomplete="off"></label>
+            <label>Device <select name="device"><option value="">Not selected</option><option value="iphone">iPhone</option><option value="ipad">iPad</option></select></label>
+            <label>Signing client <select name="client"><option value="">Not selected</option><option value="altstore">AltStore</option><option value="sidestore">SideStore</option><option value="flarestore">FlareStore</option><option value="feather">Feather</option><option value="esign">ESign</option><option value="ksign">Ksign</option><option value="livecontainer">LiveContainer</option></select></label>
+            <button class="button small" type="submit">Save profile</button><button class="button small" type="reset">Clear</button>
+            <span id="deviceProfileMessage" role="status"></span>
+          </form>
+        </details>
+        <details class="device-profile" id="appGuide">
+          <summary>Find an app by your needs</summary>
+          <p>Search catalog descriptions and apply the device profile above. Results are alphabetical, not endorsements; listed features and compatibility are not independently guaranteed.</p>
+          <form class="device-profile-form">
+            <label>Capabilities or keywords <input name="keywords" type="search" placeholder="e.g. music offline" maxlength="120"></label>
+            <label>Category <select name="category"><option value="">Any category</option><option value="music">Music</option><option value="photo-video">Photo &amp; video</option><option value="social">Social</option><option value="games">Games</option><option value="utilities">Utilities</option><option value="networking">Networking</option><option value="developer-tools">Developer tools</option><option value="entertainment">Entertainment</option><option value="other">Other</option></select></label>
+            <label>Source attribution <select name="provenance"><option value="">Any source</option><option value="official">Official</option><option value="community">Community</option><option value="unknown">Unknown</option></select></label>
+            <label><span>Last probe</span><span><input type="checkbox" name="reachable"> Only last seen reachable</span></label>
+            <button class="button small" type="submit">Find matches</button>
+          </form>
+          <p role="status" data-guide-status></p><ul data-guide-results></ul>
+        </details>
         <div class="filter-groups">
           <div class="filter-row" id="provenanceFilters" role="group" aria-label="Filter by build provenance"></div>
           <div class="filter-row" id="categoryFilters" role="group" aria-label="Filter apps by category" data-i18n-aria-label="tabs.categoriesAria"></div>
@@ -320,6 +347,13 @@
             <a class="button small" href="feeds/feed.xml" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.6"/></svg> RSS feed</a>
           </div>
         </div>
+        <details class="device-profile" id="localUpdates">
+          <summary>Follow updates privately</summary>
+          <p>Save a snapshot on this browser to see which release entries are absent from it later. Nothing is uploaded. Calendar reminders depend on your calendar app; past releases may not notify.</p>
+          <div class="device-profile-form"><button class="button small" type="button" data-updates-save>Save current snapshot</button><button class="button small" type="button" data-updates-clear>Clear snapshot</button></div>
+          <p role="status" data-updates-status>Loading release snapshot…</p><ul data-updates-list></ul>
+          <details><summary>Category and collection subscriptions</summary><ul data-subscriptions></ul></details>
+        </details>
         <ol class="timeline" id="updatesList" aria-live="polite">
           <li class="os-skeleton skeleton-timeline"></li><li class="os-skeleton skeleton-timeline"></li><li class="os-skeleton skeleton-timeline"></li>
         </ol>
@@ -377,8 +411,8 @@
         <div class="trust-grid">
           <article data-reveal>
             <span class="step">01</span>
-            <h3>Curated upstreams</h3>
-            <p>Releases resolve from official GitHub projects or each developer&rsquo;s own feed — never random re-uploads.</p>
+            <h3>Clear source attribution</h3>
+            <p>Official releases and community distributors are identified separately, with the project and IPA source visible.</p>
           </article>
           <article data-reveal style="--reveal-delay:80ms">
             <span class="step">02</span>
@@ -387,8 +421,8 @@
           </article>
           <article data-reveal style="--reveal-delay:160ms">
             <span class="step">03</span>
-            <h3>Verified daily</h3>
-            <p>Every download is probed; broken links raise an issue automatically. Origin, status and requirements stay visible.</p>
+            <h3>Transparent checks</h3>
+            <p>Scheduled probes report last-known availability; checksum and provenance evidence are shown with their limitations.</p>
           </article>
         </div>
       </div>

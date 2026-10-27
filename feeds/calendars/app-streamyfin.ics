@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Streamyfin releases
+BEGIN:VEVENT
+UID:streamyfin-0.55.2@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Streamyfin v0.55.2
+DESCRIPTION:Streamyfin 0.55.2 | streamyfin-ios\n\n## What's Changed\n\n0.55
+ .2 is another bug fix release. One thing does change: a TV is now signed i
+ n from your phone with Quick Connect\, so Quick Connect has to be on in yo
+ ur server's dashboard (it is by default) and both devices need this versio
+ n. The rest again comes out of the crash and error reports\, plus a round 
+ of fixes to accounts and the Seerr sign-in\n\nThanks to everyone who repor
+ ted a problem\, and to @Gauvino for the Quick Connect and Seerr fixes!\n\n
+ ### ✨ Highlights\n- **Signing a TV in from your phone uses Quick Connect
+ **\, with a code or a QR code\, and no longer sends your password over the
+  local network (#2240) by @Gauvino\n- **Freezes of a few seconds when play
+ back starts or resumes** on iOS and tvOS are fixed (#2205) by @fredrikburm
+ ester\n- **Access tokens are kept out of the app log**\, including the log
+ s you export\, and entries written by earlier versions are cleaned up (#21
+ 03) by @Gauvino\n- **Seerr access no longer carries over** to the next acc
+ ount signed in on the same device (#2233) by @Gauvino\n- **Quick Connect i
+ n Settings** sends the code on its sixth digit and tells you why a code fa
+ ils (#2246) by @Gauvino\n- **Luxembourgish** is available as an app langua
+ ge (#2195) by @Gauvino\n\n### 🎬 Player\n- iOS and tvOS: the app no long
+ er freezes for several seconds when playback starts or resumes while the s
+ ystem audio service is slow to answer (#2205) by @fredrikburmester\n- Musi
+ c: tapping a track far down the queue before the rest has loaded no longer
+  fails\, and neither do previous and next with repeat all (#2212) by @fred
+ rikburmester\n\n### 📺 TV\n- Pairing a TV with a phone goes through Quic
+ k Connect: the TV shows a code and a QR code\, your phone approves it\, an
+ d the TV signs in by itself. No password travels between the two devices\,
+  and the TV picks its own server (#2240) by @Gauvino\n- On the phone\, Set
+ tings > Log in on TV scans the QR code or takes the code typed in\, and th
+ e entry now shows on iPhones too (#2240) by @Gauvino\n- T
+URL:https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json
+END:VEVENT
+END:VCALENDAR

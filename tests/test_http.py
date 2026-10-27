@@ -10,8 +10,11 @@ if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 
 import unittest
+import urllib.error
+import urllib.request
+from unittest.mock import patch
 
-from omnisource.http import AuthRule, HttpClient, is_http_url
+from omnisource.http import AuthRule, HttpClient, _SafeRedirect, is_http_url
 
 
 class TestHttp(unittest.TestCase):
@@ -41,6 +44,28 @@ class TestHttp(unittest.TestCase):
         headers_other = client._auth_headers("https://archive.org/download/item.ipa")
         self.assertNotIn("Authorization", headers_other)
         self.assertEqual(headers_other.get("User-Agent"), "OmniSource/Test")
+
+    def test_binary_stream_is_always_anonymous(self) -> None:
+        rule = AuthRule("https://api.github.com", "Authorization", "Bearer secret")
+        client = HttpClient(auth_rules=(rule,))
+        with patch.object(client, "_open") as opened:
+            client.open_stream("https://api.github.com/repos/example/project/releases/assets/1")
+        self.assertNotIn("Authorization", opened.call_args.kwargs["headers"])
+
+    def test_redirect_never_forwards_credentials_to_other_origins_or_outside_rule(self) -> None:
+        rule = AuthRule("https://api.github.com/repos", "Authorization", "Bearer secret")
+        handler = _SafeRedirect((rule,))
+        request = urllib.request.Request(
+            "https://api.github.com/repos/a/b", headers={"Authorization": "Bearer secret", "User-Agent": "test"}
+        )
+        same = handler.redirect_request(request, None, 302, "redirect", {}, "https://api.github.com/repos/a/c")
+        self.assertEqual(same.get_header("Authorization"), "Bearer secret")
+        outside = handler.redirect_request(request, None, 302, "redirect", {}, "https://api.github.com/user")
+        self.assertIsNone(outside.get_header("Authorization"))
+        other = handler.redirect_request(request, None, 302, "redirect", {}, "https://evil.example/file")
+        self.assertIsNone(other.get_header("Authorization"))
+        with self.assertRaises(urllib.error.HTTPError):
+            handler.redirect_request(request, None, 302, "redirect", {}, "http://api.github.com/repos/a/c")
 
 
 if __name__ == "__main__":

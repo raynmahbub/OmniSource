@@ -55,6 +55,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "byetunes",
         "status": "stable",
@@ -87,8 +101,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
           "lastUpdatedAt": "2026-10-12"
         }
       }
@@ -138,6 +154,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "18.5",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -174,8 +204,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa",
           "lastUpdatedAt": "2026-09-08"
         }
       }
@@ -229,6 +261,20 @@
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn3.png",
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn4.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -277,8 +323,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
           "lastUpdatedAt": "2026-09-15"
         }
       }
@@ -391,6 +439,20 @@
         "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png",
         "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-dark.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "spotiflac",
         "status": "stable",
@@ -423,8 +485,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
           "lastUpdatedAt": "2026-10-23"
         }
       }
@@ -478,6 +542,20 @@
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn2.png",
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn3.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -504,7 +582,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YTMusicUltimate",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -526,8 +605,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-14",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }

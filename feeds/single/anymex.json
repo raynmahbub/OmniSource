@@ -190,6 +190,20 @@
         "https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/repo/images/screenshots/image_1.webp",
         "https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/repo/images/screenshots/image_2.webp"
       ],
+      "minOSVersion": "12.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "anymex",
         "status": "stable",
@@ -221,9 +235,11 @@
           "notes": "Official unsigned IPA (AnymeX-iOS-<version>.ipa) built by the developer's release pipeline; the Flutter project targets iOS 12+. Content sources are provided by community extensions."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-25"
         }
       }

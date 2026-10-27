@@ -7,6 +7,7 @@ import canonicalDoc from "../data/canonical_apps.json";
 import catalogDoc from "../data/catalog.json";
 import collectionsDoc from "../data/collections.json";
 import discoveryDoc from "../data/discovery.json";
+import monitoringDoc from "../data/monitoring.json";
 import reputationDoc from "../data/reputation.json";
 import searchIndex from "../data/search-index.json";
 import screenshotsDoc from "../data/screenshots.json";
@@ -14,6 +15,7 @@ import securityDoc from "../data/security.json";
 import sourceReputation from "../data/source_reputation.json";
 import statusDoc from "../data/status.json";
 import sourcesDoc from "../data/sources.json";
+import verificationDoc from "../data/verification.json";
 
 export interface AltApp {
   name: string;
@@ -29,6 +31,9 @@ export interface AltApp {
   versionDescription?: string;
   downloadURL?: string;
   size?: number;
+  minOSVersion?: string;
+  maxOSVersion?: string;
+  sha256?: string;
   versions?: Array<Record<string, unknown>>;
   screenshotURLs?: string[];
   slug?: string;
@@ -38,7 +43,49 @@ export interface AltApp {
     slug?: string;
     upstreamURL?: string;
     sourceURL?: string;
+    compatibility?: {
+      minOSVersion?: string | null;
+      maxOSVersion?: string | null;
+      devices?: string[];
+      clients?: string[];
+      notes?: string;
+    };
+    health?: {
+      downloadReachable?: boolean | null;
+      lastCheckedAt?: string;
+      checkedURL?: string;
+    };
   };
+}
+
+export interface AppVerification {
+  app?: string;
+  provenance?: "official" | "community" | "unknown";
+  level?: string;
+  digestEvidence?: { status?: "unavailable" | "recorded" | "matched" | "mismatch"; origin?: string; checkedAt?: string };
+  integrityFailure?: { detail?: string; checkedAt?: string } | null;
+}
+
+export interface DownloadProbe {
+  id?: string;
+  url?: string;
+  ok?: boolean;
+  status?: number | null;
+  error?: string | null;
+}
+
+export interface MonitoringSnapshot {
+  generatedAt?: string;
+  totals?: Record<string, number>;
+  summary?: Record<string, number | string>;
+  downloads?: DownloadProbe[];
+  downloadFallbacks?: DownloadProbe[];
+}
+
+export interface AppHealth {
+  reachable: boolean | null;
+  checkedAt: string;
+  source: "monitoring" | "feed" | "unknown";
 }
 
 export interface AppScreenshot {
@@ -240,6 +287,47 @@ export function getDevelopers(): Array<{ name: string; appCount: number; sourceC
   return [...appCounts.entries()]
     .map(([name, appCount]) => ({ name, appCount, sourceCount: sourcesByDeveloper.get(name)?.size ?? 0 }))
     .sort((a, b) => b.appCount - a.appCount || a.name.localeCompare(b.name));
+}
+
+/** Single-app feeds are named by catalog slug, never by bundle identifier. */
+export function getSingleAppFeedURL(app: AltApp): string {
+  const slug = app.omnisource?.slug || app.slug || "";
+  const base = (catalogDoc as { source?: { baseURL?: string } }).source?.baseURL || "";
+  if (!/^[a-z0-9][a-z0-9-]*$/.test(slug) || !/^https:\/\//i.test(base)) return "";
+  return `${base.replace(/\/+$/, "")}/feeds/${encodeURIComponent(slug)}.json`;
+}
+
+export function getAppVerification(app: AltApp): AppVerification | undefined {
+  const slug = app.omnisource?.slug || app.slug;
+  return asArray<AppVerification>((verificationDoc as { apps?: unknown }).apps).find((item) => item.app === slug);
+}
+
+export function getMonitoring(): MonitoringSnapshot {
+  return monitoringDoc as MonitoringSnapshot;
+}
+
+/** Resolve only observations bound to this exact download, never another release. */
+export function resolveAppHealth(app: AltApp, snapshot: MonitoringSnapshot): AppHealth {
+  const slug = app.omnisource?.slug || app.slug;
+  const candidates = asArray<DownloadProbe>(snapshot.downloads).filter(
+    (probe) => (Boolean(slug) && probe.id === slug) || (Boolean(app.name) && probe.id === app.name),
+  );
+  if (candidates.length) {
+    const probe = app.downloadURL && candidates.find((item) => item.url === app.downloadURL);
+    if (probe && typeof probe.ok === "boolean" && snapshot.generatedAt) {
+      return { reachable: probe.ok, checkedAt: snapshot.generatedAt, source: "monitoring" };
+    }
+    return { reachable: null, checkedAt: "", source: "unknown" };
+  }
+  const health = app.omnisource?.health;
+  if (health?.checkedURL && health.checkedURL === app.downloadURL && health.lastCheckedAt && typeof health.downloadReachable === "boolean") {
+    return { reachable: health.downloadReachable, checkedAt: health.lastCheckedAt, source: "feed" };
+  }
+  return { reachable: null, checkedAt: "", source: "unknown" };
+}
+
+export function getAppHealth(app: AltApp): AppHealth {
+  return resolveAppHealth(app, getMonitoring());
 }
 
 export function getStatus(): Record<string, unknown> {

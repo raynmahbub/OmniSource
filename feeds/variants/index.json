@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "choices": [
+        {
+          "slug": "bhtwitter",
+          "name": "BHTwitter",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/bhtwitter.json"
+        },
+        {
+          "slug": "neofreebird",
+          "name": "NeoFreeBird",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/neofreebird.json"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.burbn.instagram",
+      "choices": [
+        {
+          "slug": "bhinstagram",
+          "name": "BHInstagram",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/bhinstagram.json"
+        },
+        {
+          "slug": "inkillerplus",
+          "name": "iNKillerPlus",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/inkillerplus.json"
+        },
+        {
+          "slug": "ryukgram",
+          "name": "RyukGram",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/ryukgram.json"
+        },
+        {
+          "slug": "ryukgram-ig410",
+          "name": "RyukGram (IG 410)",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/ryukgram-ig410.json"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.facebook.Messenger",
+      "choices": [
+        {
+          "slug": "msgplusx",
+          "name": "MSGPlusX",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/msgplusx.json"
+        },
+        {
+          "slug": "snmessenger",
+          "name": "SNMessenger",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/snmessenger.json"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.google.ios.youtube",
+      "choices": [
+        {
+          "slug": "maxtube",
+          "name": "MaxTube",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/maxtube.json"
+        },
+        {
+          "slug": "uprovid",
+          "name": "uProVid",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/uprovid.json"
+        },
+        {
+          "slug": "uyouenhanced",
+          "name": "uYouEnhanced",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/uyouenhanced.json"
+        },
+        {
+          "slug": "youmod",
+          "name": "YouMod",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/youmod.json"
+        },
+        {
+          "slug": "youpro",
+          "name": "YouPro",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/youpro.json"
+        },
+        {
+          "slug": "ytlite",
+          "name": "YouTubePlus",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/ytlite.json"
+        },
+        {
+          "slug": "ytkace",
+          "name": "YTKACE",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/ytkace.json"
+        },
+        {
+          "slug": "ytkp",
+          "name": "YTKillerPlus",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/ytkp.json"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "choices": [
+        {
+          "slug": "maxmusic",
+          "name": "MaxMusic",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/maxmusic.json"
+        },
+        {
+          "slug": "ytmusic",
+          "name": "YTMusicUltimate",
+          "url": "https://raynmahbub.github.io/OmniSource/feeds/variants/ytmusic.json"
+        }
+      ]
+    }
+  ],
+  "note": "Each variant resolves only the chosen bundle group; other shared IDs remain in the feed."
+}

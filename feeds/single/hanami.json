@@ -54,6 +54,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -90,8 +104,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
           "lastUpdatedAt": "2024-06-03"
         }
       }

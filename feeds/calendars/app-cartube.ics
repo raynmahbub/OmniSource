@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CarTube releases
+BEGIN:VEVENT
+UID:cartube-1.3@omnisource
+DTSTAMP:20230123T000000Z
+DTSTART;VALUE=DATE:20230123
+DTEND;VALUE=DATE:20230124
+SUMMARY:CarTube v1.3
+DESCRIPTION:CarTube 1.3 | CarTube\n\nBig Fixes + Some Features Update!\n- M
+ uch smoother experience\n- Swipe left or right anywhere on the screen to g
+ o Back or Forward\n- Native m.youtube.com player\, so ALL videos should wo
+ rk plus comments and playlists\, and should be all around smoother\n- New 
+ "Play on CarPlay" share extension\, works with YouTube app\n- Zoom in sett
+ ings works better and scales content correctly\n- Added age restriction by
+ pass\n- Added ad blocker (beta)\n- Fixed awful scrolling\n- Fixed Google s
+ ignin page zoom\n- Fixed the buggy keyboard bar\n- Small fixes to the pers
+ istence helper\, Siri no longer breaks it
+URL:https://raynmahbub.github.io/OmniSource/feeds/cartube.json
+END:VEVENT
+END:VCALENDAR

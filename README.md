@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://raynmahbub.github.io/OmniSource/">
-  <img src="assets/brand/hero.svg" width="100%" alt="OmniSource — one verified, automatically maintained source for every iOS sideloading client. Maintained by raynmahbub.">
+  <img src="assets/brand/hero.svg" width="100%" alt="OmniSource — an automatically maintained iOS sideloading source. Maintained by raynmahbub.">
 </a>
 
 <br>
@@ -10,7 +10,7 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fraynmahbub.github.io%2FOmniSource%2F&label=website&style=flat-square&labelColor=0d0926&color=8b5cf6)](https://raynmahbub.github.io/OmniSource/)
 [![Apps](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-apps.json&style=flat-square&labelColor=0d0926)](https://raynmahbub.github.io/OmniSource/#catalog)
 [![Download health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-health.json&style=flat-square&labelColor=0d0926)](https://raynmahbub.github.io/OmniSource/status/)
-[![Verified](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-verified.json&style=flat-square&labelColor=0d0926)](https://raynmahbub.github.io/OmniSource/status/)
+[![Source checks](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fraynmahbub%2FOmniSource%2Fmain%2Ffeeds%2Fbadge-verified.json&style=flat-square&labelColor=0d0926)](https://raynmahbub.github.io/OmniSource/status/)
 [![Validate](https://img.shields.io/github/actions/workflow/status/raynmahbub/OmniSource/validate.yml?branch=main&label=validate&style=flat-square&labelColor=0d0926)](https://github.com/raynmahbub/OmniSource/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/raynmahbub/OmniSource?style=flat-square&labelColor=0d0926&color=5b3df5)](LICENSE)
 
@@ -29,13 +29,13 @@
 <br>
 
 **One installable source for AltStore, SideStore, Feather, ESign and LiveContainer —**
-**every app resolved from its developer's own upstream, verified on every sync.**
+**with clearly attributed developer and community sources.**
 
 <br>
 
 <!-- omnisource:stats:start -->
 
-**128** apps · **111** upstream sources · **127** verified · **0** community verified · **127/128** downloads online · last sync **2026-10-25**.
+**128** apps · **111** upstream sources · **98** official-source checks passed · **10** community-source checks passed · **108/128** downloads last seen reachable · last sync **2026-10-25**.
 
 <!-- omnisource:stats:end -->
 
@@ -61,13 +61,13 @@ one tap, and a QR code when the client is not installed yet.
   <tr>
     <td width="33%" valign="top">
       <img src="assets/brand/feature-upstream.svg" width="44" height="44" alt=""><br>
-      <b>Upstream only</b><br>
-      <sub>Every entry resolves from the developer's own GitHub releases or official feed. Nothing is re-hosted, nothing is repackaged.</sub>
+      <b>Clear provenance</b><br>
+      <sub>Each entry identifies its project and declared IPA distributor. Community builds and mirrors are labeled separately from official releases.</sub>
     </td>
     <td width="33%" valign="top">
       <img src="assets/brand/feature-verified.svg" width="44" height="44" alt=""><br>
-      <b>Verified on every sync</b><br>
-      <sub>Downloads are probed, digests checked where the publisher ships one, and the result is published as a per-app provenance page.</sub>
+      <b>Transparent checks</b><br>
+      <sub>Availability and recorded checksums are reported with their evidence. A recorded hash is not presented as independently verified.</sub>
     </td>
     <td width="33%" valign="top">
       <img src="assets/brand/feature-clients.svg" width="44" height="44" alt=""><br>
@@ -79,7 +79,7 @@ one tap, and a QR code when the client is not installed yet.
     <td width="33%" valign="top">
       <img src="assets/brand/feature-automation.svg" width="44" height="44" alt=""><br>
       <b>Hands-off by design</b><br>
-      <sub>Seventeen GitHub Actions workflows sync, validate, monitor, scan and publish. One hand-maintained <code>catalog.json</code>; everything else is generated.</sub>
+      <sub>GitHub Actions workflows sync, validate, monitor, scan and publish. App declarations live in <code>catalog.json</code>; feeds and reports are generated.</sub>
     </td>
     <td width="33%" valign="top">
       <img src="assets/brand/feature-api.svg" width="44" height="44" alt=""><br>
@@ -94,7 +94,7 @@ one tap, and a QR code when the client is not installed yet.
   </tr>
 </table>
 
-No accounts. No ads. No tracking. No re-hosted binaries.
+No accounts. No ads. No tracking. Download sources and community packaging are disclosed.
 
 <br>
 
@@ -146,6 +146,18 @@ provenance, source reputation, status and the machine API all live at
 | Collections | [`/collections/`](https://raynmahbub.github.io/OmniSource/collections/) — curated shelves (emulators, YouTube, tweaks…) |
 | API | [`/api/index.json`](https://raynmahbub.github.io/OmniSource/api/index.json) · [`docs/API.md`](docs/API.md) · [`docs/API-V3.md`](docs/API-V3.md) |
 | RSS | [`/feeds/feed.xml`](https://raynmahbub.github.io/OmniSource/feeds/feed.xml) — combined release feed, per-app feeds at `/feeds/<slug>.xml` |
+| Release history | [`/api/v2/apps/spotiflac/versions.json`](https://raynmahbub.github.io/OmniSource/api/v2/apps/spotiflac/versions.json) — retained metadata; availability of old files is not guaranteed |
+| Transparency | [`/api/transparency.json`](https://raynmahbub.github.io/OmniSource/api/transparency.json) — observations made by full byte checks, not publisher signatures |
+| Calendars | [`/feeds/updates.ics`](https://raynmahbub.github.io/OmniSource/feeds/updates.ics) and `/feeds/calendars/app-<slug>.ics` — dated release events |
+
+### Private, optional tools
+
+- Set an iOS/device/client profile in the catalog to compare **declared** requirements. It stays in browser storage; unknown metadata stays unknown and a match does not guarantee installation.
+- The install center offers optional feeds that resolve **one** shared bundle group at a time, plus a browser-only source comparison. Other bundle collisions remain; source URLs that block CORS can be compared using a local JSON file.
+- Save a local release snapshot to see entries missing from it on a later visit. Re-sign dates are estimates; browser reminders run only while the relevant page is open. Calendar notifications depend on the calendar application.
+- The weekly verifier checks changed assets and the monthly run rechecks all assets; unavailable downloads do not become fabricated observations. A hash chain can be checked against a previously saved head, but is not a publisher signature, independent timestamp, or security guarantee.
+
+Details, operator commands, retention limits, and the archive and issue-intake boundaries are documented in [`docs/FEATURE-OPERATIONS.md`](docs/FEATURE-OPERATIONS.md).
 
 <br>
 

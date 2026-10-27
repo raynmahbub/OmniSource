@@ -8,10 +8,9 @@ Runs on every monitoring pass (``monitoring.yml``) and after each sync:
    ``repair`` (switch to a recorded fallback URL), ``replace`` (switch to
    a configured mirror) or ``rebuild`` (flag the app for a full resync).
 3. **Report** — ``data/selfheal_report.json`` with machine-readable
-   ``suggestedPatches``. Only ``repair`` patches that point at an
-   already-recorded fallback URL may be applied without review
-   (:func:`apply_safe_fixes`); everything else needs a human or a
-   follow-up pipeline run.
+   ``suggestedPatches``. A reachable mirror is only a suggestion: an
+   automatic swap additionally requires a matching, independently recorded
+   SHA-256 for the current asset. Everything else needs human review.
 
 Offline by default; pass ``reprobe=True`` to re-check failing URLs live
 before writing the report.
@@ -19,10 +18,12 @@ before writing the report.
 
 from __future__ import annotations
 
+import re
 from datetime import UTC, datetime
 from typing import Any
 
 from omnisource.enrichment import CRITICAL_FIELDS
+from omnisource.probes import app_key, declared_fallbacks
 
 RETRY = "retry"
 REPAIR = "repair"
@@ -41,7 +42,7 @@ def _health_index(health: dict[str, Any] | None) -> dict[str, dict[str, Any]]:
     index: dict[str, dict[str, Any]] = {}
     nodes: Any = []
     if isinstance(health, dict):
-        nodes = health.get("apps", health.get("sources", []))
+        nodes = health.get("downloads", health.get("apps", health.get("sources", [])))
     if isinstance(nodes, list):
         for node in nodes:
             if isinstance(node, dict):
@@ -52,10 +53,11 @@ def _health_index(health: dict[str, Any] | None) -> dict[str, dict[str, Any]]:
 
 
 def _is_failing(node: dict[str, Any]) -> bool:
-    status = str(node.get("status") or node.get("health") or node.get("reachable") or "").lower()
-    if status in ("unavailable", "offline", "failing", "failed", "false", "0"):
-        return True
-    return "reachable" in node and node["reachable"] is False
+    for key in ("downloadReachable", "reachable", "ok"):
+        if isinstance(node.get(key), bool):
+            return node[key] is False
+    status = str(node.get("status") or node.get("health") or "").lower()
+    return status in ("unavailable", "offline", "failing", "failed", "false", "0")
 
 
 def _is_transient(node: dict[str, Any]) -> bool:
@@ -76,17 +78,31 @@ def detect_issues(
     for app in apps:
         if not isinstance(app, dict):
             continue
-        slug = str(app.get("slug") or app.get("id") or app.get("name") or "?")
-        node = index.get(slug, index.get(str(app.get("bundleIdentifier", "")), {}))
+        slug = app_key(app) or "?"
+        node = next(
+            (
+                index[key]
+                for key in (slug, str(app.get("name") or ""), str(app.get("bundleIdentifier") or ""))
+                if key in index
+            ),
+            {},
+        )
+        # Do not apply an old monitoring result to a different release URL.
+        if node.get("url") and node.get("url") != app.get("downloadURL"):
+            node = {}
+        versions = app.get("versions")
+        newest = versions[0] if isinstance(versions, list) and versions and isinstance(versions[0], dict) else app
         if node and _is_failing(node):
             issues.append(
                 {
                     "type": "broken_download",
                     "slug": slug,
                     "severity": "high",
-                    "detail": str(node.get("error") or node.get("status") or "unreachable"),
+                    "detail": str(node.get("error") or node.get("detail") or node.get("status") or "unreachable"),
                     "transient": _is_transient(node),
-                    "fallbacks": list(app.get("fallbackDownloadURLs") or []),
+                    "fallbacks": declared_fallbacks(app),
+                    "fallbackProbes": node.get("fallbacks") if isinstance(node.get("fallbacks"), list) else [],
+                    "expectedSha256": str(newest.get("sha256") or ""),
                 }
             )
         missing = [field for field in CRITICAL_FIELDS if not app.get(field)]
@@ -115,6 +131,27 @@ def detect_issues(
     return sorted(issues, key=lambda item: (item["type"], item["slug"]))
 
 
+def _verified_fallback(plan: dict[str, Any]) -> str:
+    """Select a reachable declared mirror only after a matching SHA-256 check."""
+    expected = str(plan.get("expectedSha256") or "").lower()
+    if not re.fullmatch(r"[0-9a-f]{64}", expected):
+        return ""
+    declared = {value for value in (plan.get("fallbacks") or []) if isinstance(value, str)}
+    probes = plan.get("fallbackProbes") if isinstance(plan.get("fallbackProbes"), list) else []
+    for probe in probes:
+        if not isinstance(probe, dict):
+            continue
+        url = str(probe.get("url") or "")
+        if (
+            url in declared
+            and probe.get("ok") is True
+            and probe.get("digestVerified") is True
+            and str(probe.get("sha256") or "").lower() == expected
+        ):
+            return url
+    return ""
+
+
 def plan_repairs(issues: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Attach one repair action (retry/repair/replace/rebuild) per issue."""
     plans: list[dict[str, Any]] = []
@@ -124,7 +161,7 @@ def plan_repairs(issues: list[dict[str, Any]]) -> list[dict[str, Any]]:
             if issue.get("transient"):
                 action, auto = RETRY, True
             elif issue.get("fallbacks"):
-                action, auto = REPAIR, True
+                action, auto = REPAIR, bool(_verified_fallback(issue))
             else:
                 action, auto = REPLACE, False
         elif kind == "missing_metadata" or kind == "removed_release":
@@ -140,12 +177,25 @@ def suggested_patches(plans: list[dict[str, Any]]) -> list[dict[str, Any]]:
     patches = []
     for plan in plans:
         if plan.get("action") == REPAIR and plan.get("fallbacks"):
+            verified = _verified_fallback(plan)
+            probes = plan.get("fallbackProbes") if isinstance(plan.get("fallbackProbes"), list) else []
+            declared = plan["fallbacks"]
+            reachable = next(
+                (
+                    p.get("url")
+                    for p in probes
+                    if isinstance(p, dict) and p.get("ok") is True and p.get("url") in declared
+                ),
+                "",
+            )
             patches.append(
                 {
                     "slug": plan["slug"],
                     "field": "downloadURL",
-                    "replaceWith": plan["fallbacks"][0],
+                    "replaceWith": verified or reachable or declared[0],
                     "reason": plan.get("detail", ""),
+                    "reviewRequired": not bool(verified),
+                    "digestVerified": bool(verified),
                 }
             )
     return patches
@@ -157,15 +207,23 @@ def apply_safe_fixes(
 ) -> tuple[list[dict[str, Any]], int]:
     """Apply auto-fixable fallback swaps; return ``(apps, applied)``."""
     swaps = {
-        plan["slug"]: plan["fallbacks"][0] for plan in plans if plan.get("action") == REPAIR and plan.get("fallbacks")
+        plan["slug"]: replacement
+        for plan in plans
+        if plan.get("action") == REPAIR and (replacement := _verified_fallback(plan))
     }
     applied = 0
     fixed: list[dict[str, Any]] = []
     for app in apps:
-        slug = str(app.get("slug") or app.get("id") or "")
+        slug = app_key(app)
         if slug in swaps:
             clone = dict(app)
+            previous_url = app.get("downloadURL")
             clone["downloadURL"] = swaps[slug]
+            versions = app.get("versions")
+            if isinstance(versions, list) and versions and isinstance(versions[0], dict):
+                clone["versions"] = [dict(versions[0]), *versions[1:]]
+                if versions[0].get("downloadURL") == previous_url:
+                    clone["versions"][0]["downloadURL"] = swaps[slug]
             fixed.append(clone)
             applied += 1
         else:

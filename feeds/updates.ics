@@ -1,0 +1,1985 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:OmniSource releases
+BEGIN:VEVENT
+UID:ytkace-21.42.4@omnisource
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:YTKACE v21.42.4
+DESCRIPTION:YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4\n
+ \nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a
+  SponsorBlock button to the player to whitelist channels\, vote on segment
+ s and submit new ones\n• Added Report AI Channels to report channels to 
+ AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking
+  like si= from links you copy or share\n• Added options to remove items 
+ from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default\, Y
+ TKACE\, YouTube or Off\n• Added Keep Shorts in Home\, Search and on Chan
+ nels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Bla
+ nk space left when fullscreen actions are hidden\n• Remove Mixes missing
+  some mixes\n\nYouTube 21.42.4 requires iOS 17\, so there are two IPAs:\n
+ • `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1
+ .1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytkace.json
+END:VEVENT
+BEGIN:VEVENT
+UID:apollo-4.0.0@omnisource
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Apollo v4.0.0
+DESCRIPTION:Apollo 4.0.0 | Apollo-Reborn-4.0.0\n\n### Features\n\n- Add **i
+ Phone Duo** support with layouts that adapt to the closed display\, open p
+ ortrait\, open landscape and partially folded positions\, using the existi
+ ng Apollo Reborn builds (#1245: @IllIIllIllIllII)\n  - Browse a feed besid
+ e its comments\, choose Original or Focused content widths\, and open the 
+ subreddit list in a Standard or Liquid Glass panel\n  - Inbox\, Account an
+ d Settings gain sidebar/detail layouts in open landscape\, while Search ca
+ n keep results beside the page you open\n  - Pixel Pals is unavailable on 
+ Duo\; regular iPhones keep it\n- Add an optional **iPad Layout (Beta)** on
+  iPadOS 18 and later\, with a native sidebar\, adjustable feed and reader 
+ columns\, and full-width Gallery View (#1385: @jordanearle)\n  - Try it fr
+ om the one-time invitation or turn on iPad Layout under Interface\; quit a
+ nd reopen Apollo to apply it\, or turn it off to return to the classic lay
+ out\n- Add **Restore Reading Session** to reopen your last feed\, post and
+  nearby reading position after iOS closes Apollo\, including feed and comm
+ ent sorting (#1441: @Thetromboneman1)\n  - On by default under Media → B
+ rowsing\; explicit links and notifications take priority\, and turning it 
+ off deletes the saved session\n- Add a **Setup Assistant** for new install
+ ations to connect or restore\, choose Classic\, Balanced or Full Featured 
+ preferences\, select appearance\, and review before applying (#1401: @jord
+ anearle)\n  - Existing users can open it from Apollo Reborn settings with 
+ Keep My Settings selected\; updating does not automatically apply a preset
+ \n- Rework **Gallery View** with faster opening\, pinch-to-resize tiles in
+ cluding a denser four-column layout\, and native press-and-hold menus in t
+ he grid and fullscreen viewer (#1389\, #1434: @icpryde\, @IllIIllIllIllII)
+ \n  - Sports clips can play silently in the grid\, newly visible tiles sta
+ rt reliably\, and returning from a fullscreen image no longer leaves a bla
+ ck screen\n- Open **Gallery View** for All Saved or a selec
+URL:https://raynmahbub.github.io/OmniSource/feeds/apollo.json
+END:VEVENT
+BEGIN:VEVENT
+UID:anymex-3.1.9@omnisource
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:AnymeX v3.1.9
+DESCRIPTION:AnymeX 3.1.9 | AnymeX-iOS-v3.1.9\n\n### 🆕 Changelog\n### 
+ 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/80f279c6)
+  enhanced downloads ui and ux by @RyanYuuki\n- [֍](https://github.com/Rya
+ nYuuki/AnymeX/commit/9c04ca66) runtime bridge support for IOS (thanks to d
+ artotsu) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/
+ 9a109267) mpv config\, some fixes and ui changes by @RyanYuuki\n- [֍](htt
+ ps://github.com/RyanYuuki/AnymeX/commit/538c3538) torrent download support
+  by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/55b6b13f
+ ) online subtitles back again by @RyanYuuki\n- [֍](https://github.com/Rya
+ nYuuki/AnymeX/commit/07b88757) audio delay support by @RyanYuuki\n- [֍](h
+ ttps://github.com/RyanYuuki/AnymeX/commit/429a43ee) cold cache for instant
+  load by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1a2
+ 1ab40) network settings (dns\, proxy\, tls ts) by @RyanYuuki\n- [֍](https
+ ://github.com/RyanYuuki/AnymeX/commit/5d44cc54) donation page for my broke
+  ass by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b613
+ 1248) markdown\, reply support\, moderation tools\, and settings UI notifi
+ cations & unread badges (comments) (#416) by @Shebyyy\n- [֍](https://gith
+ ub.com/RyanYuuki/AnymeX/commit/5c6465d5) kotatsu\, aniyomi backup support 
+ by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/8346d033)
+  backup and restore full support by @RyanYuuki\n- [֍](https://github.com/
+ RyanYuuki/AnymeX/commit/3bc096c2) addons support (torrent) = practically n
+ othing changes just 1 extra step for torrent by @RyanYuuki\n- [֍](https:/
+ /github.com/RyanYuuki/AnymeX/commit/6a91e1ef) dock drag-to-reorder and his
+ tory card poster navigation to details (#595) by @Shebyyy\n\n\n### 🔧 Bu
+ g Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/
+ e4d0b981) fixed duplicate media entry\, nearest download bug\, overall enh
+ ancement by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/
+ fb6b505a) fixed ios flashing during navigation by @RyanYuuki\n- [֍](https
+URL:https://raynmahbub.github.io/OmniSource/feeds/anymex.json
+END:VEVENT
+BEGIN:VEVENT
+UID:twitchadblock-31.7@omnisource
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:TwitchAdBlock v31.7
+DESCRIPTION:Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**\, 
+ for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **
+ Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a
+  message\, or times out or bans someone\, their messages **stay in chat** 
+ instead of disappearing\, and a short note like **"🛡 ronni was timed ou
+ t for 10m"** shows up so you know what happened.\n- Want the notes to stan
+ d out? Turn on **Highlight Notes**\, right under it\, to give them a highl
+ ighted background.\n- Both are off by default. It only works for things th
+ at happen while you're in chat.\n\n### New: hide the "From channels you fo
+ llow" bar\nTurn on **Hide "From Channels You Follow"** in Settings → Hom
+ e to remove the row of clips and recaps above the live channels on the Liv
+ e page.\n\n### Fixed\n- The **"Go Ad-Free"** button on the Following tab i
+ s hidden again. Twitch 31.7 rebuilt that tab\, so the old way of hiding it
+  stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.
+ 7 support\, ad-blocking\, 7TV / BTTV / FFZ emotes (send them with the 7TV 
+ bar or by holding the emote button)\, Keep Live Feed Playing\, Hide Storie
+ s and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-Tw
+ itchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBloc
+ k-0.1.15-noplugins.ipa`**: app extensions removed\, so a free Apple ID onl
+ y uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore /
+  Feather source? You'll get this update automatically:\n```\nhttps://raw.g
+ ithubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFu
+ ll plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkid
+ BT/TwitchAdBlock/blob/master/CHANGELOG.md)
+URL:https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json
+END:VEVENT
+BEGIN:VEVENT
+UID:saber-1.36.4@omnisource
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Saber v1.36.4
+DESCRIPTION:Saber 1.36.4 | Saber_v1.36.4\n\n## External links\n\n[<img src=
+ 'https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-
+ badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&
+ nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/bad
+ ges/f-droid-badge.svg"\n    alt="Get it on F-Droid"\n    height=50>][f-dro
+ id]&nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw
+ /badges/app-store-badge.svg"\n    alt="Download on the App Store"\n    hei
+ ght=50>][app_store]&nbsp\;[<img src="https://github.com/adil192/saber/blob
+ /main/assets_raw/badges/flathub-badge.svg"\n    alt="Download on Flathub"\
+ n    height=50>][flathub]\n\nFor other downloads\, scroll down and find th
+ e relevant file under "Assets".\n\n[f-droid]: https://f-droid.org/packages
+ /com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.ad
+ ilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?
+ id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/
+ id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## 
+ Changelog\n\n- Minor UI improvements\n- Minor memory efficiency improvemen
+ ts #1858\n- A security fix\n- Full changelog: https://github.com/saber-not
+ es/saber/compare/v1.36.3...v1.36.4
+URL:https://raynmahbub.github.io/OmniSource/feeds/saber.json
+END:VEVENT
+BEGIN:VEVENT
+UID:dopamine-roothide-3.0.12-28@omnisource
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Dopamine (RootHide) v3.0.12-28
+DESCRIPTION:Dopamine (RootHide) 3.0.12-28 | Dopamine-2026-10-25_20-23-30\n\
+ nroothide Dopamine 3 is now released and open source on github for everyon
+ e:\n\nhttps://x.com/roothideDev/status/2114091036318564808
+URL:https://raynmahbub.github.io/OmniSource/feeds/dopamine-roothide.json
+END:VEVENT
+BEGIN:VEVENT
+UID:telegram-mxgram-13.1.1@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Telegram MxGram v13.1.1
+DESCRIPTION:Telegram 13.1.1 | Telegram-13.1.1-MxGram\n\nIPA Vault build for
+  Telegram (MxGram)\, version 13.1.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.2.6@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Mornye v5.2.6
+DESCRIPTION:Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n
+ \n- **library**: Sort songs and albums by file size\n- **desktop**: Add fu
+ llscreen and borderless window modes\n- **library**: List the files a scan
+  could not read\n- **downloads**: Add custom folder path templates\n- **ne
+ twork**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare nat
+ ive ARM64 builds and packages\n- **player**: Color the current track row f
+ rom its artwork\n- **desktop**: Open the mini player on Windows and Linux\
+ n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcu
+ ts\n- **automix**: Verify beat alignment and hold phase through the mix\n-
+  **home**: Keep explore artwork square\n- **flutter**: Backport semantics 
+ geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\
+ n- **library**: Keep playlists accessible without local songs\n- **convers
+ ion**: Preserve quoted paths in lossy exports\n- **library**: Index songs 
+ whose tags fail to parse\n- **playback**: Allow MP3 playback with malforme
+ d ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **d
+ esktop**: Keep artist album selection and scroll position\n- **android**: 
+ Refresh media controls when track metadata changes\n- **windows**: Use the
+  MSVC coroutine deprecation macro's real name\n- **windows**: Install the 
+ libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tr
+ acks visible during cover fades\n- **windows**: Support UNC library paths 
+ and network downloads\n- **desktop**: Restore private file access after ca
+ che removal\n- **notifications**: Handle Linux launch callbacks and contai
+ n queue alerts\n- **repo**: Move the store button under the text on narrow
+  rows\n- **library**: Simplify duplicate review rows and expose load error
+ s\n- **settings**: Keep final controls clear of floating playback bars\n- 
+ **home**: Collapse the empty prompt after installing an extension\n- **lib
+ rary**: Emphasize Play in collection header actions\n- **library**: Read t
+ agless audio without losing document names\n- **desk
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ryukgram-452.0.0@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:RyukGram v452.0.0
+DESCRIPTION:Instagram 452.0.0 | Instagram-452.0.0-RyukGram\n\nIPA Vault bui
+ ld for Instagram (RyukGram)\, version 452.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.4@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Nuvio v0.6.4
+DESCRIPTION:Nuvio 0.6.4 | nuvio-0.6.4-full-release\n\n- 8683505d fix(detail
+ s): animate ratings on tablet @tapframe  \n- e6a05d1d feat(ios): support d
+ uo layout @tapframe  \n- b6287380 fix(deps): update haze to 1.7.3 @tapfram
+ e  \n- [fix(trakt): keep continue watching when a progress request fails (
+ #2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow
+   \n- [perf(streams): compile badge rules once per change (#2365)](https:/
+ /github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  \n- [perf(deb
+ rid): cache stream filter regexes and reuse stream facts (#2362)](https://
+ github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  \n- [i18n(el):
+  sync the Greek locale with 0.6.3 (player badges\, Simkl statuses\, engine
+  switch\, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/p
+ ull/2359) @nosvasedis  \n- [feat(i18n): complete pt-BR player badges and w
+ atch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull
+ /2338) @jhojhocraazy  \n- [Replace libass renderer with atlas pipeline fro
+ m Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @sko
+ ruppa  \n- [Update Hungarian translations (#2341)](https://github.com/Nuvi
+ oMedia/NuvioMobile/pull/2341) @emgeje  \n- [i18n(vi): update strings.xml a
+ nd strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pu
+ ll/2339) @blueocean2308  \n- 90ab7f95 fix(ratings): use real imdb logo and
+  grey label @tapframe  \n- d9046775 feat(home): show ratings and age ratin
+ g on hero @tapframe  \n- b9fbc09c fix(player): keep side panels clear of t
+ he navigation bar @tapframe  \n- 83e528f0 feat(player): choose a badge pac
+ k for the player @tapframe  \n- [Complete Spanish mobile translations (#23
+ 44)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierP
+ C  \n- [fix(ios): keep hardware decoding when PiP is interrupted by Notifi
+ cation Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306
+ ) @WhiteGiso  \n- [fix(android): scale ExoPlayer subtitles with the PiP wi
+ ndow size (#2314)](https://github.c
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:iqface-584.1.0@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:iQFace v584.1.0
+DESCRIPTION:Facebook 584.1.0 | Facebook-584.1.0-iQFace\n\nIPA Vault build f
+ or Facebook (iQFace)\, version 584.1.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/iqface.json
+END:VEVENT
+BEGIN:VEVENT
+UID:cercube-6.4.2@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Cercube for YouTube v6.4.2
+DESCRIPTION:Cercube for YouTube 6.4.2 - the current official release (verif
+ ied against apt.cercube.com on 2026-10-23).\n\nThis release improves the p
+ layer layout for right-to-left languages.\n- Fixed the positioning and ord
+ er of Cercube and player action buttons in right-to-left layouts.\n\nPrevi
+ ously: 6.4.x added hiding Shorts and Shop sections\, an optional Cercube t
+ ab\, drag-to-reorder tabs\, iPad sidebar layouts and cache filters\; 6.1.3
+  added compatibility for iOS 15-16.
+URL:https://raynmahbub.github.io/OmniSource/feeds/cercube.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytmusic-9.42.2@omnisource
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:YTMusicUltimate v9.42.2
+DESCRIPTION:YTMusicUltimate 9.42.2 | YTMusic 2.4.1 | YTMusicUltimate_9.42.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytlite-21.42.4@omnisource
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:YouTubePlus v21.42.4
+DESCRIPTION:YouTube 21.42.4 | YouTubePlus_21.42.4_6.0b2\n\n### Latest Relea
+ se\, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n>
+  [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manag
+ er.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta 
+ release\, some features may still glitch. new YT versions can break tweak 
+ features.\n> - 📝 [6.0b2 release notes](https://github.com/dayanch96/YTL
+ ite/releases/tag/v6.0-b2) \n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip
+ ` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGe
+ tCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes`
+  `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT` `
+ PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require iOS
+  17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytlite.json
+END:VEVENT
+BEGIN:VEVENT
+UID:youpro-21.42.4@omnisource
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:YouPro v21.42.4
+DESCRIPTION:YouTube 21.42.4 | YouProExtra_21.42.4_1.3.1\n\n### Latest Relea
+ se\, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is availab
+ le.\n> - if you're signed out you can sign in manually. \n> - no iSponsorB
+ lock and YouSlider. (unstable in newer builds)\n> - Downloads working part
+ ially. depending on hardware codecs. \n> \n> - - -\n> #### Extra Tweaks:\n
+ > - `YouPip` `YouSlider` `YTweaks` `YouSpeed` `YouMute` `YouLoop` `YTABCon
+ fig` `YouQuality` `YouChooseQuality`  `YouGetCaption` \n> -  `Return-YouTu
+ be-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `Gone
+ rino` \n\n> [!WARNING]\n> - 21.34.3+ builds require iOS 17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/youpro.json
+END:VEVENT
+BEGIN:VEVENT
+UID:youmod-21.42.4@omnisource
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:YouMod v21.42.4
+DESCRIPTION:YouTube 21.42.4 | YouMod extra tweaks | YouMod_21.42.4_2.0.0\n\
+ n### Latest Release\, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included.
+  4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonw
+ alter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (un
+ stable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTAB
+ Config` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` 
+ `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyConten
+ t` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `Please
+ DontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may b
+ e unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require
+  iOS 17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/youmod.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.3@omnisource
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Nuvio v0.6.3
+DESCRIPTION:Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party)
+ : show the party's source as plain text @tapframe  \n- 37a6656a fix(player
+ ): keep center controls in place on pause @tapframe  \n- 344117e7 feat(pla
+ yer): show badges for what is playing @tapframe  \n- ebb17678 feat(party):
+  chat from your phone with the same profile @tapframe  \n- 18268427 fix(pl
+ ayer): move engine switch to top row with confirmation @tapframe  \n- [fea
+ t(i18n): add Brazilian Portuguese (pt-BR) localization for watch party\, s
+ ervers\, mdblist and autosync (#2288)](https://github.com/NuvioMedia/Nuvio
+ Mobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messag
+ es with the return key @tapframe  \n- [Update Hungarian translations (#233
+ 3)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix
+  binge group initial state from stream args\, apply custom posters in libr
+ ary see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) 
+ @skoruppa  \n- [i18n(vi): update strings.xml\, translate watch party and a
+ uto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/Nu
+ vioMobile/pull/2297) @blueocean2308
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:threadsaver-452.1@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:ThreadSaver v452.1
+DESCRIPTION:Threads 452.1 | Threads-452.1-ThreadSaver\n\nIPA Vault build fo
+ r Threads (ThreadSaver)\, version 452.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json
+END:VEVENT
+BEGIN:VEVENT
+UID:telegram-mxgram-13.1@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Telegram MxGram v13.1
+DESCRIPTION:Telegram 13.1 | Telegram-13.1-iQTele\n\nIPA Vault build for Tel
+ egram (iQTele)\, version 13.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.2.1@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Mornye v5.2.1
+DESCRIPTION:Mornye 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n
+ \n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding
+ **: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mo
+ rnye logo across the app\n- **branding**: Rename app and native backend to
+  Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- 
+ **playback**: Add normalization pre-amp and track or album gain\n- **ui**:
+  Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- 
+ **crash**: Reduce repeated notices and retain diagnostics\n- **player**: P
+ refer embedded art for local files over online covers\n- **startup**: Wait
+  for the Activity before backend startup calls\n- **library**: Use path in
+ dex for network scan cache lookups\n- **ui**: Align Material screens with 
+ the design guide\n- **concerts**: Give the Material concert page a Materia
+ l layout\n- **player**: Refresh late duration updates without reopening\n-
+  **home**: Match On repeat tracks to their Library entry\n- **home**: Show
+  listening sections on the Mornye Home without a feed\n- **lyrics**: Ease 
+ synced line changes with a spring scroll\n- **haptics**: Render music puls
+ es on basic motors and add tuning sliders\n- **downloads**: Embed enriched
+  artwork across audio formats\n- **artwork**: Read padded ID3 covers and r
+ epair cached previews\n- **crash**: Exclude system memory kills from crash
+  notices\n- **backup**: Reconcile restored iOS paths before publishing his
+ tory\n- **library**: Release network scan memory and cancel active metadat
+ a reads\n- **android**: Apply renderer compatibility before shared engine 
+ creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye playe
+ r and library smoothness\n- **library**: Cache unchanged SMB and WebDAV sc
+ an metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects 
+ section\n- **readme**: Drop heading anchors from feature cards\n\n### Chor
+ es\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https:/
+ /github.com/github-actions[bot])\n- **branding**: Drop rem
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:eclipse-2.3.0@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Eclipse v2.3.0
+DESCRIPTION:Eclipse 2.3.0 | Eclipse-unsigned-v2.3.0-20261020-090254\n\nAddi
+ tions:\n\n-Deep tracker library integration option (AniList\, MAL\, Trakt)
+ \n-Simkl Tracking (Will NOT get deep tracking integration due to free tier
+  limits)\n-Ratings and Notes setting\n-Concurrent download controls\n-Back
+ ground HLS downloading (iOS 26+ only)\n-Subtitle delay\n-Dolby Atmos and D
+ olby Vision support\n-epub support (experimental)\n-Light novel reader rew
+ ork\n\nFixes/Changes (fixes are not guaranteed\, different devices behave 
+ differently) :\n\n-Fixed mpv backgrounding audio desync\, it should take a
+  sec to recover.\n-Fixed mpv downstream blowing up\n-Changed Alt poster an
+ d season building to be more accurate\, tested 220 anime\, and 100 western
+  shows\n-Fixed unaired episode hiding\n-Fixed System calendar crash\, app 
+ now enforces Gregorian calendar\n-Fixed Ratings and Notes getting lost\n-R
+ emoved Performance mode and watch together. No longer needed/wasn't popula
+ r. Perf mode is enforced On\n-Ratings and notes can now be assigned per se
+ ason rather than the whole show\n-Subtitle edit fixes\n-Language filters a
+ re now hardcoded values instead of user inputted ones\n-Fixed Reader mode 
+ library importing not being able to connect a source\n-Rearranged settings
+  to push more important ones higher\n-Changed some Auto Mode logic\n-Fixed
+  audio name detection\n-Fixed subtitle name detection\n-Double tap to seek
+  no longer brings up the player UI\n\nAs always\, use GitHub issues or the
+  discord for requests or bug reports.
+URL:https://raynmahbub.github.io/OmniSource/feeds/eclipse.json
+END:VEVENT
+BEGIN:VEVENT
+UID:dopamine-3.0.12@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Dopamine v3.0.12
+DESCRIPTION:Dopamine 3.0.12 | Dopamine\n\n- Add workaround for stock issue 
+ that causes touch not to work on certain A10/A11 aftermarket screens after
+  a userspace reboot (Contributed by @moezemara)\n- Fix some system prefere
+ nce plists being redirected to /var/jb in rootlesshook (Contributed by @ve
+ rygenericname)
+URL:https://raynmahbub.github.io/OmniSource/feeds/dopamine.json
+END:VEVENT
+BEGIN:VEVENT
+UID:threadsaver-452.0@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:ThreadSaver v452.0
+DESCRIPTION:Threads 452.0 | Threads-452.0-ThreadSaver\n\nIPA Vault build fo
+ r Threads (ThreadSaver)\, version 452.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json
+END:VEVENT
+BEGIN:VEVENT
+UID:tablehabit-1.27.15@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Table Habit v1.27.15
+DESCRIPTION:Table Habit 1.27.15 | mhabit-unsigned\n\n# Released: v1.27.15+2
+ 04\n\n## ✨ Features\n\n- Integrate native desktop title bars and keep ap
+ p bars pinned while scrolling\n  (#677)\n  - Fuse macOS window controls wi
+ th adaptive toolbars and handle fullscreen\n    transitions\n  - Match nat
+ ive title bar colors to the app theme on Windows and Linux\n- Keep a manua
+ lly collapsed sidebar closed across layout and interface-style\n  changes 
+ within the current session (#679)\n- Restore desktop window size and posit
+ ion before the window first appears\n  (#681)\n  - Save ordinary window ge
+ ometry without treating fullscreen or maximized\n    bounds as the preferr
+ ed window size\n\n## 🐛 Fixes\n\n- Preserve open dialogs and their state
+  while updating theme colors\, and keep\n  dialog app bars consistent with
+  their local theme (#677)\n- Restore the Settings Back button when the sid
+ ebar and its collapsed toolbar\n  navigation are hidden (#678)\n\n## 🧹 
+ Others\n\n- Add desktop native regression tests and integrate them into lo
+ cal and CI\n  test workflows (#677)\n\n[Full Changelog](https://github.com
+ /FriesI23/mhabit/compare/v1.27.13+202...v1.27.15+204)
+URL:https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.2.0@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Mornye v5.2.0
+DESCRIPTION:Mornye 5.2.0 | SpotiFLAC-v5.2.0-ios-unsigned\n\n### New Feature
+ s\n\n- **crash**: Show persistent crash reports on Home\n- **about**: Link
+  the lyrics website and service status\n- **player**: Search lyrics online
+  for files without them\n- **lyrics**: Add lrc.red and BetterLyrics\, spli
+ t SpotiFLAC-Mobile Lyrics\n- **home**: Greet in the header and gather list
+ ening shortcuts\n- **onboarding**: Introduce the 5.2 release tour\n- **lib
+ rary**: Add adaptive icons to collection tabs\n- **home**: Localize greeti
+ ngs and address profile names\n- **home**: Expose extension country settin
+ gs and isolate regional caches\n- **lyrics**: Refresh quote sharing and lo
+ ad lyrics on demand\n- **android**: Refresh launcher widgets with adaptive
+  expressive layouts\n- **player**: Add configurable full-screen cover art\
+ n- **player**: Synchronize music haptics with local playback\n- **lyrics**
+ : Share lyric cards and refine timed vocal transitions\n- **player**: Show
+  audio source processing and output details\n- **equalizer**: Add multiban
+ d EQ and per-player native audio processing\n- **autoplay**: Enable person
+ alization by default and confirm learning resets\n- **a11y**: Label contro
+ ls and improve settings contrast and targets\n- **i18n**: Add player featu
+ re text and clarify built-in playback\n- **loading**: Align skeletons with
+  collection and extension layouts\n- **player**: Share volume controls acr
+ oss Material and Mornye\n- **rewind**: Add yearly highlights and seasonal 
+ library banners\n- **forms**: Adopt expressive inputs with consistent form
+  state\n- **ui**: Add themed menus and adaptive checkbox rows\n- **ui**: U
+ nify content cards and preserve press behavior\n- **layout**: Adapt tablet
+  navigation and center wide content\n- **listening**: Show a skeleton whil
+ e statistics load\n- **listening**: Add Rewind highlights and refresh stat
+ istics\n- **player**: Refine mini-player and queue feedback\n- **library**
+ : Add sectioned browsing and adaptive fast scrolling\n- **material**: Unif
+ y progress and surface transitions\n- **material*
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkle-452.0.0@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Sparkle v452.0.0
+DESCRIPTION:Instagram 452.0.0 | Instagram-452.0.0-Sparkle\n\nIPA Vault buil
+ d for Instagram (Sparkle)\, version 452.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/sparkle.json
+END:VEVENT
+BEGIN:VEVENT
+UID:saber-1.36.3@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Saber v1.36.3
+DESCRIPTION:Saber 1.36.3 | Saber_v1.36.3\n\n## External links\n\n[<img src=
+ 'https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-
+ badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&
+ nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/bad
+ ges/f-droid-badge.svg"\n    alt="Get it on F-Droid"\n    height=50>][f-dro
+ id]&nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw
+ /badges/app-store-badge.svg"\n    alt="Download on the App Store"\n    hei
+ ght=50>][app_store]&nbsp\;[<img src="https://github.com/adil192/saber/blob
+ /main/assets_raw/badges/flathub-badge.svg"\n    alt="Download on Flathub"\
+ n    height=50>][flathub]\n\nFor other downloads\, scroll down and find th
+ e relevant file under "Assets".\n\n[f-droid]: https://f-droid.org/packages
+ /com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.ad
+ ilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?
+ id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/
+ id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## 
+ Changelog\n\n- Various visual improvements\, including an Adwaita-inspired
+  navigation bar for the Linux version of Saber\n- Fixed a deduplication bu
+ g causing many copies of PDF files to be saved #1856 \n- Fixed a bug preve
+ nting Saber from responding to light/dark mode switches on Linux\n- Full c
+ hangelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3
+URL:https://raynmahbub.github.io/OmniSource/feeds/saber.json
+END:VEVENT
+BEGIN:VEVENT
+UID:onionbrowser-3.4.4@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Onion Browser v3.4.4
+DESCRIPTION:Onion Browser 3.4.4 | OnionBrowser\n\n- Fixed crash when trying
+  to create or edit a bookmark.
+URL:https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nicegram-2.6.4@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Nicegram v2.6.4
+DESCRIPTION:Nicegram 2.6.4 | build 2.6.4\n\nBuild of Nicegram for iOS 2.6.4
+  (725)
+URL:https://raynmahbub.github.io/OmniSource/feeds/nicegram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nexasc-8.83.0@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:NexaSC v8.83.0
+DESCRIPTION:SoundCloud 8.83.0 | SoundCloud-8.83.0-NexaSC\n\nIPA Vault build
+  for SoundCloud (NexaSC)\, version 8.83.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/nexasc.json
+END:VEVENT
+BEGIN:VEVENT
+UID:reynard-0.18.0@omnisource
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Reynard v0.18.0
+DESCRIPTION:Reynard 0.18.0 | Reynard\n\n## Changes\n\n**Full Changelog**: h
+ ttps://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\n\n### 
+ New Features\n- When a webpage uses a keyboard shortcut that conflicts wit
+ h one of the app's\, the first press now goes to the webpage\, and a hint 
+ appears in the address bar letting you press the shortcut again to trigger
+  the app's.\n\n### Improvements\n- Scrolling on webpages is now smoother a
+ nd more accurate.\n- Improved audio handling\, with better echo cancellati
+ on\, voice processing\, recovery after interruptions\, and handling of aud
+ io device changes.\n\n### Bug Fixes\n- Fixed an issue where keyboard short
+ cuts would not be recognized by websites after using Find in Page or a `<s
+ elect>` element.\n- Fixed an issue where the image preview and its actions
+  would not work on certain images\, such as those requiring authentication
+  or in the WebP format.\n- Fixed an issue where tapping the status bar to 
+ scroll to the top would not scroll completely to the top of the webpage wh
+ en using the top address bar.\n- Fixed an issue where touches on some webp
+ ages would land in the wrong place.\n- Added small performance improvement
+ s and fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0](h
+ ttps://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (r
+ eleased Oct 13\, 2026).
+URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.2@omnisource
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Nuvio v0.6.2
+DESCRIPTION:Nuvio 0.6.2 | nuvio-0.6.2-full-release\n\n- b253a7c5 feat(party
+ ): add chat to watch parties @tapframe  \n- [Fix escaped apostrophes and m
+ issing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMo
+ bile/pull/2312) @WhiteGiso  \n- [fix(ios): keep Watch Party in sync and ap
+ ply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMob
+ ile/pull/2308) @WhiteGiso  \n- [i18n(el): finish the Greek locale (party\,
+  media servers\, MDBList\, Auto Sync\, season count) (#2292)](https://gith
+ ub.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  \n- [Filename and in
+ foHash matching for binge group\, prefetch fixes (#2278)](https://github.c
+ om/NuvioMedia/NuvioMobile/pull/2278) @skoruppa
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:iqface-584.0.0@omnisource
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:iQFace v584.0.0
+DESCRIPTION:Facebook 584.0.0 | Facebook-584.0.0-iQFace\n\nIPA Vault build f
+ or Facebook (iQFace)\, version 584.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/iqface.json
+END:VEVENT
+BEGIN:VEVENT
+UID:utm-5.0.8@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:UTM v5.0.8
+DESCRIPTION:UTM 5.0.8 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX
+  graphics support for Windows**: Modern accelerated graphics for Windows 1
+ 1 is now available on UTM for the first time. The driver is still experime
+ ntal and games compatibility is currently limited.\n* **Vulkan 1.3 graphic
+ s support for Linux**: Vulkan 1.3 is now supported on Linux guests with Vi
+ rtIO Venus drivers in Mesa. Additionally\, OpenGL 4.1 is supported with th
+ e new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your 
+ VM at any point and go back to it later from the new Snapshots tab. Works 
+ with QEMU VMs on macOS and iOS 26\, and with Apple Virtualization VMs on m
+ acOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices
+  through to your VM\, turn on Secure Boot for Linux\, run a VM without sav
+ ing changes\, and let VMs talk to each other with new networking modes.\n*
+  (iOS) **Better touch controls**: Gestures respond immediately\, with new 
+ middle-click and right-drag actions and a new drag-to-scroll touch mode.\n
+ * (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop\, and the botto
+ m half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspende
+ d VMs may not resume correctly after updating. We recommend shutting down 
+ all VMs before you update UTM.\n* The minimum supported versions are now m
+ acOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getut
+ m.app)! Follow us for in-depth technical deep dives such as how we brought
+  DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11
+ \, we recommend a fresh install because the driver is still experimental a
+ nd its use could lead to instability in the system. During the install of 
+ the guest tools\, you will be prompted to select the experimental graphics
+  driver. If you wish to install the new driver on a system that already is
+  running the older display only driver\, you need to run the uninstall scr
+ ipt provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL
+  backend does not support Vulkan or Di
+URL:https://raynmahbub.github.io/OmniSource/feeds/utm.json
+END:VEVENT
+BEGIN:VEVENT
+UID:turrit-mxgram-1.5.6@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Turrit MxGram v1.5.6
+DESCRIPTION:Turrit 1.5.6 | Turrit-1.5.6-MxGram\n\nIPA Vault build for Turri
+ t (MxGram)\, version 1.5.6
+URL:https://raynmahbub.github.io/OmniSource/feeds/turrit-mxgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:saber-1.36.2@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Saber v1.36.2
+DESCRIPTION:Saber 1.36.2 | Saber_v1.36.2\n\n## External links\n\n[<img src=
+ 'https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-
+ badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&
+ nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/bad
+ ges/f-droid-badge.svg"\n    alt="Get it on F-Droid"\n    height=50>][f-dro
+ id]&nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw
+ /badges/app-store-badge.svg"\n    alt="Download on the App Store"\n    hei
+ ght=50>][app_store]&nbsp\;[<img src="https://github.com/adil192/saber/blob
+ /main/assets_raw/badges/flathub-badge.svg"\n    alt="Download on Flathub"\
+ n    height=50>][flathub]\n\nFor other downloads\, scroll down and find th
+ e relevant file under "Assets".\n\n[f-droid]: https://f-droid.org/packages
+ /com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.ad
+ ilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?
+ id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/
+ id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## 
+ Changelog\n\n- Added an Indonesian translation #1840 #1825 \n- Optimized c
+ olor inversion to be much quicker #1849 \n- Fixed the AppImage's update UR
+ L #1812\n- Translations:\n  - i18n: Add Indonesian README by @Yoruxyv in a
+ 3430eddf476aa0811e921e82459fe8f090d5b35\n  - i18n: Update Chinese (Traditi
+ onal Han script) by @s8321414 in 6547f59ae580de0cfce59b4847df8586768acd64\
+ n  - i18n: Add Korean by @donngas in 9fdea89ce60d5cbb3a158bcf16d0946ba51f7
+ 77d\n  - i18n: Update Spanish by @jmnu4245 in 1d50960f8e7fd01295f36d2beb44
+ 22a325e110b6\n  - i18n: Update Chinese (Simplified Han script) by @u365947
+ 7 in e4ee5b94b3d948b98c9c7871195c8202c5d9e540\n  - i18n: Update French by 
+ @ArTuPSly in 31eef99e07ba18b0d9ff1683b993a4ce9bbd33cc\n  - i18n: Update Po
+ rtuguese (Brazil) by Givaldo B S Sobrinho in 89be7b7b5834454a4ddaaa70026b5
+ 2f86dd7e3f5\n  - i18n: Update Portuguese (Brazil) by Carlos Pinto Jr. in 4
+ c535d28b9e7e6362b99aaa33e3906bda0639334\n  - i18n: Up
+URL:https://raynmahbub.github.io/OmniSource/feeds/saber.json
+END:VEVENT
+BEGIN:VEVENT
+UID:msgplusx-584.0.0@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:MSGPlusX v584.0.0
+DESCRIPTION:Messenger 584.0.0 | Messenger-584.0.0-MSGPlusX\n\nIPA Vault bui
+ ld for Messenger (MSGPlusX)\, version 584.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json
+END:VEVENT
+BEGIN:VEVENT
+UID:messenger-flow-584.0.0@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Messenger Flow v584.0.0
+DESCRIPTION:Messenger 584.0.0 | Messenger-584.0.0-Flow\n\nIPA Vault build f
+ or Messenger (Flow)\, version 584.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json
+END:VEVENT
+BEGIN:VEVENT
+UID:jellify-1.3.0@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Jellify v1.3.0
+DESCRIPTION:Jellify 1.3.0 | Jellify-1.3.0\n\nWelcome to Jellify 1.3.0\n\nHe
+ y music lovers! We've packed this update with some really sweet fixes and 
+ major stability improvements to make sure your playlist keeps going strong
+  wherever you are. Grab your headphones and get ready to stream!\n\n*   **
+ Improved Car Experience:** We've made some great updates for Android Auto 
+ users\, giving you server-backed browsing and a much smoother experience w
+ hen resuming playback in your car.\n*   **Flawless Playback:** We tackled 
+ some lingering glitches\, including better buffering and fixes to the main
+  player screen. Now your music should stream more reliably\, even when swi
+ tching between tracks or listening on the go.\n*   **Enhanced Stability on
+  All Platforms:** This update includes better organization for music album
+ s and fixes a small issue on iOS where the player dismiss gesture wasn't w
+ orking correctly.
+URL:https://raynmahbub.github.io/OmniSource/feeds/jellify.json
+END:VEVENT
+BEGIN:VEVENT
+UID:utm-5.0.7@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:UTM v5.0.7
+DESCRIPTION:UTM 5.0.7 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX
+  graphics support for Windows**: Modern accelerated graphics for Windows 1
+ 1 is now available on UTM for the first time. The driver is still experime
+ ntal and games compatibility is currently limited.\n* **Vulkan 1.3 graphic
+ s support for Linux**: Vulkan 1.3 is now supported on Linux guests with Vi
+ rtIO Venus drivers in Mesa. Additionally\, OpenGL 4.1 is supported with th
+ e new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your 
+ VM at any point and go back to it later from the new Snapshots tab. Works 
+ with QEMU VMs on macOS and iOS 26\, and with Apple Virtualization VMs on m
+ acOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices
+  through to your VM\, turn on Secure Boot for Linux\, run a VM without sav
+ ing changes\, and let VMs talk to each other with new networking modes.\n*
+  (iOS) **Better touch controls**: Gestures respond immediately\, with new 
+ middle-click and right-drag actions and a new drag-to-scroll touch mode.\n
+ * (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop\, and the botto
+ m half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspende
+ d VMs may not resume correctly after updating. We recommend shutting down 
+ all VMs before you update UTM.\n* The minimum supported versions are now m
+ acOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getut
+ m.app)! Follow us for in-depth technical deep dives such as how we brought
+  DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11
+ \, we recommend a fresh install because the driver is still experimental a
+ nd its use could lead to instability in the system. During the install of 
+ the guest tools\, you will be prompted to select the experimental graphics
+  driver. If you wish to install the new driver on a system that already is
+  running the older display only driver\, you need to run the uninstall scr
+ ipt provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL
+  backend does not support Vulkan or Di
+URL:https://raynmahbub.github.io/OmniSource/feeds/utm.json
+END:VEVENT
+BEGIN:VEVENT
+UID:streamyfin-0.55.2@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Streamyfin v0.55.2
+DESCRIPTION:Streamyfin 0.55.2 | streamyfin-ios\n\n## What's Changed\n\n0.55
+ .2 is another bug fix release. One thing does change: a TV is now signed i
+ n from your phone with Quick Connect\, so Quick Connect has to be on in yo
+ ur server's dashboard (it is by default) and both devices need this versio
+ n. The rest again comes out of the crash and error reports\, plus a round 
+ of fixes to accounts and the Seerr sign-in\n\nThanks to everyone who repor
+ ted a problem\, and to @Gauvino for the Quick Connect and Seerr fixes!\n\n
+ ### ✨ Highlights\n- **Signing a TV in from your phone uses Quick Connect
+ **\, with a code or a QR code\, and no longer sends your password over the
+  local network (#2240) by @Gauvino\n- **Freezes of a few seconds when play
+ back starts or resumes** on iOS and tvOS are fixed (#2205) by @fredrikburm
+ ester\n- **Access tokens are kept out of the app log**\, including the log
+ s you export\, and entries written by earlier versions are cleaned up (#21
+ 03) by @Gauvino\n- **Seerr access no longer carries over** to the next acc
+ ount signed in on the same device (#2233) by @Gauvino\n- **Quick Connect i
+ n Settings** sends the code on its sixth digit and tells you why a code fa
+ ils (#2246) by @Gauvino\n- **Luxembourgish** is available as an app langua
+ ge (#2195) by @Gauvino\n\n### 🎬 Player\n- iOS and tvOS: the app no long
+ er freezes for several seconds when playback starts or resumes while the s
+ ystem audio service is slow to answer (#2205) by @fredrikburmester\n- Musi
+ c: tapping a track far down the queue before the rest has loaded no longer
+  fails\, and neither do previous and next with repeat all (#2212) by @fred
+ rikburmester\n\n### 📺 TV\n- Pairing a TV with a phone goes through Quic
+ k Connect: the TV shows a code and a QR code\, your phone approves it\, an
+ d the TV signs in by itself. No password travels between the two devices\,
+  and the TV picks its own server (#2240) by @Gauvino\n- On the phone\, Set
+ tings > Log in on TV scans the QR code or takes the code typed in\, and th
+ e entry now shows on iPhones too (#2240) by @Gauvino\n- T
+URL:https://raynmahbub.github.io/OmniSource/feeds/streamyfin.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.1@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Nuvio v0.6.1
+DESCRIPTION:Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party)
+ : let only the host change what's playing @tapframe
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.0@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Nuvio v0.6.0
+DESCRIPTION:Nuvio 0.6.0 | nuvio-0.6.0-full-release\n\n- [feat(party): add e
+ xperimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobi
+ le/pull/2253) @tapframe  \n- b9d2c39d fix(player): pause other apps audio 
+ on android @tapframe  \n- [feat(mdblist): show dynamic and liked lists in 
+ the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) 
+ @kernexshadow  \n- [i18n(el): translate new 0.5.10 strings (#2263)](https:
+ //github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  \n- [Complete 
+ missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioM
+ obile/pull/2260) @WhiteGiso  \n- [fix(ios): improve PiP transitions and re
+ cover playback after closing PiP (#2259)](https://github.com/NuvioMedia/Nu
+ vioMobile/pull/2259) @WhiteGiso  \n- [fix(ios): restore Now Playing by lim
+ iting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMo
+ bile/pull/2246) @WhiteGiso  \n- [fix(i18n): update\, complete and review B
+ razilian Portuguese (pt-BR) localization (#2234)](https://github.com/Nuvio
+ Media/NuvioMobile/pull/2234) @jhojhocraazy  \n- [feat(mdblist): show exter
+ nal lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobil
+ e/pull/2172) @kernexshadow
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:neofreebird-7.2.0@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:NeoFreeBird v7.2.0
+DESCRIPTION:Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33\n\n#
+  Version 7.2.0\n\n## New Features\n- Added an option to choose the default
+  reply sort\n- Updated X to 12.33\n- Added an option to hide retweets and 
+ quotes from the “For You” page\n- Added option to convert [t.co](http:
+ //t.co/) links and remove link tracking by @PEEKPerformer in https://githu
+ b.com/NeoFreeBird/app/pull/135\n- Updated NFB settings to use the new sett
+ ings design. You now hold the bird (or X) on the For You page to access NF
+ B settings\n- Brought back the Tweet source labels!\n- Removed the “Mone
+ y” tab\n- Enabling the option to hide views now also hides it in the twe
+ et footer.\n\n## Fixes\n- Fixed more webview issues\n- NeoFreeBird now mor
+ e reliably filters out video ads\n- Fixed hiding both the “Follow” and
+  “Message” button on tweets by @sekiranunn in https://github.com/NeoFr
+ eeBird/app/pull/140\n- Tweaked the wording of the “Reply in web view” 
+ option to highlight it’s a fallback by @PEEKPerformer in https://github.
+ com/NeoFreeBird/app/pull/138\n- Added localization support for the “Show
+  quote numbers option”\n- Fixed the app crashing when adding more than 1
+  account\n\n## Localizations\n* Update Japanese localization for in-app br
+ owser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\n* U
+ pdate French localization by @jleroy in https://github.com/NeoFreeBird/app
+ /pull/132\n* Update Japanese localization for reply sorting options by @so
+ -5699 in https://github.com/NeoFreeBird/app/pull/136\n* Update Arabic loca
+ lization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\n* Up
+ date Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFre
+ eBird/app/pull/142\n\n## New Contributors\n* @so-5699 made their first con
+ tribution in https://github.com/NeoFreeBird/app/pull/130\n* @jleroy made t
+ heir first contribution in https://github.com/NeoFreeBird/app/pull/132\n* 
+ @PEEKPerformer made their first contribution in https://github.com/NeoFree
+ Bird/app/pull/135\n* @ipapplus made their first contribution in https://
+URL:https://raynmahbub.github.io/OmniSource/feeds/neofreebird.json
+END:VEVENT
+BEGIN:VEVENT
+UID:infuseplus-8.5.8@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Infuse Plus v8.5.8
+DESCRIPTION:Infuse 8.5.8 | Infuse-8.5.8-Infuse-Plus\n\nIPA Vault build for 
+ Infuse Plus (8.5.8)\, version 8.5.8
+URL:https://raynmahbub.github.io/OmniSource/feeds/infuseplus.json
+END:VEVENT
+BEGIN:VEVENT
+UID:escapeos-0.1.8@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:EscapeOS v0.1.8
+DESCRIPTION:EscapeOS 0.1.8 | EscapeOS-0.1.8\n\n## EscapeOS 0.1.8\n\nv0.1.0\
+ , v0.1.1\, v0.1.3\, v0.1.4\, v0.1.5\, and v0.1.6 are unchanged. 0.1.7 was 
+ never published\; its two fixes are in this release.\n\n### Fixed\n- **Imp
+ ort from Files works again for new files and Keep Both.** Since 0.1.6 both
+  failed with "That folder is outside this app's data." An app's container 
+ is reported under `/private/var`\, and the folder check only stripped that
+  prefix for paths that already exist ([#4](https://github.com/pwnapplehat/
+ EscapeOS/issues/4)).\n- **`InvalidHostID` now explains itself.** It means 
+ the device does not recognise EscapeOS's pairing file. The message used to
+  blame LocalDevVPN and Wi-Fi ([#5](https://github.com/pwnapplehat/EscapeOS
+ /issues/5)).\n- **Sharing a file can no longer delete EscapeOS's own data.
+ ** Share wrote into EscapeOS's Documents and replaced whatever had that na
+ me\, so sharing a file called `Backups` or `pairingFile.plist` removed eve
+ ry backup or the pairing file. Shares now use a private temporary folder.\
+ n\n### Added ([#3](https://github.com/pwnapplehat/EscapeOS/issues/3)\, [#4
+ ](https://github.com/pwnapplehat/EscapeOS/issues/4))\n- **Search Whole App
+ ** finds a file or folder by name anywhere in an app's data.\n- **Favorite
+ s** at the top of the Apps tab\; they still open after an app is reinstall
+ ed.\n- **Replace / Keep Both / Cancel when pasting** a name that already e
+ xists. A folder is never replaced\, a file is never replaced by itself\, a
+ nd Replace swaps the file in atomically so a failure leaves the original.\
+ n- **Free-space check** before Compress\, Share Zip\, Duplicate\, Paste\, 
+ Import and Backup\, with a clear message instead of a late failure.\n- **S
+ hare / Save to Files** on each backup.\n\n### Changed\n- **Deleting a file
+  now asks first**\, naming what will be deleted. Files can opt out with "D
+ elete\, Don't Ask Again" (Settings turns it back on)\; folders and backup 
+ archives always ask.\n\nTheos arm64 IPA (iPhoneOS 16.5 SDK\, `MinimumOSVer
+ sion` 18.0)\, same build path as 0.1.6. After install\, r
+URL:https://raynmahbub.github.io/OmniSource/feeds/escapeos.json
+END:VEVENT
+BEGIN:VEVENT
+UID:conduit-4.2.1@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Conduit v4.2.1
+DESCRIPTION:Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open We
+ bUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\
+ n* Let the speaker button work from the start of Android voice calls by @c
+ ogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Chan
+ gelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:aidoku-0.9@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Aidoku v0.9
+DESCRIPTION:Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a numb
+ er of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Im
+ proved webtoon reader memory usage (hopefully fixes crash after reading mu
+ ltiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n
+ - Various other bug fixes
+URL:https://raynmahbub.github.io/OmniSource/feeds/aidoku.json
+END:VEVENT
+BEGIN:VEVENT
+UID:stikdebug-3.1.15@omnisource
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:StikDebug v3.1.15
+DESCRIPTION:StikDebug 3.1.15 | StikDebug-3.1.15\n\n**Full Changelog**: http
+ s://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\nAttempt to fix
+  ServiceNotFound errors\, add debugging
+URL:https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json
+END:VEVENT
+BEGIN:VEVENT
+UID:msgplusx-583.0.0@omnisource
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:MSGPlusX v583.0.0
+DESCRIPTION:Messenger 583.0.0 | Messenger-583.0.0-MSGPlusX\n\nIPA Vault bui
+ ld for Messenger (MSGPlusX)\, version 583.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json
+END:VEVENT
+BEGIN:VEVENT
+UID:messenger-flow-583.0.0@omnisource
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Messenger Flow v583.0.0
+DESCRIPTION:Messenger 583.0.0 | Messenger-583.0.0-Flow\n\nIPA Vault build f
+ or Messenger (Flow)\, version 583.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json
+END:VEVENT
+BEGIN:VEVENT
+UID:iqface-583.0.0@omnisource
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:iQFace v583.0.0
+DESCRIPTION:Facebook 583.0.0 | Facebook-583.0.0-iQFace\n\nIPA Vault build f
+ or Facebook (iQFace)\, version 583.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/iqface.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.10@omnisource
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Nuvio v0.5.10
+DESCRIPTION:Nuvio 0.5.10 | nuvio-0.5.10-full-release\n\n- [feat(ios): add n
+ ative PiP with existing MPV VideoToolbox frames (#2248)](https://github.co
+ m/NuvioMedia/NuvioMobile/pull/2248) @WhiteGiso  \n- [Fix dismissed shows s
+ taying hidden after marking episodes watched (#2244)](https://github.com/N
+ uvioMedia/NuvioMobile/pull/2244) @Laskco  \n- [Add non-AI Subtitle AutoSyn
+ c for mobile add-on subtitles (#2143)](https://github.com/NuvioMedia/Nuvio
+ Mobile/pull/2143) @DavidVamaiotu  \n- [fix(i18n): localize generic Episode
+  N titles like TV (#2241)](https://github.com/NuvioMedia/NuvioMobile/pull/
+ 2241) @blueocean2308  \n- [ fix next episode card timing and prefetch with
+  heuristic post-credits (#2238)](https://github.com/NuvioMedia/NuvioMobile
+ /pull/2238) @skoruppa  \n- [Optimize custom poster URL resolving performan
+ ce (#2239)](https://github.com/NuvioMedia/NuvioMobile/pull/2239) @halibira
+ m  \n- [fix: In Poster Card Style settings screen one toggle get bigger th
+ en other and pushed out of the screen safe area. (#2219)](https://github.c
+ om/NuvioMedia/NuvioMobile/pull/2219) @AdityasahuX07
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:inkillerplus-451.0.0@omnisource
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:iNKillerPlus v451.0.0
+DESCRIPTION:Instagram 451.0.0 | Instagram_451.0_iNKillerPlus_5.3\n\n• Fix
+ es Grid mode may crashes in v450+\n- Add full compatibility with IG v445+\
+ n- Updated base IPA to Instagram v451
+URL:https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json
+END:VEVENT
+BEGIN:VEVENT
+UID:battman-1.1.0@omnisource
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Battman v1.1.0
+DESCRIPTION:Battman 1.1.0 | TrollStore\n\n## Battman 1.1.0\n\nIn this versi
+ on\, I have finally put something in the 'Analytics' page\, added native p
+ lug-in support\, and fixed a bunch of bugs.\n\n**PLEASE LET ME KNOW** when
+  you want any new features or find any bugs. You can create a [GitHub issu
+ e](https://github.com/Torrekie/Battman/issues/new) to describe them\, espe
+ cially when something behaves differently on your device.\n\n- Implemented
+  the 'Analytics' page with cards that you can add\, remove\, resize and re
+ arrange ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added ten
+  Analytics cards: live readings\, capacity observations\, cell voltages\, 
+ charging sessions\, battery discharge\, connection and charging states\, p
+ ower readings\, time by battery level\, charging comparison\, and discharg
+ e rhythm. Graphs include capacity history and comparisons of complete 20% 
+ to 80% charging sessions\; available readings depend on your device and it
+ s recorded history.\n- Added native plug-in support\, including `.battman`
+  import\, plug-in management\, diagnostics and recovery mode. Third-party 
+ plug-ins require your approval\, and changes take effect after restarting 
+ Battman ([#53](https://github.com/Torrekie/Battman/pull/53)).\n- Added the
+  public Plugin SDK and plug-in example sources for developers ([#53](https
+ ://github.com/Torrekie/Battman/pull/53)). Charge Gauge is provided as a **
+ source example**\, not as a shipped production plug-in.\n- Added a 'Temper
+ ature Unit' option: System\, Celsius\, or Fahrenheit ([#43](https://github
+ .com/Torrekie/Battman/issues/43)).\n- Added `zh_TW` localization and docum
+ entation ([#35](https://github.com/Torrekie/Battman/pull/35)).\n- Added 'E
+ xport Powerlog' to the charging graph. Long-press the graph to export the 
+ available system battery log.\n- Improved charging-limit settings\, daemon
+  connections and charging controls\; unavailable or invalid battery readin
+ gs now have clearer explanations ([#54](https://github.com/Torrekie/Battma
+ n/pull/54)).\n- Fixed potential deadlocks in battery-s
+URL:https://raynmahbub.github.io/OmniSource/feeds/battman.json
+END:VEVENT
+BEGIN:VEVENT
+UID:threadsaver-451.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:ThreadSaver v451.0
+DESCRIPTION:Threads 451.0 | Threads-451.0-ThreadSaver\n\nIPA Vault build fo
+ r Threads (ThreadSaver)\, version 451.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json
+END:VEVENT
+BEGIN:VEVENT
+UID:swiftgram-13.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Swiftgram v13.0
+DESCRIPTION:Swiftgram 13.0 | Swiftgram-13.0-MxGram\n\nIPA Vault build for S
+ wiftgram (MxGram)\, version 13.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/swiftgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkle-451.0.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Sparkle v451.0.0
+DESCRIPTION:Instagram 451.0.0 | Instagram-451.0.0-Sparkle\n\nIPA Vault buil
+ d for Instagram (Sparkle)\, version 451.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/sparkle.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ryukgram-451.0.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:RyukGram v451.0.0
+DESCRIPTION:Instagram 451.0.0 | Instagram-451.0.0-RyukGram\n\nIPA Vault bui
+ ld for Instagram (RyukGram)\, version 451.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:orbot-1.14.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Orbot v1.14.0
+DESCRIPTION:Orbot 1.14.0 | Orbot\n\n- Updated Tor to 0.4.9.14 and OpenSSL t
+ o 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.
+ 9.0.\n- Fixed crashes that occurred seemingly at random.\n\n**ATTENTION**:
+  The attached binaries **do not work** without resigning them. Insofar\, t
+ hey're here mostly for documentary purposes. (Unfortunately\, there curren
+ tly seems to be no way to resign VPN apps. If you find one\, please get in
+  touch!)
+URL:https://raynmahbub.github.io/OmniSource/feeds/orbot.json
+END:VEVENT
+BEGIN:VEVENT
+UID:onionbrowser-3.4.3@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Onion Browser v3.4.3
+DESCRIPTION:Onion Browser 3.4.3 | OnionBrowser\n\n- Updated Tor to 0.4.9.14
+  and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird
+  to version 0.9.0.
+URL:https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json
+END:VEVENT
+BEGIN:VEVENT
+UID:infuseplus-8.5.7@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Infuse Plus v8.5.7
+DESCRIPTION:Infuse 8.5.7 | Infuse-8.5.7-Infuse-Plus\n\nIPA Vault build for 
+ Infuse Plus (8.5.7)\, version 8.5.7
+URL:https://raynmahbub.github.io/OmniSource/feeds/infuseplus.json
+END:VEVENT
+BEGIN:VEVENT
+UID:glow-2026.41.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Glow v2026.41.0
+DESCRIPTION:Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault
+  build for Reddit (RedditFilter)\, version 2026.41.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/glow.json
+END:VEVENT
+BEGIN:VEVENT
+UID:conduit-4.2.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Conduit v4.2.0
+DESCRIPTION:Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI 
+ client parity and Advanced UI controls by @cogwheel0 in https://github.com
+ /cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available
+  without Advanced and polish the new screens by @cogwheel0 in https://gith
+ ub.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel\, cache Gra
+ dle\, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit
+ /pull/810\n* Add Flutter control facades and a narrow platform UI vocabula
+ ry (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n*
+  Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwhe
+ el0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings sel
+ ection controls through platform UI (3/5) by @cogwheel0 in https://github.
+ com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions\, de
+ cisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwhee
+ l0/conduit/pull/814\n* Use platform UI controls for launcher loading and D
+ irect retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/
+ pull/815\n* Keep the chosen reasoning effort when the model selector is re
+ opened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* S
+ tore Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 i
+ n https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI
+  accounts signed in and switch between them (2/4) by @cogwheel0 in https:/
+ /github.com/cogwheel0/conduit/pull/818\n* Switch\, add and sign out of Ope
+ n WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.co
+ m/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichev
+ er of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogw
+ heel0/conduit/pull/820\n* Save several named Hermes connections and switch
+  between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/8
+ 16\n* Stop downloading whole chats again when they open by @cogwheel0 in h
+ ttps://github.com/cogwheel0/condui
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:zeus-13.2.3@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Zeus v13.2.3
+DESCRIPTION:Zeus 13.2.3 | zeus-v13.2.3\n\n<img width="1200" height="670" al
+ t="ZEUS v13.2.3" src="https://github.com/user-attachments/assets/471167a9-
+ 3581-4fc7-ba78-57668e721e6d" />\n\n## v13.2.3 Highlights:\n\n- Embedded LN
+ D v0.21.4\n- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security
+  fixes)\n- Further security hardening measures\n- Miscellaneous bug fixes\
+ n- Miscellaneous UI improvements never transferred correctly through it. S
+ ingle-device and Android users are not affected.\n\n## What's Changed\n* b
+ uild: make Xcode Cloud post-clone survive Intel runners by @kaloudis in ht
+ tps://github.com/ZeusLN/zeus/pull/4677\n* Verify LSP wrapped invoices agai
+ nst the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/p
+ ull/4673\n* [Transifex] Updates for project ZEUS by @transifex-integration
+ [bot] in https://github.com/ZeusLN/zeus/pull/4679\n* locales: fix 17 broke
+ n localeString references\, add en.json coverage test by @kaloudis in http
+ s://github.com/ZeusLN/zeus/pull/4674\n* fix(ui): swap the GIF loading indi
+ cator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus
+ /pull/4678\n* fix(channels): require a host when connecting a peer by @kal
+ oudis in https://github.com/ZeusLN/zeus/pull/4644\n* [Transifex] Updates f
+ or project ZEUS by @transifex-integration[bot] in https://github.com/ZeusL
+ N/zeus/pull/4681\n* [Transifex] Updates for project ZEUS by @transifex-int
+ egration[bot] in https://github.com/ZeusLN/zeus/pull/4682\n* tests: scan a
+ ll literal keys in localeString calls by @kaloudis in https://github.com/Z
+ eusLN/zeus/pull/4680\n* [Transifex] Updates for project ZEUS by @transifex
+ -integration[bot] in https://github.com/ZeusLN/zeus/pull/4683\n* tests: su
+ rface coverage summary in CI logs and PR comments by @kaloudis in https://
+ github.com/ZeusLN/zeus/pull/4676\n* fix(security): bind LNURL-auth callbac
+ k host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pu
+ ll/4576\n* build(ios): refresh Podfile.lock for react-native-get-random-va
+ lues 2.0.0 by @kaloudis in https://gith
+URL:https://raynmahbub.github.io/OmniSource/feeds/zeus.json
+END:VEVENT
+BEGIN:VEVENT
+UID:stikdebug-3.1.14@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:StikDebug v3.1.14
+DESCRIPTION:StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Fu
+ ll Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.
+ 1.14
+URL:https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json
+END:VEVENT
+BEGIN:VEVENT
+UID:reynard-0.17.1@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Reynard v0.17.1
+DESCRIPTION:Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: h
+ ttps://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis
+  is a minor release that fixes issues found in 0.17.0. For the complete li
+ st of changes\, see the [0.17.0 release notes](https://github.com/minh-ton
+ /reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- 
+ Text selections outside input fields now offer more actions\, such as Look
+  Up\, Find Selection\, Translate\, and Share.\n- Fixed a crash when editin
+ g in scrollable text fields on iOS 14 and older.\n- Fixed an issue where t
+ ouching the selection handles to drag them would clear the selection in te
+ xt fields on some webpages.\n- Fixed an issue where the caret and text sel
+ ection would not stay aligned with sticky text while scrolling.\n- Fixed a
+ n issue where tapping a focused text field or caret would not bring up the
+  edit menu on iOS 17 and later.\n- Fixed an issue where images copied from
+  another app would not paste into webpages.
+URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
+END:VEVENT
+BEGIN:VEVENT
+UID:mangayomi-0.9.9@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Mangayomi v0.9.9
+DESCRIPTION:Mangayomi 0.9.9 | Mangayomi-v0.9.9-ios\n\n## What's Changed\n* 
+ fix(extension): enable mobile code copy by @mrandhawa14 in https://github.
+ com/kodjodevf/mangayomi/pull/1039\n* fix(reader): restore double-tap zoom 
+ toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037
+ \n* feat(player): add hold-and-slide speed selector by @mrandhawa14 in htt
+ ps://github.com/kodjodevf/mangayomi/pull/1038\n* fix(http): drop the quote
+ s Linux wraps the saved user agent in by @matsukiender-star in https://git
+ hub.com/kodjodevf/mangayomi/pull/1036\n* fix(security): show what deep lin
+ ks install and keep tokens out of sh… by @kodjodevf in https://github.co
+ m/kodjodevf/mangayomi/pull/1041\n* chore: await dropped writes\, add guard
+  lints\, localize hardcoded strings by @kodjodevf in https://github.com/ko
+ djodevf/mangayomi/pull/1042\n* refactor: move the tracker library cache fr
+ om Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pu
+ ll/1043\n* refactor: split large widget files and remove duplicated code b
+ y @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044\n* Try to
+  fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/
+ pull/1035\n* Add a protected HLS proxy for extension playback by @mrandhaw
+ a14 in https://github.com/kodjodevf/mangayomi/pull/1040\n* Fix reader by @
+ kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051\n* fix(mobil
+ e): improve player controls and error handling by @mrandhawa14 in https://
+ github.com/kodjodevf/mangayomi/pull/1047\n* fix(restore): improve error ha
+ ndling and reporting during restore ope… by @kodjodevf in https://github
+ .com/kodjodevf/mangayomi/pull/1052\n* fix(reader): pan a zoomed webtoon pa
+ ge without losing double tap by @kodjodevf in https://github.com/kodjodevf
+ /mangayomi/pull/1054\n* ci: run the test suite on pull requests and main b
+ y @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056\n* Use ne
+ utral icons for extension repositories by @mrandhawa14 in https://github.c
+ om/kodjodevf/mangayomi/pull/1045\n* Ad
+URL:https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json
+END:VEVENT
+BEGIN:VEVENT
+UID:dopamine-3.0.11@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Dopamine v3.0.11
+DESCRIPTION:Dopamine 3.0.11 | Dopamine\n\n- Fix support for iOS 26.0 beta 1
+  [3.0.1 regression]\n- Fix boot logo not being cleaned up correctly before
+  backboardd starts\, fixes framebuffer getting stuck with it's last conten
+ t during sbreload when a boot logo is used (now the screen will correctly 
+ fade to a black screen like when no boot logo is used)\n- Update opainject
+  and litehook
+URL:https://raynmahbub.github.io/OmniSource/feeds/dopamine.json
+END:VEVENT
+BEGIN:VEVENT
+UID:byetunes-2.6@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:ByeTunes v2.6
+DESCRIPTION:ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix\n\n# ByeTunes v2.6 
+ – Favorites\, Playlist Pinning & Background Downloads Reworked\n\nHi guy
+ s\, here is the 2.6 update for ByeTunes. A good amount of things got added
+ \, fixed and improved in this one. You can now properly favorite injected 
+ songs\, pin playlists from inside ByeTunes\, and keep downloads going in t
+ he background with a new Picture in Picture window. There were also a bunc
+ h of fixes around metadata\, library management and database safety.\n\n**
+ Favorites**\n\nThere are three new options inside Library Repair:\n\n- **C
+ reate Favorites Playlist** creates the Favorites playlist using the right 
+ name for your device region.\n- **Fix Missing Favorites** repairs songs in
+ jected with an older version that you already favorited but that never act
+ ually appeared in Favorites.\n- **Delete Favorites Playlist** lets you del
+ ete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards 
+ now get their store IDs during injection\, so you can favorite them right 
+ away. If the metadata fetcher finds a match\, ByeTunes uses the IDs from t
+ hat match. Songs without a match get generated IDs instead.\n\n**Quick rec
+ ommendation:** if you have older injected songs that you favorited but can
+ not find in Favorites\, run **Fix Missing Favorites** inside Library Repai
+ r.\n\n**Playlist Pinning**\n\nYou can now pin and unpin playlists from the
+  On-Device Library. Long-press a playlist or use the Pin button from insid
+ e it.\n\n**Keep in mind: pinning and unpinning these playlists needs to be
+  done through ByeTunes. The Pin option inside the Apple Music app does not
+  work for them.**\n\n**Background Downloads**\n\nBackground downloads got 
+ a big rework. ByeTunes now uses silent audio to keep downloads going in th
+ e background\, with an optional Picture in Picture window so you can see w
+ hat is happening after leaving the app.\n\nThe window shows the current so
+ ng's progress\, what is next in the queue\, and when metadata is being fet
+ ched. You can also customize it with themes\, your own co
+URL:https://raynmahbub.github.io/OmniSource/feeds/byetunes.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytmusic-9.41.2@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:YTMusicUltimate v9.41.2
+DESCRIPTION:YTMusicUltimate 9.41.2 | YTMusic 2.4.1 | YTMusicUltimate_9.41.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytlite-21.41.5@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:YouTubePlus v21.41.5
+DESCRIPTION:YouTube 21.41.5 | YouTubePlus_21.41.5_6.0b2\n\n### Latest Relea
+ se\, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n>
+  [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manag
+ er.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta 
+ release\, some features may still glitch. \n> - 📝 [6.0b2 release notes]
+ (https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n>\n> - - -\n>
+  #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQ
+ uality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare
+ `\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Saf
+ ari Extension)` `VolumeBoostYT` `PleaseDontStopTheMusic` \n\n> [!WARNING]\
+ n> -  21.34.3+ builds require iOS 17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytlite.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytkace-21.41.5@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:YTKACE v21.41.5
+DESCRIPTION:YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n
+ \nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added H
+ ide AI Channels\, which hides videos from channels on the AiSList blocklis
+ t in your feed and search\, with an option for the warnlist too\n• Swipe
+  the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download 
+ button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shor
+ ts Once not working on the new Shorts UI\n• Pinch to fullscreen in Short
+ s freezing or starting the next Short\n• Loop button not looping when Lo
+ cal Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in
+  the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires
+  iOS 17\, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` f
+ or iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 
+ 16
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytkace.json
+END:VEVENT
+BEGIN:VEVENT
+UID:youpro-21.41.5@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:YouPro v21.41.5
+DESCRIPTION:YouTube 21.41.5 | YouProExtra_21.41.5_1.3.1\n\n### Latest Relea
+ se\, ENJOY!!\n> [!NOTE]\n> - **YTUHD** is not included. 4K60HDR is availab
+ le.\n> - if you're signed out you can sign in manually. \n> - no iSponsorB
+ lock. (unstable in newer builds)\n> - for <A15 devices press share button 
+ in the arrow down panel and use external player for AV1 videos.\n> - downl
+ oads are unstable for <A15 devices. some will fail due to no av1 codec. \n
+ > - - -\n> #### Extra Tweaks:\n> - `YouPip` `YouSlider` `YTweaks` `YouSpee
+ d` `YouMute` `YouLoop` `YTABConfig` `YouQuality` `YouChooseQuality`  `YouG
+ etCaption` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in Yo
+ uTube (Safari Extension)` `Gonerino` \n\n> [!WARNING]\n> - 21.34.3+ builds
+  require iOS 17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/youpro.json
+END:VEVENT
+BEGIN:VEVENT
+UID:youmod-21.41.5@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:YouMod v21.41.5
+DESCRIPTION:YouTube 21.41.5 | YouMod extra tweaks | YouMod_21.41.5_2.0.0\n\
+ n### Latest Release\, ENJOY!!\n\n> [!NOTE]\n> - **YTUHD** is not included.
+  4K60HDR is available.\n> - [v2.0.0 release notes](https://github.com/Tonw
+ alter888/YouMod/releases/tag/v2.0.0)\n> - no standalone iSponsorBlock. (un
+ stable in newer builds)\n> - - -\n> #### Extra Tweaks:\n> - `YouPip` `YTAB
+ Config` `YouQuality` `YouChooseQuality`  `YouGetCaption` `YTHoldForSpeed` 
+ `YTNativeShare` `YTweaks`\n> -  `Return-YouTube-Dislikes` `DontEatMyConten
+ t` `Open in YouTube (Safari Extension)` `Gonerino` `VolumeBoostYT` `Please
+ DontStopTheMusic`\n\n> [!WARNING]\n> - Extra tweaks that are bundled may b
+ e unstable on newer versions.\n\n> [!WARNING]\n> - 21.34.3+ builds require
+  iOS 17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/youmod.json
+END:VEVENT
+BEGIN:VEVENT
+UID:trollfools-4.4-257@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:TrollFools v4.4-257
+DESCRIPTION:TrollFools 4.4-257 | TrollFools_4.4-257.tipa\n\n允许 Dopamine
+  被 TrollFools 注入第三方插件，以提供自定义背景、倒计
+ 时自动越狱及其他扩展功能。\n\n------\n\nAllows official Dopam
+ ine to be injected by TrollFools into third-party plugins to provide custo
+ m backgrounds\, automatic jailbreak countdowns\, and other extended featur
+ es.
+URL:https://raynmahbub.github.io/OmniSource/feeds/trollfools.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.1.1@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Mornye v5.1.1
+DESCRIPTION:SpotiFLAC 5.1.1 | SpotiFLAC-v5.1.1-ios-unsigned\n\n### New Feat
+ ures\n\n- **network**: Delete SMB and WebDAV tracks from the library\n- **
+ autoplay**: Add opt-in on-device recommendation learning\n- **network**: E
+ nable audio and hi-res analysis for network tracks\n- **mornye**: Animate 
+ squircle menus from their trigger\n- **lyrics**: Customize text size and a
+ nimate active lines\n- **appearance**: Support imported TTF and OTF fonts\
+ n- **lyrics**: Use Apple Music as the default lyrics provider\n- **appeara
+ nce**: Make Mornye glass outlines optional\n\n### Bug Fixes\n\n- **mornye*
+ *: Strengthen held navigation glass refraction\n- **notifications**: Show 
+ indeterminate scans without false zero percent\n- **library**: Retire dele
+ ted downloads and stale completion cards\n- **mornye**: Unify held navigat
+ ion glass contour\n- **mornye**: Hide custom font setting icon\n- **ios**:
+  Preserve folder grants and surface picker failures\n- **mornye**: Animate
+  queue removal icon with swipe progress\n- **l10n**: Use Indonesian wordin
+ g for the built-in player\n- **ci**: Locate Discord license notices inside
+  the iOS plugin framework\n- **webdav**: Retain tracks across equivalent p
+ arent URI encodings\n- **library**: Collapse selection actions before dism
+ issing\n- **mornye**: Honor forced glass with increased system contrast\n-
+  **automix**: Ease effects into playback without cutting dry audio\n- **li
+ brary**: Exclude inactive NAS entries and file aliases from duplicates\n- 
+ **library**: Allow choosing duplicate copies and clear stale indexes\n- **
+ playlists**: Preserve repeated tracks during imports\n- **playback**: Relo
+ ad audio sources when switching tracks\n- **ios**: Restore lock screen con
+ trols across app transitions\n- **downloads**: Preserve browser verificati
+ on and queues across restarts\n- **setup**: Recover folder permissions aft
+ er Android restarts\n- **library**: Bound path-key migration batches\n- **
+ library**: Sync local album play and pause controls\n- **metadata**: Prese
+ rve original artwork resolution for SAF files\n- **
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:reynard-0.17.0@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Reynard v0.17.0
+DESCRIPTION:Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: h
+ ttps://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### 
+ Improvements\n- The native text input integration has been rewritten from 
+ scratch\, so typing now feels truly native\, supports nearly all iOS text 
+ editing behaviors\, and is significantly more stable.\n\n### New Features\
+ n- The address bar now automatically focuses for input on new tab pages wh
+ en using a physical keyboard.\n- You can now cycle between tabs using the 
+ Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- 
+ Fixed an issue where a tab would appear blank after closing another tab in
+  the tab overview.\n- Fixed an issue where dragging the iPad floating keyb
+ oard or shortcut bar would push the web view upward.\n- Fixed an issue whe
+ re taps would sometimes land in the wrong spot on some iframe elements whe
+ n the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n##
+ # Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/
+ firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6\, 2026).
+URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nexasc-8.82.0@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:NexaSC v8.82.0
+DESCRIPTION:SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build
+  for SoundCloud (NexaSC)\, version 8.82.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/nexasc.json
+END:VEVENT
+BEGIN:VEVENT
+UID:tablehabit-1.27.13@omnisource
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Table Habit v1.27.13
+DESCRIPTION:Table Habit 1.27.13 | mhabit-unsigned\n\n# Released: v1.27.13+2
+ 02\n\n> Includes updates since the previous stable release\, v1.27.9+198.\
+ n\n## ✨ Features\n\n- Add adaptive\, collapsible side navigation with an
+  edge style on newer Apple\n  systems (#667)\n  - Preserve navigation stat
+ e\, search\, selection\, and page actions across\n    layout changes\n- Ap
+ ply app theme colors and custom palettes to the side navigation (#668)\n- 
+ Let users show or hide navigation destinations in the top toolbar when the
+ \n  Apple sidebar is collapsed (#671)\n- Adapt navigation and content safe
+  areas for iPhone Duo and compact-height\n  layouts (#674)\n- Scroll Habit
+ s and Today to the top when reselecting the active root tab\n  (#675)\n  -
+  Return nested pages to the tab's root before scrolling on a subsequent ta
+ p\n  - Respect reduced motion preferences and pages that prevent back navi
+ gation\n\n## 🐛 Fixes\n\n- Improve adaptive interaction styling\, keyboa
+ rd focus\, and action-menu\n  behavior (#669)\n- Keep search filters avail
+ able across layout changes (#669)\n- Align theme labels and Markdown typog
+ raphy (#669)\n- Refresh habit and group views as soon as synced changes ar
+ e applied\, while\n  preserving sync progress and in-progress edits (#672)
+ \n- Keep neutral action colors consistent across app bars\, dialogs\, sear
+ ch\,\n  sidebars\, and group actions\, and restore modal blur after nested
+  navigation\n  (#673)\n- Keep system status and navigation bars visible wh
+ ile the app launches\n\n## 🌐 Localization\n\n- Update Hebrew translatio
+ n\, thanks to Omer I.S.'s contribution on Weblate.\n\n## 🧹 Others\n\n- 
+ Pin Apple build and submission workflows to Xcode 27.0 (#674)\n- Raise the
+  minimum supported macOS version to 12.0 (#674)\n- Centralize generated-co
+ de formatting in the Melos workflow (#674)\n\n[Full Changelog](https://git
+ hub.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)
+URL:https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.9@omnisource
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Nuvio v0.5.9
+DESCRIPTION:Nuvio 0.5.9 | nuvio-0.5.9-full-release\n\n- 1bb2b10e feat(serve
+ rs): sync libraries that mix movies and shows @tapframe  \n- 6f98691d fix(
+ servers): mark playback info requests as playback @tapframe  \n- e05178c8 
+ feat(servers): show libraries that mix movies and shows @tapframe  \n- de6
+ 9f9a9 fix(servers): open libraries that need a genre on their first one @t
+ apframe  \n- c2ed4c5e fix(servers): skip versions that cannot play @tapfra
+ me  \n- 5a24beb0 fix(servers): search each server once per type @tapframe 
+  \n- [i18n(vi): update strings.xml and add strings_mdblist.xml + strings_s
+ ervers.xml (#2216)](https://github.com/NuvioMedia/NuvioMobile/pull/2216) @
+ blueocean2308  \n- [Fix TorBox Cloud loading for large libraries (#2215)](
+ https://github.com/NuvioMedia/NuvioMobile/pull/2215) @Laskco  \n- [Defer c
+ ustom poster URL resolution to UI layer (#2207)](https://github.com/NuvioM
+ edia/NuvioMobile/pull/2207) @skoruppa  \n- [fix(i18n): comprehensive updat
+ e to Bengali localization (missing strings & UI fit) (#2204)](https://gith
+ ub.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:telegram-mxgram-13.0@omnisource
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Telegram MxGram v13.0
+DESCRIPTION:Telegram 13.0 | Telegram-13.0-iQTele\n\nIPA Vault build for Tel
+ egram (iQTele)\, version 13.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:sameboy-1.0.4@omnisource
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:SameBoy v1.0.4
+DESCRIPTION:SameBoy 1.0.4 | sameboy_ios_v1.0.4\n\nThis version is backwards
+  compatible with save states from SameBoy 0.14.3 and newer\, as well as sa
+ ve states from any BESS compliant emulator\n\n## New/Improved Features\n* 
+ The libretro core now supports API extensions to retrieve additional metad
+ ata and create more portable battery save files\n* The iOS frontend has be
+ en updated with improved iOS 27 support\n* iPhone Duo support was added to
+  the iOS frontend\n* The CRT scaling filter has been updated with an impro
+ ved look\n* A new Pixelated/Sharp Bilinear scaling filter\n    * This new 
+ filter is now the default filter in the Cocoa and SDL frontends\n* VFS sup
+ port was added to the libretro core\n* Logging support was added to the li
+ bretro core\n* The libretro core will now render audio directly in the fro
+ ntend's audio sample rate\, if supported\n* Recording audio to a VGM log f
+ ile is now possible in the Cocoa and SDL frontends\n* Minor UI improvement
+ s in the Cocoa frontend\n\n## Accuracy Improvements/Fixes\n* Workboy emula
+ tion now correctly reports the current weekday\n* Fixed a bug that made ce
+ rtain small ROM files be incorrectly detected as MMM01 cartridges\n* More 
+ accurate emulation of SGB command processing\n\n## Bug Fixes\n* Fixed a bu
+ g where periodic battery saves were performed from the wrong thread in the
+  Cocoa frontend\, causing debug builds to crash\n* Fixed controller hotkey
+ s not working on newer macOS versions in the Cocoa frontend\n* Fixed a bug
+  that prevented mapping Load State commands to a controller hotkey in the 
+ Cocoa frontend\n* The libretro core no longer reports an RTC memory region
+  when emulating cartridges without an RTC\n* Fixed a bug that could trigge
+ r memory corruptions on x86-64 platforms when loading malformed save state
+ s\n* Improved sanitization of the Game Boy Printer save state data\n* Fixe
+ d an incorrectly label “Rumble strength” label in the Cocoa frontend\n
+ * File dialogs on Windows now switch Full Screen mode off before they appe
+ ar\, working around bugs in Windows' windowing syst
+URL:https://raynmahbub.github.io/OmniSource/feeds/sameboy.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nicegram-2.6.3@omnisource
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Nicegram v2.6.3
+DESCRIPTION:Nicegram 2.6.3 | build 2.6.3\n\nBuild of Nicegram for iOS 2.6.3
+  (721)
+URL:https://raynmahbub.github.io/OmniSource/feeds/nicegram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:iqface-582.0.0@omnisource
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:iQFace v582.0.0
+DESCRIPTION:Facebook 582.0.0 | Facebook-582.0.0-iQFace\n\nIPA Vault build f
+ or Facebook (iQFace)\, version 582.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/iqface.json
+END:VEVENT
+BEGIN:VEVENT
+UID:apollo-3.9.0@omnisource
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Apollo v3.9.0
+DESCRIPTION:Apollo 3.9.0 | Apollo-Reborn-3.9.0\n\n### Features\n\n- Add an 
+ **in-app update prompt**: from the next release on\, Apollo Reborn checks 
+ for updates once a day and\, when one is out\, lets you send it to AltStor
+ e\, SideStore\, Feather\, or FlareStore or download the IPA\, with the rel
+ ease notes a tap away (#1343: @IllIIllIllIllII)\n  - Tap **Later** or **Sk
+ ip this version** to put it off\, check any time with **Check for Updates*
+ * (About)\, or turn off **Automatic Update Checks** (Privacy\, on by defau
+ lt)\; jailbreak installs don't check\n  - What's New now shows the app ico
+ n you picked instead of the default one\n- Open the **subreddit switcher**
+  as a native sheet when you tap a feed's title\, with search\, your favori
+ tes\, and live results\, instead of the small floating dropdown\; typing a
+  multireddit like apple+iphone still works (#1313\, #1387: @IllIIllIllIllI
+ I)\n  - Press and hold the **Posts** tab to open it while a feed is open\,
+  now on Liquid Glass too\, and the search field stays in place as you scro
+ ll the sheet\n- Add a **Liquid Glass** switch (Interface → Appearance\, 
+ on by default) so Liquid Glass builds can use Apollo's classic look withou
+ t installing a different IPA\; quit and reopen Apollo for the change to ap
+ ply (#1384: @IllIIllIllIllII)\n  - Shown on Liquid Glass builds on iOS 26 
+ and later\, except inside LiveContainer\; while it's off\, Liquid Glass-on
+ ly options are hidden\n- Add a **Minimize** Hide Style for **Hide Bars on 
+ Scroll** (Interface → Tab Bar\, Liquid Glass) that shrinks the tab bar i
+ nto a small glass pill showing the current tab as you scroll\, like Safari
+ \; tap the pill or scroll back up to bring the full bar back (#1349\, #138
+ 4: @IllIIllIllIllII)\n  - With any Hide Style on Liquid Glass\, a tab bar 
+ or header hidden by scrolling now slides back in when you open a page or g
+ o back or forward\, and the tab bar no longer comes back on its own after 
+ 30 seconds\n- Add **Reduce Rate Limiting** (Accounts & API Keys → Experi
+ mental\, off by default) so **API-Key-Free** accounts hit Reddi
+URL:https://raynmahbub.github.io/OmniSource/feeds/apollo.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ttkillerplus-47.1.0@omnisource
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:TTKillerPlus v47.1.0
+DESCRIPTION:TikTok 47.1.0 | TikTok_47.1_TTKillerPlus_2.3\n\n• Fixes injec
+ tion for jailbreaks may not be injected due to bundle iD missing\n- Add co
+ untry flag to the profile page to know the creator origin country\n- Add f
+ ollow status to new profile style user name\n- Add v46.7+ compatibility.\n
+ - Fix like confirmation bypass on double tap.\n- Fix post date display for
+ mat.\n- Fix flag button not tappable.\n- Other fixes & improvements.\n- Up
+ date base IPA to TikTok v47.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/ttkillerplus.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.1.0@omnisource
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Mornye v5.1.0
+DESCRIPTION:SpotiFLAC 5.1.0 | SpotiFLAC-v5.1.0-ios-unsigned\n\n### New Feat
+ ures\n\n- **library**: Expand audio format and ReplayGain filters\n- **pla
+ yer**: Warn when muted and allow manual resume\n- **native**: Add cancella
+ ble data workers and streamed file hashing\n- **playback**: Automate mute 
+ and headphone playback controls\n- **player**: Show mixing status beside a
+ udio quality\n- **automix**: Add configurable duration and transition effe
+ cts\n- **lyrics**: Add staggered spring motion to visible rows\n- **build*
+ *: Require Discord in production and keep Lite opt-in\n- **settings**: Def
+ ault to built-in playback and word-synced lyrics\n- **network**: Add SMB a
+ nd WebDAV libraries with streaming and uploads\n- **statistics**: Show cov
+ er artwork and artists for top tracks\n- **mornye**: Restore liquid glass 
+ with continuous draggable navigation\n- **discord**: Add opt-in mobile ric
+ h presence with track artwork\n- **extensions**: Support personal account 
+ forms and direct downloads\n- **playback**: Add local listening statistics
+  and annual recap\n- **library**: Show recent releases from favorite artis
+ ts\n- **library**: Add batch playlist and queue actions\n- **library**: Fi
+ lter albums with missing tracks\n\n### Bug Fixes\n\n- **repo**: Retry init
+ ialization before adding a registry\n- **storage**: Preserve extension enc
+ ryption keys on read failures\n- **extensions**: Retain packages with unre
+ adable settings\n- **downloads**: Finalize album ReplayGain after history 
+ is saved\n- **downloads**: Preserve actual provider audio format\n- **lyri
+ cs**: Treat placeholder zero timestamps as unsynced\n- **library**: Retry 
+ transient SQLite locks before scan transactions\n- **riverpod**: Remove pu
+ blic notifier getters\n- **queue**: Merge startup additions before persist
+ ence and processing\n- **library**: Stage native scans before owner SQLite
+  publication\n- **cache**: Prune detached projections under source writer 
+ barrier\n- **backup**: Publish native restores through owning SQLite conne
+ ction\n- **sqlite**: Isolate native staging from l
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.8@omnisource
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Nuvio v0.5.8
+DESCRIPTION:Nuvio 0.5.8 | nuvio-0.5.8-full-release\n\n- [i18n: Add Croatian
+  (hr) translation (#2169)](https://github.com/NuvioMedia/NuvioMobile/pull/
+ 2169) @Anarchydr  \n- [feat(mdblist): sort library lists by release date (
+ #2196)](https://github.com/NuvioMedia/NuvioMobile/pull/2196) @kernexshadow
+   \n- [Reset next episode preload flag on episode transition (#2193)](http
+ s://github.com/NuvioMedia/NuvioMobile/pull/2193) @skoruppa  \n- [fix(UI): 
+ fix hero content shifting on horizontal and tablet layouts (#2190)](https:
+ //github.com/NuvioMedia/NuvioMobile/pull/2190) @ThEgIGN  \n- [feat(servers
+ ): add experimental Jellyfin and Emby support (#2081)](https://github.com/
+ NuvioMedia/NuvioMobile/pull/2081) @tapframe  \n- [fix(streams): play strea
+ ms that only have a ytId (#2115)](https://github.com/NuvioMedia/NuvioMobil
+ e/pull/2115) @deejay189393
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:inkillerplus-449.0.0@omnisource
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:iNKillerPlus v449.0.0
+DESCRIPTION:Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3\n\n• Fix
+ es a possible crash on rootless JB\n- Add alternative icon to jailbreak si
+ nce iG include the icon inside the app\n- Fixes show app icon in settings 
+ for ios 26 - 27 as was disabled in previous versions\n- Fixes show email o
+ pen in profiles or copied text to detect emails automaticlly\n- Fixes prof
+ ile bio long press to copy detect email and links\n- Fixes read DM icon\n-
+  Fixes user exception for direct message\n- Add full compatibility with IG
+  v445+\n- Updated base IPA to Instagram v449.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkle-450.1.0@omnisource
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Sparkle v450.1.0
+DESCRIPTION:Instagram 450.1.0 | Instagram-450.1.0-Sparkle\n\nIPA Vault buil
+ d for Instagram (Sparkle)\, version 450.1.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/sparkle.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ryukgram-450.1.0@omnisource
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:RyukGram v450.1.0
+DESCRIPTION:Instagram 450.1.0 | Instagram-450.1.0-RyukGram\n\nIPA Vault bui
+ ld for Instagram (RyukGram)\, version 450.1.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json
+END:VEVENT
+BEGIN:VEVENT
+UID:msgplusx-582.0.0@omnisource
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:MSGPlusX v582.0.0
+DESCRIPTION:Messenger 582.0.0 | Messenger-582.0.0-MSGPlusX\n\nIPA Vault bui
+ ld for Messenger (MSGPlusX)\, version 582.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json
+END:VEVENT
+BEGIN:VEVENT
+UID:monal-6.4.23@omnisource
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Monal v6.4.23
+DESCRIPTION:Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- 
+ We don't show the login view anymore\, if all configured accounts are disa
+ bled\n- The last message of a chat was partially hidden on iOS or macOS 27
+ \, this is fixed now\n- Sharing something using the share sheet should no 
+ longer attach a spurious garbled file alongside
+URL:https://raynmahbub.github.io/OmniSource/feeds/monal.json
+END:VEVENT
+BEGIN:VEVENT
+UID:messenger-flow-582.0.0@omnisource
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Messenger Flow v582.0.0
+DESCRIPTION:Messenger 582.0.0 | Messenger-582.0.0-Flow\n\nIPA Vault build f
+ or Messenger (Flow)\, version 582.0.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.7@omnisource
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Nuvio v0.5.7
+DESCRIPTION:Nuvio 0.5.7 | nuvio-0.5.7-full-release\n\n- c2127769 fix(p2p): 
+ correct torrent cache path and usage @tapframe  \n- [feat(player): add Exo
+ Player native memory\, VOD cache\, and buffer setting (#2178)](https://git
+ hub.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  \n- e22baece feat(de
+ tails): add letterbox zoom to hero trailer @tapframe  \n- [feat(mdblist): 
+ choose which lists appear in the library (#2171)](https://github.com/Nuvio
+ Media/NuvioMobile/pull/2171) @kernexshadow  \n- 53ac5e53 fix(player): foll
+ ow system brightness when touch gestures are off @tapframe  \n- 459add64 f
+ eat(streams): match tv refresh spin in streams and player panels @tapframe
+   \n- d3786272 feat(player): add switch player and stream info actions @ta
+ pframe  \n- 909dd7dc feat(streams): spin refresh button until addons finis
+ h loading @tapframe  \n- [fix custom poster pattern URL validation and dec
+ oding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoru
+ ppa
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:mangayomi-0.9.8@omnisource
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Mangayomi v0.9.8
+DESCRIPTION:Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios\n\n## What's Changed\n* 
+ fix(tracker): improve Trakt.tv multi-season mapping\, watchlist\, and rati
+ ngs sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/10
+ 24\n* feat(tracker): Add backlog sections (Plan to read/Watchlist)\, handl
+ e AniList 429 rate limits\, and prioritize Trakt series by @lee-gangjin in
+  https://github.com/kodjodevf/mangayomi/pull/1030\n* fix(mihon): use the C
+ loudflare proxy for extension-server sources by @matsukiender-star in http
+ s://github.com/kodjodevf/mangayomi/pull/1026\n* fix(mihon): identify which
+  source of an extension a call is for by @matsukiender-star in https://git
+ hub.com/kodjodevf/mangayomi/pull/1027\n* Improve LNReader extension compat
+ ibility\n* fix: stale chapter page lists and add WebP decoding on Linux by
+  @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031\n* fix: rem
+ ember window geometry on Linux\; add missing libavif to AppImage to resolv
+ e closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032
+ \n\n## New Contributors\n* @lee-gangjin made their first contribution in h
+ ttps://github.com/kodjodevf/mangayomi/pull/1024\n* @matsukiender-star made
+  their first contribution in https://github.com/kodjodevf/mangayomi/pull/1
+ 026\n* @MenaHere made their first contribution in https://github.com/kodjo
+ devf/mangayomi/pull/1031\n\n**Full Changelog**: https://github.com/kodjode
+ vf/mangayomi/compare/v0.9.7...v0.9.8
+URL:https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json
+END:VEVENT
+BEGIN:VEVENT
+UID:conduit-4.1.9@omnisource
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Conduit v4.1.9
+DESCRIPTION:Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test s
+ uite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/condu
+ it/pull/774\n* On-device web search\, model logos\, and chat polish for Di
+ rect models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775
+ \n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https:/
+ /github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer 
+ with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/
+ pull/792\n* Fix sign-in\, Direct\, Hermes and chat bugs found in an iOS UI
+  test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\
+ n* Fix notes\, channels\, workspace and settings bugs found in an iOS UI t
+ est pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n*
+  Forget Direct and Hermes connections on sign-out\; keep channel threads l
+ ive by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Spli
+ t AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0
+  in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library
+  and Flutter-free app logic into conduit_core by @cogwheel0 in https://git
+ hub.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets in
+ to conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull
+ /796\n* Put CarPlay\, SF Symbol images and Apple models behind host ports 
+ by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move wor
+ kspace\, Hermes and composer rules into conduit_core by @cogwheel0 in http
+ s://github.com/cogwheel0/conduit/pull/798\n* Move notes audio\, web embeds
+  and tablet sidebar rules into conduit_core by @cogwheel0 in https://githu
+ b.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend\, workspace refres
+ h and settings locale\; pin startup rules by @cogwheel0 in https://github.
+ com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipp
+ ed by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix H
+ ermes Desktop Gateway setup and Android spe
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytmusic-9.40.2@omnisource
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:YTMusicUltimate v9.40.2
+DESCRIPTION:YTMusicUltimate 9.40.2 | YTMusic 2.4.1 | YTMusicUltimate_9.40.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytlite-21.40.5@omnisource
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:YouTubePlus v21.40.5
+DESCRIPTION:YouTube 21.40.5 | YouTubePlus_21.40.5_6.0b2\n\n### Latest Relea
+ se\, ENJOY!!\n\n**Cracked by** [@itzzace](https://github.com/itzzace)\n\n>
+  [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manag
+ er.\n> - 📺 Full 4KHDR support. YTUHD no longer needed.\n> - ⚠️Beta 
+ release\, some features may still glitch. \n> - 📝 [6.0b2 release notes]
+ (https://github.com/dayanch96/YTLite/releases/tag/v6.0-b2) \n> - You can g
+ et local network access prompt from YTKace to enable casting in YTLite. ju
+ st overwrite ytkace when done.\n>\n> - - -\n> #### Extra Tweaks: \n> - `Yo
+ uPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `Y
+ ouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Disli
+ kes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostY
+ T` `PleaseDontStopTheMusic` \n\n> [!WARNING]\n> -  21.34.3+ builds require
+  iOS 17+ now.
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytlite.json
+END:VEVENT
+END:VCALENDAR

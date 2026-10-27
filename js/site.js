@@ -107,7 +107,7 @@
   };
   var STATUS_LABELS = { stable: 'Stable', beta: 'Beta', manual: 'Manual', unmaintained: 'Unmaintained', deprecated: 'Deprecated' };
   var KIND_LABELS = { new: 'New app', updated: 'Updated', available: 'Live', unmaintained: 'Flagged' };
-  var VERIFICATION_LABELS = { 'VERIFIED': '✓ Verified', 'COMMUNITY VERIFIED': 'Community verified', 'UNVERIFIED': 'Unverified' };
+  var VERIFICATION_LABELS = { 'VERIFIED': 'Source listed', 'COMMUNITY VERIFIED': 'Community listed', 'UNVERIFIED': 'Source unconfirmed' };
   var categoryLabel = function (c) { return CATEGORY_LABELS[c] || (c ? c.charAt(0).toUpperCase() + c.slice(1) : 'Other'); };
   var statusLabel = function (s) { return STATUS_LABELS[s] || (s ? s.charAt(0).toUpperCase() + s.slice(1) : 'Unknown'); };
 
@@ -124,21 +124,30 @@
      feed/repository. Community = repackaged/mirrored by someone else (the
      compatibility notes disclose who). Mirrors verification.py's rule. */
   var COMMUNITY_METHODS = { 'manual-mirror': 1, 'self-built': 1 };
+  var OFFICIAL_METHODS = { 'github-release': 1, 'github-tag': 1, 'gitlab-release': 1, 'codeberg-release': 1, 'forgejo-release': 1, 'json-feed': 1, 'altstore': 1, 'feather': 1 };
   function provenanceFor(app) {
     var meta = app.omnisource || app || {};
     var verification = meta.verification || (app.verification) || {};
+    var observed = verificationFor(app);
+    var declared = observed && observed.provenance || verification.provenance;
+    if (declared === 'official' || declared === 'community' || declared === 'unknown') return declared;
     var method = String(verification.method || '').toLowerCase();
     var publisher = String(verification.publisher || '').toLowerCase();
     var upstream = String(meta.upstreamURL || app.upstreamURL || '').toLowerCase();
     if ((meta.status || app.status) === 'manual') return 'community';
     if (COMMUNITY_METHODS[method]) return 'community';
     if (/vault|mirror|community/.test(publisher)) return 'community';
-    if (method === 'github-release') {
+    if (method === 'github-release' || method === 'github-tag') {
       var p = publisher.replace(/^https?:\/\/github\.com\//, '').replace(/\/$/, '');
       var m = upstream.match(/github\.com\/([^/]+\/[^/]+?)(?:\.git)?\/?$/);
       if (p && m && m[1] !== p) return 'community';
     }
-    return 'official';
+    return OFFICIAL_METHODS[method] && publisher ? 'official' : 'unknown';
+  }
+  function provenanceBadge(provenance) {
+    if (provenance === 'official') return '<span class="badge verified" title="Catalog attributes the IPA to the project release channel">Official source</span>';
+    if (provenance === 'community') return '<span class="badge community" title="IPA distributed or packaged by a community source">Community source</span>';
+    return '<span class="badge unverified" title="IPA source attribution is not established">Source unknown</span>';
   }
   var discoveryFor = function (app) { return state.discovery.get(slugFor(app)) || null; };
   var minOSMajor = function (app) {
@@ -726,33 +735,49 @@
   function appCard(app) {
     var meta = app.omnisource || {};
     var slug = slugFor(app);
-    var online = healthFor(app).downloadReachable !== false;
+    var reachable = healthFor(app).downloadReachable;
+    var online = reachable === true;
     var status = meta.status || 'stable';
     var stale = Boolean(healthFor(app).stale);
     var conflict = collisionInfo(app);
     var collisionBadge = conflict
-      ? '<span class="badge warn" title="Bundle ID ' + OS.esc(app.bundleIdentifier) + ' is shared by ' + conflict.count + ' apps: ' + OS.esc(conflict.names) + '. Installing one replaces the others on device.">⚠ Shared bundle ×' + conflict.count + '</span>'
+      ? '<span class="badge warn" title="Bundle ID ' + OS.esc(app.bundleIdentifier) + ' is shared by ' + conflict.count + ' apps: ' + OS.esc(conflict.names) + '. Installs may conflict or replace each other, depending on signing.">⚠ Shared bundle ×' + conflict.count + '</span>'
       : '';
     var statusBadge = '<span class="badge ' + (status === 'stable' ? 'stable' : status) + '">' + OS.esc(statusLabel(status)) + '</span>';
     var healthBadge = online
-      ? '<span class="badge ok"><span class="dot"></span>Online</span>'
-      : '<span class="badge bad"><span class="dot"></span>Offline</span>';
+      ? '<span class="badge ok"><span class="dot"></span>Last seen reachable</span>'
+      : reachable === false
+        ? '<span class="badge bad"><span class="dot"></span>Last probe failed</span>'
+        : '<span class="badge unverified">Not checked</span>';
     var staleBadge = stale ? '<span class="badge warn">Stale</span>' : '';
     var verification = verificationFor(app);
     var provenance = provenanceFor(app);
-    var provenanceBadge = provenance === 'official'
-      ? '<span class="badge verified" title="IPA published by the project&#39;s own upstream release channel">Official build</span>'
-      : '<span class="badge community" title="Repackaged or mirrored by a community builder — see the Details tab for provenance">Community build</span>';
+    var sourceBadge = provenanceBadge(provenance);
+    var evidenceStatus = verification && verification.digestEvidence && verification.digestEvidence.status;
+    var hashDetail = evidenceStatus === 'mismatch'
+      ? 'Downloaded bytes did not match the recorded SHA-256; review before installation'
+      : evidenceStatus === 'matched'
+        ? 'Downloaded bytes matched the recorded SHA-256'
+        : evidenceStatus === 'recorded'
+          ? 'SHA-256 recorded; byte comparison not established'
+          : 'No SHA-256 recorded';
+    var integrityBadge = verification && verification.integrityFailure
+      ? '<span class="badge bad" title="' + OS.esc(verification.integrityFailure.detail || 'Verification mismatch') + '">Integrity mismatch</span>'
+      : '';
     var verificationBadge = verification
-      ? '<span class="badge ' + verificationBadgeClass(verification.status) + '" title="' + OS.esc((verification.checks && verification.checks.fileAvailable ? 'File available · ' : '') + (verification.hash_verified ? 'Checksum verified' : 'No published checksum')) + '">' + OS.esc(VERIFICATION_LABELS[verification.status] || verification.status) + '</span>'
+      ? '<span class="badge ' + verificationBadgeClass(verification.status) + '" title="' + OS.esc(hashDetail) + '">' + OS.esc(VERIFICATION_LABELS[verification.status] || verification.status) + '</span>'
       : '';
     var osMajor = minOSMajor(app);
+    var device = window.OmniDevice;
+    var profile = device ? device.profile() : {};
+    var deviceResult = device && (profile.ios || profile.device || profile.client) ? device.evaluate(meta.compatibility, profile) : null;
+    var deviceBadge = deviceResult ? '<span class="badge ' + (deviceResult.status === 'no' ? 'warn' : deviceResult.status === 'yes' ? 'ok' : 'unverified') + '" title="' + OS.esc(deviceResult.reason) + '">Device: ' + (deviceResult.status === 'yes' ? 'matches' : deviceResult.status === 'no' ? 'incompatible' : 'unknown') + '</span>' : '';
     var icon = iconSrc(app.iconURL || app.icon);
-    return '<article class="app-card os-lift os-icon-hover' + (conflict ? ' has-collision' : '') + '" data-slug="' + OS.esc(slug) + '" tabindex="0" role="button" aria-label="View ' + OS.esc(app.name) + ' details">' +
+    return '<article class="app-card os-lift os-icon-hover' + (deviceResult && deviceResult.status === 'no' ? ' device-incompatible' : '') + (conflict ? ' has-collision' : '') + '" data-slug="' + OS.esc(slug) + '" tabindex="0" role="button" aria-label="View ' + OS.esc(app.name) + ' details">' +
       '<div class="card-top">' +
         '<div class="icon-wrap">' +
           '<img class="app-icon os-icon" src="' + OS.esc(icon) + '" alt="" width="58" height="58" loading="lazy" onerror="this.onerror=null;this.src=\'' + OS.esc(OS.url('assets/OmniSource.png')) + '\'">' +
-          '<span class="health-dot' + (online ? '' : ' down') + '" title="' + (online ? 'Download online' : 'Download currently unavailable') + '"></span>' +
+          '<span class="health-dot' + (online ? '' : reachable === false ? ' down' : ' unknown') + '" title="' + (online ? 'Last probe reachable' : reachable === false ? 'Last probe failed' : 'Not checked') + '"></span>' +
         '</div>' +
         '<div class="card-identity">' +
           '<h3><a href="' + OS.esc(OS.url('apps/' + slug + '/')) + '" title="Open ' + OS.esc(app.name) + ' detail page">' + OS.esc(app.name) + '</a></h3>' +
@@ -762,7 +787,7 @@
           '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 20.5S4.5 16.1 4.5 10A4.5 4.5 0 0 1 12 7.2a4.5 4.5 0 0 1 7.5 2.8c0 6.1-7.5 10.5-7.5 10.5Z"/></svg>' +
         '</button>' +
       '</div>' +
-      '<div class="card-badges">' + statusBadge + provenanceBadge + healthBadge + verificationBadge + collisionBadge + staleBadge + '</div>' +
+      '<div class="card-badges">' + statusBadge + sourceBadge + healthBadge + verificationBadge + integrityBadge + collisionBadge + staleBadge + deviceBadge + '</div>' +
       '<p class="app-description">' + OS.esc(app.subtitle || app.localizedDescription || 'View app details and installation options.') + '</p>' +
       '<div class="card-meta">' +
         '<span class="meta-item"><b>v' + OS.esc(app.version || '—') + '</b></span>' +
@@ -798,6 +823,7 @@
     var root = document.documentElement;
     if (root.dataset.osCatalogBound) return;
     root.dataset.osCatalogBound = '1';
+    window.addEventListener('omni:device-change', function () { Home.filterAndRender(); });
 
     // New discovery tabs — category + provenance quick filters
     function syncDiscoveryTabs() {
@@ -1169,7 +1195,7 @@
     renderHero: function () {
       var total = state.apps.length;
       var totals = state.analytics ? state.analytics.totals || {} : {};
-      var healthy = state.health && state.health.totals ? state.health.totals.reachable : state.apps.filter(function (a) { return healthFor(a).downloadReachable !== false; }).length;
+      var healthy = state.health && state.health.totals ? state.health.totals.reachable : state.apps.filter(function (a) { return healthFor(a).downloadReachable === true; }).length;
       var verified = totals.verifiedApps != null ? totals.verifiedApps : state.apps.filter(function (a) { return verificationFor(a) && verificationFor(a).status === 'VERIFIED'; }).length;
       var sources = totals.sources != null ? totals.sources : new Set(state.apps.map(function (a) {
         return (a.omnisource && (a.omnisource.upstreamURL || (a.omnisource.verification && a.omnisource.verification.publisher))) || a.developerName;
@@ -1188,7 +1214,7 @@
       setStat('statApps', total, 'Apps in the catalog');
       setStat('statSources', sources, sources + ' upstream sources');
       setStat('statOnline', healthy + '/' + total, healthy + ' of ' + total + ' downloads reachable');
-      setStat('statVerified', verified + '/' + total, verified + ' of ' + total + ' apps verified');
+      setStat('statVerified', verified + '/' + total, verified + ' of ' + total + ' apps passed official-source metadata checks');
 
       var syncLabel = $('#statSyncLabel');
       if (syncLabel && lastSync) syncLabel.textContent = 'last sync ' + OS.timeAgo(lastSync);
@@ -1198,9 +1224,9 @@
         if (total === 0) {
           label.textContent = 'Source status unavailable';
         } else if (healthy === total) {
-          label.textContent = 'All ' + total + ' downloads verified online';
+          label.textContent = 'All ' + total + ' downloads last seen reachable';
         } else {
-          label.textContent = healthy + ' of ' + total + ' downloads online';
+          label.textContent = healthy + ' of ' + total + ' downloads last seen reachable';
           var pill = $('#healthPill');
           if (pill) pill.classList.add('is-error');
           var dot = $('#healthDot');
@@ -1327,7 +1353,7 @@
         { hint: 'Live ranking', value: (state.trending && state.trending.trending ? state.trending.trending.length : 0), label: 'Trending apps' },
         { hint: 'New this month', value: (state.trending && state.trending.rising ? state.trending.rising.length : 0), label: 'Rising apps' },
         { hint: 'Past 60 days', value: (state.trending && state.trending.recentlyUpdated ? state.trending.recentlyUpdated.length : 0), label: 'Recently updated' },
-        { hint: (total ? Math.round(verified / total * 100) : 0) + '% of catalog', value: verified, label: 'Verified apps' },
+        { hint: (total ? Math.round(verified / total * 100) : 0) + '% of catalog', value: verified, label: 'Official-source checks passed' },
         { hint: (summary.probes || 0) + ' probes / 30d', value: (summary.averageAvailability != null ? summary.averageAvailability + '%' : '—'), label: 'Avg. availability' },
         { hint: 'Across all upstreams', value: (summary.averageResponseTimeMs != null ? summary.averageResponseTimeMs + ' ms' : '—'), label: 'Avg. response time' },
         { hint: 'Primary + fallbacks', value: summary.mirrorCount != null ? summary.mirrorCount : '—', label: 'Download mirrors' },
@@ -1405,7 +1431,7 @@
 
       var categoryCounts = new Map();
       var statusCounts = new Map();
-      var provenanceCounts = { official: 0, community: 0 };
+      var provenanceCounts = { official: 0, community: 0, unknown: 0 };
       state.apps.forEach(function (app) {
         var cat = app.category || 'other';
         categoryCounts.set(cat, (categoryCounts.get(cat) || 0) + 1);
@@ -1419,7 +1445,8 @@
         var provenanceFilters = [
           { id: 'all', label: 'All builds', count: state.apps.length },
           { id: 'official', label: 'Official', count: provenanceCounts.official },
-          { id: 'community', label: 'Community', count: provenanceCounts.community }
+          { id: 'community', label: 'Community', count: provenanceCounts.community },
+          { id: 'unknown', label: 'Unknown', count: provenanceCounts.unknown }
         ];
         provenanceRow.innerHTML = provenanceFilters.map(function (filter) {
           return '<button type="button" class="chip' + (state.provenance === filter.id ? ' active' : '') + '" data-kind="provenance" data-id="' + OS.esc(filter.id) + '">' +
@@ -1721,16 +1748,14 @@
     var status = meta.status || 'stable';
     var chips = ['<span class="badge ' + (status === 'stable' ? 'stable' : status) + '" title="Release status"><span class="dot"></span>' + OS.esc(statusLabel(status)) + '</span>'];
     var provenance = provenanceFor(app);
-    chips.push(provenance === 'official'
-      ? '<span class="badge verified" title="This IPA is published by the project&#39;s own upstream release channel">Official build</span>'
-      : '<span class="badge community" title="This IPA is repackaged or mirrored by a community builder — provenance is listed under the Details tab">Community build</span>');
+    chips.push(provenanceBadge(provenance));
     var verification = verificationFor(app);
     if (verification) {
       chips.push('<span class="badge ' + verificationBadgeClass(verification.status) + '">' + OS.esc(VERIFICATION_LABELS[verification.status] || verification.status) + '</span>');
     }
     var conflict = collisionInfo(app);
     if (conflict) {
-      chips.push('<span class="badge warn" title="Installing this app replaces the others on device.">⚠ Same bundle ID ×' + conflict.count + '</span>');
+      chips.push('<span class="badge warn" title="Shared bundle IDs can conflict or replace one another, depending on signing.">⚠ Same bundle ID ×' + conflict.count + '</span>');
     }
     if (healthFor(app).stale && status !== 'unmaintained') chips.push('<span class="badge warn">Stale release</span>');
     return chips.join('');
@@ -1795,12 +1820,12 @@
         raw: '<button type="button" data-copy="' + OS.esc(app.bundleIdentifier || '') + '">' + OS.esc(app.bundleIdentifier || '—') + ' <svg viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>'
       },
       {
-        label: 'Checksum',
+        label: 'Recorded SHA-256',
         raw: version.sha256
           ? '<button type="button" data-copy="' + OS.esc(version.sha256) + '">' + OS.esc(version.sha256.slice(0, 16)) + '…</button>'
-          : 'Not published'
+          : 'Not recorded'
       },
-      ['Health', OS.esc((health.downloadReachable ? 'Online' : 'Unavailable') + (health.detail ? ' · ' + health.detail : ''))],
+      ['Last download check', OS.esc((health.downloadReachable === true ? 'Reachable' : health.downloadReachable === false ? 'Failed' : 'Not checked') + (health.lastCheckedAt ? ' · ' + health.lastCheckedAt : '') + (health.detail ? ' · ' + health.detail : ''))],
       ['Last release', OS.esc(OS.timeAgo(app.versionDate) + (health.updatedDaysAgo ? ' (' + health.updatedDaysAgo + 'd)' : ''))]
     ];
     var sourceNotes = compatibility.notes;
@@ -1819,10 +1844,10 @@
       return '<div class="info-cell"><span>' + OS.esc(cell[0]) + '</span><strong>' + cell[1] + '</strong></div>';
     }).join('') + '</div>' +
       '<div class="detail-section"><h3>Build provenance</h3>' +
-      '<p class="body">Published by ' + OS.esc(verification.publisher || app.developerName || 'the upstream developer') + ' · ' +
-      OS.esc(String(verification.method || 'upstream source').replace(/-/g, ' ')) + '.' +
-      (verification.checksumPublished ? ' An official checksum is published.' : ' No upstream checksum is published.') +
-      (meta.status === 'manual' ? '\n\nCommunity-built IPA of an official project that publishes no IPA itself — see compatibility notes.' : '') + '</p></div>' +
+      '<p class="body">Catalog publisher: ' + OS.esc(verification.publisher || 'not recorded') + ' · ' +
+      OS.esc(String(verification.method || 'source method unknown').replace(/-/g, ' ')) + '.' +
+      (verification.checksumPublished ? ' A publisher checksum is declared; independent verification is not established.' : ' Publisher-checksum provenance is not established.') +
+      ' A recorded checksum alone does not guarantee safety.' + '</p></div>' +
       (sourceNotes ? '<div class="detail-section"><h3>Compatibility &amp; source notes</h3><div class="detail-note">' + OS.esc(sourceNotes) + '</div></div>' : '') +
       ((entitlements || privacyEntries.length || legacyPerms.length)
         ? '<div class="detail-section"><h3>Permissions</h3><div class="perm-grid">' +
@@ -1868,8 +1893,9 @@
           '<a class="button primary download" href="' + OS.esc(OS.cleanUrl(app.downloadURL)) + '" target="_blank" rel="noopener">⬇ Download IPA · ' + OS.esc(OS.fmtBytes(app.size)) + '</a>' +
           state.clients.map(function (client) { return clientButton(client, sourceFeed); }).join('') +
         '</div>' +
+        (Number(app.size) >= 200 * 1024 * 1024 ? '<p class="text-muted">Large download; consider Wi-Fi or your data limits.</p>' : '') +
         (conflict
-          ? '<div class="collision-note"><svg viewBox="0 0 24 24"><path d="M12 3 2.8 20h18.4L12 3Zm0 6v5m0 3.2v.1"/></svg><span><b>Shared bundle ID.</b> ' + OS.esc(conflict.names) + ' also use <code>' + OS.esc(app.bundleIdentifier) + '</code> — installing one replaces the others on the same device. SideStore cannot add two of them from the master feed; add this app on its own with its single-app source instead.<br><button type="button" class="copy-feed-btn" data-copy="' + OS.esc(sourceFeed) + '" data-copy-msg="Single-app source copied — add it manually in your client">⧉ Copy single-app source link</button> <a class="copy-feed-link" href="' + OS.esc(sourceFeed) + '" target="_blank" rel="noopener">open feed ↗</a></span></div>'
+          ? '<div class="collision-note"><svg viewBox="0 0 24 24"><path d="M12 3 2.8 20h18.4L12 3Zm0 6v5m0 3.2v.1"/></svg><span><b>Shared bundle ID.</b> ' + OS.esc(conflict.names) + ' also use <code>' + OS.esc(app.bundleIdentifier) + '</code> — installations may conflict or replace one another, depending on signing. Clients may not distinguish them in the master feed; add this app on its own with its single-app source instead.<br><button type="button" class="copy-feed-btn" data-copy="' + OS.esc(sourceFeed) + '" data-copy-msg="Single-app source copied — add it manually in your client">⧉ Copy single-app source link</button> <a class="copy-feed-link" href="' + OS.esc(sourceFeed) + '" target="_blank" rel="noopener">open feed ↗</a></span></div>'
           : '') +
         '<div class="tabs" role="tablist" aria-label="App details">' +
           [['about', 'About'], ['versions', 'Versions' + (versionCount > 1 ? ' <span class="count">' + versionCount + '</span>' : '')], ['info', 'Details']].map(function (tab) {
@@ -2100,7 +2126,7 @@
           category: app.category, version: app.version, releaseDate: app.versionDate,
           source: app.omnisource ? ((app.omnisource.verification && app.omnisource.verification.publisher) || app.omnisource.upstreamURL || '') : '',
           sourceURL: app.omnisource ? (app.omnisource.sourceURL || '') : '', verificationLevel: '',
-          updateFrequencyDays: null, downloadReachable: true,
+          updateFrequencyDays: null, downloadReachable: typeof healthFor(app).downloadReachable === 'boolean' ? healthFor(app).downloadReachable : null,
           compatibility: (app.omnisource && app.omnisource.compatibility) || {}
         });
       }, this);
@@ -2174,7 +2200,7 @@
             '<p>' + OS.esc(categoryLabel(app.category)) + ' · ' + OS.esc(app.developer || '') + '</p>' +
             '<div class="chips">' +
               '<span class="badge ' + verificationBadgeClass(verification) + '">' + OS.esc(VERIFICATION_LABELS[verification] || verification) + '</span>' +
-              (app.downloadReachable ? '<span class="badge ok"><span class="dot"></span>Online</span>' : '<span class="badge bad"><span class="dot"></span>Offline</span>') +
+              (app.downloadReachable === true ? '<span class="badge ok"><span class="dot"></span>Last seen reachable</span>' : app.downloadReachable === false ? '<span class="badge bad"><span class="dot"></span>Last probe failed</span>' : '<span class="badge unverified">Not checked</span>') +
             '</div></div>' +
           (winner ? '<span class="winner-tag">Recommended</span>' : '') +
         '</header>' +
@@ -2349,7 +2375,7 @@
         kpis.innerHTML =
           kpi('Apps', t.apps, deltaFrom('apps')) +
           kpi('Sources', t.sources, deltaFrom('sources')) +
-          kpi('Verified', t.verifiedApps + '/' + t.apps, deltaFrom('verified')) +
+          kpi('Official-source checks', t.verifiedApps + '/' + t.apps, deltaFrom('verified')) +
           kpi('Updated this week', t.updatedAppsThisWeek != null ? t.updatedAppsThisWeek : 0) +
           kpi('New this week', t.newAppsThisWeek != null ? t.newAppsThisWeek : 0) +
           kpi('Dead links', t.deadLinks, t.deadLinks ? { cls: 'down', text: 'action needed', arrow: '↓' } : { cls: 'up', text: 'all clear', arrow: '✓' });
@@ -2380,7 +2406,7 @@
       var W = 720, H = 240, PAD = { l: 34, r: 14, t: 16, b: 26 };
       var series = [
         { key: 'apps', label: 'Apps', color: 'var(--accent)' },
-        { key: 'verified', label: 'Verified', color: 'var(--green)' },
+        { key: 'verified', label: 'Official-source checks', color: 'var(--green)' },
         { key: 'sources', label: 'Sources', color: 'var(--cyan)' }
       ];
       var n = history.length;
@@ -2483,9 +2509,9 @@
     renderVerificationDonut: function (node, verification) {
       if (!node || !verification) return;
       var entries = [
-        { label: 'Verified', value: verification['VERIFIED'] || 0, color: 'var(--green)' },
-        { label: 'Community verified', value: verification['COMMUNITY VERIFIED'] || 0, color: 'var(--cyan)' },
-        { label: 'Unverified', value: verification['UNVERIFIED'] || 0, color: 'var(--amber)' }
+        { label: 'Official-source checks passed', value: verification['VERIFIED'] || 0, color: 'var(--green)' },
+        { label: 'Community-source checks passed', value: verification['COMMUNITY VERIFIED'] || 0, color: 'var(--cyan)' },
+        { label: 'Source checks incomplete', value: verification['UNVERIFIED'] || 0, color: 'var(--amber)' }
       ];
       var total = entries.reduce(function (sum, e) { return sum + e.value; }, 0);
       if (!total) {

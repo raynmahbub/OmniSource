@@ -62,8 +62,9 @@ for f in feeds/*.json; do
   # pipeline state/health/timeline/badges and derived intelligence documents
   # (discovery, sources, verification, status, duplicates, analytics, trending,
   # related, reputation, download-intelligence, community, install,
-  # search-index, compare, screenshots, integrity_report, dead_apps,
-  # collections, translation-status, asset-manifest) are machine-readable datasets, not
+  # search-index, compare, screenshots, integrity_report, transparency,
+  # subscriptions, dead_apps, collections, translation-status, asset-manifest)
+  # are machine-readable datasets, not
   # AltStore v2 distribution feeds. Keep in sync with ALTSTORE_NON_FEED in
   # src/omnisource/constants.py (the standalone script keeps an explicit local
   # copy so it stays runnable without importing the package).
@@ -71,7 +72,7 @@ for f in feeds/*.json; do
   verification.json | status.json | duplicates.json | analytics.json | trending.json | \
   related.json | reputation.json | download-intelligence.json | community.json | \
   install.json | search-index.json | compare.json | screenshots.json | \
-  integrity_report.json | dead_apps.json | collections.json | \
+  integrity_report.json | transparency.json | subscriptions.json | dead_apps.json | collections.json | \
   translation-status.json | asset-manifest.json | ipa-downloader.json) continue ;;
     *) feeds+=("$f") ;;
   esac

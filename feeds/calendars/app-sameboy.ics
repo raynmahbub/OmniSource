@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:SameBoy releases
+BEGIN:VEVENT
+UID:sameboy-1.0.4@omnisource
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:SameBoy v1.0.4
+DESCRIPTION:SameBoy 1.0.4 | sameboy_ios_v1.0.4\n\nThis version is backwards
+  compatible with save states from SameBoy 0.14.3 and newer\, as well as sa
+ ve states from any BESS compliant emulator\n\n## New/Improved Features\n* 
+ The libretro core now supports API extensions to retrieve additional metad
+ ata and create more portable battery save files\n* The iOS frontend has be
+ en updated with improved iOS 27 support\n* iPhone Duo support was added to
+  the iOS frontend\n* The CRT scaling filter has been updated with an impro
+ ved look\n* A new Pixelated/Sharp Bilinear scaling filter\n    * This new 
+ filter is now the default filter in the Cocoa and SDL frontends\n* VFS sup
+ port was added to the libretro core\n* Logging support was added to the li
+ bretro core\n* The libretro core will now render audio directly in the fro
+ ntend's audio sample rate\, if supported\n* Recording audio to a VGM log f
+ ile is now possible in the Cocoa and SDL frontends\n* Minor UI improvement
+ s in the Cocoa frontend\n\n## Accuracy Improvements/Fixes\n* Workboy emula
+ tion now correctly reports the current weekday\n* Fixed a bug that made ce
+ rtain small ROM files be incorrectly detected as MMM01 cartridges\n* More 
+ accurate emulation of SGB command processing\n\n## Bug Fixes\n* Fixed a bu
+ g where periodic battery saves were performed from the wrong thread in the
+  Cocoa frontend\, causing debug builds to crash\n* Fixed controller hotkey
+ s not working on newer macOS versions in the Cocoa frontend\n* Fixed a bug
+  that prevented mapping Load State commands to a controller hotkey in the 
+ Cocoa frontend\n* The libretro core no longer reports an RTC memory region
+  when emulating cartridges without an RTC\n* Fixed a bug that could trigge
+ r memory corruptions on x86-64 platforms when loading malformed save state
+ s\n* Improved sanitization of the Game Boy Printer save state data\n* Fixe
+ d an incorrectly label “Rumble strength” label in the Cocoa frontend\n
+ * File dialogs on Windows now switch Full Screen mode off before they appe
+ ar\, working around bugs in Windows' windowing syst
+URL:https://raynmahbub.github.io/OmniSource/feeds/sameboy.json
+END:VEVENT
+END:VCALENDAR

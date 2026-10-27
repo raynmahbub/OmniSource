@@ -53,12 +53,14 @@ def write_json(path: Path, data: Any) -> bool:
 
 def atomic_write_text(path: Path, payload: str) -> bool:
     """Write one UTF-8 file through a sibling temporary file."""
-    if path.exists() and path.read_text(encoding="utf-8") == payload:
+    # Compare bytes so deterministic CRLF formats such as iCalendar are not
+    # rewritten merely because text-mode reads normalize line endings.
+    if path.exists() and path.read_bytes() == payload.encode("utf-8"):
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
     try:
-        tmp.write_text(payload, encoding="utf-8")
+        tmp.write_text(payload, encoding="utf-8", newline="")
         tmp.replace(path)
     finally:
         tmp.unlink(missing_ok=True)

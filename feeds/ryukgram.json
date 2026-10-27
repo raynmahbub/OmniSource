@@ -53,6 +53,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -88,7 +102,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "15.1",
@@ -109,9 +124,11 @@
           "notes": "Official project: faroukbmiled/RyukGram (publishes .deb/.dylib assets); this source serves the ready-to-sideload IPA build from the IPA Vault. Instagram 445.x builds require iOS 15.1 or newer. Shares com.burbn.instagram with iNKillerPlus in this catalog - install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-22",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-23"
         }
       }

@@ -99,6 +99,20 @@
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/02_chats.png",
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/04_contacts.png"
     ],
+    "minOSVersion": "16.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [],
       "privacy": {}
@@ -135,8 +149,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-13",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
         "lastUpdatedAt": "2026-10-07"
       }
     },

@@ -78,6 +78,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "qbitconnect",
         "status": "stable",
@@ -110,8 +124,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa",
           "lastUpdatedAt": "2025-11-02"
         }
       }

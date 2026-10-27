@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Nuvio releases
+BEGIN:VEVENT
+UID:nuvio-0.6.4@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Nuvio v0.6.4
+DESCRIPTION:Nuvio 0.6.4 | nuvio-0.6.4-full-release\n\n- 8683505d fix(detail
+ s): animate ratings on tablet @tapframe  \n- e6a05d1d feat(ios): support d
+ uo layout @tapframe  \n- b6287380 fix(deps): update haze to 1.7.3 @tapfram
+ e  \n- [fix(trakt): keep continue watching when a progress request fails (
+ #2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow
+   \n- [perf(streams): compile badge rules once per change (#2365)](https:/
+ /github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  \n- [perf(deb
+ rid): cache stream filter regexes and reuse stream facts (#2362)](https://
+ github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  \n- [i18n(el):
+  sync the Greek locale with 0.6.3 (player badges\, Simkl statuses\, engine
+  switch\, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/p
+ ull/2359) @nosvasedis  \n- [feat(i18n): complete pt-BR player badges and w
+ atch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull
+ /2338) @jhojhocraazy  \n- [Replace libass renderer with atlas pipeline fro
+ m Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @sko
+ ruppa  \n- [Update Hungarian translations (#2341)](https://github.com/Nuvi
+ oMedia/NuvioMobile/pull/2341) @emgeje  \n- [i18n(vi): update strings.xml a
+ nd strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pu
+ ll/2339) @blueocean2308  \n- 90ab7f95 fix(ratings): use real imdb logo and
+  grey label @tapframe  \n- d9046775 feat(home): show ratings and age ratin
+ g on hero @tapframe  \n- b9fbc09c fix(player): keep side panels clear of t
+ he navigation bar @tapframe  \n- 83e528f0 feat(player): choose a badge pac
+ k for the player @tapframe  \n- [Complete Spanish mobile translations (#23
+ 44)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierP
+ C  \n- [fix(ios): keep hardware decoding when PiP is interrupted by Notifi
+ cation Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306
+ ) @WhiteGiso  \n- [fix(android): scale ExoPlayer subtitles with the PiP wi
+ ndow size (#2314)](https://github.c
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.3@omnisource
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Nuvio v0.6.3
+DESCRIPTION:Nuvio 0.6.3 | nuvio-0.6.3-full-release\n\n- d45d4d36 fix(party)
+ : show the party's source as plain text @tapframe  \n- 37a6656a fix(player
+ ): keep center controls in place on pause @tapframe  \n- 344117e7 feat(pla
+ yer): show badges for what is playing @tapframe  \n- ebb17678 feat(party):
+  chat from your phone with the same profile @tapframe  \n- 18268427 fix(pl
+ ayer): move engine switch to top row with confirmation @tapframe  \n- [fea
+ t(i18n): add Brazilian Portuguese (pt-BR) localization for watch party\, s
+ ervers\, mdblist and autosync (#2288)](https://github.com/NuvioMedia/Nuvio
+ Mobile/pull/2288) @jhojhocraazy  \n- b8249380 fix(party): send chat messag
+ es with the return key @tapframe  \n- [Update Hungarian translations (#233
+ 3)](https://github.com/NuvioMedia/NuvioMobile/pull/2333) @emgeje  \n- [Fix
+  binge group initial state from stream args\, apply custom posters in libr
+ ary see-all (#2332)](https://github.com/NuvioMedia/NuvioMobile/pull/2332) 
+ @skoruppa  \n- [i18n(vi): update strings.xml\, translate watch party and a
+ uto sync strings into Vietnamese (#2297)](https://github.com/NuvioMedia/Nu
+ vioMobile/pull/2297) @blueocean2308
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.2@omnisource
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Nuvio v0.6.2
+DESCRIPTION:Nuvio 0.6.2 | nuvio-0.6.2-full-release\n\n- b253a7c5 feat(party
+ ): add chat to watch parties @tapframe  \n- [Fix escaped apostrophes and m
+ issing Italian translations (#2312)](https://github.com/NuvioMedia/NuvioMo
+ bile/pull/2312) @WhiteGiso  \n- [fix(ios): keep Watch Party in sync and ap
+ ply party rules during PiP (#2308)](https://github.com/NuvioMedia/NuvioMob
+ ile/pull/2308) @WhiteGiso  \n- [i18n(el): finish the Greek locale (party\,
+  media servers\, MDBList\, Auto Sync\, season count) (#2292)](https://gith
+ ub.com/NuvioMedia/NuvioMobile/pull/2292) @nosvasedis  \n- [Filename and in
+ foHash matching for binge group\, prefetch fixes (#2278)](https://github.c
+ om/NuvioMedia/NuvioMobile/pull/2278) @skoruppa
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.1@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Nuvio v0.6.1
+DESCRIPTION:Nuvio 0.6.1 | nuvio-0.6.1-full-release\n\n- f352f2b2 fix(party)
+ : let only the host change what's playing @tapframe
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.6.0@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Nuvio v0.6.0
+DESCRIPTION:Nuvio 0.6.0 | nuvio-0.6.0-full-release\n\n- [feat(party): add e
+ xperimental watch parties (#2253)](https://github.com/NuvioMedia/NuvioMobi
+ le/pull/2253) @tapframe  \n- b9d2c39d fix(player): pause other apps audio 
+ on android @tapframe  \n- [feat(mdblist): show dynamic and liked lists in 
+ the library (#2268)](https://github.com/NuvioMedia/NuvioMobile/pull/2268) 
+ @kernexshadow  \n- [i18n(el): translate new 0.5.10 strings (#2263)](https:
+ //github.com/NuvioMedia/NuvioMobile/pull/2263) @nosvasedis  \n- [Complete 
+ missing Italian translations (#2260)](https://github.com/NuvioMedia/NuvioM
+ obile/pull/2260) @WhiteGiso  \n- [fix(ios): improve PiP transitions and re
+ cover playback after closing PiP (#2259)](https://github.com/NuvioMedia/Nu
+ vioMobile/pull/2259) @WhiteGiso  \n- [fix(ios): restore Now Playing by lim
+ iting audio mixing to calls (#2246)](https://github.com/NuvioMedia/NuvioMo
+ bile/pull/2246) @WhiteGiso  \n- [fix(i18n): update\, complete and review B
+ razilian Portuguese (pt-BR) localization (#2234)](https://github.com/Nuvio
+ Media/NuvioMobile/pull/2234) @jhojhocraazy  \n- [feat(mdblist): show exter
+ nal lists in the library (#2172)](https://github.com/NuvioMedia/NuvioMobil
+ e/pull/2172) @kernexshadow
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.10@omnisource
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Nuvio v0.5.10
+DESCRIPTION:Nuvio 0.5.10 | nuvio-0.5.10-full-release\n\n- [feat(ios): add n
+ ative PiP with existing MPV VideoToolbox frames (#2248)](https://github.co
+ m/NuvioMedia/NuvioMobile/pull/2248) @WhiteGiso  \n- [Fix dismissed shows s
+ taying hidden after marking episodes watched (#2244)](https://github.com/N
+ uvioMedia/NuvioMobile/pull/2244) @Laskco  \n- [Add non-AI Subtitle AutoSyn
+ c for mobile add-on subtitles (#2143)](https://github.com/NuvioMedia/Nuvio
+ Mobile/pull/2143) @DavidVamaiotu  \n- [fix(i18n): localize generic Episode
+  N titles like TV (#2241)](https://github.com/NuvioMedia/NuvioMobile/pull/
+ 2241) @blueocean2308  \n- [ fix next episode card timing and prefetch with
+  heuristic post-credits (#2238)](https://github.com/NuvioMedia/NuvioMobile
+ /pull/2238) @skoruppa  \n- [Optimize custom poster URL resolving performan
+ ce (#2239)](https://github.com/NuvioMedia/NuvioMobile/pull/2239) @halibira
+ m  \n- [fix: In Poster Card Style settings screen one toggle get bigger th
+ en other and pushed out of the screen safe area. (#2219)](https://github.c
+ om/NuvioMedia/NuvioMobile/pull/2219) @AdityasahuX07
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.9@omnisource
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Nuvio v0.5.9
+DESCRIPTION:Nuvio 0.5.9 | nuvio-0.5.9-full-release\n\n- 1bb2b10e feat(serve
+ rs): sync libraries that mix movies and shows @tapframe  \n- 6f98691d fix(
+ servers): mark playback info requests as playback @tapframe  \n- e05178c8 
+ feat(servers): show libraries that mix movies and shows @tapframe  \n- de6
+ 9f9a9 fix(servers): open libraries that need a genre on their first one @t
+ apframe  \n- c2ed4c5e fix(servers): skip versions that cannot play @tapfra
+ me  \n- 5a24beb0 fix(servers): search each server once per type @tapframe 
+  \n- [i18n(vi): update strings.xml and add strings_mdblist.xml + strings_s
+ ervers.xml (#2216)](https://github.com/NuvioMedia/NuvioMobile/pull/2216) @
+ blueocean2308  \n- [Fix TorBox Cloud loading for large libraries (#2215)](
+ https://github.com/NuvioMedia/NuvioMobile/pull/2215) @Laskco  \n- [Defer c
+ ustom poster URL resolution to UI layer (#2207)](https://github.com/NuvioM
+ edia/NuvioMobile/pull/2207) @skoruppa  \n- [fix(i18n): comprehensive updat
+ e to Bengali localization (missing strings & UI fit) (#2204)](https://gith
+ ub.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.8@omnisource
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Nuvio v0.5.8
+DESCRIPTION:Nuvio 0.5.8 | nuvio-0.5.8-full-release\n\n- [i18n: Add Croatian
+  (hr) translation (#2169)](https://github.com/NuvioMedia/NuvioMobile/pull/
+ 2169) @Anarchydr  \n- [feat(mdblist): sort library lists by release date (
+ #2196)](https://github.com/NuvioMedia/NuvioMobile/pull/2196) @kernexshadow
+   \n- [Reset next episode preload flag on episode transition (#2193)](http
+ s://github.com/NuvioMedia/NuvioMobile/pull/2193) @skoruppa  \n- [fix(UI): 
+ fix hero content shifting on horizontal and tablet layouts (#2190)](https:
+ //github.com/NuvioMedia/NuvioMobile/pull/2190) @ThEgIGN  \n- [feat(servers
+ ): add experimental Jellyfin and Emby support (#2081)](https://github.com/
+ NuvioMedia/NuvioMobile/pull/2081) @tapframe  \n- [fix(streams): play strea
+ ms that only have a ytId (#2115)](https://github.com/NuvioMedia/NuvioMobil
+ e/pull/2115) @deejay189393
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+BEGIN:VEVENT
+UID:nuvio-0.5.7@omnisource
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Nuvio v0.5.7
+DESCRIPTION:Nuvio 0.5.7 | nuvio-0.5.7-full-release\n\n- c2127769 fix(p2p): 
+ correct torrent cache path and usage @tapframe  \n- [feat(player): add Exo
+ Player native memory\, VOD cache\, and buffer setting (#2178)](https://git
+ hub.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  \n- e22baece feat(de
+ tails): add letterbox zoom to hero trailer @tapframe  \n- [feat(mdblist): 
+ choose which lists appear in the library (#2171)](https://github.com/Nuvio
+ Media/NuvioMobile/pull/2171) @kernexshadow  \n- 53ac5e53 fix(player): foll
+ ow system brightness when touch gestures are off @tapframe  \n- 459add64 f
+ eat(streams): match tv refresh spin in streams and player panels @tapframe
+   \n- d3786272 feat(player): add switch player and stream info actions @ta
+ pframe  \n- 909dd7dc feat(streams): spin refresh button until addons finis
+ h loading @tapframe  \n- [fix custom poster pattern URL validation and dec
+ oding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoru
+ ppa
+URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
+END:VEVENT
+END:VCALENDAR

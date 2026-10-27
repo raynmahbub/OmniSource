@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-music.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mornye v5.2.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.2.6</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned
+
+### New Features
+
+- **library**: Sort songs and albums by file size
+- **desktop**: Add fullscreen and borderless window modes
+- **library**: List the files a scan could not read
+- **downloads**: Add custom folder path templates
+- **network**: Add Subsonic and OpenSubsonic support
+- **windows**: Prepare native ARM64 builds and packages
+- **player**: Color the current track row from its artwork
+- **desktop**: Open the mini player on Windows and Linux
+
+### Bug Fixes
+
+- **desktop**: List full screen and borderless shortcuts
+- **automix**: Verify beat alignment and hold phase through the mix
+- **home**: Keep explore artwork square
+- **flutter**: Backport semantics geometry crash fix
+- **tags**: Support ID3-prefixed FLAC metadata writes
+- **library**: Keep playlists accessible without local songs
+- **conversion**: Preserve quoted paths in lossy exports
+- **library**: Index songs whose tags fail to parse
+- **playback**: Allow MP3 playback with malformed ID3 tags
+- **automix**: Start the next song on the outgoing beat
+- **desktop**: Keep artist album selection and scroll position
+- **android**: Refresh media controls when track metadata changes
+- **windows**: Use the MSVC coroutine deprecation macro's real name
+- **windows**: Install the libmpv license and build on MSVC 14.5x
+- **library**: Keep liked local tracks visible during cover fades
+- **windows**: Support UNC library paths and network downloads
+- **desktop**: Restore private file access after cache removal
+- **notifications**: Handle Linux launch callbacks and contain queue alerts
+- **repo**: Move the store button under the text on narrow rows
+- **library**: Simplify duplicate review rows and expose load errors
+- **settings**: Keep final controls clear of floating playback bars
+- **home**: Collapse the empty prompt after installing an extension
+- **library**: Emphasize Play in collection header actions
+- **library**: Read tagless audio without losing document names
+- **desktop**: Wrap search and store category filters
+- **desktop**: Add scroll arrows to artist and recent shelves
+- **settings**: Restore 5.2.1 card contrast
+- **network**: Flush and verify SMB uploads before publishing
+- **android**: Resolve SAF audio paths when saving lyrics
+- **desktop**: Handle missing initial download folders
+
+### Refactoring
+
+- **onboarding**: Remove the rebrand introduction tour
+
+### Testing
+
+- **library**: Expect the sort sheet to scroll at its cap
+- **player**: Cover mini player metadata refresh and session restore
+
+### Chores
+
+- Update AltStore source to v5.2.5 by [@github-actions[bot]](https://github.com/github-actions[bot])
+- Bump version to 5.2.6 (165)
+- **license**: Adopt LGPL-3.0-only for Mornye
+
+
+
+
+**Full Changelog**: [v5.2.5...v5.2.6](https://github.com/mornyeapp/Mornye/compare/v5.2.5...v5.2.6)
+
+---
+
+### Downloads
+
+#### Android
+- **arm64**: `Mornye-v5.2.6-arm64.apk` (recommended for modern devices)
+- **arm32**: `Mornye-v5.2.6-arm32.apk` (older devices)
+- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them
+
+#### iOS
+- **iOS**: `Mornye-v5.2.6-ios-unsigned.ipa` (sideload required)
+
+`SHA256SUMS.txt` lists the SHA-256 of every file above.
+
+### Installation
+**Android**: Enable "Install from unknown sources" and install the APK
+**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>YTMusicUltimate v9.42.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json</link>
+      <guid isPermaLink="false">ytmusic-9.42.2</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[YTMusicUltimate 9.42.2 | YTMusic 2.4.1 | YTMusicUltimate_9.42.2_2.4.1
+
+> [!NOTE]
+> ### Extra tweaks:
+> - Return YouTubeMusic Dislikes
+> - YTMABConfig
+> - VolumeBoostYT
+- - -
+- YouMusicPiP is only available in custom build
+- iOS14+ build is available in releases page]]></description>
+      <enclosure url="https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mornye v5.2.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.2.1</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mornye 5.2.1 | Mornye-v5.2.1-ios-unsigned
+
+### New Features
+
+- **onboarding**: Replace the 5.2 tour with a rebrand tour
+- **branding**: Use Mornye Ink for the iOS launch screen
+- **branding**: Adopt the Mornye logo across the app
+- **branding**: Rename app and native backend to Mornye
+- **player**: Swipe up on the mini player to open Now Playing
+- **playback**: Add normalization pre-amp and track or album gain
+- **ui**: Align Material screens with M3 Expressive guidance
+
+### Bug Fixes
+
+- **crash**: Reduce repeated notices and retain diagnostics
+- **player**: Prefer embedded art for local files over online covers
+- **startup**: Wait for the Activity before backend startup calls
+- **library**: Use path index for network scan cache lookups
+- **ui**: Align Material screens with the design guide
+- **concerts**: Give the Material concert page a Material layout
+- **player**: Refresh late duration updates without reopening
+- **home**: Match On repeat tracks to their Library entry
+- **home**: Show listening sections on the Mornye Home without a feed
+- **lyrics**: Ease synced line changes with a spring scroll
+- **haptics**: Render music pulses on basic motors and add tuning sliders
+- **downloads**: Embed enriched artwork across audio formats
+- **artwork**: Read padded ID3 covers and repair cached previews
+- **crash**: Exclude system memory kills from crash notices
+- **backup**: Reconcile restored iOS paths before publishing history
+- **library**: Release network scan memory and cancel active metadata reads
+- **android**: Apply renderer compatibility before shared engine creation
+
+### Performance
+
+- **ui**: Improve Material and Mornye player and library smoothness
+- **library**: Cache unchanged SMB and WebDAV scan metadata
+
+### Documentation
+
+- **readme**: Remove Related Projects section
+- **readme**: Drop heading anchors from feature cards
+
+### Chores
+
+- Update AltStore source to v5.2.0 by [@github-actions[bot]](https://github.com/github-actions[bot])
+- **branding**: Drop remaining SpotiFLAC references
+- **release**: Bump app to 5.2.1 build 163
+
+
+
+
+**Full Changelog**: [v5.2.0...v5.2.1](https://github.com/mornyeapp/Mornye/compare/v5.2.0...v5.2.1)
+
+---
+
+### Downloads
+
+#### Android
+- **arm64**: `Mornye-v5.2.1-arm64.apk` (recommended for modern devices)
+- **arm32**: `Mornye-v5.2.1-arm32.apk` (older devices)
+- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them
+
+#### iOS
+- **iOS**: `Mornye-v5.2.1-ios-unsigned.ipa` (sideload required)
+
+### Installation
+**Android**: Enable "Install from unknown sources" and install the APK
+**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.1/Mornye-v5.2.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mornye v5.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.2.0</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mornye 5.2.0 | SpotiFLAC-v5.2.0-ios-unsigned
+
+### New Features
+
+- **crash**: Show persistent crash reports on Home
+- **about**: Link the lyrics website and service status
+- **player**: Search lyrics online for files without them
+- **lyrics**: Add lrc.red and BetterLyrics, split SpotiFLAC-Mobile Lyrics
+- **home**: Greet in the header and gather listening shortcuts
+- **onboarding**: Introduce the 5.2 release tour
+- **library**: Add adaptive icons to collection tabs
+- **home**: Localize greetings and address profile names
+- **home**: Expose extension country settings and isolate regional caches
+- **lyrics**: Refresh quote sharing and load lyrics on demand
+- **android**: Refresh launcher widgets with adaptive expressive layouts
+- **player**: Add configurable full-screen cover art
+- **player**: Synchronize music haptics with local playback
+- **lyrics**: Share lyric cards and refine timed vocal transitions
+- **player**: Show audio source processing and output details
+- **equalizer**: Add multiband EQ and per-player native audio processing
+- **autoplay**: Enable personalization by default and confirm learning resets
+- **a11y**: Label controls and improve settings contrast and targets
+- **i18n**: Add player feature text and clarify built-in playback
+- **loading**: Align skeletons with collection and extension layouts
+- **player**: Share volume controls across Material and Mornye
+- **rewind**: Add yearly highlights and seasonal library banners
+- **forms**: Adopt expressive inputs with consistent form state
+- **ui**: Add themed menus and adaptive checkbox rows
+- **ui**: Unify content cards and preserve press behavior
+- **layout**: Adapt tablet navigation and center wide content
+- **listening**: Show a skeleton while statistics load
+- **listening**: Add Rewind highlights and refresh statistics
+- **player**: Refine mini-player and queue feedback
+- **library**: Add sectioned browsing and adaptive fast scrolling
+- **material**: Unify progress and surface transitions
+- **material**: Animate header action groups and collapse
+- **settings**: Connect custom Material settings rows
+- **settings**: Connect standard Material settings rows
+- **ui**: Add Material Expressive spring motion
+- **lyrics**: Add SpotiFLAC fallback for Apple Music outages
+- **ui**: Extend Material Expressive surfaces and playback controls
+- **theme**: Show a check on selected expressive switches
+- **theme**: Adopt Material Symbols and expressive components
+- **metadata**: Add per-field download tag separators
+
+### Bug Fixes
+
+- **crash**: Match the Home crash card to the error card style
+- **library**: Recover interrupted scans and stale notifications
+- **downloads**: Offer folder recovery for permission failures
+- **equalizer**: Keep headroom and limiter choices when applying a preset
+- **lyrics**: Restore QQ Music search after the desktop CGI broke
+- **player**: Restore the lighter full-screen cover scrim
+- **storage**: Retain legacy Android cipher migration support
+- **library**: Recover missing local album artwork from audio
+- **library**: Restore bit depth as the default quality badge
+- **haptics**: Analyze document audio across skips and AutoMix
+- **player**: Report Android output failures without skipping tracks
+- **network**: Request Android 17 local network access before NAS connections
+- **theme**: Retain dominant cover colors in player backgrounds
+- **automix**: Align effect handoffs and render sufficient source audio
+- **downloads**: Recover native queues when their service dies
+- **verification**: Bound browser handoffs and release expired dialogs
+- **player**: Size volume slider handle proportionally
+- **settings**: Use shared sheet for log level selection
+- **headers**: Fit artwork and unify toolbar controls
+- **metadata**: Align separator picker with Settings components
+- **settings**: Unify adaptive sheet layout and drag behavior
+- **player**: Expose favorites and shuffle in Material notifications
+- **audio**: Preserve FLAC precision in Android bit-perfect playback
+- **extensions**: Use adaptive icons for installed extension avatars
+- **library**: Align filter and sort sheet sizing and dismissal
+- **player**: Prevent overlapping titles during rapid skips
+- **storage**: Preserve audio MIME when publishing SAF downloads
+- **lyrics**: Refresh LRC sidecars in their actual SAF folder
+- **download**: Probe M4A streams before preserving requested FLAC
+- **automix**: Wait for advancing audio before starting fades
+
+### Performance
+
+- **lyrics**: Compile credit regexes once
+- **library**: Build DateFormat and RegExp once instead of per row
+- **history**: Suppress unchanged membership notifications
+- **history**: Reuse unchanged download lookup indexes
+- **releases**: Narrow weekly release provider dependencies
+- **lyrics**: Cache timed lyric segment geometry
+- **player**: Cache adjacent track titles during swipes
+
+### Refactoring
+
+- **android**: Share the SAF scan percent and CUE helpers
+- **android**: Move SAF batch exists and modtime queries out of MainActivitySafScan.kt
+- **android**: Move SAF tree listing and executors out of MainActivitySafScan.kt
+- **android**: Move SAF CUE helpers out of MainActivitySafScan.kt
+- **android**: Move SAF scan checkpointing out of MainActivitySafScan.kt
+- **android**: Move SAF file inspection out of MainActivitySafScan.kt
+- **android**: Put the SAF IO helpers on Context receivers
+- **android**: Share the foreground wake lock and start helper between the two services
+- **providers**: Share one Coalescer for single-flight request coalescing
+- **android**: Move the lifecycle backend calls into MainActivityLifecycleCalls.kt
+- **android**: Move the download service and worker backend calls into MainActivityServiceCalls.kt
+- **android**: Move the library scan backend calls into MainActivityLibraryScanCalls.kt
+- **android**: Move the metadata and tag backend calls into MainActivityMetadataCalls.kt
+- **android**: Move the SAF backend calls into MainActivitySafCalls.kt
+- **android**: Move install state, extension intents, SAF leases and small channels out of MainActivity.kt
+- **library**: Split local_library_provider.dart into source, scan and cover parts
+- **library**: Share the scan completion tail as _finishScan
+- **library**: Remove the unreachable snapshot sub-branch of the incremental scan
+- **convert**: Route single-track conversion through the shared pipeline
+- **queue**: Move the completion bridge into CompletionBridgeTracker
+- **queue**: Move library paging state into QueueLibraryPager
+- **bridge**: Share one generic cache entry and put/prune helper
+- **collections**: Move playlist cover file I/O into PlaylistCoverStore
+- **cache**: Move directory scanning and clearing into CacheMaintenanceService
+- **analysis**: Move the FFmpeg runner out of the widget
+- **analysis**: Move the analysis disk cache into audio_analysis_cache.dart
+- **analysis**: Move the pure FFmpeg builders and parsers to a service
+- **setup**: Move SharedPreferences access behind SetupProgressStore and SafMigrationPromptStore
+- **providers**: Move UI-declared providers to lib/providers
+- **rust**: Rename mod.rs modules to the foo.rs + foo/ layout
+- **concerts**: Move the calendar channel into a service
+- **repo**: Prepare install paths in the repo notifier
+- **share**: Share the widget capture helper
+- **extensions**: Share the extension health color and icon helpers
+- **playlists**: Share the playlist name prompt and dispose its controller
+- **artist**: Move the discography download into a part
+- **home**: Use downloadSingleTrack for search results
+- **storage**: Share the SAF download tree pick
+- **layout**: Share responsiveScale and effectiveTextScale
+- **layering**: Move logic files out of screens
+- **layering**: Move model files to models and fix inverted imports
+- **layering**: Move UI action helpers from services and utils to controllers
+- **core**: Add fs::write_atomic and use it for the atomic file writes
+- **rust**: Consolidate small duplicate helpers
+- **core**: Move the lenient Go-style JSON decoder to core::json
+- **me…]]></description>
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.2.0/SpotiFLAC-v5.2.0-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Jellify v1.3.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/jellify.json</link>
+      <guid isPermaLink="false">jellify-1.3.0</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Jellify 1.3.0 | Jellify-1.3.0
+
+Welcome to Jellify 1.3.0
+
+Hey music lovers! We've packed this update with some really sweet fixes and major stability improvements to make sure your playlist keeps going strong wherever you are. Grab your headphones and get ready to stream!
+
+*   **Improved Car Experience:** We've made some great updates for Android Auto users, giving you server-backed browsing and a much smoother experience when resuming playback in your car.
+*   **Flawless Playback:** We tackled some lingering glitches, including better buffering and fixes to the main player screen. Now your music should stream more reliably, even when switching between tracks or listening on the go.
+*   **Enhanced Stability on All Platforms:** This update includes better organization for music albums and fixes a small issue on iOS where the player dismiss gesture wasn't working correctly.]]></description>
+      <enclosure url="https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>ByeTunes v2.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/byetunes.json</link>
+      <guid isPermaLink="false">byetunes-2.6</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix
+
+# ByeTunes v2.6 – Favorites, Playlist Pinning & Background Downloads Reworked
+
+Hi guys, here is the 2.6 update for ByeTunes. A good amount of things got added, fixed and improved in this one. You can now properly favorite injected songs, pin playlists from inside ByeTunes, and keep downloads going in the background with a new Picture in Picture window. There were also a bunch of fixes around metadata, library management and database safety.
+
+**Favorites**
+
+There are three new options inside Library Repair:
+
+- **Create Favorites Playlist** creates the Favorites playlist using the right name for your device region.
+- **Fix Missing Favorites** repairs songs injected with an older version that you already favorited but that never actually appeared in Favorites.
+- **Delete Favorites Playlist** lets you delete that playlist from Library Repair.
+
+Songs injected from 2.6 onwards now get their store IDs during injection, so you can favorite them right away. If the metadata fetcher finds a match, ByeTunes uses the IDs from that match. Songs without a match get generated IDs instead.
+
+**Quick recommendation:** if you have older injected songs that you favorited but cannot find in Favorites, run **Fix Missing Favorites** inside Library Repair.
+
+**Playlist Pinning**
+
+You can now pin and unpin playlists from the On-Device Library. Long-press a playlist or use the Pin button from inside it.
+
+**Keep in mind: pinning and unpinning these playlists needs to be done through ByeTunes. The Pin option inside the Apple Music app does not work for them.**
+
+**Background Downloads**
+
+Background downloads got a big rework. ByeTunes now uses silent audio to keep downloads going in the background, with an optional Picture in Picture window so you can see what is happening after leaving the app.
+
+The window shows the current song's progress, what is next in the queue, and when metadata is being fetched. You can also customize it with themes, your own colors or a background picture. There is a live preview in Settings so you can see how it looks before using it.
+
+This replaces the old background download behavior and Live Activity support. Download progress now shows in the Picture in Picture window.
+
+If the app closes while songs are still downloading, those songs go back to the front of the queue the next time you open ByeTunes.
+
+Pause and Cancel were fixed too. They now properly stop background transfers instead of accidentally starting a fallback download after you already paused or cancelled the song.
+
+**Download Queue & Saving Files**
+
+Downloaded songs now get their metadata as part of the download process. You will see a "fetching metadata" state before the song is marked as done, instead of that work being left to a separate background metadata manager.
+
+A few other things got added or improved:
+
+- **Clear All** for completed items in the queue sheet.
+- Preview buttons in the album sheet and artist profile.
+- Icons instead of text in the download queue indicator.
+- Downloads are now limited to **2 at a time for MP3 and 1 for FLAC**, matching what the server supports. (This is temporal until I can pay for a better provider)
+- A **server status banner** appears when the server goes into maintenance. Downloads are blocked while the server is down.
+- A new **Save With Fetched Metadata** toggle that writes the fetched tags and cover artwork into the MP3 and FLAC copies you save.
+
+**Metadata Fixes**
+
+Metadata matching got a lot of attention in this update. There were cases where a remix could get the original song's information, or a song could get renamed to a different track from the same album. Those issues should now be fixed.
+
+- Downloaded songs now look up the exact Deezer track and album. An Apple Music match is only accepted if it belongs to the same album.
+- Apple Music track matching now checks the title, so songs should no longer get relabeled as another track from that album.
+- Apple Music search pages are requested in English so ByeTunes can find the Songs and Albums sections even when using a non-English storefront.
+- A Deezer result with missing artwork or an unreadable item no longer causes the entire search to come back empty.
+- The broken song.link mapping was replaced with Deezer matching, and download failures now show more accurate messages.
+
+FLAC handling was improved too. Some changes in the downloaded files were causing every song to take the album name as its title when an `ALBUMTITLE` tag was present. That is fixed now.
+
+Album artist is also read correctly from files using the `ALBUM ARTIST` or `album_artist` tags.
+
+**Library Management**
+
+Added sorting, a genre filter and multi-delete to the Library management tab.
+
+Fixed an issue where the library would only show some of your songs, for example just 50 tracks. ByeTunes was only scanning one folder. It now scans all folders so the rest of your songs show up too.
+
+Injected songs now use the file's creation date for a more accurate date.
+
+Deleting songs also cleans up any albums, artists and artwork entries left empty after the deletion.
+
+**Stability, Backups & Database Safety**
+
+There were also several fixes to make injection, transfers and backups more reliable:
+
+- One unreadable local file no longer stops the whole injection batch.
+- The export folder is checked before transferring files. If it cannot be used, ByeTunes falls back to its own Exports folder.
+- Snapshot backups keep the previous snapshot until the new one finishes successfully, and only replace snapshots of the same kind.
+- The heartbeat timeout handles stale connection attempts more reliably.
+- Matched songs now save their real catalog ID in `match_redownload_params` instead of placeholder text.
+
+Overall stability and database safety were improved too.
+
+**Cleanup**
+
+The old background metadata manager and its pending import pipeline were removed, since downloaded songs now get their metadata directly during the download process.
+
+The Live Activity extension and download tracking were also removed as part of the move to Picture in Picture, along with the old background download behavior and unused code.
+
+**Official Backend & Building Your Own**
+
+I also added [BACKEND_TERMS.md](https://github.com/EduAlexxis/ByeTunes/blob/main/BACKEND_TERMS.md), which explains how the official hosted backend may be used. **Modified builds need to use their own backend.**
+
+If you are building ByeTunes yourself, `Config.example.plist` is now included as a template for the backend address. The README explains how to set it up.
+
+I also reorganized the project structure. Files are now grouped into proper folders so everything is easier to find and work on. This should help anyone working on their own fork of ByeTunes understand where things are and make changes more easily. I am also considering a bigger rewrite of the app down the road, so this cleanup is a step towards that, but nothing is confirmed yet.
+
+Thanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.]]></description>
+      <enclosure url="https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>YTMusicUltimate v9.41.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json</link>
+      <guid isPermaLink="false">ytmusic-9.41.2</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[YTMusicUltimate 9.41.2 | YTMusic 2.4.1 | YTMusicUltimate_9.41.2_2.4.1
+
+> [!NOTE]
+> ### Extra tweaks:
+> - Return YouTubeMusic Dislikes
+> - YTMABConfig
+> - VolumeBoostYT
+- - -
+- YouMusicPiP is only available in custom build
+- iOS14+ build is available in releases page]]></description>
+      <enclosure url="https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa37/YTMusicUltimate_9.41.2_2.4.1.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mornye v5.1.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.1.1</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SpotiFLAC 5.1.1 | SpotiFLAC-v5.1.1-ios-unsigned
+
+### New Features
+
+- **network**: Delete SMB and WebDAV tracks from the library
+- **autoplay**: Add opt-in on-device recommendation learning
+- **network**: Enable audio and hi-res analysis for network tracks
+- **mornye**: Animate squircle menus from their trigger
+- **lyrics**: Customize text size and animate active lines
+- **appearance**: Support imported TTF and OTF fonts
+- **lyrics**: Use Apple Music as the default lyrics provider
+- **appearance**: Make Mornye glass outlines optional
+
+### Bug Fixes
+
+- **mornye**: Strengthen held navigation glass refraction
+- **notifications**: Show indeterminate scans without false zero percent
+- **library**: Retire deleted downloads and stale completion cards
+- **mornye**: Unify held navigation glass contour
+- **mornye**: Hide custom font setting icon
+- **ios**: Preserve folder grants and surface picker failures
+- **mornye**: Animate queue removal icon with swipe progress
+- **l10n**: Use Indonesian wording for the built-in player
+- **ci**: Locate Discord license notices inside the iOS plugin framework
+- **webdav**: Retain tracks across equivalent parent URI encodings
+- **library**: Collapse selection actions before dismissing
+- **mornye**: Honor forced glass with increased system contrast
+- **automix**: Ease effects into playback without cutting dry audio
+- **library**: Exclude inactive NAS entries and file aliases from duplicates
+- **library**: Allow choosing duplicate copies and clear stale indexes
+- **playlists**: Preserve repeated tracks during imports
+- **playback**: Reload audio sources when switching tracks
+- **ios**: Restore lock screen controls across app transitions
+- **downloads**: Preserve browser verification and queues across restarts
+- **setup**: Recover folder permissions after Android restarts
+- **library**: Bound path-key migration batches
+- **library**: Sync local album play and pause controls
+- **metadata**: Preserve original artwork resolution for SAF files
+- **ios**: Audit Discord license in its framework bundle
+
+### Performance
+
+- **library**: Prefetch network metadata with bounded concurrency
+- **network**: Reuse HTTP connections for browsing and range reads
+
+### Documentation
+
+- Move detailed build guidance to contributing guide
+
+### Testing
+
+- **android**: Accept validated FLAC fallback across FFmpeg versions
+- **rust**: Remove TCP timing dependence from chunked fixture
+- **player**: Cover Previous audio selection and AutoMix handoff
+- **ui**: Correct context menu and lyric spacing assertions
+
+### Chores
+
+- Update AltStore source to v5.1.0 by [@github-actions[bot]](https://github.com/github-actions[bot])
+- Ignore generated Discord plugin lockfiles
+- **ci**: Refresh action pins and align Android build toolchains
+- **android**: Update Gradle Kotlin NDK and native build dependencies
+- **rust**: Update toolchain and dependencies with preserved vendor sources
+- **flutter**: Update SDK and packages with glass and navigation compatibility
+- **release**: Bump app to 5.1.1 build 161
+
+### Build
+
+- **android**: Verify full APK integrity and publish checksums
+
+
+
+
+**Full Changelog**: [v5.1.0...v5.1.1](https://github.com/mornyeapp/Mornye/compare/v5.1.0...v5.1.1)
+
+---
+
+### Downloads
+
+#### Android
+- **arm64**: `SpotiFLAC-v5.1.1-arm64.apk` (recommended for modern devices)
+- **arm32**: `SpotiFLAC-v5.1.1-arm32.apk` (older devices)
+- `*.apk.idsig`: V4 signatures for `adb install --incremental` only; normal installs do not need them
+
+#### iOS
+- **iOS**: `SpotiFLAC-v5.1.1-ios-unsigned.ipa` (sideload required)
+
+### Installation
+**Android**: Enable "Install from unknown sources" and install the APK
+**iOS**: Use AltStore, Sideloadly, or similar tools to sideload the IPA]]></description>
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.1.1/SpotiFLAC-v5.1.1-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mornye v5.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json</link>
+      <guid isPermaLink="false">spotiflac-5.1.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SpotiFLAC 5.1.0 | SpotiFLAC-v5.1.0-ios-unsigned
+
+### New Features
+
+- **library**: Expand audio format and ReplayGain filters
+- **player**: Warn when muted and allow manual resume
+- **native**: Add cancellable data workers and streamed file hashing
+- **playback**: Automate mute and headphone playback controls
+- **player**: Show mixing status beside audio quality
+- **automix**: Add configurable duration and transition effects
+- **lyrics**: Add staggered spring motion to visible rows
+- **build**: Require Discord in production and keep Lite opt-in
+- **settings**: Default to built-in playback and word-synced lyrics
+- **network**: Add SMB and WebDAV libraries with streaming and uploads
+- **statistics**: Show cover artwork and artists for top tracks
+- **mornye**: Restore liquid glass with continuous draggable navigation
+- **discord**: Add opt-in mobile rich presence with track artwork
+- **extensions**: Support personal account forms and direct downloads
+- **playback**: Add local listening statistics and annual recap
+- **library**: Show recent releases from favorite artists
+- **library**: Add batch playlist and queue actions
+- **library**: Filter albums with missing tracks
+
+### Bug Fixes
+
+- **repo**: Retry initialization before adding a registry
+- **storage**: Preserve extension encryption keys on read failures
+- **extensions**: Retain packages with unreadable settings
+- **downloads**: Finalize album ReplayGain after history is saved
+- **downloads**: Preserve actual provider audio format
+- **lyrics**: Treat placeholder zero timestamps as unsynced
+- **library**: Retry transient SQLite locks before scan transactions
+- **riverpod**: Remove public notifier getters
+- **queue**: Merge startup additions before persistence and processing
+- **library**: Stage native scans before owner SQLite publication
+- **cache**: Prune detached projections under source writer barrier
+- **backup**: Publish native restores through owning SQLite connection
+- **sqlite**: Isolate native staging from live database handles
+- **queue**: Preserve restored downloads during startup flush
+- **mornye**: Show provider checkmark spacing only when selected
+- **mornye**: Use glass for download queue confirmations
+- **settings**: Retain pending preferences during asynchronous loading
+- **recents**: Preserve early edits during history loading
+- **logs**: Retain polling ownership across restart and clear
+- **network**: Close request-owned HTTP clients reliably
+- **backup**: Close archive outputs when extraction fails
+- **android**: Release temporary media on failed SAF operations
+- **playlists**: Prevent overlapping picker submissions
+- **network**: Discard stale folder browsing responses
+- **downloads**: Recover queue ownership after setup failures
+- **playlists**: Serialize collection changes and isolate domain models
+- **history**: Serialize mutations and preserve newer file metadata
+- **lyrics**: Hold current line highlight until the next lead
+- **history**: Preserve bulk deletion failure handling
+- **library**: Distinguish unavailable storage from missing files
+- **player**: Retire deleted sources and stale SAF copies
+- **library**: Remove deleted files from both library indexes
+- **downloads**: Preserve filenames after decryption and conversion
+- **glass**: Refract navbar icons through the held lens
+- **glass**: Swell navbar glass without resizing icons
+- **library**: Serialize scan admission and retain reconnect requests
+- **artwork**: Promptly dispose failed video decoders
+- **home**: Protect fresh feeds from late cache restoration
+- **search**: Reject pending completions after clearing results
+- **library**: Honor album artist filters in summary counts
+- **home**: Anchor track menus to their source cards
+- **extensions**: Use themed account option picker
+- **automix**: Diagnose crossfade fallback reasons
+- **automix**: Use themed transition effect picker
+- **lyrics**: Keep simultaneous singers highlighted and visible
+- **extensions**: Accept account forms with optional cancel actions
+- **library**: Expose failed scan files and reasons in app logs
+- **library**: Preserve album view when returning from detail screens
+- **stats**: Show artwork for top artists
+- **mornye**: Match tab highlights to the expanding glass outline
+- **library**: Scan remote SAF folders when root metadata is unavailable
+- **library**: Match SAF documents across folder tree aliases
+- **mornye**: Use liquid glass for Home download and album actions
+- **lyrics**: Grant scoped access to selected audio files
+- **mornye**: Use consistent animated oval switches across glass levels
+- **artwork**: Recover missing SAF covers after transient provider failures
+- **library**: Reject filename guesses from failed NAS metadata reads
+- **selection**: Dismiss action panels with a downward swipe
+- **android**: Preserve remote SAF descriptors for audio and artwork
+- **playback**: Refresh notification favorite and shuffle controls
+- **lyrics**: Preserve manual scrolling during control transitions
+- **mornye**: Keep lyrics scrolling stable when controls fade
+- **library**: Preserve folders during upgrades and load failures
+- **ui**: Make snackbars transient and replace stale messages
+- **ios**: Preserve Now Playing ownership with motion artwork
+- **metadata**: Recognize featured artist credits consistently
+- **library**: Make missing-file cleanup responsive for downloaded tracks
+- **lyrics**: Preserve batch track identity and report results promptly
+- **album**: Open track metadata from local album rows
+- **history**: Prevent maintenance from restoring orphan downloads
+- **artwork**: Preserve thumbnail aspect ratio during decoding
+- **library**: Restore Material playlist drag and drop
+- **library**: Restore search selection actions after re-enrich
+- **metadata**: Show re-enrich results above Library cards
+- **library**: Preserve SD card visibility during transient access failures
+- **library**: Include unindexed tracks in missing ReplayGain filter
+- **download**: Preserve native media workspace across cache eviction
+
+### Performance
+
+- **downloads**: Index queued positions for scheduling
+- **downloads**: Stop queue selection when slots fill
+- **downloads**: Index progress notification candidates
+- **downloads**: Reuse committed queue snapshots
+- **downloads**: Retain queue indexes between item removals
+- **downloads**: Check album ReplayGain readiness in one pass
+- **downloads**: Batch queue failures when folder access is lost
+- **downloads**: Enqueue selected playlists in one update
+- **downloads**: Batch queue cancellation and progress cleanup
+- **downloads**: Batch cancellation resets for retry
+- **collections**: Delete selected playlists in one transaction
+- **downloads**: Enqueue Wishlist selections in one update
+- **collections**: Remove selected tracks in one transaction
+- **network**: Prepare large SMB listings off the UI thread
+- **library**: Buffer network scan output with bounded writes
+- **lyrics**: Short-circuit content availability checks
+- **collections**: Batch Love All updates and persistence
+- **collections**: Stage large playlist additions off the UI thread
+- **collections**: Split native chunks without per-line async events
+- **library**: Load bounded browse pages without rereading prefixes
+- **backup**: Stream encoded collections without cloning model graphs
+- **queue**: Bound SQLite transfers and move large codecs off UI
+- **collections**: Hydrate native snapshots on bounded workers
+- **collections**: Isolate action and track row rebuilds
+- **collections**: Reuse membership indexes for metadata changes
+- **library**: Rank playlist search pages on bounded workers
+- **cache**: Batch cover maintenance on Rust workers
+- **collections**: Restore backups on Rust SQLite workers
+- **backup**: Stream ZIP archives on Rust workers
+- **mornye**: Prepare overlay GPU pipeline before first opening
+- **mornye**: Compose overlay glass into one backdrop pass
+- **mornye**: Streamline download source and quality picker
+- **extensions**: Decode provider responses outside the UI isolat…]]></description>
+      <enclosure url="https://github.com/mornyeapp/Mornye/releases/download/v5.1.0/SpotiFLAC-v5.1.0-ios-unsigned.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>YTMusicUltimate v9.40.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json</link>
+      <guid isPermaLink="false">ytmusic-9.40.2</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[YTMusicUltimate 9.40.2 | YTMusic 2.4.1 | YTMusicUltimate_9.40.2_2.4.1
+
+> [!NOTE]
+> ### Extra tweaks:
+> - Return YouTubeMusic Dislikes
+> - YTMABConfig
+> - VolumeBoostYT
+- - -
+- YouMusicPiP is only available in custom build
+- iOS14+ build is available in releases page]]></description>
+      <enclosure url="https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa35/YTMusicUltimate_9.40.2_2.4.1.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MaxMusic v9.37.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/maxmusic.json</link>
+      <guid isPermaLink="false">maxmusic-9.37.2</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[MaxMusic 9.37.2 | YTMusic 2.4.1 | MaxMusic_2.4.1_9.37.2
+
+**Changed**
+YouTube Music version]]></description>
+      <enclosure url="https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa" length="106518711" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Cosmos Music Player v1.2.5</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/cosmos.json</link>
+      <guid isPermaLink="false">cosmos-1.2.5</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Cosmos Music Player 1.2.5 | Cosmos-Music-Player
+
+- Search is now available across songs, favorites, artists, albums, and playlists.
+- Lyrics have been redesigned with smoother synchronization, tap-to-seek, instrumental breaks, offline caching, and alternate versions.
+- Added broader support for Opus, Ogg, FLAC, AAC/M4A, DSF, and DFF files.
+- Improved playback stability, gapless transitions, seeking, Bluetooth, CarPlay, and audio interruption handling.
+- Added appearance options: System, Light, and Dark.
+- Added controls for automatic library scan frequency and artist organization.
+- Added a Create Playlist button when no playlists exist.
+- Improved artwork loading for iCloud and externally imported music.
+- Improved Siri, widgets, CarPlay, and Share extension reliability.
+- Fixed library issues involving moved, renamed, restored, or temporarily unavailable files.
+- Added and improved translations across all supported languages.
+- Includes numerous performance improvements and bug fixes.]]></description>
+      <enclosure url="https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa" length="12056869" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Spotube v5.1.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/spotube.json</link>
+      <guid isPermaLink="false">spotube-5.1.2</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Spotube 5.1.2 | Spotube-iOS
+
+### Bug Fixes
+
+- **newpipe**: Fallback to muxed streams if no audio stream is available
+- Dismiss search dropdown and keyboard on submission
+- Custom image helper null exception
+
+**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.1.1...v5.1.2]]></description>
+      <enclosure url="https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa" length="34853093" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

@@ -59,6 +59,20 @@
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "14.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "twitchadblock",
       "status": "stable",
@@ -90,9 +104,11 @@
         "notes": "Official IPAs from the fork's GitHub releases; the '-noplugins' variant on each release is intentionally not distributed. Replaces the App Store Twitch app (shares tv.twitch). The upstream tweak repo publishes only .deb packages for jailbroken devices; the sideload IPA comes from this maintained fork."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
         "lastUpdatedAt": "2026-10-24"
       }
     },

@@ -30,6 +30,7 @@ from omnisource.domain import Catalog
 from omnisource.duplicates import group_for_app
 from omnisource.install import install_url
 from omnisource.io import atomic_write_text
+from omnisource.permissions import compare_permissions
 
 # Content-Security-Policy served on every app page via <meta>. Keep in sync
 # with the landing page and section pages (index.html, */index.html):
@@ -76,27 +77,34 @@ def _badge(cls: str, label: str) -> str:
 
 # Same trust styling as the website (js/site.js verificationBadgeClass).
 _VERIFICATION_BADGES = {
-    "VERIFIED": ("verified", "✓ Verified"),
-    "COMMUNITY VERIFIED": ("community", "Community verified"),
-    "UNVERIFIED": ("unverified", "Unverified"),
+    "VERIFIED": ("verified", "Source listed"),
+    "COMMUNITY VERIFIED": ("community", "Community listed"),
+    "UNVERIFIED": ("unverified", "Source unconfirmed"),
 }
 
 
-def _badges(status: str, health_ok: bool, verification_level: str, stale: bool, provenance: str = "official") -> str:
-    provenance_badge = (
-        '<span class="badge verified" title="IPA published by the project&#39;s '
-        'own upstream release channel">Official build</span>'
-        if provenance == "official"
-        else '<span class="badge community" title="Repackaged or mirrored by a '
-        'community builder — see Trust &amp; provenance">Community build</span>'
-    )
+def _badges(
+    status: str, health_ok: bool | None, verification_level: str, stale: bool, provenance: str = "unknown"
+) -> str:
+    provenance_badge = {
+        "official": (
+            '<span class="badge verified" title="Catalog attributes the IPA to the project release channel">'
+            "Official source</span>"
+        ),
+        "community": (
+            '<span class="badge community" title="Distributed or packaged by a community source">'
+            "Community source</span>"
+        ),
+    }.get(provenance, '<span class="badge unverified">Source unknown</span>')
     parts = [
         _badge("stable" if status == "stable" else status, status.title()),
         provenance_badge,
         (
-            '<span class="badge ok"><span class="dot"></span>Online</span>'
-            if health_ok
-            else '<span class="badge bad"><span class="dot"></span>Offline</span>'
+            '<span class="badge ok"><span class="dot"></span>Last seen reachable</span>'
+            if health_ok is True
+            else '<span class="badge bad"><span class="dot"></span>Last probe failed</span>'
+            if health_ok is False
+            else '<span class="badge unverified">Not checked</span>'
         ),
         _badge(*_VERIFICATION_BADGES.get(verification_level, ("unverified", verification_level))),
     ]
@@ -130,6 +138,35 @@ def _client_buttons(catalog: Catalog, feed_url: str) -> str:
     return "".join(buttons)
 
 
+def _permission_diff(versions: list[dict[str, Any]]) -> str:
+    if len(versions) < 2 or not all(isinstance(item, dict) for item in versions[:2]):
+        return '<p class="ap-desc">Version-specific permission comparison is unavailable.</p>'
+
+    def permissions(version: dict[str, Any]) -> Any:
+        inspection = version.get("ipaInspection") if isinstance(version.get("ipaInspection"), dict) else {}
+        return version.get("appPermissions") or inspection.get("appPermissions")
+
+    diff = compare_permissions(permissions(versions[0]), permissions(versions[1]))
+    if diff is None:
+        return '<p class="ap-desc">Version-specific permission comparison is unavailable.</p>'
+    labels = {
+        "entitlementsAdded": "Entitlements added",
+        "entitlementsRemoved": "Entitlements removed",
+        "privacyAdded": "Privacy declarations added",
+        "privacyRemoved": "Privacy declarations removed",
+        "privacyChanged": "Privacy descriptions changed",
+    }
+    rows = [
+        f"<li>{html.escape(labels[key])}: {html.escape(', '.join(value) if value else 'none')}</li>"
+        for key, value in diff.items()
+    ]
+    return (
+        '<p class="ap-desc">Declared changes in the two latest retained versions; not a signature audit.</p><ul>'
+        + "".join(rows)
+        + "</ul>"
+    )
+
+
 def _version_rows(versions: list[dict[str, Any]]) -> str:
     if not versions:
         return '<p class="ap-desc">No version history is published yet.</p>'
@@ -139,7 +176,9 @@ def _version_rows(versions: list[dict[str, Any]]) -> str:
         current = '<span class="tag">Current</span>' if index == 0 else ""
         sha = str(version.get("sha256") or "")
         sha_html = (
-            f'<code title="SHA-256">{html.escape(sha[:16])}…</code>' if sha else ("<span>No checksum published</span>")
+            f'<code title="Recorded SHA-256">{html.escape(sha[:16])}…</code>'
+            if sha
+            else ("<span>No SHA-256 recorded</span>")
         )
         download = str(version.get("downloadURL") or "")
         if download:
@@ -172,14 +211,24 @@ def _version_rows(versions: list[dict[str, Any]]) -> str:
 def _checks_html(checks: dict[str, bool]) -> str:
     if not checks:
         return '<p class="ap-desc">No individual checks are published for this app.</p>'
+    labels = {
+        "metadata": "Required metadata",
+        "urls": "Source and download URLs",
+        "fileAvailable": "Last download probe",
+        "hashRecorded": "SHA-256 recorded",
+        "hashVerified": "Downloaded bytes match recorded SHA-256",
+    }
     cells = []
     for key, ok in checks.items():
-        state = "pass" if ok else "fail"
+        # Missing evidence is not proof of corruption.
+        unknown = not ok and key in {"fileAvailable", "hashRecorded", "hashVerified"}
+        state = "pass" if ok else "unknown" if unknown else "fail"
+        detail = "not established" if unknown else state
         icon = '<path d="m5 12 4 4L19 6"/>' if ok else '<path d="m9 9 6 6m0-6-6 6"/>'
         cells.append(
             f'<li class="ap-check {state}"><span class="check-ico">'
             f'<svg viewBox="0 0 24 24" aria-hidden="true">{icon}</svg></span>'
-            f"<span>{html.escape(key)}</span><small>{state}</small></li>"
+            f"<span>{html.escape(labels.get(key, key))}</span><small>{detail}</small></li>"
         )
     return f'<ul class="ap-checks">{"".join(cells)}</ul>'
 
@@ -255,7 +304,7 @@ def _detail_cells(
     health: dict[str, Any],
     verification_level: str,
     version_count: int,
-    provenance: str = "official",
+    provenance: str = "unknown",
 ) -> str:
     version = html.escape(str(newest.get("version") or "—"))
     updated_at = html.escape(_fmt_date(str(newest.get("date") or "")))
@@ -264,8 +313,12 @@ def _detail_cells(
     category = html.escape(str(app.category or "other").title())
     developer = html.escape(app.developer or "—")
     bundle = html.escape(app.bundle_id or "—")
-    checksum = html.escape(str(newest.get("sha256") or "Not published")[:20])
-    health_text = html.escape("Online" if health.get("downloadReachable") else "Unavailable")
+    checksum = html.escape(str(newest.get("sha256") or "Not recorded")[:20])
+    reachable = health.get("downloadReachable")
+    health_text = (
+        "Last seen reachable" if reachable is True else "Last probe failed" if reachable is False else "Not checked"
+    )
+    last_checked = html.escape(str(health.get("lastCheckedAt") or "Not recorded"))
     verification = html.escape(verification_level)
     source = html.escape(source_label(app))
     source_url = html.escape((app.source_url or "").strip())
@@ -283,9 +336,13 @@ def _detail_cells(
         ("Developer", developer),
         ("Bundle ID", f"<code>{bundle}</code>"),
         ("Verification", verification),
-        ("Build", "Official build" if provenance == "official" else "Community build"),
-        ("Checksum", f"<code>{checksum}</code>"),
-        ("Health", health_text),
+        (
+            "Source attribution",
+            {"official": "Official source", "community": "Community source"}.get(provenance, "Unknown"),
+        ),
+        ("SHA-256", f"<code>{checksum}</code>"),
+        ("Download status", health_text),
+        ("Last checked", last_checked),
         ("Version history", str(version_count)),
         ("Source", source_value),
     ]
@@ -312,8 +369,8 @@ def _duplicate_banner(app: Any, duplicate: dict[str, Any] | None, feed_url: str 
     # app on its own, so offer a one-click copy of that source URL.
     bundle_collision = str(duplicate.get("type") or "").startswith("bundle-id")
     collision_hint = (
-        "<p>Clients that identify apps by bundle ID (e.g. SideStore) cannot install these "
-        "side by side — adding the new one replaces the old. To add <b>only this app</b> "
+        "<p>Apps sharing a bundle ID may conflict or replace each other, depending on signing. "
+        "Clients may not distinguish them in the master feed. To add <b>only this app</b> "
         "manually, use its single-app source: "
         f'<button class="button small" type="button" data-copy="{html.escape(feed_url)}" '
         'data-copy-msg="Single-app source copied — add it manually in your '
@@ -441,7 +498,7 @@ def render_app_page(
         {"status": "UNVERIFIED", "checks": {}, "reasons": []},
     )
     verification_level = str(verification_item.get("status") or "UNVERIFIED")
-    provenance = str(verification_item.get("provenance") or "official")
+    provenance = str(verification_item.get("provenance") or "unknown")
     duplicate = group_for_app(duplicates_doc, app.slug)
 
     icon_url = f"{base}/assets/{app.icon}"
@@ -595,7 +652,7 @@ def render_app_page(
         '        <div class="ap-badges">\n',
         _badges(
             app.status,
-            bool(health_item.get("downloadReachable", True)),
+            health_item.get("downloadReachable") if isinstance(health_item.get("downloadReachable"), bool) else None,
             verification_level,
             bool(health_item.get("stale")),
             provenance,
@@ -606,6 +663,11 @@ def render_app_page(
         '      <div class="ap-install">\n',
         f'        <a class="get-capsule" href="{html.escape(download_url)}" target="_blank" rel="noopener">'
         f'Get · v{version_text}<span class="capsule-size">{size_text}</span></a>\n',
+        (
+            f'        <p class="ap-desc">Large download ({size_text}); consider Wi-Fi or data limits.</p>\n'
+            if int(newest.get("size") or 0) >= 200 * 1024 * 1024
+            else ""
+        ),
         _client_buttons(catalog, feed_url),
         '        <button class="button ap-copy" type="button" '
         f'data-copy="{html.escape(feed_url)}" data-copy-msg="Source URL copied">Copy source URL</button>\n',
@@ -620,10 +682,15 @@ def render_app_page(
         "    </section>\n",
     ]
 
+    compat_attribute = html.escape(
+        json.dumps(compatibility if isinstance(compatibility, dict) else {}, ensure_ascii=False), quote=True
+    )
     sections = [
         '    <section class="ap-section" data-reveal>\n',
         '      <h2><span class="num">01</span> About</h2>\n',
         f'      <p class="ap-desc">{description}</p>\n',
+        f'      <p class="device-check" data-device-compat="{compat_attribute}">'
+        "Device compatibility: choose a profile on the catalog page.</p>\n",
         f"      {screenshots_block}",
         "    </section>\n\n",
         '    <section class="ap-section" data-reveal>\n',
@@ -632,10 +699,26 @@ def render_app_page(
         "catalog on every build — never hard-coded.</p>\n",
         _install_cards_html(install_doc, app.slug),
         '      <p class="mt-3"><a class="button small" href="../../install/">Open the installation center →</a></p>\n',
+        '      <details class="device-profile"><summary>Estimate re-signing date</summary>'
+        "<p>Optional local reminder. Estimates are approximate: certificate and client rules vary. "
+        "Notifications require permission and only run while this page is open.</p>"
+        f'<form class="device-profile-form" data-resign-slug="{html.escape(app.slug, quote=True)}">'
+        '<label>Signed on <input type="date" name="signed" required></label>'
+        '<label>Signing account <select name="kind"><option value="free">Free (about 7 days)</option>'
+        '<option value="paid">Paid (about 365 days)</option></select></label>'
+        '<button class="button small" type="submit">Save estimate</button>'
+        '<button class="button small" type="button" data-resign-remind>Allow reminders</button>'
+        '<button class="button small" type="button" data-resign-clear>Clear</button>'
+        '<span data-resign-message role="status"></span></form></details>\n',
         "    </section>\n\n",
         '    <section class="ap-section" data-reveal>\n',
         '      <h2><span class="num">03</span> Release notes</h2>\n',
+        f'      <p class="ap-desc"><a href="../../feeds/{html.escape(app.slug)}.xml">RSS</a> · '
+        f'<a href="../../feeds/calendars/app-{html.escape(app.slug)}.ics">Release calendar</a>. '
+        "Older release URLs may disappear or identify a different build; check before downgrading.</p>\n",
         f"      {_version_rows(versions)}\n",
+        "      <h3>Permission changes</h3>\n",
+        f"      {_permission_diff(versions)}\n",
         "    </section>\n\n",
         '    <section class="ap-section" data-reveal>\n',
         '      <h2><span class="num">04</span> Details</h2>\n',
@@ -645,14 +728,28 @@ def render_app_page(
         "    </section>\n\n",
         '    <section class="ap-section" data-reveal>\n',
         '      <h2><span class="num">05</span> Trust &amp; provenance</h2>\n',
-        f"      {_checks_html(checks)}\n",
         (
-            '      <p class="ap-desc mt-3"><b>Official build.</b> The IPA is published by the '
-            "project&rsquo;s own upstream release channel.</p>\n"
-            if provenance == "official"
-            else '      <p class="ap-desc mt-3"><b>Community build.</b> The IPA is repackaged or '
-            "mirrored by a community builder; the tweak or app itself is developed upstream.</p>\n"
+            '      <p class="badge bad">Integrity mismatch detected; review before installation. '
+            f"{html.escape(str(verification_item['integrityFailure'].get('detail') or ''))}</p>\n"
+            if isinstance(verification_item.get("integrityFailure"), dict)
+            else ""
         ),
+        f"      {_checks_html(checks)}\n",
+        {
+            "official": (
+                '      <p class="ap-desc mt-3"><b>Official source.</b> The catalog attributes this IPA '
+                "to the project release channel.</p>\n"
+            ),
+            "community": (
+                '      <p class="ap-desc mt-3"><b>Community source.</b> A community distributor '
+                "packages or mirrors this IPA; the original project may be different.</p>\n"
+            ),
+        }.get(
+            provenance,
+            '      <p class="ap-desc mt-3"><b>Source unknown.</b> IPA attribution has not been established.</p>\n',
+        ),
+        '      <p class="ap-desc">A recorded checksum alone does not prove who published a binary '
+        "or that it is safe.</p>\n",
         '      <p class="ap-desc">Published by ' + f"{publisher_html} · {method_text}.</p>\n",
         f"      <ul>{reasons_html}</ul>\n",
         (
@@ -707,6 +804,7 @@ def render_app_page(
         '    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg><span></span>\n',
         "  </div>\n\n",
         '  <script src="../../js/core.js" defer></script>\n',
+        '  <script src="../../js/device.js" defer></script>\n',
         '  <script src="../../src/js/i18n.js" defer></script>\n',
         '  <script src="../../js/features.js" defer></script>\n',
         '  <script src="../../website/assets/AssetManager.js" defer></script>\n',

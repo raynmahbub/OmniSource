@@ -71,6 +71,20 @@
         "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Repos.png",
         "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Sign.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "get-task-allow"
@@ -109,8 +123,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
           "lastUpdatedAt": "2026-07-05"
         }
       }
@@ -184,6 +200,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "itorrent",
         "status": "stable",
@@ -216,8 +246,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
           "lastUpdatedAt": "2026-07-19"
         }
       }
@@ -281,6 +313,20 @@
       "screenshotURLs": [
         "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/release.png"
       ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "application-identifier",
@@ -324,8 +370,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-10-14",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
           "lastUpdatedAt": "2026-07-17"
         }
       }
@@ -379,6 +427,20 @@
         "https://apps.sidestore.io/apps/sidestore/v0.1.1/apps-dark.png",
         "https://apps.sidestore.io/apps/sidestore/v0.1.1/news-dark.png"
       ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "aps-environment",
@@ -423,8 +485,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
           "lastUpdatedAt": "2026-09-15"
         }
       }

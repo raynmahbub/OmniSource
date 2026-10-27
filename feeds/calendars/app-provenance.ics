@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Provenance releases
+BEGIN:VEVENT
+UID:provenance-3.3.0@omnisource
+DTSTAMP:20260314T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Provenance v3.3.0
+DESCRIPTION:Provenance 3.3.0 | Provenance-3.3.0-iOS\n\n## What's New in 3.3
+ .0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud s
+ ync\, a completely revamped tvOS interface\, video filters\, and a ton of 
+ core and stability fixes.\n\n### ☁️ iCloud / CloudKit Sync\n- ROMs\, s
+ ave states\, BIOS files\, and artwork now sync across devices via iCloud\n
+ - Real-time download progress indicators when loading cloud save states\n-
+  Auto BIOS sync on game load when available in iCloud\n- ROM metadata sync
+ s alongside files\n- Artwork syncs after library updates\n- CloudKit recor
+ ds management tab in Settings\n- iCloud upsell UI for new users with empty
+  libraries\n- Sync queue pauses during emulation and resumes after\n\n### 
+ 📺 New tvOS UI (Default)\n- Completely redesigned tvOS interface now ena
+ bled by default\n- RetroWave-themed side menu with smooth animations\n- Sa
+ ve states browser accessible from the main UI with artwork and core name\n
+ - "View All" saves section with per-system filtering\n- TopShelf v2: recen
+ t games and save states with artwork and timestamps\n- Cheats UI in the pa
+ use menu\n- Game "More Info" panel\n- Log viewer tab\n- Import status view
+  in side menu\n- Search with persistent history\n- Dozens of focus\, navig
+ ation\, and theming fixes throughout\n\n### 🎨 Video Filters & Shaders\n
+ - Unified filter pipeline works across native and RetroArch cores\n- GB an
+ d VHS filters improved\n- Filters accessible from the pause menu\n- RetroA
+ rch GLES 3D cores now supported (Vecx/GLiden\, etc.)\n- Dolphin shader/fil
+ ter support\n- PPSSPP filter support\n\n### 🎮 Core & Controller Fixes\n
+ - **RetroArch**: Fixed player index mapping for MFi\, PS4\, and Xbox contr
+ ollers\; PS4 start/select fixed\; 32x controls added\; GameCube controller
+  responder added\n- **Mupen64Plus**: Fixed PS4 start button\; fixed tvOS s
+ caling and placement\; better save error messages\n- **Dolphin**: Fixed Vu
+ lkan landscape rendering\n- **GenPluGX**: Added CHD support\; added wide-s
+ creen GameGear core\n- **PicoDrive**: Fixed crash on unload\; fixed 32x co
+ ntroller map
+URL:https://raynmahbub.github.io/OmniSource/feeds/provenance.json
+END:VEVENT
+END:VCALENDAR

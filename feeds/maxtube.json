@@ -71,6 +71,20 @@
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr2.jpg",
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr3.jpg"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -106,7 +120,8 @@
           "method": "github-release",
           "publisher": "Ashreq/ashstore-repo",
           "codeSigned": false,
-          "checksumPublished": true
+          "checksumPublished": true,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -128,8 +143,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
           "lastUpdatedAt": "2026-08-03"
         }
       }

@@ -66,6 +66,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -101,9 +115,11 @@
           "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by generation (28, 27, 26, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-24"
         }
       }

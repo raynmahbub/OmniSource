@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
-from omnisource.io import read_json, write_json
+from omnisource.io import read_json, write_json, write_json_stable
 from omnisource.security import build_security_report, verify_file, verify_url
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -31,7 +31,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--feed", default=str(ROOT / "feeds" / "apps.json"))
     parser.add_argument("--catalog", default=str(ROOT / "catalog.json"))
-    parser.add_argument("--health", default=str(ROOT / "feeds" / "health.json"))
+    parser.add_argument("--health", default=str(ROOT / "data" / "status.json"))
     parser.add_argument("--out", default=str(ROOT / "data" / "security.json"))
     parser.add_argument(
         "--alias", default=str(ROOT / "security-report.json"), help="backward-compatible top-level report copy"
@@ -70,8 +70,10 @@ def main(argv: list[str] | None = None) -> int:
             if not result.get("ok"):
                 report["findings"].append(
                     {
-                        "severity": "critical",
-                        "check": "local-binary-integrity",
+                        "severity": "critical" if result.get("kind") == "mismatch" else "medium",
+                        "check": "local-binary-integrity"
+                        if result.get("kind") == "mismatch"
+                        else "local-verification-unavailable",
                         "id": str(filename),
                         "detail": result["detail"],
                     }
@@ -95,19 +97,26 @@ def main(argv: list[str] | None = None) -> int:
             if not result.get("ok"):
                 report["findings"].append(
                     {
-                        "severity": "critical",
-                        "check": "binary-integrity",
+                        "severity": "critical" if result.get("kind") == "mismatch" else "medium",
+                        "check": "binary-integrity"
+                        if result.get("kind") == "mismatch"
+                        else "download-verification-unavailable",
                         "id": result["id"],
                         "detail": result["detail"],
                     }
                 )
         report["binaryVerification"] = verification_results
-        report["verdict"] = (
-            "fail" if any(item["severity"] == "critical" for item in report["findings"]) else report["verdict"]
-        )
-    write_json(Path(args.out), report)
-    if args.alias and Path(args.alias) != Path(args.out):
-        write_json(Path(args.alias), report)
+    report["verdict"] = "fail" if any(item["severity"] == "critical" for item in report["findings"]) else "pass"
+    output = Path(args.out)
+    if args.verify_downloads or args.verify_file:
+        # A real verification is a new observation even if the result matches.
+        write_json(output, report)
+    else:
+        # Avoid noisy commits when an offline scan only changes generatedAt.
+        write_json_stable(output, report)
+    if args.alias and Path(args.alias) != output:
+        # Keep the public alias byte-identical even when a stable write skipped.
+        write_json(Path(args.alias), read_json(output) or report)
     floor = SEVERITY_RANK[args.fail_on]
     blocking = [item for item in report["findings"] if SEVERITY_RANK[item["severity"]] >= floor]
     for item in report["findings"]:

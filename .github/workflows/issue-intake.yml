@@ -1,0 +1,33 @@
+name: Issue intake
+
+on:
+  issues:
+    types: [opened]
+
+permissions: {}
+
+jobs:
+  triage:
+    if: contains(github.event.issue.labels.*.name, 'app-request') || contains(github.event.issue.labels.*.name, 'broken-link')
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Analyze submitted form without executing it
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          [[ "$ISSUE_NUMBER" =~ ^[1-9][0-9]*$ ]]
+          python3 scripts/issue_ops.py --event "$GITHUB_EVENT_PATH" --output "$RUNNER_TEMP/issue-intake.md" --probe-github
+          if [[ -s "$RUNNER_TEMP/issue-intake.md" ]]; then
+            gh issue comment "$ISSUE_NUMBER" --body-file "$RUNNER_TEMP/issue-intake.md"
+          fi

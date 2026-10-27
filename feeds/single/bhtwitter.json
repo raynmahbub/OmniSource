@@ -95,6 +95,20 @@
         "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/3.png",
         "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
       ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "bhtwitter",
         "status": "stable",
@@ -127,8 +141,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
           "lastUpdatedAt": "2025-05-13"
         }
       }

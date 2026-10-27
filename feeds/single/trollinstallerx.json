@@ -62,10 +62,26 @@
             }
           ],
           "downloads": 1276664,
-          "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e"
+          "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
+          "maxOSVersion": "16.6.1"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "maxOSVersion": "16.6.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "trollinstallerx",
         "status": "stable",
@@ -98,8 +114,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
           "lastUpdatedAt": "2024-09-12"
         }
       }

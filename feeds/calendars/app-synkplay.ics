@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Synkplay releases
+BEGIN:VEVENT
+UID:synkplay-0.26.0@omnisource
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Synkplay v0.26.0
+DESCRIPTION:Synkplay 0.26.0 | synkplay-0.26.0-ios\n\n<table align="center">
+ <tr>\n<td align="center" rowspan="2"><img src="https://raw.githubuserconte
+ nt.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/a
+ rt/synkplay_app_badge_512.png" width="128" alt="Synkplay"></td>\n<td align
+ ="center"><a href="https://play.google.com/store/apps/details?id=com.yuroy
+ ami.syncplay"><img src="https://raw.githubusercontent.com/yuroyami/syncpla
+ y-mobile/c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6/art/badges/google-play.p
+ ng" width="150" alt="Get it on Google Play"></a></td>\n<td align="center">
+ <a href="https://apps.apple.com/us/app/synkplay/id6760187432"><img src="ht
+ tps://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3
+ 804ddb9c3e38e9a653505d6/art/badges/app-store.png" width="150" alt="Downloa
+ d on the App Store"></a></td>\n</tr><tr>\n<td align="center"><a href="http
+ s://apt.izzysoft.de/fdroid/index/apk/com.reddnek.syncplay"><img src="https
+ ://raw.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804
+ ddb9c3e38e9a653505d6/art/badges/IzzyOnDroid.png" width="150" alt="Get it o
+ n IzzyOnDroid"></a></td>\n<td align="center"><a href="https://celloserenit
+ y.github.io/altdirect/?url=https://raw.githubusercontent.com/yuroyami/sync
+ play-mobile/refs/heads/master/altstore_yuroyami.json"><img src="https://ra
+ w.githubusercontent.com/yuroyami/syncplay-mobile/c4449e5c9a0a9cba3804ddb9c
+ 3e38e9a653505d6/art/badges/AltSource_Blue.png" width="150" alt="Add the Al
+ tStore source"></a></td>\n</tr></table>\n\n> This release is not on Google
+  Play or the App Store yet.\n\nWe're approaching the v1.0 stable release. 
+ [KitePlayer](https://github.com/yuroyami/KitePlayer) is also looking promi
+ sing to be the default player on iOS (VLC has always been such a mess to w
+ ork with). I urge you to test KitePlayer which is a player I made specific
+ ally for the Kotlin multiplatform framework to match mpv and VLC capabilit
+ ies. Be one of its first testers. I'd love the feedback. Note that it stil
+ l does NOT support TrueHDR
+URL:https://raynmahbub.github.io/OmniSource/feeds/synkplay.json
+END:VEVENT
+END:VCALENDAR

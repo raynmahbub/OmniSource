@@ -4,8 +4,8 @@ Builds ``data/security.json`` — the machine-readable security report every
 release is gated on (``security.yml`` fails the pipeline when a *critical*
 finding appears):
 
-* SHA-256 verification of every recorded digest (format + provenance);
-* SHA-512 verification wherever upstreams publish one;
+* SHA-256 / SHA-512 format and coverage checks for recorded digests;
+* optional byte comparison against recorded digests (not proof of authorship);
 * duplicate-binary detection (the same digest shipping under two bundle IDs
   is either a rebrand or a trojan — both deserve a human look);
 * download-integrity rollup from the latest health probes;
@@ -26,6 +26,7 @@ from pathlib import Path
 from typing import Any
 
 from omnisource.integrity import stream_sha256
+from omnisource.verification import provenance_for
 
 SECURITY_SCHEMA_VERSION = 1
 
@@ -116,21 +117,35 @@ def download_integrity(
 ) -> dict[str, Any]:
     """Roll health probes into reachable / failing / unknown buckets."""
     health = health if isinstance(health, dict) else {}
-    nodes = health.get("apps", health.get("sources", []))
-    status_by_id: dict[str, str] = {}
+    nodes = health.get("downloads", health.get("apps", health.get("sources", [])))
+    by_id: dict[str, dict[str, Any]] = {}
     if isinstance(nodes, list):
         for node in nodes:
             if isinstance(node, dict):
                 key = str(node.get("slug") or node.get("id") or node.get("app") or "")
-                status_by_id[key] = str(node.get("status") or node.get("health") or "unknown").lower()
+                if key:
+                    by_id[key] = node
     elif isinstance(nodes, dict):
-        status_by_id = {str(key): str(value).lower() for key, value in nodes.items()}
+        by_id = {str(key): {"reachable": value} for key, value in nodes.items()}
     integrity: dict[str, Any] = {"reachable": [], "failing": [], "unknown": []}
     for app in apps:
         if not isinstance(app, dict):
             continue
-        slug = str(app.get("slug") or app.get("id") or "")
-        status = status_by_id.get(slug, status_by_id.get(str(app.get("bundleIdentifier", "")), "unknown"))
+        omni = app.get("omnisource") if isinstance(app.get("omnisource"), dict) else {}
+        slug = str(app.get("slug") or omni.get("slug") or app.get("id") or app.get("name") or "")
+        node = next(
+            (
+                by_id[key]
+                for key in (slug, str(app.get("name") or ""), str(app.get("bundleIdentifier") or ""))
+                if key in by_id
+            ),
+            {},
+        )
+        # A probe for an older release is not evidence about the current URL.
+        if node.get("url") and node.get("url") != app.get("downloadURL"):
+            node = {}
+        value = next((node[key] for key in ("downloadReachable", "reachable", "ok") if key in node), None)
+        status = str(value if value is not None else node.get("status") or node.get("health") or "unknown").lower()
         if status in ("healthy", "online", "reachable", "ok", "true"):
             integrity["reachable"].append(slug)
         elif status in ("unavailable", "offline", "failing", "failed", "false"):
@@ -150,15 +165,13 @@ def provenance_audit(catalog_apps: list[dict[str, Any]]) -> dict[str, Any]:
             continue
         audit["total"] += 1
         verification = app.get("verification")
-        method = verification.get("method", "") if isinstance(verification, dict) else ""
-        build = str(app.get("build") or (verification.get("build") if isinstance(verification, dict) else ""))
-        blob = f"{method} {build}".lower()
-        if "community" in blob:
-            audit["community"] += 1
-        elif method or "official" in blob or app.get("upstream"):
-            audit["official"] += 1
-        else:
+        method = str(verification.get("method") or "") if isinstance(verification, dict) else ""
+        publisher = str(verification.get("publisher") or "") if isinstance(verification, dict) else ""
+        provenance = provenance_for(app, method, publisher)
+        if provenance == "unknown":
             audit["unknown"].append(str(app.get("slug") or app.get("name") or "?"))
+        else:
+            audit[provenance] += 1
     audit["unknown"] = sorted(audit["unknown"])
     return audit
 
@@ -181,7 +194,7 @@ def verify_file(path: Path, *, sha256: str = "", sha512: str = "", expected_size
     try:
         actual = hash_file(path)
     except OSError as error:
-        return {"ok": False, "detail": str(error), "path": str(path)}
+        return {"ok": False, "kind": "unavailable", "detail": str(error), "path": str(path)}
     problems: list[str] = []
     if expected_size is not None and actual["bytes"] != int(expected_size):
         problems.append("size mismatch")
@@ -189,7 +202,13 @@ def verify_file(path: Path, *, sha256: str = "", sha512: str = "", expected_size
         problems.append("sha256 mismatch")
     if sha512 and actual["sha512"].casefold() != str(sha512).removeprefix("sha512:").casefold():
         problems.append("sha512 mismatch")
-    return {**actual, "ok": not problems, "detail": "; ".join(problems) or "ok", "path": str(path)}
+    return {
+        **actual,
+        "ok": not problems,
+        "kind": "mismatch" if problems else "checked",
+        "detail": "; ".join(problems) or "ok",
+        "path": str(path),
+    }
 
 
 def verify_url(
@@ -209,12 +228,12 @@ def verify_url(
     API credentials, caps the body size, and computes both modern hashes.
     """
     if not isinstance(url, str) or not url.startswith("https://"):
-        return {"ok": False, "detail": "asset URL must be HTTPS", "url": url}
+        return {"ok": False, "kind": "unavailable", "detail": "asset URL must be HTTPS", "url": url}
     if http_stream is not None:
         try:
             total, digest = stream_sha256(http_stream, url, timeout=timeout)
         except (OSError, TimeoutError, ValueError) as error:
-            return {"ok": False, "detail": str(error), "url": url}
+            return {"ok": False, "kind": "unavailable", "detail": str(error), "url": url}
         problems: list[str] = []
         if expected_size is not None and total != int(expected_size):
             problems.append("size mismatch")
@@ -222,6 +241,7 @@ def verify_url(
             problems.append("sha256 mismatch")
         return {
             "ok": not problems,
+            "kind": "mismatch" if problems else "checked",
             "detail": "; ".join(problems) or "ok",
             "url": url,
             "bytes": total,
@@ -236,11 +256,16 @@ def verify_url(
             while chunk := response.read(1024 * 1024):
                 total += len(chunk)
                 if total > max_bytes:
-                    return {"ok": False, "detail": f"asset exceeds {max_bytes} bytes", "url": url}
+                    return {
+                        "ok": False,
+                        "kind": "unavailable",
+                        "detail": f"asset exceeds {max_bytes} bytes",
+                        "url": url,
+                    }
                 sha_a.update(chunk)
                 sha_b.update(chunk)
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as error:
-        return {"ok": False, "detail": str(error), "url": url}
+        return {"ok": False, "kind": "unavailable", "detail": str(error), "url": url}
     problems: list[str] = []
     if expected_size is not None and total != int(expected_size):
         problems.append("size mismatch")
@@ -250,6 +275,7 @@ def verify_url(
         problems.append("sha512 mismatch")
     return {
         "ok": not problems,
+        "kind": "mismatch" if problems else "checked",
         "detail": "; ".join(problems) or "ok",
         "url": url,
         "bytes": total,
@@ -268,6 +294,15 @@ def build_security_report(
     hashes = verify_hashes(apps)
     duplicates = find_duplicate_binaries(apps)
     downloads = download_integrity(apps, health)
+    snapshot_at = ""
+    if isinstance(health, dict):
+        if isinstance(health.get("downloads"), list):
+            snapshot_at = str(health.get("generatedAt") or "")
+        elif isinstance(health.get("apps"), list):
+            snapshot_at = max(
+                (str(item.get("lastCheckedAt") or "") for item in health["apps"] if isinstance(item, dict)),
+                default="",
+            )
     provenance = provenance_audit(catalog_apps if catalog_apps is not None else apps)
     findings: list[dict[str, Any]] = []
     for slug in hashes["invalid"]:
@@ -289,7 +324,7 @@ def build_security_report(
                 "severity": "medium",
                 "check": "download-unreachable",
                 "id": slug,
-                "detail": "latest health probe could not reach the download",
+                "detail": "last recorded health probe could not reach the download; a retry may succeed",
             }
         )
     for slug in hashes["missing"]:
@@ -314,10 +349,12 @@ def build_security_report(
             "hashesInvalid": len(hashes["invalid"]),
             "duplicateBinaries": len(duplicates),
             "downloadsFailing": len(downloads["failing"]),
+            "downloadsUnknown": len(downloads["unknown"]),
             "provenanceOfficial": provenance["official"],
             "provenanceCommunity": provenance["community"],
             "provenanceUnknown": len(provenance["unknown"]),
         },
+        "downloadSnapshotAt": snapshot_at,
         "hashes": hashes,
         "duplicateBinaries": duplicates,
         "downloads": downloads,

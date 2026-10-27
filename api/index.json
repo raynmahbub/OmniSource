@@ -140,6 +140,11 @@
       "format": "json"
     },
     {
+      "path": "/api/transparency.json",
+      "description": "Hash-chained observations of bytes actually downloaded; not publisher signatures.",
+      "format": "json"
+    },
+    {
       "path": "/api/trending",
       "description": "Extensionless alias of /api/trending.json (Phase 16).",
       "format": "json"

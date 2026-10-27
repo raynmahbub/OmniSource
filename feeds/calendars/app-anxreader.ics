@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Anx Reader releases
+BEGIN:VEVENT
+UID:anxreader-1.14.0@omnisource
+DTSTAMP:20260319T000000Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:Anx Reader v1.14.0
+DESCRIPTION:Anx Reader 1.14.0 | Anx-Reader-ios-1.14.0-unsigned\n\n## 1.14.0
+ \n- Fix(translate): Remove legacy Microsoft reverse-engineered translation
+  service and migrate saved full-text translation preference to Microsoft A
+ zure API\n- Fix(l10n): Remove legacy Microsoft translation localization en
+ tries\n- Feat(ai): Support separate AI reasoning content with lightweight 
+ collapsible thinking UI in chat and stream views (#787)\n- Feat(reader): A
+ dd background image fit mode setting with cover and stretch options\n- Fea
+ t(appearance): Add setting to toggle action button labels visibility in se
+ lection context menu\n- Feat(reader): Add background image blur and opacit
+ y controls in reading settings (#753)\n- Feat(tts): Add Narrator option to
+  text selection toolbar to start TTS from selected text (#794) Thanks @des
+ kangel\n- Feat(tts): Add click to pause/resume TTS playback on currently r
+ eading text (#794) Thanks @deskangel\n- Feat(tts): Add floating action but
+ ton in reader for quick TTS controls (previous\, pause/resume\, next\, sto
+ p) (#723)\n- Feat(reader): Add Ctrl+[ and Ctrl+] page turning shortcuts on
+  macOS\, support Logitech Options+ mouse button mapping (#794) Thanks @des
+ kangel\n- Feat(ai): Add global AI RPM rate limiting in AI service layer\n-
+  Feat(ai): Add AI Provider Configuration Center with support for OpenAI-co
+ mpatible\, Claude\, and Gemini protocols\n- Feat(ai): Support multiple API
+  keys per provider with round-robin rotation\n- Feat(ai): Add provider-lev
+ el reasoning_effort configuration with auto mode and advanced settings ent
+ ry\n- Feat(ai): Add provider test connection with streaming preview\n- Fea
+ t(ai): Add AI chat display mode settings with adaptive\, split\, and popup
+  options\n- Feat(ai): Add resizable AI panel with drag to resize\, sizes p
+ ersisted\n- Feat(ai): Add AI panel position settings (bottom/right) for no
+ n-popup modes\n- Feat(ai): Add font size setting for AI chat via three-dot
+  menu\n- Feat(ai): Add quick model switcher in AI chat input bar (tune ico
+ n button)\n- Feat(ai): Add model picker in pr
+URL:https://raynmahbub.github.io/OmniSource/feeds/anxreader.json
+END:VEVENT
+END:VCALENDAR

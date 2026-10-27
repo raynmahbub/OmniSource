@@ -8,6 +8,7 @@ single app in any RSS reader.
 from __future__ import annotations
 
 import html
+import re
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from typing import Any
@@ -164,7 +165,16 @@ def _render_channel(
         esc_title = html.escape(item["title"])
         esc_link = html.escape(item["link"])
         esc_guid = html.escape(item["guid"])
-        esc_desc = f"<![CDATA[{item['description']}]]>"
+        # Preserve changelog whitespace without emitting trailing whitespace in
+        # generated XML. Split CDATA around both its terminator and character
+        # references; an XML reader still sees the original spaces and tabs.
+        item_description = str(item["description"]).replace("]]>", "]]]]><![CDATA[>")
+        item_description = re.sub(
+            r"[ \t]+(?=\n|$)",
+            lambda match: "]]>" + "".join("&#32;" if c == " " else "&#9;" for c in match.group()) + "<![CDATA[",
+            item_description,
+        )
+        esc_desc = f"<![CDATA[{item_description}]]>"
         enclosure = ""
         if item.get("download_url"):
             esc_dl = html.escape(item["download_url"])
@@ -232,7 +242,9 @@ def render_app_rss_feed(
     return _render_channel(
         title=f"{app.name} — Releases",
         link=f"{base}/feeds/{app.slug}.json",
-        description=(f"Release feed for {app.name} within {source_name}, curated from official upstream sources."),
+        description=(
+            f"Release feed for {app.name} within {source_name}, curated from its recorded distribution source."
+        ),
         self_link=f"{base}/feeds/{app.slug}.xml",
         items=items,
     )

@@ -56,6 +56,20 @@
         "https://repo.ikghd.me/depictions/me.ikghd.inkplus/screenshots/2.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.inkplus/screenshots/4.PNG"
       ],
+      "minOSVersion": "16.3",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "application-identifier",
@@ -108,9 +122,11 @@
           "notes": "Resolved from the developer's own AltStore source at repo.ikghd.me."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
           "lastUpdatedAt": "2026-10-14"
         }
       }

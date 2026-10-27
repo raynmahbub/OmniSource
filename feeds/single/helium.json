@@ -54,6 +54,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "helium",
         "status": "unmaintained",
@@ -86,8 +100,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa",
           "lastUpdatedAt": "2024-02-13"
         }
       }

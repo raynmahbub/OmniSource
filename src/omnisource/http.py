@@ -28,6 +28,36 @@ from omnisource.errors import ProviderError
 from omnisource.logutil import log
 
 
+class _SafeRedirect(urllib.request.HTTPRedirectHandler):
+    """Never forward credentials to a different origin or outside their rule."""
+
+    def __init__(self, auth_rules: tuple[AuthRule, ...]) -> None:
+        super().__init__()
+        self.auth_rules = auth_rules
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):  # type: ignore[no-untyped-def]
+        old = urllib.parse.urlsplit(req.full_url)
+        new = urllib.parse.urlsplit(newurl)
+        if old.scheme == "https" and new.scheme != "https":
+            raise urllib.error.HTTPError(req.full_url, code, "refusing HTTPS downgrade", headers, fp)
+        redirected = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if redirected is None:
+            return None
+        old_origin = (old.scheme, old.hostname, old.port)
+        new_origin = (new.scheme, new.hostname, new.port)
+        sensitive = {"authorization", "proxy-authorization", "cookie", "private-token", "x-api-key"}
+        sensitive.update(rule.header_name.lower() for rule in self.auth_rules)
+        for name, _value in redirected.header_items():
+            lower = name.lower()
+            matching_rules = [rule for rule in self.auth_rules if rule.header_name.lower() == lower]
+            if lower in sensitive and (
+                old_origin != new_origin
+                or (matching_rules and not any(rule.matches(newurl) for rule in matching_rules))
+            ):
+                redirected.remove_header(name)
+        return redirected
+
+
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
     """Stop at the first 3xx.
 
@@ -91,6 +121,7 @@ class HttpClient:
     ) -> None:
         self.user_agent = user_agent
         self.auth_rules = auth_rules
+        self._safe_opener = urllib.request.build_opener(_SafeRedirect(auth_rules))
         self.default_timeout = default_timeout
         self.retries = max(1, retries)
         self.cache_dir = cache_dir
@@ -182,7 +213,7 @@ class HttpClient:
         follow_redirects: bool = True,
     ):
         request = urllib.request.Request(url, headers=headers, method=method)
-        opener = urllib.request.urlopen if follow_redirects else _PROBE_OPENER.open
+        opener = self._safe_opener.open if follow_redirects else _PROBE_OPENER.open
         with self._request_lock:
             self.requests += 1
         return opener(request, timeout=timeout or self.default_timeout)
@@ -269,7 +300,9 @@ class HttpClient:
         """
         if not is_http_url(url):
             raise ProviderError(f"invalid HTTP(S) URL: {url}")
-        headers = self._auth_headers(url)
+        # Binary URLs may redirect to third-party CDNs. They are always fetched
+        # anonymously, even when a URL happens to match an API auth rule.
+        headers = {"User-Agent": self.user_agent}
         return self._open(url, headers=headers, timeout=timeout)
 
     def probe(self, url: str, *, timeout: float = 12.0, retries: int = 2) -> ProbeResult:

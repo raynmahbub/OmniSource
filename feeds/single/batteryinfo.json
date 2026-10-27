@@ -54,6 +54,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "12.2",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "batteryinfo",
         "status": "stable",
@@ -86,8 +100,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
           "lastUpdatedAt": "2025-07-09"
         }
       }

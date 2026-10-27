@@ -159,6 +159,20 @@
       "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/iphoneScreenshots/2_editor.png",
       "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/iphoneScreenshots/4_settings.png"
     ],
+    "minOSVersion": "15.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "saber",
       "status": "stable",
@@ -190,9 +204,11 @@
         "notes": "Official unsigned IPA (Saber_v<version>.ipa) from the developer's GitHub releases; 1.x targets iOS 15. Also available on the App Store under the same bundle identifier."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
         "lastUpdatedAt": "2026-10-24"
       }
     },

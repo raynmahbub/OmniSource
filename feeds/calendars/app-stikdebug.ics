@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:StikDebug releases
+BEGIN:VEVENT
+UID:stikdebug-3.1.15@omnisource
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:StikDebug v3.1.15
+DESCRIPTION:StikDebug 3.1.15 | StikDebug-3.1.15\n\n**Full Changelog**: http
+ s://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\nAttempt to fix
+  ServiceNotFound errors\, add debugging
+URL:https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json
+END:VEVENT
+BEGIN:VEVENT
+UID:stikdebug-3.1.14@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:StikDebug v3.1.14
+DESCRIPTION:StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Fu
+ ll Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.
+ 1.14
+URL:https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json
+END:VEVENT
+END:VCALENDAR

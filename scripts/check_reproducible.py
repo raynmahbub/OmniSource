@@ -60,12 +60,18 @@ TRACKED_PATTERNS = (
     "feeds/*.json",
     "feeds/*.gz",
     "feeds/*.xml",
+    "feeds/*.ics",
+    "feeds/calendars/*.ics",
+    "feeds/filtered/*.xml",
     # OmniStore Pro contract (generated into feeds/api/v2/ by the pipeline).
     "feeds/api/v2/*.json",
     "feeds/api/v2/apps/*.json",
+    "feeds/api/v2/apps/*/versions.json",
+    "feeds/variants/*.json",
     "apps/*/index.html",
     "compare/*/index.html",
     "collections/*/index.html",
+    "ipa-downloader/index.html",
     # Monitoring ledger: latest.json is deterministic (only generatedAt is
     # volatile, normalized below); history.json only gains a row when the
     # build state actually changes, and the "history" normalizer covers
@@ -81,6 +87,8 @@ TRACKED_PATTERNS = (
     "api/v2/*.gz",
     "api/v2/apps/*.json",
     "api/v2/apps/*.gz",
+    "api/v2/apps/*/versions.json",
+    "api/v2/apps/*/versions.json.gz",
     "api/*",
     "api/v2/*",
     "api/v2/apps/*",
@@ -120,9 +128,10 @@ def _matches(path: str, pattern: str) -> bool:
         # Direct children only (e.g. the api/ mirror including its gz twins).
         prefix = pattern[:-2]
         return path.startswith(prefix + "/") and path.count("/") == prefix.count("/") + 1
-    if "*" in pattern and "/" not in pattern:
-        # Root-level glob (e.g. the flat feed copies at the repository root).
-        return "/" not in path and fnmatch.fnmatch(path, pattern)
+    if "*" in pattern:
+        # Remaining patterns include nested generated documents, such as
+        # api/v2/apps/<slug>/versions.json. Keep path depth exact.
+        return path.count("/") == pattern.count("/") and fnmatch.fnmatchcase(path, pattern)
     return path == pattern
 
 

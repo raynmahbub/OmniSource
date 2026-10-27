@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>other releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-other.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AnymeX v3.1.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/anymex.json</link>
+      <guid isPermaLink="false">anymex-3.1.9</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[AnymeX 3.1.9 | AnymeX-iOS-v3.1.9
+
+### 🆕 Changelog
+### 🌟 Features
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/80f279c6) enhanced downloads ui and ux by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9c04ca66) runtime bridge support for IOS (thanks to dartotsu) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9a109267) mpv config, some fixes and ui changes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/538c3538) torrent download support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/55b6b13f) online subtitles back again by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/07b88757) audio delay support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/429a43ee) cold cache for instant load by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/1a21ab40) network settings (dns, proxy, tls ts) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5d44cc54) donation page for my broke ass by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b6131248) markdown, reply support, moderation tools, and settings UI notifications & unread badges (comments) (#416) by @Shebyyy
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5c6465d5) kotatsu, aniyomi backup support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/8346d033) backup and restore full support by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/3bc096c2) addons support (torrent) = practically nothing changes just 1 extra step for torrent by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/6a91e1ef) dock drag-to-reorder and history card poster navigation to details (#595) by @Shebyyy
+
+
+### 🔧 Bug Fixes & Improvements
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/e4d0b981) fixed duplicate media entry, nearest download bug, overall enhancement by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/fb6b505a) fixed ios flashing during navigation by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/eba12ae1) fixed abrupt crashes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/2d28d284) fixed cancelling downloads still running in background by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/f158ab90) fixed cf backing out on its own by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/511910e9) fixed random crashes by sources by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b61a3b8b) guarding class members and backup backward compatibility patch by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/45b1b544) fixed ios discord login issue and auto save al settings by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5d82148d) fixed romaji title on details and offline media when english is selected by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/7d092307) fixed comments showing input for non logged in user, bad lifecycle causing grey screens by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/296a2787) proper error handler on anime and manga pages by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/4e7fb2e7) fixed syntax issue by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b000bd37) fixed deleting media not working sometime by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/f207ce8e) improved dc rich presence fixed some issues by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9672d46b) progress not syncing when reading offline manga fixed by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/cda59ce9) repeating status change fix when reading by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/4f64fe02) series type mismatch on simkl by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/7e1f4617) fixed offline reader crash by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/bf46b551) fixed login crash, torrserver issues by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b2665f9c) ui changes and fixes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/abd9fbaa) comments fixes and perf changes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b7d43799) TV ts by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/34121972) fixed comment minimze on action presses by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/19fb988d) incognito fixes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/7791e409) watchium comeback (#582) by @Rieversed
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/5a455b59) fixed progress tracking of novels by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/a88d21dd) fixed novels tweaking by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/435ee7ef) potential crash fixes by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/cc44321c) fixed some new cs sources not working by @RyanYuuki
+
+
+### 🎨 Style Changes
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9b373664) minor ui tweaks for desktop by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/92cf09df) minor ui tweak on add ons page by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b7b3d137) fixed some styling issue in account page by @RyanYuuki
+
+
+### 🚀 Performance Improvements
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/0acd3d03) some performance fixes by @RyanYuuki
+
+
+### 🧹 Chores & Documentation
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/bc6e8a61) bump version to v3.1.9 (patch release) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/f638e950) update sideloading source by @ghost
+
+
+![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.1.9/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)]]></description>
+      <enclosure url="https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Aidoku v0.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/aidoku.json</link>
+      <guid isPermaLink="false">aidoku-0.9</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Aidoku 0.9 | Aidoku
+
+A small build update for 0.9 with a number of bug fixes.
+
+- Fixed some pages not loading in webtoon reader
+- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)
+- Fixed crash when searching anywhere in the macOS app
+- Various other bug fixes]]></description>
+      <enclosure url="https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mangayomi v0.9.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
+      <guid isPermaLink="false">mangayomi-0.9.9</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mangayomi 0.9.9 | Mangayomi-v0.9.9-ios
+
+## What's Changed
+* fix(extension): enable mobile code copy by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1039
+* fix(reader): restore double-tap zoom toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037
+* feat(player): add hold-and-slide speed selector by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1038
+* fix(http): drop the quotes Linux wraps the saved user agent in by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1036
+* fix(security): show what deep links install and keep tokens out of sh… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1041
+* chore: await dropped writes, add guard lints, localize hardcoded strings by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1042
+* refactor: move the tracker library cache from Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1043
+* refactor: split large widget files and remove duplicated code by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044
+* Try to fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1035
+* Add a protected HLS proxy for extension playback by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1040
+* Fix reader by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051
+* fix(mobile): improve player controls and error handling by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1047
+* fix(restore): improve error handling and reporting during restore ope… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1052
+* fix(reader): pan a zoomed webtoon page without losing double tap by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1054
+* ci: run the test suite on pull requests and main by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056
+* Use neutral icons for extension repositories by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1045
+* Add western recommendations and trustworthy watch orders by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1050
+* Refine portrait player controls by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1058
+* fix: recognise "T1" seasons and "Episodio" episodes by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1060
+* Hide settings, that the user disabled by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1059
+* fix(tv): make Browse overscan safe and focus reachable by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1061
+* add useful comments to extension template by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1057
+
+
+**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.8...v0.9.9]]></description>
+      <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mangayomi v0.9.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
+      <guid isPermaLink="false">mangayomi-0.9.8</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios
+
+## What's Changed
+* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024
+* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030
+* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026
+* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027
+* Improve LNReader extension compatibility
+* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031
+* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032
+
+## New Contributors
+* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024
+* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026
+* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031
+
+**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8]]></description>
+      <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Otraku v1.13.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/otraku.json</link>
+      <guid isPermaLink="false">otraku-1.13.1</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Otraku 1.13.1 | Otraku-v.1.13.1-ios17+
+
+- Added localizations support.
+- Added Turkish localization (thanks @kyoyacchi).
+- Unfinished messages are persisted in storage, so mistakenly closing the sheet won't cause you to loose your progress (thanks @0-BlackSpectrum-0).
+- Added progress and repeats info to the following tab in the media page. (thanks @0-BlackSpectrum-0).
+- Added "Watchable On"/"Readable On" filter in discover filters for anime/manga.
+- Added support for underline formatting.
+- Added support for the "Same Universe" media relation.
+- Made all markdown content selectable: activities, replies, threads, comments, user/character/staff bios, reviews and media descriptions.
+- Expanded images now have a menu with buttons to download the image or share it (thanks @0-BlackSpectrum-0).
+- The copy button in the link sheet was replaced by a share button.
+- Fixed the last item in the collection list sheet being cut off.
+- Fixed incorrect marker clipping of unread notifications (thanks @0-BlackSpectrum-0).
+- Fixed markdown not being rendered in list notes.
+- Fixed the back button briefly appearing on some tabs of the home page.]]></description>
+      <enclosure url="https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa" length="10342358" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>JellyBook v1.4.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/jellybook.json</link>
+      <guid isPermaLink="false">jellybook-1.4.1</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[JellyBook 1.4.1 | JellyBook-Release
+
+Sorry for the error in the previous version 😅
+## What's Changed
+* chore: clarifications by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/223
+* fix: fix auth headers by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/225
+
+
+**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.4.0...v1.4.1
+
+<details>
+<summary>SHA1</summary>
+<ul>
+<li><code>JellyBook-Debug-arm32.apk</code>: <code>ebbaf6954023d544454e208d0252ac8b677cf2bc</code></li>
+<li><code>JellyBook-Debug-arm64.apk</code>: <code>f89c75aaf7debf647a6862fd401209aee4417110</code></li>
+<li><code>JellyBook-Debug-x86_64.apk</code>: <code>393f2b232e60c20e339be08f2b0fe0311ef06694</code></li>
+<li><code>JellyBook-Debug.aab</code>: <code>924fa1c6f34072205884366522c428e394f62ec7</code></li>
+<li><code>JellyBook-Debug.apk</code>: <code>29f8f3b49a9704745947251d24dfee5ed17eb67e</code></li>
+<li><code>JellyBook-Debug.ipa</code>: <code>2ead28016efc584defd6ea6d7e6c9f9cd9627aa6</code></li>
+<li><code>JellyBook-Release-arm32.apk</code>: <code>0587957d7a109283f0b31cc4bd8d634a6f9cff06</code></li>
+<li><code>JellyBook-Release-arm64.apk</code>: <code>48568af90caa5e67387b35ab7567f356ac8f43cc</code></li>
+<li><code>JellyBook-Release-x86_64.apk</code>: <code>0f3230be1ced4c74f7483e08ec08a247fc3fe650</code></li>
+<li><code>JellyBook-Release.aab</code>: <code>f3256e5c70f8bd09cbadc6f142cbb5949966a2d6</code></li>
+<li><code>JellyBook-Release.apk</code>: <code>030e3ec3aece59a66340f7784c3165650a27d4dc</code></li>
+<li><code>JellyBook-Release.ipa</code>: <code>f3a3c8b10b7538442b65a97f037f6e42a43deba3</code></li>
+</ul>
+</details>]]></description>
+      <enclosure url="https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa" length="14640159" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Hanami v0.28.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/hanami.json</link>
+      <guid isPermaLink="false">hanami-0.28.2</guid>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[Hanami 0.28.2 | Hanami
+
+# Fixes
+- fixed crash #10
+- bump package versions]]></description>
+      <enclosure url="https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa" length="6305751" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>AirTroller v1.1.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/airtroller.json</link>
+      <guid isPermaLink="false">airtroller-1.1.1</guid>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      <description><![CDATA[AirTroller 1.1.1 | TrollStore
+
+- Fix a slow send bug introduced in 1.1
+
+♡ Support - https://ko-fi.com/sourcelocation]]></description>
+      <enclosure url="https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa" length="782388" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

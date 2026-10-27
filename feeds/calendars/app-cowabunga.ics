@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Cowabunga releases
+BEGIN:VEVENT
+UID:cowabunga-10.3.2@omnisource
+DTSTAMP:20230529T000000Z
+DTSTART;VALUE=DATE:20230529
+DTEND;VALUE=DATE:20230530
+SUMMARY:Cowabunga v10.3.2
+DESCRIPTION:Cowabunga 10.3.2 | Cowabunga\n\n- Changing carrier bar strength
+  now works when you do not have a sim card (or dual sim for secondary carr
+ ier)
+URL:https://raynmahbub.github.io/OmniSource/feeds/cowabunga.json
+END:VEVENT
+END:VCALENDAR

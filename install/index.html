@@ -218,16 +218,39 @@
       </div>
     </section>
 
+    <section class="panel st-panel" id="variantPicker" aria-labelledby="variantHeading" style="margin-bottom:24px">
+      <h2 id="variantHeading">Choose an alternative in your source</h2>
+      <p class="text-muted">Each optional feed keeps one app from the selected shared bundle group and the rest of the catalog. Other bundle collisions remain. The master feed is unchanged; signing can still prevent side-by-side installation.</p>
+      <div class="device-profile-form mt-3">
+        <label>Shared bundle <select name="group" aria-label="Shared bundle group"></select></label>
+        <label>App <select name="choice" aria-label="App alternative"></select></label>
+        <a class="button small" data-variant-link href="#" hidden>Open source</a>
+        <button class="button small" type="button" data-variant-copy disabled>Copy source URL</button>
+      </div>
+      <p class="text-mono text-xs" data-variant-url>Loading alternatives…</p>
+      <p role="status" data-variant-message></p>
+    </section>
+    <section class="panel st-panel" id="sourceMigration" aria-labelledby="migrationHeading" style="margin-bottom:24px">
+      <h2 id="migrationHeading">Compare another source</h2>
+      <p class="text-muted">Compare bundle IDs locally in your browser. A shared bundle can identify alternative builds, not an exact match. URLs are fetched only when you ask; sources that block cross-origin access can be supplied as a JSON file instead. Files are not uploaded.</p>
+      <form class="device-profile-form">
+        <label>Source HTTPS URL <input type="url" name="sourceUrl" placeholder="https://example.com/source.json"></label>
+        <label>Or a local JSON file <input type="file" name="sourceFile" accept="application/json,.json"></label>
+        <button class="button small" type="submit">Compare sources</button>
+      </form>
+      <p role="status" data-migration-status></p>
+      <ul data-migration-results></ul>
+    </section>
     <section class="panel st-panel" aria-label="Good to know" style="margin-bottom:56px">
       <h2>Good to know</h2>
       <div class="grid-2 mt-3" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
         <div class="stack-sm">
-          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Re-signing cadence.</b> A free Apple Account re-signs every 7 days and holds two apps beside the client itself; a paid developer account extends that to 90 days. AltStore and SideStore refresh for you — AltStore over Wi-Fi via its desktop companion, SideStore on-device through its local VPN. Feather and ESign sign on demand, so re-signing an app that ran out of days is a manual tap. Apps installed inside LiveContainer ride on its signature instead of using a slot of their own.</p>
-          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Shared bundle IDs.</b> YouTube-family apps (YTLite, YouPro, uYouEnhanced…) share one bundle identifier — installing a new one replaces the previous. The catalog flags these conflicts.</p>
+          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Re-signing cadence.</b> A free Apple Account commonly needs a refresh after about 7 days. Other signing certificates have different limits; check your client and certificate for the actual expiry. AltStore and SideStore refresh for you — AltStore over Wi-Fi via its desktop companion, SideStore on-device through its local VPN. Feather and ESign sign on demand, so re-signing an app that ran out of days is a manual tap. Apps installed inside LiveContainer ride on its signature instead of using a slot of their own.</p>
+          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Shared bundle IDs.</b> YouTube-family apps (YTLite, YouPro, uYouEnhanced…) may share a bundle identifier — installing another can conflict with or replace the previous app, depending on signing. The catalog flags these conflicts.</p>
         </div>
         <div class="stack-sm">
-          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Updates.</b> Every six hours the pipeline re-syncs from official upstreams, re-probes all downloads and publishes new feeds. Your client picks up new versions the next time it checks the source.</p>
-          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Trust.</b> Each entry shows its verification level, checksum (when published by upstream) and exact provenance. Broken links are reported automatically to a tracking issue.</p>
+          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Updates.</b> The pipeline periodically checks the recorded official and community sources and publishes updated feeds when available. Your client picks up new versions the next time it checks the source.</p>
+          <p class="text-muted" style="line-height:1.65"><b style="color:var(--text)">Trust.</b> Each entry shows its verification level, source attribution, available digest evidence and last recorded checks. A checksum alone is not a safety guarantee.</p>
         </div>
       </div>
     </section>
@@ -261,6 +284,8 @@
   </div>
 
   <noscript><div class="noscript">JavaScript is required for per-app install cards. Raw data: <a href="../feeds/install.json">install.json</a>.</div></noscript>
+  <script src="../js/variant-picker.js"></script>
+  <script src="../js/source-migration.js"></script>
   <script type="module" src="../js/modules/install.js"></script>
   <!-- i18n-keys: hero.copySource -->
 </body>

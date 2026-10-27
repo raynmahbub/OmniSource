@@ -86,6 +86,7 @@
         "localizedDescription": { "type": "string" },
         "screenshots": { "type": "array", "items": { "type": "string", "format": "uri" } },
         "featured": { "type": "boolean" },
+        "archive": { "type": "boolean", "description": "Opt in to a separately authorized local archive; does not publish or imply redistribution rights." },
         "status": {
           "enum": ["stable", "beta", "manual", "unmaintained", "deprecated"]
         },
@@ -116,6 +117,10 @@
               ]
             },
             "publisher": { "type": "string", "minLength": 1 },
+            "provenance": {
+              "enum": ["official", "community", "unknown"],
+              "description": "Reviewed attribution of the IPA distributor, not a binary safety or signature guarantee."
+            },
             "codeSigned": { "type": "boolean" },
             "checksumPublished": { "type": "boolean" }
           }

@@ -111,6 +111,20 @@
       "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/2.png",
       "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/3.png"
     ],
+    "minOSVersion": "15.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "neofreebird",
       "status": "stable",
@@ -142,9 +156,11 @@
         "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x+ builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
         "lastUpdatedAt": "2026-10-16"
       }
     },

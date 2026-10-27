@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:WDBFontOverwrite releases
+BEGIN:VEVENT
+UID:wdbfontoverwrite-1.10.8@omnisource
+DTSTAMP:20230209T000000Z
+DTSTART;VALUE=DATE:20230209
+DTEND;VALUE=DATE:20230210
+SUMMARY:WDBFontOverwrite v1.10.8
+DESCRIPTION:WDBFontOverwrite 1.10.8 | WDBFontOverwrite\n\n- Updated grant_f
+ ull_disk_access.\n- Concurrency and code improvements/fixes.
+URL:https://raynmahbub.github.io/OmniSource/feeds/wdbfontoverwrite.json
+END:VEVENT
+END:VCALENDAR

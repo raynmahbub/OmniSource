@@ -102,6 +102,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "nuvio",
         "status": "stable",
@@ -134,8 +148,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
           "lastUpdatedAt": "2026-10-23"
         }
       }

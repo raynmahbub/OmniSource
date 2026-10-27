@@ -3,7 +3,7 @@
   <channel>
     <title>Saber — Releases</title>
     <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
-    <description>Release feed for Saber within OmniSource, curated from official upstream sources.</description>
+    <description>Release feed for Saber within OmniSource, curated from its recorded distribution source.</description>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/saber.xml" rel="self" type="application/rss+xml"/>
@@ -72,7 +72,7 @@ For other downloads, scroll down and find the relevant file under "Assets".
 ## Changelog
 
 - Various visual improvements, including an Adwaita-inspired navigation bar for the Linux version of Saber
-- Fixed a deduplication bug causing many copies of PDF files to be saved #1856 
+- Fixed a deduplication bug causing many copies of PDF files to be saved #1856]]>&#32;<![CDATA[
 - Fixed a bug preventing Saber from responding to light/dark mode switches on Linux
 - Full changelog: https://github.com/saber-notes/saber/compare/v1.36.2...v1.36.3]]></description>
       <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa" length="0" type="application/octet-stream" />
@@ -106,8 +106,8 @@ For other downloads, scroll down and find the relevant file under "Assets".
 
 ## Changelog
 
-- Added an Indonesian translation #1840 #1825 
-- Optimized color inversion to be much quicker #1849 
+- Added an Indonesian translation #1840 #1825]]>&#32;<![CDATA[
+- Optimized color inversion to be much quicker #1849]]>&#32;<![CDATA[
 - Fixed the AppImage's update URL #1812
 - Translations:
   - i18n: Add Indonesian README by @Yoruxyv in a3430eddf476aa0811e921e82459fe8f090d5b35

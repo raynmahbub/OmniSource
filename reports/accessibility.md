@@ -9,11 +9,38 @@ motion policy live in the design system and are noted per section.
 ## Summary
 
 - Pages scanned: **25**
-- Pages with structural findings: **0**
+- Pages with structural findings: **14**
 
 ## Findings by page
 
-No structural findings — every scanned page declares `lang`, labels its controls, keeps heading order and guards `target=_blank`.
+- `apps/3105/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/aidoku/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/airtroller/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/animationspeed/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/animegen/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/anxreader/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/anymex/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/apollo/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/appstoreplusplus/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/batteryinfo/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/battman/index.html`
+  - 1 text inputs without label/aria-label
+- `apps/bhinstagram/index.html`
+  - 1 text inputs without label/aria-label
+- `index.html`
+  - 2 text inputs without label/aria-label
+- `install/index.html`
+  - 2 text inputs without label/aria-label
 
 ## Design-system guarantees
 

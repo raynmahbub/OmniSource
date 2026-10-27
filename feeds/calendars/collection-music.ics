@@ -1,0 +1,291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Music releases
+BEGIN:VEVENT
+UID:spotiflac-5.2.6@omnisource
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Mornye v5.2.6
+DESCRIPTION:Mornye 5.2.6 | Mornye-v5.2.6-ios-unsigned\n\n### New Features\n
+ \n- **library**: Sort songs and albums by file size\n- **desktop**: Add fu
+ llscreen and borderless window modes\n- **library**: List the files a scan
+  could not read\n- **downloads**: Add custom folder path templates\n- **ne
+ twork**: Add Subsonic and OpenSubsonic support\n- **windows**: Prepare nat
+ ive ARM64 builds and packages\n- **player**: Color the current track row f
+ rom its artwork\n- **desktop**: Open the mini player on Windows and Linux\
+ n\n### Bug Fixes\n\n- **desktop**: List full screen and borderless shortcu
+ ts\n- **automix**: Verify beat alignment and hold phase through the mix\n-
+  **home**: Keep explore artwork square\n- **flutter**: Backport semantics 
+ geometry crash fix\n- **tags**: Support ID3-prefixed FLAC metadata writes\
+ n- **library**: Keep playlists accessible without local songs\n- **convers
+ ion**: Preserve quoted paths in lossy exports\n- **library**: Index songs 
+ whose tags fail to parse\n- **playback**: Allow MP3 playback with malforme
+ d ID3 tags\n- **automix**: Start the next song on the outgoing beat\n- **d
+ esktop**: Keep artist album selection and scroll position\n- **android**: 
+ Refresh media controls when track metadata changes\n- **windows**: Use the
+  MSVC coroutine deprecation macro's real name\n- **windows**: Install the 
+ libmpv license and build on MSVC 14.5x\n- **library**: Keep liked local tr
+ acks visible during cover fades\n- **windows**: Support UNC library paths 
+ and network downloads\n- **desktop**: Restore private file access after ca
+ che removal\n- **notifications**: Handle Linux launch callbacks and contai
+ n queue alerts\n- **repo**: Move the store button under the text on narrow
+  rows\n- **library**: Simplify duplicate review rows and expose load error
+ s\n- **settings**: Keep final controls clear of floating playback bars\n- 
+ **home**: Collapse the empty prompt after installing an extension\n- **lib
+ rary**: Emphasize Play in collection header actions\n- **library**: Read t
+ agless audio without losing document names\n- **desk
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytmusic-9.42.2@omnisource
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:YTMusicUltimate v9.42.2
+DESCRIPTION:YTMusicUltimate 9.42.2 | YTMusic 2.4.1 | YTMusicUltimate_9.42.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.2.1@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Mornye v5.2.1
+DESCRIPTION:Mornye 5.2.1 | Mornye-v5.2.1-ios-unsigned\n\n### New Features\n
+ \n- **onboarding**: Replace the 5.2 tour with a rebrand tour\n- **branding
+ **: Use Mornye Ink for the iOS launch screen\n- **branding**: Adopt the Mo
+ rnye logo across the app\n- **branding**: Rename app and native backend to
+  Mornye\n- **player**: Swipe up on the mini player to open Now Playing\n- 
+ **playback**: Add normalization pre-amp and track or album gain\n- **ui**:
+  Align Material screens with M3 Expressive guidance\n\n### Bug Fixes\n\n- 
+ **crash**: Reduce repeated notices and retain diagnostics\n- **player**: P
+ refer embedded art for local files over online covers\n- **startup**: Wait
+  for the Activity before backend startup calls\n- **library**: Use path in
+ dex for network scan cache lookups\n- **ui**: Align Material screens with 
+ the design guide\n- **concerts**: Give the Material concert page a Materia
+ l layout\n- **player**: Refresh late duration updates without reopening\n-
+  **home**: Match On repeat tracks to their Library entry\n- **home**: Show
+  listening sections on the Mornye Home without a feed\n- **lyrics**: Ease 
+ synced line changes with a spring scroll\n- **haptics**: Render music puls
+ es on basic motors and add tuning sliders\n- **downloads**: Embed enriched
+  artwork across audio formats\n- **artwork**: Read padded ID3 covers and r
+ epair cached previews\n- **crash**: Exclude system memory kills from crash
+  notices\n- **backup**: Reconcile restored iOS paths before publishing his
+ tory\n- **library**: Release network scan memory and cancel active metadat
+ a reads\n- **android**: Apply renderer compatibility before shared engine 
+ creation\n\n### Performance\n\n- **ui**: Improve Material and Mornye playe
+ r and library smoothness\n- **library**: Cache unchanged SMB and WebDAV sc
+ an metadata\n\n### Documentation\n\n- **readme**: Remove Related Projects 
+ section\n- **readme**: Drop heading anchors from feature cards\n\n### Chor
+ es\n\n- Update AltStore source to v5.2.0 by [@github-actions[bot]](https:/
+ /github.com/github-actions[bot])\n- **branding**: Drop rem
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.2.0@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Mornye v5.2.0
+DESCRIPTION:Mornye 5.2.0 | SpotiFLAC-v5.2.0-ios-unsigned\n\n### New Feature
+ s\n\n- **crash**: Show persistent crash reports on Home\n- **about**: Link
+  the lyrics website and service status\n- **player**: Search lyrics online
+  for files without them\n- **lyrics**: Add lrc.red and BetterLyrics\, spli
+ t SpotiFLAC-Mobile Lyrics\n- **home**: Greet in the header and gather list
+ ening shortcuts\n- **onboarding**: Introduce the 5.2 release tour\n- **lib
+ rary**: Add adaptive icons to collection tabs\n- **home**: Localize greeti
+ ngs and address profile names\n- **home**: Expose extension country settin
+ gs and isolate regional caches\n- **lyrics**: Refresh quote sharing and lo
+ ad lyrics on demand\n- **android**: Refresh launcher widgets with adaptive
+  expressive layouts\n- **player**: Add configurable full-screen cover art\
+ n- **player**: Synchronize music haptics with local playback\n- **lyrics**
+ : Share lyric cards and refine timed vocal transitions\n- **player**: Show
+  audio source processing and output details\n- **equalizer**: Add multiban
+ d EQ and per-player native audio processing\n- **autoplay**: Enable person
+ alization by default and confirm learning resets\n- **a11y**: Label contro
+ ls and improve settings contrast and targets\n- **i18n**: Add player featu
+ re text and clarify built-in playback\n- **loading**: Align skeletons with
+  collection and extension layouts\n- **player**: Share volume controls acr
+ oss Material and Mornye\n- **rewind**: Add yearly highlights and seasonal 
+ library banners\n- **forms**: Adopt expressive inputs with consistent form
+  state\n- **ui**: Add themed menus and adaptive checkbox rows\n- **ui**: U
+ nify content cards and preserve press behavior\n- **layout**: Adapt tablet
+  navigation and center wide content\n- **listening**: Show a skeleton whil
+ e statistics load\n- **listening**: Add Rewind highlights and refresh stat
+ istics\n- **player**: Refine mini-player and queue feedback\n- **library**
+ : Add sectioned browsing and adaptive fast scrolling\n- **material**: Unif
+ y progress and surface transitions\n- **material*
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:byetunes-2.6@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:ByeTunes v2.6
+DESCRIPTION:ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix\n\n# ByeTunes v2.6 
+ – Favorites\, Playlist Pinning & Background Downloads Reworked\n\nHi guy
+ s\, here is the 2.6 update for ByeTunes. A good amount of things got added
+ \, fixed and improved in this one. You can now properly favorite injected 
+ songs\, pin playlists from inside ByeTunes\, and keep downloads going in t
+ he background with a new Picture in Picture window. There were also a bunc
+ h of fixes around metadata\, library management and database safety.\n\n**
+ Favorites**\n\nThere are three new options inside Library Repair:\n\n- **C
+ reate Favorites Playlist** creates the Favorites playlist using the right 
+ name for your device region.\n- **Fix Missing Favorites** repairs songs in
+ jected with an older version that you already favorited but that never act
+ ually appeared in Favorites.\n- **Delete Favorites Playlist** lets you del
+ ete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards 
+ now get their store IDs during injection\, so you can favorite them right 
+ away. If the metadata fetcher finds a match\, ByeTunes uses the IDs from t
+ hat match. Songs without a match get generated IDs instead.\n\n**Quick rec
+ ommendation:** if you have older injected songs that you favorited but can
+ not find in Favorites\, run **Fix Missing Favorites** inside Library Repai
+ r.\n\n**Playlist Pinning**\n\nYou can now pin and unpin playlists from the
+  On-Device Library. Long-press a playlist or use the Pin button from insid
+ e it.\n\n**Keep in mind: pinning and unpinning these playlists needs to be
+  done through ByeTunes. The Pin option inside the Apple Music app does not
+  work for them.**\n\n**Background Downloads**\n\nBackground downloads got 
+ a big rework. ByeTunes now uses silent audio to keep downloads going in th
+ e background\, with an optional Picture in Picture window so you can see w
+ hat is happening after leaving the app.\n\nThe window shows the current so
+ ng's progress\, what is next in the queue\, and when metadata is being fet
+ ched. You can also customize it with themes\, your own co
+URL:https://raynmahbub.github.io/OmniSource/feeds/byetunes.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytmusic-9.41.2@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:YTMusicUltimate v9.41.2
+DESCRIPTION:YTMusicUltimate 9.41.2 | YTMusic 2.4.1 | YTMusicUltimate_9.41.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.1.1@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Mornye v5.1.1
+DESCRIPTION:SpotiFLAC 5.1.1 | SpotiFLAC-v5.1.1-ios-unsigned\n\n### New Feat
+ ures\n\n- **network**: Delete SMB and WebDAV tracks from the library\n- **
+ autoplay**: Add opt-in on-device recommendation learning\n- **network**: E
+ nable audio and hi-res analysis for network tracks\n- **mornye**: Animate 
+ squircle menus from their trigger\n- **lyrics**: Customize text size and a
+ nimate active lines\n- **appearance**: Support imported TTF and OTF fonts\
+ n- **lyrics**: Use Apple Music as the default lyrics provider\n- **appeara
+ nce**: Make Mornye glass outlines optional\n\n### Bug Fixes\n\n- **mornye*
+ *: Strengthen held navigation glass refraction\n- **notifications**: Show 
+ indeterminate scans without false zero percent\n- **library**: Retire dele
+ ted downloads and stale completion cards\n- **mornye**: Unify held navigat
+ ion glass contour\n- **mornye**: Hide custom font setting icon\n- **ios**:
+  Preserve folder grants and surface picker failures\n- **mornye**: Animate
+  queue removal icon with swipe progress\n- **l10n**: Use Indonesian wordin
+ g for the built-in player\n- **ci**: Locate Discord license notices inside
+  the iOS plugin framework\n- **webdav**: Retain tracks across equivalent p
+ arent URI encodings\n- **library**: Collapse selection actions before dism
+ issing\n- **mornye**: Honor forced glass with increased system contrast\n-
+  **automix**: Ease effects into playback without cutting dry audio\n- **li
+ brary**: Exclude inactive NAS entries and file aliases from duplicates\n- 
+ **library**: Allow choosing duplicate copies and clear stale indexes\n- **
+ playlists**: Preserve repeated tracks during imports\n- **playback**: Relo
+ ad audio sources when switching tracks\n- **ios**: Restore lock screen con
+ trols across app transitions\n- **downloads**: Preserve browser verificati
+ on and queues across restarts\n- **setup**: Recover folder permissions aft
+ er Android restarts\n- **library**: Bound path-key migration batches\n- **
+ library**: Sync local album play and pause controls\n- **metadata**: Prese
+ rve original artwork resolution for SAF files\n- **
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:spotiflac-5.1.0@omnisource
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Mornye v5.1.0
+DESCRIPTION:SpotiFLAC 5.1.0 | SpotiFLAC-v5.1.0-ios-unsigned\n\n### New Feat
+ ures\n\n- **library**: Expand audio format and ReplayGain filters\n- **pla
+ yer**: Warn when muted and allow manual resume\n- **native**: Add cancella
+ ble data workers and streamed file hashing\n- **playback**: Automate mute 
+ and headphone playback controls\n- **player**: Show mixing status beside a
+ udio quality\n- **automix**: Add configurable duration and transition effe
+ cts\n- **lyrics**: Add staggered spring motion to visible rows\n- **build*
+ *: Require Discord in production and keep Lite opt-in\n- **settings**: Def
+ ault to built-in playback and word-synced lyrics\n- **network**: Add SMB a
+ nd WebDAV libraries with streaming and uploads\n- **statistics**: Show cov
+ er artwork and artists for top tracks\n- **mornye**: Restore liquid glass 
+ with continuous draggable navigation\n- **discord**: Add opt-in mobile ric
+ h presence with track artwork\n- **extensions**: Support personal account 
+ forms and direct downloads\n- **playback**: Add local listening statistics
+  and annual recap\n- **library**: Show recent releases from favorite artis
+ ts\n- **library**: Add batch playlist and queue actions\n- **library**: Fi
+ lter albums with missing tracks\n\n### Bug Fixes\n\n- **repo**: Retry init
+ ialization before adding a registry\n- **storage**: Preserve extension enc
+ ryption keys on read failures\n- **extensions**: Retain packages with unre
+ adable settings\n- **downloads**: Finalize album ReplayGain after history 
+ is saved\n- **downloads**: Preserve actual provider audio format\n- **lyri
+ cs**: Treat placeholder zero timestamps as unsynced\n- **library**: Retry 
+ transient SQLite locks before scan transactions\n- **riverpod**: Remove pu
+ blic notifier getters\n- **queue**: Merge startup additions before persist
+ ence and processing\n- **library**: Stage native scans before owner SQLite
+  publication\n- **cache**: Prune detached projections under source writer 
+ barrier\n- **backup**: Publish native restores through owning SQLite conne
+ ction\n- **sqlite**: Isolate native staging from l
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
+END:VEVENT
+BEGIN:VEVENT
+UID:ytmusic-9.40.2@omnisource
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:YTMusicUltimate v9.40.2
+DESCRIPTION:YTMusicUltimate 9.40.2 | YTMusic 2.4.1 | YTMusicUltimate_9.40.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:maxmusic-9.37.2@omnisource
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:MaxMusic v9.37.2
+DESCRIPTION:MaxMusic 9.37.2 | YTMusic 2.4.1 | MaxMusic_2.4.1_9.37.2\n\n**Ch
+ anged**\nYouTube Music version
+URL:https://raynmahbub.github.io/OmniSource/feeds/maxmusic.json
+END:VEVENT
+BEGIN:VEVENT
+UID:cosmos-1.2.5@omnisource
+DTSTAMP:20260908T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Cosmos Music Player v1.2.5
+DESCRIPTION:Cosmos Music Player 1.2.5 | Cosmos-Music-Player\n\n- Search is 
+ now available across songs\, favorites\, artists\, albums\, and playlists.
+ \n- Lyrics have been redesigned with smoother synchronization\, tap-to-see
+ k\, instrumental breaks\, offline caching\, and alternate versions.\n- Add
+ ed broader support for Opus\, Ogg\, FLAC\, AAC/M4A\, DSF\, and DFF files.\
+ n- Improved playback stability\, gapless transitions\, seeking\, Bluetooth
+ \, CarPlay\, and audio interruption handling.\n- Added appearance options:
+  System\, Light\, and Dark.\n- Added controls for automatic library scan f
+ requency and artist organization.\n- Added a Create Playlist button when n
+ o playlists exist.\n- Improved artwork loading for iCloud and externally i
+ mported music.\n- Improved Siri\, widgets\, CarPlay\, and Share extension 
+ reliability.\n- Fixed library issues involving moved\, renamed\, restored\
+ , or temporarily unavailable files.\n- Added and improved translations acr
+ oss all supported languages.\n- Includes numerous performance improvements
+  and bug fixes.
+URL:https://raynmahbub.github.io/OmniSource/feeds/cosmos.json
+END:VEVENT
+END:VCALENDAR

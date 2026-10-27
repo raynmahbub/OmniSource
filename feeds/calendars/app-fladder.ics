@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Fladder releases
+BEGIN:VEVENT
+UID:fladder-0.11.1@omnisource
+DTSTAMP:20260908T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Fladder v0.11.1
+DESCRIPTION:Fladder 0.11.1 | Fladder-iOS-0.11.1\n\n<!-- Release notes gener
+ ated using configuration in .github/release.yml at v0.11.1 -->\n\n## What'
+ s Changed\nRelease is v0.11.1 is a hot-fix release for v0.11.0 mainly fixi
+ ng local network connections not working on Android. Besides that the chan
+ gelog remains the same.\n\n## Music playback\n\nMusic playback has finally
+  arrived after a long time.\n\n<img height="480" alt="music_dashboard" src
+ ="https://github.com/user-attachments/assets/a5f829d2-bd65-4502-b06f-7c55b
+ f465b58" />\n\nThe music dashboard can be accessed by long pressing the ho
+ me button and selecting music dashboard.\n\nIncluding the following featur
+ es\n- Music dashboard\n- Gapless playback\n- Volume normalization\n- Fade 
+ in/out when pausing and switching tracks that are not in the same album\n-
+  Lyrics\n- Syncing of playlist albums tracks etc.\n\nThe music playback is
+  probably best considered to be in beta. While everything works there can 
+ and will be small bugs/annoyances. For AndroidTV navigation of the player 
+ controls are a bit cumbersome and will be improved along with other dPad i
+ mprovements\n\n## Picture-in-Picture\n<img  height="480" alt="pip" src="ht
+ tps://github.com/user-attachments/assets/b808c9b7-c4f2-43e4-9f4d-3bcab96b9
+ f36" />\n\n## Filters 2.0 + Library search improvements\nThe filters in th
+ e library search view have now been improved. Besides a lot of small bugfi
+ xes\, more settings are now saved. \n- Allow setting filters for specific 
+ folders inside libraries not just libraries themselves\n- Add any saved fi
+ lter to the side navigation bar\n- Setting a "default/favorite" filter tha
+ t applies instead of the default behavior for that library.\n\n## Ambient 
+ blur\nFor the people that don't like black-bars around their videos there 
+ is now the option to enable "ambient blur" this generates a YouTube "theat
+ her" like blur around videos.\n\n##\n\n### Exciting New Features 🏕\n* f
+ eat: Add hotkeys to step through frames by @peanut250 in https://github.co
+ m/DonutWare/Fladder/pull/928\n* feat: Add hotkeys for inst
+URL:https://raynmahbub.github.io/OmniSource/feeds/fladder.json
+END:VEVENT
+END:VCALENDAR

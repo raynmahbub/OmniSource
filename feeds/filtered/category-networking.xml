@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networking releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-networking.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Onion Browser v3.4.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json</link>
+      <guid isPermaLink="false">onionbrowser-3.4.4</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Onion Browser 3.4.4 | OnionBrowser
+
+- Fixed crash when trying to create or edit a bookmark.]]></description>
+      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Orbot v1.14.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/orbot.json</link>
+      <guid isPermaLink="false">orbot-1.14.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Orbot 1.14.0 | Orbot
+
+- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.
+- Updated Snowflake to 2.15.1.
+- Updated Lyrebird to version 0.9.0.
+- Fixed crashes that occurred seemingly at random.
+
+**ATTENTION**: The attached binaries **do not work** without resigning them. Insofar, they're here mostly for documentary purposes. (Unfortunately, there currently seems to be no way to resign VPN apps. If you find one, please get in touch!)]]></description>
+      <enclosure url="https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Onion Browser v3.4.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json</link>
+      <guid isPermaLink="false">onionbrowser-3.4.3</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Onion Browser 3.4.3 | OnionBrowser
+
+- Updated Tor to 0.4.9.14 and OpenSSL to 3.6.5.
+- Updated Snowflake to 2.15.1.
+- Updated Lyrebird to version 0.9.0.]]></description>
+      <enclosure url="https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.3/OnionBrowser.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iTorrent v2.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/itorrent.json</link>
+      <guid isPermaLink="false">itorrent-2.2.0</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[iTorrent 2.2.0 | iTorrent
+
+## What's new:
+* Meet the new built-in VLC player. Play compatible video and audio files directly in iTorrent, even while they are still downloading.
+* Enjoy Picture in Picture, playback speeds from 0.5x to 2x, audio and subtitle track selection, precise seeking, and system media controls.
+* Take playback to a bigger screen with AirPlay or a compatible player discovered on your local network.
+* Choose how pieces are downloaded with Sequential and First & Last priority modes, making it easier to start watching sooner.
+* Select and share multiple completed files or entire folders in one go.
+
+## Improvements:
+* Refreshed the interface for iOS 26, with Liquid Glass styling, cleaner dialogs, and more polished navigation.
+* Made torrent details smoother and easier to use, with clearer download-priority controls and private-torrent information.
+* Improved media previewing so iTorrent can offer the best available player for each file.
+* Updated the torrent and media engines for better compatibility, stability, and recovery from unexpected errors.
+* Expanded and refined translations across all supported languages.
+
+## Fixes:
+* Fixed cases where magnet links could be saved incorrectly.
+* Fixed a startup race condition that could interfere with launching the app or completing initial setup.
+* Fixed toolbars and navigation behaving incorrectly in iPad split-screen mode.
+* Fixed RSS downloads returning to the wrong screen.
+* Fixed torrent details sometimes getting stuck in a continuous update loop.
+* Fixed several playback, AirPlay, and local-device connection issues.
+
+**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.1.1-1...v2.2.0-1]]></description>
+      <enclosure url="https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa" length="24288935" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Gopeed v1.9.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/gopeed.json</link>
+      <guid isPermaLink="false">gopeed-1.9.3</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Gopeed 1.9.3 | Gopeed-v1.9.3-ios
+
+<table>
+  <tbody>
+    <tr>
+      <td rowspan="4">🪟 Windows</td>
+      <td rowspan="2"><code>EXE</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-amd64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-arm64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><code>Portable</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-amd64-portable.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-arm64-portable.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="3">🍎 MacOS</td>
+      <td rowspan="3"><code>DMG</code></td>
+      <td>universal</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-macos.dmg">📥</a></td>
+    </tr>
+    <tr>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-macos-amd64.dmg">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-macos-arm64.dmg">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="6">🐧 Linux</td>
+      <td><code>Flathub</code></td>
+      <td>amd64</td>
+      <td><a href="https://flathub.org/apps/com.gopeed.Gopeed">📥</a></td>
+    </tr>
+    <tr>
+      <td><code>SNAP</code></td>
+      <td>amd64</td>
+      <td><a href="https://snapcraft.io/gopeed">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><code>DEB</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-amd64.deb">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-arm64.deb">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><code>AppImage</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-amd64.AppImage">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-arm64.AppImage">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="4">🤖 Android</td>
+      <td rowspan="4"><code>APK</code></td>
+      <td>universal</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android.apk">📥</a></td>
+    </tr>
+    <tr>
+      <td>armeabi-v7a</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android-armeabi-v7a.apk">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64-v8a</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android-arm64-v8a.apk">📥</a></td>
+    </tr>
+    <tr>
+      <td>x86_64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android-x86_64.apk">📥</a></td>
+    </tr>
+    <tr>
+      <td>📱 iOS</td>
+      <td><code>IPA</code></td>
+      <td>universal</td>
+      <td><a href="https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-ios.ipa">📥</a></td>
+    </tr>
+    <tr>
+      <td>🐳 Docker</td>
+      <td>-</td>
+      <td>universal</td>
+      <td><a href="https://hub.docker.com/r/liwei2633/gopeed">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">💾 Qnap</td>
+      <td rowspan="2"><code>QPKG</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-v1.9.3-qnap-amd64.qpkg">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-v1.9.3-qnap-arm64.qpkg">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="8">🌐 Web</td>
+      <td rowspan="3"><code>Windows</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-windows-amd64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-windows-arm64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>386</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-windows-386.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><code>MacOS</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-macos-amd64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-macos-arm64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td rowspan="3"><code>Linux</code></td>
+      <td>amd64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-linux-amd64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>arm64</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-linux-arm64.zip">📥</a></td>
+    </tr>
+    <tr>
+      <td>386</td>
+      <td><a href="https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-linux-386.zip">📥</a></td>
+    </tr>
+  </tbody>
+</table>
+
+# Release notes
+
+## 🆕 Features
+
+- feat: ed2k protocol support (important!!!) @monkeyWie (#1316)
+
+## 🐛 Bug Fixes
+
+- fix: non-range HTTP downloaded bytes exceeding total file size @monkeyWie (#1317)
+- fix: update isCreate logic for pending tasks @Roxym3 (#1314)
+- fix: update RPM icon path @monkeyWie (#1309)
+
+## 📖 Document
+
+- docs: migrate docs.gopeed.com links to gopeed.com/docs equivalents @copilot-swe-agent (#1311)
+
+## 🌎 Internationalization
+
+- feat(lang): Catalan language added @kayron8 (#1303)
+- feat(lang): update Turkish translation @Hweord (#1304)
+
+# 更新日志
+
+## 🆕 新特性
+
+- feat: ed2k 协议支持 (重大特性！！！) @monkeyWie (#1316)
+
+## 🐛 Bug Fixes
+
+- fix: 不支持断点下载的 HTTP 链接下载超出文件总大小 @monkeyWie (#1317)
+- fix: 更新 isCreate 逻辑用于等待中的任务 @Roxym3 (#1314)
+- fix: 更新 RPM 图标路径 @monkeyWie (#1309)
+
+## 📖 Document
+
+- docs: 迁移 docs.gopeed.com 链接至 gopeed.com/docs @copilot-swe-agent (#1311)
+
+## 🌎 Internationalization
+
+- feat(lang): 添加加泰罗尼亚语言 @kayron8 (#1303)
+- feat(lang): 更新土耳其语言 @Hweord (#1304)]]></description>
+      <enclosure url="https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa" length="27488140" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>PikaTorrent v0.15.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/pikatorrent.json</link>
+      <guid isPermaLink="false">pikatorrent-0.15.0</guid>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[PikaTorrent 0.15.0 | PikaTorrent-v0.15.0-ios
+
+- Improved streaming performance and reliability
+- Added playable files filter
+- Multi-selection support for bulk torrent deletion
+- Initial translations and localization support
+- Support for 16KB page sizes for Android
+- Bug fixes
+
+**Full Changelog**: https://github.com/G-Ray/pikatorrent/compare/v0.14.0...v0.15.0]]></description>
+      <enclosure url="https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa" length="38053348" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iTransmission v1.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/itransmission.json</link>
+      <guid isPermaLink="false">itransmission-1.0.0</guid>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[iTransmission 1.0.0 | iTransmission
+
+The very first release of iTransmission app for iOS.]]></description>
+      <enclosure url="https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa" length="3718662" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

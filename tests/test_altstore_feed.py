@@ -87,7 +87,12 @@ class TestAltStoreFeed(unittest.TestCase):
                 "minOSVersion": "16.0",
             }
         ]
-        health = {"reachable": True, "detail": "HTTP 302", "since": "2026-09-07"}
+        health = {
+            "reachable": True,
+            "detail": "HTTP 302",
+            "since": "2026-09-07",
+            "checkedURL": "https://example.com/Mornye.ipa",
+        }
 
         rendered = render_altstore_app(self.catalog, app, versions, health)
         self.assertEqual(rendered["name"], "Mornye")
@@ -96,6 +101,48 @@ class TestAltStoreFeed(unittest.TestCase):
         self.assertEqual(rendered["downloadURL"], "https://example.com/Mornye.ipa")
         self.assertEqual(rendered["tintColor"], "1DB954")
         self.assertTrue(rendered["omnisource"]["health"]["downloadReachable"])
+
+    def test_declared_compatibility_is_emitted_without_overwriting_version_metadata(self) -> None:
+        app = App(
+            slug="demo",
+            raw={
+                "slug": "demo",
+                "name": "Demo",
+                "bundleIdentifier": "com.example.demo",
+                "developerName": "Dev",
+                "icon": "demo.png",
+                "compatibility": {
+                    "minOSVersion": "16.0",
+                    "maxOSVersion": "18.0",
+                    "devices": ["iphone"],
+                    "clients": ["altstore"],
+                },
+            },
+        )
+        versions = [
+            {
+                "version": "2.0",
+                "date": "2026-01-01",
+                "localizedDescription": "",
+                "size": 1,
+                "downloadURL": "https://example.com/v2.ipa",
+                "minOSVersion": "17.0",
+            },
+            {
+                "version": "1.0",
+                "date": "2025-01-01",
+                "localizedDescription": "",
+                "size": 1,
+                "downloadURL": "https://example.com/v1.ipa",
+            },
+        ]
+        rendered = render_altstore_app(self.catalog, app, versions, {})
+        self.assertEqual(rendered["minOSVersion"], "17.0")
+        self.assertEqual(rendered["maxOSVersion"], "18.0")
+        self.assertEqual(rendered["devices"], ["iphone"])
+        self.assertEqual(rendered["versions"][0]["minOSVersion"], "17.0")
+        self.assertNotIn("minOSVersion", rendered["versions"][1])
+        self.assertNotIn("maxOSVersion", versions[0], "renderer must not mutate state")
 
     def test_render_health_doc(self) -> None:
         raw_app = {

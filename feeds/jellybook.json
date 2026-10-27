@@ -192,6 +192,20 @@
         "https://raw.githubusercontent.com/JellyBookOrg/JellyBook/main/assets/githubImages/screenshots/Phone/SearchScreenView.png",
         "https://raw.githubusercontent.com/JellyBookOrg/JellyBook/main/assets/githubImages/screenshots/Phone/InfoScreenView.png"
       ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -228,8 +242,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa",
           "lastUpdatedAt": "2026-09-09"
         }
       }

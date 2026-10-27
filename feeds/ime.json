@@ -41,6 +41,20 @@
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
       ],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -76,7 +90,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "13.0",
@@ -100,6 +115,8 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-01",
+          "lastCheckedAt": "2026-10-21",
+          "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
           "lastUpdatedAt": "2026-09-01"
         }
       }

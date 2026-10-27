@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:StikNES releases
+BEGIN:VEVENT
+UID:stiknes-2.0.2@omnisource
+DTSTAMP:20250223T000000Z
+DTSTART;VALUE=DATE:20250223
+DTEND;VALUE=DATE:20250224
+SUMMARY:StikNES v2.0.2
+DESCRIPTION:StikNES 2.0.2 | StikNES\n\nFixed some crashes and removed the n
+ etwork requirement.
+URL:https://raynmahbub.github.io/OmniSource/feeds/stiknes.json
+END:VEVENT
+END:VCALENDAR

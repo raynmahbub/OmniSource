@@ -90,6 +90,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.6",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "bluewallet",
         "status": "stable",
@@ -122,8 +136,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa",
           "lastUpdatedAt": "2026-07-21"
         }
       }

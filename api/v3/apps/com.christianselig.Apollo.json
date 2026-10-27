@@ -147,6 +147,20 @@
       "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/main/Resources/screenshots/cloud-ai/summary-card.png",
       "https://raw.githubusercontent.com/Apollo-Reborn/Apollo-Reborn/main/img/custom.jpg"
     ],
+    "minOSVersion": "14.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "apollo",
       "status": "stable",
@@ -178,9 +192,11 @@
         "notes": "Official Apollo-Reborn builds from the project's own GitHub releases (deployment target iOS 14 per the build config). The standard variant is distributed here; the project also publishes Liquid Glass and icon variants on the same release. The long-standing Balackburn/Apollo AltStore source mirrors these same builds."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
         "lastUpdatedAt": "2026-10-25"
       }
     },

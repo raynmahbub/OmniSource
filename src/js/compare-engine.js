@@ -69,7 +69,7 @@
   // plus the breakdown for the per-row highlighting.
   function scoreApp(summary, pairData) {
     var verificationScore = { VERIFIED: 100, 'COMMUNITY VERIFIED': 75, COMMUNITY: 75, MANUAL: 50, UNVERIFIED: 25 }[summary.verificationLevel] || 30;
-    var healthScore = summary.downloadReachable ? 100 : 10;
+    var healthScore = summary.downloadReachable === true ? 100 : summary.downloadReachable === false ? 10 : 50;
     // Recency: newer is better; decay over 180 days.
     var daysAgo = 0;
     if (summary.releaseDate) {
@@ -128,8 +128,8 @@
         var w = winner === 'left' ? leftSummary : rightSummary;
         var wscore = winner === 'left' ? leftScore : rightScore;
         reasons.push(w.name + ' scores higher overall (' + wscore.overall + '/100).');
-        if (wscore.verification >= 90) reasons.push('It is fully verified.');
-        if (wscore.health >= 90) reasons.push('Its download is currently reachable.');
+        if (wscore.verification >= 90) reasons.push('Its declared source meets the catalog metadata checks.');
+        if (wscore.health >= 90) reasons.push('Its download was reachable at the last recorded check.');
         if (wscore.recency >= 70) reasons.push('It was updated recently.');
       } else {
         reasons.push('Both apps score similarly — pick based on the features you need.');
@@ -166,7 +166,7 @@
       row('Developer', L.developerName || L.developer || '—', R.developerName || R.developer || '—', 'developer'),
       row('Source', (L.source || '—'), (R.source || '—'), 'source'),
       row('Verification', L.verificationLevel || '—', R.verificationLevel || '—', 'verification'),
-      row('Download', L.downloadReachable ? 'Online' : 'Offline', R.downloadReachable ? 'Online' : 'Offline', 'health'),
+      row('Last download probe', L.downloadReachable === true ? 'Reachable' : L.downloadReachable === false ? 'Failed' : 'Not checked', R.downloadReachable === true ? 'Reachable' : R.downloadReachable === false ? 'Failed' : 'Not checked', 'health'),
       row('Update cadence', (L.updateFrequencyDays ? L.updateFrequencyDays + ' days' : '—'), (R.updateFrequencyDays ? R.updateFrequencyDays + ' days' : '—'), 'cadence'),
       row('Min iOS', (L.compatibility && L.compatibility.minOSVersion) || '—', (R.compatibility && R.compatibility.minOSVersion) || '—', 'minos'),
       row('Devices', ((L.compatibility && L.compatibility.devices) || []).join(', ') || '—', ((R.compatibility && R.compatibility.devices) || []).join(', ') || '—', 'devices'),

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:AnimeGen releases
+BEGIN:VEVENT
+UID:animegen-3.0.0@omnisource
+DTSTAMP:20250304T000000Z
+DTSTART;VALUE=DATE:20250304
+DTEND;VALUE=DATE:20250305
+SUMMARY:AnimeGen v3.0.0
+DESCRIPTION:AnimeGen 3.0.0 | AnimeGen\n\n# Finally AnimeGen v3.0.0. is here
+ !\n\nTook me a bit but i finally recoded the app completely. No new source
+ s but they were all improved a lot. \nSome sources got removed since they 
+ were not working at lot for a lot of time.\n\nThe UI now is more simple an
+ d made to work all on the bottom of the screen.\nThe app size is now 3 tim
+ es smaller. The only real issue anyone could find is that it cant save .gi
+ f images yet.\n\nYou can either sideload the ipa or install AnimeGen via [
+ TestFlight](https://testflight.apple.com/join/jqx2hEkN)\n\n> [!Important]\
+ n> The NSFW option has been removed and it will **never return back**
+URL:https://raynmahbub.github.io/OmniSource/feeds/animegen.json
+END:VEVENT
+END:VCALENDAR

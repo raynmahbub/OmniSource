@@ -94,12 +94,26 @@ V2_URLS: list[str] = [
     "/feeds/api/v2/categories.json",
     "/feeds/api/v2/updates.json",
     "/feeds/api/v2/apps/ytlite.json",
+    "/feeds/api/v2/apps/spotiflac/versions.json",
     "/api/v2/manifest.json",
     "/api/v2/featured.json",
     "/api/v2/categories.json",
     "/api/v2/updates.json",
     "/api/v2/apps/ytlite.json",
+    "/api/v2/apps/spotiflac/versions.json",
     "/api/v2/index.json",
+]
+
+# New static surfaces must work in both branch and assembled deployments.
+ROADMAP_URLS: list[tuple[str, str]] = [
+    ("/feeds/variants/index.json", '"groups"'),
+    ("/feeds/variants/ytlite.json", '"sourceURL"'),
+    ("/feeds/subscriptions.json", '"subscriptions"'),
+    ("/feeds/transparency.json", '"head"'),
+    ("/api/transparency.json", '"head"'),
+    ("/feeds/updates.ics", "BEGIN:VCALENDAR\r\n"),
+    ("/feeds/calendars/app-spotiflac.ics", "BEGIN:VCALENDAR\r\n"),
+    ("/feeds/filtered/category-music.xml", "<rss"),
 ]
 
 # The subset of #ids each page's renderer actually uses (site.js loads on
@@ -129,6 +143,9 @@ PAGE_IDS: dict[str, list[str]] = {
         "resultCount",
         "emptyState",
         "collisionSummary",
+        "deviceProfileForm",
+        "appGuide",
+        "localUpdates",
         "updatesList",
         "updatesNote",
         "footerClients",
@@ -186,6 +203,8 @@ PAGE_IDS: dict[str, list[str]] = {
         "installAppCards",
         "installAppFeed",
         "installQr",
+        "variantPicker",
+        "sourceMigration",
     ],
     "search/index.html": ["searchPageInput", "searchResults", "searchCount"],
 }
@@ -243,7 +262,16 @@ def check_js_syntax(site_root: Path = _SITE) -> list[str]:
     if not node:
         return []
     errors = []
-    scripts = ["js/core.js", "js/site.js", "js/features.js"]
+    scripts = [
+        "js/core.js",
+        "js/site.js",
+        "js/features.js",
+        "js/device.js",
+        "js/updates-local.js",
+        "js/app-guide.js",
+        "js/variant-picker.js",
+        "js/source-migration.js",
+    ]
     scripts += sorted(str(path.relative_to(ROOT)) for path in (ROOT / "src" / "js").glob("*.js"))
     scripts += sorted(str(path.relative_to(ROOT)) for path in (ROOT / "website").rglob("*.js"))
     for script in scripts:
@@ -361,6 +389,14 @@ def main(argv: list[str] | None = None) -> int:
                 failures.append(f"{path}: schemaVersion must be 2")
             if path.endswith("/apps/ytlite.json") and (doc.get("app") or {}).get("id") != "ytlite":
                 failures.append(f"{path}: app record id mismatch")
+
+        for path, marker in ROADMAP_URLS:
+            status, body = fetch(server.base + path)
+            checked += 1
+            if status != 200:
+                failures.append(f"{path}: HTTP {status}")
+            elif marker not in body.decode("utf-8", "replace"):
+                failures.append(f"{path}: missing marker {marker!r}")
 
         if args.root:
             # The root carries only /apps.json plus the API mirror, sitemap

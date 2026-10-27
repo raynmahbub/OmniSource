@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>games releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-games.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SameBoy v1.0.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sameboy.json</link>
+      <guid isPermaLink="false">sameboy-1.0.4</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SameBoy 1.0.4 | sameboy_ios_v1.0.4
+
+This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save states from any BESS compliant emulator
+
+## New/Improved Features
+* The libretro core now supports API extensions to retrieve additional metadata and create more portable battery save files
+* The iOS frontend has been updated with improved iOS 27 support
+* iPhone Duo support was added to the iOS frontend
+* The CRT scaling filter has been updated with an improved look
+* A new Pixelated/Sharp Bilinear scaling filter
+    * This new filter is now the default filter in the Cocoa and SDL frontends
+* VFS support was added to the libretro core
+* Logging support was added to the libretro core
+* The libretro core will now render audio directly in the frontend's audio sample rate, if supported
+* Recording audio to a VGM log file is now possible in the Cocoa and SDL frontends
+* Minor UI improvements in the Cocoa frontend
+
+## Accuracy Improvements/Fixes
+* Workboy emulation now correctly reports the current weekday
+* Fixed a bug that made certain small ROM files be incorrectly detected as MMM01 cartridges
+* More accurate emulation of SGB command processing
+
+## Bug Fixes
+* Fixed a bug where periodic battery saves were performed from the wrong thread in the Cocoa frontend, causing debug builds to crash
+* Fixed controller hotkeys not working on newer macOS versions in the Cocoa frontend
+* Fixed a bug that prevented mapping Load State commands to a controller hotkey in the Cocoa frontend
+* The libretro core no longer reports an RTC memory region when emulating cartridges without an RTC
+* Fixed a bug that could trigger memory corruptions on x86-64 platforms when loading malformed save states
+* Improved sanitization of the Game Boy Printer save state data
+* Fixed an incorrectly label “Rumble strength” label in the Cocoa frontend
+* File dialogs on Windows now switch Full Screen mode off before they appear, working around bugs in Windows' windowing system
+* Fixed a bug that made the Joycon autopair button not work in the Cocoa frontend
+* Fixed a bug that made breakpoints created by the `GB_debugger_execute_command` API would not trigger under some conditions when using SameBoy as a library
+
+## Misc Internal Changes
+* The build system no longer prints ignored errors when building SameBoy without RGBDS installed if prebuilt boot ROMs are used
+* `ibtool` no longer silently fails when building the Cocoa or iOS frontends
+* The logging API now has attribute flags that mark if a log line is an error or a warning caused by the previous API call]]></description>
+      <enclosure url="https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Manic EMU v2.0.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/manicemu.json</link>
+      <guid isPermaLink="false">manicemu-2.0.1</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Manic EMU 2.0.1 | ManicEMU.v2.0.1.SideloadJIT
+
+- Added WonderSwan support
+- Added NAOMI, Atomiswave, and System SP arcade support
+- Added Flash support
+  · Skin button binding
+  · Hardware keyboard input
+  · Software keyboard input
+  · Touch input
+- Built-in, self-contained JIT — no external debugger required
+- Added Slow Motion
+- Improved GameCube and Wii performance
+- GameCube now supports multi-disc games
+- Improved Wii motion controls
+- Simulate the Wii IR pointer by touch
+- Add games from other emulators via a link
+- Fixed some arcade systems that wouldn’t run
+- Fixed Dreamcast games running too fast
+- Fixed PSP crashes
+- Added NDS lid open/close
+- Improved rotation: with orientation lock on in Control Center, the app no longer snaps back to portrait
+- In-game shortcut tips can now be turned off
+- Landscape library can disable carousel style
+- Smoother landscape carousel scrolling
+- MultiDisc Helper supports more formats
+- Hardware keyboard input for Symbian, Amiga, and C64
+- Added RomM support
+  · LAN self-hosted servers only
+  · Sync only for games imported from RomM
+  · Manual sync only, from the service card’s long-press menu
+  · Pull ROMs, covers, metadata, manuals, and game saves
+- Fixed a launch timeout that could quit the app on older devices
+- N64 now supports ROMs larger than 64 MB]]></description>
+      <enclosure url="https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa" length="288525117" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>VCMI v1.7.5</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/vcmi.json</link>
+      <guid isPermaLink="false">vcmi-1.7.5</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[VCMI 1.7.5 | VCMI-iOS
+
+Note: saved games from 1.6 release can be loaded in 1.7
+
+### Changelog
+- Player Changelog: [1.7.4 -> 1.7.5](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#174---175)
+- Full Changelog: https://github.com/vcmi/vcmi/compare/1.7.4..1.7.5
+
+### Additional builds
+<!-- - Android release will be available on Google Play shortly -->
+<!-- - Linux release will be available on Flathub shortly -->
+<!-- - Ubuntu release will be available on VCMI PPA shortly -->
+<!-- - Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) -->
+<!-- - Linux release is available on [Flathub](https://flathub.org/apps/eu.vcmi.VCMI) -->
+<!-- - Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa) -->
+
+- Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) and [F-Droid](https://f-droid.org/en/packages/is.xyz.vcmi/)
+- iOS release is available on [TestFlight](https://testflight.apple.com/join/pJWHSbmu) (AppStore version coming soon)
+- Linux release is available on [Flathub](https://flathub.org/apps/eu.vcmi.VCMI)
+- Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)
+- macOS release can be installed via Homebrew: `brew install --cask vcmi` (official) or `brew install --cask vcmi/vcmi/vcmi` (from our tap)]]></description>
+      <enclosure url="https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa" length="28187923" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>DolphiniOS v5.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/dolphinish.json</link>
+      <guid isPermaLink="false">dolphinish-5.0.0</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[DolphiniOS 5.0.0 | Non-Jailbroken
+
+* Fixed JIT support on A13/A14/M1 devices running iOS 27 beta. (@CelloSerenity)
+* Fixed wrong app version number introduced in 5.0.0b5. (@CelloSerenity)
+
+The next update will be sometime after the next official Dolphin release. It will include a core update.
+
+**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b5...v5.0.0b6]]></description>
+      <enclosure url="https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa" length="17963367" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>XeniOS v2.0.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/xenios.json</link>
+      <guid isPermaLink="false">xenios-2.0.1</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[XeniOS 2.0.1 | xenios_ios_iphone_ipad
+
+# 2.0.1-9730
+
+- Channel: release
+- Stage: stable
+- Version: 2.0.1
+- Build number: 9730
+- Commit: 57c3ca140
+- Published at: 2026-06-08T03:28:01Z
+- Source ref: refs/heads/xenios]]></description>
+      <enclosure url="https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa" length="46253576" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>PPSSPP v1.20.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ppsspp.json</link>
+      <guid isPermaLink="false">ppsspp-1.20.4</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[PPSSPP 1.20.4 | PPSSPP-iOS-v1.20.4
+
+PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [full changelog](https://ppsspp.org/index.html#news) as well as the [downloads section](https://ppsspp.org/downloads.html) for other platforms.]]></description>
+      <enclosure url="https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa" length="31124277" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Provenance v3.3.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/provenance.json</link>
+      <guid isPermaLink="false">provenance-3.3.0</guid>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Provenance 3.3.0 | Provenance-3.3.0-iOS
+
+## What's New in 3.3.0
+
+This is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.
+
+### ☁️ iCloud / CloudKit Sync
+- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud
+- Real-time download progress indicators when loading cloud save states
+- Auto BIOS sync on game load when available in iCloud
+- ROM metadata syncs alongside files
+- Artwork syncs after library updates
+- CloudKit records management tab in Settings
+- iCloud upsell UI for new users with empty libraries
+- Sync queue pauses during emulation and resumes after
+
+### 📺 New tvOS UI (Default)
+- Completely redesigned tvOS interface now enabled by default
+- RetroWave-themed side menu with smooth animations
+- Save states browser accessible from the main UI with artwork and core name
+- "View All" saves section with per-system filtering
+- TopShelf v2: recent games and save states with artwork and timestamps
+- Cheats UI in the pause menu
+- Game "More Info" panel
+- Log viewer tab
+- Import status view in side menu
+- Search with persistent history
+- Dozens of focus, navigation, and theming fixes throughout
+
+### 🎨 Video Filters & Shaders
+- Unified filter pipeline works across native and RetroArch cores
+- GB and VHS filters improved
+- Filters accessible from the pause menu
+- RetroArch GLES 3D cores now supported (Vecx/GLiden, etc.)
+- Dolphin shader/filter support
+- PPSSPP filter support
+
+### 🎮 Core & Controller Fixes
+- **RetroArch**: Fixed player index mapping for MFi, PS4, and Xbox controllers; PS4 start/select fixed; 32x controls added; GameCube controller responder added
+- **Mupen64Plus**: Fixed PS4 start button; fixed tvOS scaling and placement; better save error messages
+- **Dolphin**: Fixed Vulkan landscape rendering
+- **GenPluGX**: Added CHD support; added wide-screen GameGear core
+- **PicoDrive**: Fixed crash on unload; fixed 32x controller mapping
+- **FCEUmm**: Fixed start/select button mapping
+- **Mednafen**: Fixed DualShock/DualSense pause/play button mapping
+- **GameBatte / TGDB Dual**: Fixed PSX/Xbox pause/select button mapping
+
+### 🐛 Bug Fixes & Stability
+- Fixed multiple app hangs from main-thread Realm access (moved to background)
+- Fixed crash in pause menu when closing core
+- Fixed potential crash if audio ring buffer init fails
+- Fixed crash in share/import extension
+- Fixed aspect ratio issues in Stella and some other cores
+- Fixed FPS label appearing in screenshots
+- Fixed artwork not refreshing in game library after sync
+- Fixed game importer re-queuing already-imported items
+- Fixed Realm contentless core crash
+- Fixed "Continue" carousel metadata mismatch
+- Skin selector refreshes orientation previews on rotation change
+- ManicSkin/DeltaSkin files can now be opened directly from Safari
+- iPad import status modal clipped layout fixed
+- DSP audio engine fixes
+
+### ⚡ Performance
+- Artwork loading significantly faster
+- Game library UI rendering optimizations (removed unnecessary Observable wrappers)
+- Async tab bar icon loading
+- CloudKit sync deduplication and repeat-lookup fixes
+- Game importer skips MD5 hashing for large non-BIOS files
+
+**Full Changelog**: https://github.com/Provenance-Emu/Provenance/compare/3.2.1...3.3.0]]></description>
+      <enclosure url="https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa" length="1076407494" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>StikNES v2.0.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/stiknes.json</link>
+      <guid isPermaLink="false">stiknes-2.0.2</guid>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[StikNES 2.0.2 | StikNES
+
+Fixed some crashes and removed the network requirement.]]></description>
+      <enclosure url="https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa" length="7141231" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Delta v1.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/delta.json</link>
+      <guid isPermaLink="false">delta-1.6</guid>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[Delta 1.6 | Delta_1_6
+
+## New
+
+App Icon
+* Brand new legally-compliant app icon (thanks Caroline Moore!)
+* Includes alternative app icons designed by community members:
+* "Halogenide" by Sebastiaan de With
+* "Ketchup" by Ben McCarthy
+* "Microchip" by Sean Fletcher
+
+iPad Support
+* Play games full screen on iPad's beautiful display
+* Brand new controller skins designed specifically for iPad (thanks Caroline Moore!)
+* Supports multiple windows in Stage Manager and Split View
+* Automatically pauses games when switching windows (optional)
+
+Handoff
+* Seamlessly switch between iPhone and iPad
+* Continues playing exactly where you left off
+* Also supports Delta on Apple Silicon Macs via Mac App Store
+
+melonDS 0.9.5
+* Improves DS game compatibility & performance
+* BIOS files are now optional!
+* Supports "inserting" GBA games into DS dual-slot
+* Increased Fast Forward speed to 3x (A15 processor or later)
+
+Menu Button Gestures
+* Use gestures while holding menu button to perform quick actions
+* Menu + Horizontal Swipe: Fast Forward
+* Menu + Any Button: Hold Button
+* Menu + Double-Tap: Quick Save
+* Menu + Long-Press: Quick Load
+
+Experimental Features
+* New section in Settings for features by third-party contributors
+* Features are WIP and should be used at user’s discretion
+* Available for Patrons on "Beta Access" tier or higher
+
+Save States
+* Sort save states by name
+* View all incompatible screenshots on a separate screen
+* Export save states to import into other emulators
+
+“Display Full Screen” AirPlay Setting
+* Control whether Delta shows games full screen on external displays
+* Disable to use multiple windows on external display with Stage Manager
+
+Misc.
+* Supports Game Mode on iOS 18+
+* Increased DS screen size for default edge-to-edge iPhone landscape skin
+
+## Fixed
+
+* Fixed exporting save file without file extension
+* Fixed interface rotating when playing WarioWare: Twisted!
+* Fixed Pokemon Black & White (2) freezing with C-Gear enabled]]></description>
+      <enclosure url="https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa" length="87734964" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Mini vMac v2.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/minivmac.json</link>
+      <guid isPermaLink="false">minivmac-2.6</guid>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mini vMac 2.6 | minivmac4ios-2.6
+
+* Added 512×384 variant of Mac II
+* Requires iOS 13.4
+    * Dropping 32-bit support (iOS 9) made the app smaller
+* Prefer pixel-perfect scaling when display scaling filter is set to nearest
+* Auto-hide iOS home indicator
+* Partially fix some command-key shortcuts going to iOS instead of the emulated Mac (#45)
+    * ⌘-w and most others will get passed to the emulated machine if it's running
+    * ⌘-q and ⌘-h don't seem interceptable, the app doesn't receive any key events for them, but ⌘-q doesn't do anything (or maybe it does in some other configuration?), and ⌘-h will take you to the home screen
+* visionOS support (only tested in simulator)
+
+**Full Changelog**: https://github.com/zydeco/minivmac4ios/compare/v2.5...v2.6]]></description>
+      <enclosure url="https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa" length="668434" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MAME4iOS v2022.5</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/mame4ios.json</link>
+      <guid isPermaLink="false">mame4ios-2022.5</guid>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <description><![CDATA[MAME4iOS 2022.5 | MAME4iOS-2022.5-139
+
+* Updated to [MAME 250](https://www.mamedev.org/releases/whatsnew_0250.txt).
+* tvOS UX: use a Alert instead of a inline Segmented Control.
+* Show upload feedback in Web Server UX.
+* Added `Make First Favorite` to game context menu.]]></description>
+      <enclosure url="https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa" length="52332306" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

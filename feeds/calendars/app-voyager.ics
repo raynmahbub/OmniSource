@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Voyager releases
+BEGIN:VEVENT
+UID:voyager-2.49.1@omnisource
+DTSTAMP:20260913T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Voyager v2.49.1
+DESCRIPTION:Voyager 2.49.1 | Voyager-iOS-2.49.1\n\n## 🐛 Fixes\n\n- fix: 
+ preserve special characters in search\n   - PR: #2358\n\n## 📝 Other Cha
+ nges\n\n- chore: rust react compiler pipeline\n   - PR: #2357\n- chore: up
+ grade dependencies\n   - PR: #2359
+URL:https://raynmahbub.github.io/OmniSource/feeds/voyager.json
+END:VEVENT
+END:VCALENDAR

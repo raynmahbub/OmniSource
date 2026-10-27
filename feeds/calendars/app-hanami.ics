@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Hanami releases
+BEGIN:VEVENT
+UID:hanami-0.28.2@omnisource
+DTSTAMP:20240603T000000Z
+DTSTART;VALUE=DATE:20240603
+DTEND;VALUE=DATE:20240604
+SUMMARY:Hanami v0.28.2
+DESCRIPTION:Hanami 0.28.2 | Hanami\n\n# Fixes\n- fixed crash #10\n- bump pa
+ ckage versions
+URL:https://raynmahbub.github.io/OmniSource/feeds/hanami.json
+END:VEVENT
+END:VCALENDAR

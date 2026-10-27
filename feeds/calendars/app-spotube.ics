@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Spotube releases
+BEGIN:VEVENT
+UID:spotube-5.1.2@omnisource
+DTSTAMP:20260605T000000Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Spotube v5.1.2
+DESCRIPTION:Spotube 5.1.2 | Spotube-iOS\n\n### Bug Fixes\n\n- **newpipe**: 
+ Fallback to muxed streams if no audio stream is available\n- Dismiss searc
+ h dropdown and keyboard on submission\n- Custom image helper null exceptio
+ n\n\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.1.
+ 1...v5.1.2
+URL:https://raynmahbub.github.io/OmniSource/feeds/spotube.json
+END:VEVENT
+END:VCALENDAR

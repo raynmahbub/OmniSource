@@ -43,10 +43,26 @@
           }
         ],
         "downloads": 70789,
-        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec"
+        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
+        "maxOSVersion": "16.1.2"
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "14.0",
+    "maxOSVersion": "16.1.2",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "wdbfontoverwrite",
       "status": "unmaintained",
@@ -79,8 +95,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
         "lastUpdatedAt": "2023-02-09"
       }
     },

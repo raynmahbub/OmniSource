@@ -51,6 +51,20 @@
       "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn2.png",
       "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn3.png"
     ],
+    "minOSVersion": "16.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -77,7 +91,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YTMusicUltimate",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -99,8 +114,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-14",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
         "lastUpdatedAt": "2026-10-22"
       }
     },

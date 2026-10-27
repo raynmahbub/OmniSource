@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:AnymeX releases
+BEGIN:VEVENT
+UID:anymex-3.1.9@omnisource
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:AnymeX v3.1.9
+DESCRIPTION:AnymeX 3.1.9 | AnymeX-iOS-v3.1.9\n\n### 🆕 Changelog\n### 
+ 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/80f279c6)
+  enhanced downloads ui and ux by @RyanYuuki\n- [֍](https://github.com/Rya
+ nYuuki/AnymeX/commit/9c04ca66) runtime bridge support for IOS (thanks to d
+ artotsu) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/
+ 9a109267) mpv config\, some fixes and ui changes by @RyanYuuki\n- [֍](htt
+ ps://github.com/RyanYuuki/AnymeX/commit/538c3538) torrent download support
+  by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/55b6b13f
+ ) online subtitles back again by @RyanYuuki\n- [֍](https://github.com/Rya
+ nYuuki/AnymeX/commit/07b88757) audio delay support by @RyanYuuki\n- [֍](h
+ ttps://github.com/RyanYuuki/AnymeX/commit/429a43ee) cold cache for instant
+  load by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1a2
+ 1ab40) network settings (dns\, proxy\, tls ts) by @RyanYuuki\n- [֍](https
+ ://github.com/RyanYuuki/AnymeX/commit/5d44cc54) donation page for my broke
+  ass by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b613
+ 1248) markdown\, reply support\, moderation tools\, and settings UI notifi
+ cations & unread badges (comments) (#416) by @Shebyyy\n- [֍](https://gith
+ ub.com/RyanYuuki/AnymeX/commit/5c6465d5) kotatsu\, aniyomi backup support 
+ by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/8346d033)
+  backup and restore full support by @RyanYuuki\n- [֍](https://github.com/
+ RyanYuuki/AnymeX/commit/3bc096c2) addons support (torrent) = practically n
+ othing changes just 1 extra step for torrent by @RyanYuuki\n- [֍](https:/
+ /github.com/RyanYuuki/AnymeX/commit/6a91e1ef) dock drag-to-reorder and his
+ tory card poster navigation to details (#595) by @Shebyyy\n\n\n### 🔧 Bu
+ g Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/
+ e4d0b981) fixed duplicate media entry\, nearest download bug\, overall enh
+ ancement by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/
+ fb6b505a) fixed ios flashing during navigation by @RyanYuuki\n- [֍](https
+URL:https://raynmahbub.github.io/OmniSource/feeds/anymex.json
+END:VEVENT
+END:VCALENDAR

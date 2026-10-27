@@ -3,7 +3,7 @@
   "identifier": "com.raynmahbub.omnisource.collection.tweaks",
   "apiVersion": "v2",
   "subtitle": "Tweaked apps and on-device tweak injectors",
-  "description": "Tweaked builds of YouTube, music, X, Instagram, Messenger, Discord and Twitch apps, plus the tools that inject tweaks into an app on the device. Every entry is published installable by the tweak project itself — OmniSource tracks and re-verifies that release, it does not patch binaries.",
+  "description": "Tweaked builds of YouTube, music, X, Instagram, Messenger, Discord and Twitch apps, plus tools that inject tweaks on the device. Check each listing for its project, distributor and available integrity evidence; some builds are packaged by community sources.",
   "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OmniSource.webp",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
@@ -96,6 +96,20 @@
         "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/3.png",
         "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
       ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "bhtwitter",
         "status": "stable",
@@ -128,8 +142,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
           "lastUpdatedAt": "2025-05-13"
         }
       }
@@ -179,6 +195,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -215,8 +245,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa",
           "lastUpdatedAt": "2026-06-12"
         }
       }
@@ -268,6 +300,20 @@
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/screenshot2.png",
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/screenshot3.png"
       ],
+      "minOSVersion": "18.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "infuseplus",
         "status": "stable",
@@ -278,7 +324,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "18.0",
@@ -299,9 +346,11 @@
           "notes": "Tracks the ready-to-sideload Infuse Plus build from the IPA Vault source (the official dayanch96/InfusePlus repo publishes the tweak as .deb only). Current Infuse 8.5 builds require iOS 18 or newer; upstream also publishes an iOS 16-era 7.x build that is not tracked here. Shares com.firecore.infuse with a sideloaded stock Infuse - install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
           "lastUpdatedAt": "2026-10-16"
         }
       }
@@ -352,6 +401,20 @@
         "https://repo.ikghd.me/depictions/me.ikghd.inkplus/screenshots/1.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.inkplus/screenshots/2.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.inkplus/screenshots/4.PNG"
+      ],
+      "minOSVersion": "16.3",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -405,9 +468,11 @@
           "notes": "Resolved from the developer's own AltStore source at repo.ikghd.me."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
           "lastUpdatedAt": "2026-10-14"
         }
       }
@@ -453,10 +518,26 @@
             }
           ],
           "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
-          "downloads": 21121
+          "downloads": 21121,
+          "maxOSVersion": "26.0.1"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "17.0",
+      "maxOSVersion": "26.0.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "lara",
         "status": "beta",
@@ -489,8 +570,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
           "lastUpdatedAt": "2026-05-22"
         }
       }
@@ -544,6 +627,20 @@
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn3.png",
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn4.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -592,8 +689,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
           "lastUpdatedAt": "2026-09-15"
         }
       }
@@ -659,6 +758,20 @@
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr2.jpg",
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr3.jpg"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -694,7 +807,8 @@
           "method": "github-release",
           "publisher": "Ashreq/ashstore-repo",
           "codeSigned": false,
-          "checksumPublished": true
+          "checksumPublished": true,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -716,8 +830,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
           "lastUpdatedAt": "2026-08-03"
         }
       }
@@ -831,6 +947,20 @@
         "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/2.png",
         "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/3.png"
       ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "neofreebird",
         "status": "stable",
@@ -862,9 +992,11 @@
           "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x+ builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-16"
         }
       }
@@ -938,6 +1070,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -974,8 +1120,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
           "lastUpdatedAt": "2024-11-23"
         }
       }
@@ -1037,6 +1185,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -1094,8 +1256,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
           "lastUpdatedAt": "2026-09-17"
         }
       }
@@ -1169,6 +1333,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -1226,8 +1404,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
           "lastUpdatedAt": "2025-09-26"
         }
       }
@@ -1275,6 +1455,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -1310,7 +1504,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "15.1",
@@ -1331,9 +1526,11 @@
           "notes": "Official project: faroukbmiled/RyukGram (publishes .deb/.dylib assets); this source serves the ready-to-sideload IPA build from the IPA Vault. Instagram 445.x builds require iOS 15.1 or newer. Shares com.burbn.instagram with iNKillerPlus in this catalog - install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-22",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-23"
         }
       }
@@ -1433,6 +1630,20 @@
       "screenshotURLs": [
         "https://raw.githubusercontent.com/NguyenASang/SNMessenger/v2.0.0/images/Access_Settings.png"
       ],
+      "minOSVersion": "12.4",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "snmessenger",
         "status": "stable",
@@ -1465,8 +1676,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
           "lastUpdatedAt": "2025-07-29"
         }
       }
@@ -1512,10 +1725,26 @@
             }
           ],
           "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
-          "downloads": 4809
+          "downloads": 4809,
+          "maxOSVersion": "17.0"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "maxOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "trollfools",
         "status": "stable",
@@ -1548,8 +1777,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
           "lastUpdatedAt": "2026-10-11"
         }
       }
@@ -1601,6 +1832,20 @@
         "https://repo.ikghd.me/depictions/me.ikghd.ttkplus/screenshots/2.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.ttkplus/screenshots/3.PNG"
       ],
+      "minOSVersion": "15.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "application-identifier",
@@ -1651,9 +1896,11 @@
           "notes": "Resolved from the developer's own AltStore source at repo.ikghd.me."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
           "lastUpdatedAt": "2026-10-08"
         }
       }
@@ -1715,6 +1962,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "twitchadblock",
         "status": "stable",
@@ -1746,9 +2007,11 @@
           "notes": "Official IPAs from the fork's GitHub releases; the '-noplugins' variant on each release is intentionally not distributed. Replaces the App Store Twitch app (shares tv.twitch). The upstream tweak repo publishes only .deb packages for jailbroken devices; the sideload IPA comes from this maintained fork."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-24"
         }
       }
@@ -1782,6 +2045,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -1822,7 +2099,8 @@
           "method": "manual-mirror",
           "publisher": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
           "codeSigned": false,
-          "checksumPublished": true
+          "checksumPublished": true,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -1843,9 +2121,11 @@
           "notes": "uYouEnhanced's official GitHub releases publish release notes only - no .ipa assets - so the IPA served here is a community build of the official release tag (YouTube 21.14.4 / uYou 3.0.5), mirrored on archive.org. Once a 'Build uYouEnhanced' run publishes an IPA in this repository (tag uyouenhanced-v*), the self-built artifact takes over automatically."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "timed out",
-          "statusSince": "2026-10-21",
+          "downloadReachable": true,
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
           "lastUpdatedAt": "2026-08-22"
         }
       }
@@ -1895,6 +2175,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -1930,7 +2224,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "17.0",
@@ -1952,8 +2247,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }
@@ -2003,6 +2300,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -2060,8 +2371,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }
@@ -2227,6 +2540,20 @@
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr2.jpg",
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr3.jpg"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -2262,7 +2589,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -2284,8 +2612,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }
@@ -2375,6 +2705,20 @@
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/audio-queue.png",
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/download-library.png"
       ],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -2431,9 +2775,11 @@
           "notes": "Tracks the official itzzace/ytkace releases. The published build follows the latest YouTube release and needs iOS 17 or newer; upstream also ships a separate iOS 16 IPA (YTKACE_<version>_YouTube_iOS16_<youtube>.ipa) on the same release page."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-25"
         }
       }
@@ -2487,6 +2833,20 @@
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/2.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/3.PNG"
       ],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -2522,7 +2882,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "17.0",
@@ -2544,8 +2905,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-29",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
           "lastUpdatedAt": "2026-09-26"
         }
       }
@@ -2599,6 +2962,20 @@
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn2.png",
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn3.png"
       ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -2625,7 +3002,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YTMusicUltimate",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -2647,8 +3025,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-14",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }

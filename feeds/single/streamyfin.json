@@ -106,6 +106,20 @@
         "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/03-media-details.png",
         "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/06-request-media.png"
       ],
+      "minOSVersion": "16.4",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "streamyfin",
         "status": "stable",
@@ -138,8 +152,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
           "lastUpdatedAt": "2026-10-16"
         }
       }

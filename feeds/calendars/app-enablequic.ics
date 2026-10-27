@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:EnableQUIC releases
+BEGIN:VEVENT
+UID:enablequic-1.2.4@omnisource
+DTSTAMP:20250221T000000Z
+DTSTART;VALUE=DATE:20250221
+DTEND;VALUE=DATE:20250222
+SUMMARY:EnableQUIC v1.2.4
+DESCRIPTION:EnableQUIC 1.2.4 | TrollStore\n\n1. Bug fix #4\, Improve the pr
+ ocess of 'Restore default settings'. Firstly\, restore the default configu
+ ration from the backup after improvement. If the backup configuration file
+  does not exist\, use the built-in rules to restore the default settings.\
+ n\nAdvanced settings to enable:\nClick the icon at the top of the app 5 ti
+ mes\, then shake the device to open Advanced Mode.  \n\nZh:\n1. 修复#4
+ ，改进恢复默认设置流程，改进后先从备份中恢复默认
+ 配置，如果备份的配置文件不存在，则使用内置规则恢
+ 复默认设置。  \n\n开启流程（普通用户）：启用->注销  \
+ n关闭流程（普通用户）：恢复默认->注销  \n**App无需保
+ 留后台，设置成功后即可关闭App**  \n\n高级设置仅供了解
+ 原理的用户使用，您可以自定义每一项的设置，如果您
+ 不知道这些开关的含义，请使用默认设置  \n高级设置开
+ 启方法：\n点击App顶部的图标5次，然后摇晃下设备，即
+ 可打开高级模式  \n开启流程（高级用户）：启用->注销(
+ 可省略)->锁定文件权限->注销  \n关闭流程（高级用户）
+ ：解锁文件权限->恢复默认->注销  \n**卸载App或抹除/升级
+ 设备系统之前请解锁文件权限，以防止出现未知错误**
+URL:https://raynmahbub.github.io/OmniSource/feeds/enablequic.json
+END:VEVENT
+END:VCALENDAR

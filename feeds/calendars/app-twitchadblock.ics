@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:TwitchAdBlock releases
+BEGIN:VEVENT
+UID:twitchadblock-31.7@omnisource
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:TwitchAdBlock v31.7
+DESCRIPTION:Twitch 31.7 | TwitchAdBlock 0.1.15\n\n**TwitchMods v0.1.15**\, 
+ for Twitch iOS **31.7**\n\n### New: see what moderators delete\nTurn on **
+ Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a
+  message\, or times out or bans someone\, their messages **stay in chat** 
+ instead of disappearing\, and a short note like **"🛡 ronni was timed ou
+ t for 10m"** shows up so you know what happened.\n- Want the notes to stan
+ d out? Turn on **Highlight Notes**\, right under it\, to give them a highl
+ ighted background.\n- Both are off by default. It only works for things th
+ at happen while you're in chat.\n\n### New: hide the "From channels you fo
+ llow" bar\nTurn on **Hide "From Channels You Follow"** in Settings → Hom
+ e to remove the row of clips and recaps above the live channels on the Liv
+ e page.\n\n### Fixed\n- The **"Go Ad-Free"** button on the Following tab i
+ s hidden again. Twitch 31.7 rebuilt that tab\, so the old way of hiding it
+  stopped working.\n\nEverything from v0.1.14 is still included: Twitch 31.
+ 7 support\, ad-blocking\, 7TV / BTTV / FFZ emotes (send them with the 7TV 
+ bar or by holding the emote button)\, Keep Live Feed Playing\, Hide Storie
+ s and your default launch screen.\n\n### Downloads\n- **`tv.twitch-31.7-Tw
+ itchAdBlock-0.1.15.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBloc
+ k-0.1.15-noplugins.ipa`**: app extensions removed\, so a free Apple ID onl
+ y uses 1 App ID slot when sideloading.\n\nUsing the AltStore / SideStore /
+  Feather source? You'll get this update automatically:\n```\nhttps://raw.g
+ ithubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\nFu
+ ll plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkid
+ BT/TwitchAdBlock/blob/master/CHANGELOG.md)
+URL:https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json
+END:VEVENT
+END:VCALENDAR

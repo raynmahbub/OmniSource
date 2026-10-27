@@ -166,6 +166,20 @@
         "https://raw.githubusercontent.com/Anxcye/anx-reader/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
         "https://raw.githubusercontent.com/Anxcye/anx-reader/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
       ],
+      "minOSVersion": "15.2",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "anxreader",
         "status": "stable",
@@ -198,8 +212,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
           "lastUpdatedAt": "2026-03-19"
         }
       }

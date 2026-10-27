@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utilities releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/collection-utilities.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SideStore v0.7.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sidestore.json</link>
+      <guid isPermaLink="false">sidestore-0.7.0</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SideStore 0.7.0 | SideStore
+
+## Build Info
+
+Built at (UTC): `Fri Sep 11 21:25:58 2026`
+Built at (UTC date): `2026-09-11`
+Commit SHA: `6032424a0e56c1c319762e786099bdd9186a238b`
+Version: `0.7.0-20260911.328+6032424a`
+
+#### What's Changed:
+- **fixes for 503 during sign-in**: There were some changes from apple server side which broke 0.6.4 and prior versions and prevent them from signing into sidestore. This temporary version addresses the sign-in issue with 503 status code
+
+#### Full Changelog: [0.6.4...0.7.0-alpha](https://github.com/SideStore/SideStore/compare/0.6.4...0.7.0-alpha)]]></description>
+      <enclosure url="https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa" length="27770821" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iTorrent v2.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/itorrent.json</link>
+      <guid isPermaLink="false">itorrent-2.2.0</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[iTorrent 2.2.0 | iTorrent
+
+## What's new:
+* Meet the new built-in VLC player. Play compatible video and audio files directly in iTorrent, even while they are still downloading.
+* Enjoy Picture in Picture, playback speeds from 0.5x to 2x, audio and subtitle track selection, precise seeking, and system media controls.
+* Take playback to a bigger screen with AirPlay or a compatible player discovered on your local network.
+* Choose how pieces are downloaded with Sequential and First & Last priority modes, making it easier to start watching sooner.
+* Select and share multiple completed files or entire folders in one go.
+
+## Improvements:
+* Refreshed the interface for iOS 26, with Liquid Glass styling, cleaner dialogs, and more polished navigation.
+* Made torrent details smoother and easier to use, with clearer download-priority controls and private-torrent information.
+* Improved media previewing so iTorrent can offer the best available player for each file.
+* Updated the torrent and media engines for better compatibility, stability, and recovery from unexpected errors.
+* Expanded and refined translations across all supported languages.
+
+## Fixes:
+* Fixed cases where magnet links could be saved incorrectly.
+* Fixed a startup race condition that could interfere with launching the app or completing initial setup.
+* Fixed toolbars and navigation behaving incorrectly in iPad split-screen mode.
+* Fixed RSS downloads returning to the wrong screen.
+* Fixed torrent details sometimes getting stuck in a continuous update loop.
+* Fixed several playback, AirPlay, and local-device connection issues.
+
+**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.1.1-1...v2.2.0-1]]></description>
+      <enclosure url="https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa" length="24288935" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>LiveContainer v3.8.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/livecontainer.json</link>
+      <guid isPermaLink="false">livecontainer-3.8.0</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[LiveContainer 3.8.0 | LiveContainer
+
+# LiveContainer 3.8.0
+
+> [!Warning]
+> The standalone version requires **SideStore 0.6.2+** or **AltStore 2.2.1+** for installation.
+> To install LiveContainer with built-in SideStore (`LiveContainer+SideStore.ipa`), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.
+
+# New Features
+
+## Storage Management
+
+- Added a new storage management view with a breakdown of app bundles, containers, temporary files, app group data, tweaks, and other files. (Hidden apps' size is included in "other" section until unlocked)
+- Added per-app storage details, including app bundle size, container sizes, and last-used date.
+- Added actions to clean temporary files and caches, including guest app caches and LiveContainer's own caches.
+
+## Multiple LiveContainers
+- Added configurable launch priority for multiple LiveContainer instances, making shared-app shortcuts choose available instances in the order you prefer. (#1367)
+
+## Share to Apps in LiveContainer
+Added a share extension to LiveContainer. When you share a URL or a file from iOS's share sheet, LiveContainer will ask which app you would like to open the URL/file in, so the old share to LiveContainer shortcut method is no longer needed. When an ipa file is shared in this way, LiveContainer will ask if you want to install it in LiveContainer or in the built-in SideStore (if installed) (#1357)
+
+## Multitasking
+
+- Added per-app multitask preferences. Each app can now follow the global setting, always launch in multitask mode, or avoid multitask mode. (#1208)
+- Improved multitask dock behavior: the dock can be made smaller, hidden more cleanly, and has improved padding. (#1228, #1250)
+- Added more multitask window animations and improved native-window scene handling.
+- URL schemes and `open-url` payloads can be passed to already-running multitask apps and native windows.
+
+## JIT
+- Added StosDebug support as a JIT enabler.
+
+## TweakLoader
+You can now disable tweaks in the "Tweaks" page in LiveContainer's UI. by @SAOMDVN
+
+# Improvements
+- Added support for manually setting a container's IDFV. (#1194)
+- IDFV spoofing works even when Tweakloader is not loaded.
+- Reworked signing logic for tweaks and app installation, with multithreaded signing support.
+- Download alerts now block tab switching while a download is in progress.
+- Crash reports are shown in a sheet instead of a large alert for better performance on newer iOS versions.
+- Add a "Clear Notification" button (#1388)
+- Added some popular NSBonjourServices keys so apps can discover AirPlay devices and remote pairing pairable hosts in the local network. (#1417)
+
+# Bug Fixes
+
+- Fixed `livecontainer://open-url` dropping the deep link when launching an app from a cold start. (#1339)
+- Fixed the Add to Home Screen menu failing or behaving incorrectly by replacing the SwiftUI context menu implementation. (#1209)
+- Fixed a crash when opening Container Preferences if the app did not contain an `en.lproj` path. (#1239)
+- Fixed apps and AltStore sources not being searchable in some cases. (#1365, #1368)
+- Fixed converting a shared app back to private after aborting an install with the same bundle identifier, which could leave stale container state behind. (#1347)
+- Fixed shortcuts and JIT flows getting stuck on a busy LiveContainer instance instead of using another available instance. (#1386)
+- Fixed file picker not workings for some apps because Tweakloader is not loaded after enabling "Hide LiveContainer from dyld API". (#1430)
+- Fixed several app launch compatibility issues on iOS 26.5 beta, and some multitask/JIT app launches. (#1300, #1310, #1329)
+- Fixed multitask keyboard focus issues on iOS 17.4+, including cases where the keyboard would not appear, Passwords would immediately close, or video playback would freeze in multitask mode. (#1402, #844, #870)
+- Added support for iOS 27 developer beta. (#1394, #1417, #1416)
+- Fix background downloads in multitask apps (choosing "Keep App Extensions (Register App ID for Each Extension)" is required). (#1415)
+
+# Localization
+
+- Updated translations. Added Spanish translation by @Deci8BelioS
+
+# Credits
+
+Thanks to everyone who contributed code, fixes, testing, and reports for this release, including @boa-z, @ruri1208, @Project516, @yazdipour, @stossy11, and @SAOMDVN.
+
+Great thanks to everyone who helped translate LiveContainer.]]></description>
+      <enclosure url="https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa" length="4707271" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Feather v2.9.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/feather.json</link>
+      <guid isPermaLink="false">feather-2.9.0</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Feather 2.9.0 | Feather
+
+Thank you for all your feedback and contributions!
+
+> [!TIP]
+> For `idevice` configuration, you can use [Impactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-file) for easily retrieving a pairing file for installing!
+
+## What's Changed
+* Added tweak options in default signing options.
+* Added ability to search for identifier's in Library @ismailcarlik in https://github.com/claration/Feather/pull/652
+* Fixed issue in the file enumeration logic, by using the path property instead of method.
+* Fixed credit links.
+* Fixed duplicate repository in recommended repositories.
+
+## New Contributors
+* @xiangfeidexiaohuo made their first contribution in https://github.com/claration/Feather/pull/634
+* @osageling made their first contribution in https://github.com/claration/Feather/pull/642
+
+**Full Changelog**: https://github.com/claration/Feather/compare/v2.8.2...v2.9.0]]></description>
+      <enclosure url="https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa" length="14241853" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

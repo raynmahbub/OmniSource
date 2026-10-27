@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Otraku releases
+BEGIN:VEVENT
+UID:otraku-1.13.1@omnisource
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Otraku v1.13.1
+DESCRIPTION:Otraku 1.13.1 | Otraku-v.1.13.1-ios17+\n\n- Added localizations
+  support.\n- Added Turkish localization (thanks @kyoyacchi).\n- Unfinished
+  messages are persisted in storage\, so mistakenly closing the sheet won't
+  cause you to loose your progress (thanks @0-BlackSpectrum-0).\n- Added pr
+ ogress and repeats info to the following tab in the media page. (thanks @0
+ -BlackSpectrum-0).\n- Added "Watchable On"/"Readable On" filter in discove
+ r filters for anime/manga.\n- Added support for underline formatting.\n- A
+ dded support for the "Same Universe" media relation.\n- Made all markdown 
+ content selectable: activities\, replies\, threads\, comments\, user/chara
+ cter/staff bios\, reviews and media descriptions.\n- Expanded images now h
+ ave a menu with buttons to download the image or share it (thanks @0-Black
+ Spectrum-0).\n- The copy button in the link sheet was replaced by a share 
+ button.\n- Fixed the last item in the collection list sheet being cut off.
+ \n- Fixed incorrect marker clipping of unread notifications (thanks @0-Bla
+ ckSpectrum-0).\n- Fixed markdown not being rendered in list notes.\n- Fixe
+ d the back button briefly appearing on some tabs of the home page.
+URL:https://raynmahbub.github.io/OmniSource/feeds/otraku.json
+END:VEVENT
+END:VCALENDAR

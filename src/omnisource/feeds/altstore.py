@@ -47,6 +47,18 @@ def render_altstore_app(
         "versions": versions,
         "screenshotURLs": raw.get("screenshots", []),
     }
+    # Emit declared compatibility where AltStore-family clients can consume it,
+    # as well as in the OmniSource extension. Do not apply the latest release's
+    # requirements to older versions: their requirements may differ.
+    compatibility = raw.get("compatibility") if isinstance(raw.get("compatibility"), dict) else {}
+    for key in ("minOSVersion", "maxOSVersion"):
+        value = newest.get(key) or compatibility.get(key)
+        if isinstance(value, str) and value:
+            entry[key] = value
+            newest.setdefault(key, value)
+    for key in ("devices", "clients"):
+        if isinstance(compatibility.get(key), list) and compatibility[key]:
+            entry[key] = list(compatibility[key])
     if raw.get("appPermissions"):
         entry["appPermissions"] = raw["appPermissions"]
     if raw.get("permissions"):
@@ -54,6 +66,14 @@ def render_altstore_app(
     if fallbacks:
         entry["fallbackDownloadURLs"] = list(fallbacks)
         newest["fallbackDownloadURLs"] = list(fallbacks)
+
+    reachable = health.get("reachable") if isinstance(health.get("reachable"), bool) else None
+    checked_url = str(health.get("checkedURL") or "")
+    # Legacy observations without a recorded URL cannot establish that the
+    # current asset was the one checked. Preserve the old state, but do not
+    # present it as a result for this download.
+    if not checked_url or checked_url != str(newest.get("downloadURL") or ""):
+        reachable = None
 
     entry["omnisource"] = {
         "slug": app.slug,
@@ -64,9 +84,11 @@ def render_altstore_app(
         "verification": raw.get("verification", {}),
         "compatibility": raw.get("compatibility", {}),
         "health": {
-            "downloadReachable": bool(health.get("reachable", True)),
-            "detail": health.get("detail", "not probed"),
-            "statusSince": health.get("since", newest["date"]),
+            "downloadReachable": reachable,
+            "detail": health.get("detail", "not probed") if reachable is not None else "not checked for this download",
+            "statusSince": health.get("since", "") if reachable is not None else "",
+            "lastCheckedAt": health.get("measuredAt", "") if reachable is not None else "",
+            "checkedURL": checked_url if reachable is not None else "",
             "lastUpdatedAt": newest["date"],
         },
     }
@@ -109,7 +131,8 @@ def render_health_doc(rendered: list[tuple[App, dict[str, Any]]], *, generated_a
     ``lastEventAt`` keeps the value that used to be here for readers that want
     the newest release or status change across the apps.
     """
-    reachable = sum(1 for _, entry in rendered if entry["omnisource"]["health"]["downloadReachable"])
+    reachable = sum(1 for _, entry in rendered if entry["omnisource"]["health"]["downloadReachable"] is True)
+    unreachable = sum(1 for _, entry in rendered if entry["omnisource"]["health"]["downloadReachable"] is False)
     events = [
         stamp
         for stamp in (
@@ -124,7 +147,8 @@ def render_health_doc(rendered: list[tuple[App, dict[str, Any]]], *, generated_a
         "totals": {
             "apps": len(rendered),
             "reachable": reachable,
-            "unreachable": len(rendered) - reachable,
+            "unreachable": unreachable,
+            "unknown": len(rendered) - reachable - unreachable,
             "featured": sum(1 for _, entry in rendered if entry["omnisource"]["featured"]),
         },
         "apps": [
@@ -138,6 +162,8 @@ def render_health_doc(rendered: list[tuple[App, dict[str, Any]]], *, generated_a
                 "downloadReachable": entry["omnisource"]["health"]["downloadReachable"],
                 "detail": entry["omnisource"]["health"]["detail"],
                 "statusSince": entry["omnisource"]["health"]["statusSince"],
+                "lastCheckedAt": entry["omnisource"]["health"].get("lastCheckedAt", ""),
+                "checkedURL": entry["omnisource"]["health"].get("checkedURL", ""),
             }
             for app, entry in rendered
         ],

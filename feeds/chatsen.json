@@ -67,6 +67,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -103,8 +117,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
           "lastUpdatedAt": "2026-08-12"
         }
       }

@@ -49,6 +49,20 @@
     "screenshotURLs": [
       "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/main/Pocket%20Poster/Assets.xcassets/ResetCollections/CustomCollection.imageset/CustomCollections.png"
     ],
+    "minOSVersion": "17.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "pocketposter",
       "status": "stable",
@@ -81,8 +95,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
         "lastUpdatedAt": "2025-08-29"
       }
     },

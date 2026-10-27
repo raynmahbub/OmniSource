@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-social.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Apollo v4.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/apollo.json</link>
+      <guid isPermaLink="false">apollo-4.0.0</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Apollo 4.0.0 | Apollo-Reborn-4.0.0
+
+### Features
+
+- Add **iPhone Duo** support with layouts that adapt to the closed display, open portrait, open landscape and partially folded positions, using the existing Apollo Reborn builds (#1245: @IllIIllIllIllII)
+  - Browse a feed beside its comments, choose Original or Focused content widths, and open the subreddit list in a Standard or Liquid Glass panel
+  - Inbox, Account and Settings gain sidebar/detail layouts in open landscape, while Search can keep results beside the page you open
+  - Pixel Pals is unavailable on Duo; regular iPhones keep it
+- Add an optional **iPad Layout (Beta)** on iPadOS 18 and later, with a native sidebar, adjustable feed and reader columns, and full-width Gallery View (#1385: @jordanearle)
+  - Try it from the one-time invitation or turn on iPad Layout under Interface; quit and reopen Apollo to apply it, or turn it off to return to the classic layout
+- Add **Restore Reading Session** to reopen your last feed, post and nearby reading position after iOS closes Apollo, including feed and comment sorting (#1441: @Thetromboneman1)
+  - On by default under Media → Browsing; explicit links and notifications take priority, and turning it off deletes the saved session
+- Add a **Setup Assistant** for new installations to connect or restore, choose Classic, Balanced or Full Featured preferences, select appearance, and review before applying (#1401: @jordanearle)
+  - Existing users can open it from Apollo Reborn settings with Keep My Settings selected; updating does not automatically apply a preset
+- Rework **Gallery View** with faster opening, pinch-to-resize tiles including a denser four-column layout, and native press-and-hold menus in the grid and fullscreen viewer (#1389, #1434: @icpryde, @IllIIllIllIllII)
+  - Sports clips can play silently in the grid, newly visible tiles start reliably, and returning from a fullscreen image no longer leaves a black screen
+- Open **Gallery View** for All Saved or a selected **Saved category**, with empty categories shown without an endless spinner (#1440: @IllIIllIllIllII)
+- Rebuild **Recently Read** as a native Apollo feed that follows your post layout, thumbnails, text size, themes, swipe actions and menus (#1442: @IllIIllIllIllII)
+  - Open it from its own row on your profile, switch its layout without changing other feeds, clear the history, or remove individual posts
+- Add **Recently Visited** subreddits to Search, with configurable section order and limits under Subreddits settings (#1404: @IllIIllIllIllII)
+  - History clears on restart or account change and is not saved to backups
+- Add **Add Downvote Tap** under Posts & Feeds → Info Row so tapping a score can cycle through upvote, downvote and no vote; off by default (#1403: @AcornElf)
+- Add a **Subreddit Icon** switch to Compact and Immersive subreddit header layouts, updating the preview and live header together (#1426: @IllIIllIllIllII)
+- Feature seasonal icons in **Daily Spotlight** around holidays, including Apollo's original holiday icons; the spotlight now shows six picks (#1390, #1245: @icpryde, @IllIIllIllIllII)
+- Tint **Apollo Reborn maintainer usernames** purple in posts, comments and the Inbox, while retaining their real profiles and normal moderator indicators (#1411: @IllIIllIllIllII)
+- Make **Bug Reports** attach a removable debug log automatically, and mask usernames, account details, links and sensitive values before logs are exported or shared (#1422, #1423: @icpryde)
+  - Export Debug Logs now shares a file that can be attached on GitHub; subreddit names, post/comment IDs and diagnostic details remain readable
+
+### Performance
+
+- Reduce unnecessary **API-Key-Free** requests by fetching subscriptions in larger pages and, with Reduce Rate Limiting on, batching feed avatars by page; interrupted subscription refreshes keep the existing list (#1416: @icpryde)
+  - Deleted or unavailable Bluesky previews stop repeatedly fetching themselves and using Reddit requests as a fallback
+
+### Fixes
+
+- Refine **Duo navigation** with steadier feed positions and search bars when columns change, a smoother subreddit drawer, correct Home/Popular/All restoration, and Reddit links opened from Settings routed to Posts (#1470: @nnastasi)
+  - Resume videos that were playing before folding or unfolding, covering both shared Reddit videos and direct-player media
+- Center **folded Duo title pills** in the usable header and keep composer text clear of the right-hand system strip, with correct wrapping and height through folding and unfolding (#1480: @jordanearle)
+- Keep the same **Duo comments thread** when returning from a linked subreddit after rotation or folding, and let the drawer return to an older retained feed correctly (#1464: @jordanearle)
+- Correct **Duo video autoplay** around the side rail and both columns' navigation bars (#1466: @kiliantyler)
+- Keep **View All Comments** visible inside its Duo comments pane when opening a specific comment (#1468: @d0lb33)
+- Stop the hidden **subreddit index** swallowing favorite taps and scrolling near the stars on Duo (#1469: @kiliantyler)
+- Open **native action menus** from controls moved into UIKit's overflow menu instead of silently dismissing without showing the actions (#1474: @kiliantyler)
+- Keep loading **API-Key-Free Inbox** rows when looking up a reply's quoted parent fails, showing the messages without that quote (#1455: @icpryde, @DeltAndy123)
+- Keep **API-Key-Free infinite scrolling** retryable after Reddit returns a rate limit or block page, rather than treating the refusal as the end of the feed (#1424: @icpryde)
+- Load the next feed page when **Hide Read** hides every loaded post, including with Infinite Scrolling off (#1412: @icpryde)
+- Fix **Reddit image uploads** becoming broken links when Imgur is selected, single-photo comment uploads failing, and synthetic album links in comments (#1402, #1406: @jordanearle, @IllIIllIllIllII)
+  - Previously broken uploads still need to be uploaded again
+- Give **inline comment images and GIFs** Copy Image, Save Image and Share actions, and open loaded images fullscreen without a second loading fade (#1400: @IllIIllIllIllII)
+- Show the correct **image, GIF, video and album menus** when pressing and holding media inside a post, including Save All Media for albums (#1435: @IllIIllIllIllII)
+- Fix a crash when opening a **compact album** from its long-press preview (#1398: @IllIIllIllIllII)
+- Fix crashes while **feed videos** wait to play and while **deleted comments** are being prepared (#1428, #1450: @Thetromboneman1)
+- Keep a playing **feed video's sound and mute icon** in step when opening its post, including with the phone's silent switch on (#1425: @icpryde)
+- Stop **rich link cards** shifting the feed or changing their image crop after voting (#1457: @icpryde)
+- Open **Find in Comments** from the Liquid Glass post menu with its search field, keyboard and result navigation working correctly (#1446: @icpryde)
+- Keep a collapsed **feed search bar** hidden when returning from the fullscreen image viewer (#1447: @Thetromboneman1)
+- Bring back the complete **Liquid Glass tab bar** after swiping back from Edit Profile, including its glass background (#1431: @icpryde)
+- Refresh **subreddit icons and banners** from current Reddit artwork instead of retaining older images (#1396: @IllIIllIllIllII)
+- Preserve **usernames in comment and post headers** by shortening flair first, while keeping timestamps and other trailing details visible (#1366: @AcornElf)
+- Open **Reddit social links** on profiles directly in Apollo instead of the browser (#1407: @IllIIllIllIllII)
+- Explain why **Notifications settings** are unavailable when no notification backend is configured, instead of spinning forever (#1399: @IllIIllIllIllII)
+- Open **Poll, Media, Link and Text** post shortcuts in the correct editor even when the composer finishes preparing after its sheet appears (#1414: @IllIIllIllIllII)
+- Keep the separator below **Home's first post** visible after switchi…]]></description>
+      <enclosure url="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>TwitchAdBlock v31.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/twitchadblock.json</link>
+      <guid isPermaLink="false">twitchadblock-31.7</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Twitch 31.7 | TwitchAdBlock 0.1.15
+
+**TwitchMods v0.1.15**, for Twitch iOS **31.7**
+
+### New: see what moderators delete
+Turn on **Keep Deleted Messages** in Settings → Emotes. When a moderator deletes a message, or times out or bans someone, their messages **stay in chat** instead of disappearing, and a short note like **"🛡 ronni was timed out for 10m"** shows up so you know what happened.
+- Want the notes to stand out? Turn on **Highlight Notes**, right under it, to give them a highlighted background.
+- Both are off by default. It only works for things that happen while you're in chat.
+
+### New: hide the "From channels you follow" bar
+Turn on **Hide "From Channels You Follow"** in Settings → Home to remove the row of clips and recaps above the live channels on the Live page.
+
+### Fixed
+- The **"Go Ad-Free"** button on the Following tab is hidden again. Twitch 31.7 rebuilt that tab, so the old way of hiding it stopped working.
+
+Everything from v0.1.14 is still included: Twitch 31.7 support, ad-blocking, 7TV / BTTV / FFZ emotes (send them with the 7TV bar or by holding the emote button), Keep Live Feed Playing, Hide Stories and your default launch screen.
+
+### Downloads
+- **`tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa`**: the full app.
+- **`tv.twitch-31.7-TwitchAdBlock-0.1.15-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.
+
+Using the AltStore / SideStore / Feather source? You'll get this update automatically:
+```
+https://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json
+```
+
+Full plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)]]></description>
+      <enclosure url="https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Telegram MxGram v13.1.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json</link>
+      <guid isPermaLink="false">telegram-mxgram-13.1.1</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Telegram 13.1.1 | Telegram-13.1.1-MxGram
+
+IPA Vault build for Telegram (MxGram), version 13.1.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RyukGram v452.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
+      <guid isPermaLink="false">ryukgram-452.0.0</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 452.0.0 | Instagram-452.0.0-RyukGram
+
+IPA Vault build for Instagram (RyukGram), version 452.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iQFace v584.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
+      <guid isPermaLink="false">iqface-584.1.0</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 584.1.0 | Facebook-584.1.0-iQFace
+
+IPA Vault build for Facebook (iQFace), version 584.1.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>ThreadSaver v452.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json</link>
+      <guid isPermaLink="false">threadsaver-452.1</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Threads 452.1 | Threads-452.1-ThreadSaver
+
+IPA Vault build for Threads (ThreadSaver), version 452.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Telegram MxGram v13.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json</link>
+      <guid isPermaLink="false">telegram-mxgram-13.1</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Telegram 13.1 | Telegram-13.1-iQTele
+
+IPA Vault build for Telegram (iQTele), version 13.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>ThreadSaver v452.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json</link>
+      <guid isPermaLink="false">threadsaver-452.0</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Threads 452.0 | Threads-452.0-ThreadSaver
+
+IPA Vault build for Threads (ThreadSaver), version 452.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.0-ThreadSaver.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Sparkle v452.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
+      <guid isPermaLink="false">sparkle-452.0.0</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 452.0.0 | Instagram-452.0.0-Sparkle
+
+IPA Vault build for Instagram (Sparkle), version 452.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Nicegram v2.6.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nicegram.json</link>
+      <guid isPermaLink="false">nicegram-2.6.4</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nicegram 2.6.4 | build 2.6.4
+
+Build of Nicegram for iOS 2.6.4 (725)]]></description>
+      <enclosure url="https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>NexaSC v8.83.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
+      <guid isPermaLink="false">nexasc-8.83.0</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SoundCloud 8.83.0 | SoundCloud-8.83.0-NexaSC
+
+IPA Vault build for SoundCloud (NexaSC), version 8.83.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iQFace v584.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
+      <guid isPermaLink="false">iqface-584.0.0</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 584.0.0 | Facebook-584.0.0-iQFace
+
+IPA Vault build for Facebook (iQFace), version 584.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Turrit MxGram v1.5.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/turrit-mxgram.json</link>
+      <guid isPermaLink="false">turrit-mxgram-1.5.6</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Turrit 1.5.6 | Turrit-1.5.6-MxGram
+
+IPA Vault build for Turrit (MxGram), version 1.5.6]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MSGPlusX v584.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
+      <guid isPermaLink="false">msgplusx-584.0.0</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 584.0.0 | Messenger-584.0.0-MSGPlusX
+
+IPA Vault build for Messenger (MSGPlusX), version 584.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Messenger Flow v584.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json</link>
+      <guid isPermaLink="false">messenger-flow-584.0.0</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 584.0.0 | Messenger-584.0.0-Flow
+
+IPA Vault build for Messenger (Flow), version 584.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>NeoFreeBird v7.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/neofreebird.json</link>
+      <guid isPermaLink="false">neofreebird-7.2.0</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33
+
+# Version 7.2.0
+
+## New Features
+- Added an option to choose the default reply sort
+- Updated X to 12.33
+- Added an option to hide retweets and quotes from the “For You” page
+- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135
+- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings
+- Brought back the Tweet source labels!
+- Removed the “Money” tab
+- Enabling the option to hide views now also hides it in the tweet footer.
+
+## Fixes
+- Fixed more webview issues
+- NeoFreeBird now more reliably filters out video ads
+- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140
+- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138
+- Added localization support for the “Show quote numbers option”
+- Fixed the app crashing when adding more than 1 account
+
+## Localizations
+* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130
+* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132
+* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136
+* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139
+* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142
+
+## New Contributors
+* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130
+* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132
+* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135
+* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139
+* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeBird/app/pull/142
+* @sekiranunn made their first contribution in https://github.com/NeoFreeBird/app/pull/140
+
+**Full Changelog**: https://github.com/NeoFreeBird/app/compare/v7.1.1...v7.2.0]]></description>
+      <enclosure url="https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MSGPlusX v583.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
+      <guid isPermaLink="false">msgplusx-583.0.0</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 583.0.0 | Messenger-583.0.0-MSGPlusX
+
+IPA Vault build for Messenger (MSGPlusX), version 583.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Messenger Flow v583.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json</link>
+      <guid isPermaLink="false">messenger-flow-583.0.0</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 583.0.0 | Messenger-583.0.0-Flow
+
+IPA Vault build for Messenger (Flow), version 583.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-583.0.0-Flow.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iQFace v583.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
+      <guid isPermaLink="false">iqface-583.0.0</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 583.0.0 | Facebook-583.0.0-iQFace
+
+IPA Vault build for Facebook (iQFace), version 583.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-583.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iNKillerPlus v451.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json</link>
+      <guid isPermaLink="false">inkillerplus-451.0.0</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 451.0.0 | Instagram_451.0_iNKillerPlus_5.3
+
+• Fixes Grid mode may crashes in v450+
+- Add full compatibility with IG v445+
+- Updated base IPA to Instagram v451]]></description>
+      <enclosure url="https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>ThreadSaver v451.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/threadsaver.json</link>
+      <guid isPermaLink="false">threadsaver-451.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Threads 451.0 | Threads-451.0-ThreadSaver
+
+IPA Vault build for Threads (ThreadSaver), version 451.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-451.0-ThreadSaver.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Swiftgram v13.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/swiftgram.json</link>
+      <guid isPermaLink="false">swiftgram-13.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Swiftgram 13.0 | Swiftgram-13.0-MxGram
+
+IPA Vault build for Swiftgram (MxGram), version 13.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Sparkle v451.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
+      <guid isPermaLink="false">sparkle-451.0.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 451.0.0 | Instagram-451.0.0-Sparkle
+
+IPA Vault build for Instagram (Sparkle), version 451.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-Sparkle.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RyukGram v451.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
+      <guid isPermaLink="false">ryukgram-451.0.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 451.0.0 | Instagram-451.0.0-RyukGram
+
+IPA Vault build for Instagram (RyukGram), version 451.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Glow v2026.41.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/glow.json</link>
+      <guid isPermaLink="false">glow-2026.41.0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter
+
+IPA Vault build for Reddit (RedditFilter), version 2026.41.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.41.0-RedditFilter.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>NexaSC v8.82.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
+      <guid isPermaLink="false">nexasc-8.82.0</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC
+
+IPA Vault build for SoundCloud (NexaSC), version 8.82.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.82.0-NexaSC.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Telegram MxGram v13.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/telegram-mxgram.json</link>
+      <guid isPermaLink="false">telegram-mxgram-13.0</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Telegram 13.0 | Telegram-13.0-iQTele
+
+IPA Vault build for Telegram (iQTele), version 13.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.0-iQTele.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Nicegram v2.6.3</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nicegram.json</link>
+      <guid isPermaLink="false">nicegram-2.6.3</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Nicegram 2.6.3 | build 2.6.3
+
+Build of Nicegram for iOS 2.6.3 (721)]]></description>
+      <enclosure url="https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iQFace v582.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/iqface.json</link>
+      <guid isPermaLink="false">iqface-582.0.0</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 582.0.0 | Facebook-582.0.0-iQFace
+
+IPA Vault build for Facebook (iQFace), version 582.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-582.0.0-iQFace.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Apollo v3.9.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/apollo.json</link>
+      <guid isPermaLink="false">apollo-3.9.0</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Apollo 3.9.0 | Apollo-Reborn-3.9.0
+
+### Features
+
+- Add an **in-app update prompt**: from the next release on, Apollo Reborn checks for updates once a day and, when one is out, lets you send it to AltStore, SideStore, Feather, or FlareStore or download the IPA, with the release notes a tap away (#1343: @IllIIllIllIllII)
+  - Tap **Later** or **Skip this version** to put it off, check any time with **Check for Updates** (About), or turn off **Automatic Update Checks** (Privacy, on by default); jailbreak installs don't check
+  - What's New now shows the app icon you picked instead of the default one
+- Open the **subreddit switcher** as a native sheet when you tap a feed's title, with search, your favorites, and live results, instead of the small floating dropdown; typing a multireddit like apple+iphone still works (#1313, #1387: @IllIIllIllIllII)
+  - Press and hold the **Posts** tab to open it while a feed is open, now on Liquid Glass too, and the search field stays in place as you scroll the sheet
+- Add a **Liquid Glass** switch (Interface → Appearance, on by default) so Liquid Glass builds can use Apollo's classic look without installing a different IPA; quit and reopen Apollo for the change to apply (#1384: @IllIIllIllIllII)
+  - Shown on Liquid Glass builds on iOS 26 and later, except inside LiveContainer; while it's off, Liquid Glass-only options are hidden
+- Add a **Minimize** Hide Style for **Hide Bars on Scroll** (Interface → Tab Bar, Liquid Glass) that shrinks the tab bar into a small glass pill showing the current tab as you scroll, like Safari; tap the pill or scroll back up to bring the full bar back (#1349, #1384: @IllIIllIllIllII)
+  - With any Hide Style on Liquid Glass, a tab bar or header hidden by scrolling now slides back in when you open a page or go back or forward, and the tab bar no longer comes back on its own after 30 seconds
+- Add **Reduce Rate Limiting** (Accounts & API Keys → Experimental, off by default) so **API-Key-Free** accounts hit Reddit's request limit less often: profile pictures load in batches without their collectible frames, Community Highlights refresh every 30 minutes instead of every 2, and your sign-in is checked less often (#1369: @icpryde)
+  - Apollo offers it once: when you sign in without an API key, or, if you're already signed in, the first time you hit the limit
+  - Even with it off, API-Key-Free accounts skip repeated account requests at launch and when you come back to the app, Community Highlights wait out a rate limit, and your own profile no longer shows "has been banned" during one
+- Add **Kagi** to the Search tab's **Search With** menu for Kagi subscribers: paste your Kagi Session Link once, then search Reddit through Kagi with the same result cards, Read More, and filters as Google, plus each post's score, comments, and age right away (#1305: @nickclyde)
+  - Each page of results counts as one search on your Kagi plan; change or remove the link under Accounts & API Keys → Kagi Search
+- Add **Open via Nitter** (Open in App → X / Twitter, off by default) to open X and Twitter links on a Nitter instance you pick from a live list or enter yourself, so you can read posts and profiles without an X account (#1334: @nickclyde)
+  - Shared and copied links stay on x.com
+- Open **Edit Profile** (your profile's ••• menu) inside Apollo on iOS 16 and later, signed in as the current account and styled with your theme, instead of in Safari, which often wasn't signed in (#1367: @icpryde)
+  - API-key accounts without a **Reddit Web Sign-In** are asked to sign in once first
+- Add **True Black Keyboard** (Interface → Display & Navigation, off by default) to make the keyboard's background pure black for OLED screens, in dark mode, light mode, or always (#1316: @IllIIllIllIllII)
+- Add **Settings Icon Theme** (Settings → Appearance → Other, Light by default) to show settings icons as colored symbols on dark tiles, like iOS Settings in dark mode, either always (Dark) or only in dark mode (System) (#1377: @IllIIllIllIllII)
+  - Pixel Pals now gets a rounded-square icon with your current pet, and the main Settings list drops its duplicate Apollo Ultra row (it's still under About)
+- Add a **User Profiles** settings page that brings Profile Layout, **Show User Profile Pictures**, and **Profile Picture Shape** together, with a live sample comment showing how profile pictures look (#1352: @IllIIllIllIllII)
+  - Show User Profile Pictures and Profile Picture Shape move here from Interface → Display & Navigation
+- Reorganize **Subreddits** settings into Subreddit List, Subreddit Appearance, and Search Tab Sources, and redesign **Subreddit List Sections** (formerly Subreddit Sections) with a preview that looks like your real subreddit list (#1350, #1351: @IllIIllIllIllII)
+  - **Show Subreddit Icons** moves here from Apollo's Appearance settings, and Section Order rows now drag by their handle
+  - Also fixes subreddit list rows keeping the previous light or dark mode's colors with **Subreddit List Enhancements** off
+- Rework **Customize Action Menus** (Interface → Menus, formerly Action Menus) with clearer descriptions, a summary only on menus you've changed, **All Menus** showing where each action is hidden, and a **Reset Menu…** that can reset just the order (#1282, #1323, #1368: @AcornElf, @icpryde)
+  - Touch-and-hold menus on posts and comments now follow your layout too, so hidden actions stay hidden and the order matches the ••• menu
+  - Brings back **Remind Me In…** in the ••• menus on posts and comments on Liquid Glass, and lets you hide or move it
+- Add a **Comment Link** option to **Share as Image**: Include Link becomes a **Link** menu with No Link, Post Link, or Comment Link when you share a comment, and comment GIFs shared as video carry the chosen link too (#1278: @Thetromboneman1)
+  - If Include Link was on, it carries over as Post Link
+- Add tile size buttons to **Gallery View** (the − and + magnifying glasses at the top) to switch between four tile sizes, from a denser grid to a single column; your choice is remembered (#1357: @jordanearle)
+- Write **Apollo AI** summaries in your language even when the post, article, or comments are in another one, with a new **Language** setting (Apollo AI → Summaries, Device Default by default) (#1362: @icpryde)
+  - Summaries saved before this update are written again the next time you open their thread
+- Add **Custom Headers** to Apollo AI's Custom provider, for services that need extra request headers, such as the `x-opencode-session` header OpenCode Go now asks for (#1286: @icpryde)
+- Start a **crosspost**'s title as the original post's title, like reddit.com does, with an (x) to clear it; long titles now wrap onto up to five lines instead of being cut off (#1290: @icpryde)
+- Show the newest commenter's **profile picture** next to their name in the follow-thread **Live Activity** when **Show User Profile Pictures** is on (#1296: @icpryde)
+  - Needs a self-hosted Notification Backend with avatar support
+- Add **Witching Hour** and **Count Helios**, two Halloween icons, to the Helios icon pack (#1378: @IllIIllIllIllII)
+
+### Performance
+
+- Use less memory for very large images in **Gallery View**, Image Chest albums, and Chat, which now load at the size they're shown instead of at full resolution (#1320: @ryannair05)
+
+### Fixes
+
+- Fix crashes when adding or removing a **favorite** on the Subreddits list, while writing a **Media** post (for example after changing its flair), and when swiping between pages of the fullscreen **media viewer** (#1336: @icpryde)
+- Fix Apollo crashing when you switch accounts with the **Inbox** open, and a rare crash when the Inbox is closed right after it opens (#1284, #1379: @icpryde)
+- Fix very long **text posts** showing a blank body at the largest text sizes, or after Apollo had been open a while (#1381: @icpryde)
+- Fix **Continue with Google** doing nothing and **Continue with Apple** showing an error on Reddit's sign-in page; both now open Google's or Apple's sign-in in a sheet, …]]></description>
+      <enclosure url="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>TTKillerPlus v47.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ttkillerplus.json</link>
+      <guid isPermaLink="false">ttkillerplus-47.1.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[TikTok 47.1.0 | TikTok_47.1_TTKillerPlus_2.3
+
+• Fixes injection for jailbreaks may not be injected due to bundle iD missing
+- Add country flag to the profile page to know the creator origin country
+- Add follow status to new profile style user name
+- Add v46.7+ compatibility.
+- Fix like confirmation bypass on double tap.
+- Fix post date display format.
+- Fix flag button not tappable.
+- Other fixes & improvements.
+- Update base IPA to TikTok v47.1]]></description>
+      <enclosure url="https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iNKillerPlus v449.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json</link>
+      <guid isPermaLink="false">inkillerplus-449.0.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3
+
+• Fixes a possible crash on rootless JB
+- Add alternative icon to jailbreak since iG include the icon inside the app
+- Fixes show app icon in settings for ios 26 - 27 as was disabled in previous versions
+- Fixes show email open in profiles or copied text to detect emails automaticlly
+- Fixes profile bio long press to copy detect email and links
+- Fixes read DM icon
+- Fixes user exception for direct message
+- Add full compatibility with IG v445+
+- Updated base IPA to Instagram v449.0]]></description>
+      <enclosure url="https://ikghd.site/ipa/Instagram_449.0_iNKillerPlus_5.3.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Sparkle v450.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/sparkle.json</link>
+      <guid isPermaLink="false">sparkle-450.1.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 450.1.0 | Instagram-450.1.0-Sparkle
+
+IPA Vault build for Instagram (Sparkle), version 450.1.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-Sparkle.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RyukGram v450.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram.json</link>
+      <guid isPermaLink="false">ryukgram-450.1.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 450.1.0 | Instagram-450.1.0-RyukGram
+
+IPA Vault build for Instagram (RyukGram), version 450.1.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-450.1.0-RyukGram.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>MSGPlusX v582.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/msgplusx.json</link>
+      <guid isPermaLink="false">msgplusx-582.0.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 582.0.0 | Messenger-582.0.0-MSGPlusX
+
+IPA Vault build for Messenger (MSGPlusX), version 582.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-MSGPlusX.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Monal v6.4.23</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/monal.json</link>
+      <guid isPermaLink="false">monal-6.4.23</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Monal 6.4.23 | Monal
+
+- Increased sync speed considerably
+- We don't show the login view anymore, if all configured accounts are disabled
+- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now
+- Sharing something using the share sheet should no longer attach a spurious garbled file alongside]]></description>
+      <enclosure url="https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Messenger Flow v582.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/messenger-flow.json</link>
+      <guid isPermaLink="false">messenger-flow-582.0.0</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 582.0.0 | Messenger-582.0.0-Flow
+
+IPA Vault build for Messenger (Flow), version 582.0.0]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-582.0.0-Flow.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RyukGram Side by Side v449.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram-sidebyside.json</link>
+      <guid isPermaLink="false">ryukgram-sidebyside-449.0.0</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 449.0.0 | RyukGram Side by Side
+
+# [release] RyukGram v1.4.5
+
+### ✨ Highlights
+
+- **RyukGram Gallery** — Pick and repost media directly inside Instagram, edit photos and videos, manage file details, and save everything to your gallery
+- **Reels limits** — Set session or daily limits by time or reel count, track usage, get break reminders, and pause reels across the app when limits are reached
+- **Watchlist & profile tracking** — Monitor accounts for username, bio, picture, privacy, verification and count changes, with configurable alerts and a private profile history
+- **Playback controls** — A redesigned reels and stories panel with live seeking, frame-by-frame navigation, custom skip steps, playback speed memory and frame saving
+- **Notification history** — Search and filter saved notifications, choose which features are recorded, and access them from a home shortcut
+- **Custom notification sounds** — Import and trim your own sounds for DMs and other alerts, or use Instagram's built-in tones
+- **Gallery media limits and feed controls** — Control how much content loads, filter posts by engagement, and hide feed videos when your reels limit is reached
+- **MobileConfig Browser Update** — The browser now names all configs and fields Instagram exposes on iOS, with a coverage count at the bottom of the list
+
+### 🆕 New features
+
+#### Gallery & media
+
+- Pick media from the RyukGram Gallery directly in Instagram: use the DM + menu, hold the comment photo button, or hold Recents in story, post and reel galleries
+- Repost gallery photos, videos and GIFs as stories, posts or reels
+- Edit gallery media: crop, rotate and resize photos, trim and crop videos, trim audio, extract or remove video audio, and convert GIFs to video. Save as a new file or replace the original
+- Gallery info editor — Rename files, edit source details, view camera and codec information, and remove photo location data
+- Redesigned crop editor for Draw and chat backgrounds, with more ratios, free crop, flip and zoom-to-fit
+- Save photo posts with their music from the reels action button, disabled by default
+- Open profile pictures to browse every available picture on the account
+- Group chats without a picture now show member avatars in RyukGram lists
+
+#### Reels & stories
+
+- Reels and stories playback panel — Live progress, elapsed and remaining time, larger play/pause, custom skip intervals, frame-by-frame seeking, next/previous navigation and frame saving
+- Playback speed can be remembered globally, for the current session or only for the current video
+- Reel sidebar playback button shows the current speed and can switch between 1× and your last speed by holding it
+- Move the reels action and playback buttons anywhere in the sidebar
+- Access playback controls from the reels and stories action button, with auto-advance controls in the story panel
+- Reels auto-scroll can skip sponsored and photo reels
+- Keep Instants unseen after viewing, or mark an individual one seen with the viewer's eye button
+- Hold the story background button to choose a solid color or gradient, with an adjustable direction
+
+#### Profiles & tracking
+
+- Watchlist — Add accounts from profiles, recent chats or search. Accounts are checked on a schedule and for free when opened, with a 24-hour pause if Instagram rate-limits requests
+- Track watchlist changes to usernames, names, bios, links, pictures, privacy, verification, follow-back status and counts, with per-type alerts and a home shortcut
+- Visited profiles — Keep a private history of opened profiles with notes, filters, multi-select and CSV or JSON export
+- Activity notifications can now track only accounts in your list
+- Fake profile picture — Use an image from Photos, Gallery, Files or a link, displayed throughout Instagram on your device only
+- Spoofing editor redesigned around your profile header, including the Threads badge. Tap fields to edit, apply changes, or disable all spoofing with one switch. Edit Profile always shows your real information
+- Post spoofing — Select your own posts and change displayed likes, comments, views, shares, reposts and saves locally
+
+#### MobileConfig & advanced
+
+- Active MobileConfig overrides show how many times Instagram has read them
+- Identify unnamed MobileConfig entries by the code that reads them, and use that code as their label
+- Toggle individual or all overrides off and on without losing their values
+- Filter MobileConfig parameters by overridden status or platform
+- Add searchable notes to configs, visible in the list and config details
+- Search MobileConfig by notes, parameter names, IDs, names or numbers
+- Every MobileConfig config and field Instagram exposes on iOS now has a name, up from under a third
+- The MobileConfig list footer shows how many configs and fields are named out of the total
+- Instagram API settings — Reuse recent replies for a chosen period, pace requests, and set daily follow and unfollow limits
+
+#### Interface & customization
+
+- Custom emoji fonts — Import color emoji fonts to replace emoji throughout Instagram
+- Custom notification sounds for DMs and other alerts, with imports from Files, Photos or Gallery, trimming, and Instagram's built-in tones
+- Safari extension — Add an Open in RyukGram banner at the top or bottom, remove Instagram app prompts, block App Store redirects, and optionally open links automatically
+- Strip tracking menu — Manage tracking removal for shared and opened links, choose which parameters to remove, or strip unnecessary parameters from shared links
+- Embed domains and tracking parameters now support multi-select deletion
+- Hide search suggestions, including suggested accounts and searches in the Search tab
+- Hide Facebook cards: removes the Facebook suggestion cards from the feed
+- Hide Meta AI also removes AI-generated images from the gallery picker
+- Force audio button restores the DM camera sound toggle in the ••• menu when Instagram does not show it
+- Links, email addresses and phone numbers in captions, comments and profile bios are tappable, with long-press options to copy or share
+- Option to hide the disappearing media views toggle from the chat header
+
+#### Reels limits
+
+- Choose per-session limits, the previous doom-scrolling cap, or daily limits based on time or reel count
+- Set limits per location or across the app
+- Usage dashboard with daily history, break reminders and warnings before reaching a limit
+- Strict mode and a home shortcut
+- When a limit is reached, reels pause across the app, with an option to hide feed videos
+
+#### Diagnostics & notifications
+
+- Crash logging under Debug → Logging — Automatically save reports when Instagram crashes, with search, sharing and an indicator when RyukGram appears in the trace
+- Share log files can now include crash reports
+- Notification history — Save notifications in one searchable place, filter by feature or type, choose which features are recorded, and use a home shortcut with unread counts
+
+### 🛠 Fixes
+
+#### Instagram compatibility
+
+- Updated compatibility with Instagram 447, 448 and 449
+- DM inbox header buttons, chat menus, hidden chats, locks, refresh warnings and Meta AI search hiding work again on the new Swift inbox
+- Inbox and profile action buttons no longer overlap the back button or username on older layouts
+- Voice message downloads, forced DM saving and Meta AI menu hiding work again on newer Instagram
+- Feed autoplay controls, story midcard hiding and sticker-reply seen state work again on Instagram 448
+- Hiding the reels long-press menu and reels surveys works again on Instagram 448
+- Keep deleted messages, reels playback speed, tap-to-mute on photo reels and feed refresh interval overrides work again on Instagram 448
+- Hiding Meta AI and suggested people on the new chat screen works again
+- The chat message preview no longer displays a Try Instagram Plus label
+
+#### Media & downloads
+
+- Saved voice messages now use the sender's name
+- Profile and group pictures remain cached after links expire or caches are cleared, an…]]></description>
+      <enclosure url="https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa" length="269519729" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Chan v1.2.9</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/chan.json</link>
+      <guid isPermaLink="false">chan-1.2.9</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Chan 1.2.9 | Chance
+
+## New Features
+
+- New captcha cloud solver
+- Small redesign of captcha form
+- Support image pasting from keyboard on iOS 27
+- Rename saved attachments
+
+## General Improvements
+
+- Reddit comments replaced by "Edit: comment has been cleaned" will retain their previous text
+- Many QUIC and HTTP/3 bugfixes and performance improvements
+
+## Tweaks
+
+- Don't insert duplicate quotelinks when using "reply" to open the reply form
+- Added a confirmation before clearing cookies when banned
+- Hide archive name when scrolling to bottom of thread (it's already there)
+- Always restart videos from beginning in gallery
+- Slight tweak of tab bar resizing for long tab titles
+
+## Bugfixes
+
+- Threads not marked as archived
+- Gallery changed image when rotating the device
+- Compatibility error on some newer Android versions
+- Unable to tap tabs on first page sometimes
+- Intermittent errors about directories not existing
+- YouTube shorts embeds not shown
+- Posting multiple files on lynxchan-based sites didn't work and just combined their filenames
+- Thread tail requests were not properly optimized for caching
+- Cloudflare popup trying to load Twitter embed data
+- Backspacing an embeddable URL in the reply box would cause repeated network requests
+- Tab bar spazzed open and close when slowly scrolling to the bottom of a thread]]></description>
+      <enclosure url="https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa" length="32697918" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RainTweak v1.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/raintweak.json</link>
+      <guid isPermaLink="false">raintweak-1.2.0</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Discord 1.2.0 | RainTweak]]></description>
+      <enclosure url="https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa" length="107065935" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Voyager v2.49.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/voyager.json</link>
+      <guid isPermaLink="false">voyager-2.49.1</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Voyager 2.49.1 | Voyager-iOS-2.49.1
+
+## 🐛 Fixes
+
+- fix: preserve special characters in search
+   - PR: #2358
+
+## 📝 Other Changes
+
+- chore: rust react compiler pipeline
+   - PR: #2357
+- chore: upgrade dependencies
+   - PR: #2359]]></description>
+      <enclosure url="https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa" length="8232319" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Glow v577.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/glow.json</link>
+      <guid isPermaLink="false">glow-577.1</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Facebook 577.1 | Facebook-577.1-Glow
+
+Glow v1.4.4 injected into Facebook 577.1.]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa" length="226667533" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>iMe MxGram v12.8.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ime.json</link>
+      <guid isPermaLink="false">ime-12.8.1</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[iMe 12.8.1 | iMe-12.8.1-MxGram
+
+MxGram v3.8 injected into iMe 12.8.1.]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa" length="148174542" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Chatsen v1.1.107</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/chatsen.json</link>
+      <guid isPermaLink="false">chatsen-1.1.107</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Chatsen 1.1.107 | iOS]]></description>
+      <enclosure url="https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa" length="10009593" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RyukGram (IG 410) v410.1.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/ryukgram-ig410.json</link>
+      <guid isPermaLink="false">ryukgram-ig410-410.1.0</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Instagram 410.1.0 | RyukGram (IG 410)
+
+Updated for Instagram 439.0.0.
+
+### ✨ Highlights
+- **Call recording** — record voice and video calls, with auto-record, smart video grids and a per-person browser to play them back
+- **Activity notifications** — one log for who read your messages plus who came online, went offline or started typing, per person, with an accurate green dot
+- **Grid feed** — turn your home feed into a tappable grid of thumbnails with stats and author overlays, per account
+- **Stories archive** — saves every story you post before it expires, with its media and full viewer list, per account
+- **Story viewers list** — a searchable, filterable, sortable and pinnable "who viewed my story", with each viewer's reaction shown
+- **Instagram Plus** — turn on some Instagram's paid subscriber features inside the app
+- **Custom button icons** — pick any Instagram icon or iOS symbol for the action and home-shortcut buttons
+
+### 🆕 New features
+
+#### Messages
+- Activity notifications and Activity log — records who read your messages plus who came online, went offline or started typing, as a per-person timeline. Set each event to log silently, notify you, or both, and hold anyone to customise or mute them. A new accurate active-status option turns the green dot off the moment someone leaves. Filter by type and date, swipe or multi-select to delete, and lock the log behind your passcode
+- A dot in the DMs inbox to turn your active status on or off without opening settings
+- Keep deleted messages can now also keep the ones you unsend yourself, shown faded in chat and added to the deleted log
+- Mark chats seen locally — with read-receipt blocking on, opened chats look read on your device while the sender still gets no receipt; the eye button turns orange until you really mark seen
+- Hold the account name at the top of Direct to show or hide your hidden chats, with an optional passcode/Face ID lock
+- Messages-only mode is now its own menu, can turn on automatically during a daily window, and adds a notifications shortcut plus an optional home-shortcut button in the inbox header
+- Adding someone to a list (read-receipt blocking, hidden or locked chats, chat backgrounds, story viewer pins) now opens a picker of recent DMs with username search, instead of typing it in blind
+- The DM Draw feature can now send an image as your doodle — from the gallery, Photos, your Instagram or iOS stickers, or a pasted image — with an editor to crop, resize and remove the background
+- Custom chat backgrounds can now be videos or GIFs, framed with pan-zoom and trim, with the same opacity, blur and dim controls, and re-editable later
+- Hide suggested accounts and channels in Direct messages search
+
+#### Stories
+- Stories archive saves every story you post before it expires, with its media and full viewer list, per account. Browse by date in a grid, see who viewed, liked or reacted, with filter, sort, pinned viewers, an unread badge, optional alerts and its own backup and storage entry
+- The "who viewed my story" list is now searchable — filter (mutuals, following, follows you, verified, reacted, pinned), sort, and pin anyone to the top. Shows avatars, verified badges and each viewer's reaction, loads every viewer, and can switch back to Instagram's own list. Pick which one opens first
+- Marked-seen indicator — stories you already marked as seen hide the eye button or fill it green for 48 hours, per account
+- New "Save image (no music)" story download option for photo stories that have Instagram music on them
+- Story tray long-press "Profile picture" now also works in Instagram's new subscriber story preview menu
+
+#### Reels
+- New reels playback menu — hold the ⋯ or audio button for speed, seek (skip back/forward by a custom amount) and auto-scroll controls
+- Auto-scroll reels is back — Instagram default or RyukGram mode that keeps advancing after you swipe back
+- Filter reels by engagement — set a minimum for likes, comments, views or reposts and reels below it never show, plus an option to hide reels whose author hides their counts. Only the Reels tab is filtered by default, so reels you open from a post, profile or share stay untouched
+- Show when a reel was reposted — an optional date on the "reposted this reel" header
+
+#### Feed & Explore
+- New Grid feed — turn your home feed into a grid of post thumbnails showing likes, comments, views, shares and the author. Pinch to change columns, pull to refresh, tap a post to open it, or hold for a menu to like, follow, view profile, expand, share or copy the link. Choose which stats show, square or taller tiles, and how you switch back to Instagram's feed. Loads instantly, works per account and remembers where you left off
+- Search and explore grids now show stat pills on posts and reels — views, likes, comments, shares, reposts and date — with a page to pick which appear, reorder them and toggle them
+- New date format options — swap Instagram's relative timestamps on posts, notes, comments, stories and DMs for a fixed date, a preset like dd/MM/yyyy, or your own template, with a relative-time threshold
+- New "Block surveys" toggle — hides Instagram's in-app surveys and feedback prompts, including the "Interested in this post?" cards
+- Confirm feed refresh — an optional alert before a pull-to-refresh reloads the home feed
+- Refresh stories only — pull-to-refresh reloads just the stories tray and leaves the feed where it is
+
+#### Instants
+- Instants download now works on videos too — expand, save, share and download-all all handle video instants
+- Send a video from your gallery as an Instant — frame it square, trim any 7 seconds on a scrollable timeline, then hold to record
+- Confirm before capturing an Instant — an optional alert on a photo tap or held video, plus a confirm before tapping to switch Instants
+- Auto close the Instants viewer once you've seen them all
+
+#### Downloads & Gallery
+- Download manager got a rebuild — thumbnails for finished media, live size, speed and time left, a filter row, and swipe a row to cancel, retry or remove
+- Downloads now stay listed after you close the app and can be downloaded again from the history — kept from 12 hours up to forever, and cleared or exported from Backup and Storage
+- Download quality picker has an advanced view — download a video with no audio, or pick any of its audio tracks
+- Gallery — import your own photos, videos and files from the ••• menu, saved under an Imported filter
+- Gallery browsing got more controls — combine a sort with images, videos or favorites first, filter by date, pick 2 to 5 columns, and long-press a user section to select all their media
+- The gallery now uses Instagram icons throughout, grid tiles show a date chip, and long-pressing an item shows its date, source and size
+
+#### Profile
+- Profile card details now also show comment, share and repost counts, with a page to pick which stats appear, reorder them and toggle them
+- Followers and Following lists get a filter and sort button on Instagram's search bar — mutuals, following, follows you or verified, sorted by name or relationship
+- Profile Analyzer's badge now shows gains and losses — a green +N when a list grew, a red −N when it shrank
+- Profile Analyzer is out of beta
+
+#### Interface & notifications
+- Action button and home-shortcut icons are now fully customisable — a searchable browser for any Instagram icon or iOS symbol, per button or shared, including Instagram's colourful pet stickers
+- Tab bar icon order is now a live tab bar preview — drag to reorder, drag one up to hide, tap a hidden icon to add it back
+- Story and disappearing-media overlay buttons can be repositioned by dragging them on a preview
+- The notification pill can be placed anywhere on a phone preview, not just top or bottom
+- Notifications mirrored to the iOS notification centre can now also show as system banners while you're using the app
+- The home shortcut button shows a red dot for new deleted messages, read receipts or call recordings, with a count next…]]></description>
+      <enclosure url="https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa" length="267074754" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Thunder v0.8.6</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/thunder.json</link>
+      <guid isPermaLink="false">thunder-0.8.6</guid>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Thunder 0.8.6 | thunder-v0.8.6
+
+Hey everyone! Sorry for the back-to-back releases again. This hotfix fixes another issue related to grey screens when navigating to comments from the inbox or user profile. As always, if you encounter any issues or have feedback, please share them with the Thunder community or on GitHub.
+
+If you're enjoying Thunder and would like to show some support, star this project on GitHub! This helps gain visibility for the project and allows more contributors to help with the continued development of Thunder. If you'd like to show some appreciation, you can sponsor me on [GitHub](https://github.com/sponsors/hjiangsu) or donate via [Liberapay](https://en.liberapay.com/hjiangsu/) or [Ko-fi](https://ko-fi.com/hjiangsu).
+
+We have a [Matrix space](https://matrix.to/#/#thunderapp:matrix.org) if you would like to join in on discussions!
+
+---
+
+## Fixes
+* Fixed grey screen when navigating to comment by @hjiangsu in #2029
+
+**Full Changelog**: https://github.com/thunder-app/thunder/compare/0.8.5...0.8.6]]></description>
+      <enclosure url="https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa" length="17830940" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>RedditFilter v2025.37.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/redditfilter.json</link>
+      <guid isPermaLink="false">redditfilter-2025.37.0</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reddit 2025.37.0 | RedditFilter_2025.37.0-1.1.8
+
+# RedditFilter v2025.37.0-1.1.8
+
+## Changes
+
+- Fix app crash (@NicholasBly)
+- Fix ad comments showing under posts (@Laitinlok)
+- Fix popular feed not showing with recommendations disabled
+- Move RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)
+
+## SHA256
+
+- `1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3`  packages/RedditFilter_2025.37.0-1.1.8.ipa
+- `1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb
+- `e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb]]></description>
+      <enclosure url="https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa" length="137114565" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>SNMessenger v517.0.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/snmessenger.json</link>
+      <guid isPermaLink="false">snmessenger-517.0.0</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[Messenger 517.0.0 | SNMessenger 2.0.0 | Messenger_517.0.0.SNMessenger.v2.0.0-2
+
+# Changelog:
+- A new way to access tweak's settings (it looks more _native_ now)
+- Add option to prevent others knowing when you're typing
+- Add option to hide floating AI button
+- Improvements and fix other minor issues
+- **Add ability to sideload on non-jailbroken devices!!!**]]>&#32;<![CDATA[
+- ... (I forgot lol)]]></description>
+      <enclosure url="https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa" length="74865911" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>BHInstagram v1.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/bhinstagram.json</link>
+      <guid isPermaLink="false">bhinstagram-1.2</guid>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[BHInstagram 1.2 | bhinsta_sideloaded
+
+Update 2.1:
+- Fix downloading Reels in lasted versions.
+- Fix Removing Ads in Reels.]]></description>
+      <enclosure url="https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa" length="228416558" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>BHTwitter v4.4</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/bhtwitter.json</link>
+      <guid isPermaLink="false">bhtwitter-4.4</guid>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[BHTwitter 4.4 | BHTwitter-sideloaded
+
+Update BHTwitter 4.4:
+- Fix all the crashes in the newer versions.
+- Add the new tabs to the hide page.
+- New feature: DM replay later page and tags.
+- New feature: Upload 4K media.
+- New feature: Voice feature in posts and replies.
+- Update the localizations.
+- Remove unnecessary options.
+
+Thanks for:
+- @actuallyaridan
+- @Tulugaak]]></description>
+      <enclosure url="https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa" length="167001383" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

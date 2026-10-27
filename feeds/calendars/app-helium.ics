@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Helium releases
+BEGIN:VEVENT
+UID:helium-3.2.5@omnisource
+DTSTAMP:20240213T000000Z
+DTSTART;VALUE=DATE:20240213
+DTEND;VALUE=DATE:20240214
+SUMMARY:Helium v3.2.5
+DESCRIPTION:Helium 3.2.5 | TrollStore\n\nMassive merge of features from [As
+ akuraFuuko's repo](https://github.com/AsakuraFuuko/Helium)\n\n**Top featur
+ es from v3.0.0-v3.2.5 include:**\n- Landscape mode now works properly!\n- 
+ Massive improvements to the adaptive color functionality\n- Choosing the t
+ ext font\n- Option for italic text\n- Update interval can be controlled fo
+ r each widget\n- New weather widget (must set your own API key)\n- Enablin
+ g and disabling widget sets\n- HUD now updates widget sets without having 
+ to restart the HUD\n- Option for a debug border around the widgets\n- Date
+  locale fixes for Chinese users\n- Chinese translation\n- A whole lot of o
+ ther improvements/fixes\n\nOnce again\, thank you so much to AsakuraFuuko 
+ for this huge update. I would like to welcome them to the development team
+ \, where they will hopefully continue to update the app! Keep an eye out f
+ or this up-and-coming dev 👀
+URL:https://raynmahbub.github.io/OmniSource/feeds/helium.json
+END:VEVENT
+END:VCALENDAR

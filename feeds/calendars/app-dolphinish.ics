@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:DolphiniOS releases
+BEGIN:VEVENT
+UID:dolphinish-5.0.0@omnisource
+DTSTAMP:20260620T000000Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:DolphiniOS v5.0.0
+DESCRIPTION:DolphiniOS 5.0.0 | Non-Jailbroken\n\n* Fixed JIT support on A13
+ /A14/M1 devices running iOS 27 beta. (@CelloSerenity)\n* Fixed wrong app v
+ ersion number introduced in 5.0.0b5. (@CelloSerenity)\n\nThe next update w
+ ill be sometime after the next official Dolphin release. It will include a
+  core update.\n\n**Full Changelog**: https://github.com/OatmealDome/dolphi
+ n-ios/compare/v5.0.0b5...v5.0.0b6
+URL:https://raynmahbub.github.io/OmniSource/feeds/dolphinish.json
+END:VEVENT
+END:VCALENDAR

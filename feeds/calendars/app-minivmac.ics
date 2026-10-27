@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Mini vMac releases
+BEGIN:VEVENT
+UID:minivmac-2.6@omnisource
+DTSTAMP:20240709T000000Z
+DTSTART;VALUE=DATE:20240709
+DTEND;VALUE=DATE:20240710
+SUMMARY:Mini vMac v2.6
+DESCRIPTION:Mini vMac 2.6 | minivmac4ios-2.6\n\n* Added 512×384 variant of
+  Mac II\n* Requires iOS 13.4\n    * Dropping 32-bit support (iOS 9) made t
+ he app smaller\n* Prefer pixel-perfect scaling when display scaling filter
+  is set to nearest\n* Auto-hide iOS home indicator\n* Partially fix some c
+ ommand-key shortcuts going to iOS instead of the emulated Mac (#45)\n    *
+  ⌘-w and most others will get passed to the emulated machine if it's run
+ ning\n    * ⌘-q and ⌘-h don't seem interceptable\, the app doesn't rec
+ eive any key events for them\, but ⌘-q doesn't do anything (or maybe it 
+ does in some other configuration?)\, and ⌘-h will take you to the home s
+ creen\n* visionOS support (only tested in simulator)\n\n**Full Changelog**
+ : https://github.com/zydeco/minivmac4ios/compare/v2.5...v2.6
+URL:https://raynmahbub.github.io/OmniSource/feeds/minivmac.json
+END:VEVENT
+END:VCALENDAR

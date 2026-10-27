@@ -40,6 +40,20 @@
         "https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/screenshot2.jpg",
         "https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/screenshot4.jpg"
       ],
+      "minOSVersion": "15.1",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -75,7 +89,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "15.1",
@@ -99,6 +114,8 @@
           "downloadReachable": true,
           "detail": "HTTP 200",
           "statusSince": "2026-09-05",
+          "lastCheckedAt": "2026-10-21",
+          "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
           "lastUpdatedAt": "2026-09-05"
         }
       }

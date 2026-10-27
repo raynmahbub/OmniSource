@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import sys
 import unittest
+import xml.etree.ElementTree as ET
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -77,6 +78,21 @@ class TestRssFeed(unittest.TestCase):
         xml = render_rss_feed(self.catalog, state)
         self.assertNotIn("<pubDate>", xml)
         self.assertNotIn("<lastBuildDate>", xml)
+
+    def test_untrusted_changelog_round_trips_and_channel_description_stays_unchanged(self) -> None:
+        changelog = "Whitespace  \nTabs\t\nCDATA ]]> and <markup>"
+        state = {
+            "spotiflac": {
+                "versions": [
+                    {"version": "1.0", "downloadURL": "https://example.com/a.ipa", "localizedDescription": changelog}
+                ]
+            }
+        }
+        xml = render_rss_feed(self.catalog, state)
+        root = ET.fromstring(xml)  # noqa: S314 - generated local fixture
+        self.assertEqual(root.findtext("./channel/description"), "AltStore feed aggregator")
+        self.assertEqual(root.findtext("./channel/item/description"), changelog)
+        self.assertTrue(all(line == line.rstrip() for line in xml.splitlines()))
 
     def test_render_rss_feed(self) -> None:
         state = {

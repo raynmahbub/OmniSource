@@ -10,10 +10,10 @@
 # so the published integrity report only ever reflected the metadata rules while
 # docs/SECURITY-REPORT.md described an active weekly checker.
 #
-# This job is that checker. It rebuilds from committed state (no upstream API
-# calls), verifies, and commits the two documents the verdict lives in. The
-# pipeline exits non-zero when an asset is rejected, so a broken or swapped
-# download fails this run instead of being recorded quietly.
+# This job rebuilds from committed state (no upstream API calls), verifies
+# bytes, and publishes valid evidence and its generated projections together.
+# The pipeline exits non-zero on a failed check, including transport failures;
+# those are recorded as unavailable, not described as proven corruption.
 # -----------------------------------------------------------------------------
 name: Verify Downloads
 
@@ -22,22 +22,24 @@ on:
     # Monday 07:00 UTC: after the daily publish pass, off the sync cadence, and
     # far enough from the weekend that a failure is triaged on a working day.
     - cron: "0 7 * * 1"
+    # Monthly full recheck can detect silent swaps that changed-only runs miss.
+    - cron: "15 4 1 * *"
   workflow_dispatch:
     inputs:
       slugs:
         description: "Optional: verify only these app slugs (space separated)"
         required: false
         default: ""
-      sync_first:
-        description: "Sync upstream releases before verifying (slower, hits provider APIs)"
+      full:
+        description: "Recheck all assets, including unchanged releases"
         type: boolean
         required: false
         default: false
 
-# One verifier at a time: two concurrent runs would both rewrite feeds/state.json
-# and race each other's commit. Cancelling midway is never allowed.
+# Serialize against sync.yml as both workflows rebuild and write feed state.
+# Cancelling midway is never allowed.
 concurrency:
-  group: verify-downloads
+  group: sync-publish
   cancel-in-progress: false
 
 # Read-only by default; the job opts into what it needs (same shape as sync.yml).
@@ -45,10 +47,10 @@ permissions: {}
 
 jobs:
   verify:
-    name: Hash every published asset
+    name: Verify published assets
     runs-on: ubuntu-latest
-    # 94 assets, streamed at 4-way concurrency with a 300s-per-download ceiling:
-    # a slow CDN leg can stretch well past the default 15-minute job timeout.
+    # A full recheck streams every asset; a slow CDN can stretch well past the
+    # default short job timeout.
     timeout-minutes: 120
     permissions:
       contents: write
@@ -71,19 +73,25 @@ jobs:
       # --no-health keeps the link prober out of the way - this pass reaches the
       # same URLs for real, and a HEAD probe adds nothing to that.
       - name: Verify downloads
+        id: verify
+        continue-on-error: true
         env:
           SLUGS: ${{ inputs.slugs }}
-          SYNC_FIRST: ${{ inputs.sync_first }}
+          FULL: ${{ inputs.full }}
+          SCHEDULE: ${{ github.event.schedule }}
         run: |
           set -euo pipefail
-          ARGS=(--verify-downloads --no-health)
-          if [ "${SYNC_FIRST}" != "true" ]; then
-            ARGS+=(--no-sync)
+          ARGS=(--verify-downloads --inspect-ipa --no-health --no-sync --verification-receipt "$RUNNER_TEMP/verification-receipt.json")
+          if [ "${FULL}" != "true" ] && [ "${SCHEDULE}" != "15 4 1 * *" ]; then
+            ARGS+=(--verify-changed)
           fi
           # Inputs arrive through env: above, never as an action expression in
           # this script; the loop is deliberately unquoted to word-split a
           # space-separated slug list.
           for slug in ${SLUGS:-}; do
+            if [[ ! "$slug" =~ ^[a-z0-9][a-z0-9-]{1,31}$ ]]; then
+              echo "::error::Invalid app slug"; exit 1
+            fi
             ARGS+=(--only "${slug}")
           done
           python3 scripts/omnisource.py "${ARGS[@]}"
@@ -91,9 +99,21 @@ jobs:
       # The integrity report is a validated artifact; a run that produces a
       # structurally wrong document must not commit it.
       - name: Validate output
+        id: validation
+        continue-on-error: true
         run: |
           set -euo pipefail
           python3 scripts/validate.py
+
+      # A mismatch is evidence, not a reason to discard the ledger. Validate
+      # its structure separately before committing, then fail the job below.
+      - name: Validate evidence structure
+        id: evidence
+        if: always()
+        run: |
+          set -euo pipefail
+          python3 scripts/security/check_verification_evidence.py \
+            --receipt "$RUNNER_TEMP/verification-receipt.json"
 
       - name: Show verification summary
         if: always()
@@ -107,37 +127,50 @@ jobs:
           totals = report.get("totals", {})
           entries = [item for item in report.get("apps", []) if isinstance(item, dict)]
           verified = [item for item in entries if isinstance(item.get("fullVerification"), dict)]
-          mismatched = [item for item in verified if item["fullVerification"].get("ok") is False]
+          mismatched = [item for item in verified if item["fullVerification"].get("ok") is False and "mismatch" in str(item["fullVerification"].get("detail", "")).lower()]
 
           print("## Full-integrity verification")
           print()
           print(f"- apps in report: {totals.get('apps', 'n/a')}")
           print(f"- metadata pass/warn/fail: {totals.get('pass')}/{totals.get('warn')}/{totals.get('fail')}")
-          print(f"- assets hashed this run: {len(verified)}")
+          print(f"- apps with stored full-verification records: {len(verified)}")
           print(f"- digest or size mismatches: {len(mismatched)}")
           for item in report.get("rejected", [])[:20]:
               print(f"- REJECTED {item.get('slug')}: {', '.join(item.get('reasons') or [])}")
           if verified and not mismatched:
               print()
-              print("Every hashed asset matched the digest and byte count on record.")
+              print("No recorded digest or size mismatch; missing checks and transport failures remain possible.")
           if not verified:
               print()
               print("::warning::no app carries a lastFullVerification record - the verify pass did not run")
           PY
 
-      # Deliberately narrow: this job owns the verification record and the
-      # document derived from it, nothing else. The date fields of the other
-      # feeds were refreshed by the rebuild above and are left dirty - the next
-      # sync run commits them, which keeps this job out of the docs churn.
+      # Preserve the evidence for review even if an interrupted or malformed
+      # run cannot safely publish it.
+      - name: Upload failed verification evidence
+        if: always() && (steps.verify.outcome != 'success' || steps.validation.outcome != 'success' || steps.evidence.outcome != 'success')
+        uses: actions/upload-artifact@v7
+        with:
+          name: verification-evidence
+          path: |
+            feeds/state.json
+            feeds/integrity_report.json
+            feeds/transparency.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      # Verification and IPA inspection also change app pages, source variants
+      # and API projections. Commit their validated generated outputs together
+      # so the published evidence and the source state cannot silently diverge.
       - name: Commit verification results
         id: commit
-        if: github.event_name != 'pull_request'
+        if: always() && steps.evidence.outcome == 'success' && steps.validation.outcome == 'success' && github.event_name != 'pull_request'
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- feeds/state.json feeds/integrity_report.json \
-            'api/integrity_report.json' 'api/integrity_report.json.gz'
+          git add -A -- 'feeds/**' 'api/**' 'apps/**' 'collections/**' 'sources/**' 'reports/**' \
+            'docs/index.html' README.md index.html apps.json sitemap.xml robots.txt .nojekyll
           if git diff --cached --quiet; then
             echo "No verification changes."
             exit 0
@@ -164,3 +197,29 @@ jobs:
             sleep $((attempt * 5))
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
           done
+
+      - name: Upload evidence if publication fails
+        if: always() && steps.commit.outcome == 'failure'
+        uses: actions/upload-artifact@v7
+        with:
+          name: verification-publication-failure
+          path: |
+            feeds/state.json
+            feeds/integrity_report.json
+            feeds/transparency.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Fail on verification, validation, or publication errors
+        if: always()
+        env:
+          VERIFY_OUTCOME: ${{ steps.verify.outcome }}
+          VALIDATION_OUTCOME: ${{ steps.validation.outcome }}
+          EVIDENCE_OUTCOME: ${{ steps.evidence.outcome }}
+          COMMIT_OUTCOME: ${{ steps.commit.outcome }}
+        run: |
+          set -euo pipefail
+          if [[ "$VERIFY_OUTCOME" != success || "$VALIDATION_OUTCOME" != success || "$EVIDENCE_OUTCOME" != success || "$COMMIT_OUTCOME" != success ]]; then
+            echo "::error::Verification did not complete cleanly; evidence was preserved when structurally valid."
+            exit 1
+          fi

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Onion Browser releases
+BEGIN:VEVENT
+UID:onionbrowser-3.4.4@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Onion Browser v3.4.4
+DESCRIPTION:Onion Browser 3.4.4 | OnionBrowser\n\n- Fixed crash when trying
+  to create or edit a bookmark.
+URL:https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json
+END:VEVENT
+BEGIN:VEVENT
+UID:onionbrowser-3.4.3@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Onion Browser v3.4.3
+DESCRIPTION:Onion Browser 3.4.3 | OnionBrowser\n\n- Updated Tor to 0.4.9.14
+  and OpenSSL to 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird
+  to version 0.9.0.
+URL:https://raynmahbub.github.io/OmniSource/feeds/onionbrowser.json
+END:VEVENT
+END:VCALENDAR

@@ -91,6 +91,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -127,8 +141,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
           "lastUpdatedAt": "2026-09-28"
         }
       }

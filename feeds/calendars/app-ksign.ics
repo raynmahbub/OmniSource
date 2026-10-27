@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Ksign releases
+BEGIN:VEVENT
+UID:ksign-1.6@omnisource
+DTSTAMP:20260524T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Ksign v1.6
+DESCRIPTION:Ksign 1.6 | Ksign\n\nHawoo everywan its been half a year since 
+ the last release I'm really sorry because ever since beta build I got lazy
+  from release a new version\, anyways \n\n## What's Changed\n* fix: handle
+  empty display name in info.plist\n* fix: url scheme for ksign\n* fix: sig
+ ning on a few apps with weird bundles\n* feat: injection path & inject int
+ o extensions\n* feat: optimized for iOS 26 by @Nyasami in https://github.c
+ om/Nyasami/Ksign/pull/87\n* feat: bulk install by @Nyasami in https://gith
+ ub.com/Nyasami/Ksign/pull/88\n* feat: idevice installation method by @Nyas
+ ami in https://github.com/Nyasami/Ksign/pull/96\n* feat: Add support for .
+ bundle files as tweaks (copy into .app) by @Mikasa-san in https://github.c
+ om/Nyasami/Ksign/pull/112\n* chore: update language: German\, Russian by @
+ MrCookie-For-Programmers in https://github.com/Nyasami/Ksign/pull/105\n* c
+ hore: update Arabic translation by @mohammed1d1 in https://github.com/Nyas
+ ami/Ksign/pull/108\n* chore: update Vietnamese localizations by @Astear17 
+ in https://github.com/Nyasami/Ksign/pull/109\n* feat: rsd support by @clar
+ ation in https://github.com/Nyasami/Ksign/pull/117\n\n## New Contributors\
+ n* @MrCookie-For-Programmers made their first contribution in https://gith
+ ub.com/Nyasami/Ksign/pull/76\n* @mohammed1d1 made their first contribution
+  in https://github.com/Nyasami/Ksign/pull/108\n* @Mikasa-san made their fi
+ rst contribution in https://github.com/Nyasami/Ksign/pull/112\n* @Astear17
+  made their first contribution in https://github.com/Nyasami/Ksign/pull/10
+ 9\n* @claration made their first contribution in https://github.com/Nyasam
+ i/Ksign/pull/117\n\n**Full Changelog**: https://github.com/Nyasami/Ksign/c
+ ompare/v1.5.1...v1.6
+URL:https://raynmahbub.github.io/OmniSource/feeds/ksign.json
+END:VEVENT
+END:VCALENDAR

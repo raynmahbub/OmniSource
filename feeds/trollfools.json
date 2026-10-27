@@ -51,10 +51,26 @@
             }
           ],
           "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
-          "downloads": 4809
+          "downloads": 4809,
+          "maxOSVersion": "17.0"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "maxOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "trollfools",
         "status": "stable",
@@ -87,8 +103,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
           "lastUpdatedAt": "2026-10-11"
         }
       }

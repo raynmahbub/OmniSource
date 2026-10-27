@@ -82,6 +82,20 @@
         "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_4/settings-main.png",
         "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_2/app-launch-home.png"
       ],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "yattee",
         "status": "stable",
@@ -114,8 +128,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
           "lastUpdatedAt": "2024-01-28"
         }
       }

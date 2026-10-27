@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Monal releases
+BEGIN:VEVENT
+UID:monal-6.4.23@omnisource
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Monal v6.4.23
+DESCRIPTION:Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- 
+ We don't show the login view anymore\, if all configured accounts are disa
+ bled\n- The last message of a chat was partially hidden on iOS or macOS 27
+ \, this is fixed now\n- Sharing something using the share sheet should no 
+ longer attach a spurious garbled file alongside
+URL:https://raynmahbub.github.io/OmniSource/feeds/monal.json
+END:VEVENT
+END:VCALENDAR

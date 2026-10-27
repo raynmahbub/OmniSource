@@ -66,6 +66,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "mugunghwa",
         "status": "unmaintained",
@@ -98,8 +112,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
           "lastUpdatedAt": "2022-11-10"
         }
       }

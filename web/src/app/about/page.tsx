@@ -8,14 +8,14 @@ export default async function AboutPage() {
       <PageHeader title={dict.sections.aboutTitle} />
       <div className="os-panel prose-omni space-y-4 p-6 text-[15px] text-zinc-700 dark:text-zinc-300">
         <p>
-          <strong>OmniSource</strong> is a fully autonomous AltStore, SideStore, Feather, ESign and LiveContainer
-          source aggregation platform. It discovers third-party feeds, validates every app, tracks releases,
-          scores reputations, monitors health around the clock — and publishes installable feeds with no human
-          in the loop.
+          <strong>OmniSource</strong> curates an app catalog for AltStore, SideStore, Feather, ESign and
+          LiveContainer. Automated jobs track releases, check metadata and probe links; maintainers review the catalog
+          and any suggested repairs.
         </p>
         <p>
-          Every release resolves from the developer&apos;s own upstream. Metadata-only aggregation: each entry
-          discloses provenance and hashes, and the security gate blocks publication on critical findings.
+          Listings identify official, community or unknown sources where known. A recorded hash is not the same as
+          a byte comparison or independent publisher verification. Automated checks and past link probes do not
+          guarantee a binary is safe or currently available.
         </p>
         <h2 className="pt-2 text-lg font-bold text-zinc-900 dark:text-zinc-100">Pipeline</h2>
         <p className="font-mono text-sm">

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ByeTunes releases
+BEGIN:VEVENT
+UID:byetunes-2.6@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:ByeTunes v2.6
+DESCRIPTION:ByeTunes 2.6 | ByeTunes.v2.6.-.Version.fix\n\n# ByeTunes v2.6 
+ – Favorites\, Playlist Pinning & Background Downloads Reworked\n\nHi guy
+ s\, here is the 2.6 update for ByeTunes. A good amount of things got added
+ \, fixed and improved in this one. You can now properly favorite injected 
+ songs\, pin playlists from inside ByeTunes\, and keep downloads going in t
+ he background with a new Picture in Picture window. There were also a bunc
+ h of fixes around metadata\, library management and database safety.\n\n**
+ Favorites**\n\nThere are three new options inside Library Repair:\n\n- **C
+ reate Favorites Playlist** creates the Favorites playlist using the right 
+ name for your device region.\n- **Fix Missing Favorites** repairs songs in
+ jected with an older version that you already favorited but that never act
+ ually appeared in Favorites.\n- **Delete Favorites Playlist** lets you del
+ ete that playlist from Library Repair.\n\nSongs injected from 2.6 onwards 
+ now get their store IDs during injection\, so you can favorite them right 
+ away. If the metadata fetcher finds a match\, ByeTunes uses the IDs from t
+ hat match. Songs without a match get generated IDs instead.\n\n**Quick rec
+ ommendation:** if you have older injected songs that you favorited but can
+ not find in Favorites\, run **Fix Missing Favorites** inside Library Repai
+ r.\n\n**Playlist Pinning**\n\nYou can now pin and unpin playlists from the
+  On-Device Library. Long-press a playlist or use the Pin button from insid
+ e it.\n\n**Keep in mind: pinning and unpinning these playlists needs to be
+  done through ByeTunes. The Pin option inside the Apple Music app does not
+  work for them.**\n\n**Background Downloads**\n\nBackground downloads got 
+ a big rework. ByeTunes now uses silent audio to keep downloads going in th
+ e background\, with an optional Picture in Picture window so you can see w
+ hat is happening after leaving the app.\n\nThe window shows the current so
+ ng's progress\, what is next in the queue\, and when metadata is being fet
+ ched. You can also customize it with themes\, your own co
+URL:https://raynmahbub.github.io/OmniSource/feeds/byetunes.json
+END:VEVENT
+END:VCALENDAR

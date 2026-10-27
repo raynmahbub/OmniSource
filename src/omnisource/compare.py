@@ -44,7 +44,7 @@ def _compatibility(app: Any) -> dict[str, Any]:
     }
 
 
-def _summary(app: Any, state: dict[str, Any], verification_level: str, health_ok: bool) -> dict[str, Any]:
+def _summary(app: Any, state: dict[str, Any], verification_level: str, health_ok: bool | None) -> dict[str, Any]:
     newest = newest_version(state, app.slug)
     return {
         "slug": app.slug,
@@ -90,7 +90,7 @@ def build_compare_doc(
             app,
             state,
             str((verification_by_slug.get(app.slug) or {}).get("status") or "UNVERIFIED"),
-            bool((health_by_slug.get(app.slug) or {}).get("downloadReachable")),
+            (health_by_slug.get(app.slug) or {}).get("downloadReachable"),
         )
 
     # Only pre-emit bundle-sharing pairs (the natural "you can only install one"

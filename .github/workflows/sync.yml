@@ -167,7 +167,7 @@ jobs:
           # robots, homepage stats) that GitHub Pages can serve for this
           # branch. The pipeline writes nothing else, so the allowlist stays
           # minimal on purpose: a stray file here means the build misbehaved.
-          git add -A -- '*.json' '*.xml' '*.gz' 'api/**' 'apps/**' 'compare/**' \
+          git add -A -- '*.json' '*.xml' '*.ics' '*.gz' 'api/**' 'apps/**' 'compare/**' \
             'assets/screenshots/**' 'collections/**' 'sources/**' 'docs/index.html' 'discover/**' 'graph/**' \
             'reports/**' 'ipa-downloader/' README.md index.html \
             'sitemap.xml' 'robots.txt' '.nojekyll'

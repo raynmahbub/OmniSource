@@ -47,6 +47,20 @@
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "17.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "winston",
       "status": "unmaintained",
@@ -79,8 +93,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
         "lastUpdatedAt": "2024-06-24"
       }
     },

@@ -39,6 +39,8 @@ assert.equal(
 );
 assert.equal(data.getAppById("not-an-app"), undefined);
 assert.equal(entries.find(({ app }) => app === live)?.id, "livecontainer");
+assert.equal(data.getAppVerification(live)?.app, "livecontainer", "verification joins by catalog slug");
+assert.match(data.getSingleAppFeedURL(live), /\/feeds\/livecontainer\.json$/);
 
 // Correcting BHInstagram's bundle ID adds it to an existing collision group.
 // Historical URLs must keep resolving to their original entries, not the new

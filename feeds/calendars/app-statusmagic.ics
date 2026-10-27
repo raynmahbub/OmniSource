@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:StatusMagic releases
+BEGIN:VEVENT
+UID:statusmagic-1.0.2@omnisource
+DTSTAMP:20230208T000000Z
+DTSTART;VALUE=DATE:20230208
+DTEND;VALUE=DATE:20230209
+SUMMARY:StatusMagic v1.0.2
+DESCRIPTION:StatusMagic 1.0.2 | StatusMagic\n\nEven in the best tested code
+ \, mistakes slip through. Sorry for such a hasty update.\n\n## Changes\n- 
+ Fixed "Hide DND" on iOS 15 (I accidentally left experimental code in there
+  that enabled every single status bar icon\, see #12) \n- And... that's it
+ . Sorry!\n\n## Installation\n- iOS 14.*: Install the app with [TrollStore]
+ (https://github.com/opa334/TrollStore)\n- iOS 15.0 - 15.4.1: Install the a
+ pp with [TrollStore](https://github.com/opa334/TrollStore) (recommended)\,
+  [AltStore](https://altstore.io/)\, or [Sideloadly](https://sideloadly.io/
+ )\n- iOS 15.5 - 16.1.2: Install the app with [AltStore](https://altstore.i
+ o/) or [Sideloadly](https://sideloadly.io/) (excludes iOS 15.7.2 & 15.7.3)
+ \n- iOS 16.2+: Not supported\, and never will be\n\n> __Warning__ ESign ha
+ s been known to have issues. To avoid it\, use other installation methods.
+URL:https://raynmahbub.github.io/OmniSource/feeds/statusmagic.json
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BlueWallet releases
+BEGIN:VEVENT
+UID:bluewallet-8.0.1@omnisource
+DTSTAMP:20260721T000000Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:BlueWallet v8.0.1
+DESCRIPTION:BlueWallet 8.0.1 | BlueWallet_8.0.1_1784575843\n\n### New Featu
+ res\n\niOS 26 Liquid Glass design\nImport Unchained JSON as a multisig cos
+ igner\nSupport BC-UR v2 air-gap scanning for hardware wallets (OneKey\, Ke
+ ystone)\nOption to redact push notification content\nArkade Lightning push
+  notifications\nEnable RBF for single-sig watch-only wallets (HD Bech32)\n
+ Human-readable data on transaction status screen\n19 new languages\, inclu
+ ding Filipino\, Armenian\, Akan\, and Sesotho\n\n### Improvements\n\nRenew
+ ed Settings UI\nBetter green success color contrast\nRemoved GroundControl
+  server URL option from notification settings\nFaster transaction fetching
+  for HD wallets\nReplaced crypto-js with modern @noble crypto libraries\n\
+ n### Fixes\n\nStartup crash\nAmount input lag in RBF custom fee input\nTex
+ t size on main app views and clipped wallet balance in carousel\nQR codes 
+ no longer have rounded corners\nSigned transaction hex screen stays scroll
+ able\nArkade LNURL payment result now persists\nFloating button no longer 
+ overlaps the transaction list\nVarious modal and navigation UX polish\n\nU
+ nder the hood: dependency updates\, TypeScript coverage improvements\, CI 
+ and translation tooling fixes.\n\n## What's Changed\n* FIX: startup crash 
+ by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8618\n* O
+ PS: Bump version by @marcosrdz in https://github.com/BlueWallet/BlueWallet
+ /pull/8621\n* fix: no round corners in qrcode by @limpbrains in https://gi
+ thub.com/BlueWallet/BlueWallet/pull/8631\n* REF: remove GroundControl serv
+ er URL option from notification settings by @Overtorment in https://github
+ .com/BlueWallet/BlueWallet/pull/8636\n* ADD: arkade ln pushes by @Overtorm
+ ent in https://github.com/BlueWallet/BlueWallet/pull/8634\n* REF: single-p
+ ass tx-to-address mapping in HD fetchTransactions by @limpbrains in https:
+ //github.com/BlueWallet/BlueWallet/pull/8639\n* fix(deps): update dependen
+ cy @noble/secp256k1 to v1.7.2 by @renovate[bot] in https://github.com/Blue
+ Wallet/BlueWallet/pull/8590\n* chore(deps): update actions/che
+URL:https://raynmahbub.github.io/OmniSource/feeds/bluewallet.json
+END:VEVENT
+END:VCALENDAR

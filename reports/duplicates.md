@@ -9,28 +9,26 @@ and every deletion here must go through `src/omnisource/site.py` first.
 
 ## Summary
 
-- Byte-identical generated JSON groups: **163**
+- Byte-identical generated JSON groups: **286**
 - Identical-function clones across `src/` + `scripts/`: **4**
-- Compressed `.gz` mirror files committed: **171** (983 KiB)
+- Compressed `.gz` mirror files committed: **300** (1026 KiB)
 
 ## Byte-identical JSON mirror groups
 
 | Group | Copies | Role |
 | --- | --- | --- |
 | `feeds/discovery.json` | 5 | mirrors: `api/catalog.json`, `api/discovery.json`, `api/v2/apps.json`, `web/src/data/discovery.json` |
-| `feeds/apps.json` | 4 | mirrors: `api/apps.json`, `apps.json`, `web/src/data/apps.json` |
-| `feeds/sources.json` | 4 | mirrors: `api/sources.json`, `api/v2/sources.json`, `web/src/data/sources.json` |
-| `feeds/status.json` | 4 | mirrors: `api/status.json`, `api/v2/status.json`, `web/src/data/status.json` |
-| `feeds/analytics.json` | 3 | mirrors: `api/analytics.json`, `web/src/data/analytics.json` |
-| `feeds/collections.json` | 3 | mirrors: `api/collections.json`, `web/src/data/collections.json` |
+| `feeds/apps.json` | 3 | mirrors: `api/apps.json`, `apps.json` |
 | `feeds/related.json` | 3 | mirrors: `api/related.json`, `api/v2/recommendations.json` |
-| `feeds/reputation.json` | 3 | mirrors: `api/reputation.json`, `web/src/data/reputation.json` |
 | `feeds/screenshots.json` | 3 | mirrors: `api/screenshots.json`, `web/src/data/screenshots.json` |
 | `feeds/search-index.json` | 3 | mirrors: `api/search-index.json`, `web/src/data/search-index.json` |
+| `feeds/sources.json` | 3 | mirrors: `api/sources.json`, `api/v2/sources.json` |
+| `feeds/status.json` | 3 | mirrors: `api/status.json`, `api/v2/status.json` |
 | `feeds/trending.json` | 3 | mirrors: `api/trending.json`, `api/v2/trending.json` |
 | `feeds/verification.json` | 3 | mirrors: `api/v2/trust.json`, `api/verification.json` |
-| `data/security.json` | 3 | mirrors: `security-report.json`, `web/src/data/security.json` |
+| `feeds/analytics.json` | 2 | mirrors: `api/analytics.json` |
 | `feeds/asset-manifest.json` | 2 | mirrors: `api/asset-manifest.json` |
+| `feeds/collections.json` | 2 | mirrors: `api/collections.json` |
 | `feeds/community.json` | 2 | mirrors: `api/community.json` |
 | `feeds/compare.json` | 2 | mirrors: `api/compare.json` |
 | `feeds/dead_apps.json` | 2 | mirrors: `api/dead_apps.json` |
@@ -39,147 +37,272 @@ and every deletion here must go through `src/omnisource/site.py` first.
 | `feeds/health.json` | 2 | mirrors: `api/health.json` |
 | `feeds/install.json` | 2 | mirrors: `api/install.json` |
 | `feeds/integrity_report.json` | 2 | mirrors: `api/integrity_report.json` |
+| `feeds/reputation.json` | 2 | mirrors: `api/reputation.json` |
 | `feeds/translation-status.json` | 2 | mirrors: `api/translation-status.json` |
+| `feeds/transparency.json` | 2 | mirrors: `api/transparency.json` |
 | `feeds/updates.json` | 2 | mirrors: `api/updates.json` |
+| `feeds/api/v2/apps/3105/versions.json` | 2 | mirrors: `api/v2/apps/3105/versions.json` |
 | `feeds/api/v2/apps/3105.json` | 2 | mirrors: `api/v2/apps/3105.json` |
+| `feeds/api/v2/apps/aidoku/versions.json` | 2 | mirrors: `api/v2/apps/aidoku/versions.json` |
 | `feeds/api/v2/apps/aidoku.json` | 2 | mirrors: `api/v2/apps/aidoku.json` |
+| `feeds/api/v2/apps/airtroller/versions.json` | 2 | mirrors: `api/v2/apps/airtroller/versions.json` |
 | `feeds/api/v2/apps/airtroller.json` | 2 | mirrors: `api/v2/apps/airtroller.json` |
+| `feeds/api/v2/apps/animationspeed/versions.json` | 2 | mirrors: `api/v2/apps/animationspeed/versions.json` |
 | `feeds/api/v2/apps/animationspeed.json` | 2 | mirrors: `api/v2/apps/animationspeed.json` |
+| `feeds/api/v2/apps/animegen/versions.json` | 2 | mirrors: `api/v2/apps/animegen/versions.json` |
 | `feeds/api/v2/apps/animegen.json` | 2 | mirrors: `api/v2/apps/animegen.json` |
+| `feeds/api/v2/apps/anxreader/versions.json` | 2 | mirrors: `api/v2/apps/anxreader/versions.json` |
 | `feeds/api/v2/apps/anxreader.json` | 2 | mirrors: `api/v2/apps/anxreader.json` |
+| `feeds/api/v2/apps/anymex/versions.json` | 2 | mirrors: `api/v2/apps/anymex/versions.json` |
 | `feeds/api/v2/apps/anymex.json` | 2 | mirrors: `api/v2/apps/anymex.json` |
+| `feeds/api/v2/apps/apollo/versions.json` | 2 | mirrors: `api/v2/apps/apollo/versions.json` |
 | `feeds/api/v2/apps/apollo.json` | 2 | mirrors: `api/v2/apps/apollo.json` |
+| `feeds/api/v2/apps/appstoreplusplus/versions.json` | 2 | mirrors: `api/v2/apps/appstoreplusplus/versions.json` |
 | `feeds/api/v2/apps/appstoreplusplus.json` | 2 | mirrors: `api/v2/apps/appstoreplusplus.json` |
+| `feeds/api/v2/apps/batteryinfo/versions.json` | 2 | mirrors: `api/v2/apps/batteryinfo/versions.json` |
 | `feeds/api/v2/apps/batteryinfo.json` | 2 | mirrors: `api/v2/apps/batteryinfo.json` |
+| `feeds/api/v2/apps/battman/versions.json` | 2 | mirrors: `api/v2/apps/battman/versions.json` |
 | `feeds/api/v2/apps/battman.json` | 2 | mirrors: `api/v2/apps/battman.json` |
+| `feeds/api/v2/apps/bhinstagram/versions.json` | 2 | mirrors: `api/v2/apps/bhinstagram/versions.json` |
 | `feeds/api/v2/apps/bhinstagram.json` | 2 | mirrors: `api/v2/apps/bhinstagram.json` |
+| `feeds/api/v2/apps/bhtwitter/versions.json` | 2 | mirrors: `api/v2/apps/bhtwitter/versions.json` |
 | `feeds/api/v2/apps/bhtwitter.json` | 2 | mirrors: `api/v2/apps/bhtwitter.json` |
+| `feeds/api/v2/apps/bluewallet/versions.json` | 2 | mirrors: `api/v2/apps/bluewallet/versions.json` |
 | `feeds/api/v2/apps/bluewallet.json` | 2 | mirrors: `api/v2/apps/bluewallet.json` |
+| `feeds/api/v2/apps/bootstrap/versions.json` | 2 | mirrors: `api/v2/apps/bootstrap/versions.json` |
 | `feeds/api/v2/apps/bootstrap.json` | 2 | mirrors: `api/v2/apps/bootstrap.json` |
+| `feeds/api/v2/apps/byetunes/versions.json` | 2 | mirrors: `api/v2/apps/byetunes/versions.json` |
 | `feeds/api/v2/apps/byetunes.json` | 2 | mirrors: `api/v2/apps/byetunes.json` |
+| `feeds/api/v2/apps/caperfhud/versions.json` | 2 | mirrors: `api/v2/apps/caperfhud/versions.json` |
 | `feeds/api/v2/apps/caperfhud.json` | 2 | mirrors: `api/v2/apps/caperfhud.json` |
+| `feeds/api/v2/apps/cartube/versions.json` | 2 | mirrors: `api/v2/apps/cartube/versions.json` |
 | `feeds/api/v2/apps/cartube.json` | 2 | mirrors: `api/v2/apps/cartube.json` |
+| `feeds/api/v2/apps/cercube/versions.json` | 2 | mirrors: `api/v2/apps/cercube/versions.json` |
 | `feeds/api/v2/apps/cercube.json` | 2 | mirrors: `api/v2/apps/cercube.json` |
+| `feeds/api/v2/apps/chan/versions.json` | 2 | mirrors: `api/v2/apps/chan/versions.json` |
 | `feeds/api/v2/apps/chan.json` | 2 | mirrors: `api/v2/apps/chan.json` |
+| `feeds/api/v2/apps/chatsen/versions.json` | 2 | mirrors: `api/v2/apps/chatsen/versions.json` |
 | `feeds/api/v2/apps/chatsen.json` | 2 | mirrors: `api/v2/apps/chatsen.json` |
+| `feeds/api/v2/apps/conduit/versions.json` | 2 | mirrors: `api/v2/apps/conduit/versions.json` |
 | `feeds/api/v2/apps/conduit.json` | 2 | mirrors: `api/v2/apps/conduit.json` |
+| `feeds/api/v2/apps/cosmos/versions.json` | 2 | mirrors: `api/v2/apps/cosmos/versions.json` |
 | `feeds/api/v2/apps/cosmos.json` | 2 | mirrors: `api/v2/apps/cosmos.json` |
+| `feeds/api/v2/apps/cowabunga/versions.json` | 2 | mirrors: `api/v2/apps/cowabunga/versions.json` |
 | `feeds/api/v2/apps/cowabunga.json` | 2 | mirrors: `api/v2/apps/cowabunga.json` |
+| `feeds/api/v2/apps/delta/versions.json` | 2 | mirrors: `api/v2/apps/delta/versions.json` |
 | `feeds/api/v2/apps/delta.json` | 2 | mirrors: `api/v2/apps/delta.json` |
+| `feeds/api/v2/apps/dolphinish/versions.json` | 2 | mirrors: `api/v2/apps/dolphinish/versions.json` |
 | `feeds/api/v2/apps/dolphinish.json` | 2 | mirrors: `api/v2/apps/dolphinish.json` |
+| `feeds/api/v2/apps/dopamine/versions.json` | 2 | mirrors: `api/v2/apps/dopamine/versions.json` |
+| `feeds/api/v2/apps/dopamine-roothide/versions.json` | 2 | mirrors: `api/v2/apps/dopamine-roothide/versions.json` |
 | `feeds/api/v2/apps/dopamine-roothide.json` | 2 | mirrors: `api/v2/apps/dopamine-roothide.json` |
 | `feeds/api/v2/apps/dopamine.json` | 2 | mirrors: `api/v2/apps/dopamine.json` |
+| `feeds/api/v2/apps/dynamiccow/versions.json` | 2 | mirrors: `api/v2/apps/dynamiccow/versions.json` |
 | `feeds/api/v2/apps/dynamiccow.json` | 2 | mirrors: `api/v2/apps/dynamiccow.json` |
+| `feeds/api/v2/apps/eclipse/versions.json` | 2 | mirrors: `api/v2/apps/eclipse/versions.json` |
 | `feeds/api/v2/apps/eclipse.json` | 2 | mirrors: `api/v2/apps/eclipse.json` |
+| `feeds/api/v2/apps/enablequic/versions.json` | 2 | mirrors: `api/v2/apps/enablequic/versions.json` |
 | `feeds/api/v2/apps/enablequic.json` | 2 | mirrors: `api/v2/apps/enablequic.json` |
+| `feeds/api/v2/apps/escapeos/versions.json` | 2 | mirrors: `api/v2/apps/escapeos/versions.json` |
 | `feeds/api/v2/apps/escapeos.json` | 2 | mirrors: `api/v2/apps/escapeos.json` |
+| `feeds/api/v2/apps/feather/versions.json` | 2 | mirrors: `api/v2/apps/feather/versions.json` |
 | `feeds/api/v2/apps/feather.json` | 2 | mirrors: `api/v2/apps/feather.json` |
+| `feeds/api/v2/apps/fladder/versions.json` | 2 | mirrors: `api/v2/apps/fladder/versions.json` |
 | `feeds/api/v2/apps/fladder.json` | 2 | mirrors: `api/v2/apps/fladder.json` |
+| `feeds/api/v2/apps/glow/versions.json` | 2 | mirrors: `api/v2/apps/glow/versions.json` |
 | `feeds/api/v2/apps/glow.json` | 2 | mirrors: `api/v2/apps/glow.json` |
+| `feeds/api/v2/apps/gopeed/versions.json` | 2 | mirrors: `api/v2/apps/gopeed/versions.json` |
 | `feeds/api/v2/apps/gopeed.json` | 2 | mirrors: `api/v2/apps/gopeed.json` |
+| `feeds/api/v2/apps/hanami/versions.json` | 2 | mirrors: `api/v2/apps/hanami/versions.json` |
 | `feeds/api/v2/apps/hanami.json` | 2 | mirrors: `api/v2/apps/hanami.json` |
+| `feeds/api/v2/apps/helium/versions.json` | 2 | mirrors: `api/v2/apps/helium/versions.json` |
 | `feeds/api/v2/apps/helium.json` | 2 | mirrors: `api/v2/apps/helium.json` |
+| `feeds/api/v2/apps/ime/versions.json` | 2 | mirrors: `api/v2/apps/ime/versions.json` |
 | `feeds/api/v2/apps/ime.json` | 2 | mirrors: `api/v2/apps/ime.json` |
+| `feeds/api/v2/apps/infuseplus/versions.json` | 2 | mirrors: `api/v2/apps/infuseplus/versions.json` |
 | `feeds/api/v2/apps/infuseplus.json` | 2 | mirrors: `api/v2/apps/infuseplus.json` |
+| `feeds/api/v2/apps/inkillerplus/versions.json` | 2 | mirrors: `api/v2/apps/inkillerplus/versions.json` |
 | `feeds/api/v2/apps/inkillerplus.json` | 2 | mirrors: `api/v2/apps/inkillerplus.json` |
+| `feeds/api/v2/apps/iqface/versions.json` | 2 | mirrors: `api/v2/apps/iqface/versions.json` |
 | `feeds/api/v2/apps/iqface.json` | 2 | mirrors: `api/v2/apps/iqface.json` |
+| `feeds/api/v2/apps/ish/versions.json` | 2 | mirrors: `api/v2/apps/ish/versions.json` |
 | `feeds/api/v2/apps/ish.json` | 2 | mirrors: `api/v2/apps/ish.json` |
+| `feeds/api/v2/apps/itorrent/versions.json` | 2 | mirrors: `api/v2/apps/itorrent/versions.json` |
 | `feeds/api/v2/apps/itorrent.json` | 2 | mirrors: `api/v2/apps/itorrent.json` |
+| `feeds/api/v2/apps/itransmission/versions.json` | 2 | mirrors: `api/v2/apps/itransmission/versions.json` |
 | `feeds/api/v2/apps/itransmission.json` | 2 | mirrors: `api/v2/apps/itransmission.json` |
+| `feeds/api/v2/apps/jellify/versions.json` | 2 | mirrors: `api/v2/apps/jellify/versions.json` |
 | `feeds/api/v2/apps/jellify.json` | 2 | mirrors: `api/v2/apps/jellify.json` |
+| `feeds/api/v2/apps/jellybook/versions.json` | 2 | mirrors: `api/v2/apps/jellybook/versions.json` |
 | `feeds/api/v2/apps/jellybook.json` | 2 | mirrors: `api/v2/apps/jellybook.json` |
+| `feeds/api/v2/apps/ksign/versions.json` | 2 | mirrors: `api/v2/apps/ksign/versions.json` |
 | `feeds/api/v2/apps/ksign.json` | 2 | mirrors: `api/v2/apps/ksign.json` |
+| `feeds/api/v2/apps/lara/versions.json` | 2 | mirrors: `api/v2/apps/lara/versions.json` |
 | `feeds/api/v2/apps/lara.json` | 2 | mirrors: `api/v2/apps/lara.json` |
+| `feeds/api/v2/apps/livecontainer/versions.json` | 2 | mirrors: `api/v2/apps/livecontainer/versions.json` |
 | `feeds/api/v2/apps/livecontainer.json` | 2 | mirrors: `api/v2/apps/livecontainer.json` |
+| `feeds/api/v2/apps/mame4ios/versions.json` | 2 | mirrors: `api/v2/apps/mame4ios/versions.json` |
 | `feeds/api/v2/apps/mame4ios.json` | 2 | mirrors: `api/v2/apps/mame4ios.json` |
+| `feeds/api/v2/apps/mangayomi/versions.json` | 2 | mirrors: `api/v2/apps/mangayomi/versions.json` |
 | `feeds/api/v2/apps/mangayomi.json` | 2 | mirrors: `api/v2/apps/mangayomi.json` |
+| `feeds/api/v2/apps/manicemu/versions.json` | 2 | mirrors: `api/v2/apps/manicemu/versions.json` |
 | `feeds/api/v2/apps/manicemu.json` | 2 | mirrors: `api/v2/apps/manicemu.json` |
+| `feeds/api/v2/apps/maxmusic/versions.json` | 2 | mirrors: `api/v2/apps/maxmusic/versions.json` |
 | `feeds/api/v2/apps/maxmusic.json` | 2 | mirrors: `api/v2/apps/maxmusic.json` |
+| `feeds/api/v2/apps/maxtube/versions.json` | 2 | mirrors: `api/v2/apps/maxtube/versions.json` |
 | `feeds/api/v2/apps/maxtube.json` | 2 | mirrors: `api/v2/apps/maxtube.json` |
+| `feeds/api/v2/apps/messenger-flow/versions.json` | 2 | mirrors: `api/v2/apps/messenger-flow/versions.json` |
 | `feeds/api/v2/apps/messenger-flow.json` | 2 | mirrors: `api/v2/apps/messenger-flow.json` |
+| `feeds/api/v2/apps/minivmac/versions.json` | 2 | mirrors: `api/v2/apps/minivmac/versions.json` |
 | `feeds/api/v2/apps/minivmac.json` | 2 | mirrors: `api/v2/apps/minivmac.json` |
+| `feeds/api/v2/apps/monal/versions.json` | 2 | mirrors: `api/v2/apps/monal/versions.json` |
 | `feeds/api/v2/apps/monal.json` | 2 | mirrors: `api/v2/apps/monal.json` |
+| `feeds/api/v2/apps/msgplusx/versions.json` | 2 | mirrors: `api/v2/apps/msgplusx/versions.json` |
 | `feeds/api/v2/apps/msgplusx.json` | 2 | mirrors: `api/v2/apps/msgplusx.json` |
+| `feeds/api/v2/apps/muffinstore/versions.json` | 2 | mirrors: `api/v2/apps/muffinstore/versions.json` |
 | `feeds/api/v2/apps/muffinstore.json` | 2 | mirrors: `api/v2/apps/muffinstore.json` |
+| `feeds/api/v2/apps/mugunghwa/versions.json` | 2 | mirrors: `api/v2/apps/mugunghwa/versions.json` |
 | `feeds/api/v2/apps/mugunghwa.json` | 2 | mirrors: `api/v2/apps/mugunghwa.json` |
+| `feeds/api/v2/apps/nebuloiptv/versions.json` | 2 | mirrors: `api/v2/apps/nebuloiptv/versions.json` |
 | `feeds/api/v2/apps/nebuloiptv.json` | 2 | mirrors: `api/v2/apps/nebuloiptv.json` |
+| `feeds/api/v2/apps/neofreebird/versions.json` | 2 | mirrors: `api/v2/apps/neofreebird/versions.json` |
 | `feeds/api/v2/apps/neofreebird.json` | 2 | mirrors: `api/v2/apps/neofreebird.json` |
+| `feeds/api/v2/apps/nexasc/versions.json` | 2 | mirrors: `api/v2/apps/nexasc/versions.json` |
 | `feeds/api/v2/apps/nexasc.json` | 2 | mirrors: `api/v2/apps/nexasc.json` |
+| `feeds/api/v2/apps/nicegram/versions.json` | 2 | mirrors: `api/v2/apps/nicegram/versions.json` |
 | `feeds/api/v2/apps/nicegram.json` | 2 | mirrors: `api/v2/apps/nicegram.json` |
+| `feeds/api/v2/apps/nuvio/versions.json` | 2 | mirrors: `api/v2/apps/nuvio/versions.json` |
 | `feeds/api/v2/apps/nuvio.json` | 2 | mirrors: `api/v2/apps/nuvio.json` |
+| `feeds/api/v2/apps/odyssey/versions.json` | 2 | mirrors: `api/v2/apps/odyssey/versions.json` |
 | `feeds/api/v2/apps/odyssey.json` | 2 | mirrors: `api/v2/apps/odyssey.json` |
+| `feeds/api/v2/apps/onionbrowser/versions.json` | 2 | mirrors: `api/v2/apps/onionbrowser/versions.json` |
 | `feeds/api/v2/apps/onionbrowser.json` | 2 | mirrors: `api/v2/apps/onionbrowser.json` |
+| `feeds/api/v2/apps/orbot/versions.json` | 2 | mirrors: `api/v2/apps/orbot/versions.json` |
 | `feeds/api/v2/apps/orbot.json` | 2 | mirrors: `api/v2/apps/orbot.json` |
+| `feeds/api/v2/apps/otraku/versions.json` | 2 | mirrors: `api/v2/apps/otraku/versions.json` |
 | `feeds/api/v2/apps/otraku.json` | 2 | mirrors: `api/v2/apps/otraku.json` |
+| `feeds/api/v2/apps/pikatorrent/versions.json` | 2 | mirrors: `api/v2/apps/pikatorrent/versions.json` |
 | `feeds/api/v2/apps/pikatorrent.json` | 2 | mirrors: `api/v2/apps/pikatorrent.json` |
+| `feeds/api/v2/apps/pocketposter/versions.json` | 2 | mirrors: `api/v2/apps/pocketposter/versions.json` |
 | `feeds/api/v2/apps/pocketposter.json` | 2 | mirrors: `api/v2/apps/pocketposter.json` |
+| `feeds/api/v2/apps/ppsspp/versions.json` | 2 | mirrors: `api/v2/apps/ppsspp/versions.json` |
 | `feeds/api/v2/apps/ppsspp.json` | 2 | mirrors: `api/v2/apps/ppsspp.json` |
+| `feeds/api/v2/apps/provenance/versions.json` | 2 | mirrors: `api/v2/apps/provenance/versions.json` |
 | `feeds/api/v2/apps/provenance.json` | 2 | mirrors: `api/v2/apps/provenance.json` |
+| `feeds/api/v2/apps/purekfd/versions.json` | 2 | mirrors: `api/v2/apps/purekfd/versions.json` |
 | `feeds/api/v2/apps/purekfd.json` | 2 | mirrors: `api/v2/apps/purekfd.json` |
+| `feeds/api/v2/apps/qbitconnect/versions.json` | 2 | mirrors: `api/v2/apps/qbitconnect/versions.json` |
 | `feeds/api/v2/apps/qbitconnect.json` | 2 | mirrors: `api/v2/apps/qbitconnect.json` |
+| `feeds/api/v2/apps/qbitcontrol/versions.json` | 2 | mirrors: `api/v2/apps/qbitcontrol/versions.json` |
 | `feeds/api/v2/apps/qbitcontrol.json` | 2 | mirrors: `api/v2/apps/qbitcontrol.json` |
+| `feeds/api/v2/apps/qbitcontroller/versions.json` | 2 | mirrors: `api/v2/apps/qbitcontroller/versions.json` |
 | `feeds/api/v2/apps/qbitcontroller.json` | 2 | mirrors: `api/v2/apps/qbitcontroller.json` |
+| `feeds/api/v2/apps/raintweak/versions.json` | 2 | mirrors: `api/v2/apps/raintweak/versions.json` |
 | `feeds/api/v2/apps/raintweak.json` | 2 | mirrors: `api/v2/apps/raintweak.json` |
+| `feeds/api/v2/apps/redditfilter/versions.json` | 2 | mirrors: `api/v2/apps/redditfilter/versions.json` |
 | `feeds/api/v2/apps/redditfilter.json` | 2 | mirrors: `api/v2/apps/redditfilter.json` |
+| `feeds/api/v2/apps/reynard/versions.json` | 2 | mirrors: `api/v2/apps/reynard/versions.json` |
 | `feeds/api/v2/apps/reynard.json` | 2 | mirrors: `api/v2/apps/reynard.json` |
+| `feeds/api/v2/apps/ryukgram/versions.json` | 2 | mirrors: `api/v2/apps/ryukgram/versions.json` |
+| `feeds/api/v2/apps/ryukgram-ig410/versions.json` | 2 | mirrors: `api/v2/apps/ryukgram-ig410/versions.json` |
 | `feeds/api/v2/apps/ryukgram-ig410.json` | 2 | mirrors: `api/v2/apps/ryukgram-ig410.json` |
+| `feeds/api/v2/apps/ryukgram-sidebyside/versions.json` | 2 | mirrors: `api/v2/apps/ryukgram-sidebyside/versions.json` |
 | `feeds/api/v2/apps/ryukgram-sidebyside.json` | 2 | mirrors: `api/v2/apps/ryukgram-sidebyside.json` |
 | `feeds/api/v2/apps/ryukgram.json` | 2 | mirrors: `api/v2/apps/ryukgram.json` |
+| `feeds/api/v2/apps/saber/versions.json` | 2 | mirrors: `api/v2/apps/saber/versions.json` |
 | `feeds/api/v2/apps/saber.json` | 2 | mirrors: `api/v2/apps/saber.json` |
+| `feeds/api/v2/apps/sameboy/versions.json` | 2 | mirrors: `api/v2/apps/sameboy/versions.json` |
 | `feeds/api/v2/apps/sameboy.json` | 2 | mirrors: `api/v2/apps/sameboy.json` |
+| `feeds/api/v2/apps/secondhand/versions.json` | 2 | mirrors: `api/v2/apps/secondhand/versions.json` |
 | `feeds/api/v2/apps/secondhand.json` | 2 | mirrors: `api/v2/apps/secondhand.json` |
+| `feeds/api/v2/apps/serotonin/versions.json` | 2 | mirrors: `api/v2/apps/serotonin/versions.json` |
 | `feeds/api/v2/apps/serotonin.json` | 2 | mirrors: `api/v2/apps/serotonin.json` |
+| `feeds/api/v2/apps/sidestore/versions.json` | 2 | mirrors: `api/v2/apps/sidestore/versions.json` |
 | `feeds/api/v2/apps/sidestore.json` | 2 | mirrors: `api/v2/apps/sidestore.json` |
+| `feeds/api/v2/apps/snmessenger/versions.json` | 2 | mirrors: `api/v2/apps/snmessenger/versions.json` |
 | `feeds/api/v2/apps/snmessenger.json` | 2 | mirrors: `api/v2/apps/snmessenger.json` |
+| `feeds/api/v2/apps/sora/versions.json` | 2 | mirrors: `api/v2/apps/sora/versions.json` |
 | `feeds/api/v2/apps/sora.json` | 2 | mirrors: `api/v2/apps/sora.json` |
+| `feeds/api/v2/apps/sparkle/versions.json` | 2 | mirrors: `api/v2/apps/sparkle/versions.json` |
 | `feeds/api/v2/apps/sparkle.json` | 2 | mirrors: `api/v2/apps/sparkle.json` |
+| `feeds/api/v2/apps/spotiflac/versions.json` | 2 | mirrors: `api/v2/apps/spotiflac/versions.json` |
 | `feeds/api/v2/apps/spotiflac.json` | 2 | mirrors: `api/v2/apps/spotiflac.json` |
+| `feeds/api/v2/apps/spotube/versions.json` | 2 | mirrors: `api/v2/apps/spotube/versions.json` |
 | `feeds/api/v2/apps/spotube.json` | 2 | mirrors: `api/v2/apps/spotube.json` |
+| `feeds/api/v2/apps/statusmagic/versions.json` | 2 | mirrors: `api/v2/apps/statusmagic/versions.json` |
 | `feeds/api/v2/apps/statusmagic.json` | 2 | mirrors: `api/v2/apps/statusmagic.json` |
+| `feeds/api/v2/apps/stikdebug/versions.json` | 2 | mirrors: `api/v2/apps/stikdebug/versions.json` |
 | `feeds/api/v2/apps/stikdebug.json` | 2 | mirrors: `api/v2/apps/stikdebug.json` |
+| `feeds/api/v2/apps/stiknes/versions.json` | 2 | mirrors: `api/v2/apps/stiknes/versions.json` |
 | `feeds/api/v2/apps/stiknes.json` | 2 | mirrors: `api/v2/apps/stiknes.json` |
+| `feeds/api/v2/apps/streamyfin/versions.json` | 2 | mirrors: `api/v2/apps/streamyfin/versions.json` |
 | `feeds/api/v2/apps/streamyfin.json` | 2 | mirrors: `api/v2/apps/streamyfin.json` |
+| `feeds/api/v2/apps/swiftgram/versions.json` | 2 | mirrors: `api/v2/apps/swiftgram/versions.json` |
 | `feeds/api/v2/apps/swiftgram.json` | 2 | mirrors: `api/v2/apps/swiftgram.json` |
+| `feeds/api/v2/apps/synkplay/versions.json` | 2 | mirrors: `api/v2/apps/synkplay/versions.json` |
 | `feeds/api/v2/apps/synkplay.json` | 2 | mirrors: `api/v2/apps/synkplay.json` |
+| `feeds/api/v2/apps/tablehabit/versions.json` | 2 | mirrors: `api/v2/apps/tablehabit/versions.json` |
 | `feeds/api/v2/apps/tablehabit.json` | 2 | mirrors: `api/v2/apps/tablehabit.json` |
+| `feeds/api/v2/apps/taurine/versions.json` | 2 | mirrors: `api/v2/apps/taurine/versions.json` |
 | `feeds/api/v2/apps/taurine.json` | 2 | mirrors: `api/v2/apps/taurine.json` |
+| `feeds/api/v2/apps/telegram-mxgram/versions.json` | 2 | mirrors: `api/v2/apps/telegram-mxgram/versions.json` |
 | `feeds/api/v2/apps/telegram-mxgram.json` | 2 | mirrors: `api/v2/apps/telegram-mxgram.json` |
+| `feeds/api/v2/apps/threadsaver/versions.json` | 2 | mirrors: `api/v2/apps/threadsaver/versions.json` |
 | `feeds/api/v2/apps/threadsaver.json` | 2 | mirrors: `api/v2/apps/threadsaver.json` |
+| `feeds/api/v2/apps/thunder/versions.json` | 2 | mirrors: `api/v2/apps/thunder/versions.json` |
 | `feeds/api/v2/apps/thunder.json` | 2 | mirrors: `api/v2/apps/thunder.json` |
+| `feeds/api/v2/apps/trollfools/versions.json` | 2 | mirrors: `api/v2/apps/trollfools/versions.json` |
 | `feeds/api/v2/apps/trollfools.json` | 2 | mirrors: `api/v2/apps/trollfools.json` |
+| `feeds/api/v2/apps/trollinstallerx/versions.json` | 2 | mirrors: `api/v2/apps/trollinstallerx/versions.json` |
 | `feeds/api/v2/apps/trollinstallerx.json` | 2 | mirrors: `api/v2/apps/trollinstallerx.json` |
+| `feeds/api/v2/apps/ttkillerplus/versions.json` | 2 | mirrors: `api/v2/apps/ttkillerplus/versions.json` |
 | `feeds/api/v2/apps/ttkillerplus.json` | 2 | mirrors: `api/v2/apps/ttkillerplus.json` |
+| `feeds/api/v2/apps/turrit-mxgram/versions.json` | 2 | mirrors: `api/v2/apps/turrit-mxgram/versions.json` |
 | `feeds/api/v2/apps/turrit-mxgram.json` | 2 | mirrors: `api/v2/apps/turrit-mxgram.json` |
+| `feeds/api/v2/apps/twitchadblock/versions.json` | 2 | mirrors: `api/v2/apps/twitchadblock/versions.json` |
 | `feeds/api/v2/apps/twitchadblock.json` | 2 | mirrors: `api/v2/apps/twitchadblock.json` |
+| `feeds/api/v2/apps/unc0ver/versions.json` | 2 | mirrors: `api/v2/apps/unc0ver/versions.json` |
 | `feeds/api/v2/apps/unc0ver.json` | 2 | mirrors: `api/v2/apps/unc0ver.json` |
+| `feeds/api/v2/apps/uprovid/versions.json` | 2 | mirrors: `api/v2/apps/uprovid/versions.json` |
 | `feeds/api/v2/apps/uprovid.json` | 2 | mirrors: `api/v2/apps/uprovid.json` |
+| `feeds/api/v2/apps/utm/versions.json` | 2 | mirrors: `api/v2/apps/utm/versions.json` |
 | `feeds/api/v2/apps/utm.json` | 2 | mirrors: `api/v2/apps/utm.json` |
+| `feeds/api/v2/apps/uyouenhanced/versions.json` | 2 | mirrors: `api/v2/apps/uyouenhanced/versions.json` |
 | `feeds/api/v2/apps/uyouenhanced.json` | 2 | mirrors: `api/v2/apps/uyouenhanced.json` |
+| `feeds/api/v2/apps/vcmi/versions.json` | 2 | mirrors: `api/v2/apps/vcmi/versions.json` |
 | `feeds/api/v2/apps/vcmi.json` | 2 | mirrors: `api/v2/apps/vcmi.json` |
+| `feeds/api/v2/apps/vibecontainers/versions.json` | 2 | mirrors: `api/v2/apps/vibecontainers/versions.json` |
 | `feeds/api/v2/apps/vibecontainers.json` | 2 | mirrors: `api/v2/apps/vibecontainers.json` |
+| `feeds/api/v2/apps/voyager/versions.json` | 2 | mirrors: `api/v2/apps/voyager/versions.json` |
 | `feeds/api/v2/apps/voyager.json` | 2 | mirrors: `api/v2/apps/voyager.json` |
+| `feeds/api/v2/apps/wdbfontoverwrite/versions.json` | 2 | mirrors: `api/v2/apps/wdbfontoverwrite/versions.json` |
 | `feeds/api/v2/apps/wdbfontoverwrite.json` | 2 | mirrors: `api/v2/apps/wdbfontoverwrite.json` |
+| `feeds/api/v2/apps/winston/versions.json` | 2 | mirrors: `api/v2/apps/winston/versions.json` |
 | `feeds/api/v2/apps/winston.json` | 2 | mirrors: `api/v2/apps/winston.json` |
+| `feeds/api/v2/apps/xenios/versions.json` | 2 | mirrors: `api/v2/apps/xenios/versions.json` |
 | `feeds/api/v2/apps/xenios.json` | 2 | mirrors: `api/v2/apps/xenios.json` |
+| `feeds/api/v2/apps/yattee/versions.json` | 2 | mirrors: `api/v2/apps/yattee/versions.json` |
 | `feeds/api/v2/apps/yattee.json` | 2 | mirrors: `api/v2/apps/yattee.json` |
+| `feeds/api/v2/apps/youmod/versions.json` | 2 | mirrors: `api/v2/apps/youmod/versions.json` |
 | `feeds/api/v2/apps/youmod.json` | 2 | mirrors: `api/v2/apps/youmod.json` |
+| `feeds/api/v2/apps/youpro/versions.json` | 2 | mirrors: `api/v2/apps/youpro/versions.json` |
 | `feeds/api/v2/apps/youpro.json` | 2 | mirrors: `api/v2/apps/youpro.json` |
+| `feeds/api/v2/apps/ytkace/versions.json` | 2 | mirrors: `api/v2/apps/ytkace/versions.json` |
 | `feeds/api/v2/apps/ytkace.json` | 2 | mirrors: `api/v2/apps/ytkace.json` |
+| `feeds/api/v2/apps/ytkp/versions.json` | 2 | mirrors: `api/v2/apps/ytkp/versions.json` |
 | `feeds/api/v2/apps/ytkp.json` | 2 | mirrors: `api/v2/apps/ytkp.json` |
+| `feeds/api/v2/apps/ytlite/versions.json` | 2 | mirrors: `api/v2/apps/ytlite/versions.json` |
 | `feeds/api/v2/apps/ytlite.json` | 2 | mirrors: `api/v2/apps/ytlite.json` |
+| `feeds/api/v2/apps/ytmusic/versions.json` | 2 | mirrors: `api/v2/apps/ytmusic/versions.json` |
 | `feeds/api/v2/apps/ytmusic.json` | 2 | mirrors: `api/v2/apps/ytmusic.json` |
+| `feeds/api/v2/apps/zeus/versions.json` | 2 | mirrors: `api/v2/apps/zeus/versions.json` |
 | `feeds/api/v2/apps/zeus.json` | 2 | mirrors: `api/v2/apps/zeus.json` |
 | `feeds/api/v2/categories.json` | 2 | mirrors: `api/v2/categories.json` |
 | `feeds/api/v2/featured.json` | 2 | mirrors: `api/v2/featured.json` |
 | `feeds/api/v2/manifest.json` | 2 | mirrors: `api/v2/manifest.json` |
 | `feeds/api/v2/updates.json` | 2 | mirrors: `api/v2/updates.json` |
 | `api/v3/apps.json` | 2 | mirrors: `web/public/data/v3/apps.json` |
-| `api/v3/search-index.json` | 2 | mirrors: `web/public/data/v3/search-index.json` |
-| `api/v3/status.json` | 2 | mirrors: `web/public/data/v3/status.json` |
-| `catalog.json` | 2 | mirrors: `web/src/data/catalog.json` |
-| `data/analytics_rollup.json` | 2 | mirrors: `web/src/data/analytics_rollup.json` |
-| `data/canonical_apps.json` | 2 | mirrors: `web/src/data/canonical_apps.json` |
-| `data/source_reputation.json` | 2 | mirrors: `web/src/data/source_reputation.json` |
+| `data/security.json` | 2 | mirrors: `security-report.json` |
 
 **Disposition:** the `feeds/` file is the source of truth; `apps.json`, `api/*` and
 their `.gz` twins are the branch-deployed URL surface and are kept for subscriber/API
@@ -195,6 +318,6 @@ fails CI if any copy ever drifts, so mirrors can never diverge silently.
 
 ## Compression mirrors
 
-- 171 `.gz` files contribute 983 KiB to the checkout.
+- 300 `.gz` files contribute 1026 KiB to the checkout.
 - `.br` twins are only written when the optional `brotli` package is installed at build time (CI opt-in).
 - Recommendation: keep; the mirrors are smaller than the savings they provide to clients, and GitHub Pages serves them with `Content-Encoding` for gzip-capable consumers.

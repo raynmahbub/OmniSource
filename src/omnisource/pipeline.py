@@ -52,6 +52,7 @@ from omnisource.feeds.altstore import (
     render_health_doc,
     render_news_items,
 )
+from omnisource.feeds.calendar import render_calendar, render_filtered_rss
 from omnisource.feeds.rss import render_app_rss_feed, render_rss_feed
 from omnisource.feeds.updates import render_updates_doc
 from omnisource.health_score import annotate_health_doc, build_health_scores
@@ -76,8 +77,10 @@ from omnisource.tracking import (
     select_versions,
 )
 from omnisource.translations import build_translation_status_doc
+from omnisource.transparency import append_observations, changed_slugs, empty_log, validate_log
 from omnisource.trending import build_trending_doc
 from omnisource.utils.versioning import compare_versions
+from omnisource.variants import build_variant_documents
 from omnisource.verification import build_verification_doc
 
 
@@ -322,8 +325,28 @@ def stage_sync(
             key = (str(ver.get("downloadURL") or ""), int(ver.get("size") or 0))
             if key in prev_sha_by_url:
                 ver["sha256"] = prev_sha_by_url[key]
-            elif lfv_sha and lfv_size and int(ver.get("size") or 0) == lfv_size:
+            elif lfv_sha and lfv_size and int(ver.get("size") or 0) == lfv_size and str(lfv.get("url") or "") == key[0]:
                 ver["sha256"] = lfv_sha
+
+        # Carry inspected metadata only across the same version, URL, size and
+        # digest. Never apply a previous asset's declarations to a new build.
+        previous_inspections = {}
+        for old in previous_versions if isinstance(previous_versions, list) else []:
+            if not isinstance(old, dict) or not isinstance(old.get("ipaInspection"), dict):
+                continue
+            identity = (old.get("version"), old.get("downloadURL"), old.get("size"), old.get("sha256"))
+            inspection = old["ipaInspection"]
+            if (
+                old.get("sha256")
+                and inspection.get("sha256") == old.get("sha256")
+                and inspection.get("url") == old.get("downloadURL")
+            ):
+                previous_inspections[identity] = inspection
+        for ver in versions:
+            if isinstance(ver, dict) and "ipaInspection" not in ver:
+                identity = (ver.get("version"), ver.get("downloadURL"), ver.get("size"), ver.get("sha256"))
+                if identity in previous_inspections:
+                    ver["ipaInspection"] = previous_inspections[identity]
 
         kind = detect_update(previous_versions if isinstance(previous_versions, list) else None, versions)
         if entry.get("versions") != versions:
@@ -432,9 +455,14 @@ def stage_health(
             previous = state.get(slug, {}).get("health", {}) if isinstance(state.get(slug), dict) else {}
             if not isinstance(previous, dict):
                 previous = {}
-            since = previous.get("since", today()) if previous.get("reachable") == result.reachable else today()
+            since = (
+                previous.get("since", today())
+                if previous.get("reachable") == result.reachable and previous.get("checkedURL") == targets[slug]
+                else today()
+            )
             remember_probe(state, slug, reachable=result.reachable, detail=result.detail, latency_ms=latency_ms)
             state.setdefault(slug, {})["health"]["since"] = since
+            state[slug]["health"]["checkedURL"] = targets[slug]
             (log.info if result.reachable else log.warning)(
                 "%-14s %s (%s) in %dms",
                 slug,
@@ -484,7 +512,19 @@ def stage_build(
         if not isinstance(versions, list) or not versions:
             log.error("%s has no known versions - excluded from this build", app.slug)
             continue
-        rendered.append((app, render_altstore_app(catalog, app, versions, state[app.slug].get("health", {}))))
+        app_state = state[app.slug]
+        health = dict(app_state["health"]) if isinstance(app_state.get("health"), dict) else {}
+        history = app_state.get("healthHistory")
+        if not health.get("measuredAt") and isinstance(history, list):
+            health["measuredAt"] = next(
+                (
+                    str(item.get("at") or item.get("date"))
+                    for item in reversed(history)
+                    if isinstance(item, dict) and (item.get("at") or item.get("date"))
+                ),
+                "",
+            )
+        rendered.append((app, render_altstore_app(catalog, app, versions, health)))
 
     if not rendered:
         raise SyncError("No app produced a valid feed entry")
@@ -515,6 +555,8 @@ def stage_build(
     master["apps"] = [entry for _, entry in sorted(rendered, key=lambda item: item[0].name.casefold())]
     master["news"] = render_news_items(catalog, state, limit=10)
     documents[feeds_dir / "apps.json"] = master
+    for name, variant in build_variant_documents(master, base).items():
+        documents[feeds_dir / name] = variant
 
     health_doc = render_health_doc(rendered)
     _annotate_staleness(health_doc, stale_after_days=container.settings.stale_after_days)
@@ -694,7 +736,7 @@ def stage_build(
     verified = int(analytics_doc["totals"]["verifiedApps"])
     documents[feeds_dir / "badge-verified.json"] = {
         "schemaVersion": 1,
-        "label": "verified",
+        "label": "source checks",
         "message": f"{verified}/{len(catalog.apps)}",
         "color": "2ea043" if verified == len(catalog.apps) else "d29922",
     }
@@ -704,6 +746,12 @@ def stage_build(
     # flat/API URL families at the repository root and build_site() assembles
     # them into _site/, so this stage only ever writes feeds/.
     changed = atomic_write_many(documents, pretty=lambda path: True)
+    variants_dir = feeds_dir / "variants"
+    if variants_dir.is_dir():
+        for stale in variants_dir.glob("*.json"):
+            if stale not in documents:
+                stale.unlink()
+                changed.append(stale)
 
     # RSS 2.0 / Atom XML feeds: one combined feed plus a per-app feed.
     rss_content = render_rss_feed(catalog, state, limit=25)
@@ -716,6 +764,57 @@ def stage_build(
         app_rss_content = render_app_rss_feed(catalog, state, app.slug, limit=15)
         if app_rss_content and atomic_write_text(app_rss_path, app_rss_content):
             changed.append(app_rss_path)
+
+    # Release calendars and filtered RSS are deterministic: dates come from
+    # observed releases, not the build clock. Historical events may not trigger
+    # notifications in a calendar application.
+    text_feeds: dict[Path, str] = {feeds_dir / "updates.ics": render_calendar(catalog, state)}
+    subscriptions = [{"name": "All releases calendar", "path": "updates.ics", "kind": "calendar"}]
+    for app, _entry in rendered:
+        text_feeds[feeds_dir / "calendars" / f"app-{app.slug}.ics"] = render_calendar(
+            catalog, state, slugs={app.slug}, title=f"{app.name} releases"
+        )
+    for collection in collections_doc.get("collections", []):
+        if not isinstance(collection, dict):
+            continue
+        slug = str(collection.get("slug") or "")
+        if not re.fullmatch(r"[a-z0-9-]+", slug):
+            continue
+        members = set(collection.get("appSlugs") or [])
+        name = str(collection.get("title") or slug)
+        text_feeds[feeds_dir / "calendars" / f"collection-{slug}.ics"] = render_calendar(
+            catalog, state, slugs=members, title=f"{name} releases"
+        )
+        subscriptions.append(
+            {"name": f"{name} calendar", "path": f"calendars/collection-{slug}.ics", "kind": "calendar"}
+        )
+        path = f"filtered/collection-{slug}.xml"
+        subscriptions.append({"name": f"{name} RSS", "path": path, "kind": "collection"})
+        text_feeds[feeds_dir / path] = render_filtered_rss(
+            catalog, state, slugs=members, title=f"{name} releases", path=path
+        )
+    categories = {app.category for app, _entry in rendered}
+    for category in sorted(categories):
+        if not re.fullmatch(r"[a-z0-9-]+", category):
+            continue
+        members = {app.slug for app, _entry in rendered if app.category == category}
+        path = f"filtered/category-{category}.xml"
+        subscriptions.append({"name": f"{category} RSS", "path": path, "kind": "category"})
+        text_feeds[feeds_dir / path] = render_filtered_rss(
+            catalog, state, slugs=members, title=f"{category} releases", path=path
+        )
+    subscriptions_path = feeds_dir / "subscriptions.json"
+    if write_json(subscriptions_path, {"schemaVersion": 1, "subscriptions": subscriptions}):
+        changed.append(subscriptions_path)
+    for path, content in text_feeds.items():
+        if atomic_write_text(path, content):
+            changed.append(path)
+    for directory, suffix in ((feeds_dir / "calendars", ".ics"), (feeds_dir / "filtered", ".xml")):
+        if directory.is_dir():
+            for stale in directory.glob(f"*{suffix}"):
+                if stale not in text_feeds:
+                    stale.unlink()
+                    changed.append(stale)
 
     # Static app detail pages (apps/<slug>/index.html).
     page_dir = container.paths.root / "apps"
@@ -820,9 +919,9 @@ def stage_readme(
             README_STATS_MARKERS[0],
             "",
             f"**{analytics_totals['apps']}** apps · **{analytics_totals['sources']}** upstream sources · "
-            f"**{analytics_totals['verifiedApps']}** verified · "
-            f"**{analytics_totals['communityVerifiedApps']}** community verified · "
-            f"**{analytics_totals['downloadsReachable']}/{analytics_totals['apps']}** downloads online · "
+            f"**{analytics_totals['verifiedApps']}** official-source checks passed · "
+            f"**{analytics_totals['communityVerifiedApps']}** community-source checks passed · "
+            f"**{analytics_totals['downloadsReachable']}/{analytics_totals['apps']}** downloads last seen reachable · "
             f"last sync **{analytics_doc.get('lastSync') or 'pending'}**.",
             "",
             README_STATS_MARKERS[1],
@@ -915,6 +1014,8 @@ def run(
     no_sync: bool = False,
     no_health: bool = False,
     verify: bool = False,
+    verify_changed: bool = False,
+    inspect_ipa: bool = False,
     only: set[str] | None = None,
     incremental: bool = False,
     workers: int = 8,
@@ -955,9 +1056,28 @@ def run(
         stage_health(container, catalog, state, enabled=not no_health, workers=max(1, workers), only=only)
 
     verify_failed: list[dict[str, Any]] = []
+    records: list[dict[str, Any]] = []
+    ledger_path = container.paths.feeds / "transparency.json"
+    ledger = read_json(ledger_path) if verify else None
     if verify:
         with Group("Verify downloads (full integrity)"):
-            records = verify_downloads(container, catalog, state, only=only, workers=max(1, min(workers, 4)))
+            if not isinstance(ledger, dict):
+                if ledger_path.exists():
+                    raise SyncError("transparency log is unreadable; refusing to replace existing evidence")
+                ledger = empty_log()
+            try:
+                validate_log(ledger)
+                selected = (only & known) if only is not None else set(known)
+                if verify_changed:
+                    selected = changed_slugs(ledger, state, selected)
+            except ValueError as error:
+                raise SyncError(f"transparency log validation failed: {error}") from error
+            if selected:
+                records = verify_downloads(
+                    container, catalog, state, only=selected, workers=max(1, min(workers, 4)), inspect=inspect_ipa
+                )
+            else:
+                log.info("No changed assets require verification")
             verify_failed = [record for record in records if not record.get("ok")]
             report.broken_assets += len(verify_failed)
             for record in verify_failed:
@@ -975,6 +1095,14 @@ def run(
             refresh_mirrors=not no_sync,
             refresh_only=only,
         )
+
+    # Only a full byte read can add a ledger entry; offline rebuilds never invent
+    # observations. Chain validation happens before any append.
+    if verify and isinstance(ledger, dict):
+        added = append_observations(ledger, state, records)
+        if (added or not ledger_path.exists()) and write_json(ledger_path, ledger):
+            changed.append(ledger_path)
+        log.info("Transparency log: %d new byte observation(s)", added)
 
     # Persist state only after the complete generated dataset passed validation;
     # a failed build therefore leaves both data and memory at last-known-good.

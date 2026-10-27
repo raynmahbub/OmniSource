@@ -45,6 +45,20 @@
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "13.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -80,7 +94,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "13.0",
@@ -101,9 +116,11 @@
         "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 200",
-        "statusSince": "2026-09-18",
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
         "lastUpdatedAt": "2026-10-13"
       }
     },

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Zeus releases
+BEGIN:VEVENT
+UID:zeus-13.2.3@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Zeus v13.2.3
+DESCRIPTION:Zeus 13.2.3 | zeus-v13.2.3\n\n<img width="1200" height="670" al
+ t="ZEUS v13.2.3" src="https://github.com/user-attachments/assets/471167a9-
+ 3581-4fc7-ba78-57668e721e6d" />\n\n## v13.2.3 Highlights:\n\n- Embedded LN
+ D v0.21.4\n- LDK Node v0.7.0-zeus-rl-0.2.7 (rust-lightning v0.2.7 security
+  fixes)\n- Further security hardening measures\n- Miscellaneous bug fixes\
+ n- Miscellaneous UI improvements never transferred correctly through it. S
+ ingle-device and Android users are not affected.\n\n## What's Changed\n* b
+ uild: make Xcode Cloud post-clone survive Intel runners by @kaloudis in ht
+ tps://github.com/ZeusLN/zeus/pull/4677\n* Verify LSP wrapped invoices agai
+ nst the invoice they wrap by @kaloudis in https://github.com/ZeusLN/zeus/p
+ ull/4673\n* [Transifex] Updates for project ZEUS by @transifex-integration
+ [bot] in https://github.com/ZeusLN/zeus/pull/4679\n* locales: fix 17 broke
+ n localeString references\, add en.json coverage test by @kaloudis in http
+ s://github.com/ZeusLN/zeus/pull/4674\n* fix(ui): swap the GIF loading indi
+ cator for the Lottie loader by @kaloudis in https://github.com/ZeusLN/zeus
+ /pull/4678\n* fix(channels): require a host when connecting a peer by @kal
+ oudis in https://github.com/ZeusLN/zeus/pull/4644\n* [Transifex] Updates f
+ or project ZEUS by @transifex-integration[bot] in https://github.com/ZeusL
+ N/zeus/pull/4681\n* [Transifex] Updates for project ZEUS by @transifex-int
+ egration[bot] in https://github.com/ZeusLN/zeus/pull/4682\n* tests: scan a
+ ll literal keys in localeString calls by @kaloudis in https://github.com/Z
+ eusLN/zeus/pull/4680\n* [Transifex] Updates for project ZEUS by @transifex
+ -integration[bot] in https://github.com/ZeusLN/zeus/pull/4683\n* tests: su
+ rface coverage summary in CI logs and PR comments by @kaloudis in https://
+ github.com/ZeusLN/zeus/pull/4676\n* fix(security): bind LNURL-auth callbac
+ k host to signing domain by @kaloudis in https://github.com/ZeusLN/zeus/pu
+ ll/4576\n* build(ios): refresh Podfile.lock for react-native-get-random-va
+ lues 2.0.0 by @kaloudis in https://gith
+URL:https://raynmahbub.github.io/OmniSource/feeds/zeus.json
+END:VEVENT
+END:VCALENDAR
