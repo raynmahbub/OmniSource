@@ -1,14 +1,14 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "1571e10e1775",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-25",
+    "generatedAt": "2026-10-27",
     "totals": {
       "sources": 128,
-      "healthy": 86,
-      "degraded": 41,
+      "healthy": 85,
+      "degraded": 42,
       "unavailable": 1,
       "unknown": 0
     },
@@ -16,7 +16,7 @@
       "status": "degraded",
       "lastBuild": "2026-10-25",
       "appsTotal": 128,
-      "appsHealthy": 86,
+      "appsHealthy": 85,
       "appsFailing": 4
     },
     "providers": [
@@ -48,7 +48,7 @@
       {
         "provider": "github",
         "apps": 110,
-        "healthy": 69,
+        "healthy": 68,
         "unavailable": 1,
         "lastResolvedFrom": {
           "3105": "github:YangJiiii/3105",
@@ -89,7 +89,6 @@
           "nebuloiptv": "github:mongoosemonke504/OnsideTV",
           "orbot": "github:guardianproject/orbot-apple",
           "otraku": "github:lotusprey/otraku",
-          "qbitcontroller": "github:Bartuzen/qBitController",
           "raintweak": "github:ra1ncord/RainTweak",
           "reynard": "github:minh-ton/reynard-browser",
           "saber": "github:saber-notes/saber",
@@ -151,6 +150,7 @@
           "purekfd": "github:Lrdsnow/PureKFD",
           "qbitconnect": "github:RajnishOne/qbitconnect",
           "qbitcontrol": "github:Michael-128/qBitControl",
+          "qbitcontroller": "github:Bartuzen/qBitController",
           "redditfilter": "github:level3tjg/RedditFilter",
           "secondhand": "github:leminlimez/SecondHand",
           "snmessenger": "github:NguyenASang/SNMessenger",
@@ -4892,108 +4892,6 @@
             "at": "2026-10-25",
             "reachable": true,
             "latencyMs": 352,
-            "detail": "HTTP 302"
-          }
-        ]
-      },
-      {
-        "id": "qbitcontroller",
-        "app": "qbitcontroller",
-        "name": "qBitController",
-        "source": "Bartuzen/qBitController",
-        "sourceURL": "https://github.com/Bartuzen/qBitController",
-        "type": "github",
-        "status": "healthy",
-        "reachable": true,
-        "latency": 130,
-        "latencyMs": 130,
-        "checkedAt": "2026-09-10",
-        "lastUpdate": "2026-07-28",
-        "valid": true,
-        "detail": "HTTP 302",
-        "history": [
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 193,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 220,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 124,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-18",
-            "reachable": true,
-            "latencyMs": 228,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 182,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 194,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 229,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 164,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 127,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 171,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 248,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 185,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 270,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 130,
             "detail": "HTTP 302"
           }
         ]
@@ -12032,6 +11930,108 @@
             "at": "2026-10-21",
             "reachable": true,
             "latencyMs": 119,
+            "detail": "HTTP 302"
+          }
+        ]
+      },
+      {
+        "id": "qbitcontroller",
+        "app": "qbitcontroller",
+        "name": "qBitController",
+        "source": "Bartuzen/qBitController",
+        "sourceURL": "https://github.com/Bartuzen/qBitController",
+        "type": "github",
+        "status": "degraded",
+        "reachable": true,
+        "latency": 130,
+        "latencyMs": 130,
+        "checkedAt": "2026-09-10",
+        "lastUpdate": "2026-07-28",
+        "valid": true,
+        "detail": "HTTP 302",
+        "history": [
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 193,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 220,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 124,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-18",
+            "reachable": true,
+            "latencyMs": 228,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 182,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 194,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 229,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 164,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 127,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 171,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 248,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 185,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 270,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 130,
             "detail": "HTTP 302"
           }
         ]

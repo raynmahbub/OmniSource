@@ -12,7 +12,7 @@
   "apps": [
     {
       "name": "iMe MxGram",
-      "bundleIdentifier": "com.olcorporation.olai",
+      "bundleIdentifier": "com.olcorporation.olai.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "MxGram-tweaked iMe messenger (unofficial build)",
       "localizedDescription": "iMe MxGram is the third-party iMe messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the iMe Telegram client.",
@@ -94,7 +94,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+          "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.olcorporation.olai.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T23:20:10Z",
+  "generatedAt": "2026-10-27T13:00:13Z",
   "count": 128,
   "incomplete": 0,
   "apps": [
@@ -1403,7 +1403,7 @@
     },
     {
       "name": "BHInstagram",
-      "bundleIdentifier": "com.bandarhl.bhinsta",
+      "bundleIdentifier": "com.burbn.instagram",
       "developerName": "BandarHL",
       "subtitle": "Instagram with no ads, downloads and more tweaks",
       "localizedDescription": "BHInstagram is an open-source tweak for Instagram from the developer of BHTwitter, published as a ready-to-sideload IPA. It hides ads and suggested posts, asks for confirmation before likes, shows like counts, lets you copy captions and download videos, save profile pictures, keep deleted messages, and turn off last-seen, screenshot alerts and story view receipts.",
@@ -1510,7 +1510,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked."
+          "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked. It uses Instagram's com.burbn.instagram identifier, as do the RyukGram and iNKillerPlus alternatives; installations using the same identifier replace one another."
         },
         "health": {
           "downloadReachable": true,
@@ -4531,7 +4531,7 @@
     },
     {
       "name": "iMe MxGram",
-      "bundleIdentifier": "com.olcorporation.olai",
+      "bundleIdentifier": "com.olcorporation.olai.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "MxGram-tweaked iMe messenger (unofficial build)",
       "localizedDescription": "iMe MxGram is the third-party iMe messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the iMe Telegram client.",
@@ -4613,7 +4613,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+          "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.olcorporation.olai.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -7713,7 +7713,7 @@
     },
     {
       "name": "Nuvio",
-      "bundleIdentifier": "com.nuvio.app",
+      "bundleIdentifier": "com.nuvio.media",
       "developerName": "Nuvio Media",
       "subtitle": "Open-source media player, bring your own sources",
       "localizedDescription": "Nuvio is a free, open-source media app for your phone, desktop and the TV you already own. Bring your own sources - Nuvio turns them into a library with artwork, ratings, subtitles and your place saved on every screen.",
@@ -9482,7 +9482,7 @@
     },
     {
       "name": "RedditFilter",
-      "bundleIdentifier": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "level3tjg",
       "subtitle": "Filter unwanted content from your Reddit feed",
       "localizedDescription": "RedditFilter (by level3tjg) filters unwanted content out of your Reddit feed - hide posts by keyword, subreddit, domain, flair or author, natively on top of the official Reddit app. The project publishes a ready-to-sideload IPA with every release.",
@@ -9602,7 +9602,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). Shares com.atebits.Tweetie2 with BHTwitter and NeoFreeBird in this catalog - install one at a time."
+          "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). The Reddit bundle identifier com.reddit.Reddit is shared with stock Reddit; installations using the same identifier replace one another."
         },
         "health": {
           "downloadReachable": true,
@@ -11605,7 +11605,7 @@
     },
     {
       "name": "Swiftgram",
-      "bundleIdentifier": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "developerName": "Swiftgram & IPA Vault",
       "subtitle": "Supercharged open-source Telegram fork",
       "localizedDescription": "Swiftgram is a supercharged, open-source Telegram fork: ghost mode, hide read receipts and online status, save protected media, unlimited account switching and deep interface customization. The project officially ships through the App Store and TestFlight; this entry serves a ready-to-sideload IPA build (Swiftgram base with the MxGram tweak).",
@@ -11699,7 +11699,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. Uses its own bundle identifier - installs alongside the stock Telegram app."
+          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -12092,7 +12092,7 @@
     },
     {
       "name": "Telegram MxGram",
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "Official Telegram with the MxGram tweak",
       "localizedDescription": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
@@ -12190,7 +12190,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
+          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists this MxGram variant as ph.telegra.Telegraph.mxgram, distinct from stock Telegram's identifier; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -12723,7 +12723,7 @@
     },
     {
       "name": "Turrit MxGram",
-      "bundleIdentifier": "com.seastar.turrit",
+      "bundleIdentifier": "com.seastar.turrit.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "MxGram-tweaked Turrit client (unofficial build)",
       "localizedDescription": "Turrit MxGram is the third-party Turrit messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the Turrit Telegram client.",
@@ -12821,7 +12821,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+          "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.seastar.turrit.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,

@@ -301,6 +301,16 @@ class GenericFeedProvider(SourceProvider):
                 target = apps
         releases: list[RemoteRelease] = []
         for app in target:
+            # appId can select by name rather than bundle ID. Do not publish a
+            # new binary under the catalog's old identity if that named entry
+            # changes bundle. Feeds that omit the field remain usable; they do
+            # not provide evidence against the catalog ID.
+            bundle_id = str(app.get("bundleIdentifier") or app.get("bundleId") or "").strip()
+            if bundle_id and source.expected_bundle_id and bundle_id != source.expected_bundle_id:
+                raise ProviderError(
+                    f"feed app {selector or app.get('name')!r} publishes bundle identifier {bundle_id!r}; "
+                    f"catalog expects {source.expected_bundle_id!r}"
+                )
             releases.extend(replace(release, source=self.source_type.value) for release in _releases_from_app(app))
 
         def release_order(left: RemoteRelease, right: RemoteRelease) -> int:

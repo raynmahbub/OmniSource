@@ -37,10 +37,10 @@ class TestAltStoreFeed(unittest.TestCase):
             "apps": [
                 {
                     "slug": "spotiflac",
-                    "name": "SpotiFLAC Mobile",
-                    "bundleIdentifier": "com.zarz.spotiflacAndroid",
+                    "name": "Mornye",
+                    "bundleIdentifier": "com.zarz.mornye",
                     "developerName": "zarzet",
-                    "icon": "SpotiFLAC.png",
+                    "icon": "Mornye.webp",
                     "status": "stable",
                     "compatibility": {"minOSVersion": "16.0", "clients": ["altstore"]},
                 }
@@ -65,14 +65,14 @@ class TestAltStoreFeed(unittest.TestCase):
     def test_render_altstore_app(self) -> None:
         raw_app = {
             "slug": "spotiflac",
-            "name": "SpotiFLAC Mobile",
-            "bundleIdentifier": "com.zarz.spotiflacAndroid",
+            "name": "Mornye",
+            "bundleIdentifier": "com.zarz.mornye",
             "developerName": "zarzet",
             "subtitle": "FLAC Downloader for iOS",
             "localizedDescription": "Download high quality FLAC audio.",
             "category": "utilities",
             "tintColor": "1DB954",
-            "icon": "SpotiFLAC.png",
+            "icon": "Mornye.webp",
             "status": "stable",
             "screenshots": ["https://example.com/screen1.png"],
         }
@@ -81,8 +81,8 @@ class TestAltStoreFeed(unittest.TestCase):
             {
                 "version": "4.9.6",
                 "date": "2026-09-07",
-                "localizedDescription": "SpotiFLAC 4.9.6",
-                "downloadURL": "https://example.com/SpotiFLAC.ipa",
+                "localizedDescription": "Mornye 4.9.6",
+                "downloadURL": "https://example.com/Mornye.ipa",
                 "size": 34171700,
                 "minOSVersion": "16.0",
             }
@@ -90,10 +90,10 @@ class TestAltStoreFeed(unittest.TestCase):
         health = {"reachable": True, "detail": "HTTP 302", "since": "2026-09-07"}
 
         rendered = render_altstore_app(self.catalog, app, versions, health)
-        self.assertEqual(rendered["name"], "SpotiFLAC Mobile")
-        self.assertEqual(rendered["bundleIdentifier"], "com.zarz.spotiflacAndroid")
+        self.assertEqual(rendered["name"], "Mornye")
+        self.assertEqual(rendered["bundleIdentifier"], "com.zarz.mornye")
         self.assertEqual(rendered["version"], "4.9.6")
-        self.assertEqual(rendered["downloadURL"], "https://example.com/SpotiFLAC.ipa")
+        self.assertEqual(rendered["downloadURL"], "https://example.com/Mornye.ipa")
         self.assertEqual(rendered["tintColor"], "1DB954")
         self.assertTrue(rendered["omnisource"]["health"]["downloadReachable"])
 
@@ -165,8 +165,8 @@ class TestAltStoreFeed(unittest.TestCase):
         }
         news = render_news_items(self.catalog, state, limit=5)
         self.assertEqual(len(news), 1)
-        self.assertEqual(news[0]["appID"], "com.zarz.spotiflacAndroid")
-        self.assertEqual(news[0]["title"], "SpotiFLAC Mobile v4.9.6")
+        self.assertEqual(news[0]["appID"], "com.zarz.mornye")
+        self.assertEqual(news[0]["title"], "Mornye v4.9.6")
         self.assertTrue(news[0]["identifier"].startswith("news-spotiflac"))
 
     def test_render_badge_docs(self) -> None:

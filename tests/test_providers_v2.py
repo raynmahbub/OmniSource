@@ -285,6 +285,7 @@ class FailoverChainTests(unittest.TestCase):
             repo="owner/repo",
             asset_suffixes=(".custom.ipa",),
             keep_versions=2,
+            expected_bundle_id="com.example.app",
             mirrors=({"provider": "mirror", "url": "https://m.example.com/app.custom.ipa"},),
         )
         chain = FailoverChain.from_ref(self.registry, primary)
@@ -294,6 +295,7 @@ class FailoverChainTests(unittest.TestCase):
         self.assertEqual(mirror.feed_url, "https://m.example.com/app.custom.ipa")
         self.assertEqual(mirror.asset_suffixes, (".custom.ipa",))
         self.assertEqual(mirror.keep_versions, 2)
+        self.assertEqual(mirror.expected_bundle_id, "com.example.app")
 
     def test_mirrors_missing_provider_rejected(self) -> None:
         primary = RepositoryRef(

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T23:20:10Z",
+  "generatedAt": "2026-10-27T13:00:13Z",
   "count": 104,
   "inputRecords": 128,
   "mergedDuplicates": 24,
@@ -1040,96 +1040,6 @@
           ],
           "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
           "downloads": 419
-        }
-      ]
-    },
-    {
-      "id": "com.bandarhl.bhinsta",
-      "name": "BHInstagram",
-      "bundleIdentifier": "com.bandarhl.bhinsta",
-      "developerName": "BandarHL",
-      "category": "social",
-      "version": "1.2",
-      "versionDate": "2025-05-14",
-      "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
-      "size": 228416558,
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
-      "matchKeys": [
-        "bundle:com.bandarhl.bhinsta",
-        "github:bandarhl/bhinstagram",
-        "url:github.com/BandarHL/BHInstagram",
-        "binary:github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa"
-      ],
-      "repositoryURLs": [],
-      "sources": [
-        "https://github.com/BandarHL/BHInstagram"
-      ],
-      "sourceCount": 1,
-      "duplicates": 1,
-      "versions": [
-        {
-          "version": "1.2",
-          "date": "2025-05-14",
-          "localizedDescription": "BHInstagram 1.2 | bhinsta_sideloaded\n\nUpdate 2.1:\n- Fix downloading Reels in lasted versions.\n- Fix Removing Ads in Reels.",
-          "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
-          "size": 228416558,
-          "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/BandarHL/BHInstagram/releases/tag/1.2",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "bhinsta_sideloaded.ipa",
-              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 228416558,
-              "sha256": null,
-              "downloads": 12221,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "bhinsta_trollstore.tipa",
-              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_trollstore.tipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 228415394,
-              "sha256": null,
-              "downloads": 2531,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "com.bandarhl.bhinsta_1.2_iphoneos-arm.deb",
-              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/com.bandarhl.bhinsta_1.2_iphoneos-arm.deb",
-              "platform": "linux",
-              "architecture": null,
-              "fileType": "DEB",
-              "size": 69502,
-              "sha256": null,
-              "downloads": 1165,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            },
-            {
-              "filename": "com.bandarhl.bhinsta_1.2_iphoneos-arm64.deb",
-              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/com.bandarhl.bhinsta_1.2_iphoneos-arm64.deb",
-              "platform": "linux",
-              "architecture": "arm64",
-              "fileType": "DEB",
-              "size": 69604,
-              "sha256": null,
-              "downloads": 1224,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "downloads": 12221,
-          "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453"
         }
       ]
     },
@@ -4605,11 +4515,10 @@
       "repositoryURLs": [],
       "sources": [
         "https://github.com/BandarHL/BHTwitter",
-        "https://github.com/level3tjg/RedditFilter",
         "https://github.com/NeoFreeBird/app"
       ],
-      "sourceCount": 3,
-      "duplicates": 3,
+      "sourceCount": 2,
+      "duplicates": 2,
       "versions": [
         {
           "version": "7.2.0",
@@ -4762,58 +4671,6 @@
           ],
           "downloads": 18439,
           "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981"
-        },
-        {
-          "version": "2025.37.0",
-          "date": "2025-09-26",
-          "localizedDescription": "Reddit 2025.37.0 | RedditFilter_2025.37.0-1.1.8\n\n# RedditFilter v2025.37.0-1.1.8\n\n## Changes\n\n- Fix app crash (@NicholasBly)\n- Fix ad comments showing under posts (@Laitinlok)\n- Fix popular feed not showing with recommendations disabled\n- Move RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)\n\n## SHA256\n\n- `1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3`  packages/RedditFilter_2025.37.0-1.1.8.ipa\n- `1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb\n- `e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
-          "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
-          "size": 137114565,
-          "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/level3tjg/RedditFilter/releases/tag/v2025.37.0-1.1.8",
-          "source": "github",
-          "isPrerelease": false,
-          "isDraft": false,
-          "assets": [
-            {
-              "filename": "com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb",
-              "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb",
-              "platform": "linux",
-              "architecture": null,
-              "fileType": "DEB",
-              "size": 19086,
-              "sha256": "1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83",
-              "downloads": 867,
-              "mimeType": "application/x-debian-package",
-              "installable": true
-            },
-            {
-              "filename": "com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
-              "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
-              "platform": "linux",
-              "architecture": "arm64",
-              "fileType": "DEB",
-              "size": 19154,
-              "sha256": "e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12",
-              "downloads": 871,
-              "mimeType": "application/x-debian-package",
-              "installable": true
-            },
-            {
-              "filename": "RedditFilter_2025.37.0-1.1.8.ipa",
-              "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 137114565,
-              "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-              "downloads": 6641,
-              "mimeType": "application/octet-stream",
-              "installable": true
-            }
-          ],
-          "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-          "downloads": 6641
         }
       ]
     },
@@ -4884,9 +4741,9 @@
       ]
     },
     {
-      "id": "com.nuvio.app",
+      "id": "com.nuvio.media",
       "name": "Nuvio",
-      "bundleIdentifier": "com.nuvio.app",
+      "bundleIdentifier": "com.nuvio.media",
       "developerName": "Nuvio Media",
       "category": "photo-video",
       "version": "0.6.4",
@@ -4895,7 +4752,7 @@
       "size": 67805794,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "matchKeys": [
-        "bundle:com.nuvio.app",
+        "bundle:com.nuvio.media",
         "github:nuviomedia/nuviomobile",
         "url:github.com/NuvioMedia/NuvioMobile",
         "binary:github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa"
@@ -6138,6 +5995,84 @@
       ]
     },
     {
+      "id": "com.reddit.Reddit",
+      "name": "RedditFilter",
+      "bundleIdentifier": "com.reddit.Reddit",
+      "developerName": "level3tjg",
+      "category": "social",
+      "version": "2025.37.0",
+      "versionDate": "2025-09-26",
+      "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
+      "size": 137114565,
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Reddit.webp",
+      "matchKeys": [
+        "bundle:com.reddit.Reddit",
+        "github:level3tjg/redditfilter",
+        "url:github.com/level3tjg/RedditFilter",
+        "binary:github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa"
+      ],
+      "repositoryURLs": [],
+      "sources": [
+        "https://github.com/level3tjg/RedditFilter"
+      ],
+      "sourceCount": 1,
+      "duplicates": 1,
+      "versions": [
+        {
+          "version": "2025.37.0",
+          "date": "2025-09-26",
+          "localizedDescription": "Reddit 2025.37.0 | RedditFilter_2025.37.0-1.1.8\n\n# RedditFilter v2025.37.0-1.1.8\n\n## Changes\n\n- Fix app crash (@NicholasBly)\n- Fix ad comments showing under posts (@Laitinlok)\n- Fix popular feed not showing with recommendations disabled\n- Move RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)\n\n## SHA256\n\n- `1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3`  packages/RedditFilter_2025.37.0-1.1.8.ipa\n- `1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb\n- `e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
+          "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
+          "size": 137114565,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/level3tjg/RedditFilter/releases/tag/v2025.37.0-1.1.8",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb",
+              "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb",
+              "platform": "linux",
+              "architecture": null,
+              "fileType": "DEB",
+              "size": 19086,
+              "sha256": "1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83",
+              "downloads": 867,
+              "mimeType": "application/x-debian-package",
+              "installable": true
+            },
+            {
+              "filename": "com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
+              "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
+              "platform": "linux",
+              "architecture": "arm64",
+              "fileType": "DEB",
+              "size": 19154,
+              "sha256": "e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12",
+              "downloads": 871,
+              "mimeType": "application/x-debian-package",
+              "installable": true
+            },
+            {
+              "filename": "RedditFilter_2025.37.0-1.1.8.ipa",
+              "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 137114565,
+              "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
+              "downloads": 6641,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
+          "downloads": 6641
+        }
+      ]
+    },
+    {
       "id": "com.minh-ton.Reynard",
       "name": "Reynard",
       "bundleIdentifier": "com.minh-ton.Reynard",
@@ -6233,12 +6168,13 @@
       ],
       "repositoryURLs": [],
       "sources": [
+        "https://github.com/BandarHL/BHInstagram",
         "https://source.ryuksign.com/ig410",
         "https://repo.ikghd.me",
         "https://raw.githubusercontent.com"
       ],
-      "sourceCount": 3,
-      "duplicates": 4,
+      "sourceCount": 4,
+      "duplicates": 5,
       "versions": [
         {
           "version": "47.1.0",
@@ -6344,6 +6280,70 @@
             }
           ],
           "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d"
+        },
+        {
+          "version": "1.2",
+          "date": "2025-05-14",
+          "localizedDescription": "BHInstagram 1.2 | bhinsta_sideloaded\n\nUpdate 2.1:\n- Fix downloading Reels in lasted versions.\n- Fix Removing Ads in Reels.",
+          "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
+          "size": 228416558,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/BandarHL/BHInstagram/releases/tag/1.2",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "bhinsta_sideloaded.ipa",
+              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 228416558,
+              "sha256": null,
+              "downloads": 12221,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "bhinsta_trollstore.tipa",
+              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_trollstore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 228415394,
+              "sha256": null,
+              "downloads": 2531,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "com.bandarhl.bhinsta_1.2_iphoneos-arm.deb",
+              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/com.bandarhl.bhinsta_1.2_iphoneos-arm.deb",
+              "platform": "linux",
+              "architecture": null,
+              "fileType": "DEB",
+              "size": 69502,
+              "sha256": null,
+              "downloads": 1165,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "com.bandarhl.bhinsta_1.2_iphoneos-arm64.deb",
+              "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/com.bandarhl.bhinsta_1.2_iphoneos-arm64.deb",
+              "platform": "linux",
+              "architecture": "arm64",
+              "fileType": "DEB",
+              "size": 69604,
+              "sha256": null,
+              "downloads": 1224,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "downloads": 12221,
+          "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453"
         }
       ]
     },
@@ -7762,9 +7762,9 @@
       ]
     },
     {
-      "id": "ph.telegra.Telegraph",
+      "id": "ph.telegra.Telegraph.mxgram",
       "name": "Telegram MxGram",
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "category": "social",
       "version": "13.1.1",
@@ -7773,7 +7773,7 @@
       "size": 88831869,
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Telegram.webp",
       "matchKeys": [
-        "bundle:ph.telegra.Telegraph",
+        "bundle:ph.telegra.Telegraph.mxgram",
         "url:raw.githubusercontent.com",
         "binary:pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa"
       ],

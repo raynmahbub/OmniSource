@@ -1408,7 +1408,7 @@
       ]
     },
     {
-      "bundleIdentifier": "com.bandarhl.bhinsta",
+      "bundleIdentifier": "com.burbn.instagram",
       "category": "social",
       "developerName": "BandarHL",
       "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
@@ -1443,7 +1443,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked."
+          "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked. It uses Instagram's com.burbn.instagram identifier, as do the RyukGram and iNKillerPlus alternatives; installations using the same identifier replace one another."
         },
         "health": {
           "downloadReachable": true,
@@ -1451,7 +1451,7 @@
           "statusSince": "2026-09-17",
           "lastUpdatedAt": "2025-05-14"
         },
-        "bundleAlias": "com.bandarhl.bhinsta"
+        "bundleAlias": "com.burbn.instagram"
       },
       "screenshotURLs": [],
       "size": 228416558,
@@ -4561,7 +4561,7 @@
           "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
         }
       },
-      "bundleIdentifier": "com.olcorporation.olai",
+      "bundleIdentifier": "com.olcorporation.olai.mxgram",
       "category": "social",
       "developerName": "m1ronx1412 & IPA Vault",
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
@@ -4596,7 +4596,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+          "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.olcorporation.olai.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -4604,7 +4604,7 @@
           "statusSince": "2026-09-01",
           "lastUpdatedAt": "2026-09-01"
         },
-        "bundleAlias": "com.olcorporation.olai"
+        "bundleAlias": "com.olcorporation.olai.mxgram"
       },
       "screenshotURLs": [
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
@@ -7718,7 +7718,7 @@
       ]
     },
     {
-      "bundleIdentifier": "com.nuvio.app",
+      "bundleIdentifier": "com.nuvio.media",
       "category": "photo-video",
       "developerName": "Nuvio Media",
       "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
@@ -7761,7 +7761,7 @@
           "statusSince": "2026-09-17",
           "lastUpdatedAt": "2026-10-23"
         },
-        "bundleAlias": "com.nuvio.app"
+        "bundleAlias": "com.nuvio.media"
       },
       "screenshotURLs": [],
       "size": 67805794,
@@ -9512,7 +9512,7 @@
           "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
         }
       },
-      "bundleIdentifier": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.reddit.Reddit",
       "category": "social",
       "developerName": "level3tjg",
       "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
@@ -9547,7 +9547,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). Shares com.atebits.Tweetie2 with BHTwitter and NeoFreeBird in this catalog - install one at a time."
+          "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). The Reddit bundle identifier com.reddit.Reddit is shared with stock Reddit; installations using the same identifier replace one another."
         },
         "health": {
           "downloadReachable": true,
@@ -9555,7 +9555,7 @@
           "statusSince": "2026-09-10",
           "lastUpdatedAt": "2025-09-26"
         },
-        "bundleAlias": "com.atebits.Tweetie2"
+        "bundleAlias": "com.reddit.Reddit"
       },
       "screenshotURLs": [],
       "size": 137114565,
@@ -11635,7 +11635,7 @@
           "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
         }
       },
-      "bundleIdentifier": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "category": "social",
       "developerName": "Swiftgram & IPA Vault",
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
@@ -11670,7 +11670,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. Uses its own bundle identifier - installs alongside the stock Telegram app."
+          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -11678,7 +11678,7 @@
           "statusSince": "2026-09-18",
           "lastUpdatedAt": "2026-10-13"
         },
-        "bundleAlias": "app.swiftgram.ios"
+        "bundleAlias": "app.swiftgram.ios.mxgram"
       },
       "screenshotURLs": [],
       "size": 97568937,
@@ -12122,7 +12122,7 @@
           "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
         }
       },
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "category": "social",
       "developerName": "m1ronx1412 & IPA Vault",
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
@@ -12157,7 +12157,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
+          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists this MxGram variant as ph.telegra.Telegraph.mxgram, distinct from stock Telegram's identifier; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -12165,7 +12165,7 @@
           "statusSince": "2026-10-21",
           "lastUpdatedAt": "2026-10-23"
         },
-        "bundleAlias": "ph.telegra.Telegraph"
+        "bundleAlias": "ph.telegra.Telegraph.mxgram"
       },
       "screenshotURLs": [
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
@@ -12753,7 +12753,7 @@
           "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
         }
       },
-      "bundleIdentifier": "com.seastar.turrit",
+      "bundleIdentifier": "com.seastar.turrit.mxgram",
       "category": "social",
       "developerName": "m1ronx1412 & IPA Vault",
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
@@ -12788,7 +12788,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+          "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.seastar.turrit.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,
@@ -12796,7 +12796,7 @@
           "statusSince": "2026-09-18",
           "lastUpdatedAt": "2026-10-17"
         },
-        "bundleAlias": "com.seastar.turrit"
+        "bundleAlias": "com.seastar.turrit.mxgram"
       },
       "screenshotURLs": [
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
@@ -15408,7 +15408,7 @@
       "identifier": "news-telegram-mxgram-13-1-1",
       "caption": "Official Telegram with the MxGram tweak",
       "date": "2026-10-23",
-      "appID": "ph.telegra.Telegraph",
+      "appID": "ph.telegra.Telegraph.mxgram",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Telegram.webp",
       "notify": true
     },
@@ -15435,7 +15435,7 @@
       "identifier": "news-nuvio-0-6-4",
       "caption": "Open-source media player, bring your own sources",
       "date": "2026-10-23",
-      "appID": "com.nuvio.app",
+      "appID": "com.nuvio.media",
       "imageURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
       "notify": true
     }

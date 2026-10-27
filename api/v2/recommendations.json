@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-27",
   "count": 128,
   "weights": {
     "bundle": 0.55,
@@ -1049,6 +1049,20 @@
         ]
       },
       {
+        "slug": "bhinstagram",
+        "name": "BHInstagram",
+        "category": "social",
+        "developer": "BandarHL",
+        "bundleId": "com.burbn.instagram",
+        "version": "1.2",
+        "score": 0.7833,
+        "reasons": [
+          "Same bundle identifier",
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
         "slug": "ttkillerplus",
         "name": "TTKillerPlus",
         "category": "social",
@@ -1082,19 +1096,6 @@
         "developer": "aeharding",
         "bundleId": "app.vger.voyager",
         "version": "2.49.1",
-        "score": 0.2333,
-        "reasons": [
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "twitchadblock",
-        "name": "TwitchAdBlock",
-        "category": "social",
-        "developer": "gunnerkidBT (original by dayanch96)",
-        "bundleId": "tv.twitch",
-        "version": "31.7",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -1161,7 +1162,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -1215,7 +1216,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -1360,20 +1361,6 @@
     ],
     "bhtwitter": [
       {
-        "slug": "redditfilter",
-        "name": "RedditFilter",
-        "category": "social",
-        "developer": "level3tjg",
-        "bundleId": "com.atebits.Tweetie2",
-        "version": "2025.37.0",
-        "score": 0.7833,
-        "reasons": [
-          "Same bundle identifier",
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
         "slug": "neofreebird",
         "name": "NeoFreeBird",
         "category": "social",
@@ -1392,7 +1379,7 @@
         "name": "BHInstagram",
         "category": "social",
         "developer": "BandarHL",
-        "bundleId": "com.bandarhl.bhinsta",
+        "bundleId": "com.burbn.instagram",
         "version": "1.2",
         "score": 0.3833,
         "reasons": [
@@ -1434,6 +1421,19 @@
         "developer": "gunnerkidBT (original by dayanch96)",
         "bundleId": "tv.twitch",
         "version": "31.7",
+        "score": 0.2333,
+        "reasons": [
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
+        "slug": "turrit-mxgram",
+        "name": "Turrit MxGram",
+        "category": "social",
+        "developer": "m1ronx1412 & IPA Vault",
+        "bundleId": "com.seastar.turrit.mxgram",
+        "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -2513,7 +2513,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -2766,7 +2766,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -3501,7 +3501,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -3550,20 +3550,6 @@
       }
     ],
     "neofreebird": [
-      {
-        "slug": "redditfilter",
-        "name": "RedditFilter",
-        "category": "social",
-        "developer": "level3tjg",
-        "bundleId": "com.atebits.Tweetie2",
-        "version": "2025.37.0",
-        "score": 0.7833,
-        "reasons": [
-          "Same bundle identifier",
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
       {
         "slug": "bhtwitter",
         "name": "BHTwitter",
@@ -3622,8 +3608,21 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
+        "score": 0.2333,
+        "reasons": [
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
+        "slug": "ttkillerplus",
+        "name": "TTKillerPlus",
+        "category": "social",
+        "developer": "iKarwan",
+        "bundleId": "com.zhiliaoapp.musically",
+        "version": "47.1.0",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -3996,7 +3995,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4156,7 +4155,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4236,7 +4235,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4277,7 +4276,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.3833,
         "reasons": [
@@ -4291,7 +4290,7 @@
         "name": "iMe MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.olcorporation.olai",
+        "bundleId": "com.olcorporation.olai.mxgram",
         "version": "12.8.1",
         "score": 0.3833,
         "reasons": [
@@ -4398,7 +4397,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4463,6 +4462,20 @@
         ]
       },
       {
+        "slug": "bhinstagram",
+        "name": "BHInstagram",
+        "category": "social",
+        "developer": "BandarHL",
+        "bundleId": "com.burbn.instagram",
+        "version": "1.2",
+        "score": 0.7833,
+        "reasons": [
+          "Same bundle identifier",
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
         "slug": "winston",
         "name": "Winston",
         "category": "social",
@@ -4495,19 +4508,6 @@
         "developer": "gunnerkidBT (original by dayanch96)",
         "bundleId": "tv.twitch",
         "version": "31.7",
-        "score": 0.2333,
-        "reasons": [
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "turrit-mxgram",
-        "name": "Turrit MxGram",
-        "category": "social",
-        "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
-        "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -4560,7 +4560,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4596,34 +4596,6 @@
       }
     ],
     "redditfilter": [
-      {
-        "slug": "neofreebird",
-        "name": "NeoFreeBird",
-        "category": "social",
-        "developer": "NeoFreeBird contributors",
-        "bundleId": "com.atebits.Tweetie2",
-        "version": "7.2.0",
-        "score": 0.7833,
-        "reasons": [
-          "Same bundle identifier",
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "bhtwitter",
-        "name": "BHTwitter",
-        "category": "social",
-        "developer": "BandarHL",
-        "bundleId": "com.atebits.Tweetie2",
-        "version": "4.4",
-        "score": 0.7833,
-        "reasons": [
-          "Same bundle identifier",
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
       {
         "slug": "winston",
         "name": "Winston",
@@ -4668,8 +4640,34 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
+        "score": 0.2333,
+        "reasons": [
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
+        "slug": "ttkillerplus",
+        "name": "TTKillerPlus",
+        "category": "social",
+        "developer": "iKarwan",
+        "bundleId": "com.zhiliaoapp.musically",
+        "version": "47.1.0",
+        "score": 0.2333,
+        "reasons": [
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
+        "slug": "thunder",
+        "name": "Thunder",
+        "category": "social",
+        "developer": "Thunder App",
+        "bundleId": "com.hjiangsu.thunder",
+        "version": "0.8.6",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -4722,7 +4720,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4802,7 +4800,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4896,7 +4894,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -4963,7 +4961,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -5004,7 +5002,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.3833,
         "reasons": [
@@ -5018,7 +5016,7 @@
         "name": "Telegram MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "ph.telegra.Telegraph",
+        "bundleId": "ph.telegra.Telegraph.mxgram",
         "version": "13.1.1",
         "score": 0.3833,
         "reasons": [
@@ -5086,7 +5084,7 @@
         "name": "Telegram MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "ph.telegra.Telegraph",
+        "bundleId": "ph.telegra.Telegraph.mxgram",
         "version": "13.1.1",
         "score": 0.3833,
         "reasons": [
@@ -5100,7 +5098,7 @@
         "name": "iMe MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.olcorporation.olai",
+        "bundleId": "com.olcorporation.olai.mxgram",
         "version": "12.8.1",
         "score": 0.3833,
         "reasons": [
@@ -5192,6 +5190,20 @@
         ]
       },
       {
+        "slug": "bhinstagram",
+        "name": "BHInstagram",
+        "category": "social",
+        "developer": "BandarHL",
+        "bundleId": "com.burbn.instagram",
+        "version": "1.2",
+        "score": 0.7833,
+        "reasons": [
+          "Same bundle identifier",
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
         "slug": "ryukgram-sidebyside",
         "name": "RyukGram Side by Side",
         "category": "social",
@@ -5225,19 +5237,6 @@
         "developer": "aeharding",
         "bundleId": "app.vger.voyager",
         "version": "2.49.1",
-        "score": 0.2333,
-        "reasons": [
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "twitchadblock",
-        "name": "TwitchAdBlock",
-        "category": "social",
-        "developer": "gunnerkidBT (original by dayanch96)",
-        "bundleId": "tv.twitch",
-        "version": "31.7",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -5304,7 +5303,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -6310,7 +6309,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -6390,7 +6389,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -6470,7 +6469,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -7431,7 +7430,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -7979,7 +7978,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [
@@ -8002,6 +8001,48 @@
       }
     ],
     "bhinstagram": [
+      {
+        "slug": "ryukgram-ig410",
+        "name": "RyukGram (IG 410)",
+        "category": "social",
+        "developer": "Ryuk (@axryuk)",
+        "bundleId": "com.burbn.instagram",
+        "version": "410.1.0",
+        "score": 0.7833,
+        "reasons": [
+          "Same bundle identifier",
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
+        "slug": "ryukgram",
+        "name": "RyukGram",
+        "category": "social",
+        "developer": "faroukbmiled & IPA Vault",
+        "bundleId": "com.burbn.instagram",
+        "version": "452.0.0",
+        "score": 0.7833,
+        "reasons": [
+          "Same bundle identifier",
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
+      {
+        "slug": "inkillerplus",
+        "name": "iNKillerPlus",
+        "category": "social",
+        "developer": "iKarwan",
+        "bundleId": "com.burbn.instagram",
+        "version": "451.0.0",
+        "score": 0.7833,
+        "reasons": [
+          "Same bundle identifier",
+          "Same category (social)",
+          "Shared tags: social"
+        ]
+      },
       {
         "slug": "bhtwitter",
         "name": "BHTwitter",
@@ -8036,45 +8077,6 @@
         "developer": "aeharding",
         "bundleId": "app.vger.voyager",
         "version": "2.49.1",
-        "score": 0.2333,
-        "reasons": [
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "twitchadblock",
-        "name": "TwitchAdBlock",
-        "category": "social",
-        "developer": "gunnerkidBT (original by dayanch96)",
-        "bundleId": "tv.twitch",
-        "version": "31.7",
-        "score": 0.2333,
-        "reasons": [
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "turrit-mxgram",
-        "name": "Turrit MxGram",
-        "category": "social",
-        "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
-        "version": "1.5.6",
-        "score": 0.2333,
-        "reasons": [
-          "Same category (social)",
-          "Shared tags: social"
-        ]
-      },
-      {
-        "slug": "ttkillerplus",
-        "name": "TTKillerPlus",
-        "category": "social",
-        "developer": "iKarwan",
-        "bundleId": "com.zhiliaoapp.musically",
-        "version": "47.1.0",
         "score": 0.2333,
         "reasons": [
           "Same category (social)",
@@ -9748,7 +9750,7 @@
         "name": "Turrit MxGram",
         "category": "social",
         "developer": "m1ronx1412 & IPA Vault",
-        "bundleId": "com.seastar.turrit",
+        "bundleId": "com.seastar.turrit.mxgram",
         "version": "1.5.6",
         "score": 0.2333,
         "reasons": [

@@ -1,28 +1,28 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "1571e10e1775",
+  "feedVersion": "cf81a20653a6",
   "data": {
-    "name": "Telegram MxGram",
-    "bundleIdentifier": "ph.telegra.Telegraph",
-    "developerName": "m1ronx1412 & IPA Vault",
-    "subtitle": "Official Telegram with the MxGram tweak",
-    "localizedDescription": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
-    "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Telegram.webp",
-    "tintColor": "0088CC",
+    "name": "Swiftgram",
+    "bundleIdentifier": "app.swiftgram.ios.mxgram",
+    "developerName": "Swiftgram & IPA Vault",
+    "subtitle": "Supercharged open-source Telegram fork",
+    "localizedDescription": "Swiftgram is a supercharged, open-source Telegram fork: ghost mode, hide read receipts and online status, save protected media, unlimited account switching and deep interface customization. The project officially ships through the App Store and TestFlight; this entry serves a ready-to-sideload IPA build (Swiftgram base with the MxGram tweak).",
+    "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Swiftgram.webp",
+    "tintColor": "F85C2C",
     "category": "social",
-    "version": "13.1.1",
-    "versionDate": "2026-10-23",
-    "versionDescription": "Telegram 13.1.1 | Telegram-13.1.1-MxGram\n\nIPA Vault build for Telegram (MxGram), version 13.1.1",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
-    "size": 88831869,
+    "version": "13.0",
+    "versionDate": "2026-10-13",
+    "versionDescription": "Swiftgram 13.0 | Swiftgram-13.0-MxGram\n\nIPA Vault build for Swiftgram (MxGram), version 13.0",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
+    "size": 97568937,
     "versions": [
       {
-        "version": "13.1.1",
-        "date": "2026-10-23",
-        "localizedDescription": "Telegram 13.1.1 | Telegram-13.1.1-MxGram\n\nIPA Vault build for Telegram (MxGram), version 13.1.1",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
-        "size": 88831869,
+        "version": "13.0",
+        "date": "2026-10-13",
+        "localizedDescription": "Swiftgram 13.0 | Swiftgram-13.0-MxGram\n\nIPA Vault build for Swiftgram (MxGram), version 13.0",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
+        "size": 97568937,
         "minOSVersion": "13.0",
         "releaseUrl": null,
         "source": "altstore",
@@ -30,12 +30,12 @@
         "isDraft": false,
         "assets": [
           {
-            "filename": "Telegram-13.1.1-MxGram.ipa",
-            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
+            "filename": "Swiftgram-13.0-MxGram.ipa",
+            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 88831869,
+            "size": 97568937,
             "sha256": null,
             "downloads": 0,
             "mimeType": null,
@@ -44,11 +44,7 @@
         ]
       }
     ],
-    "screenshotURLs": [
-      "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
-      "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
-      "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
-    ],
+    "screenshotURLs": [],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -75,10 +71,10 @@
       }
     },
     "omnisource": {
-      "slug": "telegram-mxgram",
+      "slug": "swiftgram",
       "status": "stable",
       "featured": false,
-      "upstreamURL": "https://github.com/m1ronx1412/mxgram",
+      "upstreamURL": "https://github.com/Swiftgram/Telegram-iOS",
       "sourceURL": "https://raw.githubusercontent.com",
       "verification": {
         "method": "altstore",
@@ -102,15 +98,15 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
+        "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
       },
       "health": {
         "downloadReachable": true,
         "detail": "HTTP 200",
-        "statusSince": "2026-10-21",
-        "lastUpdatedAt": "2026-10-23"
+        "statusSince": "2026-09-18",
+        "lastUpdatedAt": "2026-10-13"
       }
     },
-    "id": "ph.telegra.Telegraph"
+    "id": "app.swiftgram.ios.mxgram"
   }
 }

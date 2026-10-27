@@ -1,10 +1,10 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "1571e10e1775",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "BHInstagram",
-    "bundleIdentifier": "com.bandarhl.bhinsta",
+    "bundleIdentifier": "com.burbn.instagram",
     "developerName": "BandarHL",
     "subtitle": "Instagram with no ads, downloads and more tweaks",
     "localizedDescription": "BHInstagram is an open-source tweak for Instagram from the developer of BHTwitter, published as a ready-to-sideload IPA. It hides ads and suggested posts, asks for confirmation before likes, shows like counts, lets you copy captions and download videos, save profile pictures, keep deleted messages, and turn off last-seen, screenshot alerts and story view receipts.",
@@ -111,7 +111,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked."
+        "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked. It uses Instagram's com.burbn.instagram identifier, as do the RyukGram and iNKillerPlus alternatives; installations using the same identifier replace one another."
       },
       "health": {
         "downloadReachable": true,
@@ -120,6 +120,6 @@
         "lastUpdatedAt": "2025-05-14"
       }
     },
-    "id": "com.bandarhl.bhinsta"
+    "id": "com.burbn.instagram-4"
   }
 }

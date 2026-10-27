@@ -157,14 +157,45 @@ def safe_doc_id(raw: Any) -> str:
     return text if text not in {"", ".", ".."} else "source"
 
 
+# Published v3 URLs for these Instagram variants predate the BHInstagram
+# bundle-ID correction. Reserve their existing IDs so inserting a new member
+# of the collision group cannot silently route an old URL to a different app.
+# The matching Next.js aliases are in web/src/lib/data.ts.
+LEGACY_APP_RECORD_IDS = {
+    "inkillerplus": "com.burbn.instagram",
+    "ryukgram": "com.burbn.instagram-2",
+    "ryukgram-ig410": "com.burbn.instagram-3",
+    "bhinstagram": "com.burbn.instagram-4",
+}
+
+
 def _unique_ids(apps: list[dict[str, Any]]) -> list[str]:
-    """Stable unique IDs: bare for the first use, ``-2``/``-3``… on collision."""
-    seen: dict[str, int] = {}
+    """Allocate unique IDs without stealing a reserved legacy app URL."""
+    bases = [safe_doc_id(app.get("slug") or app.get("id") or app.get("bundleIdentifier")) for app in apps]
+    reserved: dict[int, str] = {}
+    # A removed or renamed app must not have its historical URL reassigned to
+    # a different app. Such a URL may disappear, but it must not point wrongly.
+    taken = set(LEGACY_APP_RECORD_IDS.values())
+    claimed: set[str] = set()
+    for index, (app, base) in enumerate(zip(apps, bases, strict=True)):
+        provenance = app.get("omnisource") if isinstance(app.get("omnisource"), dict) else {}
+        slug = str(app.get("slug") or provenance.get("slug") or "")
+        legacy = LEGACY_APP_RECORD_IDS.get(slug, "")
+        if legacy and (legacy == base or re.fullmatch(re.escape(base) + r"-\d+", legacy)) and legacy not in claimed:
+            reserved[index] = legacy
+            claimed.add(legacy)
+
     ids: list[str] = []
-    for app in apps:
-        base = safe_doc_id(app.get("slug") or app.get("id") or app.get("bundleIdentifier")) or "app"
-        seen[base] = seen.get(base, 0) + 1
-        ids.append(base if seen[base] == 1 else f"{base}-{seen[base]}")
+    for index, base in enumerate(bases):
+        if index in reserved:
+            ids.append(reserved[index])
+            continue
+        candidate, suffix = base, 2
+        while candidate in taken:
+            candidate = f"{base}-{suffix}"
+            suffix += 1
+        taken.add(candidate)
+        ids.append(candidate)
     return ids
 
 

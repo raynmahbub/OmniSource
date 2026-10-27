@@ -1,47 +1,31 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "1571e10e1775",
+  "feedVersion": "cf81a20653a6",
   "data": {
-    "name": "Turrit MxGram",
-    "bundleIdentifier": "com.seastar.turrit",
+    "name": "iMe MxGram",
+    "bundleIdentifier": "com.olcorporation.olai.mxgram",
     "developerName": "m1ronx1412 & IPA Vault",
-    "subtitle": "MxGram-tweaked Turrit client (unofficial build)",
-    "localizedDescription": "Turrit MxGram is the third-party Turrit messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the Turrit Telegram client.",
-    "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Turrit.webp",
-    "tintColor": "0088CC",
+    "subtitle": "MxGram-tweaked iMe messenger (unofficial build)",
+    "localizedDescription": "iMe MxGram is the third-party iMe messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the iMe Telegram client.",
+    "iconURL": "https://raynmahbub.github.io/OmniSource/assets/iMe.webp",
+    "tintColor": "2AABEE",
     "category": "social",
-    "version": "1.5.6",
-    "versionDate": "2026-10-17",
-    "versionDescription": "Turrit 1.5.6 | Turrit-1.5.6-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.6",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
-    "size": 107518899,
+    "version": "12.8.1",
+    "versionDate": "2026-09-01",
+    "versionDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nMxGram v3.8 injected into iMe 12.8.1.",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
+    "size": 148174542,
     "versions": [
       {
-        "version": "1.5.6",
-        "date": "2026-10-17",
-        "localizedDescription": "Turrit 1.5.6 | Turrit-1.5.6-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.6",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
-        "size": 107518899,
+        "version": "12.8.1",
+        "date": "2026-09-01",
+        "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nMxGram v3.8 injected into iMe 12.8.1.",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
+        "size": 148174542,
+        "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
         "minOSVersion": "13.0",
-        "releaseUrl": null,
-        "source": "altstore",
-        "isPrerelease": false,
-        "isDraft": false,
-        "assets": [
-          {
-            "filename": "Turrit-1.5.6-MxGram.ipa",
-            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
-            "platform": "ios",
-            "architecture": null,
-            "fileType": "IPA",
-            "size": 107518899,
-            "sha256": null,
-            "downloads": 0,
-            "mimeType": null,
-            "installable": true
-          }
-        ]
+        "releaseUrl": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json"
       }
     ],
     "screenshotURLs": [
@@ -75,7 +59,7 @@
       }
     },
     "omnisource": {
-      "slug": "turrit-mxgram",
+      "slug": "ime",
       "status": "stable",
       "featured": false,
       "upstreamURL": "https://github.com/m1ronx1412/mxgram",
@@ -102,15 +86,15 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+        "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.olcorporation.olai.mxgram; a signing client may change the identifier."
       },
       "health": {
         "downloadReachable": true,
         "detail": "HTTP 200",
-        "statusSince": "2026-09-18",
-        "lastUpdatedAt": "2026-10-17"
+        "statusSince": "2026-09-01",
+        "lastUpdatedAt": "2026-09-01"
       }
     },
-    "id": "com.seastar.turrit"
+    "id": "com.olcorporation.olai.mxgram"
   }
 }

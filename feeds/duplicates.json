@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-27",
   "count": 5,
   "appsAffected": 18,
   "groups": [
@@ -107,56 +107,9 @@
       "replacementRisk": true
     },
     {
-      "key": "com.atebits.Tweetie2",
-      "type": "bundle-id",
-      "reason": "3 apps share bundle identifier 'com.atebits.Tweetie2'",
-      "apps": [
-        {
-          "app": "bhtwitter",
-          "name": "BHTwitter",
-          "version": "4.4",
-          "releaseDate": "2025-05-13",
-          "source": "BandarHL/BHTwitter",
-          "developer": "BandarHL",
-          "category": "social",
-          "status": "stable",
-          "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa"
-        },
-        {
-          "app": "neofreebird",
-          "name": "NeoFreeBird",
-          "version": "7.2.0",
-          "releaseDate": "2026-10-16",
-          "source": "NeoFreeBird/app",
-          "developer": "NeoFreeBird contributors",
-          "category": "social",
-          "status": "stable",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa"
-        },
-        {
-          "app": "redditfilter",
-          "name": "RedditFilter",
-          "version": "2025.37.0",
-          "releaseDate": "2025-09-26",
-          "source": "level3tjg/RedditFilter",
-          "developer": "level3tjg",
-          "category": "social",
-          "status": "stable",
-          "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa"
-        }
-      ],
-      "recommended": {
-        "app": "redditfilter",
-        "name": "RedditFilter",
-        "version": "2025.37.0",
-        "reason": "Newest version available (2025.37.0, released 2025-09-26)"
-      },
-      "replacementRisk": true
-    },
-    {
       "key": "com.burbn.instagram",
       "type": "bundle-id+similar-name",
-      "reason": "3 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))",
+      "reason": "4 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))",
       "apps": [
         {
           "app": "inkillerplus",
@@ -190,6 +143,17 @@
           "category": "social",
           "status": "stable",
           "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa"
+        },
+        {
+          "app": "bhinstagram",
+          "name": "BHInstagram",
+          "version": "1.2",
+          "releaseDate": "2025-05-14",
+          "source": "BandarHL/BHInstagram",
+          "developer": "BandarHL",
+          "category": "social",
+          "status": "stable",
+          "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa"
         }
       ],
       "recommended": {
@@ -197,6 +161,42 @@
         "name": "RyukGram",
         "version": "452.0.0",
         "reason": "Newest version available (452.0.0, released 2026-10-23)"
+      },
+      "replacementRisk": true
+    },
+    {
+      "key": "com.atebits.Tweetie2",
+      "type": "bundle-id",
+      "reason": "2 apps share bundle identifier 'com.atebits.Tweetie2'",
+      "apps": [
+        {
+          "app": "bhtwitter",
+          "name": "BHTwitter",
+          "version": "4.4",
+          "releaseDate": "2025-05-13",
+          "source": "BandarHL/BHTwitter",
+          "developer": "BandarHL",
+          "category": "social",
+          "status": "stable",
+          "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa"
+        },
+        {
+          "app": "neofreebird",
+          "name": "NeoFreeBird",
+          "version": "7.2.0",
+          "releaseDate": "2026-10-16",
+          "source": "NeoFreeBird/app",
+          "developer": "NeoFreeBird contributors",
+          "category": "social",
+          "status": "stable",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa"
+        }
+      ],
+      "recommended": {
+        "app": "neofreebird",
+        "name": "NeoFreeBird",
+        "version": "7.2.0",
+        "reason": "Newest version available (7.2.0, released 2026-10-16)"
       },
       "replacementRisk": true
     },
@@ -362,39 +362,6 @@
       },
       "reason": "8 apps share bundle identifier 'com.google.ios.youtube'"
     },
-    "bhtwitter": {
-      "groupKey": "com.atebits.Tweetie2",
-      "type": "bundle-id",
-      "recommended": {
-        "app": "redditfilter",
-        "name": "RedditFilter",
-        "version": "2025.37.0",
-        "reason": "Newest version available (2025.37.0, released 2025-09-26)"
-      },
-      "reason": "3 apps share bundle identifier 'com.atebits.Tweetie2'"
-    },
-    "neofreebird": {
-      "groupKey": "com.atebits.Tweetie2",
-      "type": "bundle-id",
-      "recommended": {
-        "app": "redditfilter",
-        "name": "RedditFilter",
-        "version": "2025.37.0",
-        "reason": "Newest version available (2025.37.0, released 2025-09-26)"
-      },
-      "reason": "3 apps share bundle identifier 'com.atebits.Tweetie2'"
-    },
-    "redditfilter": {
-      "groupKey": "com.atebits.Tweetie2",
-      "type": "bundle-id",
-      "recommended": {
-        "app": "redditfilter",
-        "name": "RedditFilter",
-        "version": "2025.37.0",
-        "reason": "Newest version available (2025.37.0, released 2025-09-26)"
-      },
-      "reason": "3 apps share bundle identifier 'com.atebits.Tweetie2'"
-    },
     "inkillerplus": {
       "groupKey": "com.burbn.instagram",
       "type": "bundle-id+similar-name",
@@ -404,7 +371,7 @@
         "version": "452.0.0",
         "reason": "Newest version available (452.0.0, released 2026-10-23)"
       },
-      "reason": "3 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
+      "reason": "4 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
     },
     "ryukgram": {
       "groupKey": "com.burbn.instagram",
@@ -415,7 +382,7 @@
         "version": "452.0.0",
         "reason": "Newest version available (452.0.0, released 2026-10-23)"
       },
-      "reason": "3 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
+      "reason": "4 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
     },
     "ryukgram-ig410": {
       "groupKey": "com.burbn.instagram",
@@ -426,7 +393,40 @@
         "version": "452.0.0",
         "reason": "Newest version available (452.0.0, released 2026-10-23)"
       },
-      "reason": "3 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
+      "reason": "4 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
+    },
+    "bhinstagram": {
+      "groupKey": "com.burbn.instagram",
+      "type": "bundle-id+similar-name",
+      "recommended": {
+        "app": "ryukgram",
+        "name": "RyukGram",
+        "version": "452.0.0",
+        "reason": "Newest version available (452.0.0, released 2026-10-23)"
+      },
+      "reason": "4 apps share bundle identifier 'com.burbn.instagram' · similar names (RyukGram / RyukGram (IG 410))"
+    },
+    "bhtwitter": {
+      "groupKey": "com.atebits.Tweetie2",
+      "type": "bundle-id",
+      "recommended": {
+        "app": "neofreebird",
+        "name": "NeoFreeBird",
+        "version": "7.2.0",
+        "reason": "Newest version available (7.2.0, released 2026-10-16)"
+      },
+      "reason": "2 apps share bundle identifier 'com.atebits.Tweetie2'"
+    },
+    "neofreebird": {
+      "groupKey": "com.atebits.Tweetie2",
+      "type": "bundle-id",
+      "recommended": {
+        "app": "neofreebird",
+        "name": "NeoFreeBird",
+        "version": "7.2.0",
+        "reason": "Newest version available (7.2.0, released 2026-10-16)"
+      },
+      "reason": "2 apps share bundle identifier 'com.atebits.Tweetie2'"
     },
     "msgplusx": {
       "groupKey": "com.facebook.Messenger",

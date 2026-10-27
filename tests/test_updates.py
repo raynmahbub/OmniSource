@@ -26,11 +26,11 @@ class TestUpdatesDoc(unittest.TestCase):
             "apps": [
                 {
                     "slug": "spotiflac",
-                    "name": "SpotiFLAC Mobile",
+                    "name": "Mornye",
                     "subtitle": "Lossless streaming",
-                    "bundleIdentifier": "com.zarz.spotiflacAndroid",
+                    "bundleIdentifier": "com.zarz.mornye",
                     "developerName": "zarzet",
-                    "icon": "SpotiFLAC.png",
+                    "icon": "Mornye.webp",
                     "status": "stable",
                 },
                 {
@@ -60,8 +60,8 @@ class TestUpdatesDoc(unittest.TestCase):
                     "appId": "spotiflac",
                     "version": "4.9.6",
                     "releaseDate": "2026-09-07",
-                    "downloadUrl": "https://example.com/SpotiFLAC.ipa",
-                    "changelog": "SpotiFLAC 4.9.6.",
+                    "downloadUrl": "https://example.com/Mornye.ipa",
+                    "changelog": "Mornye 4.9.6.",
                     "kind": "updated",
                 },
             ]
@@ -70,10 +70,10 @@ class TestUpdatesDoc(unittest.TestCase):
         self.assertEqual(doc["count"], 2)
         self.assertEqual([item["slug"] for item in doc["updates"]], ["spotiflac", "feather"])
         first = doc["updates"][0]
-        self.assertEqual(first["name"], "SpotiFLAC Mobile")
+        self.assertEqual(first["name"], "Mornye")
         self.assertEqual(first["version"], "4.9.6")
         self.assertEqual(first["date"], "2026-09-07")
-        self.assertIn("https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.png", first["iconURL"])
+        self.assertIn("https://raynmahbub.github.io/OmniSource/assets/Mornye.webp", first["iconURL"])
         self.assertIn(".xml", first["rssURL"])
 
     def test_current_versions_seed_sparse_history(self) -> None:
@@ -83,7 +83,7 @@ class TestUpdatesDoc(unittest.TestCase):
                     {
                         "version": "4.9.6",
                         "date": "2026-09-07",
-                        "downloadURL": "https://example.com/SpotiFLAC.ipa",
+                        "downloadURL": "https://example.com/Mornye.ipa",
                         "size": 34171700,
                         "localizedDescription": "Lossless downloader update.",
                     }

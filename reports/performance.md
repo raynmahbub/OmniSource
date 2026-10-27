@@ -40,8 +40,8 @@ sizes are listed. Budgets are the Lighthouse-95 targets from the modernization b
 | `feeds/collections/utilities.json` | 33 KiB | — (root mirror only) |
 | `feeds/collections/youtube.json` | 65 KiB | — (root mirror only) |
 | `feeds/collections.json` | 26 KiB | — (root mirror only) |
-| `feeds/compare.json` | 157 KiB | — (root mirror only) |
-| `feeds/dead_apps.json` | 49 KiB | — (root mirror only) |
+| `feeds/compare.json` | 160 KiB | — (root mirror only) |
+| `feeds/dead_apps.json` | 50 KiB | — (root mirror only) |
 | `feeds/discovery.json` | 224 KiB | — (root mirror only) |
 | `feeds/download-intelligence.json` | 43 KiB | — (root mirror only) |
 | `feeds/fladder.json` | 25 KiB | — (root mirror only) |

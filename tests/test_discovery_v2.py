@@ -44,10 +44,10 @@ CATALOG = {
     "apps": [
         {
             "slug": "spotiflac",
-            "name": "SpotiFLAC",
-            "bundleIdentifier": "com.zarz.spotiflacAndroid",
+            "name": "Mornye",
+            "bundleIdentifier": "com.zarz.mornye",
             "developerName": "zarzet",
-            "icon": "SpotiFLAC.png",
+            "icon": "Mornye.webp",
             "status": "stable",
             "compatibility": {"minOSVersion": "16.0", "clients": ["altstore", "sidestore"]},
             "verification": {"method": "github-release", "publisher": "mornyeapp/Mornye"},

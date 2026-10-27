@@ -22,7 +22,7 @@ provider directly.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 from omnisource.domain import RemoteRelease, RepositoryRef
 from omnisource.errors import ConfigurationError, ProviderError
@@ -126,4 +126,6 @@ def _mirror_leg(primary: RepositoryRef, mirror: dict) -> RepositoryRef:
     merged = {**inherited, **merged}
     if not merged.get("provider"):
         raise ConfigurationError("upstream.mirrors entries require a 'provider'")
-    return RepositoryRef.parse(merged)
+    # A mirror is another source for the same catalog app, not permission to
+    # publish an unrelated bundle. Keep the identity check across all legs.
+    return replace(RepositoryRef.parse(merged), expected_bundle_id=primary.expected_bundle_id)

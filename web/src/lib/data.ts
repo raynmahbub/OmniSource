@@ -181,8 +181,20 @@ export function getAppsWithIds(): Array<{ id: string; app: AltApp }> {
   return apps.map((app, i) => ({ id: ids[i], app }));
 }
 
+// Frozen aliases for the Instagram collision group. A corrected bundle ID or
+// a new alternative must not make a bookmarked URL resolve to a different app.
+// Keep these in sync with LEGACY_APP_RECORD_IDS in src/omnisource/api_v3.py.
+const LEGACY_APP_ROUTE_SLUGS = new Map<string, string>([
+  ["com.burbn.instagram", "inkillerplus"],
+  ["com.burbn.instagram-2", "ryukgram"],
+  ["com.burbn.instagram-3", "ryukgram-ig410"],
+  ["com.burbn.instagram-4", "bhinstagram"],
+]);
+
 export function getAppById(id: string): AltApp | undefined {
   const entries = getAppsWithIds();
+  const slug = LEGACY_APP_ROUTE_SLUGS.get(id);
+  if (slug) return entries.find((entry) => entry.id === slug)?.app;
   return (
     entries.find((entry) => entry.id === id)?.app ??
     // Keep legacy bundle-ID/bookmarked URLs working after the friendly-slug

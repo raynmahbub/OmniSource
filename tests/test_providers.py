@@ -13,6 +13,7 @@ import unittest
 from unittest.mock import MagicMock
 
 from omnisource.domain import RemoteAsset, RemoteRelease, RepositoryRef, SourceType
+from omnisource.errors import ProviderError
 from omnisource.http import HttpClient
 from omnisource.providers.feed import AltStoreFeedProvider
 from omnisource.providers.github import GitHubReleasesProvider
@@ -112,7 +113,7 @@ class TestProviders(unittest.TestCase):
                 },
                 {
                     "name": "Swiftgram (MxGram)",
-                    "bundleIdentifier": "app.swiftgram.ios.mx",
+                    "bundleIdentifier": "app.swiftgram.ios.mxgram",
                     "versions": [
                         {
                             "version": "13.0",
@@ -140,6 +141,70 @@ class TestProviders(unittest.TestCase):
         releases = provider.fetch_releases(matched_by_name)
         self.assertEqual(len(releases), 1)
         self.assertEqual(releases[0].tag, "13.0")
+
+    def test_named_feed_entry_rejects_a_different_bundle_identifier(self) -> None:
+        self.http_mock.get_json.return_value = {
+            "apps": [
+                {
+                    "name": "Swiftgram (MxGram)",
+                    "bundleIdentifier": "app.swiftgram.ios.mxgram",
+                    "version": "13.0",
+                    "downloadURL": "https://example.com/Swiftgram.ipa",
+                }
+            ]
+        }
+        provider = AltStoreFeedProvider(self.http_mock)
+        ref = RepositoryRef(
+            provider=SourceType.ALTSTORE,
+            feed_url="https://example.com/multi.json",
+            app_id="Swiftgram (MxGram)",
+            expected_bundle_id="app.swiftgram.ios",
+        )
+        with self.assertRaisesRegex(ProviderError, "app.swiftgram.ios.mxgram.*catalog expects"):
+            provider.fetch_releases(ref)
+
+        matching = RepositoryRef(
+            provider=SourceType.ALTSTORE,
+            feed_url=ref.feed_url,
+            app_id=ref.app_id,
+            expected_bundle_id="app.swiftgram.ios.mxgram",
+        )
+        self.assertEqual(provider.fetch_releases(matching)[0].tag, "13.0")
+
+    def test_feed_without_bundle_identifier_is_still_supported(self) -> None:
+        self.http_mock.get_json.return_value = {
+            "name": "Example",
+            "version": "1.0",
+            "downloadURL": "https://example.com/App.ipa",
+        }
+        ref = RepositoryRef(
+            provider=SourceType.ALTSTORE,
+            feed_url="https://example.com/app.json",
+            app_id="Example",
+            expected_bundle_id="com.example.app",
+        )
+        self.assertEqual(AltStoreFeedProvider(self.http_mock).fetch_releases(ref)[0].tag, "1.0")
+
+    def test_ambiguous_named_feed_entry_cannot_mix_other_bundles(self) -> None:
+        self.http_mock.get_json.return_value = {
+            "apps": [
+                {
+                    "name": "Example",
+                    "bundleIdentifier": bundle,
+                    "version": "1.0",
+                    "downloadURL": f"https://example.com/{bundle}.ipa",
+                }
+                for bundle in ("com.example.app", "com.other.app")
+            ]
+        }
+        ref = RepositoryRef(
+            provider=SourceType.ALTSTORE,
+            feed_url="https://example.com/multi.json",
+            app_id="Example",
+            expected_bundle_id="com.example.app",
+        )
+        with self.assertRaisesRegex(ProviderError, "com.other.app"):
+            AltStoreFeedProvider(self.http_mock).fetch_releases(ref)
 
     def test_matched_release_dates_feeds_cadence_series(self) -> None:
         ref = RepositoryRef(provider=SourceType.GITHUB_RELEASES, repo="owner/repo")

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T23:20:10Z",
+  "generatedAt": "2026-10-27T13:00:13Z",
   "count": 111,
   "summary": {
-    "verified": 55,
-    "trusted": 51,
+    "verified": 54,
+    "trusted": 52,
     "good": 4,
     "warning": 1,
     "untrusted": 0
@@ -1173,28 +1173,6 @@
       }
     },
     {
-      "id": "XITRIX/iTorrent",
-      "source": "XITRIX/iTorrent",
-      "score": 85.9,
-      "status": "verified",
-      "legacy_level": "TRUSTED",
-      "legacy_status": "Verified",
-      "apps": [
-        "itorrent"
-      ],
-      "lastUpdate": "2026-07-19",
-      "health": "unknown",
-      "metrics": {
-        "uptime": 100.0,
-        "probes": 30,
-        "averageLatencyMs": 192.0,
-        "averageUpdateGapDays": 66.9,
-        "brokenReleases": 0,
-        "currentlyReachable": "1/1",
-        "legacyScore": 76.68
-      }
-    },
-    {
       "id": "streamyfin/streamyfin",
       "source": "streamyfin/streamyfin",
       "score": 85.9,
@@ -1434,6 +1412,28 @@
         "brokenReleases": 0,
         "currentlyReachable": "1/1",
         "legacyScore": 80.37
+      }
+    },
+    {
+      "id": "XITRIX/iTorrent",
+      "source": "XITRIX/iTorrent",
+      "score": 83.4,
+      "status": "trusted",
+      "legacy_level": "RELIABLE",
+      "legacy_status": "Community Verified",
+      "apps": [
+        "itorrent"
+      ],
+      "lastUpdate": "2026-07-19",
+      "health": "unknown",
+      "metrics": {
+        "uptime": 100.0,
+        "probes": 30,
+        "averageLatencyMs": 192.0,
+        "averageUpdateGapDays": 66.9,
+        "brokenReleases": 0,
+        "currentlyReachable": "1/1",
+        "legacyScore": 76.68
       }
     },
     {

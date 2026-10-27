@@ -1,10 +1,10 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "1571e10e1775",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "RedditFilter",
-    "bundleIdentifier": "com.atebits.Tweetie2",
+    "bundleIdentifier": "com.reddit.Reddit",
     "developerName": "level3tjg",
     "subtitle": "Filter unwanted content from your Reddit feed",
     "localizedDescription": "RedditFilter (by level3tjg) filters unwanted content out of your Reddit feed - hide posts by keyword, subreddit, domain, flair or author, natively on top of the official Reddit app. The project publishes a ready-to-sideload IPA with every release.",
@@ -124,7 +124,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). Shares com.atebits.Tweetie2 with BHTwitter and NeoFreeBird in this catalog - install one at a time."
+        "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). The Reddit bundle identifier com.reddit.Reddit is shared with stock Reddit; installations using the same identifier replace one another."
       },
       "health": {
         "downloadReachable": true,
@@ -133,6 +133,6 @@
         "lastUpdatedAt": "2025-09-26"
       }
     },
-    "id": "com.atebits.Tweetie2-3"
+    "id": "com.reddit.Reddit"
   }
 }

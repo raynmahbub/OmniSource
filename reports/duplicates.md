@@ -9,7 +9,7 @@ and every deletion here must go through `src/omnisource/site.py` first.
 
 ## Summary
 
-- Byte-identical generated JSON groups: **156**
+- Byte-identical generated JSON groups: **163**
 - Identical-function clones across `src/` + `scripts/`: **4**
 - Compressed `.gz` mirror files committed: **171** (983 KiB)
 
@@ -17,17 +17,20 @@ and every deletion here must go through `src/omnisource/site.py` first.
 
 | Group | Copies | Role |
 | --- | --- | --- |
-| `feeds/discovery.json` | 4 | mirrors: `api/catalog.json`, `api/discovery.json`, `api/v2/apps.json` |
-| `feeds/apps.json` | 3 | mirrors: `api/apps.json`, `apps.json` |
+| `feeds/discovery.json` | 5 | mirrors: `api/catalog.json`, `api/discovery.json`, `api/v2/apps.json`, `web/src/data/discovery.json` |
+| `feeds/apps.json` | 4 | mirrors: `api/apps.json`, `apps.json`, `web/src/data/apps.json` |
+| `feeds/sources.json` | 4 | mirrors: `api/sources.json`, `api/v2/sources.json`, `web/src/data/sources.json` |
+| `feeds/status.json` | 4 | mirrors: `api/status.json`, `api/v2/status.json`, `web/src/data/status.json` |
+| `feeds/analytics.json` | 3 | mirrors: `api/analytics.json`, `web/src/data/analytics.json` |
+| `feeds/collections.json` | 3 | mirrors: `api/collections.json`, `web/src/data/collections.json` |
 | `feeds/related.json` | 3 | mirrors: `api/related.json`, `api/v2/recommendations.json` |
+| `feeds/reputation.json` | 3 | mirrors: `api/reputation.json`, `web/src/data/reputation.json` |
 | `feeds/screenshots.json` | 3 | mirrors: `api/screenshots.json`, `web/src/data/screenshots.json` |
-| `feeds/sources.json` | 3 | mirrors: `api/sources.json`, `api/v2/sources.json` |
-| `feeds/status.json` | 3 | mirrors: `api/status.json`, `api/v2/status.json` |
+| `feeds/search-index.json` | 3 | mirrors: `api/search-index.json`, `web/src/data/search-index.json` |
 | `feeds/trending.json` | 3 | mirrors: `api/trending.json`, `api/v2/trending.json` |
 | `feeds/verification.json` | 3 | mirrors: `api/v2/trust.json`, `api/verification.json` |
-| `feeds/analytics.json` | 2 | mirrors: `api/analytics.json` |
+| `data/security.json` | 3 | mirrors: `security-report.json`, `web/src/data/security.json` |
 | `feeds/asset-manifest.json` | 2 | mirrors: `api/asset-manifest.json` |
-| `feeds/collections.json` | 2 | mirrors: `api/collections.json` |
 | `feeds/community.json` | 2 | mirrors: `api/community.json` |
 | `feeds/compare.json` | 2 | mirrors: `api/compare.json` |
 | `feeds/dead_apps.json` | 2 | mirrors: `api/dead_apps.json` |
@@ -36,8 +39,6 @@ and every deletion here must go through `src/omnisource/site.py` first.
 | `feeds/health.json` | 2 | mirrors: `api/health.json` |
 | `feeds/install.json` | 2 | mirrors: `api/install.json` |
 | `feeds/integrity_report.json` | 2 | mirrors: `api/integrity_report.json` |
-| `feeds/reputation.json` | 2 | mirrors: `api/reputation.json` |
-| `feeds/search-index.json` | 2 | mirrors: `api/search-index.json` |
 | `feeds/translation-status.json` | 2 | mirrors: `api/translation-status.json` |
 | `feeds/updates.json` | 2 | mirrors: `api/updates.json` |
 | `feeds/api/v2/apps/3105.json` | 2 | mirrors: `api/v2/apps/3105.json` |
@@ -172,7 +173,13 @@ and every deletion here must go through `src/omnisource/site.py` first.
 | `feeds/api/v2/featured.json` | 2 | mirrors: `api/v2/featured.json` |
 | `feeds/api/v2/manifest.json` | 2 | mirrors: `api/v2/manifest.json` |
 | `feeds/api/v2/updates.json` | 2 | mirrors: `api/v2/updates.json` |
-| `data/security.json` | 2 | mirrors: `security-report.json` |
+| `api/v3/apps.json` | 2 | mirrors: `web/public/data/v3/apps.json` |
+| `api/v3/search-index.json` | 2 | mirrors: `web/public/data/v3/search-index.json` |
+| `api/v3/status.json` | 2 | mirrors: `web/public/data/v3/status.json` |
+| `catalog.json` | 2 | mirrors: `web/src/data/catalog.json` |
+| `data/analytics_rollup.json` | 2 | mirrors: `web/src/data/analytics_rollup.json` |
+| `data/canonical_apps.json` | 2 | mirrors: `web/src/data/canonical_apps.json` |
+| `data/source_reputation.json` | 2 | mirrors: `web/src/data/source_reputation.json` |
 
 **Disposition:** the `feeds/` file is the source of truth; `apps.json`, `api/*` and
 their `.gz` twins are the branch-deployed URL surface and are kept for subscriber/API

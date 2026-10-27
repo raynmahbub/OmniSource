@@ -12,7 +12,7 @@
   "apps": [
     {
       "name": "Swiftgram",
-      "bundleIdentifier": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "developerName": "Swiftgram & IPA Vault",
       "subtitle": "Supercharged open-source Telegram fork",
       "localizedDescription": "Swiftgram is a supercharged, open-source Telegram fork: ghost mode, hide read receipts and online status, save protected media, unlimited account switching and deep interface customization. The project officially ships through the App Store and TestFlight; this entry serves a ready-to-sideload IPA build (Swiftgram base with the MxGram tweak).",
@@ -106,7 +106,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. Uses its own bundle identifier - installs alongside the stock Telegram app."
+          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import os
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import UTC, date, datetime
 from enum import StrEnum
 from typing import Any
@@ -237,6 +237,9 @@ class RepositoryRef:
     min_os_by_tag_number: dict[str, str] = field(default_factory=dict)
     iso_dates: bool = False
     request_timeout: float = 30.0
+    # The catalog's app identity, supplied by App.upstream. Feed providers use
+    # it to reject a selected entry whose published bundle ID has changed.
+    expected_bundle_id: str = ""
 
     @property
     def cache_key(self) -> tuple[str, str, str, int]:
@@ -439,7 +442,9 @@ class App:
     @property
     def upstream(self) -> RepositoryRef | None:
         raw = self.raw.get("upstream")
-        return RepositoryRef.parse(raw) if isinstance(raw, dict) else None
+        if not isinstance(raw, dict):
+            return None
+        return replace(RepositoryRef.parse(raw), expected_bundle_id=self.bundle_id)
 
     @property
     def manual_release(self) -> dict[str, Any] | None:

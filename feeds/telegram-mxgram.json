@@ -12,7 +12,7 @@
   "apps": [
     {
       "name": "Telegram MxGram",
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "Official Telegram with the MxGram tweak",
       "localizedDescription": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
@@ -110,7 +110,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
+          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists this MxGram variant as ph.telegra.Telegraph.mxgram, distinct from stock Telegram's identifier; a signing client may change the identifier."
         },
         "health": {
           "downloadReachable": true,

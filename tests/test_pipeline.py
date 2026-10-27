@@ -17,10 +17,11 @@ from unittest.mock import MagicMock
 
 from omnisource.constants import PNG_MAGIC, Paths
 from omnisource.di import Container
-from omnisource.domain import SourceType, SyncReport
+from omnisource.domain import App, Catalog, SourceType, SyncReport
 from omnisource.errors import ProviderError, SyncError
-from omnisource.pipeline import load_catalog, load_state, stage_build, sync_app
-from omnisource.providers.registry import ProviderRegistry
+from omnisource.http import HttpClient
+from omnisource.pipeline import load_catalog, load_state, stage_build, stage_sync, sync_app
+from omnisource.providers.registry import ProviderRegistry, build_default_registry
 from omnisource.site import publish_repo_artifacts
 
 
@@ -151,6 +152,55 @@ class TestPipeline(unittest.TestCase):
             summary = publish_repo_artifacts(root, health_doc=health_doc, analytics_doc=analytics_doc)
             self.assertTrue(external.is_file(), "the publisher must not prune another workflow's root document")
             self.assertNotIn("security-report.json", summary["removed"])
+
+
+class TestFeedIdentitySafety(unittest.TestCase):
+    def test_bundle_mismatch_keeps_the_last_good_cached_release(self) -> None:
+        http = MagicMock(spec=HttpClient)
+        http.requests = 0
+        http.get_json.return_value = {
+            "apps": [
+                {
+                    "name": "Example",
+                    "bundleIdentifier": "com.other.app",
+                    "version": "2.0",
+                    "downloadURL": "https://example.com/new.ipa",
+                }
+            ]
+        }
+        app = App(
+            slug="example",
+            raw={
+                "name": "Example",
+                "bundleIdentifier": "com.example.app",
+                "upstream": {
+                    "provider": "altstore",
+                    "feedURL": "https://example.com/source.json",
+                    "appId": "Example",
+                },
+            },
+        )
+        previous = {"versions": [{"version": "1.0", "downloadURL": "https://example.com/old.ipa"}]}
+        with tempfile.TemporaryDirectory() as tmpdir:
+            container = Container(
+                paths=Paths.from_root(Path(tmpdir)), http=http, providers=build_default_registry(http)
+            )
+            with self.assertRaisesRegex(SyncError, "com.other.app"):
+                sync_app(container, app, incremental=False, previous=previous)
+            state = {"example": previous}
+            report = SyncReport()
+            stage_sync(
+                container,
+                Catalog(source={}, clients=[], apps=[app]),
+                state,
+                only=None,
+                incremental=False,
+                report=report,
+                workers=1,
+            )
+        self.assertEqual(report.apps_failed, 1)
+        self.assertIn("com.other.app", state["example"]["lastError"])
+        self.assertEqual(previous["versions"][0]["downloadURL"], "https://example.com/old.ipa")
 
 
 class _UnreachableProvider:
