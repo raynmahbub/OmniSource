@@ -4,7 +4,7 @@
     "name": "OmniSource",
     "identifier": "com.raynmahbub.omnisource",
     "subtitle": "A curated iOS app source for AltStore, SideStore, FlareStore, Feather, ESign, Ksign and LiveContainer",
-    "description": "OmniSource is a curated, automatically maintained AltStore-compatible iOS app source. Every entry is resolved from the app's own official upstream project - GitHub Releases or the developer's official AltStore feed - and each download link is re-verified automatically.",
+    "description": "OmniSource is a curated AltStore-compatible iOS app source that tracks project releases and community distributions. Source attribution, dated link observations and available digest evidence are published per app; they do not guarantee that a binary is safe or installable.",
     "owner": "raynmahbub",
     "repository": "https://github.com/raynmahbub/OmniSource",
     "baseURL": "https://raynmahbub.github.io/OmniSource",
@@ -61,11 +61,11 @@
       "slug": "spotiflac",
       "name": "Mornye",
       "subtitle": "Local music library, FLAC player and tag editor",
-      "bundleIdentifier": "com.zarz.spotiflacAndroid",
+      "bundleIdentifier": "com.zarz.mornye",
       "developerName": "zarzet",
       "category": "music",
       "tintColor": "1E4E4F",
-      "icon": "SpotiFLAC.webp",
+      "icon": "Mornye.webp",
       "localizedDescription": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
       "screenshots": [
         "https://raw.githubusercontent.com/mornyeapp/Mornye/main/assets/readme/showcase-light.png",
@@ -78,7 +78,7 @@
         "method": "github-release",
         "publisher": "mornyeapp/Mornye",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": true
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -105,7 +105,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "Mornye {version} | {label}"
       }
     },
@@ -128,7 +128,8 @@
         "method": "github-release",
         "publisher": "raynmahbub/OmniSource (Tweak Factory)",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "17.0",
@@ -180,7 +181,7 @@
           ".ipa"
         ],
         "maxPages": 5,
-        "keepVersions": 3,
+        "keepVersions": 8,
         "descriptionTemplate": "uProVid {version} | {label}",
         "minOSVersion": "17.0"
       },
@@ -193,6 +194,7 @@
           "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
         ],
         "size": 147923687,
+        "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
         "minOSVersion": "17.0"
       }
     },
@@ -216,7 +218,8 @@
         "method": "manual-mirror",
         "publisher": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
         "codeSigned": false,
-        "checksumPublished": true
+        "checksumPublished": true,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -270,7 +273,7 @@
           ".ipa"
         ],
         "maxPages": 2,
-        "keepVersions": 3,
+        "keepVersions": 8,
         "descriptionTemplate": "YouTube {version} | {label}",
         "minOSVersion": "16.0"
       },
@@ -283,6 +286,7 @@
           "https://dn720705.ca.archive.org/0/items/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa"
         ],
         "size": 135840058,
+        "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
         "minOSVersion": "16.0"
       }
     },
@@ -309,7 +313,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YouProEXTRA",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -441,7 +446,7 @@
           ".ipa"
         ],
         "maxPages": 10,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "YouTube {version} | {label}"
       }
     },
@@ -468,7 +473,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YouProEXTRA",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "17.0",
@@ -520,7 +526,7 @@
           ".ipa"
         ],
         "maxPages": 10,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "17.0",
         "descriptionTemplate": "YouTube {version} | {label}"
       }
@@ -600,7 +606,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionPattern": "YouTube_(\\d+\\.\\d+(?:\\.\\d+)?)",
         "descriptionTemplate": "YouTube {version} | YTKACE {secondary} | {label}",
         "minOSVersion": "17.0"
@@ -625,7 +631,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YouProEXTRA",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "17.0",
@@ -677,7 +684,7 @@
           ".ipa"
         ],
         "maxPages": 10,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "YouTube {version} | YouMod extra tweaks | {label}",
         "minOSVersion": "17.0"
       }
@@ -705,7 +712,8 @@
         "method": "github-release",
         "publisher": "Ashreq/ashstore-repo",
         "codeSigned": false,
-        "checksumPublished": true
+        "checksumPublished": true,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -757,7 +765,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "MaxTube {version} | YTPlus {secondary} | {label}",
         "minOSVersion": "16.0"
       }
@@ -785,7 +793,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YTMusicUltimate",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -827,7 +836,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "YTMusicUltimate {version} | YTMusic {secondary} | {label}"
       }
     },
@@ -898,7 +907,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "MaxMusic {version} | YTMusic {secondary} | {label}",
         "minOSVersion": "16.0"
@@ -977,7 +986,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "{name} {version} | Universal IPA",
         "minOSVersion": "14.0",
         "isoDates": true
@@ -1051,7 +1060,7 @@
         "provider": "altstore",
         "feedURL": "https://repo.ikghd.me/repo.json",
         "appId": "com.burbn.instagram",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "Instagram {version} | {label}",
         "minOSVersion": "16.3"
@@ -1130,7 +1139,7 @@
         "provider": "altstore",
         "feedURL": "https://repo.ikghd.me/repo.json",
         "appId": "com.zhiliaoapp.musically",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "TikTok {version} | {label}",
         "minOSVersion": "15.1"
@@ -1188,7 +1197,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "Winston {version} | {label}",
         "minOSVersion": "17.0"
@@ -1238,7 +1247,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "iTorrent {version} | {label}",
         "minOSVersion": "16.0"
@@ -1292,7 +1301,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "StikDebug {version} | {label}",
         "minOSVersion": "17.4"
       }
@@ -1346,7 +1355,7 @@
           "-sideloaded.ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "BHTwitter {version} | {label}",
         "minOSVersion": "15.0"
@@ -1410,7 +1419,7 @@
           "LiveContainer.ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "LiveContainer {version} | {label}",
         "minOSVersion": "15.0"
@@ -1470,7 +1479,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "Feather {version} | {label}",
         "minOSVersion": "16.0"
@@ -1536,7 +1545,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "SideStore {version} | {label}",
         "minOSVersion": "15.0"
@@ -1590,7 +1599,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "Aidoku {version} | {label}",
         "minOSVersion": "15.0"
@@ -1640,7 +1649,7 @@
           "-iOS.ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "descriptionTemplate": "Provenance {version} | {label}",
         "minOSVersion": "17.0"
@@ -1690,7 +1699,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Delta {version} | {label}"
       }
@@ -1741,7 +1750,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.0",
         "descriptionTemplate": "PPSSPP {version} | {label}"
       }
@@ -1796,7 +1805,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Yattee {version} | {label}"
       }
@@ -1851,7 +1860,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.4",
         "descriptionTemplate": "Streamyfin {version} | {label}"
       }
@@ -1906,7 +1915,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Spotube {version} | {label}"
       }
@@ -1960,7 +1969,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.4",
         "descriptionTemplate": "Jellify {version} | {label}"
       }
@@ -2011,7 +2020,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Zeus {version} | {label}"
       }
@@ -2061,7 +2070,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.6",
         "descriptionTemplate": "BlueWallet {version} | {label}"
       }
@@ -2115,7 +2124,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Voyager {version} | {label}"
       }
@@ -2170,7 +2179,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Saber {version} | {label}"
       }
@@ -2225,7 +2234,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.2",
         "descriptionTemplate": "Anx Reader {version} | {label}"
       }
@@ -2280,7 +2289,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Apollo {version} | {label}"
       }
@@ -2331,7 +2340,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "includePrereleases": true,
         "minOSVersion": "14.0",
         "descriptionTemplate": "DolphiniOS {version} | {label}"
@@ -2383,7 +2392,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.2",
         "descriptionTemplate": "iSH {version} | {label} ({tag})",
         "includePrereleases": true,
@@ -2436,7 +2445,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "qBitControl {version} | {label}"
       }
@@ -2487,7 +2496,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "qBitConnect {version} | {label}"
       }
@@ -2537,7 +2546,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "VCMI {version} | {label}"
       }
@@ -2591,7 +2600,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.4",
         "descriptionTemplate": "MAME4iOS {version} | {label}"
       }
@@ -2642,7 +2651,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "qBitController {version} | {label}"
       }
@@ -2693,7 +2702,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.0",
         "descriptionTemplate": "Mini vMac {version} | {label}"
       }
@@ -2744,7 +2753,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "17.0",
         "descriptionTemplate": "StikNES {version} | {label}"
       }
@@ -2794,7 +2803,7 @@
           ".ipa"
         ],
         "maxPages": 10,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Twitch {version} | TwitchAdBlock {secondary}",
         "versionPattern": "^tv\\.twitch-([0-9]+\\.[0-9]+)"
@@ -2822,7 +2831,7 @@
         "method": "github-release",
         "publisher": "NeoFreeBird/app",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": true
       },
       "compatibility": {
         "minOSVersion": "15.0",
@@ -2840,16 +2849,17 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
+        "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x+ builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
       },
       "upstream": {
         "repo": "NeoFreeBird/app",
-        "assetNamePattern": "^NeoFreeBird-[0-9][^/]*\\.ipa$",
+        "assetNamePattern": "^NeoFreeBird-(?:sideloaded-Twitter_|[0-9])[^/]*\\.ipa$",
         "assetSuffixes": [
           ".ipa"
         ],
+        "versionFromTag": true,
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Twitter {version} | {label}"
       },
@@ -2905,7 +2915,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "Conduit {version} | {label}"
       }
@@ -2960,7 +2970,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Fladder {version} | {label}"
       }
@@ -3015,7 +3025,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.0",
         "descriptionTemplate": "AnymeX {version} | {label}"
       }
@@ -3069,7 +3079,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Sora {version} | {label}"
       }
@@ -3138,28 +3148,28 @@
         }
       },
       "upstream": {
-        "provider": "codeberg",
-        "repo": "raincord/RainTweak",
+        "provider": "github",
+        "repo": "ra1ncord/RainTweak",
         "assetNamePattern": "^RainTweak\\.ipa$",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "Discord {version} | {label}",
         "mirrors": [
           {
-            "provider": "github",
-            "repo": "ra1ncord/RainTweak"
+            "provider": "codeberg",
+            "repo": "raincord/RainTweak"
           }
         ]
       },
       "manualRelease": {
-        "version": "0.9.3",
-        "date": "2026-06-19",
-        "localizedDescription": "Discord 0.9.3 | RainTweak\n\nRainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injected into the official Discord iOS app. Published as a ready-to-sideload IPA by the RainTweak project; official IPA comes from the Codeberg releases page with the GitHub mirror as a failover.",
-        "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v0.9.3/RainTweak.ipa",
-        "size": 107515564,
-        "sha256": "1ac871154ac2649158eea405f2c79e2e1d36ed7771c9b64748ce9f1c3f97703e",
+        "version": "1.2.0",
+        "date": "2026-09-17",
+        "localizedDescription": "Discord 1.2.0 | RainTweak\n\nRainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injected into the official Discord iOS app. Published as a ready-to-sideload IPA by the RainTweak project; official IPA comes from the Codeberg/GitHub releases page.",
+        "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
+        "size": 107515950,
+        "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
         "minOSVersion": "16.0",
-        "releaseUrl": "https://github.com/ra1ncord/RainTweak/releases/tag/v0.9.3"
+        "releaseUrl": "https://github.com/ra1ncord/RainTweak/releases/tag/v1.2.0"
       }
     },
     {
@@ -3184,7 +3194,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "18.0",
@@ -3208,7 +3219,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.firecore.infuse",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "18.0",
         "descriptionTemplate": "Infuse {version} | {label}"
       }
@@ -3236,7 +3247,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -3285,16 +3297,26 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.facebook.Facebook.glow",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Facebook {version} | {label}"
+      },
+      "manualRelease": {
+        "version": "577.1",
+        "date": "2026-09-05",
+        "localizedDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected into Facebook 577.1.",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
+        "size": 226667533,
+        "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
+        "minOSVersion": "15.1",
+        "releaseUrl": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json"
       }
     },
     {
       "slug": "swiftgram",
       "name": "Swiftgram",
       "subtitle": "Supercharged open-source Telegram fork",
-      "bundleIdentifier": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "developerName": "Swiftgram & IPA Vault",
       "category": "social",
       "tintColor": "F85C2C",
@@ -3309,7 +3331,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "13.0",
@@ -3327,7 +3350,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. Uses its own bundle identifier - installs alongside the stock Telegram app."
+        "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
       },
       "appPermissions": {
         "entitlements": [
@@ -3357,8 +3380,8 @@
       "upstream": {
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
-        "appId": "app.swiftgram.ios",
-        "keepVersions": 1,
+        "appId": "Swiftgram (MxGram)",
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Swiftgram {version} | {label}"
       }
@@ -3367,7 +3390,7 @@
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
       "subtitle": "Official Telegram with the MxGram tweak",
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "category": "social",
       "tintColor": "0088CC",
@@ -3386,7 +3409,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "13.0",
@@ -3404,7 +3428,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
+        "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists this MxGram variant as ph.telegra.Telegraph.mxgram, distinct from stock Telegram's identifier; a signing client may change the identifier."
       },
       "appPermissions": {
         "entitlements": [
@@ -3434,8 +3458,8 @@
       "upstream": {
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
-        "appId": "ph.telegra.Telegraph",
-        "keepVersions": 1,
+        "appId": "Telegram (MxGram)",
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Telegram {version} | {label}"
       }
@@ -3459,7 +3483,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -3508,7 +3533,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.facebook.Facebook",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Facebook {version} | {label}"
       }
@@ -3532,7 +3557,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -3581,7 +3607,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.burbn.instagram",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Instagram {version} | {label}"
       }
@@ -3608,7 +3634,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -3657,7 +3684,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.burbn.instagram.sparkle",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Instagram {version} | {label}"
       }
@@ -3666,7 +3693,7 @@
       "slug": "redditfilter",
       "name": "RedditFilter",
       "subtitle": "Filter unwanted content from your Reddit feed",
-      "bundleIdentifier": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "level3tjg",
       "category": "social",
       "tintColor": "FF4500",
@@ -3674,7 +3701,6 @@
       "localizedDescription": "RedditFilter (by level3tjg) filters unwanted content out of your Reddit feed - hide posts by keyword, subreddit, domain, flair or author, natively on top of the official Reddit app. The project publishes a ready-to-sideload IPA with every release.",
       "screenshots": [],
       "featured": false,
-      "alternativeTo": "bhtwitter",
       "status": "stable",
       "upstreamURL": "https://github.com/level3tjg/RedditFilter",
       "verification": {
@@ -3699,7 +3725,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). Shares com.atebits.Tweetie2 with BHTwitter and NeoFreeBird in this catalog - install one at a time."
+        "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). The Reddit bundle identifier com.reddit.Reddit is shared with stock Reddit; installations using the same identifier replace one another."
       },
       "appPermissions": {
         "entitlements": [
@@ -3730,7 +3756,7 @@
         "provider": "github",
         "repo": "level3tjg/RedditFilter",
         "assetNamePattern": "^RedditFilter_.*\\.ipa$",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Reddit {version} | {label}"
       }
@@ -3753,7 +3779,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.4",
@@ -3802,7 +3829,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.soundcloud.TouchApp",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.4",
         "descriptionTemplate": "SoundCloud {version} | {label}"
       }
@@ -3825,7 +3852,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -3874,7 +3902,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.facebook.Messenger.flow",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Messenger {version} | {label}"
       }
@@ -3897,7 +3925,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -3946,7 +3975,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.facebook.Messenger",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Messenger {version} | {label}"
       }
@@ -3968,7 +3997,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -4017,7 +4047,7 @@
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
         "appId": "com.burbn.barcelona",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.1",
         "descriptionTemplate": "Threads {version} | {label}"
       }
@@ -4026,7 +4056,7 @@
       "slug": "ime",
       "name": "iMe MxGram",
       "subtitle": "MxGram-tweaked iMe messenger (unofficial build)",
-      "bundleIdentifier": "com.olcorporation.olai",
+      "bundleIdentifier": "com.olcorporation.olai.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "category": "social",
       "tintColor": "2AABEE",
@@ -4045,7 +4075,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "13.0",
@@ -4063,7 +4094,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+        "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.olcorporation.olai.mxgram; a signing client may change the identifier."
       },
       "appPermissions": {
         "entitlements": [
@@ -4093,17 +4124,27 @@
       "upstream": {
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
-        "appId": "com.olcorporation.olai",
-        "keepVersions": 1,
+        "appId": "iMe (MxGram)",
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "iMe {version} | {label}"
+      },
+      "manualRelease": {
+        "version": "12.8.1",
+        "date": "2026-09-01",
+        "localizedDescription": "iMe 12.8.1 | iMe-12.8.1-MxGram\n\nMxGram v3.8 injected into iMe 12.8.1.",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
+        "size": 148174542,
+        "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
+        "minOSVersion": "13.0",
+        "releaseUrl": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json"
       }
     },
     {
       "slug": "turrit-mxgram",
       "name": "Turrit MxGram",
       "subtitle": "MxGram-tweaked Turrit client (unofficial build)",
-      "bundleIdentifier": "com.seastar.turrit",
+      "bundleIdentifier": "com.seastar.turrit.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "category": "social",
       "tintColor": "0088CC",
@@ -4122,7 +4163,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "13.0",
@@ -4140,7 +4182,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+        "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.seastar.turrit.mxgram; a signing client may change the identifier."
       },
       "appPermissions": {
         "entitlements": [
@@ -4170,8 +4212,8 @@
       "upstream": {
         "provider": "altstore",
         "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
-        "appId": "com.seastar.turrit",
-        "keepVersions": 1,
+        "appId": "Turrit (MxGram)",
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Turrit {version} | {label}"
       }
@@ -4224,7 +4266,7 @@
         "provider": "altstore",
         "feedURL": "https://source.ryuksign.com/ig410",
         "appId": "RyukGram (IG 410)",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "Instagram {version} | RyukGram (IG 410)",
         "minOSVersion": "15.0"
       },
@@ -4284,7 +4326,7 @@
         "provider": "altstore",
         "feedURL": "https://source.ryuksign.com/duplicate",
         "appId": "RyukGram",
-        "keepVersions": 1,
+        "keepVersions": 8,
         "descriptionTemplate": "Instagram {version} | RyukGram Side by Side",
         "minOSVersion": "15.0"
       },
@@ -4346,7 +4388,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Dopamine {version} | {label}"
       }
@@ -4366,14 +4408,14 @@
       "category": "utilities",
       "tintColor": "7B4DFF",
       "icon": "DopamineRootHide.webp",
-      "localizedDescription": "Dopamine (RootHide) is roothide's hardened Dopamine 2 build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
+      "localizedDescription": "Dopamine (RootHide) is roothide's hardened Dopamine build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
       "status": "stable",
       "upstreamURL": "https://github.com/roothide/Dopamine-roothide",
       "verification": {
         "method": "github-release",
         "publisher": "roothide/Dopamine-roothide",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": true
       },
       "compatibility": {
         "minOSVersion": "15.0",
@@ -4391,17 +4433,17 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by iOS generation (26, 25, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
+        "notes": "Official unsigned IPA from roothide/Dopamine-roothide. Upstream tags releases by generation (28, 27, 26, …) while the release name carries the real Dopamine version, so this source reads the version from the release name. Installs as com.opa334.Dopamine-roothide, next to (not over) Dopamine — run only one jailbreak environment at a time."
       },
       "upstream": {
         "repo": "roothide/Dopamine-roothide",
-        "assetNamePattern": "^Dopamine\\.ipa$",
+        "assetNamePattern": "^Dopamine(?:-[^/]*)?\\.ipa$",
         "assetSuffixes": [
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
-        "versionPattern": "2\\.\\d+\\.\\d+\\.\\d+",
+        "keepVersions": 8,
+        "versionPattern": "\\d+\\.\\d+\\.\\d+(?:[.-]\\d+)?",
         "minOSVersion": "15.0",
         "descriptionTemplate": "Dopamine (RootHide) {version} | {label}"
       }
@@ -4455,7 +4497,7 @@
           ".tipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Bootstrap {version} | {label}"
       }
@@ -4509,7 +4551,7 @@
           ".tipa"
         ],
         "maxPages": 2,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.5.1",
         "descriptionTemplate": "Serotonin {version} | {label}"
       }
@@ -4563,7 +4605,7 @@
           ".ipa"
         ],
         "maxPages": 2,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Taurine {version} | {label}"
       }
@@ -4617,7 +4659,7 @@
           ".ipa"
         ],
         "maxPages": 2,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Odyssey {version} | {label}"
       }
@@ -4671,7 +4713,7 @@
           ".ipa"
         ],
         "maxPages": 2,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "11.0",
         "descriptionTemplate": "unc0ver {version} | {label}"
       }
@@ -4725,7 +4767,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "11.0",
         "descriptionTemplate": "SameBoy {version} | {label}"
       }
@@ -4779,7 +4821,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Gopeed {version} | {label}"
       }
@@ -4833,7 +4875,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Manic EMU {version} | {label}"
       }
@@ -4889,7 +4931,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "18.0",
         "descriptionTemplate": "XeniOS {version} | {label}"
       }
@@ -4947,7 +4989,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.0",
         "descriptionTemplate": "PikaTorrent {version} | {label}"
       }
@@ -5005,7 +5047,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Thunder {version} | {label}"
       }
@@ -5059,7 +5101,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Chan {version} | {label}"
       }
@@ -5117,7 +5159,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.1",
         "descriptionTemplate": "Monal {version} | {label}"
       }
@@ -5176,7 +5218,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "JellyBook {version} | {label}",
         "assetNamePattern": "Release"
@@ -5231,7 +5273,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Hanami {version} | {label}"
       }
@@ -5262,7 +5304,7 @@
         "method": "github-release",
         "publisher": "lotusprey/otraku",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": true
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -5286,10 +5328,13 @@
         "provider": "github",
         "repo": "lotusprey/otraku",
         "assetSuffixes": [
+          "-ios17+.ipa",
+          "-ios15+.ipa",
           ".ipa"
         ],
+        "versionFromTag": true,
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "Otraku {version} | {label}"
       }
@@ -5343,7 +5388,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "PureKFD {version} | {label}"
       }
@@ -5397,7 +5442,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.1",
         "descriptionTemplate": "Synkplay {version} | {label}"
       }
@@ -5451,7 +5496,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "Ksign {version} | {label}"
       }
@@ -5505,7 +5550,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "18.5",
         "descriptionTemplate": "Cosmos Music Player {version} | {label}"
       }
@@ -5559,7 +5604,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.2",
         "descriptionTemplate": "AnimeGen {version} | {label}"
       }
@@ -5613,7 +5658,7 @@
           ".tipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "MuffinStore {version} | TrollStore",
         "assetNamePattern": "^MuffinStore.*\\.tipa$"
@@ -5672,7 +5717,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Mangayomi {version} | {label}"
       }
@@ -5681,11 +5726,11 @@
       "slug": "nebuloiptv",
       "name": "Onside TV",
       "subtitle": "IPTV player with built-in sports scores",
-      "bundleIdentifier": "personal.Nebulo-V2-3",
+      "bundleIdentifier": "tv.onside.app",
       "developerName": "mongoosemonke504",
       "category": "photo-video",
       "tintColor": "1B5E20",
-      "icon": "Nebulo.webp",
+      "icon": "OnsideTV.webp",
       "localizedDescription": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
       "status": "stable",
       "screenshots": [
@@ -5701,7 +5746,7 @@
         "method": "github-release",
         "publisher": "mongoosemonke504/OnsideTV",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": true
       },
       "compatibility": {
         "minOSVersion": "26.0",
@@ -5728,7 +5773,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "26.0",
         "descriptionTemplate": "Onside TV {version} | {label}"
       }
@@ -5782,7 +5827,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Chatsen {version} | {label}"
       }
@@ -5833,7 +5878,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionPattern": "^TrollFools_(\\d+\\.\\d+(?:\\.\\d+)?(?:-\\d+)?)\\.tipa$",
         "minOSVersion": "14.0",
         "descriptionTemplate": "TrollFools {version} | {label}"
@@ -5883,7 +5928,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "minOSVersion": "17.0",
         "descriptionTemplate": "lara {version} | {label}"
@@ -5937,7 +5982,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Onion Browser {version} | {label}"
@@ -5992,7 +6037,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Orbot {version} | {label}"
@@ -6043,7 +6088,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Table Habit {version} | {label}"
@@ -6093,7 +6138,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "versionFromTag": true,
         "minOSVersion": "16.0",
         "descriptionTemplate": "ByeTunes {version} | {label}"
@@ -6146,7 +6191,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.4",
         "descriptionTemplate": "Messenger {version} | SNMessenger {secondary} | {label}"
       }
@@ -6155,7 +6200,7 @@
       "slug": "bhinstagram",
       "name": "BHInstagram",
       "subtitle": "Instagram with no ads, downloads and more tweaks",
-      "bundleIdentifier": "com.bandarhl.bhinsta",
+      "bundleIdentifier": "com.burbn.instagram",
       "developerName": "BandarHL",
       "category": "social",
       "tintColor": "E1306C",
@@ -6187,7 +6232,7 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked."
+        "notes": "Official sideloaded build from BandarHL/BHInstagram. The release also ships a TrollStore .tipa, which OmniSource skips - only the sideloaded .ipa is tracked. It uses Instagram's com.burbn.instagram identifier, as do the RyukGram and iNKillerPlus alternatives; installations using the same identifier replace one another."
       },
       "upstream": {
         "provider": "github",
@@ -6197,10 +6242,11 @@
         ],
         "assetNamePattern": "^.*sideloaded\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "BHInstagram {version} | {label}"
-      }
+      },
+      "alternativeTo": "ryukgram"
     },
     {
       "slug": "reynard",
@@ -6248,7 +6294,7 @@
         ],
         "assetNamePattern": "^Reynard\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "Reynard {version} | {label}"
       }
@@ -6301,7 +6347,7 @@
         ],
         "assetNamePattern": "^Pocket[_.]Poster\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "17.0",
         "descriptionTemplate": "Pocket Poster {version} | {label}"
       }
@@ -6352,7 +6398,7 @@
         ],
         "assetNamePattern": "^Mugunghwa.*\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Mugunghwa {version} | {label}"
       }
@@ -6402,7 +6448,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "WDBFontOverwrite {version} | {label}"
       }
@@ -6453,7 +6499,7 @@
         ],
         "assetNamePattern": "^TrollInstallerX\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "TrollInstallerX {version} | {label}"
       }
@@ -6506,7 +6552,7 @@
         ],
         "assetNamePattern": "^StatusMagic\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "StatusMagic {version} | {label}"
       }
@@ -6557,7 +6603,7 @@
         ],
         "assetNamePattern": "^CarTube\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "CarTube {version} | {label}"
       }
@@ -6610,7 +6656,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "DynamicCow {version} | {label}"
       }
@@ -6660,7 +6706,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "13.0",
         "descriptionTemplate": "iTransmission {version} | {label}"
       }
@@ -6714,7 +6760,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Cowabunga {version} | {label}"
       }
@@ -6765,7 +6811,7 @@
         ],
         "assetNamePattern": "^AirTroller.*\\.tipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "AirTroller {version} | TrollStore"
       }
@@ -6816,7 +6862,7 @@
         ],
         "assetNamePattern": "^Helium\\.tipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "Helium {version} | TrollStore"
       }
@@ -6869,7 +6915,7 @@
           ".tipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "SecondHand {version} | TrollStore"
       }
@@ -6919,7 +6965,7 @@
           ".tipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "CAPerfHUD {version} | TrollStore"
       }
@@ -6969,7 +7015,7 @@
           ".tipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "14.0",
         "descriptionTemplate": "AppStore++ {version} | TrollStore"
       }
@@ -6978,7 +7024,7 @@
       "slug": "nuvio",
       "name": "Nuvio",
       "subtitle": "Open-source media player, bring your own sources",
-      "bundleIdentifier": "com.nuvio.app",
+      "bundleIdentifier": "com.nuvio.media",
       "developerName": "Nuvio Media",
       "category": "photo-video",
       "tintColor": "5B5FE8",
@@ -7020,7 +7066,7 @@
         ],
         "assetNamePattern": "^nuvio-.*-full-release\\.ipa$",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.1",
         "descriptionTemplate": "Nuvio {version} | {label}"
       }
@@ -7072,7 +7118,7 @@
         "assetNamePattern": "^EscapeOS-[0-9.]+\\.ipa$",
         "tagPrefix": "v",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "18.0",
         "descriptionTemplate": "EscapeOS {version} | {label}"
       }
@@ -7128,7 +7174,7 @@
         "assetNamePattern": "^3105.*\\.ipa$",
         "tagPrefix": "v",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "16.0",
         "descriptionTemplate": "3105 {version} | {label}"
       }
@@ -7180,7 +7226,7 @@
         "assetNamePattern": "^VibeContainers-.*\\.ipa$",
         "tagPrefix": "v",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "17.0",
         "descriptionTemplate": "VibeContainers {version} | {label}"
       }
@@ -7237,7 +7283,7 @@
         "assetNamePattern": "^Battman\\.tipa$",
         "tagPrefix": "v",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.0",
         "descriptionTemplate": "Battman {version} | TrollStore"
       }
@@ -7338,7 +7384,7 @@
         "assetNamePattern": "^Nicegram\\.ipa$",
         "versionPattern": "Nicegram ([0-9]+[.][0-9]+[.][0-9]+)",
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "15.0",
         "descriptionTemplate": "Nicegram {version} | build {secondary}"
       }
@@ -7390,7 +7436,7 @@
         "assetNamePattern": "^com\\.developlab\\.batteryinfo_[0-9.]+\\.tipa$",
         "versionFromTag": true,
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.2",
         "descriptionTemplate": "Battery Info {version} | TrollStore"
       }
@@ -7442,7 +7488,7 @@
         "assetNamePattern": "^EnableQUIC_[0-9.]+\\.tipa$",
         "versionFromTag": true,
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.2",
         "descriptionTemplate": "EnableQUIC {version} | TrollStore"
       }
@@ -7494,7 +7540,7 @@
         "assetNamePattern": "^AnimationSpeed_[0-9.]+\\.tipa$",
         "versionFromTag": true,
         "maxPages": 3,
-        "keepVersions": 1,
+        "keepVersions": 8,
         "minOSVersion": "12.2",
         "descriptionTemplate": "Animation Speed {version} | TrollStore"
       }
@@ -7507,7 +7553,7 @@
       "developerName": "Soupy-dev",
       "category": "entertainment",
       "tintColor": "FF6B6B",
-      "icon": "Eclipse.png",
+      "icon": "Eclipse.webp",
       "localizedDescription": "Discover anime, movies, and shows; organize your library; watch with in-app playback; and read manga and light novels. Eclipse supports user-installed Services, Stremio add-ons, SkyStream packages, Nuvio providers, and Reader extensions. Keep track of progress with AniList, MyAnimeList, Trakt, and Simkl, download media for offline use, and back up your settings and library. Cloud sync is optional and off by default. Eclipse does not include media, content sources, or bundled provider add-ons. Install and configure your own sources to watch or read.",
       "screenshots": [
         "https://raw.githubusercontent.com/Soupy-dev/Eclipse/main/docs/screenshots/home-v2.jpeg",
@@ -7550,7 +7596,7 @@
           ".ipa"
         ],
         "maxPages": 3,
-        "keepVersions": 1
+        "keepVersions": 8
       }
     }
   ]

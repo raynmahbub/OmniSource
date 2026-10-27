@@ -39,6 +39,21 @@ assert.equal(
 );
 assert.equal(data.getAppById("not-an-app"), undefined);
 assert.equal(entries.find(({ app }) => app === live)?.id, "livecontainer");
+assert.equal(data.getAppVerification(live)?.app, "livecontainer", "verification joins by catalog slug");
+assert.match(data.getSingleAppFeedURL(live), /\/feeds\/livecontainer\.json$/);
+
+// Correcting BHInstagram's bundle ID adds it to an existing collision group.
+// Historical URLs must keep resolving to their original entries, not the new
+// alphabetical first match.
+for (const [legacyId, slug] of [
+  ["com.burbn.instagram", "inkillerplus"],
+  ["com.burbn.instagram-2", "ryukgram"],
+  ["com.burbn.instagram-3", "ryukgram-ig410"],
+  ["com.burbn.instagram-4", "bhinstagram"],
+]) {
+  assert.equal(data.getAppById(legacyId)?.omnisource?.slug, slug, `${legacyId} remains stable`);
+}
+assert.equal(data.getAppById("bhinstagram")?.bundleIdentifier, "com.burbn.instagram");
 
 const screenshots = data.getAppScreenshots(live);
 assert.equal(screenshots.length, 1);

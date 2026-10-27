@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "TrollInstallerX",
     "bundleIdentifier": "com.Alfie.TrollInstallerX",
@@ -37,7 +37,7 @@
             "fileType": "IPA",
             "size": 27098183,
             "sha256": null,
-            "downloads": 374451,
+            "downloads": 375012,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -49,15 +49,32 @@
             "fileType": "IPA",
             "size": 6889214,
             "sha256": null,
-            "downloads": 1274941,
+            "downloads": 1276664,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "downloads": 1274941
+        "downloads": 1276664,
+        "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
+        "maxOSVersion": "16.6.1"
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "14.0",
+    "maxOSVersion": "16.6.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "trollinstallerx",
       "status": "stable",
@@ -90,8 +107,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
         "lastUpdatedAt": "2024-09-12"
       }
     },

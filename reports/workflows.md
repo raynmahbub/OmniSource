@@ -22,6 +22,7 @@ report never guesses — missing keys are reported as gaps.
 | `discovery.yml` | Discovery | schedule, workflow_dispatch | declared | yes | **no** | yes | — |
 | `health-check.yml` | Health Check | schedule, workflow_dispatch | declared | yes | **no** | **no** | — |
 | `ipa-downloader.yml` | Build IPA Downloader | schedule, workflow_dispatch | declared | yes | **no** | **no** | — |
+| `issue-intake.yml` | Issue intake |  | declared | yes | **no** | **no** | — |
 | `merge.yml` | Merge Feeds | pull_request, push, workflow_dispatch | declared | yes | **no** | **no** | — |
 | `monitoring.yml` | Monitoring | schedule, workflow_dispatch | declared | yes | **no** | **no** | — |
 | `publish.yml` | Publish Derived Artifacts | push, schedule, workflow_dispatch | declared | yes | **no** | **no** | — |
@@ -30,7 +31,7 @@ report never guesses — missing keys are reported as gaps.
 | `tweak-factory.yml` | Tweak Factory | schedule, workflow_dispatch | declared | yes | yes | yes | — |
 | `validate.yml` | Validate | pull_request, push, workflow_dispatch | declared | yes | **no** | **no** | — |
 | `validation.yml` | Validation Engine | pull_request, push, workflow_dispatch | declared | yes | **no** | **no** | — |
-| `verify.yml` | Verify Downloads | schedule, workflow_dispatch | declared | yes | **no** | **no** | — |
+| `verify.yml` | Verify Downloads | schedule, workflow_dispatch | declared | yes | yes | **no** | — |
 | `website.yml` | Website | push, pull_request, workflow_dispatch | declared | yes | yes | **no** | — |
 
 ## Pipeline ↔ workflow drift

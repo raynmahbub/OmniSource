@@ -65,19 +65,15 @@ COLLECTIONS: tuple[dict[str, Any], ...] = (
         "appSlugs": ("stikdebug", "bhtwitter", "aidoku", "tablehabit"),
     },
     {
-        # The tweak family was scattered across YouTube/Music/Social and only
-        # reachable through search, even though it is the single biggest group in
-        # the catalog and the one people ask for. Membership is the *tweak's own*
-        # published build: OmniSource never patches an IPA itself, so anything not
-        # released installable by its own project is not here (see
-        # docs/SOURCING-REPORT.md for the skipped .deb-only tweaks).
+        # The tweak family is curated across several categories. Individual
+        # entries disclose project versus community-distribution attribution.
         "slug": "tweaks",
         "title": "Tweaks",
         "subtitle": "Tweaked apps and on-device tweak injectors",
         "description": (
-            "Tweaked builds of YouTube, music, X, Instagram, Messenger, Discord and Twitch apps, plus the tools "
-            "that inject tweaks into an app on the device. Every entry is published installable by the tweak "
-            "project itself — OmniSource tracks and re-verifies that release, it does not patch binaries."
+            "Tweaked builds of YouTube, music, X, Instagram, Messenger, Discord and Twitch apps, plus tools "
+            "that inject tweaks on the device. Check each listing for its project, distributor and available "
+            "integrity evidence; some builds are packaged by community sources."
         ),
         "appSlugs": (
             "trollfools",
@@ -141,6 +137,8 @@ def build_collections_doc(catalog: Catalog, state: dict[str, Any] | None = None)
             {
                 "slug": definition["slug"],
                 "title": definition["title"],
+                # Additive alias for API clients that use `name`.
+                "name": definition["title"],
                 "subtitle": definition["subtitle"],
                 "description": definition["description"],
                 "appCount": len(apps),

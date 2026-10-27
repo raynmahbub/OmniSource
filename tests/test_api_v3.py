@@ -102,6 +102,43 @@ class StaticDocumentsTests(TestCase):
         self.assertNotIn("extra", slim)
         self.assertEqual(slim["id"], "d")
 
+    def test_existing_instagram_urls_do_not_change_when_an_alternative_is_added(self) -> None:
+        apps = [
+            {"name": name, "bundleIdentifier": "com.burbn.instagram", "omnisource": {"slug": slug}}
+            for name, slug in (
+                ("BHInstagram", "bhinstagram"),
+                ("iNKillerPlus", "inkillerplus"),
+                ("RyukGram", "ryukgram"),
+                ("RyukGram (IG 410)", "ryukgram-ig410"),
+            )
+        ]
+        docs = build_static_documents({"apps": apps})
+        expected = {
+            "com.burbn.instagram": "inkillerplus",
+            "com.burbn.instagram-2": "ryukgram",
+            "com.burbn.instagram-3": "ryukgram-ig410",
+            "com.burbn.instagram-4": "bhinstagram",
+        }
+        for record_id, slug in expected.items():
+            with self.subTest(record_id=record_id):
+                self.assertEqual(docs[f"apps/{record_id}.json"]["data"]["omnisource"]["slug"], slug)
+
+    def test_removed_legacy_app_id_is_not_reassigned(self) -> None:
+        docs = build_static_documents(
+            {
+                "apps": [
+                    {
+                        "name": "New Instagram alternative",
+                        "bundleIdentifier": "com.burbn.instagram",
+                        "omnisource": {"slug": "new-alternative"},
+                    }
+                ]
+            }
+        )
+        self.assertNotIn("apps/com.burbn.instagram.json", docs)
+        self.assertNotIn("apps/com.burbn.instagram-2.json", docs)
+        self.assertIn("apps/com.burbn.instagram-5.json", docs)
+
 
 def _bundle(sources: list[dict]) -> dict:
     return {

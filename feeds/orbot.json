@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 51331248,
               "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-              "downloads": 243,
+              "downloads": 288,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -57,19 +57,33 @@
               "fileType": "other",
               "size": 69964087,
               "sha256": "5ab7626e2648d48788b711c3525f6f9ae517e04ca90e4f32b52358b31a0c192e",
-              "downloads": 99,
+              "downloads": 116,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
           "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-          "downloads": 243
+          "downloads": 288
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/guardianproject/orbot-apple/main/docs/screenshots/localizable-strings/Connect_1.png",
         "https://raw.githubusercontent.com/guardianproject/orbot-apple/main/docs/screenshots/localizable-strings/Connect_2.png",
         "https://raw.githubusercontent.com/guardianproject/orbot-apple/main/docs/screenshots/localizable-strings/Connect_3.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "orbot",
@@ -103,8 +117,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
           "lastUpdatedAt": "2026-10-13"
         }
       }

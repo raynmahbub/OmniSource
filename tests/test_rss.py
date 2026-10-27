@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import sys
 import unittest
+import xml.etree.ElementTree as ET
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -31,10 +32,10 @@ class TestRssFeed(unittest.TestCase):
             "apps": [
                 {
                     "slug": "spotiflac",
-                    "name": "SpotiFLAC Mobile",
-                    "bundleIdentifier": "com.zarz.spotiflacAndroid",
+                    "name": "Mornye",
+                    "bundleIdentifier": "com.zarz.mornye",
                     "developerName": "zarzet",
-                    "icon": "SpotiFLAC.png",
+                    "icon": "Mornye.webp",
                     "status": "stable",
                 }
             ],
@@ -78,6 +79,21 @@ class TestRssFeed(unittest.TestCase):
         self.assertNotIn("<pubDate>", xml)
         self.assertNotIn("<lastBuildDate>", xml)
 
+    def test_untrusted_changelog_round_trips_and_channel_description_stays_unchanged(self) -> None:
+        changelog = "Whitespace  \nTabs\t\nCDATA ]]> and <markup>"
+        state = {
+            "spotiflac": {
+                "versions": [
+                    {"version": "1.0", "downloadURL": "https://example.com/a.ipa", "localizedDescription": changelog}
+                ]
+            }
+        }
+        xml = render_rss_feed(self.catalog, state)
+        root = ET.fromstring(xml)  # noqa: S314 - generated local fixture
+        self.assertEqual(root.findtext("./channel/description"), "AltStore feed aggregator")
+        self.assertEqual(root.findtext("./channel/item/description"), changelog)
+        self.assertTrue(all(line == line.rstrip() for line in xml.splitlines()))
+
     def test_render_rss_feed(self) -> None:
         state = {
             "spotiflac": {
@@ -85,9 +101,9 @@ class TestRssFeed(unittest.TestCase):
                     {
                         "version": "4.9.6",
                         "date": "2026-09-07",
-                        "downloadURL": "https://example.com/SpotiFLAC.ipa",
+                        "downloadURL": "https://example.com/Mornye.ipa",
                         "size": 34171700,
-                        "localizedDescription": "SpotiFLAC 4.9.6 update with new lossless downloader.",
+                        "localizedDescription": "Mornye 4.9.6 update with new lossless downloader.",
                     }
                 ]
             },
@@ -96,16 +112,16 @@ class TestRssFeed(unittest.TestCase):
                     "appId": "spotiflac",
                     "version": "4.9.6",
                     "releaseDate": "2026-09-07",
-                    "downloadUrl": "https://example.com/SpotiFLAC.ipa",
-                    "changelog": "SpotiFLAC 4.9.6 update with new lossless downloader.",
+                    "downloadUrl": "https://example.com/Mornye.ipa",
+                    "changelog": "Mornye 4.9.6 update with new lossless downloader.",
                 }
             ],
         }
         rss_xml = render_rss_feed(self.catalog, state)
         self.assertIn('<rss version="2.0"', rss_xml)
         self.assertIn("<title>OmniSource Updates</title>", rss_xml)
-        self.assertIn("SpotiFLAC Mobile v4.9.6", rss_xml)
-        self.assertIn("https://example.com/SpotiFLAC.ipa", rss_xml)
+        self.assertIn("Mornye v4.9.6", rss_xml)
+        self.assertIn("https://example.com/Mornye.ipa", rss_xml)
         self.assertIn("enclosure", rss_xml)
 
 
@@ -125,11 +141,11 @@ class TestAppRssFeed(unittest.TestCase):
             "apps": [
                 {
                     "slug": "spotiflac",
-                    "name": "SpotiFLAC Mobile",
+                    "name": "Mornye",
                     "subtitle": "Lossless streaming",
-                    "bundleIdentifier": "com.zarz.spotiflacAndroid",
+                    "bundleIdentifier": "com.zarz.mornye",
                     "developerName": "zarzet",
-                    "icon": "SpotiFLAC.png",
+                    "icon": "Mornye.webp",
                     "status": "stable",
                 },
                 {
@@ -149,7 +165,7 @@ class TestAppRssFeed(unittest.TestCase):
                     {
                         "version": "4.9.6",
                         "date": "2026-09-07",
-                        "downloadURL": "https://example.com/SpotiFLAC.ipa",
+                        "downloadURL": "https://example.com/Mornye.ipa",
                         "size": 34171700,
                         "localizedDescription": "Lossless downloader update.",
                     }
@@ -168,16 +184,16 @@ class TestAppRssFeed(unittest.TestCase):
 
     def test_render_app_rss_feed_only_lists_matching_app(self) -> None:
         app_xml = render_app_rss_feed(self.catalog, self.state, "spotiflac")
-        self.assertIn("<title>SpotiFLAC Mobile — Releases</title>", app_xml)
+        self.assertIn("<title>Mornye — Releases</title>", app_xml)
         self.assertIn('href="https://raynmahbub.github.io/OmniSource/feeds/spotiflac.xml"', app_xml)
-        self.assertIn("SpotiFLAC Mobile v4.9.6", app_xml)
+        self.assertIn("Mornye v4.9.6", app_xml)
         # History from other apps must not leak into this feed.
         self.assertNotIn("Feather", app_xml)
 
     def test_render_app_rss_feed_uses_history(self) -> None:
         app_xml = render_app_rss_feed(self.catalog, self.state, "feather")
         self.assertIn("Feather v2.9.0", app_xml)
-        self.assertNotIn("SpotiFLAC", app_xml)
+        self.assertNotIn("Mornye", app_xml)
 
     def test_render_app_rss_feed_unknown_slug_is_empty(self) -> None:
         self.assertEqual(render_app_rss_feed(self.catalog, self.state, "nope"), "")

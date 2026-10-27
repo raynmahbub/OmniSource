@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Glow releases
+BEGIN:VEVENT
+UID:glow-2026.41.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Glow v2026.41.0
+DESCRIPTION:Facebook 2026.41.0 | Reddit-2026.41.0-RedditFilter\n\nIPA Vault
+  build for Reddit (RedditFilter)\, version 2026.41.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/glow.json
+END:VEVENT
+BEGIN:VEVENT
+UID:glow-577.1@omnisource
+DTSTAMP:20260905T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Glow v577.1
+DESCRIPTION:Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected in
+ to Facebook 577.1.
+URL:https://raynmahbub.github.io/OmniSource/feeds/glow.json
+END:VEVENT
+END:VCALENDAR

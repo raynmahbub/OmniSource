@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Jellify releases
+BEGIN:VEVENT
+UID:jellify-1.3.0@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Jellify v1.3.0
+DESCRIPTION:Jellify 1.3.0 | Jellify-1.3.0\n\nWelcome to Jellify 1.3.0\n\nHe
+ y music lovers! We've packed this update with some really sweet fixes and 
+ major stability improvements to make sure your playlist keeps going strong
+  wherever you are. Grab your headphones and get ready to stream!\n\n*   **
+ Improved Car Experience:** We've made some great updates for Android Auto 
+ users\, giving you server-backed browsing and a much smoother experience w
+ hen resuming playback in your car.\n*   **Flawless Playback:** We tackled 
+ some lingering glitches\, including better buffering and fixes to the main
+  player screen. Now your music should stream more reliably\, even when swi
+ tching between tracks or listening on the go.\n*   **Enhanced Stability on
+  All Platforms:** This update includes better organization for music album
+ s and fixes a small issue on iOS where the player dismiss gesture wasn't w
+ orking correctly.
+URL:https://raynmahbub.github.io/OmniSource/feeds/jellify.json
+END:VEVENT
+END:VCALENDAR

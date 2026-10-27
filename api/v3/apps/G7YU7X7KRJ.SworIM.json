@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Monal",
     "bundleIdentifier": "G7YU7X7KRJ.SworIM",
@@ -37,7 +37,7 @@
             "fileType": "other",
             "size": 51486267,
             "sha256": "4f1d252f550ea87ac6ea300a0147ac68b2092ce221777a61e7bdcf983181c089",
-            "downloads": 7,
+            "downloads": 9,
             "mimeType": "application/octet-stream",
             "installable": false
           },
@@ -61,7 +61,7 @@
             "fileType": "IPA",
             "size": 39040077,
             "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
-            "downloads": 218,
+            "downloads": 258,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -73,7 +73,7 @@
             "fileType": "ZIP",
             "size": 47913063,
             "sha256": "196b09114dec2917f81f69232be00327bd430a6bec0ca9d1c290f35509a1fb78",
-            "downloads": 10,
+            "downloads": 11,
             "mimeType": "application/zip",
             "installable": false
           },
@@ -91,13 +91,27 @@
           }
         ],
         "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
-        "downloads": 218
+        "downloads": 258
       }
     ],
     "screenshotURLs": [
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/01_groupchats.png",
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/02_chats.png",
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/04_contacts.png"
+    ],
+    "minOSVersion": "16.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
     ],
     "appPermissions": {
       "entitlements": [],
@@ -135,8 +149,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-13",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
         "lastUpdatedAt": "2026-10-07"
       }
     },

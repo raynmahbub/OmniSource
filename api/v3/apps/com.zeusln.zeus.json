@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Zeus",
     "bundleIdentifier": "com.zeusln.zeus",
@@ -37,7 +37,7 @@
             "fileType": "other",
             "size": 861,
             "sha256": "ba54abd0b3d063b240cc9cec8d84a23136ed17e602bb38da673b36ffcb4c26eb",
-            "downloads": 26,
+            "downloads": 29,
             "mimeType": "text/plain",
             "installable": false
           },
@@ -61,7 +61,7 @@
             "fileType": "APK",
             "size": 99749394,
             "sha256": "d27b1841b434e3d0652935266aef3f02777435f66d4eb0f4f4e99606e2ecc96a",
-            "downloads": 1820,
+            "downloads": 1854,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -85,7 +85,7 @@
             "fileType": "APK",
             "size": 208343445,
             "sha256": "64cfed93c08748ce200579557a3d86be5e66f6cbccc52aaf457ff1185000bfed",
-            "downloads": 25,
+            "downloads": 26,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -109,16 +109,30 @@
             "fileType": "IPA",
             "size": 79812840,
             "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
-            "downloads": 161,
+            "downloads": 186,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
-        "downloads": 161
+        "downloads": 186
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "15.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "zeus",
       "status": "stable",
@@ -151,8 +165,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
         "lastUpdatedAt": "2026-10-12"
       }
     },

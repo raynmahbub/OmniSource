@@ -19,57 +19,119 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/NeoFreeBird.webp",
       "tintColor": "1D9BF0",
       "category": "social",
-      "version": "2.2",
-      "versionDate": "2025-11-03",
-      "versionDescription": "Twitter 2.2 | NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin\n\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\n\n### Change log:\n\n**Twitter, version 11.35:**\n- Updated the Twitter build to 11.35\n\n**NeoFreeBird, version 2.2:**\n- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]\n- Localized the Post > Tweet replacer\n- Improved the Open in Twitter extension\n- Minor bug fixes and other minor improvements\n\nThere are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you’re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.\n\nIf you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.",
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-      "size": 158452402,
+      "version": "7.2.0",
+      "versionDate": "2026-10-16",
+      "versionDescription": "Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33\n\n# Version 7.2.0\n\n## New Features\n- Added an option to choose the default reply sort\n- Updated X to 12.33\n- Added an option to hide retweets and quotes from the “For You” page\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\n- Brought back the Tweet source labels!\n- Removed the “Money” tab\n- Enabling the option to hide views now also hides it in the tweet footer.\n\n## Fixes\n- Fixed more webview issues\n- NeoFreeBird now more reliably filters out video ads\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\n- Added localization support for the “Show quote numbers option”\n- Fixed the app crashing when adding more than 1 account\n\n## Localizations\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\n\n## New Contributors\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139\n* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeBird/app/pull/142\n* @sekiranunn made their first contribution in https://github.com/NeoFreeBird/app/pull/140\n\n**Full Changelog**: https://github.com/NeoFreeBird/app/compare/v7.1.1...v7.2.0",
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+      "size": 259047406,
       "versions": [
         {
-          "version": "2.2",
-          "date": "2025-11-03",
-          "localizedDescription": "Twitter 2.2 | NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin\n\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\n\n### Change log:\n\n**Twitter, version 11.35:**\n- Updated the Twitter build to 11.35\n\n**NeoFreeBird, version 2.2:**\n- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]\n- Localized the Post > Tweet replacer\n- Improved the Open in Twitter extension\n- Minor bug fixes and other minor improvements\n\nThere are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you’re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.\n\nIf you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-          "size": 158452402,
+          "version": "7.2.0",
+          "date": "2026-10-16",
+          "localizedDescription": "Twitter 7.2.0 | NeoFreeBird-sideloaded-Twitter_7.2.0_12.33\n\n# Version 7.2.0\n\n## New Features\n- Added an option to choose the default reply sort\n- Updated X to 12.33\n- Added an option to hide retweets and quotes from the “For You” page\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\n- Brought back the Tweet source labels!\n- Removed the “Money” tab\n- Enabling the option to hide views now also hides it in the tweet footer.\n\n## Fixes\n- Fixed more webview issues\n- NeoFreeBird now more reliably filters out video ads\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\n- Added localization support for the “Show quote numbers option”\n- Fixed the app crashing when adding more than 1 account\n\n## Localizations\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\n\n## New Contributors\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139\n* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeBird/app/pull/142\n* @sekiranunn made their first contribution in https://github.com/NeoFreeBird/app/pull/140\n\n**Full Changelog**: https://github.com/NeoFreeBird/app/compare/v7.1.1...v7.2.0",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+          "size": 259047406,
           "minOSVersion": "15.0",
-          "releaseUrl": "https://github.com/NeoFreeBird/app/releases/tag/2.2",
+          "releaseUrl": "https://github.com/NeoFreeBird/app/releases/tag/v7.2.0",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
+              "filename": "com.nfb.tweak_7.2.0-1+debug_iphoneos-arm.deb",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/com.nfb.tweak_7.2.0-1%2Bdebug_iphoneos-arm.deb",
+              "platform": "linux",
+              "architecture": null,
+              "fileType": "DEB",
+              "size": 4781958,
+              "sha256": "3c85c34078c4b74f174974d4d1435d2f7ce131cf0fda238af8a4bc4630a0e301",
+              "downloads": 119,
+              "mimeType": "application/x-debian-package",
+              "installable": true
+            },
+            {
+              "filename": "com.nfb.tweak_7.2.0-1+debug_iphoneos-arm64.deb",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/com.nfb.tweak_7.2.0-1%2Bdebug_iphoneos-arm64.deb",
+              "platform": "linux",
+              "architecture": "arm64",
+              "fileType": "DEB",
+              "size": 4782026,
+              "sha256": "fbb2f2a9dc9d76c57261dbbfaa607ccc61ca66e25b6a66d23128dcac8aef9f67",
+              "downloads": 187,
+              "mimeType": "application/x-debian-package",
+              "installable": true
+            },
+            {
+              "filename": "NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 158452402,
-              "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-              "downloads": 23821,
+              "size": 259047406,
+              "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+              "downloads": 1813,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "NeoFreeBird-2.2-Twitter-11.35.ipa",
-              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35.ipa",
+              "filename": "NeoFreeBird-sideloaded-X_7.2.0_12.33.ipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-X_7.2.0_12.33.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 153108663,
-              "sha256": "964d8e009113dea7c29924a746bebbf5f50c29d61c1fd8656a91a8a765231db0",
-              "downloads": 22634,
+              "size": 262415275,
+              "sha256": "3af6d39257fa47568db88c9aa9f77ad7ce138688b7a00c4cd103f9944e5e5c66",
+              "downloads": 1342,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "NeoFreeBird-trollstore-Twitter_7.2.0_12.33.tipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-trollstore-Twitter_7.2.0_12.33.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 259036449,
+              "sha256": "d534a255ca3cbaebc09fec934a675728bc93fa20ca45d15dc586ca5fccf7ba8a",
+              "downloads": 181,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "NeoFreeBird-trollstore-X_7.2.0_12.33.tipa",
+              "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-trollstore-X_7.2.0_12.33.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 262404318,
+              "sha256": "b3e5f6b89e8dd3a12053a334cca5b0d5a9a373c2534878c0b60223bd33ba120e",
+              "downloads": 115,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-          "downloads": 23821
+          "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+          "downloads": 1813
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/1.png",
         "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/2.png",
         "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/main/3.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "neofreebird",
@@ -81,7 +143,7 @@
           "method": "github-release",
           "publisher": "NeoFreeBird/app",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": true
         },
         "compatibility": {
           "minOSVersion": "15.0",
@@ -99,13 +161,15 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
+          "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x+ builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
-          "lastUpdatedAt": "2025-11-03"
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
+          "lastUpdatedAt": "2026-10-16"
         }
       }
     }

@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 20792685,
               "sha256": null,
-              "downloads": 11339,
+              "downloads": 11415,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -57,7 +57,7 @@
               "fileType": "ZIP",
               "size": 25359639,
               "sha256": null,
-              "downloads": 12326,
+              "downloads": 12356,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -69,18 +69,33 @@
               "fileType": "IPA",
               "size": 16222375,
               "sha256": null,
-              "downloads": 1441,
+              "downloads": 1448,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 11339
+          "downloads": 11415,
+          "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589"
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_4/app-launch-home.png",
         "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_4/settings-main.png",
         "https://raw.githubusercontent.com/yattee/yattee/main/spec/ui_snapshots/baseline/iPhone_17_Pro/iOS_26_2/app-launch-home.png"
+      ],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "yattee",
@@ -114,8 +129,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
           "lastUpdatedAt": "2024-01-28"
         }
       }

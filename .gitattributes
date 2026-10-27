@@ -16,6 +16,11 @@ apps/*/index.html linguist-generated=true
 # gzip twins of the JSON API documents.
 *.json.gz binary
 
+# RFC 5545 requires CRLF; folded text may preserve spaces at line ends.
+*.ics -text whitespace=cr-at-eol,-blank-at-eol
+feeds/calendars/*.ics linguist-generated=true
+feeds/*.ics linguist-generated=true
+
 # Consistent text files across development platforms.
 *.json text eol=lf
 *.xml  text eol=lf

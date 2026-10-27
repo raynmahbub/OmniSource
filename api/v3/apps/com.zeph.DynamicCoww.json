@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "DynamicCow",
     "bundleIdentifier": "com.zeph.DynamicCoww",
@@ -37,17 +37,34 @@
             "fileType": "IPA",
             "size": 915515,
             "sha256": null,
-            "downloads": 137282,
+            "downloads": 137391,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "downloads": 137282
+        "downloads": 137391,
+        "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
+        "maxOSVersion": "16.1.2"
       }
     ],
     "screenshotURLs": [
       "https://raw.githubusercontent.com/matteozappia/DynamicCow/main/Images/IMG_2391.PNG",
       "https://raw.githubusercontent.com/matteozappia/DynamicCow/main/Images/IMG_2393.PNG"
+    ],
+    "minOSVersion": "16.0",
+    "maxOSVersion": "16.1.2",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
     ],
     "omnisource": {
       "slug": "dynamiccow",
@@ -81,8 +98,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
         "lastUpdatedAt": "2023-02-02"
       }
     },

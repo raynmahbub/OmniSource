@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:qBitControl releases
+BEGIN:VEVENT
+UID:qbitcontrol-1.4.1@omnisource
+DTSTAMP:20260723T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:qBitControl v1.4.1
+DESCRIPTION:qBitControl 1.4.1 | qBitControl\n\n## 📊 Performance & Effici
+ ency\n\n- **Reduced Data Usage:** Network traffic reduced by **93%** thank
+ s to optimized data syncing.\n- **Smooth Charts:** Statistics charts now s
+ croll continuously and smoothly instead of updating every two seconds.\n- 
+ **Responsive Progress Bars:** Progress indicators now feature fluid animat
+ ions for a more natural feel.\n\n## 🛠️ Interface & Usability\n\n- **C
+ ustom Headers:** Specify custom HTTP headers for server connections—offe
+ ring seamless support for reverse proxies and zero-trust networks (e.g.\, 
+ Cloudflare Access\, Authelia).\n- **Reworked Server Addition:** Redesigned
+  server setup and edit screens with an updated *Advanced* settings page an
+ d deferred saving.\n- **Limit Configuration:** Configure precise speed lim
+ its\, seeding time limits\, and share ratios for individual torrents direc
+ tly in-app.\n- **Cleaner Torrent List:** Torrent rows now adapt dynamicall
+ y to show the most relevant details depending on whether a transfer is dow
+ nloading\, seeding\, or paused.\n- **Repositioned Add Button:** Moved the 
+ "Add Torrent" button to the toolbar for cleaner\, more intuitive access.\n
+ - **Offline Banner:** A clear overlay banner now appears whenever your con
+ nection drops.\n- **In-App Logs:** Added a built-in log viewer to review a
+ nd easily share system events directly inside the app.\n\n## 🐛 Fixes & 
+ Refinements\n\n- **Self-Signed Certificate Support:** Full support for unt
+ rusted and self-signed SSL certificates\, making it easier to connect to h
+ ome-hosted servers.\n- **Stable RSS Downloads:** Fixed an issue in the RSS
+  view where tapping a row to download a torrent caused the confirmation sh
+ eet to glitch and reopen unexpectedly.\n- **Connection Timeouts:** Impleme
+ nted strict network timeouts to prevent the app from hanging indefinitely 
+ on the launch screen if a server is unresponsive.\n- **Clearer Error Alert
+ s:** If adding a `.torrent` file or magnet link fails\, a clear error mess
+ age now pops up explaining what went wrong.
+URL:https://raynmahbub.github.io/OmniSource/feeds/qbitcontrol.json
+END:VEVENT
+END:VCALENDAR

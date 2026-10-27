@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-24",
-  "feedVersion": "dc3a0fc423f4",
+  "generatedAt": "2026-10-27",
+  "feedVersion": "e1de41d98323",
   "app": {
     "id": "nuvio",
     "name": "Nuvio",
     "developer": "Nuvio Media",
     "subtitle": "Open-source media player, bring your own sources",
-    "bundleIdentifier": "com.nuvio.app",
+    "bundleIdentifier": "com.nuvio.media",
     "version": "0.6.4",
     "versionDate": "2026-10-23",
     "description": "Nuvio is a free, open-source media app for your phone, desktop and the TV you already own. Bring your own sources - Nuvio turns them into a library with artwork, ratings, subtitles and your place saved on every screen.",
@@ -31,7 +31,7 @@
     "feedURL": "https://raynmahbub.github.io/OmniSource/nuvio.json",
     "health": {
       "reachable": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "updatedAt": "2026-10-23"
     }
   },

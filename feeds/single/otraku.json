@@ -18,93 +18,107 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Otraku.webp",
       "tintColor": "00BFA5",
       "category": "other",
-      "version": "1.12.1",
-      "versionDate": "2026-03-20",
-      "versionDescription": "Otraku 1.12.1 | Otraku-v.1.12.1-ios15+\n\n- Added support for the new AniList notification types, which fixes the recent app errors.\n- Media activity filter has a \"Self\" option now (thanks @0-BlackSpectrum-0).\n- Bar charts in user/media statistics are not horizontal, more compact and more informative (thanks @0-BlackSpectrum-0).\n- Buttons on the user page are now a grid (thanks @0-BlackSpectrum-0).\n- Android app icon changes depending on light/dark mode (thanks @0-BlackSpectrum-0).\n- Fixed the status bar tint on older android versions (thanks @0-BlackSpectrum-0).\n- Fixed layout issues with the text being cut off.",
-      "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
-      "size": 9414861,
+      "version": "1.13.1",
+      "versionDate": "2026-09-22",
+      "versionDescription": "Otraku 1.13.1 | Otraku-v.1.13.1-ios17+\n\n- Added localizations support.\n- Added Turkish localization (thanks @kyoyacchi).\n- Unfinished messages are persisted in storage, so mistakenly closing the sheet won't cause you to loose your progress (thanks @0-BlackSpectrum-0).\n- Added progress and repeats info to the following tab in the media page. (thanks @0-BlackSpectrum-0).\n- Added \"Watchable On\"/\"Readable On\" filter in discover filters for anime/manga.\n- Added support for underline formatting.\n- Added support for the \"Same Universe\" media relation.\n- Made all markdown content selectable: activities, replies, threads, comments, user/character/staff bios, reviews and media descriptions.\n- Expanded images now have a menu with buttons to download the image or share it (thanks @0-BlackSpectrum-0).\n- The copy button in the link sheet was replaced by a share button.\n- Fixed the last item in the collection list sheet being cut off.\n- Fixed incorrect marker clipping of unread notifications (thanks @0-BlackSpectrum-0).\n- Fixed markdown not being rendered in list notes.\n- Fixed the back button briefly appearing on some tabs of the home page.",
+      "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
+      "size": 10342358,
       "versions": [
         {
-          "version": "1.12.1",
-          "date": "2026-03-20",
-          "localizedDescription": "Otraku 1.12.1 | Otraku-v.1.12.1-ios15+\n\n- Added support for the new AniList notification types, which fixes the recent app errors.\n- Media activity filter has a \"Self\" option now (thanks @0-BlackSpectrum-0).\n- Bar charts in user/media statistics are not horizontal, more compact and more informative (thanks @0-BlackSpectrum-0).\n- Buttons on the user page are now a grid (thanks @0-BlackSpectrum-0).\n- Android app icon changes depending on light/dark mode (thanks @0-BlackSpectrum-0).\n- Fixed the status bar tint on older android versions (thanks @0-BlackSpectrum-0).\n- Fixed layout issues with the text being cut off.",
-          "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
-          "size": 9414861,
+          "version": "1.13.1",
+          "date": "2026-09-22",
+          "localizedDescription": "Otraku 1.13.1 | Otraku-v.1.13.1-ios17+\n\n- Added localizations support.\n- Added Turkish localization (thanks @kyoyacchi).\n- Unfinished messages are persisted in storage, so mistakenly closing the sheet won't cause you to loose your progress (thanks @0-BlackSpectrum-0).\n- Added progress and repeats info to the following tab in the media page. (thanks @0-BlackSpectrum-0).\n- Added \"Watchable On\"/\"Readable On\" filter in discover filters for anime/manga.\n- Added support for underline formatting.\n- Added support for the \"Same Universe\" media relation.\n- Made all markdown content selectable: activities, replies, threads, comments, user/character/staff bios, reviews and media descriptions.\n- Expanded images now have a menu with buttons to download the image or share it (thanks @0-BlackSpectrum-0).\n- The copy button in the link sheet was replaced by a share button.\n- Fixed the last item in the collection list sheet being cut off.\n- Fixed incorrect marker clipping of unread notifications (thanks @0-BlackSpectrum-0).\n- Fixed markdown not being rendered in list notes.\n- Fixed the back button briefly appearing on some tabs of the home page.",
+          "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
+          "size": 10342358,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/lotusprey/otraku/releases/tag/v.1.12.1",
+          "releaseUrl": "https://github.com/lotusprey/otraku/releases/tag/v.1.13.1",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "Otraku-v.1.12.1-arm64-v8a.apk",
-              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-arm64-v8a.apk",
+              "filename": "Otraku-v.1.13.0-ios15.8.8+.ipa",
+              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.0-ios15.8.8%2B.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 10342207,
+              "sha256": "c049fc851b85c2fb88d1250e68a8aee96501de0579ef4a11f896cfc4d38cf530",
+              "downloads": 329,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Otraku-v.1.13.1-arm64-v8a.apk",
+              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-arm64-v8a.apk",
               "platform": "android",
               "architecture": "arm64",
               "fileType": "APK",
-              "size": 23415109,
-              "sha256": "5e969ddec02119291af2b7a8d52522dbb6e2ec61a7b74b6afa73d9f2e581129f",
-              "downloads": 1448,
+              "size": 24582062,
+              "sha256": "31a6c368b83bca6fd0b065009e43864e50f7da4aee74d217e0eea756e6afa015",
+              "downloads": 1182,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Otraku-v.1.12.1-armeabi-v7a.apk",
-              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-armeabi-v7a.apk",
+              "filename": "Otraku-v.1.13.1-armeabi-v7a.apk",
+              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-armeabi-v7a.apk",
               "platform": "android",
               "architecture": "armv7",
               "fileType": "APK",
-              "size": 21422445,
-              "sha256": "72395bf238183effd0a88a4e74d08b862a8d8c7e3ab51b5e5e7cb650f8a05867",
-              "downloads": 40,
+              "size": 22646136,
+              "sha256": "c68254c86370a8c0351dd4276f11a2dd4035990f6462e6187a14b7ebbf0f37f6",
+              "downloads": 28,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
             {
-              "filename": "Otraku-v.1.12.1-ios15+.ipa",
-              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
+              "filename": "Otraku-v.1.13.1-ios17+.ipa",
+              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 9414861,
-              "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-              "downloads": 766,
+              "size": 10342358,
+              "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+              "downloads": 31,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "Otraku-v.1.12.1-x86_64.apk",
-              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-x86_64.apk",
+              "filename": "Otraku-v.1.13.1-x86_64.apk",
+              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-x86_64.apk",
               "platform": "android",
               "architecture": "x86_64",
               "fileType": "APK",
-              "size": 24924063,
-              "sha256": "596e07884b849220f22bcba029092d9f1d577643b32ee14fb0acd07608d78ac0",
-              "downloads": 44,
+              "size": 26131369,
+              "sha256": "1a4225fd0cc87cbbe49934b4540631e37450feaf7de3a31a44624a1fbeaaedf5",
+              "downloads": 25,
               "mimeType": "application/vnd.android.package-archive",
-              "installable": true
-            },
-            {
-              "filename": "Otraku-v.1.12.1.ipa",
-              "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1.ipa",
-              "platform": "ios",
-              "architecture": null,
-              "fileType": "IPA",
-              "size": 9411410,
-              "sha256": "8c3b3cc43a6c778869c7e61a5e5ef4e10ab45169ae8488535c9d748530c578dc",
-              "downloads": 82,
-              "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-          "downloads": 766
+          "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+          "downloads": 31
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
         "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
         "https://raw.githubusercontent.com/lotusprey/otraku/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
+      ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [],
@@ -120,7 +134,7 @@
           "method": "github-release",
           "publisher": "lotusprey/otraku",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": true
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -141,10 +155,12 @@
           "notes": "Official IPA published by the developer on GitHub Releases."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
-          "lastUpdatedAt": "2026-03-20"
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
+          "lastUpdatedAt": "2026-09-22"
         }
       }
     }

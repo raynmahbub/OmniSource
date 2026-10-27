@@ -362,17 +362,15 @@ def audit_files_and_globals() -> tuple[list[str], list[str], list[str], list[str
         for cls in sorted(set(CSS_CLASS_RE.findall(stripped))):
             if len(cls) < 3:
                 continue
-            if (
-                not re.search(
-                    rf'class="[^"]*\b{re.escape(cls)}\b|class="[^"]*{re.escape(cls)}|data-[a-z-]+"\s*[:=].*{re.escape(cls)}|["\'\s.]{re.escape(cls)}["\'\s]',
-                    markup_all,
-                )
-                and cls not in markup_all
+            if cls not in markup_all and not re.search(
+                rf'class="[^"]*\b{re.escape(cls)}\b|class="[^"]*{re.escape(cls)}|data-[a-z-]+"\s*[:=].*{re.escape(cls)}|["\'\s.]{re.escape(cls)}["\'\s]',
+                markup_all,
             ):
                 unused_selectors.append(f"{rel(css_path)}: .{cls}")
 
     # --- Python top-level functions never referenced ----------------------
-    all_searchable = "\n".join(py_texts.values()) + "\n".join(js_texts.values()) + "\n".join(html_texts.values())
+    all_py_text = "\n".join(py_texts.values())
+    all_searchable = all_py_text + "\n".join(js_texts.values()) + "\n".join(html_texts.values())
     for path, text in sorted(py_texts.items()):
         if not rel(path).startswith("src/omnisource"):
             continue
@@ -384,12 +382,12 @@ def audit_files_and_globals() -> tuple[list[str], list[str], list[str], list[str
         for node in tree.body:
             if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and not node.name.startswith("_"):
                 # self-reference within the defining module doesn't count as use
-                own_uses = len(
-                    re.findall(rf"\b{re.escape(node.name)}\b", "\n".join(t for p, t in py_texts.items() if p != path))
-                )
-                export = len(re.findall(rf"{re.escape(node.name)}\b", all_searchable))
-                if own_uses == 0 and export <= len(re.findall(rf"\bdef {re.escape(node.name)}\b", text)):
-                    dead_python.append(f"{rel(path)}: {module}.{node.name}() has no callers outside its module")
+                word_pat = rf"\b{re.escape(node.name)}\b"
+                own_uses = len(re.findall(word_pat, all_py_text)) - len(re.findall(word_pat, text))
+                if own_uses == 0:
+                    export = len(re.findall(rf"{re.escape(node.name)}\b", all_searchable))
+                    if export <= len(re.findall(rf"\bdef {re.escape(node.name)}\b", text)):
+                        dead_python.append(f"{rel(path)}: {module}.{node.name}() has no callers outside its module")
 
     return unused_files, dead_globals, unused_selectors, dead_python
 

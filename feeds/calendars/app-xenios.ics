@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:XeniOS releases
+BEGIN:VEVENT
+UID:xenios-2.0.1@omnisource
+DTSTAMP:20260608T000000Z
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+SUMMARY:XeniOS v2.0.1
+DESCRIPTION:XeniOS 2.0.1 | xenios_ios_iphone_ipad\n\n# 2.0.1-9730\n\n- Chan
+ nel: release\n- Stage: stable\n- Version: 2.0.1\n- Build number: 9730\n- C
+ ommit: 57c3ca140\n- Published at: 2026-06-08T03:28:01Z\n- Source ref: refs
+ /heads/xenios
+URL:https://raynmahbub.github.io/OmniSource/feeds/xenios.json
+END:VEVENT
+END:VCALENDAR

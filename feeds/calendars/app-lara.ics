@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Lara releases
+BEGIN:VEVENT
+UID:lara-0.2@omnisource
+DTSTAMP:20260522T000000Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:Lara v0.2
+DESCRIPTION:lara 0.2 | lara_v0.2\n\n## UX Changes\n- Moved tweaks into its 
+ own accessible section\, and put Tools there at the bottom.\n- Moved logs 
+ out of the tab bar and into a toolbar item at the top of the primary views
+  (you can change this back in settings).\n- Settings has been completed re
+ organized\, with some new customization toggles for the app itself.\n\n## 
+ Applying/Handling\n- Fixed kernelcache weirdness (kernelcache is now fetch
+ ed locally)\n- Hybrid will now be used by default.\n\n## Tweaks\n- Rewrote
+  MobileGestalt View + Added a ton of tweaks! (thanks @jurre111)\n- Rewrote
+  Liquid Glass View with nice previewer.\n- Fixed Passcode + Add repo viewe
+ r (thanks @neonmodder123)\n- Add SpringBoard Customizer (thanks @leminlime
+ z and Cowabunga\, as well as @jurre111 for fixing the view)\n- Add SystemC
+ olor patcher.
+URL:https://raynmahbub.github.io/OmniSource/feeds/lara.json
+END:VEVENT
+END:VCALENDAR

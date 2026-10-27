@@ -3,8 +3,8 @@
 
 States: ``online`` (everything reachable), ``degraded`` (partial outage),
 ``offline`` (total outage). Keeps a 30-sample rolling history. With
-``--offline`` no request is made: the previous document is re-emitted with
-a refreshed timestamp (keeps scheduled runs hermetic when asked).
+``--offline`` no request is made and the previous snapshot is left untouched;
+an offline build must never make an old observation appear newly checked.
 
 Usage
 -----
@@ -21,7 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
 from omnisource.io import read_json, write_json
-from omnisource.probes import build_status, check_downloads, check_sources, utcnow
+from omnisource.probes import build_status, check_downloads, check_sources
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -43,9 +43,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.offline:
         previous = read_json(out)
         if isinstance(previous, dict):
-            previous["generatedAt"] = utcnow()
-            write_json(out, previous)
-            print(f"report_status: offline re-emit ({previous.get('overall', '?')}) -> {out}")
+            print(f"report_status: offline, preserving last check ({previous.get('overall', '?')}) -> {out}")
             return 0
         print("report_status: no previous status document; nothing to re-emit")
         return 1

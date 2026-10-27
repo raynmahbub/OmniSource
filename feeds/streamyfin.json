@@ -45,7 +45,7 @@
               "fileType": "APK",
               "size": 218533778,
               "sha256": "59c60176e5523f96085fdfc0ecaf360f867f2a37bb4dadbc9d7525d8ce26ebde",
-              "downloads": 1920,
+              "downloads": 2150,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -57,7 +57,7 @@
               "fileType": "APK",
               "size": 217470115,
               "sha256": "02b30ea3aad4ebcf97a6d1466f522c91648d3eebae017c4f6b5b6bc772036529",
-              "downloads": 223,
+              "downloads": 293,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -93,19 +93,33 @@
               "fileType": "IPA",
               "size": 73761532,
               "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-              "downloads": 99,
+              "downloads": 123,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-          "downloads": 99
+          "downloads": 123
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/02-library.png",
         "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/03-media-details.png",
         "https://raw.githubusercontent.com/streamyfin/streamyfin/develop/assets/images/screenshots/06-request-media.png"
+      ],
+      "minOSVersion": "16.4",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "streamyfin",
@@ -139,8 +153,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
           "lastUpdatedAt": "2026-10-16"
         }
       }

@@ -24,7 +24,7 @@ flowchart TB
   subgraph Core[Deterministic core]
     R[Source registry]
     N[Canonical identity / dedup]
-    H[Append-only release history]
+    H[Retained release history]
     E[Metadata enrichment]
     P[Reputation and provenance]
     S[Security and integrity gate]
@@ -73,9 +73,9 @@ flowchart TB
    only affected feeds/pages; unchanged JSON is not rewritten.
 8. **Publish** — every output passes validation and the security gate before
    the workflow's narrow commit allow-list can publish it.
-9. **Monitor and heal** — 30-minute anonymous probes update status, retry
-   transient failures, switch only to recorded mirrors, and schedule rebuilds
-   for missing metadata or releases.
+9. **Monitor and review** — anonymous probes record dated status separately.
+   Self-heal can propose a review copy only when a declared mirror matches the
+   expected SHA-256; it does not switch the published feed automatically.
 
 ## Boundaries and contracts
 
@@ -83,7 +83,7 @@ flowchart TB
 |---|---|---|
 | HTTP provider | HTTPS API/feed URL, timeout, capped body, host-scoped token | retry/backoff; no token on download URLs |
 | Discovery → validation | `data/discovered_sources.json` + discovery schema | malformed records go to quarantine |
-| Validator → publisher | `ValidationResult` / no errors + verified status | fail closed; no partial feed publication |
+| Validator → publisher | `ValidationResult` / no validation errors | malformed candidates are quarantined; source labels and checks do not prove binary safety |
 | Core → persistence | `Repository` protocol | JSON now; SQLite/DB-API adapters later |
 | Core → extensions | plugin protocols and event bus | unknown plugins are not imported |
 | Feed → clients | AltStore Source v2-compatible envelope | generated client/single/collection variants are validated |

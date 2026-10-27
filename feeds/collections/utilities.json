@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 14241853,
               "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
-              "downloads": 92073,
+              "downloads": 94331,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -57,19 +57,33 @@
               "fileType": "ZIP",
               "size": 22801338,
               "sha256": "618ae6eb1304b8154319f62d5acb7a841c3332ce775065ef7d60f1747deddff7",
-              "downloads": 2327,
+              "downloads": 2400,
               "mimeType": "application/zip",
               "installable": false
             }
           ],
           "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
-          "downloads": 92073
+          "downloads": 94331
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Library.png",
         "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Repos.png",
         "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Sign.png"
+      ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -109,8 +123,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
           "lastUpdatedAt": "2026-07-05"
         }
       }
@@ -150,7 +166,7 @@
               "fileType": "ZIP",
               "size": 19769424,
               "sha256": "380d816e2580f611e0a25f42c1a7e9e35bdf19745ab7808606aed60bb6dd1069",
-              "downloads": 685,
+              "downloads": 700,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -162,7 +178,7 @@
               "fileType": "IPA",
               "size": 24288935,
               "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
-              "downloads": 20691,
+              "downloads": 21224,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -174,16 +190,30 @@
               "fileType": "other",
               "size": 1189,
               "sha256": "7eb83556f122aea3f4c064f5b9910be89a2ebc9a91138f3cedc41baf82816180",
-              "downloads": 247,
+              "downloads": 253,
               "mimeType": "application/octet-stream",
               "installable": false
             }
           ],
           "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
-          "downloads": 20691
+          "downloads": 21224
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "itorrent",
         "status": "stable",
@@ -216,8 +246,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
           "lastUpdatedAt": "2026-07-19"
         }
       }
@@ -257,7 +289,7 @@
               "fileType": "IPA",
               "size": 35403538,
               "sha256": "97dc0fd2202fd4460efcab389943b8d5fdbb4988efff76b116b92b84a4662425",
-              "downloads": 473376,
+              "downloads": 485314,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -269,17 +301,31 @@
               "fileType": "IPA",
               "size": 4707271,
               "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
-              "downloads": 137641,
+              "downloads": 140634,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
-          "downloads": 137641
+          "downloads": 140634
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/release.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -324,8 +370,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-10-14",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
           "lastUpdatedAt": "2026-07-17"
         }
       }
@@ -365,19 +413,33 @@
               "fileType": "IPA",
               "size": 27770821,
               "sha256": "e334f86e6ceeab2e0d886c07611246533f474bb18838cf13ebc09ed1f0d622b5",
-              "downloads": 365316,
+              "downloads": 386934,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "e334f86e6ceeab2e0d886c07611246533f474bb18838cf13ebc09ed1f0d622b5",
-          "downloads": 365316
+          "downloads": 386934
         }
       ],
       "screenshotURLs": [
         "https://apps.sidestore.io/apps/sidestore/v0.1.1/browse-dark.png",
         "https://apps.sidestore.io/apps/sidestore/v0.1.1/apps-dark.png",
         "https://apps.sidestore.io/apps/sidestore/v0.1.1/news-dark.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -423,8 +485,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
           "lastUpdatedAt": "2026-09-15"
         }
       }

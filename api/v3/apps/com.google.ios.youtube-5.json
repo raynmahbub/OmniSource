@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "YouPro",
     "bundleIdentifier": "com.google.ios.youtube",
@@ -37,16 +37,30 @@
             "fileType": "IPA",
             "size": 131280986,
             "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-            "downloads": 234,
+            "downloads": 455,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-        "downloads": 234
+        "downloads": 455
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "16.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -104,8 +118,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
         "lastUpdatedAt": "2026-10-22"
       }
     },

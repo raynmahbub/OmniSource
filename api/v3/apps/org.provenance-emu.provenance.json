@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Provenance",
     "bundleIdentifier": "org.provenance-emu.provenance",
@@ -37,7 +37,7 @@
             "fileType": "IPA",
             "size": 1076407494,
             "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
-            "downloads": 14578,
+            "downloads": 14835,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -49,16 +49,30 @@
             "fileType": "IPA",
             "size": 781548550,
             "sha256": "fc2108d908843737d916c77444f79de4c1fc99b4681b2ba9eed10db5cb3e9f81",
-            "downloads": 992,
+            "downloads": 1022,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
-        "downloads": 14578
+        "downloads": 14835
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "17.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "provenance",
       "status": "stable",
@@ -91,8 +105,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
         "lastUpdatedAt": "2026-03-14"
       }
     },

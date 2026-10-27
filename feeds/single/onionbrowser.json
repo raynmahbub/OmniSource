@@ -44,19 +44,33 @@
               "fileType": "IPA",
               "size": 42254891,
               "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
-              "downloads": 217,
+              "downloads": 298,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
-          "downloads": 217
+          "downloads": 298
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/OnionBrowser/OnionBrowser/v3.4.1/fastlane/screenshots/en-US/1_iphone65_1.1.png",
         "https://raw.githubusercontent.com/OnionBrowser/OnionBrowser/v3.4.1/fastlane/screenshots/en-US/2_iphone65_2.2.png",
         "https://raw.githubusercontent.com/OnionBrowser/OnionBrowser/v3.4.1/fastlane/screenshots/en-US/3_iphone65_3.3.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "onionbrowser",
@@ -90,8 +104,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
           "lastUpdatedAt": "2026-10-19"
         }
       }

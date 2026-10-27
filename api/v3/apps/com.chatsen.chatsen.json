@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Chatsen",
     "bundleIdentifier": "com.chatsen.chatsen",
@@ -37,7 +37,7 @@
             "fileType": "APK",
             "size": 58858324,
             "sha256": "dd0e8ba5271832b526c745943db2929fe1b12b62931def00a64ef29cf8b43951",
-            "downloads": 153,
+            "downloads": 155,
             "mimeType": "application/vnd.android.package-archive",
             "installable": true
           },
@@ -49,16 +49,30 @@
             "fileType": "IPA",
             "size": 10009593,
             "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
-            "downloads": 486,
+            "downloads": 509,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
-        "downloads": 486
+        "downloads": 509
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "13.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [],
       "privacy": {}
@@ -95,8 +109,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-13",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
         "lastUpdatedAt": "2026-08-12"
       }
     },

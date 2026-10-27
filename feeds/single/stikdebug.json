@@ -44,19 +44,33 @@
               "fileType": "IPA",
               "size": 13543234,
               "sha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
-              "downloads": 30605,
+              "downloads": 36677,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
-          "downloads": 30605
+          "downloads": 36677
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/StikDebug/StikDebug/main/assets/views/dark/HomeScreen.PNG",
         "https://raw.githubusercontent.com/StikDebug/StikDebug/main/assets/views/dark/AppsList.PNG",
         "https://raw.githubusercontent.com/StikDebug/StikDebug/main/assets/views/dark/Settings.PNG"
+      ],
+      "minOSVersion": "17.4",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "stikdebug",
@@ -90,8 +104,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
           "lastUpdatedAt": "2026-10-15"
         }
       }

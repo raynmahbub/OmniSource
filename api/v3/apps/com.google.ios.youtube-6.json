@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "YouTubePlus",
     "bundleIdentifier": "com.google.ios.youtube",
@@ -37,13 +37,13 @@
             "fileType": "IPA",
             "size": 149834006,
             "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-            "downloads": 1145,
+            "downloads": 1896,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-        "downloads": 1145
+        "downloads": 1896
       },
       {
         "version": "21.33.6",
@@ -65,13 +65,13 @@
             "fileType": "IPA",
             "size": 145178333,
             "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-            "downloads": 194,
+            "downloads": 213,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-        "downloads": 194
+        "downloads": 213
       },
       {
         "version": "21.24.3",
@@ -93,13 +93,13 @@
             "fileType": "IPA",
             "size": 129031075,
             "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-            "downloads": 6417,
+            "downloads": 6441,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-        "downloads": 6417
+        "downloads": 6441
       },
       {
         "version": "20.21.6",
@@ -121,13 +121,13 @@
             "fileType": "IPA",
             "size": 115566999,
             "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-            "downloads": 312,
+            "downloads": 326,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-        "downloads": 312
+        "downloads": 326
       },
       {
         "version": "19.20.2",
@@ -149,19 +149,33 @@
             "fileType": "IPA",
             "size": 106247621,
             "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-            "downloads": 183,
+            "downloads": 191,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-        "downloads": 183
+        "downloads": 191
       }
     ],
     "screenshotURLs": [
       "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr1.jpg",
       "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr2.jpg",
       "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr3.jpg"
+    ],
+    "minOSVersion": "16.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
     ],
     "appPermissions": {
       "entitlements": [
@@ -198,7 +212,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YouProEXTRA",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "16.0",
@@ -220,8 +235,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
         "lastUpdatedAt": "2026-10-22"
       }
     },

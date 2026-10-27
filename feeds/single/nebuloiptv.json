@@ -4,18 +4,18 @@
   "apiVersion": "v2",
   "subtitle": "Single-app source",
   "description": "Single-app feed for Onside TV.",
-  "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
+  "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OnsideTV.webp",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
   "sourceURL": "https://raynmahbub.github.io/OmniSource/apps.json",
   "apps": [
     {
       "name": "Onside TV",
-      "bundleIdentifier": "personal.Nebulo-V2-3",
+      "bundleIdentifier": "tv.onside.app",
       "developerName": "mongoosemonke504",
       "subtitle": "IPTV player with built-in sports scores",
       "localizedDescription": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OnsideTV.webp",
       "tintColor": "1B5E20",
       "category": "photo-video",
       "version": "3.0.0",
@@ -44,17 +44,31 @@
               "fileType": "IPA",
               "size": 51168260,
               "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-              "downloads": 788,
+              "downloads": 874,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-          "downloads": 788
+          "downloads": 874
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/mongoosemonke504/OnsideTV/main/docs/screenshots/multiview.jpg"
+      ],
+      "minOSVersion": "26.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [],
@@ -70,7 +84,7 @@
           "method": "github-release",
           "publisher": "mongoosemonke504/OnsideTV",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": true
         },
         "compatibility": {
           "minOSVersion": "26.0",
@@ -92,8 +106,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
           "lastUpdatedAt": "2026-09-28"
         }
       }

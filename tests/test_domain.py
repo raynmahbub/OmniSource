@@ -118,6 +118,14 @@ class TestDomainModel(unittest.TestCase):
         raw.update(overrides)
         return App(slug=str(raw["slug"]), raw=raw)
 
+    def test_upstream_receives_the_catalog_bundle_identifier(self) -> None:
+        app = self._app(
+            upstream={"provider": "altstore", "feedURL": "https://repo.example.test/repo.json", "appId": "Demo"}
+        )
+        self.assertIsNotNone(app.upstream)
+        self.assertEqual(app.upstream.expected_bundle_id, "com.example.demo")
+        self.assertEqual(app.upstream.app_id, "Demo")
+
     def test_source_url_tracks_sideload_builder(self) -> None:
         """Apps whose sideload IPA is built by a fork link to that source."""
         app = self._app(
@@ -161,7 +169,7 @@ class TestDomainModel(unittest.TestCase):
     def test_update_event_to_json(self) -> None:
         event = UpdateEvent(
             app_id="spotiflac",
-            name="SpotiFLAC Mobile",
+            name="Mornye",
             version="4.9.6",
             previous_version="4.9.0",
             release_date="2026-09-07",

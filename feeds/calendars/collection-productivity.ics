@@ -1,0 +1,113 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Productivity releases
+BEGIN:VEVENT
+UID:tablehabit-1.27.15@omnisource
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Table Habit v1.27.15
+DESCRIPTION:Table Habit 1.27.15 | mhabit-unsigned\n\n# Released: v1.27.15+2
+ 04\n\n## ✨ Features\n\n- Integrate native desktop title bars and keep ap
+ p bars pinned while scrolling\n  (#677)\n  - Fuse macOS window controls wi
+ th adaptive toolbars and handle fullscreen\n    transitions\n  - Match nat
+ ive title bar colors to the app theme on Windows and Linux\n- Keep a manua
+ lly collapsed sidebar closed across layout and interface-style\n  changes 
+ within the current session (#679)\n- Restore desktop window size and posit
+ ion before the window first appears\n  (#681)\n  - Save ordinary window ge
+ ometry without treating fullscreen or maximized\n    bounds as the preferr
+ ed window size\n\n## 🐛 Fixes\n\n- Preserve open dialogs and their state
+  while updating theme colors\, and keep\n  dialog app bars consistent with
+  their local theme (#677)\n- Restore the Settings Back button when the sid
+ ebar and its collapsed toolbar\n  navigation are hidden (#678)\n\n## 🧹 
+ Others\n\n- Add desktop native regression tests and integrate them into lo
+ cal and CI\n  test workflows (#677)\n\n[Full Changelog](https://github.com
+ /FriesI23/mhabit/compare/v1.27.13+202...v1.27.15+204)
+URL:https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:aidoku-0.9@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Aidoku v0.9
+DESCRIPTION:Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a numb
+ er of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Im
+ proved webtoon reader memory usage (hopefully fixes crash after reading mu
+ ltiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n
+ - Various other bug fixes
+URL:https://raynmahbub.github.io/OmniSource/feeds/aidoku.json
+END:VEVENT
+BEGIN:VEVENT
+UID:stikdebug-3.1.15@omnisource
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:StikDebug v3.1.15
+DESCRIPTION:StikDebug 3.1.15 | StikDebug-3.1.15\n\n**Full Changelog**: http
+ s://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\nAttempt to fix
+  ServiceNotFound errors\, add debugging
+URL:https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json
+END:VEVENT
+BEGIN:VEVENT
+UID:stikdebug-3.1.14@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:StikDebug v3.1.14
+DESCRIPTION:StikDebug 3.1.14 | StikDebug-3.1.14\n\nAdd Husk support\n\n**Fu
+ ll Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.
+ 1.14
+URL:https://raynmahbub.github.io/OmniSource/feeds/stikdebug.json
+END:VEVENT
+BEGIN:VEVENT
+UID:tablehabit-1.27.13@omnisource
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Table Habit v1.27.13
+DESCRIPTION:Table Habit 1.27.13 | mhabit-unsigned\n\n# Released: v1.27.13+2
+ 02\n\n> Includes updates since the previous stable release\, v1.27.9+198.\
+ n\n## ✨ Features\n\n- Add adaptive\, collapsible side navigation with an
+  edge style on newer Apple\n  systems (#667)\n  - Preserve navigation stat
+ e\, search\, selection\, and page actions across\n    layout changes\n- Ap
+ ply app theme colors and custom palettes to the side navigation (#668)\n- 
+ Let users show or hide navigation destinations in the top toolbar when the
+ \n  Apple sidebar is collapsed (#671)\n- Adapt navigation and content safe
+  areas for iPhone Duo and compact-height\n  layouts (#674)\n- Scroll Habit
+ s and Today to the top when reselecting the active root tab\n  (#675)\n  -
+  Return nested pages to the tab's root before scrolling on a subsequent ta
+ p\n  - Respect reduced motion preferences and pages that prevent back navi
+ gation\n\n## 🐛 Fixes\n\n- Improve adaptive interaction styling\, keyboa
+ rd focus\, and action-menu\n  behavior (#669)\n- Keep search filters avail
+ able across layout changes (#669)\n- Align theme labels and Markdown typog
+ raphy (#669)\n- Refresh habit and group views as soon as synced changes ar
+ e applied\, while\n  preserving sync progress and in-progress edits (#672)
+ \n- Keep neutral action colors consistent across app bars\, dialogs\, sear
+ ch\,\n  sidebars\, and group actions\, and restore modal blur after nested
+  navigation\n  (#673)\n- Keep system status and navigation bars visible wh
+ ile the app launches\n\n## 🌐 Localization\n\n- Update Hebrew translatio
+ n\, thanks to Omer I.S.'s contribution on Weblate.\n\n## 🧹 Others\n\n- 
+ Pin Apple build and submission workflows to Xcode 27.0 (#674)\n- Raise the
+  minimum supported macOS version to 12.0 (#674)\n- Centralize generated-co
+ de formatting in the Melos workflow (#674)\n\n[Full Changelog](https://git
+ hub.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)
+URL:https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:bhtwitter-4.4@omnisource
+DTSTAMP:20250513T000000Z
+DTSTART;VALUE=DATE:20250513
+DTEND;VALUE=DATE:20250514
+SUMMARY:BHTwitter v4.4
+DESCRIPTION:BHTwitter 4.4 | BHTwitter-sideloaded\n\nUpdate BHTwitter 4.4:\n
+ - Fix all the crashes in the newer versions.\n- Add the new tabs to the hi
+ de page.\n- New feature: DM replay later page and tags.\n- New feature: Up
+ load 4K media.\n- New feature: Voice feature in posts and replies.\n- Upda
+ te the localizations.\n- Remove unnecessary options.\n\nThanks for:\n- @ac
+ tuallyaridan\n- @Tulugaak
+URL:https://raynmahbub.github.io/OmniSource/feeds/bhtwitter.json
+END:VEVENT
+END:VCALENDAR

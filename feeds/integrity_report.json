@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-27",
   "totals": {
     "apps": 128,
-    "pass": 82,
-    "warn": 46,
+    "pass": 115,
+    "warn": 13,
     "fail": 0,
     "rejected": 0
   },
@@ -20,25 +20,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "239cd9a10ad91bdd708bd84e1b75d6e8416a95d2b1e46e34e5e80cc58c324991",
-        "expectedSha512": null,
-        "expectedSize": 4604223,
-        "size": 4604223,
-        "sha256": "239cd9a10ad91bdd708bd84e1b75d6e8416a95d2b1e46e34e5e80cc58c324991",
-        "sha512": "05764d8fcf6530353d5d2616cd003eb44d4c7d9c65a41654a167faf034c2a7110bf20a70b1c7e542c87e50a6726405cc1521e07e1285177a06cafbd46d3bca1e",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 418
-      }
+      "status": "pass"
     },
     {
       "slug": "aidoku",
@@ -50,95 +43,79 @@
         "source": "github",
         "downloadUrl": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-        "expectedSha512": null,
-        "expectedSize": 14731108,
-        "size": 14731108,
-        "sha256": "86405861d3a0c90876a90aa1ca668bee54f4555a56249fede4444be5382833e8",
-        "sha512": "ea50092f10cc7f08b4de02fbe457c073e0ea131f65c1912ec97254eca3569a19cd3e8535f667aebc0574c8622d75fa7c2d539c4e7b694b70c7894354c3139337",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 455
-      }
+      "status": "pass"
     },
     {
       "slug": "airtroller",
       "name": "AirTroller",
       "asset": {
-        "sha256": null,
+        "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
         "size": 782388,
         "releaseId": "1.1.1",
         "source": "github",
         "downloadUrl": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 782388,
-        "size": 782388,
-        "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
-        "sha512": "e28262b59e54da41510e2481438788df4f3a85f82715b881cbdf5d6f06b54cfcd0104d71f729d957f559c50b946fa24a934179e0ebbf88098edaebf8e79d9a19",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 310
-      }
+      "status": "pass"
     },
     {
       "slug": "animationspeed",
       "name": "Animation Speed",
       "asset": {
-        "sha256": null,
+        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
         "size": 96650,
         "releaseId": "1.0.1",
         "source": "github",
         "downloadUrl": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 96650,
-        "size": 96650,
-        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
-        "sha512": "7f91369604bf195fd3df564b44df57bc9b68273b6fdc8f02eed059bc1bd82e3a6969cebc33971786185dbadfab3f1462eff939a067c1ad89f8f0c1a9ff3d7d52",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 241
-      }
+      "status": "pass"
     },
     {
       "slug": "animegen",
       "name": "AnimeGen",
       "asset": {
-        "sha256": null,
+        "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7",
         "size": 3026218,
         "releaseId": "3.0.0",
         "source": "github",
         "downloadUrl": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -146,19 +123,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 3026218,
-        "size": 3026218,
-        "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7",
-        "sha512": "5e898337d68cf562b7987f5a75eb206cc32720398b35d6045459dbe2319f898043dd416313a832586b7a2df0c8d713b4139baa4090d13ac1e90dcfc3bddda715",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 341
-      }
+      "status": "pass"
     },
     {
       "slug": "anxreader",
@@ -170,85 +135,64 @@
         "source": "github",
         "downloadUrl": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "a79bd247859d6a04dae81490aa7d8d970a830af7201415f4ec6aa370b74ae69b",
-        "expectedSha512": null,
-        "expectedSize": 28677588,
-        "size": 28677588,
-        "sha256": "a79bd247859d6a04dae81490aa7d8d970a830af7201415f4ec6aa370b74ae69b",
-        "sha512": "b7f509245730583876c315b478f6aa0fbba7c6d442b583a6939d32a6f6a9365d3fb7460cc5f51058ff578a2dc0c0a5e47aeb326d332424ff0b2e55c027656e32",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 516
-      }
+      "status": "pass"
     },
     {
       "slug": "anymex",
       "name": "AnymeX",
       "asset": {
-        "sha256": "b844eba2cde7ea276aeb79fc5ae5ee47c257eba7d9f3b49eae0af96ab13389b2",
-        "size": 39830598,
-        "releaseId": "3.1.8",
+        "sha256": "057dbcd47f9e6c56ce57d88934450c7557b4d4c848e731961466cb79a1615b1d",
+        "size": 81113053,
+        "releaseId": "3.1.9",
         "source": "github",
-        "downloadUrl": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.8/AnymeX-iOS-v3.1.8.ipa"
+        "downloadUrl": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "b844eba2cde7ea276aeb79fc5ae5ee47c257eba7d9f3b49eae0af96ab13389b2",
-        "expectedSha512": null,
-        "expectedSize": 39830598,
-        "size": 39830598,
-        "sha256": "b844eba2cde7ea276aeb79fc5ae5ee47c257eba7d9f3b49eae0af96ab13389b2",
-        "sha512": "c536eacd2168905616d906776951e1082238ed49c9f7c3b509dcc96c6db2242c34a108b74a55b2d899877e0392efc7ebdab738ea17fdacab5d18f6bf5bbf7b18",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 528
-      }
+      "status": "pass"
     },
     {
       "slug": "apollo",
       "name": "Apollo",
       "asset": {
-        "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
-        "size": 97026669,
-        "releaseId": "3.9.0",
+        "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
+        "size": 97618297,
+        "releaseId": "4.0.0",
         "source": "github",
-        "downloadUrl": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa"
+        "downloadUrl": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "46639569a12d367f3973c6a57e7769e83ee325b8614fa4385d5df70912544807",
-        "expectedSha512": null,
-        "expectedSize": 96132071,
-        "size": 96132071,
-        "sha256": "46639569a12d367f3973c6a57e7769e83ee325b8614fa4385d5df70912544807",
-        "sha512": "ab044821dad9e448bf6a1fd4f9e7ae94ccaa7a24a148a50c56d2ede85c7317e0e2e27fb27aa02bcddab875e15299d0557db28460f61e258743cd639f773ec63b",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1052
-      }
+      "status": "pass"
     },
     {
       "slug": "appstoreplusplus",
@@ -260,25 +204,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
-        "expectedSha512": null,
-        "expectedSize": 11078209,
-        "size": 11078209,
-        "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
-        "sha512": "fa4cb5b360ad5852f2ea913c8bf6bedefdc398c158e2db69723a4b0f7b33c503462ee2f062b10f3a30e632da38ba65efb6366bfe6b0ef9760afe3da9eaa9ff31",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 383
-      }
+      "status": "pass"
     },
     {
       "slug": "batteryinfo",
@@ -290,25 +227,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
-        "expectedSha512": null,
-        "expectedSize": 346882,
-        "size": 346882,
-        "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
-        "sha512": "63d4f75e40613fcaf4f6cd4fc9f925ac8faea5bd49877eb50aeab58cf9ab409725f53f6ac5e2f432e376fc76be260ceead8ef62d47bdef14274a454bf27e6a38",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 257
-      }
+      "status": "pass"
     },
     {
       "slug": "battman",
@@ -320,65 +250,56 @@
         "source": "github",
         "downloadUrl": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e290fec1b389c0c33e1af635c598f72fee1f39cfe22a7c0ca17c1919c5d8c060",
-        "expectedSha512": null,
-        "expectedSize": 675573,
-        "size": 675573,
-        "sha256": "e290fec1b389c0c33e1af635c598f72fee1f39cfe22a7c0ca17c1919c5d8c060",
-        "sha512": "0ad250758e177ce9611ea9dcfd732e7a257576ff8f575aed6a7e864c31983ba4dd25fbf1bc13ebef42b8e48bb008629ee739972ffd0a469697c210c2ca4f0d95",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 322
-      }
+      "status": "pass"
     },
     {
       "slug": "bhinstagram",
       "name": "BHInstagram",
       "asset": {
-        "sha256": null,
+        "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453",
         "size": 228416558,
         "releaseId": "1.2",
         "source": "github",
         "downloadUrl": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 228416558,
-        "size": 228416558,
-        "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453",
-        "sha512": "233d5c87691bc6a78ca5e39316133fab9fb0a4bba3be2b7bcc58658927c2dc90a6f6a665fed7bee444405773b11b5793231baea5d32249eabfd332a3dabe6bff",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1217
-      }
+      "status": "pass"
     },
     {
       "slug": "bhtwitter",
       "name": "BHTwitter",
       "asset": {
-        "sha256": null,
+        "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
         "size": 167001383,
         "releaseId": "4.4",
         "source": "github",
         "downloadUrl": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -386,19 +307,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 167001383,
-        "size": 167001383,
-        "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
-        "sha512": "3c5f52c4234890d9f158d44d50abf571e27f379beed5cdde30cb13ac9763ef71d2f321a2a879622ec1c65362bea9dbebb6375e6158d5eba2c1c4a27316c8a4d4",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1686
-      }
+      "status": "pass"
     },
     {
       "slug": "bluewallet",
@@ -410,25 +319,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c",
-        "expectedSha512": null,
-        "expectedSize": 29811150,
-        "size": 29811150,
-        "sha256": "a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c",
-        "sha512": "3c83b30d65f66f3a83e870190e95cb0b01272eb55d62accb33d31651b026acec638338dfaa2176716f0e746444f69cc2de962b67b460f7c06f630884ccedabcc",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 764
-      }
+      "status": "pass"
     },
     {
       "slug": "bootstrap",
@@ -440,25 +342,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
-        "expectedSha512": null,
-        "expectedSize": 55704386,
-        "size": 55704386,
-        "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
-        "sha512": "e2689621804093cf7438ba206ac4631aa10bcfcd8c6937f5e19654a104162896fa410de1e99d65c32d4dd36a517e54c8b8ba456245dd8031f113df97edc5c465",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 769
-      }
+      "status": "pass"
     },
     {
       "slug": "byetunes",
@@ -470,65 +365,56 @@
         "source": "github",
         "downloadUrl": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e21fb481fc6a1ba8d5702dc34c33afa522c8b799479e0f0a38ed4c98525a56fa",
-        "expectedSha512": null,
-        "expectedSize": 16815108,
-        "size": 16815108,
-        "sha256": "e21fb481fc6a1ba8d5702dc34c33afa522c8b799479e0f0a38ed4c98525a56fa",
-        "sha512": "f327f53b2a15567c2de63bd1ed7f150cd68e272a40a9ea874913eb9821472b2efd47282a212dcc04fb54f8bf80ccf1898621e6d0d1201735e0db7ae3ff4b0bc4",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 476
-      }
+      "status": "pass"
     },
     {
       "slug": "caperfhud",
       "name": "CAPerfHUD",
       "asset": {
-        "sha256": null,
+        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
         "size": 1058266,
         "releaseId": "1.0.2",
         "source": "github",
         "downloadUrl": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 1058266,
-        "size": 1058266,
-        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
-        "sha512": "0223dba47c4652edc5db25ab05a12da0e36c1aa10508f1a7b2c35095142f6e95171c4d2518d18b8d9ef470f6f67c58fa1d99bbc122f2dc512df1bb296f3867ee",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 313
-      }
+      "status": "pass"
     },
     {
       "slug": "cartube",
       "name": "CarTube",
       "asset": {
-        "sha256": null,
+        "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
         "size": 574441,
         "releaseId": "1.3",
         "source": "github",
         "downloadUrl": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -536,19 +422,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 574441,
-        "size": 574441,
-        "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
-        "sha512": "01416dc3f752ac12ff8e9b4c226c1625a9012a935d68522273586757f7051fa7a6a6baba9409b8a68708af9b544cf6a7b5970a763ffd5ac1c5c8eb48719552d7",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 312
-      }
+      "status": "pass"
     },
     {
       "slug": "cercube",
@@ -560,25 +434,18 @@
         "source": "",
         "downloadUrl": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 2017412,
-        "size": 2017412,
-        "sha256": "87b63c705bf65b25fbff5d4e16e88b2d92b2ae2a76136f348f8f58148751eab7",
-        "sha512": "3b5f515ef73270b96fe4c883dd0703bbf2fa0ad70d15129a3d5da7329c3e89e5e5f201f18a747ff113c261fa610d38dc8545c24318de874a32761f9e2158eeb6",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 799
-      }
+      "status": "pass"
     },
     {
       "slug": "chan",
@@ -590,25 +457,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "1a6ad6d5a90025ae81c7b77fa0039d37d4e06c6684989cd47fe526d14682f8e8",
-        "expectedSha512": null,
-        "expectedSize": 32710607,
-        "size": 32710607,
-        "sha256": "1a6ad6d5a90025ae81c7b77fa0039d37d4e06c6684989cd47fe526d14682f8e8",
-        "sha512": "fc4d77fbf4ee95ed8f1992c9ccc55a23be65071f849c48afb4a7deb03f6fffe087157e6c081f319ff7832cbc0f3056ea306450faf5fe4a2b5985c409f1ab1a53",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 601
-      }
+      "status": "pass"
     },
     {
       "slug": "chatsen",
@@ -620,25 +480,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
-        "expectedSha512": null,
-        "expectedSize": 10009593,
-        "size": 10009593,
-        "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
-        "sha512": "6f781b6f9b52339e039c9d7f6ec4f0fc23f336742ef251f7b828b7ae26b4a98b7fbc1f61218a06a584431a16f24b813a7c7b3d7154de85435e7c87af36fff52c",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 400
-      }
+      "status": "pass"
     },
     {
       "slug": "conduit",
@@ -650,25 +503,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "49eb748fa6f6787db236e23079083bcfb5129064092b69e04881750774b557cc",
-        "expectedSha512": null,
-        "expectedSize": 35930568,
-        "size": 35930568,
-        "sha256": "49eb748fa6f6787db236e23079083bcfb5129064092b69e04881750774b557cc",
-        "sha512": "144134ee20deb16649178e83c42cbb7fe33ff9b7c56d2588617dd2aefd1b46fe249b5a0eea45c3d97e997917beb700bb688b5d62e42852589b736ecadaded321",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 778
-      }
+      "status": "pass"
     },
     {
       "slug": "cosmos",
@@ -680,65 +526,56 @@
         "source": "github",
         "downloadUrl": "https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e8e2862e1b3a900e96569faf87c9c3e02d90b2c5b52ad854f6710d0ea36c91e9",
-        "expectedSha512": null,
-        "expectedSize": 12056869,
-        "size": 12056869,
-        "sha256": "e8e2862e1b3a900e96569faf87c9c3e02d90b2c5b52ad854f6710d0ea36c91e9",
-        "sha512": "27f3ab189f6b2858e834fef5faac978d7260bc241e52b772ecb7da21cdfeda4e1cf3f9fa920f21fac9bf2bb05e13c9e780479c4d1a63089d16f3c72e12067df8",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 606
-      }
+      "status": "pass"
     },
     {
       "slug": "cowabunga",
       "name": "Cowabunga",
       "asset": {
-        "sha256": null,
+        "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c",
         "size": 16288960,
         "releaseId": "10.3.2",
         "source": "github",
         "downloadUrl": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 16288960,
-        "size": 16288960,
-        "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c",
-        "sha512": "8da37e1c4514c1a985c8c4d3e66bb4c8ec8bf0a3e187c3d0c566e5f403800151a492c024078f6c8ed4071a3eb41bf624f13cba1b0bf0697d40f436b2bb2b7bf3",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 389
-      }
+      "status": "pass"
     },
     {
       "slug": "delta",
       "name": "Delta",
       "asset": {
-        "sha256": null,
+        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
         "size": 87734964,
         "releaseId": "1.6",
         "source": "github",
         "downloadUrl": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -746,19 +583,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 87734964,
-        "size": 87734964,
-        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
-        "sha512": "b9f899daa5b6c55b8ce7c363d26b9f586242094228cc8da4906560730b051080bdf610872819ee072e7ee7902b3f0e1fef917a1238c23ec419d659168d0fa95f",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 791
-      }
+      "status": "pass"
     },
     {
       "slug": "dolphinish",
@@ -770,25 +595,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "8460c194f0b24ab3a15594e800e1533cb14e90e0aa51527b3609c7ac0f9745c2",
-        "expectedSha512": null,
-        "expectedSize": 17963367,
-        "size": 17963367,
-        "sha256": "8460c194f0b24ab3a15594e800e1533cb14e90e0aa51527b3609c7ac0f9745c2",
-        "sha512": "6977dca172960feb611cea309e78c6e0581fd226d508a186bbfb6a4b26804893c3cee3444bbdc54180227e754598a7210c41c1809407e18ee8a05c0afa6c99b8",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 469
-      }
+      "status": "pass"
     },
     {
       "slug": "dopamine",
@@ -800,65 +618,56 @@
         "source": "github",
         "downloadUrl": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "ad0c4ea182b232346470df10439cfa2c1b7952e6b586113edfbc2720e455b201",
-        "expectedSha512": null,
-        "expectedSize": 55409206,
-        "size": 55409206,
-        "sha256": "ad0c4ea182b232346470df10439cfa2c1b7952e6b586113edfbc2720e455b201",
-        "sha512": "0fcf5c54eafb2cf377915575d55d391714c428431ceec11669be8a506462c34241e49fc341c15870896cca55e83f11566f810e2c339d48f1f495cfb1fb8f9683",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 547
-      }
+      "status": "pass"
     },
     {
       "slug": "dopamine-roothide",
       "name": "Dopamine (RootHide)",
       "asset": {
-        "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-        "size": 54863273,
-        "releaseId": "2.4.9.27",
+        "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+        "size": 55497406,
+        "releaseId": "3.0.12-28",
         "source": "github",
-        "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa"
+        "downloadUrl": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-        "expectedSha512": null,
-        "expectedSize": 54863273,
-        "size": 54863273,
-        "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
-        "sha512": "bced08006cc62862f52abca0efd6f1b7c7b3738afd7ead6324957243d45576fc2a49eb02ec66b17c2bd65318dc8d5542aafa3c6f8d96c10996d5d9bcaf5eeb2e",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 585
-      }
+      "status": "pass"
     },
     {
       "slug": "dynamiccow",
       "name": "DynamicCow",
       "asset": {
-        "sha256": null,
+        "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
         "size": 915515,
         "releaseId": "1.1",
         "source": "github",
         "downloadUrl": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -866,19 +675,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 915515,
-        "size": 915515,
-        "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
-        "sha512": "de035d1001710ea0f1d27147271f3fc7405305aa9922bfb0b0e137580b57530e4e465cc167e2794ca71f83835d701476acad833563a887abbad66238303ba413",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 323
-      }
+      "status": "pass"
     },
     {
       "slug": "eclipse",
@@ -889,6 +686,11 @@
         "releaseId": "2.3.0",
         "source": "github",
         "downloadUrl": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -902,11 +704,16 @@
       "slug": "enablequic",
       "name": "EnableQUIC",
       "asset": {
-        "sha256": null,
+        "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9",
         "size": 362372,
         "releaseId": "1.2.4",
         "source": "github",
         "downloadUrl": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -914,19 +721,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 362372,
-        "size": 362372,
-        "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9",
-        "sha512": "140a45606a67b89780d189efea5b80a1e0dfe6851201ddbb246cdf6b8bba62dbdfdd579f8cbd6a99f368b36649ca7425f7cb36a98cd86401d5b04b3330c14472",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 305
-      }
+      "status": "pass"
     },
     {
       "slug": "escapeos",
@@ -938,25 +733,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2",
-        "expectedSha512": null,
-        "expectedSize": 7274676,
-        "size": 7274676,
-        "sha256": "234b2f0dc379fc4ea818eeff6f712edbe9e7d6d63d614ea74c7b717ecc73bbf2",
-        "sha512": "92c7cb0659d77faf41403facb2aa73b9532ffc14709512a60f068c68d9f156c22cbfa753ecf55ca3922833b3b250fece964bc5d6d23fd78204b131b0a2c4fbf7",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 357
-      }
+      "status": "pass"
     },
     {
       "slug": "feather",
@@ -968,25 +756,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
-        "expectedSha512": null,
-        "expectedSize": 14241853,
-        "size": 14241853,
-        "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
-        "sha512": "eec1669597ab1b81bc4328f6f001db8fc9db0e72649dc5e3a84a816f8e47756471f7281e7ea83997df4be8d5f84289988186d16a28117b3248a80b4e2a6c7800",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 419
-      }
+      "status": "pass"
     },
     {
       "slug": "fladder",
@@ -998,35 +779,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e9538c2a3a7acc1d6d3d97ab69b6bddcf6bc5763dcd520139c8450ce8604fc3c",
-        "expectedSha512": null,
-        "expectedSize": 41137245,
-        "size": 41137245,
-        "sha256": "e9538c2a3a7acc1d6d3d97ab69b6bddcf6bc5763dcd520139c8450ce8604fc3c",
-        "sha512": "a63ae726a67dc16c8c03facf99f1deed38c43656934fd0c441ecce1f68e56e553e23f155b231a22a4de142c18f779b6733f9317d1879f852da9fedad5789112b",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 518
-      }
+      "status": "pass"
     },
     {
       "slug": "glow",
       "name": "Glow",
       "asset": {
-        "sha256": null,
-        "size": 149902625,
-        "releaseId": "2026.42.0",
-        "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa"
+        "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
+        "size": 226667533,
+        "releaseId": "577.1",
+        "source": "",
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1034,19 +813,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 226667533,
-        "size": 226667533,
-        "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
-        "sha512": "309cc680b553edc0d7ec9ae298410820d2e83d233acc5f3021eb565172b308444fabc8fdc4e28b0806214a3872c983fa22dace4a8570f1206cfb3b3b050eb2f8",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 4622
-      }
+      "status": "pass"
     },
     {
       "slug": "gopeed",
@@ -1058,95 +825,79 @@
         "source": "github",
         "downloadUrl": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "3f024956a28c27e20bb28bee519c0236b46ba496770a3ce368c20b093b1b20fa",
-        "expectedSha512": null,
-        "expectedSize": 27488140,
-        "size": 27488140,
-        "sha256": "3f024956a28c27e20bb28bee519c0236b46ba496770a3ce368c20b093b1b20fa",
-        "sha512": "cf8ee14a0d2a8c362cfd42abeb47fd18e89daa0dc58d490a4716b4694be67f6c64b56b9298a1b018056435fe8e5a1ed68e998c2d41f5b9b396d61588ecc25275",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 528
-      }
+      "status": "pass"
     },
     {
       "slug": "hanami",
       "name": "Hanami",
       "asset": {
-        "sha256": null,
+        "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
         "size": 6305751,
         "releaseId": "0.28.2",
         "source": "github",
         "downloadUrl": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 6305751,
-        "size": 6305751,
-        "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
-        "sha512": "b8be761302214dd28e48213caf43118d454d0c6c1495433bed490c8c37cd6656099f59362e02d19ce81682afaabcbf36b53f19101ea55670bc2270ff6ed59c2e",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 423
-      }
+      "status": "pass"
     },
     {
       "slug": "helium",
       "name": "Helium",
       "asset": {
-        "sha256": null,
+        "sha256": "120a6c1002885d6c3ac1b8dbbe62cc91b66c8bd79955f3034a191dec93fc77fd",
         "size": 4168281,
         "releaseId": "3.2.5",
         "source": "github",
         "downloadUrl": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 4168281,
-        "size": 4168281,
-        "sha256": "120a6c1002885d6c3ac1b8dbbe62cc91b66c8bd79955f3034a191dec93fc77fd",
-        "sha512": "28206120f6e3ba4d3b33957ec9babf4d8768c78a996738b9905ded422680fa45091961dc9a3ab8a2e20971890bdd7ce3c71617eb9b2a7e4103ceddadd528dbc1",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 394
-      }
+      "status": "pass"
     },
     {
       "slug": "ime",
       "name": "iMe MxGram",
       "asset": {
-        "sha256": null,
-        "size": 139224713,
+        "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
+        "size": 148174542,
         "releaseId": "12.8.1",
-        "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa"
+        "source": "",
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1154,19 +905,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 148174542,
-        "size": 148174542,
-        "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
-        "sha512": "8fb688cb6f649f15e69aa9e40495132e0813ba4efb2b09202b44be5479597d083e28f9b82210ac8405b538716e96cee193954e7be51bdfd85dc1282fb428e141",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 3105
-      }
+      "status": "pass"
     },
     {
       "slug": "infuseplus",
@@ -1178,25 +917,18 @@
         "source": "altstore",
         "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 99611121,
-        "size": 99611121,
-        "sha256": "bf46327b23aad2a86478b69f3542adee6bc84410afd5ce9870c1e3ace36b8304",
-        "sha512": "d4e6c04a29f7ca2d64904028798fe644fd0bd4a672d825c944dfd7be729ce732b411ff3411a0e3144b477032789bbefb3fc06c0dcda49422b02aa369669a6bc0",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2286
-      }
+      "status": "warn"
     },
     {
       "slug": "inkillerplus",
@@ -1208,55 +940,41 @@
         "source": "altstore",
         "downloadUrl": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 247462182,
-        "size": 247462182,
-        "sha256": "3c1eeecf033521c2ff14f0e6d06c0a4cf2ca23abb1a7d39c630da6069b78d070",
-        "sha512": "b22e07fb1a5ae4873d156e5801fd904c6bc835a2637725886b6451553852e67280730d61b63f09bcd0096b2c63d8344e7465e0451ebf1330a152d5c260f80133",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 3421
-      }
+      "status": "warn"
     },
     {
       "slug": "iqface",
       "name": "iQFace",
       "asset": {
         "sha256": null,
-        "size": 239358167,
-        "releaseId": "584.0.0",
+        "size": 241651824,
+        "releaseId": "584.1.0",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa"
+      },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 228632105,
-        "size": 228632105,
-        "sha256": "6f6e5c4a02b3d9a096b317c31da468aadc17445a53dde0cd797312534617ae4b",
-        "sha512": "a90eee340b29502ea39ec9ad35334d6ecc7b851f8601c51893ad45050c12faf07ca5c5681596bfd0558fd5c0a9d472c2c71dd77e6aa393e88294c4aab51c5178",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 15642
-      }
+      "status": "warn"
     },
     {
       "slug": "ish",
@@ -1268,25 +986,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "f2d389ca859d380e2f53259a245340e22c64dba68db73f5977f75a3464e1ee3d",
-        "expectedSha512": null,
-        "expectedSize": 4602446,
-        "size": 4602446,
-        "sha256": "f2d389ca859d380e2f53259a245340e22c64dba68db73f5977f75a3464e1ee3d",
-        "sha512": "6dabf01134b155334f7e8255873c908653a9b875475559bb3298c10bc056e120d05997e09da76a38ab8e3b331b07fd40fd1ea829c682bf389539558cfb9e0df0",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 425
-      }
+      "status": "pass"
     },
     {
       "slug": "itorrent",
@@ -1298,35 +1009,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
-        "expectedSha512": null,
-        "expectedSize": 24288935,
-        "size": 24288935,
-        "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
-        "sha512": "1ab157d739677214df510f74171061b1bc8a6105cf698cf96d7ed9c504b537fc71b63eb0d66cbb60fa5f2f6dcf5a3e7333c3966fa3014bec28601751923cf955",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 444
-      }
+      "status": "pass"
     },
     {
       "slug": "itransmission",
       "name": "iTransmission",
       "asset": {
-        "sha256": null,
+        "sha256": "ded952869d151799271a31534f0d3ac2de18399171fba0c4351132eecf82bd48",
         "size": 3718662,
         "releaseId": "1.0.0",
         "source": "github",
         "downloadUrl": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1334,19 +1043,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 3718662,
-        "size": 3718662,
-        "sha256": "ded952869d151799271a31534f0d3ac2de18399171fba0c4351132eecf82bd48",
-        "sha512": "dea33b6b22b75f68f204db98e183ff6c9ed4314d01acfb2513ab7d809470ebd874c365feb75adab0ec3e66b889b45948df26fc89a42d54a16b79a3c5cf882cf9",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 393
-      }
+      "status": "pass"
     },
     {
       "slug": "jellify",
@@ -1358,25 +1055,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "6e56654ab690f2a4de1cca38ef3e5c73c2fcafe34c65782d7a290fa7c91c0224",
-        "expectedSha512": null,
-        "expectedSize": 40554164,
-        "size": 40554164,
-        "sha256": "6e56654ab690f2a4de1cca38ef3e5c73c2fcafe34c65782d7a290fa7c91c0224",
-        "sha512": "714620e1053dc70886a61198a6755e7fab5e46ced9df841aedb52d26f571703cb447b2a14787b3019819d801c5a31b0738e0ee83f39305b94b280aa12fd26e13",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 685
-      }
+      "status": "pass"
     },
     {
       "slug": "jellybook",
@@ -1388,25 +1078,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-        "expectedSha512": null,
-        "expectedSize": 14640159,
-        "size": 14640159,
-        "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
-        "sha512": "1064a6e08b2091c6823112ecc92e7edbd76d044225822a1cfdef1e33bc57246f2cac8f7840c52420289dd8810ef7ddd08f6174245326f7c57b99bab098982ab2",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 523
-      }
+      "status": "pass"
     },
     {
       "slug": "ksign",
@@ -1418,25 +1101,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Nyasami/Ksign/releases/download/v1.6/Ksign.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "57fbab135bdcd584faf095099f0913df634ce17081bc164ce82f3d91e3978483",
-        "expectedSha512": null,
-        "expectedSize": 16394645,
-        "size": 16394645,
-        "sha256": "57fbab135bdcd584faf095099f0913df634ce17081bc164ce82f3d91e3978483",
-        "sha512": "5a3a4a929a3059066aa6675b7cc283f1147018c9acdcb117ec4dc721646f8c867e07c559baa30a0c234e27e2ac66b38ecc6a44517b45183bc082859bd6d2b8ce",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 468
-      }
+      "status": "pass"
     },
     {
       "slug": "lara",
@@ -1448,25 +1124,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
-        "expectedSha512": null,
-        "expectedSize": 5474210,
-        "size": 5474210,
-        "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
-        "sha512": "4b1f5d4c05961f4ae73914c2e7adb0754fb00a2bc7cb52352e29a7fc3262728d2bd4fe66fef771089f8fbd7d167c5723894f0af0b58e5c7efbbb14353be881fa",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 328
-      }
+      "status": "pass"
     },
     {
       "slug": "livecontainer",
@@ -1478,35 +1147,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
-        "expectedSha512": null,
-        "expectedSize": 4707271,
-        "size": 4707271,
-        "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
-        "sha512": "2d61a82e88094e60be2f003c97dec6ecac7b405c5751ab7dffeb09c550c0a4946eb16adfdb5fa249c26e7cc2e99d60d179b57b5d0be79f929ddfd6ed84e95607",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 406
-      }
+      "status": "pass"
     },
     {
       "slug": "mame4ios",
       "name": "MAME4iOS",
       "asset": {
-        "sha256": null,
+        "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
         "size": 52332306,
         "releaseId": "2022.5",
         "source": "github",
         "downloadUrl": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1514,19 +1181,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 52332306,
-        "size": 52332306,
-        "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
-        "sha512": "b7bcd146073aea4b7df214df363d685e89bc3973cab82aa994aee3e1a31da732a409b92af09564c5a9052f806cada2b11f8950d573bdabe83cd10bd0bf7dcc71",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 718
-      }
+      "status": "pass"
     },
     {
       "slug": "mangayomi",
@@ -1538,25 +1193,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "dbea3b1243ee3be2e75ad0b6d97681aafb5b94ed942cb16e747b03bda130adf8",
-        "expectedSha512": null,
-        "expectedSize": 114296014,
-        "size": 114296014,
-        "sha256": "dbea3b1243ee3be2e75ad0b6d97681aafb5b94ed942cb16e747b03bda130adf8",
-        "sha512": "74b0311324cdd2957d1e7285e9003af4e1498c6c5fb1e4e731e3260cb78b70a3207ab89ee29c695b0ccb73251a17f4b9b5976fadfd5448b4baf12a2a5c6a0e1b",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1088
-      }
+      "status": "pass"
     },
     {
       "slug": "manicemu",
@@ -1568,25 +1216,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "b670b1c1c538325d82ff2c74ebacd97c9fb338af6dc8516cccbfade882147b71",
-        "expectedSha512": null,
-        "expectedSize": 288525117,
-        "size": 288525117,
-        "sha256": "b670b1c1c538325d82ff2c74ebacd97c9fb338af6dc8516cccbfade882147b71",
-        "sha512": "8e3355e2aada07d02c4d607ab47060ee3d464801c2ced973704668f4351e9c47dfc5c36f760a22667be5ff088d837e1c535a04d0700ffcf21cc499d806b13793",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1596
-      }
+      "status": "pass"
     },
     {
       "slug": "maxmusic",
@@ -1598,25 +1239,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-        "expectedSha512": null,
-        "expectedSize": 106518711,
-        "size": 106518711,
-        "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-        "sha512": "354d547a9f48087cd3a2af9d850fa017d6b3c0dd3948fd3d54cce95112bab658f50869db7a8341cac24b4b04a3e4df194c2706ca11833b03e74ea27a3def1023",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 870
-      }
+      "status": "pass"
     },
     {
       "slug": "maxtube",
@@ -1628,25 +1262,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-        "expectedSha512": null,
-        "expectedSize": 133357787,
-        "size": 133357787,
-        "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-        "sha512": "22c467318a245a81a3e4b95f8eddfdfc57d785f22f82ed9726c6a3b23ee2ffdb95765d255bd080ca5ab2d905d5c6072d92f7dd21ec64e82ecac29f2f2ed27e17",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2118
-      }
+      "status": "pass"
     },
     {
       "slug": "messenger-flow",
@@ -1658,35 +1285,33 @@
         "source": "altstore",
         "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 112483407,
-        "size": 112483407,
-        "sha256": "92e54f153b2daadc71b9bed796a63a18aa47ffe911681ee0040455a5c36f8da9",
-        "sha512": "4efe9a0b2ad7e34a533eb58f06bffa69251793dca94ea3a24a33fb56f55e17fd8047937a5cbffa7c2cd5322b91181626c6de6ed5b729a08945fe0d241670332f",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 5928
-      }
+      "status": "warn"
     },
     {
       "slug": "minivmac",
       "name": "Mini vMac",
       "asset": {
-        "sha256": null,
+        "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4",
         "size": 668434,
         "releaseId": "2.6",
         "source": "github",
         "downloadUrl": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1694,19 +1319,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 668434,
-        "size": 668434,
-        "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4",
-        "sha512": "6d94b07f6e47f9a65adfc88114882633a7da181d7dca3fe7d3cd49140479a47e11d9a62a0ed902d5ede7d7a0e276e9245f34e5423944ab6ef20e41df20fa4a89",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 320
-      }
+      "status": "pass"
     },
     {
       "slug": "monal",
@@ -1718,25 +1331,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "73c1d4e53ed347094ef2240574f8006b740ef33b896869bcdf94b4c099ce2d50",
-        "expectedSha512": null,
-        "expectedSize": 38349660,
-        "size": 38349660,
-        "sha256": "73c1d4e53ed347094ef2240574f8006b740ef33b896869bcdf94b4c099ce2d50",
-        "sha512": "a1bf6a8f5deea88bcf01abb2e3fe63292d3eed44327f64a15dbb9b81becaa31deb8e6c1dff01a4bbc975937827c8277088ba2587a4311d1a91f5180cb8931786",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 889
-      }
+      "status": "pass"
     },
     {
       "slug": "msgplusx",
@@ -1748,25 +1354,18 @@
         "source": "altstore",
         "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-MSGPlusX.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 112520493,
-        "size": 112520493,
-        "sha256": "9e807b9f8e4b42c97791529209120965d41d9c707d391d5ffb45e3063fc52363",
-        "sha512": "53f87268251ff23e78a4bd7b841d8c420460596f52481b5cf7688c04b6729b011d1dfae0546fa3e07f0ae1469545f3a89e3d5532d38928ddeb98049538778e18",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 3413
-      }
+      "status": "warn"
     },
     {
       "slug": "muffinstore",
@@ -1778,35 +1377,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
-        "expectedSha512": null,
-        "expectedSize": 126091,
-        "size": 126091,
-        "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
-        "sha512": "ad210c958585f232be505b246b04eebaf66cb803ce0e968ed7bb3573c2be30239f0d1ebb98ed2077f7bc23de48e8463774e0e3616b754c9a0c43aba4a5028b93",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 275
-      }
+      "status": "pass"
     },
     {
       "slug": "mugunghwa",
       "name": "Mugunghwa",
       "asset": {
-        "sha256": null,
+        "sha256": "df6d6273ccb7bb77d4de9426822f68b343890ea180992fdecffe822706c9f636",
         "size": 3889341,
         "releaseId": "3.0.2",
         "source": "github",
         "downloadUrl": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1814,19 +1411,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 3889341,
-        "size": 3889341,
-        "sha256": "df6d6273ccb7bb77d4de9426822f68b343890ea180992fdecffe822706c9f636",
-        "sha512": "4ac8fecf74fa063cf78924c8eeec50d404f470b56e79f58485942400927f99db6c0f915c1fbbe452d82f58ba3e5c29739bf5c26cfc5506de27e1a2f22f620f34",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 378
-      }
+      "status": "pass"
     },
     {
       "slug": "nebuloiptv",
@@ -1838,55 +1423,41 @@
         "source": "github",
         "downloadUrl": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e174466ca2d39a1229e3b52a4d3ef28b1dcd74cc4f8438777bf3526c3eef88e4",
-        "expectedSha512": null,
-        "expectedSize": 56279112,
-        "size": 56279112,
-        "sha256": "e174466ca2d39a1229e3b52a4d3ef28b1dcd74cc4f8438777bf3526c3eef88e4",
-        "sha512": "01df80aa1d9b44726ee12da95b8f7d135acef5c253fdafdd7603265dc16344796791b8c7348f1b00870d3631b3add6ba8accac42229ace6a1a702a27dd8bd23d",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 860
-      }
+      "status": "pass"
     },
     {
       "slug": "neofreebird",
       "name": "NeoFreeBird",
       "asset": {
-        "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-        "size": 158452402,
-        "releaseId": "2.2",
+        "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+        "size": 259047406,
+        "releaseId": "7.2.0",
         "source": "github",
-        "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa"
+        "downloadUrl": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-        "expectedSha512": null,
-        "expectedSize": 158452402,
-        "size": 158452402,
-        "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
-        "sha512": "4367d7d88322945a3920e88dc20498bbbb9b4d5db63d28699c2ac116dd78c78d87bd10676aaf4cddf729e9d78a28d0e0e8a2344fd0c4d85ae3fb4fc3ec18c12a",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1961
-      }
+      "status": "pass"
     },
     {
       "slug": "nexasc",
@@ -1898,25 +1469,18 @@
         "source": "altstore",
         "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 115827879,
-        "size": 115827879,
-        "sha256": "e3afd789944c65d5c6109826e49211878f989b9eeaf64107cbfc69f6808d6a40",
-        "sha512": "3b26181a4f904386c684aa357cae53426dc7d6c8e0b439b286bc56c2a2147bc4238181e0106595bc66f97a12a9c4dd47d201557e8853438c8c42182a08c81277",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2729
-      }
+      "status": "warn"
     },
     {
       "slug": "nicegram",
@@ -1928,25 +1492,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "2e884638cdbf264ef472449f83d244d5e8e32766fef7b29f76109db788f614cb",
-        "expectedSha512": null,
-        "expectedSize": 126339077,
-        "size": 126339077,
-        "sha256": "2e884638cdbf264ef472449f83d244d5e8e32766fef7b29f76109db788f614cb",
-        "sha512": "25ba6d3af28bf01140500de4517ec7ae9c43c17460759cd052553e7d8ded9c8f773f84882190090fbb160fafa71500aa0ae5e0c6997ea827f655ea8e457a833c",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 984
-      }
+      "status": "pass"
     },
     {
       "slug": "nuvio",
@@ -1958,35 +1515,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "50bb70d89a4201070840b7530ea730e1bf2c603c72a1bdfed48126740d6dde07",
-        "expectedSha512": null,
-        "expectedSize": 65234840,
-        "size": 65234840,
-        "sha256": "50bb70d89a4201070840b7530ea730e1bf2c603c72a1bdfed48126740d6dde07",
-        "sha512": "6a6f88997e30aa48e557c95caab9105870134f4ebb173081d31ea7257b1b9cc72db3aeac1d05d09b89dea539c61cf00cbaed7e5538d50c51a1cef4b6a1a4f5a2",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 662
-      }
+      "status": "pass"
     },
     {
       "slug": "odyssey",
       "name": "Odyssey",
       "asset": {
-        "sha256": null,
+        "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
         "size": 27204395,
         "releaseId": "1.4.3",
         "source": "github",
         "downloadUrl": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -1994,19 +1549,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 27204395,
-        "size": 27204395,
-        "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
-        "sha512": "5e159afc854537f5f93c47105853987cc367eb978f657ec4ade34905929b90a5b9d463ef55cc430b8eecf761148312830d1e97a0cfc25c33ebc1c9ce62a366a8",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 425
-      }
+      "status": "pass"
     },
     {
       "slug": "onionbrowser",
@@ -2018,25 +1561,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "b3fa3d346b1a3b17353feb5e398f0bb752e149024b4241c4441c8dea494971c3",
-        "expectedSha512": null,
-        "expectedSize": 39611914,
-        "size": 39611914,
-        "sha256": "b3fa3d346b1a3b17353feb5e398f0bb752e149024b4241c4441c8dea494971c3",
-        "sha512": "7d3f7b3d251a70217d41b3c659d49aa37cbb0341b4da5e7ad7115fb9cb692ec7105b27e9e45fb88039728bbf4b7961f94ec38267bf3bc1d7e826639728566eee",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 682
-      }
+      "status": "pass"
     },
     {
       "slug": "orbot",
@@ -2048,55 +1584,41 @@
         "source": "github",
         "downloadUrl": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "d8d5d55f3ad92f36f5a8146e88771652635601de40639446ed73c3297a82555e",
-        "expectedSha512": null,
-        "expectedSize": 48820768,
-        "size": 48820768,
-        "sha256": "d8d5d55f3ad92f36f5a8146e88771652635601de40639446ed73c3297a82555e",
-        "sha512": "b0d6410dc82177fcdcdcc98c4b13a7da5eaa2564961a127076af01e028d11e1fc58fd9b21c0b369f40d3b672d1c3eac560cd90cc9635fc5eae7110428be12c17",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 746
-      }
+      "status": "pass"
     },
     {
       "slug": "otraku",
       "name": "Otraku",
       "asset": {
-        "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-        "size": 9414861,
-        "releaseId": "1.12.1",
+        "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+        "size": 10342358,
+        "releaseId": "1.13.1",
         "source": "github",
-        "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa"
+        "downloadUrl": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-        "expectedSha512": null,
-        "expectedSize": 9414861,
-        "size": 9414861,
-        "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
-        "sha512": "1a1e68310d6bb9de9a4d0cbb661a839ca1147fdc24d9d45125b78a0cec0d10adc80529e311ed43fefd602d483dd9fc41275959e2b3e3ad2077b71b49de439377",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 415
-      }
+      "status": "pass"
     },
     {
       "slug": "pikatorrent",
@@ -2108,25 +1630,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
-        "expectedSha512": null,
-        "expectedSize": 38053348,
-        "size": 38053348,
-        "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
-        "sha512": "4ae7dfc99bea24ae36f4ad6dca96c56adc35f68dccaff4dd74b1e664f1c19d90e66d4923b7666b2287fb745ebb8adb79058250c4a5f6fe2c66a631139742128c",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 685
-      }
+      "status": "pass"
     },
     {
       "slug": "pocketposter",
@@ -2138,25 +1653,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "0306c349a4292ca3c40647a48bf8959f4b8d9fa7793cab444d2f79f23d4aaaf7",
-        "expectedSha512": null,
-        "expectedSize": 13686800,
-        "size": 13686800,
-        "sha256": "0306c349a4292ca3c40647a48bf8959f4b8d9fa7793cab444d2f79f23d4aaaf7",
-        "sha512": "cf08a15ef69cc1aae07f1a8419d13b6f68e6b343da47f60d170a851089d07a58a55a08a5fccf2da7b8100a0f06dce67959fd16575ea74b6cece3b0acdb41bfc4",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 437
-      }
+      "status": "pass"
     },
     {
       "slug": "ppsspp",
@@ -2168,25 +1676,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "822c7042311ff47710c9148c8edb5aab649cf85ce6ba96b9e8190feb91f45a51",
-        "expectedSha512": null,
-        "expectedSize": 31124277,
-        "size": 31124277,
-        "sha256": "822c7042311ff47710c9148c8edb5aab649cf85ce6ba96b9e8190feb91f45a51",
-        "sha512": "c10c6ee4a48e64c1e161bf376b8cd5810e37e68b361ea1f2312bfdaf148725521cb0d71725e0291f0233395951ae0acdf7aba9aa533f26671ea1e68a07b24928",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 486
-      }
+      "status": "pass"
     },
     {
       "slug": "provenance",
@@ -2198,35 +1699,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
-        "expectedSha512": null,
-        "expectedSize": 1076407494,
-        "size": 1076407494,
-        "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
-        "sha512": "7a219752c6fdd3a7a810dce4c0d65b819e84ae471c1d542f17dc837270069b7678084c02391c4305449814488354953ba938e29e80605ca91b20c1934769ce36",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 5679
-      }
+      "status": "pass"
     },
     {
       "slug": "purekfd",
       "name": "PureKFD",
       "asset": {
-        "sha256": null,
+        "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
         "size": 10806164,
         "releaseId": "6.0.2",
         "source": "github",
         "downloadUrl": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -2234,19 +1733,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 10806164,
-        "size": 10806164,
-        "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
-        "sha512": "5b05320c98c9fd83f6021cd9b97dcbaaeecc061b462399cefa2a7cae3762641b96841e4b672e96b6b2bdbab1c36d60f5e841aa5de2e75992fe682b5aabdae703",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 366
-      }
+      "status": "pass"
     },
     {
       "slug": "qbitconnect",
@@ -2258,25 +1745,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "683361416e6816c167f4dd72b5d4742a59c3a10faaa0823f8c5ec0754ba941c4",
-        "expectedSha512": null,
-        "expectedSize": 11798221,
-        "size": 11798221,
-        "sha256": "683361416e6816c167f4dd72b5d4742a59c3a10faaa0823f8c5ec0754ba941c4",
-        "sha512": "76bf59f8139c3e172d2fa6ce65ff63f17268f9a7b924714fa14076e63ed35c1874cd52dae727bd5206bd13e13c08024812992d20824516425314ba19f0e90e01",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 477
-      }
+      "status": "pass"
     },
     {
       "slug": "qbitcontrol",
@@ -2288,25 +1768,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "4a218f22120e5251fac7383c36169adbbf0503453aac339cc5573df4bb6dc6c3",
-        "expectedSha512": null,
-        "expectedSize": 4777720,
-        "size": 4777720,
-        "sha256": "4a218f22120e5251fac7383c36169adbbf0503453aac339cc5573df4bb6dc6c3",
-        "sha512": "62b579db2527091424b18b50ae6a63789e481bcfc6137fd12e7501f732cd63f6da61c18be3e981d90f275641bec60068ae8a2ee4c4a8a488bbac2936af3d4dd7",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 366
-      }
+      "status": "pass"
     },
     {
       "slug": "qbitcontroller",
@@ -2318,25 +1791,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-ios.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "1b4acd90d9fcf81ec093eaa7530cad1479f53ffd5ff2c2e0ad348462ae77a383",
-        "expectedSha512": null,
-        "expectedSize": 18243979,
-        "size": 18243979,
-        "sha256": "1b4acd90d9fcf81ec093eaa7530cad1479f53ffd5ff2c2e0ad348462ae77a383",
-        "sha512": "54d29bafd79f765d9db18f7d928bad0b72e2be74d9b8d7b2a45ede142b21e07b0012f12f0aacf482716cee31d6ce591099c1f3a9f97a6f7277a6a9b08676393a",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 421
-      }
+      "status": "pass"
     },
     {
       "slug": "raintweak",
@@ -2348,25 +1814,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "1ac871154ac2649158eea405f2c79e2e1d36ed7771c9b64748ce9f1c3f97703e",
-        "expectedSha512": null,
-        "expectedSize": 107515564,
-        "size": 107515564,
-        "sha256": "1ac871154ac2649158eea405f2c79e2e1d36ed7771c9b64748ce9f1c3f97703e",
-        "sha512": "77bed103610d6878763807023a57071fd9c0cf5787ff10216ad0952eb9c80c299c059ad22ab236414398bc4fe14b234424014478235feae53f13e77bd8d50a80",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1376
-      }
+      "status": "pass"
     },
     {
       "slug": "redditfilter",
@@ -2378,25 +1837,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-        "expectedSha512": null,
-        "expectedSize": 137114565,
-        "size": 137114565,
-        "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-        "sha512": "610901383abc4d7e0f89a77279c443e0282f63017f8496aec780682b9afd29cfa033b9bbbabf5d7d34507ef39bb1723e62da5966984e5351e6c504d4c19fe666",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1551
-      }
+      "status": "pass"
     },
     {
       "slug": "reynard",
@@ -2408,55 +1860,41 @@
         "source": "github",
         "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "441414e6caa0896d8d4e6552d1937627765775d7c3485d27c37ace9460ece97f",
-        "expectedSha512": null,
-        "expectedSize": 108453095,
-        "size": 108453095,
-        "sha256": "441414e6caa0896d8d4e6552d1937627765775d7c3485d27c37ace9460ece97f",
-        "sha512": "f5d9db183ccadd9951d0c0b05881a37f0a851a63264b76cbb28ce0be58c2ab97f5797a85e9add940752aca9463246065aa57815f96d4e48528d4d30016cb368a",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1024
-      }
+      "status": "pass"
     },
     {
       "slug": "ryukgram",
       "name": "RyukGram",
       "asset": {
         "sha256": null,
-        "size": 345086224,
-        "releaseId": "451.0.0",
+        "size": 353948142,
+        "releaseId": "452.0.0",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa"
+      },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 320995960,
-        "size": 320995960,
-        "sha256": "3ec1d483343eb098275ba2d56108c0260f2cdd152624d146a1504516c6ea48cb",
-        "sha512": "5c42d88acd442d38dd3e3c580f497b252f80abfa092851ad55ca1083054f6e96d561a125f5531981ee7d6a3ba115b623cc6ad7c021fd732c6f55e05dbffada8b",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 11975
-      }
+      "status": "warn"
     },
     {
       "slug": "ryukgram-ig410",
@@ -2468,25 +1906,18 @@
         "source": "altstore",
         "downloadUrl": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
-        "expectedSha512": null,
-        "expectedSize": 267074754,
-        "size": 267074754,
-        "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
-        "sha512": "9df7f3f6306316cd2d7166dcb5b4f35649b4095e8623e6442d41b28488d7f221671a0ec8fb428171039cdafde453139be415b654af6fc3391187793543feb440",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 19245
-      }
+      "status": "pass"
     },
     {
       "slug": "ryukgram-sidebyside",
@@ -2498,55 +1929,41 @@
         "source": "altstore",
         "downloadUrl": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "fb58720a4bd6248165f6126f2514e6afd4af4ef7345534f35f515be3fb0060b9",
-        "expectedSha512": null,
-        "expectedSize": 259670417,
-        "size": 259670417,
-        "sha256": "fb58720a4bd6248165f6126f2514e6afd4af4ef7345534f35f515be3fb0060b9",
-        "sha512": "5800324175529ff97d3c44478cf3f47ef96e16252e088563daf131a0fc523b964ecc05152f3a4c71eb25257af894ec185cacab20b1f71682d7bcb40258782d0d",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 19054
-      }
+      "status": "pass"
     },
     {
       "slug": "saber",
       "name": "Saber",
       "asset": {
-        "sha256": "85a3ccb2f2c5c69a6bffaa848d82c43bc9874c8907b8a9a09ba39d23cc9179b1",
-        "size": 37736807,
-        "releaseId": "1.36.3",
+        "sha256": "e1c8932fbe8d8cd4df3dc2177a1fe038f353067600b90f3d2399b68b68928082",
+        "size": 37254734,
+        "releaseId": "1.36.4",
         "source": "github",
-        "downloadUrl": "https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa"
+        "downloadUrl": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e8432a6846230591d0f6a39ce4c370107ba68b2836135c907b82d96bcbd904ca",
-        "expectedSha512": null,
-        "expectedSize": 37589281,
-        "size": 37589281,
-        "sha256": "e8432a6846230591d0f6a39ce4c370107ba68b2836135c907b82d96bcbd904ca",
-        "sha512": "5f9e8e00fe3518b10dafdc42d85c218858c9896bcb1ab7c7c609b1efdd0f4218ee1e1620846f262579cca749035fa73083a8d2b89ffa8922eb9b4045129789e0",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1181
-      }
+      "status": "pass"
     },
     {
       "slug": "sameboy",
@@ -2558,65 +1975,56 @@
         "source": "github",
         "downloadUrl": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "2dddc5dee5048713dcfc4f38450c503afa13e85ffd0d138b5f52fc4c4c39370f",
-        "expectedSha512": null,
-        "expectedSize": 3170899,
-        "size": 3170899,
-        "sha256": "2dddc5dee5048713dcfc4f38450c503afa13e85ffd0d138b5f52fc4c4c39370f",
-        "sha512": "df7c86dfd4af7865df1b38b5512069c034ceaefe3094dc4b9707dbdcb9803adea8f7670ebed8bee4edca9bee82b7353e1654a6dc7b26194a9db73d74488371a5",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 363
-      }
+      "status": "pass"
     },
     {
       "slug": "secondhand",
       "name": "SecondHand",
       "asset": {
-        "sha256": null,
+        "sha256": "5ea276d7c5230b4eb17dd03fae0b23333d505a05dd82c08ae2a66f46b75d9ec0",
         "size": 2786937,
         "releaseId": "1.3.1",
         "source": "github",
         "downloadUrl": "https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 2786937,
-        "size": 2786937,
-        "sha256": "5ea276d7c5230b4eb17dd03fae0b23333d505a05dd82c08ae2a66f46b75d9ec0",
-        "sha512": "ad9e3d31d4b9689a9766f5471ac46c3caa718483d47912ca65c686f490dd98efafb6dde16b5424da4e8158a41863b4b3c36dc64af9d9e990cd283a191859a9e5",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 328
-      }
+      "status": "pass"
     },
     {
       "slug": "serotonin",
       "name": "Serotonin",
       "asset": {
-        "sha256": null,
+        "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b",
         "size": 14986482,
         "releaseId": "1.2.1",
         "source": "github",
         "downloadUrl": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -2624,19 +2032,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 14986482,
-        "size": 14986482,
-        "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b",
-        "sha512": "a6a6b3d868d5ba0819186a14ebdf82ea79d424e5c0b52a8ebf98c414b3234503776aba89f35a1c2c843fe034c187df14a5df45c0a89fedf74586ba9185b19141",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 504
-      }
+      "status": "pass"
     },
     {
       "slug": "sidestore",
@@ -2648,25 +2044,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e334f86e6ceeab2e0d886c07611246533f474bb18838cf13ebc09ed1f0d622b5",
-        "expectedSha512": null,
-        "expectedSize": 27770821,
-        "size": 27770821,
-        "sha256": "e334f86e6ceeab2e0d886c07611246533f474bb18838cf13ebc09ed1f0d622b5",
-        "sha512": "9740f9385c5e8e82b056dc3637e3c82a49f096ad4278ce3537f3e2283dcb641143bb26287f0e9560d20b4a77151a6ab9d01d5849545bf07b83225134de1531db",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 399
-      }
+      "status": "pass"
     },
     {
       "slug": "snmessenger",
@@ -2678,25 +2067,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
-        "expectedSha512": null,
-        "expectedSize": 74865911,
-        "size": 74865911,
-        "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
-        "sha512": "41e1abdcc0b2813c7cdaac2e32370a0ce7d1bb0fffeb0bcae5d35b2d573d1e5c70e5924996cb0cc3fb99e90dcd472ee65f93bce8b4fa6c7bf25ad230c79bb8bc",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1213
-      }
+      "status": "pass"
     },
     {
       "slug": "sora",
@@ -2708,25 +2090,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
-        "expectedSha512": null,
-        "expectedSize": 3112338,
-        "size": 3112338,
-        "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
-        "sha512": "ab2f66dad9c37d9851f56f76e0e2c86e213234c653fe250207de720232976a464abe172753bebe319540c124a371687e831fd8023acd2004e848414a2198fb4d",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 361
-      }
+      "status": "pass"
     },
     {
       "slug": "sparkle",
@@ -2738,25 +2113,18 @@
         "source": "altstore",
         "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 312339573,
-        "size": 312339573,
-        "sha256": "94417d59f794275acbbacbafe4b3697b068d0e76f7936dbf769d7e985a17c679",
-        "sha512": "e596e17c70a99f3cf19b477d6ab89add8beab044f00c0ab57414359c9c3bd412a446c6695e8b26d8f762d63d2ccb8eb63c2ce094c96cdada686dfad69a5e2317",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 18712
-      }
+      "status": "warn"
     },
     {
       "slug": "spotiflac",
@@ -2768,25 +2136,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "c25683b5d36f8d1d55deb29058cd601ee23a8b1e3a9e67ded75d8d53f9fa8bef",
-        "expectedSha512": null,
-        "expectedSize": 34171700,
-        "size": 34171700,
-        "sha256": "c25683b5d36f8d1d55deb29058cd601ee23a8b1e3a9e67ded75d8d53f9fa8bef",
-        "sha512": "5a2413127de96e0fc26bf9f83b99f7318ba5783f773b920d9eedba61a6385fffccd236cc1f9a65691b428d3b19aa6b38304fed3ca4b171eee722cba38d462110",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 496
-      }
+      "status": "pass"
     },
     {
       "slug": "spotube",
@@ -2798,35 +2159,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-        "expectedSha512": null,
-        "expectedSize": 34853093,
-        "size": 34853093,
-        "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-        "sha512": "caab9e0ab888ef060f88509d12f767670c56b1e2005805930991b966a4d3faebdacd17e947fb5e460e28ad3fd3303cae3c9996b9553b792ad0f7feafdec94a07",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 634
-      }
+      "status": "pass"
     },
     {
       "slug": "statusmagic",
       "name": "StatusMagic",
       "asset": {
-        "sha256": null,
+        "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
         "size": 1218528,
         "releaseId": "1.0.2",
         "source": "github",
         "downloadUrl": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -2834,19 +2193,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 1218528,
-        "size": 1218528,
-        "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
-        "sha512": "96219cff85292978f56c14aebae9de07b298b91f89db9f7eaebf8abef36db947e44e0fd4008f175c2914d6058e5398b82ed3582cc103c097e203e2f340237651",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 383
-      }
+      "status": "pass"
     },
     {
       "slug": "stikdebug",
@@ -2858,35 +2205,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "2f2e0bec9648b593fe95b55b21d3521b8ecc3b5889b0be53fe6cd22ecf76d845",
-        "expectedSha512": null,
-        "expectedSize": 12824047,
-        "size": 12824047,
-        "sha256": "2f2e0bec9648b593fe95b55b21d3521b8ecc3b5889b0be53fe6cd22ecf76d845",
-        "sha512": "d5f97f767f7d4eb262e5e24f09ac0200505ac7204de0d7a059356037b01a25c0e9c67de0d3696a97dd877e8364d22c81e7d38a2517980f940a2983fc203f74ae",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 435
-      }
+      "status": "pass"
     },
     {
       "slug": "stiknes",
       "name": "StikNES",
       "asset": {
-        "sha256": null,
+        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
         "size": 7141231,
         "releaseId": "2.0.2",
         "source": "github",
         "downloadUrl": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -2894,19 +2239,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 7141231,
-        "size": 7141231,
-        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
-        "sha512": "0761476a63c84cf928a854bcdc0e60439ee83914068801ccd35b3437a060564b18ec5a8cbe95630f3374ba0e5aab23b383847e4f9c13664438bb7e403b6dc510",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1320
-      }
+      "status": "pass"
     },
     {
       "slug": "streamyfin",
@@ -2918,55 +2251,41 @@
         "source": "github",
         "downloadUrl": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
-        "expectedSha512": null,
-        "expectedSize": 53931137,
-        "size": 53931137,
-        "sha256": "706adb7f41b60565c1924deb84f6afb3fe3727dbdf291a3ece934ddb90a178b2",
-        "sha512": "f7766c82b32e2d61dc01956d5efbee8127cf2005266db1e793f60ab90c242780d14a7d1e01e870c977e31e49e91bb4683366f46b002df7d6fdbffb32a6b11ccc",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1531
-      }
+      "status": "pass"
     },
     {
       "slug": "swiftgram",
       "name": "Swiftgram",
       "asset": {
         "sha256": null,
-        "size": 77976994,
-        "releaseId": "12.9.4",
+        "size": 97568937,
+        "releaseId": "13.0",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa"
+      },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 75578339,
-        "size": 75578339,
-        "sha256": "17674f4073c5dd3f3db807af52a5acdb548b803413712fca078244d0b95dcd0e",
-        "sha512": "20022efc0574f46976a61f804053fb33896c242d952c0a9cb6081b6331b02c20dca7ff6f6fe3894a1feeb6e9f201fa665f6145ff2f0b9800234d04b6e340e278",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1757
-      }
+      "status": "warn"
     },
     {
       "slug": "synkplay",
@@ -2978,25 +2297,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "44c7f63bf911ee4f0495226551df91cebf6b1c46bf7a81bbe319454bcb613e52",
-        "expectedSha512": null,
-        "expectedSize": 89476842,
-        "size": 89476842,
-        "sha256": "44c7f63bf911ee4f0495226551df91cebf6b1c46bf7a81bbe319454bcb613e52",
-        "sha512": "3a724fc512002537c26110bf619ad05007eebd8899b0b3f55458bd1d894b6f83e11397fdaeba115e1a004e83a9fb2d9640e699f521a0fc2c5f5c9d8bc14a2b5b",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1697
-      }
+      "status": "pass"
     },
     {
       "slug": "tablehabit",
@@ -3008,35 +2320,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "85e8c4067880f6697dd01e8de480c252512dbc49ea2f4463d1a9f4815d98b123",
-        "expectedSha512": null,
-        "expectedSize": 15044222,
-        "size": 15044222,
-        "sha256": "85e8c4067880f6697dd01e8de480c252512dbc49ea2f4463d1a9f4815d98b123",
-        "sha512": "1494748337124798908f8f152640b7cbeed58bff5e3d25613ffa7c0e8f8b4acb5d56b81f74a85e9f7be36236f2b9b20aabfc912060100073be7d46539f53fddc",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 479
-      }
+      "status": "pass"
     },
     {
       "slug": "taurine",
       "name": "Taurine",
       "asset": {
-        "sha256": null,
+        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
         "size": 32244737,
         "releaseId": "1.1.7",
         "source": "github",
         "downloadUrl": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -3044,49 +2354,30 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 32244737,
-        "size": 32244737,
-        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
-        "sha512": "18533b18dce92b71888ac60f9610f18ba105732b723593e804aa1cb9eb160cf467b864aeba951f8c89be69f9a234b51860bd116ab8cf6b6901869d35a2049744",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 580
-      }
+      "status": "pass"
     },
     {
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
       "asset": {
         "sha256": null,
-        "size": 81155632,
-        "releaseId": "13.1",
+        "size": 88831869,
+        "releaseId": "13.1.1",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa"
+      },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 76892313,
-        "size": 76892313,
-        "sha256": "7524f515f7ff37afd7fc4dcf61a5e20498015d0260603e2ab60cf89890b00511",
-        "sha512": "d784046b3d14484c776f1f389c5783f9b3f862b2201a51471d5844b332c5984e693e007c8089b732df3b0050470672b6a86a048f20fba436c2676c7bf0ae4406",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2233
-      }
+      "status": "warn"
     },
     {
       "slug": "threadsaver",
@@ -3098,25 +2389,18 @@
         "source": "altstore",
         "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 107906677,
-        "size": 107906677,
-        "sha256": "728a261c31a3ef64511e0319af8b73a7c2f1f5e51d46f0448fa0ce3323a225e2",
-        "sha512": "d2bad42f1b51354e0270c6c087e53895d3bc0f01cd000bb59f6a8b8600b6720fa005de32cffcadaece98e0c2e52875ebef5e4fa4b6812bb9d0ff686962adf2e0",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2250
-      }
+      "status": "warn"
     },
     {
       "slug": "thunder",
@@ -3128,25 +2412,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "d5f28944d00224afc600ce8a34bdcb8503c380d5b0ec891d98ef71dec4e8541d",
-        "expectedSha512": null,
-        "expectedSize": 17830940,
-        "size": 17830940,
-        "sha256": "d5f28944d00224afc600ce8a34bdcb8503c380d5b0ec891d98ef71dec4e8541d",
-        "sha512": "70e7264bab856ca3b9269db726d24d6bce412347ca6457acbbbe22f3d168176057364d8afa374a2300d60f238c7951f2f43939b867456140793b1a1a2af425fc",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 525
-      }
+      "status": "pass"
     },
     {
       "slug": "trollfools",
@@ -3158,35 +2435,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "a823203994b3f48b5c13295f11c7f105c3137e9884152bbe97488c8c143fc9b6",
-        "expectedSha512": null,
-        "expectedSize": 6214108,
-        "size": 6214108,
-        "sha256": "a823203994b3f48b5c13295f11c7f105c3137e9884152bbe97488c8c143fc9b6",
-        "sha512": "d48d95a902e83095c5f4ebdfd0ccce3f8b0a7e212ec824f3c4cfd55b46fa06867c930391478691f68888a84a20b9b992d783602ef38f5e898f9086294183bf53",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 392
-      }
+      "status": "pass"
     },
     {
       "slug": "trollinstallerx",
       "name": "TrollInstallerX",
       "asset": {
-        "sha256": null,
+        "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
         "size": 6889214,
         "releaseId": "1.0.3",
         "source": "github",
         "downloadUrl": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -3194,19 +2469,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 6889214,
-        "size": 6889214,
-        "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
-        "sha512": "1117f12d5e705038c1f650908041445b6542d2b3b5aeda1f2b44002be9945987f94e28ec24cc5971a1bac661ff59503ca2a76ced27c782fb4961ba21d695a75f",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 342
-      }
+      "status": "pass"
     },
     {
       "slug": "ttkillerplus",
@@ -3218,125 +2481,102 @@
         "source": "altstore",
         "downloadUrl": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa"
       },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": false
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 466535207,
-        "size": 466535207,
-        "sha256": "df30ec51d0c183c1711e1194f04e6179bc6fbad25b72fbd4510f5280468ea5e2",
-        "sha512": "652a6bd7e01700a7d71e91a33a98dc8313dc2ff7b28d5bc721d1b1732e7fd550c021c85d5cc2292208618a85021339c694941ad2cf49baba78ddf13de789c521",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2435
-      }
+      "status": "warn"
     },
     {
       "slug": "turrit-mxgram",
       "name": "Turrit MxGram",
       "asset": {
         "sha256": null,
-        "size": 99832508,
+        "size": 107518899,
         "releaseId": "1.5.6",
         "source": "altstore",
-        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa"
+        "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa"
+      },
+      "digestEvidence": {
+        "status": "unavailable",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 97226634,
-        "size": 97226634,
-        "sha256": "6c009ce4b640b67b78044f22f96818d237290b306fe66e26fd7bdeee2ff2b1c1",
-        "sha512": "70f36fe4b4567fbd07c79219c7e3f86ef7235554e78576c4e5d6f31dd138700cd90b2780181bb356f4d8083a77a2078a40c4314769e24f0c6428ab65a5fa3a2b",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2849
-      }
+      "status": "warn"
     },
     {
       "slug": "twitchadblock",
       "name": "TwitchAdBlock",
       "asset": {
-        "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-        "size": 152372292,
-        "releaseId": "30.7",
+        "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+        "size": 197800481,
+        "releaseId": "31.7",
         "source": "github",
-        "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa"
+        "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-        "expectedSha512": null,
-        "expectedSize": 152372292,
-        "size": 152372292,
-        "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
-        "sha512": "ba9b16dc95ab0d07298870f314a511d844eb32102fedce66043d1541a9dc0c3e203b63898b090c09c1e7dc37016bf8684a0f908050404a6d999dc7371a173f96",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1314
-      }
+      "status": "pass"
     },
     {
       "slug": "unc0ver",
       "name": "unc0ver",
       "asset": {
-        "sha256": null,
+        "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234",
         "size": 43235739,
         "releaseId": "5.2.0",
         "source": "github",
         "downloadUrl": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 43235739,
-        "size": 43235739,
-        "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234",
-        "sha512": "43ea736b58dcea376cbe7e43d906582d60c1bf5257bf86ded728b2d0590bfb30dc71b40574fa673cff0cf4233191ca8b6c3e337ce631298f0d48164899cd95e3",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 687
-      }
+      "status": "pass"
     },
     {
       "slug": "uprovid",
       "name": "uProVid",
       "asset": {
-        "sha256": null,
+        "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
         "size": 147923687,
         "releaseId": "21.39.4",
         "source": "",
         "downloadUrl": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -3344,7 +2584,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn"
+      "status": "pass"
     },
     {
       "slug": "utm",
@@ -3356,55 +2596,41 @@
         "source": "github",
         "downloadUrl": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101",
-        "expectedSha512": null,
-        "expectedSize": 130058389,
-        "size": 130058389,
-        "sha256": "999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101",
-        "sha512": "df02336924a4de8d770d3abee28cee605bc3dbdee42c80c14a296a2ab4b53b61711b5d7653ab3422d5f96719e33ad7ff820e4edaee4dcfb0c7c4e19c9ae9c897",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 896
-      }
+      "status": "pass"
     },
     {
       "slug": "uyouenhanced",
       "name": "uYouEnhanced",
       "asset": {
-        "sha256": null,
+        "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
         "size": 135840058,
         "releaseId": "21.14.4",
         "source": "",
         "downloadUrl": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": false
+        "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 135840058,
-        "size": 135840058,
-        "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
-        "sha512": "6b1a8eb384bd600f35454a1b40dd9c8db303acf440f924d36e4af8d0ece856089fb70376adda13f11df786102ba212d541649041de013aa27a229ced1fa34bc6",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 4040
-      }
+      "status": "pass"
     },
     {
       "slug": "vcmi",
@@ -3416,25 +2642,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "dd4313a76d79a125ed5405cd0603c34f8ed4155dba22695f1f24a39a7104875c",
-        "expectedSha512": null,
-        "expectedSize": 28187923,
-        "size": 28187923,
-        "sha256": "dd4313a76d79a125ed5405cd0603c34f8ed4155dba22695f1f24a39a7104875c",
-        "sha512": "b5ffab1fa4467d6ee1e75115d1a75f3a95a0e6063250dc8c550ccc760d3d6fec9b2bb1b0e97862158b72fb7b2645d118dccc56422aab5be265fbb5db64493ec2",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 442
-      }
+      "status": "pass"
     },
     {
       "slug": "vibecontainers",
@@ -3446,25 +2665,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
-        "expectedSha512": null,
-        "expectedSize": 8948447,
-        "size": 8948447,
-        "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
-        "sha512": "151810a94504189221ada2b01bae497f83f098dd97b88d051c0f0f664e6389a1eec853e48ece79fa21e3511fc9005d17cb397528dbc09df59c9efb52d50bb4e6",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 389
-      }
+      "status": "pass"
     },
     {
       "slug": "voyager",
@@ -3476,65 +2688,56 @@
         "source": "github",
         "downloadUrl": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "584dae7a9738908def30873c016b1dd5e26f15187cd201a7d95386682c6a46a9",
-        "expectedSha512": null,
-        "expectedSize": 8232319,
-        "size": 8232319,
-        "sha256": "584dae7a9738908def30873c016b1dd5e26f15187cd201a7d95386682c6a46a9",
-        "sha512": "219dad9d58ceefadbd8d9e0528d8bb83508c6c2617eef6c30b0c311cadd123a41bfa6af356b8a91d2f7e28f5046f79dd66bb75fe14320dfc74daeb13a4b1851a",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 369
-      }
+      "status": "pass"
     },
     {
       "slug": "wdbfontoverwrite",
       "name": "WDBFontOverwrite",
       "asset": {
-        "sha256": null,
+        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
         "size": 5348316,
         "releaseId": "1.10.8",
         "source": "github",
         "downloadUrl": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 5348316,
-        "size": 5348316,
-        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
-        "sha512": "88668cc0fb840d0dfbfa186426f5786ee05d935ec3230df91a674bb9141fda32e1fe5bfadd2ebac1aa3a11e9fc8b7dc6299eabb07e0d6e8e694d3315c4d40e1e",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 325
-      }
+      "status": "pass"
     },
     {
       "slug": "winston",
       "name": "Winston",
       "asset": {
-        "sha256": null,
+        "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
         "size": 50003343,
         "releaseId": "1.1.5",
         "source": "github",
         "downloadUrl": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -3542,19 +2745,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 50003343,
-        "size": 50003343,
-        "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
-        "sha512": "b178f518d997be1f299a719dc798f4aa4aaea6c43b4071bb64c64daa7247fd323e67554b24c073cce594b24741ead0443c99107e954ad16943123d1aca577e9e",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 565
-      }
+      "status": "pass"
     },
     {
       "slug": "xenios",
@@ -3566,35 +2757,33 @@
         "source": "github",
         "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "61de6cfc9cf05389161272ceaa70d46662dab77de40ab11fdda3d4a2221621a7",
-        "expectedSha512": null,
-        "expectedSize": 46253576,
-        "size": 46253576,
-        "sha256": "61de6cfc9cf05389161272ceaa70d46662dab77de40ab11fdda3d4a2221621a7",
-        "sha512": "ee80ab65c4194a925f33753168d2e61e640d4c915db21021a0350f8dcd2b1b9aee1916aac926fc9f42d64d982022e0edb30097240f4c4934cc3e8b5b0f42c8b3",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 515
-      }
+      "status": "pass"
     },
     {
       "slug": "yattee",
       "name": "Yattee",
       "asset": {
-        "sha256": null,
+        "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
         "size": 20792685,
         "releaseId": "1.5.1",
         "source": "github",
         "downloadUrl": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
@@ -3602,19 +2791,7 @@
         "digestFormat": true,
         "reachable": true
       },
-      "status": "warn",
-      "fullVerification": {
-        "expectedSha256": null,
-        "expectedSha512": null,
-        "expectedSize": 20792685,
-        "size": 20792685,
-        "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
-        "sha512": "6725db218f076092343e5c95132624b714b763f540ceb1ad2bb6571d721731c66c49bdc7e717e74dea871538fdfc5b1d9dbf61cf65a31f7a4b3bf8b579b05b7f",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 479
-      }
+      "status": "pass"
     },
     {
       "slug": "youmod",
@@ -3626,25 +2803,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "ff1fbc8cf3b3a01485a516361896151e0a87df620c21d2282adcb33b3b474f74",
-        "expectedSha512": null,
-        "expectedSize": 129607654,
-        "size": 129607654,
-        "sha256": "ff1fbc8cf3b3a01485a516361896151e0a87df620c21d2282adcb33b3b474f74",
-        "sha512": "c9601e74e5ebad7fce800efc531317c0e3b9494fbd8d54eacd1464926311e2679998dc63825e5b273c907984e331b3e2fb0dc9a5eef2d60e3aabab1537190082",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 2139
-      }
+      "status": "pass"
     },
     {
       "slug": "youpro",
@@ -3656,55 +2826,41 @@
         "source": "github",
         "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "e7b5f08dfc70eda967ef49882a4c1046ae8e0849af8c86fb4ebb9fa4dcc61fc7",
-        "expectedSha512": null,
-        "expectedSize": 129768863,
-        "size": 129768863,
-        "sha256": "e7b5f08dfc70eda967ef49882a4c1046ae8e0849af8c86fb4ebb9fa4dcc61fc7",
-        "sha512": "d1736d5bb2ea4c75a47b465b3db664b04871b20b42296751ca1a5712b877da67205f2c50d2ed193490afe6417888bfb20277d906e53214e0ea5fd40938ad5f76",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1045
-      }
+      "status": "pass"
     },
     {
       "slug": "ytkace",
       "name": "YTKACE",
       "asset": {
-        "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
-        "size": 137158764,
-        "releaseId": "21.41.5",
+        "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+        "size": 138006169,
+        "releaseId": "21.42.4",
         "source": "github",
-        "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa"
+        "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa"
+      },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
       },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
-        "reachable": true
+        "reachable": null
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "7b1bab46cd819f147ad3abc0e30cae1a2b861b0d2c554daaf4eba548205516c0",
-        "expectedSha512": null,
-        "expectedSize": 136694474,
-        "size": 136694474,
-        "sha256": "7b1bab46cd819f147ad3abc0e30cae1a2b861b0d2c554daaf4eba548205516c0",
-        "sha512": "05f159163dc3d8a081d58a2ddfbb72518a0811e609aa3c0b99a5c72e8f2276e8ed07ba9010465232e82aa69b3dc51c03c558dc2a5180ae247005279bf208e69a",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1255
-      }
+      "status": "pass"
     },
     {
       "slug": "ytkp",
@@ -3716,25 +2872,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "fd3823a64212f763c02bbce9d14609dc2a4262abf61b045f67771f0ed3e2d53b",
-        "expectedSha512": null,
-        "expectedSize": 143258392,
-        "size": 143258392,
-        "sha256": "fd3823a64212f763c02bbce9d14609dc2a4262abf61b045f67771f0ed3e2d53b",
-        "sha512": "31366207bfe2488577d5495eb481df1be84d24f2214bbbb5614d55c8137dfe00959b1c98f488abc6fa199083fb6e95a11e15e66ff71464acd8d173222413c795",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1175
-      }
+      "status": "pass"
     },
     {
       "slug": "ytlite",
@@ -3746,25 +2895,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-        "expectedSha512": null,
-        "expectedSize": 129031075,
-        "size": 129031075,
-        "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-        "sha512": "8270963035bd6e2971bc20dd718fd5c6ba32fa8715fd1dc9567d2ea1ec91eea880f1e7f13c5e280444de0d5db16619b17196a7211c19a74def7246d749df25d5",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1287
-      }
+      "status": "pass"
     },
     {
       "slug": "ytmusic",
@@ -3776,25 +2918,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "f541b3ee932312cb5705b50af00065fa284dfcaf647bf1db474b5a6f0cfad887",
-        "expectedSha512": null,
-        "expectedSize": 105090579,
-        "size": 105090579,
-        "sha256": "f541b3ee932312cb5705b50af00065fa284dfcaf647bf1db474b5a6f0cfad887",
-        "sha512": "81f9703a7e72aebf1b47b2715d51acf4359cde573c57c5f2e4184bb837fd4b83296be3fad6981a5939a60d09d5bc90cbe56fb08ff92236c638af3dcd1ef6f6e1",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1148
-      }
+      "status": "pass"
     },
     {
       "slug": "zeus",
@@ -3806,25 +2941,18 @@
         "source": "github",
         "downloadUrl": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa"
       },
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
       "checks": {
         "sizePositive": true,
         "installable": true,
         "digestFormat": true,
         "reachable": true
       },
-      "status": "pass",
-      "fullVerification": {
-        "expectedSha256": "7d291549ec3f35767fcf99f4104088789302742311a3905ef568fe878b3c868c",
-        "expectedSha512": null,
-        "expectedSize": 80499468,
-        "size": 80499468,
-        "sha256": "7d291549ec3f35767fcf99f4104088789302742311a3905ef568fe878b3c868c",
-        "sha512": "9ac23bb162624ac2c5163a1c86520ffdc98eeafa12cf66419749c161957d43c67e6bc9cfe8c06cdc0dec91df618177a24f582c3db88be5fbb3f4a1b18bc5ed17",
-        "ok": true,
-        "detail": "ok",
-        "at": "2026-09-21",
-        "durationMs": 1387
-      }
+      "status": "pass"
     }
   ]
 }

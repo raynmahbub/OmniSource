@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Pocket Poster releases
+BEGIN:VEVENT
+UID:pocketposter-3.0@omnisource
+DTSTAMP:20250829T000000Z
+DTSTART;VALUE=DATE:20250829
+DTEND;VALUE=DATE:20250830
+SUMMARY:Pocket Poster v3.0
+DESCRIPTION:Pocket Poster 3.0 | Pocket_Poster\n\n# Features\n- Added an in-
+ app explore page for finding and downloading wallpapers\n- Added custom Ca
+ rPlay wallpapers (will not work on iOS 26.0)\n- *Preliminary* iOS 16 suppo
+ rt (not all wallpapers will work)\n- Improved certain error messages\n\n# 
+ Bug Fixes\n- Fixed the aspect ratio/rotation of imported custom videos\n- 
+ Fixed the update API not being called correctly\n- Fixed issues with some 
+ alerts not popping up\n- Other various app stability improvements
+URL:https://raynmahbub.github.io/OmniSource/feeds/pocketposter.json
+END:VEVENT
+END:VCALENDAR

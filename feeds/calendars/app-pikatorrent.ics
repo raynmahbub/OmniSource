@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:PikaTorrent releases
+BEGIN:VEVENT
+UID:pikatorrent-0.15.0@omnisource
+DTSTAMP:20260111T000000Z
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260112
+SUMMARY:PikaTorrent v0.15.0
+DESCRIPTION:PikaTorrent 0.15.0 | PikaTorrent-v0.15.0-ios\n\n- Improved stre
+ aming performance and reliability\n- Added playable files filter\n- Multi-
+ selection support for bulk torrent deletion\n- Initial translations and lo
+ calization support\n- Support for 16KB page sizes for Android\n- Bug fixes
+ \n\n**Full Changelog**: https://github.com/G-Ray/pikatorrent/compare/v0.14
+ .0...v0.15.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/pikatorrent.json
+END:VEVENT
+END:VCALENDAR

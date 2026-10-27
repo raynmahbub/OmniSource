@@ -70,7 +70,7 @@ def build_report(
     unreachable = sorted(
         str(item.get("slug", item.get("name", "?")))
         for item in health_doc.get("apps", [])
-        if isinstance(item, dict) and not item.get("downloadReachable")
+        if isinstance(item, dict) and item.get("downloadReachable") is False
     )
     updates = []
     for event in getattr(sync_report, "updates", []) or []:

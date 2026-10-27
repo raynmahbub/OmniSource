@@ -11,9 +11,9 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raynmahbub.github.
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "OmniSource — verified source catalog", template: "%s · OmniSource" },
+  title: { default: "OmniSource — curated source catalog", template: "%s · OmniSource" },
   description:
-    "One feed for AltStore, SideStore, Feather, ESign and LiveContainer. Every app validated, every release resolved from its official upstream.",
+    "A curated feed for AltStore, SideStore, Feather, ESign and LiveContainer, with source attribution and recorded checks.",
   applicationName: "OmniSource",
   manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, title: "OmniSource", statusBarStyle: "default" },
@@ -21,14 +21,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "OmniSource",
-    title: "OmniSource — verified source catalog",
+    title: "OmniSource — curated source catalog",
     description: "One feed for AltStore, SideStore, Feather, ESign and LiveContainer.",
     url: "/",
     images: [{ url: "/icon.svg", width: 512, height: 512, alt: "OmniSource" }],
   },
   twitter: {
     card: "summary",
-    title: "OmniSource — verified source catalog",
+    title: "OmniSource — curated source catalog",
     description: "One feed for AltStore, SideStore, Feather, ESign and LiveContainer.",
     images: ["/icon.svg"],
   },

@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Emulators releases
+BEGIN:VEVENT
+UID:utm-5.0.8@omnisource
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:UTM v5.0.8
+DESCRIPTION:UTM 5.0.8 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX
+  graphics support for Windows**: Modern accelerated graphics for Windows 1
+ 1 is now available on UTM for the first time. The driver is still experime
+ ntal and games compatibility is currently limited.\n* **Vulkan 1.3 graphic
+ s support for Linux**: Vulkan 1.3 is now supported on Linux guests with Vi
+ rtIO Venus drivers in Mesa. Additionally\, OpenGL 4.1 is supported with th
+ e new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your 
+ VM at any point and go back to it later from the new Snapshots tab. Works 
+ with QEMU VMs on macOS and iOS 26\, and with Apple Virtualization VMs on m
+ acOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices
+  through to your VM\, turn on Secure Boot for Linux\, run a VM without sav
+ ing changes\, and let VMs talk to each other with new networking modes.\n*
+  (iOS) **Better touch controls**: Gestures respond immediately\, with new 
+ middle-click and right-drag actions and a new drag-to-scroll touch mode.\n
+ * (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop\, and the botto
+ m half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspende
+ d VMs may not resume correctly after updating. We recommend shutting down 
+ all VMs before you update UTM.\n* The minimum supported versions are now m
+ acOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getut
+ m.app)! Follow us for in-depth technical deep dives such as how we brought
+  DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11
+ \, we recommend a fresh install because the driver is still experimental a
+ nd its use could lead to instability in the system. During the install of 
+ the guest tools\, you will be prompted to select the experimental graphics
+  driver. If you wish to install the new driver on a system that already is
+  running the older display only driver\, you need to run the uninstall scr
+ ipt provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL
+  backend does not support Vulkan or Di
+URL:https://raynmahbub.github.io/OmniSource/feeds/utm.json
+END:VEVENT
+BEGIN:VEVENT
+UID:utm-5.0.7@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:UTM v5.0.7
+DESCRIPTION:UTM 5.0.7 | Universal IPA\n\n## Highlights\n* (macOS) **DirectX
+  graphics support for Windows**: Modern accelerated graphics for Windows 1
+ 1 is now available on UTM for the first time. The driver is still experime
+ ntal and games compatibility is currently limited.\n* **Vulkan 1.3 graphic
+ s support for Linux**: Vulkan 1.3 is now supported on Linux guests with Vi
+ rtIO Venus drivers in Mesa. Additionally\, OpenGL 4.1 is supported with th
+ e new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your 
+ VM at any point and go back to it later from the new Snapshots tab. Works 
+ with QEMU VMs on macOS and iOS 26\, and with Apple Virtualization VMs on m
+ acOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices
+  through to your VM\, turn on Secure Boot for Linux\, run a VM without sav
+ ing changes\, and let VMs talk to each other with new networking modes.\n*
+  (iOS) **Better touch controls**: Gestures respond immediately\, with new 
+ middle-click and right-drag actions and a new drag-to-scroll touch mode.\n
+ * (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop\, and the botto
+ m half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspende
+ d VMs may not resume correctly after updating. We recommend shutting down 
+ all VMs before you update UTM.\n* The minimum supported versions are now m
+ acOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getut
+ m.app)! Follow us for in-depth technical deep dives such as how we brought
+  DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11
+ \, we recommend a fresh install because the driver is still experimental a
+ nd its use could lead to instability in the system. During the install of 
+ the guest tools\, you will be prompted to select the experimental graphics
+  driver. If you wish to install the new driver on a system that already is
+  running the older display only driver\, you need to run the uninstall scr
+ ipt provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL
+  backend does not support Vulkan or Di
+URL:https://raynmahbub.github.io/OmniSource/feeds/utm.json
+END:VEVENT
+BEGIN:VEVENT
+UID:provenance-3.3.0@omnisource
+DTSTAMP:20260314T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Provenance v3.3.0
+DESCRIPTION:Provenance 3.3.0 | Provenance-3.3.0-iOS\n\n## What's New in 3.3
+ .0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud s
+ ync\, a completely revamped tvOS interface\, video filters\, and a ton of 
+ core and stability fixes.\n\n### ☁️ iCloud / CloudKit Sync\n- ROMs\, s
+ ave states\, BIOS files\, and artwork now sync across devices via iCloud\n
+ - Real-time download progress indicators when loading cloud save states\n-
+  Auto BIOS sync on game load when available in iCloud\n- ROM metadata sync
+ s alongside files\n- Artwork syncs after library updates\n- CloudKit recor
+ ds management tab in Settings\n- iCloud upsell UI for new users with empty
+  libraries\n- Sync queue pauses during emulation and resumes after\n\n### 
+ 📺 New tvOS UI (Default)\n- Completely redesigned tvOS interface now ena
+ bled by default\n- RetroWave-themed side menu with smooth animations\n- Sa
+ ve states browser accessible from the main UI with artwork and core name\n
+ - "View All" saves section with per-system filtering\n- TopShelf v2: recen
+ t games and save states with artwork and timestamps\n- Cheats UI in the pa
+ use menu\n- Game "More Info" panel\n- Log viewer tab\n- Import status view
+  in side menu\n- Search with persistent history\n- Dozens of focus\, navig
+ ation\, and theming fixes throughout\n\n### 🎨 Video Filters & Shaders\n
+ - Unified filter pipeline works across native and RetroArch cores\n- GB an
+ d VHS filters improved\n- Filters accessible from the pause menu\n- RetroA
+ rch GLES 3D cores now supported (Vecx/GLiden\, etc.)\n- Dolphin shader/fil
+ ter support\n- PPSSPP filter support\n\n### 🎮 Core & Controller Fixes\n
+ - **RetroArch**: Fixed player index mapping for MFi\, PS4\, and Xbox contr
+ ollers\; PS4 start/select fixed\; 32x controls added\; GameCube controller
+  responder added\n- **Mupen64Plus**: Fixed PS4 start button\; fixed tvOS s
+ caling and placement\; better save error messages\n- **Dolphin**: Fixed Vu
+ lkan landscape rendering\n- **GenPluGX**: Added CHD support\; added wide-s
+ creen GameGear core\n- **PicoDrive**: Fixed crash on unload\; fixed 32x co
+ ntroller map
+URL:https://raynmahbub.github.io/OmniSource/feeds/provenance.json
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Conduit releases
+BEGIN:VEVENT
+UID:conduit-4.2.1@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Conduit v4.2.1
+DESCRIPTION:Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open We
+ bUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\
+ n* Let the speaker button work from the start of Android voice calls by @c
+ ogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Chan
+ gelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:conduit-4.2.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Conduit v4.2.0
+DESCRIPTION:Conduit 4.2.0 | conduit\n\n## What's Changed\n* Add Open WebUI 
+ client parity and Advanced UI controls by @cogwheel0 in https://github.com
+ /cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available
+  without Advanced and polish the new screens by @cogwheel0 in https://gith
+ ub.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel\, cache Gra
+ dle\, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit
+ /pull/810\n* Add Flutter control facades and a narrow platform UI vocabula
+ ry (1/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/811\n*
+  Enforce the platform UI seam with a shrinking allow-list (2/5) by @cogwhe
+ el0 in https://github.com/cogwheel0/conduit/pull/812\n* Route settings sel
+ ection controls through platform UI (3/5) by @cogwheel0 in https://github.
+ com/cogwheel0/conduit/pull/813\n* Use platform UI chips for reactions\, de
+ cisions and folder icons (4/5) by @cogwheel0 in https://github.com/cogwhee
+ l0/conduit/pull/814\n* Use platform UI controls for launcher loading and D
+ irect retries (5/5) by @cogwheel0 in https://github.com/cogwheel0/conduit/
+ pull/815\n* Keep the chosen reasoning effort when the model selector is re
+ opened by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/821\n* S
+ tore Open WebUI servers and accounts in one registry (1/4) by @cogwheel0 i
+ n https://github.com/cogwheel0/conduit/pull/817\n* Keep several Open WebUI
+  accounts signed in and switch between them (2/4) by @cogwheel0 in https:/
+ /github.com/cogwheel0/conduit/pull/818\n* Switch\, add and sign out of Ope
+ n WebUI accounts from the profile (3/4) by @cogwheel0 in https://github.co
+ m/cogwheel0/conduit/pull/819\n* Reach an Open WebUI server through whichev
+ er of its addresses answers (4/4) by @cogwheel0 in https://github.com/cogw
+ heel0/conduit/pull/820\n* Save several named Hermes connections and switch
+  between them by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/8
+ 16\n* Stop downloading whole chats again when they open by @cogwheel0 in h
+ ttps://github.com/cogwheel0/condui
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+BEGIN:VEVENT
+UID:conduit-4.1.9@omnisource
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Conduit v4.1.9
+DESCRIPTION:Conduit 4.1.9 | conduit\n\n## What's Changed\n* Make the test s
+ uite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/condu
+ it/pull/774\n* On-device web search\, model logos\, and chat polish for Di
+ rect models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775
+ \n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https:/
+ /github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer 
+ with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/
+ pull/792\n* Fix sign-in\, Direct\, Hermes and chat bugs found in an iOS UI
+  test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790\
+ n* Fix notes\, channels\, workspace and settings bugs found in an iOS UI t
+ est pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791\n*
+  Forget Direct and Hermes connections on sign-out\; keep channel threads l
+ ive by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793\n* Spli
+ t AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0
+  in https://github.com/cogwheel0/conduit/pull/794\n* Move the chat library
+  and Flutter-free app logic into conduit_core by @cogwheel0 in https://git
+ hub.com/cogwheel0/conduit/pull/795\n* Move feature logic out of widgets in
+ to conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull
+ /796\n* Put CarPlay\, SF Symbol images and Apple models behind host ports 
+ by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797\n* Move wor
+ kspace\, Hermes and composer rules into conduit_core by @cogwheel0 in http
+ s://github.com/cogwheel0/conduit/pull/798\n* Move notes audio\, web embeds
+  and tablet sidebar rules into conduit_core by @cogwheel0 in https://githu
+ b.com/cogwheel0/conduit/pull/799\n* Fix edit-and-resend\, workspace refres
+ h and settings locale\; pin startup rules by @cogwheel0 in https://github.
+ com/cogwheel0/conduit/pull/800\n* Fix bounded web search tools being skipp
+ ed by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803\n* Fix H
+ ermes Desktop Gateway setup and Android spe
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+END:VCALENDAR

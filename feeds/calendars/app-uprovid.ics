@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:uProVid releases
+BEGIN:VEVENT
+UID:uprovid-21.39.4@omnisource
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:uProVid v21.39.4
+DESCRIPTION:Stand-in until the first uProVid factory release ships: ASJTube
+  1.4 by asjrx on YouTube 21.39.4 (the publisher's own ready-to-sideload IP
+ A)\, with YouPip\, YTABConfig\, YouQuality\, YouChooseQuality\, YouGetCapt
+ ions\, YTHoldForSpeed\, YTNativeShare\, YTweaks\, VolumeBoostYT\, Return Y
+ ouTube Dislikes\, DontEatMyContent\, PleaseDontStopTheMusic and Gonerino. 
+ Once this repository publishes a tweak-build/uprovid/* release\, this list
+ ing serves your own build instead.\n\nBuild yours: python3 scripts/tweak_f
+ actory.py build
+URL:https://raynmahbub.github.io/OmniSource/feeds/uprovid.json
+END:VEVENT
+END:VCALENDAR

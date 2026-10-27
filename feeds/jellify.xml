@@ -3,7 +3,7 @@
   <channel>
     <title>Jellify — Releases</title>
     <link>https://raynmahbub.github.io/OmniSource/feeds/jellify.json</link>
-    <description>Release feed for Jellify within OmniSource, curated from official upstream sources.</description>
+    <description>Release feed for Jellify within OmniSource, curated from its recorded distribution source.</description>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/jellify.xml" rel="self" type="application/rss+xml"/>
@@ -22,22 +22,6 @@ Hey music lovers! We've packed this update with some really sweet fixes and majo
 *   **Flawless Playback:** We tackled some lingering glitches, including better buffering and fixes to the main player screen. Now your music should stream more reliably, even when switching between tracks or listening on the go.
 *   **Enhanced Stability on All Platforms:** This update includes better organization for music albums and fixes a small issue on iOS where the player dismiss gesture wasn't working correctly.]]></description>
       <enclosure url="https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Jellify v1.2.11</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/jellify.json</link>
-      <guid isPermaLink="false">jellify-1.2.11</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Jellify 1.2.11 | Jellify-1.2.11
-
-Welcome to Jellify 1.2.11
-
-We are bringing you a highly stable update focused on fixing key areas related to playback and library integration. This release smooths out common glitches, ensuring your music streams and playlists look perfect no matter what device or Jellyfin version you are using.
-
-*   **Playlist Visibility Fixed:** We corrected an issue that caused playlists to fail to display correctly when using certain versions of Jellyfin (specifically version 12). Your comprehensive music library should now be fully accessible and visible across your connected accounts.
-*   **Improved Shuffle Playback:** We addressed a regression in the music shuffling system. Enjoy continuous, uninterrupted listening experiences, knowing that your random playlist order is always stable and reliable.
-*   **Enhanced Stability and Compatibility:** This update includes several deep configuration cleanups and dependency upgrades. These changes improve overall performance and compatibility, making the core streaming experience faster and more robust than ever before.]]></description>
-      <enclosure url="https://github.com/Jellify-Music/App/releases/download/1.2.11/Jellify-1.2.11.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

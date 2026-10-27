@@ -44,7 +44,7 @@
               "fileType": "IPA",
               "size": 52332306,
               "sha256": null,
-              "downloads": 40375,
+              "downloads": 40539,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -56,7 +56,7 @@
               "fileType": "IPA",
               "size": 107682071,
               "sha256": null,
-              "downloads": 17413,
+              "downloads": 17446,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -68,7 +68,7 @@
               "fileType": "ZIP",
               "size": 68536677,
               "sha256": null,
-              "downloads": 2286,
+              "downloads": 2297,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -80,7 +80,7 @@
               "fileType": "ZIP",
               "size": 195793428,
               "sha256": null,
-              "downloads": 3755,
+              "downloads": 3766,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -92,7 +92,7 @@
               "fileType": "IPA",
               "size": 46380193,
               "sha256": null,
-              "downloads": 930,
+              "downloads": 933,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -109,13 +109,28 @@
               "installable": true
             }
           ],
-          "downloads": 40375
+          "downloads": 40539,
+          "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b"
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-iphone.png",
         "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-menu.png",
         "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-iphone-small.jpg"
+      ],
+      "minOSVersion": "13.4",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "mame4ios",
@@ -149,8 +164,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
           "lastUpdatedAt": "2022-12-12"
         }
       }

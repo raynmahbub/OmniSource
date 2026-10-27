@@ -113,6 +113,16 @@ class TestFeedVersion(unittest.TestCase):
         records[0]["version"] = "9.9.9"
         self.assertNotEqual(before, compute_feed_version(records))
 
+    def test_feed_version_changes_when_installable_history_changes(self) -> None:
+        catalog = Catalog.from_dict(_catalog_dict())
+        state = _state()
+        records = build_app_records(catalog, state)
+        before = compute_feed_version(records, state)
+        state["alpha"]["versions"].append(
+            {"version": "1.0", "date": "2025-01-01", "downloadURL": "https://example.com/old.ipa", "size": 100}
+        )
+        self.assertNotEqual(before, compute_feed_version(records, state))
+
     def test_feed_version_ignores_display_metadata(self) -> None:
         catalog = Catalog.from_dict(_catalog_dict())
         records = build_app_records(catalog, _state())
@@ -164,6 +174,10 @@ class TestContractDocuments(unittest.TestCase):
         self.assertRegex(manifest["feedVersion"], r"^[0-9a-f]{12}$")
         self.assertEqual(manifest["appCount"], 2)
         self.assertIn("/api/v2/apps/{id}.json", manifest["endpoints"])
+        self.assertIn("/api/v2/apps/{id}/versions.json", manifest["endpoints"])
+        self.assertEqual(
+            documents["api/v2/apps/alpha/versions.json"]["versions"], documents["api/v2/apps/alpha.json"]["versions"]
+        )
         paths = {entry["path"] for entry in manifest["documents"]}
         self.assertIn("/api/v2/featured.json", paths)
         self.assertIn("/api/v2/apps/alpha.json", paths)

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Serotonin",
     "bundleIdentifier": "pisshill.usprebooter",
@@ -37,15 +37,30 @@
             "fileType": "IPA",
             "size": 14986482,
             "sha256": null,
-            "downloads": 52448,
+            "downloads": 52501,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "downloads": 52448
+        "downloads": 52501,
+        "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b"
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "16.5.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [],
       "privacy": {}
@@ -82,8 +97,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
         "lastUpdatedAt": "2024-01-17"
       }
     },

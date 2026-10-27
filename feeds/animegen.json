@@ -45,15 +45,30 @@
               "fileType": "IPA",
               "size": 3026218,
               "sha256": null,
-              "downloads": 880,
+              "downloads": 924,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 880
+          "downloads": 924,
+          "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.2",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -90,8 +105,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa",
           "lastUpdatedAt": "2025-03-04"
         }
       }

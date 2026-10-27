@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Thunder releases
+BEGIN:VEVENT
+UID:thunder-0.8.6@omnisource
+DTSTAMP:20260107T000000Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:Thunder v0.8.6
+DESCRIPTION:Thunder 0.8.6 | thunder-v0.8.6\n\nHey everyone! Sorry for the b
+ ack-to-back releases again. This hotfix fixes another issue related to gre
+ y screens when navigating to comments from the inbox or user profile. As a
+ lways\, if you encounter any issues or have feedback\, please share them w
+ ith the Thunder community or on GitHub.\n\nIf you're enjoying Thunder and 
+ would like to show some support\, star this project on GitHub! This helps 
+ gain visibility for the project and allows more contributors to help with 
+ the continued development of Thunder. If you'd like to show some appreciat
+ ion\, you can sponsor me on [GitHub](https://github.com/sponsors/hjiangsu)
+  or donate via [Liberapay](https://en.liberapay.com/hjiangsu/) or [Ko-fi](
+ https://ko-fi.com/hjiangsu).\n\nWe have a [Matrix space](https://matrix.to
+ /#/#thunderapp:matrix.org) if you would like to join in on discussions!\n\
+ n---\n\n## Fixes\n* Fixed grey screen when navigating to comment by @hjian
+ gsu in #2029\n\n**Full Changelog**: https://github.com/thunder-app/thunder
+ /compare/0.8.5...0.8.6
+URL:https://raynmahbub.github.io/OmniSource/feeds/thunder.json
+END:VEVENT
+END:VCALENDAR

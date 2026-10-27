@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:MAME4iOS releases
+BEGIN:VEVENT
+UID:mame4ios-2022.5@omnisource
+DTSTAMP:20221212T000000Z
+DTSTART;VALUE=DATE:20221212
+DTEND;VALUE=DATE:20221213
+SUMMARY:MAME4iOS v2022.5
+DESCRIPTION:MAME4iOS 2022.5 | MAME4iOS-2022.5-139\n\n* Updated to [MAME 250
+ ](https://www.mamedev.org/releases/whatsnew_0250.txt).\n* tvOS UX: use a A
+ lert instead of a inline Segmented Control.\n* Show upload feedback in Web
+  Server UX.\n* Added `Make First Favorite` to game context menu.
+URL:https://raynmahbub.github.io/OmniSource/feeds/mame4ios.json
+END:VEVENT
+END:VCALENDAR

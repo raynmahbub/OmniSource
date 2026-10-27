@@ -44,7 +44,7 @@
               "fileType": "APK",
               "size": 37103446,
               "sha256": "295650b8df38cd7ce31da3330388abc0670e719c4a4e3b1c2858392cd595b0d6",
-              "downloads": 2536,
+              "downloads": 2544,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -80,19 +80,33 @@
               "fileType": "IPA",
               "size": 17830940,
               "sha256": "d5f28944d00224afc600ce8a34bdcb8503c380d5b0ec891d98ef71dec4e8541d",
-              "downloads": 578,
+              "downloads": 601,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "d5f28944d00224afc600ce8a34bdcb8503c380d5b0ec891d98ef71dec4e8541d",
-          "downloads": 578
+          "downloads": 601
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/thunder-app/thunder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
         "https://raw.githubusercontent.com/thunder-app/thunder/develop/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
         "https://raw.githubusercontent.com/thunder-app/thunder/develop/docs/assets/screenshot_1.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [],
@@ -130,8 +144,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa",
           "lastUpdatedAt": "2026-01-07"
         }
       }

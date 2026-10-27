@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "RyukGram Side by Side",
     "bundleIdentifier": "com.ryuk.ryukgram",
@@ -46,6 +46,20 @@
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "15.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [],
       "privacy": {}
@@ -83,7 +97,9 @@
       "health": {
         "downloadReachable": true,
         "detail": "HTTP 200",
-        "statusSince": "2026-10-18",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
         "lastUpdatedAt": "2026-10-03"
       }
     },

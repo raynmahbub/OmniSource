@@ -22,7 +22,7 @@ export default async function Home() {
   const apps = getAppsWithIds().slice(0, 8);
   const total = getAppsWithIds().length;
   const sources = getSources().length;
-  const status = getStatus() as { pipeline?: { status?: string } };
+  const status = getStatus() as { generatedAt?: string; pipeline?: { status?: string } };
   const pipeline = String(status.pipeline?.status ?? "unknown");
 
   return (
@@ -119,13 +119,14 @@ export default async function Home() {
         <span className="font-semibold">{dict.home.liveStatus}:</span>
         <span
           className={`rounded-full px-3 py-1 font-semibold ${
-            pipeline === "healthy" || pipeline === "online"
+            pipeline === "healthy" || pipeline === "online" || pipeline === "ok"
               ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200"
               : "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200"
           }`}
         >
           {pipeline}
         </span>
+        <span className="text-zinc-500">{status.generatedAt || "—"}</span>
         <Link href="/status" className="font-semibold text-violet-700 hover:underline dark:text-violet-300">
           {dict.nav.status} →
         </Link>

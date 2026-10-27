@@ -3,9 +3,12 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location("build_ipa_downloader", ROOT / "scripts" / "build_ipa_downloader.py")
@@ -16,6 +19,28 @@ SPEC.loader.exec_module(MODULE)
 
 
 class IpaDownloaderTemplateTests(unittest.TestCase):
+    def test_unchanged_download_index_preserves_generation_time(self) -> None:
+        first = {"generatedAt": "2026-10-01T00:00:00Z", "baseURL": "https://example.test", "apps": []}
+        later = {**first, "generatedAt": "2026-10-02T00:00:00Z"}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output_json, output_html = root / "index.json", root / "page.html"
+            with (
+                mock.patch.object(MODULE, "OUT_JSON", output_json),
+                mock.patch.object(MODULE, "OUT_HTML", output_html),
+                mock.patch.object(
+                    MODULE, "build_document", side_effect=[first, later, {**later, "apps": [{"name": "New"}]}]
+                ),
+            ):
+                MODULE.write_all()
+                original_html = output_html.read_bytes()
+                MODULE.write_all()
+                self.assertEqual(json.loads(output_json.read_text())["generatedAt"], first["generatedAt"])
+                self.assertEqual(output_html.read_bytes(), original_html)
+                MODULE.write_all()
+                self.assertEqual(json.loads(output_json.read_text())["generatedAt"], later["generatedAt"])
+                self.assertNotEqual(output_html.read_bytes(), original_html)
+
     def test_keyboard_and_screen_reader_landmarks(self) -> None:
         template = MODULE.PAGE_TEMPLATE
         self.assertIn('<a class="skip-link" href="#list">', template)

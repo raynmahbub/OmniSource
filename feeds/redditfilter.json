@@ -12,7 +12,7 @@
   "apps": [
     {
       "name": "RedditFilter",
-      "bundleIdentifier": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "level3tjg",
       "subtitle": "Filter unwanted content from your Reddit feed",
       "localizedDescription": "RedditFilter (by level3tjg) filters unwanted content out of your Reddit feed - hide posts by keyword, subreddit, domain, flair or author, natively on top of the official Reddit app. The project publishes a ready-to-sideload IPA with every release.",
@@ -45,7 +45,7 @@
               "fileType": "DEB",
               "size": 19086,
               "sha256": "1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83",
-              "downloads": 866,
+              "downloads": 867,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
@@ -57,7 +57,7 @@
               "fileType": "DEB",
               "size": 19154,
               "sha256": "e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12",
-              "downloads": 869,
+              "downloads": 871,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
@@ -69,16 +69,30 @@
               "fileType": "IPA",
               "size": 137114565,
               "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-              "downloads": 6599,
+              "downloads": 6641,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-          "downloads": 6599
+          "downloads": 6641
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -132,12 +146,14 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). Shares com.atebits.Tweetie2 with BHTwitter and NeoFreeBird in this catalog - install one at a time."
+          "notes": "Official IPA from the project's GitHub releases. The current Reddit 2025.37 build targets iOS 15+ (older 11.x-era builds on the same release page still support iOS 14). The Reddit bundle identifier com.reddit.Reddit is shared with stock Reddit; installations using the same identifier replace one another."
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
           "lastUpdatedAt": "2025-09-26"
         }
       }

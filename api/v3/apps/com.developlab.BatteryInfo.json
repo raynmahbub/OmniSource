@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Battery Info",
     "bundleIdentifier": "com.developlab.BatteryInfo",
@@ -37,16 +37,30 @@
             "fileType": "IPA",
             "size": 346882,
             "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
-            "downloads": 8513,
+            "downloads": 8558,
             "mimeType": "application/zip",
             "installable": true
           }
         ],
         "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
-        "downloads": 8513
+        "downloads": 8558
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "12.2",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "batteryinfo",
       "status": "stable",
@@ -79,8 +93,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
         "lastUpdatedAt": "2025-07-09"
       }
     },

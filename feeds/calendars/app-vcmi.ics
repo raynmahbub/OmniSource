@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:VCMI releases
+BEGIN:VEVENT
+UID:vcmi-1.7.5@omnisource
+DTSTAMP:20260815T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:VCMI v1.7.5
+DESCRIPTION:VCMI 1.7.5 | VCMI-iOS\n\nNote: saved games from 1.6 release can
+  be loaded in 1.7\n\n### Changelog\n- Player Changelog: [1.7.4 -> 1.7.5](h
+ ttps://github.com/vcmi/vcmi/blob/master/ChangeLog.md#174---175)\n- Full Ch
+ angelog: https://github.com/vcmi/vcmi/compare/1.7.4..1.7.5\n\n### Addition
+ al builds\n<!-- - Android release will be available on Google Play shortly
+  -->\n<!-- - Linux release will be available on Flathub shortly -->\n<!-- 
+ - Ubuntu release will be available on VCMI PPA shortly -->\n<!-- - Android
+  release is available on [Google Play](https://play.google.com/store/apps/
+ details?id=is.xyz.vcmi) -->\n<!-- - Linux release is available on [Flathub
+ ](https://flathub.org/apps/eu.vcmi.VCMI) -->\n<!-- - Ubuntu release is ava
+ ilable on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa) -->\
+ n\n- Android release is available on [Google Play](https://play.google.com
+ /store/apps/details?id=is.xyz.vcmi) and [F-Droid](https://f-droid.org/en/p
+ ackages/is.xyz.vcmi/)\n- iOS release is available on [TestFlight](https://
+ testflight.apple.com/join/pJWHSbmu) (AppStore version coming soon)\n- Linu
+ x release is available on [Flathub](https://flathub.org/apps/eu.vcmi.VCMI)
+ \n- Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/
+ +archive/ubuntu/ppa)\n- macOS release can be installed via Homebrew: `brew
+  install --cask vcmi` (official) or `brew install --cask vcmi/vcmi/vcmi` (
+ from our tap)
+URL:https://raynmahbub.github.io/OmniSource/feeds/vcmi.json
+END:VEVENT
+END:VCALENDAR

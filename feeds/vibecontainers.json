@@ -45,16 +45,30 @@
               "fileType": "IPA",
               "size": 8948447,
               "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
-              "downloads": 876,
+              "downloads": 906,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
-          "downloads": 876
+          "downloads": 906
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "vibecontainers",
         "status": "stable",
@@ -87,8 +101,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa",
           "lastUpdatedAt": "2026-08-28"
         }
       }

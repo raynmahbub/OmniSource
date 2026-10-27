@@ -12,25 +12,25 @@
   "apps": [
     {
       "name": "Swiftgram",
-      "bundleIdentifier": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "developerName": "Swiftgram & IPA Vault",
       "subtitle": "Supercharged open-source Telegram fork",
       "localizedDescription": "Swiftgram is a supercharged, open-source Telegram fork: ghost mode, hide read receipts and online status, save protected media, unlimited account switching and deep interface customization. The project officially ships through the App Store and TestFlight; this entry serves a ready-to-sideload IPA build (Swiftgram base with the MxGram tweak).",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Swiftgram.webp",
       "tintColor": "F85C2C",
       "category": "social",
-      "version": "12.9.4",
-      "versionDate": "2026-10-03",
-      "versionDescription": "Swiftgram 12.9.4 | Swiftgram-12.9.4-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.4",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
-      "size": 77976994,
+      "version": "13.0",
+      "versionDate": "2026-10-13",
+      "versionDescription": "Swiftgram 13.0 | Swiftgram-13.0-MxGram\n\nIPA Vault build for Swiftgram (MxGram), version 13.0",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
+      "size": 97568937,
       "versions": [
         {
-          "version": "12.9.4",
-          "date": "2026-10-03",
-          "localizedDescription": "Swiftgram 12.9.4 | Swiftgram-12.9.4-iQTele\n\nIPA Vault build for Swiftgram (iQTele), version 12.9.4",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
-          "size": 77976994,
+          "version": "13.0",
+          "date": "2026-10-13",
+          "localizedDescription": "Swiftgram 13.0 | Swiftgram-13.0-MxGram\n\nIPA Vault build for Swiftgram (MxGram), version 13.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
+          "size": 97568937,
           "minOSVersion": "13.0",
           "releaseUrl": null,
           "source": "altstore",
@@ -38,12 +38,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Swiftgram-12.9.4-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
+              "filename": "Swiftgram-13.0-MxGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 77976994,
+              "size": 97568937,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -53,6 +53,20 @@
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -88,7 +102,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "13.0",
@@ -106,13 +121,15 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. Uses its own bundle identifier - installs alongside the stock Telegram app."
+          "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
-          "lastUpdatedAt": "2026-10-03"
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
+          "lastUpdatedAt": "2026-10-13"
         }
       }
     }

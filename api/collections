@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-27",
   "count": 6,
   "collections": [
     {
       "slug": "youtube",
       "title": "YouTube",
+      "name": "YouTube",
       "subtitle": "Ad-free YouTube, YouTube Music and Music clients",
       "description": "Every enhanced YouTube client in the catalog: background playback, ad blocking, downloads and sponsor-block for the main app and YouTube Music.",
       "appCount": 9,
@@ -72,8 +73,8 @@
           "icon": "YouTube.webp",
           "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
           "shortDescription": "YTKACE",
-          "latestVersion": "21.41.5",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+          "latestVersion": "21.42.4",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
           "category": "photo-video"
         },
         {
@@ -125,6 +126,7 @@
     {
       "slug": "music",
       "title": "Music",
+      "name": "Music",
       "subtitle": "Music streaming and playback",
       "description": "Tweaked and alternative music clients: lossless Spotify playback, ad-free YouTube Music and a library importer that skips the desktop sync entirely.",
       "appCount": 5,
@@ -140,8 +142,8 @@
           "slug": "spotiflac",
           "name": "Mornye",
           "developer": "zarzet",
-          "icon": "SpotiFLAC.webp",
-          "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
+          "icon": "Mornye.webp",
+          "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Mornye.webp",
           "shortDescription": "Local music library, FLAC player and tag editor",
           "latestVersion": "5.2.6",
           "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
@@ -196,6 +198,7 @@
     {
       "slug": "emulators",
       "title": "Emulators",
+      "name": "Emulators",
       "subtitle": "Game emulation and virtual machines on iOS",
       "description": "Run classic consoles and full virtual machines on a sideloaded iOS device.",
       "appCount": 2,
@@ -231,6 +234,7 @@
     {
       "slug": "utilities",
       "title": "Utilities",
+      "name": "Utilities",
       "subtitle": "Installation and everyday utilities",
       "description": "Sideloading tools, a BitTorrent client and debugging helpers for everyday use.",
       "appCount": 4,
@@ -290,6 +294,7 @@
     {
       "slug": "productivity",
       "title": "Productivity",
+      "name": "Productivity",
       "subtitle": "Tools for creators and developers",
       "description": "Developer tooling and client apps that keep your workflow moving.",
       "appCount": 4,
@@ -349,8 +354,9 @@
     {
       "slug": "tweaks",
       "title": "Tweaks",
+      "name": "Tweaks",
       "subtitle": "Tweaked apps and on-device tweak injectors",
-      "description": "Tweaked builds of YouTube, music, X, Instagram, Messenger, Discord and Twitch apps, plus the tools that inject tweaks into an app on the device. Every entry is published installable by the tweak project itself — OmniSource tracks and re-verifies that release, it does not patch binaries.",
+      "description": "Tweaked builds of YouTube, music, X, Instagram, Messenger, Discord and Twitch apps, plus tools that inject tweaks on the device. Check each listing for its project, distributor and available integrity evidence; some builds are packaged by community sources.",
       "appCount": 23,
       "appSlugs": [
         "trollfools",
@@ -473,8 +479,8 @@
           "icon": "YouTube.webp",
           "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
           "shortDescription": "YTKACE",
-          "latestVersion": "21.41.5",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+          "latestVersion": "21.42.4",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
           "category": "photo-video"
         },
         {
@@ -539,8 +545,8 @@
           "icon": "NeoFreeBird.webp",
           "iconURL": "https://raynmahbub.github.io/OmniSource/assets/NeoFreeBird.webp",
           "shortDescription": "Modified Twitter with QoL fixes and reverts",
-          "latestVersion": "2.2",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
+          "latestVersion": "7.2.0",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
           "category": "social"
         },
         {
@@ -572,8 +578,8 @@
           "icon": "Instagram.webp",
           "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
           "shortDescription": "Instagram tweak for power users by faroukbmiled",
-          "latestVersion": "451.0.0",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+          "latestVersion": "452.0.0",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
           "category": "social"
         },
         {
@@ -605,8 +611,8 @@
           "icon": "TAB.webp",
           "iconURL": "https://raynmahbub.github.io/OmniSource/assets/TAB.webp",
           "shortDescription": "Ad blocker for the Twitch app on iOS",
-          "latestVersion": "30.7",
-          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+          "latestVersion": "31.7",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
           "category": "social"
         },
         {

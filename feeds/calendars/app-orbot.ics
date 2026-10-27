@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Orbot releases
+BEGIN:VEVENT
+UID:orbot-1.14.0@omnisource
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Orbot v1.14.0
+DESCRIPTION:Orbot 1.14.0 | Orbot\n\n- Updated Tor to 0.4.9.14 and OpenSSL t
+ o 3.6.5.\n- Updated Snowflake to 2.15.1.\n- Updated Lyrebird to version 0.
+ 9.0.\n- Fixed crashes that occurred seemingly at random.\n\n**ATTENTION**:
+  The attached binaries **do not work** without resigning them. Insofar\, t
+ hey're here mostly for documentary purposes. (Unfortunately\, there curren
+ tly seems to be no way to resign VPN apps. If you find one\, please get in
+  touch!)
+URL:https://raynmahbub.github.io/OmniSource/feeds/orbot.json
+END:VEVENT
+END:VCALENDAR

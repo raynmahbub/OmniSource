@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "subscriptions": [
+    {
+      "name": "All releases calendar",
+      "path": "updates.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "YouTube calendar",
+      "path": "calendars/collection-youtube.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "YouTube RSS",
+      "path": "filtered/collection-youtube.xml",
+      "kind": "collection"
+    },
+    {
+      "name": "Music calendar",
+      "path": "calendars/collection-music.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "Music RSS",
+      "path": "filtered/collection-music.xml",
+      "kind": "collection"
+    },
+    {
+      "name": "Emulators calendar",
+      "path": "calendars/collection-emulators.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "Emulators RSS",
+      "path": "filtered/collection-emulators.xml",
+      "kind": "collection"
+    },
+    {
+      "name": "Utilities calendar",
+      "path": "calendars/collection-utilities.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "Utilities RSS",
+      "path": "filtered/collection-utilities.xml",
+      "kind": "collection"
+    },
+    {
+      "name": "Productivity calendar",
+      "path": "calendars/collection-productivity.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "Productivity RSS",
+      "path": "filtered/collection-productivity.xml",
+      "kind": "collection"
+    },
+    {
+      "name": "Tweaks calendar",
+      "path": "calendars/collection-tweaks.ics",
+      "kind": "calendar"
+    },
+    {
+      "name": "Tweaks RSS",
+      "path": "filtered/collection-tweaks.xml",
+      "kind": "collection"
+    },
+    {
+      "name": "developer-tools RSS",
+      "path": "filtered/category-developer-tools.xml",
+      "kind": "category"
+    },
+    {
+      "name": "entertainment RSS",
+      "path": "filtered/category-entertainment.xml",
+      "kind": "category"
+    },
+    {
+      "name": "games RSS",
+      "path": "filtered/category-games.xml",
+      "kind": "category"
+    },
+    {
+      "name": "music RSS",
+      "path": "filtered/category-music.xml",
+      "kind": "category"
+    },
+    {
+      "name": "networking RSS",
+      "path": "filtered/category-networking.xml",
+      "kind": "category"
+    },
+    {
+      "name": "other RSS",
+      "path": "filtered/category-other.xml",
+      "kind": "category"
+    },
+    {
+      "name": "photo-video RSS",
+      "path": "filtered/category-photo-video.xml",
+      "kind": "category"
+    },
+    {
+      "name": "social RSS",
+      "path": "filtered/category-social.xml",
+      "kind": "category"
+    },
+    {
+      "name": "utilities RSS",
+      "path": "filtered/category-utilities.xml",
+      "kind": "category"
+    }
+  ]
+}

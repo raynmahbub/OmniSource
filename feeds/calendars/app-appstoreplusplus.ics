@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:AppStore++ releases
+BEGIN:VEVENT
+UID:appstoreplusplus-2.3.15@omnisource
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:AppStore++ v2.3.15
+DESCRIPTION:AppStore++ 2.3.15 | TrollStore\n\n# AppStore++ — What’s New
+  in v2.3.15-7\n\n- Added a delete all/trashcan button for ipa library\n- F
+ ixed bug when an ipa download is cancelled when packaging & becoming corru
+ pted\n- Run ipa packaging on background thread so the UI isn't lagged
+URL:https://raynmahbub.github.io/OmniSource/feeds/appstoreplusplus.json
+END:VEVENT
+END:VCALENDAR

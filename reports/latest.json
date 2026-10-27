@@ -1,23 +1,51 @@
 {
-  "generatedAt": "2026-10-24",
-  "feedVersion": "dc3a0fc423f4",
+  "generatedAt": "2026-10-27",
+  "feedVersion": "e1de41d98323",
   "apps": {
     "total": 128,
-    "reachable": 127,
-    "unreachable": 1,
-    "verified": 127
+    "reachable": 108,
+    "unreachable": 7,
+    "verified": 98
   },
   "sync": {
-    "synced": 1,
+    "synced": 6,
     "incrementalHits": 0,
-    "updated": 0,
+    "updated": 3,
     "failed": 0,
-    "apiRequests": 1
+    "apiRequests": 6
   },
   "unreachable": [
-    "uyouenhanced"
+    "infuseplus",
+    "inkillerplus",
+    "messenger-flow",
+    "nexasc",
+    "sparkle",
+    "threadsaver",
+    "ttkillerplus"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "slug": "neofreebird",
+      "name": "NeoFreeBird",
+      "previousVersion": "2.2",
+      "version": "7.2.0",
+      "kind": "updated"
+    },
+    {
+      "slug": "dopamine-roothide",
+      "name": "Dopamine (RootHide)",
+      "previousVersion": "2.4.9.27",
+      "version": "3.0.12-28",
+      "kind": "updated"
+    },
+    {
+      "slug": "otraku",
+      "name": "Otraku",
+      "previousVersion": "1.12.1",
+      "version": "1.13.1",
+      "kind": "updated"
+    }
+  ],
   "errors": [],
   "translations": {
     "ar": 100,

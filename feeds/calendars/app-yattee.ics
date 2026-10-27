@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Yattee releases
+BEGIN:VEVENT
+UID:yattee-1.5.1@omnisource
+DTSTAMP:20240128T000000Z
+DTSTART;VALUE=DATE:20240128
+DTEND;VALUE=DATE:20240129
+SUMMARY:Yattee v1.5.1
+DESCRIPTION:Yattee 1.5.1 | Yattee-1.5.1-iOS\n\n## What's Changed\n\n* suppo
+ rt for private instances by @stonerl in https://github.com/yattee/yattee/p
+ ull/565\n* honour the aspect ratio when resizing by @stonerl in https://gi
+ thub.com/yattee/yattee/pull/562\n* make links in description clickable by 
+ @stonerl in https://github.com/yattee/yattee/pull/560\n* make description 
+ collapsible by @stonerl in https://github.com/yattee/yattee/pull/559\n* ma
+ cOS: disable hit testing when not expanded by @stonerl in https://github.c
+ om/yattee/yattee/pull/578\n* disable portraitUpsideDown on iPhones by @sto
+ nerl in https://github.com/yattee/yattee/pull/569\n* make chapters collaps
+ ible and highlight current chapter by @stonerl in https://github.com/yatte
+ e/yattee/pull/564\n* more robust regex for chapters from description by @s
+ tonerl in https://github.com/yattee/yattee/pull/597\n* Translations update
+  from Weblate\n* Added Persian\, Spanish\, Turkish and Russian localizatio
+ ns\n* Other changes and improvements\n## New Contributors\n* @stonerl made
+  their first contribution in https://github.com/yattee/yattee/pull/565\n\n
+ **Full Changelog**: https://github.com/yattee/yattee/compare/v1.5...v1.5.1
+URL:https://raynmahbub.github.io/OmniSource/feeds/yattee.json
+END:VEVENT
+END:VCALENDAR

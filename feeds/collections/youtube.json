@@ -45,19 +45,33 @@
               "fileType": "IPA",
               "size": 106518711,
               "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-              "downloads": 4811,
+              "downloads": 5005,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 4811
+          "downloads": 5005
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn2.png",
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn3.png",
         "https://raw.githubusercontent.com/Mark02-2012/MaxMusic/MYmain/Resources/scrn4.png"
+      ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -107,8 +121,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
           "lastUpdatedAt": "2026-09-15"
         }
       }
@@ -160,19 +176,33 @@
               "fileType": "IPA",
               "size": 133357787,
               "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-              "downloads": 610,
+              "downloads": 633,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 610
+          "downloads": 633
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr1.jpg",
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr2.jpg",
         "https://raw.githubusercontent.com/Mark02-2012/MaxTube/main/Resources/scr3.jpg"
+      ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -209,7 +239,8 @@
           "method": "github-release",
           "publisher": "Ashreq/ashstore-repo",
           "codeSigned": false,
-          "checksumPublished": true
+          "checksumPublished": true,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -231,8 +262,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
           "lastUpdatedAt": "2026-08-03"
         }
       }
@@ -261,10 +294,25 @@
             "https://dn720705.ca.archive.org/0/items/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa"
           ],
           "size": 135840058,
-          "minOSVersion": "16.0"
+          "minOSVersion": "16.0",
+          "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -305,7 +353,8 @@
           "method": "manual-mirror",
           "publisher": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
           "codeSigned": false,
-          "checksumPublished": true
+          "checksumPublished": true,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -326,9 +375,11 @@
           "notes": "uYouEnhanced's official GitHub releases publish release notes only - no .ipa assets - so the IPA served here is a community build of the official release tag (YouTube 21.14.4 / uYou 3.0.5), mirrored on archive.org. Once a 'Build uYouEnhanced' run publishes an IPA in this repository (tag uyouenhanced-v*), the self-built artifact takes over automatically."
         },
         "health": {
-          "downloadReachable": false,
-          "detail": "timed out",
-          "statusSince": "2026-10-21",
+          "downloadReachable": true,
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
           "lastUpdatedAt": "2026-08-22"
         }
       }
@@ -368,16 +419,30 @@
               "fileType": "IPA",
               "size": 131398144,
               "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
-              "downloads": 137,
+              "downloads": 239,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
-          "downloads": 137
+          "downloads": 239
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -413,7 +478,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "17.0",
@@ -435,8 +501,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }
@@ -476,16 +544,30 @@
               "fileType": "IPA",
               "size": 131280986,
               "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-              "downloads": 234,
+              "downloads": 455,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-          "downloads": 234
+          "downloads": 455
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -543,8 +625,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }
@@ -584,13 +668,13 @@
               "fileType": "IPA",
               "size": 149834006,
               "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-              "downloads": 1145,
+              "downloads": 1896,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-          "downloads": 1145
+          "downloads": 1896
         },
         {
           "version": "21.33.6",
@@ -612,13 +696,13 @@
               "fileType": "IPA",
               "size": 145178333,
               "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-              "downloads": 194,
+              "downloads": 213,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "43cb1d1b69f8c4b6c5e70c132703381ee842887c1520d639fb875f55d487be04",
-          "downloads": 194
+          "downloads": 213
         },
         {
           "version": "21.24.3",
@@ -640,13 +724,13 @@
               "fileType": "IPA",
               "size": 129031075,
               "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-              "downloads": 6417,
+              "downloads": 6441,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "37b4f9a4390c909205a0c93928c941587aa0994eddc99a29097d54ae6be477ba",
-          "downloads": 6417
+          "downloads": 6441
         },
         {
           "version": "20.21.6",
@@ -668,13 +752,13 @@
               "fileType": "IPA",
               "size": 115566999,
               "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-              "downloads": 312,
+              "downloads": 326,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "9b97fdef5a336ef784621efa8f6afa8e30eff6dbe414a4924ef8020409628355",
-          "downloads": 312
+          "downloads": 326
         },
         {
           "version": "19.20.2",
@@ -696,19 +780,33 @@
               "fileType": "IPA",
               "size": 106247621,
               "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-              "downloads": 183,
+              "downloads": 191,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "f77d827ff61a44fa9a995c5a2aaa0f97968aed7f254cba9d06761b23b70cf1b6",
-          "downloads": 183
+          "downloads": 191
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr1.jpg",
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr2.jpg",
         "https://raw.githubusercontent.com/Dayanch96/ytlite/main/Resources/scr3.jpg"
+      ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -745,7 +843,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -767,8 +866,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }
@@ -782,81 +883,95 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "tintColor": "FF0000",
       "category": "photo-video",
-      "version": "21.41.5",
-      "versionDate": "2026-10-11",
-      "versionDescription": "YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
-      "size": 137158764,
+      "version": "21.42.4",
+      "versionDate": "2026-10-25",
+      "versionDescription": "YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking like si= from links you copy or share\n• Added options to remove items from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n• Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Blank space left when fullscreen actions are hidden\n• Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+      "size": 138006169,
       "versions": [
         {
-          "version": "21.41.5",
-          "date": "2026-10-11",
-          "localizedDescription": "YouTube 21.41.5 | YTKACE 1.1.3 | YTKACE_1.1.3_YouTube_21.41.5\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
-          "size": 137158764,
+          "version": "21.42.4",
+          "date": "2026-10-25",
+          "localizedDescription": "YouTube 21.42.4 | YTKACE 1.1.4 | YTKACE_1.1.4_YouTube_21.42.4\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking like si= from links you copy or share\n• Added options to remove items from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n• Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Blank space left when fullscreen actions are hidden\n• Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+          "size": 138006169,
           "minOSVersion": "17.0",
-          "releaseUrl": "https://github.com/itzzace/ytkace/releases/tag/v1.1.3",
+          "releaseUrl": "https://github.com/itzzace/ytkace/releases/tag/v1.1.4",
           "source": "github",
           "isPrerelease": false,
           "isDraft": false,
           "assets": [
             {
-              "filename": "com.itzzace.ytkace_1.1.3_roothide.deb",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/com.itzzace.ytkace_1.1.3_roothide.deb",
+              "filename": "com.itzzace.ytkace_1.1.4_roothide.deb",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/com.itzzace.ytkace_1.1.4_roothide.deb",
               "platform": "linux",
               "architecture": null,
               "fileType": "DEB",
-              "size": 2037774,
-              "sha256": "eb1c8e5708e975c114ab0e54fa3e25663488a3b4056cec58dfd0b74ff52f52b5",
-              "downloads": 149,
+              "size": 2070596,
+              "sha256": "859060a3e8ed2e6ed81e490e97546ed4430b0cc33ae9c6b7daa47dee4490f460",
+              "downloads": 5,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
             {
-              "filename": "com.itzzace.ytkace_1.1.3_rootless.deb",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/com.itzzace.ytkace_1.1.3_rootless.deb",
+              "filename": "com.itzzace.ytkace_1.1.4_rootless.deb",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/com.itzzace.ytkace_1.1.4_rootless.deb",
               "platform": "linux",
               "architecture": null,
               "fileType": "DEB",
-              "size": 2038226,
-              "sha256": "26d6aa39123a183879276a75673cc2e854b38e648483a7e9b709ffc0a7060755",
-              "downloads": 202,
+              "size": 2070900,
+              "sha256": "80093cf9e3b58b98201e37359e33044580a34fce09b3a3f1825c391aa4ab1603",
+              "downloads": 12,
               "mimeType": "application/x-debian-package",
               "installable": true
             },
             {
-              "filename": "YTKACE_1.1.3_YouTube_21.41.5.ipa",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+              "filename": "YTKACE_1.1.4_YouTube_21.42.4.ipa",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 137158764,
-              "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
-              "downloads": 4683,
+              "size": 138006169,
+              "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+              "downloads": 296,
               "mimeType": "application/octet-stream",
               "installable": true
             },
             {
-              "filename": "YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa",
-              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa",
+              "filename": "YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
+              "downloadUrl": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 134130360,
-              "sha256": "716650fd44633389d37b45283be2ddb189afc2d3463b3697340fc831f4bfe6a1",
-              "downloads": 440,
+              "size": 134178929,
+              "sha256": "2f36f81a50f3a6dfb86902699198d2b0f68eadad0a205debe252b2fb1da51231",
+              "downloads": 48,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
-          "downloads": 4683
+          "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+          "downloads": 296
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/audio-player.png",
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/audio-queue.png",
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/download-library.png"
+      ],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -914,10 +1029,12 @@
           "notes": "Tracks the official itzzace/ytkace releases. The published build follows the latest YouTube release and needs iOS 17 or newer; upstream also ships a separate iOS 16 IPA (YTKACE_<version>_YouTube_iOS16_<youtube>.ipa) on the same release page."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-07",
-          "lastUpdatedAt": "2026-10-11"
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
+          "lastUpdatedAt": "2026-10-25"
         }
       }
     },
@@ -956,19 +1073,33 @@
               "fileType": "IPA",
               "size": 143635824,
               "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-              "downloads": 709,
+              "downloads": 749,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-          "downloads": 709
+          "downloads": 749
         }
       ],
       "screenshotURLs": [
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/1.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/2.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/3.PNG"
+      ],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -1005,7 +1136,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "17.0",
@@ -1027,8 +1159,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-29",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
           "lastUpdatedAt": "2026-09-26"
         }
       }
@@ -1068,19 +1202,33 @@
               "fileType": "IPA",
               "size": 105940933,
               "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
-              "downloads": 150,
+              "downloads": 247,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
-          "downloads": 150
+          "downloads": 247
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn1.png",
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn2.png",
         "https://raw.githubusercontent.com/Dayanch96/YTMusicUltimate/main/Resources/scrn3.png"
+      ],
+      "minOSVersion": "16.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -1108,7 +1256,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YTMusicUltimate",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "16.0",
@@ -1130,8 +1279,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-14",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
           "lastUpdatedAt": "2026-10-22"
         }
       }

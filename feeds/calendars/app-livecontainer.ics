@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:LiveContainer releases
+BEGIN:VEVENT
+UID:livecontainer-3.8.0@omnisource
+DTSTAMP:20260717T000000Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:LiveContainer v3.8.0
+DESCRIPTION:LiveContainer 3.8.0 | LiveContainer\n\n# LiveContainer 3.8.0\n\
+ n> [!Warning]\n> The standalone version requires **SideStore 0.6.2+** or *
+ *AltStore 2.2.1+** for installation.\n> To install LiveContainer with buil
+ t-in SideStore (`LiveContainer+SideStore.ipa`)\, please use [Impactor](htt
+ ps://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab13
+ 8/iloader). See [our installation guide](https://livecontainer.github.io/d
+ ocs/installation/lc_sidestore) for details.\n\n# New Features\n\n## Storag
+ e Management\n\n- Added a new storage management view with a breakdown of 
+ app bundles\, containers\, temporary files\, app group data\, tweaks\, and
+  other files. (Hidden apps' size is included in "other" section until unlo
+ cked)\n- Added per-app storage details\, including app bundle size\, conta
+ iner sizes\, and last-used date.\n- Added actions to clean temporary files
+  and caches\, including guest app caches and LiveContainer's own caches.\n
+ \n## Multiple LiveContainers\n- Added configurable launch priority for mul
+ tiple LiveContainer instances\, making shared-app shortcuts choose availab
+ le instances in the order you prefer. (#1367)\n\n## Share to Apps in LiveC
+ ontainer\nAdded a share extension to LiveContainer. When you share a URL o
+ r a file from iOS's share sheet\, LiveContainer will ask which app you wou
+ ld like to open the URL/file in\, so the old share to LiveContainer shortc
+ ut method is no longer needed. When an ipa file is shared in this way\, Li
+ veContainer will ask if you want to install it in LiveContainer or in the 
+ built-in SideStore (if installed) (#1357)\n\n## Multitasking\n\n- Added pe
+ r-app multitask preferences. Each app can now follow the global setting\, 
+ always launch in multitask mode\, or avoid multitask mode. (#1208)\n- Impr
+ oved multitask dock behavior: the dock can be made smaller\, hidden more c
+ leanly\, and has improved padding. (#1228\, #1250)\n- Added more multitask
+  window animations and improved native-window scene handling.\n- URL schem
+ es and `open-url` payloads can be passed to already-running
+URL:https://raynmahbub.github.io/OmniSource/feeds/livecontainer.json
+END:VEVENT
+END:VCALENDAR

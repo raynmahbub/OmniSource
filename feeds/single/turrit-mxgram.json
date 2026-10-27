@@ -11,7 +11,7 @@
   "apps": [
     {
       "name": "Turrit MxGram",
-      "bundleIdentifier": "com.seastar.turrit",
+      "bundleIdentifier": "com.seastar.turrit.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "MxGram-tweaked Turrit client (unofficial build)",
       "localizedDescription": "Turrit MxGram is the third-party Turrit messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the Turrit Telegram client.",
@@ -20,16 +20,16 @@
       "category": "social",
       "version": "1.5.6",
       "versionDate": "2026-10-17",
-      "versionDescription": "Turrit 1.5.6 | Turrit-1.5.6-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.6",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa",
-      "size": 99832508,
+      "versionDescription": "Turrit 1.5.6 | Turrit-1.5.6-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.6",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
+      "size": 107518899,
       "versions": [
         {
           "version": "1.5.6",
           "date": "2026-10-17",
-          "localizedDescription": "Turrit 1.5.6 | Turrit-1.5.6-iQTele\n\nIPA Vault build for Turrit (iQTele), version 1.5.6",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa",
-          "size": 99832508,
+          "localizedDescription": "Turrit 1.5.6 | Turrit-1.5.6-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.6",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
+          "size": 107518899,
           "minOSVersion": "13.0",
           "releaseUrl": null,
           "source": "altstore",
@@ -37,12 +37,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Turrit-1.5.6-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa",
+              "filename": "Turrit-1.5.6-MxGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 99832508,
+              "size": 107518899,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -55,6 +55,20 @@
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
+      ],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -91,7 +105,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "13.0",
@@ -109,12 +124,14 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. Uses its own bundle identifier."
+          "notes": "UNOFFICIAL BUILD - TWICE OVER. Turrit is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.seastar.turrit.mxgram; a signing client may change the identifier."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-18",
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
           "lastUpdatedAt": "2026-10-17"
         }
       }

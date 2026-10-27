@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:AirTroller releases
+BEGIN:VEVENT
+UID:airtroller-1.1.1@omnisource
+DTSTAMP:20221126T000000Z
+DTSTART;VALUE=DATE:20221126
+DTEND;VALUE=DATE:20221127
+SUMMARY:AirTroller v1.1.1
+DESCRIPTION:AirTroller 1.1.1 | TrollStore\n\n- Fix a slow send bug introduc
+ ed in 1.1\n\n♡ Support - https://ko-fi.com/sourcelocation
+URL:https://raynmahbub.github.io/OmniSource/feeds/airtroller.json
+END:VEVENT
+END:VCALENDAR

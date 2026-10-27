@@ -25,11 +25,11 @@ class TestNotify(unittest.TestCase):
     def setUp(self) -> None:
         self.update = UpdateEvent(
             app_id="spotiflac",
-            name="SpotiFLAC Mobile",
+            name="Mornye",
             version="4.9.6",
             previous_version="4.9.5",
             release_date="2026-09-07",
-            download_url="https://example.com/SpotiFLAC.ipa",
+            download_url="https://example.com/Mornye.ipa",
             changelog="Lossless audio downloads.",
             kind="updated",
         )
@@ -75,7 +75,7 @@ class TestNotify(unittest.TestCase):
         request = mock_urlopen.call_args.args[0]
         self.assertEqual(request.full_url, "https://ntfy.sh/omnisource-test")
         payload = json.loads(request.data)
-        self.assertIn("SpotiFLAC Mobile", payload["title"])
+        self.assertIn("Mornye", payload["title"])
         self.assertEqual(payload["tags"], ["tada"])
 
     @patch("urllib.request.urlopen")

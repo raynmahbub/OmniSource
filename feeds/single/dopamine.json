@@ -44,7 +44,7 @@
               "fileType": "IPA",
               "size": 55420784,
               "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
-              "downloads": 34809,
+              "downloads": 49374,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -56,16 +56,30 @@
               "fileType": "IPA",
               "size": 55420784,
               "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
-              "downloads": 2481,
+              "downloads": 3287,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
-          "downloads": 34809
+          "downloads": 49374
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -102,8 +116,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
           "lastUpdatedAt": "2026-10-20"
         }
       }

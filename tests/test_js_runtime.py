@@ -82,5 +82,13 @@ class ScrollPinRuntimeTests(JsHarnessTests):
         self.run_harness("scroll_pin.cjs", 9)
 
 
+class DeviceMigrationRuntimeTests(JsHarnessTests):
+    def test_local_device_and_source_migration(self) -> None:
+        self.run_harness("device_migration.cjs", 11)
+
+    def test_guide_updates_and_variants(self) -> None:
+        self.run_harness("roadmap_features.cjs", 9)
+
+
 if __name__ == "__main__":  # pragma: no cover
     unittest.main()

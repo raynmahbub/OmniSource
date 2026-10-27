@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Nicegram",
     "bundleIdentifier": "app.nicegram",
@@ -37,7 +37,7 @@
             "fileType": "ZIP",
             "size": 192265958,
             "sha256": "d3047b04df5ffc99859e1c5d5c3e249560cbeb6d5ee022d1c3382e0f993f8cb7",
-            "downloads": 48,
+            "downloads": 60,
             "mimeType": "application/zip",
             "installable": false
           },
@@ -49,16 +49,30 @@
             "fileType": "IPA",
             "size": 111869672,
             "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
-            "downloads": 156,
+            "downloads": 199,
             "mimeType": "application/zip",
             "installable": true
           }
         ],
         "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
-        "downloads": 156
+        "downloads": 199
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "15.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "nicegram",
       "status": "stable",
@@ -91,8 +105,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
         "lastUpdatedAt": "2026-10-19"
       }
     },

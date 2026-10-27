@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Chan releases
+BEGIN:VEVENT
+UID:chan-1.2.9@omnisource
+DTSTAMP:20260928T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Chan v1.2.9
+DESCRIPTION:Chan 1.2.9 | Chance\n\n## New Features\n\n- New captcha cloud s
+ olver\n- Small redesign of captcha form\n- Support image pasting from keyb
+ oard on iOS 27\n- Rename saved attachments\n\n## General Improvements\n\n-
+  Reddit comments replaced by "Edit: comment has been cleaned" will retain 
+ their previous text\n- Many QUIC and HTTP/3 bugfixes and performance impro
+ vements\n\n## Tweaks\n\n- Don't insert duplicate quotelinks when using "re
+ ply" to open the reply form\n- Added a confirmation before clearing cookie
+ s when banned\n- Hide archive name when scrolling to bottom of thread (it'
+ s already there)\n- Always restart videos from beginning in gallery\n- Sli
+ ght tweak of tab bar resizing for long tab titles\n\n## Bugfixes\n\n- Thre
+ ads not marked as archived\n- Gallery changed image when rotating the devi
+ ce\n- Compatibility error on some newer Android versions\n- Unable to tap 
+ tabs on first page sometimes\n- Intermittent errors about directories not 
+ existing\n- YouTube shorts embeds not shown\n- Posting multiple files on l
+ ynxchan-based sites didn't work and just combined their filenames\n- Threa
+ d tail requests were not properly optimized for caching\n- Cloudflare popu
+ p trying to load Twitter embed data\n- Backspacing an embeddable URL in th
+ e reply box would cause repeated network requests\n- Tab bar spazzed open 
+ and close when slowly scrolling to the bottom of a thread
+URL:https://raynmahbub.github.io/OmniSource/feeds/chan.json
+END:VEVENT
+END:VCALENDAR

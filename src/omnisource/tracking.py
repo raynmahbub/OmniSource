@@ -254,9 +254,15 @@ def select_versions(
             from_tag=ref.version_from_tag,
             version_pattern=ref.version_pattern,
         )
-        version_order = compare_versions(".".join(left_version), ".".join(right_version))
+        left_primary = left_version[0] if left_version else ""
+        right_primary = right_version[0] if right_version else ""
+        version_order = compare_versions(left_primary, right_primary)
         if version_order:
             return -version_order
+        if len(left_version) > 1 or len(right_version) > 1:
+            secondary_order = compare_versions(".".join(left_version[1:]), ".".join(right_version[1:]))
+            if secondary_order:
+                return -secondary_order
         return (right_release.published_at > left_release.published_at) - (
             right_release.published_at < left_release.published_at
         )
@@ -275,6 +281,37 @@ def select_versions(
         if ref.keep_versions and len(versions) >= ref.keep_versions:
             break
     return versions
+
+
+def matched_release_dates(
+    *,
+    ref: RepositoryRef,
+    releases: list[RemoteRelease],
+    pattern: re.Pattern[str] | None = None,
+    limit: int = 12,
+) -> list[str]:
+    """Return up to ``limit`` chronological ISO dates for matching releases.
+
+    ``select_versions`` caps the published ``versions`` array at
+    ``ref.keep_versions`` (usually 1) to keep feed payloads small, which
+    previously discarded the historical release dates already fetched in the
+    same API response. Recording the dates separately in ``state.json`` gives
+    the reputation and cadence engines a real release series without bloating
+    ``apps.json``.
+    """
+    seen: set[str] = set()
+    for release in releases:
+        if not release_is_eligible(release, ref):
+            continue
+        asset = pick_asset(release, ref.asset_suffixes, pattern)
+        if asset is None or not asset.download_url:
+            continue
+        published = str(release.published_at or "").strip()
+        if len(published) >= 10:
+            iso = published[:10]
+            if re.match(r"^\d{4}-\d{2}-\d{2}$", iso):
+                seen.add(iso)
+    return sorted(seen)[-max(1, limit) :]
 
 
 def detect_update(previous: list[dict[str, Any]] | None, current: list[dict[str, Any]]) -> str:

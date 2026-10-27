@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Delta releases
+BEGIN:VEVENT
+UID:delta-1.6@omnisource
+DTSTAMP:20240711T000000Z
+DTSTART;VALUE=DATE:20240711
+DTEND;VALUE=DATE:20240712
+SUMMARY:Delta v1.6
+DESCRIPTION:Delta 1.6 | Delta_1_6\n\n## New\n\nApp Icon\n* Brand new legall
+ y-compliant app icon (thanks Caroline Moore!)\n* Includes alternative app 
+ icons designed by community members:\n* "Halogenide" by Sebastiaan de With
+ \n* "Ketchup" by Ben McCarthy\n* "Microchip" by Sean Fletcher\n\niPad Supp
+ ort\n* Play games full screen on iPad's beautiful display\n* Brand new con
+ troller skins designed specifically for iPad (thanks Caroline Moore!)\n* S
+ upports multiple windows in Stage Manager and Split View\n* Automatically 
+ pauses games when switching windows (optional)\n\nHandoff\n* Seamlessly sw
+ itch between iPhone and iPad\n* Continues playing exactly where you left o
+ ff\n* Also supports Delta on Apple Silicon Macs via Mac App Store\n\nmelon
+ DS 0.9.5\n* Improves DS game compatibility & performance\n* BIOS files are
+  now optional!\n* Supports "inserting" GBA games into DS dual-slot\n* Incr
+ eased Fast Forward speed to 3x (A15 processor or later)\n\nMenu Button Ges
+ tures\n* Use gestures while holding menu button to perform quick actions\n
+ * Menu + Horizontal Swipe: Fast Forward\n* Menu + Any Button: Hold Button\
+ n* Menu + Double-Tap: Quick Save\n* Menu + Long-Press: Quick Load\n\nExper
+ imental Features\n* New section in Settings for features by third-party co
+ ntributors\n* Features are WIP and should be used at user’s discretion\n
+ * Available for Patrons on "Beta Access" tier or higher\n\nSave States\n* 
+ Sort save states by name\n* View all incompatible screenshots on a separat
+ e screen\n* Export save states to import into other emulators\n\n“Displa
+ y Full Screen” AirPlay Setting\n* Control whether Delta shows games full
+  screen on external displays\n* Disable to use multiple windows on externa
+ l display with Stage Manager\n\nMisc.\n* Supports Game Mode on iOS 18+\n* 
+ Increased DS screen size for default edge-to-edge iPhone landscape skin\n\
+ n## Fixed\n\n* Fixed exporting save file without file extension\n* Fixed i
+ nterface rotating when playing WarioWare: Twisted!\n* Fixed Pokemon Black 
+ & White (2) freezing with C-Gear enabled
+URL:https://raynmahbub.github.io/OmniSource/feeds/delta.json
+END:VEVENT
+END:VCALENDAR

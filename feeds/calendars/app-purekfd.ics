@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:PureKFD releases
+BEGIN:VEVENT
+UID:purekfd-6.0.2@omnisource
+DTSTAMP:20241123T000000Z
+DTSTART;VALUE=DATE:20241123
+DTEND;VALUE=DATE:20241124
+SUMMARY:PureKFD v6.0.2
+DESCRIPTION:PureKFD 6.0.2 | PureKFD\n\n- more optimization\n- more syncing 
+ for accents\n- new repo\n- fixed individual tweak restore
+URL:https://raynmahbub.github.io/OmniSource/feeds/purekfd.json
+END:VEVENT
+END:VCALENDAR

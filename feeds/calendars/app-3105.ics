@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:3105 releases
+BEGIN:VEVENT
+UID:3105-2.0@omnisource
+DTSTAMP:20260914T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:3105 v2.0
+DESCRIPTION:3105 2.0 | 3105-2.0-build8-20260914-125906-unsigned\n\n# 3105 2
+ .0\n\nBản 2.0 chuyển 3105 thành một nơi thống nhất để tìm\
+ , cài đặt và quản lý Patch\, hình nền\, Dialer và các tính n
+ ăng dành cho thiết bị.\n\n## Điểm mới\n\n- Kho nội dung mới
+  với Dành cho bạn\, Mới cập nhật và nhiều nguồn.\n- Mục 
+ Đã cài quản lý mọi loại nội dung\, có biểu tượng\, phân
+  loại và thông báo cập nhật.\n- Patch hỗ trợ nhiều ứng d
+ ụng và App Group trong cùng một gói\, tùy chỉnh trước khi áp
+  dụng và mật khẩu tùy chọn.\n- Cải thiện sao lưu\, đặt l
+ ại\, khôi phục và xóa Patch đang hoạt động.\n- Hỗ trợ gia
+ o diện Dialer dạng .3105pass và hình nền .tendies từ kho.\n- Tr
+ ình quản lý Tệp mới có Workspace\, Application\, App Group\, tệ
+ p ẩn\, thẻ\, yêu thích và trình sửa plist.\n- Dọn dẹp trở 
+ thành tính năng có thể cài hoặc gỡ\; các bản iOS 27 được
+  hỗ trợ có thêm Footnote và Supervised.\n- Thiết kế lại trang
+  chủ\, nguồn\, chi tiết gói và mục Đã cài\; tiến trình t
+ ải và kết quả thao tác rõ ràng hơn.\n\n## Cài đặt\n\n- Asse
+ t đính kèm là IPA unsigned dành cho việc ký lại bằng chứng c
+ hỉ doanh nghiệp.\n- Bundle đích: com.apple.mobile.MobileHouseArrest.
+ \n- Không hỗ trợ SideStore\, AltStore\, 3uTools hoặc LiveContainer.
+ \n- Chỉ tiếp tục trên các phiên bản iOS được ứng dụng x
+ ác nhận hỗ trợ và luôn sao lưu dữ liệu trước khi áp dụ
+ ng Patch.\n\n---\n\n## English summary\n\n3105 2.0 adds a repository marke
+ tplace\, a unified Installed library\, multi-app and App Group patches\, c
+ onfigurable plist/JSON edits\, dialer themes\, repository wallpapers\, ins
+ tallable 3105 features\, a redesigned Files experience\, and safer restore
+  flows.\n\nThe attached IPA is unsigned and intended for enterprise-certif
+ icate signing. Bundle: com.apple.mobile.MobileHouseArrest.
+URL:https://raynmahbub.github.io/OmniSource/feeds/3105.json
+END:VEVENT
+END:VCALENDAR

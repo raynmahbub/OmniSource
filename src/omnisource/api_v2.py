@@ -48,7 +48,7 @@ def sha256_text(payload: str) -> str:
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
-def compute_feed_version(records: list[dict[str, Any]]) -> str:
+def compute_feed_version(records: list[dict[str, Any]], state: dict[str, Any] | None = None) -> str:
     """Content hash identifying one feed generation (12 hex chars).
 
     Covers the fields a client installs from; display-only metadata
@@ -65,6 +65,15 @@ def compute_feed_version(records: list[dict[str, Any]]) -> str:
         }
         for record in sorted(records, key=lambda item: str(item.get("id") or ""))
     ]
+    if state is not None:
+        for item in canonical:
+            node = state.get(str(item["id"]))
+            versions = node.get("versions", []) if isinstance(node, dict) else []
+            item["versions"] = [
+                {key: version.get(key) for key in ("version", "date", "downloadURL", "size", "sha256")}
+                for version in versions
+                if isinstance(version, dict)
+            ]
     payload = json.dumps(canonical, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
     return sha256_text(payload)[:FEED_VERSION_LENGTH]
 
@@ -247,6 +256,7 @@ def build_manifest_doc(
         "endpoints": [
             "/api/v2/apps.json",
             "/api/v2/apps/{id}.json",
+            "/api/v2/apps/{id}/versions.json",
             "/api/v2/featured.json",
             "/api/v2/categories.json",
             "/api/v2/trending.json",
@@ -279,7 +289,7 @@ def build_api_v2_documents(
     """
     generated_at = today()
     records = build_app_records(catalog, state, health_doc)
-    feed_version = compute_feed_version(records)
+    feed_version = compute_feed_version(records, state)
     verification_by_slug = {
         item.get("app"): item for item in (verification_doc or {}).get("apps", []) if isinstance(item, dict)
     }
@@ -295,13 +305,21 @@ def build_api_v2_documents(
     }
     for record in records:
         slug = str(record.get("id") or "")
-        documents[f"api/v2/apps/{slug}.json"] = build_per_app_doc(
+        per_app = build_per_app_doc(
             record,
             state,
             feed_version=feed_version,
             generated_at=generated_at,
             verification=verification_by_slug.get(slug),
         )
+        documents[f"api/v2/apps/{slug}.json"] = per_app
+        documents[f"api/v2/apps/{slug}/versions.json"] = {
+            "schemaVersion": API_V2_SCHEMA_VERSION,
+            "generatedAt": generated_at,
+            "feedVersion": feed_version,
+            "id": slug,
+            "versions": per_app["versions"],
+        }
     payloads = {name: dumps_pretty(doc) for name, doc in documents.items()}
     documents["api/v2/manifest.json"] = build_manifest_doc(
         payloads,

@@ -44,16 +44,30 @@
               "fileType": "IPA",
               "size": 126091,
               "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
-              "downloads": 16456,
+              "downloads": 16700,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
-          "downloads": 16456
+          "downloads": 16700
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -90,8 +104,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-13",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa",
           "lastUpdatedAt": "2026-07-12"
         }
       }

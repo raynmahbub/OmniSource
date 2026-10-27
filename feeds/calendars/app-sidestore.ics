@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:SideStore releases
+BEGIN:VEVENT
+UID:sidestore-0.7.0@omnisource
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:SideStore v0.7.0
+DESCRIPTION:SideStore 0.7.0 | SideStore\n\n## Build Info\n\nBuilt at (UTC):
+  `Fri Sep 11 21:25:58 2026`\nBuilt at (UTC date): `2026-09-11`\nCommit SHA
+ : `6032424a0e56c1c319762e786099bdd9186a238b`\nVersion: `0.7.0-20260911.328
+ +6032424a`\n\n#### What's Changed:\n- **fixes for 503 during sign-in**: Th
+ ere were some changes from apple server side which broke 0.6.4 and prior v
+ ersions and prevent them from signing into sidestore. This temporary versi
+ on addresses the sign-in issue with 503 status code\n\n#### Full Changelog
+ : [0.6.4...0.7.0-alpha](https://github.com/SideStore/SideStore/compare/0.6
+ .4...0.7.0-alpha)
+URL:https://raynmahbub.github.io/OmniSource/feeds/sidestore.json
+END:VEVENT
+END:VCALENDAR

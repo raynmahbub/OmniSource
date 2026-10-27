@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 35403538,
               "sha256": "97dc0fd2202fd4460efcab389943b8d5fdbb4988efff76b116b92b84a4662425",
-              "downloads": 473376,
+              "downloads": 485314,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -57,17 +57,31 @@
               "fileType": "IPA",
               "size": 4707271,
               "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
-              "downloads": 137641,
+              "downloads": 140634,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
-          "downloads": 137641
+          "downloads": 140634
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/release.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -112,8 +126,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-10-14",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
           "lastUpdatedAt": "2026-07-17"
         }
       }

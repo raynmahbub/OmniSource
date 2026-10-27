@@ -8,7 +8,7 @@ worklist — regenerate with `make audit` and prune resolved items when they shi
 
 ## P0 — correctness / publication
 
-- none open
+- Remove or wire the 2 unreferenced file(s) in `dead-code.md` (each is confirmed unused at the commit).
 
 ## P1 — UX, a11y, i18n
 
@@ -16,7 +16,7 @@ worklist — regenerate with `make audit` and prune resolved items when they shi
 
 ## P2 — performance & repository weight
 
-- 163 JSON mirror group(s) remain by design (branch Pages compatibility); do not delete without updating `src/omnisource/site.py`, `publish_root.py` and the smoke test in the same PR. **RESOLVED as accepted technical debt** — documented in `duplicates.md`.
+- 286 JSON mirror group(s) remain by design (branch Pages compatibility); do not delete without updating `src/omnisource/site.py`, `publish_root.py` and the smoke test in the same PR. **RESOLVED as accepted technical debt** — documented in `duplicates.md`.
 
 ## P3 — long-term
 

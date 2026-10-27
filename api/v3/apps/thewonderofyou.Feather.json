@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Feather",
     "bundleIdentifier": "thewonderofyou.Feather",
@@ -37,7 +37,7 @@
             "fileType": "IPA",
             "size": 14241853,
             "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
-            "downloads": 92073,
+            "downloads": 94331,
             "mimeType": "application/octet-stream",
             "installable": true
           },
@@ -49,19 +49,33 @@
             "fileType": "ZIP",
             "size": 22801338,
             "sha256": "618ae6eb1304b8154319f62d5acb7a841c3332ce775065ef7d60f1747deddff7",
-            "downloads": 2327,
+            "downloads": 2400,
             "mimeType": "application/zip",
             "installable": false
           }
         ],
         "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
-        "downloads": 92073
+        "downloads": 94331
       }
     ],
     "screenshotURLs": [
       "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Library.png",
       "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Repos.png",
       "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Sign.png"
+    ],
+    "minOSVersion": "16.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
     ],
     "appPermissions": {
       "entitlements": [
@@ -101,8 +115,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
         "lastUpdatedAt": "2026-07-05"
       }
     },

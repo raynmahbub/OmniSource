@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emulators releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Oct 2026 02:44:56 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/collection-emulators.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>UTM v5.0.8</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
+      <guid isPermaLink="false">utm-5.0.8</guid>
+      <pubDate>Sat, 17 Oct 2026 02:44:56 +0000</pubDate>
+      <description><![CDATA[UTM 5.0.8 | Universal IPA
+
+## Highlights
+* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.
+* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).
+* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.
+* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.
+* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.
+* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.
+
+## Notes
+* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.
+* The minimum supported versions are now macOS 12 and iOS 15.
+* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.
+* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.
+* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.
+* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.
+
+## Changes (v5.0.8)
+* Fixed several changes listed for v5.0.7 being left out of that build by mistake.
+* (macOS) Fixed Windows 3D acceleration on Apple Silicon Macs without Rosetta by falling back to DXMT
+* (macOS) QEMU: Fixed Windows installs from the USB CD drive stalling repeatedly, which made them much slower in v5.0.7 (#7970)
+
+## Changes (v5.0.7)
+* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
+* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
+* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
+* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad
+* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped
+* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with "Close" or "Quit" instead of "OK"
+* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
+* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
+* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
+* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)
+* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller
+* (macOS) Scripting: Force stopping a paused VM is now allowed
+* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing "VZErrorDomain error -6" (#7914)
+* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)
+
+## Changes (v5.0.6)
+* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)
+* Updated the DXMT and MoltenVK graphics backends
+* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26
+* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery
+* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)
+* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)
+* SPICE: Fixed microphone audio quality (#7751)
+* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)
+* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)
+* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27
+* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)
+* (iOS 27) Confirm before closing the window of a running VM on iPad
+* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new "Touch mode (drag to scroll)" (#4738)
+* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard
+* (iOS) Input: Game controller Options and Home buttons can now be mapped
+* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver
+* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)
+* (macOS) Terminal: Added a find bar (Cmd-F)
+* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)
+* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen
+* (macOS) Settings: Improved the notes field
+* (macOS 26) Settings: The "New…" device menu now matches the sidebar
+* (macOS) AVF: Sound input and output can be enabled separately, so "Output Only" no longer switches Bluetooth headphones to headset mode (#7875)
+* (macOS 26) AVF: New "Shared Network (VM to VM)" and "Host Only" networking modes (#6975, #7480) (thanks @lovon-spec)
+* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)
+* (macOS 27) AVF: Run without saving changes (#4201, #7326)
+* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)
+* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands
+* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)
+* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)
+* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)
+* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)
+
+## Changes (v5.0.5)
+* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* Config: For ARM64 configs, GICv3 is now selected by default. P…]]></description>
+      <enclosure url="https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>UTM v5.0.7</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/utm.json</link>
+      <guid isPermaLink="false">utm-5.0.7</guid>
+      <pubDate>Fri, 16 Oct 2026 06:25:45 +0000</pubDate>
+      <description><![CDATA[UTM 5.0.7 | Universal IPA
+
+## Highlights
+* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.
+* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).
+* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.
+* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.
+* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.
+* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.
+
+## Notes
+* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.
+* The minimum supported versions are now macOS 12 and iOS 15.
+* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.
+* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.
+* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.
+* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.
+
+## Changes (v5.0.7)
+* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration
+* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)
+* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display
+* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad
+* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped
+* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with "Close" or "Quit" instead of "OK"
+* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)
+* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12
+* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)
+* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)
+* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller
+* (macOS) Scripting: Force stopping a paused VM is now allowed
+* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing "VZErrorDomain error -6" (#7914)
+* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)
+
+## Changes (v5.0.6)
+* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)
+* Updated the DXMT and MoltenVK graphics backends
+* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26
+* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery
+* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)
+* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)
+* SPICE: Fixed microphone audio quality (#7751)
+* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)
+* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)
+* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27
+* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)
+* (iOS 27) Confirm before closing the window of a running VM on iPad
+* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new "Touch mode (drag to scroll)" (#4738)
+* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard
+* (iOS) Input: Game controller Options and Home buttons can now be mapped
+* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver
+* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)
+* (macOS) Terminal: Added a find bar (Cmd-F)
+* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)
+* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen
+* (macOS) Settings: Improved the notes field
+* (macOS 26) Settings: The "New…" device menu now matches the sidebar
+* (macOS) AVF: Sound input and output can be enabled separately, so "Output Only" no longer switches Bluetooth headphones to headset mode (#7875)
+* (macOS 26) AVF: New "Shared Network (VM to VM)" and "Host Only" networking modes (#6975, #7480) (thanks @lovon-spec)
+* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)
+* (macOS 27) AVF: Run without saving changes (#4201, #7326)
+* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)
+* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands
+* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)
+* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)
+* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)
+* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)
+
+## Changes (v5.0.5)
+* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~
+* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)
+* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.
+* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files
+* Wizard: scaling is now default to "nearest" when a "classic" computer emulation is created in the wizard and "linear" otherwise. Previously …]]></description>
+      <enclosure url="https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Provenance v3.3.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/provenance.json</link>
+      <guid isPermaLink="false">provenance-3.3.0</guid>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Provenance 3.3.0 | Provenance-3.3.0-iOS
+
+## What's New in 3.3.0
+
+This is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.
+
+### ☁️ iCloud / CloudKit Sync
+- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud
+- Real-time download progress indicators when loading cloud save states
+- Auto BIOS sync on game load when available in iCloud
+- ROM metadata syncs alongside files
+- Artwork syncs after library updates
+- CloudKit records management tab in Settings
+- iCloud upsell UI for new users with empty libraries
+- Sync queue pauses during emulation and resumes after
+
+### 📺 New tvOS UI (Default)
+- Completely redesigned tvOS interface now enabled by default
+- RetroWave-themed side menu with smooth animations
+- Save states browser accessible from the main UI with artwork and core name
+- "View All" saves section with per-system filtering
+- TopShelf v2: recent games and save states with artwork and timestamps
+- Cheats UI in the pause menu
+- Game "More Info" panel
+- Log viewer tab
+- Import status view in side menu
+- Search with persistent history
+- Dozens of focus, navigation, and theming fixes throughout
+
+### 🎨 Video Filters & Shaders
+- Unified filter pipeline works across native and RetroArch cores
+- GB and VHS filters improved
+- Filters accessible from the pause menu
+- RetroArch GLES 3D cores now supported (Vecx/GLiden, etc.)
+- Dolphin shader/filter support
+- PPSSPP filter support
+
+### 🎮 Core & Controller Fixes
+- **RetroArch**: Fixed player index mapping for MFi, PS4, and Xbox controllers; PS4 start/select fixed; 32x controls added; GameCube controller responder added
+- **Mupen64Plus**: Fixed PS4 start button; fixed tvOS scaling and placement; better save error messages
+- **Dolphin**: Fixed Vulkan landscape rendering
+- **GenPluGX**: Added CHD support; added wide-screen GameGear core
+- **PicoDrive**: Fixed crash on unload; fixed 32x controller mapping
+- **FCEUmm**: Fixed start/select button mapping
+- **Mednafen**: Fixed DualShock/DualSense pause/play button mapping
+- **GameBatte / TGDB Dual**: Fixed PSX/Xbox pause/select button mapping
+
+### 🐛 Bug Fixes & Stability
+- Fixed multiple app hangs from main-thread Realm access (moved to background)
+- Fixed crash in pause menu when closing core
+- Fixed potential crash if audio ring buffer init fails
+- Fixed crash in share/import extension
+- Fixed aspect ratio issues in Stella and some other cores
+- Fixed FPS label appearing in screenshots
+- Fixed artwork not refreshing in game library after sync
+- Fixed game importer re-queuing already-imported items
+- Fixed Realm contentless core crash
+- Fixed "Continue" carousel metadata mismatch
+- Skin selector refreshes orientation previews on rotation change
+- ManicSkin/DeltaSkin files can now be opened directly from Safari
+- iPad import status modal clipped layout fixed
+- DSP audio engine fixes
+
+### ⚡ Performance
+- Artwork loading significantly faster
+- Game library UI rendering optimizations (removed unnecessary Observable wrappers)
+- Async tab bar icon loading
+- CloudKit sync deduplication and repeat-lookup fixes
+- Game importer skips MD5 hashing for large non-BIOS files
+
+**Full Changelog**: https://github.com/Provenance-Emu/Provenance/compare/3.2.1...3.3.0]]></description>
+      <enclosure url="https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa" length="1076407494" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

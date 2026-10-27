@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Cowabunga",
     "bundleIdentifier": "com.leemin.Cowabunga",
@@ -37,18 +37,33 @@
             "fileType": "IPA",
             "size": 16288960,
             "sha256": null,
-            "downloads": 266282,
+            "downloads": 266512,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "downloads": 266282
+        "downloads": 266512,
+        "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c"
       }
     ],
     "screenshotURLs": [
       "https://raw.githubusercontent.com/leminlimez/Cowabunga/main/Images/Home.PNG",
       "https://raw.githubusercontent.com/leminlimez/Cowabunga/main/Images/Extra_Tools.PNG",
       "https://raw.githubusercontent.com/leminlimez/Cowabunga/main/Images/Passcode_Editor.PNG"
+    ],
+    "minOSVersion": "14.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
     ],
     "omnisource": {
       "slug": "cowabunga",
@@ -82,8 +97,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-17",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
         "lastUpdatedAt": "2023-05-29"
       }
     },

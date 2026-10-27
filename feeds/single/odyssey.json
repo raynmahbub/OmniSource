@@ -44,15 +44,30 @@
               "fileType": "IPA",
               "size": 27204395,
               "sha256": null,
-              "downloads": 567667,
+              "downloads": 567909,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 567667
+          "downloads": 567909,
+          "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
@@ -89,8 +104,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
           "lastUpdatedAt": "2023-04-04"
         }
       }

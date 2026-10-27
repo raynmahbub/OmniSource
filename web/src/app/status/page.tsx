@@ -1,6 +1,6 @@
 import MetricGrid from "@/components/MetricGrid";
 import PageHeader from "@/components/PageHeader";
-import { getStatus } from "@/lib/data";
+import { getMonitoring, getStatus } from "@/lib/data";
 import { getLangDict } from "@/lib/lang";
 
 interface SourceState {
@@ -8,7 +8,7 @@ interface SourceState {
   slug?: string;
   status?: string;
   latencyMs?: number | null;
-  lastProbe?: string;
+  checkedAt?: string;
 }
 
 const DOT: Record<string, string> = {
@@ -31,16 +31,33 @@ export default async function StatusPage() {
   };
   const sources = Array.isArray(doc.sources) ? doc.sources : [];
   const totals = doc.totals ?? {};
+  const monitoring = getMonitoring();
+  const summary = monitoring.summary ?? {};
+  const downloadMetrics = {
+    downloadsChecked: Number(summary.downloads ?? 0),
+    lastSeenReachable: Number(summary.downloadsOk ?? 0),
+    lastProbeFailed: Number(summary.downloads ?? 0) - Number(summary.downloadsOk ?? 0),
+  };
   return (
     <div className="space-y-6">
       <PageHeader title={dict.sections.statusTitle} description={dict.sections.statusSubtitle} />
-      <MetricGrid metrics={totals} />
+      <section className="space-y-3" aria-labelledby="download-monitoring">
+        <h2 id="download-monitoring" className="text-lg font-bold">Download monitoring</h2>
+        <p className="text-sm text-zinc-600 dark:text-zinc-400">Snapshot checked: {monitoring.generatedAt || "not recorded"}. Results are historical observations and can change; a failed probe does not prove a file is permanently unavailable.</p>
+        <MetricGrid metrics={downloadMetrics} />
+      </section>
+      <section className="space-y-3" aria-labelledby="feed-status">
+        <h2 id="feed-status" className="text-lg font-bold">Feed pipeline observations</h2>
+        <p className="text-sm text-zinc-600 dark:text-zinc-400">Feed built: {doc.generatedAt || "not recorded"}. Individual checks below may be older or unknown.</p>
+        <MetricGrid metrics={totals} />
+      </section>
       <div className="os-panel os-table-wrap">
         <table className="w-full text-left text-sm">
           <thead className="bg-zinc-50 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
             <tr>
               <th className="px-4 py-2 font-semibold">{dict.common.source}</th>
               <th className="px-4 py-2 font-semibold">{dict.nav.status}</th>
+              <th className="px-4 py-2 font-semibold">Last checked</th>
               <th className="px-4 py-2 font-semibold">Latency</th>
             </tr>
           </thead>
@@ -54,6 +71,7 @@ export default async function StatusPage() {
                     {s.status ?? "unknown"}
                   </span>
                 </td>
+                <td className="px-4 py-2 text-zinc-500">{s.checkedAt || "Not recorded"}</td>
                 <td className="px-4 py-2 text-zinc-500">{s.latencyMs == null ? "—" : `${s.latencyMs} ms`}</td>
               </tr>
             ))}

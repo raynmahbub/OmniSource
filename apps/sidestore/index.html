@@ -110,7 +110,7 @@
         <p class="ap-sub">AltStore fork that refreshes apps without a computer</p>
         <p class="ap-dev">by SideStore Team</p>
         <div class="ap-badges">
-<span class="badge stable">Stable</span><span class="badge verified" title="IPA published by the project&#39;s own upstream release channel">Official build</span><span class="badge ok"><span class="dot"></span>Online</span><span class="badge verified">✓ Verified</span></div>
+<span class="badge stable">Stable</span><span class="badge verified" title="Catalog attributes the IPA to the project release channel">Official source</span><span class="badge ok"><span class="dot"></span>Last seen reachable</span><span class="badge verified">Source listed</span></div>
       </div>
       <div class="ap-install">
         <a class="get-capsule" href="https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa" target="_blank" rel="noopener">Get · v0.7.0<span class="capsule-size">26.5 MB</span></a>
@@ -123,6 +123,7 @@
     <section class="ap-section" data-reveal>
       <h2><span class="num">01</span> About</h2>
       <p class="ap-desc">SideStore is a fork of AltStore that signs and refreshes sideloaded apps directly on the device. After a one-time pairing-file setup it renews 7-day certificates in the background using your own Apple ID and an anisette server, so apps stop expiring while you are away from a computer. It installs apps from any AltStore-compatible source, keeps them updated, and can back up and restore app data.</p>
+      <p class="device-check" data-device-compat="{&quot;minOSVersion&quot;: &quot;15.0&quot;, &quot;maxOSVersion&quot;: null, &quot;devices&quot;: [&quot;iphone&quot;, &quot;ipad&quot;], &quot;clients&quot;: [&quot;altstore&quot;, &quot;sidestore&quot;, &quot;flarestore&quot;, &quot;feather&quot;, &quot;esign&quot;, &quot;ksign&quot;, &quot;livecontainer&quot;], &quot;notes&quot;: &quot;Official AGPL-3.0 stable releases; the rolling nightly and alpha tags are pre-releases and are not tracked. Requires a pairing file and, on iOS 17+, a JIT/StikDebug-style enabler for some features.&quot;}">Device compatibility: choose a profile on the catalog page.</p>
       <div class="ap-screenshots"><img src="https://apps.sidestore.io/apps/sidestore/v0.1.1/browse-dark.png" alt="SideStore screenshot 1" width="175" height="380" loading="lazy" decoding="async"><img src="https://apps.sidestore.io/apps/sidestore/v0.1.1/apps-dark.png" alt="SideStore screenshot 2" width="175" height="380" loading="lazy" decoding="async"><img src="https://apps.sidestore.io/apps/sidestore/v0.1.1/news-dark.png" alt="SideStore screenshot 3" width="175" height="380" loading="lazy" decoding="async"></div>
     </section>
 
@@ -130,14 +131,16 @@
       <h2><span class="num">02</span> Install with</h2>
       <p class="ap-desc">Pick your client. Links are generated from the catalog on every build — never hard-coded.</p>
 <div class="ap-install-grid"><a class="ap-install-card" href="altstore://source?url=https://raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in AltStore"><img src="../../assets/AltStore.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>AltStore</b><span class="card-flag flag-compatible">Compatible</span><small>Tap to add the source to AltStore.</small></div></a><a class="ap-install-card" href="sidestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in SideStore"><img src="../../assets/SideStore.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>SideStore</b><span class="card-flag flag-recommended">Recommended</span><small>Tap to add the source to SideStore.</small></div></a><a class="ap-install-card" href="flarestore://source?url=https://raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in FlareStore"><img src="../../assets/FlareStore.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>FlareStore</b><span class="card-flag flag-compatible">Compatible</span><small>Tap to add the source to FlareStore. If nothing happens, paste the feed URL in Sources.</small></div></a><a class="ap-install-card" href="feather://source/raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in Feather"><img src="../../assets/Feather.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>Feather</b><span class="card-flag flag-compatible">Compatible</span><small>Tap to add the source to Feather.</small></div></a><a class="ap-install-card" href="esign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in ESign"><img src="../../assets/E-Sign.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>ESign</b><span class="card-flag flag-compatible">Compatible</span><small>Tap to add the source to ESign. If nothing happens, open ESign → App Sources → + and paste the URL.</small></div></a><a class="ap-install-card" href="ksign://addsource?url=https://raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in Ksign"><img src="../../assets/Ksign.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>Ksign</b><span class="card-flag flag-compatible">Compatible</span><small>Tap to add the source to Ksign. If nothing happens, open Ksign sources and paste the URL.</small></div></a><a class="ap-install-card" href="livecontainer://sources?url=https://raynmahbub.github.io/OmniSource/feeds/sidestore.json" title="Open in LiveContainer"><img src="../../assets/LiveContainer.webp" alt="" width="30" height="30" loading="lazy"><div style="min-width:0"><b>LiveContainer</b><span class="card-flag flag-compatible">Compatible</span><small>Tap to add the source to LiveContainer. If nothing happens, open LiveContainer → Settings → Sources and paste the URL.</small></div></a></div>      <p class="mt-3"><a class="button small" href="../../install/">Open the installation center →</a></p>
+      <details class="device-profile"><summary>Estimate re-signing date</summary><p>Optional local reminder. Estimates are approximate: certificate and client rules vary. Notifications require permission and only run while this page is open.</p><form class="device-profile-form" data-resign-slug="sidestore"><label>Signed on <input type="date" name="signed" required></label><label>Signing account <select name="kind"><option value="free">Free (about 7 days)</option><option value="paid">Paid (about 365 days)</option></select></label><button class="button small" type="submit">Save estimate</button><button class="button small" type="button" data-resign-remind>Allow reminders</button><button class="button small" type="button" data-resign-clear>Clear</button><span data-resign-message role="status"></span></form></details>
     </section>
 
     <section class="ap-section" data-reveal>
       <h2><span class="num">03</span> Release notes</h2>
+      <p class="ap-desc"><a href="../../feeds/sidestore.xml">RSS</a> · <a href="../../feeds/calendars/app-sidestore.ics">Release calendar</a>. Older release URLs may disappear or identify a different build; check before downgrading.</p>
       <div class="ap-version-list"><article class="ap-version">
   <div class="ap-version-head"><span class="v">v0.7.0</span><span class="tag">Current</span>
     <span class="d">Sep 15, 2026</span></div>
-  <div class="meta"><span>26.5 MB</span><code title="SHA-256">e334f86e6ceeab2e…</code><a class="button small" href="https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa" target="_blank" rel="noopener">Download</a></div>
+  <div class="meta"><span>26.5 MB</span><code title="Recorded SHA-256">e334f86e6ceeab2e…</code><a class="button small" href="https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa" target="_blank" rel="noopener">Download</a></div>
   <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">SideStore 0.7.0 | SideStore
 
 ## Build Info
@@ -152,20 +155,23 @@ Version: `0.7.0-20260911.328+6032424a`
 
 #### Full Changelog: [0.6.4...0.7.0-alpha](https://github.com/SideStore/SideStore/compare/0.6.4...0.7.0-alpha)</pre></details>
 </article></div>
+      <h3>Permission changes</h3>
+      <p class="ap-desc">Version-specific permission comparison is unavailable.</p>
     </section>
 
     <section class="ap-section" data-reveal>
       <h2><span class="num">04</span> Details</h2>
       <div class="ap-detail-grid">
-<div class="ap-cell"><span>Version</span><strong>v0.7.0</strong></div><div class="ap-cell"><span>Updated</span><strong>Sep 15, 2026</strong></div><div class="ap-cell"><span>Size</span><strong>26.5 MB</strong></div><div class="ap-cell"><span>Requires iOS</span><strong>15.0</strong></div><div class="ap-cell"><span>Category</span><strong>Utilities</strong></div><div class="ap-cell"><span>Developer</span><strong>SideStore Team</strong></div><div class="ap-cell"><span>Bundle ID</span><strong><code>com.SideStore.SideStore</code></strong></div><div class="ap-cell"><span>Verification</span><strong>VERIFIED</strong></div><div class="ap-cell"><span>Build</span><strong>Official build</strong></div><div class="ap-cell"><span>Checksum</span><strong><code>e334f86e6ceeab2e0d88</code></strong></div><div class="ap-cell"><span>Health</span><strong>Online</strong></div><div class="ap-cell"><span>Version history</span><strong>1</strong></div><div class="ap-cell"><span>Source</span><strong><a class="ap-source-link" href="https://github.com/SideStore/SideStore" target="_blank" rel="noopener">SideStore/SideStore</a></strong></div></div>
+<div class="ap-cell"><span>Version</span><strong>v0.7.0</strong></div><div class="ap-cell"><span>Updated</span><strong>Sep 15, 2026</strong></div><div class="ap-cell"><span>Size</span><strong>26.5 MB</strong></div><div class="ap-cell"><span>Requires iOS</span><strong>15.0</strong></div><div class="ap-cell"><span>Category</span><strong>Utilities</strong></div><div class="ap-cell"><span>Developer</span><strong>SideStore Team</strong></div><div class="ap-cell"><span>Bundle ID</span><strong><code>com.SideStore.SideStore</code></strong></div><div class="ap-cell"><span>Verification</span><strong>VERIFIED</strong></div><div class="ap-cell"><span>Source attribution</span><strong>Official source</strong></div><div class="ap-cell"><span>SHA-256</span><strong><code>e334f86e6ceeab2e0d88</code></strong></div><div class="ap-cell"><span>Download status</span><strong>Last seen reachable</strong></div><div class="ap-cell"><span>Last checked</span><strong>2026-10-27T19:51:41Z</strong></div><div class="ap-cell"><span>Version history</span><strong>1</strong></div><div class="ap-cell"><span>Source</span><strong><a class="ap-source-link" href="https://github.com/SideStore/SideStore" target="_blank" rel="noopener">SideStore/SideStore</a></strong></div></div>
     </section>
 
     <section class="ap-section" data-reveal>
       <h2><span class="num">05</span> Trust &amp; provenance</h2>
-      <ul class="ap-checks"><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>metadata</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>urls</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>fileAvailable</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>hashVerified</span><small>pass</small></li></ul>
-      <p class="ap-desc mt-3"><b>Official build.</b> The IPA is published by the project&rsquo;s own upstream release channel.</p>
+      <ul class="ap-checks"><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Required metadata</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Source and download URLs</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Last download probe</span><small>pass</small></li><li class="ap-check unknown"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 9 6 6m0-6-6 6"/></svg></span><span>Downloaded bytes match recorded SHA-256</span><small>not established</small></li></ul>
+      <p class="ap-desc mt-3"><b>Official source.</b> The catalog attributes this IPA to the project release channel.</p>
+      <p class="ap-desc">A recorded checksum alone does not prove who published a binary or that it is safe.</p>
       <p class="ap-desc">Published by SideStore/SideStore · github release.</p>
-      <ul><li>official upstream (github-release)</li></ul>
+      <ul><li>catalog attributes the source to the project&#x27;s release channel (github-release)</li></ul>
       <div class="detail-note mt-3"><b>Compatibility notes:</b> Official AGPL-3.0 stable releases; the rolling nightly and alpha tags are pre-releases and are not tracked. Requires a pairing file and, on iOS 17+, a JIT/StikDebug-style enabler for some features.</div>
     </section>
 
@@ -210,6 +216,7 @@ Version: `0.7.0-20260911.328+6032424a`
   </div>
 
   <script src="../../js/core.js" defer></script>
+  <script src="../../js/device.js" defer></script>
   <script src="../../src/js/i18n.js" defer></script>
   <script src="../../js/features.js" defer></script>
   <script src="../../website/assets/AssetManager.js" defer></script>

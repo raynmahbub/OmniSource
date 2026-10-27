@@ -11,14 +11,17 @@ should do before deleting.
 
 ## Summary
 
-- Unused files: **0**
+- Unused files: **2**
 - Dead JS globals: **0**
-- Unreferenced CSS selectors: **10**
+- Unreferenced CSS selectors: **0**
 - Uncalled public Python functions: **0**
 
 ## Unused files
 
-None. Every committed script, stylesheet, icon and helper file is referenced.
+| File | Why it is flagged |
+| --- | --- |
+| `tests/js/device_migration.cjs` | no reference in HTML, JS, CSS, feed data or docs |
+| `tests/js/roadmap_features.cjs` | no reference in HTML, JS, CSS, feed data or docs |
 
 ## Dead JS globals
 
@@ -26,16 +29,7 @@ None. Every committed script, stylesheet, icon and helper file is referenced.
 
 ## Unreferenced CSS selectors
 
-- `assets/design-system/components.css: .feature-card`
-- `assets/design-system/components.css: .feature-grid`
-- `assets/design-system/components.css: .feature-icon`
-- `assets/design-system/components.css: .featured-rail`
-- `assets/design-system/components.css: .metrics-grid`
-- `assets/design-system/components.css: .qt-emoji`
-- `assets/design-system/components.css: .quick-tabs-hint`
-- `assets/design-system/components.css: .skeleton-rail`
-- `assets/design-system/components.css: .source-grid`
-- `assets/design-system/tokens.css: .stat-value`
+None found across the design system.
 
 ## Dead Python functions
 

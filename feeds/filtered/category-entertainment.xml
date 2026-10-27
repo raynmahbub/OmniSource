@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>entertainment releases</title>
+    <link>https://raynmahbub.github.io/OmniSource/</link>
+    <description>Recorded releases in this catalog selection.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-entertainment.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Eclipse v2.3.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/eclipse.json</link>
+      <guid isPermaLink="false">eclipse-2.3.0</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Eclipse 2.3.0 | Eclipse-unsigned-v2.3.0-20261020-090254
+
+Additions:
+
+-Deep tracker library integration option (AniList, MAL, Trakt)
+-Simkl Tracking (Will NOT get deep tracking integration due to free tier limits)
+-Ratings and Notes setting
+-Concurrent download controls
+-Background HLS downloading (iOS 26+ only)
+-Subtitle delay
+-Dolby Atmos and Dolby Vision support
+-epub support (experimental)
+-Light novel reader rework
+
+Fixes/Changes (fixes are not guaranteed, different devices behave differently) :
+
+-Fixed mpv backgrounding audio desync, it should take a sec to recover.
+-Fixed mpv downstream blowing up
+-Changed Alt poster and season building to be more accurate, tested 220 anime, and 100 western shows
+-Fixed unaired episode hiding
+-Fixed System calendar crash, app now enforces Gregorian calendar
+-Fixed Ratings and Notes getting lost
+-Removed Performance mode and watch together. No longer needed/wasn't popular. Perf mode is enforced On
+-Ratings and notes can now be assigned per season rather than the whole show
+-Subtitle edit fixes
+-Language filters are now hardcoded values instead of user inputted ones
+-Fixed Reader mode library importing not being able to connect a source
+-Rearranged settings to push more important ones higher
+-Changed some Auto Mode logic
+-Fixed audio name detection
+-Fixed subtitle name detection
+-Double tap to seek no longer brings up the player UI
+
+As always, use GitHub issues or the discord for requests or bug reports.]]></description>
+      <enclosure url="https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa" length="0" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

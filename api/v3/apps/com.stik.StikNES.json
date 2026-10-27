@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "StikNES",
     "bundleIdentifier": "com.stik.StikNES",
@@ -37,15 +37,30 @@
             "fileType": "IPA",
             "size": 7141231,
             "sha256": null,
-            "downloads": 12360,
+            "downloads": 12545,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
-        "downloads": 12360
+        "downloads": 12545,
+        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c"
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "17.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "omnisource": {
       "slug": "stiknes",
       "status": "stable",
@@ -78,8 +93,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
         "lastUpdatedAt": "2025-02-23"
       }
     },

@@ -12,25 +12,25 @@
   "apps": [
     {
       "name": "Telegram MxGram",
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "developerName": "m1ronx1412 & IPA Vault",
       "subtitle": "Official Telegram with the MxGram tweak",
       "localizedDescription": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Telegram.webp",
       "tintColor": "0088CC",
       "category": "social",
-      "version": "13.1",
-      "versionDate": "2026-10-20",
-      "versionDescription": "Telegram 13.1 | Telegram-13.1-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.1",
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
-      "size": 81155632,
+      "version": "13.1.1",
+      "versionDate": "2026-10-23",
+      "versionDescription": "Telegram 13.1.1 | Telegram-13.1.1-MxGram\n\nIPA Vault build for Telegram (MxGram), version 13.1.1",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
+      "size": 88831869,
       "versions": [
         {
-          "version": "13.1",
-          "date": "2026-10-20",
-          "localizedDescription": "Telegram 13.1 | Telegram-13.1-iQTele\n\nIPA Vault build for Telegram (iQTele), version 13.1",
-          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
-          "size": 81155632,
+          "version": "13.1.1",
+          "date": "2026-10-23",
+          "localizedDescription": "Telegram 13.1.1 | Telegram-13.1.1-MxGram\n\nIPA Vault build for Telegram (MxGram), version 13.1.1",
+          "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
+          "size": 88831869,
           "minOSVersion": "13.0",
           "releaseUrl": null,
           "source": "altstore",
@@ -38,12 +38,12 @@
           "isDraft": false,
           "assets": [
             {
-              "filename": "Telegram-13.1-iQTele.ipa",
-              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+              "filename": "Telegram-13.1.1-MxGram.ipa",
+              "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
               "platform": "ios",
               "architecture": null,
               "fileType": "IPA",
-              "size": 81155632,
+              "size": 88831869,
               "sha256": null,
               "downloads": 0,
               "mimeType": null,
@@ -56,6 +56,20 @@
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/1-main.jpg",
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/2-ghost.jpg",
         "https://raw.githubusercontent.com/m1ronx1412/mxgram/main/Screenshots/3-privacy.jpg"
+      ],
+      "minOSVersion": "13.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -92,7 +106,8 @@
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "13.0",
@@ -110,13 +125,15 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. Shares ph.telegra.Telegraph with a sideloaded stock Telegram - install one at a time."
+          "notes": "Official project: m1ronx1412/mxgram (publishes the tweak as .deb/.dylib only); this source serves the ready-to-sideload IPA build from the IPA Vault. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists this MxGram variant as ph.telegra.Telegraph.mxgram, distinct from stock Telegram's identifier; a signing client may change the identifier."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-10-21",
-          "lastUpdatedAt": "2026-10-20"
+          "downloadReachable": null,
+          "detail": "not checked for this download",
+          "statusSince": "",
+          "lastCheckedAt": "",
+          "checkedURL": "",
+          "lastUpdatedAt": "2026-10-23"
         }
       }
     }

@@ -45,19 +45,33 @@
               "fileType": "IPA",
               "size": 3112338,
               "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
-              "downloads": 2174,
+              "downloads": 2249,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
-          "downloads": 2174
+          "downloads": 2249
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/cranci1/Sora/dev/assets/screenshots/ios-1.png",
         "https://raw.githubusercontent.com/cranci1/Sora/dev/assets/screenshots/ios-4.png",
         "https://raw.githubusercontent.com/cranci1/Sora/dev/assets/screenshots/ios-3.png"
+      ],
+      "minOSVersion": "15.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "sora",
@@ -91,8 +105,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
           "lastUpdatedAt": "2026-08-20"
         }
       }

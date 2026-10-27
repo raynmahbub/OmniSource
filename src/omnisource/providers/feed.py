@@ -7,6 +7,7 @@ contain one app object or an array. The provider normalises both into
 
 from __future__ import annotations
 
+import json
 import threading
 from dataclasses import replace
 from functools import cmp_to_key
@@ -24,6 +25,7 @@ from omnisource.domain import (
 from omnisource.errors import ProviderError
 from omnisource.http import HttpClient, is_http_url
 from omnisource.providers.base import SourceProvider
+from omnisource.screenshots import _download_github_raw_via_api, _github_contents_location
 from omnisource.utils.assets import detect_asset_metadata
 from omnisource.utils.versioning import compare_versions
 
@@ -189,7 +191,29 @@ class GenericFeedProvider(SourceProvider):
         with self._payload_lock:
             if url in self._payload_cache:
                 return self._payload_cache[url]
-            payload = self.http.get_json(url)
+            payload: object | None = None
+            if isinstance(self.http, HttpClient) and _github_contents_location(url) is not None:
+                try:
+                    raw_bytes = _download_github_raw_via_api(self.http, url)
+                    if raw_bytes is not None:
+                        payload = json.loads(raw_bytes.decode("utf-8"))
+                except Exception:
+                    payload = None
+            if payload is None:
+                try:
+                    payload = self.http.get_json(url)
+                except ProviderError as primary_error:
+                    raw_bytes = None
+                    try:
+                        raw_bytes = _download_github_raw_via_api(self.http, url)
+                    except Exception:
+                        raw_bytes = None
+                    if raw_bytes is None:
+                        raise primary_error
+                    try:
+                        payload = json.loads(raw_bytes.decode("utf-8"))
+                    except (UnicodeDecodeError, json.JSONDecodeError) as decode_error:
+                        raise primary_error from decode_error
             self._payload_cache[url] = payload
             return payload
 
@@ -260,6 +284,9 @@ class GenericFeedProvider(SourceProvider):
         apps = _apps_from_payload(payload)
         # A catalog entry tracking a whole source uses every app in it;
         # upstream.appId narrows it to one id, bundle identifier or name.
+        # Never fall back to the entire multi-app feed when a requested appId
+        # is missing from the upstream source (that would silently pick an
+        # unrelated app's release).
         target = apps
         selector = source.app_id or source.repo
         if selector:
@@ -269,9 +296,21 @@ class GenericFeedProvider(SourceProvider):
                 if str(app.get("id") or app.get("appId") or "") == selector
                 or str(app.get("bundleIdentifier") or app.get("bundleId") or "") == selector
                 or str(app.get("name") or "") == selector
-            ] or apps
+            ]
+            if not target and not source.app_id and len(apps) == 1:
+                target = apps
         releases: list[RemoteRelease] = []
         for app in target:
+            # appId can select by name rather than bundle ID. Do not publish a
+            # new binary under the catalog's old identity if that named entry
+            # changes bundle. Feeds that omit the field remain usable; they do
+            # not provide evidence against the catalog ID.
+            bundle_id = str(app.get("bundleIdentifier") or app.get("bundleId") or "").strip()
+            if bundle_id and source.expected_bundle_id and bundle_id != source.expected_bundle_id:
+                raise ProviderError(
+                    f"feed app {selector or app.get('name')!r} publishes bundle identifier {bundle_id!r}; "
+                    f"catalog expects {source.expected_bundle_id!r}"
+                )
             releases.extend(replace(release, source=self.source_type.value) for release in _releases_from_app(app))
 
         def release_order(left: RemoteRelease, right: RemoteRelease) -> int:

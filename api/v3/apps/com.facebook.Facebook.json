@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "iQFace",
     "bundleIdentifier": "com.facebook.Facebook",
@@ -11,18 +11,18 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Facebook.webp",
     "tintColor": "1877F2",
     "category": "social",
-    "version": "584.0.0",
-    "versionDate": "2026-10-18",
-    "versionDescription": "Facebook 584.0.0 | Facebook-584.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.0.0",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa",
-    "size": 239358167,
+    "version": "584.1.0",
+    "versionDate": "2026-10-23",
+    "versionDescription": "Facebook 584.1.0 | Facebook-584.1.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.1.0",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
+    "size": 241651824,
     "versions": [
       {
-        "version": "584.0.0",
-        "date": "2026-10-18",
-        "localizedDescription": "Facebook 584.0.0 | Facebook-584.0.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.0.0",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa",
-        "size": 239358167,
+        "version": "584.1.0",
+        "date": "2026-10-23",
+        "localizedDescription": "Facebook 584.1.0 | Facebook-584.1.0-iQFace\n\nIPA Vault build for Facebook (iQFace), version 584.1.0",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
+        "size": 241651824,
         "minOSVersion": "15.1",
         "releaseUrl": null,
         "source": "altstore",
@@ -30,12 +30,12 @@
         "isDraft": false,
         "assets": [
           {
-            "filename": "Facebook-584.0.0-iQFace.ipa",
-            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa",
+            "filename": "Facebook-584.1.0-iQFace.ipa",
+            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 239358167,
+            "size": 241651824,
             "sha256": null,
             "downloads": 0,
             "mimeType": null,
@@ -45,6 +45,20 @@
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "15.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -80,7 +94,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -101,10 +116,12 @@
         "notes": "Tweak by 7MD; distributed ready-to-sideload via the IPA Vault source. Facebook 577.x builds require iOS 15.1 or newer. Uses its own bundle identifier, so it installs alongside the stock App Store Facebook."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 200",
-        "statusSince": "2026-09-24",
-        "lastUpdatedAt": "2026-10-18"
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
+        "lastUpdatedAt": "2026-10-23"
       }
     },
     "id": "com.facebook.Facebook"

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:unc0ver releases
+BEGIN:VEVENT
+UID:unc0ver-5.2.0@omnisource
+DTSTAMP:20200609T000000Z
+DTSTART;VALUE=DATE:20200609
+DTEND;VALUE=DATE:20200610
+SUMMARY:unc0ver v5.2.0
+DESCRIPTION:unc0ver 5.2.0 | unc0ver_5.2.0\n\nLast updated at: 06/09/2020\n\
+ n06/09/2020 - v5.2.0 was released for production with the following change
+ s:\n\n### ⚠️ Support development with https://phonerebel.com ⚠️\n\
+ n- Enable iOS 13.5.5~b1 support\n- Fix a logic bug in disabling auto updat
+ es\n- Update bundled Cydia to fix crashes on iOS 13.5 with Hardware Keyboa
+ rd enabled
+URL:https://raynmahbub.github.io/OmniSource/feeds/unc0ver.json
+END:VEVENT
+END:VCALENDAR

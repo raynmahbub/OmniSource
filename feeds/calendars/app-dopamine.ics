@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Dopamine releases
+BEGIN:VEVENT
+UID:dopamine-3.0.12@omnisource
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Dopamine v3.0.12
+DESCRIPTION:Dopamine 3.0.12 | Dopamine\n\n- Add workaround for stock issue 
+ that causes touch not to work on certain A10/A11 aftermarket screens after
+  a userspace reboot (Contributed by @moezemara)\n- Fix some system prefere
+ nce plists being redirected to /var/jb in rootlesshook (Contributed by @ve
+ rygenericname)
+URL:https://raynmahbub.github.io/OmniSource/feeds/dopamine.json
+END:VEVENT
+BEGIN:VEVENT
+UID:dopamine-3.0.11@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Dopamine v3.0.11
+DESCRIPTION:Dopamine 3.0.11 | Dopamine\n\n- Fix support for iOS 26.0 beta 1
+  [3.0.1 regression]\n- Fix boot logo not being cleaned up correctly before
+  backboardd starts\, fixes framebuffer getting stuck with it's last conten
+ t during sbreload when a boot logo is used (now the screen will correctly 
+ fade to a black screen like when no boot logo is used)\n- Update opainject
+  and litehook
+URL:https://raynmahbub.github.io/OmniSource/feeds/dopamine.json
+END:VEVENT
+END:VCALENDAR

@@ -44,15 +44,30 @@
               "fileType": "IPA",
               "size": 87734964,
               "sha256": null,
-              "downloads": 73334,
+              "downloads": 73471,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
-          "downloads": 73334
+          "downloads": 73471,
+          "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "delta",
         "status": "stable",
@@ -85,8 +100,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
           "lastUpdatedAt": "2024-07-11"
         }
       }

@@ -22,6 +22,7 @@ export default async function SecurityPage() {
   const doc = getSecurity() as {
     verdict?: string;
     generatedAt?: string;
+    downloadSnapshotAt?: string;
     summary?: Record<string, number>;
     findings?: Finding[];
     duplicateBinaries?: Array<{ sha256?: string; bundles?: string[] }>;
@@ -32,8 +33,9 @@ export default async function SecurityPage() {
   return (
     <div className="space-y-6">
       <PageHeader title={dict.sections.securityTitle} description={dict.sections.securitySubtitle} />
+      <p className="text-sm text-zinc-600 dark:text-zinc-400">Automated metadata checks are not a malware scan or a safety guarantee. Download observations: {doc.downloadSnapshotAt || "not recorded"}; report generated: {doc.generatedAt || "not recorded"}.</p>
       <div className="os-panel flex items-center gap-3 p-5">
-        <span className="font-semibold">Verdict:</span>
+        <span className="font-semibold">Checks verdict:</span>
         <span
           className={`rounded-full px-4 py-1 font-bold ${
             doc.verdict === "pass"
@@ -82,7 +84,7 @@ export default async function SecurityPage() {
             ))}
           </tbody>
         </table>
-        {!findings.length && <p className="p-4 text-sm text-zinc-500">No findings — clean bill of health.</p>}
+        {!findings.length && <p className="p-4 text-sm text-zinc-500">No findings from these checks; untested risks may remain.</p>}
       </div>
     </div>
   );

@@ -5,7 +5,15 @@ deliberately chosen: **static GitHub Pages delivery, stdlib-only Python, no buil
 frameworks, no user tracking, provenance transparency.** Everything below is achievable without
 a server.
 
-A few numbers that shape the list:
+**Implementation status:** See [Feature operations](docs/FEATURE-OPERATIONS.md)
+for the static features, commands and limitations now implemented. Historical
+versions accumulate from future syncs rather than fabricated backfills; archives
+require per-app opt-in and external storage, issue intake is review-only,
+reminders have no background push, and the hash chain is not a publisher
+signature. Screenshots still require declared developer-owned origins. Figures
+and recommendations below are the original proposal's snapshot, not live totals.
+
+A few numbers that shaped the original list:
 
 | fact | value | why it matters |
 |---|---|---|

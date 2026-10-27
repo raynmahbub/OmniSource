@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-24",
-  "feedVersion": "dc3a0fc423f4",
+  "generatedAt": "2026-10-27",
+  "feedVersion": "e1de41d98323",
   "app": {
     "id": "nebuloiptv",
     "name": "Onside TV",
     "developer": "mongoosemonke504",
     "subtitle": "IPTV player with built-in sports scores",
-    "bundleIdentifier": "personal.Nebulo-V2-3",
+    "bundleIdentifier": "tv.onside.app",
     "version": "3.0.0",
     "versionDate": "2026-09-28",
     "description": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
@@ -16,7 +16,7 @@
     "tags": [
       "photo-video"
     ],
-    "icon": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
+    "icon": "https://raynmahbub.github.io/OmniSource/assets/OnsideTV.webp",
     "screenshots": [
       "https://raw.githubusercontent.com/mongoosemonke504/OnsideTV/main/docs/screenshots/multiview.jpg"
     ],
@@ -25,7 +25,7 @@
     "source": "mongoosemonke504/OnsideTV",
     "sourceURL": "https://github.com/mongoosemonke504/OnsideTV",
     "checksum": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-    "checksumPublished": false,
+    "checksumPublished": true,
     "minOSVersion": "26.0",
     "status": "stable",
     "featured": false,
@@ -33,7 +33,7 @@
     "feedURL": "https://raynmahbub.github.io/OmniSource/nebuloiptv.json",
     "health": {
       "reachable": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "updatedAt": "2026-09-28"
     }
   },

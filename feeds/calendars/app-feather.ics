@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Feather releases
+BEGIN:VEVENT
+UID:feather-2.9.0@omnisource
+DTSTAMP:20260705T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Feather v2.9.0
+DESCRIPTION:Feather 2.9.0 | Feather\n\nThank you for all your feedback and 
+ contributions!\n\n> [!TIP]\n> For `idevice` configuration\, you can use [I
+ mpactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-
+ file) for easily retrieving a pairing file for installing!\n\n## What's Ch
+ anged\n* Added tweak options in default signing options.\n* Added ability 
+ to search for identifier's in Library @ismailcarlik in https://github.com/
+ claration/Feather/pull/652\n* Fixed issue in the file enumeration logic\, 
+ by using the path property instead of method.\n* Fixed credit links.\n* Fi
+ xed duplicate repository in recommended repositories.\n\n## New Contributo
+ rs\n* @xiangfeidexiaohuo made their first contribution in https://github.c
+ om/claration/Feather/pull/634\n* @osageling made their first contribution 
+ in https://github.com/claration/Feather/pull/642\n\n**Full Changelog**: ht
+ tps://github.com/claration/Feather/compare/v2.8.2...v2.9.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/feather.json
+END:VEVENT
+END:VCALENDAR

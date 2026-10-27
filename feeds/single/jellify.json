@@ -44,7 +44,7 @@
               "fileType": "APK",
               "size": 63262903,
               "sha256": "80d2b67cd7ec704881a2b711a58826624fc38e81930bfabb12a140022270d63f",
-              "downloads": 642,
+              "downloads": 690,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -56,7 +56,7 @@
               "fileType": "APK",
               "size": 49235299,
               "sha256": "52c9f2990ff01962a8fa0b0538e1d04bad75e12060a85a7fa98a24f8d0d738f4",
-              "downloads": 4,
+              "downloads": 6,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -68,7 +68,7 @@
               "fileType": "APK",
               "size": 186033400,
               "sha256": "bb46c9423d6f1339a5c2f5b9a6b002e7d0d9bd8c469a71c76702f2a893dba495",
-              "downloads": 43,
+              "downloads": 58,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -80,7 +80,7 @@
               "fileType": "APK",
               "size": 63242955,
               "sha256": "8428935686c8dda57ccc806018c070a87391e51d35ff14d0b4921c7a80c1c481",
-              "downloads": 4,
+              "downloads": 5,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -92,7 +92,7 @@
               "fileType": "APK",
               "size": 65439647,
               "sha256": "da9777bc2830d42cffce85ee8ca6507e4dfc42a58335f097aab9fc45f6b4877b",
-              "downloads": 1,
+              "downloads": 5,
               "mimeType": "application/vnd.android.package-archive",
               "installable": true
             },
@@ -104,19 +104,33 @@
               "fileType": "IPA",
               "size": 41451346,
               "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
-              "downloads": 149,
+              "downloads": 190,
               "mimeType": "raw",
               "installable": true
             }
           ],
           "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
-          "downloads": 149
+          "downloads": 190
         }
       ],
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/album.png",
         "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/add_to_playlist.png",
         "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/artist.png"
+      ],
+      "minOSVersion": "16.4",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "omnisource": {
         "slug": "jellify",
@@ -150,8 +164,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-10",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
           "lastUpdatedAt": "2026-10-17"
         }
       }

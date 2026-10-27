@@ -45,7 +45,7 @@
               "fileType": "IPA",
               "size": 7307240,
               "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
-              "downloads": 203,
+              "downloads": 239,
               "mimeType": "application/x-itunes-ipa",
               "installable": true
             },
@@ -57,7 +57,7 @@
               "fileType": "other",
               "size": 97089368,
               "sha256": "6524066d54ef23e00d46445c04dfc694e180196d54119d718f68434fa225be35",
-              "downloads": 5,
+              "downloads": 7,
               "mimeType": "application/octet-stream",
               "installable": false
             },
@@ -69,16 +69,30 @@
               "fileType": "other",
               "size": 168,
               "sha256": "b48a8a7d37763b2a9b4446e5dc62d4aac3b041b92cd34e1cf7f83947f3102149",
-              "downloads": 6,
+              "downloads": 8,
               "mimeType": "text/plain; charset=utf-8",
               "installable": false
             }
           ],
           "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
-          "downloads": 203
+          "downloads": 239
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "18.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "escapeos",
         "status": "beta",
@@ -111,8 +125,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T19:51:41Z",
+          "checkedURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
           "lastUpdatedAt": "2026-10-16"
         }
       }

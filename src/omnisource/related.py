@@ -123,6 +123,7 @@ def build_related_doc(
         "com.spotify.client",
     }
     media_keywords = {
+        "mornye",
         "spotiflac",
         "maxmusic",
         "maxtube",
@@ -158,7 +159,7 @@ def build_related_doc(
         "weights": WEIGHTS,
         "related": graph,
         "media": {
-            "label": "SpotiFLAC & Media Ecosystem",
+            "label": "Mornye & Media Ecosystem",
             "description": "Apps that target YouTube, YouTube Music, Spotify or their popular community builds.",
             "apps": media,
         },

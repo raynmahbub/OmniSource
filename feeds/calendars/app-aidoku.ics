@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Aidoku releases
+BEGIN:VEVENT
+UID:aidoku-0.9@omnisource
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Aidoku v0.9
+DESCRIPTION:Aidoku 0.9 | Aidoku\n\nA small build update for 0.9 with a numb
+ er of bug fixes.\n\n- Fixed some pages not loading in webtoon reader\n- Im
+ proved webtoon reader memory usage (hopefully fixes crash after reading mu
+ ltiple chapters)\n- Fixed crash when searching anywhere in the macOS app\n
+ - Various other bug fixes
+URL:https://raynmahbub.github.io/OmniSource/feeds/aidoku.json
+END:VEVENT
+END:VCALENDAR

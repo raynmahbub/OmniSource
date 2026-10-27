@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Cosmos Music Player releases
+BEGIN:VEVENT
+UID:cosmos-1.2.5@omnisource
+DTSTAMP:20260908T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Cosmos Music Player v1.2.5
+DESCRIPTION:Cosmos Music Player 1.2.5 | Cosmos-Music-Player\n\n- Search is 
+ now available across songs\, favorites\, artists\, albums\, and playlists.
+ \n- Lyrics have been redesigned with smoother synchronization\, tap-to-see
+ k\, instrumental breaks\, offline caching\, and alternate versions.\n- Add
+ ed broader support for Opus\, Ogg\, FLAC\, AAC/M4A\, DSF\, and DFF files.\
+ n- Improved playback stability\, gapless transitions\, seeking\, Bluetooth
+ \, CarPlay\, and audio interruption handling.\n- Added appearance options:
+  System\, Light\, and Dark.\n- Added controls for automatic library scan f
+ requency and artist organization.\n- Added a Create Playlist button when n
+ o playlists exist.\n- Improved artwork loading for iCloud and externally i
+ mported music.\n- Improved Siri\, widgets\, CarPlay\, and Share extension 
+ reliability.\n- Fixed library issues involving moved\, renamed\, restored\
+ , or temporarily unavailable files.\n- Added and improved translations acr
+ oss all supported languages.\n- Includes numerous performance improvements
+  and bug fixes.
+URL:https://raynmahbub.github.io/OmniSource/feeds/cosmos.json
+END:VEVENT
+END:VCALENDAR

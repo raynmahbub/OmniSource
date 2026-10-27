@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-27",
   "count": 128,
   "baseURL": "https://raynmahbub.github.io/OmniSource",
   "apps": [
@@ -20,28 +20,28 @@
       ],
       "source": "mornyeapp/Mornye",
       "sourceURL": "https://github.com/mornyeapp/Mornye",
-      "bundleId": "com.zarz.spotiflacAndroid",
-      "bundleIdentifier": "com.zarz.spotiflacAndroid",
+      "bundleId": "com.zarz.mornye",
+      "bundleIdentifier": "com.zarz.mornye",
       "description": "Mornye (formerly SpotiFLAC Mobile) is an open-source music app for iOS: scan your own folders or stream from SMB, WebDAV, HTTP and Subsonic/OpenSubsonic servers, browse songs, albums, artists and playlists, edit metadata and artwork, and play FLAC and other high-resolution audio through a built-in player with a multiband equalizer, ReplayGain volume levelling, synced word-by-word lyrics and a sleep timer. Everything runs on the device; no account is needed.",
       "shortDescription": "Local music library, FLAC player and tag editor",
-      "icon": "SpotiFLAC.webp",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SpotiFLAC.webp",
+      "icon": "Mornye.webp",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Mornye.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/spotiflac/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/spotiflac.json",
       "homepage": "https://github.com/mornyeapp/Mornye",
       "status": "stable",
       "featured": true,
       "size": 35645397,
-      "downloads": 660,
+      "downloads": 1466,
       "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
       "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
       "minOSVersion": "16.0",
       "verificationMethod": "github-release",
       "publisher": "mornyeapp/Mornye",
-      "checksumPublished": false,
+      "checksumPublished": true,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-23"
       }
     },
@@ -75,14 +75,14 @@
       "size": 147923687,
       "downloads": 0,
       "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
-      "sha256": null,
+      "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "raynmahbub/OmniSource (Tweak Factory)",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-03"
       }
     },
@@ -116,14 +116,14 @@
       "size": 135840058,
       "downloads": 0,
       "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
-      "sha256": null,
+      "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
       "minOSVersion": "16.0",
       "verificationMethod": "manual-mirror",
       "publisher": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
       "checksumPublished": true,
       "health": {
-        "reachable": false,
-        "detail": "timed out",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-22"
       }
     },
@@ -155,7 +155,7 @@
       "status": "stable",
       "featured": true,
       "size": 149834006,
-      "downloads": 8251,
+      "downloads": 9067,
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
       "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
       "minOSVersion": "16.0",
@@ -164,7 +164,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-22"
       }
     },
@@ -196,7 +196,7 @@
       "status": "stable",
       "featured": true,
       "size": 131280986,
-      "downloads": 234,
+      "downloads": 455,
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
       "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
       "minOSVersion": "16.0",
@@ -205,7 +205,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-22"
       }
     },
@@ -237,7 +237,7 @@
       "status": "stable",
       "featured": false,
       "size": 143635824,
-      "downloads": 709,
+      "downloads": 749,
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
       "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
       "minOSVersion": "17.0",
@@ -246,7 +246,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-26"
       }
     },
@@ -255,8 +255,8 @@
       "slug": "ytkace",
       "name": "YTKACE",
       "developer": "itzzace",
-      "version": "21.41.5",
-      "releaseDate": "2026-10-11",
+      "version": "21.42.4",
+      "releaseDate": "2026-10-25",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -277,18 +277,18 @@
       "homepage": "https://github.com/itzzace/ytkace",
       "status": "stable",
       "featured": false,
-      "size": 137158764,
-      "downloads": 4683,
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
-      "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
+      "size": 138006169,
+      "downloads": 296,
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+      "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "itzzace/ytkace",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-10-11"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-25"
       }
     },
     {
@@ -319,7 +319,7 @@
       "status": "stable",
       "featured": true,
       "size": 131398144,
-      "downloads": 137,
+      "downloads": 239,
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
       "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
       "minOSVersion": "17.0",
@@ -328,7 +328,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-22"
       }
     },
@@ -360,7 +360,7 @@
       "status": "manual",
       "featured": false,
       "size": 133357787,
-      "downloads": 610,
+      "downloads": 633,
       "downloadURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
       "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
       "minOSVersion": "16.0",
@@ -369,7 +369,7 @@
       "checksumPublished": true,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-03"
       }
     },
@@ -401,7 +401,7 @@
       "status": "stable",
       "featured": true,
       "size": 105940933,
-      "downloads": 150,
+      "downloads": 247,
       "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
       "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
       "minOSVersion": "16.0",
@@ -410,7 +410,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-22"
       }
     },
@@ -442,7 +442,7 @@
       "status": "stable",
       "featured": false,
       "size": 106518711,
-      "downloads": 4811,
+      "downloads": 5005,
       "downloadURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
       "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
       "minOSVersion": "16.0",
@@ -451,7 +451,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-15"
       }
     },
@@ -483,7 +483,7 @@
       "status": "stable",
       "featured": false,
       "size": 150556413,
-      "downloads": 4535,
+      "downloads": 5861,
       "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
       "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
       "minOSVersion": "14.0",
@@ -492,7 +492,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-17T02:44:56Z"
       }
     },
@@ -532,8 +532,8 @@
       "publisher": "iKarwan (repo.ikghd.me)",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-14"
       }
     },
@@ -573,8 +573,8 @@
       "publisher": "iKarwan (repo.ikghd.me)",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-08"
       }
     },
@@ -606,16 +606,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 50003343,
-      "downloads": 13568,
+      "downloads": 13662,
       "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
-      "sha256": null,
+      "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "lo-cafe/winston",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-06-24"
       }
     },
@@ -647,7 +647,7 @@
       "status": "stable",
       "featured": false,
       "size": 24288935,
-      "downloads": 20691,
+      "downloads": 21224,
       "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
       "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
       "minOSVersion": "16.0",
@@ -656,7 +656,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-19"
       }
     },
@@ -688,7 +688,7 @@
       "status": "stable",
       "featured": false,
       "size": 13543234,
-      "downloads": 30605,
+      "downloads": 36677,
       "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
       "sha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
       "minOSVersion": "17.4",
@@ -697,7 +697,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-15"
       }
     },
@@ -729,16 +729,16 @@
       "status": "stable",
       "featured": false,
       "size": 167001383,
-      "downloads": 18351,
+      "downloads": 18439,
       "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
-      "sha256": null,
+      "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "BandarHL/BHTwitter",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-05-13"
       }
     },
@@ -770,7 +770,7 @@
       "status": "stable",
       "featured": false,
       "size": 4707271,
-      "downloads": 137641,
+      "downloads": 140634,
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
       "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
       "minOSVersion": "15.0",
@@ -779,7 +779,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-17"
       }
     },
@@ -811,7 +811,7 @@
       "status": "stable",
       "featured": false,
       "size": 14241853,
-      "downloads": 92073,
+      "downloads": 94331,
       "downloadURL": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
       "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
       "minOSVersion": "16.0",
@@ -820,7 +820,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-05"
       }
     },
@@ -852,7 +852,7 @@
       "status": "stable",
       "featured": false,
       "size": 27770821,
-      "downloads": 365316,
+      "downloads": 386934,
       "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
       "sha256": "e334f86e6ceeab2e0d886c07611246533f474bb18838cf13ebc09ed1f0d622b5",
       "minOSVersion": "15.0",
@@ -861,7 +861,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-15"
       }
     },
@@ -893,7 +893,7 @@
       "status": "stable",
       "featured": false,
       "size": 14753154,
-      "downloads": 2970,
+      "downloads": 3590,
       "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
       "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
       "minOSVersion": "15.0",
@@ -902,7 +902,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-16"
       }
     },
@@ -934,7 +934,7 @@
       "status": "stable",
       "featured": false,
       "size": 1076407494,
-      "downloads": 14578,
+      "downloads": 14835,
       "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
       "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
       "minOSVersion": "17.0",
@@ -943,7 +943,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-03-14"
       }
     },
@@ -975,16 +975,16 @@
       "status": "stable",
       "featured": true,
       "size": 87734964,
-      "downloads": 73334,
+      "downloads": 73471,
       "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
-      "sha256": null,
+      "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "RileyTestut/Delta",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-07-11"
       }
     },
@@ -1016,7 +1016,7 @@
       "status": "stable",
       "featured": false,
       "size": 31124277,
-      "downloads": 13347,
+      "downloads": 13608,
       "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
       "sha256": "822c7042311ff47710c9148c8edb5aab649cf85ce6ba96b9e8190feb91f45a51",
       "minOSVersion": "12.0",
@@ -1025,7 +1025,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-05-16"
       }
     },
@@ -1057,16 +1057,16 @@
       "status": "stable",
       "featured": false,
       "size": 20792685,
-      "downloads": 11339,
+      "downloads": 11415,
       "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
-      "sha256": null,
+      "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "yattee/yattee",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-01-28"
       }
     },
@@ -1098,7 +1098,7 @@
       "status": "stable",
       "featured": false,
       "size": 73761532,
-      "downloads": 99,
+      "downloads": 123,
       "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
       "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
       "minOSVersion": "16.4",
@@ -1107,7 +1107,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-16"
       }
     },
@@ -1139,7 +1139,7 @@
       "status": "stable",
       "featured": false,
       "size": 34853093,
-      "downloads": 19755,
+      "downloads": 20194,
       "downloadURL": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
       "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
       "minOSVersion": "14.0",
@@ -1148,7 +1148,7 @@
       "checksumPublished": true,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-06-05"
       }
     },
@@ -1180,7 +1180,7 @@
       "status": "stable",
       "featured": false,
       "size": 41451346,
-      "downloads": 149,
+      "downloads": 190,
       "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
       "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
       "minOSVersion": "16.4",
@@ -1189,7 +1189,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-17"
       }
     },
@@ -1221,7 +1221,7 @@
       "status": "stable",
       "featured": false,
       "size": 79812840,
-      "downloads": 161,
+      "downloads": 186,
       "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
       "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
       "minOSVersion": "15.1",
@@ -1230,7 +1230,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-12"
       }
     },
@@ -1262,7 +1262,7 @@
       "status": "stable",
       "featured": false,
       "size": 29811150,
-      "downloads": 625,
+      "downloads": 650,
       "downloadURL": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa",
       "sha256": "a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c",
       "minOSVersion": "15.6",
@@ -1271,7 +1271,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-21"
       }
     },
@@ -1303,7 +1303,7 @@
       "status": "stable",
       "featured": false,
       "size": 8232319,
-      "downloads": 813,
+      "downloads": 853,
       "downloadURL": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
       "sha256": "584dae7a9738908def30873c016b1dd5e26f15187cd201a7d95386682c6a46a9",
       "minOSVersion": "15.0",
@@ -1312,7 +1312,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-13"
       }
     },
@@ -1321,8 +1321,8 @@
       "slug": "saber",
       "name": "Saber",
       "developer": "Adil Hanney",
-      "version": "1.36.3",
-      "releaseDate": "2026-10-19",
+      "version": "1.36.4",
+      "releaseDate": "2026-10-24",
       "category": "utilities",
       "categories": [
         "utilities"
@@ -1343,18 +1343,18 @@
       "homepage": "https://github.com/saber-notes/saber",
       "status": "stable",
       "featured": false,
-      "size": 37736807,
-      "downloads": 54,
-      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.3/Saber_v1.36.3.ipa",
-      "sha256": "85a3ccb2f2c5c69a6bffaa848d82c43bc9874c8907b8a9a09ba39d23cc9179b1",
+      "size": 37254734,
+      "downloads": 14,
+      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa",
+      "sha256": "e1c8932fbe8d8cd4df3dc2177a1fe038f353067600b90f3d2399b68b68928082",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "saber-notes/saber",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-10-19"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-24"
       }
     },
     {
@@ -1385,7 +1385,7 @@
       "status": "stable",
       "featured": false,
       "size": 28677588,
-      "downloads": 1762,
+      "downloads": 1801,
       "downloadURL": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
       "sha256": "a79bd247859d6a04dae81490aa7d8d970a830af7201415f4ec6aa370b74ae69b",
       "minOSVersion": "15.2",
@@ -1394,7 +1394,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-03-19"
       }
     },
@@ -1403,8 +1403,8 @@
       "slug": "apollo",
       "name": "Apollo",
       "developer": "Christian Selig (& Apollo-Reborn contributors)",
-      "version": "3.9.0",
-      "releaseDate": "2026-10-09",
+      "version": "4.0.0",
+      "releaseDate": "2026-10-25",
       "category": "social",
       "categories": [
         "social"
@@ -1425,18 +1425,18 @@
       "homepage": "https://github.com/Apollo-Reborn/Apollo-Reborn",
       "status": "stable",
       "featured": false,
-      "size": 97026669,
-      "downloads": 871,
-      "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa",
-      "sha256": "2b74336d4a37c6bdbe965df9a1c48543baf37e53b518f44a302983eaae38e730",
+      "size": 97618297,
+      "downloads": 157,
+      "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
+      "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "Apollo-Reborn/Apollo-Reborn",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-10-09"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-25"
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "status": "beta",
       "featured": false,
       "size": 17963367,
-      "downloads": 47354,
+      "downloads": 48052,
       "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
       "sha256": "8460c194f0b24ab3a15594e800e1533cb14e90e0aa51527b3609c7ac0f9745c2",
       "minOSVersion": "14.0",
@@ -1476,7 +1476,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-06-20"
       }
     },
@@ -1508,7 +1508,7 @@
       "status": "beta",
       "featured": false,
       "size": 4602446,
-      "downloads": 2654,
+      "downloads": 2748,
       "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
       "sha256": "f2d389ca859d380e2f53259a245340e22c64dba68db73f5977f75a3464e1ee3d",
       "minOSVersion": "12.2",
@@ -1517,7 +1517,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-22"
       }
     },
@@ -1549,7 +1549,7 @@
       "status": "stable",
       "featured": false,
       "size": 4777720,
-      "downloads": 853,
+      "downloads": 884,
       "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa",
       "sha256": "4a218f22120e5251fac7383c36169adbbf0503453aac339cc5573df4bb6dc6c3",
       "minOSVersion": "16.0",
@@ -1558,7 +1558,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-23"
       }
     },
@@ -1590,7 +1590,7 @@
       "status": "stable",
       "featured": false,
       "size": 11798221,
-      "downloads": 541,
+      "downloads": 564,
       "downloadURL": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa",
       "sha256": "683361416e6816c167f4dd72b5d4742a59c3a10faaa0823f8c5ec0754ba941c4",
       "minOSVersion": "15.0",
@@ -1599,7 +1599,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-11-02"
       }
     },
@@ -1631,7 +1631,7 @@
       "status": "stable",
       "featured": false,
       "size": 28187923,
-      "downloads": 3694,
+      "downloads": 3796,
       "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
       "sha256": "dd4313a76d79a125ed5405cd0603c34f8ed4155dba22695f1f24a39a7104875c",
       "minOSVersion": "13.0",
@@ -1640,7 +1640,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-15"
       }
     },
@@ -1672,16 +1672,16 @@
       "status": "stable",
       "featured": false,
       "size": 52332306,
-      "downloads": 40375,
+      "downloads": 40539,
       "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
-      "sha256": null,
+      "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
       "minOSVersion": "13.4",
       "verificationMethod": "github-release",
       "publisher": "yoshisuga/MAME4iOS",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2022-12-12"
       }
     },
@@ -1713,7 +1713,7 @@
       "status": "stable",
       "featured": false,
       "size": 18243979,
-      "downloads": 683,
+      "downloads": 707,
       "downloadURL": "https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-ios.ipa",
       "sha256": "1b4acd90d9fcf81ec093eaa7530cad1479f53ffd5ff2c2e0ad348462ae77a383",
       "minOSVersion": "14.0",
@@ -1722,7 +1722,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-28"
       }
     },
@@ -1754,16 +1754,16 @@
       "status": "stable",
       "featured": false,
       "size": 668434,
-      "downloads": 4684,
+      "downloads": 4744,
       "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
-      "sha256": null,
+      "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4",
       "minOSVersion": "12.0",
       "verificationMethod": "github-release",
       "publisher": "zydeco/minivmac4ios",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-07-09"
       }
     },
@@ -1795,16 +1795,16 @@
       "status": "stable",
       "featured": false,
       "size": 7141231,
-      "downloads": 12360,
+      "downloads": 12545,
       "downloadURL": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
-      "sha256": null,
+      "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "StikEMU/StikNES-2.0",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-02-23"
       }
     },
@@ -1813,8 +1813,8 @@
       "slug": "twitchadblock",
       "name": "TwitchAdBlock",
       "developer": "gunnerkidBT (original by dayanch96)",
-      "version": "30.7",
-      "releaseDate": "2026-08-14",
+      "version": "31.7",
+      "releaseDate": "2026-10-24",
       "category": "social",
       "categories": [
         "social"
@@ -1835,18 +1835,18 @@
       "homepage": "https://github.com/gunnerkidBT/TwitchAdBlock",
       "status": "stable",
       "featured": false,
-      "size": 152372292,
-      "downloads": 2542,
-      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
-      "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
+      "size": 197800481,
+      "downloads": 76,
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+      "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "gunnerkidBT/TwitchAdBlock",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-08-14"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-24"
       }
     },
     {
@@ -1854,8 +1854,8 @@
       "slug": "neofreebird",
       "name": "NeoFreeBird",
       "developer": "NeoFreeBird contributors",
-      "version": "2.2",
-      "releaseDate": "2025-11-03",
+      "version": "7.2.0",
+      "releaseDate": "2026-10-16",
       "category": "social",
       "categories": [
         "social"
@@ -1876,18 +1876,18 @@
       "homepage": "https://github.com/NeoFreeBird/app",
       "status": "stable",
       "featured": false,
-      "size": 158452402,
-      "downloads": 23821,
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-      "sha256": "e5592371a53e770a0ac99242a44b4f6ea27a521058470491f18e1ed661acdaa2",
+      "size": 259047406,
+      "downloads": 1813,
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+      "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "NeoFreeBird/app",
-      "checksumPublished": false,
+      "checksumPublished": true,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2025-11-03"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-16"
       }
     },
     {
@@ -1918,7 +1918,7 @@
       "status": "stable",
       "featured": false,
       "size": 45123011,
-      "downloads": 123,
+      "downloads": 159,
       "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
       "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
       "minOSVersion": "16.0",
@@ -1927,7 +1927,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-16"
       }
     },
@@ -1959,7 +1959,7 @@
       "status": "stable",
       "featured": false,
       "size": 41137245,
-      "downloads": 1127,
+      "downloads": 1174,
       "downloadURL": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa",
       "sha256": "e9538c2a3a7acc1d6d3d97ab69b6bddcf6bc5763dcd520139c8450ce8604fc3c",
       "minOSVersion": "14.0",
@@ -1968,7 +1968,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-08"
       }
     },
@@ -1977,8 +1977,8 @@
       "slug": "anymex",
       "name": "AnymeX",
       "developer": "RyanYuuki",
-      "version": "3.1.8",
-      "releaseDate": "2026-09-20",
+      "version": "3.1.9",
+      "releaseDate": "2026-10-25",
       "category": "other",
       "categories": [
         "other"
@@ -1999,18 +1999,18 @@
       "homepage": "https://github.com/RyanYuuki/AnymeX",
       "status": "stable",
       "featured": false,
-      "size": 39830598,
-      "downloads": 2245,
-      "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.8/AnymeX-iOS-v3.1.8.ipa",
-      "sha256": "b844eba2cde7ea276aeb79fc5ae5ee47c257eba7d9f3b49eae0af96ab13389b2",
+      "size": 81113053,
+      "downloads": 36,
+      "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa",
+      "sha256": "057dbcd47f9e6c56ce57d88934450c7557b4d4c848e731961466cb79a1615b1d",
       "minOSVersion": "12.0",
       "verificationMethod": "github-release",
       "publisher": "RyanYuuki/AnymeX",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-09-20"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-25"
       }
     },
     {
@@ -2041,7 +2041,7 @@
       "status": "stable",
       "featured": false,
       "size": 3112338,
-      "downloads": 2174,
+      "downloads": 2249,
       "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
       "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
       "minOSVersion": "15.0",
@@ -2050,7 +2050,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-20"
       }
     },
@@ -2069,7 +2069,7 @@
         "social"
       ],
       "source": "raincord/RainTweak (Codeberg)",
-      "sourceURL": "https://codeberg.org/raincord/RainTweak",
+      "sourceURL": "https://github.com/ra1ncord/RainTweak",
       "bundleId": "com.hammerandchisel.discord",
       "bundleIdentifier": "com.hammerandchisel.discord",
       "description": "RainTweak injects Rain - the community Discord client mod - into the official Discord iOS app, adding themes, appearance options and quality-of-life fixes on top of a current Discord build. The ready-to-sideload IPA is built and published by the RainTweak project itself, so the download comes straight from the developer's own releases.",
@@ -2082,7 +2082,7 @@
       "status": "stable",
       "featured": false,
       "size": 107065935,
-      "downloads": 5642,
+      "downloads": 5876,
       "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
       "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
       "minOSVersion": "16.0",
@@ -2091,7 +2091,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-17"
       }
     },
@@ -2131,8 +2131,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-16"
       }
     },
@@ -2141,8 +2141,8 @@
       "slug": "glow",
       "name": "Glow",
       "developer": "dayanch96 & IPA Vault",
-      "version": "2026.42.0",
-      "releaseDate": "2026-10-20",
+      "version": "577.1",
+      "releaseDate": "2026-09-05",
       "category": "social",
       "categories": [
         "social"
@@ -2163,10 +2163,10 @@
       "homepage": "https://github.com/dayanch96/Glow",
       "status": "stable",
       "featured": false,
-      "size": 149902625,
+      "size": 226667533,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Reddit-2026.42.0-RedditFilter.ipa",
-      "sha256": null,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
+      "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
@@ -2174,7 +2174,7 @@
       "health": {
         "reachable": true,
         "detail": "HTTP 200",
-        "updatedAt": "2026-10-20"
+        "updatedAt": "2026-09-05"
       }
     },
     {
@@ -2182,8 +2182,8 @@
       "slug": "swiftgram",
       "name": "Swiftgram",
       "developer": "Swiftgram & IPA Vault",
-      "version": "12.9.4",
-      "releaseDate": "2026-10-03",
+      "version": "13.0",
+      "releaseDate": "2026-10-13",
       "category": "social",
       "categories": [
         "social"
@@ -2193,8 +2193,8 @@
       ],
       "source": "927tx/IPA-Vault",
       "sourceURL": "https://raw.githubusercontent.com",
-      "bundleId": "app.swiftgram.ios",
-      "bundleIdentifier": "app.swiftgram.ios",
+      "bundleId": "app.swiftgram.ios.mxgram",
+      "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "description": "Swiftgram is a supercharged, open-source Telegram fork: ghost mode, hide read receipts and online status, save protected media, unlimited account switching and deep interface customization. The project officially ships through the App Store and TestFlight; this entry serves a ready-to-sideload IPA build (Swiftgram base with the MxGram tweak).",
       "shortDescription": "Supercharged open-source Telegram fork",
       "icon": "Swiftgram.webp",
@@ -2204,18 +2204,18 @@
       "homepage": "https://github.com/Swiftgram/Telegram-iOS",
       "status": "stable",
       "featured": false,
-      "size": 77976994,
+      "size": 97568937,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-12.9.4-iQTele.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
       "sha256": null,
       "minOSVersion": "13.0",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-03"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-13"
       }
     },
     {
@@ -2223,8 +2223,8 @@
       "slug": "telegram-mxgram",
       "name": "Telegram MxGram",
       "developer": "m1ronx1412 & IPA Vault",
-      "version": "13.1",
-      "releaseDate": "2026-10-20",
+      "version": "13.1.1",
+      "releaseDate": "2026-10-23",
       "category": "social",
       "categories": [
         "social"
@@ -2234,8 +2234,8 @@
       ],
       "source": "927tx/IPA-Vault",
       "sourceURL": "https://raw.githubusercontent.com",
-      "bundleId": "ph.telegra.Telegraph",
-      "bundleIdentifier": "ph.telegra.Telegraph",
+      "bundleId": "ph.telegra.Telegraph.mxgram",
+      "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "description": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
       "shortDescription": "Official Telegram with the MxGram tweak",
       "icon": "Telegram.webp",
@@ -2245,18 +2245,18 @@
       "homepage": "https://github.com/m1ronx1412/mxgram",
       "status": "stable",
       "featured": false,
-      "size": 81155632,
+      "size": 88831869,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1-iQTele.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
       "sha256": null,
       "minOSVersion": "13.0",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-20"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-23"
       }
     },
     {
@@ -2264,8 +2264,8 @@
       "slug": "iqface",
       "name": "iQFace",
       "developer": "7MD & IPA Vault",
-      "version": "584.0.0",
-      "releaseDate": "2026-10-18",
+      "version": "584.1.0",
+      "releaseDate": "2026-10-23",
       "category": "social",
       "categories": [
         "social"
@@ -2286,18 +2286,18 @@
       "homepage": "https://github.com/927tx/IPA-Vault",
       "status": "stable",
       "featured": false,
-      "size": 239358167,
+      "size": 241651824,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.0.0-iQFace.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
       "sha256": null,
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-18"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-23"
       }
     },
     {
@@ -2305,8 +2305,8 @@
       "slug": "ryukgram",
       "name": "RyukGram",
       "developer": "faroukbmiled & IPA Vault",
-      "version": "451.0.0",
-      "releaseDate": "2026-10-13",
+      "version": "452.0.0",
+      "releaseDate": "2026-10-23",
       "category": "social",
       "categories": [
         "social"
@@ -2327,18 +2327,18 @@
       "homepage": "https://github.com/faroukbmiled/RyukGram",
       "status": "stable",
       "featured": false,
-      "size": 345086224,
+      "size": 353948142,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-451.0.0-RyukGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
       "sha256": null,
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-13"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-23"
       }
     },
     {
@@ -2377,8 +2377,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-19"
       }
     },
@@ -2398,8 +2398,8 @@
       ],
       "source": "level3tjg/RedditFilter",
       "sourceURL": "https://github.com/level3tjg/RedditFilter",
-      "bundleId": "com.atebits.Tweetie2",
-      "bundleIdentifier": "com.atebits.Tweetie2",
+      "bundleId": "com.reddit.Reddit",
+      "bundleIdentifier": "com.reddit.Reddit",
       "description": "RedditFilter (by level3tjg) filters unwanted content out of your Reddit feed - hide posts by keyword, subreddit, domain, flair or author, natively on top of the official Reddit app. The project publishes a ready-to-sideload IPA with every release.",
       "shortDescription": "Filter unwanted content from your Reddit feed",
       "icon": "Reddit.webp",
@@ -2410,7 +2410,7 @@
       "status": "stable",
       "featured": false,
       "size": 137114565,
-      "downloads": 6599,
+      "downloads": 6641,
       "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
       "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
       "minOSVersion": "15.0",
@@ -2419,7 +2419,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-09-26"
       }
     },
@@ -2459,8 +2459,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-19"
       }
     },
@@ -2500,8 +2500,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-17"
       }
     },
@@ -2582,8 +2582,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-10-20"
       }
     },
@@ -2593,7 +2593,7 @@
       "name": "iMe MxGram",
       "developer": "m1ronx1412 & IPA Vault",
       "version": "12.8.1",
-      "releaseDate": "2026-09-05",
+      "releaseDate": "2026-09-01",
       "category": "social",
       "categories": [
         "social"
@@ -2603,8 +2603,8 @@
       ],
       "source": "927tx/IPA-Vault",
       "sourceURL": "https://raw.githubusercontent.com",
-      "bundleId": "com.olcorporation.olai",
-      "bundleIdentifier": "com.olcorporation.olai",
+      "bundleId": "com.olcorporation.olai.mxgram",
+      "bundleIdentifier": "com.olcorporation.olai.mxgram",
       "description": "iMe MxGram is the third-party iMe messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the iMe Telegram client.",
       "shortDescription": "MxGram-tweaked iMe messenger (unofficial build)",
       "icon": "iMe.webp",
@@ -2614,10 +2614,10 @@
       "homepage": "https://github.com/m1ronx1412/mxgram",
       "status": "stable",
       "featured": false,
-      "size": 139224713,
+      "size": 148174542,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-iQTele.ipa",
-      "sha256": null,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
+      "sha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
       "minOSVersion": "13.0",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
@@ -2625,7 +2625,7 @@
       "health": {
         "reachable": true,
         "detail": "HTTP 200",
-        "updatedAt": "2026-09-05"
+        "updatedAt": "2026-09-01"
       }
     },
     {
@@ -2644,8 +2644,8 @@
       ],
       "source": "927tx/IPA-Vault",
       "sourceURL": "https://raw.githubusercontent.com",
-      "bundleId": "com.seastar.turrit",
-      "bundleIdentifier": "com.seastar.turrit",
+      "bundleId": "com.seastar.turrit.mxgram",
+      "bundleIdentifier": "com.seastar.turrit.mxgram",
       "description": "Turrit MxGram is the third-party Turrit messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the Turrit Telegram client.",
       "shortDescription": "MxGram-tweaked Turrit client (unofficial build)",
       "icon": "Turrit.webp",
@@ -2655,17 +2655,17 @@
       "homepage": "https://github.com/m1ronx1412/mxgram",
       "status": "stable",
       "featured": false,
-      "size": 99832508,
+      "size": 107518899,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-iQTele.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
       "sha256": null,
       "minOSVersion": "13.0",
       "verificationMethod": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "not checked for this download",
         "updatedAt": "2026-10-17"
       }
     },
@@ -2779,7 +2779,7 @@
       "status": "stable",
       "featured": false,
       "size": 55420784,
-      "downloads": 34809,
+      "downloads": 49374,
       "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
       "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
       "minOSVersion": "15.0",
@@ -2788,7 +2788,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-20"
       }
     },
@@ -2797,8 +2797,8 @@
       "slug": "dopamine-roothide",
       "name": "Dopamine (RootHide)",
       "developer": "roothide",
-      "version": "2.4.9.27",
-      "releaseDate": "2026-09-12",
+      "version": "3.0.12-28",
+      "releaseDate": "2026-10-24",
       "category": "utilities",
       "categories": [
         "utilities"
@@ -2810,7 +2810,7 @@
       "sourceURL": "https://github.com/roothide/Dopamine-roothide",
       "bundleId": "com.opa334.Dopamine-roothide",
       "bundleIdentifier": "com.opa334.Dopamine-roothide",
-      "description": "Dopamine (RootHide) is roothide's hardened Dopamine 2 build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
+      "description": "Dopamine (RootHide) is roothide's hardened Dopamine build for iOS 15.0 through 16.7.x. It runs the jailbreak in a hidden, per-app environment: App Store apps do not see the bootstrap or your tweaks unless you explicitly patch them, and extra work is done to hide jailbreak traces from detection. It keeps the usual Dopamine toolchain — Sileo, rootless tweaks and userspace reboots — under a separate bundle identifier so it can sit next to the stock Dopamine app.",
       "shortDescription": "Dopamine fork that hides the jailbreak from apps",
       "icon": "DopamineRootHide.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/DopamineRootHide.webp",
@@ -2819,18 +2819,18 @@
       "homepage": "https://github.com/roothide/Dopamine-roothide",
       "status": "stable",
       "featured": false,
-      "size": 54863273,
-      "downloads": 26625,
-      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa",
-      "sha256": "761b668671b7724a856b9103a919f13e60a554a91ef74f0b32b90aa7385e045e",
+      "size": 55497406,
+      "downloads": 1014,
+      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+      "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "roothide/Dopamine-roothide",
-      "checksumPublished": false,
+      "checksumPublished": true,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-09-12"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-24"
       }
     },
     {
@@ -2861,7 +2861,7 @@
       "status": "stable",
       "featured": false,
       "size": 55704386,
-      "downloads": 11108,
+      "downloads": 11221,
       "downloadURL": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa",
       "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
       "minOSVersion": "15.0",
@@ -2870,7 +2870,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-06-12"
       }
     },
@@ -2902,16 +2902,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 14986482,
-      "downloads": 52448,
+      "downloads": 52501,
       "downloadURL": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
-      "sha256": null,
+      "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b",
       "minOSVersion": "16.5.1",
       "verificationMethod": "github-release",
       "publisher": "SerotoninApp/Serotonin",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-01-17"
       }
     },
@@ -2943,16 +2943,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 32244737,
-      "downloads": 765950,
+      "downloads": 766378,
       "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
-      "sha256": null,
+      "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "Odyssey-Team/Taurine",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-09-23"
       }
     },
@@ -2984,16 +2984,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 27204395,
-      "downloads": 567667,
+      "downloads": 567909,
       "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
-      "sha256": null,
+      "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
       "minOSVersion": "13.0",
       "verificationMethod": "github-release",
       "publisher": "Odyssey-Team/Odyssey",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-04-04"
       }
     },
@@ -3025,16 +3025,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 43235739,
-      "downloads": 526071,
+      "downloads": 526134,
       "downloadURL": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
-      "sha256": null,
+      "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234",
       "minOSVersion": "11.0",
       "verificationMethod": "github-release",
       "publisher": "pwn20wndstuff/Undecimus",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2020-06-09"
       }
     },
@@ -3066,7 +3066,7 @@
       "status": "stable",
       "featured": false,
       "size": 3178122,
-      "downloads": 537,
+      "downloads": 596,
       "downloadURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
       "sha256": "4ec51175711b1bf123aeb86a7e711ed069104867a7f8008e775e3cae5cbdd188",
       "minOSVersion": "11.0",
@@ -3075,7 +3075,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-09"
       }
     },
@@ -3107,7 +3107,7 @@
       "status": "stable",
       "featured": false,
       "size": 27488140,
-      "downloads": 27925,
+      "downloads": 28225,
       "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
       "sha256": "3f024956a28c27e20bb28bee519c0236b46ba496770a3ce368c20b093b1b20fa",
       "minOSVersion": "14.0",
@@ -3116,7 +3116,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-03-18"
       }
     },
@@ -3148,7 +3148,7 @@
       "status": "stable",
       "featured": false,
       "size": 288525117,
-      "downloads": 20384,
+      "downloads": 21276,
       "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
       "sha256": "b670b1c1c538325d82ff2c74ebacd97c9fb338af6dc8516cccbfade882147b71",
       "minOSVersion": "15.0",
@@ -3157,7 +3157,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-18"
       }
     },
@@ -3189,7 +3189,7 @@
       "status": "beta",
       "featured": false,
       "size": 46253576,
-      "downloads": 37641,
+      "downloads": 38157,
       "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
       "sha256": "61de6cfc9cf05389161272ceaa70d46662dab77de40ab11fdda3d4a2221621a7",
       "minOSVersion": "18.0",
@@ -3198,7 +3198,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-06-08"
       }
     },
@@ -3230,7 +3230,7 @@
       "status": "stable",
       "featured": false,
       "size": 38053348,
-      "downloads": 3178,
+      "downloads": 3236,
       "downloadURL": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
       "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
       "minOSVersion": "12.0",
@@ -3239,7 +3239,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-01-11"
       }
     },
@@ -3271,7 +3271,7 @@
       "status": "stable",
       "featured": false,
       "size": 17830940,
-      "downloads": 578,
+      "downloads": 601,
       "downloadURL": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa",
       "sha256": "d5f28944d00224afc600ce8a34bdcb8503c380d5b0ec891d98ef71dec4e8541d",
       "minOSVersion": "15.0",
@@ -3280,7 +3280,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-01-07"
       }
     },
@@ -3312,7 +3312,7 @@
       "status": "stable",
       "featured": false,
       "size": 32697918,
-      "downloads": 593,
+      "downloads": 640,
       "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
       "sha256": "f3cf8c3d81958fb140b462a795514d2643b4800e9c641a3b24ffd1ebffb650e6",
       "minOSVersion": "13.0",
@@ -3321,7 +3321,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-28"
       }
     },
@@ -3353,7 +3353,7 @@
       "status": "stable",
       "featured": false,
       "size": 39040077,
-      "downloads": 218,
+      "downloads": 258,
       "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
       "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
       "minOSVersion": "16.1",
@@ -3362,7 +3362,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-07"
       }
     },
@@ -3394,7 +3394,7 @@
       "status": "stable",
       "featured": false,
       "size": 14640159,
-      "downloads": 515,
+      "downloads": 538,
       "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa",
       "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
       "minOSVersion": "15.0",
@@ -3403,7 +3403,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-09"
       }
     },
@@ -3435,16 +3435,16 @@
       "status": "stable",
       "featured": false,
       "size": 6305751,
-      "downloads": 2006,
+      "downloads": 2029,
       "downloadURL": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
-      "sha256": null,
+      "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "oolxg/Hanami",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-06-03"
       }
     },
@@ -3453,8 +3453,8 @@
       "slug": "otraku",
       "name": "Otraku",
       "developer": "lotusprey",
-      "version": "1.12.1",
-      "releaseDate": "2026-03-20",
+      "version": "1.13.1",
+      "releaseDate": "2026-09-22",
       "category": "other",
       "categories": [
         "other"
@@ -3475,18 +3475,18 @@
       "homepage": "https://github.com/lotusprey/otraku",
       "status": "stable",
       "featured": false,
-      "size": 9414861,
-      "downloads": 766,
-      "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
-      "sha256": "bc01541c26bf6fd8bbc3fdec7c989bf8d5cff60e041b7a1b3cc63573b5f68b15",
+      "size": 10342358,
+      "downloads": 31,
+      "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
+      "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
       "minOSVersion": "16.0",
       "verificationMethod": "github-release",
       "publisher": "lotusprey/otraku",
-      "checksumPublished": false,
+      "checksumPublished": true,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 302",
-        "updatedAt": "2026-03-20"
+        "reachable": false,
+        "detail": "not checked for this download",
+        "updatedAt": "2026-09-22"
       }
     },
     {
@@ -3517,16 +3517,16 @@
       "status": "stable",
       "featured": false,
       "size": 10806164,
-      "downloads": 20195,
+      "downloads": 20239,
       "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
-      "sha256": null,
+      "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "Lrdsnow/PureKFD",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-11-23"
       }
     },
@@ -3558,7 +3558,7 @@
       "status": "stable",
       "featured": false,
       "size": 94047950,
-      "downloads": 536,
+      "downloads": 578,
       "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
       "sha256": "179399acdc36f6410cd40357de1ab3d2d9812f6f97da6c6c68184adcbed1126e",
       "minOSVersion": "14.1",
@@ -3567,7 +3567,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-01"
       }
     },
@@ -3599,7 +3599,7 @@
       "status": "stable",
       "featured": false,
       "size": 16394645,
-      "downloads": 114729,
+      "downloads": 116299,
       "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.6/Ksign.ipa",
       "sha256": "57fbab135bdcd584faf095099f0913df634ce17081bc164ce82f3d91e3978483",
       "minOSVersion": "16.0",
@@ -3608,7 +3608,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-05-24"
       }
     },
@@ -3640,7 +3640,7 @@
       "status": "stable",
       "featured": false,
       "size": 12056869,
-      "downloads": 619,
+      "downloads": 643,
       "downloadURL": "https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa",
       "sha256": "e8e2862e1b3a900e96569faf87c9c3e02d90b2c5b52ad854f6710d0ea36c91e9",
       "minOSVersion": "18.5",
@@ -3649,7 +3649,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-08"
       }
     },
@@ -3681,16 +3681,16 @@
       "status": "stable",
       "featured": false,
       "size": 3026218,
-      "downloads": 880,
+      "downloads": 924,
       "downloadURL": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa",
-      "sha256": null,
+      "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7",
       "minOSVersion": "15.2",
       "verificationMethod": "github-release",
       "publisher": "cranci1/AnimeGen",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-03-04"
       }
     },
@@ -3722,7 +3722,7 @@
       "status": "stable",
       "featured": false,
       "size": 126091,
-      "downloads": 16456,
+      "downloads": 16700,
       "downloadURL": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa",
       "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
       "minOSVersion": "15.0",
@@ -3731,7 +3731,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-07-12"
       }
     },
@@ -3763,7 +3763,7 @@
       "status": "stable",
       "featured": false,
       "size": 114603425,
-      "downloads": 1778,
+      "downloads": 2045,
       "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
       "sha256": "21f13c65ccfd8cd6796df303820d8fbd436488645a5571bf9fae55ec1084b074",
       "minOSVersion": "15.0",
@@ -3772,7 +3772,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-12"
       }
     },
@@ -3792,28 +3792,28 @@
       ],
       "source": "mongoosemonke504/OnsideTV",
       "sourceURL": "https://github.com/mongoosemonke504/OnsideTV",
-      "bundleId": "personal.Nebulo-V2-3",
-      "bundleIdentifier": "personal.Nebulo-V2-3",
+      "bundleId": "tv.onside.app",
+      "bundleIdentifier": "tv.onside.app",
       "description": "Onside TV (formerly Nebulo) is a clean IPTV player for iOS with a built-in sports score centre. Load your own M3U playlists, check the scores, tap a game and it finds the channel showing it on your IPTV service, then watch live channels in a simple, focused interface.",
       "shortDescription": "IPTV player with built-in sports scores",
-      "icon": "Nebulo.webp",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nebulo.webp",
+      "icon": "OnsideTV.webp",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OnsideTV.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/nebuloiptv/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/nebuloiptv.json",
       "homepage": "https://github.com/mongoosemonke504/OnsideTV",
       "status": "stable",
       "featured": false,
       "size": 51168260,
-      "downloads": 788,
+      "downloads": 874,
       "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
       "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
       "minOSVersion": "26.0",
       "verificationMethod": "github-release",
       "publisher": "mongoosemonke504/OnsideTV",
-      "checksumPublished": false,
+      "checksumPublished": true,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-28"
       }
     },
@@ -3845,7 +3845,7 @@
       "status": "stable",
       "featured": false,
       "size": 10009593,
-      "downloads": 486,
+      "downloads": 509,
       "downloadURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
       "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
       "minOSVersion": "13.0",
@@ -3854,7 +3854,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-12"
       }
     },
@@ -3886,7 +3886,7 @@
       "status": "stable",
       "featured": false,
       "size": 6213777,
-      "downloads": 4385,
+      "downloads": 4809,
       "downloadURL": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
       "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
       "minOSVersion": "14.0",
@@ -3895,7 +3895,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-11"
       }
     },
@@ -3927,7 +3927,7 @@
       "status": "beta",
       "featured": false,
       "size": 5474210,
-      "downloads": 20847,
+      "downloads": 21121,
       "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
       "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
       "minOSVersion": "17.0",
@@ -3936,7 +3936,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-05-22"
       }
     },
@@ -3968,7 +3968,7 @@
       "status": "stable",
       "featured": false,
       "size": 42254891,
-      "downloads": 217,
+      "downloads": 298,
       "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
       "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
       "minOSVersion": "15.0",
@@ -3977,7 +3977,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-19"
       }
     },
@@ -4009,7 +4009,7 @@
       "status": "stable",
       "featured": false,
       "size": 51331248,
-      "downloads": 243,
+      "downloads": 288,
       "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
       "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
       "minOSVersion": "15.0",
@@ -4018,7 +4018,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-13"
       }
     },
@@ -4050,7 +4050,7 @@
       "status": "stable",
       "featured": false,
       "size": 15128625,
-      "downloads": 98,
+      "downloads": 138,
       "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
       "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
       "minOSVersion": "15.0",
@@ -4059,7 +4059,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-19"
       }
     },
@@ -4091,7 +4091,7 @@
       "status": "stable",
       "featured": false,
       "size": 15631495,
-      "downloads": 1039,
+      "downloads": 1160,
       "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
       "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
       "minOSVersion": "16.0",
@@ -4100,7 +4100,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-12"
       }
     },
@@ -4132,7 +4132,7 @@
       "status": "stable",
       "featured": false,
       "size": 74865911,
-      "downloads": 1205,
+      "downloads": 1230,
       "downloadURL": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
       "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
       "minOSVersion": "12.4",
@@ -4141,7 +4141,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-07-29"
       }
     },
@@ -4161,8 +4161,8 @@
       ],
       "source": "BandarHL/BHInstagram",
       "sourceURL": "https://github.com/BandarHL/BHInstagram",
-      "bundleId": "com.bandarhl.bhinsta",
-      "bundleIdentifier": "com.bandarhl.bhinsta",
+      "bundleId": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
       "description": "BHInstagram is an open-source tweak for Instagram from the developer of BHTwitter, published as a ready-to-sideload IPA. It hides ads and suggested posts, asks for confirmation before likes, shows like counts, lets you copy captions and download videos, save profile pictures, keep deleted messages, and turn off last-seen, screenshot alerts and story view receipts.",
       "shortDescription": "Instagram with no ads, downloads and more tweaks",
       "icon": "Instagram.webp",
@@ -4173,16 +4173,16 @@
       "status": "stable",
       "featured": false,
       "size": 228416558,
-      "downloads": 12151,
+      "downloads": 12221,
       "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
-      "sha256": null,
+      "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453",
       "minOSVersion": "15.0",
       "verificationMethod": "github-release",
       "publisher": "BandarHL/BHInstagram",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-05-14"
       }
     },
@@ -4214,7 +4214,7 @@
       "status": "stable",
       "featured": false,
       "size": 109731773,
-      "downloads": 930,
+      "downloads": 1145,
       "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
       "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36",
       "minOSVersion": "13.0",
@@ -4223,7 +4223,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-18"
       }
     },
@@ -4255,7 +4255,7 @@
       "status": "stable",
       "featured": false,
       "size": 13686800,
-      "downloads": 136571,
+      "downloads": 137144,
       "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
       "sha256": "0306c349a4292ca3c40647a48bf8959f4b8d9fa7793cab444d2f79f23d4aaaf7",
       "minOSVersion": "17.0",
@@ -4264,7 +4264,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-08-29"
       }
     },
@@ -4296,16 +4296,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 3889341,
-      "downloads": 164142,
+      "downloads": 164386,
       "downloadURL": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
-      "sha256": null,
+      "sha256": "df6d6273ccb7bb77d4de9426822f68b343890ea180992fdecffe822706c9f636",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "s8ngyu/Mugunghwa",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2022-11-10"
       }
     },
@@ -4337,16 +4337,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 5348316,
-      "downloads": 70693,
+      "downloads": 70789,
       "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
-      "sha256": null,
+      "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "ginsudev/WDBFontOverwrite",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-02-09"
       }
     },
@@ -4378,16 +4378,16 @@
       "status": "stable",
       "featured": false,
       "size": 6889214,
-      "downloads": 1274941,
+      "downloads": 1276664,
       "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
-      "sha256": null,
+      "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "alfiecg24/TrollInstallerX",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-09-12"
       }
     },
@@ -4419,16 +4419,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 1218528,
-      "downloads": 17397,
+      "downloads": 17430,
       "downloadURL": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa",
-      "sha256": null,
+      "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "Avangelista/StatusMagic",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-02-08"
       }
     },
@@ -4460,16 +4460,16 @@
       "status": "stable",
       "featured": false,
       "size": 574441,
-      "downloads": 237929,
+      "downloads": 238019,
       "downloadURL": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
-      "sha256": null,
+      "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "Avangelista/CarTube",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-01-23"
       }
     },
@@ -4501,16 +4501,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 915515,
-      "downloads": 137282,
+      "downloads": 137391,
       "downloadURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
-      "sha256": null,
+      "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
       "minOSVersion": "16.0",
       "verificationMethod": "github-release",
       "publisher": "matteozappia/DynamicCow",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-02-02"
       }
     },
@@ -4542,16 +4542,16 @@
       "status": "stable",
       "featured": false,
       "size": 3718662,
-      "downloads": 24087,
+      "downloads": 24162,
       "downloadURL": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa",
-      "sha256": null,
+      "sha256": "ded952869d151799271a31534f0d3ac2de18399171fba0c4351132eecf82bd48",
       "minOSVersion": "13.0",
       "verificationMethod": "github-release",
       "publisher": "alexsvitlov/iTransmission",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-01-12"
       }
     },
@@ -4583,16 +4583,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 16288960,
-      "downloads": 266282,
+      "downloads": 266512,
       "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
-      "sha256": null,
+      "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "leminlimez/Cowabunga",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-05-29"
       }
     },
@@ -4624,16 +4624,16 @@
       "status": "stable",
       "featured": false,
       "size": 782388,
-      "downloads": 42352,
+      "downloads": 42527,
       "downloadURL": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa",
-      "sha256": null,
+      "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "sourcelocation/AirTroller",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2022-11-26"
       }
     },
@@ -4665,16 +4665,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 4168281,
-      "downloads": 28597,
+      "downloads": 28647,
       "downloadURL": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa",
-      "sha256": null,
+      "sha256": "120a6c1002885d6c3ac1b8dbbe62cc91b66c8bd79955f3034a191dec93fc77fd",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "leminlimez/Helium",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-02-13"
       }
     },
@@ -4706,16 +4706,16 @@
       "status": "stable",
       "featured": false,
       "size": 2786937,
-      "downloads": 1930,
+      "downloads": 1954,
       "downloadURL": "https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa",
-      "sha256": null,
+      "sha256": "5ea276d7c5230b4eb17dd03fae0b23333d505a05dd82c08ae2a66f46b75d9ec0",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "leminlimez/SecondHand",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2024-12-31"
       }
     },
@@ -4747,16 +4747,16 @@
       "status": "unmaintained",
       "featured": false,
       "size": 1058266,
-      "downloads": 3401,
+      "downloads": 3427,
       "downloadURL": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa",
-      "sha256": null,
+      "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
       "minOSVersion": "14.0",
       "verificationMethod": "github-release",
       "publisher": "bomberfish/CAPerfHUDSwift",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2023-12-19"
       }
     },
@@ -4788,7 +4788,7 @@
       "status": "stable",
       "featured": false,
       "size": 11078209,
-      "downloads": 27640,
+      "downloads": 28456,
       "downloadURL": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
       "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
       "minOSVersion": "14.0",
@@ -4797,7 +4797,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-17"
       }
     },
@@ -4817,8 +4817,8 @@
       ],
       "source": "NuvioMedia/NuvioMobile",
       "sourceURL": "https://github.com/NuvioMedia/NuvioMobile",
-      "bundleId": "com.nuvio.app",
-      "bundleIdentifier": "com.nuvio.app",
+      "bundleId": "com.nuvio.media",
+      "bundleIdentifier": "com.nuvio.media",
       "description": "Nuvio is a free, open-source media app for your phone, desktop and the TV you already own. Bring your own sources - Nuvio turns them into a library with artwork, ratings, subtitles and your place saved on every screen.",
       "shortDescription": "Open-source media player, bring your own sources",
       "icon": "Nuvio.webp",
@@ -4829,7 +4829,7 @@
       "status": "stable",
       "featured": false,
       "size": 67805794,
-      "downloads": 560,
+      "downloads": 2895,
       "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
       "sha256": "e7670fdba3adb96f6f8292dd19539fff04d1fbd792fa0fc7b1f602b84367d969",
       "minOSVersion": "16.1",
@@ -4838,7 +4838,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-23"
       }
     },
@@ -4870,7 +4870,7 @@
       "status": "beta",
       "featured": false,
       "size": 7307240,
-      "downloads": 203,
+      "downloads": 239,
       "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
       "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
       "minOSVersion": "18.0",
@@ -4879,7 +4879,7 @@
       "checksumPublished": true,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-16"
       }
     },
@@ -4911,7 +4911,7 @@
       "status": "stable",
       "featured": false,
       "size": 4604223,
-      "downloads": 39528,
+      "downloads": 40826,
       "downloadURL": "https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa",
       "sha256": "239cd9a10ad91bdd708bd84e1b75d6e8416a95d2b1e46e34e5e80cc58c324991",
       "minOSVersion": "16.0",
@@ -4920,7 +4920,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-14"
       }
     },
@@ -4952,7 +4952,7 @@
       "status": "stable",
       "featured": false,
       "size": 8948447,
-      "downloads": 876,
+      "downloads": 906,
       "downloadURL": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa",
       "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
       "minOSVersion": "17.0",
@@ -4961,7 +4961,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-08-28"
       }
     },
@@ -4993,7 +4993,7 @@
       "status": "stable",
       "featured": false,
       "size": 1685904,
-      "downloads": 375,
+      "downloads": 419,
       "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
       "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
       "minOSVersion": "12.0",
@@ -5002,7 +5002,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-14"
       }
     },
@@ -5075,7 +5075,7 @@
       "status": "stable",
       "featured": false,
       "size": 111869672,
-      "downloads": 156,
+      "downloads": 199,
       "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
       "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
       "minOSVersion": "15.0",
@@ -5084,7 +5084,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-19"
       }
     },
@@ -5116,7 +5116,7 @@
       "status": "stable",
       "featured": false,
       "size": 346882,
-      "downloads": 8513,
+      "downloads": 8558,
       "downloadURL": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
       "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
       "minOSVersion": "12.2",
@@ -5125,7 +5125,7 @@
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-07-09"
       }
     },
@@ -5157,16 +5157,16 @@
       "status": "stable",
       "featured": false,
       "size": 362372,
-      "downloads": 1740,
+      "downloads": 1765,
       "downloadURL": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa",
-      "sha256": null,
+      "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9",
       "minOSVersion": "12.2",
       "verificationMethod": "github-release",
       "publisher": "DevelopCubeLab/EnableQUIC",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-02-21"
       }
     },
@@ -5198,16 +5198,16 @@
       "status": "stable",
       "featured": false,
       "size": 96650,
-      "downloads": 3763,
+      "downloads": 3795,
       "downloadURL": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa",
-      "sha256": null,
+      "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
       "minOSVersion": "12.2",
       "verificationMethod": "github-release",
       "publisher": "DevelopCubeLab/AnimationSpeed",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 302",
+        "detail": "HTTP 200",
         "updatedAt": "2025-05-27"
       }
     },
@@ -5231,15 +5231,15 @@
       "bundleIdentifier": "app.Eclipse.Soupy",
       "description": "Discover anime, movies, and shows; organize your library; watch with in-app playback; and read manga and light novels. Eclipse supports user-installed Services, Stremio add-ons, SkyStream packages, Nuvio providers, and Reader extensions. Keep track of progress with AniList, MyAnimeList, Trakt, and Simkl, download media for offline use, and back up your settings and library. Cloud sync is optional and off by default. Eclipse does not include media, content sources, or bundled provider add-ons. Install and configure your own sources to watch or read.",
       "shortDescription": "Watch, read, and track in one place.",
-      "icon": "Eclipse.png",
-      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.png",
+      "icon": "Eclipse.webp",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Eclipse.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/eclipse/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/eclipse.json",
       "homepage": "https://github.com/Soupy-dev/Eclipse",
       "status": "stable",
       "featured": false,
       "size": 36182081,
-      "downloads": 80,
+      "downloads": 122,
       "downloadURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
       "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
       "minOSVersion": "15.0",
@@ -5248,7 +5248,7 @@
       "checksumPublished": true,
       "health": {
         "reachable": true,
-        "detail": "not probed",
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-20"
       }
     }

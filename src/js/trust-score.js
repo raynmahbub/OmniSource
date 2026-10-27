@@ -107,12 +107,13 @@
     if (status === 'VERIFIED') verScore = 100;
     else if (status.indexOf('COMMUNITY') !== -1) verScore = 72;
     else if (status === 'MANUAL') verScore = 50;
-    var hashVerified = v.hash_verified || app.checksumPublished || false;
+    // A publisher's checksum declaration is not a byte comparison.
+    var hashVerified = v.hash_verified === true;
     if (hashVerified) verScore = Math.min(100, verScore + 8);
 
     // 2. Download health (0-100, weight 20)
     var h = this.healthBySlug.get(slug) || {};
-    var healthScore = typeof h.healthScore === 'number' ? h.healthScore : 100;
+    var healthScore = typeof h.healthScore === 'number' ? h.healthScore : 50;
     if (h.downloadReachable === false) healthScore = Math.min(healthScore, 15);
 
     // 3. Maintenance (recency + update consistency, weight 20)
@@ -157,10 +158,10 @@
       signals: {
         verified: status,
         hashVerified: !!hashVerified,
-        downloadReachable: h.downloadReachable !== false,
+        downloadReachable: typeof h.downloadReachable === 'boolean' ? h.downloadReachable : null,
         stale: !!stale,
         daysSinceRelease: Math.round(days),
-        provenance: v.provenance || 'official',
+        provenance: v.provenance || 'unknown',
       },
     };
   };

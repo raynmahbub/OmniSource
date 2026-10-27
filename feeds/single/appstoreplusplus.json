@@ -44,7 +44,7 @@
               "fileType": "IPA",
               "size": 11078209,
               "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
-              "downloads": 27640,
+              "downloads": 28456,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -56,16 +56,30 @@
               "fileType": "DEB",
               "size": 11053666,
               "sha256": "672ac4bf96feb87e28e1b2bdcbeb0bd3a425dafe43098f801e4548bfc13c3e29",
-              "downloads": 1851,
+              "downloads": 1943,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
-          "downloads": 27640
+          "downloads": 28456
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "14.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "appstoreplusplus",
         "status": "stable",
@@ -98,8 +112,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
           "lastUpdatedAt": "2026-09-17"
         }
       }

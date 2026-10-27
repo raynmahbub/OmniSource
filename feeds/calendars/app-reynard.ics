@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Reynard releases
+BEGIN:VEVENT
+UID:reynard-0.18.0@omnisource
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Reynard v0.18.0
+DESCRIPTION:Reynard 0.18.0 | Reynard\n\n## Changes\n\n**Full Changelog**: h
+ ttps://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\n\n### 
+ New Features\n- When a webpage uses a keyboard shortcut that conflicts wit
+ h one of the app's\, the first press now goes to the webpage\, and a hint 
+ appears in the address bar letting you press the shortcut again to trigger
+  the app's.\n\n### Improvements\n- Scrolling on webpages is now smoother a
+ nd more accurate.\n- Improved audio handling\, with better echo cancellati
+ on\, voice processing\, recovery after interruptions\, and handling of aud
+ io device changes.\n\n### Bug Fixes\n- Fixed an issue where keyboard short
+ cuts would not be recognized by websites after using Find in Page or a `<s
+ elect>` element.\n- Fixed an issue where the image preview and its actions
+  would not work on certain images\, such as those requiring authentication
+  or in the WebP format.\n- Fixed an issue where tapping the status bar to 
+ scroll to the top would not scroll completely to the top of the webpage wh
+ en using the top address bar.\n- Fixed an issue where touches on some webp
+ ages would land in the wrong place.\n- Added small performance improvement
+ s and fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0](h
+ ttps://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (r
+ eleased Oct 13\, 2026).
+URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
+END:VEVENT
+BEGIN:VEVENT
+UID:reynard-0.17.1@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Reynard v0.17.1
+DESCRIPTION:Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: h
+ ttps://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis
+  is a minor release that fixes issues found in 0.17.0. For the complete li
+ st of changes\, see the [0.17.0 release notes](https://github.com/minh-ton
+ /reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- 
+ Text selections outside input fields now offer more actions\, such as Look
+  Up\, Find Selection\, Translate\, and Share.\n- Fixed a crash when editin
+ g in scrollable text fields on iOS 14 and older.\n- Fixed an issue where t
+ ouching the selection handles to drag them would clear the selection in te
+ xt fields on some webpages.\n- Fixed an issue where the caret and text sel
+ ection would not stay aligned with sticky text while scrolling.\n- Fixed a
+ n issue where tapping a focused text field or caret would not bring up the
+  edit menu on iOS 17 and later.\n- Fixed an issue where images copied from
+  another app would not paste into webpages.
+URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
+END:VEVENT
+BEGIN:VEVENT
+UID:reynard-0.17.0@omnisource
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Reynard v0.17.0
+DESCRIPTION:Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: h
+ ttps://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### 
+ Improvements\n- The native text input integration has been rewritten from 
+ scratch\, so typing now feels truly native\, supports nearly all iOS text 
+ editing behaviors\, and is significantly more stable.\n\n### New Features\
+ n- The address bar now automatically focuses for input on new tab pages wh
+ en using a physical keyboard.\n- You can now cycle between tabs using the 
+ Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- 
+ Fixed an issue where a tab would appear blank after closing another tab in
+  the tab overview.\n- Fixed an issue where dragging the iPad floating keyb
+ oard or shortcut bar would push the web view upward.\n- Fixed an issue whe
+ re taps would sometimes land in the wrong spot on some iframe elements whe
+ n the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n##
+ # Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/
+ firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6\, 2026).
+URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
+END:VEVENT
+END:VCALENDAR

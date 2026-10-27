@@ -13,11 +13,12 @@ permissions and opts in to exactly what it needs, never more.
 | [`tweak-factory.yml`](tweak-factory.yml) | schedule (weekly Mon 02:50 UTC) · manual | Releases (`tweak-build/…` tags), `data/tweak-builds-state.json` | Collect the newest official `.deb` per registry entry, inject it into the operator-supplied base app, publish a provenance release, then dispatch sync — see `docs/TWEAK-FACTORY.md` |
 | [`merge.yml`](merge.yml) | `feeds/*.json` changed (PR check · push commit) · manual | `feeds/apps.json` + its published copies | Rebuild the unified master source from modular feeds; on a pull request the same gate runs read-only and fails if `apps.json` is not the merge output |
 | [`health-check.yml`](health-check.yml) | schedule (daily) · manual | GitHub Issue | HEAD-probe every download URL + mirror, report broken links via an issue and close it again once every link is reachable |
-| [`verify.yml`](verify.yml) | schedule (weekly, Mon 07:00 UTC) · manual | `feeds/state.json`, `feeds/integrity_report.json` + its `/api/` copies | Stream and hash every published asset (full integrity), record the verdict as `lastFullVerification` and fail on a digest/size mismatch |
 | [`build-uyouenhanced.yml`](build-uyouenhanced.yml) | manual | Release asset | Build and publish the uYouEnhanced IPA, then trigger a feed sync |
 | [`discovery.yml`](discovery.yml) | schedule (12 h) · manual | `data/discovered_sources.json`, `data/quarantine/sources.json`, `data/published_sources.json` | Autonomous discovery (repository + code search, feed probes, release scans, web catalogs), a self-quarantining validation gate, and the explicit verified→published projection |
 | [`monitoring.yml`](monitoring.yml) | schedule (30 min) · manual | `data/status.json`, `data/selfheal_report.json`, `data/mirror_status.json` | Probe sources/downloads, plan self-healing repairs, evaluate mirrors |
 | [`security.yml`](security.yml) | push · PR · schedule (daily) · manual | `data/security.json` | SHA/hash audit, duplicate binaries, integrity rollup; fails on critical findings |
+| [`verify.yml`](verify.yml) | weekly · monthly full · manual | verification state, ledger and generated projections | Bounded download/hash/IPA checks; preserves failed evidence and fails the job for mismatches |
+| [`issue-intake.yml`](issue-intake.yml) | new issue | review comment | Parse forms as untrusted data; no catalog or source changes |
 | [`analytics.yml`](analytics.yml) | schedule (daily) · manual | `data/analytics_rollup.json` | Daily / weekly / monthly analytics windows |
 | [`website.yml`](website.yml) | push · PR · manual | build artifact | Typecheck, lint and production-build the Next.js app in `web/` |
 | [`publish.yml`](publish.yml) | push · schedule (daily) · manual | `data/*`, `feeds/clients/*`, `api/v3/*` | Rebuild + validate derived artifacts (canonical DB, ledger, enrichment, reputation, client feeds, API v3) |
@@ -35,8 +36,8 @@ build-uyouenhanced.yml   merge.yml (scripts/merge_feeds.py)
 (publishes uyouenhanced-v release) ──▶ feeds/apps.json ──▶ scripts/publish_root.py
 ```
 
-- **`sync.yml`** is the only scheduled writer. `concurrency` prevents two runs from
-  writing `feeds/` at once.
+- **`sync.yml`** syncs and publishes feeds. Its concurrency group is shared with
+  `verify.yml` so those two writers do not run at the same time.
 - **`merge.yml`** is the safety net for direct edits to `feeds/`: it re-derives
   `feeds/apps.json` from the modular feeds and republishes the root mirror with
   `scripts/publish_root.py`, keeping `feeds/` as the single source of truth.
@@ -46,9 +47,12 @@ build-uyouenhanced.yml   merge.yml (scripts/merge_feeds.py)
 - **`verify.yml`** is the only job that reads the bytes. `sync.yml` verifies
   metadata on every build (recorded digest format, non-zero size, an installable
   IPA); proving a digest *matches* needs the download, which is too slow for a
-  6-hour cadence. It rebuilds from committed state (`--no-sync`) so the verdict
-  always describes the feeds that are published today, not a newer upstream view,
-  and commits only the two documents it owns.
+  6-hour cadence. It rebuilds from committed state (`--no-sync`), checks changed
+  assets weekly and performs a full recheck monthly. A completion receipt and
+  validation gate distinguish completed mismatch reports from crashes. It
+  publishes state, reports, and their generated projections together, retains
+  failed-run evidence as an artifact, and still fails the job on a mismatch.
+  Inspection records packaged declarations, not code-signature verification.
 - **`validate.yml`** guards pull requests. It is read-only and network-free, so it
   is safe on forks. The reproducibility step fails a PR that hand-edits a
   generated feed instead of `catalog.json`.

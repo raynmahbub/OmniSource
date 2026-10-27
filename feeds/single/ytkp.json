@@ -44,19 +44,33 @@
               "fileType": "IPA",
               "size": 143635824,
               "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-              "downloads": 709,
+              "downloads": 749,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-          "downloads": 709
+          "downloads": 749
         }
       ],
       "screenshotURLs": [
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/1.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/2.PNG",
         "https://repo.ikghd.me/depictions/me.ikghd.ytkplus/screenshots/3.PNG"
+      ],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
       ],
       "appPermissions": {
         "entitlements": [
@@ -93,7 +107,8 @@
           "method": "github-release",
           "publisher": "mrdrvt99/YouProEXTRA",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "17.0",
@@ -115,8 +130,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-29",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
           "lastUpdatedAt": "2026-09-26"
         }
       }

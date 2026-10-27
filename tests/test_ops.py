@@ -126,11 +126,22 @@ class SelfhealTests(TestCase):
         self.assertEqual(by_slug, {"a": "retry", "b": "repair"})
 
     def test_apply_safe_fixes(self) -> None:
+        digest = "ab" * 32
+        mirror = "https://m.test/b.ipa"
         apps = [{"slug": "b", "downloadURL": "https://dead.test/b.ipa"}]
-        plans = [{"slug": "b", "action": "repair", "fallbacks": ["https://m.test/b.ipa"]}]
+        plans = [
+            {
+                "slug": "b",
+                "action": "repair",
+                "fallbacks": [mirror],
+                "expectedSha256": digest,
+                "fallbackProbes": [{"url": mirror, "ok": True, "digestVerified": True, "sha256": digest}],
+            }
+        ]
         fixed, applied = selfheal.apply_safe_fixes(apps, plans)
         self.assertEqual(applied, 1)
-        self.assertEqual(fixed[0]["downloadURL"], "https://m.test/b.ipa")
+        self.assertEqual(fixed[0]["downloadURL"], mirror)
+        self.assertEqual(apps[0]["downloadURL"], "https://dead.test/b.ipa")
 
 
 class MirrorTests(TestCase):

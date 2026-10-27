@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "YouMod",
     "bundleIdentifier": "com.google.ios.youtube",
@@ -37,16 +37,30 @@
             "fileType": "IPA",
             "size": 131398144,
             "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
-            "downloads": 137,
+            "downloads": 239,
             "mimeType": "application/octet-stream",
             "installable": true
           }
         ],
         "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
-        "downloads": 137
+        "downloads": 239
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "17.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -82,7 +96,8 @@
         "method": "github-release",
         "publisher": "mrdrvt99/YouProEXTRA",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "17.0",
@@ -104,8 +119,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-07",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
         "lastUpdatedAt": "2026-10-22"
       }
     },

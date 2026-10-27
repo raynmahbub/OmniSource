@@ -2,7 +2,7 @@
   "name": "OmniSource API",
   "version": "1",
   "baseURL": "https://raynmahbub.github.io/OmniSource",
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-27",
   "endpoints": [
     {
       "path": "/api/analytics.json",
@@ -137,6 +137,11 @@
     {
       "path": "/api/translation-status.json",
       "description": "Per-locale translation coverage (%) against the canonical English locale.",
+      "format": "json"
+    },
+    {
+      "path": "/api/transparency.json",
+      "description": "Hash-chained observations of bytes actually downloaded; not publisher signatures.",
       "format": "json"
     },
     {

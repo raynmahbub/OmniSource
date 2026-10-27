@@ -44,15 +44,30 @@
               "fileType": "IPA",
               "size": 362372,
               "sha256": null,
-              "downloads": 1740,
+              "downloads": 1765,
               "mimeType": "application/zip",
               "installable": true
             }
           ],
-          "downloads": 1740
+          "downloads": 1765,
+          "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "12.2",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "omnisource": {
         "slug": "enablequic",
         "status": "stable",
@@ -85,8 +100,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-09-17",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa",
           "lastUpdatedAt": "2025-02-21"
         }
       }

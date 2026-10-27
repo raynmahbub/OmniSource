@@ -33,10 +33,25 @@
             "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.33.6.ipa"
           ],
           "size": 147923687,
-          "minOSVersion": "17.0"
+          "minOSVersion": "17.0",
+          "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da"
         }
       ],
       "screenshotURLs": [],
+      "minOSVersion": "17.0",
+      "devices": [
+        "iphone",
+        "ipad"
+      ],
+      "clients": [
+        "altstore",
+        "sidestore",
+        "flarestore",
+        "feather",
+        "esign",
+        "ksign",
+        "livecontainer"
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
@@ -75,7 +90,8 @@
           "method": "github-release",
           "publisher": "raynmahbub/OmniSource (Tweak Factory)",
           "codeSigned": false,
-          "checksumPublished": false
+          "checksumPublished": false,
+          "provenance": "community"
         },
         "compatibility": {
           "minOSVersion": "17.0",
@@ -97,8 +113,10 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
-          "statusSince": "2026-10-23",
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T14:49:03Z",
+          "checkedURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
           "lastUpdatedAt": "2026-10-03"
         }
       }

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Winston releases
+BEGIN:VEVENT
+UID:winston-1.1.5@omnisource
+DTSTAMP:20240624T000000Z
+DTSTART;VALUE=DATE:20240624
+DTEND;VALUE=DATE:20240625
+SUMMARY:Winston v1.1.5
+DESCRIPTION:Winston 1.1.5 | winston\n\n- Fixed placeholder message alignmen
+ t\n- Fixed Reddit API preferences page\n- Added localization support\n- Cl
+ eaned unused code and replaced glitchy book Lottie\n- Removed old\, unused
+  TipJar component\n- Added back GlobalLoaderProvider\n- Fixed broken build
+ \n- Improved RedditListingFeed component and cleaned up some files\n- Fixe
+ d many UI bugs and stutters\; added new NukeUI Opt components\n- Removed r
+ edundant code calling setAudioToMixWithOthers three times\n- Provided Redd
+ itListingFeed with a force refresh handler\; fixed UserView issues\n- Fixe
+ d blur flash on app open\n- Fixed cache clear button not working\n- Added 
+ support for inline image within comments\n- Improved spoiler handling in s
+ elftext\n- Corrected tab bar hit detection in Split View on iPad
+URL:https://raynmahbub.github.io/OmniSource/feeds/winston.json
+END:VEVENT
+END:VCALENDAR

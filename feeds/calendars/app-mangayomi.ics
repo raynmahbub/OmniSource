@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Mangayomi releases
+BEGIN:VEVENT
+UID:mangayomi-0.9.9@omnisource
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Mangayomi v0.9.9
+DESCRIPTION:Mangayomi 0.9.9 | Mangayomi-v0.9.9-ios\n\n## What's Changed\n* 
+ fix(extension): enable mobile code copy by @mrandhawa14 in https://github.
+ com/kodjodevf/mangayomi/pull/1039\n* fix(reader): restore double-tap zoom 
+ toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037
+ \n* feat(player): add hold-and-slide speed selector by @mrandhawa14 in htt
+ ps://github.com/kodjodevf/mangayomi/pull/1038\n* fix(http): drop the quote
+ s Linux wraps the saved user agent in by @matsukiender-star in https://git
+ hub.com/kodjodevf/mangayomi/pull/1036\n* fix(security): show what deep lin
+ ks install and keep tokens out of sh… by @kodjodevf in https://github.co
+ m/kodjodevf/mangayomi/pull/1041\n* chore: await dropped writes\, add guard
+  lints\, localize hardcoded strings by @kodjodevf in https://github.com/ko
+ djodevf/mangayomi/pull/1042\n* refactor: move the tracker library cache fr
+ om Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pu
+ ll/1043\n* refactor: split large widget files and remove duplicated code b
+ y @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044\n* Try to
+  fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/
+ pull/1035\n* Add a protected HLS proxy for extension playback by @mrandhaw
+ a14 in https://github.com/kodjodevf/mangayomi/pull/1040\n* Fix reader by @
+ kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051\n* fix(mobil
+ e): improve player controls and error handling by @mrandhawa14 in https://
+ github.com/kodjodevf/mangayomi/pull/1047\n* fix(restore): improve error ha
+ ndling and reporting during restore ope… by @kodjodevf in https://github
+ .com/kodjodevf/mangayomi/pull/1052\n* fix(reader): pan a zoomed webtoon pa
+ ge without losing double tap by @kodjodevf in https://github.com/kodjodevf
+ /mangayomi/pull/1054\n* ci: run the test suite on pull requests and main b
+ y @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056\n* Use ne
+ utral icons for extension repositories by @mrandhawa14 in https://github.c
+ om/kodjodevf/mangayomi/pull/1045\n* Ad
+URL:https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json
+END:VEVENT
+BEGIN:VEVENT
+UID:mangayomi-0.9.8@omnisource
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Mangayomi v0.9.8
+DESCRIPTION:Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios\n\n## What's Changed\n* 
+ fix(tracker): improve Trakt.tv multi-season mapping\, watchlist\, and rati
+ ngs sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/10
+ 24\n* feat(tracker): Add backlog sections (Plan to read/Watchlist)\, handl
+ e AniList 429 rate limits\, and prioritize Trakt series by @lee-gangjin in
+  https://github.com/kodjodevf/mangayomi/pull/1030\n* fix(mihon): use the C
+ loudflare proxy for extension-server sources by @matsukiender-star in http
+ s://github.com/kodjodevf/mangayomi/pull/1026\n* fix(mihon): identify which
+  source of an extension a call is for by @matsukiender-star in https://git
+ hub.com/kodjodevf/mangayomi/pull/1027\n* Improve LNReader extension compat
+ ibility\n* fix: stale chapter page lists and add WebP decoding on Linux by
+  @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031\n* fix: rem
+ ember window geometry on Linux\; add missing libavif to AppImage to resolv
+ e closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032
+ \n\n## New Contributors\n* @lee-gangjin made their first contribution in h
+ ttps://github.com/kodjodevf/mangayomi/pull/1024\n* @matsukiender-star made
+  their first contribution in https://github.com/kodjodevf/mangayomi/pull/1
+ 026\n* @MenaHere made their first contribution in https://github.com/kodjo
+ devf/mangayomi/pull/1031\n\n**Full Changelog**: https://github.com/kodjode
+ vf/mangayomi/compare/v0.9.7...v0.9.8
+URL:https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json
+END:VEVENT
+END:VCALENDAR

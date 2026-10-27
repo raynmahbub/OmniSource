@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "Messenger Flow",
     "bundleIdentifier": "com.facebook.Messenger.flow",
@@ -45,6 +45,20 @@
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "15.1",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [
         "com.apple.security.application-groups",
@@ -80,7 +94,8 @@
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
         "codeSigned": false,
-        "checksumPublished": false
+        "checksumPublished": false,
+        "provenance": "community"
       },
       "compatibility": {
         "minOSVersion": "15.1",
@@ -101,9 +116,11 @@
         "notes": "UNOFFICIAL BUILD. Flow has no public repository or developer feed - the IPA Vault source is the only distribution channel, so no developer-published download link exists to verify. Not affiliated with or endorsed by Meta. Uses its own bundle identifier, so it installs alongside the stock App Store Messenger."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 200",
-        "statusSince": "2026-09-18",
+        "downloadReachable": false,
+        "detail": "HTTP 404",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa",
         "lastUpdatedAt": "2026-10-17"
       }
     },

@@ -1,30 +1,10 @@
-"""Verification system.
+"""Verification and source-attribution metadata.
 
-Trust levels are computed from observable facts, not claims:
-
-``VERIFIED``
-    The app is distributed by its official upstream (developer release, the
-    developer's own feed, or a source the catalog marks official) and every
-    offline/runtime check passed.
-``COMMUNITY VERIFIED``
-    The app is a community-built package (e.g. a community IPA of a tweak whose
-    project publishes no IPA itself) and every check passed. It is still
-    trustworthy, but the build provenance is not the upstream developer.
-``UNVERIFIED``
-    At least one check failed: invalid metadata, a non-HTTP(S) download URL,
-    or the download was unreachable at build time.
-
-Checks performed:
-
-* ``metadata``   — required identity fields are present and well-formed.
-* ``urls``       — download/upstream URLs are HTTP(S).
-* ``fileAvailable`` — the last link probe considered the primary URL reachable.
-* ``hashVerified``  — a SHA-256 digest is known for the newest build (from the
-  upstream release's published checksum or the asset digest when the forge
-  publishes one).
-
-The result is rendered into ``feeds/verification.json`` and consumed by the
-website badges and the duplicated-app recommendations.
+The legacy verification levels summarize catalog declarations, metadata, and
+last-known link availability. They do not establish that an IPA is safe or
+signed by its developer. Provenance is a separate official/community/unknown
+classification, and digest evidence distinguishes a recorded checksum from a
+successful comparison against downloaded bytes.
 """
 
 from __future__ import annotations
@@ -36,6 +16,7 @@ from omnisource.discovery import newest_version
 from omnisource.domain import Catalog, today
 from omnisource.download_intel import release_consistency
 from omnisource.http import is_http_url
+from omnisource.integrity import current_full_verification, digest_evidence
 from omnisource.utils.health import probe_window
 
 VERIFICATION_SCHEMA_VERSION = 1
@@ -75,7 +56,12 @@ def compute_trust_score(
     uptime_component = max(0.0, min(1.0, uptime)) * TRUST_WEIGHTS["uptime"]
     integrity = TRUST_WEIGHTS["integrity"] if hash_verified else 0.0
     score = round(source + history + consistency_component + uptime_component + integrity, 1)
-    return score, trust_badge(score)
+    badge = trust_badge(score)
+    # A numerical score must not turn an independently sourced community or
+    # unverified build into an apparently official "Verified" badge.
+    if badge == "Verified" and str(level).upper() != "VERIFIED":
+        badge = "Trusted" if str(level).upper() == "COMMUNITY VERIFIED" else "Experimental"
+    return score, badge
 
 
 # Methods whose publisher is the application's official upstream.
@@ -104,36 +90,42 @@ _GH_UPSTREAM_RE = re.compile(r"github\.com/([^/]+/[^/]+?)(?:\.git)?/?$", re.IGNO
 
 
 def provenance_for(app: Any, method: str, publisher: str) -> str:
-    """Classify who actually publishes the sideload IPA.
+    """Classify the *declared* IPA source as official, community or unknown.
 
-    ``official``  — the IPA comes from the project's own release channel
-                    (its forge releases or its own AltStore/JSON feed).
-    ``community`` — a third party repackaged or mirrored the build (manual
-                    mirrors, "IPA vault" publishers, or a GitHub packaging
-                    repository that is not the project's own upstream repo).
-
-    This is distinct from :data:`LEVELS`: a community build can be VERIFIED
-    and an official-method build can be UNVERIFIED (e.g. a dead link).
+    Explicit reviewed catalog attribution wins. Legacy declarations are
+    classified conservatively using the publishing method, publisher and
+    project URL; merely having an ``upstream`` does not establish ownership.
+    This is not independent binary or signature verification.
     """
-    raw = getattr(app, "raw", None) or {}
+    raw = app if isinstance(app, dict) else (getattr(app, "raw", None) or {})
+    verification = raw.get("verification") if isinstance(raw.get("verification"), dict) else {}
+    explicit = verification.get("provenance")
+    if explicit is not None:
+        value = str(explicit).strip().lower()
+        return value if value in {"official", "community", "unknown"} else "unknown"
     status = str(raw.get("status") or "stable").lower()
-    method = str(method or "").lower()
-    publisher = str(publisher or "")
-    if status == "manual":
-        return "community"
-    if method in COMMUNITY_METHODS:
-        return "community"
-    if _COMMUNITY_PUBLISHER_RE.search(publisher):
+    method = str(method or "").strip().lower()
+    publisher = str(publisher or "").strip()
+    build = str(raw.get("build") or verification.get("build") or "")
+    if status == "manual" or method in COMMUNITY_METHODS or _COMMUNITY_PUBLISHER_RE.search(f"{publisher} {build}"):
         return "community"
     if method in {"github-release", "github-tag"}:
-        published = _GH_PUBLISHER_RE.match(publisher.strip())
+        published = _GH_PUBLISHER_RE.match(publisher)
         upstream = _GH_UPSTREAM_RE.search(str(raw.get("upstreamURL") or ""))
         if published and upstream and published.group(1).lower() != upstream.group(1).lower():
             return "community"
-    return "official"
+    if method in OFFICIAL_METHODS and publisher:
+        return "official"
+    return "unknown"
 
 
-def _checks(catalog: Catalog, app: Any, newest: dict[str, Any], health: dict[str, Any] | None) -> dict[str, bool]:
+def _checks(
+    catalog: Catalog,
+    app: Any,
+    newest: dict[str, Any],
+    health: dict[str, Any] | None,
+    evidence: dict[str, Any],
+) -> dict[str, bool]:
     """Evaluate each verification check against defensively-sourced values."""
     download_url = str(newest.get("downloadURL") or "")
     upstream = str(app.homepage or "")
@@ -145,17 +137,17 @@ def _checks(catalog: Catalog, app: Any, newest: dict[str, Any], health: dict[str
             and (not app.bundle_id or bool(BUNDLE_RE.match(app.bundle_id)))
         ),
         "urls": bool(is_http_url(download_url) and (not upstream or is_http_url(upstream))),
-        "fileAvailable": bool(health.get("downloadReachable", True)),
-        "hashVerified": bool(str(newest.get("sha256") or "")),
+        "fileAvailable": health.get("downloadReachable") is True,
+        "hashVerified": evidence.get("status") == "matched",
     }
 
 
 def _reason_for_level(level: str, failed: list[str], method: str) -> list[str]:
     if level == "UNVERIFIED":
-        return [f"failed check: {name}" for name in failed] or ["verification method is not recognized"]
+        return [f"failed or unknown check: {name}" for name in failed] or ["source provenance is unknown"]
     if level == "COMMUNITY VERIFIED":
-        return [f"community package ({method}) — build provenance is not the upstream developer"]
-    return [f"official upstream ({method})"]
+        return [f"catalog lists a community source ({method}); the project and IPA publisher may differ"]
+    return [f"catalog attributes the source to the project's release channel ({method})"]
 
 
 def build_verification_doc(
@@ -173,8 +165,10 @@ def build_verification_doc(
         "communityVerified": 0,
         "unverified": 0,
         "hashVerified": 0,
+        "hashRecorded": 0,
         "official": 0,
         "communityBuilds": 0,
+        "unknownProvenance": 0,
     }
 
     for app in catalog.apps:
@@ -182,36 +176,54 @@ def build_verification_doc(
         if not isinstance(verification, dict):
             verification = {}
         method = str(verification.get("method") or "")
-        publisher = str(verification.get("publisher") or app.developer)
-        provenance = provenance_for(app, method, publisher)
+        declared_publisher = str(verification.get("publisher") or "")
+        publisher = declared_publisher or app.developer
+        provenance = provenance_for(app, method, declared_publisher)
         newest = newest_version(state, app.slug)
+        app_state = state.get(app.slug) if isinstance(state.get(app.slug), dict) else {}
+        evidence = digest_evidence(newest, app_state)
         health = health_by_slug.get(app.slug)
-        checks = _checks(catalog, app, newest, health)
+        checks = _checks(catalog, app, newest, health, evidence)
         failed = [key for key, ok in checks.items() if not ok and key != "hashVerified"]
+        full = current_full_verification(newest, app_state)
+        detail = str(full.get("detail") or "") if full else ""
+        mismatch = bool(
+            full
+            and full.get("ok") is False
+            and any(
+                text in detail.lower()
+                for text in ("sha256 mismatch", "sha512 mismatch", "size mismatch", "bundle id mismatch")
+            )
+        )
+        if mismatch:
+            failed.append("integrity mismatch")
 
-        if failed:
+        if failed or provenance == "unknown":
             level = "UNVERIFIED"
+        elif provenance == "community":
+            level = "COMMUNITY VERIFIED"
         elif method in OFFICIAL_METHODS:
             level = "VERIFIED"
-        elif method in COMMUNITY_METHODS:
-            level = "COMMUNITY VERIFIED"
-        elif method == "":
-            # No explicit verification record yet: stay conservative unless the
-            # catalog explicitly marks the app as official on the developerName.
-            level = "UNVERIFIED"
         else:
             level = "UNVERIFIED"
 
         totals["apps"] += 1
         totals[{"VERIFIED": "verified", "COMMUNITY VERIFIED": "communityVerified"}.get(level, "unverified")] += 1
-        totals["official" if provenance == "official" else "communityBuilds"] += 1
+        totals[
+            {"official": "official", "community": "communityBuilds", "unknown": "unknownProvenance"}[provenance]
+        ] += 1
+        if evidence["status"] in {"recorded", "matched", "mismatch"}:
+            totals["hashRecorded"] += 1
         if checks["hashVerified"]:
             totals["hashVerified"] += 1
 
         # Trust Score (Phase 7): five observable factors, 0..10.
-        app_state = state.get(app.slug) if isinstance(state.get(app.slug), dict) else {}
         versions = app_state.get("versions")
-        release_count = len(versions) if isinstance(versions, list) else 0
+        release_dates = app_state.get("releaseDates")
+        release_count = max(
+            len(versions) if isinstance(versions, list) else 0,
+            len(release_dates) if isinstance(release_dates, list) else 0,
+        )
         probes, reachable, _ = probe_window(app_state)
         if probes:
             uptime = reachable / probes
@@ -234,6 +246,10 @@ def build_verification_doc(
                 "status": level,
                 "provenance": provenance,
                 "hash_verified": checks["hashVerified"],
+                "digestEvidence": evidence,
+                "integrityFailure": {"detail": detail, "checkedAt": str(full.get("at") or "")}
+                if mismatch and full
+                else None,
                 "method": method,
                 "publisher": publisher,
                 "checks": checks,

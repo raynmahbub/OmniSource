@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "93d6d39dc151",
+  "feedVersion": "cf81a20653a6",
   "data": {
     "name": "unc0ver",
     "bundleIdentifier": "science.xnu.undecimus",
@@ -37,15 +37,30 @@
             "fileType": "IPA",
             "size": 43235739,
             "sha256": null,
-            "downloads": 526071,
+            "downloads": 526134,
             "mimeType": "application/binary",
             "installable": true
           }
         ],
-        "downloads": 526071
+        "downloads": 526134,
+        "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234"
       }
     ],
     "screenshotURLs": [],
+    "minOSVersion": "11.0",
+    "devices": [
+      "iphone",
+      "ipad"
+    ],
+    "clients": [
+      "altstore",
+      "sidestore",
+      "flarestore",
+      "feather",
+      "esign",
+      "ksign",
+      "livecontainer"
+    ],
     "appPermissions": {
       "entitlements": [],
       "privacy": {}
@@ -82,8 +97,10 @@
       },
       "health": {
         "downloadReachable": true,
-        "detail": "HTTP 302",
-        "statusSince": "2026-09-10",
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "checkedURL": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
         "lastUpdatedAt": "2020-06-09"
       }
     },

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OmniSource//Release calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Serotonin releases
+BEGIN:VEVENT
+UID:serotonin-1.2.1@omnisource
+DTSTAMP:20240117T000000Z
+DTSTART;VALUE=DATE:20240117
+DTEND;VALUE=DATE:20240118
+SUMMARY:Serotonin v1.2.1
+DESCRIPTION:Serotonin 1.2.1 | Serotonin.tipa\n\n# Serotonin 1.2.1\n## Chang
+ elog\n### Cleanup\n\n- Fixed memory hogger\n- Fixed exploit picker\n- Fixe
+ d launchd entitlements\n- Remove a bunch of unused code\n- Slight UI chang
+ es
+URL:https://raynmahbub.github.io/OmniSource/feeds/serotonin.json
+END:VEVENT
+END:VCALENDAR
