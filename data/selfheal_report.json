@@ -1,14 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T19:42:52Z",
-  "issues": 14,
+  "generatedAt": "2026-10-27T23:33:14Z",
+  "issues": 22,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 7,
+    "replace": 15,
     "rebuild": 7
   },
   "plans": [
+    {
+      "type": "broken_download",
+      "slug": "glow",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "ime",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
+      "action": "replace",
+      "autoFixable": false
+    },
     {
       "type": "broken_download",
       "slug": "infuseplus",
@@ -59,7 +83,31 @@
     },
     {
       "type": "broken_download",
+      "slug": "ryukgram",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
       "slug": "sparkle",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "swiftgram",
       "severity": "high",
       "detail": "HTTP 404",
       "transient": false,
@@ -90,6 +138,54 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "turrit-mxgram",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "youmod",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "youpro",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "ytlite",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
       "action": "replace",
       "autoFixable": false
     },
