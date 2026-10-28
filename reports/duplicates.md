@@ -9,19 +9,17 @@ and every deletion here must go through `src/omnisource/site.py` first.
 
 ## Summary
 
-- Byte-identical generated JSON groups: **286**
+- Byte-identical generated JSON groups: **285**
 - Identical-function clones across `src/` + `scripts/`: **4**
-- Compressed `.gz` mirror files committed: **300** (1026 KiB)
+- Compressed `.gz` mirror files committed: **300** (1021 KiB)
 
 ## Byte-identical JSON mirror groups
 
 | Group | Copies | Role |
 | --- | --- | --- |
-| `feeds/discovery.json` | 5 | mirrors: `api/catalog.json`, `api/discovery.json`, `api/v2/apps.json`, `web/src/data/discovery.json` |
+| `feeds/discovery.json` | 4 | mirrors: `api/catalog.json`, `api/discovery.json`, `api/v2/apps.json` |
 | `feeds/apps.json` | 3 | mirrors: `api/apps.json`, `apps.json` |
 | `feeds/related.json` | 3 | mirrors: `api/related.json`, `api/v2/recommendations.json` |
-| `feeds/screenshots.json` | 3 | mirrors: `api/screenshots.json`, `web/src/data/screenshots.json` |
-| `feeds/search-index.json` | 3 | mirrors: `api/search-index.json`, `web/src/data/search-index.json` |
 | `feeds/sources.json` | 3 | mirrors: `api/sources.json`, `api/v2/sources.json` |
 | `feeds/status.json` | 3 | mirrors: `api/status.json`, `api/v2/status.json` |
 | `feeds/trending.json` | 3 | mirrors: `api/trending.json`, `api/v2/trending.json` |
@@ -38,6 +36,8 @@ and every deletion here must go through `src/omnisource/site.py` first.
 | `feeds/install.json` | 2 | mirrors: `api/install.json` |
 | `feeds/integrity_report.json` | 2 | mirrors: `api/integrity_report.json` |
 | `feeds/reputation.json` | 2 | mirrors: `api/reputation.json` |
+| `feeds/screenshots.json` | 2 | mirrors: `api/screenshots.json` |
+| `feeds/search-index.json` | 2 | mirrors: `api/search-index.json` |
 | `feeds/translation-status.json` | 2 | mirrors: `api/translation-status.json` |
 | `feeds/transparency.json` | 2 | mirrors: `api/transparency.json` |
 | `feeds/updates.json` | 2 | mirrors: `api/updates.json` |
@@ -301,7 +301,6 @@ and every deletion here must go through `src/omnisource/site.py` first.
 | `feeds/api/v2/featured.json` | 2 | mirrors: `api/v2/featured.json` |
 | `feeds/api/v2/manifest.json` | 2 | mirrors: `api/v2/manifest.json` |
 | `feeds/api/v2/updates.json` | 2 | mirrors: `api/v2/updates.json` |
-| `api/v3/apps.json` | 2 | mirrors: `web/public/data/v3/apps.json` |
 | `data/security.json` | 2 | mirrors: `security-report.json` |
 
 **Disposition:** the `feeds/` file is the source of truth; `apps.json`, `api/*` and
@@ -318,6 +317,6 @@ fails CI if any copy ever drifts, so mirrors can never diverge silently.
 
 ## Compression mirrors
 
-- 300 `.gz` files contribute 1026 KiB to the checkout.
+- 300 `.gz` files contribute 1021 KiB to the checkout.
 - `.br` twins are only written when the optional `brotli` package is installed at build time (CI opt-in).
 - Recommendation: keep; the mirrors are smaller than the savings they provide to clients, and GitHub Pages serves them with `Content-Encoding` for gzip-capable consumers.

@@ -35,7 +35,7 @@
 
 <!-- omnisource:stats:start -->
 
-**128** apps · **111** upstream sources · **98** official-source checks passed · **10** community-source checks passed · **108/128** downloads last seen reachable · last sync **2026-10-25**.
+**128** apps · **111** upstream sources · **105** official-source checks passed · **11** community-source checks passed · **116/128** downloads last seen reachable · last sync **2026-10-28**.
 
 <!-- omnisource:stats:end -->
 

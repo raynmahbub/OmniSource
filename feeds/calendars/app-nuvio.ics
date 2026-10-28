@@ -162,46 +162,4 @@ DESCRIPTION:Nuvio 0.5.9 | nuvio-0.5.9-full-release\n\n- 1bb2b10e feat(serve
  ub.com/NuvioMedia/NuvioMobile/pull/2204) @TanvirSdq
 URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
 END:VEVENT
-BEGIN:VEVENT
-UID:nuvio-0.5.8@omnisource
-DTSTAMP:20261008T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Nuvio v0.5.8
-DESCRIPTION:Nuvio 0.5.8 | nuvio-0.5.8-full-release\n\n- [i18n: Add Croatian
-  (hr) translation (#2169)](https://github.com/NuvioMedia/NuvioMobile/pull/
- 2169) @Anarchydr  \n- [feat(mdblist): sort library lists by release date (
- #2196)](https://github.com/NuvioMedia/NuvioMobile/pull/2196) @kernexshadow
-   \n- [Reset next episode preload flag on episode transition (#2193)](http
- s://github.com/NuvioMedia/NuvioMobile/pull/2193) @skoruppa  \n- [fix(UI): 
- fix hero content shifting on horizontal and tablet layouts (#2190)](https:
- //github.com/NuvioMedia/NuvioMobile/pull/2190) @ThEgIGN  \n- [feat(servers
- ): add experimental Jellyfin and Emby support (#2081)](https://github.com/
- NuvioMedia/NuvioMobile/pull/2081) @tapframe  \n- [fix(streams): play strea
- ms that only have a ytId (#2115)](https://github.com/NuvioMedia/NuvioMobil
- e/pull/2115) @deejay189393
-URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
-END:VEVENT
-BEGIN:VEVENT
-UID:nuvio-0.5.7@omnisource
-DTSTAMP:20261006T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Nuvio v0.5.7
-DESCRIPTION:Nuvio 0.5.7 | nuvio-0.5.7-full-release\n\n- c2127769 fix(p2p): 
- correct torrent cache path and usage @tapframe  \n- [feat(player): add Exo
- Player native memory\, VOD cache\, and buffer setting (#2178)](https://git
- hub.com/NuvioMedia/NuvioMobile/pull/2178) @halibiram  \n- e22baece feat(de
- tails): add letterbox zoom to hero trailer @tapframe  \n- [feat(mdblist): 
- choose which lists appear in the library (#2171)](https://github.com/Nuvio
- Media/NuvioMobile/pull/2171) @kernexshadow  \n- 53ac5e53 fix(player): foll
- ow system brightness when touch gestures are off @tapframe  \n- 459add64 f
- eat(streams): match tv refresh spin in streams and player panels @tapframe
-   \n- d3786272 feat(player): add switch player and stream info actions @ta
- pframe  \n- 909dd7dc feat(streams): spin refresh button until addons finis
- h loading @tapframe  \n- [fix custom poster pattern URL validation and dec
- oding (#2153)](https://github.com/NuvioMedia/NuvioMobile/pull/2153) @skoru
- ppa
-URL:https://raynmahbub.github.io/OmniSource/feeds/nuvio.json
-END:VEVENT
 END:VCALENDAR

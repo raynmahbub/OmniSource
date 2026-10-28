@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "count": 128,
   "baseURL": "https://raynmahbub.github.io/OmniSource",
   "apps": [
@@ -130,10 +130,10 @@
     {
       "id": "ytlite",
       "slug": "ytlite",
-      "name": "YouTubePlus",
+      "name": "YouTube Plus",
       "developer": "dayanch96",
-      "version": "21.42.4",
-      "releaseDate": "2026-10-22",
+      "version": "21.43.5",
+      "releaseDate": "2026-10-27",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -145,27 +145,27 @@
       "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
       "bundleId": "com.google.ios.youtube",
       "bundleIdentifier": "com.google.ios.youtube",
-      "description": "YouTubePlus (formerly YTLite) is a lightweight enhancer for YouTube developed by Dayanch96. It provides complete ad blocking, background playback, offline video and audio downloads, Picture-in-Picture (PiP), SponsorBlock integration, gesture controls, and customizable interface settings.",
+      "description": "YouTube Plus (formerly YTLite) is a YouTube enhancer developed by dayanch96. This ready-to-sideload IPA is packaged by mrdrvt99/YouProEXTRA and offers features such as ad blocking, background playback, downloads, Picture-in-Picture and customizable controls. Features and compatibility can vary by release.",
       "shortDescription": "Lightweight YouTube tweak with no ads and PiP",
       "icon": "YouTube.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/ytlite/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/ytlite.json",
       "homepage": "https://github.com/Dayanch96/YTLite",
-      "status": "stable",
+      "status": "beta",
       "featured": true,
-      "size": 149834006,
-      "downloads": 9067,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
-      "sha256": "2a97b8210b6479cb0cfbe08fa7f1782eae4ad3d9a42c40c642e2de487ceaa0f6",
-      "minOSVersion": "16.0",
+      "size": 150260037,
+      "downloads": 7307,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
+      "sha256": "9dda50a09f21b999d036dd00d5e128211b79a3576b1bf1617a00f51fa37fd911",
+      "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-22"
+        "detail": "HTTP 302",
+        "updatedAt": "2026-10-27"
       }
     },
     {
@@ -173,8 +173,8 @@
       "slug": "youpro",
       "name": "YouPro",
       "developer": "alibusut",
-      "version": "21.42.4",
-      "releaseDate": "2026-10-22",
+      "version": "21.43.5",
+      "releaseDate": "2026-10-27",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -186,7 +186,7 @@
       "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
       "bundleId": "com.google.ios.youtube",
       "bundleIdentifier": "com.google.ios.youtube",
-      "description": "YouPro is an advanced YouTube modification tweak developed by alibusut. It features background playback, ad-free streaming, inline download capabilities, OLED true dark theme, SponsorBlock, and enhanced media playback controls.",
+      "description": "YouPro is a YouTube modification tweak developed by alibusut. This community-distributed YouProEXTRA build includes additional player tweaks and controls. Features and bundled tweaks vary by release; the current publisher notes that downloads may work only partially and standalone iSponsorBlock is not included.",
       "shortDescription": "Feature-rich YouTube tweak by alibusut",
       "icon": "YouTube.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
@@ -195,18 +195,18 @@
       "homepage": "https://github.com/mrdrvt99/YouProEXTRA",
       "status": "stable",
       "featured": true,
-      "size": 131280986,
-      "downloads": 455,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
-      "sha256": "eea4b9e20d92b8ec7a297ebba3d6528039c7c4c21d1484d0dcc5b4ef1293e92f",
-      "minOSVersion": "16.0",
+      "size": 131707413,
+      "downloads": 324,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.43.5_1.3.1.ipa",
+      "sha256": "9cc1220f35811424dd253dc9ce6005cb154c03fb503be3d53faf6886e2f53bf2",
+      "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-22"
+        "detail": "HTTP 302",
+        "updatedAt": "2026-10-27"
       }
     },
     {
@@ -286,8 +286,8 @@
       "publisher": "itzzace/ytkace",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-25"
       }
     },
@@ -296,8 +296,8 @@
       "slug": "youmod",
       "name": "YouMod",
       "developer": "Tonwalter888",
-      "version": "21.42.4",
-      "releaseDate": "2026-10-22",
+      "version": "21.43.5",
+      "releaseDate": "2026-10-27",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -309,8 +309,8 @@
       "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
       "bundleId": "com.google.ios.youtube",
       "bundleIdentifier": "com.google.ios.youtube",
-      "description": "YouMod is OmniSource's featured YouTube 21.37.4 extra-tweaks IPA. It is the YouProEXTRA YouMod 2.0.0 line on YouTube 21.37.4 with the extra player stack that release publishes: YouPip (Picture-in-Picture), YouQuality and YouChooseQuality, YTHoldForSpeed, YouGetCaption, YTABConfig, YTNativeShare, YTweaks, Return YouTube Dislike, DontEatMyContent, Gonerino, VolumeBoostYT and PleaseDontStopTheMusic. 120 Hz display refresh is used when the device supports it. Native 4K is available on A16+ devices; YTUHD is not bundled on this YouTube version. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time. YTLite, YTKACE and YouMod are competing main tweaks; stacking all three in one IPA is unstable, so this listing follows the extra-tweaks YouMod 21.37.4 release.",
-      "shortDescription": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
+      "description": "YouMod is a YouTube tweak by Tonwalter888. This community-distributed YouProEXTRA IPA includes YouMod and additional player tweaks, such as picture-in-picture and quality controls. The distributor warns that bundled tweaks may be unstable on newer YouTube versions; see the release notes for the current features. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time.",
+      "shortDescription": "YouMod with extra YouTube tweaks",
       "icon": "YouTube.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/youmod/",
@@ -318,18 +318,18 @@
       "homepage": "https://github.com/Tonwalter888/YouMod",
       "status": "stable",
       "featured": true,
-      "size": 131398144,
-      "downloads": 239,
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
-      "sha256": "57e93f6805c56fcc8b1c43f0a421475959061ff5df7b0fe7ffa36d0b1c9bf549",
+      "size": 131824994,
+      "downloads": 22,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
+      "sha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
       "minOSVersion": "17.0",
       "verificationMethod": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
       "checksumPublished": false,
       "health": {
         "reachable": true,
-        "detail": "HTTP 200",
-        "updatedAt": "2026-10-22"
+        "detail": "HTTP 302",
+        "updatedAt": "2026-10-27"
       }
     },
     {
@@ -501,8 +501,8 @@
       "slug": "inkillerplus",
       "name": "iNKillerPlus",
       "developer": "iKarwan",
-      "version": "451.0.0",
-      "releaseDate": "2026-10-14",
+      "version": "452.0.1",
+      "releaseDate": "2026-10-22",
       "category": "social",
       "categories": [
         "social"
@@ -523,9 +523,9 @@
       "homepage": "https://github.com/iKarwan/iNKillerPlus",
       "status": "stable",
       "featured": false,
-      "size": 265550574,
+      "size": 273276588,
       "downloads": 0,
-      "downloadURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
+      "downloadURL": "https://ikghd.site/ipa/Instagram_452.0_iNKillerPlus_5.3.ipa",
       "sha256": null,
       "minOSVersion": "16.3",
       "verificationMethod": "altstore",
@@ -533,8 +533,8 @@
       "checksumPublished": false,
       "health": {
         "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-10-14"
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-22"
       }
     },
     {
@@ -542,8 +542,8 @@
       "slug": "ttkillerplus",
       "name": "TTKillerPlus",
       "developer": "iKarwan",
-      "version": "47.1.0",
-      "releaseDate": "2026-10-08",
+      "version": "47.4.0",
+      "releaseDate": "2026-10-22",
       "category": "social",
       "categories": [
         "social"
@@ -564,9 +564,9 @@
       "homepage": "https://github.com/iKarwan/TTKillerPlus",
       "status": "stable",
       "featured": false,
-      "size": 476223966,
+      "size": 489770030,
       "downloads": 0,
-      "downloadURL": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
+      "downloadURL": "https://ikghd.site/ipa/TikTok_47.4_TTKillerPlus_2.3.ipa",
       "sha256": null,
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
@@ -574,8 +574,8 @@
       "checksumPublished": false,
       "health": {
         "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-10-08"
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-22"
       }
     },
     {
@@ -1352,8 +1352,8 @@
       "publisher": "saber-notes/saber",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-24"
       }
     },
@@ -1434,8 +1434,8 @@
       "publisher": "Apollo-Reborn/Apollo-Reborn",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-25"
       }
     },
@@ -1844,8 +1844,8 @@
       "publisher": "gunnerkidBT/TwitchAdBlock",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-24"
       }
     },
@@ -1885,8 +1885,8 @@
       "publisher": "NeoFreeBird/app",
       "checksumPublished": true,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-16"
       }
     },
@@ -2008,8 +2008,8 @@
       "publisher": "RyanYuuki/AnymeX",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-25"
       }
     },
@@ -2100,8 +2100,8 @@
       "slug": "infuseplus",
       "name": "Infuse Plus",
       "developer": "dayanch96 & IPA Vault",
-      "version": "8.5.8",
-      "releaseDate": "2026-10-16",
+      "version": "8.5.9",
+      "releaseDate": "2026-10-26",
       "category": "photo-video",
       "categories": [
         "photo-video"
@@ -2110,7 +2110,7 @@
         "photo-video"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.firecore.infuse",
       "bundleIdentifier": "com.firecore.infuse",
       "description": "Infuse Plus (by Dayanch96) enhances the Infuse video player with extra appearance options, app icon choices and playback quality-of-life improvements on top of the stock Infuse 8 app. The build follows the latest Infuse release.",
@@ -2122,9 +2122,9 @@
       "homepage": "https://github.com/dayanch96/InfusePlus",
       "status": "stable",
       "featured": false,
-      "size": 99469134,
+      "size": 99818620,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
       "sha256": null,
       "minOSVersion": "18.0",
       "verificationMethod": "altstore",
@@ -2132,8 +2132,8 @@
       "checksumPublished": false,
       "health": {
         "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-10-16"
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-26"
       }
     },
     {
@@ -2151,7 +2151,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.facebook.Facebook.glow",
       "bundleIdentifier": "com.facebook.Facebook.glow",
       "description": "Glow is a simple, clean and powerful tweak for Facebook by Dayanch96: it removes ads and sponsored content, adds video downloads, unlocks media quality options and hides unwanted UI elements on top of the official Facebook app.",
@@ -2172,8 +2172,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-09-05"
       }
     },
@@ -2182,8 +2182,8 @@
       "slug": "swiftgram",
       "name": "Swiftgram",
       "developer": "Swiftgram & IPA Vault",
-      "version": "13.0",
-      "releaseDate": "2026-10-13",
+      "version": "13.1.1",
+      "releaseDate": "2026-10-26",
       "category": "social",
       "categories": [
         "social"
@@ -2192,7 +2192,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "app.swiftgram.ios.mxgram",
       "bundleIdentifier": "app.swiftgram.ios.mxgram",
       "description": "Swiftgram is a supercharged, open-source Telegram fork: ghost mode, hide read receipts and online status, save protected media, unlimited account switching and deep interface customization. The project officially ships through the App Store and TestFlight; this entry serves a ready-to-sideload IPA build (Swiftgram base with the MxGram tweak).",
@@ -2204,9 +2204,9 @@
       "homepage": "https://github.com/Swiftgram/Telegram-iOS",
       "status": "stable",
       "featured": false,
-      "size": 97568937,
+      "size": 86204831,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.1.1-TF-MxGram.ipa",
       "sha256": null,
       "minOSVersion": "13.0",
       "verificationMethod": "altstore",
@@ -2215,7 +2215,7 @@
       "health": {
         "reachable": false,
         "detail": "not checked for this download",
-        "updatedAt": "2026-10-13"
+        "updatedAt": "2026-10-26"
       }
     },
     {
@@ -2233,7 +2233,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "ph.telegra.Telegraph.mxgram",
       "bundleIdentifier": "ph.telegra.Telegraph.mxgram",
       "description": "MxGram injects the MxGram tweak into the official Telegram app: ghost mode with per-user exceptions, anti-revoke and anti-edit, saving of protected media, fake GPS, download boost and more, localized in 10 languages.",
@@ -2254,8 +2254,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-23"
       }
     },
@@ -2274,7 +2274,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.facebook.Facebook",
       "bundleIdentifier": "com.facebook.Facebook",
       "description": "iQFace is a tweaked Facebook build with the iQFace tweak by 7MD, one of the Facebook modifications distributed ready-to-sideload through the IPA Vault source. Feature set is defined by the iQFace tweak.",
@@ -2295,8 +2295,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-23"
       }
     },
@@ -2305,8 +2305,8 @@
       "slug": "ryukgram",
       "name": "RyukGram",
       "developer": "faroukbmiled & IPA Vault",
-      "version": "452.0.0",
-      "releaseDate": "2026-10-23",
+      "version": "453.0.0",
+      "releaseDate": "2026-10-26",
       "category": "social",
       "categories": [
         "social"
@@ -2315,7 +2315,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.burbn.instagram",
       "bundleIdentifier": "com.burbn.instagram",
       "description": "RyukGram - the Instagram tweak for iOS power users by faroukbmiled - adds media saving, ghost mode, feed cleaning, download buttons and deep customization on top of the official Instagram app.",
@@ -2327,9 +2327,9 @@
       "homepage": "https://github.com/faroukbmiled/RyukGram",
       "status": "stable",
       "featured": false,
-      "size": 353948142,
+      "size": 359508400,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-RyukGram.ipa",
       "sha256": null,
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
@@ -2338,7 +2338,7 @@
       "health": {
         "reachable": false,
         "detail": "not checked for this download",
-        "updatedAt": "2026-10-23"
+        "updatedAt": "2026-10-26"
       }
     },
     {
@@ -2346,8 +2346,8 @@
       "slug": "sparkle",
       "name": "Sparkle",
       "developer": "efibalogh & IPA Vault",
-      "version": "452.0.0",
-      "releaseDate": "2026-10-19",
+      "version": "453.0.0",
+      "releaseDate": "2026-10-26",
       "category": "social",
       "categories": [
         "social"
@@ -2356,7 +2356,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.burbn.instagram.sparkle",
       "bundleIdentifier": "com.burbn.instagram.sparkle",
       "description": "Sparkle (by efibalogh) brings the spark back to Instagram: downloads for reels and stories, ghost mode, ad hiding, restored classic behaviours and UI customization on top of the official Instagram app.",
@@ -2368,9 +2368,9 @@
       "homepage": "https://github.com/efibalogh/sparkle-ig",
       "status": "stable",
       "featured": false,
-      "size": 346554923,
+      "size": 351776283,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
       "sha256": null,
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
@@ -2378,8 +2378,8 @@
       "checksumPublished": false,
       "health": {
         "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-10-19"
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-26"
       }
     },
     {
@@ -2428,8 +2428,8 @@
       "slug": "nexasc",
       "name": "NexaSC",
       "developer": "cielogic & IPA Vault",
-      "version": "8.83.0",
-      "releaseDate": "2026-10-19",
+      "version": "8.83.1",
+      "releaseDate": "2026-10-25",
       "category": "social",
       "categories": [
         "social"
@@ -2438,7 +2438,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.soundcloud.TouchApp",
       "bundleIdentifier": "com.soundcloud.TouchApp",
       "description": "NexaSC is a community SoundCloud tweak by cielogic: it unlocks SoundCloud Go+ features, removes ads, adds track downloads and can fetch lyrics automatically (via LRCLIB). The tweak is opened by long-pressing the home icon.",
@@ -2450,9 +2450,9 @@
       "homepage": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
       "status": "beta",
       "featured": false,
-      "size": 227377895,
+      "size": 227742189,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.1-NexaSC.ipa",
       "sha256": null,
       "minOSVersion": "16.4",
       "verificationMethod": "altstore",
@@ -2460,15 +2460,15 @@
       "checksumPublished": false,
       "health": {
         "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-10-19"
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-25"
       }
     },
     {
       "id": "messenger-flow",
       "slug": "messenger-flow",
       "name": "Messenger Flow",
-      "developer": "dvntms & IPA Vault",
+      "developer": "dayanch96 & IPA Vault",
       "version": "584.0.0",
       "releaseDate": "2026-10-17",
       "category": "social",
@@ -2479,16 +2479,16 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.facebook.Messenger.flow",
       "bundleIdentifier": "com.facebook.Messenger.flow",
-      "description": "Messenger Flow is a tweaked Facebook Messenger build by dvntms, distributed ready-to-sideload through the IPA Vault on a current Messenger base version. The Flow tweak's feature set is defined by its build; no official public documentation exists.",
-      "shortDescription": "Facebook Messenger tweak by dvntms (unofficial build)",
+      "description": "Messenger Flow is a Facebook Messenger tweak developed by dayanch96. This listing tracks a community-built, ready-to-sideload IPA from IPA Vault, not an official developer IPA. See the upstream project for its feature documentation and the download status for the last known build.",
+      "shortDescription": "Facebook Messenger tweak by dayanch96 (unofficial build)",
       "icon": "Messenger.webp",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
       "pageURL": "https://raynmahbub.github.io/OmniSource/apps/messenger-flow/",
       "feedURL": "https://raynmahbub.github.io/OmniSource/messenger-flow.json",
-      "homepage": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
+      "homepage": "https://github.com/dayanch96/Flow",
       "status": "stable",
       "featured": false,
       "size": 125027873,
@@ -2520,7 +2520,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.facebook.Messenger",
       "bundleIdentifier": "com.facebook.Messenger",
       "description": "MSGPlusX is a tweaked Facebook Messenger build (MessengerPlus lineage by Dens0r and lucaspedrosa), distributed ready-to-sideload through the IPA Vault on a current Messenger base version. The tweak's feature set is defined by its build; no official public documentation exists.",
@@ -2551,8 +2551,8 @@
       "slug": "threadsaver",
       "name": "ThreadSaver",
       "developer": "swiftleopard & IPA Vault",
-      "version": "452.1",
-      "releaseDate": "2026-10-20",
+      "version": "453.0",
+      "releaseDate": "2026-10-26",
       "category": "social",
       "categories": [
         "social"
@@ -2561,7 +2561,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.burbn.barcelona",
       "bundleIdentifier": "com.burbn.barcelona",
       "description": "ThreadSaver (by swiftleopard) is a tweaked Threads build distributed ready-to-sideload through the IPA Vault on a current Threads base version. The tweak's feature set is defined by its build; no official public documentation exists.",
@@ -2573,9 +2573,9 @@
       "homepage": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
       "status": "stable",
       "featured": false,
-      "size": 113844763,
+      "size": 230659970,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-453.0-ThreadSaver.ipa",
       "sha256": null,
       "minOSVersion": "15.1",
       "verificationMethod": "altstore",
@@ -2583,8 +2583,8 @@
       "checksumPublished": false,
       "health": {
         "reachable": false,
-        "detail": "HTTP 404",
-        "updatedAt": "2026-10-20"
+        "detail": "not checked for this download",
+        "updatedAt": "2026-10-26"
       }
     },
     {
@@ -2602,7 +2602,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.olcorporation.olai.mxgram",
       "bundleIdentifier": "com.olcorporation.olai.mxgram",
       "description": "iMe MxGram is the third-party iMe messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the iMe Telegram client.",
@@ -2623,8 +2623,8 @@
       "publisher": "927tx/IPA-Vault",
       "checksumPublished": false,
       "health": {
-        "reachable": true,
-        "detail": "HTTP 200",
+        "reachable": false,
+        "detail": "HTTP 404",
         "updatedAt": "2026-09-01"
       }
     },
@@ -2633,8 +2633,8 @@
       "slug": "turrit-mxgram",
       "name": "Turrit MxGram",
       "developer": "m1ronx1412 & IPA Vault",
-      "version": "1.5.6",
-      "releaseDate": "2026-10-17",
+      "version": "1.5.7",
+      "releaseDate": "2026-10-26",
       "category": "social",
       "categories": [
         "social"
@@ -2643,7 +2643,7 @@
         "social"
       ],
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "bundleId": "com.seastar.turrit.mxgram",
       "bundleIdentifier": "com.seastar.turrit.mxgram",
       "description": "Turrit MxGram is the third-party Turrit messenger with the MxGram tweak (by m1ronx1412) injected: ghost mode with per-user exceptions, anti-revoke, saving of protected media and more, on top of the Turrit Telegram client.",
@@ -2655,9 +2655,9 @@
       "homepage": "https://github.com/m1ronx1412/mxgram",
       "status": "stable",
       "featured": false,
-      "size": 107518899,
+      "size": 102828333,
       "downloads": 0,
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-TF-MxGram.ipa",
       "sha256": null,
       "minOSVersion": "13.0",
       "verificationMethod": "altstore",
@@ -2666,7 +2666,7 @@
       "health": {
         "reachable": false,
         "detail": "not checked for this download",
-        "updatedAt": "2026-10-17"
+        "updatedAt": "2026-10-26"
       }
     },
     {
@@ -2828,8 +2828,8 @@
       "publisher": "roothide/Dopamine-roothide",
       "checksumPublished": true,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-10-24"
       }
     },
@@ -3484,8 +3484,8 @@
       "publisher": "lotusprey/otraku",
       "checksumPublished": true,
       "health": {
-        "reachable": false,
-        "detail": "not checked for this download",
+        "reachable": true,
+        "detail": "HTTP 200",
         "updatedAt": "2026-09-22"
       }
     },

@@ -82,6 +82,11 @@ class ScrollPinRuntimeTests(JsHarnessTests):
         self.run_harness("scroll_pin.cjs", 9)
 
 
+class DownloadHealthRuntimeTests(JsHarnessTests):
+    def test_url_bound_download_warnings_and_missing_permissions(self) -> None:
+        self.run_harness("download_health.cjs", 5)
+
+
 class DeviceMigrationRuntimeTests(JsHarnessTests):
     def test_local_device_and_source_migration(self) -> None:
         self.run_harness("device_migration.cjs", 11)

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "5267f10e9403",
   "data": {
     "name": "Sparkle",
     "bundleIdentifier": "com.burbn.instagram.sparkle",
@@ -11,18 +11,18 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Instagram.webp",
     "tintColor": "E1306C",
     "category": "social",
-    "version": "452.0.0",
-    "versionDate": "2026-10-19",
-    "versionDescription": "Instagram 452.0.0 | Instagram-452.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 452.0.0",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
-    "size": 346554923,
+    "version": "453.0.0",
+    "versionDate": "2026-10-26",
+    "versionDescription": "Instagram 453.0.0 | Instagram-453.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 453.0.0",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
+    "size": 351776283,
     "versions": [
       {
-        "version": "452.0.0",
-        "date": "2026-10-19",
-        "localizedDescription": "Instagram 452.0.0 | Instagram-452.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 452.0.0",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
-        "size": 346554923,
+        "version": "453.0.0",
+        "date": "2026-10-26",
+        "localizedDescription": "Instagram 453.0.0 | Instagram-453.0.0-Sparkle\n\nIPA Vault build for Instagram (Sparkle), version 453.0.0",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
+        "size": 351776283,
         "minOSVersion": "15.1",
         "releaseUrl": null,
         "source": "altstore",
@@ -30,12 +30,12 @@
         "isDraft": false,
         "assets": [
           {
-            "filename": "Instagram-452.0.0-Sparkle.ipa",
-            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
+            "filename": "Instagram-453.0.0-Sparkle.ipa",
+            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 346554923,
+            "size": 351776283,
             "sha256": null,
             "downloads": 0,
             "mimeType": null,
@@ -62,37 +62,12 @@
       "ksign",
       "livecontainer"
     ],
-    "appPermissions": {
-      "entitlements": [
-        "com.apple.security.application-groups",
-        "com.apple.developer.associated-domains",
-        "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-        "com.apple.developer.declared-age-range",
-        "com.apple.developer.storekit.request-data",
-        "com.apple.developer.device-information.user-assigned-device-name",
-        "com.apple.developer.group-session",
-        "keychain-access-groups",
-        "com.apple.developer.networking.multicast",
-        "aps-environment",
-        "com.apple.developer.siri",
-        "com.apple.developer.networking.wifi-info"
-      ],
-      "privacy": {
-        "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-        "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-        "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-        "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-        "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-        "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-        "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-      }
-    },
     "omnisource": {
       "slug": "sparkle",
       "status": "stable",
       "featured": false,
       "upstreamURL": "https://github.com/efibalogh/sparkle-ig",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "verification": {
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
@@ -119,12 +94,12 @@
         "notes": "Official project: efibalogh/sparkle-ig (publishes .deb assets); this source serves the ready-to-sideload IPA build from the IPA Vault. Instagram 445.x builds require iOS 15.1 or newer. Uses its own bundle identifier (com.burbn.instagram.sparkle) - installs alongside the stock app."
       },
       "health": {
-        "downloadReachable": false,
-        "detail": "HTTP 404",
-        "statusSince": "2026-10-27",
-        "lastCheckedAt": "2026-10-27T19:51:41Z",
-        "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
-        "lastUpdatedAt": "2026-10-19"
+        "downloadReachable": null,
+        "detail": "not checked for this download",
+        "statusSince": "",
+        "lastCheckedAt": "",
+        "checkedURL": "",
+        "lastUpdatedAt": "2026-10-26"
       }
     },
     "id": "com.burbn.instagram.sparkle"

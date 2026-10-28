@@ -21,14 +21,14 @@
       "category": "social",
       "version": "577.1",
       "versionDate": "2026-09-05",
-      "versionDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected into Facebook 577.1.",
+      "versionDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nCommunity-distributed Glow build; injected tweak version is unverified.",
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
       "size": 226667533,
       "versions": [
         {
           "version": "577.1",
           "date": "2026-09-05",
-          "localizedDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nGlow v1.4.4 injected into Facebook 577.1.",
+          "localizedDescription": "Facebook 577.1 | Facebook-577.1-Glow\n\nCommunity-distributed Glow build; injected tweak version is unverified.",
           "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
           "size": 226667533,
           "sha256": "f140c6a468acd184581af32ca2d5be25cbe7f0900b326987e7a8eae053ae72da",
@@ -55,37 +55,12 @@
         "ksign",
         "livecontainer"
       ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.declared-age-range",
-          "com.apple.developer.storekit.request-data",
-          "com.apple.developer.device-information.user-assigned-device-name",
-          "com.apple.developer.group-session",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.siri",
-          "com.apple.developer.networking.wifi-info"
-        ],
-        "privacy": {
-          "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-          "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-          "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-          "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-          "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-          "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-          "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-        }
-      },
       "omnisource": {
         "slug": "glow",
         "status": "stable",
         "featured": false,
         "upstreamURL": "https://github.com/dayanch96/Glow",
-        "sourceURL": "https://raw.githubusercontent.com",
+        "sourceURL": "https://github.com/927tx/IPA-Vault",
         "verification": {
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
@@ -112,10 +87,10 @@
           "notes": "Tracks the ready-to-sideload Glow build from the IPA Vault source (the official dayanch96/Glow repo publishes the tweak as .deb only). Facebook 577.x builds require iOS 15.1 or newer. Uses its own bundle identifier, so it installs alongside the stock App Store Facebook."
         },
         "health": {
-          "downloadReachable": true,
-          "detail": "HTTP 200",
-          "statusSince": "2026-09-05",
-          "lastCheckedAt": "2026-10-21",
+          "downloadReachable": false,
+          "detail": "HTTP 404",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T23:33:14Z",
           "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
           "lastUpdatedAt": "2026-09-05"
         }

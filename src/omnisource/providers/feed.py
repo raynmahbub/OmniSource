@@ -24,7 +24,7 @@ from omnisource.domain import (
 )
 from omnisource.errors import ProviderError
 from omnisource.http import HttpClient, is_http_url
-from omnisource.providers.base import SourceProvider
+from omnisource.providers.base import INCREMENTAL_UNCHANGED, SourceProvider
 from omnisource.screenshots import _download_github_raw_via_api, _github_contents_location
 from omnisource.utils.assets import detect_asset_metadata
 from omnisource.utils.versioning import compare_versions
@@ -299,6 +299,13 @@ class GenericFeedProvider(SourceProvider):
             ]
             if not target and not source.app_id and len(apps) == 1:
                 target = apps
+            if not target and source.app_id and previous_latest_url:
+                # An empty result also means "unchanged" to the incremental
+                # pipeline. A missing tracked app is not an incremental hit:
+                # surface it so the last cached version is retained with an
+                # error instead of silently looking healthy or reverting to a
+                # potentially older manual fallback. Mirrors can still be tried.
+                raise ProviderError(f"feed no longer contains tracked app {selector!r}")
         releases: list[RemoteRelease] = []
         for app in target:
             # appId can select by name rather than bundle ID. Do not publish a
@@ -312,6 +319,8 @@ class GenericFeedProvider(SourceProvider):
                     f"catalog expects {source.expected_bundle_id!r}"
                 )
             releases.extend(replace(release, source=self.source_type.value) for release in _releases_from_app(app))
+        if target and not releases and previous_latest_url:
+            raise ProviderError(f"feed app {selector or 'source'!r} has no usable releases")
 
         def release_order(left: RemoteRelease, right: RemoteRelease) -> int:
             version_order = compare_versions(left.tag, right.tag)
@@ -323,7 +332,7 @@ class GenericFeedProvider(SourceProvider):
         if incremental and previous_latest_url and releases:
             newest = releases[0].assets[0].download_url if releases[0].assets else None
             if newest == previous_latest_url:
-                return []
+                return INCREMENTAL_UNCHANGED
         return releases
 
 

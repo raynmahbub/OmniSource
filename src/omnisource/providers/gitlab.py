@@ -7,6 +7,7 @@ asset links, per-repo caching, and the incremental page-1 fast path.
 
 from __future__ import annotations
 
+import re
 import threading
 import urllib.parse
 
@@ -22,7 +23,7 @@ from omnisource.domain import (
 from omnisource.errors import ProviderError
 from omnisource.http import HttpClient
 from omnisource.logutil import log
-from omnisource.providers.base import SourceProvider
+from omnisource.providers.base import INCREMENTAL_UNCHANGED, SourceProvider
 from omnisource.tracking import pick_asset, release_is_eligible
 from omnisource.utils.assets import detect_asset_metadata
 
@@ -86,7 +87,7 @@ class GitLabReleasesProvider(SourceProvider):
 
     def __init__(self, http: HttpClient) -> None:
         self.http = http
-        self._cache: dict[tuple[str, int], list[RemoteRelease]] = {}
+        self._cache: dict[tuple[str, str, int], list[RemoteRelease]] = {}
         self._incremental_hits: set[tuple[object, ...]] = set()
         self._cache_lock = threading.Lock()
         self.requests = 0
@@ -173,12 +174,14 @@ class GitLabReleasesProvider(SourceProvider):
         previous_latest_url: str | None = None,
         incremental: bool = False,
     ) -> list[RemoteRelease]:
-        cache_key = (source.repo, source.max_pages)
+        cache_key = (self._host(source), source.repo, source.max_pages)
         policy_key = (
             *cache_key,
             source.tag_prefix,
             source.exclude_tag_prefixes,
             source.asset_suffixes,
+            source.asset_name_pattern,
+            previous_latest_url,
             source.include_prereleases,
             source.include_drafts,
         )
@@ -187,7 +190,7 @@ class GitLabReleasesProvider(SourceProvider):
             if cached is not None:
                 return cached
             if incremental and previous_latest_url and policy_key in self._incremental_hits:
-                return []
+                return INCREMENTAL_UNCHANGED
 
             collected: list[RemoteRelease] = []
             for page in range(1, source.max_pages + 1):
@@ -205,7 +208,7 @@ class GitLabReleasesProvider(SourceProvider):
                 ):
                     log.debug("%s: incremental hit (latest asset unchanged)", source.repo)
                     self._incremental_hits.add(policy_key)
-                    return []
+                    return INCREMENTAL_UNCHANGED
 
                 if len(batch) < 100:
                     break
@@ -217,10 +220,11 @@ class GitLabReleasesProvider(SourceProvider):
 
 
 def _newest_matching_url(releases: list[RemoteRelease], source: RepositoryRef) -> str | None:
+    pattern = re.compile(source.asset_name_pattern) if source.asset_name_pattern else None
     for release in releases:
         if not release_is_eligible(release, source):
             continue
-        asset = pick_asset(release, source.asset_suffixes)
+        asset = pick_asset(release, source.asset_suffixes, pattern)
         if asset and asset.download_url:
             return asset.download_url
     return None

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import shutil
 from datetime import date
 from pathlib import Path
@@ -167,6 +168,21 @@ def _permission_diff(versions: list[dict[str, Any]]) -> str:
     )
 
 
+def _escape_pre_text(text: str) -> str:
+    """Escape release notes without leaving invisible whitespace in page source.
+
+    Markdown publishers sometimes use trailing spaces to indicate a hard line
+    break. Numeric entities preserve those characters in the rendered <pre>
+    while keeping generated HTML clean for ``git diff --check``.
+    """
+    return re.sub(
+        r"[ \t]+$",
+        lambda match: "".join("&#32;" if char == " " else "&#9;" for char in match.group()),
+        html.escape(text),
+        flags=re.MULTILINE,
+    )
+
+
 def _version_rows(versions: list[dict[str, Any]]) -> str:
     if not versions:
         return '<p class="ap-desc">No version history is published yet.</p>'
@@ -193,7 +209,7 @@ def _version_rows(versions: list[dict[str, Any]]) -> str:
         if notes:
             notes_html = (
                 f'<details class="ap-changelog"><summary>Release notes</summary>'
-                f'<pre class="ap-notes">{html.escape(notes[:4000])}</pre></details>'
+                f'<pre class="ap-notes">{_escape_pre_text(notes[:4000])}</pre></details>'
             )
         else:
             notes_html = ""
@@ -663,6 +679,13 @@ def render_app_page(
         '      <div class="ap-install">\n',
         f'        <a class="get-capsule" href="{html.escape(download_url)}" target="_blank" rel="noopener">'
         f'Get · v{version_text}<span class="capsule-size">{size_text}</span></a>\n',
+        (
+            '        <p class="ap-desc" role="status">Last download check failed'
+            + (f" on {html.escape(str(health_item['lastCheckedAt']))}" if health_item.get("lastCheckedAt") else "")
+            + "; this IPA link may not work.</p>\n"
+            if health_item.get("downloadReachable") is False and health_item.get("checkedURL") == download_url
+            else ""
+        ),
         (
             f'        <p class="ap-desc">Large download ({size_text}); consider Wi-Fi or data limits.</p>\n'
             if int(newest.get("size") or 0) >= 200 * 1024 * 1024

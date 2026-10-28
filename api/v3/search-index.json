@@ -1,10 +1,10 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "5267f10e9403",
   "data": {
     "schemaVersion": 2,
-    "generatedAt": "2026-10-27",
+    "generatedAt": "2026-10-28",
     "count": 128,
     "fuse": {
       "keys": [
@@ -171,10 +171,10 @@
       {
         "id": "ytlite",
         "slug": "ytlite",
-        "name": "YouTubePlus",
+        "name": "YouTube Plus",
         "subtitle": "Lightweight YouTube tweak with no ads and PiP",
         "shortDescription": "Lightweight YouTube tweak with no ads and PiP",
-        "description": "YouTubePlus (formerly YTLite) is a lightweight enhancer for YouTube developed by Dayanch96. It provides complete ad blocking, background playback, offline video and audio downloads, Picture-in-Picture (PiP), SponsorBlock integration, gesture controls, and customizable interface settings.",
+        "description": "YouTube Plus (formerly YTLite) is a YouTube enhancer developed by dayanch96. This ready-to-sideload IPA is packaged by mrdrvt99/YouProEXTRA and offers features such as ad blocking, background playback, downloads, Picture-in-Picture and customizable controls. Features and compatibility can vary by release.",
         "category": "photo-video",
         "tags": [
           "photo-video"
@@ -187,17 +187,17 @@
           "no",
           "photo",
           "pip",
+          "plus",
           "tweak",
           "video",
           "with",
-          "youtube",
-          "youtubeplus"
+          "youtube"
         ],
         "developer": "dayanch96",
         "bundleId": "com.google.ios.youtube",
         "icon": "assets/YouTube.webp",
         "pageURL": "apps/ytlite/",
-        "version": "21.42.4",
+        "version": "21.43.5",
         "verificationLevel": "COMMUNITY VERIFIED",
         "downloadReachable": true,
         "clientCompatibility": [
@@ -216,7 +216,7 @@
         "name": "YouPro",
         "subtitle": "Feature-rich YouTube tweak by alibusut",
         "shortDescription": "Feature-rich YouTube tweak by alibusut",
-        "description": "YouPro is an advanced YouTube modification tweak developed by alibusut. It features background playback, ad-free streaming, inline download capabilities, OLED true dark theme, SponsorBlock, and enhanced media playback controls.",
+        "description": "YouPro is a YouTube modification tweak developed by alibusut. This community-distributed YouProEXTRA build includes additional player tweaks and controls. Features and bundled tweaks vary by release; the current publisher notes that downloads may work only partially and standalone iSponsorBlock is not included.",
         "category": "photo-video",
         "tags": [
           "photo-video"
@@ -236,8 +236,8 @@
         "bundleId": "com.google.ios.youtube",
         "icon": "assets/YouTube.webp",
         "pageURL": "apps/youpro/",
-        "version": "21.42.4",
-        "verificationLevel": "VERIFIED",
+        "version": "21.43.5",
+        "verificationLevel": "COMMUNITY VERIFIED",
         "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
@@ -311,8 +311,8 @@
         "icon": "assets/YouTube.webp",
         "pageURL": "apps/ytkace/",
         "version": "21.42.4",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -327,23 +327,20 @@
         "id": "youmod",
         "slug": "youmod",
         "name": "YouMod",
-        "subtitle": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
-        "shortDescription": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
-        "description": "YouMod is OmniSource's featured YouTube 21.37.4 extra-tweaks IPA. It is the YouProEXTRA YouMod 2.0.0 line on YouTube 21.37.4 with the extra player stack that release publishes: YouPip (Picture-in-Picture), YouQuality and YouChooseQuality, YTHoldForSpeed, YouGetCaption, YTABConfig, YTNativeShare, YTweaks, Return YouTube Dislike, DontEatMyContent, Gonerino, VolumeBoostYT and PleaseDontStopTheMusic. 120 Hz display refresh is used when the device supports it. Native 4K is available on A16+ devices; YTUHD is not bundled on this YouTube version. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time. YTLite, YTKACE and YouMod are competing main tweaks; stacking all three in one IPA is unstable, so this listing follows the extra-tweaks YouMod 21.37.4 release.",
+        "subtitle": "YouMod with extra YouTube tweaks",
+        "shortDescription": "YouMod with extra YouTube tweaks",
+        "description": "YouMod is a YouTube tweak by Tonwalter888. This community-distributed YouProEXTRA IPA includes YouMod and additional player tweaks, such as picture-in-picture and quality controls. The distributor warns that bundled tweaks may be unstable on newer YouTube versions; see the release notes for the current features. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time.",
         "category": "photo-video",
         "tags": [
           "photo-video"
         ],
         "keywords": [
-          "21",
-          "37",
-          "build",
-          "by",
           "extra",
           "photo",
           "tonwalter888",
           "tweaks",
           "video",
+          "with",
           "youmod",
           "youtube"
         ],
@@ -351,7 +348,7 @@
         "bundleId": "com.google.ios.youtube",
         "icon": "assets/YouTube.webp",
         "pageURL": "apps/youmod/",
-        "version": "21.42.4",
+        "version": "21.43.5",
         "verificationLevel": "COMMUNITY VERIFIED",
         "downloadReachable": true,
         "clientCompatibility": [
@@ -543,7 +540,7 @@
         "bundleId": "com.burbn.instagram",
         "icon": "assets/Instagram.webp",
         "pageURL": "apps/inkillerplus/",
-        "version": "451.0.0",
+        "version": "452.0.1",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -584,7 +581,7 @@
         "bundleId": "com.zhiliaoapp.musically",
         "icon": "assets/TikTok.webp",
         "pageURL": "apps/ttkillerplus/",
-        "version": "47.1.0",
+        "version": "47.4.0",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -1326,8 +1323,8 @@
         "icon": "assets/Saber.webp",
         "pageURL": "apps/saber/",
         "version": "1.36.4",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -1407,8 +1404,8 @@
         "icon": "assets/Apollo.webp",
         "pageURL": "apps/apollo/",
         "version": "4.0.0",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -1808,8 +1805,8 @@
         "icon": "assets/TAB.webp",
         "pageURL": "apps/twitchadblock/",
         "version": "31.7",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -1848,8 +1845,8 @@
         "icon": "assets/NeoFreeBird.webp",
         "pageURL": "apps/neofreebird/",
         "version": "7.2.0",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -1964,8 +1961,8 @@
         "icon": "assets/AnymeX.webp",
         "pageURL": "apps/anymex/",
         "version": "3.1.9",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -2088,7 +2085,7 @@
         "bundleId": "com.firecore.infuse",
         "icon": "assets/Infuse.webp",
         "pageURL": "apps/infuseplus/",
-        "version": "8.5.8",
+        "version": "8.5.9",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2129,8 +2126,8 @@
         "icon": "assets/Facebook.webp",
         "pageURL": "apps/glow/",
         "version": "577.1",
-        "verificationLevel": "COMMUNITY VERIFIED",
-        "downloadReachable": true,
+        "verificationLevel": "UNVERIFIED",
+        "downloadReachable": false,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -2167,7 +2164,7 @@
         "bundleId": "app.swiftgram.ios.mxgram",
         "icon": "assets/Swiftgram.webp",
         "pageURL": "apps/swiftgram/",
-        "version": "13.0",
+        "version": "13.1.1",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2208,8 +2205,8 @@
         "icon": "assets/Telegram.webp",
         "pageURL": "apps/telegram-mxgram/",
         "version": "13.1.1",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "COMMUNITY VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -2247,8 +2244,8 @@
         "icon": "assets/Facebook.webp",
         "pageURL": "apps/iqface/",
         "version": "584.1.0",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "COMMUNITY VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -2287,7 +2284,7 @@
         "bundleId": "com.burbn.instagram",
         "icon": "assets/Instagram.webp",
         "pageURL": "apps/ryukgram/",
-        "version": "452.0.0",
+        "version": "453.0.0",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2328,7 +2325,7 @@
         "bundleId": "com.burbn.instagram.sparkle",
         "icon": "assets/Instagram.webp",
         "pageURL": "apps/sparkle/",
-        "version": "452.0.0",
+        "version": "453.0.0",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2411,7 +2408,7 @@
         "bundleId": "com.soundcloud.TouchApp",
         "icon": "assets/SoundCloud.webp",
         "pageURL": "apps/nexasc/",
-        "version": "8.83.0",
+        "version": "8.83.1",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2428,9 +2425,9 @@
         "id": "messenger-flow",
         "slug": "messenger-flow",
         "name": "Messenger Flow",
-        "subtitle": "Facebook Messenger tweak by dvntms (unofficial build)",
-        "shortDescription": "Facebook Messenger tweak by dvntms (unofficial build)",
-        "description": "Messenger Flow is a tweaked Facebook Messenger build by dvntms, distributed ready-to-sideload through the IPA Vault on a current Messenger base version. The Flow tweak's feature set is defined by its build; no official public documentation exists.",
+        "subtitle": "Facebook Messenger tweak by dayanch96 (unofficial build)",
+        "shortDescription": "Facebook Messenger tweak by dayanch96 (unofficial build)",
+        "description": "Messenger Flow is a Facebook Messenger tweak developed by dayanch96. This listing tracks a community-built, ready-to-sideload IPA from IPA Vault, not an official developer IPA. See the upstream project for its feature documentation and the download status for the last known build.",
         "category": "social",
         "tags": [
           "social"
@@ -2438,7 +2435,7 @@
         "keywords": [
           "build",
           "by",
-          "dvntms",
+          "dayanch96",
           "facebook",
           "flow",
           "ipa",
@@ -2448,7 +2445,7 @@
           "unofficial",
           "vault"
         ],
-        "developer": "dvntms & IPA Vault",
+        "developer": "dayanch96 & IPA Vault",
         "bundleId": "com.facebook.Messenger.flow",
         "icon": "assets/Messenger.webp",
         "pageURL": "apps/messenger-flow/",
@@ -2533,7 +2530,7 @@
         "bundleId": "com.burbn.barcelona",
         "icon": "assets/Threads.webp",
         "pageURL": "apps/threadsaver/",
-        "version": "452.1",
+        "version": "453.0",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2574,8 +2571,8 @@
         "icon": "assets/iMe.webp",
         "pageURL": "apps/ime/",
         "version": "12.8.1",
-        "verificationLevel": "COMMUNITY VERIFIED",
-        "downloadReachable": true,
+        "verificationLevel": "UNVERIFIED",
+        "downloadReachable": false,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -2613,7 +2610,7 @@
         "bundleId": "com.seastar.turrit.mxgram",
         "icon": "assets/Turrit.webp",
         "pageURL": "apps/turrit-mxgram/",
-        "version": "1.5.6",
+        "version": "1.5.7",
         "verificationLevel": "UNVERIFIED",
         "downloadReachable": false,
         "clientCompatibility": [
@@ -2780,8 +2777,8 @@
         "icon": "assets/DopamineRootHide.webp",
         "pageURL": "apps/dopamine-roothide/",
         "version": "3.0.12-28",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",
@@ -3386,8 +3383,8 @@
         "icon": "assets/Otraku.webp",
         "pageURL": "apps/otraku/",
         "version": "1.13.1",
-        "verificationLevel": "UNVERIFIED",
-        "downloadReachable": false,
+        "verificationLevel": "VERIFIED",
+        "downloadReachable": true,
         "clientCompatibility": [
           "altstore",
           "sidestore",

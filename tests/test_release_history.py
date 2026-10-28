@@ -42,6 +42,13 @@ class MergeHistoryTests(TestCase):
         self.assertEqual(doc["releases"], 1)
         self.assertIn("demo", doc["apps"])
 
+    def test_quarantined_identity_mismatch_is_retained_not_reactivated(self) -> None:
+        quarantined = {**_entry("1.0"), "status": "quarantined", "quarantineReason": "different app"}
+        merged = merge_app_history([quarantined], [_entry("2.0", "2026-02-01"), _entry("1.0")])
+        bad = next(entry for entry in merged if entry["version"] == "1.0")
+        self.assertEqual(bad, quarantined)
+        self.assertEqual(detect_removed([quarantined], []), [])
+
 
 class CompareRollbackTests(TestCase):
     def test_compare_entries(self) -> None:
@@ -59,6 +66,14 @@ class CompareRollbackTests(TestCase):
     def test_rollback_unknown_version(self) -> None:
         plan = rollback_plan([{**_entry("1.0"), "status": "current"}], "0.1")
         self.assertFalse(plan["ok"])
+
+    def test_rollback_excludes_quarantined_releases(self) -> None:
+        current = {**_entry("2.0"), "status": "current"}
+        wrong_app = {**_entry("1.0"), "status": "quarantined"}
+        self.assertFalse(rollback_plan([wrong_app, current], "1.0")["ok"])
+        self.assertFalse(rollback_plan([wrong_app], "1.0")["ok"])
+        valid = {**_entry("1.0", "2025-12-01"), "status": "superseded", "downloadURL": "https://example.com/good.ipa"}
+        self.assertEqual(rollback_plan([wrong_app, valid, current], "1.0")["downloadURL"], valid["downloadURL"])
 
     def test_detect_removed(self) -> None:
         gone = detect_removed([_entry("1.0"), _entry("0.9")], [_entry("1.0")])

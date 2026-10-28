@@ -235,6 +235,8 @@ class RepositoryRef:
     description_template: str = "{name} {version} | {label}"
     min_os_version: str = "16.0"
     min_os_by_tag_number: dict[str, str] = field(default_factory=dict)
+    # Match the released asset name, not a mutable release tag or base version.
+    min_os_by_asset_name: dict[str, str] = field(default_factory=dict)
     iso_dates: bool = False
     request_timeout: float = 30.0
     # The catalog's app identity, supplied by App.upstream. Feed providers use
@@ -303,6 +305,7 @@ class RepositoryRef:
             description_template=raw.get("descriptionTemplate", "{name} {version} | {label}"),
             min_os_version=raw.get("minOSVersion", "16.0"),
             min_os_by_tag_number=dict(raw.get("minOSVersionByTagNumber", {})),
+            min_os_by_asset_name=dict(raw.get("minOSVersionByAssetName", {})),
             iso_dates=bool(raw.get("isoDates", False)),
             request_timeout=float(raw.get("timeout", 30.0)),
         )
@@ -497,6 +500,17 @@ class App:
             except ValueError:
                 return up.feed_url
             if parts.scheme and parts.netloc:
+                # A raw GitHub feed is hosted on a shared file domain; its
+                # origin alone is not the source. Link to the actual owner/repo
+                # so users can inspect the publisher and its release history.
+                segments = parts.path.strip("/").split("/")
+                if (
+                    parts.scheme == "https"
+                    and parts.hostname == "raw.githubusercontent.com"
+                    and len(segments) >= 4
+                    and all(re.fullmatch(r"[A-Za-z0-9_.-]+", part) and part not in {".", ".."} for part in segments[:2])
+                ):
+                    return f"https://github.com/{segments[0]}/{segments[1]}"
                 return f"{parts.scheme}://{parts.netloc}"
             return up.feed_url
         host = up.host or _default_host(up.provider)

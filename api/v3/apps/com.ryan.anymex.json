@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "5267f10e9403",
   "data": {
     "name": "AnymeX",
     "bundleIdentifier": "com.ryan.anymex",
@@ -228,11 +228,11 @@
         "notes": "Official unsigned IPA (AnymeX-iOS-<version>.ipa) built by the developer's release pipeline; the Flutter project targets iOS 12+. Content sources are provided by community extensions."
       },
       "health": {
-        "downloadReachable": null,
-        "detail": "not checked for this download",
-        "statusSince": "",
-        "lastCheckedAt": "",
-        "checkedURL": "",
+        "downloadReachable": true,
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-27T23:33:14Z",
+        "checkedURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa",
         "lastUpdatedAt": "2026-10-25"
       }
     },

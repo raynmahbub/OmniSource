@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "totals": {
     "apps": 128,
-    "verified": 98,
-    "communityVerified": 10,
-    "unverified": 20,
+    "verified": 105,
+    "communityVerified": 11,
+    "unverified": 12,
     "hashVerified": 0,
     "hashRecorded": 115,
-    "official": 108,
-    "communityBuilds": 20,
+    "official": 107,
+    "communityBuilds": 21,
     "unknownProvenance": 0,
-    "avgTrustScore": 6.17,
+    "avgTrustScore": 6.41,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -179,6 +179,60 @@
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
+      "trustScore": 7.0,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "anymex",
+      "name": "AnymeX",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "RyanYuuki/AnymeX",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa",
+      "trustScore": 7.0,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "apollo",
+      "name": "Apollo",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "Apollo-Reborn/Apollo-Reborn",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
       "trustScore": 7.0,
       "trustBadge": "Community"
     },
@@ -692,6 +746,33 @@
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+      "trustScore": 7.0,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "dopamine-roothide",
+      "name": "Dopamine (RootHide)",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "roothide/Dopamine-roothide",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
       "trustScore": 7.0,
       "trustBadge": "Community"
     },
@@ -1398,6 +1479,33 @@
       "trustBadge": "Community"
     },
     {
+      "app": "neofreebird",
+      "name": "NeoFreeBird",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "NeoFreeBird/app",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+      "trustScore": 7.0,
+      "trustBadge": "Community"
+    },
+    {
       "app": "nicegram",
       "name": "Nicegram",
       "status": "VERIFIED",
@@ -1556,6 +1664,33 @@
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+      "trustScore": 7.0,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "otraku",
+      "name": "Otraku",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "lotusprey/otraku",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
       "trustScore": 7.0,
       "trustBadge": "Community"
     },
@@ -1908,6 +2043,33 @@
       ],
       "downloadURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
       "trustScore": 6.0,
+      "trustBadge": "Community"
+    },
+    {
+      "app": "saber",
+      "name": "Saber",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "saber-notes/saber",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa",
+      "trustScore": 7.0,
       "trustBadge": "Community"
     },
     {
@@ -2370,6 +2532,33 @@
       "trustBadge": "Community"
     },
     {
+      "app": "twitchadblock",
+      "name": "TwitchAdBlock",
+      "status": "VERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "gunnerkidBT/TwitchAdBlock",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "catalog attributes the source to the project's release channel (github-release)"
+      ],
+      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+      "trustScore": 7.0,
+      "trustBadge": "Community"
+    },
+    {
       "app": "unc0ver",
       "name": "unc0ver",
       "status": "VERIFIED",
@@ -2613,8 +2802,8 @@
       "trustBadge": "Community"
     },
     {
-      "app": "youpro",
-      "name": "YouPro",
+      "app": "ytkace",
+      "name": "YTKACE",
       "status": "VERIFIED",
       "provenance": "official",
       "hash_verified": false,
@@ -2625,7 +2814,7 @@
       },
       "integrityFailure": null,
       "method": "github-release",
-      "publisher": "mrdrvt99/YouProEXTRA",
+      "publisher": "itzzace/ytkace",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -2635,8 +2824,8 @@
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa4/YouProExtra_21.42.4_1.3.1.ipa",
-      "trustScore": 6.5,
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+      "trustScore": 7.0,
       "trustBadge": "Community"
     },
     {
@@ -2667,90 +2856,9 @@
       "trustBadge": "Community"
     },
     {
-      "app": "anymex",
-      "name": "AnymeX",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "RyanYuuki/AnymeX",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa",
-      "trustScore": 4.0,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "apollo",
-      "name": "Apollo",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "Apollo-Reborn/Apollo-Reborn",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
-      "trustScore": 4.0,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "dopamine-roothide",
-      "name": "Dopamine (RootHide)",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "roothide/Dopamine-roothide",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
-      "trustScore": 4.0,
-      "trustBadge": "Experimental"
-    },
-    {
       "app": "glow",
       "name": "Glow",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -2764,20 +2872,20 @@
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": true,
+        "fileAvailable": false,
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: fileAvailable"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
-      "trustScore": 5.0,
-      "trustBadge": "Community"
+      "trustScore": 2.9,
+      "trustBadge": "Experimental"
     },
     {
       "app": "ime",
       "name": "iMe MxGram",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -2791,15 +2899,15 @@
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": true,
+        "fileAvailable": false,
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: fileAvailable"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
-      "trustScore": 5.0,
-      "trustBadge": "Community"
+      "trustScore": 3.0,
+      "trustBadge": "Experimental"
     },
     {
       "app": "infuseplus",
@@ -2824,8 +2932,8 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.8-Infuse-Plus.ipa",
-      "trustScore": 2.9,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
+      "trustScore": 3.4,
       "trustBadge": "Experimental"
     },
     {
@@ -2851,14 +2959,14 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://ikghd.site/ipa/Instagram_451.0_iNKillerPlus_5.3.ipa",
-      "trustScore": 2.9,
+      "downloadURL": "https://ikghd.site/ipa/Instagram_452.0_iNKillerPlus_5.3.ipa",
+      "trustScore": 3.4,
       "trustBadge": "Experimental"
     },
     {
       "app": "iqface",
       "name": "iQFace",
-      "status": "UNVERIFIED",
+      "status": "COMMUNITY VERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -2872,15 +2980,15 @@
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": false,
+        "fileAvailable": true,
         "hashVerified": false
       },
       "reasons": [
-        "failed or unknown check: fileAvailable"
+        "catalog lists a community source (altstore); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
-      "trustScore": 3.5,
-      "trustBadge": "Experimental"
+      "trustScore": 5.5,
+      "trustBadge": "Community"
     },
     {
       "app": "maxtube",
@@ -2933,7 +3041,7 @@
         "failed or unknown check: fileAvailable"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa",
-      "trustScore": 2.9,
+      "trustScore": 2.8,
       "trustBadge": "Experimental"
     },
     {
@@ -2964,33 +3072,6 @@
       "trustBadge": "Community"
     },
     {
-      "app": "neofreebird",
-      "name": "NeoFreeBird",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "NeoFreeBird/app",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
-      "trustScore": 4.0,
-      "trustBadge": "Experimental"
-    },
-    {
       "app": "nexasc",
       "name": "NexaSC",
       "status": "UNVERIFIED",
@@ -3013,35 +3094,8 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
-      "trustScore": 2.8,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "otraku",
-      "name": "Otraku",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "lotusprey/otraku",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
-      "trustScore": 4.0,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.1-NexaSC.ipa",
+      "trustScore": 3.3,
       "trustBadge": "Experimental"
     },
     {
@@ -3067,34 +3121,7 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-RyukGram.ipa",
-      "trustScore": 3.5,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "saber",
-      "name": "Saber",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "saber-notes/saber",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa",
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-RyukGram.ipa",
       "trustScore": 4.0,
       "trustBadge": "Experimental"
     },
@@ -3121,8 +3148,8 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-452.0.0-Sparkle.ipa",
-      "trustScore": 2.9,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
+      "trustScore": 3.4,
       "trustBadge": "Experimental"
     },
     {
@@ -3148,14 +3175,14 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.0-MxGram.ipa",
-      "trustScore": 3.5,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.1.1-TF-MxGram.ipa",
+      "trustScore": 4.0,
       "trustBadge": "Experimental"
     },
     {
       "app": "telegram-mxgram",
       "name": "Telegram MxGram",
-      "status": "UNVERIFIED",
+      "status": "COMMUNITY VERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -3169,14 +3196,14 @@
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": false,
+        "fileAvailable": true,
         "hashVerified": false
       },
       "reasons": [
-        "failed or unknown check: fileAvailable"
+        "catalog lists a community source (altstore); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
-      "trustScore": 2.1,
+      "trustScore": 4.2,
       "trustBadge": "Experimental"
     },
     {
@@ -3202,8 +3229,8 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-452.1-ThreadSaver.ipa",
-      "trustScore": 2.9,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-453.0-ThreadSaver.ipa",
+      "trustScore": 3.4,
       "trustBadge": "Experimental"
     },
     {
@@ -3229,8 +3256,8 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://ikghd.site/ipa/TikTok_47.1_TTKillerPlus_2.3.ipa",
-      "trustScore": 2.9,
+      "downloadURL": "https://ikghd.site/ipa/TikTok_47.4_TTKillerPlus_2.3.ipa",
+      "trustScore": 3.4,
       "trustBadge": "Experimental"
     },
     {
@@ -3256,35 +3283,8 @@
       "reasons": [
         "failed or unknown check: fileAvailable"
       ],
-      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.6-MxGram.ipa",
-      "trustScore": 3.0,
-      "trustBadge": "Experimental"
-    },
-    {
-      "app": "twitchadblock",
-      "name": "TwitchAdBlock",
-      "status": "UNVERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "gunnerkidBT/TwitchAdBlock",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": false,
-        "hashVerified": false
-      },
-      "reasons": [
-        "failed or unknown check: fileAvailable"
-      ],
-      "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
-      "trustScore": 4.0,
+      "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-TF-MxGram.ipa",
+      "trustScore": 3.5,
       "trustBadge": "Experimental"
     },
     {
@@ -3311,7 +3311,7 @@
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
-      "trustScore": 3.6,
+      "trustScore": 3.7,
       "trustBadge": "Experimental"
     },
     {
@@ -3364,13 +3364,13 @@
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa1/YouMod_21.42.4_2.0.0.ipa",
-      "trustScore": 5.0,
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
+      "trustScore": 5.5,
       "trustBadge": "Community"
     },
     {
-      "app": "ytlite",
-      "name": "YouTubePlus",
+      "app": "youpro",
+      "name": "YouPro",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
       "hash_verified": false,
@@ -3391,15 +3391,15 @@
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
-      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.42.4_6.0b2.ipa",
-      "trustScore": 6.8,
-      "trustBadge": "Community"
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.43.5_1.3.1.ipa",
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
-      "app": "ytkace",
-      "name": "YTKACE",
-      "status": "UNVERIFIED",
-      "provenance": "official",
+      "app": "ytlite",
+      "name": "YouTube Plus",
+      "status": "COMMUNITY VERIFIED",
+      "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
         "status": "recorded",
@@ -3408,19 +3408,19 @@
       },
       "integrityFailure": null,
       "method": "github-release",
-      "publisher": "itzzace/ytkace",
+      "publisher": "mrdrvt99/YouProEXTRA",
       "checks": {
         "metadata": true,
         "urls": true,
-        "fileAvailable": false,
+        "fileAvailable": true,
         "hashVerified": false
       },
       "reasons": [
-        "failed or unknown check: fileAvailable"
+        "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
-      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
-      "trustScore": 4.0,
-      "trustBadge": "Experimental"
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
+      "trustScore": 6.8,
+      "trustBadge": "Community"
     },
     {
       "app": "ytkp",

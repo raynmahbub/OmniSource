@@ -19,7 +19,7 @@ from omnisource.domain import (
     ValidationResult,
 )
 
-# Sentinel returned by fetch_releases when incremental sync proves nothing changed.
+# Sentinel: the incremental fast path matched the prior newest asset URL.
 INCREMENTAL_UNCHANGED: list[RemoteRelease] = []
 
 
@@ -52,10 +52,11 @@ class SourceProvider(ABC):
         """Return published releases, newest first.
 
         When ``incremental`` is true and the newest matching asset URL equals
-        ``previous_latest_url``, providers should return an empty list and
-        *not* paginate further. The pipeline treats that as "keep last state".
-        Distinguishing "nothing upstream" from "incremental hit" is the
-        caller's job (it already has previous state).
+        ``previous_latest_url``, return the shared ``INCREMENTAL_UNCHANGED``
+        sentinel (an empty list) without further pagination. An ordinary empty
+        list means the source has no releases; callers must compare the
+        sentinel by identity, not equality. URL equality is only a fast path,
+        not proof that the asset bytes or other metadata are unchanged.
         """
 
     # Platform-contract aliases ------------------------------------------------

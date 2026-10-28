@@ -13,7 +13,14 @@ URLs. An app's retained versions are available at
 `/api/v2/apps/<slug>/versions.json` and on its static app page. Historical URLs
 can disappear or be replaced upstream; check the version and its recorded
 SHA-256 before considering a downgrade. Rollback and data migration are not
-guaranteed.
+guaranteed. The append-only release ledger retains known cross-app or
+cross-variant misattributions as `quarantined` records, with their reason and
+prior status; they are excluded from rollback plans and cadence statistics.
+They can only be restored after explicit identity review.
+
+The scheduled publisher performs a full metadata refresh daily and incremental
+refreshes every six hours otherwise. A newest-URL match is an optimization, not
+proof that file bytes or metadata have not changed.
 
 The feed exposes the latest declared minimum/maximum OS and device/client
 metadata. A browser profile stores only the selected values locally. A match

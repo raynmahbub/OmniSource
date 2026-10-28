@@ -216,6 +216,12 @@
             "minOSVersionByTagNumber": {
               "type": "object",
               "additionalProperties": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)*$" }
+            },
+            "minOSVersionByAssetName": {
+              "type": "object",
+              "description": "Minimum OS overrides keyed by the exact released asset filename. Takes precedence over tag-number rules.",
+              "propertyNames": { "minLength": 1 },
+              "additionalProperties": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)*$" }
             }
           }
         },

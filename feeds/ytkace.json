@@ -165,11 +165,11 @@
           "notes": "Tracks the official itzzace/ytkace releases. The published build follows the latest YouTube release and needs iOS 17 or newer; upstream also ships a separate iOS 16 IPA (YTKACE_<version>_YouTube_iOS16_<youtube>.ipa) on the same release page."
         },
         "health": {
-          "downloadReachable": null,
-          "detail": "not checked for this download",
-          "statusSince": "",
-          "lastCheckedAt": "",
-          "checkedURL": "",
+          "downloadReachable": true,
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-27T23:33:14Z",
+          "checkedURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
           "lastUpdatedAt": "2026-10-25"
         }
       }

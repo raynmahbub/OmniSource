@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-27",
-  "count": 349,
+  "generatedAt": "2026-10-28",
+  "count": 348,
   "edgeCount": 1037,
   "nodes": [
     {
@@ -67,11 +67,11 @@
     {
       "id": "app:ytlite",
       "type": "app",
-      "label": "YouTubePlus",
+      "label": "YouTube Plus",
       "slug": "ytlite",
       "bundleId": "com.google.ios.youtube",
       "category": "photo-video",
-      "version": "21.42.4"
+      "version": "21.43.5"
     },
     {
       "id": "dev:dayanch96",
@@ -91,7 +91,7 @@
       "slug": "youpro",
       "bundleId": "com.google.ios.youtube",
       "category": "photo-video",
-      "version": "21.42.4"
+      "version": "21.43.5"
     },
     {
       "id": "dev:alibusut",
@@ -139,7 +139,7 @@
       "slug": "youmod",
       "bundleId": "com.google.ios.youtube",
       "category": "photo-video",
-      "version": "21.42.4"
+      "version": "21.43.5"
     },
     {
       "id": "dev:tonwalter888",
@@ -223,7 +223,7 @@
       "slug": "inkillerplus",
       "bundleId": "com.burbn.instagram",
       "category": "social",
-      "version": "451.0.0"
+      "version": "452.0.1"
     },
     {
       "id": "source:ikarwanrepoikghdme",
@@ -238,7 +238,7 @@
       "slug": "ttkillerplus",
       "bundleId": "com.zhiliaoapp.musically",
       "category": "social",
-      "version": "47.1.0"
+      "version": "47.4.0"
     },
     {
       "id": "app:winston",
@@ -987,7 +987,7 @@
       "slug": "infuseplus",
       "bundleId": "com.firecore.infuse",
       "category": "photo-video",
-      "version": "8.5.8"
+      "version": "8.5.9"
     },
     {
       "id": "dev:dayanch96-&-ipa-vault",
@@ -998,7 +998,7 @@
       "id": "source:927txipavault",
       "type": "source",
       "label": "927tx/IPA-Vault",
-      "url": "https://raw.githubusercontent.com"
+      "url": "https://github.com/927tx/IPA-Vault"
     },
     {
       "id": "app:glow",
@@ -1016,7 +1016,7 @@
       "slug": "swiftgram",
       "bundleId": "app.swiftgram.ios.mxgram",
       "category": "social",
-      "version": "13.0"
+      "version": "13.1.1"
     },
     {
       "id": "dev:swiftgram-&-ipa-vault",
@@ -1058,7 +1058,7 @@
       "slug": "ryukgram",
       "bundleId": "com.burbn.instagram",
       "category": "social",
-      "version": "452.0.0"
+      "version": "453.0.0"
     },
     {
       "id": "dev:faroukbmiled-&-ipa-vault",
@@ -1072,7 +1072,7 @@
       "slug": "sparkle",
       "bundleId": "com.burbn.instagram.sparkle",
       "category": "social",
-      "version": "452.0.0"
+      "version": "453.0.0"
     },
     {
       "id": "dev:efibalogh-&-ipa-vault",
@@ -1106,7 +1106,7 @@
       "slug": "nexasc",
       "bundleId": "com.soundcloud.TouchApp",
       "category": "social",
-      "version": "8.83.0"
+      "version": "8.83.1"
     },
     {
       "id": "dev:cielogic-&-ipa-vault",
@@ -1121,11 +1121,6 @@
       "bundleId": "com.facebook.Messenger.flow",
       "category": "social",
       "version": "584.0.0"
-    },
-    {
-      "id": "dev:dvntms-&-ipa-vault",
-      "type": "developer",
-      "label": "dvntms & IPA Vault"
     },
     {
       "id": "app:msgplusx",
@@ -1148,7 +1143,7 @@
       "slug": "threadsaver",
       "bundleId": "com.burbn.barcelona",
       "category": "social",
-      "version": "452.1"
+      "version": "453.0"
     },
     {
       "id": "dev:swiftleopard-&-ipa-vault",
@@ -1171,7 +1166,7 @@
       "slug": "turrit-mxgram",
       "bundleId": "com.seastar.turrit.mxgram",
       "category": "social",
-      "version": "1.5.6"
+      "version": "1.5.7"
     },
     {
       "id": "app:ryukgram-ig410",
@@ -2976,7 +2971,7 @@
     },
     {
       "source": "app:messenger-flow",
-      "target": "dev:dvntms-&-ipa-vault",
+      "target": "dev:dayanch96-&-ipa-vault",
       "type": "developer"
     },
     {
@@ -5393,6 +5388,11 @@
     },
     {
       "source": "app:glow",
+      "target": "app:messenger-flow",
+      "type": "related"
+    },
+    {
+      "source": "app:glow",
       "target": "app:winston",
       "type": "related"
     },
@@ -5414,11 +5414,6 @@
     {
       "source": "app:glow",
       "target": "app:ttkillerplus",
-      "type": "related"
-    },
-    {
-      "source": "app:glow",
-      "target": "app:thunder",
       "type": "related"
     },
     {
@@ -5633,6 +5628,11 @@
     },
     {
       "source": "app:messenger-flow",
+      "target": "app:glow",
+      "type": "related"
+    },
+    {
+      "source": "app:messenger-flow",
       "target": "app:winston",
       "type": "related"
     },
@@ -5654,11 +5654,6 @@
     {
       "source": "app:messenger-flow",
       "target": "app:ttkillerplus",
-      "type": "related"
-    },
-    {
-      "source": "app:messenger-flow",
-      "target": "app:thunder",
       "type": "related"
     },
     {

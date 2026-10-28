@@ -154,6 +154,25 @@ class TestDomainModel(unittest.TestCase):
         # The official project page stays available as the repository URL.
         self.assertEqual(app.repository_url, "https://github.com/Dev/Project")
 
+    def test_raw_github_feed_links_to_its_publisher_repository(self) -> None:
+        app = self._app(
+            upstreamURL="https://github.com/Developer/Official",
+            upstream={
+                "provider": "altstore",
+                "feedURL": "https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json",
+            },
+        )
+        self.assertEqual(app.source_url, "https://github.com/927tx/IPA-Vault")
+        self.assertEqual(app.repository_url, "https://github.com/Developer/Official")
+
+    def test_invalid_raw_github_path_does_not_construct_a_fake_repository(self) -> None:
+        for path in ("/owner", "/../project/main/feed.json", "/owner/%2e%2e/main/feed.json"):
+            with self.subTest(path=path):
+                app = self._app(
+                    upstream={"provider": "altstore", "feedURL": "https://raw.githubusercontent.com" + path}
+                )
+                self.assertEqual(app.source_url, "https://raw.githubusercontent.com")
+
     def test_source_url_falls_back_to_upstream(self) -> None:
         app = self._app(upstreamURL="https://example.com/project")
         self.assertEqual(app.source_url, "https://example.com/project")

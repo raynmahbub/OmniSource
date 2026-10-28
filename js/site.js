@@ -118,7 +118,15 @@
   var slugFor = function (app) { return (app.omnisource && app.omnisource.slug) || (app.bundleIdentifier ? app.bundleIdentifier.split('.').pop().toLowerCase() : 'app'); };
   var feedFor = function (app) { return OS.url('feeds/' + slugFor(app) + '.json'); };
   var rssFor = function (app) { return OS.url('feeds/' + slugFor(app) + '.xml'); };
-  var healthFor = function (app) { return (state.health && state.health.apps || []).find(function (item) { return item.slug === slugFor(app); }) || {}; };
+  var healthFor = function (app) {
+    var health = (state.health && state.health.apps || []).find(function (item) { return item.slug === slugFor(app); }) || {};
+    // Feed and health documents can be cached independently. A result for an
+    // old or unrecorded URL must not be shown as the current IPA's status.
+    if (typeof health.downloadReachable === 'boolean' && (!health.checkedURL || health.checkedURL !== app.downloadURL)) {
+      return Object.assign({}, health, { downloadReachable: null, detail: 'not checked for this download', checkedURL: '', lastCheckedAt: '' });
+    }
+    return health;
+  };
   var verificationFor = function (app) { return state.verification.get(slugFor(app)) || null; };
   /* Official = the IPA is published by the project's own upstream release
      feed/repository. Community = repackaged/mirrored by someone else (the
@@ -1855,7 +1863,7 @@
           privacyEntries.map(function (entry) { return '<div class="perm"><b>' + OS.esc(entry[0]) + '</b><span>' + OS.esc(entry[1]) + '</span></div>'; }).join('') +
           legacyPerms.map(function (perm) { return '<div class="perm"><b>' + OS.esc(perm.type) + '</b><span>' + OS.esc(perm.usageDescription) + '</span></div>'; }).join('') +
         '</div></div>'
-        : '') +
+        : '<div class="detail-section"><h3>Permissions</h3><p class="body">Not recorded; the IPA may still request permissions.</p></div>') +
       (fallbacks.length
         ? '<div class="detail-section"><h3>Mirror download links</h3><p class="body">' + fallbacks.map(function (u) {
             return '<a href="' + OS.esc(OS.cleanUrl(u)) + '" target="_blank" rel="noopener">' + OS.esc(u) + '</a><br>';
@@ -1879,6 +1887,7 @@
     var visible = panels[state.activeTab] ? state.activeTab : 'about';
     var versionCount = (app.versions || []).length;
     var conflict = collisionInfo(app);
+    var health = healthFor(app);
     return '<button class="dialog-close" type="button" data-close aria-label="Close details"><svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>' +
       '<div class="dialog-hero">' +
         '<img class="dialog-icon" src="' + OS.esc(iconSrc(app.iconURL || app.icon)) + '" alt="" width="84" height="84">' +
@@ -1893,6 +1902,7 @@
           '<a class="button primary download" href="' + OS.esc(OS.cleanUrl(app.downloadURL)) + '" target="_blank" rel="noopener">⬇ Download IPA · ' + OS.esc(OS.fmtBytes(app.size)) + '</a>' +
           state.clients.map(function (client) { return clientButton(client, sourceFeed); }).join('') +
         '</div>' +
+        (health.downloadReachable === false ? '<p class="text-muted" role="status">Last download check failed' + (health.lastCheckedAt ? ' on ' + OS.esc(health.lastCheckedAt) : '') + '; this IPA link may not work.</p>' : '') +
         (Number(app.size) >= 200 * 1024 * 1024 ? '<p class="text-muted">Large download; consider Wi-Fi or your data limits.</p>' : '') +
         (conflict
           ? '<div class="collision-note"><svg viewBox="0 0 24 24"><path d="M12 3 2.8 20h18.4L12 3Zm0 6v5m0 3.2v.1"/></svg><span><b>Shared bundle ID.</b> ' + OS.esc(conflict.names) + ' also use <code>' + OS.esc(app.bundleIdentifier) + '</code> — installations may conflict or replace one another, depending on signing. Clients may not distinguish them in the master feed; add this app on its own with its single-app source instead.<br><button type="button" class="copy-feed-btn" data-copy="' + OS.esc(sourceFeed) + '" data-copy-msg="Single-app source copied — add it manually in your client">⧉ Copy single-app source link</button> <a class="copy-feed-link" href="' + OS.esc(sourceFeed) + '" target="_blank" rel="noopener">open feed ↗</a></span></div>'

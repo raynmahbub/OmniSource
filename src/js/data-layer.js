@@ -159,7 +159,7 @@
     'serotonin': ['serotonin jb', 'bootstrap jb'],
     'uyouenhanced': ['uyou', 'u you', 'u-you', 'uyou enhanced', 'youtube enhanced'],
     'youpro': ['you pro', 'youtube pro', 'youtubepro'],
-    'ytlite': ['yt lite', 'youtube lite', 'youtubelite'],
+    'ytlite': ['yt lite', 'youtube lite', 'youtubelite', 'youtubeplus', 'youtube plus'],
     'bhtwitter': ['bh twitter', 'twitter bh'],
     'ryukgram': ['ryuk gram', 'telegram ryuk'],
     'swiftgram': ['swift gram'],
@@ -190,7 +190,9 @@
       var needleLower = needle.toLowerCase();
       appsBySlug.forEach(function (app, slug) {
         var name = app.name.toLowerCase();
-        if (name === needleLower || name.indexOf(needleLower) === 0) targets.push(slug);
+        // Some display names differ from their stable catalog slug (for
+        // example, YouTube Plus is still published at /ytlite.json).
+        if (slug.toLowerCase() === needleLower || name === needleLower || name.indexOf(needleLower) === 0) targets.push(slug);
       });
       if (!targets.length) return;
       ALIASES[needle].forEach(function (alias) {

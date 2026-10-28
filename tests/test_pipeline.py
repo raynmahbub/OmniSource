@@ -202,6 +202,47 @@ class TestFeedIdentitySafety(unittest.TestCase):
         self.assertIn("com.other.app", state["example"]["lastError"])
         self.assertEqual(previous["versions"][0]["downloadURL"], "https://example.com/old.ipa")
 
+    def test_removed_feed_app_keeps_cached_release_and_surfaces_error(self) -> None:
+        for incremental in (False, True):
+            with self.subTest(incremental=incremental), tempfile.TemporaryDirectory() as tmpdir:
+                http = MagicMock(spec=HttpClient)
+                http.requests = 0
+                http.get_json.return_value = {
+                    "apps": [{"name": "Other", "version": "99", "downloadURL": "https://example.com/other.ipa"}]
+                }
+                app = App(
+                    slug="example",
+                    raw={
+                        "name": "Example",
+                        "bundleIdentifier": "com.example.app",
+                        "upstream": {
+                            "provider": "altstore",
+                            "feedURL": "https://example.com/source.json",
+                            "appId": "Example",
+                        },
+                        "manualRelease": {"version": "1.0", "downloadURL": "https://example.com/stale.ipa"},
+                    },
+                )
+                versions = [{"version": "2.0", "downloadURL": "https://example.com/cached.ipa"}]
+                state = {"example": {"versions": versions}}
+                report = SyncReport()
+                container = Container(
+                    paths=Paths.from_root(Path(tmpdir)), http=http, providers=build_default_registry(http)
+                )
+                stage_sync(
+                    container,
+                    Catalog(source={}, clients=[], apps=[app]),
+                    state,
+                    only=None,
+                    incremental=incremental,
+                    report=report,
+                    workers=1,
+                )
+                self.assertEqual(state["example"]["versions"], versions)
+                self.assertEqual(report.apps_failed, 1)
+                self.assertEqual(report.apps_incremental_hit, 0)
+                self.assertIn("no longer contains tracked app", state["example"]["lastError"])
+
 
 class _UnreachableProvider:
     """Stands in for a provider whose every leg errors (host blocked, API down)."""

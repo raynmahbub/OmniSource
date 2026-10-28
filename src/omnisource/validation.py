@@ -420,6 +420,16 @@ def _validate_upstream(prefix: str, app: dict[str, Any]) -> Report:
                     )
     if upstream.get("versionFromTag") is not None and not isinstance(upstream.get("versionFromTag"), bool):
         report.error(f"{prefix}: upstream.versionFromTag must be a boolean")
+    min_os_by_asset = upstream.get("minOSVersionByAssetName")
+    if min_os_by_asset is not None:
+        if not isinstance(min_os_by_asset, dict):
+            report.error(f"{prefix}: upstream.minOSVersionByAssetName must be an object")
+        else:
+            for filename, min_os in min_os_by_asset.items():
+                if not isinstance(filename, str) or not filename:
+                    report.error(f"{prefix}: upstream.minOSVersionByAssetName keys must be non-empty filenames")
+                if not isinstance(min_os, str) or not re.fullmatch(r"[0-9]+(?:\.[0-9]+)*", min_os):
+                    report.error(f"{prefix}: upstream.minOSVersionByAssetName[{filename!r}] must look like '16.0'")
     return report
 
 

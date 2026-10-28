@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T23:23:37Z",
+  "generatedAt": "2026-10-28T06:16:41Z",
   "method": "catalog-and-health-observations",
   "privacy": {
     "usesUserActivity": false,
@@ -8,17 +8,17 @@
   },
   "count": 120,
   "summary": {
-    "growing": 119,
+    "growing": 0,
     "declining": 0,
-    "stable": 1,
+    "stable": 120,
     "changing": 0
   },
   "sources": [
     {
       "source_id": "https-raw-githubusercontent-com-927tx-ipa-vault-main-ipavaultsou",
       "source_name": "927tx/IPA-Vault",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "glow",
         "ime",
         "infuseplus",
@@ -33,381 +33,409 @@
         "threadsaver",
         "turrit-mxgram"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 13,
-      "update_frequency_days": 0.63,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "app_delta": 0,
+      "update_frequency_days": 0.77,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-23"
     },
     {
       "source_id": "aeharding-voyager",
       "source_name": "aeharding/voyager",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "voyager"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 7.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-13"
     },
     {
       "source_id": "aidoku-aidoku",
       "source_name": "Aidoku/Aidoku",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "aidoku"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 43.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-16"
     },
     {
       "source_id": "alexsvitlov-itransmission",
       "source_name": "alexsvitlov/iTransmission",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "itransmission"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-01-12"
     },
     {
       "source_id": "alfiecg24-trollinstallerx",
       "source_name": "alfiecg24/TrollInstallerX",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "trollinstallerx"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-09-12"
     },
     {
       "source_id": "anxcye-anx-reader",
       "source_name": "Anxcye/anx-reader",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "anxreader"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-03-19"
     },
     {
       "source_id": "apollo-reborn-apollo-reborn",
       "source_name": "Apollo-Reborn/Apollo-Reborn",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "apollo"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 8.8,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-25"
     },
     {
       "source_id": "ashreq-ashstore-repo",
       "source_name": "Ashreq/ashstore-repo",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "maxtube"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-08-03"
     },
     {
       "source_id": "avangelista-cartube",
       "source_name": "Avangelista/CarTube",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "cartube"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-01-23"
     },
     {
       "source_id": "avangelista-statusmagic",
       "source_name": "Avangelista/StatusMagic",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "statusmagic"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-02-08"
     },
     {
       "source_id": "bandarhl-bhinstagram",
       "source_name": "BandarHL/BHInstagram",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "bhinstagram"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-05-14"
     },
     {
       "source_id": "bandarhl-bhtwitter",
       "source_name": "BandarHL/BHTwitter",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "bhtwitter"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-05-13"
     },
     {
       "source_id": "bartuzen-qbitcontroller",
       "source_name": "Bartuzen/qBitController",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "qbitcontroller"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-28"
     },
     {
       "source_id": "bluewallet-bluewallet",
       "source_name": "BlueWallet/BlueWallet",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "bluewallet"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-21"
     },
     {
       "source_id": "bomberfish-caperfhudswift",
       "source_name": "bomberfish/CAPerfHUDSwift",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "caperfhud"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-12-19"
     },
     {
       "source_id": "manual-cercube",
       "source_name": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "cercube"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 35.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-23"
     },
     {
       "source_id": "chatsen-chatsen",
       "source_name": "chatsen/chatsen",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "chatsen"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-08-12"
     },
     {
       "source_id": "claration-feather",
       "source_name": "claration/Feather",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "feather"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 0.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-05"
     },
     {
       "source_id": "clquwu-cosmos-music-player",
       "source_name": "clquwu/Cosmos-Music-Player",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "cosmos"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-08"
     },
     {
       "source_id": "cogwheel0-conduit",
       "source_name": "cogwheel0/conduit",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "conduit"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 6.43,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-16"
     },
     {
       "source_id": "cokepokes-appstoreplus-trollstore",
       "source_name": "CokePokes/AppStorePlus-TrollStore",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "appstoreplusplus"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-17"
     },
     {
       "source_id": "cranci1-animegen",
       "source_name": "cranci1/AnimeGen",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "animegen"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-03-04"
     },
     {
       "source_id": "cranci1-sora",
       "source_name": "cranci1/Sora",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "sora"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-08-20"
     },
     {
       "source_id": "developcubelab-animationspeed",
       "source_name": "DevelopCubeLab/AnimationSpeed",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "animationspeed"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-05-27"
     },
     {
       "source_id": "developcubelab-batteryinfo",
       "source_name": "DevelopCubeLab/BatteryInfo",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "batteryinfo"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-07-09"
     },
     {
       "source_id": "developcubelab-enablequic",
       "source_name": "DevelopCubeLab/EnableQUIC",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "enablequic"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-02-21"
     },
     {
       "source_id": "donutware-fladder",
       "source_name": "DonutWare/Fladder",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "fladder"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-08"
     },
     {
       "source_id": "raw-githubusercontent-com-driftywinds-driftywinds-github-i-a2af7",
       "source_name": "driftywinds' AltStore Repo",
       "trend": "stable",
+      "app_ids": [],
       "apps_added": [],
       "apps_removed": [],
       "app_delta": 0,
@@ -419,1294 +447,1386 @@
     {
       "source_id": "edualexxis-byetunes",
       "source_name": "EduAlexxis/ByeTunes",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "byetunes"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 42.0,
-      "health_samples": 75,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-12"
     },
     {
       "source_id": "fredrikburmester-streamyfin",
       "source_name": "fredrikburmester/streamyfin",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "streamyfin"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 68.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-16"
     },
     {
       "source_id": "friesi23-mhabit",
       "source_name": "FriesI23/mhabit",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "tablehabit"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 14.0,
-      "health_samples": 75,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-19"
     },
     {
       "source_id": "g-ray-pikatorrent",
       "source_name": "G-Ray/pikatorrent",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "pikatorrent"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-01-11"
     },
     {
       "source_id": "genericcoding-vibecontainers",
       "source_name": "GenericCoding/VibeContainers",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "vibecontainers"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-08-28"
     },
     {
       "source_id": "ginsudev-wdbfontoverwrite",
       "source_name": "ginsudev/WDBFontOverwrite",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "wdbfontoverwrite"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-02-09"
     },
     {
       "source_id": "gopeedlab-gopeed",
       "source_name": "GopeedLab/gopeed",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "gopeed"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-03-18"
     },
     {
       "source_id": "guardianproject-orbot-apple",
       "source_name": "guardianproject/orbot-apple",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "orbot"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 52.5,
-      "health_samples": 18,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-13"
     },
     {
       "source_id": "guardianproject-orbot-ios",
       "source_name": "guardianproject/orbot-ios",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "orbot"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 52.5,
-      "health_samples": 57,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-13"
     },
     {
       "source_id": "gunnerkidbt-twitchadblock",
       "source_name": "gunnerkidBT/TwitchAdBlock",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "twitchadblock"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 71.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-24"
     },
     {
       "source_id": "hrydgard-ppsspp",
       "source_name": "hrydgard/ppsspp",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ppsspp"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-05-16"
     },
     {
       "source_id": "https-repo-ikghd-me-repo-json",
       "source_name": "iKarwan (repo.ikghd.me)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "inkillerplus",
         "ttkillerplus"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 2,
-      "update_frequency_days": 4.38,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "app_delta": 0,
+      "update_frequency_days": 4.3,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-14"
     },
     {
       "source_id": "ish-app-ish",
       "source_name": "ish-app/ish",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ish"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-08-22"
     },
     {
       "source_id": "itzzace-ytkace",
       "source_name": "itzzace/ytkace",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ytkace"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 6.88,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-25"
     },
     {
       "source_id": "jellify-music-app",
       "source_name": "Jellify-Music/App",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "jellify"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 22.5,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-17"
     },
     {
       "source_id": "jellybookorg-jellybook",
       "source_name": "JellyBookOrg/JellyBook",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "jellybook"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-09"
     },
     {
       "source_id": "kodjodevf-mangayomi",
       "source_name": "kodjodevf/mangayomi",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "mangayomi"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 5.57,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-12"
     },
     {
       "source_id": "krtirtho-spotube",
       "source_name": "KRTirtho/spotube",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "spotube"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 0.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-06-05"
     },
     {
       "source_id": "leminlimez-cowabunga",
       "source_name": "leminlimez/Cowabunga",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "cowabunga"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-05-29"
     },
     {
       "source_id": "leminlimez-helium",
       "source_name": "leminlimez/Helium",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "helium"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-02-13"
     },
     {
       "source_id": "leminlimez-pocket-poster",
       "source_name": "leminlimez/Pocket-Poster",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "pocketposter"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-08-29"
     },
     {
       "source_id": "leminlimez-secondhand",
       "source_name": "leminlimez/SecondHand",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "secondhand"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-12-31"
     },
     {
       "source_id": "lessica-trollfools",
       "source_name": "Lessica/TrollFools",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "trollfools"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 171.0,
-      "health_samples": 75,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-11"
     },
     {
       "source_id": "level3tjg-redditfilter",
       "source_name": "level3tjg/RedditFilter",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "redditfilter"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-09-26"
     },
     {
       "source_id": "liji32-sameboy",
       "source_name": "LIJI32/SameBoy",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "sameboy"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 219.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-09"
     },
     {
       "source_id": "livecontainer-livecontainer",
       "source_name": "LiveContainer/LiveContainer",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "livecontainer"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-17"
     },
     {
       "source_id": "lo-cafe-winston",
       "source_name": "lo-cafe/winston",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "winston"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-06-24"
     },
     {
       "source_id": "lotusprey-otraku",
       "source_name": "lotusprey/otraku",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "otraku"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 186.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-22"
     },
     {
       "source_id": "lrdsnow-purekfd",
       "source_name": "Lrdsnow/PureKFD",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "purekfd"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-11-23"
     },
     {
       "source_id": "manic-emu-manicemu",
       "source_name": "Manic-EMU/ManicEMU",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "manicemu"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 15.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-18"
     },
     {
       "source_id": "mark02-2012-maxmusic",
       "source_name": "Mark02-2012/MaxMusic",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "maxmusic"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 5.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-15"
     },
     {
       "source_id": "matteozappia-dynamiccow",
       "source_name": "matteozappia/DynamicCow",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "dynamiccow"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-02-02"
     },
     {
       "source_id": "michael-128-qbitcontrol",
       "source_name": "Michael-128/qBitControl",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "qbitcontrol"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-23"
     },
     {
       "source_id": "mineek-muffinstore",
       "source_name": "mineek/MuffinStore",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "muffinstore"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-12"
     },
     {
       "source_id": "mineek-serotonin",
       "source_name": "mineek/Serotonin",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "serotonin"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-01-17"
     },
     {
       "source_id": "minh-ton-reynard-browser",
       "source_name": "minh-ton/reynard-browser",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "reynard"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 4.86,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-18"
     },
     {
       "source_id": "moffatman-chan",
       "source_name": "moffatman/chan",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "chan"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 31.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-28"
     },
     {
       "source_id": "monal-im-monal",
       "source_name": "monal-im/Monal",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "monal"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 66.5,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-07"
     },
     {
       "source_id": "mongoosemonke504-nebuloiptv",
       "source_name": "mongoosemonke504/NebuloIPTV",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "nebuloiptv"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 119.5,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-28"
     },
     {
       "source_id": "mongoosemonke504-onsidetv",
       "source_name": "mongoosemonke504/OnsideTV",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "nebuloiptv"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 119.5,
-      "health_samples": 18,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-28"
     },
     {
       "source_id": "mornyeapp-mornye",
       "source_name": "mornyeapp/Mornye",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "spotiflac"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 5.11,
-      "health_samples": 18,
-      "observed_uptime_percent": 27.78,
+      "health_samples": 5,
+      "observed_uptime_percent": 100.0,
       "last_sync": "2026-10-23"
     },
     {
       "source_id": "mrdrvt99-youproextra",
       "source_name": "mrdrvt99/YouProEXTRA",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "youmod",
         "youpro",
         "ytkp",
         "ytlite"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 4,
-      "update_frequency_days": 1.16,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "app_delta": 0,
+      "update_frequency_days": 1.14,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-22"
     },
     {
       "source_id": "mrdrvt99-ytmusicultimate",
       "source_name": "mrdrvt99/YTMusicUltimate",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ytmusic"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 7.17,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-22"
     },
     {
       "source_id": "neofreebird-app",
       "source_name": "NeoFreeBird/app",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "neofreebird"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 347.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-16"
     },
     {
       "source_id": "nguyenasang-snmessenger",
       "source_name": "NguyenASang/SNMessenger",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "snmessenger"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 75,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-07-29"
     },
     {
       "source_id": "nicegram-nicegram-ios",
       "source_name": "nicegram/Nicegram-iOS",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "nicegram"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 14.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-19"
     },
     {
       "source_id": "nuviomedia-nuviomobile",
       "source_name": "NuvioMedia/NuvioMobile",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "nuvio"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 1.89,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-23"
     },
     {
       "source_id": "nyasami-ksign",
       "source_name": "Nyasami/Ksign",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ksign"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-05-24"
     },
     {
       "source_id": "oatmealdome-dolphin-ios",
       "source_name": "OatmealDome/dolphin-ios",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "dolphinish"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-06-20"
     },
     {
       "source_id": "odyssey-team-odyssey",
       "source_name": "Odyssey-Team/Odyssey",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "odyssey"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-04-04"
     },
     {
       "source_id": "odyssey-team-taurine",
       "source_name": "Odyssey-Team/Taurine",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "taurine"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2023-09-23"
     },
     {
       "source_id": "onionbrowser-onionbrowser",
       "source_name": "OnionBrowser/OnionBrowser",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "onionbrowser"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 23.0,
-      "health_samples": 75,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-19"
     },
     {
       "source_id": "oolxg-hanami",
       "source_name": "oolxg/Hanami",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "hanami"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-06-03"
     },
     {
       "source_id": "opa334-dopamine",
       "source_name": "opa334/Dopamine",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "dopamine"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 19.67,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-20"
     },
     {
       "source_id": "provenance-emu-provenance",
       "source_name": "Provenance-Emu/Provenance",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "provenance"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-03-14"
     },
     {
       "source_id": "pwn20wndstuff-undecimus",
       "source_name": "pwn20wndstuff/Undecimus",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "unc0ver"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2020-06-09"
     },
     {
       "source_id": "pwnapplehat-escapeos",
       "source_name": "pwnapplehat/EscapeOS",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "escapeos"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 30.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-16"
     },
     {
       "source_id": "ra1ncord-raintweak",
       "source_name": "raincord/RainTweak (Codeberg)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "raintweak"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 90.0,
-      "health_samples": 9,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-17"
     },
     {
       "source_id": "raincord-raintweak",
       "source_name": "raincord/RainTweak (Codeberg)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "raintweak"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 90.0,
-      "health_samples": 73,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-17"
     },
     {
       "source_id": "rajnishone-qbitconnect",
       "source_name": "RajnishOne/qbitconnect",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "qbitconnect"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-11-02"
     },
     {
       "source_id": "raynmahbub-omnisource",
       "source_name": "raynmahbub/OmniSource (Tweak Factory)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "uprovid",
         "uyouenhanced"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 2,
+      "app_delta": 0,
       "update_frequency_days": 21.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-03"
     },
     {
       "source_id": "rileytestut-delta",
       "source_name": "RileyTestut/Delta",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "delta"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-07-11"
     },
     {
       "source_id": "rooootdev-lara",
       "source_name": "rooootdev/lara",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "lara"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 75,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-05-22"
     },
     {
       "source_id": "roothide-bootstrap",
       "source_name": "roothide/Bootstrap",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "bootstrap"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-06-12"
     },
     {
       "source_id": "roothide-dopamine-roothide",
       "source_name": "roothide/Dopamine-roothide",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "dopamine-roothide"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 21.0,
-      "health_samples": 18,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-24"
     },
     {
       "source_id": "roothide-dopamine2-roothide",
       "source_name": "roothide/Dopamine2-roothide",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "dopamine-roothide"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 21.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-12"
     },
     {
       "source_id": "ryanyuuki-anymex",
       "source_name": "RyanYuuki/AnymeX",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "anymex"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 28.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-25"
     },
     {
       "source_id": "https-source-ryuksign-com-duplicate",
       "source_name": "Ryuk / RyukSign (source.ryuksign.com)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ryukgram-sidebyside"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 24.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 1.22,
+      "health_samples": 1,
+      "observed_uptime_percent": 100.0,
       "last_sync": "2026-10-03"
     },
     {
       "source_id": "https-source-ryuksign-com-ig410",
       "source_name": "Ryuk / RyukSign (source.ryuksign.com)",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "ryukgram-ig410"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-25"
     },
     {
       "source_id": "s8ngyu-mugunghwa",
       "source_name": "s8ngyu/Mugunghwa",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "mugunghwa"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2022-11-10"
     },
     {
       "source_id": "saber-notes-saber",
       "source_name": "saber-notes/saber",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "saber"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 18.33,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-24"
     },
     {
       "source_id": "serotoninapp-serotonin",
       "source_name": "SerotoninApp/Serotonin",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "serotonin"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 18,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-01-17"
     },
     {
       "source_id": "sidestore-sidestore",
       "source_name": "SideStore/SideStore",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "sidestore"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 6.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-15"
     },
     {
       "source_id": "soupy-dev-eclipse",
       "source_name": "Soupy-dev/Eclipse",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "eclipse"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 14,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-20"
     },
     {
       "source_id": "sourcelocation-airtroller",
       "source_name": "sourcelocation/AirTroller",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "airtroller"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2022-11-26"
     },
     {
       "source_id": "spotiflacapp-spotiflac-mobile",
       "source_name": "spotiflacapp/SpotiFLAC-Mobile",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "spotiflac"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 5.11,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-20"
     },
     {
       "source_id": "stikdebug-stikdebug",
       "source_name": "StikDebug/StikDebug",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "stikdebug"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 9.8,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-15"
     },
     {
       "source_id": "stikemu-stiknes-2-0",
       "source_name": "StikEMU/StikNES-2.0",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "stiknes"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2025-02-23"
     },
     {
       "source_id": "streamyfin-streamyfin",
       "source_name": "streamyfin/streamyfin",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "streamyfin"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 68.0,
-      "health_samples": 18,
-      "observed_uptime_percent": 22.22,
+      "health_samples": 4,
+      "observed_uptime_percent": 100.0,
       "last_sync": "2026-10-16"
     },
     {
       "source_id": "team-spotube-spotube",
       "source_name": "team-spotube/spotube",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "spotube"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 0.0,
-      "health_samples": 18,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-06-05"
     },
     {
       "source_id": "thunder-app-thunder",
       "source_name": "thunder-app/thunder",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "thunder"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-01-07"
     },
     {
       "source_id": "torrekie-battman",
       "source_name": "Torrekie/Battman",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "battman"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 268.0,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-14"
     },
     {
       "source_id": "utmapp-utm",
       "source_name": "utmapp/UTM",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "utm"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 143.5,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-17"
     },
     {
       "source_id": "vcmi-vcmi",
       "source_name": "vcmi/vcmi",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "vcmi"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-08-15"
     },
     {
       "source_id": "xenios-jp-xenios",
       "source_name": "xenios-jp/XeniOS",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "xenios"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-06-08"
     },
     {
       "source_id": "xitrix-itorrent",
       "source_name": "XITRIX/iTorrent",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "itorrent"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-07-19"
     },
     {
       "source_id": "yangjiiii-3105",
       "source_name": "YangJiiii/3105",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "3105"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 64,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-09-14"
     },
     {
       "source_id": "yattee-yattee",
       "source_name": "yattee/yattee",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "yattee"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-01-28"
     },
     {
       "source_id": "yoshisuga-mame4ios",
       "source_name": "yoshisuga/MAME4iOS",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "mame4ios"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2022-12-12"
     },
     {
       "source_id": "yuroyami-syncplay-mobile",
       "source_name": "yuroyami/syncplay-mobile",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "synkplay"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 12.5,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-01"
     },
     {
       "source_id": "zeusln-zeus",
       "source_name": "ZeusLN/zeus",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "zeus"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": 20.0,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2026-10-12"
     },
     {
       "source_id": "zydeco-minivmac4ios",
       "source_name": "zydeco/minivmac4ios",
-      "trend": "growing",
-      "apps_added": [
+      "trend": "stable",
+      "app_ids": [
         "minivmac"
       ],
+      "apps_added": [],
       "apps_removed": [],
-      "app_delta": 1,
+      "app_delta": 0,
       "update_frequency_days": null,
-      "health_samples": 82,
-      "observed_uptime_percent": 0.0,
+      "health_samples": 0,
+      "observed_uptime_percent": null,
       "last_sync": "2024-07-09"
     }
   ]

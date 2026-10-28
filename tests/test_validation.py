@@ -16,6 +16,7 @@ from pathlib import Path
 from omnisource.constants import PNG_MAGIC
 from omnisource.validation import (
     Report,
+    _validate_upstream,
     validate_catalog,
     validate_doc_shape,
     validate_feed,
@@ -23,6 +24,16 @@ from omnisource.validation import (
 
 
 class TestValidation(unittest.TestCase):
+    def test_asset_specific_min_os_validation(self) -> None:
+        base = {"repo": "owner/repo", "provider": "github"}
+        valid = {**base, "minOSVersionByAssetName": {"app_1.2.3-beta.ipa": "16.0", "app_2.0.ipa": "17"}}
+        self.assertEqual(_validate_upstream("app", {"upstream": valid}).errors, [])
+
+        for invalid in (["16.0"], {"": "16.0"}, {"app.ipa": "iOS 16"}, {"app.ipa": 16}):
+            with self.subTest(invalid=invalid):
+                upstream = {**base, "minOSVersionByAssetName": invalid}
+                self.assertTrue(_validate_upstream("app", {"upstream": upstream}).errors)
+
     def test_validate_catalog_valid(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             assets_dir = Path(tmpdir)

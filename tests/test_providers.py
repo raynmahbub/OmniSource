@@ -132,6 +132,14 @@ class TestProviders(unittest.TestCase):
             app_id="com.facebook.Facebook.glow",
         )
         self.assertEqual(provider.fetch_releases(missing_ref), [])
+        for incremental in (False, True):
+            with (
+                self.subTest(incremental=incremental),
+                self.assertRaisesRegex(ProviderError, "feed no longer contains tracked app"),
+            ):
+                provider.fetch_releases(
+                    missing_ref, previous_latest_url="https://example.com/glow.ipa", incremental=incremental
+                )
 
         matched_by_name = RepositoryRef(
             provider=SourceType.ALTSTORE,
@@ -141,6 +149,18 @@ class TestProviders(unittest.TestCase):
         releases = provider.fetch_releases(matched_by_name)
         self.assertEqual(len(releases), 1)
         self.assertEqual(releases[0].tag, "13.0")
+
+    def test_tracked_feed_entry_without_usable_release_is_not_an_incremental_hit(self) -> None:
+        self.http_mock.get_json.return_value = {
+            "apps": [{"name": "Feed App", "bundleIdentifier": "com.feed.app", "version": "2.0"}]
+        }
+        provider = AltStoreFeedProvider(self.http_mock)
+        ref = RepositoryRef(
+            provider=SourceType.ALTSTORE, feed_url="https://example.com/repo.json", app_id="com.feed.app"
+        )
+        for incremental in (False, True):
+            with self.subTest(incremental=incremental), self.assertRaisesRegex(ProviderError, "no usable releases"):
+                provider.fetch_releases(ref, previous_latest_url="https://example.com/old.ipa", incremental=incremental)
 
     def test_named_feed_entry_rejects_a_different_bundle_identifier(self) -> None:
         self.http_mock.get_json.return_value = {
