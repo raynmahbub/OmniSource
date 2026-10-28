@@ -4,6 +4,16 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:NexaSC releases
 BEGIN:VEVENT
+UID:nexasc-8.84.0@omnisource
+DTSTAMP:20261027T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:NexaSC v8.84.0
+DESCRIPTION:SoundCloud 8.84.0 | SoundCloud-8.84.0-NexaSC\n\nIPA Vault build
+  for SoundCloud (NexaSC)\, version 8.84.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/nexasc.json
+END:VEVENT
+BEGIN:VEVENT
 UID:nexasc-8.83.0@omnisource
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261019
@@ -11,16 +21,6 @@ DTEND;VALUE=DATE:20261020
 SUMMARY:NexaSC v8.83.0
 DESCRIPTION:SoundCloud 8.83.0 | SoundCloud-8.83.0-NexaSC\n\nIPA Vault build
   for SoundCloud (NexaSC)\, version 8.83.0
-URL:https://raynmahbub.github.io/OmniSource/feeds/nexasc.json
-END:VEVENT
-BEGIN:VEVENT
-UID:nexasc-8.82.0@omnisource
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:NexaSC v8.82.0
-DESCRIPTION:SoundCloud 8.82.0 | SoundCloud-8.82.0-NexaSC\n\nIPA Vault build
-  for SoundCloud (NexaSC)\, version 8.82.0
 URL:https://raynmahbub.github.io/OmniSource/feeds/nexasc.json
 END:VEVENT
 END:VCALENDAR

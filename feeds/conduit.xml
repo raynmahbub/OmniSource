@@ -5,8 +5,49 @@
     <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
     <description>Release feed for Conduit within OmniSource, curated from its recorded distribution source.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/conduit.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Conduit v4.2.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.2.2</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.2.2 | conduit
+
+## What's Changed
+* Support Open WebUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850
+* Fix four reported bugs: Direct next to Hermes, MCP tool images, channel thread scrolling, default filters by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/870
+* fix/feat: Improve handling for video files in OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pull/869
+* Open the Android assistant on a ready new chat, and keep it after a reboot by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/872
+* Mark chats unread from the chat list and show web unread marks in the app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/874
+* Share screenshots and Files documents to Conduit on iOS with their real contents by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/875
+* Load chat videos on tap, stop resending generated videos, and fix older chats with videos saved as images by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/876
+* Keep server dictation text when stop is tapped while it is transcribing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/873
+* Make the progressive-replacement cadence test independent of timing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/877
+* Close the sidebar when a share opens chat on a phone by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/878
+* List a server under its new address once its old one is edited by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/884
+* Offer the reasoning-effort picker to every model, send it on explicit opt-in by @michaw23 in https://github.com/cogwheel0/conduit/pull/871
+* Share an image from Safari's long-press menu to Conduit as the image by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/885
+* Keep long-message context menu actions visible on iOS by @kapily in https://github.com/cogwheel0/conduit/pull/881
+* Share responses from the ellipsis menu by @kapily in https://github.com/cogwheel0/conduit/pull/882
+* Name a server by its new address on Chat data controls and Personal connections by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/887
+* Name a Hermes connection after its new host when its URL is edited by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/889
+* Copy the response version on screen by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/888
+* Remember which folders are open by saving each toggle to Open WebUI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/886
+* Ask before an Open WebUI function moves the chat to another model by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/890
+* Support Open WebUI 0.12.4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/891
+* Make the chat export share tests wait for staging instead of timing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/894
+* Go back to the chat list from a chat, channel or folder on Android by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/892
+* Keep everything said in server dictation, to the last word by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/893
+
+## New Contributors
+* @dalgibbard made their first contribution in https://github.com/cogwheel0/conduit/pull/869
+* @michaw23 made their first contribution in https://github.com/cogwheel0/conduit/pull/871
+* @kapily made their first contribution in https://github.com/cogwheel0/conduit/pull/881
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.1...v4.2.2]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Conduit v4.2.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
@@ -53,35 +94,6 @@
 
 **Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.9...v4.2.0]]></description>
       <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Conduit v4.1.9</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
-      <guid isPermaLink="false">conduit-4.1.9</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Conduit 4.1.9 | conduit
-
-## What's Changed
-* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774
-* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775
-* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783
-* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792
-* Fix sign-in, Direct, Hermes and chat bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/790
-* Fix notes, channels, workspace and settings bugs found in an iOS UI test pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/791
-* Forget Direct and Hermes connections on sign-out; keep channel threads live by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/793
-* Split AppDelegate into per-bridge files behind ConduitBridgeHost by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/794
-* Move the chat library and Flutter-free app logic into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/795
-* Move feature logic out of widgets into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/796
-* Put CarPlay, SF Symbol images and Apple models behind host ports by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/797
-* Move workspace, Hermes and composer rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/798
-* Move notes audio, web embeds and tablet sidebar rules into conduit_core by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/799
-* Fix edit-and-resend, workspace refresh and settings locale; pin startup rules by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/800
-* Fix bounded web search tools being skipped by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/803
-* Fix Hermes Desktop Gateway setup and Android speech language recovery by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/804
-
-
-**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.1.8...v4.1.9]]></description>
-      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa" length="0" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

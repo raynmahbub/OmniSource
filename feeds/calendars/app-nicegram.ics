@@ -4,6 +4,16 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Nicegram releases
 BEGIN:VEVENT
+UID:nicegram-2.6.5@omnisource
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Nicegram v2.6.5
+DESCRIPTION:Nicegram 2.6.5 | build 2.6.5\n\nBuild of Nicegram for iOS 2.6.5
+  (727)
+URL:https://raynmahbub.github.io/OmniSource/feeds/nicegram.json
+END:VEVENT
+BEGIN:VEVENT
 UID:nicegram-2.6.4@omnisource
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261019
@@ -11,16 +21,6 @@ DTEND;VALUE=DATE:20261020
 SUMMARY:Nicegram v2.6.4
 DESCRIPTION:Nicegram 2.6.4 | build 2.6.4\n\nBuild of Nicegram for iOS 2.6.4
   (725)
-URL:https://raynmahbub.github.io/OmniSource/feeds/nicegram.json
-END:VEVENT
-BEGIN:VEVENT
-UID:nicegram-2.6.3@omnisource
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:Nicegram v2.6.3
-DESCRIPTION:Nicegram 2.6.3 | build 2.6.3\n\nBuild of Nicegram for iOS 2.6.3
-  (721)
 URL:https://raynmahbub.github.io/OmniSource/feeds/nicegram.json
 END:VEVENT
 END:VCALENDAR

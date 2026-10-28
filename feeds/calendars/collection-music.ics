@@ -4,6 +4,18 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Music releases
 BEGIN:VEVENT
+UID:ytmusic-9.43.2@omnisource
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:YTMusicUltimate v9.43.2
+DESCRIPTION:YTMusicUltimate 9.43.2 | YTMusic 2.4.1 | YTMusicUltimate_9.43.2
+ _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
+ \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
+ le in custom build\n- iOS14+ build is available in releases page
+URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
+END:VEVENT
+BEGIN:VEVENT
 UID:spotiflac-5.2.6@omnisource
 DTSTAMP:20261023T000000Z
 DTSTART;VALUE=DATE:20261023
@@ -206,54 +218,6 @@ DESCRIPTION:SpotiFLAC 5.1.1 | SpotiFLAC-v5.1.1-ios-unsigned\n\n### New Feat
  library**: Sync local album play and pause controls\n- **metadata**: Prese
  rve original artwork resolution for SAF files\n- **
 URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
-END:VEVENT
-BEGIN:VEVENT
-UID:spotiflac-5.1.0@omnisource
-DTSTAMP:20261008T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Mornye v5.1.0
-DESCRIPTION:SpotiFLAC 5.1.0 | SpotiFLAC-v5.1.0-ios-unsigned\n\n### New Feat
- ures\n\n- **library**: Expand audio format and ReplayGain filters\n- **pla
- yer**: Warn when muted and allow manual resume\n- **native**: Add cancella
- ble data workers and streamed file hashing\n- **playback**: Automate mute 
- and headphone playback controls\n- **player**: Show mixing status beside a
- udio quality\n- **automix**: Add configurable duration and transition effe
- cts\n- **lyrics**: Add staggered spring motion to visible rows\n- **build*
- *: Require Discord in production and keep Lite opt-in\n- **settings**: Def
- ault to built-in playback and word-synced lyrics\n- **network**: Add SMB a
- nd WebDAV libraries with streaming and uploads\n- **statistics**: Show cov
- er artwork and artists for top tracks\n- **mornye**: Restore liquid glass 
- with continuous draggable navigation\n- **discord**: Add opt-in mobile ric
- h presence with track artwork\n- **extensions**: Support personal account 
- forms and direct downloads\n- **playback**: Add local listening statistics
-  and annual recap\n- **library**: Show recent releases from favorite artis
- ts\n- **library**: Add batch playlist and queue actions\n- **library**: Fi
- lter albums with missing tracks\n\n### Bug Fixes\n\n- **repo**: Retry init
- ialization before adding a registry\n- **storage**: Preserve extension enc
- ryption keys on read failures\n- **extensions**: Retain packages with unre
- adable settings\n- **downloads**: Finalize album ReplayGain after history 
- is saved\n- **downloads**: Preserve actual provider audio format\n- **lyri
- cs**: Treat placeholder zero timestamps as unsynced\n- **library**: Retry 
- transient SQLite locks before scan transactions\n- **riverpod**: Remove pu
- blic notifier getters\n- **queue**: Merge startup additions before persist
- ence and processing\n- **library**: Stage native scans before owner SQLite
-  publication\n- **cache**: Prune detached projections under source writer 
- barrier\n- **backup**: Publish native restores through owning SQLite conne
- ction\n- **sqlite**: Isolate native staging from l
-URL:https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json
-END:VEVENT
-BEGIN:VEVENT
-UID:ytmusic-9.40.2@omnisource
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:YTMusicUltimate v9.40.2
-DESCRIPTION:YTMusicUltimate 9.40.2 | YTMusic 2.4.1 | YTMusicUltimate_9.40.2
- _2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes
- \n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only availab
- le in custom build\n- iOS14+ build is available in releases page
-URL:https://raynmahbub.github.io/OmniSource/feeds/ytmusic.json
 END:VEVENT
 BEGIN:VEVENT
 UID:maxmusic-9.37.2@omnisource

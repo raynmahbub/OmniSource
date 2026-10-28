@@ -5,8 +5,72 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>Recorded releases in this catalog selection.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-other.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AnymeX v3.2.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/anymex.json</link>
+      <guid isPermaLink="false">anymex-3.2.0</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[AnymeX 3.2.0 | AnymeX-iOS-v3.2.0
+
+### 🆕 Changelog
+### 🌟 Features
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/6beae5c1) url nav, deeplink support for fcm by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/3bb0908d) torrent file selector in player by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/b61e9b75) cf bypass and webview support for linux by @RyanYuuki
+
+
+### 🔧 Bug Fixes & Improvements
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/9975e4c0) fixed a grey screen when accessing released media on different services by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/6db545c5) fixed visibility issues on light mode by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/ac97c83d) fixed rhttp disposing causing network reqs to fail by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/20fb3809) fixed torrent broken on mobile by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/fc84a627) fixed login and webview on desktops by @RyanYuuki
+
+
+### 🧹 Chores & Documentation
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/8f979177) bump version to v3.2.0 (minor release) by @RyanYuuki
+- [֍](https://github.com/RyanYuuki/AnymeX/commit/afbcc1b3) update sideloading source by @ghost
+
+
+![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.2.0/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)]]></description>
+      <enclosure url="https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-iOS-v3.2.0.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>JellyBook v1.4.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/jellybook.json</link>
+      <guid isPermaLink="false">jellybook-1.4.2</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[JellyBook 1.4.2 | JellyBook-Release
+
+This version focuses on decreasing the file size on android binaries to allow for publishing on IzzyOnDroid
+
+<details>
+<summary>SHA1</summary>
+<ul>
+<li><code>JellyBook-Debug-arm32.apk</code>: <code>8ea51485a330eb19147da4fe5f892523c5fd4a9a</code></li>
+<li><code>JellyBook-Debug-arm64.apk</code>: <code>48dea27e5af4f372fccc96b4bb58de932d6af516</code></li>
+<li><code>JellyBook-Debug-x86_64.apk</code>: <code>dbfb3e72a61e27a8eb5d5910929e3bfe6873292e</code></li>
+<li><code>JellyBook-Debug.aab</code>: <code>8f989dfea51a878345b8f57c14592386979b0b5d</code></li>
+<li><code>JellyBook-Debug.apk</code>: <code>1a5db273a5dafd2fe6510442faa300367fbd3d1d</code></li>
+<li><code>JellyBook-Debug.ipa</code>: <code>a2702bb3e6cda621e457a19d3208b77ce3267fd0</code></li>
+<li><code>JellyBook-Release-arm32.apk</code>: <code>a23eff532089af251f03fa8e8ceaf98464d59bd8</code></li>
+<li><code>JellyBook-Release-arm64.apk</code>: <code>d1899ba806f1fa4799c87cfcf57d2246b5df1f9a</code></li>
+<li><code>JellyBook-Release-x86_64.apk</code>: <code>5cfa1e2ce050b27545f8a6c154f57e127cef2417</code></li>
+<li><code>JellyBook-Release.aab</code>: <code>02a8c8613d7c9bf69ee48a6eebda41955e62e6c6</code></li>
+<li><code>JellyBook-Release.apk</code>: <code>36a171908d1da594b8c3b848d97377748f9583b2</code></li>
+<li><code>JellyBook-Release.ipa</code>: <code>9f1069ee1fc1c10a827cf101773bff19838719ff</code></li>
+</ul>
+</details>
+
+## What's Changed
+* chore: reduce file size by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/229
+
+
+**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.4.1...v1.4.2]]></description>
+      <enclosure url="https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.2/JellyBook-Release.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>AnymeX v3.1.9</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/anymex.json</link>
@@ -133,30 +197,6 @@ A small build update for 0.9 with a number of bug fixes.
       <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
-      <title>Mangayomi v0.9.8</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/mangayomi.json</link>
-      <guid isPermaLink="false">mangayomi-0.9.8</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Mangayomi 0.9.8 | Mangayomi-v0.9.8-ios
-
-## What's Changed
-* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024
-* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030
-* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026
-* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027
-* Improve LNReader extension compatibility
-* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031
-* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032
-
-## New Contributors
-* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024
-* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026
-* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031
-
-**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8]]></description>
-      <enclosure url="https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
       <title>Otraku v1.13.1</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/otraku.json</link>
       <guid isPermaLink="false">otraku-1.13.1</guid>
@@ -178,40 +218,6 @@ A small build update for 0.9 with a number of bug fixes.
 - Fixed markdown not being rendered in list notes.
 - Fixed the back button briefly appearing on some tabs of the home page.]]></description>
       <enclosure url="https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa" length="10342358" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>JellyBook v1.4.1</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/jellybook.json</link>
-      <guid isPermaLink="false">jellybook-1.4.1</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[JellyBook 1.4.1 | JellyBook-Release
-
-Sorry for the error in the previous version 😅
-## What's Changed
-* chore: clarifications by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/223
-* fix: fix auth headers by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/225
-
-
-**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.4.0...v1.4.1
-
-<details>
-<summary>SHA1</summary>
-<ul>
-<li><code>JellyBook-Debug-arm32.apk</code>: <code>ebbaf6954023d544454e208d0252ac8b677cf2bc</code></li>
-<li><code>JellyBook-Debug-arm64.apk</code>: <code>f89c75aaf7debf647a6862fd401209aee4417110</code></li>
-<li><code>JellyBook-Debug-x86_64.apk</code>: <code>393f2b232e60c20e339be08f2b0fe0311ef06694</code></li>
-<li><code>JellyBook-Debug.aab</code>: <code>924fa1c6f34072205884366522c428e394f62ec7</code></li>
-<li><code>JellyBook-Debug.apk</code>: <code>29f8f3b49a9704745947251d24dfee5ed17eb67e</code></li>
-<li><code>JellyBook-Debug.ipa</code>: <code>2ead28016efc584defd6ea6d7e6c9f9cd9627aa6</code></li>
-<li><code>JellyBook-Release-arm32.apk</code>: <code>0587957d7a109283f0b31cc4bd8d634a6f9cff06</code></li>
-<li><code>JellyBook-Release-arm64.apk</code>: <code>48568af90caa5e67387b35ab7567f356ac8f43cc</code></li>
-<li><code>JellyBook-Release-x86_64.apk</code>: <code>0f3230be1ced4c74f7483e08ec08a247fc3fe650</code></li>
-<li><code>JellyBook-Release.aab</code>: <code>f3256e5c70f8bd09cbadc6f142cbb5949966a2d6</code></li>
-<li><code>JellyBook-Release.apk</code>: <code>030e3ec3aece59a66340f7784c3165650a27d4dc</code></li>
-<li><code>JellyBook-Release.ipa</code>: <code>f3a3c8b10b7538442b65a97f037f6e42a43deba3</code></li>
-</ul>
-</details>]]></description>
-      <enclosure url="https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa" length="14640159" type="application/octet-stream" />
     </item>
     <item>
       <title>Hanami v0.28.2</title>

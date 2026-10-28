@@ -4,6 +4,37 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Saber releases
 BEGIN:VEVENT
+UID:saber-1.37.0@omnisource
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Saber v1.37.0
+DESCRIPTION:Saber 1.37.0 | Saber_v1.37.0\n\n## External links\n\n[<img src=
+ 'https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-
+ badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&
+ nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/bad
+ ges/f-droid-badge.svg"\n    alt="Get it on F-Droid"\n    height=50>][f-dro
+ id]&nbsp\;[<img src="https://github.com/adil192/saber/blob/main/assets_raw
+ /badges/app-store-badge.svg"\n    alt="Download on the App Store"\n    hei
+ ght=50>][app_store]&nbsp\;[<img src="https://github.com/adil192/saber/blob
+ /main/assets_raw/badges/flathub-badge.svg"\n    alt="Download on Flathub"\
+ n    height=50>][flathub]\n\nFor other downloads\, scroll down and find th
+ e relevant file under "Assets".\n\n[f-droid]: https://f-droid.org/packages
+ /com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.ad
+ ilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?
+ id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/
+ id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## 
+ Changelog\n\n- You can now move strokes and images between pages by @Lavis
+ h883 and @QubaB in https://github.com/saber-notes/saber/pull/1829\n- Impro
+ ved the titlebar on Windows by @airon-main in https://github.com/saber-not
+ es/saber/pull/1763\n- Home screen transitions are now faster.\n- Code clea
+ nup.\n- @airon-main made their first contribution in https://github.com/sa
+ ber-notes/saber/pull/1763\n- @Lavish883 made their first contribution in h
+ ttps://github.com/saber-notes/saber/pull/1829\n- Full changelog: https://g
+ ithub.com/saber-notes/saber/compare/v1.36.4...v1.37.0
+URL:https://raynmahbub.github.io/OmniSource/feeds/saber.json
+END:VEVENT
+BEGIN:VEVENT
 UID:saber-1.36.4@omnisource
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261024

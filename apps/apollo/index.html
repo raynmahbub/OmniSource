@@ -110,7 +110,7 @@
         <p class="ap-sub">The beloved Reddit client, continued by Apollo-Reborn</p>
         <p class="ap-dev">by Christian Selig (&amp; Apollo-Reborn contributors)</p>
         <div class="ap-badges">
-<span class="badge stable">Stable</span><span class="badge verified" title="Catalog attributes the IPA to the project release channel">Official source</span><span class="badge unverified">Not checked</span><span class="badge unverified">Source unconfirmed</span></div>
+<span class="badge stable">Stable</span><span class="badge verified" title="Catalog attributes the IPA to the project release channel">Official source</span><span class="badge ok"><span class="dot"></span>Last seen reachable</span><span class="badge verified">Source listed</span></div>
       </div>
       <div class="ap-install">
         <a class="get-capsule" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa" target="_blank" rel="noopener">Get · v4.0.0<span class="capsule-size">93.1 MB</span></a>
@@ -173,6 +173,222 @@
 
 - Reduce unnecessary **API-Key-Free** requests by fetching subscriptions in larger pages and, with Reduce Rate Limiting on, batching feed avatars by page; interrupted subscription refreshes keep the existing list (#1416: @icpryde)
   - Deleted or unavailable Bluesky previews stop repeatedly fetching themselves and using Reddit request</pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.9.0</span>
+    <span class="d">Oct 09, 2026</span></div>
+  <div class="meta"><span>92.5 MB</span><code title="Recorded SHA-256">2b74336d4a37c6bd…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.9.0/Apollo-Reborn-3.9.0.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.9.0 | Apollo-Reborn-3.9.0
+
+### Features
+
+- Add an **in-app update prompt**: from the next release on, Apollo Reborn checks for updates once a day and, when one is out, lets you send it to AltStore, SideStore, Feather, or FlareStore or download the IPA, with the release notes a tap away (#1343: @IllIIllIllIllII)
+  - Tap **Later** or **Skip this version** to put it off, check any time with **Check for Updates** (About), or turn off **Automatic Update Checks** (Privacy, on by default); jailbreak installs don&#x27;t check
+  - What&#x27;s New now shows the app icon you picked instead of the default one
+- Open the **subreddit switcher** as a native sheet when you tap a feed&#x27;s title, with search, your favorites, and live results, instead of the small floating dropdown; typing a multireddit like apple+iphone still works (#1313, #1387: @IllIIllIllIllII)
+  - Press and hold the **Posts** tab to open it while a feed is open, now on Liquid Glass too, and the search field stays in place as you scroll the sheet
+- Add a **Liquid Glass** switch (Interface → Appearance, on by default) so Liquid Glass builds can use Apollo&#x27;s classic look without installing a different IPA; quit and reopen Apollo for the change to apply (#1384: @IllIIllIllIllII)
+  - Shown on Liquid Glass builds on iOS 26 and later, except inside LiveContainer; while it&#x27;s off, Liquid Glass-only options are hidden
+- Add a **Minimize** Hide Style for **Hide Bars on Scroll** (Interface → Tab Bar, Liquid Glass) that shrinks the tab bar into a small glass pill showing the current tab as you scroll, like Safari; tap the pill or scroll back up to bring the full bar back (#1349, #1384: @IllIIllIllIllII)
+  - With any Hide Style on Liquid Glass, a tab bar or header hidden by scrolling now slides back in when you open a page or go back or forward, and the tab bar no longer comes back on its own after 30 seconds
+- Add **Reduce Rate Limiting** (Accounts &amp; API Keys → Experimental, off by default) so **API-Key-Free** accounts hit Reddit&#x27;s request limit less often: profile pictures load in batches without their collectible frames, Community Highlights refresh every 30 minutes instead of every 2, and your sign-in is checked less often (#1369: @icpryde)
+  - Apollo offers it once: when you sign in without an API key, or, if you&#x27;re already signed in, the first time you hit the limit
+  - Even with it off, API-Key-Free accounts skip repeated account requests at launch and when you come back to the app, Community Highlights wait out a rate limit, and your own profile no longer shows &quot;has been banned&quot; during one
+- Add **Kagi** to the Search tab&#x27;s **Search With** menu for Kagi subscribers: paste your Kagi Session Link once, then search Reddit through Kagi with the same result cards, Read More, and filters as Google, plus each post&#x27;s score, comments, and age right away (#1305: @nickclyde)
+  - Each page of results counts as one search on your Kagi plan; change or remove the link under Accounts &amp; API Keys → Kagi Search
+- Add **Open via Nitter** (Open in App → X / Twitter, off by default) to open X and Twitter links on a Nitter instance you pick from a live list or enter yourself, so you can read posts and profiles without an X account (#1334: @nickclyde)
+  - Shared and copied links stay on x.com
+- Open **Edit Profile** (your profile&#x27;s ••• menu) inside Apollo on iOS 16 and later, signed in as the current account and styled with your theme, instead of in Safari, which often wasn&#x27;t signed in (#1367: @icpryde)
+  - API-key accounts without a **Reddit Web Sign-In** are asked to sign in once first
+- Add **True Black Keyboard** (Interface → Display &amp; Navigation, off by default) to make the keyboard&#x27;s background pure black for OLED screens, in dark mode, light mode, or always (#1316: @IllIIllIllIllII)
+- Add **Settings Icon Theme** (Settings → Appearance → Other, Light by default) to show settings icons as colored symbols on dark tiles, like iOS Settings in dark mode, either always (Dark) or only in dark mode (System) </pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.8.5</span>
+    <span class="d">Sep 29, 2026</span></div>
+  <div class="meta"><span>92.2 MB</span><code title="Recorded SHA-256">e90d101cb782c3b1…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.8.5/Apollo-Reborn-3.8.5.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.8.5 | Apollo-Reborn-3.8.5
+
+### Features
+
+- Add **Google Search** to the Search tab: tap the magnifier and pick Google to find Reddit threads through Google, with its snippets, Any Time and Exact Words filters, and results that open natively in Apollo (#1260: @icpryde)
+- Open the fullscreen image viewer&#x27;s **Copy / Save / Share** menu where you press and hold, instead of the middle of the screen (#1254: @IllIIllIllIllII)
+- Add **Toon Bot** and **Happy Toon Bot** to the Concepts icon pack (#1253: @IllIIllIllIllII)
+
+### Performance
+
+- Make Apollo lighter on memory and quicker to launch: image caches now have size limits and are freed when iOS runs low on memory, the Deleted Comments and sidebar text hooks stay idle when they aren&#x27;t needed, editing a comment no longer holds up other loads for up to 20 seconds, and launch does less work (#1169: @paradoxally, @icpryde)
+  - Also stops the comments title flashing on non-Liquid-Glass builds, and makes **Remember Post Sort** open posts from links, the inbox, or Floating Post Tabs in your saved sort straight away instead of reloading them
+- Stop the **AI comment summary** from re-running over and over while you scroll a thread (#1270: @Thetromboneman1)
+- Stop filtered posts leaving stacks of gray gaps in feeds, correcting just the affected rows instead of redrawing the whole feed (#1274: @Thetromboneman1)
+
+### Fixes
+
+- Fix a feed **crash** when several RedGIFs posts load at once, most often right after launching or switching accounts (#1251: @icpryde)
+- Fix a crash tapping &quot;Translated from…&quot; on a recovered **deleted comment** (#1222: @icpryde)
+- Fix **RedGIFs** posts showing &quot;RedGIFs error&quot; on every post after switching Wi-Fi, cellular, or VPN, and on older RedGIFs videos with no listed length (#1256, #1258: @icpryde)
+- Fix **API-Key-Free** feeds getting stuck on a spinner: avatar lookups no longer use up Reddit&#x27;s request limit for your session (#1220: @icpryde)
+- Keep avatar and subreddit lookups on the active account, so avatars stop staying blank and follow and subscribe states are right when you have several accounts signed in (#1227: @icpryde)
+- Fix **Add Account** signing in with the active account&#x27;s saved API key instead of the one set in Settings (#1237: @icpryde)
+- Explain what went wrong when Reddit rejects your API key during sign-in, instead of leaving a blank &quot;{}&quot; page (#1236: @icpryde)
+- Fix **Invalid Backup** when restoring backups made on 3.7.x and earlier (#1217: @icpryde)
+- Fix **Unmute Videos** swapping the sound between two playing feed videos on every frame, starting videos with sound from feeds you already left, and playing on with sound under a different fullscreen video (#1247, #1250, #1252: @icpryde)
+- Fix a post&#x27;s video going grey, and the video scrubber not working, after opening the OP&#x27;s profile or swiping forward back into the post (#1269: @icpryde)
+- Fix **Swipe Past Gallery to Navigate** only acting after you lift your finger, sometimes on the wrong thread: swiping past a feed gallery&#x27;s first or last image now goes straight to your post swipes (vote, save, back, or forward) (#1271: @Thetromboneman1)
+- Fix tapping a post sometimes opening a gallery post from further up the feed with **Swipe Through Feed Galleries** on (#1248: @icpryde)
+- Fix **Gallery View** only playing the first video when swiping on CarPlay (CarBridge/CarCast) (#1257: @icpryde)
+- Fix **Download Video** sending the first video you shared again over Messages, and clean up the downloaded copies it left behind (#1216, #1219: @icpryde)
+- Reserve room for **inline comment images** up front, so comments no longer grow when the image finishes loading (#1273: @Thetromboneman1)
+- Explain why a **comment** couldn&#x27;t post, such as the post being removed (and where the mods&#x27; reason is), the thread being locked or archived, the parent comment being removed, or a ban, instead of &quot;Reddit had a little hiccup&quot; (#1275: @icpryde)
+- Fix a just-posted **image comment** showing &quot;[Unknown Image]&quot; under th</pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.8.0</span>
+    <span class="d">Sep 25, 2026</span></div>
+  <div class="meta"><span>92.1 MB</span><code title="Recorded SHA-256">3c6a855d7e19351a…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.8.0/Apollo-Reborn-3.8.0.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.8.0 | Apollo-Reborn-3.8.0
+
+### Features
+
+- Add **Save All Media** to save every image, GIF, and video in a Reddit gallery, Imgur album, or ImageChest post at once, from the fullscreen viewer&#x27;s menus or an album&#x27;s long-press menu, with a progress ring and Cancel (#1048: @IllIIllIllIllII)
+  - Fullscreen images offer Save Image next to Share, and holding an image in the viewer or a feed gallery offers Copy Image and Save Image for that image instead of jumping straight to the share sheet
+  - Also fixes **Download Video** when only Reddit&#x27;s copy is available, **Save GIF** in the share sheet, and missing post controls on albums opened from a link in a post
+- Add **Action Menus** (Interface → Menus) to reorder and hide the actions in Apollo&#x27;s ••• menus and, for moderators, its moderator menus, one menu at a time with a live preview (#1131: @icpryde)
+- Redesign the **Account Switcher** as a themed bottom sheet with larger avatars, Add Account and Edit at the top, and drag-to-reorder that no longer refreshes your feed (#1077: @IllIIllIllIllII)
+  - Also fixes a crash when switching accounts
+- Add **Automatic Backups** (Data → Backup Settings) — pick a folder in Files and your settings are backed up there every day, three days, or seven days, keeping the ten most recent automatic backups (#1060, #1148, #1152: @IllIIllIllIllII)
+  - Backups now save as `.apollobackup` files with the Apollo icon, and opening one from Files asks before restoring; existing `.zip` backups still restore
+- Add **Settings Shortcuts** — press and hold the Settings tab to jump straight to up to 15 settings pages, chosen and reordered under Interface → Tab Bar → Settings Shortcuts (#1150: @IllIIllIllIllII)
+- Add a **Return Button** that appears beside Back after a status-bar tap takes you to the top; tap it, or the status bar again, to jump back to where you were reading, now on Liquid Glass too (#1116: @icpryde, @IllIIllIllIllII)
+  - Turn the button off under Interface → Display &amp; Navigation; the second status-bar tap keeps working either way
+- Rework **Hidden &amp; Deleted** into a profile row that opens one combined feed of archived posts and comments, labeled Hidden, Removed, or Deleted, with inline images and swipeable albums (#1137: @IllIIllIllIllII)
+- Add **Profile Picture Shape** (Interface → Display &amp; Navigation) to show profile pictures as Full, Circle, or rounded Square across posts, comments, messages, the profile tab, and the Account Switcher (#1136: @IllIIllIllIllII)
+- Extend **Immersive** profile artwork behind the status and navigation bars with a wider crop and smoother fade, and long-press a profile banner to view it fullscreen and save it (#1186: @IllIIllIllIllII)
+- Play GIF and video tiles silently in **Gallery View**&#x27;s grid while they&#x27;re on screen, with separate **Play Videos in Gallery View** and **Play GIFs in Gallery View** switches (Media → Browsing, on by default) (#1142: @icpryde)
+- Speed up opening and closing **images and albums** — albums zoom straight out of the feed thumbnail like single images, the background fades as you swipe media away, and closing an album returns the feed carousel to the last image you viewed (#1143: @IllIIllIllIllII)
+- Smooth out scrolling through **video-heavy feeds** — playing videos take far less of the app&#x27;s time, and the new **Smoother Video Scrolling** switch (Posts &amp; Feeds → Feed, on by default) prepares players in the background and lets video posts draw without stalling the scroll (#1168: @icpryde)
+- Keep unsent **Chat** drafts in modern Direct Chat, saved per account and conversation and restored when you come back (#1207: @Thetromboneman1)
+- Add **Swipe Tab Bar to Navigate** (Interface → Tab Bar, Liquid Glass, off by default) to swipe the tab bar back and forward again in place of the native drag-to-switch-tabs gesture; takes effect after relaunching (#1075: @DeltAndy123)
+- Add **Confirm Favorite Changes** (Subreddits → Favorites, off by default) so the star on the Subreddits list asks before a</pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.7.1</span>
+    <span class="d">Sep 13, 2026</span></div>
+  <div class="meta"><span>91.7 MB</span><code title="Recorded SHA-256">46639569a12d367f…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.7.1/Apollo-Reborn-3.7.1.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.7.1 | Apollo-Reborn-3.7.1
+
+### Features
+
+- Add **Hide Header on Scroll** (Interface → Tab Bar) so the Liquid Glass navigation bar follows the tab bar as it hides and reappears, in both Two-Gesture and Classic scroll modes (#1079: @IllIIllIllIllII)
+  - Hide Bars on Scroll, Hide Style, Hide Header on Scroll, and Scroll Behavior are separate controls now, and Hide Style, Scroll Behavior, and Header Style pick from native glass menus that show the current choice in the row
+  - Gallery View honors the selected Header Style while scrolling and after the bars come back, instead of leaving an opaque strip under the navigation controls
+
+### Fixes
+
+- Fix **swipe navigation** feeling sluggish since 3.7.0 — pages settle with Apollo&#x27;s original easing again after you lift your finger, on back, forward, and cancelled swipes (#1073: @IllIIllIllIllII)
+- Fix the **comment jump button** stalling on the first parent comment since 3.7.0 — consecutive taps advance again without scrolling past the current comment first, and long-press to jump back uses the corrected position (#1094: @IllIIllIllIllII)
+- Fix posts opened from **Community Highlights**, deep links, Recently Read, Floating Post Tabs, and other `apollo://` routes ignoring the subreddit&#x27;s suggested sort and your Remember Post Sort and Remember Subreddit Sort choices — they now open on the same comment sort a feed tap would (#1102: @icpryde)
+- Fix several **crashes**: opening 3.7.0 on TrollStore and other ElleKit installs, a profile page still loading when you switch accounts or refresh, expanding or collapsing a multireddit in the subreddit list, and the notification fetcher reading settings that had just been replaced (#1089: @IllIIllIllIllII)
+  - Classic (non-glass) builds running under LiveContainer no longer mistake themselves for Liquid Glass builds, the suspected cause of crashes opening search, settings, posts, and subreddits there
+- Keep **Liquid Glass** builds from crashing when a feed element&#x27;s bitmap can&#x27;t be created, seen when tapping the Posts tab to return to the top of a long Popular feed; the element is left blank instead (#1099: @icpryde)
+- Fix **Keep in Floating Tab** and the other Apollo Reborn rows in the legacy ⋯ sheet crashing the app when a third-party menu tweak such as Translomatic is installed (#1076: @icpryde)
+- Fix **videos going quiet** after rotating the phone with the fullscreen viewer open, and stop a second video under the viewer from starting its own audio (#1080: @icpryde)
+- Fix **Add to Multireddit** reporting &quot;Error adding to multireddit&quot; even though the subreddit was added, and the multireddit&#x27;s subtitle lagging until the next refresh (#1081: @icpryde)
+- Keep the Liquid Glass action pill **expanded by default** again — collapsing it into the ⋯ is now the opt-in **Collapse Navigation Actions** switch (Interface → Display &amp; Navigation), and **Center Title Between Buttons** is back for the expanded layout (#1105: @IllIIllIllIllII)
+  - Titles stay centered unless the expanded actions need the room, the pill no longer flashes when the subreddit picker opens or closes, and a startup recursion on the always-expanded path is fixed
+- Restore **Hidden** as a **Header Style** option on Liquid Glass — it removes the top scroll-edge effect without adding a blur, and existing Hidden preferences and backups work again (#1074: @IllIIllIllIllII)
+- Fix the Liquid Glass tab bar popping open and snapping back on iOS 27 when a **Two-Gesture** reveal starts with the Left or Right hide style (#1078: @IllIIllIllIllII)
+- Show the **+N new-comment count** on Community Highlights again after a refresh (#1098: @IllIIllIllIllII)</pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.7.0</span>
+    <span class="d">Sep 11, 2026</span></div>
+  <div class="meta"><span>91.7 MB</span><code title="Recorded SHA-256">3435f0c47f299f6f…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.7.0/Apollo-Reborn-3.7.0.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.7.0 | Apollo-Reborn-3.7.0
+
+### Features
+
+- Add **Floating Post Tabs** (Posts &amp; Feeds → Floating Tabs, off by default) — keep up to five posts open as draggable bubbles from any post or feed ⋯ menu, and tap one to land exactly where you left off (#984, #1061: @icpryde)
+  - Bubbles snap to the screen edges, tuck away when dragged past them, stack magnetically, and hold-to-preview the post; drop one on the ✕ to close it
+  - Match threads wear the two teams&#x27; crests on their bubble, and two text posts from the same subreddit get a big letter each so they don&#x27;t look like twins
+- Add a **Feed Shortcuts** screen (Features → Subreddits) with Classic, Circle, Tinted, Soft Tile, and Solid Tile icon styles, Rows, Grid, Side-by-Side, and Icon Dock layouts, a live preview, and visibility toggles for Popular, All, and Moderator Posts (#988: @IllIIllIllIllII)
+- Add a **Subreddit Sections** screen (Features → Subreddits) — give followed users their own FOLLOWING section with **Separate Followed Users**, drag Favorites, Multireddits, Moderator, and Following into any order, and watch a pinned live preview follow every change (#997, #1020: @icpryde)
+  - Subreddit List Enhancements, Modern Subreddit Dividers, and Hide Multireddit Descriptions move here, and the A–Z index stays visible and themed with Enhancements off
+- Add **Per-Account Favorites** and **Sort Favorites Alphabetically** (Subreddits → Favorites), so each account can keep its own subreddit favorites and keep them in A–Z order (#1017, #1042: @IllIIllIllIllII)
+- Add Fade, Down, and Off styles to **Hide Bars on Scroll** for the Liquid Glass tab bar alongside Left and Right, plus a **Scroll Behavior** picker that restores Apollo&#x27;s Classic one-gesture hide next to the Two-Gesture default (#972: @IllIIllIllIllII)
+  - Interface settings regroup into Tab Bar and Display &amp; Navigation, and Profile Layout opens straight from the Apollo Reborn hub
+- Rework **Liquid Glass navigation** around a collapsible action pill — the ⋯ button expands into translate, moderator, sort, and more actions, so titles stay centered and stop resizing between screens (#1035, #1047: @IllIIllIllIllII)
+  - Navigation buttons match the back button and title, moderator controls turn a brighter green with readable menu text, the pill collapses while subreddit search is open, and a cancelled swipe-back no longer jumps the page
+  - Replaces the Center Title Between Buttons setting with automatic placement; standard builds keep their expanded actions
+- Replace the Liquid Glass **feed search bar** with the native glass pill — it activates in place, compresses as you scroll, and reveals on a pull at the top, fixing the feed sliding under the field and the bar floating detached after cancel (#1002, #1026: @icpryde)
+  - Results and the query survive opening a post, the quick-switcher&#x27;s autocomplete highlight stays legible on near-white accents, and the bar is in place from the first frame when a feed re-appears at its top
+  - Tapping the Posts tab scrolls to the top and a second tap returns to the subreddit list, including from followed-user profiles (#1021, #1040: @IllIIllIllIllII)
+  - The Keep Search Bar Visible setting is retired; in-place activation is simply how glass search works now
+- Add **Bold Post Titles** (Appearance → Posts) — feed post titles in Semibold for large and compact posts, every theme and theme font, Liquid Glass or legacy chrome; flips live without a relaunch (#1033: @icpryde)
+- Show read state on **Community Highlights** — unread dots, a New badge for posts under 24 hours old, a theme-colored +N count for comments added since your last visit, and dimmed titles once a highlight is read (#1041: @IllIIllIllIllII)
+- Add a live **Profile Layout** preview for Immersive, Compact, and a restored Native layout that updates as you change avatar and visibility options, with optional pinning (#1034: @IllIIllIllIllII)
+  - Also fixes copying your username on Immersive and Compact layouts and removes duplicate</pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.6.0</span>
+    <span class="d">Aug 18, 2026</span></div>
+  <div class="meta"><span>91.1 MB</span><code title="Recorded SHA-256">5badca0a3b1d32fc…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.6.0/Apollo-Reborn-3.6.0.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.6.0 | Apollo-Reborn-3.6.0
+
+### Features
+
+- Add **Gallery View** to the Home feed, Popular, All, Moderator Posts, and user profiles, with real video controls, rotation, and sort inherited from the feed you opened it from (#904: @icpryde)
+  - Adds a universal &quot;...&quot; menu to your own profile holding Gallery View, Edit Profile, Recently Read, hidden and deleted content, and Share Profile, so the floating Edit pill and the nav-bar clock and eye icons are gone
+- Add **Live Interactive Posts** so Reddit&#x27;s Developer Platform posts — live match threads, games, and other custom widgets — render inline in comments and the feed instead of the &quot;not supported on old Reddit&quot; placeholder (#920, #939: @icpryde)
+- Add a **Feed Video Scrubber** that makes an inline video&#x27;s own progress bar grabbable, so you can slide to seek without opening the player (#938: @icpryde)
+  - Adds **Unmute Videos in Feed** alongside it, with Never, Always, and Remember modes
+- Redesign the **App Icon** picker around browsable pack cards, a daily-rotating Spotlight row, an adaptive iPad grid, and clearer selection state and haptics (#912, #941: @IllIIllIllIllII)
+- Add an **Icon Appearance** menu so any icon can be pinned to its Light or Dark artwork instead of always following the device appearance (#894: @IllIIllIllIllII)
+- Add **Wallpapers** to Settings for browsing and saving Apollo&#x27;s Goodbye wallpaper collections for iPhone, iPad, and Mac (#947: @IllIIllIllIllII)
+- Add a configurable **Share Link Host** so Copy Link, the share sheet, and Share as Image can share through Reddit, old.reddit, vxReddit, or fxreddit (#857: @JamesLautner)
+- Add a **Blur NSFW Media** setting with Reddit Setting, Always, and Never options, covering mature media while leaving the post title readable (#874: @jordanearle)
+- Add **Swipe Past Gallery to Navigate** so swiping past the first or last image of a feed gallery goes back or forward instead of rubber-banding (#934: @icpryde)
+- Add swipe navigation between **Notifications and Chat** in the Inbox, and keep the title from sliding across when switching tabs (#900: @icpryde)
+- Add **Prefer Native Images** to Comment Link Host, so comment images upload natively wherever a subreddit allows image comments and only fall back to the link host where it doesn&#x27;t (#952: @icpryde)
+- Add the **Right to Repair** app icon, overhaul the **Classics** Liquid Glass pack with more faithful recreations and four new icons, and refresh **Synthwave** (#888, #915, #927, #928: @IllIIllIllIllII, @bajader)
+- Move **Icon-Only Tab Bar** under Settings &gt; Interface alongside the rest of the tab bar options (#867: @JeffreyCA)
+
+### Fixes
+
+- Fix five crashes reported against 3.5.1 — Filters &amp; Blocks Edit and the Tag Filters toggle, switching accounts from the Inbox, token refresh, and Liquid Glass nav titles — plus a crash on malformed multireddit responses (#864, #897: @jordanearle)
+- Stop hidden scrape web views letting a Reddit video ad take over the screen while **Community Highlights**, Badge Book, Social Links, User Flair, or the sidebar load in the background (#908: @jordanearle)
+- Stop the **theme crash kill-switch** disabling a custom theme after force-quits, iOS prewarm discards, or jetsams, while still tripping on a real crash loop (#923: @icpryde)
+- Fix **Community Highlights** stalling at two entries when Reddit serves its bot challenge, plus the collapsed bar&#x27;s excess padding and the layout snap the first time a subreddit opens (#925, #926: @icpryde)
+- Fix **A–Z scrubbing** in the Subreddits list going dead mid-drag on non-Liquid-Glass builds, along with the black bands behind its section headers (#936: @icpryde)
+- Fix images being cropped in multi-image **feed carousels** — every page now shows the complete picture, letterboxed in the theme&#x27;s card color (#922: @icpryde)
+- Fix **link previews** rendering as mojibake for pages served in a legacy charset such as EUC-KR, Shift_JIS, GB18030, or Big5 (#950: @icpryde)
+- Fix **tweet previews** not renderin</pre></details>
+</article><article class="ap-version">
+  <div class="ap-version-head"><span class="v">v3.5.1</span>
+    <span class="d">Aug 07, 2026</span></div>
+  <div class="meta"><span>90.8 MB</span><code title="Recorded SHA-256">5025a6391c3d6b9e…</code><a class="button small" href="https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.5.1/Apollo-Reborn-3.5.1.ipa" target="_blank" rel="noopener">Download</a></div>
+  <details class="ap-changelog"><summary>Release notes</summary><pre class="ap-notes">Apollo 3.5.1 | Apollo-Reborn-3.5.1
+
+### Features
+
+- Add **Swipe Through Feed Galleries** for paging through every image directly in a feed card, with smarter sizing and seamless fullscreen transitions, plus **Swipe Up for Comments** to open the real comments screen over fullscreen media (#805: @jordanearle)
+- Expand **multireddits** with Gallery View, in-app renaming and descriptions, custom icons, and an option to hide their descriptions in the Subreddits list (#799, #837: @icpryde)
+- Add approximate **vote breakdowns** for posts and author-only insights for your own comments (#802: @jordanearle)
+- Replace **Scroll Edge Effect** with a clearer **Header Style** picker and add a progressive Blur option alongside the iOS 26 Soft and iOS 27 Hard styles (#843: @jordanearle)
+- Add private, local-only **Crash Reports** that stay on your device unless you review and explicitly attach a sanitized report to the bug form (#824: @jordanearle)
+- Add an opt-in **Apple Translate** sheet for Apollo&#x27;s post and comment Translate action on supported iOS versions (#812: @DeltAndy123)
+- Add full-screen **View Banner** and **View Icon** actions to subreddit headers, with tap-and-hold access to customization options (#845: @icpryde)
+- Improve the **Search** tab with pull-to-refresh for subreddit discovery, reliable trending limits, and a separate Random NSFW Subreddit row (#788: @JeffreyCA)
+- Improve cloud **AI Summaries** with searchable Gemini and OpenRouter model browsers, working defaults, provider attribution, and clearer service errors (#778: @jordanearle)
+- Improve **Settings** discoverability with a reddit.com Web Sign-In row under Accounts &amp; API Keys and a Theme Manager shortcut on the Apollo Reborn hub (#855: @jordanearle)
+- Add gaze and pointer hover effects plus multiwindow support when Apollo runs on **Apple Vision Pro** (#759: @rebelancap)
+- Add Original Apollo, Halo, Aloppo, and Pixels **Liquid Glass app icons**, while refreshing the Apollo Classic, Helios, and Jryng artwork for iOS 27 (#784, #800, #804, #819, #842: @IllIIllIllIllII)
+- Make **Open Reddit Links in Apollo** more reliable by moving recommended automatic Safari routing into Link Companion and retaining manual and legacy fallback extensions (#786: @jordanearle)
+
+### Fixes
+
+- Improve networking and media reliability by removing avoidable stalls, bounding caches and concurrent downloads, preserving animated album media when saving or sharing, and making uploads and share-link resolution more resilient (#728: @ryannair05)
+- Fix newly posted or edited **comments** appearing blank or incomplete until the thread is reopened, including missing usernames, flair, scores, and timestamps (#808: @icpryde)
+- Fix major **crash and memory** regressions affecting video-heavy threads, translated or recovered comments, native video comments, and profile-tab long presses (#796, #823, #829, #844: @icpryde, @jordanearle)
+- Fix **Gallery and media** issues including silent hosted videos, ignored NSFW blur preferences, iOS 27 menu crashes, frozen search-result videos, and blank or permanently compact link previews (#767, #769, #781, #789, #807: @jordanearle, @JeffreyCA, @icpryde)
+- Fix **profiles, subreddit headers, and themes** flickering or laying out incorrectly, including unreadable context menus and duration pills, indistinct read posts, uneven row highlights, misaligned profile cards, stuck refresh offsets, and Pixel Pals drifting behind the Dynamic Island (#846, #848, #849, #853: @icpryde, @jordanearle)
+- Fix **posting, translation, and moderation** regressions including long composer titles, an unsafe Text editor Post button, untranslated media-post bodies, poll flair, search state, long translated titles, and incorrect moderator-row routing (#780, #793, #795, #835: @jordanearle, @icpryde)
+- Fix lists becoming stuck beneath the tab bar on **iOS 27** or hiding their final rows on standard builds, while smoothing legacy hide-bars transitions (#821: @jordanearle)
+- Prevent account recovery</pre></details>
 </article></div>
       <h3>Permission changes</h3>
       <p class="ap-desc">Version-specific permission comparison is unavailable.</p>
@@ -181,16 +397,16 @@
     <section class="ap-section" data-reveal>
       <h2><span class="num">04</span> Details</h2>
       <div class="ap-detail-grid">
-<div class="ap-cell"><span>Version</span><strong>v4.0.0</strong></div><div class="ap-cell"><span>Updated</span><strong>Oct 25, 2026</strong></div><div class="ap-cell"><span>Size</span><strong>93.1 MB</strong></div><div class="ap-cell"><span>Requires iOS</span><strong>14.0</strong></div><div class="ap-cell"><span>Category</span><strong>Social</strong></div><div class="ap-cell"><span>Developer</span><strong>Christian Selig (&amp; Apollo-Reborn contributors)</strong></div><div class="ap-cell"><span>Bundle ID</span><strong><code>com.christianselig.Apollo</code></strong></div><div class="ap-cell"><span>Verification</span><strong>UNVERIFIED</strong></div><div class="ap-cell"><span>Source attribution</span><strong>Official source</strong></div><div class="ap-cell"><span>SHA-256</span><strong><code>33d40ea86bbf52f8f91c</code></strong></div><div class="ap-cell"><span>Download status</span><strong>Not checked</strong></div><div class="ap-cell"><span>Last checked</span><strong>Not recorded</strong></div><div class="ap-cell"><span>Version history</span><strong>1</strong></div><div class="ap-cell"><span>Source</span><strong><a class="ap-source-link" href="https://github.com/Apollo-Reborn/Apollo-Reborn" target="_blank" rel="noopener">Apollo-Reborn/Apollo-Reborn</a></strong></div></div>
+<div class="ap-cell"><span>Version</span><strong>v4.0.0</strong></div><div class="ap-cell"><span>Updated</span><strong>Oct 25, 2026</strong></div><div class="ap-cell"><span>Size</span><strong>93.1 MB</strong></div><div class="ap-cell"><span>Requires iOS</span><strong>14.0</strong></div><div class="ap-cell"><span>Category</span><strong>Social</strong></div><div class="ap-cell"><span>Developer</span><strong>Christian Selig (&amp; Apollo-Reborn contributors)</strong></div><div class="ap-cell"><span>Bundle ID</span><strong><code>com.christianselig.Apollo</code></strong></div><div class="ap-cell"><span>Verification</span><strong>VERIFIED</strong></div><div class="ap-cell"><span>Source attribution</span><strong>Official source</strong></div><div class="ap-cell"><span>SHA-256</span><strong><code>33d40ea86bbf52f8f91c</code></strong></div><div class="ap-cell"><span>Download status</span><strong>Last seen reachable</strong></div><div class="ap-cell"><span>Last checked</span><strong>2026-10-28</strong></div><div class="ap-cell"><span>Version history</span><strong>8</strong></div><div class="ap-cell"><span>Source</span><strong><a class="ap-source-link" href="https://github.com/Apollo-Reborn/Apollo-Reborn" target="_blank" rel="noopener">Apollo-Reborn/Apollo-Reborn</a></strong></div></div>
     </section>
 
     <section class="ap-section" data-reveal>
       <h2><span class="num">05</span> Trust &amp; provenance</h2>
-      <ul class="ap-checks"><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Required metadata</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Source and download URLs</span><small>pass</small></li><li class="ap-check unknown"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 9 6 6m0-6-6 6"/></svg></span><span>Last download probe</span><small>not established</small></li><li class="ap-check unknown"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 9 6 6m0-6-6 6"/></svg></span><span>Downloaded bytes match recorded SHA-256</span><small>not established</small></li></ul>
+      <ul class="ap-checks"><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Required metadata</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Source and download URLs</span><small>pass</small></li><li class="ap-check pass"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span><span>Last download probe</span><small>pass</small></li><li class="ap-check unknown"><span class="check-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 9 6 6m0-6-6 6"/></svg></span><span>Downloaded bytes match recorded SHA-256</span><small>not established</small></li></ul>
       <p class="ap-desc mt-3"><b>Official source.</b> The catalog attributes this IPA to the project release channel.</p>
       <p class="ap-desc">A recorded checksum alone does not prove who published a binary or that it is safe.</p>
       <p class="ap-desc">Published by Apollo-Reborn/Apollo-Reborn · github release.</p>
-      <ul><li>failed or unknown check: fileAvailable</li></ul>
+      <ul><li>catalog attributes the source to the project&#x27;s release channel (github-release)</li></ul>
       <div class="detail-note mt-3"><b>Compatibility notes:</b> Official Apollo-Reborn builds from the project&#x27;s own GitHub releases (deployment target iOS 14 per the build config). The standard variant is distributed here; the project also publishes Liquid Glass and icon variants on the same release. The long-standing Balackburn/Apollo AltStore source mirrors these same builds.</div>
     </section>
 

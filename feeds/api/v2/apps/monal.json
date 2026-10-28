@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-27",
-  "feedVersion": "e1de41d98323",
+  "generatedAt": "2026-10-28",
+  "feedVersion": "021b0816e7e1",
   "app": {
     "id": "monal",
     "name": "Monal",
     "developer": "Monal IM",
     "subtitle": "XMPP instant messenger",
     "bundleIdentifier": "G7YU7X7KRJ.SworIM",
-    "version": "6.4.23",
-    "versionDate": "2026-10-07",
+    "version": "6.4.24",
+    "versionDate": "2026-10-26",
     "description": "Monal is a free, open-source XMPP (Jabber) instant messenger for iOS and macOS. It offers OMEMO end-to-end encryption, multiple accounts, group chat and push notifications without a central server.",
     "shortDescription": "XMPP instant messenger",
     "category": "social",
@@ -22,11 +22,11 @@
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/02_chats.png",
       "https://raw.githubusercontent.com/monal-im/Monal/develop/Art/screenshots/04_contacts.png"
     ],
-    "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
-    "size": 39040077,
+    "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
+    "size": 39970806,
     "source": "monal-im/Monal",
     "sourceURL": "https://github.com/monal-im/Monal",
-    "checksum": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
+    "checksum": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941",
     "checksumPublished": false,
     "minOSVersion": "16.1",
     "status": "stable",
@@ -35,24 +35,73 @@
     "feedURL": "https://raynmahbub.github.io/OmniSource/monal.json",
     "health": {
       "reachable": true,
-      "detail": "HTTP 200",
-      "updatedAt": "2026-10-07"
+      "detail": "HTTP 302",
+      "updatedAt": "2026-10-26"
     }
   },
   "newest": {
-    "version": "6.4.23",
-    "date": "2026-10-07",
-    "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
-    "size": 39040077,
-    "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab"
+    "version": "6.4.24",
+    "date": "2026-10-26",
+    "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
+    "size": 39970806,
+    "sha256": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941"
   },
   "versions": [
+    {
+      "version": "6.4.24",
+      "date": "2026-10-26",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
+      "size": 39970806,
+      "sha256": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941"
+    },
     {
       "version": "6.4.23",
       "date": "2026-10-07",
       "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
       "size": 39040077,
       "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab"
+    },
+    {
+      "version": "6.4.22",
+      "date": "2026-09-24",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1094/Monal.ipa",
+      "size": 38407335,
+      "sha256": "5c05702731ef44fd203b3691b3462f56e0e238863f69083479cdd1712f428b08"
+    },
+    {
+      "version": "6.4.21",
+      "date": "2026-05-27",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1092/Monal.ipa",
+      "size": 38349660,
+      "sha256": "73c1d4e53ed347094ef2240574f8006b740ef33b896869bcdf94b4c099ce2d50"
+    },
+    {
+      "version": "6.4.20",
+      "date": "2026-04-22",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1090/Monal.ipa",
+      "size": 38337522,
+      "sha256": "a7ab3a4b15da81e9b4413462980b835912a9880d8365a53a7528b7f6798952c3"
+    },
+    {
+      "version": "6.4.19",
+      "date": "2026-03-14",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1085/Monal.ipa",
+      "size": 36535032,
+      "sha256": "d2f86ad46d7b484996fe4a200cdbccfc39e4fc61935a0fd6c49fbd5c374963a2"
+    },
+    {
+      "version": "6.4.17",
+      "date": "2026-01-05",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1072/Monal.ipa",
+      "size": 36498617,
+      "sha256": "9f959e54e1fa98f0b8b6de35f19f90c2475251d9c7d484efc766978f4612ef27"
+    },
+    {
+      "version": "6.4.16",
+      "date": "2025-12-23",
+      "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1069/Monal.ipa",
+      "size": 38702754,
+      "sha256": "76e588386758c255ed85bc94980dbd2d4cff367b1ecad51298dc67bf7234b959"
     }
   ],
   "verification": {

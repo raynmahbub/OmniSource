@@ -4,6 +4,17 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:iNKillerPlus releases
 BEGIN:VEVENT
+UID:inkillerplus-452.0.1@omnisource
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:iNKillerPlus v452.0.1
+DESCRIPTION:Instagram 452.0.1 | Instagram_452.0_iNKillerPlus_5.3\n\n• Fix
+ es Grid mode may crashes in v450+\n- Add full compatibility with IG v445+\
+ n- Updated base IPA to Instagram v451
+URL:https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json
+END:VEVENT
+BEGIN:VEVENT
 UID:inkillerplus-451.0.0@omnisource
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261014
@@ -12,22 +23,6 @@ SUMMARY:iNKillerPlus v451.0.0
 DESCRIPTION:Instagram 451.0.0 | Instagram_451.0_iNKillerPlus_5.3\n\n• Fix
  es Grid mode may crashes in v450+\n- Add full compatibility with IG v445+\
  n- Updated base IPA to Instagram v451
-URL:https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json
-END:VEVENT
-BEGIN:VEVENT
-UID:inkillerplus-449.0.0@omnisource
-DTSTAMP:20261008T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:iNKillerPlus v449.0.0
-DESCRIPTION:Instagram 449.0.0 | Instagram_449.0_iNKillerPlus_5.3\n\n• Fix
- es a possible crash on rootless JB\n- Add alternative icon to jailbreak si
- nce iG include the icon inside the app\n- Fixes show app icon in settings 
- for ios 26 - 27 as was disabled in previous versions\n- Fixes show email o
- pen in profiles or copied text to detect emails automaticlly\n- Fixes prof
- ile bio long press to copy detect email and links\n- Fixes read DM icon\n-
-  Fixes user exception for direct message\n- Add full compatibility with IG
-  v445+\n- Updated base IPA to Instagram v449.0
 URL:https://raynmahbub.github.io/OmniSource/feeds/inkillerplus.json
 END:VEVENT
 END:VCALENDAR

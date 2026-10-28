@@ -39,40 +39,4 @@ DESCRIPTION:Apollo 4.0.0 | Apollo-Reborn-4.0.0\n\n### Features\n\n- Add **i
  ck screen\n- Open **Gallery View** for All Saved or a selec
 URL:https://raynmahbub.github.io/OmniSource/feeds/apollo.json
 END:VEVENT
-BEGIN:VEVENT
-UID:apollo-3.9.0@omnisource
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:Apollo v3.9.0
-DESCRIPTION:Apollo 3.9.0 | Apollo-Reborn-3.9.0\n\n### Features\n\n- Add an 
- **in-app update prompt**: from the next release on\, Apollo Reborn checks 
- for updates once a day and\, when one is out\, lets you send it to AltStor
- e\, SideStore\, Feather\, or FlareStore or download the IPA\, with the rel
- ease notes a tap away (#1343: @IllIIllIllIllII)\n  - Tap **Later** or **Sk
- ip this version** to put it off\, check any time with **Check for Updates*
- * (About)\, or turn off **Automatic Update Checks** (Privacy\, on by defau
- lt)\; jailbreak installs don't check\n  - What's New now shows the app ico
- n you picked instead of the default one\n- Open the **subreddit switcher**
-  as a native sheet when you tap a feed's title\, with search\, your favori
- tes\, and live results\, instead of the small floating dropdown\; typing a
-  multireddit like apple+iphone still works (#1313\, #1387: @IllIIllIllIllI
- I)\n  - Press and hold the **Posts** tab to open it while a feed is open\,
-  now on Liquid Glass too\, and the search field stays in place as you scro
- ll the sheet\n- Add a **Liquid Glass** switch (Interface → Appearance\, 
- on by default) so Liquid Glass builds can use Apollo's classic look withou
- t installing a different IPA\; quit and reopen Apollo for the change to ap
- ply (#1384: @IllIIllIllIllII)\n  - Shown on Liquid Glass builds on iOS 26 
- and later\, except inside LiveContainer\; while it's off\, Liquid Glass-on
- ly options are hidden\n- Add a **Minimize** Hide Style for **Hide Bars on 
- Scroll** (Interface → Tab Bar\, Liquid Glass) that shrinks the tab bar i
- nto a small glass pill showing the current tab as you scroll\, like Safari
- \; tap the pill or scroll back up to bring the full bar back (#1349\, #138
- 4: @IllIIllIllIllII)\n  - With any Hide Style on Liquid Glass\, a tab bar 
- or header hidden by scrolling now slides back in when you open a page or g
- o back or forward\, and the tab bar no longer comes back on its own after 
- 30 seconds\n- Add **Reduce Rate Limiting** (Accounts & API Keys → Experi
- mental\, off by default) so **API-Key-Free** accounts hit Reddi
-URL:https://raynmahbub.github.io/OmniSource/feeds/apollo.json
-END:VEVENT
 END:VCALENDAR

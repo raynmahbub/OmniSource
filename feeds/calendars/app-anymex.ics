@@ -4,6 +4,37 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:AnymeX releases
 BEGIN:VEVENT
+UID:anymex-3.2.0@omnisource
+DTSTAMP:20261027T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:AnymeX v3.2.0
+DESCRIPTION:AnymeX 3.2.0 | AnymeX-iOS-v3.2.0\n\n### 🆕 Changelog\n### 
+ 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6beae5c1)
+  url nav\, deeplink support for fcm by @RyanYuuki\n- [֍](https://github.c
+ om/RyanYuuki/AnymeX/commit/3bb0908d) torrent file selector in player by @R
+ yanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b61e9b75) cf b
+ ypass and webview support for linux by @RyanYuuki\n\n\n### 🔧 Bug Fixes 
+ & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9975e4c0
+ ) fixed a grey screen when accessing released media on different services 
+ by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6db545c5)
+  fixed visibility issues on light mode by @RyanYuuki\n- [֍](https://githu
+ b.com/RyanYuuki/AnymeX/commit/ac97c83d) fixed rhttp disposing causing netw
+ ork reqs to fail by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX
+ /commit/20fb3809) fixed torrent broken on mobile by @RyanYuuki\n- [֍](htt
+ ps://github.com/RyanYuuki/AnymeX/commit/fc84a627) fixed login and webview 
+ on desktops by @RyanYuuki\n\n\n### 🧹 Chores & Documentation\n- [֍](htt
+ ps://github.com/RyanYuuki/AnymeX/commit/8f979177) bump version to v3.2.0 (
+ minor release) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/c
+ ommit/afbcc1b3) update sideloading source by @ghost\n\n\n![Total Downloads
+ ](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for
+ -the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current
+  Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.2.0/
+ total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=w
+ hite)
+URL:https://raynmahbub.github.io/OmniSource/feeds/anymex.json
+END:VEVENT
+BEGIN:VEVENT
 UID:anymex-3.1.9@omnisource
 DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261025

@@ -4,16 +4,18 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Monal releases
 BEGIN:VEVENT
-UID:monal-6.4.23@omnisource
-DTSTAMP:20261007T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:Monal v6.4.23
-DESCRIPTION:Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- 
- We don't show the login view anymore\, if all configured accounts are disa
- bled\n- The last message of a chat was partially hidden on iOS or macOS 27
- \, this is fixed now\n- Sharing something using the share sheet should no 
- longer attach a spurious garbled file alongside
+UID:monal-6.4.24@omnisource
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Monal v6.4.24
+DESCRIPTION:Monal 6.4.24 | Monal\n\n- Added DNSSEC bug warning\n- Fixed spu
+ rious MUC join errors\n- Fixed playback of received mp3 files\n- Fixed van
+ ishing toolbar buttons in active chats list\n- Fixed sharing location from
+  Google Maps\n- Switched from iOS bundled libxml2 to new rust based xml pa
+ rser to fix crashes\n- Now only accepting Channel/Group invites from conta
+ cts approved to our contact list\n- Fixed deeply nested xml DoS vector in 
+ push notification handler\n- Fixed several crashes
 URL:https://raynmahbub.github.io/OmniSource/feeds/monal.json
 END:VEVENT
 END:VCALENDAR
