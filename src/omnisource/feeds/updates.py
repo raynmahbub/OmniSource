@@ -38,8 +38,8 @@ def _event_dict(
         "changelog": changelog,
         "downloadURL": download_url,
         "iconURL": f"{base}/assets/{app.icon}",
-        "feedURL": f"{base}/{app.slug}.json",
-        "rssURL": f"{base}/{app.slug}.xml",
+        "feedURL": f"{base}/feeds/{app.slug}.json",
+        "rssURL": f"{base}/feeds/{app.slug}.xml",
         "status": app.status,
         "shortDescription": app.short_description,
     }

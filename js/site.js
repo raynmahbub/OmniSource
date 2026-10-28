@@ -775,10 +775,19 @@
     var verificationBadge = verification
       ? '<span class="badge ' + verificationBadgeClass(verification.status) + '" title="' + OS.esc(hashDetail) + '">' + OS.esc(VERIFICATION_LABELS[verification.status] || verification.status) + '</span>'
       : '';
+    var observation = verification && verification.transparencyEvidence;
+    var transparencyBadge = observation && observation.url === app.downloadURL && observation.lastHashedAt
+      ? (observation.sameURLDifferentDigest
+        ? '<span class="badge bad" title="Different bytes were observed at this URL for the same version; review before installing.">Bytes changed</span>'
+        : '<span class="badge unverified" title="Bytes were hashed on this date, not necessarily verified against a publisher signature.">Hashed ' + OS.esc(observation.lastHashedAt) + '</span>')
+      : '';
     var osMajor = minOSMajor(app);
     var device = window.OmniDevice;
     var profile = device ? device.profile() : {};
-    var deviceResult = device && (profile.ios || profile.device || profile.client) ? device.evaluate(meta.compatibility, profile) : null;
+    var effectiveCompat = Object.assign({}, meta.compatibility || {});
+    if (app.minOSVersion) effectiveCompat.minOSVersion = app.minOSVersion;
+    if (app.maxOSVersion) effectiveCompat.maxOSVersion = app.maxOSVersion;
+    var deviceResult = device && (profile.ios || profile.device || profile.client) ? device.evaluate(effectiveCompat, profile) : null;
     var deviceBadge = deviceResult ? '<span class="badge ' + (deviceResult.status === 'no' ? 'warn' : deviceResult.status === 'yes' ? 'ok' : 'unverified') + '" title="' + OS.esc(deviceResult.reason) + '">Device: ' + (deviceResult.status === 'yes' ? 'matches' : deviceResult.status === 'no' ? 'incompatible' : 'unknown') + '</span>' : '';
     var icon = iconSrc(app.iconURL || app.icon);
     return '<article class="app-card os-lift os-icon-hover' + (deviceResult && deviceResult.status === 'no' ? ' device-incompatible' : '') + (conflict ? ' has-collision' : '') + '" data-slug="' + OS.esc(slug) + '" tabindex="0" role="button" aria-label="View ' + OS.esc(app.name) + ' details">' +
@@ -795,7 +804,7 @@
           '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 20.5S4.5 16.1 4.5 10A4.5 4.5 0 0 1 12 7.2a4.5 4.5 0 0 1 7.5 2.8c0 6.1-7.5 10.5-7.5 10.5Z"/></svg>' +
         '</button>' +
       '</div>' +
-      '<div class="card-badges">' + statusBadge + sourceBadge + healthBadge + verificationBadge + integrityBadge + collisionBadge + staleBadge + deviceBadge + '</div>' +
+      '<div class="card-badges">' + statusBadge + sourceBadge + healthBadge + verificationBadge + integrityBadge + transparencyBadge + collisionBadge + staleBadge + deviceBadge + '</div>' +
       '<p class="app-description">' + OS.esc(app.subtitle || app.localizedDescription || 'View app details and installation options.') + '</p>' +
       '<div class="card-meta">' +
         '<span class="meta-item"><b>v' + OS.esc(app.version || '—') + '</b></span>' +
@@ -1620,6 +1629,8 @@
       if (grid) {
         grid.setAttribute('aria-busy', 'false');
         grid.innerHTML = apps.map(appCard).join('');
+        if (window.OmniDevice) window.OmniDevice.decorate(grid);
+        if (window.OmniUpdates) window.OmniUpdates.decorate(grid);
         grid.hidden = apps.length === 0;
         // A fresh grid has tabindex="0" on every card; collapse it back to the
         // single tab stop the roving pattern promises (see bindCatalog).

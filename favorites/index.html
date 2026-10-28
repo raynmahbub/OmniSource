@@ -38,6 +38,8 @@
     })();
   </script>
   <script src="../js/core.js" defer></script>
+  <script src="../js/device.js" defer></script>
+  <script src="../js/updates-local.js" defer></script>
   <script src="../src/js/i18n.js" defer></script>
   <script src="../js/features.js" defer></script>
   <script src="../website/assets/AssetManager.js" defer></script>
@@ -70,7 +72,7 @@
             <a href="./" class="active" aria-current="page" role="menuitem" data-i18n="nav.favorites">Favorites</a>
             <a href="../discover/" role="menuitem" data-i18n="nav.discover">Discover</a>
             <a href="../api/community.json" role="menuitem" data-i18n="nav.community">Community</a>
-            <a href="../#whats-new" role="menuitem" data-i18n="nav.whatsNew">What&rsquo;s new</a>
+            <a href="../#whats-new" role="menuitem"><span data-i18n="nav.whatsNew">What&rsquo;s new</span> <span class="badge blue" data-updates-nav hidden></span></a>
             <a href="../#trending" role="menuitem" data-i18n="nav.trending">Trending</a>
             <a href="../graph/" role="menuitem" data-i18n="nav.graph">Graph</a>
             <a href="../install/" role="menuitem" data-i18n="nav.install">Install</a>
@@ -123,6 +125,18 @@
   </section>
 
   <main class="shell">
+    <section class="device-profile" id="resignTracker" aria-labelledby="resignHeading">
+      <h2 id="resignHeading">Local re-sign estimates</h2>
+      <p>Save a signing date on an app page to see an approximate countdown here and on app cards. Actual certificate expiry and client behavior may differ. These dates stay in this browser.</p>
+      <p role="status" data-resign-summary>No signing dates saved. Add one on an app page.</p>
+      <ul data-resign-list></ul>
+      <div class="device-profile-form">
+        <label><input type="checkbox" data-resign-icon> Show a count of due estimates on the installed app icon, if supported</label>
+        <button class="button small" type="button" data-resign-disable>Turn off local reminders</button>
+        <button class="button small" type="button" data-resign-clear-all>Clear all signing dates</button>
+      </div>
+      <p>Reminders and icon badges update only while the catalog, Favorites or an app page is open; they are not background push notifications.</p>
+    </section>
     <section class="section" id="favorites-section" aria-label="Favorite apps">
       <div id="favorites-content" aria-live="polite">
         <div class="apps-grid">
@@ -269,10 +283,12 @@
               // never loads js/site.js, so there is no openApp() to call and a
               // data-slug hook would do nothing when tapped. apps/<slug>/ is
               // the same detail view and needs no JS at all.
-              return '<article class="app-card" data-reveal><div class="card-top"><div class="icon-wrap"><img class="app-icon" src="'+ esc(icon) +'" alt=""></div><div class="card-identity"><h3><a href="'+ esc(href) +'">'+ esc(name) +'</a></h3><p class="card-dev">'+ esc(dev) +'</p></div></div><p class="app-description">'+ esc((a.subtitle || a.localizedDescription || '').slice(0,120)) +'</p><div class="card-bottom"><span class="badge">'+ esc(ver) +'</span><a class="get-button" href="'+ esc(href) +'">View</a></div></article>';
+              return '<article class="app-card" data-app-id="'+ esc(slug) +'" data-reveal><div class="card-top"><div class="icon-wrap"><img class="app-icon" src="'+ esc(icon) +'" alt=""></div><div class="card-identity"><h3><a href="'+ esc(href) +'">'+ esc(name) +'</a></h3><p class="card-dev">'+ esc(dev) +'</p></div></div><p class="app-description">'+ esc((a.subtitle || a.localizedDescription || '').slice(0,120)) +'</p><div class="card-bottom"><span class="badge">'+ esc(ver) +'</span><a class="get-button" href="'+ esc(href) +'">View</a></div></article>';
             }).join('');
           }
           content.innerHTML = '<div class="apps-grid">' + gridHtml + '</div>';
+          if (window.OmniDevice) window.OmniDevice.decorate(content);
+          if (window.OmniUpdates) window.OmniUpdates.decorate(content);
           // Enhance with favorites buttons + ratings + reveal + install grid
           try { OS.Favorites && OS.Favorites.injectButtons && OS.Favorites.injectButtons(content); } catch(e){}
           try { OS.Ratings && OS.Ratings.injectRatingDisplays && OS.Ratings.injectRatingDisplays(content); } catch(e){}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T00:53:05Z",
+  "generatedAt": "2026-10-28T09:17:55Z",
   "count": 120,
   "classifications": {
     "Official": 0,
@@ -17,12 +17,13 @@
       "source_url": "https://github.com/927tx/IPA-Vault",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 89.6,
+      "reputation_score": 90.6,
       "health_status": "unknown",
+      "last_health_observation": null,
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-23",
+      "last_sync": "2026-10-27",
       "app_count": 13,
       "release_count": 0,
       "apps": [
@@ -666,6 +667,13 @@
           "reputation": 89.6,
           "appCount": 13,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T09:14:46Z",
+          "health": "unknown",
+          "reputation": 90.6,
+          "appCount": 13,
+          "verification": "unverified"
         }
       ]
     },
@@ -677,10 +685,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/aeharding/voyager",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-13",
       "app_count": 1,
       "release_count": 0,
@@ -1265,6 +1278,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/aeharding/voyager"
         }
       ]
     },
@@ -1276,10 +1298,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Aidoku/Aidoku",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-16",
       "app_count": 1,
       "release_count": 0,
@@ -1864,6 +1891,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Aidoku/Aidoku"
         }
       ]
     },
@@ -1875,10 +1911,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 71.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/alexsvitlov/iTransmission",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-01-12",
       "app_count": 1,
       "release_count": 0,
@@ -2337,6 +2378,15 @@
           "reputation": 71.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 71.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/alexsvitlov/iTransmission"
         }
       ]
     },
@@ -2347,11 +2397,16 @@
       "source_url": "https://github.com/alfiecg24/TrollInstallerX",
       "classification": "Experimental",
       "verification_status": "unverified",
-      "reputation_score": 78.4,
-      "health_status": "unknown",
+      "reputation_score": 75.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/alfiecg24/TrollInstallerX",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-09-12",
       "app_count": 1,
       "release_count": 0,
@@ -2810,6 +2865,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 75.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/alfiecg24/TrollInstallerX"
         }
       ]
     },
@@ -2821,10 +2885,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Anxcye/anx-reader",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-03-19",
       "app_count": 1,
       "release_count": 0,
@@ -3409,6 +3478,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Anxcye/anx-reader"
         }
       ]
     },
@@ -3419,11 +3497,16 @@
       "source_url": "https://github.com/Apollo-Reborn/Apollo-Reborn",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 97.4,
-      "health_status": "unknown",
+      "reputation_score": 94.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Apollo-Reborn/Apollo-Reborn",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-25",
       "app_count": 1,
       "release_count": 0,
@@ -4008,6 +4091,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 94.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Apollo-Reborn/Apollo-Reborn"
         }
       ]
     },
@@ -4019,10 +4111,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Ashreq/ashstore-repo",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-08-03",
       "app_count": 1,
       "release_count": 0,
@@ -4607,6 +4704,15 @@
           "reputation": 73.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Ashreq/ashstore-repo"
         }
       ]
     },
@@ -4618,10 +4724,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 84.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Avangelista/CarTube",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-01-23",
       "app_count": 1,
       "release_count": 0,
@@ -5080,6 +5191,15 @@
           "reputation": 84.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 84.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Avangelista/CarTube"
         }
       ]
     },
@@ -5091,10 +5211,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 84.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Avangelista/StatusMagic",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-02-08",
       "app_count": 1,
       "release_count": 0,
@@ -5553,6 +5678,15 @@
           "reputation": 84.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 84.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Avangelista/StatusMagic"
         }
       ]
     },
@@ -5564,10 +5698,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/BandarHL/BHInstagram",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-05-14",
       "app_count": 1,
       "release_count": 0,
@@ -6026,6 +6165,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/BandarHL/BHInstagram"
         }
       ]
     },
@@ -6037,10 +6185,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/BandarHL/BHTwitter",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-05-13",
       "app_count": 1,
       "release_count": 0,
@@ -6625,6 +6778,15 @@
           "reputation": 73.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/BandarHL/BHTwitter"
         }
       ]
     },
@@ -6636,10 +6798,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 83.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Bartuzen/qBitController",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-28",
       "app_count": 1,
       "release_count": 0,
@@ -7224,6 +7391,15 @@
           "reputation": 83.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 83.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Bartuzen/qBitController"
         }
       ]
     },
@@ -7235,10 +7411,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 75.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/BlueWallet/BlueWallet",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-21",
       "app_count": 1,
       "release_count": 0,
@@ -7823,6 +8004,15 @@
           "reputation": 75.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 75.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/BlueWallet/BlueWallet"
         }
       ]
     },
@@ -7834,10 +8024,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 71.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/bomberfish/CAPerfHUDSwift",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-12-19",
       "app_count": 1,
       "release_count": 0,
@@ -8296,6 +8491,15 @@
           "reputation": 71.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 71.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/bomberfish/CAPerfHUDSwift"
         }
       ]
     },
@@ -8306,11 +8510,16 @@
       "source_url": "https://cercube.com",
       "classification": "Experimental",
       "verification_status": "unverified",
-      "reputation_score": 51.4,
-      "health_status": "unknown",
+      "reputation_score": 53.1,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://cercube.com",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-23",
       "app_count": 1,
       "release_count": 0,
@@ -8769,6 +8978,15 @@
           "reputation": 51.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 53.1,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://cercube.com"
         }
       ]
     },
@@ -8780,10 +8998,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 80.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/chatsen/chatsen",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-08-12",
       "app_count": 1,
       "release_count": 0,
@@ -9368,6 +9591,15 @@
           "reputation": 80.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 80.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/chatsen/chatsen"
         }
       ]
     },
@@ -9379,10 +9611,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 90.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/claration/Feather",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-05",
       "app_count": 1,
       "release_count": 0,
@@ -9967,6 +10204,15 @@
           "reputation": 90.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 90.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/claration/Feather"
         }
       ]
     },
@@ -9978,10 +10224,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/clquwu/Cosmos-Music-Player",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-08",
       "app_count": 1,
       "release_count": 0,
@@ -10566,6 +10817,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/clquwu/Cosmos-Music-Player"
         }
       ]
     },
@@ -10576,12 +10836,17 @@
       "source_url": "https://github.com/cogwheel0/conduit",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 99.4,
-      "health_status": "unknown",
+      "reputation_score": 96.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/cogwheel0/conduit",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-16",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -11165,6 +11430,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 96.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/cogwheel0/conduit"
         }
       ]
     },
@@ -11176,10 +11450,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 99.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/CokePokes/AppStorePlus-TrollStore",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-17",
       "app_count": 1,
       "release_count": 0,
@@ -11638,6 +11917,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 99.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/CokePokes/AppStorePlus-TrollStore"
         }
       ]
     },
@@ -11649,10 +11937,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/cranci1/AnimeGen",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-03-04",
       "app_count": 1,
       "release_count": 0,
@@ -12237,6 +12530,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/cranci1/AnimeGen"
         }
       ]
     },
@@ -12248,10 +12550,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 83.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/cranci1/Sora",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-08-20",
       "app_count": 1,
       "release_count": 0,
@@ -12836,6 +13143,15 @@
           "reputation": 83.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 83.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/cranci1/Sora"
         }
       ]
     },
@@ -12847,10 +13163,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/DevelopCubeLab/AnimationSpeed",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-05-27",
       "app_count": 1,
       "release_count": 0,
@@ -13309,6 +13630,15 @@
           "reputation": 73.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/DevelopCubeLab/AnimationSpeed"
         }
       ]
     },
@@ -13320,10 +13650,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/DevelopCubeLab/BatteryInfo",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-07-09",
       "app_count": 1,
       "release_count": 0,
@@ -13782,6 +14117,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/DevelopCubeLab/BatteryInfo"
         }
       ]
     },
@@ -13793,10 +14137,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 84.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/DevelopCubeLab/EnableQUIC",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-02-21",
       "app_count": 1,
       "release_count": 0,
@@ -14255,6 +14604,15 @@
           "reputation": 84.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 84.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/DevelopCubeLab/EnableQUIC"
         }
       ]
     },
@@ -14266,10 +14624,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/DonutWare/Fladder",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-08",
       "app_count": 1,
       "release_count": 0,
@@ -14854,6 +15217,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/DonutWare/Fladder"
         }
       ]
     },
@@ -14865,7 +15237,7 @@
       "classification": "Archived",
       "verification_status": "verified",
       "reputation_score": 0.0,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-14T03:25:38Z",
       "last_seen": "2026-09-14T03:25:38Z",
@@ -14975,10 +15347,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/EduAlexxis/ByeTunes",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-12",
       "app_count": 1,
       "release_count": 0,
@@ -15514,6 +15891,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/EduAlexxis/ByeTunes"
         }
       ]
     },
@@ -15525,7 +15911,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 87.4,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -15998,10 +16384,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/FriesI23/mhabit",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-19",
       "app_count": 1,
       "release_count": 0,
@@ -16537,6 +16928,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/FriesI23/mhabit"
         }
       ]
     },
@@ -16548,10 +16948,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 75.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/G-Ray/pikatorrent",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-01-11",
       "app_count": 1,
       "release_count": 0,
@@ -17136,6 +17541,15 @@
           "reputation": 75.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 75.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/G-Ray/pikatorrent"
         }
       ]
     },
@@ -17147,10 +17561,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/GenericCoding/VibeContainers",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-08-28",
       "app_count": 1,
       "release_count": 0,
@@ -17609,6 +18028,15 @@
           "reputation": 73.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/GenericCoding/VibeContainers"
         }
       ]
     },
@@ -17620,10 +18048,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 84.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/ginsudev/WDBFontOverwrite",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-02-09",
       "app_count": 1,
       "release_count": 0,
@@ -18082,6 +18515,15 @@
           "reputation": 84.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 84.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/ginsudev/WDBFontOverwrite"
         }
       ]
     },
@@ -18093,10 +18535,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 90.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/GopeedLab/gopeed",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-03-18",
       "app_count": 1,
       "release_count": 0,
@@ -18681,6 +19128,15 @@
           "reputation": 90.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 90.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/GopeedLab/gopeed"
         }
       ]
     },
@@ -18692,10 +19148,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/guardianproject/orbot-apple",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-13",
       "app_count": 1,
       "release_count": 0,
@@ -18832,6 +19293,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/guardianproject/orbot-apple"
         }
       ]
     },
@@ -18843,7 +19313,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -19266,11 +19736,16 @@
       "source_url": "https://github.com/gunnerkidBT/TwitchAdBlock",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 97.4,
-      "health_status": "unknown",
+      "reputation_score": 93.7,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/gunnerkidBT/TwitchAdBlock",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-24",
       "app_count": 1,
       "release_count": 0,
@@ -19855,6 +20330,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.7,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/gunnerkidBT/TwitchAdBlock"
         }
       ]
     },
@@ -19866,10 +20350,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 88.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/hrydgard/ppsspp",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-05-16",
       "app_count": 1,
       "release_count": 0,
@@ -20454,6 +20943,15 @@
           "reputation": 88.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 88.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/hrydgard/ppsspp"
         }
       ]
     },
@@ -20464,24 +20962,29 @@
       "source_url": "https://repo.ikghd.me",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 86.9,
-      "health_status": "unknown",
+      "reputation_score": 89.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://repo.ikghd.me",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-14",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-22",
       "app_count": 2,
       "release_count": 0,
       "apps": [
         {
           "id": "inkillerplus",
           "name": "iNKillerPlus",
-          "version": "451.0.0"
+          "version": "452.0.1"
         },
         {
           "id": "ttkillerplus",
           "name": "TTKillerPlus",
-          "version": "47.1.0"
+          "version": "47.4.0"
         }
       ],
       "history": [
@@ -21058,6 +21561,15 @@
           "reputation": 86.9,
           "appCount": 2,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 89.9,
+          "appCount": 2,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://repo.ikghd.me"
         }
       ]
     },
@@ -21069,10 +21581,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/ish-app/ish",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-08-22",
       "app_count": 1,
       "release_count": 0,
@@ -21657,6 +22174,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/ish-app/ish"
         }
       ]
     },
@@ -21668,10 +22194,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 99.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/itzzace/ytkace",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-25",
       "app_count": 1,
       "release_count": 0,
@@ -22256,6 +22787,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 99.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/itzzace/ytkace"
         }
       ]
     },
@@ -22267,10 +22807,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Jellify-Music/App",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-17",
       "app_count": 1,
       "release_count": 0,
@@ -22855,6 +23400,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Jellify-Music/App"
         }
       ]
     },
@@ -22865,12 +23419,17 @@
       "source_url": "https://github.com/JellyBookOrg/JellyBook",
       "classification": "Experimental",
       "verification_status": "unverified",
-      "reputation_score": 75.9,
-      "health_status": "unknown",
+      "reputation_score": 78.4,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/JellyBookOrg/JellyBook",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-09-09",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -23454,6 +24013,15 @@
           "reputation": 75.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/JellyBookOrg/JellyBook"
         }
       ]
     },
@@ -23465,10 +24033,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 99.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/kodjodevf/mangayomi",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-12",
       "app_count": 1,
       "release_count": 0,
@@ -24053,6 +24626,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 99.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/kodjodevf/mangayomi"
         }
       ]
     },
@@ -24064,7 +24646,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -24537,10 +25119,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/leminlimez/Cowabunga",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-05-29",
       "app_count": 1,
       "release_count": 0,
@@ -24999,6 +25586,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/leminlimez/Cowabunga"
         }
       ]
     },
@@ -25010,10 +25606,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/leminlimez/Helium",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-02-13",
       "app_count": 1,
       "release_count": 0,
@@ -25472,6 +26073,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/leminlimez/Helium"
         }
       ]
     },
@@ -25483,10 +26093,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/leminlimez/Pocket-Poster",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-08-29",
       "app_count": 1,
       "release_count": 0,
@@ -25945,6 +26560,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/leminlimez/Pocket-Poster"
         }
       ]
     },
@@ -25956,10 +26580,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 66.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/leminlimez/SecondHand",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-12-31",
       "app_count": 1,
       "release_count": 0,
@@ -26418,6 +27047,15 @@
           "reputation": 66.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 66.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/leminlimez/SecondHand"
         }
       ]
     },
@@ -26429,10 +27067,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 85.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Lessica/TrollFools",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-11",
       "app_count": 1,
       "release_count": 0,
@@ -26968,6 +27611,15 @@
           "reputation": 85.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 85.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Lessica/TrollFools"
         }
       ]
     },
@@ -26979,10 +27631,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/level3tjg/RedditFilter",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-09-26",
       "app_count": 1,
       "release_count": 0,
@@ -27567,6 +28224,15 @@
           "reputation": 73.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/level3tjg/RedditFilter"
         }
       ]
     },
@@ -27578,10 +28244,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/LIJI32/SameBoy",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-09",
       "app_count": 1,
       "release_count": 0,
@@ -28166,6 +28837,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/LIJI32/SameBoy"
         }
       ]
     },
@@ -28177,10 +28857,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 80.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/LiveContainer/LiveContainer",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-17",
       "app_count": 1,
       "release_count": 0,
@@ -28765,6 +29450,15 @@
           "reputation": 80.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 80.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/LiveContainer/LiveContainer"
         }
       ]
     },
@@ -28776,10 +29470,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/lo-cafe/winston",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-06-24",
       "app_count": 1,
       "release_count": 0,
@@ -29364,6 +30063,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/lo-cafe/winston"
         }
       ]
     },
@@ -29374,11 +30082,16 @@
       "source_url": "https://github.com/lotusprey/otraku",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 93.4,
-      "health_status": "unknown",
+      "reputation_score": 90.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/lotusprey/otraku",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-22",
       "app_count": 1,
       "release_count": 0,
@@ -29963,6 +30676,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 90.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/lotusprey/otraku"
         }
       ]
     },
@@ -29974,10 +30696,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Lrdsnow/PureKFD",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-11-23",
       "app_count": 1,
       "release_count": 0,
@@ -30562,6 +31289,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Lrdsnow/PureKFD"
         }
       ]
     },
@@ -30573,10 +31309,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Manic-EMU/ManicEMU",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-18",
       "app_count": 1,
       "release_count": 0,
@@ -31161,6 +31902,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Manic-EMU/ManicEMU"
         }
       ]
     },
@@ -31172,10 +31922,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 91.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Mark02-2012/MaxMusic",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-15",
       "app_count": 1,
       "release_count": 0,
@@ -31760,6 +32515,15 @@
           "reputation": 91.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 91.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Mark02-2012/MaxMusic"
         }
       ]
     },
@@ -31771,10 +32535,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/matteozappia/DynamicCow",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-02-02",
       "app_count": 1,
       "release_count": 0,
@@ -32233,6 +33002,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/matteozappia/DynamicCow"
         }
       ]
     },
@@ -32244,10 +33022,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Michael-128/qBitControl",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-23",
       "app_count": 1,
       "release_count": 0,
@@ -32832,6 +33615,15 @@
           "reputation": 73.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Michael-128/qBitControl"
         }
       ]
     },
@@ -32843,10 +33635,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 71.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/mineek/MuffinStore",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-12",
       "app_count": 1,
       "release_count": 0,
@@ -33431,6 +34228,15 @@
           "reputation": 71.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 71.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/mineek/MuffinStore"
         }
       ]
     },
@@ -33442,7 +34248,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 71.4,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -33914,12 +34720,17 @@
       "source_url": "https://github.com/minh-ton/reynard-browser",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 99.4,
-      "health_status": "unknown",
+      "reputation_score": 94.4,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/minh-ton/reynard-browser",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-18",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -34377,6 +35188,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 94.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/minh-ton/reynard-browser"
         }
       ]
     },
@@ -34388,10 +35208,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/moffatman/chan",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-28",
       "app_count": 1,
       "release_count": 0,
@@ -34976,6 +35801,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/moffatman/chan"
         }
       ]
     },
@@ -34987,11 +35821,16 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/monal-im/Monal",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-07",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -35575,6 +36414,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/monal-im/Monal"
         }
       ]
     },
@@ -35586,7 +36434,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -36059,10 +36907,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/mongoosemonke504/OnsideTV",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-28",
       "app_count": 1,
       "release_count": 0,
@@ -36199,6 +37052,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/mongoosemonke504/OnsideTV"
         }
       ]
     },
@@ -36209,11 +37071,16 @@
       "source_url": "https://github.com/mornyeapp/Mornye",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 99.4,
-      "health_status": "unknown",
+      "reputation_score": 96.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/mornyeapp/Mornye",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-23",
       "app_count": 1,
       "release_count": 0,
@@ -36350,6 +37217,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 96.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/mornyeapp/Mornye"
         }
       ]
     },
@@ -36360,24 +37236,29 @@
       "source_url": "https://github.com/mrdrvt99/YouProEXTRA",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 96.2,
-      "health_status": "unknown",
+      "reputation_score": 95.7,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/mrdrvt99/YouProEXTRA",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-22",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-27",
       "app_count": 4,
       "release_count": 0,
       "apps": [
         {
           "id": "ytlite",
-          "name": "YouTubePlus",
-          "version": "21.42.4"
+          "name": "YouTube Plus",
+          "version": "21.43.5"
         },
         {
           "id": "youpro",
           "name": "YouPro",
-          "version": "21.42.4"
+          "version": "21.43.5"
         },
         {
           "id": "ytkp",
@@ -36387,7 +37268,7 @@
         {
           "id": "youmod",
           "name": "YouMod",
-          "version": "21.42.4"
+          "version": "21.43.5"
         }
       ],
       "history": [
@@ -36964,6 +37845,15 @@
           "reputation": 96.2,
           "appCount": 4,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 95.7,
+          "appCount": 4,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/mrdrvt99/YouProEXTRA"
         }
       ]
     },
@@ -36974,12 +37864,17 @@
       "source_url": "https://github.com/mrdrvt99/YTMusicUltimate",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 92.4,
-      "health_status": "unknown",
+      "reputation_score": 94.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/mrdrvt99/YTMusicUltimate",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-22",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -37563,6 +38458,15 @@
           "reputation": 92.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 94.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/mrdrvt99/YTMusicUltimate"
         }
       ]
     },
@@ -37573,11 +38477,16 @@
       "source_url": "https://github.com/NeoFreeBird/app",
       "classification": "Experimental",
       "verification_status": "unverified",
-      "reputation_score": 83.4,
-      "health_status": "unknown",
+      "reputation_score": 80.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/NeoFreeBird/app",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-16",
       "app_count": 1,
       "release_count": 0,
@@ -38162,6 +39071,15 @@
           "reputation": 83.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 80.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/NeoFreeBird/app"
         }
       ]
     },
@@ -38173,10 +39091,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 71.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/NguyenASang/SNMessenger",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-07-29",
       "app_count": 1,
       "release_count": 0,
@@ -38712,6 +39635,15 @@
           "reputation": 71.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 71.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/NguyenASang/SNMessenger"
         }
       ]
     },
@@ -38723,11 +39655,16 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/nicegram/Nicegram-iOS",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-19",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -39185,6 +40122,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/nicegram/Nicegram-iOS"
         }
       ]
     },
@@ -39195,12 +40141,17 @@
       "source_url": "https://github.com/NuvioMedia/NuvioMobile",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 99.4,
-      "health_status": "unknown",
+      "reputation_score": 94.4,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/NuvioMedia/NuvioMobile",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-23",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-27",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -39658,6 +40609,15 @@
           "reputation": 99.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 94.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/NuvioMedia/NuvioMobile"
         }
       ]
     },
@@ -39669,10 +40629,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 83.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Nyasami/Ksign",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-05-24",
       "app_count": 1,
       "release_count": 0,
@@ -40257,6 +41222,15 @@
           "reputation": 83.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 83.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Nyasami/Ksign"
         }
       ]
     },
@@ -40268,10 +41242,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/OatmealDome/dolphin-ios",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-06-20",
       "app_count": 1,
       "release_count": 0,
@@ -40856,6 +41835,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/OatmealDome/dolphin-ios"
         }
       ]
     },
@@ -40867,10 +41855,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Odyssey-Team/Odyssey",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-04-04",
       "app_count": 1,
       "release_count": 0,
@@ -41455,6 +42448,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Odyssey-Team/Odyssey"
         }
       ]
     },
@@ -41466,10 +42468,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Odyssey-Team/Taurine",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2023-09-23",
       "app_count": 1,
       "release_count": 0,
@@ -42054,6 +43061,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Odyssey-Team/Taurine"
         }
       ]
     },
@@ -42065,10 +43081,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/OnionBrowser/OnionBrowser",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-19",
       "app_count": 1,
       "release_count": 0,
@@ -42604,6 +43625,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/OnionBrowser/OnionBrowser"
         }
       ]
     },
@@ -42615,10 +43645,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/oolxg/Hanami",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-06-03",
       "app_count": 1,
       "release_count": 0,
@@ -43203,6 +44238,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/oolxg/Hanami"
         }
       ]
     },
@@ -43214,10 +44258,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/opa334/Dopamine",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-20",
       "app_count": 1,
       "release_count": 0,
@@ -43802,6 +44851,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/opa334/Dopamine"
         }
       ]
     },
@@ -43813,10 +44871,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Provenance-Emu/Provenance",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-03-14",
       "app_count": 1,
       "release_count": 0,
@@ -44401,6 +45464,15 @@
           "reputation": 73.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Provenance-Emu/Provenance"
         }
       ]
     },
@@ -44412,10 +45484,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/pwn20wndstuff/Undecimus",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2020-06-09",
       "app_count": 1,
       "release_count": 0,
@@ -45000,6 +46077,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/pwn20wndstuff/Undecimus"
         }
       ]
     },
@@ -45011,10 +46097,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 94.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/pwnapplehat/EscapeOS",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-16",
       "app_count": 1,
       "release_count": 0,
@@ -45473,6 +46564,15 @@
           "reputation": 94.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 94.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/pwnapplehat/EscapeOS"
         }
       ]
     },
@@ -45484,10 +46584,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 83.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/ra1ncord/RainTweak",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-25T22:52:52Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-17",
       "app_count": 1,
       "release_count": 0,
@@ -45561,6 +46666,15 @@
           "reputation": 83.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 83.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/ra1ncord/RainTweak"
         }
       ]
     },
@@ -45572,7 +46686,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-25T11:55:18Z",
@@ -46108,10 +47222,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 89.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/RajnishOne/qbitconnect",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-11-02",
       "app_count": 1,
       "release_count": 0,
@@ -46696,6 +47815,15 @@
           "reputation": 89.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 89.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/RajnishOne/qbitconnect"
         }
       ]
     },
@@ -46706,11 +47834,16 @@
       "source_url": "https://github.com/raynmahbub/OmniSource",
       "classification": "Experimental",
       "verification_status": "unverified",
-      "reputation_score": 64.7,
-      "health_status": "unknown",
+      "reputation_score": 65.6,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/raynmahbub/OmniSource",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-03",
       "app_count": 2,
       "release_count": 0,
@@ -47300,6 +48433,15 @@
           "reputation": 64.7,
           "appCount": 2,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 65.6,
+          "appCount": 2,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/raynmahbub/OmniSource"
         }
       ]
     },
@@ -47311,10 +48453,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 66.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/RileyTestut/Delta",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-07-11",
       "app_count": 1,
       "release_count": 0,
@@ -47899,6 +49046,15 @@
           "reputation": 66.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 66.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/RileyTestut/Delta"
         }
       ]
     },
@@ -47910,10 +49066,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 87.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/rooootdev/lara",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-15T06:46:36Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-05-22",
       "app_count": 1,
       "release_count": 0,
@@ -48449,6 +49610,15 @@
           "reputation": 87.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 87.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/rooootdev/lara"
         }
       ]
     },
@@ -48460,10 +49630,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/roothide/Bootstrap",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-06-12",
       "app_count": 1,
       "release_count": 0,
@@ -49048,6 +50223,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/roothide/Bootstrap"
         }
       ]
     },
@@ -49059,10 +50243,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/roothide/Dopamine-roothide",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-24",
       "app_count": 1,
       "release_count": 0,
@@ -49199,6 +50388,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/roothide/Dopamine-roothide"
         }
       ]
     },
@@ -49210,7 +50408,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 73.9,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -49682,12 +50880,17 @@
       "source_url": "https://github.com/RyanYuuki/AnymeX",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 97.4,
-      "health_status": "unknown",
+      "reputation_score": 94.9,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/RyanYuuki/AnymeX",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-25",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-27",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -50271,6 +51474,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 94.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/RyanYuuki/AnymeX"
         }
       ]
     },
@@ -50282,10 +51494,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.1,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://source.ryuksign.com/duplicate",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-03",
       "app_count": 1,
       "release_count": 0,
@@ -50870,6 +52087,15 @@
           "reputation": 73.1,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.1,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://source.ryuksign.com/duplicate"
         }
       ]
     },
@@ -50881,10 +52107,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 73.1,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://source.ryuksign.com/ig410",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-25",
       "app_count": 1,
       "release_count": 0,
@@ -51469,6 +52700,15 @@
           "reputation": 73.1,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 73.1,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://source.ryuksign.com/ig410"
         }
       ]
     },
@@ -51480,10 +52720,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 82.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/s8ngyu/Mugunghwa",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2022-11-10",
       "app_count": 1,
       "release_count": 0,
@@ -51942,6 +53187,15 @@
           "reputation": 82.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 82.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/s8ngyu/Mugunghwa"
         }
       ]
     },
@@ -51952,12 +53206,17 @@
       "source_url": "https://github.com/saber-notes/saber",
       "classification": "Verified",
       "verification_status": "unverified",
-      "reputation_score": 97.4,
-      "health_status": "unknown",
+      "reputation_score": 93.7,
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/saber-notes/saber",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
-      "last_sync": "2026-10-24",
+      "last_seen": "2026-10-28T04:23:28Z",
+      "last_sync": "2026-10-26",
       "app_count": 1,
       "release_count": 0,
       "apps": [
@@ -52541,6 +53800,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.7,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/saber-notes/saber"
         }
       ]
     },
@@ -52552,10 +53820,15 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 84.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/SerotoninApp/Serotonin",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-01-17",
       "app_count": 1,
       "release_count": 0,
@@ -52692,6 +53965,15 @@
           "reputation": 84.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 84.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/SerotoninApp/Serotonin"
         }
       ]
     },
@@ -52703,10 +53985,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 80.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/SideStore/SideStore",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-15",
       "app_count": 1,
       "release_count": 0,
@@ -53291,6 +54578,15 @@
           "reputation": 80.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 80.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/SideStore/SideStore"
         }
       ]
     },
@@ -53302,10 +54598,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Soupy-dev/Eclipse",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-24T05:19:26Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-20",
       "app_count": 1,
       "release_count": 0,
@@ -53414,6 +54715,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Soupy-dev/Eclipse"
         }
       ]
     },
@@ -53425,10 +54735,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 84.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/sourcelocation/AirTroller",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2022-11-26",
       "app_count": 1,
       "release_count": 0,
@@ -53887,6 +55202,15 @@
           "reputation": 84.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 84.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/sourcelocation/AirTroller"
         }
       ]
     },
@@ -53898,7 +55222,7 @@
       "classification": "Archived",
       "verification_status": "unverified",
       "reputation_score": 94.4,
-      "health_status": "offline",
+      "health_status": "unknown",
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
       "last_seen": "2026-10-23T11:57:05Z",
@@ -54371,10 +55695,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 89.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/StikDebug/StikDebug",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-15",
       "app_count": 1,
       "release_count": 0,
@@ -54959,6 +56288,15 @@
           "reputation": 89.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 89.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/StikDebug/StikDebug"
         }
       ]
     },
@@ -54970,10 +56308,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 71.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/StikEMU/StikNES-2.0",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2025-02-23",
       "app_count": 1,
       "release_count": 0,
@@ -55558,6 +56901,15 @@
           "reputation": 71.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 71.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/StikEMU/StikNES-2.0"
         }
       ]
     },
@@ -55569,10 +56921,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 85.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/streamyfin/streamyfin",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-16",
       "app_count": 1,
       "release_count": 0,
@@ -55709,6 +57066,15 @@
           "reputation": 85.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 85.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/streamyfin/streamyfin"
         }
       ]
     },
@@ -55720,10 +57086,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 85.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/team-spotube/spotube",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-10-23T22:49:17Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-06-05",
       "app_count": 1,
       "release_count": 0,
@@ -55860,6 +57231,15 @@
           "reputation": 85.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 85.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/team-spotube/spotube"
         }
       ]
     },
@@ -55871,10 +57251,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/thunder-app/thunder",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-01-07",
       "app_count": 1,
       "release_count": 0,
@@ -56459,6 +57844,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/thunder-app/thunder"
         }
       ]
     },
@@ -56470,10 +57864,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/Torrekie/Battman",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-14",
       "app_count": 1,
       "release_count": 0,
@@ -56932,6 +58331,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/Torrekie/Battman"
         }
       ]
     },
@@ -56943,10 +58351,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 80.9,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/utmapp/UTM",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-17",
       "app_count": 1,
       "release_count": 0,
@@ -57531,6 +58944,15 @@
           "reputation": 80.9,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 80.9,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/utmapp/UTM"
         }
       ]
     },
@@ -57542,10 +58964,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 93.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/vcmi/vcmi",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-08-15",
       "app_count": 1,
       "release_count": 0,
@@ -58130,6 +59557,15 @@
           "reputation": 93.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 93.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/vcmi/vcmi"
         }
       ]
     },
@@ -58141,10 +59577,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/xenios-jp/XeniOS",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-06-08",
       "app_count": 1,
       "release_count": 0,
@@ -58729,6 +60170,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/xenios-jp/XeniOS"
         }
       ]
     },
@@ -58740,10 +60190,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 83.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/XITRIX/iTorrent",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-07-19",
       "app_count": 1,
       "release_count": 0,
@@ -59328,6 +60783,15 @@
           "reputation": 83.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 83.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/XITRIX/iTorrent"
         }
       ]
     },
@@ -59339,10 +60803,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 92.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/YangJiiii/3105",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-17T23:15:54Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-09-14",
       "app_count": 1,
       "release_count": 0,
@@ -59801,6 +61270,15 @@
           "reputation": 92.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 92.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/YangJiiii/3105"
         }
       ]
     },
@@ -59812,10 +61290,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/yattee/yattee",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-01-28",
       "app_count": 1,
       "release_count": 0,
@@ -60400,6 +61883,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/yattee/yattee"
         }
       ]
     },
@@ -60411,10 +61903,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 78.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/yoshisuga/MAME4iOS",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2022-12-12",
       "app_count": 1,
       "release_count": 0,
@@ -60999,6 +62496,15 @@
           "reputation": 78.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 78.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/yoshisuga/MAME4iOS"
         }
       ]
     },
@@ -61010,10 +62516,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/yuroyami/syncplay-mobile",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-01",
       "app_count": 1,
       "release_count": 0,
@@ -61598,6 +63109,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/yuroyami/syncplay-mobile"
         }
       ]
     },
@@ -61609,10 +63129,15 @@
       "classification": "Verified",
       "verification_status": "unverified",
       "reputation_score": 97.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/ZeusLN/zeus",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2026-10-12",
       "app_count": 1,
       "release_count": 0,
@@ -62197,6 +63722,15 @@
           "reputation": 97.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 97.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/ZeusLN/zeus"
         }
       ]
     },
@@ -62208,10 +63742,15 @@
       "classification": "Experimental",
       "verification_status": "unverified",
       "reputation_score": 66.4,
-      "health_status": "unknown",
+      "health_status": "online",
+      "last_health_observation": {
+        "at": "2026-10-28T04:23:28Z",
+        "url": "https://github.com/zydeco/minivmac4ios",
+        "health": "online"
+      },
       "uptime": null,
       "first_seen": "2026-09-12T18:15:03Z",
-      "last_seen": "2026-10-27T23:23:37Z",
+      "last_seen": "2026-10-28T04:23:28Z",
       "last_sync": "2024-07-09",
       "app_count": 1,
       "release_count": 0,
@@ -62796,6 +64335,15 @@
           "reputation": 66.4,
           "appCount": 1,
           "verification": "unverified"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "health": "online",
+          "reputation": 66.4,
+          "appCount": 1,
+          "verification": "unverified",
+          "observedAt": "2026-10-28T04:23:28Z",
+          "observationURL": "https://github.com/zydeco/minivmac4ios"
         }
       ]
     }

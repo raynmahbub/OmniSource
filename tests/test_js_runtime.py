@@ -94,6 +94,9 @@ class DeviceMigrationRuntimeTests(JsHarnessTests):
     def test_guide_updates_and_variants(self) -> None:
         self.run_harness("roadmap_features.cjs", 9)
 
+    def test_private_badges_and_explainable_guide(self) -> None:
+        self.run_harness("static_roadmap_gaps.cjs", 12)
+
 
 if __name__ == "__main__":  # pragma: no cover
     unittest.main()

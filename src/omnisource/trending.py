@@ -127,7 +127,9 @@ def compute_trending(
         },
         "verificationLevel": verification_level,
         "featured": bool(featured),
-        "downloadReachable": bool((health or {}).get("downloadReachable")),
+        "downloadReachable": (health or {}).get("downloadReachable")
+        if isinstance((health or {}).get("downloadReachable"), bool)
+        else None,
     }
 
 

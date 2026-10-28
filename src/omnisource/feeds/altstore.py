@@ -92,6 +92,12 @@ def render_altstore_app(
             "lastUpdatedAt": newest["date"],
         },
     }
+    if isinstance(raw.get("features"), list):
+        entry["omnisource"]["features"] = list(raw["features"])
+    if isinstance(raw.get("featuresReviewed"), dict):
+        entry["omnisource"]["featuresReviewed"] = dict(raw["featuresReviewed"])
+    if isinstance(raw.get("bestFor"), str) and raw["bestFor"]:
+        entry["omnisource"]["bestFor"] = raw["bestFor"]
     return entry
 
 

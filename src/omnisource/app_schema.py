@@ -135,11 +135,11 @@ def build_record(
         "status": str(app.raw.get("status") or "stable"),
         "featured": bool(app.raw.get("featured")),
         "pageURL": f"{base}/apps/{app.slug}/",
-        "feedURL": f"{base}/{app.slug}.json",
+        "feedURL": f"{base}/feeds/{app.slug}.json",
     }
     if health:
         record["health"] = {
-            "reachable": bool(health.get("downloadReachable")),
+            "reachable": health.get("downloadReachable") if isinstance(health.get("downloadReachable"), bool) else None,
             "detail": str(health.get("detail") or ""),
             "updatedAt": str(health.get("updatedAt") or ""),
         }

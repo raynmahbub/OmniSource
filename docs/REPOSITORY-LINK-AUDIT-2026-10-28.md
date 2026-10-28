@@ -36,6 +36,10 @@ or signature-verified for this audit.
 - Added a dated warning next to download actions when the latest failed probe
   belongs to the current URL. A cached result for a different or unspecified URL
   remains unknown.
+- A follow-up static-feature audit found per-app feed and RSS references in
+  generated JSON that still pointed to nonexistent root-level files. Their
+  metadata now points to the existing `/feeds/` paths; published master and API
+  routes remain unchanged.
 
 ## Remaining issues and limitations
 
@@ -63,24 +67,25 @@ or signature-verified for this audit.
    discovery records. These are retained candidates, not 668 active download
    failures or findings that the projects are malicious. They require separate
    review before admission.
-5. **Historical observations:** the source-registry builder can append a new
-   timestamped observation on an unchanged rebuild, so older source trend/uptime
-   history must not be treated as independently repeated live probes. Current
-   projections exclude unknown health samples; the underlying history was not
-   rewritten. Historical IPA links outside the quarantined mismatches have not
-   all been revalidated.
+5. **Historical observations:** older source-registry build snapshots may not
+   represent independent probes. The builder now records a dated observation
+   only for a matching source URL, deduplicates repeated snapshots, and leaves
+   unproven legacy rows out of observed uptime. Older history is retained rather
+   than retroactively relabeled. Historical IPA links outside the quarantined
+   mismatches have not all been revalidated.
 6. **Toolchain:** npm reports that ESLint 9.39.5 is out of support; the current
    lockfile passed `npm audit` with zero known vulnerabilities. An upgrade
    requires separate compatibility testing.
 
 ## Checks performed
 
-- Static audit: zero P0 findings. Site integrity: 261 HTML pages and 10,902
+- Static audit: zero P0 findings. Site integrity: 261 HTML pages and 10,904
   local URLs checked; zero broken local links, duplicate IDs, missing titles,
   missing language attributes, missing image alt attributes or missing English
-  i18n keys. A separate check found zero missing targets among 760 absolute
-  links back to this site; a heuristic Markdown scan found no broken relative
-  targets among 41 links in 54 Markdown files.
+  i18n keys. A follow-up check also found no missing targets among 2,109 local
+  URLs in the main generated JSON projections. A separate earlier check found
+  zero missing targets among 760 absolute links back to this site; a heuristic
+  Markdown scan found no broken relative targets among 41 links in 54 files.
 - External origin checks: 115 GitHub download origins and 126 other GitHub
   links appearing in HTML returned 2xx/3xx in the initial scan. After bringing
   in newer main-branch releases, another 95 GitHub release origins returned
@@ -92,7 +97,7 @@ or signature-verified for this audit.
   `scripts/validate_jq.sh`: 1,176 JSON files and 129 feeds passed. Root and API
   `apps.json` match `feeds/apps.json` byte-for-byte. The downloader index is
   current.
-- Python suite: 737 tests passed with the jsdom harnesses installed. Ruff
+- Python suite: 750 tests passed with the jsdom harnesses installed. Ruff
   checks and formatting passed. Web typecheck, lint, tests, production build
   and npm audit passed. Offline rebuild reproduced 1,461 generated files.
   The assembled-site and repository-root HTTP smoke tests passed.

@@ -1,10 +1,14 @@
-/* Local device profile and optional re-sign reminders. No data leaves this browser. */
+/* Device profile and optional signing estimates stay on this browser. */
 (function (global) {
   'use strict';
   var PROFILE = 'omnisource:device-profile:v1';
   var INSTALLED = 'omnisource:resign:v1';
+  var NOTIFY = 'omnisource:resign-notifications:v1';
+  var BADGE = 'omnisource:resign-badge:v1';
+  var NOTIFIED = 'omnisource:resign-last-notified:v1';
   var DEVICES = ['iphone', 'ipad'];
   var CLIENTS = ['altstore', 'sidestore', 'flarestore', 'feather', 'esign', 'ksign', 'livecontainer'];
+  var booted = false;
   function read(key) {
     try { var value = JSON.parse(global.localStorage.getItem(key) || '{}'); return value && typeof value === 'object' && !Array.isArray(value) ? value : {}; }
     catch (_) { return {}; }
@@ -67,6 +71,43 @@
     var current = now == null ? Date.now() : now;
     return { date: new Date(end).toISOString().slice(0, 10), days: Math.ceil((end - current) / 86400000), expired: end <= current };
   }
+  function estimates() {
+    var stored = read(INSTALLED), list = [];
+    Object.keys(stored).sort().forEach(function (slug) {
+      if (!/^[a-z0-9][a-z0-9-]{0,31}$/.test(slug) || !stored[slug] || typeof stored[slug] !== 'object') return;
+      var info = expiry(stored[slug].date, stored[slug].kind);
+      if (info) list.push({ slug: slug, date: info.date, days: info.days, expired: info.expired });
+    });
+    return list;
+  }
+  function estimate(slug) {
+    var item = read(INSTALLED)[slug];
+    return item && typeof item === 'object' ? expiry(item.date, item.kind) : null;
+  }
+  function estimateText(info) {
+    return info.expired ? 'Re-sign: possibly expired' : 'Re-sign: ' + info.days + (info.days === 1 ? ' day' : ' days') + ' left';
+  }
+  function decorate(root) {
+    (root || document).querySelectorAll('.app-card[data-slug], .app-card[data-app-id]').forEach(function (card) {
+      var slug = card.getAttribute('data-slug') || card.getAttribute('data-app-id');
+      var info = estimate(slug), badge = card.querySelector('[data-resign-badge]');
+      if (!info) {
+        if (badge) badge.remove();
+        var existing = card.querySelector('.card-badges');
+        if (existing) existing.classList.toggle('has-local-badges', !!existing.querySelector('[data-resign-badge], [data-update-badge]'));
+        return;
+      }
+      if (!badge) {
+        var row = card.querySelector('.card-badges');
+        if (!row) { row = document.createElement('div'); row.className = 'card-badges'; card.appendChild(row); }
+        badge = document.createElement('span'); badge.setAttribute('data-resign-badge', ''); row.appendChild(badge);
+      }
+      badge.parentNode.classList.add('has-local-badges');
+      badge.className = 'badge ' + (info.expired || info.days <= 1 ? 'warn' : 'unverified');
+      badge.textContent = estimateText(info);
+      badge.title = 'Estimated ' + info.date + '; check the actual certificate and signing client.';
+    });
+  }
   function refresh() {
     var p = clean(read(PROFILE));
     document.querySelectorAll('[data-device-compat]').forEach(function (node) {
@@ -74,8 +115,56 @@
       var result = evaluate(compat, p);
       node.textContent = 'Device compatibility: ' + (result.status === 'yes' ? 'matches' : result.status === 'no' ? 'not compatible' : 'unknown') + ' — ' + result.reason;
     });
+    decorate(document);
+    var summary = document.getElementById('resignTracker');
+    if (summary) {
+      var list = summary.querySelector('[data-resign-list]'), status = summary.querySelector('[data-resign-summary]');
+      var values = estimates();
+      list.replaceChildren();
+      values.forEach(function (item) {
+        var li = document.createElement('li'), a = document.createElement('a');
+        a.href = '../apps/' + encodeURIComponent(item.slug) + '/'; a.textContent = item.slug;
+        li.appendChild(a); li.appendChild(document.createTextNode(' — ' + estimateText(item) + ' (estimated ' + item.date + ')'));
+        list.appendChild(li);
+      });
+      status.textContent = values.length ? values.length + ' signing estimate' + (values.length === 1 ? '' : 's') + ' stored locally.' : 'No signing dates saved. Add one on an app page.';
+      var toggle = summary.querySelector('[data-resign-icon]');
+      if (toggle) toggle.checked = read(BADGE).enabled === true;
+    }
+  }
+  function updateIconBadge() {
+    var nav = global.navigator, due = estimates().filter(function (item) { return item.expired || item.days <= 1; }).length;
+    if (!nav) return;
+    try {
+      var result;
+      if (read(BADGE).enabled === true && due && typeof nav.setAppBadge === 'function') result = nav.setAppBadge(due);
+      else if (typeof nav.clearAppBadge === 'function') result = nav.clearAppBadge();
+      if (result && typeof result.catch === 'function') result.catch(function () {});
+    } catch (_) { /* unsupported, denied, or not installed */ }
+  }
+  function notifyDue() {
+    if (read(NOTIFY).enabled !== true || !global.Notification || global.Notification.permission !== 'granted') return Promise.resolve(false);
+    var due = estimates().filter(function (item) { return item.expired || item.days <= 1; });
+    var day = new Date().toISOString().slice(0, 10);
+    if (!due.length || read(NOTIFIED).date === day) return Promise.resolve(false);
+    var title = 'OmniSource re-sign reminder';
+    var options = { body: due.length + ' signing estimate' + (due.length === 1 ? ' is' : 's are') + ' near or past expiry. Check the actual certificates.' };
+    function show(registration) {
+      if (registration && typeof registration.showNotification === 'function') return registration.showNotification(title, options);
+      new global.Notification(title, options);
+      return Promise.resolve();
+    }
+    var service = global.navigator && global.navigator.serviceWorker;
+    var registration = service && typeof service.getRegistration === 'function' ? service.getRegistration() : Promise.resolve(null);
+    return Promise.resolve(registration).then(show).then(function () { save(NOTIFIED, { date: day }); return true; }).catch(function () { return false; });
+  }
+  function sync() {
+    refresh(); updateIconBadge();
+    global.dispatchEvent(new global.CustomEvent('omni:resign-change'));
   }
   function boot() {
+    if (booted) return;
+    booted = true;
     var form = document.getElementById('deviceProfileForm');
     if (form) {
       var p = clean(read(PROFILE));
@@ -86,13 +175,13 @@
         var result = clean(raw), message = document.getElementById('deviceProfileMessage');
         if (raw.ios.trim() && !result.ios) { message.textContent = 'Enter a version such as 16.4.'; return; }
         message.textContent = save(PROFILE, result) ? 'Saved on this device only.' : 'Browser storage is unavailable.';
-        refresh(); global.dispatchEvent(new CustomEvent('omni:device-change'));
+        refresh(); global.dispatchEvent(new global.CustomEvent('omni:device-change'));
       });
       form.addEventListener('reset', function () {
-        save(PROFILE, {}); setTimeout(function () { refresh(); global.dispatchEvent(new CustomEvent('omni:device-change')); }, 0);
+        save(PROFILE, {}); setTimeout(function () { refresh(); global.dispatchEvent(new global.CustomEvent('omni:device-change')); }, 0);
       });
     }
-    document.querySelectorAll('[data-resign-slug]').forEach(function (form) {
+    document.querySelectorAll('form[data-resign-slug]').forEach(function (form) {
       var slug = form.getAttribute('data-resign-slug'), entries = read(INSTALLED), item = entries[slug] || {};
       var message = form.querySelector('[data-resign-message]');
       form.elements.signed.value = item.date || ''; form.elements.kind.value = item.kind || 'free';
@@ -106,39 +195,57 @@
         var info = expiry(form.elements.signed.value, form.elements.kind.value);
         if (!info) { message.textContent = 'Choose a valid signing date.'; return; }
         var values = read(INSTALLED); values[slug] = { date: form.elements.signed.value, kind: form.elements.kind.value };
-        if (!save(INSTALLED, values)) message.textContent = 'Browser storage is unavailable.'; else show();
+        if (!save(INSTALLED, values)) message.textContent = 'Browser storage is unavailable.'; else { show(); sync(); }
       });
       var reminder = form.querySelector('[data-resign-remind]');
       if (reminder) reminder.addEventListener('click', function () {
+        if (!estimate(slug)) { message.textContent = 'Save a signing date before enabling reminders.'; return; }
         if (!global.Notification || typeof global.Notification.requestPermission !== 'function') { message.textContent = 'This browser does not support local notifications.'; return; }
         var request;
         try { request = global.Notification.requestPermission(); }
         catch (_) { message.textContent = 'Notification permission is unavailable.'; return; }
         Promise.resolve(request).then(function (permission) {
-          var info = expiry(form.elements.signed.value, form.elements.kind.value);
           if (permission !== 'granted') { message.textContent = 'Notification permission was not granted.'; return; }
-          if (info && info.days <= 1) new global.Notification('OmniSource re-sign reminder', { body: 'The estimated signing period for ' + slug + ' is near expiry. Check the actual certificate.' });
-          else message.textContent = 'Notifications allowed. Open this page near expiry to receive a reminder; no background push is used.';
+          if (!save(NOTIFY, { enabled: true })) { message.textContent = 'Browser storage is unavailable.'; return; }
+          message.textContent = 'Reminders enabled on this browser. Open the catalog, Favorites or an app page near expiry; no background push is used.';
+          notifyDue();
         }).catch(function () { message.textContent = 'Notification permission is unavailable.'; });
       });
-      if (global.Notification && global.Notification.permission === 'granted') {
-        var due = expiry(item.date, item.kind), lastKey = 'omnisource:reminded:' + slug + ':' + new Date().toISOString().slice(0, 10);
-        try {
-          if (due && due.days <= 1 && !global.sessionStorage.getItem(lastKey)) {
-            new global.Notification('OmniSource re-sign reminder', { body: 'Check the signing expiry for ' + slug + '.' });
-            global.sessionStorage.setItem(lastKey, '1');
-          }
-        } catch (_) { /* unsupported or storage unavailable */ }
-      }
+      var disable = form.querySelector('[data-resign-disable]');
+      if (disable) disable.addEventListener('click', function () {
+        if (!save(NOTIFY, { enabled: false })) message.textContent = 'Browser storage is unavailable.';
+        else message.textContent = 'Local reminders are off. Browser notification permission can also be changed in browser settings.';
+      });
       var clear = form.querySelector('[data-resign-clear]');
       if (clear) clear.addEventListener('click', function () {
         var values = read(INSTALLED); delete values[slug];
         if (!save(INSTALLED, values)) { message.textContent = 'Browser storage is unavailable.'; return; }
-        form.elements.signed.value = ''; show();
+        form.elements.signed.value = ''; show(); sync();
       });
     });
-    refresh();
+    var summary = document.getElementById('resignTracker');
+    if (summary) {
+      var icon = summary.querySelector('[data-resign-icon]'), clearAll = summary.querySelector('[data-resign-clear-all]');
+      var disableAll = summary.querySelector('[data-resign-disable]');
+      if (icon) icon.addEventListener('change', function () {
+        if (!save(BADGE, { enabled: icon.checked })) { icon.checked = false; summary.querySelector('[data-resign-summary]').textContent = 'Browser storage is unavailable.'; return; }
+        updateIconBadge();
+      });
+      if (clearAll) clearAll.addEventListener('click', function () {
+        if (!save(INSTALLED, {})) { summary.querySelector('[data-resign-summary]').textContent = 'Browser storage is unavailable.'; return; }
+        sync();
+      });
+      if (disableAll) disableAll.addEventListener('click', function () {
+        if (!save(NOTIFY, { enabled: false })) summary.querySelector('[data-resign-summary]').textContent = 'Browser storage is unavailable.';
+        else summary.querySelector('[data-resign-summary]').textContent = 'Local reminders are off on this browser.';
+      });
+    }
+    global.addEventListener('storage', function (event) {
+      if ([PROFILE, INSTALLED, NOTIFY, BADGE].indexOf(event.key) >= 0) { sync(); if (event.key === PROFILE) global.dispatchEvent(new global.CustomEvent('omni:device-change')); }
+    });
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) { sync(); notifyDue(); } });
+    refresh(); updateIconBadge(); notifyDue();
   }
-  global.OmniDevice = { profile: function () { return clean(read(PROFILE)); }, evaluate: evaluate, compareVersions: compareVersions, expiry: expiry, refresh: refresh };
+  global.OmniDevice = { profile: function () { return clean(read(PROFILE)); }, evaluate: evaluate, compareVersions: compareVersions, expiry: expiry, estimate: estimate, estimates: estimates, decorate: decorate, refresh: refresh };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })(window);

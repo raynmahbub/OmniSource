@@ -9,7 +9,7 @@ const markup = `
   <section id="localUpdates"><button data-updates-save>save</button><button data-updates-clear>clear</button><p data-updates-status></p><ul data-updates-list></ul><ul data-subscriptions></ul></section>
   <section id="variantPicker"><select name="group"></select><select name="choice"></select><span data-variant-url></span><a data-variant-link></a><button data-variant-copy>copy</button><p data-variant-message></p></section>`;
 const catalog = { apps: [
-  { name: '<img src=x onerror=alert(1)>', category: 'music', subtitle: 'play music', omnisource: { slug: 'demo', health: { downloadReachable: true }, compatibility: { minOSVersion: '16' } } },
+  { name: '<img src=x onerror=alert(1)>', category: 'music', subtitle: 'play music', downloadURL: 'https://example.test/demo.ipa', omnisource: { slug: 'demo', health: { downloadReachable: true, checkedURL: 'https://example.test/demo.ipa' }, compatibility: { minOSVersion: '16' } } },
   { name: 'Other', category: 'music', subtitle: 'play music', omnisource: { slug: 'other', health: { downloadReachable: false } } }
 ] };
 const verification = { apps: [{ app: 'demo', provenance: 'official' }, { app: 'other', provenance: 'community' }] };

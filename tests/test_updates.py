@@ -74,7 +74,8 @@ class TestUpdatesDoc(unittest.TestCase):
         self.assertEqual(first["version"], "4.9.6")
         self.assertEqual(first["date"], "2026-09-07")
         self.assertIn("https://raynmahbub.github.io/OmniSource/assets/Mornye.webp", first["iconURL"])
-        self.assertIn(".xml", first["rssURL"])
+        self.assertEqual(first["feedURL"], "https://raynmahbub.github.io/OmniSource/feeds/spotiflac.json")
+        self.assertEqual(first["rssURL"], "https://raynmahbub.github.io/OmniSource/feeds/spotiflac.xml")
 
     def test_current_versions_seed_sparse_history(self) -> None:
         state = {

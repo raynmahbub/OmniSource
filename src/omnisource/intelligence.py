@@ -63,15 +63,28 @@ def build_source_insights(
         added = sorted(current_apps - previous_apps)
         removed = sorted(previous_apps - current_apps)
         history = source.get("history", [])
-        # Unknown or partial/degraded samples cannot establish uptime. Do not
-        # count lack of a probe as downtime or publish a misleading 0%.
-        health_values = [
-            str(item.get("health")).casefold()
-            for item in history
-            if isinstance(item, dict) and str(item.get("health")).casefold() in {"online", "offline"}
-        ]
+        # Older registry rows were build snapshots, not necessarily probes.
+        # Count only dated URL-bound observations, deduplicated by timestamp;
+        # keep different endpoints out of the same uptime calculation.
+        samples: dict[tuple[str, str], str] = {}
+        for item in history if isinstance(history, list) else []:
+            if not isinstance(item, dict):
+                continue
+            health = str(item.get("health") or "").casefold()
+            at, url = str(item.get("observedAt") or ""), str(item.get("observationURL") or "")
+            try:
+                parsed = datetime.fromisoformat(at.replace("Z", "+00:00"))
+                if parsed.tzinfo is None or not url.startswith("https://") or health not in {"online", "offline"}:
+                    continue
+            except ValueError:
+                continue
+            samples[(at, url)] = health
+        latest_url = (
+            max(samples, key=lambda key: datetime.fromisoformat(key[0].replace("Z", "+00:00")))[1] if samples else ""
+        )
+        health_values = [health for (_, url), health in samples.items() if url == latest_url]
         online_samples = sum(value == "online" for value in health_values)
-        uptime = round(online_samples / len(health_values) * 100, 2) if health_values else source.get("uptime")
+        uptime = round(online_samples / len(health_values) * 100, 2) if health_values else None
         last_sync = str(source.get("last_sync") or "")
         cadence_days = _cadence_days(source, release_history)
         if added and not removed:

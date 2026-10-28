@@ -44,9 +44,14 @@ The chain can reveal changes relative to a previously saved head; it cannot
 prevent a complete rewrite without an independent checkpoint, or prove who
 published an IPA. Changed-asset verification cannot detect a silent swap with
 the same version, URL and size until a full recheck. The workflow checks
-changed assets weekly and performs a full recheck monthly. It retains failed
-run evidence as an Actions artifact and publishes structurally valid reports
-alongside the corresponding generated outputs.
+changed assets weekly and performs a full recheck monthly. A real recheck is
+recorded even when the digest is unchanged, so its date remains visible.
+`transparencyEvidence` reports the latest observation for the current version
+and exact URL. Different digests at that same URL and version are flagged for
+review; different mirrors alone are not called a silent replacement. Neither a
+past observation nor an unchanged version proves what the URL serves now. The
+workflow retains failed run evidence as an Actions artifact and publishes
+structurally valid reports alongside the corresponding generated outputs.
 
 For a deliberate local check (this performs network downloads and modifies
 verification state and generated files):
@@ -95,12 +100,36 @@ deterministic event timestamp, not a claim about when the calendar was created.
 Events with unknown dates are omitted. Calendar applications decide whether to
 notify for past events. The optional browser update baseline stores only up to
 100 `(slug, version)` pairs locally; it compares the current snapshot with that
-baseline and does not claim to be a complete history.
+baseline and does not claim to be a complete history. When enabled, the nav and
+matching catalog and Favorites cards flag entries absent from the snapshot. An additional
+opt-in can advance the local snapshot on leaving the home page; it is disabled
+by default and can be cleared along with the snapshot.
 
 The re-sign tracker stores user-entered dates locally and estimates free/paid
-periods. Certificate and client behavior can differ. Notifications require
-explicit browser permission and run only when the app's page is open; there is
-no background push.
+periods. Certificate and client behavior can differ. A local summary and card
+badges show those estimates. Notifications require both explicit opt-in and
+browser permission; at most one reminder is shown per day while the catalog,
+Favorites or an app page is open. The optional app-icon badge updates on those pages only, is
+browser-dependent, and can be switched off. There is no background push.
+
+The local decision guide ranks declared feature matches, applies the selected
+or saved iOS/client profile, and explains matches and unknowns. Curated
+`features` and `bestFor` are descriptions from project or distributor
+materials, not independently verified binary capabilities. `featuresReviewed`
+binds them to the exact version and download URL that was reviewed: after an
+asset or version changes, they are treated as unknown until a maintainer
+rechecks the descriptions. A missing feature does not mean it is unsupported.
+The initial YouTube entries draw on the app's catalog description and its
+linked project documentation; the current YouTube Plus, YouPro and YouMod 4K
+claims come from their respective YouProEXTRA release notes. Maintainers should
+review the current distributor's notes as well as project documentation before
+updating these fields.
+
+Source-registry health observations are imported only from a dated monitor
+snapshot for the exact source URL; a probe of a host root is not a source probe.
+Rebuilding from the same inputs does not add another observation. Old registry
+build snapshots without dated, URL-bound evidence are retained as history but
+excluded from the observed uptime calculation.
 
 ## Archive and issue-intake safeguards
 

@@ -204,7 +204,13 @@ class CatalogLinkRepairsTests(unittest.TestCase):
         row = build_source_insights({"sources": [source]})["sources"][0]
         self.assertEqual(row["health_samples"], 0)
         self.assertIsNone(row["observed_uptime_percent"])
-        source["history"] += [{"health": "online"}, {"health": "offline"}]
+        # Legacy build snapshots alone are not proof of an actual probe.
+        source["history"] += [{"health": "online"}]
+        self.assertEqual(build_source_insights({"sources": [source]})["sources"][0]["health_samples"], 0)
+        source["history"] += [
+            {"health": "online", "observedAt": "2026-10-27T04:00:00Z", "observationURL": "https://example.com/source"},
+            {"health": "offline", "observedAt": "2026-10-28T04:00:00Z", "observationURL": "https://example.com/source"},
+        ]
         row = build_source_insights({"sources": [source]})["sources"][0]
         self.assertEqual(row["health_samples"], 2)
         self.assertEqual(row["observed_uptime_percent"], 50.0)

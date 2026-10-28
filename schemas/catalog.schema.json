@@ -84,6 +84,23 @@
         "tintColor": { "$ref": "#/definitions/hexColor" },
         "icon": { "type": "string" },
         "localizedDescription": { "type": "string" },
+        "features": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "Curated features mentioned by the project or distributor; omissions mean unknown, not unsupported.",
+          "items": { "enum": ["no-ads", "picture-in-picture", "downloads", "background-audio", "sponsorblock", "4k"] }
+        },
+        "featuresReviewed": {
+          "type": "object",
+          "required": ["version", "downloadURL"],
+          "additionalProperties": false,
+          "description": "Version and exact download URL for which feature descriptions were last reviewed; not byte verification.",
+          "properties": {
+            "version": { "type": "string", "minLength": 1 },
+            "downloadURL": { "type": "string", "format": "uri", "pattern": "^https://" }
+          }
+        },
+        "bestFor": { "type": "string", "maxLength": 240 },
         "screenshots": { "type": "array", "items": { "type": "string", "format": "uri" } },
         "featured": { "type": "boolean" },
         "archive": { "type": "boolean", "description": "Opt in to a separately authorized local archive; does not publish or imply redistribution rights." },

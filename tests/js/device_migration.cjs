@@ -52,7 +52,14 @@ async function main() {
     assert.match(migration.textContent, /numerically newer/); assert.match(migration.textContent, /can be alternatives/);
   });
   check('migration renders source names as text, not markup', () => { assert.equal(migration.querySelectorAll('img').length, 0); assert.match(migration.textContent, /<img/); });
-  check('migration creates only an explicit review link', () => assert.match(migration.querySelector('ul a').href, /^https:\/\/github\.com\/raynmahbub\/OmniSource\/issues\/new\?/));
+  check('migration creates only an explicit review link', () => {
+    const link = migration.querySelector('ul a');
+    assert.match(link.href, /^https:\/\/github\.com\/raynmahbub\/OmniSource\/issues\/new\?/);
+    const params = new URL(link.href).searchParams;
+    assert.equal(params.get('app-name'), '<img src=x onerror=alert(1)>');
+    assert.equal(params.get('bundle-id'), 'com.other.app');
+    assert.equal(params.get('upstream'), null, 'a third-party feed must not be asserted as official upstream');
+  });
   w.close();
   console.log(JSON.stringify({ checks: results.length, results }));
   if (results.some(r => !r.ok)) process.exitCode = 1;

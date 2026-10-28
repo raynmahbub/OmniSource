@@ -1506,6 +1506,8 @@ html[data-view="compact"] .card-identity { grid-column: 2; grid-row: 1; }
 html[data-view="compact"] .app-description,
 html[data-view="compact"] .card-badges,
 html[data-view="compact"] .card-meta { display: none; }
+html[data-view="compact"] .card-badges.has-local-badges { display: flex; grid-column: 2; grid-row: 2; margin-top: 0; }
+html[data-view="compact"] .card-badges.has-local-badges > :not([data-resign-badge]):not([data-update-badge]) { display: none; }
 html[data-view="compact"] .card-bottom { grid-column: 3; grid-row: 1 / span 2; margin: 0; }
 html[data-view="compact"] .card-mini { display: none; }
 
@@ -5722,6 +5724,10 @@ body[data-page="home"] main > section[id] {
 .device-profile-form { display: flex; flex-wrap: wrap; align-items: end; gap: .65rem; }
 .device-profile-form label { display: grid; gap: .25rem; font-size: .8rem; font-weight: 600; }
 .device-profile-form input, .device-profile-form select { min-height: 42px; max-width: 100%; padding: .45rem .6rem; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--surface); color: var(--text); }
+.device-profile-form input[type="checkbox"] { min-height: 0; width: 1rem; height: 1rem; padding: 0; vertical-align: middle; }
+.guide-capabilities { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: .7rem; border: 0; padding: 0; }
+.guide-capabilities legend { font-size: .8rem; font-weight: 700; margin-bottom: .35rem; }
+.guide-capabilities label { display: inline-flex; align-items: center; gap: .3rem; }
 .device-profile-form [role="status"] { flex-basis: 100%; color: var(--muted); font-size: .8rem; }
 .app-card.device-incompatible { opacity: .65; }
 .device-check { margin-top: .7rem; font-size: .85rem; color: var(--muted); }

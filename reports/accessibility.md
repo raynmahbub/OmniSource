@@ -38,7 +38,7 @@ motion policy live in the design system and are noted per section.
 - `apps/bhinstagram/index.html`
   - 1 text inputs without label/aria-label
 - `index.html`
-  - 2 text inputs without label/aria-label
+  - 3 text inputs without label/aria-label
 - `install/index.html`
   - 2 text inputs without label/aria-label
 

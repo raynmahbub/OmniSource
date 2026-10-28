@@ -98,6 +98,10 @@ class TestPipeline(unittest.TestCase):
             changed_feeds, health_doc, analytics_doc = stage_build(container, catalog, state, report)
             self.assertGreater(len(changed_feeds), 0)
             self.assertTrue((paths.feeds / "testapp.json").exists())
+            self.assertEqual(
+                json.loads((paths.feeds / "testapp.json").read_text(encoding="utf-8"))["sourceURL"],
+                "https://raynmahbub.github.io/OmniSource/feeds/testapp.json",
+            )
             self.assertTrue((paths.feeds / "apps.json").exists())
             self.assertTrue((paths.feeds / "health.json").exists())
             # Translation coverage is a build document derived from locales/.

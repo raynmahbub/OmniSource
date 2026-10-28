@@ -539,6 +539,9 @@ def render_app_page(
     fallbacks = [url for url in fallbacks if isinstance(url, str) and url.startswith(("http://", "https://"))]
     checks = verification_item.get("checks") if isinstance(verification_item.get("checks"), dict) else {}
     reasons = verification_item.get("reasons") if isinstance(verification_item.get("reasons"), list) else []
+    transparency = verification_item.get("transparencyEvidence")
+    if not isinstance(transparency, dict) or transparency.get("url") != download_url:
+        transparency = {}
 
     title = html.escape(app.name)
     sub = html.escape(app.short_description or app.description or f"{app.name} on OmniSource")
@@ -687,6 +690,19 @@ def render_app_page(
             else ""
         ),
         (
+            '        <p class="ap-desc" role="status">Different bytes have been observed at this URL for the '
+            "same version. Review the transparency log before installing.</p>\n"
+            if transparency.get("sameURLDifferentDigest")
+            else ""
+        ),
+        (
+            '        <p class="ap-desc">Last byte observation for this version and URL: '
+            + html.escape(str(transparency["lastHashedAt"]))
+            + ". This is not a publisher signature or a guarantee about current bytes.</p>\n"
+            if transparency.get("lastHashedAt")
+            else ""
+        ),
+        (
             f'        <p class="ap-desc">Large download ({size_text}); consider Wi-Fi or data limits.</p>\n'
             if int(newest.get("size") or 0) >= 200 * 1024 * 1024
             else ""
@@ -705,9 +721,11 @@ def render_app_page(
         "    </section>\n",
     ]
 
-    compat_attribute = html.escape(
-        json.dumps(compatibility if isinstance(compatibility, dict) else {}, ensure_ascii=False), quote=True
-    )
+    effective_compatibility = dict(compatibility) if isinstance(compatibility, dict) else {}
+    for key in ("minOSVersion", "maxOSVersion"):
+        if isinstance(newest.get(key), str) and newest[key]:
+            effective_compatibility[key] = newest[key]
+    compat_attribute = html.escape(json.dumps(effective_compatibility, ensure_ascii=False), quote=True)
     sections = [
         '    <section class="ap-section" data-reveal>\n',
         '      <h2><span class="num">01</span> About</h2>\n',
@@ -731,6 +749,7 @@ def render_app_page(
         '<option value="paid">Paid (about 365 days)</option></select></label>'
         '<button class="button small" type="submit">Save estimate</button>'
         '<button class="button small" type="button" data-resign-remind>Allow reminders</button>'
+        '<button class="button small" type="button" data-resign-disable>Turn off reminders</button>'
         '<button class="button small" type="button" data-resign-clear>Clear</button>'
         '<span data-resign-message role="status"></span></form></details>\n',
         "    </section>\n\n",

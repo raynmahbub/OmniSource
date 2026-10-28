@@ -516,6 +516,7 @@ def stage_build(
     *,
     refresh_mirrors: bool = False,
     refresh_only: set[str] | None = None,
+    transparency_log: dict[str, Any] | None = None,
 ) -> tuple[list[Path], dict[str, Any]]:
     rendered: list[tuple[App, dict[str, Any]]] = []
 
@@ -552,7 +553,7 @@ def stage_build(
             subtitle=app.raw.get("subtitle", app.name),
             description=f"Standalone distribution feed for {app.name}, curated within OmniSource.",
         )
-        feed["sourceURL"] = f"{base}/{app.slug}.json"
+        feed["sourceURL"] = f"{base}/feeds/{app.slug}.json"
         feed["apps"] = [entry]
         feed["news"] = []
         documents[feeds_dir / f"{app.slug}.json"] = feed
@@ -605,7 +606,16 @@ def stage_build(
     # All of them are generated from the same in-memory dataset; none is
     # hand-edited. See docs/API.md for the contracts.
     discovery_doc = build_discovery_doc(catalog, state, health_doc)
-    verification_doc = build_verification_doc(catalog, state, health_doc)
+    if transparency_log is None:
+        ledger_path = feeds_dir / "transparency.json"
+        transparency_log = read_json(ledger_path) if ledger_path.exists() else empty_log()
+    if not isinstance(transparency_log, dict):
+        raise SyncError("transparency log is unreadable; refusing to publish evidence")
+    try:
+        validate_log(transparency_log)
+    except ValueError as error:
+        raise SyncError(f"transparency log validation failed: {error}") from error
+    verification_doc = build_verification_doc(catalog, state, health_doc, transparency_log)
     # The source index (feeds/sources.json) is the Source Explorer's contract.
     # Enrichment fields (slug/page/status/score/health/…) are additive; the
     # base grouping stays owned by omnisource.discovery.
@@ -1095,6 +1105,10 @@ def run(
             for record in verify_failed:
                 report.errors.append(f"integrity: {record['slug']} rejected ({record.get('detail')})")
 
+    # Include real observations in the in-memory build so the published
+    # verification projections and the ledger describe the same run.
+    added = append_observations(ledger, state, records) if verify and isinstance(ledger, dict) else 0
+
     with Group("Validate local assets"):
         stage_assets(container, catalog)
 
@@ -1106,12 +1120,12 @@ def run(
             report,
             refresh_mirrors=not no_sync,
             refresh_only=only,
+            transparency_log=ledger,
         )
 
     # Only a full byte read can add a ledger entry; offline rebuilds never invent
-    # observations. Chain validation happens before any append.
+    # observations. Write it only after the generated dataset passes validation.
     if verify and isinstance(ledger, dict):
-        added = append_observations(ledger, state, records)
         if (added or not ledger_path.exists()) and write_json(ledger_path, ledger):
             changed.append(ledger_path)
         log.info("Transparency log: %d new byte observation(s)", added)
