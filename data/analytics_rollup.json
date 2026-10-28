@@ -1,32 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "totals": {
     "apps": 128,
     "sources": 111,
-    "verifiedApps": 98,
-    "communityVerifiedApps": 10,
-    "unverifiedApps": 20,
+    "verifiedApps": 108,
+    "communityVerifiedApps": 17,
+    "unverifiedApps": 3,
     "hashVerifiedApps": 0,
-    "verified": 98,
-    "community_verified": 10,
-    "unverified": 20,
+    "verified": 108,
+    "community_verified": 17,
+    "unverified": 3,
     "featuredApps": 7,
-    "downloadsReachable": 108,
-    "deadLinks": 7,
-    "newAppsThisWeek": 1,
-    "updatedAppsThisWeek": 21,
+    "downloadsReachable": 125,
+    "deadLinks": 3,
+    "newAppsThisWeek": 0,
+    "updatedAppsThisWeek": 39,
     "clientsSupported": 7
   },
   "coverageDays": 6,
   "daily": [
-    {
-      "date": "2026-10-22",
-      "metrics": {
-        "sourcesOk": 110.0,
-        "downloadsOk": 118.0
-      }
-    },
     {
       "date": "2026-10-23",
       "metrics": {
@@ -58,38 +51,45 @@
     {
       "date": "2026-10-27",
       "metrics": {
+        "sourcesOk": 111.0,
+        "downloadsOk": 113.0
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "metrics": {
         "apps": 128.0,
         "sources": 111.0,
-        "verified": 98.0,
-        "deadLinks": 7.0,
-        "newThisWeek": 1.0,
-        "updatedThisWeek": 21.0,
+        "verified": 108.0,
+        "deadLinks": 3.0,
+        "newThisWeek": 0.0,
+        "updatedThisWeek": 39.0,
         "sourcesOk": 111.0,
-        "downloadsOk": 114.0
+        "downloadsOk": 125.0
       }
     }
   ],
   "weekly": [
     {
       "week": "2026-W43",
-      "days": 4,
+      "days": 3,
       "averages": {
-        "downloadsOk": 118.75,
+        "downloadsOk": 119.0,
         "sourcesOk": 110.0
       }
     },
     {
       "week": "2026-W44",
-      "days": 2,
+      "days": 3,
       "averages": {
-        "apps": 64.0,
-        "deadLinks": 3.5,
-        "downloadsOk": 117.0,
-        "newThisWeek": 0.5,
-        "sources": 55.5,
+        "apps": 42.67,
+        "deadLinks": 1.0,
+        "downloadsOk": 119.33,
+        "newThisWeek": 0.0,
+        "sources": 37.0,
         "sourcesOk": 111.0,
-        "updatedThisWeek": 10.5,
-        "verified": 49.0
+        "updatedThisWeek": 13.0,
+        "verified": 36.0
       }
     }
   ],
@@ -99,13 +99,13 @@
       "days": 6,
       "averages": {
         "apps": 21.33,
-        "deadLinks": 1.17,
-        "downloadsOk": 118.17,
-        "newThisWeek": 0.17,
+        "deadLinks": 0.5,
+        "downloadsOk": 119.17,
+        "newThisWeek": 0.0,
         "sources": 18.5,
-        "sourcesOk": 110.33,
-        "updatedThisWeek": 3.5,
-        "verified": 16.33
+        "sourcesOk": 110.5,
+        "updatedThisWeek": 6.5,
+        "verified": 18.0
       }
     }
   ]
