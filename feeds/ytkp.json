@@ -8,7 +8,7 @@
   "bannerURL": "https://raynmahbub.github.io/OmniSource/assets/OmniSource.png",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
-  "sourceURL": "https://raynmahbub.github.io/OmniSource/ytkp.json",
+  "sourceURL": "https://raynmahbub.github.io/OmniSource/feeds/ytkp.json",
   "apps": [
     {
       "name": "YTKillerPlus",
@@ -45,13 +45,13 @@
               "fileType": "IPA",
               "size": 143635824,
               "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-              "downloads": 808,
+              "downloads": 749,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-          "downloads": 808
+          "downloads": 749
         }
       ],
       "screenshotURLs": [
@@ -131,12 +131,23 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
+          "detail": "HTTP 200",
           "statusSince": "2026-10-27",
-          "lastCheckedAt": "2026-10-28",
+          "lastCheckedAt": "2026-10-28T04:23:28Z",
           "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
           "lastUpdatedAt": "2026-09-26"
-        }
+        },
+        "features": [
+          "no-ads",
+          "picture-in-picture",
+          "downloads",
+          "background-audio"
+        ],
+        "featuresReviewed": {
+          "version": "21.38.3",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa"
+        },
+        "bestFor": "Ad blocking, playback and download controls."
       }
     }
   ],

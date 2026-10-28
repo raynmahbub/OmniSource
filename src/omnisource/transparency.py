@@ -43,7 +43,13 @@ def append_observations(doc: dict[str, Any], state: dict[str, Any], results: lis
     """Append distinct complete byte observations; never log a failed fetch."""
     validate_log(doc)
     entries = doc["entries"]
-    keys = {(e.get("slug"), e.get("version"), e.get("url"), e.get("size"), e.get("sha256")) for e in entries}
+    # Rechecks on a later day are real observations even when the bytes are
+    # unchanged. Retain them so the last check date is not stuck at firstSeen;
+    # reprocessing the same observation remains idempotent.
+    keys = {
+        (e.get("slug"), e.get("version"), e.get("url"), e.get("size"), e.get("sha256"), e.get("verifiedAt"))
+        for e in entries
+    }
     count = 0
     for result in sorted(results, key=lambda x: str(x.get("slug") or "")):
         slug = str(result.get("slug") or "")
@@ -59,7 +65,7 @@ def append_observations(doc: dict[str, Any], state: dict[str, Any], results: lis
             continue
         if not url.startswith("https://") or url != newest.get("downloadURL"):
             continue
-        key = (slug, version, url, size, sha)
+        key = (slug, version, url, size, sha, at)
         if key in keys:
             continue
         different = any(
@@ -109,6 +115,34 @@ def changed_slugs(doc: dict[str, Any], state: dict[str, Any], slugs: set[str]) -
         ):
             changed.add(slug)
     return changed
+
+
+def evidence_for_current(doc: dict[str, Any], slug: str, current: dict[str, Any]) -> dict[str, Any] | None:
+    """Summarize actual observations of this version and URL, not future bytes.
+
+    A different URL can legitimately carry a different build, so only an
+    exact-URL comparison is described as a possible silent replacement.
+    """
+    version, url = current.get("version"), current.get("downloadURL")
+    entries = [
+        entry
+        for entry in doc.get("entries", [])
+        if isinstance(entry, dict) and entry.get("slug") == slug and entry.get("version") == version
+    ]
+    matching = [entry for entry in entries if entry.get("url") == url]
+    if not matching or not version or not url:
+        return None
+    latest = matching[-1]
+    return {
+        "url": url,
+        "version": version,
+        "lastHashedAt": latest.get("verifiedAt"),
+        "sha256": latest.get("sha256"),
+        "size": latest.get("size"),
+        "matchesRecordedAtCheck": latest.get("matchesRecorded") is True,
+        "sameVersionDifferentDigest": len({entry.get("sha256") for entry in entries}) > 1,
+        "sameURLDifferentDigest": len({entry.get("sha256") for entry in matching}) > 1,
+    }
 
 
 def empty_log() -> dict[str, Any]:

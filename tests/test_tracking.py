@@ -106,6 +106,26 @@ class TestTracking(unittest.TestCase):
         self.assertEqual(entry["sha256"], "a" * 64)
         self.assertIn("TestApp 2.5.0 | TestApp", entry["localizedDescription"])
 
+    def test_asset_specific_min_os_overrides_mutable_tags(self) -> None:
+        ref = RepositoryRef.parse(
+            {
+                "repo": "owner/repo",
+                "minOSVersion": "17.0",
+                "minOSVersionByTagNumber": {"1": "14.0"},
+                "minOSVersionByAssetName": {"app_21.33.6_6.0b2.ipa": "16.0"},
+            }
+        )
+
+        def minimum(filename: str, tag: str) -> str:
+            asset = RemoteAsset(name=filename, download_url="https://example.com/app.ipa")
+            release = RemoteRelease(tag=tag, name="", body="", published_at="", assets=(asset,))
+            return str(build_version_entry(app_name="App", ref=ref, release=release, asset=asset)["minOSVersion"])
+
+        self.assertEqual(minimum("app_21.33.6_6.0b2.ipa", "ytl-ipa1"), "16.0")  # asset beats tag
+        self.assertEqual(minimum("app_21.33.6_6.0b2.ipa", "ytl-ipa9"), "16.0")  # renumbered tag
+        self.assertEqual(minimum("app_20.21.6.ipa", "ytl-ipa1"), "14.0")  # legacy tag rule
+        self.assertEqual(minimum("app_21.33.6_6.1.ipa", "ytl-ipa9"), "17.0")  # new build, same base version
+
     def test_detect_update(self) -> None:
         prev = [{"version": "1.0.0", "downloadURL": "https://example.com/v1.ipa"}]
         curr = [{"version": "1.1.0", "downloadURL": "https://example.com/v11.ipa"}]

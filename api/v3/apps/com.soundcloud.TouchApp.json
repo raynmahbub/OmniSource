@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "NexaSC",
     "bundleIdentifier": "com.soundcloud.TouchApp",
@@ -11,18 +11,18 @@
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/SoundCloud.webp",
     "tintColor": "FF5500",
     "category": "social",
-    "version": "8.83.0",
-    "versionDate": "2026-10-19",
-    "versionDescription": "SoundCloud 8.83.0 | SoundCloud-8.83.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.83.0",
-    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
-    "size": 227377895,
+    "version": "8.84.0",
+    "versionDate": "2026-10-27",
+    "versionDescription": "SoundCloud 8.84.0 | SoundCloud-8.84.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.84.0",
+    "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
+    "size": 227577628,
     "versions": [
       {
-        "version": "8.83.0",
-        "date": "2026-10-19",
-        "localizedDescription": "SoundCloud 8.83.0 | SoundCloud-8.83.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.83.0",
-        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
-        "size": 227377895,
+        "version": "8.84.0",
+        "date": "2026-10-27",
+        "localizedDescription": "SoundCloud 8.84.0 | SoundCloud-8.84.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.84.0",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
+        "size": 227577628,
         "minOSVersion": "16.4",
         "releaseUrl": null,
         "source": "altstore",
@@ -30,12 +30,12 @@
         "isDraft": false,
         "assets": [
           {
-            "filename": "SoundCloud-8.83.0-NexaSC.ipa",
-            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
+            "filename": "SoundCloud-8.84.0-NexaSC.ipa",
+            "downloadUrl": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
             "platform": "ios",
             "architecture": null,
             "fileType": "IPA",
-            "size": 227377895,
+            "size": 227577628,
             "sha256": null,
             "downloads": 0,
             "mimeType": null,
@@ -59,37 +59,12 @@
       "ksign",
       "livecontainer"
     ],
-    "appPermissions": {
-      "entitlements": [
-        "com.apple.security.application-groups",
-        "com.apple.developer.associated-domains",
-        "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-        "com.apple.developer.declared-age-range",
-        "com.apple.developer.storekit.request-data",
-        "com.apple.developer.device-information.user-assigned-device-name",
-        "com.apple.developer.group-session",
-        "keychain-access-groups",
-        "com.apple.developer.networking.multicast",
-        "aps-environment",
-        "com.apple.developer.siri",
-        "com.apple.developer.networking.wifi-info"
-      ],
-      "privacy": {
-        "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-        "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-        "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-        "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-        "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-        "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-        "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-      }
-    },
     "omnisource": {
       "slug": "nexasc",
       "status": "beta",
       "featured": false,
       "upstreamURL": "",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "verification": {
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
@@ -116,12 +91,12 @@
         "notes": "UNOFFICIAL BUILD. NexaSC has no public repository or developer feed - the only distribution channel is the IPA Vault source, so no developer-published download link exists to verify. Not affiliated with or endorsed by SoundCloud Ltd. Current SoundCloud 8.x builds require iOS 16.4 or newer (a pinned 7.68.1 build for iOS 16.0-16.3 also exists in the vault but is not tracked here). Shares com.soundcloud.TouchApp with TTKillerPlus in this catalog - install one at a time."
       },
       "health": {
-        "downloadReachable": false,
-        "detail": "HTTP 404",
-        "statusSince": "2026-10-27",
-        "lastCheckedAt": "2026-10-27T19:51:41Z",
-        "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.0-NexaSC.ipa",
-        "lastUpdatedAt": "2026-10-19"
+        "downloadReachable": true,
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-28",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
+        "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
+        "lastUpdatedAt": "2026-10-27"
       }
     },
     "id": "com.soundcloud.TouchApp"

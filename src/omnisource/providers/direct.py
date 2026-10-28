@@ -31,7 +31,7 @@ from omnisource.domain import (
 from omnisource.errors import ProviderError
 from omnisource.http import HttpClient, is_http_url
 from omnisource.logutil import log
-from omnisource.providers.base import SourceProvider
+from omnisource.providers.base import INCREMENTAL_UNCHANGED, SourceProvider
 from omnisource.tracking import extract_sha256
 from omnisource.utils.assets import detect_asset_metadata
 
@@ -111,7 +111,7 @@ class DirectURLProvider(SourceProvider):
             raise ProviderError(f"{self.name}: asset URL unreachable ({probe.detail})")
 
         if incremental and previous_latest_url == url:
-            return []
+            return INCREMENTAL_UNCHANGED
 
         asset = _asset_from_url(url)
         version = source.version or source.app_id or "0.0.0"
@@ -252,7 +252,7 @@ class ArchiveProvider(SourceProvider):
         candidates.sort(key=lambda pair: (pair[0], pair[1].name), reverse=True)
         best = candidates[0][1]
         if incremental and previous_latest_url and best.download_url == previous_latest_url:
-            return []
+            return INCREMENTAL_UNCHANGED
 
         meta = payload.get("metadata") if isinstance(payload.get("metadata"), dict) else {}
         published_at = source.version_date or str(meta.get("date") or meta.get("created") or "")[:10]

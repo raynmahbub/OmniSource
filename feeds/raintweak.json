@@ -8,7 +8,7 @@
   "bannerURL": "https://raynmahbub.github.io/OmniSource/assets/OmniSource.png",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
-  "sourceURL": "https://raynmahbub.github.io/OmniSource/raintweak.json",
+  "sourceURL": "https://raynmahbub.github.io/OmniSource/feeds/raintweak.json",
   "apps": [
     {
       "name": "RainTweak",
@@ -21,19 +21,49 @@
       "category": "social",
       "version": "1.2.0",
       "versionDate": "2026-09-17",
-      "versionDescription": "Discord 1.2.0 | RainTweak\n\nRainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injected into the official Discord iOS app. Published as a ready-to-sideload IPA by the RainTweak project; official IPA comes from the Codeberg/GitHub releases page.",
+      "versionDescription": "Discord 1.2.0 | RainTweak",
       "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
-      "size": 107515950,
+      "size": 107065935,
       "versions": [
         {
           "version": "1.2.0",
           "date": "2026-09-17",
-          "localizedDescription": "Discord 1.2.0 | RainTweak\n\nRainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injected into the official Discord iOS app. Published as a ready-to-sideload IPA by the RainTweak project; official IPA comes from the Codeberg/GitHub releases page.",
+          "localizedDescription": "Discord 1.2.0 | RainTweak",
           "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
-          "size": 107515950,
-          "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
+          "size": 107065935,
           "minOSVersion": "16.0",
-          "releaseUrl": "https://github.com/ra1ncord/RainTweak/releases/tag/v1.2.0"
+          "releaseUrl": "https://github.com/ra1ncord/RainTweak/releases/tag/v1.2.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "dev.raincord.tweak_1.2.0_iphoneos-arm64.deb",
+              "downloadUrl": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/dev.raincord.tweak_1.2.0_iphoneos-arm64.deb",
+              "platform": "linux",
+              "architecture": "arm64",
+              "fileType": "DEB",
+              "size": 41230,
+              "sha256": "73048c2d44806bdf34749f7743067724516098a12311fb51d1f5c37f302d697a",
+              "downloads": 963,
+              "mimeType": "application/vnd.debian.binary-package",
+              "installable": true
+            },
+            {
+              "filename": "RainTweak.ipa",
+              "downloadUrl": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 107065935,
+              "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
+              "downloads": 5876,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
+          "downloads": 5876
         }
       ],
       "screenshotURLs": [],
@@ -51,31 +81,6 @@
         "ksign",
         "livecontainer"
       ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.declared-age-range",
-          "com.apple.developer.storekit.request-data",
-          "com.apple.developer.device-information.user-assigned-device-name",
-          "com.apple.developer.group-session",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.siri",
-          "com.apple.developer.networking.wifi-info"
-        ],
-        "privacy": {
-          "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-          "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-          "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-          "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-          "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-          "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-          "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-        }
-      },
       "omnisource": {
         "slug": "raintweak",
         "status": "stable",
@@ -108,9 +113,9 @@
         },
         "health": {
           "downloadReachable": true,
-          "detail": "HTTP 302",
+          "detail": "HTTP 200",
           "statusSince": "2026-10-27",
-          "lastCheckedAt": "2026-10-28",
+          "lastCheckedAt": "2026-10-28T04:23:28Z",
           "checkedURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
           "lastUpdatedAt": "2026-09-17"
         }

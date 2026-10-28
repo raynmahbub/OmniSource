@@ -159,6 +159,27 @@ def validate_catalog(catalog: Any, *, assets_dir: Path) -> Report:
 
         if "archive" in app and not isinstance(app["archive"], bool):
             report.error(f"{prefix}: archive must be a boolean")
+        if "features" in app:
+            features = app["features"]
+            allowed = {"no-ads", "picture-in-picture", "downloads", "background-audio", "sponsorblock", "4k"}
+            if not isinstance(features, list) or any(
+                not isinstance(item, str) or item not in allowed for item in features
+            ):
+                report.error(f"{prefix}: features must be an array of recognized guide capabilities")
+            elif len(features) != len(set(features)):
+                report.error(f"{prefix}: features must not contain duplicates")
+            if features:
+                reviewed = app.get("featuresReviewed")
+                if (
+                    not isinstance(reviewed, dict)
+                    or not isinstance(reviewed.get("version"), str)
+                    or not reviewed.get("version")
+                    or not str(reviewed.get("downloadURL") or "").startswith("https://")
+                    or not is_http_url(reviewed.get("downloadURL"))
+                ):
+                    report.error(f"{prefix}: featuresReviewed must identify an HTTPS asset and version")
+        if "bestFor" in app and (not isinstance(app["bestFor"], str) or len(app["bestFor"]) > 240):
+            report.error(f"{prefix}: bestFor must be a short string (at most 240 characters)")
 
         status = app.get("status")
         if status and status not in VALID_STATUSES:
@@ -420,6 +441,16 @@ def _validate_upstream(prefix: str, app: dict[str, Any]) -> Report:
                     )
     if upstream.get("versionFromTag") is not None and not isinstance(upstream.get("versionFromTag"), bool):
         report.error(f"{prefix}: upstream.versionFromTag must be a boolean")
+    min_os_by_asset = upstream.get("minOSVersionByAssetName")
+    if min_os_by_asset is not None:
+        if not isinstance(min_os_by_asset, dict):
+            report.error(f"{prefix}: upstream.minOSVersionByAssetName must be an object")
+        else:
+            for filename, min_os in min_os_by_asset.items():
+                if not isinstance(filename, str) or not filename:
+                    report.error(f"{prefix}: upstream.minOSVersionByAssetName keys must be non-empty filenames")
+                if not isinstance(min_os, str) or not re.fullmatch(r"[0-9]+(?:\.[0-9]+)*", min_os):
+                    report.error(f"{prefix}: upstream.minOSVersionByAssetName[{filename!r}] must look like '16.0'")
     return report
 
 

@@ -2,20 +2,20 @@
   "name": "OmniSource - YouMod",
   "identifier": "com.raynmahbub.omnisource.youmod",
   "apiVersion": "v2",
-  "subtitle": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
+  "subtitle": "YouMod with extra YouTube tweaks",
   "description": "Standalone distribution feed for YouMod, curated within OmniSource.",
   "iconURL": "https://raynmahbub.github.io/OmniSource/assets/OmniSource.webp",
   "bannerURL": "https://raynmahbub.github.io/OmniSource/assets/OmniSource.png",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
-  "sourceURL": "https://raynmahbub.github.io/OmniSource/youmod.json",
+  "sourceURL": "https://raynmahbub.github.io/OmniSource/feeds/youmod.json",
   "apps": [
     {
       "name": "YouMod",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Tonwalter888",
-      "subtitle": "YouTube 21.37.4 extra-tweaks build by Tonwalter888",
-      "localizedDescription": "YouMod is OmniSource's featured YouTube 21.37.4 extra-tweaks IPA. It is the YouProEXTRA YouMod 2.0.0 line on YouTube 21.37.4 with the extra player stack that release publishes: YouPip (Picture-in-Picture), YouQuality and YouChooseQuality, YTHoldForSpeed, YouGetCaption, YTABConfig, YTNativeShare, YTweaks, Return YouTube Dislike, DontEatMyContent, Gonerino, VolumeBoostYT and PleaseDontStopTheMusic. 120 Hz display refresh is used when the device supports it. Native 4K is available on A16+ devices; YTUHD is not bundled on this YouTube version. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time. YTLite, YTKACE and YouMod are competing main tweaks; stacking all three in one IPA is unstable, so this listing follows the extra-tweaks YouMod 21.37.4 release.",
+      "subtitle": "YouMod with extra YouTube tweaks",
+      "localizedDescription": "YouMod is a YouTube tweak by Tonwalter888. This community-distributed YouProEXTRA IPA includes YouMod and additional player tweaks, such as picture-in-picture and quality controls. The distributor warns that bundled tweaks may be unstable on newer YouTube versions; see the release notes for the current features. Requires iOS 17.0+. Shares com.google.ios.youtube with the other YouTube mods: install one at a time.",
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/YouTube.webp",
       "tintColor": "FF0000",
       "category": "photo-video",
@@ -45,13 +45,13 @@
               "fileType": "IPA",
               "size": 131824994,
               "sha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
-              "downloads": 31,
+              "downloads": 22,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
-          "downloads": 31
+          "downloads": 22
         }
       ],
       "screenshotURLs": [],
@@ -123,7 +123,7 @@
             "ksign",
             "livecontainer"
           ],
-          "notes": "Requires iOS 17.0+ (YouTube 21.34.3+). Served from mrdrvt99/YouProEXTRA tags youmod-ipa* (YouMod_21.37.4_2.0.0 extra-tweaks IPA). The slug remains youmod for stable feed URLs. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
+          "notes": "Requires iOS 17.0+ for the currently listed releases. The YouMod tweak is developed by Tonwalter888; mrdrvt99/YouProEXTRA distributes this community IPA. The slug remains youmod for stable feed URLs. Shares com.google.ios.youtube with the other YouTube mods: install one at a time."
         },
         "health": {
           "downloadReachable": true,
@@ -132,7 +132,16 @@
           "lastCheckedAt": "2026-10-28",
           "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
           "lastUpdatedAt": "2026-10-27"
-        }
+        },
+        "features": [
+          "picture-in-picture",
+          "4k"
+        ],
+        "featuresReviewed": {
+          "version": "21.43.5",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa"
+        },
+        "bestFor": "PiP and quality controls; bundled tweaks can be unstable."
       }
     }
   ],

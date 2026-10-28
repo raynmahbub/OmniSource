@@ -75,27 +75,4 @@ DESCRIPTION:Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: h
   another app would not paste into webpages.
 URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
 END:VEVENT
-BEGIN:VEVENT
-UID:reynard-0.17.0@omnisource
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:Reynard v0.17.0
-DESCRIPTION:Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: h
- ttps://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### 
- Improvements\n- The native text input integration has been rewritten from 
- scratch\, so typing now feels truly native\, supports nearly all iOS text 
- editing behaviors\, and is significantly more stable.\n\n### New Features\
- n- The address bar now automatically focuses for input on new tab pages wh
- en using a physical keyboard.\n- You can now cycle between tabs using the 
- Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- 
- Fixed an issue where a tab would appear blank after closing another tab in
-  the tab overview.\n- Fixed an issue where dragging the iPad floating keyb
- oard or shortcut bar would push the web view upward.\n- Fixed an issue whe
- re taps would sometimes land in the wrong spot on some iframe elements whe
- n the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n##
- # Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/
- firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6\, 2026).
-URL:https://raynmahbub.github.io/OmniSource/feeds/reynard.json
-END:VEVENT
 END:VCALENDAR

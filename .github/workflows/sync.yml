@@ -9,9 +9,10 @@ name: Sync & Publish
 
 on:
   schedule:
-    # Every 6 hours. Upstream mods usually ship within a few hours of a
-    # YouTube release; twice a day was consistently too slow.
-    - cron: "0 */6 * * *"
+    # Three incremental runs plus a daily full metadata refresh. A latest-URL
+    # shortcut can miss re-tagged or reordered releases and changed metadata.
+    - cron: "0 6,12,18 * * *"
+    - cron: "0 0 * * *"
   push:
     branches: [main]
     paths:
@@ -90,8 +91,8 @@ jobs:
 
       # src/omnisource is stdlib-only on purpose: no pip install, no lockfile
       # drift, no third-party code executing with a write-scoped token.
-      # Scheduled runs are incremental (skip pagination when the newest asset
-      # URL is unchanged). A catalog push always does a full sync.
+      # Most scheduled runs are incremental; the 00:00 UTC schedule and every
+      # catalog push do a full metadata sync, not full IPA verification.
       - name: Build feeds
         env:
           GH_TOKEN: ${{ github.token }}
@@ -106,10 +107,11 @@ jobs:
           SKIP_SYNC: ${{ inputs.skip_sync }}
           SKIP_HEALTH: ${{ inputs.skip_health }}
           EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
           set -euo pipefail
           ARGS=()
-          if [ "${EVENT_NAME}" = "schedule" ]; then
+          if [ "${EVENT_NAME}" = "schedule" ] && [ "${EVENT_SCHEDULE}" != "0 0 * * *" ]; then
             ARGS+=(--incremental)
           fi
           if [ "${SKIP_SYNC}" = "true" ]; then

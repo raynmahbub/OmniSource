@@ -106,6 +106,16 @@ Build of Nicegram for iOS 2.6.5 (727)]]></description>
       <enclosure url="https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
+      <title>NexaSC v8.83.1</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/nexasc.json</link>
+      <guid isPermaLink="false">nexasc-8.83.1</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[SoundCloud 8.83.1 | SoundCloud-8.83.1-NexaSC
+
+IPA Vault build for SoundCloud (NexaSC), version 8.83.1]]></description>
+      <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.1-NexaSC.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Apollo v4.0.0</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/apollo.json</link>
       <guid isPermaLink="false">apollo-4.0.0</guid>
@@ -667,10 +677,8 @@ IPA Vault build for Reddit (RedditFilter), version 2026.41.0]]></description>
       <link>https://raynmahbub.github.io/OmniSource/feeds/raintweak.json</link>
       <guid isPermaLink="false">raintweak-1.2.0</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Discord 1.2.0 | RainTweak
-
-RainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injected into the official Discord iOS app. Published as a ready-to-sideload IPA by the RainTweak project; official IPA comes from the Codeberg/GitHub releases page.]]></description>
-      <enclosure url="https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa" length="107515950" type="application/octet-stream" />
+      <description><![CDATA[Discord 1.2.0 | RainTweak]]></description>
+      <enclosure url="https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa" length="107065935" type="application/octet-stream" />
     </item>
     <item>
       <title>Voyager v2.49.1</title>
@@ -699,7 +707,7 @@ RainTweak (Rain for Discord iOS) - themes, appearance tweaks and QoL fixes injec
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[Facebook 577.1 | Facebook-577.1-Glow
 
-Glow v1.4.4 injected into Facebook 577.1.]]></description>
+Community-distributed Glow build; injected tweak version is unverified.]]></description>
       <enclosure url="https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa" length="226667533" type="application/octet-stream" />
     </item>
     <item>
@@ -894,31 +902,6 @@ Thanks for:
 - @actuallyaridan
 - @Tulugaak]]></description>
       <enclosure url="https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa" length="167001383" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Winston v1.1.5</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/winston.json</link>
-      <guid isPermaLink="false">winston-1.1.5</guid>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <description><![CDATA[Winston 1.1.5 | winston
-
-- Fixed placeholder message alignment
-- Fixed Reddit API preferences page
-- Added localization support
-- Cleaned unused code and replaced glitchy book Lottie
-- Removed old, unused TipJar component
-- Added back GlobalLoaderProvider
-- Fixed broken build
-- Improved RedditListingFeed component and cleaned up some files
-- Fixed many UI bugs and stutters; added new NukeUI Opt components
-- Removed redundant code calling setAudioToMixWithOthers three times
-- Provided RedditListingFeed with a force refresh handler; fixed UserView issues
-- Fixed blur flash on app open
-- Fixed cache clear button not working
-- Added support for inline image within comments
-- Improved spoiler handling in selftext
-- Corrected tab bar hit detection in Split View on iPad]]></description>
-      <enclosure url="https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa" length="50003343" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

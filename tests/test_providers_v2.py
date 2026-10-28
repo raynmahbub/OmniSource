@@ -285,6 +285,7 @@ class FailoverChainTests(unittest.TestCase):
             repo="owner/repo",
             asset_suffixes=(".custom.ipa",),
             keep_versions=2,
+            min_os_by_asset_name={"app.custom.ipa": "15.0"},
             expected_bundle_id="com.example.app",
             mirrors=({"provider": "mirror", "url": "https://m.example.com/app.custom.ipa"},),
         )
@@ -295,6 +296,7 @@ class FailoverChainTests(unittest.TestCase):
         self.assertEqual(mirror.feed_url, "https://m.example.com/app.custom.ipa")
         self.assertEqual(mirror.asset_suffixes, (".custom.ipa",))
         self.assertEqual(mirror.keep_versions, 2)
+        self.assertEqual(mirror.min_os_by_asset_name, {"app.custom.ipa": "15.0"})
         self.assertEqual(mirror.expected_bundle_id, "com.example.app")
 
     def test_mirrors_missing_provider_rejected(self) -> None:

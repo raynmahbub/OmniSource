@@ -1,13 +1,13 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "Messenger Flow",
     "bundleIdentifier": "com.facebook.Messenger.flow",
-    "developerName": "dvntms & IPA Vault",
-    "subtitle": "Facebook Messenger tweak by dvntms (unofficial build)",
-    "localizedDescription": "Messenger Flow is a tweaked Facebook Messenger build by dvntms, distributed ready-to-sideload through the IPA Vault on a current Messenger base version. The Flow tweak's feature set is defined by its build; no official public documentation exists.",
+    "developerName": "dayanch96 & IPA Vault",
+    "subtitle": "Facebook Messenger tweak by dayanch96 (unofficial build)",
+    "localizedDescription": "Messenger Flow is a Facebook Messenger tweak developed by dayanch96. This listing tracks a community-built, ready-to-sideload IPA from IPA Vault, not an official developer IPA. See the upstream project for its feature documentation and the download status for the last known build.",
     "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Messenger.webp",
     "tintColor": "0084FF",
     "category": "social",
@@ -59,37 +59,12 @@
       "ksign",
       "livecontainer"
     ],
-    "appPermissions": {
-      "entitlements": [
-        "com.apple.security.application-groups",
-        "com.apple.developer.associated-domains",
-        "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-        "com.apple.developer.declared-age-range",
-        "com.apple.developer.storekit.request-data",
-        "com.apple.developer.device-information.user-assigned-device-name",
-        "com.apple.developer.group-session",
-        "keychain-access-groups",
-        "com.apple.developer.networking.multicast",
-        "aps-environment",
-        "com.apple.developer.siri",
-        "com.apple.developer.networking.wifi-info"
-      ],
-      "privacy": {
-        "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-        "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-        "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-        "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-        "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-        "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-        "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-      }
-    },
     "omnisource": {
       "slug": "messenger-flow",
       "status": "stable",
       "featured": false,
-      "upstreamURL": "",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "upstreamURL": "https://github.com/dayanch96/Flow",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "verification": {
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
@@ -113,13 +88,13 @@
           "ksign",
           "livecontainer"
         ],
-        "notes": "UNOFFICIAL BUILD. Flow has no public repository or developer feed - the IPA Vault source is the only distribution channel, so no developer-published download link exists to verify. Not affiliated with or endorsed by Meta. Uses its own bundle identifier, so it installs alongside the stock App Store Messenger."
+        "notes": "UNOFFICIAL BUILD. The dayanch96/Flow project publishes the tweak as .deb packages; IPA Vault supplied this community-built, ready-to-sideload IPA. Not affiliated with or endorsed by Meta. The source lists its own bundle identifier, which can allow installation alongside the stock App Store Messenger depending on signing."
       },
       "health": {
         "downloadReachable": false,
         "detail": "HTTP 404",
         "statusSince": "2026-10-27",
-        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
         "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa",
         "lastUpdatedAt": "2026-10-17"
       }

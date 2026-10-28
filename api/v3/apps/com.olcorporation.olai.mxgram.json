@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "iMe MxGram",
     "bundleIdentifier": "com.olcorporation.olai.mxgram",
@@ -47,37 +47,12 @@
       "ksign",
       "livecontainer"
     ],
-    "appPermissions": {
-      "entitlements": [
-        "com.apple.security.application-groups",
-        "com.apple.developer.associated-domains",
-        "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-        "com.apple.developer.declared-age-range",
-        "com.apple.developer.storekit.request-data",
-        "com.apple.developer.device-information.user-assigned-device-name",
-        "com.apple.developer.group-session",
-        "keychain-access-groups",
-        "com.apple.developer.networking.multicast",
-        "aps-environment",
-        "com.apple.developer.siri",
-        "com.apple.developer.networking.wifi-info"
-      ],
-      "privacy": {
-        "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-        "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-        "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-        "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-        "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-        "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-        "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-      }
-    },
     "omnisource": {
       "slug": "ime",
       "status": "stable",
       "featured": false,
       "upstreamURL": "https://github.com/m1ronx1412/mxgram",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "verification": {
         "method": "altstore",
         "publisher": "927tx/IPA-Vault",
@@ -104,10 +79,10 @@
         "notes": "UNOFFICIAL BUILD - TWICE OVER. iMe is itself an unofficial third-party Telegram client (not affiliated with Telegram FZ-LLC), and this is a community rebuild of it with the MxGram tweak injected. The tweak's official project (m1ronx1412/mxgram) publishes .deb/.dylib assets only; the ready-to-sideload IPA exists solely in the IPA Vault source, so no developer-published IPA link exists to verify. The IPA Vault lists this MxGram variant as com.olcorporation.olai.mxgram; a signing client may change the identifier."
       },
       "health": {
-        "downloadReachable": true,
-        "detail": "HTTP 200",
-        "statusSince": "2026-09-01",
-        "lastCheckedAt": "2026-10-21",
+        "downloadReachable": false,
+        "detail": "HTTP 404",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
         "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
         "lastUpdatedAt": "2026-09-01"
       }

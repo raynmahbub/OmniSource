@@ -9,11 +9,11 @@
     "unknown": 0
   },
   "pipeline": {
-    "status": "ok",
+    "status": "degraded",
     "lastBuild": "2026-10-28",
     "appsTotal": 128,
     "appsHealthy": 83,
-    "appsFailing": 0
+    "appsFailing": 5
   },
   "providers": [
     {
@@ -85,7 +85,7 @@
         "nebuloiptv": "github:mongoosemonke504/OnsideTV",
         "orbot": "github:guardianproject/orbot-apple",
         "otraku": "github:lotusprey/otraku",
-        "raintweak": "manual",
+        "raintweak": "github:ra1ncord/RainTweak",
         "reynard": "github:minh-ton/reynard-browser",
         "saber": "github:saber-notes/saber",
         "sameboy": "github:LIJI32/SameBoy",
@@ -185,20 +185,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 180,
-      "latencyMs": 180,
-      "checkedAt": "2026-10-28",
+      "latency": 188,
+      "latencyMs": 188,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa",
       "lastUpdate": "2026-09-14",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 147,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -272,10 +266,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 180,
-          "detail": "HTTP 302"
+          "latencyMs": 355,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 188,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -288,20 +288,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 152,
-      "latencyMs": 152,
-      "checkedAt": "2026-10-28",
+      "latency": 284,
+      "latencyMs": 284,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
       "lastUpdate": "2026-10-16",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 146,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -375,10 +369,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 152,
-          "detail": "HTTP 302"
+          "latencyMs": 324,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 284,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -391,20 +391,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 191,
-      "latencyMs": 191,
-      "checkedAt": "2026-10-28",
+      "latency": 356,
+      "latencyMs": 356,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-iOS-v3.2.0.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 201,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -478,10 +472,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 191,
-          "detail": "HTTP 302"
+          "latencyMs": 384,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 356,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -494,20 +494,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 175,
-      "latencyMs": 175,
-      "checkedAt": "2026-10-28",
+      "latency": 408,
+      "latencyMs": 408,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
       "lastUpdate": "2026-10-25",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 214,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -581,10 +575,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 175,
-          "detail": "HTTP 302"
+          "latencyMs": 288,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 408,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -597,20 +597,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 203,
-      "latencyMs": 203,
-      "checkedAt": "2026-10-28",
+      "latency": 256,
+      "latencyMs": 256,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
       "lastUpdate": "2026-09-17",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 186,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -684,10 +678,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 203,
-          "detail": "HTTP 302"
+          "latencyMs": 279,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 256,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -700,20 +700,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 180,
-      "latencyMs": 180,
-      "checkedAt": "2026-10-28",
+      "latency": 281,
+      "latencyMs": 281,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
       "lastUpdate": "2026-10-14",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 156,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -787,10 +781,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 180,
-          "detail": "HTTP 302"
+          "latencyMs": 409,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 281,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -803,20 +803,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 239,
-      "latencyMs": 239,
-      "checkedAt": "2026-10-28",
+      "latency": 295,
+      "latencyMs": 295,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
       "lastUpdate": "2026-10-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 149,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -890,10 +884,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 239,
-          "detail": "HTTP 302"
+          "latencyMs": 349,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 295,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -906,20 +906,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 214,
-      "latencyMs": 214,
-      "checkedAt": "2026-10-28",
+      "latency": 286,
+      "latencyMs": 286,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa",
       "lastUpdate": "2023-12-19",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 184,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -993,10 +987,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 214,
-          "detail": "HTTP 302"
+          "latencyMs": 393,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 286,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1009,20 +1009,14 @@
       "type": "manual",
       "status": "healthy",
       "reachable": true,
-      "latency": 276,
-      "latencyMs": 276,
-      "checkedAt": "2026-10-28",
+      "latency": 336,
+      "latencyMs": 336,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
       "lastUpdate": "2026-10-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 210,
-          "detail": "HTTP 404"
-        },
         {
           "at": "2026-10-19",
           "reachable": false,
@@ -1096,10 +1090,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 276,
-          "detail": "HTTP 302"
+          "latencyMs": 648,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 336,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1112,20 +1112,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 228,
-      "latencyMs": 228,
-      "checkedAt": "2026-10-28",
+      "latency": 287,
+      "latencyMs": 287,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
       "lastUpdate": "2026-09-28",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 156,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1199,10 +1193,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 228,
-          "detail": "HTTP 302"
+          "latencyMs": 329,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 287,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1215,20 +1215,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 160,
-      "latencyMs": 160,
-      "checkedAt": "2026-10-28",
+      "latency": 318,
+      "latencyMs": 318,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
       "lastUpdate": "2026-08-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 174,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1302,10 +1296,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 160,
-          "detail": "HTTP 302"
+          "latencyMs": 355,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 318,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1318,20 +1318,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 167,
-      "latencyMs": 167,
-      "checkedAt": "2026-10-28",
+      "latency": 283,
+      "latencyMs": 283,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 156,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1405,10 +1399,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 167,
-          "detail": "HTTP 302"
+          "latencyMs": 345,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 283,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1421,20 +1421,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 181,
-      "latencyMs": 181,
-      "checkedAt": "2026-10-28",
+      "latency": 295,
+      "latencyMs": 295,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa",
       "lastUpdate": "2026-09-08",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 169,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1508,10 +1502,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 181,
-          "detail": "HTTP 302"
+          "latencyMs": 356,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 295,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1524,20 +1524,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 199,
-      "latencyMs": 199,
-      "checkedAt": "2026-10-28",
+      "latency": 317,
+      "latencyMs": 317,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
       "lastUpdate": "2023-05-29",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 177,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1611,10 +1605,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 199,
-          "detail": "HTTP 302"
+          "latencyMs": 337,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 317,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1627,20 +1627,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 161,
-      "latencyMs": 161,
-      "checkedAt": "2026-10-28",
+      "latency": 193,
+      "latencyMs": 193,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
       "lastUpdate": "2026-10-20",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 130,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1714,10 +1708,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
+          "latencyMs": 299,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 193,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1730,20 +1730,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 193,
-      "latencyMs": 193,
-      "checkedAt": "2026-10-28",
+      "latency": 244,
+      "latencyMs": 244,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
       "lastUpdate": "2026-10-24",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 91,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -1817,10 +1811,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 193,
-          "detail": "HTTP 302"
+          "latencyMs": 334,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 244,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1833,20 +1833,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 203,
-      "latencyMs": 203,
-      "checkedAt": "2026-10-28",
+      "latency": 281,
+      "latencyMs": 281,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
       "lastUpdate": "2023-02-02",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -1920,10 +1914,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 203,
-          "detail": "HTTP 302"
+          "latencyMs": 338,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 281,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1936,13 +1936,13 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 230,
-      "latencyMs": 230,
-      "checkedAt": "2026-10-28",
+      "latency": 290,
+      "latencyMs": 290,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
       "lastUpdate": "2026-10-20",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
         {
           "at": "2026-10-25",
@@ -1969,10 +1969,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 230,
-          "detail": "HTTP 302"
+          "latencyMs": 292,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 290,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -1985,20 +1991,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 238,
-      "latencyMs": 238,
-      "checkedAt": "2026-10-28",
+      "latency": 298,
+      "latencyMs": 298,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
       "lastUpdate": "2026-10-16",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 153,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2072,10 +2072,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 238,
-          "detail": "HTTP 302"
+          "latencyMs": 368,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 298,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -2088,20 +2094,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 162,
-      "latencyMs": 162,
-      "checkedAt": "2026-10-28",
+      "latency": 308,
+      "latencyMs": 308,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa",
       "lastUpdate": "2026-09-08",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 142,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2175,10 +2175,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 162,
-          "detail": "HTTP 302"
+          "latencyMs": 343,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 308,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -2191,20 +2197,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 195,
-      "latencyMs": 195,
-      "checkedAt": "2026-10-28",
+      "latency": 388,
+      "latencyMs": 388,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa",
       "lastUpdate": "2024-02-13",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 158,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2278,10 +2278,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 195,
-          "detail": "HTTP 302"
+          "latencyMs": 406,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 388,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -2290,13 +2296,13 @@
       "app": "infuseplus",
       "name": "Infuse Plus",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 151,
-      "latencyMs": 151,
-      "checkedAt": "2026-10-28",
+      "latency": 109,
+      "latencyMs": 109,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
@@ -2381,9 +2387,9 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 151,
+          "latencyMs": 109,
           "detail": "HTTP 200"
         }
       ]
@@ -2397,9 +2403,9 @@
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 232,
-      "latencyMs": 232,
-      "checkedAt": "2026-10-28",
+      "latency": 247,
+      "latencyMs": 247,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://ikghd.site/ipa/Instagram_452.0_iNKillerPlus_5.3.ipa",
       "lastUpdate": "2026-10-22",
       "valid": true,
@@ -2484,9 +2490,9 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 232,
+          "latencyMs": 247,
           "detail": "HTTP 200"
         }
       ]
@@ -2496,24 +2502,18 @@
       "app": "iqface",
       "name": "iQFace",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 133,
-      "latencyMs": 133,
-      "checkedAt": "2026-10-28",
+      "latency": 83,
+      "latencyMs": 83,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-584.1.0-iQFace.ipa",
       "lastUpdate": "2026-10-23",
       "valid": true,
       "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 122,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -2587,9 +2587,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 133,
+          "latencyMs": 153,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 83,
           "detail": "HTTP 200"
         }
       ]
@@ -2603,20 +2609,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 211,
-      "latencyMs": 211,
-      "checkedAt": "2026-10-28",
+      "latency": 271,
+      "latencyMs": 271,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
       "lastUpdate": "2026-08-22",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 173,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2690,10 +2690,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 211,
-          "detail": "HTTP 302"
+          "latencyMs": 347,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 271,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -2706,20 +2712,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 241,
-      "latencyMs": 241,
-      "checkedAt": "2026-10-28",
+      "latency": 309,
+      "latencyMs": 309,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
       "lastUpdate": "2026-10-17",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 163,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2793,10 +2793,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 241,
-          "detail": "HTTP 302"
+          "latencyMs": 377,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 309,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -2809,20 +2815,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 173,
-      "latencyMs": 173,
-      "checkedAt": "2026-10-28",
+      "latency": 335,
+      "latencyMs": 335,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.2/JellyBook-Release.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 195,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2896,10 +2896,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 173,
-          "detail": "HTTP 302"
+          "latencyMs": 330,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 335,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -2912,20 +2918,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 209,
-      "latencyMs": 209,
-      "checkedAt": "2026-10-28",
+      "latency": 256,
+      "latencyMs": 256,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
       "lastUpdate": "2026-10-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -2999,10 +2999,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 209,
-          "detail": "HTTP 302"
+          "latencyMs": 330,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 256,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3015,20 +3021,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 224,
-      "latencyMs": 224,
-      "checkedAt": "2026-10-28",
+      "latency": 203,
+      "latencyMs": 203,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
       "lastUpdate": "2026-09-18",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3102,10 +3102,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 224,
-          "detail": "HTTP 302"
+          "latencyMs": 335,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 203,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3118,20 +3124,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 189,
-      "latencyMs": 189,
-      "checkedAt": "2026-10-28",
+      "latency": 287,
+      "latencyMs": 287,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
       "lastUpdate": "2026-09-15",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 165,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3205,10 +3205,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 189,
-          "detail": "HTTP 302"
+          "latencyMs": 323,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 287,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3221,20 +3227,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 210,
-      "latencyMs": 210,
-      "checkedAt": "2026-10-28",
+      "latency": 322,
+      "latencyMs": 322,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
       "lastUpdate": "2026-08-03",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3308,10 +3308,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 210,
-          "detail": "HTTP 302"
+          "latencyMs": 390,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 322,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3324,20 +3330,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 238,
-      "latencyMs": 238,
-      "checkedAt": "2026-10-28",
+      "latency": 300,
+      "latencyMs": 300,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 155,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3411,10 +3411,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 238,
-          "detail": "HTTP 302"
+          "latencyMs": 373,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 300,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3427,20 +3433,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 156,
-      "latencyMs": 156,
-      "checkedAt": "2026-10-28",
+      "latency": 266,
+      "latencyMs": 266,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
       "lastUpdate": "2026-10-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 167,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3514,10 +3514,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 156,
-          "detail": "HTTP 302"
+          "latencyMs": 329,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 266,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3526,24 +3532,18 @@
       "app": "msgplusx",
       "name": "MSGPlusX",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 114,
-      "latencyMs": 114,
-      "checkedAt": "2026-10-28",
+      "latency": 90,
+      "latencyMs": 90,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-585.0.0-MSGPlusX.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
       "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 91,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3617,9 +3617,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 114,
+          "latencyMs": 111,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 90,
           "detail": "HTTP 200"
         }
       ]
@@ -3633,20 +3639,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 201,
-      "latencyMs": 201,
-      "checkedAt": "2026-10-28",
+      "latency": 289,
+      "latencyMs": 289,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
       "lastUpdate": "2022-11-10",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 157,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -3720,10 +3720,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 201,
-          "detail": "HTTP 302"
+          "latencyMs": 347,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 289,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3736,20 +3742,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 159,
-      "latencyMs": 159,
-      "checkedAt": "2026-10-28",
+      "latency": 204,
+      "latencyMs": 204,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
       "lastUpdate": "2026-10-16",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 97,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -3823,10 +3823,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 159,
-          "detail": "HTTP 302"
+          "latencyMs": 346,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 204,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -3835,13 +3841,13 @@
       "app": "nexasc",
       "name": "NexaSC",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 201,
-      "latencyMs": 201,
-      "checkedAt": "2026-10-28",
+      "latency": 104,
+      "latencyMs": 104,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
@@ -3926,9 +3932,9 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 201,
+          "latencyMs": 104,
           "detail": "HTTP 200"
         }
       ]
@@ -3942,20 +3948,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 223,
-      "latencyMs": 223,
-      "checkedAt": "2026-10-28",
+      "latency": 332,
+      "latencyMs": 332,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 171,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4029,10 +4029,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 223,
-          "detail": "HTTP 302"
+          "latencyMs": 360,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 332,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4045,20 +4051,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 234,
-      "latencyMs": 234,
-      "checkedAt": "2026-10-28",
+      "latency": 235,
+      "latencyMs": 235,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.5-beta/nuvio-0.6.5-full-release.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 142,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4132,10 +4132,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 234,
-          "detail": "HTTP 302"
+          "latencyMs": 330,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 235,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4148,20 +4154,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 226,
-      "latencyMs": 226,
-      "checkedAt": "2026-10-28",
+      "latency": 265,
+      "latencyMs": 265,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
       "lastUpdate": "2023-04-04",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 152,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4235,10 +4235,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 226,
-          "detail": "HTTP 302"
+          "latencyMs": 323,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 265,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4251,20 +4257,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 197,
-      "latencyMs": 197,
-      "checkedAt": "2026-10-28",
+      "latency": 260,
+      "latencyMs": 260,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
       "lastUpdate": "2026-10-19",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 160,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4338,10 +4338,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 197,
-          "detail": "HTTP 302"
+          "latencyMs": 326,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 260,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4354,20 +4360,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 168,
-      "latencyMs": 168,
-      "checkedAt": "2026-10-28",
+      "latency": 339,
+      "latencyMs": 339,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
       "lastUpdate": "2026-09-28",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 253,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4441,10 +4441,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 168,
-          "detail": "HTTP 302"
+          "latencyMs": 346,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 339,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4457,20 +4463,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 179,
-      "latencyMs": 179,
-      "checkedAt": "2026-10-28",
+      "latency": 279,
+      "latencyMs": 279,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
       "lastUpdate": "2026-10-13",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 187,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4544,10 +4544,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 179,
-          "detail": "HTTP 302"
+          "latencyMs": 345,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 279,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4560,20 +4566,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 310,
+      "latencyMs": 310,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
       "lastUpdate": "2026-09-22",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 125,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -4647,10 +4647,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 403,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 310,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4663,20 +4669,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 147,
-      "latencyMs": 147,
-      "checkedAt": "2026-10-28",
+      "latency": 278,
+      "latencyMs": 278,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
       "lastUpdate": "2026-09-17",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 147,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4750,10 +4750,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 147,
-          "detail": "HTTP 302"
+          "latencyMs": 350,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 278,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4766,20 +4772,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 172,
-      "latencyMs": 172,
-      "checkedAt": "2026-10-28",
+      "latency": 259,
+      "latencyMs": 259,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 155,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -4853,10 +4853,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 172,
-          "detail": "HTTP 302"
+          "latencyMs": 344,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 259,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -4865,13 +4871,13 @@
       "app": "ryukgram",
       "name": "RyukGram",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 104,
-      "latencyMs": 104,
-      "checkedAt": "2026-10-28",
+      "latency": 81,
+      "latencyMs": 81,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-RyukGram.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
@@ -4956,9 +4962,9 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 104,
+          "latencyMs": 81,
           "detail": "HTTP 200"
         }
       ]
@@ -4972,20 +4978,14 @@
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 516,
-      "latencyMs": 516,
-      "checkedAt": "2026-10-28",
+      "latency": 510,
+      "latencyMs": 510,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
       "lastUpdate": "2026-10-03",
       "valid": true,
       "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 429,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5059,9 +5059,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 516,
+          "latencyMs": 441,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 510,
           "detail": "HTTP 200"
         }
       ]
@@ -5075,20 +5081,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 191,
-      "latencyMs": 191,
-      "checkedAt": "2026-10-28",
+      "latency": 369,
+      "latencyMs": 369,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber_v1.37.0.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 233,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -5162,10 +5162,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 191,
-          "detail": "HTTP 302"
+          "latencyMs": 340,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 369,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5178,20 +5184,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 245,
-      "latencyMs": 245,
-      "checkedAt": "2026-10-28",
+      "latency": 267,
+      "latencyMs": 267,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
       "lastUpdate": "2026-10-09",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5265,10 +5265,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 245,
-          "detail": "HTTP 302"
+          "latencyMs": 374,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 267,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5281,20 +5287,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 231,
-      "latencyMs": 231,
-      "checkedAt": "2026-10-28",
+      "latency": 303,
+      "latencyMs": 303,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
       "lastUpdate": "2024-01-17",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 176,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5368,10 +5368,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 231,
-          "detail": "HTTP 302"
+          "latencyMs": 340,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 303,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5384,20 +5390,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 185,
-      "latencyMs": 185,
-      "checkedAt": "2026-10-28",
+      "latency": 173,
+      "latencyMs": 173,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
       "lastUpdate": "2026-09-15",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 137,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5471,10 +5471,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 185,
-          "detail": "HTTP 302"
+          "latencyMs": 234,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 173,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5487,20 +5493,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 222,
-      "latencyMs": 222,
-      "checkedAt": "2026-10-28",
+      "latency": 302,
+      "latencyMs": 302,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
       "lastUpdate": "2026-08-20",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 164,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5574,10 +5574,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 222,
-          "detail": "HTTP 302"
+          "latencyMs": 321,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 302,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5586,13 +5592,13 @@
       "app": "sparkle",
       "name": "Sparkle",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 107,
-      "latencyMs": 107,
-      "checkedAt": "2026-10-28",
+      "latency": 80,
+      "latencyMs": 80,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
@@ -5677,9 +5683,9 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 107,
+          "latencyMs": 80,
           "detail": "HTTP 200"
         }
       ]
@@ -5693,20 +5699,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 236,
-      "latencyMs": 236,
-      "checkedAt": "2026-10-28",
+      "latency": 302,
+      "latencyMs": 302,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa",
       "lastUpdate": "2023-02-08",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 149,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5780,10 +5780,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 236,
-          "detail": "HTTP 302"
+          "latencyMs": 342,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 302,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5796,20 +5802,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 174,
+      "latencyMs": 174,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
       "lastUpdate": "2026-10-15",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 160,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5883,10 +5883,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 292,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 174,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5899,20 +5905,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 170,
-      "latencyMs": 170,
-      "checkedAt": "2026-10-28",
+      "latency": 318,
+      "latencyMs": 318,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
       "lastUpdate": "2026-10-16",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 162,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -5986,10 +5986,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 170,
-          "detail": "HTTP 302"
+          "latencyMs": 385,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 318,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -5998,13 +6004,13 @@
       "app": "swiftgram",
       "name": "Swiftgram",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 106,
-      "latencyMs": 106,
-      "checkedAt": "2026-10-28",
+      "latency": 69,
+      "latencyMs": 69,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.1.1-TF-MxGram.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
@@ -6089,9 +6095,9 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 106,
+          "latencyMs": 69,
           "detail": "HTTP 200"
         }
       ]
@@ -6105,20 +6111,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 207,
-      "latencyMs": 207,
-      "checkedAt": "2026-10-28",
+      "latency": 274,
+      "latencyMs": 274,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
       "lastUpdate": "2026-10-01",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 194,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -6192,10 +6192,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 207,
-          "detail": "HTTP 302"
+          "latencyMs": 434,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 274,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -6208,20 +6214,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 170,
-      "latencyMs": 170,
-      "checkedAt": "2026-10-28",
+      "latency": 308,
+      "latencyMs": 308,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
       "lastUpdate": "2026-10-19",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 172,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -6295,10 +6295,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 170,
-          "detail": "HTTP 302"
+          "latencyMs": 348,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 308,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -6311,20 +6317,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 161,
-      "latencyMs": 161,
-      "checkedAt": "2026-10-28",
+      "latency": 266,
+      "latencyMs": 266,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
       "lastUpdate": "2023-09-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -6398,10 +6398,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
+          "latencyMs": 340,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 266,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -6410,24 +6416,18 @@
       "app": "telegram-mxgram",
       "name": "Telegram MxGram",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 142,
-      "latencyMs": 142,
-      "checkedAt": "2026-10-28",
+      "latency": 102,
+      "latencyMs": 102,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
       "lastUpdate": "2026-10-23",
       "valid": true,
       "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": false,
-          "latencyMs": 104,
-          "detail": "HTTP 404"
-        },
         {
           "at": "2026-10-18",
           "reachable": false,
@@ -6501,9 +6501,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 142,
+          "latencyMs": 116,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 102,
           "detail": "HTTP 200"
         }
       ]
@@ -6513,13 +6519,13 @@
       "app": "threadsaver",
       "name": "ThreadSaver",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 96,
-      "latencyMs": 96,
-      "checkedAt": "2026-10-28",
+      "latency": 90,
+      "latencyMs": 90,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-453.0-ThreadSaver.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
@@ -6604,9 +6610,9 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 96,
+          "latencyMs": 90,
           "detail": "HTTP 200"
         }
       ]
@@ -6620,20 +6626,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 261,
+      "latencyMs": 261,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
       "lastUpdate": "2026-10-11",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 163,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -6707,10 +6707,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 307,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 261,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -6723,9 +6729,9 @@
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 219,
-      "latencyMs": 219,
-      "checkedAt": "2026-10-28",
+      "latency": 211,
+      "latencyMs": 211,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://ikghd.site/ipa/TikTok_47.4_TTKillerPlus_2.3.ipa",
       "lastUpdate": "2026-10-22",
       "valid": true,
@@ -6810,9 +6816,9 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 219,
+          "latencyMs": 211,
           "detail": "HTTP 200"
         }
       ]
@@ -6822,13 +6828,13 @@
       "app": "turrit-mxgram",
       "name": "Turrit MxGram",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "healthy",
       "reachable": true,
-      "latency": 108,
-      "latencyMs": 108,
-      "checkedAt": "2026-10-28",
+      "latency": 86,
+      "latencyMs": 86,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-MxGram.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
@@ -6913,9 +6919,9 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 108,
+          "latencyMs": 86,
           "detail": "HTTP 200"
         }
       ]
@@ -6929,20 +6935,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 219,
-      "latencyMs": 219,
-      "checkedAt": "2026-10-28",
+      "latency": 301,
+      "latencyMs": 301,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
       "lastUpdate": "2026-10-24",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 220,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -7016,10 +7016,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 219,
-          "detail": "HTTP 302"
+          "latencyMs": 326,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 301,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7032,20 +7038,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 223,
-      "latencyMs": 223,
-      "checkedAt": "2026-10-28",
+      "latency": 293,
+      "latencyMs": 293,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
       "lastUpdate": "2020-06-09",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 172,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7119,10 +7119,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 223,
-          "detail": "HTTP 302"
+          "latencyMs": 326,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 293,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7135,20 +7141,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 210,
-      "latencyMs": 210,
-      "checkedAt": "2026-10-28",
+      "latency": 301,
+      "latencyMs": 301,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
       "lastUpdate": "2026-10-03",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": false,
-          "latencyMs": 195,
-          "detail": "HTTP 404"
-        },
         {
           "at": "2026-10-19",
           "reachable": false,
@@ -7222,10 +7222,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 210,
-          "detail": "HTTP 302"
+          "latencyMs": 324,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 301,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7238,20 +7244,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 277,
+      "latencyMs": 277,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
       "lastUpdate": "2026-10-17T02:44:56Z",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7325,10 +7325,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 326,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 277,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7341,20 +7347,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 2099,
-      "latencyMs": 2099,
-      "checkedAt": "2026-10-28",
+      "latency": 753,
+      "latencyMs": 753,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
       "lastUpdate": "2026-08-22",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 228,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7428,10 +7428,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 2099,
-          "detail": "HTTP 302"
+          "latencyMs": 1829,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 753,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7444,20 +7450,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 211,
-      "latencyMs": 211,
-      "checkedAt": "2026-10-28",
+      "latency": 289,
+      "latencyMs": 289,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
       "lastUpdate": "2026-08-15",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 165,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7531,10 +7531,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 211,
-          "detail": "HTTP 302"
+          "latencyMs": 363,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 289,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7547,20 +7553,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 196,
-      "latencyMs": 196,
-      "checkedAt": "2026-10-28",
+      "latency": 270,
+      "latencyMs": 270,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa",
       "lastUpdate": "2026-08-28",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 165,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7634,10 +7634,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 196,
-          "detail": "HTTP 302"
+          "latencyMs": 339,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 270,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7650,20 +7656,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 177,
-      "latencyMs": 177,
-      "checkedAt": "2026-10-28",
+      "latency": 281,
+      "latencyMs": 281,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
       "lastUpdate": "2026-09-13",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 132,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7737,10 +7737,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 177,
-          "detail": "HTTP 302"
+          "latencyMs": 318,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 281,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7753,20 +7759,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 173,
-      "latencyMs": 173,
-      "checkedAt": "2026-10-28",
+      "latency": 282,
+      "latencyMs": 282,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
       "lastUpdate": "2023-02-09",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 171,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7840,10 +7840,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 173,
-          "detail": "HTTP 302"
+          "latencyMs": 346,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 282,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7856,20 +7862,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 261,
-      "latencyMs": 261,
-      "checkedAt": "2026-10-28",
+      "latency": 276,
+      "latencyMs": 276,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
       "lastUpdate": "2024-06-24",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 177,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -7943,10 +7943,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 261,
-          "detail": "HTTP 302"
+          "latencyMs": 358,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 276,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -7959,20 +7965,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 179,
-      "latencyMs": 179,
+      "latency": 285,
+      "latencyMs": 285,
       "checkedAt": "2026-10-28",
       "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
       "detail": "HTTP 302",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 167,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8046,9 +8046,15 @@
           "detail": "HTTP 200"
         },
         {
+          "at": "2026-10-27T23:33:14Z",
+          "reachable": false,
+          "latencyMs": 307,
+          "detail": "HTTP 404"
+        },
+        {
           "at": "2026-10-28",
           "reachable": true,
-          "latencyMs": 179,
+          "latencyMs": 285,
           "detail": "HTTP 302"
         }
       ]
@@ -8062,20 +8068,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 182,
-      "latencyMs": 182,
+      "latency": 299,
+      "latencyMs": 299,
       "checkedAt": "2026-10-28",
       "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.43.5_1.3.1.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
       "detail": "HTTP 302",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 169,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8149,9 +8149,15 @@
           "detail": "HTTP 200"
         },
         {
+          "at": "2026-10-27T23:33:14Z",
+          "reachable": false,
+          "latencyMs": 280,
+          "detail": "HTTP 404"
+        },
+        {
           "at": "2026-10-28",
           "reachable": true,
-          "latencyMs": 182,
+          "latencyMs": 299,
           "detail": "HTTP 302"
         }
       ]
@@ -8159,26 +8165,20 @@
     {
       "id": "ytlite",
       "app": "ytlite",
-      "name": "YouTubePlus",
+      "name": "YouTube Plus",
       "source": "mrdrvt99/YouProEXTRA",
       "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 187,
-      "latencyMs": 187,
-      "checkedAt": "2026-10-28",
+      "latency": 252,
+      "latencyMs": 252,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
       "lastUpdate": "2026-10-27",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 201,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8234,6 +8234,12 @@
           "detail": "HTTP 302"
         },
         {
+          "at": "2026-10-27",
+          "reachable": true,
+          "latencyMs": 190,
+          "detail": "HTTP 302"
+        },
+        {
           "at": "2026-10-27T08:13:47Z",
           "reachable": true,
           "latencyMs": 294,
@@ -8252,10 +8258,10 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-28T04:23:28Z",
           "reachable": true,
-          "latencyMs": 187,
-          "detail": "HTTP 302"
+          "latencyMs": 252,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8268,20 +8274,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 228,
-      "latencyMs": 228,
-      "checkedAt": "2026-10-28",
+      "latency": 269,
+      "latencyMs": 269,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
       "lastUpdate": "2026-10-25",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 216,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -8355,10 +8355,16 @@
           "detail": "HTTP 302"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 228,
-          "detail": "HTTP 302"
+          "latencyMs": 321,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 269,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8371,20 +8377,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 191,
-      "latencyMs": 191,
-      "checkedAt": "2026-10-28",
+      "latency": 282,
+      "latencyMs": 282,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
       "lastUpdate": "2026-09-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 152,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8458,10 +8458,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 191,
-          "detail": "HTTP 302"
+          "latencyMs": 362,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 282,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8474,20 +8480,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 155,
-      "latencyMs": 155,
-      "checkedAt": "2026-10-28",
+      "latency": 269,
+      "latencyMs": 269,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa39/YTMusicUltimate_9.43.2_2.4.1.ipa",
       "lastUpdate": "2026-10-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 541,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8561,10 +8561,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 155,
-          "detail": "HTTP 302"
+          "latencyMs": 325,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 269,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8577,20 +8583,14 @@
       "type": "github",
       "status": "healthy",
       "reachable": true,
-      "latency": 184,
-      "latencyMs": 184,
-      "checkedAt": "2026-10-28",
+      "latency": 289,
+      "latencyMs": 289,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
       "lastUpdate": "2026-10-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 138,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8664,10 +8664,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 184,
-          "detail": "HTTP 302"
+          "latencyMs": 317,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 289,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8680,20 +8686,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 205,
-      "latencyMs": 205,
-      "checkedAt": "2026-10-28",
+      "latency": 309,
+      "latencyMs": 309,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa",
       "lastUpdate": "2022-11-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 223,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8767,10 +8767,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 205,
-          "detail": "HTTP 302"
+          "latencyMs": 352,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 309,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8783,20 +8789,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 188,
-      "latencyMs": 188,
-      "checkedAt": "2026-10-28",
+      "latency": 302,
+      "latencyMs": 302,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa",
       "lastUpdate": "2025-05-27",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 155,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8870,10 +8870,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 188,
-          "detail": "HTTP 302"
+          "latencyMs": 387,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 302,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8886,20 +8892,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 242,
-      "latencyMs": 242,
-      "checkedAt": "2026-10-28",
+      "latency": 313,
+      "latencyMs": 313,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa",
       "lastUpdate": "2025-03-04",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 164,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -8973,10 +8973,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 242,
-          "detail": "HTTP 302"
+          "latencyMs": 349,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 313,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -8989,20 +8995,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 162,
-      "latencyMs": 162,
-      "checkedAt": "2026-10-28",
+      "latency": 274,
+      "latencyMs": 274,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
       "lastUpdate": "2026-03-19",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 164,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9076,10 +9076,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 162,
-          "detail": "HTTP 302"
+          "latencyMs": 373,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 274,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9092,20 +9098,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 205,
-      "latencyMs": 205,
-      "checkedAt": "2026-10-28",
+      "latency": 311,
+      "latencyMs": 311,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
       "lastUpdate": "2025-07-09",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 149,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9179,10 +9179,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 205,
-          "detail": "HTTP 302"
+          "latencyMs": 372,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 311,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9195,20 +9201,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 212,
-      "latencyMs": 212,
-      "checkedAt": "2026-10-28",
+      "latency": 370,
+      "latencyMs": 370,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
       "lastUpdate": "2025-05-14",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 189,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9282,10 +9282,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 212,
-          "detail": "HTTP 302"
+          "latencyMs": 382,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 370,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9298,20 +9304,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 174,
-      "latencyMs": 174,
-      "checkedAt": "2026-10-28",
+      "latency": 298,
+      "latencyMs": 298,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
       "lastUpdate": "2025-05-13",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9385,10 +9385,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 174,
-          "detail": "HTTP 302"
+          "latencyMs": 349,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 298,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9401,20 +9407,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 220,
-      "latencyMs": 220,
-      "checkedAt": "2026-10-28",
+      "latency": 312,
+      "latencyMs": 312,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa",
       "lastUpdate": "2026-07-21",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 158,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9488,10 +9488,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 220,
-          "detail": "HTTP 302"
+          "latencyMs": 365,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 312,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9504,20 +9510,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 174,
-      "latencyMs": 174,
-      "checkedAt": "2026-10-28",
+      "latency": 301,
+      "latencyMs": 301,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa",
       "lastUpdate": "2026-06-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 165,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9591,10 +9591,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 174,
-          "detail": "HTTP 302"
+          "latencyMs": 372,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 301,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9607,20 +9613,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 216,
-      "latencyMs": 216,
-      "checkedAt": "2026-10-28",
+      "latency": 290,
+      "latencyMs": 290,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
       "lastUpdate": "2023-01-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 155,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9694,10 +9694,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 216,
-          "detail": "HTTP 302"
+          "latencyMs": 370,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 290,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9710,20 +9716,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 221,
-      "latencyMs": 221,
-      "checkedAt": "2026-10-28",
+      "latency": 249,
+      "latencyMs": 249,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
       "lastUpdate": "2024-07-11",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 175,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9797,10 +9797,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 221,
-          "detail": "HTTP 302"
+          "latencyMs": 342,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 249,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9813,20 +9819,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 163,
-      "latencyMs": 163,
-      "checkedAt": "2026-10-28",
+      "latency": 263,
+      "latencyMs": 263,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
       "lastUpdate": "2026-06-20",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 160,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -9900,10 +9900,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 163,
-          "detail": "HTTP 302"
+          "latencyMs": 305,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 263,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -9916,20 +9922,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 265,
-      "latencyMs": 265,
-      "checkedAt": "2026-10-28",
+      "latency": 307,
+      "latencyMs": 307,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa",
       "lastUpdate": "2025-02-21",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 171,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10003,10 +10003,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 265,
-          "detail": "HTTP 302"
+          "latencyMs": 353,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 307,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10019,20 +10025,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 196,
-      "latencyMs": 196,
-      "checkedAt": "2026-10-28",
+      "latency": 249,
+      "latencyMs": 249,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
       "lastUpdate": "2026-07-05",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 136,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10106,10 +10106,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 196,
-          "detail": "HTTP 302"
+          "latencyMs": 371,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 249,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10118,24 +10124,18 @@
       "app": "glow",
       "name": "Glow",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "unavailable",
       "reachable": false,
-      "latency": 181,
-      "latencyMs": 181,
-      "checkedAt": "2026-10-28",
+      "latency": 86,
+      "latencyMs": 86,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Facebook-577.1-Glow.ipa",
       "lastUpdate": "2026-09-05",
       "valid": true,
       "detail": "HTTP 404",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 141,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -10209,9 +10209,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": false,
-          "latencyMs": 181,
+          "latencyMs": 163,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": false,
+          "latencyMs": 86,
           "detail": "HTTP 404"
         }
       ]
@@ -10225,20 +10231,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 178,
-      "latencyMs": 178,
-      "checkedAt": "2026-10-28",
+      "latency": 226,
+      "latencyMs": 226,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
       "lastUpdate": "2026-03-18",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 191,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10312,10 +10312,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 178,
-          "detail": "HTTP 302"
+          "latencyMs": 314,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 226,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10328,20 +10334,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 184,
-      "latencyMs": 184,
-      "checkedAt": "2026-10-28",
+      "latency": 288,
+      "latencyMs": 288,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
       "lastUpdate": "2024-06-03",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 203,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10415,10 +10415,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 184,
-          "detail": "HTTP 302"
+          "latencyMs": 371,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 288,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10427,24 +10433,18 @@
       "app": "ime",
       "name": "iMe MxGram",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "unavailable",
       "reachable": false,
-      "latency": 211,
-      "latencyMs": 211,
-      "checkedAt": "2026-10-28",
+      "latency": 91,
+      "latencyMs": 91,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
       "lastUpdate": "2026-09-01",
       "valid": true,
       "detail": "HTTP 404",
       "history": [
-        {
-          "at": "2026-10-18",
-          "reachable": true,
-          "latencyMs": 114,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-18",
           "reachable": true,
@@ -10518,9 +10518,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": false,
-          "latencyMs": 211,
+          "latencyMs": 142,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": false,
+          "latencyMs": 91,
           "detail": "HTTP 404"
         }
       ]
@@ -10534,20 +10540,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 150,
-      "latencyMs": 150,
-      "checkedAt": "2026-10-28",
+      "latency": 284,
+      "latencyMs": 284,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
       "lastUpdate": "2026-07-19",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 138,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10621,10 +10621,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 150,
-          "detail": "HTTP 302"
+          "latencyMs": 289,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 284,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10637,20 +10643,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 158,
-      "latencyMs": 158,
-      "checkedAt": "2026-10-28",
+      "latency": 326,
+      "latencyMs": 326,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa",
       "lastUpdate": "2024-01-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 177,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10724,10 +10724,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 158,
-          "detail": "HTTP 302"
+          "latencyMs": 374,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 326,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10740,20 +10746,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 189,
-      "latencyMs": 189,
-      "checkedAt": "2026-10-28",
+      "latency": 256,
+      "latencyMs": 256,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Nyasami/Ksign/releases/download/v1.6/Ksign.ipa",
       "lastUpdate": "2026-05-24",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10827,10 +10827,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 189,
-          "detail": "HTTP 302"
+          "latencyMs": 273,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 256,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10843,20 +10849,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 275,
+      "latencyMs": 275,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
       "lastUpdate": "2026-05-22",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 146,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -10930,10 +10930,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 339,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 275,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -10946,20 +10952,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 166,
-      "latencyMs": 166,
-      "checkedAt": "2026-10-28",
+      "latency": 204,
+      "latencyMs": 204,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
       "lastUpdate": "2026-07-17",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11033,10 +11033,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 166,
-          "detail": "HTTP 302"
+          "latencyMs": 266,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 204,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11049,20 +11055,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 176,
-      "latencyMs": 176,
-      "checkedAt": "2026-10-28",
+      "latency": 289,
+      "latencyMs": 289,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
       "lastUpdate": "2022-12-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 172,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11136,10 +11136,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 176,
-          "detail": "HTTP 302"
+          "latencyMs": 372,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 289,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11148,24 +11154,18 @@
       "app": "messenger-flow",
       "name": "Messenger Flow",
       "source": "927tx/IPA-Vault",
-      "sourceURL": "https://raw.githubusercontent.com",
+      "sourceURL": "https://github.com/927tx/IPA-Vault",
       "type": "altstore",
       "status": "unavailable",
       "reachable": false,
-      "latency": 111,
-      "latencyMs": 111,
-      "checkedAt": "2026-10-28",
+      "latency": 184,
+      "latencyMs": 184,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-584.0.0-Flow.ipa",
       "lastUpdate": "2026-10-17",
       "valid": true,
       "detail": "HTTP 404",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 96,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11239,9 +11239,15 @@
           "detail": "HTTP 404"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": false,
-          "latencyMs": 111,
+          "latencyMs": 138,
+          "detail": "HTTP 404"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": false,
+          "latencyMs": 184,
           "detail": "HTTP 404"
         }
       ]
@@ -11255,20 +11261,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 170,
-      "latencyMs": 170,
-      "checkedAt": "2026-10-28",
+      "latency": 292,
+      "latencyMs": 292,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
       "lastUpdate": "2024-07-09",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 173,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11342,10 +11342,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 170,
-          "detail": "HTTP 302"
+          "latencyMs": 363,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 292,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11358,20 +11364,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 181,
-      "latencyMs": 181,
-      "checkedAt": "2026-10-28",
+      "latency": 258,
+      "latencyMs": 258,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa",
       "lastUpdate": "2026-07-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 156,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11445,10 +11445,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 181,
-          "detail": "HTTP 302"
+          "latencyMs": 366,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 258,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11461,20 +11467,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 239,
-      "latencyMs": 239,
-      "checkedAt": "2026-10-28",
+      "latency": 281,
+      "latencyMs": 281,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
       "lastUpdate": "2026-01-11",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 175,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11548,10 +11548,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 239,
-          "detail": "HTTP 302"
+          "latencyMs": 362,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 281,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11564,20 +11570,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 185,
-      "latencyMs": 185,
-      "checkedAt": "2026-10-28",
+      "latency": 247,
+      "latencyMs": 247,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
       "lastUpdate": "2025-08-29",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 168,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11651,10 +11651,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 185,
-          "detail": "HTTP 302"
+          "latencyMs": 329,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 247,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11667,20 +11673,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 194,
-      "latencyMs": 194,
-      "checkedAt": "2026-10-28",
+      "latency": 254,
+      "latencyMs": 254,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
       "lastUpdate": "2026-05-16",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 184,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11754,10 +11754,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 194,
-          "detail": "HTTP 302"
+          "latencyMs": 316,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 254,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11770,20 +11776,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 182,
-      "latencyMs": 182,
-      "checkedAt": "2026-10-28",
+      "latency": 302,
+      "latencyMs": 302,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
       "lastUpdate": "2026-03-14",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 163,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11857,10 +11857,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 182,
-          "detail": "HTTP 302"
+          "latencyMs": 337,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 302,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11873,20 +11879,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 207,
-      "latencyMs": 207,
-      "checkedAt": "2026-10-28",
+      "latency": 298,
+      "latencyMs": 298,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
       "lastUpdate": "2024-11-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 164,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -11960,10 +11960,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 207,
-          "detail": "HTTP 302"
+          "latencyMs": 367,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 298,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -11976,20 +11982,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 213,
-      "latencyMs": 213,
-      "checkedAt": "2026-10-28",
+      "latency": 316,
+      "latencyMs": 316,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa",
       "lastUpdate": "2025-11-02",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 168,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12063,10 +12063,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 213,
-          "detail": "HTTP 302"
+          "latencyMs": 332,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 316,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12079,20 +12085,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 204,
-      "latencyMs": 204,
-      "checkedAt": "2026-10-28",
+      "latency": 291,
+      "latencyMs": 291,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa",
       "lastUpdate": "2026-07-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12166,10 +12166,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 204,
-          "detail": "HTTP 302"
+          "latencyMs": 380,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 291,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12182,20 +12188,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 209,
-      "latencyMs": 209,
-      "checkedAt": "2026-10-28",
+      "latency": 356,
+      "latencyMs": 356,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-ios.ipa",
       "lastUpdate": "2026-07-28",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 182,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12269,10 +12269,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 209,
-          "detail": "HTTP 302"
+          "latencyMs": 370,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 356,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12285,20 +12291,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 191,
-      "latencyMs": 191,
-      "checkedAt": "2026-10-28",
+      "latency": 255,
+      "latencyMs": 255,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
       "lastUpdate": "2025-09-26",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 217,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12372,10 +12372,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 191,
-          "detail": "HTTP 302"
+          "latencyMs": 348,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 255,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12388,20 +12394,14 @@
       "type": "altstore",
       "status": "degraded",
       "reachable": true,
-      "latency": 502,
-      "latencyMs": 502,
-      "checkedAt": "2026-10-28",
+      "latency": 515,
+      "latencyMs": 515,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
       "lastUpdate": "2026-07-25",
       "valid": true,
       "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 426,
-          "detail": "HTTP 200"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12475,9 +12475,15 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 502,
+          "latencyMs": 500,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 515,
           "detail": "HTTP 200"
         }
       ]
@@ -12491,20 +12497,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 181,
-      "latencyMs": 181,
-      "checkedAt": "2026-10-28",
+      "latency": 285,
+      "latencyMs": 285,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa",
       "lastUpdate": "2024-12-31",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 210,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12578,10 +12578,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 181,
-          "detail": "HTTP 302"
+          "latencyMs": 418,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 285,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12594,20 +12600,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 277,
+      "latencyMs": 277,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
       "lastUpdate": "2025-07-29",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 177,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12681,10 +12681,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 414,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 277,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12697,20 +12703,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 190,
-      "latencyMs": 190,
-      "checkedAt": "2026-10-28",
+      "latency": 278,
+      "latencyMs": 278,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
       "lastUpdate": "2026-06-05",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 154,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12784,10 +12784,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 190,
-          "detail": "HTTP 302"
+          "latencyMs": 321,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 278,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12800,20 +12806,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 177,
-      "latencyMs": 177,
-      "checkedAt": "2026-10-28",
+      "latency": 298,
+      "latencyMs": 298,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
       "lastUpdate": "2025-02-23",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 161,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12887,10 +12887,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 177,
-          "detail": "HTTP 302"
+          "latencyMs": 366,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 298,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -12903,20 +12909,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 206,
-      "latencyMs": 206,
-      "checkedAt": "2026-10-28",
+      "latency": 326,
+      "latencyMs": 326,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa",
       "lastUpdate": "2026-01-07",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 178,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -12990,10 +12990,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 206,
-          "detail": "HTTP 302"
+          "latencyMs": 352,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 326,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -13006,20 +13012,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 185,
-      "latencyMs": 185,
-      "checkedAt": "2026-10-28",
+      "latency": 330,
+      "latencyMs": 330,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
       "lastUpdate": "2024-09-12",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 159,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -13093,10 +13093,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 185,
-          "detail": "HTTP 302"
+          "latencyMs": 318,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 330,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -13109,20 +13115,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 169,
-      "latencyMs": 169,
-      "checkedAt": "2026-10-28",
+      "latency": 269,
+      "latencyMs": 269,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
       "lastUpdate": "2026-06-08",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 180,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -13196,10 +13196,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 169,
-          "detail": "HTTP 302"
+          "latencyMs": 355,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 269,
+          "detail": "HTTP 200"
         }
       ]
     },
@@ -13212,20 +13218,14 @@
       "type": "github",
       "status": "degraded",
       "reachable": true,
-      "latency": 205,
-      "latencyMs": 205,
-      "checkedAt": "2026-10-28",
+      "latency": 269,
+      "latencyMs": 269,
+      "checkedAt": "2026-10-28T04:23:28Z",
       "checkedURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
       "lastUpdate": "2024-01-28",
       "valid": true,
-      "detail": "HTTP 302",
+      "detail": "HTTP 200",
       "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 145,
-          "detail": "HTTP 302"
-        },
         {
           "at": "2026-10-19",
           "reachable": true,
@@ -13299,10 +13299,16 @@
           "detail": "HTTP 200"
         },
         {
-          "at": "2026-10-28",
+          "at": "2026-10-27T23:33:14Z",
           "reachable": true,
-          "latencyMs": 205,
-          "detail": "HTTP 302"
+          "latencyMs": 317,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 269,
+          "detail": "HTTP 200"
         }
       ]
     }

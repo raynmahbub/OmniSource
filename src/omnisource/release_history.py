@@ -9,8 +9,9 @@ append-only ledger that never deletes old releases, so clients can:
 * audit yanked or re-published binaries (:func:`detect_removed`).
 
 History entries carry a lifecycle ``status``: ``current`` (newest known),
-``superseded`` (replaced by a newer release) or ``removed`` (the upstream
-no longer serves it).
+``superseded`` (replaced by a newer release), ``removed`` (the upstream
+no longer lists it), or ``quarantined`` (retained evidence of a known identity
+mismatch; never offered as a rollback).
 """
 
 from __future__ import annotations
@@ -25,6 +26,7 @@ HISTORY_SCHEMA_VERSION = 1
 CURRENT = "current"
 SUPERSEDED = "superseded"
 REMOVED = "removed"
+QUARANTINED = "quarantined"
 
 
 def utcnow() -> str:
@@ -60,6 +62,10 @@ def merge_app_history(previous: list[dict[str, Any]], current: list[dict[str, An
             continue
         entry = normalize_entry(raw)
         key = entry_key(entry)
+        # A previously identified identity mismatch requires explicit review,
+        # not silent reactivation merely because a source repeats the URL.
+        if key in known and known[key].get("status") == QUARANTINED:
+            continue
         fresh_keys.add(key)
         if key in known:
             known[key]["status"] = CURRENT
@@ -71,6 +77,8 @@ def merge_app_history(previous: list[dict[str, Any]], current: list[dict[str, An
     newest_key = entry_key(normalize_entry(current[0])) if current else ""
     newest_version = str(current[0].get("version", "")) if current else ""
     for key, entry in known.items():
+        if entry.get("status") == QUARANTINED:
+            continue
         if key == newest_key:
             entry["status"] = CURRENT
         elif key in fresh_keys:
@@ -130,7 +138,7 @@ def rollback_plan(
     target_version: str,
 ) -> dict[str, Any]:
     """Plan a downgrade to ``target_version`` (empty plan when impossible)."""
-    entries = [entry for entry in history if isinstance(entry, dict)]
+    entries = [entry for entry in history if isinstance(entry, dict) and entry.get("status") != QUARANTINED]
     current = next((entry for entry in entries if entry.get("status") == CURRENT), entries[0] if entries else None)
     target = next((entry for entry in entries if str(entry.get("version")) == target_version), None)
     if current is None or target is None:
@@ -152,4 +160,8 @@ def rollback_plan(
 def detect_removed(previous: list[dict[str, Any]], current: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Entries present in ``previous`` but absent from ``current``."""
     fresh = {entry_key(entry) for entry in current if isinstance(entry, dict)}
-    return [entry for entry in previous if isinstance(entry, dict) and entry_key(entry) not in fresh]
+    return [
+        entry
+        for entry in previous
+        if isinstance(entry, dict) and entry.get("status") != QUARANTINED and entry_key(entry) not in fresh
+    ]

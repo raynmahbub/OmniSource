@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-28",
-  "feedVersion": "021b0816e7e1",
+  "feedVersion": "44fd8a2ce79e",
   "app": {
     "id": "youpro",
     "name": "YouPro",
@@ -10,7 +10,7 @@
     "bundleIdentifier": "com.google.ios.youtube",
     "version": "21.43.5",
     "versionDate": "2026-10-27",
-    "description": "YouPro is an advanced YouTube modification tweak developed by alibusut. It features background playback, ad-free streaming, inline download capabilities, OLED true dark theme, SponsorBlock, and enhanced media playback controls.",
+    "description": "YouPro is a YouTube modification tweak developed by alibusut. This community-distributed YouProEXTRA build includes additional player tweaks and controls. Features and bundled tweaks vary by release; the current publisher notes that downloads may work only partially and standalone iSponsorBlock is not included.",
     "shortDescription": "Feature-rich YouTube tweak by alibusut",
     "category": "photo-video",
     "tags": [
@@ -24,11 +24,11 @@
     "sourceURL": "https://github.com/mrdrvt99/YouProEXTRA",
     "checksum": "9cc1220f35811424dd253dc9ce6005cb154c03fb503be3d53faf6886e2f53bf2",
     "checksumPublished": false,
-    "minOSVersion": "16.0",
+    "minOSVersion": "17.0",
     "status": "stable",
     "featured": true,
     "pageURL": "https://raynmahbub.github.io/OmniSource/apps/youpro/",
-    "feedURL": "https://raynmahbub.github.io/OmniSource/youpro.json",
+    "feedURL": "https://raynmahbub.github.io/OmniSource/feeds/youpro.json",
     "health": {
       "reachable": true,
       "detail": "HTTP 302",
@@ -59,8 +59,8 @@
     }
   ],
   "verification": {
-    "status": "VERIFIED",
-    "level": "VERIFIED",
+    "status": "COMMUNITY VERIFIED",
+    "level": "COMMUNITY VERIFIED",
     "method": "github-release"
   }
 }

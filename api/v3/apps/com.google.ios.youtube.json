@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "MaxTube",
     "bundleIdentifier": "com.google.ios.youtube",
@@ -137,10 +137,20 @@
         "downloadReachable": true,
         "detail": "HTTP 200",
         "statusSince": "2026-10-27",
-        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
         "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
         "lastUpdatedAt": "2026-08-03"
-      }
+      },
+      "features": [
+        "picture-in-picture",
+        "downloads",
+        "sponsorblock"
+      ],
+      "featuresReviewed": {
+        "version": "21.31.3",
+        "downloadURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa"
+      },
+      "bestFor": "Downloads and SponsorBlock with extra player tweaks."
     },
     "id": "com.google.ios.youtube"
   }

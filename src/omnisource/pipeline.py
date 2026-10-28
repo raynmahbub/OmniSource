@@ -151,9 +151,13 @@ def sync_app(
     if up is None:
         return _manual_versions(app, "no upstream configured"), "manual"
 
+    pattern = _compile_pattern(app)
     chain = FailoverChain.from_ref(container.providers, up)
+    # An unchanged newest URL says nothing about older published versions.
+    # Refresh any multi-version history to catch re-tagged or removed assets.
+    effective_incremental = incremental and up.keep_versions == 1
     try:
-        result = chain.fetch_releases(previous_latest_url=previous_url, incremental=incremental)
+        result = chain.fetch_releases(previous_latest_url=previous_url, incremental=effective_incremental)
     except (ProviderError, ConfigurationError) as error:
         # Every failover leg errored. ``feeds/state.json`` is the usual last
         # leg, but a brand-new entry has no cached snapshot yet: fall back to
@@ -167,21 +171,28 @@ def sync_app(
         raise SyncError(str(error)) from error
     releases = result.releases
 
-    if incremental and previous_versions and not releases:
+    if result.unchanged and effective_incremental and previous_versions:
         log.info("%-14s incremental hit - keeping v%s", app.slug, previous_versions[0].get("version"))
-        return None, None
+        return None, result.source
 
     if not releases:
+        if previous_versions:
+            raise SyncError(f"{app.slug}: no published releases; retaining cached versions")
         manual = _manual_versions(app, f"no published release with a matching asset in {up.repo or up.feed_url}")
-        return manual, "manual" if manual else ""
+        if manual:
+            return manual, "manual"
+        raise SyncError(f"{app.slug}: no published releases and no manual fallback")
 
-    pattern = _compile_pattern(app)
     if observed_dates is not None:
         observed_dates.extend(matched_release_dates(ref=up, releases=releases, pattern=pattern))
     versions = select_versions(app_name=app.name, ref=up, releases=releases, pattern=pattern)
     if not versions:
+        if previous_versions:
+            raise SyncError(f"{app.slug}: upstream produced no usable version entries; retaining cached versions")
         manual = _manual_versions(app, "upstream produced no usable version entries")
-        return manual, "manual" if manual else ""
+        if manual:
+            return manual, "manual"
+        raise SyncError(f"{app.slug}: upstream produced no usable version entries and no manual fallback")
 
     log.info(
         "%-14s %-28s -> v%s (%d version(s))%s",
@@ -306,7 +317,8 @@ def stage_sync(
         if len(combined_dates) >= 2:
             entry["releaseDates"] = sorted(combined_dates)[-12:]
         if versions is None:
-            report.apps_incremental_hit += 1
+            if incremental and app.upstream is not None and app.upstream.keep_versions == 1:
+                report.apps_incremental_hit += 1
             continue
 
         # Preserve already-verified SHA-256 digests when the upstream API
@@ -408,7 +420,7 @@ def stage_sync(
                 )
                 report.updates.append(event)
                 _remember_update(state, event, limit=container.settings.max_update_history)
-        elif incremental:
+        elif incremental and app.upstream is not None and app.upstream.keep_versions == 1:
             report.apps_incremental_hit += 1
 
     report.api_requests = container.http.requests
@@ -504,6 +516,7 @@ def stage_build(
     *,
     refresh_mirrors: bool = False,
     refresh_only: set[str] | None = None,
+    transparency_log: dict[str, Any] | None = None,
 ) -> tuple[list[Path], dict[str, Any]]:
     rendered: list[tuple[App, dict[str, Any]]] = []
 
@@ -540,7 +553,7 @@ def stage_build(
             subtitle=app.raw.get("subtitle", app.name),
             description=f"Standalone distribution feed for {app.name}, curated within OmniSource.",
         )
-        feed["sourceURL"] = f"{base}/{app.slug}.json"
+        feed["sourceURL"] = f"{base}/feeds/{app.slug}.json"
         feed["apps"] = [entry]
         feed["news"] = []
         documents[feeds_dir / f"{app.slug}.json"] = feed
@@ -593,7 +606,16 @@ def stage_build(
     # All of them are generated from the same in-memory dataset; none is
     # hand-edited. See docs/API.md for the contracts.
     discovery_doc = build_discovery_doc(catalog, state, health_doc)
-    verification_doc = build_verification_doc(catalog, state, health_doc)
+    if transparency_log is None:
+        ledger_path = feeds_dir / "transparency.json"
+        transparency_log = read_json(ledger_path) if ledger_path.exists() else empty_log()
+    if not isinstance(transparency_log, dict):
+        raise SyncError("transparency log is unreadable; refusing to publish evidence")
+    try:
+        validate_log(transparency_log)
+    except ValueError as error:
+        raise SyncError(f"transparency log validation failed: {error}") from error
+    verification_doc = build_verification_doc(catalog, state, health_doc, transparency_log)
     # The source index (feeds/sources.json) is the Source Explorer's contract.
     # Enrichment fields (slug/page/status/score/health/…) are additive; the
     # base grouping stays owned by omnisource.discovery.
@@ -1083,6 +1105,10 @@ def run(
             for record in verify_failed:
                 report.errors.append(f"integrity: {record['slug']} rejected ({record.get('detail')})")
 
+    # Include real observations in the in-memory build so the published
+    # verification projections and the ledger describe the same run.
+    added = append_observations(ledger, state, records) if verify and isinstance(ledger, dict) else 0
+
     with Group("Validate local assets"):
         stage_assets(container, catalog)
 
@@ -1094,12 +1120,12 @@ def run(
             report,
             refresh_mirrors=not no_sync,
             refresh_only=only,
+            transparency_log=ledger,
         )
 
     # Only a full byte read can add a ledger entry; offline rebuilds never invent
-    # observations. Chain validation happens before any append.
+    # observations. Write it only after the generated dataset passes validation.
     if verify and isinstance(ledger, dict):
-        added = append_observations(ledger, state, records)
         if (added or not ledger_path.exists()) and write_json(ledger_path, ledger):
             changed.append(ledger_path)
         log.info("Transparency log: %d new byte observation(s)", added)

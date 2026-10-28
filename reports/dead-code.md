@@ -11,17 +11,14 @@ should do before deleting.
 
 ## Summary
 
-- Unused files: **2**
+- Unused files: **0**
 - Dead JS globals: **0**
 - Unreferenced CSS selectors: **0**
 - Uncalled public Python functions: **0**
 
 ## Unused files
 
-| File | Why it is flagged |
-| --- | --- |
-| `tests/js/device_migration.cjs` | no reference in HTML, JS, CSS, feed data or docs |
-| `tests/js/roadmap_features.cjs` | no reference in HTML, JS, CSS, feed data or docs |
+None. Every committed script, stylesheet, icon and helper file is referenced.
 
 ## Dead JS globals
 

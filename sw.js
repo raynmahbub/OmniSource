@@ -94,8 +94,10 @@
    cache has to roll.
    v18: QR codes are generated on-device from js/vendor/qrcode.min.js instead
    of being fetched from api.qrserver.com, so the vendor file joins the
-   precache and every client drops the old shell. */
-const VERSION = 'omnisource-v19';
+   precache and every client drops the old shell.
+   v20: refresh renamed catalog aliases and the download/permissions UI.
+   v21: refresh the private update/signing controls and explainable guide. */
+const VERSION = 'omnisource-v21';
 const CORE_CACHE = `${VERSION}-core`;
 const DATA_CACHE = `${VERSION}-data`;
 const ASSET_CACHE = `${VERSION}-assets`;

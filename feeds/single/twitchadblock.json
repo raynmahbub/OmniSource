@@ -44,7 +44,7 @@
               "fileType": "IPA",
               "size": 187321413,
               "sha256": "d74979cb15a0c03983f065ad1d1bfd5ac45df143d9b0b9fbbebeaee7a28b500a",
-              "downloads": 13,
+              "downloads": 38,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -56,13 +56,280 @@
               "fileType": "IPA",
               "size": 197800481,
               "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
-              "downloads": 76,
+              "downloads": 187,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
-          "downloads": 76
+          "downloads": 187
+        },
+        {
+          "version": "31.7",
+          "date": "2026-10-24",
+          "localizedDescription": "Twitch 31.7 | TwitchAdBlock 0.1.14\n\n> [!IMPORTANT]\n> **Twitch 31.7 is a major rebuild of the app.** Twitch rewrote big parts of it, including **Home, the Live feed, chat and the stream player**, using a new framework (React Native). Your account may get the new versions or the old ones, depending on Twitch's rollout.\n>\n> **This release updates every TwitchMods feature to work with both.** Older TwitchMods versions won't work properly with Twitch 31.7, so update to this one.\n\n**TwitchMods v0.1.14**, for Twitch iOS **31.7**\n\n### Updated for Twitch 31.7\nAll of these were checked on Twitch 31.7, on both the new and old parts of the app:\n- **Ad-blocking**: live and VOD pre-rolls, feed ads\n- **3rd-party emotes**: 7TV, BetterTTV and FrankerFaceZ, in both the new and the old chat\n- **Keep Live Feed Playing**: the Live feed no longer cuts a stream off with the Watch/Follow overlay\n- **Hide Twitch Stories**\n- **Default launch screen**: Twitch 31.7 now picks its own starting tab, and TwitchMods makes sure yours wins\n- **Following tab ad cleanup**\n- **Fixed:** the app crashing when you scrolled down to TwitchMods in Settings\n\n### New: send 7TV, BTTV and FFZ emotes\n- Tap into chat and a **7TV** bar appears above the keyboard. In Twitch's older chat it's a 7TV button next to the emote button instead.\n- You can also **press and hold Twitch's own emote button** to open the picker.\n- The picker shows the channel's emotes plus the global ones. **Animated emotes move**, there's **search**, and your recent picks show at the top. Tap an emote and it's typed into your message.\n- Don't want the bar? Turn on **Hide 7TV Bar** in Settings → Emotes. Press and hold still works.\n- Heads up: your *own* messages show the emote as a word on your screen, but everyone else using 7TV, BTTV or FFZ sees the picture.\n\n### New: automatic updates in AltStore, SideStore and Feather\nAdd this source and your app will tell you when a new TwitchMods version comes out:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```\n\n### Downloads\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.14.ipa`**: the full app.\n- **`tv.twitch-31.7-TwitchAdBlock-0.1.14-noplugins.ipa`**: app extensions removed, so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (add the source above, or drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.14/tv.twitch-31.7-TwitchAdBlock-0.1.14.ipa",
+          "size": 197795047,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v31.7-0.1.14",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-31.7-TwitchAdBlock-0.1.14-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.14/tv.twitch-31.7-TwitchAdBlock-0.1.14-noplugins.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 187315979,
+              "sha256": "ac1cc67ba0132adee574e908d9c0c829474bdc7393f49296d0a30b63e1fe1d9a",
+              "downloads": 6,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "tv.twitch-31.7-TwitchAdBlock-0.1.14.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.14/tv.twitch-31.7-TwitchAdBlock-0.1.14.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 197795047,
+              "sha256": "611389c2cb5f2fe2ca54675ee5532b3b699359a653ab4a49ccbca8a1a459a798",
+              "downloads": 31,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "611389c2cb5f2fe2ca54675ee5532b3b699359a653ab4a49ccbca8a1a459a798",
+          "downloads": 31
+        },
+        {
+          "version": "30.7",
+          "date": "2026-08-14",
+          "localizedDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+          "size": 152372292,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v30.7-0.1.13",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 143381478,
+              "sha256": "d01020aa34ddf4517a1a0e5fef430120450148b7cd8346024b50a8445d7f6bf4",
+              "downloads": 825,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 152372292,
+              "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
+              "downloads": 2581,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "5ddea13264259f54c7f8812ef16ddc20ddb675703826537a1e5dfd144f228181",
+          "downloads": 2581
+        },
+        {
+          "version": "30.2",
+          "date": "2026-07-07",
+          "localizedDescription": "Twitch 30.2 | TwitchAdBlock 0.1.12\n\n**TwitchMods v0.1.12** — for Twitch iOS **30.2**\n\nSame features as v0.1.12, rebuilt to run on the latest Twitch app (30.2). All\nhooks verified against the 30.2 binary; no feature changes.\n\n### What's included (v0.1.12)\n- **Blocks ads** — live + VOD pre-rolls via proxy, feed ad banners, sponsor spots, and the Following-tab \"Go Ad-Free\" Turbo button.\n- **Keep Live Feed Playing** — no more getting kicked to Watch/Follow.\n- **Chat emotes** — 7TV / BetterTTV / FrankerFaceZ, plus a Reload Emotes button.\n- **Back up & restore** your settings, and a **Diagnostics** screen.\n- Pick your launch screen, hide Twitch Stories, clearer settings.\n\n### Downloads\n- **`tv.twitch-30.2-TwitchAdBlock-0.1.12.ipa`** — full app.\n- **`tv.twitch-30.2-TwitchAdBlock-0.1.12-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.2-0.1.12/tv.twitch-30.2-TwitchAdBlock-0.1.12.ipa",
+          "size": 151558997,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v30.2-0.1.12",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-30.2-TwitchAdBlock-0.1.12-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.2-0.1.12/tv.twitch-30.2-TwitchAdBlock-0.1.12-noplugins.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 143044231,
+              "sha256": "c2dc1b4c0a87eac69aea6516e0718f89a280e8c176a7675e894744a984eec616",
+              "downloads": 234,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "tv.twitch-30.2-TwitchAdBlock-0.1.12.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.2-0.1.12/tv.twitch-30.2-TwitchAdBlock-0.1.12.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 151558997,
+              "sha256": "7024a7423be8b55eef98ac2ff7a51f0503a5d533fad6b3cdfde48cd4182a6a65",
+              "downloads": 431,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "7024a7423be8b55eef98ac2ff7a51f0503a5d533fad6b3cdfde48cd4182a6a65",
+          "downloads": 431
+        },
+        {
+          "version": "29.9",
+          "date": "2026-06-25",
+          "localizedDescription": "Twitch 29.9 | TwitchAdBlock 0.1.12\n\n**TwitchMods v0.1.12** — for Twitch iOS **29.9**\n\n### What's new\n- **The Live tab keeps playing** — no more getting kicked to Watch/Follow after a while.\n- **Hid the \"Go Ad-Free\" button** (the Turbo upsell) on the Following tab.\n- **Blocks a few more ads** — streamer-read sponsor spots.\n- **Reload Emotes** button — refresh 7TV/BTTV/FFZ emotes without restarting the app.\n- **Back up & restore your settings** — export to a file and import it back later.\n- **Diagnostics screen** — a quick green/red check that the mod still works on your Twitch version.\n- **Easier-to-read settings** — a short description under each option, grouped under clear headings.\n\n### Downloads\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.12.ipa`** — full app.\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.12-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.12/tv.twitch-29.9-TwitchAdBlock-0.1.12.ipa",
+          "size": 147998485,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v29.9-0.1.12",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-29.9-TwitchAdBlock-0.1.12-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.12/tv.twitch-29.9-TwitchAdBlock-0.1.12-noplugins.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 139533901,
+              "sha256": "1e70cf03421f517e2b5e2b9aeb6dbecc293441840ef61b2cd42af6e7dd66ad4f",
+              "downloads": 15,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "tv.twitch-29.9-TwitchAdBlock-0.1.12.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.12/tv.twitch-29.9-TwitchAdBlock-0.1.12.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 147998485,
+              "sha256": "eab5c768ffdf39c35dfe0726d33fb47c2a3a12ecc748f13dbe45cb7df277ed49",
+              "downloads": 45,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "eab5c768ffdf39c35dfe0726d33fb47c2a3a12ecc748f13dbe45cb7df277ed49",
+          "downloads": 45
+        },
+        {
+          "version": "29.9",
+          "date": "2026-06-22",
+          "localizedDescription": "Twitch 29.9 | TwitchAdBlock 0.1.11\n\n**Twitch iOS 29.9 compatibility build** of TwitchAdBlock v0.1.11.\n\n**No mod changes** — the tweak source and compiled `TwitchAdBlock.dylib` are byte-identical to [v29.8-0.1.11](https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v29.8-0.1.11). Only the host app was updated from 29.8 to 29.9 and the same dylib re-injected. All hooked classes were verified to still resolve in the 29.9 binary.\n\n### Downloads\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.11.ipa`** — full build (includes all 5 of Twitch's app extensions).\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.11-noplugins.ipa`** — plugin-free build. The 5 app extensions (GameBroadcasting, NotificationService, Share Extension, TwitchEmotes, TwitchWidgets) are stripped out. **Recommended for free Apple ID accounts**, which are limited to 10 App IDs per 7 days: the full build registers 6 App IDs (main app + 5 extensions), while this build registers only 1. Core stream-watching, chat, custom emotes, and ad-blocking are unaffected; you lose home-screen widgets, screen broadcasting, the \"Share to Twitch\" share-sheet action, the iMessage emote stickers, and rich (image) push notifications — basic push notifications still work.\n\n### Install\nDownload an IPA and install via **AltStore / SideStore** (drag in to sign) or **TrollStore** (`+` → select IPA).",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.11/tv.twitch-29.9-TwitchAdBlock-0.1.11.ipa",
+          "size": 147989585,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v29.9-0.1.11",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-29.9-TwitchAdBlock-0.1.11-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.11/tv.twitch-29.9-TwitchAdBlock-0.1.11-noplugins.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 139525001,
+              "sha256": "3d0df2128c118005e67d31d5a588f72671bfe9ce6d1efbb8d16e3f1a1fee1d26",
+              "downloads": 37,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "tv.twitch-29.9-TwitchAdBlock-0.1.11.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.11/tv.twitch-29.9-TwitchAdBlock-0.1.11.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 147989585,
+              "sha256": "f369ac7e1c71339ebb544aeb4cb2d997b8afd3e27637d736b8f37d67664a9a6f",
+              "downloads": 52,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "f369ac7e1c71339ebb544aeb4cb2d997b8afd3e27637d736b8f37d67664a9a6f",
+          "downloads": 52
+        },
+        {
+          "version": "29.8",
+          "date": "2026-06-12",
+          "localizedDescription": "Twitch 29.8 | TwitchAdBlock 0.1.11\n\n**Twitch iOS 29.8 compatibility build** of TwitchAdBlock v0.1.11.\n\nNo tweak source changes from [v0.1.11](https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v0.1.11) — the compiled `TwitchAdBlock.dylib` is byte-identical; only the host IPA was updated from 29.4.2 to 29.8 and the dylib re-injected.\n\n### Downloads\n- **`tv.twitch-29.8-TwitchAdBlock-0.1.11.ipa`** — full build (includes all 5 of Twitch's app extensions).\n- **`tv.twitch-29.8-TwitchAdBlock-0.1.11-noplugins.ipa`** — plugin-free build. The 5 app extensions (GameBroadcasting, NotificationService, Share Extension, TwitchEmotes, TwitchWidgets) are stripped out. **Recommended for free Apple ID accounts**, which are limited to 10 App IDs per 7 days: the full build registers 6 App IDs (main app + 5 extensions), while this build registers only 1. Core stream-watching, chat, custom emotes, and ad-blocking are unaffected; you lose home-screen widgets, screen broadcasting, the \"Share to Twitch\" share-sheet action, the iMessage emote stickers, and rich (image) push notifications — basic push notifications still work.\n\n### Install\nDownload an IPA and install via **AltStore / SideStore** (drag in to sign) or **TrollStore** (`+` → select IPA).",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.8-0.1.11/tv.twitch-29.8-TwitchAdBlock-0.1.11.ipa",
+          "size": 150354088,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v29.8-0.1.11",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-29.8-TwitchAdBlock-0.1.11-noplugins.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.8-0.1.11/tv.twitch-29.8-TwitchAdBlock-0.1.11-noplugins.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 141888071,
+              "sha256": "07fb8a11e08db0fbb9abe126a3e259505f646e4a0d7f90045f8877d4c64fbed8",
+              "downloads": 9,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "tv.twitch-29.8-TwitchAdBlock-0.1.11.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.8-0.1.11/tv.twitch-29.8-TwitchAdBlock-0.1.11.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 150354088,
+              "sha256": "cc89c6a033dfa9d926c79f24f46fb5c5a0e49d2f4936df6b12e941ded8b6c700",
+              "downloads": 16,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "cc89c6a033dfa9d926c79f24f46fb5c5a0e49d2f4936df6b12e941ded8b6c700",
+          "downloads": 16
+        },
+        {
+          "version": "29.4",
+          "date": "2026-05-16",
+          "localizedDescription": "Twitch 29.4 | TwitchAdBlock 29.4.2\n\n## Highlights\n\n- **Launch Screen picker** — choose which tab Twitch opens to. Includes Home sub-tabs (Following / Live / Clips) and Browse sub-tabs (Categories / Live Channels), plus Activity and Profile.\n- **Hide Twitch Stories** — toggle to remove the horizontal Stories strip at the top of Home.\n- **Default-proxy reachability indicator** in TwitchMods settings — live Online / Offline / Checking status.\n- **New banner blocking** — McDonalds-style brand offers (`OfferPromotion`, `PromotionDisplay`) and the in-app \"buy Bits\" prompt (`BitsProductPromotion`) are removed from Following / Home responses.\n- **TwitchMods rebrand** — user-facing strings (settings entry, screen title, version footer) now read \"TwitchMods\". Internal symbols, keys, and dylib filename unchanged.\n- **AdBlock proxy on by default** for fresh installs.\n\n## Bug fixes\n\n- **Live & Clips tabs broken** after the previous release — the recursive GraphQL strip was orphaning edges in `feedItems.edges`. Now edge-aware (removes the whole edge when `edge.node.__typename` matches), and skips response re-serialization when nothing was actually stripped (was confusing Apollo's cache).\n- Speculative ad typenames (`AdProperties`, `PromotedContent`, `SponsoredContent`, etc.) removed from the blocklist — several were appearing as metadata fields on legitimate `Stream` / `Clip` objects.\n\n## Robustness / quality\n\n- Subdomain-aware ad host matching (now blocks `*.amazon-adsystem.com`).\n- LRU eviction for the emote registry (capped at 50 channels).\n- IRC emote positions counted as Unicode grapheme clusters instead of UTF-16 units — emoji no longer shift the rendered offsets.\n- Recursive `__typename` scan logs unknown ad-like values once per `(operation, typename)`, so new banners surface in logs without code archaeology.\n- `twab_warnIfClassMissing` runs at startup for every Swift hook target — silent feature regressions on a Twitch version bump now produce a visible warning.\n- Typed `TWABKey*` constants instead of `@\"...\"` literals — typos become compile errors.\n- Atomic synthetic-emote-ID generator (one less queue hop per registration).\n- WebSocket handler idempotent (associated-object marker) + non-IRC frames short-circuit before parsing.\n- Settings cells properly reuse via `dequeueReusableCellWithIdentifier:`.\n- Proxy address field saves on every keystroke (not just end-editing).\n- Deprecated `[tweakDefaults synchronize]` calls removed.\n\n## Install\n\nSideload the attached IPA via AltStore / SideStore (drag in) or TrollStore (`ldid -S` the inner binary first).\n\nFull diff: [v0.1.7...v0.1.8](https://github.com/gunnerkidBT/TwitchAdBlock/compare/ee614b7...v0.1.8)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v0.1.8/tv.twitch-29.4.2-TwitchAdBlock.ipa",
+          "size": 146989509,
+          "minOSVersion": "14.0",
+          "releaseUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v0.1.8",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "tv.twitch-29.4.2-TwitchAdBlock.ipa",
+              "downloadUrl": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v0.1.8/tv.twitch-29.4.2-TwitchAdBlock.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 146989509,
+              "sha256": "db87fb743bab3df98e749a6b607b33cc0903fe4253e908905d61ce67abae04cc",
+              "downloads": 0,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "db87fb743bab3df98e749a6b607b33cc0903fe4253e908905d61ce67abae04cc"
         }
       ],
       "screenshotURLs": [],
@@ -111,11 +378,11 @@
           "notes": "Official IPAs from the fork's GitHub releases; the '-noplugins' variant on each release is intentionally not distributed. Replaces the App Store Twitch app (shares tv.twitch). The upstream tweak repo publishes only .deb packages for jailbroken devices; the sideload IPA comes from this maintained fork."
         },
         "health": {
-          "downloadReachable": null,
-          "detail": "not checked for this download",
-          "statusSince": "",
-          "lastCheckedAt": "",
-          "checkedURL": "",
+          "downloadReachable": true,
+          "detail": "HTTP 200",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-28T04:23:28Z",
+          "checkedURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
           "lastUpdatedAt": "2026-10-24"
         }
       }

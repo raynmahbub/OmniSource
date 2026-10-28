@@ -8,7 +8,7 @@
   "bannerURL": "https://raynmahbub.github.io/OmniSource/assets/OmniSource.png",
   "tintColor": "5B5BD6",
   "website": "https://raynmahbub.github.io/OmniSource/",
-  "sourceURL": "https://raynmahbub.github.io/OmniSource/ime.json",
+  "sourceURL": "https://raynmahbub.github.io/OmniSource/feeds/ime.json",
   "apps": [
     {
       "name": "iMe MxGram",
@@ -55,37 +55,12 @@
         "ksign",
         "livecontainer"
       ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.declared-age-range",
-          "com.apple.developer.storekit.request-data",
-          "com.apple.developer.device-information.user-assigned-device-name",
-          "com.apple.developer.group-session",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.siri",
-          "com.apple.developer.networking.wifi-info"
-        ],
-        "privacy": {
-          "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-          "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-          "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-          "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-          "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-          "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-          "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-        }
-      },
       "omnisource": {
         "slug": "ime",
         "status": "stable",
         "featured": false,
         "upstreamURL": "https://github.com/m1ronx1412/mxgram",
-        "sourceURL": "https://raw.githubusercontent.com",
+        "sourceURL": "https://github.com/927tx/IPA-Vault",
         "verification": {
           "method": "altstore",
           "publisher": "927tx/IPA-Vault",
@@ -114,8 +89,8 @@
         "health": {
           "downloadReachable": false,
           "detail": "HTTP 404",
-          "statusSince": "2026-10-28",
-          "lastCheckedAt": "2026-10-28",
+          "statusSince": "2026-10-27",
+          "lastCheckedAt": "2026-10-28T04:23:28Z",
           "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/iMe-12.8.1-MxGram.ipa",
           "lastUpdatedAt": "2026-09-01"
         }

@@ -12,6 +12,8 @@ from datetime import UTC, datetime
 from itertools import pairwise
 from typing import Any
 
+from omnisource.release_history import QUARANTINED
+
 SCHEMA_VERSION = 1
 
 
@@ -20,12 +22,15 @@ def utcnow() -> str:
 
 
 def _apps(source: dict[str, Any]) -> set[str]:
-    values = source.get("apps", [])
-    return {
-        str(item.get("id") or item.get("slug"))
-        for item in values
-        if isinstance(item, dict) and (item.get("id") or item.get("slug"))
-    }
+    values = source.get("app_ids", source.get("apps", []))
+    if not isinstance(values, list):
+        return set()
+    app_ids: set[str] = set()
+    for item in values:
+        value = (item.get("id") or item.get("slug")) if isinstance(item, dict) else item
+        if isinstance(value, str) and value:
+            app_ids.add(value)
+    return app_ids
 
 
 def build_source_insights(
@@ -46,13 +51,40 @@ def build_source_insights(
             continue
         source_id = str(source.get("source_id") or source.get("id") or "")
         current_apps = _apps(source)
-        previous_apps = _apps(old_by_id.get(source_id, {}))
+        prior = old_by_id.get(source_id)
+        if isinstance(prior, dict) and (isinstance(prior.get("app_ids"), list) or isinstance(prior.get("apps"), list)):
+            previous_apps = _apps(prior)
+        elif prior is None and isinstance(previous, dict) and isinstance(previous.get("sources"), list):
+            previous_apps = set()  # A new source since an existing baseline.
+        else:
+            # Old insight documents did not store membership. An absent
+            # baseline is unknown, not evidence that every app was just added.
+            previous_apps = current_apps
         added = sorted(current_apps - previous_apps)
         removed = sorted(previous_apps - current_apps)
         history = source.get("history", [])
-        health_values = [str(item.get("health", "unknown")) for item in history if isinstance(item, dict)]
+        # Older registry rows were build snapshots, not necessarily probes.
+        # Count only dated URL-bound observations, deduplicated by timestamp;
+        # keep different endpoints out of the same uptime calculation.
+        samples: dict[tuple[str, str], str] = {}
+        for item in history if isinstance(history, list) else []:
+            if not isinstance(item, dict):
+                continue
+            health = str(item.get("health") or "").casefold()
+            at, url = str(item.get("observedAt") or ""), str(item.get("observationURL") or "")
+            try:
+                parsed = datetime.fromisoformat(at.replace("Z", "+00:00"))
+                if parsed.tzinfo is None or not url.startswith("https://") or health not in {"online", "offline"}:
+                    continue
+            except ValueError:
+                continue
+            samples[(at, url)] = health
+        latest_url = (
+            max(samples, key=lambda key: datetime.fromisoformat(key[0].replace("Z", "+00:00")))[1] if samples else ""
+        )
+        health_values = [health for (_, url), health in samples.items() if url == latest_url]
         online_samples = sum(value == "online" for value in health_values)
-        uptime = round(online_samples / len(health_values) * 100, 2) if health_values else source.get("uptime")
+        uptime = round(online_samples / len(health_values) * 100, 2) if health_values else None
         last_sync = str(source.get("last_sync") or "")
         cadence_days = _cadence_days(source, release_history)
         if added and not removed:
@@ -68,6 +100,7 @@ def build_source_insights(
                 "source_id": source_id,
                 "source_name": source.get("source_name", source_id),
                 "trend": trend,
+                "app_ids": sorted(current_apps),
                 "apps_added": added,
                 "apps_removed": removed,
                 "app_delta": len(current_apps) - len(previous_apps),
@@ -101,7 +134,7 @@ def _cadence_days(source: dict[str, Any], release_history: dict[str, Any] | None
         app_id = str(app.get("id") or app.get("slug") or "") if isinstance(app, dict) else ""
         records = history.get(app_id, []) if isinstance(history, dict) else []
         for release in records:
-            if not isinstance(release, dict):
+            if not isinstance(release, dict) or release.get("status") == QUARANTINED:
                 continue
             value = str(release.get("date") or "")[:10]
             try:
@@ -126,9 +159,13 @@ def build_package_intelligence(
     for app in apps:
         if not isinstance(app, dict):
             continue
-        app_id = str(app.get("id") or app.get("slug") or "")
+        # Published AltStore entries carry their stable catalog slug inside
+        # the extension block rather than at the top level. Without it every
+        # entry is assigned an empty ID and misses its release history.
+        omni = app.get("omnisource") if isinstance(app.get("omnisource"), dict) else {}
+        app_id = str(app.get("id") or app.get("slug") or omni.get("slug") or "")
         releases = release_apps.get(app_id, []) if isinstance(release_apps, dict) else []
-        releases = [item for item in releases if isinstance(item, dict)]
+        releases = [item for item in releases if isinstance(item, dict) and item.get("status") != QUARANTINED]
         dates = sorted(str(item.get("date") or "")[:10] for item in releases if item.get("date"))
         sources = app.get("sources", app.get("sourceCount", []))
         source_count = len(sources) if isinstance(sources, list) else int(sources or 0)

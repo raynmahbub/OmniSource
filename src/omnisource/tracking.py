@@ -185,7 +185,11 @@ def build_version_entry(
     if body:
         description = f"{description}\n\n{body}"
 
-    min_os = ref.min_os_by_tag_number.get(str(tag_number(release.tag)), ref.min_os_version)
+    # Exact asset rules take precedence over legacy tag-number rules:
+    # publishers may reuse tags or publish different builds of one app version.
+    min_os = ref.min_os_by_asset_name.get(
+        asset.name, ref.min_os_by_tag_number.get(str(tag_number(release.tag)), ref.min_os_version)
+    )
     entry: dict[str, Any] = {
         "version": version,
         "date": date,

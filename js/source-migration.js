@@ -69,7 +69,7 @@
       } else {
         add('span', li, bundle ? ' — no matching bundle listed. ' + bundle + ' ' : ' — no bundle identifier provided. ');
         var issue = document.createElement('a');
-        var params = new URLSearchParams({ template: '01-app-request.yml', title: 'Add app: ' + name });
+        var params = new URLSearchParams({ template: '01-app-request.yml', title: 'Add app: ' + name, 'app-name': name, 'bundle-id': bundle });
         issue.href = 'https://github.com/raynmahbub/OmniSource/issues/new?' + params.toString();
         issue.textContent = 'Request review'; issue.target = '_blank'; issue.rel = 'noopener noreferrer'; li.appendChild(issue);
       }

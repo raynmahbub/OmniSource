@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "NeoFreeBird",
     "bundleIdentifier": "com.atebits.Tweetie2",
@@ -156,11 +156,11 @@
         "notes": "Official IPAs from the project's GitHub releases (its own AltStore source mirrors them). The plain build is distributed here; the -noFixTwitterLogin variant on the same release is a troubleshooting fallback. Twitter 11.x+ builds require iOS 15+. Shares the Twitter bundle identifier with BHTwitter in this catalog — install one at a time."
       },
       "health": {
-        "downloadReachable": null,
-        "detail": "not checked for this download",
-        "statusSince": "",
-        "lastCheckedAt": "",
-        "checkedURL": "",
+        "downloadReachable": true,
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-27",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
+        "checkedURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
         "lastUpdatedAt": "2026-10-16"
       }
     },

@@ -9,11 +9,11 @@ Every app resolves through an ordered chain of upstream legs:
 * A leg that returns **releases** ends the chain — its releases win.
 * A leg that is *healthy but empty* (no matching release) also moves the
   chain on, because a mirror may carry what the primary lost.
-* If every leg errored, the chain raises a combined :class:`ProviderError`;
-  the pipeline's existing "keep last known state" behaviour is the final
-  leg — the cached snapshot from ``feeds/state.json``.
+* An incremental URL match ends the chain as unchanged, not empty.
+* If no releases were found and at least one leg errored, the chain raises a
+  combined :class:`ProviderError`; the cached snapshot is the final fallback.
 * If every leg was healthy but empty, the chain returns an empty list so the
-  pipeline applies its manualRelease / last-state fallback exactly as before.
+  pipeline can report a missing release or use a first-time manual fallback.
 
 The chain is pure orchestration: providers stay stateless per leg, and a
 single-leg chain (the common case) behaves identically to calling the
@@ -27,6 +27,7 @@ from dataclasses import dataclass, field, replace
 from omnisource.domain import RemoteRelease, RepositoryRef
 from omnisource.errors import ConfigurationError, ProviderError
 from omnisource.logutil import log
+from omnisource.providers.base import INCREMENTAL_UNCHANGED
 from omnisource.providers.registry import ProviderRegistry
 
 
@@ -37,10 +38,11 @@ class FailoverResult:
     releases: list[RemoteRelease]
     source: str  # identity of the leg that produced the releases ("" when empty)
     attempts: list[str] = field(default_factory=list)
+    unchanged: bool = False
 
     @property
     def used_failover(self) -> bool:
-        return bool(self.attempts) and not self.attempts[0].startswith("ok ")
+        return bool(self.attempts) and not self.attempts[0].startswith(("ok ", "unchanged "))
 
 
 def leg_label(ref: RepositoryRef) -> str:
@@ -86,15 +88,20 @@ class FailoverChain:
                 attempts.append(f"{label} error: {error}")
                 log.warning("failover leg %d/%d %s failed: %s", index + 1, len(self.legs), label, error)
                 continue
+            if releases is INCREMENTAL_UNCHANGED and incremental and previous_latest_url:
+                attempts.append(f"unchanged {label}")
+                return FailoverResult([], label, attempts, unchanged=True)
             if releases:
                 attempts.append(f"ok {label} ({len(releases)} release(s))")
                 return FailoverResult(releases, label, attempts)
             attempts.append(f"{label} empty")
             log.info("failover leg %d/%d %s returned no releases", index + 1, len(self.legs), label)
 
-        if hard_errors and hard_errors == len(self.legs):
-            raise ProviderError("all sources failed: " + " | ".join(attempts))
-        return FailoverResult([], [], attempts)
+        # An error on one leg plus empty results on the others does not prove
+        # the primary is unchanged. Preserve and report the failure.
+        if hard_errors:
+            raise ProviderError("no usable source; attempts: " + " | ".join(attempts))
+        return FailoverResult([], "", attempts)
 
 
 def _mirror_leg(primary: RepositoryRef, mirror: dict) -> RepositoryRef:
@@ -119,6 +126,7 @@ def _mirror_leg(primary: RepositoryRef, mirror: dict) -> RepositoryRef:
         "descriptionTemplate": primary.description_template,
         "minOSVersion": primary.min_os_version,
         "minOSVersionByTagNumber": dict(primary.min_os_by_tag_number),
+        "minOSVersionByAssetName": dict(primary.min_os_by_asset_name),
         "isoDates": primary.iso_dates,
         "timeout": primary.request_timeout,
     }

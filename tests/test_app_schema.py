@@ -133,6 +133,7 @@ class TestBuildRecord(unittest.TestCase):
             self.assertIn(field, record)
         self.assertEqual(record["id"], "alpha")
         self.assertEqual(record["version"], "1.2.0")
+        self.assertEqual(record["feedURL"], "https://example.com/OmniSource/feeds/alpha.json")
         self.assertEqual(record["icon"], "https://example.com/OmniSource/assets/Alpha.webp")
         self.assertEqual(record["checksum"], "0" * 64)
         self.assertEqual(record["source"], "example/alpha")

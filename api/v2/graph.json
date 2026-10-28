@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-28",
-  "count": 349,
+  "count": 348,
   "edgeCount": 1037,
   "nodes": [
     {
@@ -67,7 +67,7 @@
     {
       "id": "app:ytlite",
       "type": "app",
-      "label": "YouTubePlus",
+      "label": "YouTube Plus",
       "slug": "ytlite",
       "bundleId": "com.google.ios.youtube",
       "category": "photo-video",
@@ -998,7 +998,7 @@
       "id": "source:927txipavault",
       "type": "source",
       "label": "927tx/IPA-Vault",
-      "url": "https://raw.githubusercontent.com"
+      "url": "https://github.com/927tx/IPA-Vault"
     },
     {
       "id": "app:glow",
@@ -1121,11 +1121,6 @@
       "bundleId": "com.facebook.Messenger.flow",
       "category": "social",
       "version": "584.0.0"
-    },
-    {
-      "id": "dev:dvntms-&-ipa-vault",
-      "type": "developer",
-      "label": "dvntms & IPA Vault"
     },
     {
       "id": "app:msgplusx",
@@ -2976,7 +2971,7 @@
     },
     {
       "source": "app:messenger-flow",
-      "target": "dev:dvntms-&-ipa-vault",
+      "target": "dev:dayanch96-&-ipa-vault",
       "type": "developer"
     },
     {
@@ -5393,6 +5388,11 @@
     },
     {
       "source": "app:glow",
+      "target": "app:messenger-flow",
+      "type": "related"
+    },
+    {
+      "source": "app:glow",
       "target": "app:winston",
       "type": "related"
     },
@@ -5414,11 +5414,6 @@
     {
       "source": "app:glow",
       "target": "app:ttkillerplus",
-      "type": "related"
-    },
-    {
-      "source": "app:glow",
-      "target": "app:thunder",
       "type": "related"
     },
     {
@@ -5633,6 +5628,11 @@
     },
     {
       "source": "app:messenger-flow",
+      "target": "app:glow",
+      "type": "related"
+    },
+    {
+      "source": "app:messenger-flow",
       "target": "app:winston",
       "type": "related"
     },
@@ -5654,11 +5654,6 @@
     {
       "source": "app:messenger-flow",
       "target": "app:ttkillerplus",
-      "type": "related"
-    },
-    {
-      "source": "app:messenger-flow",
-      "target": "app:thunder",
       "type": "related"
     },
     {

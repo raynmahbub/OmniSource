@@ -18,12 +18,64 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Reynard.webp",
       "tintColor": "FB3828",
       "category": "utilities",
-      "version": "0.18.0",
-      "versionDate": "2026-10-18",
-      "versionDescription": "Reynard 0.18.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\n\n### New Features\n- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\n\n### Improvements\n- Scrolling on webpages is now smoother and more accurate.\n- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.\n\n### Bug Fixes\n- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.\n- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.\n- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.\n- Fixed an issue where touches on some webpages would land in the wrong place.\n- Added small performance improvements and fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).",
-      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
-      "size": 109731773,
+      "version": "0.19.0",
+      "versionDate": "2026-10-26",
+      "versionDescription": "Reynard 0.19.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.18.0...0.19.0\n\n### New Features\n- Added support for game controllers.\n- You can now import and export your bookmarks, history, and add-ons:\n  - Bookmarks can be imported from and exported to other browsers as an HTML file.\n  - History can be imported from Safari or Google Takeout (Chrome), and exported in Safari's format.\n  - Add-ons can be imported from and exported to another Reynard install.\n\n### Bug Fixes & Improvements\n- Webpages that fail to load now show an error page explaining what went wrong, with options to try again or go back.\n- You can now right-click a Favorite site on the homepage using a pointer device to reveal its context menu.\n- Fixed an issue where pull to refresh would occasionally get stuck, with the refresh spinner appearing indefinitely.\n- Fixed numerous UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_1_RELEASE) (released Oct 20, 2026).",
+      "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+      "size": 111139976,
       "versions": [
+        {
+          "version": "0.19.0",
+          "date": "2026-10-26",
+          "localizedDescription": "Reynard 0.19.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.18.0...0.19.0\n\n### New Features\n- Added support for game controllers.\n- You can now import and export your bookmarks, history, and add-ons:\n  - Bookmarks can be imported from and exported to other browsers as an HTML file.\n  - History can be imported from Safari or Google Takeout (Chrome), and exported in Safari's format.\n  - Add-ons can be imported from and exported to another Reynard install.\n\n### Bug Fixes & Improvements\n- Webpages that fail to load now show an error page explaining what went wrong, with options to try again or go back.\n- You can now right-click a Favorite site on the homepage using a pointer device to reveal its context menu.\n- Fixed an issue where pull to refresh would occasionally get stuck, with the refresh spinner appearing indefinitely.\n- Fixed numerous UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_1_RELEASE) (released Oct 20, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+          "size": 111139976,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.19.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 111188321,
+              "sha256": "85898f009c8920ed8a01f8478ef893c4704585a271b4d96c3688a4aa0cc21481",
+              "downloads": 301,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 111235751,
+              "sha256": "6076628afff639c24a9c7cd290108d9fbc3014f493bc74c7692b22eb3f418866",
+              "downloads": 952,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 111139976,
+              "sha256": "929719d1e0f2548ef1a18b5bf96002622d8df215d3dd3ff58205049657815407",
+              "downloads": 300,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "929719d1e0f2548ef1a18b5bf96002622d8df215d3dd3ff58205049657815407",
+          "downloads": 300
+        },
         {
           "version": "0.18.0",
           "date": "2026-10-18",
@@ -44,7 +96,7 @@
               "fileType": "IPA",
               "size": 109770304,
               "sha256": "c807e83167fdccdbba6c811b9f8edf05684ba92c68e7fc2c96ed624a4738ec03",
-              "downloads": 406,
+              "downloads": 424,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -56,7 +108,7 @@
               "fileType": "IPA",
               "size": 109817261,
               "sha256": "a04054f7e50dba037bb2c0f90d97476a02aa71eb6efee64ca3a14d141f9907e9",
-              "downloads": 2663,
+              "downloads": 2804,
               "mimeType": "application/octet-stream",
               "installable": true
             },
@@ -68,13 +120,325 @@
               "fileType": "IPA",
               "size": 109731773,
               "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36",
-              "downloads": 1145,
+              "downloads": 1250,
               "mimeType": "application/octet-stream",
               "installable": true
             }
           ],
           "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36",
-          "downloads": 1145
+          "downloads": 1250
+        },
+        {
+          "version": "0.17.1",
+          "date": "2026-10-12",
+          "localizedDescription": "Reynard 0.17.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\n\nThis is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).\n\n### Bug Fixes & Improvements\n- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\n- Fixed a crash when editing in scrollable text fields on iOS 14 and older.\n- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.\n- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.\n- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.\n- Fixed an issue where images copied from another app would not paste into webpages.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
+          "size": 109225943,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.17.1",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109263826,
+              "sha256": "024ab808ccbad71a0f5b53a7f818bb2cfc3792d261cebeb3b83eb24701413b32",
+              "downloads": 393,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109311241,
+              "sha256": "f9cf4b70d85b02d8ef40bdf4a4a84bb2e0fff21f795757210b448ebe73d760b6",
+              "downloads": 2409,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109225943,
+              "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
+              "downloads": 996,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "c9ffc9c4763448f5dfa6dbd314092a75bd7250bb11da092eeefd5c33dcb2aa64",
+          "downloads": 996
+        },
+        {
+          "version": "0.17.0",
+          "date": "2026-10-11",
+          "localizedDescription": "Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### Improvements\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\n\n### New Features\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
+          "size": 109222723,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109254146,
+              "sha256": "f205038d8d1f318eba00bdfe7ea9a815fe25ba12eb30ad6746365851335a0d6c",
+              "downloads": 152,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109308328,
+              "sha256": "0baaa2b0e6f60f61bf2f20ef9df7e319f39a2a7da5e32eb6c83b7d0239b4611c",
+              "downloads": 972,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109222723,
+              "sha256": "2c68228cf63b643d354a1921d8194b9c1b4ce428e7d4c744e61561e3c4088f3a",
+              "downloads": 274,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "2c68228cf63b643d354a1921d8194b9c1b4ce428e7d4c744e61561e3c4088f3a",
+          "downloads": 274
+        },
+        {
+          "version": "0.16.0",
+          "date": "2026-10-04",
+          "localizedDescription": "Reynard 0.16.0 | Reynard\n\n## Changes\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.15.0...0.16.0\n\n### Bug Fixes & Improvements\n- Fixed an issue where the iPad floating keyboard pushed the web view upward.\n\n### Engine\nUpdated Gecko to [157.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_RELEASE) (released Sep 29, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard.ipa",
+          "size": 109163229,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.16.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109209550,
+              "sha256": "704438eb40f0fc1cdd6197109aed004a20a79e45854e4d83a1fea43727004c03",
+              "downloads": 366,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109248801,
+              "sha256": "2950d9279dcdf51644419cf0aa5a6e76017fdf7322c485e958c01769c8e4e044",
+              "downloads": 2191,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 109163229,
+              "sha256": "f2da434c66dc043db43c819630633f490da932e861785a0e3c1459470f5245b1",
+              "downloads": 869,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "f2da434c66dc043db43c819630633f490da932e861785a0e3c1459470f5245b1",
+          "downloads": 869
+        },
+        {
+          "version": "0.15.0",
+          "date": "2026-10-06",
+          "localizedDescription": "Reynard 0.15.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.1...0.15.0\n\n### New Features\n- Added support for printing a webpage or an online PDF viewed in the browser, accessible as a **Print** option in the share sheet or with the Command + P keyboard shortcut.\n- You can now see which tab is playing audio and mute tabs directly from the address bar.\n- You can now configure whether Reader Mode is shown automatically for a specific website or for all websites.\n- Built-in add-on pages, such as those that provide a custom new tab appearance, can now be set as your new tab page.\n- For links that open in a new tab automatically or from the context menu, you can now return to the opener tab using the back button, or by swiping from the left edge of the screen to the right.\n\n### Bug Fixes & Improvements\n- JIT can now be enabled on iPhone 18 Pro and iPhone 18 Pro Max.\n- Greatly reduced memory and power usage when the camera is active.\n- The Command + W keyboard shortcut now activates the adjacent tab instead of the most recently opened one.\n- If you set the last tab to show on startup, the browser now loads its URL immediately instead of after a short delay.\n- The list of recently closed tabs now clears when you remove browsing history in the browser settings.\n- Fixed a regression where Reader Mode’s serif font would be used as the default serif font for all websites.\n- Fixed numerous bugs and improved UI animations.\n\n### Translations\nAdded Vietnamese translation.\n\n### Engine\nUpdated Gecko to [156.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_1_RELEASE) (released Sep 22, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+          "size": 108690287,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.15.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108723521,
+              "sha256": "990cc418190be1022074bc83c9b0107f177e9a3f66e1c9bf2cfbdcfa8b2d1a71",
+              "downloads": 422,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108776530,
+              "sha256": "2405f2189fc0b1a449821b205182190542fd127cd15b0c7596ad677502679a72",
+              "downloads": 2414,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108690287,
+              "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
+              "downloads": 1040,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
+          "downloads": 1040
+        },
+        {
+          "version": "0.14.1",
+          "date": "2026-09-22",
+          "localizedDescription": "Reynard 0.14.1 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.0...0.14.1\n\nThis is a minor release that fixes issues found in 0.14.0. For the complete list of changes, see the [0.14.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.14.0).\n\n### Bug Fixes & Improvements\n- Fixed a crash when opening Reader Mode settings on some older iOS versions.\n- Fixed the system serif font not being looked up correctly on webpages and in Reader Mode.\n- Fixed a misleading JIT enablement banner appearing on jailbroken iOS 17.4 and later.\n- Fixed media playback not resuming automatically after interruptions such as dictation.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard.ipa",
+          "size": 108452990,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.14.1",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108503085,
+              "sha256": "04ca6071def9ea560686ccdb7ba04dd7c9a30dfec77bde1b19b5238daa76dbd0",
+              "downloads": 337,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108552628,
+              "sha256": "1904c54ab760b996dc436721d48a705a50f7a6b378e7502c91c563dc0c8eba3e",
+              "downloads": 2070,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.1/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108452990,
+              "sha256": "2d4d1bcfe984c9eb11f212835060262f8480c9ee65199ca65dd856e40729a7ec",
+              "downloads": 923,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "2d4d1bcfe984c9eb11f212835060262f8480c9ee65199ca65dd856e40729a7ec",
+          "downloads": 923
+        },
+        {
+          "version": "0.14.0",
+          "date": "2026-09-20",
+          "localizedDescription": "Reynard 0.14.0 | Reynard\n\n## Changes\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.13.1...0.14.0\n\n### New Features\n- Added Reader Mode.\n- Added preliminary support for Apple Pencil.\n\n### Bug Fixes & Improvements\n- Improved the reliability of navigation history restoration on startup.\n- Fixed taps and the text cursor sometimes landing in the wrong spot on pages with sticky headers or menus.\n- Fixed pinned headers, footers, and menus sometimes showing up in the wrong place when the toolbar size changes or during scrolling.\n- Fixed pages sometimes settling in the wrong spot after a jump, zoom, or reload, which left part of the page hidden behind the toolbar.\n- Fixed an issue where webpages could open with the wrong light or dark appearance on startup when the appearance chosen in Settings differs from the system's.\n- Fixed a crash that could occur during audio playback.\n\n### Engine\nUpdated Gecko to [156.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_RELEASE) (released Sep 15, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.0/Reynard.ipa",
+          "size": 108453095,
+          "minOSVersion": "13.0",
+          "releaseUrl": "https://github.com/minh-ton/reynard-browser/releases/tag/0.14.0",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Reynard-Jailbroken.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.0/Reynard-Jailbroken.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108506406,
+              "sha256": "1ea44eb29cfb9d0cf3d8913c879619a440e8edb705b290c23e1ba8e41a276b45",
+              "downloads": 165,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard-TrollStore.tipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.0/Reynard-TrollStore.tipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108552657,
+              "sha256": "c69e3066b1fcdbe3545b183df13d8a6352c8f28b39137c69cf28fc778f7b1300",
+              "downloads": 1081,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            },
+            {
+              "filename": "Reynard.ipa",
+              "downloadUrl": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.0/Reynard.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 108453095,
+              "sha256": "441414e6caa0896d8d4e6552d1937627765775d7c3485d27c37ace9460ece97f",
+              "downloads": 400,
+              "mimeType": "application/octet-stream",
+              "installable": true
+            }
+          ],
+          "sha256": "441414e6caa0896d8d4e6552d1937627765775d7c3485d27c37ace9460ece97f",
+          "downloads": 400
         }
       ],
       "screenshotURLs": [],
@@ -125,10 +489,10 @@
         "health": {
           "downloadReachable": true,
           "detail": "HTTP 200",
-          "statusSince": "2026-10-27",
-          "lastCheckedAt": "2026-10-27T19:51:41Z",
-          "checkedURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
-          "lastUpdatedAt": "2026-10-18"
+          "statusSince": "2026-10-28",
+          "lastCheckedAt": "2026-10-28T04:23:28Z",
+          "checkedURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+          "lastUpdatedAt": "2026-10-26"
         }
       }
     }

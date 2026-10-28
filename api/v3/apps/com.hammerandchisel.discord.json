@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "cf81a20653a6",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "RainTweak",
     "bundleIdentifier": "com.hammerandchisel.discord",
@@ -73,31 +73,6 @@
       "ksign",
       "livecontainer"
     ],
-    "appPermissions": {
-      "entitlements": [
-        "com.apple.security.application-groups",
-        "com.apple.developer.associated-domains",
-        "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-        "com.apple.developer.declared-age-range",
-        "com.apple.developer.storekit.request-data",
-        "com.apple.developer.device-information.user-assigned-device-name",
-        "com.apple.developer.group-session",
-        "keychain-access-groups",
-        "com.apple.developer.networking.multicast",
-        "aps-environment",
-        "com.apple.developer.siri",
-        "com.apple.developer.networking.wifi-info"
-      ],
-      "privacy": {
-        "NSCameraUsageDescription": "Used to record and upload videos to YouTube.",
-        "NSMicrophoneUsageDescription": "Used to record audio for videos.",
-        "NSPhotoLibraryUsageDescription": "Used to upload photos and videos from your library.",
-        "NSPhotoLibraryAddUsageDescription": "Used to save videos to your photo library.",
-        "NSAppleMusicUsageDescription": "Allows access to Apple Music for background playback and media features.",
-        "NSBluetoothPeripheralUsageDescription": "Used for connecting to Bluetooth devices.",
-        "NSLocalNetworkUsageDescription": "Used to discover and connect to devices on your local network."
-      }
-    },
     "omnisource": {
       "slug": "raintweak",
       "status": "stable",
@@ -132,7 +107,7 @@
         "downloadReachable": true,
         "detail": "HTTP 200",
         "statusSince": "2026-10-27",
-        "lastCheckedAt": "2026-10-27T19:51:41Z",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
         "checkedURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
         "lastUpdatedAt": "2026-09-17"
       }

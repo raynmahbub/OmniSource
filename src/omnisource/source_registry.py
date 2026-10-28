@@ -78,34 +78,6 @@ def classify_source(
     return "Experimental"
 
 
-def _health_for(source: dict[str, Any], status: dict[str, Any] | None) -> tuple[str, float | None]:
-    health = str(source.get("health_status") or source.get("health") or source.get("status") or "unknown").casefold()
-    uptime: float | None = None
-    if isinstance(status, dict):
-        source_id = str(source.get("id") or source.get("source_id") or source.get("source") or "")
-        nodes = status.get("sources", [])
-        for node in nodes if isinstance(nodes, list) else []:
-            if not isinstance(node, dict):
-                continue
-            if str(node.get("id") or node.get("source_id") or "") == source_id:
-                health = str(node.get("health") or node.get("status") or health).casefold()
-                uptime_raw = node.get("uptime")
-                try:
-                    uptime = float(uptime_raw) if uptime_raw is not None else None
-                except (TypeError, ValueError):
-                    uptime = None
-                break
-    if health in {"healthy", "ok", "online", "verified"}:
-        health = "online"
-    elif health in {"warning", "degraded", "partial"}:
-        health = "degraded"
-    elif health in {"offline", "unavailable", "dead"}:
-        health = "offline"
-    else:
-        health = "unknown"
-    return health, uptime
-
-
 def _source_url(source: dict[str, Any]) -> str:
     return str(
         source.get("sourceURL")
@@ -115,6 +87,38 @@ def _source_url(source: dict[str, Any]) -> str:
         or source.get("feedURL")
         or ""
     )
+
+
+def _instant(value: Any) -> datetime | None:
+    try:
+        parsed = datetime.fromisoformat(str(value or "").replace("Z", "+00:00"))
+        return parsed if parsed.tzinfo is not None else None
+    except ValueError:
+        return None
+
+
+def _source_observation(source: dict[str, Any], status: dict[str, Any] | None) -> dict[str, str] | None:
+    """Use a dated monitor result only when it checked this exact source URL.
+
+    Some monitoring snapshots check a host's root rather than the feed or
+    project URL. Such a probe says nothing about the source itself.
+    """
+    if not isinstance(status, dict):
+        return None
+    at = str(status.get("generatedAt") or "")
+    if _instant(at) is None:
+        return None
+    source_id = str(source.get("id") or source.get("source_id") or source.get("source") or "")
+    expected = {_source_url(source), source_id}
+    nodes = status.get("sources", [])
+    for node in nodes if isinstance(nodes, list) else []:
+        if not isinstance(node, dict) or str(node.get("id") or node.get("source_id") or "") != source_id:
+            continue
+        url = str(node.get("url") or "")
+        if not url.startswith("https://") or url not in expected or not isinstance(node.get("ok"), bool):
+            return None
+        return {"at": at, "url": url, "health": "online" if node["ok"] else "offline"}
+    return None
 
 
 def build_registry(
@@ -152,10 +156,22 @@ def build_registry(
         key = str(raw.get("id") or raw.get("source_id") or raw.get("source") or url)
         source_id = stable_id(key)
         score = _score(raw, reputation)
-        health, uptime = _health_for(raw, status)
+        old = previous_by_id.get(source_id, {})
+        observation = _source_observation(raw, status)
+        previous_observation = old.get("last_health_observation")
+        if not isinstance(previous_observation, dict) or (
+            previous_observation.get("url") not in {key, url}
+            or _instant(previous_observation.get("at")) is None
+            or previous_observation.get("health") not in {"online", "offline"}
+        ):
+            previous_observation = None
+        incoming_at = _instant(observation.get("at")) if observation else None
+        previous_at = _instant(previous_observation.get("at")) if previous_observation else None
+        new_observation = incoming_at is not None and (previous_at is None or incoming_at > previous_at)
+        current_observation = observation if new_observation else previous_observation
+        health = current_observation["health"] if current_observation else "unknown"
         apps = raw.get("apps", [])
         app_count = len(apps) if isinstance(apps, list) else int(raw.get("appCount", 0) or 0)
-        old = previous_by_id.get(source_id, {})
         first_seen = str(
             old.get("first_seen")
             or old.get("firstSeen")
@@ -172,9 +188,10 @@ def build_registry(
             "verification_status": str(raw.get("verification_status") or raw.get("verification") or "unverified"),
             "reputation_score": score,
             "health_status": health,
-            "uptime": uptime,
+            "last_health_observation": current_observation,
+            "uptime": None,
             "first_seen": first_seen,
-            "last_seen": str(raw.get("last_seen") or raw.get("last_checked") or utcnow()),
+            "last_seen": str(raw.get("last_seen") or raw.get("last_checked") or old.get("last_seen") or first_seen),
             "last_sync": str(raw.get("last_sync") or raw.get("lastUpdate") or raw.get("last_checked") or ""),
             "app_count": app_count,
             "release_count": int(raw.get("releaseCount", 0) or 0),
@@ -189,16 +206,34 @@ def build_registry(
             ],
             "history": list(old.get("history", [])) if isinstance(old.get("history"), list) else [],
         }
-        snapshot = {
-            "at": utcnow(),
-            "health": health,
-            "reputation": score,
-            "appCount": app_count,
-            "verification": record["verification_status"],
-        }
-        if not record["history"] or record["history"][-1] != snapshot:
-            record["history"].append(snapshot)
-        record["history"] = record["history"][-90:]
+        observed_at = _instant(current_observation.get("at")) if current_observation else None
+        last_seen_at = _instant(record["last_seen"])
+        if observed_at and (last_seen_at is None or observed_at > last_seen_at):
+            record["last_seen"] = current_observation["at"]
+        history = record["history"]
+        material = {"reputation": score, "appCount": app_count, "verification": record["verification_status"]}
+        last = history[-1] if history and isinstance(history[-1], dict) else {}
+        material_changed = not last or any(last.get(key) != value for key, value in material.items())
+        # A rebuild is not a new probe. Record a monitor observation at its
+        # original time only once; metadata-only snapshots have unknown health.
+        seen_observation = bool(
+            observation
+            and any(
+                isinstance(item, dict)
+                and item.get("observedAt") == observation["at"]
+                and item.get("observationURL") == observation["url"]
+                for item in history
+            )
+        )
+        new_observation = new_observation and not seen_observation
+        if material_changed or new_observation:
+            snapshot = {"at": observation["at"] if new_observation else utcnow(), "health": "unknown", **material}
+            if new_observation and observation:
+                snapshot.update(
+                    health=observation["health"], observedAt=observation["at"], observationURL=observation["url"]
+                )
+            history.append(snapshot)
+        record["history"] = history[-90:]
         current[source_id] = record
     # Keep historical records that disappeared from the feed as Archived rather
     # than deleting them; this supports timeline and rollback audits.
@@ -207,13 +242,15 @@ def build_registry(
             continue
         archived = dict(old)
         archived["classification"] = "Archived"
-        archived["health_status"] = "offline"
+        # Disappearance from the catalog is not a failed network observation.
+        archived["health_status"] = "unknown"
         archived["history"] = list(old.get("history", [])) if isinstance(old.get("history"), list) else []
         current[source_id] = archived
     records = sorted(current.values(), key=lambda item: str(item.get("source_name", "")).casefold())
+    unchanged = isinstance(previous, dict) and previous.get("sources") == records
     return {
         "schemaVersion": REGISTRY_SCHEMA_VERSION,
-        "generatedAt": utcnow(),
+        "generatedAt": str(previous.get("generatedAt") or utcnow()) if unchanged else utcnow(),
         "count": len(records),
         "classifications": {
             name: sum(1 for item in records if item.get("classification") == name) for name in CLASSIFICATIONS

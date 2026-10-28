@@ -30,7 +30,17 @@ HTTP caches, credentials, generated local backups, or private provider data.
 - Edit `catalog.json` for intentional source/app declarations.
 - Treat `feeds/`, `api/`, `data/`, and website build outputs as generated unless
   the task explicitly changes a checked-in snapshot.
-- Add validators and tests for new metadata or source formats.
+- Add validators and tests for new metadata or source formats. When upstream
+  tags are reused or renumbered, `upstream.minOSVersionByAssetName` can map
+  exact released filenames to their documented iOS minimums; it overrides
+  `minOSVersionByTagNumber`, then falls back to `minOSVersion`. Record only
+  sourced requirements and review the fallback when upstream support changes.
+  `keepVersions: 0` retains every version; any multi-version history is refreshed
+  even during incremental syncs, so re-tagged or removed older assets are detected.
+  Providers return `INCREMENTAL_UNCHANGED` only for an exact newest-URL match;
+  an ordinary empty list is a missing release, not a successful cache hit. The
+  URL shortcut can miss reordered releases or changed metadata, so scheduled
+  syncs also perform a daily full metadata refresh.
 - Use the repository interface rather than writing persistence calls in domain
   code.
 - New integrations should be plugins or providers with explicit configuration;

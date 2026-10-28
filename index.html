@@ -195,7 +195,7 @@
           <div class="stat-card"><strong id="statApps" data-count>128</strong><span data-i18n="stats.apps">Total apps</span></div>
           <div class="stat-card"><strong id="statSources" data-count>111</strong><span data-i18n="stats.sources">Upstream sources</span></div>
           <div class="stat-card"><strong id="statOnline" data-count>125/128</strong><span data-i18n="stats.online">Downloads online</span></div>
-          <div class="stat-card"><strong id="statVerified" data-count>108/128</strong><span data-i18n="stats.verified">Official-source checks passed</span></div>
+          <div class="stat-card"><strong id="statVerified" data-count>107/128</strong><span data-i18n="stats.verified">Official-source checks passed</span></div>
         </div>
         <p class="text-mono text-xs text-faint mt-2" id="statSyncLabel" aria-live="polite">last sync 2026-10-28</p>
       </div>
@@ -213,7 +213,7 @@
           <nav class="quick-tabs section-tabs" id="sectionTabs" aria-label="Jump to a section" data-i18n-aria-label="tabs.label" data-scroll-hints>
             <a class="quick-tab section-tab" href="#top" data-section="top" data-target="top" aria-current="true" data-i18n="tabs.overview">Overview</a>
             <a class="quick-tab section-tab is-active" href="#catalog" data-section="catalog" data-target="catalog" data-i18n="nav.apps">Apps</a>
-            <a class="quick-tab section-tab" href="#whats-new" data-section="whats-new" data-target="whats-new" data-i18n="nav.whatsNew">What&rsquo;s new</a>
+            <a class="quick-tab section-tab" href="#whats-new" data-section="whats-new" data-target="whats-new"><span data-i18n="nav.whatsNew">What&rsquo;s new</span> <span class="badge blue" data-updates-nav hidden></span></a>
             <a class="quick-tab section-tab" href="#installGuide" data-section="installGuide" data-target="installGuide" data-i18n="nav.install">Install</a>
             <a href="collections/" class="quick-tab" data-i18n="nav.collections">Collections</a>
             <a href="favorites/" class="quick-tab" data-i18n="nav.favorites">Favorites</a>
@@ -296,9 +296,20 @@
         </details>
         <details class="device-profile" id="appGuide">
           <summary>Find an app by your needs</summary>
-          <p>Search catalog descriptions and apply the device profile above. Results are alphabetical, not endorsements; listed features and compatibility are not independently guaranteed.</p>
+          <p>Compare declared compatibility and reviewed feature descriptions. Results explain their matches; they are not endorsements, byte tests or installation guarantees. Unreviewed features remain unknown.</p>
           <form class="device-profile-form">
-            <label>Capabilities or keywords <input name="keywords" type="search" placeholder="e.g. music offline" maxlength="120"></label>
+            <label>Compare <select name="group"><option value="">All apps</option><option value="com.google.ios.youtube">YouTube alternatives</option></select></label>
+            <label>iOS version <input name="guideIos" inputmode="decimal" placeholder="Use saved profile" maxlength="15"></label>
+            <label>Signing client <select name="guideClient"><option value="">Use saved profile</option><option value="altstore">AltStore</option><option value="sidestore">SideStore</option><option value="flarestore">FlareStore</option><option value="feather">Feather</option><option value="esign">ESign</option><option value="ksign">Ksign</option><option value="livecontainer">LiveContainer</option></select></label>
+            <fieldset class="guide-capabilities"><legend>What matters to you?</legend>
+              <label><input type="checkbox" name="capability" value="no-ads"> No ads</label>
+              <label><input type="checkbox" name="capability" value="picture-in-picture"> Picture-in-picture</label>
+              <label><input type="checkbox" name="capability" value="downloads"> Downloads</label>
+              <label><input type="checkbox" name="capability" value="background-audio"> Background audio</label>
+              <label><input type="checkbox" name="capability" value="sponsorblock"> SponsorBlock</label>
+              <label><input type="checkbox" name="capability" value="4k"> 4K</label>
+            </fieldset>
+            <label>Additional keywords <input name="keywords" type="search" placeholder="e.g. music offline" maxlength="120"></label>
             <label>Category <select name="category"><option value="">Any category</option><option value="music">Music</option><option value="photo-video">Photo &amp; video</option><option value="social">Social</option><option value="games">Games</option><option value="utilities">Utilities</option><option value="networking">Networking</option><option value="developer-tools">Developer tools</option><option value="entertainment">Entertainment</option><option value="other">Other</option></select></label>
             <label>Source attribution <select name="provenance"><option value="">Any source</option><option value="official">Official</option><option value="community">Community</option><option value="unknown">Unknown</option></select></label>
             <label><span>Last probe</span><span><input type="checkbox" name="reachable"> Only last seen reachable</span></label>
@@ -350,7 +361,7 @@
         <details class="device-profile" id="localUpdates">
           <summary>Follow updates privately</summary>
           <p>Save a snapshot on this browser to see which release entries are absent from it later. Nothing is uploaded. Calendar reminders depend on your calendar app; past releases may not notify.</p>
-          <div class="device-profile-form"><button class="button small" type="button" data-updates-save>Save current snapshot</button><button class="button small" type="button" data-updates-clear>Clear snapshot</button></div>
+          <div class="device-profile-form"><button class="button small" type="button" data-updates-save>Save current snapshot</button><button class="button small" type="button" data-updates-clear>Clear snapshot</button><label><span>Last-visit comparison</span><span><input type="checkbox" data-updates-auto> Save snapshot when I leave this page</span></label></div>
           <p role="status" data-updates-status>Loading release snapshot…</p><ul data-updates-list></ul>
           <details><summary>Category and collection subscriptions</summary><ul data-subscriptions></ul></details>
         </details>

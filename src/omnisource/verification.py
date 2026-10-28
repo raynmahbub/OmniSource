@@ -17,6 +17,7 @@ from omnisource.domain import Catalog, today
 from omnisource.download_intel import release_consistency
 from omnisource.http import is_http_url
 from omnisource.integrity import current_full_verification, digest_evidence
+from omnisource.transparency import evidence_for_current
 from omnisource.utils.health import probe_window
 
 VERIFICATION_SCHEMA_VERSION = 1
@@ -154,6 +155,7 @@ def build_verification_doc(
     catalog: Catalog,
     state: dict[str, Any],
     health_doc: dict[str, Any] | None = None,
+    transparency_log: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     """Compute trust levels for every app and render ``verification.json``."""
     health_doc = health_doc or {}
@@ -247,6 +249,7 @@ def build_verification_doc(
                 "provenance": provenance,
                 "hash_verified": checks["hashVerified"],
                 "digestEvidence": evidence,
+                "transparencyEvidence": evidence_for_current(transparency_log or {}, app.slug, newest),
                 "integrityFailure": {"detail": detail, "checkedAt": str(full.get("at") or "")}
                 if mismatch and full
                 else None,

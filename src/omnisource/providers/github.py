@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import threading
 import urllib.parse
 
@@ -18,7 +19,7 @@ from omnisource.domain import (
 from omnisource.errors import ProviderError
 from omnisource.http import HttpClient, github_accept_headers
 from omnisource.logutil import log
-from omnisource.providers.base import SourceProvider
+from omnisource.providers.base import INCREMENTAL_UNCHANGED, SourceProvider
 from omnisource.tracking import extract_sha256, pick_asset, release_is_eligible
 from omnisource.utils.assets import detect_asset_metadata
 
@@ -169,6 +170,8 @@ class GitHubReleasesProvider(SourceProvider):
             source.tag_prefix,
             source.exclude_tag_prefixes,
             source.asset_suffixes,
+            source.asset_name_pattern,
+            previous_latest_url,
             source.include_prereleases,
             source.include_drafts,
         )
@@ -177,7 +180,7 @@ class GitHubReleasesProvider(SourceProvider):
             if cached is not None:
                 return cached
             if incremental and previous_latest_url and policy_key in self._incremental_hits:
-                return []
+                return INCREMENTAL_UNCHANGED
 
             collected: list[RemoteRelease] = []
             for page in range(1, source.max_pages + 1):
@@ -198,7 +201,7 @@ class GitHubReleasesProvider(SourceProvider):
                     # Do not cache a partial page-1 as the full history, but
                     # remember the hit so sibling apps do not repeat it.
                     self._incremental_hits.add(policy_key)
-                    return []
+                    return INCREMENTAL_UNCHANGED
 
                 if len(batch) < 100:
                     break
@@ -210,10 +213,11 @@ class GitHubReleasesProvider(SourceProvider):
 
 
 def _newest_matching_url(releases: list[RemoteRelease], source: RepositoryRef) -> str | None:
+    pattern = re.compile(source.asset_name_pattern) if source.asset_name_pattern else None
     for release in releases:
         if not release_is_eligible(release, source):
             continue
-        asset = pick_asset(release, source.asset_suffixes)
+        asset = pick_asset(release, source.asset_suffixes, pattern)
         if asset and asset.download_url:
             return asset.download_url
     return None
@@ -265,6 +269,8 @@ class GitHubTagsProvider(SourceProvider):
             source.tag_prefix,
             source.exclude_tag_prefixes,
             source.asset_suffixes,
+            source.asset_name_pattern,
+            previous_latest_url,
             source.include_prereleases,
             source.include_drafts,
         )
@@ -273,7 +279,7 @@ class GitHubTagsProvider(SourceProvider):
             if cached is not None:
                 return cached
             if incremental and previous_latest_url and policy_key in self._incremental_hits:
-                return []
+                return INCREMENTAL_UNCHANGED
 
             # Prefer a real GitHub Release with the same tag when one exists,
             # so IPA assets still resolve. Fall back to the source archive URL.
@@ -324,7 +330,7 @@ class GitHubTagsProvider(SourceProvider):
                     and _newest_matching_url(collected, source) == previous_latest_url
                 ):
                     self._incremental_hits.add(policy_key)
-                    return []
+                    return INCREMENTAL_UNCHANGED
                 if len(batch) < 100:
                     break
             self._cache[cache_key] = collected

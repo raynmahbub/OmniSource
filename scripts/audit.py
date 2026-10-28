@@ -267,7 +267,10 @@ def audit_files_and_globals() -> tuple[list[str], list[str], list[str], list[str
     html_texts = all_html_texts()
     js_texts = all_js_texts()
     py_texts = {p: read(ROOT / p) for p in iter_files((".py",), trees=("src", "scripts", "tests"))}
-    other_text = dict(html_texts) | dict(js_texts)
+    # Python tests and build scripts can launch JavaScript files directly (for
+    # example via subprocess), so they are evidence of use just like HTML and
+    # package scripts. Omitting them falsely labels active test harnesses dead.
+    other_text = dict(html_texts) | dict(js_texts) | dict(py_texts)
     # The generated docs hub (docs/index.html) links every Markdown doc, and
     # the module layer (js/modules/*.js) is referenced from <script type=
     # "module"> tags — both are part of the "referencing corpus".
@@ -1281,7 +1284,8 @@ def compute_findings() -> dict[str, list]:
     unused_files, _dead_globals, _unused_selectors, dead_python = audit_files_and_globals()
     if unused_files:
         findings["P0"].append(
-            f"- Remove or wire the {len(unused_files)} unreferenced file(s) in `dead-code.md` (each is confirmed unused at the commit)."
+            f"- Review the {len(unused_files)} potentially unreferenced file(s) in `dead-code.md`; "
+            "textual scanning can miss dynamic uses."
         )
     if dead_python:
         findings["P0"].append(

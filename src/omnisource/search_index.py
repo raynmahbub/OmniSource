@@ -92,7 +92,9 @@ def build_search_index(
                 "pageURL": f"apps/{app.slug}/",
                 "version": str(newest.get("version") or ""),
                 "verificationLevel": str(verification.get("status") or "UNVERIFIED"),
-                "downloadReachable": bool(health.get("downloadReachable")),
+                "downloadReachable": health.get("downloadReachable")
+                if isinstance(health.get("downloadReachable"), bool)
+                else None,
                 "clientCompatibility": _clients_for(app, catalog),
             }
         )

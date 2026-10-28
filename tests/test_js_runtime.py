@@ -82,12 +82,20 @@ class ScrollPinRuntimeTests(JsHarnessTests):
         self.run_harness("scroll_pin.cjs", 9)
 
 
+class DownloadHealthRuntimeTests(JsHarnessTests):
+    def test_url_bound_download_warnings_and_missing_permissions(self) -> None:
+        self.run_harness("download_health.cjs", 5)
+
+
 class DeviceMigrationRuntimeTests(JsHarnessTests):
     def test_local_device_and_source_migration(self) -> None:
         self.run_harness("device_migration.cjs", 11)
 
     def test_guide_updates_and_variants(self) -> None:
         self.run_harness("roadmap_features.cjs", 9)
+
+    def test_private_badges_and_explainable_guide(self) -> None:
+        self.run_harness("static_roadmap_gaps.cjs", 12)
 
 
 if __name__ == "__main__":  # pragma: no cover
