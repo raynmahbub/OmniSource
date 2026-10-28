@@ -17,7 +17,9 @@ or signature-verified for this audit.
   YouMod track their current publisher releases and retain community attribution.
 - Refreshed publisher-listed URLs for Infuse Plus, Swiftgram MxGram, RyukGram,
   Sparkle, NexaSC, ThreadSaver, Turrit MxGram, iNKillerPlus and TTKillerPlus.
-  Corrected raw-GitHub feed publisher links and Flow project attribution.
+  Corrected raw-GitHub feed publisher links and Flow project attribution. Merged
+  newer main-branch updates for 12 apps and retained additional published
+  version histories; the newer monitor was imported only for exact URL matches.
 - Removed copied YouTube permission descriptions from unrelated apps. Missing
   permissions mean **unknown**, not that the app has none. Removed an
   unsupported Glow tweak-version assertion from its current fallback.
@@ -38,25 +40,27 @@ or signature-verified for this audit.
 ## Remaining issues and limitations
 
 1. **Glow, iMe MxGram and Messenger Flow:** their last-known IPA URLs returned
-   HTTP 404 in the 2026-10-27 monitoring snapshot and those apps were absent
+   HTTP 404 in the 2026-10-28 monitoring snapshot and those apps were absent
    from the current IPA Vault feed. The entries remain visible with warnings and
    cached versions; no equivalent replacement IPA was established. The official
    [Flow](https://github.com/dayanch96/Flow) and
    [Glow](https://github.com/dayanch96/Glow) projects publish tweak packages,
    not a verified replacement IPA for these entries. The normal feed validator
    reports six warnings (each affected app in the aggregate and individual feed).
-2. **Unverified binary availability:** the nine refreshed IPA Vault/iKarwan
-   URLs above came from publisher feed metadata, but this sandbox could not
-   reach their binary hosts. GitHub release URLs tested at the origin returned
-   success or redirects; the redirect targets and IPA bytes were not validated.
-   Run independent download and integrity checks from an unrestricted network.
+2. **Unverified IPA bytes:** this sandbox could not reach the IPA Vault/iKarwan
+   binary hosts. A newer independent monitoring snapshot from the main branch at
+   04:23 UTC on October 28 recorded HTTP 200 for the nine exact current URLs,
+   but these were HEAD/range reachability probes, not full downloads or digest
+   verification. The snapshot found 125 of 128 current downloads reachable;
+   the three exceptions are listed above. GitHub origin redirects are likewise
+   not proof of the binary's contents. Verify bytes from an unrestricted network.
 3. **Shared bundle identifiers:** the metadata validator reports 13 warnings
    for intentional alternative builds of Instagram, Twitter, YouTube,
    YouTube Music and Messenger. Their catalog relationships are declared, but
    installers may replace or conflict with another build sharing the same ID;
    the warning is not proof that variants install side by side.
-4. **Discovery quarantine:** the source validator reports 658 quarantined
-   discovery records. These are retained candidates, not 658 active download
+4. **Discovery quarantine:** the source validator reports 668 quarantined
+   discovery records. These are retained candidates, not 668 active download
    failures or findings that the projects are malicious. They require separate
    review before admission.
 5. **Historical observations:** the source-registry builder can append a new
@@ -71,15 +75,17 @@ or signature-verified for this audit.
 
 ## Checks performed
 
-- Static audit: zero P0 findings. Site integrity: 261 HTML pages and 10,901
+- Static audit: zero P0 findings. Site integrity: 261 HTML pages and 10,902
   local URLs checked; zero broken local links, duplicate IDs, missing titles,
   missing language attributes, missing image alt attributes or missing English
   i18n keys. A separate check found zero missing targets among 760 absolute
   links back to this site; a heuristic Markdown scan found no broken relative
-  targets among 76 links in 53 Markdown files.
+  targets among 41 links in 54 Markdown files.
 - External origin checks: 115 GitHub download origins and 126 other GitHub
-  links appearing in HTML returned 2xx/3xx; redirects were not followed to
-  validate binary contents. GitHub's contents API reported 132 raw-GitHub HTML
+  links appearing in HTML returned 2xx/3xx in the initial scan. After bringing
+  in newer main-branch releases, another 95 GitHub release origins returned
+  redirects; the sets may overlap. These origin checks did not follow redirects
+  or validate binary contents. GitHub's contents API reported 132 raw-GitHub HTML
   asset paths present; this is repository metadata, not a byte-level check.
   These checks do not cover every external URL.
 - `scripts/validate.py`: zero errors and six known download warnings.

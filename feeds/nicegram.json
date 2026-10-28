@@ -19,12 +19,52 @@
       "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nicegram.webp",
       "tintColor": "111111",
       "category": "social",
-      "version": "2.6.4",
-      "versionDate": "2026-10-19",
-      "versionDescription": "Nicegram 2.6.4 | build 2.6.4\n\nBuild of Nicegram for iOS 2.6.4 (725)",
-      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
-      "size": 111869672,
+      "version": "2.6.5",
+      "versionDate": "2026-10-26",
+      "versionDescription": "Nicegram 2.6.5 | build 2.6.5\n\nBuild of Nicegram for iOS 2.6.5 (727)",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+      "size": 111878018,
       "versions": [
+        {
+          "version": "2.6.5",
+          "date": "2026-10-26",
+          "localizedDescription": "Nicegram 2.6.5 | build 2.6.5\n\nBuild of Nicegram for iOS 2.6.5 (727)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+          "size": 111878018,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-727",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 192332847,
+              "sha256": "d2a3d1c1cda9966c3caa07308d61cb95a1a95d3f8a04b41d8df1f01e214fb045",
+              "downloads": 16,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 111878018,
+              "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
+              "downloads": 41,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
+          "downloads": 41
+        },
         {
           "version": "2.6.4",
           "date": "2026-10-19",
@@ -45,7 +85,7 @@
               "fileType": "ZIP",
               "size": 192265958,
               "sha256": "d3047b04df5ffc99859e1c5d5c3e249560cbeb6d5ee022d1c3382e0f993f8cb7",
-              "downloads": 60,
+              "downloads": 65,
               "mimeType": "application/zip",
               "installable": false
             },
@@ -57,13 +97,253 @@
               "fileType": "IPA",
               "size": 111869672,
               "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
-              "downloads": 199,
+              "downloads": 228,
               "mimeType": "application/zip",
               "installable": true
             }
           ],
           "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
-          "downloads": 199
+          "downloads": 228
+        },
+        {
+          "version": "2.6.3",
+          "date": "2026-10-09",
+          "localizedDescription": "Nicegram 2.6.3 | build 2.6.3\n\nBuild of Nicegram for iOS 2.6.3 (721)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa",
+          "size": 105049734,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-721",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 178117840,
+              "sha256": "7fe2be5ce115831989a482bb5b2d22fe0cb6b0375d5bfe51bb8e1bf0a4f2bddf",
+              "downloads": 93,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 105049734,
+              "sha256": "2dd5d4d11128787e84d29ef3e0f940e4be380351277e238cfcc4060f88998b8f",
+              "downloads": 270,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "2dd5d4d11128787e84d29ef3e0f940e4be380351277e238cfcc4060f88998b8f",
+          "downloads": 270
+        },
+        {
+          "version": "2.6.2",
+          "date": "2026-10-05",
+          "localizedDescription": "Nicegram 2.6.2 | build 2.6.2\n\nBuild of Nicegram for iOS 2.6.2 (718)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa",
+          "size": 104977076,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-718",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 177891844,
+              "sha256": "739f91b5e6a2128241aec7dc43a4a618ce9b3c4676b0ab820dd57c773c2ac3f8",
+              "downloads": 45,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 104977076,
+              "sha256": "9cf0aca0b07a5c9f4f6809c80b5494d59016fe8d58d327ba60b5fa9915520b27",
+              "downloads": 112,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "9cf0aca0b07a5c9f4f6809c80b5494d59016fe8d58d327ba60b5fa9915520b27",
+          "downloads": 112
+        },
+        {
+          "version": "2.6.1",
+          "date": "2026-09-07",
+          "localizedDescription": "Nicegram 2.6.1 | build 2.6.1\n\nBuild of Nicegram for iOS 2.6.1 (713)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-713/Nicegram.ipa",
+          "size": 126339077,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-713",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-713/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 191328702,
+              "sha256": "a6f77c42b29b0bbccc2fbc63e32269cb04d5a59dbcbd660fa2bbc0a0af9b5924",
+              "downloads": 230,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-713/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 126339077,
+              "sha256": "2e884638cdbf264ef472449f83d244d5e8e32766fef7b29f76109db788f614cb",
+              "downloads": 659,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "2e884638cdbf264ef472449f83d244d5e8e32766fef7b29f76109db788f614cb",
+          "downloads": 659
+        },
+        {
+          "version": "2.5.9",
+          "date": "2026-08-19",
+          "localizedDescription": "Nicegram 2.5.9 | build 2.5.9\n\nBuild of Nicegram for iOS 2.5.9 (710)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-710/Nicegram.ipa",
+          "size": 125014421,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-710",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-710/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 188013911,
+              "sha256": "7fea0498a00c835d581fabd03600f0a596a37e910db332afc51faa32a3725e5d",
+              "downloads": 237,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-710/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 125014421,
+              "sha256": "22f9f6dfb5a08ab6d53abe032972e361c34ff8da4e0e48d88918bddf63851427",
+              "downloads": 365,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "22f9f6dfb5a08ab6d53abe032972e361c34ff8da4e0e48d88918bddf63851427",
+          "downloads": 365
+        },
+        {
+          "version": "2.5.8",
+          "date": "2026-07-20",
+          "localizedDescription": "Nicegram 2.5.8 | build 2.5.8\n\nBuild of Nicegram for iOS 2.5.8 (708)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-708/Nicegram.ipa",
+          "size": 124219565,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-708",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-708/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 188202709,
+              "sha256": "3af2447eaaaaed6c4f29d84fd48a62ab170e08431d4383eab0336823c46d60dd",
+              "downloads": 353,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-708/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 124219565,
+              "sha256": "3470b8aa8dc05fc11e20f6283eb4d0fa7bb0a3266662332981c29950f4ec10ab",
+              "downloads": 533,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "3470b8aa8dc05fc11e20f6283eb4d0fa7bb0a3266662332981c29950f4ec10ab",
+          "downloads": 533
+        },
+        {
+          "version": "2.5.7",
+          "date": "2026-07-15",
+          "localizedDescription": "Nicegram 2.5.7 | build 2.5.7\n\nBuild of Nicegram for iOS 2.5.7 (707)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-707/Nicegram.ipa",
+          "size": 124219521,
+          "minOSVersion": "15.0",
+          "releaseUrl": "https://github.com/nicegram/Nicegram-iOS/releases/tag/build-707",
+          "source": "github",
+          "isPrerelease": false,
+          "isDraft": false,
+          "assets": [
+            {
+              "filename": "Nicegram.DSYMs.zip",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-707/Nicegram.DSYMs.zip",
+              "platform": "unknown",
+              "architecture": null,
+              "fileType": "ZIP",
+              "size": 188202709,
+              "sha256": "3994c8de2c2ba3985c7176633c50a250a23cafea59cf5feddbcf0af68d07c00e",
+              "downloads": 105,
+              "mimeType": "application/zip",
+              "installable": false
+            },
+            {
+              "filename": "Nicegram.ipa",
+              "downloadUrl": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-707/Nicegram.ipa",
+              "platform": "ios",
+              "architecture": null,
+              "fileType": "IPA",
+              "size": 124219521,
+              "sha256": "838f21a1b845fd6c0aec9871c429e5e8ce9ade36c07b9233bfa22bf4baec9898",
+              "downloads": 129,
+              "mimeType": "application/zip",
+              "installable": true
+            }
+          ],
+          "sha256": "838f21a1b845fd6c0aec9871c429e5e8ce9ade36c07b9233bfa22bf4baec9898",
+          "downloads": 129
         }
       ],
       "screenshotURLs": [],
@@ -114,10 +394,10 @@
         "health": {
           "downloadReachable": true,
           "detail": "HTTP 200",
-          "statusSince": "2026-10-27",
-          "lastCheckedAt": "2026-10-27T23:33:14Z",
-          "checkedURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
-          "lastUpdatedAt": "2026-10-19"
+          "statusSince": "2026-10-28",
+          "lastCheckedAt": "2026-10-28T04:23:28Z",
+          "checkedURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+          "lastUpdatedAt": "2026-10-26"
         }
       }
     }

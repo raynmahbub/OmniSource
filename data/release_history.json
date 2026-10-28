@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T06:16:40Z",
+  "generatedAt": "2026-10-28T06:25:35Z",
   "appCount": 128,
-  "releases": 382,
+  "releases": 428,
   "apps": {
     "3105": [
       {
@@ -88,13 +88,23 @@
     ],
     "anymex": [
       {
+        "version": "3.2.0",
+        "date": "2026-10-27",
+        "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-iOS-v3.2.0.ipa",
+        "size": 80589346,
+        "sha256": "2f354bd40d7abba9ac078696401951a390d840ff2749a27780c8919757c5b396",
+        "localizedDescription": "AnymeX 3.2.0 | AnymeX-iOS-v3.2.0\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6beae5c1) url nav, deeplink support for fcm by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/3bb0908d) torrent file selector in player by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b61e9b75) cf bypass and webview support for linux by @RyanYuuki\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9975e4c0) fixed a grey screen when accessing released media on different services by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6db545c5) fixed visibility issues on light mode by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/ac97c83d) fixed rhttp disposing causing network reqs to fail by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/20fb3809) fixed torrent broken on mobile by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/fc84a627) fixed login and webview on desktops by @RyanYuuki\n\n\n### 🧹 Chores & Documentation\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/8f979177) bump version to v3.2.0 (minor release) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/afbcc1b3) update sideloading source by @ghost\n\n\n![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.2.0/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "3.1.9",
         "date": "2026-10-25",
         "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-iOS-v3.1.9.ipa",
         "size": 81113053,
         "sha256": "057dbcd47f9e6c56ce57d88934450c7557b4d4c848e731961466cb79a1615b1d",
         "localizedDescription": "AnymeX 3.1.9 | AnymeX-iOS-v3.1.9\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/80f279c6) enhanced downloads ui and ux by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9c04ca66) runtime bridge support for IOS (thanks to dartotsu) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/9a109267) mpv config, some fixes and ui changes by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/538c3538) torrent download support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/55b6b13f) online subtitles back again by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/07b88757) audio delay support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/429a43ee) cold cache for instant load by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1a21ab40) network settings (dns, proxy, tls ts) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5d44cc54) donation page for my broke ass by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b6131248) markdown, reply support, moderation tools, and settings UI notifications & unread badges (comments) (#416) by @Shebyyy\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5c6465d5) kotatsu, aniyomi backup support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/8346d033) backup and restore full support by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/3bc096c2) addons support (torrent) = practically nothing changes just 1 extra step for torrent by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6a91e1ef) dock drag-to-reorder and history card poster navigation to details (#595) by @Shebyyy\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e4d0b981) fixed duplicate media entry, nearest download bug, overall enhancement by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/fb6b505a) fixed ios flashing during navigation by @RyanYuuki\n- [֍](https",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-25T22:52:51Z"
       },
       {
@@ -116,6 +126,46 @@
         "localizedDescription": "AnymeX 3.1.7 | AnymeX-iOS-v3.1.7\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/36754206) enhanced new episode released cards, fixed bugs when deleting history items and more by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/0837dcf8) server remember for episodes and some ui changes by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e3ec2a4e) new episode released on home page for any anime you watch from app by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/91224c3f) enhanced the tab system and ui of headers on pages by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/7af109c1) nav bar layout switcher, improved ui of media type selector and organized ui settings page by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/4380f646) added extensive data of user's usage by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/97d7d054) user xp system by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/2eac3561) add AniList profile compatibility checker (#547) by @Shebyyy\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/f8226772) stats record implementation on anime and manga by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/3427750b) user app statistics by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1774abfb) history tab implemented by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/465d66cc) new tabs system (home, discover, library, history, stats) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1582c7eb) sync subtitle sentence progress controller by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/20df44bf) local subtitle import by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/64740546) bottom nav bar margin adjustment setting by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/c0389949) more fields like country, popularity, source for media details and fixed issues like",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "3.1.6",
+        "date": "2026-08-16",
+        "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.6/AnymeX-iOS-v3.1.6.ipa",
+        "size": 39544423,
+        "sha256": "a96315862636bcee36bbbfef614caa8b7f0b9e53f201c2fc43745c77d04dac97",
+        "localizedDescription": "AnymeX 3.1.6 | AnymeX-iOS-v3.1.6\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/03feebae) added list ui toggle on wrong title and fixed dimensions by @RyanYuuki\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e532b5c8) ui collision with nav fix by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/8cd4a81e) centralized chapter calc logic to fix navigate by number for overscroll by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/718c8cd5) fixed parsing issues causing grey screen on home and library by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b9afc494) fixed manga sources not installing not loading icons by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/055408e1) fixed omitted labels on header by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5f91df84) fixed ui inconsistencies on settings pages by @RyanYuuki\n\n\n### 🎨 Style Changes\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/956349cd) fixed bad logic of dynamic service causing grey screen by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/15b85949) improved ux of continue button by making it expandible by @RyanYuuki\n\n\n### 🧹 Chores & Documentation\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/5f4f3ab3) bump version to v3.1.6 (patch release) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/663786a0) update sideloading source by @ghost\n\n\n![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.1.6/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "3.1.5",
+        "date": "2026-08-15",
+        "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.5/AnymeX-iOS-v3.1.5.ipa",
+        "size": 39541760,
+        "sha256": "637cd889f34b915c15f577e9912b8264f5547b5f43b88e1644c318170c2334c0",
+        "localizedDescription": "AnymeX 3.1.5 | AnymeX-iOS-v3.1.5\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/efdde97d) episode & chapter style switcher by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/663d5bcf) nav bar style switcher by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/f368ae45) UI REVAMP (1/3) by @RyanYuuki\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d86be831) fixed macos grey screen by @RyanYuuki\n\n\n### 🔧 Refactors\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/4aa4e5ce) mass rename and migrated to custom scaffold for all pages by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/3b4108e1) docoupled service code, organized files, made models efficient by @RyanYuuki\n\n\n### 🎨 Style Changes\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/41423dd9) revamped the entire settings and subsettings pages by @RyanYuuki\n\n\n### 🧹 Chores & Documentation\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d0818a84) bump version to v3.1.5 (patch release) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/653b0a2a) dynamic dialog for social links by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/57964a24) updated dc server link by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/c6233206) update sideloading source by @ghost\n\n\n![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.1.5/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "3.1.4",
+        "date": "2026-08-09",
+        "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.4/AnymeX-iOS-v3.1.4.ipa",
+        "size": 39555539,
+        "sha256": "710e2f555c004699ad53ea92c7043426b9bdea26d3e08c8b3517fa1382a2733d",
+        "localizedDescription": "AnymeX 3.1.4 | AnymeX-iOS-v3.1.4\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d88ad305) toggle to enable disable unified library by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1af315f4) Cast Support (Beta) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/30fc15b8) auto selected audio track on multi track source by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/f5df2019) subs and tracks indication on server in downloads by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/a6cb80f5) source side multi audio support by @RyanYuuki\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/271513f7) fixed cast not being visible for existing users by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/be5a53ac) fixing refresh rate issue on player picking highest instead of video fps by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/439d8223) fixed wrong placements of button on manga page by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/7c1c13bc) changed media session to a toggle based feature since its pretty glitchy by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/cba296b2) fixed subtitle margin to be accurate by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/d68903d2) fixed sub sync and playback speed not showing up on local player by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/6b03f6d3) fixed orientation change causing status bar to not go away by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/375280e5) added missing buttons on ios theme by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/cb69b044) fixed movies and series tabs on simkl service by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/1af5f9e9) fixed simkl sorting by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/97f9ae0a) fixed list editor not showing started at and completed",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "3.1.3",
+        "date": "2026-08-02",
+        "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.3/AnymeX-iOS-v3.1.3.ipa",
+        "size": 38277480,
+        "sha256": "bf6d48541b5880e6c16347fa09ebbbe2d69e6d83d8b4f2e64734787c34dd804f",
+        "localizedDescription": "AnymeX 3.1.3 | AnymeX-iOS-v3.1.3\n\n### 🆕 Changelog\n### 🌟 Features\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/cc74e832) added quick option for webview and settings when using source in search page by @RyanYuuki\n\n\n### 🔧 Bug Fixes & Improvements\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/534b74a6) fixed toast placement on windows by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/7ff6d7c6) fixed a bug on search screen not using filters with empty query by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e7fac145) fixed bad logic of continue button by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/ee5b22db) fixed unformatted chapter number showing up on chapter tiles and ranges by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/4c32a460) fixed infinite poster loading issue by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/24ecc977) fixed lag on keyboard popup by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/587e6bc6) fixed grey screen on issue on home page by @RyanYuuki\n\n\n### 🎨 Style Changes\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/41b6819a) improved the ui of chapter ranges, scanlators by @RyanYuuki\n\n\n### 🧹 Chores & Documentation\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/b254cee3) bump version to v3.1.3 (patch release) by @RyanYuuki\n- [֍](https://github.com/RyanYuuki/AnymeX/commit/e039228c) update sideloading source by @ghost\n\n\n![Total Downloads](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&labelColor=black&color=white) ![Current Release](https://img.shields.io/github/downloads/RyanYuuki/AnymeX/v3.1.3/total?style=for-the-badge&label=CURRENT%20RELEASE&labelColor=black&color=white)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "apollo": [
@@ -178,6 +228,26 @@
         "localizedDescription": "Apollo 3.7.0 | Apollo-Reborn-3.7.0\n\n### Features\n\n- Add **Floating Post Tabs** (Posts & Feeds → Floating Tabs, off by default) — keep up to five posts open as draggable bubbles from any post or feed ⋯ menu, and tap one to land exactly where you left off (#984, #1061: @icpryde)\n  - Bubbles snap to the screen edges, tuck away when dragged past them, stack magnetically, and hold-to-preview the post; drop one on the ✕ to close it\n  - Match threads wear the two teams' crests on their bubble, and two text posts from the same subreddit get a big letter each so they don't look like twins\n- Add a **Feed Shortcuts** screen (Features → Subreddits) with Classic, Circle, Tinted, Soft Tile, and Solid Tile icon styles, Rows, Grid, Side-by-Side, and Icon Dock layouts, a live preview, and visibility toggles for Popular, All, and Moderator Posts (#988: @IllIIllIllIllII)\n- Add a **Subreddit Sections** screen (Features → Subreddits) — give followed users their own FOLLOWING section with **Separate Followed Users**, drag Favorites, Multireddits, Moderator, and Following into any order, and watch a pinned live preview follow every change (#997, #1020: @icpryde)\n  - Subreddit List Enhancements, Modern Subreddit Dividers, and Hide Multireddit Descriptions move here, and the A–Z index stays visible and themed with Enhancements off\n- Add **Per-Account Favorites** and **Sort Favorites Alphabetically** (Subreddits → Favorites), so each account can keep its own subreddit favorites and keep them in A–Z order (#1017, #1042: @IllIIllIllIllII)\n- Add Fade, Down, and Off styles to **Hide Bars on Scroll** for the Liquid Glass tab bar alongside Left and Right, plus a **Scroll Behavior** picker that restores Apollo's Classic one-gesture hide next to the Two-Gesture default (#972: @IllIIllIllIllII)\n  - Interface settings regroup into Tab Bar and Display & Navigation, and Profile Layout opens straight from the Apollo Reborn hub\n- Rework **Liquid Glass navigation** around a collapsible action pill — the ⋯ ",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "3.6.0",
+        "date": "2026-08-18",
+        "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.6.0/Apollo-Reborn-3.6.0.ipa",
+        "size": 95474417,
+        "sha256": "5badca0a3b1d32fc2f3cd2f6397aa7925fadeb306bc15f33071b40495a2f88b8",
+        "localizedDescription": "Apollo 3.6.0 | Apollo-Reborn-3.6.0\n\n### Features\n\n- Add **Gallery View** to the Home feed, Popular, All, Moderator Posts, and user profiles, with real video controls, rotation, and sort inherited from the feed you opened it from (#904: @icpryde)\n  - Adds a universal \"...\" menu to your own profile holding Gallery View, Edit Profile, Recently Read, hidden and deleted content, and Share Profile, so the floating Edit pill and the nav-bar clock and eye icons are gone\n- Add **Live Interactive Posts** so Reddit's Developer Platform posts — live match threads, games, and other custom widgets — render inline in comments and the feed instead of the \"not supported on old Reddit\" placeholder (#920, #939: @icpryde)\n- Add a **Feed Video Scrubber** that makes an inline video's own progress bar grabbable, so you can slide to seek without opening the player (#938: @icpryde)\n  - Adds **Unmute Videos in Feed** alongside it, with Never, Always, and Remember modes\n- Redesign the **App Icon** picker around browsable pack cards, a daily-rotating Spotlight row, an adaptive iPad grid, and clearer selection state and haptics (#912, #941: @IllIIllIllIllII)\n- Add an **Icon Appearance** menu so any icon can be pinned to its Light or Dark artwork instead of always following the device appearance (#894: @IllIIllIllIllII)\n- Add **Wallpapers** to Settings for browsing and saving Apollo's Goodbye wallpaper collections for iPhone, iPad, and Mac (#947: @IllIIllIllIllII)\n- Add a configurable **Share Link Host** so Copy Link, the share sheet, and Share as Image can share through Reddit, old.reddit, vxReddit, or fxreddit (#857: @JamesLautner)\n- Add a **Blur NSFW Media** setting with Reddit Setting, Always, and Never options, covering mature media while leaving the post title readable (#874: @jordanearle)\n- Add **Swipe Past Gallery to Navigate** so swiping past the first or last image of a feed gallery goes back or forward instead of rubber-banding (#934: @icpryde)\n- Add swipe navigation between **Notific",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "3.5.1",
+        "date": "2026-08-07",
+        "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_3.5.1/Apollo-Reborn-3.5.1.ipa",
+        "size": 95240622,
+        "sha256": "5025a6391c3d6b9e932f12beceb0576c84c5b275ffbd962d48222d3992344de0",
+        "localizedDescription": "Apollo 3.5.1 | Apollo-Reborn-3.5.1\n\n### Features\n\n- Add **Swipe Through Feed Galleries** for paging through every image directly in a feed card, with smarter sizing and seamless fullscreen transitions, plus **Swipe Up for Comments** to open the real comments screen over fullscreen media (#805: @jordanearle)\n- Expand **multireddits** with Gallery View, in-app renaming and descriptions, custom icons, and an option to hide their descriptions in the Subreddits list (#799, #837: @icpryde)\n- Add approximate **vote breakdowns** for posts and author-only insights for your own comments (#802: @jordanearle)\n- Replace **Scroll Edge Effect** with a clearer **Header Style** picker and add a progressive Blur option alongside the iOS 26 Soft and iOS 27 Hard styles (#843: @jordanearle)\n- Add private, local-only **Crash Reports** that stay on your device unless you review and explicitly attach a sanitized report to the bug form (#824: @jordanearle)\n- Add an opt-in **Apple Translate** sheet for Apollo's post and comment Translate action on supported iOS versions (#812: @DeltAndy123)\n- Add full-screen **View Banner** and **View Icon** actions to subreddit headers, with tap-and-hold access to customization options (#845: @icpryde)\n- Improve the **Search** tab with pull-to-refresh for subreddit discovery, reliable trending limits, and a separate Random NSFW Subreddit row (#788: @JeffreyCA)\n- Improve cloud **AI Summaries** with searchable Gemini and OpenRouter model browsers, working defaults, provider attribution, and clearer service errors (#778: @jordanearle)\n- Improve **Settings** discoverability with a reddit.com Web Sign-In row under Accounts & API Keys and a Theme Manager shortcut on the Apollo Reborn hub (#855: @jordanearle)\n- Add gaze and pointer hover effects plus multiwindow support when Apollo runs on **Apple Vision Pro** (#759: @rebelancap)\n- Add Original Apollo, Halo, Aloppo, and Pixels **Liquid Glass app icons**, while refreshing the Apollo Classic, Helios, and Jryng artwo",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "appstoreplusplus": [
@@ -378,13 +448,23 @@
     ],
     "conduit": [
       {
+        "version": "4.2.2",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
+        "size": 45348117,
+        "sha256": "06fecba278332f59a9e2896f133bb3ec0346bfeb1c30f36efefe3443cc7803ec",
+        "localizedDescription": "Conduit 4.2.2 | conduit\n\n## What's Changed\n* Support Open WebUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850\n* Fix four reported bugs: Direct next to Hermes, MCP tool images, channel thread scrolling, default filters by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/870\n* fix/feat: Improve handling for video files in OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pull/869\n* Open the Android assistant on a ready new chat, and keep it after a reboot by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/872\n* Mark chats unread from the chat list and show web unread marks in the app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/874\n* Share screenshots and Files documents to Conduit on iOS with their real contents by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/875\n* Load chat videos on tap, stop resending generated videos, and fix older chats with videos saved as images by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/876\n* Keep server dictation text when stop is tapped while it is transcribing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/873\n* Make the progressive-replacement cadence test independent of timing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/877\n* Close the sidebar when a share opens chat on a phone by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/878\n* List a server under its new address once its old one is edited by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/884\n* Offer the reasoning-effort picker to every model, send it on explicit opt-in by @michaw23 in https://github.com/cogwheel0/conduit/pull/871\n* Share an image from Safari's long-press menu to Conduit as the image by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/885\n* Keep long-message context menu actions visible on iOS by @kapily in https://github.com/cogwheel0/conduit/pull/881\n* Share responses from the ellipsis menu by @kapily in https://gi",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "4.2.1",
         "date": "2026-10-16",
         "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
         "size": 45123011,
         "sha256": "8674d8d115a58c485ed1addf01f9d828e3a6afe8d03f387c25905b4d0fac5fcb",
         "localizedDescription": "Conduit 4.2.1 | conduit\n\n## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849\n\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.0...v4.2.1",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-17T11:04:14Z"
       },
       {
@@ -1119,14 +1199,84 @@
     ],
     "jellybook": [
       {
+        "version": "1.4.2",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.2/JellyBook-Release.ipa",
+        "size": 14674453,
+        "sha256": "b2a8b05afab6c2e4eb76f1c2f2c45d91082bd6f0779d87dcd59097625caba0d8",
+        "localizedDescription": "JellyBook 1.4.2 | JellyBook-Release\n\nThis version focuses on decreasing the file size on android binaries to allow for publishing on IzzyOnDroid\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook-Debug-arm32.apk</code>: <code>8ea51485a330eb19147da4fe5f892523c5fd4a9a</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>48dea27e5af4f372fccc96b4bb58de932d6af516</code></li>\n<li><code>JellyBook-Debug-x86_64.apk</code>: <code>dbfb3e72a61e27a8eb5d5910929e3bfe6873292e</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>8f989dfea51a878345b8f57c14592386979b0b5d</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>1a5db273a5dafd2fe6510442faa300367fbd3d1d</code></li>\n<li><code>JellyBook-Debug.ipa</code>: <code>a2702bb3e6cda621e457a19d3208b77ce3267fd0</code></li>\n<li><code>JellyBook-Release-arm32.apk</code>: <code>a23eff532089af251f03fa8e8ceaf98464d59bd8</code></li>\n<li><code>JellyBook-Release-arm64.apk</code>: <code>d1899ba806f1fa4799c87cfcf57d2246b5df1f9a</code></li>\n<li><code>JellyBook-Release-x86_64.apk</code>: <code>5cfa1e2ce050b27545f8a6c154f57e127cef2417</code></li>\n<li><code>JellyBook-Release.aab</code>: <code>02a8c8613d7c9bf69ee48a6eebda41955e62e6c6</code></li>\n<li><code>JellyBook-Release.apk</code>: <code>36a171908d1da594b8c3b848d97377748f9583b2</code></li>\n<li><code>JellyBook-Release.ipa</code>: <code>9f1069ee1fc1c10a827cf101773bff19838719ff</code></li>\n</ul>\n</details>\n\n## What's Changed\n* chore: reduce file size by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/229\n\n\n**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.4.1...v1.4.2",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "1.4.1",
         "date": "2026-09-09",
         "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.1/JellyBook-Release.ipa",
         "size": 14640159,
         "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
         "localizedDescription": "JellyBook 1.4.1 | JellyBook-Release\n\nSorry for the error in the previous version 😅\n## What's Changed\n* chore: clarifications by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/223\n* fix: fix auth headers by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/225\n\n\n**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.4.0...v1.4.1\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook-Debug-arm32.apk</code>: <code>ebbaf6954023d544454e208d0252ac8b677cf2bc</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>f89c75aaf7debf647a6862fd401209aee4417110</code></li>\n<li><code>JellyBook-Debug-x86_64.apk</code>: <code>393f2b232e60c20e339be08f2b0fe0311ef06694</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>924fa1c6f34072205884366522c428e394f62ec7</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>29f8f3b49a9704745947251d24dfee5ed17eb67e</code></li>\n<li><code>JellyBook-Debug.ipa</code>: <code>2ead28016efc584defd6ea6d7e6c9f9cd9627aa6</code></li>\n<li><code>JellyBook-Release-arm32.apk</code>: <code>0587957d7a109283f0b31cc4bd8d634a6f9cff06</code></li>\n<li><code>JellyBook-Release-arm64.apk</code>: <code>48568af90caa5e67387b35ab7567f356ac8f43cc</code></li>\n<li><code>JellyBook-Release-x86_64.apk</code>: <code>0f3230be1ced4c74f7483e08ec08a247fc3fe650</code></li>\n<li><code>JellyBook-Release.aab</code>: <code>f3256e5c70f8bd09cbadc6f142cbb5949966a2d6</code></li>\n<li><code>JellyBook-Release.apk</code>: <code>030e3ec3aece59a66340f7784c3165650a27d4dc</code></li>\n<li><code>JellyBook-Release.ipa</code>: <code>f3a3c8b10b7538442b65a97f037f6e42a43deba3</code></li>\n</ul>\n</details>",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "1.4.0",
+        "date": "2026-09-09",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.0/JellyBook-Release.ipa",
+        "size": 14640159,
+        "sha256": "7c33defdbb852b2e91b79740afb5360bd4a7f8713abcb6a5f0a3fe7ad83dacfd",
+        "localizedDescription": "JellyBook 1.4.0 | JellyBook-Release\n\n## What's Changed\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/173\n* Translations (Croatian) by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/174\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/176\n* Translations (Rusian & Ukranian) by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/177\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/180\n* Translations by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/181\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/182\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/184\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/188\n* getServerCategories fails to fetch items because collectionType is an Enum by @Quinver in https://github.com/JellyBookOrg/JellyBook/pull/212\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/214\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/216\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/218\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/221\n* Translations by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/222\n* Fix Flutter build and make compatible with 12.0 by @Chaphasilor in https://github.com/JellyBookOrg/JellyBook/pull/220\n\n## New Contributors\n* @Quinver made their first contribution in https://github.com/JellyBookOrg/JellyBook/pull/212\n\n**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.3.2...v1.4.0\n\n<details>\n<summary>SHA1</su",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.3.2",
+        "date": "2024-02-19",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.3.2/JellyBook-Release.ipa",
+        "size": 37953517,
+        "sha256": "",
+        "localizedDescription": "JellyBook 1.3.2 | JellyBook-Release\n\n# Announcing Version 1.3.2\n\nWhats Changed:\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/163\n* Translations Update by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/166\n* Updated permissions\n\n**Full Changelog**: https://github.com/JellyBookOrg/JellyBook/compare/v1.3.1...v1.3.2\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook-Debug-arm32.apk</code>: <code>95ab569b747312d657d21dadc55b2e6b25f03700</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>e08c83598f38a4dad1d8677b226e51eeb6c6dfa8</code></li>\n<li><code>JellyBook-Debug-x86_64.apk</code>: <code>f488d0bd0aa96cf761e6ba4eb8b732a5ce2274a6</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>daf6540fd6d77bc63ea371e2a409fca36f4a78de</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>a3ba5376b178f138cae4f64b050d73e2d39cb2d9</code></li>\n<li><code>JellyBook-Debug.ipa</code>: <code>a014b894b75df9ec3ef442c11611d7ec5a80fd8a</code></li>\n<li><code>JellyBook-Release-arm32.apk</code>: <code>e23f495d1b8fa9e4bbb46570843c4b44ee48ef5a</code></li>\n<li><code>JellyBook-Release-arm64.apk</code>: <code>8c0cb53af00fc5c4890a1e60dc430d0a9f53005f</code></li>\n<li><code>JellyBook-Release-x86_64.apk</code>: <code>c7d06d9ccc3f090167701b29940964f69e124472</code></li>\n<li><code>JellyBook-Release.aab</code>: <code>9cb99aad94290093bb9d81d85d0c54352a463d68</code></li>\n<li><code>JellyBook-Release.apk</code>: <code>5a40b8e6d72cbfcd9ef2857be9cb8c146238c820</code></li>\n<li><code>JellyBook-Release.ipa</code>: <code>d5bd284ec7679dca136cccf86ce2cc4817a2132c</code></li>\n</ul>\n</details>",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.3.1",
+        "date": "2024-02-14",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.3.1/JellyBook-Release.ipa",
+        "size": 37998683,
+        "sha256": "",
+        "localizedDescription": "JellyBook 1.3.1 | JellyBook-Release\n\n# Announcing Version 1.3.1\n\n## What's Changed\n* Lazy loading is finnaly here (Thank you @Chaphasilor for the huge help throughout the entire process)\n* initial fastlane structures from IzzyOnDroid by @IzzySoft in https://github.com/JellyBookOrg/JellyBook/pull/150\n* Add Seamless vertical scrolling by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/153\n* Fix pagination by @Chaphasilor in https://github.com/JellyBookOrg/JellyBook/pull/158\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/159\n* Add Phrases for Sentry Usage by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/160\n* Translations update from Hosted Weblate by @weblate in https://github.com/JellyBookOrg/JellyBook/pull/161\n* add yes and no strings by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/162\n* Version 1.3.1 by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/152\n\n## New Contributors\n* @IzzySoft made their first contribution in https://github.com/JellyBookOrg/JellyBook/pull/150\n* @Chaphasilor made their first contribution in https://github.com/JellyBookOrg/JellyBook/pull/158\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook-Debug-arm32.apk</code>: <code>af30547f73b92252ff012b427004c76adf64b9c0</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>103e53a660f93d28067963033ac932055b2c2411</code></li>\n<li><code>JellyBook-Debug-x86_64.apk</code>: <code>a2ef1acdfd84f64d698bb323316a80013df86189</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>69b7bd4f542882b1a8cf31181c1758c9921e9247</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>c41d07972c30960fdf2be57b4e5faa055730224d</code></li>\n<li><code>JellyBook-Debug.ipa</code>: <code>03c95bb355c828cf20f5f96341e22a40966ffb15</code></li>\n<li><code>JellyBook-Release-arm32.apk</code>: <code>7cf25dae6508f39247c69d8585b1344bc83a8511</code></li>\n<li><code>JellyBook-Release-arm64.apk</code>: <c",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.3.0",
+        "date": "2024-01-01",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.3.0/JellyBook-Release.ipa",
+        "size": 36648245,
+        "sha256": "",
+        "localizedDescription": "JellyBook 1.3.0 | JellyBook-Release\n\nHi y'all. I'm so sorry for how long this update took. I was going through a lot of stuff including it being exam season and getting sick a few times. I worked really hard on the features in this update and am really proud to present the edit screen for eBooks\n\n# New Features\n - New display system for description of entries (c8bf4906529f95b3d04f33e70dcef18e18bf31c8)\n - New edit screen to allow you to edit you book locally or globally (89d501c3bafcfaac6f49c5b1f00d799bc0cfd3d5, c72edd3526f8c25e87f7918a33fae6f9bb1f3a8f)\n - Added wave progress bar for download screen (86ae7bfbb392ab48f248d3a6805d1175b40912ed)\n \n| Preview | Editing |\n| ------- | ------- |\n| ![Image 1](https://github.com/JellyBookOrg/JellyBook/assets/69772087/0598ac8e-35a8-48a4-8d1a-d03aa96ed9ec) | ![Image 2](https://github.com/JellyBookOrg/JellyBook/assets/69772087/8fa507b7-f8e3-493d-abcd-b2f8ad11aa33) |\n| ![image](https://github.com/JellyBookOrg/JellyBook/assets/69772087/af2dc528-8ff6-4e3b-943e-6cf3e2df33ad) | ![image](https://github.com/JellyBookOrg/JellyBook/assets/69772087/cc1351cb-46e2-4314-bf1b-1a88406cefbe) |\n\n# Changes\n - Added background media playback to the android manifest and build system (48158690a32d7938e9d18baf9e3ed577473dd9b9)\n - Added ability to upload images from iOS to app as ebook/audiobook cover (a2e4df918f4d7e2035049f383aaa8804c6a84652)\n - Fixed paragraph marker for RichText / Markdown (581f8d1431c2777ad8b50fd4de613add512b0709)\n - Turn Author Class into own file (c91b5c9f6c46c85382488fee9c1330a00f3d5313)\n - Converted RichText bodies into MarkdownBody bodies to have better formatting (c8bf4906529f95b3d04f33e70dcef18e18bf31c8)\n - Updated boxWidthWithShaddow to allow local images and size (d90678056c292b8ef0e57361924a95b192c2cb57)\n - Created editing screen (89d501c3bafcfaac6f49c5b1f00d799bc0cfd3d5, c72edd3526f8c25e87f7918a33fae6f9bb1f3a8f)\n - Fix buttons in settings screen (0fedf322a7a158cdc3db87afc087866c78feca0e)\n - Translations (3efa3e99e83dac2cc",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.2.1",
+        "date": "2023-09-11",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.2.1/JellyBook-Release.ipa",
+        "size": 34256902,
+        "sha256": "",
+        "localizedDescription": "JellyBook 1.2.1 | JellyBook-Release\n\n## What's Changed\n* Update README.md by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/110\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/108\n* Translated using Weblate by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/111\n* Implement audiobook playback speed setting as first seen in https://github.com/Kara-Zor-El/JellyBook/pull/109 by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/114\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/112\n* Added Translations by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/115\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/116\n* Added Seamless vertical scrolling key value pair by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/117\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/118\n* Translations by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/119\n* Version 1.2.1 by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/120\n* Bump archive from 3.3.7 to 3.3.8 by @dependabot in https://github.com/Kara-Zor-El/JellyBook/pull/121\n\n## New Contributors\n* @dependabot made their first contribution in https://github.com/Kara-Zor-El/JellyBook/pull/121\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook-Debug-arm32.apk</code>: <code>18891701f2bdda989c78b7bfb230313fec9ffa92</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>d225a50c6334cbefdf32f8af70bb7117a6a24bd1</code></li>\n<li><code>JellyBook-Debug-x86_64.apk</code>: <code>d051f486053d3e233a7366083f49288f66f71ac0</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>6b931265c338ede2af46fea3801f491877621615</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>a61cfc210e7a7c35aacb23164dd2f542a1f79541</code></li>\n<li><cod",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.2.0",
+        "date": "2023-08-12",
+        "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.2.0/JellyBook-Release.ipa",
+        "size": 34542009,
+        "sha256": "",
+        "localizedDescription": "JellyBook 1.2.0 | JellyBook-Release\n\n## Main Changes:\n - Many new translations\n - FIxed issues with collection not showing books downloaded\n - Added AudioBook Support\n - Added EPUB Tags\n - Update books on server\n - Redesigned settings screens\n - RTL (Right to left) and vertical reading support\n - Improved search screen\n - Complete overhaul of book info screen UI\n - fixed issues with scaling\n - various optimizations\n - added ComicRack XML\n - Fixed Indefinate Loading\n - Added authors (all types supported by ComicRack) support to comics\n\n## What's Changed\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/70\n* Updated Translations using Weblate by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/76\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/78\n* Add new translation String using Weblate (English) by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/79\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/80\n* Translated using Weblate by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/81\n* add listen while reading a book player by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/82\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/83\n* Updated translations and added a few by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/84\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/85\n* Translations by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/86\n* Translations update from Hosted Weblate by @weblate in https://github.com/Kara-Zor-El/JellyBook/pull/87\n* Update translations and create dowloadFailed translation key by @Kara-Zor-El in https://github.com/Kara-Zor-El/JellyBook/pull/88\n* Translations update from Hosted Weblate by @weblate ",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "ksign": [
@@ -1301,6 +1451,16 @@
         "localizedDescription": "MaxMusic 9.36.1 | YTMusic 2.4.1 | MaxMusic_2.4.1_9.36.1\n\n**Changed**\nYouTube Music version",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "9.35.2",
+        "date": "2026-09-01",
+        "downloadURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.35.2_2.4.1_%2887%29/MaxMusic_2.4.1_9.35.2.ipa",
+        "size": 105888307,
+        "sha256": "58ee0bfb7da8fa7bd76db595f83e54ce26f651e39bbde3a456eb9cc3c53c5727",
+        "localizedDescription": "MaxMusic 9.35.2 | YTMusic 2.4.1 | MaxMusic_2.4.1_9.35.2\n\n**Changed**\nName of my fork\nYTMusic version",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "maxtube": [
@@ -1401,13 +1561,23 @@
     ],
     "monal": [
       {
+        "version": "6.4.24",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
+        "size": 39970806,
+        "sha256": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941",
+        "localizedDescription": "Monal 6.4.24 | Monal\n\n- Added DNSSEC bug warning\n- Fixed spurious MUC join errors\n- Fixed playback of received mp3 files\n- Fixed vanishing toolbar buttons in active chats list\n- Fixed sharing location from Google Maps\n- Switched from iOS bundled libxml2 to new rust based xml parser to fix crashes\n- Now only accepting Channel/Group invites from contacts approved to our contact list\n- Fixed deeply nested xml DoS vector in push notification handler\n- Fixed several crashes",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "6.4.23",
         "date": "2026-10-07",
         "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1098/Monal.ipa",
         "size": 39040077,
         "sha256": "507c862d958b16001798e046dfc7cf0400694ecca352d0507007769400f0a2ab",
         "localizedDescription": "Monal 6.4.23 | Monal\n\n- Increased sync speed considerably\n- We don't show the login view anymore, if all configured accounts are disabled\n- The last message of a chat was partially hidden on iOS or macOS 27, this is fixed now\n- Sharing something using the share sheet should no longer attach a spurious garbled file alongside",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-08T13:53:14Z"
       },
       {
@@ -1429,9 +1599,59 @@
         "localizedDescription": "Monal 6.4.21 | Monal\n\n- Show last usage timestamp of OMEMO keys\n- Use the iOS 18 UI in the share sheet\n- Allow using any language in the Display Name field in account settings\n- Try to improve location sharing accuracy\n- Improve contact last activity timestamps\n- Fix several bugs",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "6.4.20",
+        "date": "2026-04-22",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1090/Monal.ipa",
+        "size": 38337522,
+        "sha256": "a7ab3a4b15da81e9b4413462980b835912a9880d8365a53a7528b7f6798952c3",
+        "localizedDescription": "Monal 6.4.20 | Monal\n\n- Fixed speaker not turning on for video calls on some devices\n- Now forcing SASL2+SCRAM for yax.im (already forced for conversations.im)\n- Fixed display of messages containing a list of urls\n- Fixed crash when receiving files with too long filenames\n- Fixed rare case not connecting to a server after bringing the app from foreground to background too fast\n- Fixed rare OMEMO devicelist publishing loop (thanks renegade)\n- Fixed list of contacts in share sheet to not contain contacts only known from groupchats (thanks Kati)\n- Fixed very rare OMEMO identity regeneration when receiving a push after device reboot but before entering the passcode for the first time\n- Notes about new/deleted OMEMO devices of chat partners aren't displayed anymore for TOFU devices (no device explicitly trusted/untrusted by the user)\n- Fixed some more small bugs",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "6.4.19",
+        "date": "2026-03-14",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1085/Monal.ipa",
+        "size": 36535032,
+        "sha256": "d2f86ad46d7b484996fe4a200cdbccfc39e4fc61935a0fd6c49fbd5c374963a2",
+        "localizedDescription": "Monal 6.4.19 | Monal\n\n- Fixed omemo devicelist updates not published properly\n- Fixed endless loop adding/removing devices from omemo devicelist\n- Fixed audio recording timer visibility in dark mode\n- Fixed audio playback not working after recording a voice message\n- Accelerated connection establishment\n- Fixed joining of groups/channels after a longer period of being offline\n- Fixed long delay when sometimes answering an incoming call\n- Fixed internal state updates taking too long\n- Fixed crash when opening a new chat that wasn't listed as active before\n- Moved heavy deallocation work to a background task to make initial connection faster\n- Don't try to retrieve messages older than our autodelete timeout, if active\n- Allow users to ping the push appserver for debugging notification problems\n- Improved accessibility if users configure a dynamic font in settings (bigger text sizes)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "6.4.17",
+        "date": "2026-01-05",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1072/Monal.ipa",
+        "size": 36498617,
+        "sha256": "9f959e54e1fa98f0b8b6de35f19f90c2475251d9c7d484efc766978f4612ef27",
+        "localizedDescription": "Monal 6.4.17 | Monal\n\n- Removed christmas special again\n- Added Estonian and Telugu translations\n- Fixed random black video feed on video calls\n- Make it harder for spammers to mention everybody: ignore mentions if more than 5 participants are mentioned per message\n- Properly display Visitor role in Channels\n- Add \"Request Voice\" button to contact details of moderated Channels",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "6.4.16",
+        "date": "2025-12-23",
+        "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1069/Monal.ipa",
+        "size": 38702754,
+        "sha256": "76e588386758c255ed85bc94980dbd2d4cff367b1ecad51298dc67bf7234b959",
+        "localizedDescription": "Monal 6.4.16 | Monal\n\n- Fixed Add Account screen",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "msgplusx": [
+      {
+        "version": "585.0.0",
+        "date": "2026-10-27",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-585.0.0-MSGPlusX.ipa",
+        "size": 126239167,
+        "sha256": "",
+        "localizedDescription": "Messenger 585.0.0 | Messenger-585.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 585.0.0",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
       {
         "version": "584.0.0",
         "date": "2026-10-17",
@@ -1439,7 +1659,7 @@
         "size": 124270963,
         "sha256": "",
         "localizedDescription": "Messenger 584.0.0 | Messenger-584.0.0-MSGPlusX\n\nIPA Vault build for Messenger (MSGPlusX), version 584.0.0",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-18T11:35:12Z"
       },
       {
@@ -1583,13 +1803,23 @@
     ],
     "nexasc": [
       {
+        "version": "8.84.0",
+        "date": "2026-10-27",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
+        "size": 227577628,
+        "sha256": "",
+        "localizedDescription": "SoundCloud 8.84.0 | SoundCloud-8.84.0-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.84.0",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "8.83.1",
         "date": "2026-10-25",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.83.1-NexaSC.ipa",
         "size": 227742189,
         "sha256": "",
         "localizedDescription": "SoundCloud 8.83.1 | SoundCloud-8.83.1-NexaSC\n\nIPA Vault build for SoundCloud (NexaSC), version 8.83.1",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-28T00:52:59Z"
       },
       {
@@ -1675,13 +1905,23 @@
     ],
     "nicegram": [
       {
+        "version": "2.6.5",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+        "size": 111878018,
+        "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
+        "localizedDescription": "Nicegram 2.6.5 | build 2.6.5\n\nBuild of Nicegram for iOS 2.6.5 (727)",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "2.6.4",
         "date": "2026-10-19",
         "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
         "size": 111869672,
         "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
         "localizedDescription": "Nicegram 2.6.4 | build 2.6.4\n\nBuild of Nicegram for iOS 2.6.4 (725)",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-19T13:49:12Z"
       },
       {
@@ -1713,9 +1953,49 @@
         "localizedDescription": "Nicegram 2.6.1 | build 2.6.1\n\nBuild of Nicegram for iOS 2.6.1 (713)",
         "status": "superseded",
         "firstSeen": "2026-09-17T23:15:53Z"
+      },
+      {
+        "version": "2.5.9",
+        "date": "2026-08-19",
+        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-710/Nicegram.ipa",
+        "size": 125014421,
+        "sha256": "22f9f6dfb5a08ab6d53abe032972e361c34ff8da4e0e48d88918bddf63851427",
+        "localizedDescription": "Nicegram 2.5.9 | build 2.5.9\n\nBuild of Nicegram for iOS 2.5.9 (710)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "2.5.8",
+        "date": "2026-07-20",
+        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-708/Nicegram.ipa",
+        "size": 124219565,
+        "sha256": "3470b8aa8dc05fc11e20f6283eb4d0fa7bb0a3266662332981c29950f4ec10ab",
+        "localizedDescription": "Nicegram 2.5.8 | build 2.5.8\n\nBuild of Nicegram for iOS 2.5.8 (708)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "2.5.7",
+        "date": "2026-07-15",
+        "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-707/Nicegram.ipa",
+        "size": 124219521,
+        "sha256": "838f21a1b845fd6c0aec9871c429e5e8ce9ade36c07b9233bfa22bf4baec9898",
+        "localizedDescription": "Nicegram 2.5.7 | build 2.5.7\n\nBuild of Nicegram for iOS 2.5.7 (707)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "nuvio": [
+      {
+        "version": "0.6.5",
+        "date": "2026-10-27",
+        "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.5-beta/nuvio-0.6.5-full-release.ipa",
+        "size": 67965485,
+        "sha256": "599eff1327f1018e65f0f577f1d3e6070833dc3d291589105dfa173ef7b41d7e",
+        "localizedDescription": "Nuvio 0.6.5 | nuvio-0.6.5-full-release\n\n- [feat(i18n): translate subtitle render scale and hero ratings settings (#2402)](https://github.com/NuvioMedia/NuvioMobile/pull/2402) @jhojhocraazy  \n- 2c69902b fix(servers): keep title lookups working between episodes @tapframe  \n- [Updated Bulgarian translations - fixes, party file, new strings (#2397)](https://github.com/NuvioMedia/NuvioMobile/pull/2397) @viiktr  \n- 88c9b4ce feat(player): split video and controls at the duo fold @tapframe  \n- [fix(debrid): recognize language words in release names (#2364)](https://github.com/NuvioMedia/NuvioMobile/pull/2364) @kernexshadow  \n- [i18n(vi): update latest Vietnamese strings (#2370)](https://github.com/NuvioMedia/NuvioMobile/pull/2370) @blueocean2308  \n- c85dc721 feat(player): remove source name from paused player @tapframe  \n- [l10n: complete missing Italian translations (#2371)](https://github.com/NuvioMedia/NuvioMobile/pull/2371) @WhiteGiso  \n- [Player chapters: progress bar marks, chapter name and a chapters panel (#2174)](https://github.com/NuvioMedia/NuvioMobile/pull/2174) @kernexshadow",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
       {
         "version": "0.6.4",
         "date": "2026-10-23",
@@ -1723,7 +2003,7 @@
         "size": 67805794,
         "sha256": "e7670fdba3adb96f6f8292dd19539fff04d1fbd792fa0fc7b1f602b84367d969",
         "localizedDescription": "Nuvio 0.6.4 | nuvio-0.6.4-full-release\n\n- 8683505d fix(details): animate ratings on tablet @tapframe  \n- e6a05d1d feat(ios): support duo layout @tapframe  \n- b6287380 fix(deps): update haze to 1.7.3 @tapframe  \n- [fix(trakt): keep continue watching when a progress request fails (#2366)](https://github.com/NuvioMedia/NuvioMobile/pull/2366) @kernexshadow  \n- [perf(streams): compile badge rules once per change (#2365)](https://github.com/NuvioMedia/NuvioMobile/pull/2365) @kernexshadow  \n- [perf(debrid): cache stream filter regexes and reuse stream facts (#2362)](https://github.com/NuvioMedia/NuvioMobile/pull/2362) @kernexshadow  \n- [i18n(el): sync the Greek locale with 0.6.3 (player badges, Simkl statuses, engine switch, party chat) (#2359)](https://github.com/NuvioMedia/NuvioMobile/pull/2359) @nosvasedis  \n- [feat(i18n): complete pt-BR player badges and watch party strings (#2338)](https://github.com/NuvioMedia/NuvioMobile/pull/2338) @jhojhocraazy  \n- [Replace libass renderer with atlas pipeline from Plezy (#2346)](https://github.com/NuvioMedia/NuvioMobile/pull/2346) @skoruppa  \n- [Update Hungarian translations (#2341)](https://github.com/NuvioMedia/NuvioMobile/pull/2341) @emgeje  \n- [i18n(vi): update strings.xml and strings_party.xml (#2339)](https://github.com/NuvioMedia/NuvioMobile/pull/2339) @blueocean2308  \n- 90ab7f95 fix(ratings): use real imdb logo and grey label @tapframe  \n- d9046775 feat(home): show ratings and age rating on hero @tapframe  \n- b9fbc09c fix(player): keep side panels clear of the navigation bar @tapframe  \n- 83e528f0 feat(player): choose a badge pack for the player @tapframe  \n- [Complete Spanish mobile translations (#2344)](https://github.com/NuvioMedia/NuvioMobile/pull/2344) @IberianSoldierPC  \n- [fix(ios): keep hardware decoding when PiP is interrupted by Notification Center (#2306)](https://github.com/NuvioMedia/NuvioMobile/pull/2306) @WhiteGiso  \n- [fix(android): scale ExoPlayer subtitles with the PiP window size (#2314)](https://github.c",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-24T05:19:25Z"
       },
       {
@@ -2157,13 +2437,23 @@
     ],
     "reynard": [
       {
+        "version": "0.19.0",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+        "size": 111139976,
+        "sha256": "929719d1e0f2548ef1a18b5bf96002622d8df215d3dd3ff58205049657815407",
+        "localizedDescription": "Reynard 0.19.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.18.0...0.19.0\n\n### New Features\n- Added support for game controllers.\n- You can now import and export your bookmarks, history, and add-ons:\n  - Bookmarks can be imported from and exported to other browsers as an HTML file.\n  - History can be imported from Safari or Google Takeout (Chrome), and exported in Safari's format.\n  - Add-ons can be imported from and exported to another Reynard install.\n\n### Bug Fixes & Improvements\n- Webpages that fail to load now show an error page explaining what went wrong, with options to try again or go back.\n- You can now right-click a Favorite site on the homepage using a pointer device to reveal its context menu.\n- Fixed an issue where pull to refresh would occasionally get stuck, with the refresh spinner appearing indefinitely.\n- Fixed numerous UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_1_RELEASE) (released Oct 20, 2026).",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "0.18.0",
         "date": "2026-10-18",
         "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
         "size": 109731773,
         "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36",
         "localizedDescription": "Reynard 0.18.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\n\n### New Features\n- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\n\n### Improvements\n- Scrolling on webpages is now smoother and more accurate.\n- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.\n\n### Bug Fixes\n- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.\n- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.\n- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.\n- Fixed an issue where touches on some webpages would land in the wrong place.\n- Added small performance improvements and fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-18T11:35:12Z"
       },
       {
@@ -2185,6 +2475,16 @@
         "localizedDescription": "Reynard 0.17.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\n\n### Improvements\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\n\n### New Features\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\n\n### Bug Fixes\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\n- Fixed several UI issues.\n\n### Engine\n\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).",
         "status": "superseded",
         "firstSeen": "2026-10-11T13:19:25Z"
+      },
+      {
+        "version": "0.15.0",
+        "date": "2026-10-06",
+        "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+        "size": 108690287,
+        "sha256": "b154bae4490abaf54f993794b9061f85ab4fb32d8884b9ea6b073ab9a4b21cb9",
+        "localizedDescription": "Reynard 0.15.0 | Reynard\n\n## Changes\n\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.1...0.15.0\n\n### New Features\n- Added support for printing a webpage or an online PDF viewed in the browser, accessible as a **Print** option in the share sheet or with the Command + P keyboard shortcut.\n- You can now see which tab is playing audio and mute tabs directly from the address bar.\n- You can now configure whether Reader Mode is shown automatically for a specific website or for all websites.\n- Built-in add-on pages, such as those that provide a custom new tab appearance, can now be set as your new tab page.\n- For links that open in a new tab automatically or from the context menu, you can now return to the opener tab using the back button, or by swiping from the left edge of the screen to the right.\n\n### Bug Fixes & Improvements\n- JIT can now be enabled on iPhone 18 Pro and iPhone 18 Pro Max.\n- Greatly reduced memory and power usage when the camera is active.\n- The Command + W keyboard shortcut now activates the adjacent tab instead of the most recently opened one.\n- If you set the last tab to show on startup, the browser now loads its URL immediately instead of after a short delay.\n- The list of recently closed tabs now clears when you remove browsing history in the browser settings.\n- Fixed a regression where Reader Mode’s serif font would be used as the default serif font for all websites.\n- Fixed numerous bugs and improved UI animations.\n\n### Translations\nAdded Vietnamese translation.\n\n### Engine\nUpdated Gecko to [156.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_1_RELEASE) (released Sep 22, 2026).",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       },
       {
         "version": "0.16.0",
@@ -2365,13 +2665,23 @@
     ],
     "saber": [
       {
+        "version": "1.37.0",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber_v1.37.0.ipa",
+        "size": 37262448,
+        "sha256": "9b77a04e4fd92ee4c9585c6d3faab4279ea0308e696093b2b8473fbec26cb3a0",
+        "localizedDescription": "Saber 1.37.0 | Saber_v1.37.0\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- You can now move strokes and images between pages by @Lavish883 and @QubaB in https://github.com/saber-notes/saber/pull/1829\n- Improved the titlebar on Windows by @airon-main in https://github.com/saber-notes/saber/pull/1763\n- Home screen transitions are now faster.\n- Code cleanup.\n- @airon-main made their first contribution in https://github.com/saber-notes/saber/pull/1763\n- @Lavish883 made their first contribution in https://github.com/saber-notes/saber/pull/1829\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.4...v1.37.0",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "1.36.4",
         "date": "2026-10-24",
         "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.4/Saber_v1.36.4.ipa",
         "size": 37254734,
         "sha256": "e1c8932fbe8d8cd4df3dc2177a1fe038f353067600b90f3d2399b68b68928082",
-        "localizedDescription": "Saber 1.36.4 | Saber_v1.36.4\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Minor UI improvements\n- Minor memory efficiency improvements #1858\n- A security fix\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.3...v1.36.4",
-        "status": "current",
+        "localizedDescription": "Saber 1.36.4 | Saber_v1.36.4\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Minor UI improvements\n- Minor memory efficiency improvements #1858\n- Security mitigation for the eMudhra compromised CA certificates\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.3...v1.36.4",
+        "status": "superseded",
         "firstSeen": "2026-10-25T22:52:51Z"
       },
       {
@@ -2403,6 +2713,36 @@
         "localizedDescription": "Saber 1.36.1 | Saber_v1.36.1\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Improved the design of the login flow, making better use of space on landscape/desktop screens.\n- Tweaked scrolling friction in the editor to make it less slippery. #1785\n- Fixed handling of accounts with unlimited storage quota. #1796 \n- Fixed folders not being sorted in the browse page. #1809 \n- Fixed parts of the app using a hardcoded Ubuntu font. eafaf264b19a35cbf8e8831daa4118e1446fe16d and https://github.com/ubuntu/yaru.dart/pull/1075.\n- Fixed non-Latin language fonts and inconsistent UI elements in Flathub screenshots.\n- Improved build system... Now fewer custom patches are needed for various stores. Enabled the `--enforce-lockfile` flag for F-Droid for more reproducible builds. #1799 \n- Fixed Android 16KB page size support by forcing a newer NDK version. 87fcb037ba8792cd24ef3af66335007854dbdabc\n- Continued code cleanup, refactoring, testing, and small UX improvements.\n- Various fixes from [Flut",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "1.36.0",
+        "date": "2026-08-20",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.36.0/Saber_v1.36.0.ipa",
+        "size": 37637129,
+        "sha256": "f1139e8d8726f0bfacd2bd3ec4b0ede9f43b134e12cd0afd6c6e4e56acf28ab4",
+        "localizedDescription": "Saber 1.36.0 | Saber_v1.36.0\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Fixed janky animation when opening and closing the sidebar by @adil192 in https://github.com/saber-notes/saber/pull/1805\n- Added indent guides to the file tree in the sidebar by @adil192 in https://github.com/saber-notes/saber/pull/1805\n- Updated to [Flutter 3.47](https://flutter.dev/blog/whats-new-in-flutter-3-47):\n  - Added Linux support for stylus pressure detection by @CodeDoctorDE in https://github.com/flutter/flutter/pull/186831.\n  - Switched to the new Impeller rendering engine on Linux/Windows/macOS, resulting in fewer frame drops and smoother animations. At present, some graphics may be pixelated/aliased.\n- Translations:\n  - i18n: Update Italian metadata by @albanobattistella in 9ccc998a7453a3bff8621f28cee6ec2896227b73\n  - i18n: Update French by @ArTuPSly in f241569020ee9c9dd01ee7575783121ce75d4c2d\n\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.35.1...v1.36.0",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.35.1",
+        "date": "2026-08-13",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.35.1%2B1/Saber_v1.35.1.ipa",
+        "size": 37388315,
+        "sha256": "8f8e74c570685a3e1e5673319a88d03f277621ae7a587e2929ff9c16329305e9",
+        "localizedDescription": "Saber 1.35.1 | Saber_v1.35.1\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- Reduced RAM consumption by reducing unnecessary threads\n- Miscellaneous fixes from dependencies\n- Translations:\n  - i18n: Update French by @ishaan-jindal in 3165a836c300605881d5115370d3ba02e73fd88a\n  - i18n: Update Hebrew by @omeritzics in ffdb6302d98090de8e09a5c286be2b2fe5cd40aa\n  - i18n: Update Italian (#1787) by @albanobattistella in fb5d974c48b94ac3551c540f9dcaea754c596f53\n  - i18n: Update Czech metadata by @ceskyDJ in 3be72a167765d03e89a253a3368d5aa04710695b\n\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.35.0...v1.35.1+1",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.35.0",
+        "date": "2026-07-08",
+        "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.35.0/Saber_v1.35.0.ipa",
+        "size": 41644182,
+        "sha256": "3b538986bbfe577ae72fc43cd77bc7c06efe41830d712084cf2866a98b3d96b4",
+        "localizedDescription": "Saber 1.35.0 | Saber_v1.35.0\n\n## External links\n\n[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'\n    alt='Get it on Google Play'\n    height=50>][google_play]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg\"\n    alt=\"Get it on F-Droid\"\n    height=50>][f-droid]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg\"\n    alt=\"Download on the App Store\"\n    height=50>][app_store]&nbsp;[<img src=\"https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg\"\n    alt=\"Download on Flathub\"\n    height=50>][flathub]\n\nFor other downloads, scroll down and find the relevant file under \"Assets\".\n\n[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/\n[flathub]: https://flathub.org/apps/details/com.adilhanney.saber\n[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber\n[app_store]: https://apps.apple.com/us/app/saber/id1671523739\n[releases]: https://github.com/adil192/saber/releases\n\n## Changelog\n\n- The browse page is now sorted alphabetically by default. You can customize the sort with the button at the top.\n- Fixed a crash on certain Android devices (https://github.com/flutter/flutter/issues/187237).\n- Removed the scroll up to refresh functionality because it was confusing.\n- Optimized Linux and Windows builds to remove unused code.\n\n- Full changelog: https://github.com/saber-notes/saber/compare/v1.34.3...v1.35.0",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "sameboy": [
@@ -3178,6 +3518,36 @@
         "localizedDescription": "TrollInstallerX 1.0.3 | TrollInstallerX\n\n# TrollInstallerX v1.0.3\n\n## Changes:\n* Update for Xcode 15.4+ compilation (fixes #25)\n* Added a temporary fix for yellow iPhone 14 (Plus) devices on iOS 16.3, please use `TrollInstallerX-20D50.ipa` (fixes #33)\n* Removing confusing logging around exploit deinitialisation (e.g. #11)\n* Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2 (should, in theory, fix #21)\n\n**Note**: A8 devices on iOS 15.2+ will not be supported until a future release of TrollInstallerX. Furthermore, support for arm64e (A12+) devices on early iOS 17.0 betas is not planned, unless someone else would like to implement it. You can now use [TrollRestore](https://github.com/JJTech0130/TrollRestore) for both of these cases.\n\n# DO NOT DOWNLOAD THE 20D50 IPA UNLESS YOU HAVE A YELLOW IPHONE 14 (PLUS) ON IOS 16.3.",
         "status": "current",
         "firstSeen": "2026-09-17T23:15:53Z"
+      },
+      {
+        "version": "1.0.2",
+        "date": "2024-04-08",
+        "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.2/TrollInstallerX.ipa",
+        "size": 6888282,
+        "sha256": "",
+        "localizedDescription": "TrollInstallerX 1.0.2 | TrollInstallerX\n\n# TrollInstallerX v1.0.2\n\n## Changes:\n* Full support for iOS 17.0 beta 1 - 4 on arm64 devices - partially contributed to by @m1zole\n\n\n**Note**: arm64e support for the above versions is still being worked on.",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.0.1",
+        "date": "2024-04-06",
+        "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.1/TrollInstallerX.ipa",
+        "size": 6888465,
+        "sha256": "",
+        "localizedDescription": "TrollInstallerX 1.0.1 | TrollInstallerX\n\n# TrollInstallerX v1.0.1\n\n## Changes:\n* Add success message at the end of the installation\n* Fix bug in supported version checking\n* Add (untested) support for early iOS 17.0 betas\n\n**Edit**: early iOS 17.0 betas currently won't work. A fix will come in v1.0.2.",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2024-04-04",
+        "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.0/TrollInstallerX.ipa",
+        "size": 6885899,
+        "sha256": "",
+        "localizedDescription": "TrollInstallerX 1.0.0 | TrollInstallerX\n\n# TrollInstallerX v1.0.0\n\nTrollInstallerX is a reliable, fast and simple TrollStore installer. It has several features that set it apart from the other installers out there, detailed below. It supports iOS 14.0 - 16.6.1 on all devices (apart from a slight exception for A8 devices, which is only temporary). Certain versions have a slightly different installation method, which you can read about in the [README](https://github.com/alfiecg24/TrollInstallerX).\n\n## Features:\n* **Direct installation of TrollStore** - On supported versions, TrollInstallerX can install TrollStore directly to your home screen, as if you were to install it via the persistence helper.\n\n* **Persistence helper installation** - TrollInstallerX will properly install a persistence helper into a removable system app of your choice - this means one that doesn't rely on temperamental file overwrites, but rather one that TrollStore will recognise as a legitimate persistence helper. This method works on all versions supported by TrollInstallerX.\n\n* **Unprecedented reliability** - Thanks to the extremely reliable [XPF patchfinder](https://github.com/opa334/XPF) (used in Dopamine), TrollInstallerX has a very high success rate with exploitation. When possible, it will either use the on-disk kernelcache, or download a copy of it to patchfind. This is detailed below.\n\n* **libgrabkernel2** - The new [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2) library allows for downloading almost any kernelcache available for the devices supported by TrollInstallerX. \n\n* **MacDirtyCow kernelcache grabber** - On versions supported by MacDirtyCow, MacDirtyCow is used to unsandbox and TrollInstallerX simply uses the on-disk kernelcache instead.\n\n* **iOS 14 support** - iOS 14 is completely supported with TrollInstallerX. For arm64 devices on iOS 14, this is one of the few installers that supports them. However, TrollHelperOTA is still the recommended installation method fo",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "ttkillerplus": [
@@ -3235,12 +3605,22 @@
     "turrit-mxgram": [
       {
         "version": "1.5.7",
+        "date": "2026-10-27",
+        "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-MxGram.ipa",
+        "size": 109989682,
+        "sha256": "",
+        "localizedDescription": "Turrit 1.5.7 | Turrit-1.5.7-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.7",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "1.5.7",
         "date": "2026-10-26",
         "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-TF-MxGram.ipa",
         "size": 102828333,
         "sha256": "",
         "localizedDescription": "Turrit 1.5.7 | Turrit-1.5.7-TF-MxGram\n\nIPA Vault build for Turrit (MxGram), version 1.5.7",
-        "status": "current",
+        "status": "removed",
         "firstSeen": "2026-10-28T00:52:59Z"
       },
       {
@@ -3318,6 +3698,16 @@
         "firstSeen": "2026-10-25T22:52:51Z"
       },
       {
+        "version": "31.7",
+        "date": "2026-10-24",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.14/tv.twitch-31.7-TwitchAdBlock-0.1.14.ipa",
+        "size": 197795047,
+        "sha256": "611389c2cb5f2fe2ca54675ee5532b3b699359a653ab4a49ccbca8a1a459a798",
+        "localizedDescription": "Twitch 31.7 | TwitchAdBlock 0.1.14\n\n> [!IMPORTANT]\n> **Twitch 31.7 is a major rebuild of the app.** Twitch rewrote big parts of it, including **Home, the Live feed, chat and the stream player**, using a new framework (React Native). Your account may get the new versions or the old ones, depending on Twitch's rollout.\n>\n> **This release updates every TwitchMods feature to work with both.** Older TwitchMods versions won't work properly with Twitch 31.7, so update to this one.\n\n**TwitchMods v0.1.14**, for Twitch iOS **31.7**\n\n### Updated for Twitch 31.7\nAll of these were checked on Twitch 31.7, on both the new and old parts of the app:\n- **Ad-blocking**: live and VOD pre-rolls, feed ads\n- **3rd-party emotes**: 7TV, BetterTTV and FrankerFaceZ, in both the new and the old chat\n- **Keep Live Feed Playing**: the Live feed no longer cuts a stream off with the Watch/Follow overlay\n- **Hide Twitch Stories**\n- **Default launch screen**: Twitch 31.7 now picks its own starting tab, and TwitchMods makes sure yours wins\n- **Following tab ad cleanup**\n- **Fixed:** the app crashing when you scrolled down to TwitchMods in Settings\n\n### New: send 7TV, BTTV and FFZ emotes\n- Tap into chat and a **7TV** bar appears above the keyboard. In Twitch's older chat it's a 7TV button next to the emote button instead.\n- You can also **press and hold Twitch's own emote button** to open the picker.\n- The picker shows the channel's emotes plus the global ones. **Animated emotes move**, there's **search**, and your recent picks show at the top. Tap an emote and it's typed into your message.\n- Don't want the bar? Turn on **Hide 7TV Bar** in Settings → Emotes. Press and hold still works.\n- Heads up: your *own* messages show the emote as a word on your screen, but everyone else using 7TV, BTTV or FFZ sees the picture.\n\n### New: automatic updates in AltStore, SideStore and Feather\nAdd this source and your app will tell you when a new TwitchMods version comes out:\n```\nhttps://raw.githubusercontent.com/gunn",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "30.7",
         "date": "2026-08-14",
         "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
@@ -3326,6 +3716,56 @@
         "localizedDescription": "Twitch 30.7 | TwitchAdBlock 0.1.13\n\n**TwitchMods v0.1.13** — for Twitch iOS **30.7**\n\n### New in v0.1.13\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.)\n\n### Everything else (v0.1.12)\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\n- Keep Live Feed Playing · 7TV/BTTV/FFZ chat emotes + Reload · settings backup/restore · Diagnostics · launch screen · hide Stories\n\n### Downloads\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** — full app.\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "30.2",
+        "date": "2026-07-07",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.2-0.1.12/tv.twitch-30.2-TwitchAdBlock-0.1.12.ipa",
+        "size": 151558997,
+        "sha256": "7024a7423be8b55eef98ac2ff7a51f0503a5d533fad6b3cdfde48cd4182a6a65",
+        "localizedDescription": "Twitch 30.2 | TwitchAdBlock 0.1.12\n\n**TwitchMods v0.1.12** — for Twitch iOS **30.2**\n\nSame features as v0.1.12, rebuilt to run on the latest Twitch app (30.2). All\nhooks verified against the 30.2 binary; no feature changes.\n\n### What's included (v0.1.12)\n- **Blocks ads** — live + VOD pre-rolls via proxy, feed ad banners, sponsor spots, and the Following-tab \"Go Ad-Free\" Turbo button.\n- **Keep Live Feed Playing** — no more getting kicked to Watch/Follow.\n- **Chat emotes** — 7TV / BetterTTV / FrankerFaceZ, plus a Reload Emotes button.\n- **Back up & restore** your settings, and a **Diagnostics** screen.\n- Pick your launch screen, hide Twitch Stories, clearer settings.\n\n### Downloads\n- **`tv.twitch-30.2-TwitchAdBlock-0.1.12.ipa`** — full app.\n- **`tv.twitch-30.2-TwitchAdBlock-0.1.12-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "29.9",
+        "date": "2026-06-25",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.12/tv.twitch-29.9-TwitchAdBlock-0.1.12.ipa",
+        "size": 147998485,
+        "sha256": "eab5c768ffdf39c35dfe0726d33fb47c2a3a12ecc748f13dbe45cb7df277ed49",
+        "localizedDescription": "Twitch 29.9 | TwitchAdBlock 0.1.12\n\n**TwitchMods v0.1.12** — for Twitch iOS **29.9**\n\n### What's new\n- **The Live tab keeps playing** — no more getting kicked to Watch/Follow after a while.\n- **Hid the \"Go Ad-Free\" button** (the Turbo upsell) on the Following tab.\n- **Blocks a few more ads** — streamer-read sponsor spots.\n- **Reload Emotes** button — refresh 7TV/BTTV/FFZ emotes without restarting the app.\n- **Back up & restore your settings** — export to a file and import it back later.\n- **Diagnostics screen** — a quick green/red check that the mod still works on your Twitch version.\n- **Easier-to-read settings** — a short description under each option, grouped under clear headings.\n\n### Downloads\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.12.ipa`** — full app.\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.12-noplugins.ipa`** — app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\n\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\n\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "29.9",
+        "date": "2026-06-22",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.9-0.1.11/tv.twitch-29.9-TwitchAdBlock-0.1.11.ipa",
+        "size": 147989585,
+        "sha256": "f369ac7e1c71339ebb544aeb4cb2d997b8afd3e27637d736b8f37d67664a9a6f",
+        "localizedDescription": "Twitch 29.9 | TwitchAdBlock 0.1.11\n\n**Twitch iOS 29.9 compatibility build** of TwitchAdBlock v0.1.11.\n\n**No mod changes** — the tweak source and compiled `TwitchAdBlock.dylib` are byte-identical to [v29.8-0.1.11](https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v29.8-0.1.11). Only the host app was updated from 29.8 to 29.9 and the same dylib re-injected. All hooked classes were verified to still resolve in the 29.9 binary.\n\n### Downloads\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.11.ipa`** — full build (includes all 5 of Twitch's app extensions).\n- **`tv.twitch-29.9-TwitchAdBlock-0.1.11-noplugins.ipa`** — plugin-free build. The 5 app extensions (GameBroadcasting, NotificationService, Share Extension, TwitchEmotes, TwitchWidgets) are stripped out. **Recommended for free Apple ID accounts**, which are limited to 10 App IDs per 7 days: the full build registers 6 App IDs (main app + 5 extensions), while this build registers only 1. Core stream-watching, chat, custom emotes, and ad-blocking are unaffected; you lose home-screen widgets, screen broadcasting, the \"Share to Twitch\" share-sheet action, the iMessage emote stickers, and rich (image) push notifications — basic push notifications still work.\n\n### Install\nDownload an IPA and install via **AltStore / SideStore** (drag in to sign) or **TrollStore** (`+` → select IPA).",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "29.8",
+        "date": "2026-06-12",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v29.8-0.1.11/tv.twitch-29.8-TwitchAdBlock-0.1.11.ipa",
+        "size": 150354088,
+        "sha256": "cc89c6a033dfa9d926c79f24f46fb5c5a0e49d2f4936df6b12e941ded8b6c700",
+        "localizedDescription": "Twitch 29.8 | TwitchAdBlock 0.1.11\n\n**Twitch iOS 29.8 compatibility build** of TwitchAdBlock v0.1.11.\n\nNo tweak source changes from [v0.1.11](https://github.com/gunnerkidBT/TwitchAdBlock/releases/tag/v0.1.11) — the compiled `TwitchAdBlock.dylib` is byte-identical; only the host IPA was updated from 29.4.2 to 29.8 and the dylib re-injected.\n\n### Downloads\n- **`tv.twitch-29.8-TwitchAdBlock-0.1.11.ipa`** — full build (includes all 5 of Twitch's app extensions).\n- **`tv.twitch-29.8-TwitchAdBlock-0.1.11-noplugins.ipa`** — plugin-free build. The 5 app extensions (GameBroadcasting, NotificationService, Share Extension, TwitchEmotes, TwitchWidgets) are stripped out. **Recommended for free Apple ID accounts**, which are limited to 10 App IDs per 7 days: the full build registers 6 App IDs (main app + 5 extensions), while this build registers only 1. Core stream-watching, chat, custom emotes, and ad-blocking are unaffected; you lose home-screen widgets, screen broadcasting, the \"Share to Twitch\" share-sheet action, the iMessage emote stickers, and rich (image) push notifications — basic push notifications still work.\n\n### Install\nDownload an IPA and install via **AltStore / SideStore** (drag in to sign) or **TrollStore** (`+` → select IPA).",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
+        "version": "29.4",
+        "date": "2026-05-16",
+        "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v0.1.8/tv.twitch-29.4.2-TwitchAdBlock.ipa",
+        "size": 146989509,
+        "sha256": "db87fb743bab3df98e749a6b607b33cc0903fe4253e908905d61ce67abae04cc",
+        "localizedDescription": "Twitch 29.4 | TwitchAdBlock 29.4.2\n\n## Highlights\n\n- **Launch Screen picker** — choose which tab Twitch opens to. Includes Home sub-tabs (Following / Live / Clips) and Browse sub-tabs (Categories / Live Channels), plus Activity and Profile.\n- **Hide Twitch Stories** — toggle to remove the horizontal Stories strip at the top of Home.\n- **Default-proxy reachability indicator** in TwitchMods settings — live Online / Offline / Checking status.\n- **New banner blocking** — McDonalds-style brand offers (`OfferPromotion`, `PromotionDisplay`) and the in-app \"buy Bits\" prompt (`BitsProductPromotion`) are removed from Following / Home responses.\n- **TwitchMods rebrand** — user-facing strings (settings entry, screen title, version footer) now read \"TwitchMods\". Internal symbols, keys, and dylib filename unchanged.\n- **AdBlock proxy on by default** for fresh installs.\n\n## Bug fixes\n\n- **Live & Clips tabs broken** after the previous release — the recursive GraphQL strip was orphaning edges in `feedItems.edges`. Now edge-aware (removes the whole edge when `edge.node.__typename` matches), and skips response re-serialization when nothing was actually stripped (was confusing Apollo's cache).\n- Speculative ad typenames (`AdProperties`, `PromotedContent`, `SponsoredContent`, etc.) removed from the blocklist — several were appearing as metadata fields on legitimate `Stream` / `Clip` objects.\n\n## Robustness / quality\n\n- Subdomain-aware ad host matching (now blocks `*.amazon-adsystem.com`).\n- LRU eviction for the emote registry (capped at 50 channels).\n- IRC emote positions counted as Unicode grapheme clusters instead of UTF-16 units — emoji no longer shift the rendered offsets.\n- Recursive `__typename` scan logs unknown ad-like values once per `(operation, typename)`, so new banners surface in logs without code archaeology.\n- `twab_warnIfClassMissing` runs at startup for every Swift hook target — silent feature regressions on a Twitch version bump now produce a visible warning.\n- Typed `",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "unc0ver": [
@@ -4032,13 +4472,23 @@
     ],
     "ytmusic": [
       {
+        "version": "9.43.2",
+        "date": "2026-10-26",
+        "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa39/YTMusicUltimate_9.43.2_2.4.1.ipa",
+        "size": 106337834,
+        "sha256": "755040db9227441242ebc05f134b05ed15fd49409bee3282bb2a9b0bf8254bfc",
+        "localizedDescription": "YTMusicUltimate 9.43.2 | YTMusic 2.4.1 | YTMusicUltimate_9.43.2_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
+        "status": "current",
+        "firstSeen": "2026-10-28T06:25:35Z"
+      },
+      {
         "version": "9.42.2",
         "date": "2026-10-22",
         "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa38/YTMusicUltimate_9.42.2_2.4.1.ipa",
         "size": 105940933,
         "sha256": "2246d9a3dadaf8b1c7d1b2c948e589e03dc50f221853cd65c94750f79d7e5128",
         "localizedDescription": "YTMusicUltimate 9.42.2 | YTMusic 2.4.1 | YTMusicUltimate_9.42.2_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
-        "status": "current",
+        "status": "superseded",
         "firstSeen": "2026-10-24T05:19:25Z"
       },
       {
@@ -4100,6 +4550,16 @@
         "localizedDescription": "YTMusicUltimate 9.36.1 | YTMusic 2.4.1 | YTMusicUltimate_9.36.1_2.4.1\n\n> [!NOTE]\n> ### Extra tweaks:\n> - Return YouTubeMusic Dislikes\n> - YTMABConfig\n> - VolumeBoostYT\n- - -\n- YouMusicPiP is only available in custom build\n- iOS14+ build is available in releases page",
         "status": "superseded",
         "firstSeen": "2026-09-12T17:13:52Z"
+      },
+      {
+        "version": "7.02.2",
+        "date": "2026-08-04",
+        "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa22/YTMusicUltimate_7.02.2_2.4.1.ipa",
+        "size": 65019444,
+        "sha256": "2b106a7718932139dc18c0740c9f3c3957c1c8ea4209a9d238d8908005fcb611",
+        "localizedDescription": "YTMusicUltimate 7.02.2 | YTMusic 2.4.1 | YTMusicUltimate_7.02.2_2.4.1\n\n### iOS14+ build, ENJOY!!\n> [!NOTE] \n> Downloads doesn't work.\n> ## Extra tweaks\n> Return YouTubeMusic Dislikes\n> YTMABConfig",
+        "status": "superseded",
+        "firstSeen": "2026-10-28T06:25:35Z"
       }
     ],
     "zeus": [

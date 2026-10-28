@@ -16,7 +16,7 @@ worklist — regenerate with `make audit` and prune resolved items when they shi
 
 ## P2 — performance & repository weight
 
-- 285 JSON mirror group(s) remain by design (branch Pages compatibility); do not delete without updating `src/omnisource/site.py`, `publish_root.py` and the smoke test in the same PR. **RESOLVED as accepted technical debt** — documented in `duplicates.md`.
+- 293 JSON mirror group(s) remain by design (branch Pages compatibility); do not delete without updating `src/omnisource/site.py`, `publish_root.py` and the smoke test in the same PR. **RESOLVED as accepted technical debt** — documented in `duplicates.md`.
 
 ## P3 — long-term
 

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "5267f10e9403",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "Swiftgram",
     "bundleIdentifier": "app.swiftgram.ios.mxgram",
@@ -91,11 +91,11 @@
         "notes": "Swiftgram's official distribution channels are the App Store and TestFlight and the project publishes no sideload IPA, so this source serves a community-built IPA from the IPA Vault, clearly labelled in the feed. Telegram 12.x requires iOS 13 or newer. The IPA Vault lists the MxGram variant as app.swiftgram.ios.mxgram; a signing client may change the identifier."
       },
       "health": {
-        "downloadReachable": null,
-        "detail": "not checked for this download",
-        "statusSince": "",
-        "lastCheckedAt": "",
-        "checkedURL": "",
+        "downloadReachable": true,
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-28",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
+        "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.1.1-TF-MxGram.ipa",
         "lastUpdatedAt": "2026-10-26"
       }
     },

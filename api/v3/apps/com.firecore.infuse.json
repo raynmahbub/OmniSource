@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "5267f10e9403",
+  "feedVersion": "4714f967d8e7",
   "data": {
     "name": "Infuse Plus",
     "bundleIdentifier": "com.firecore.infuse",
@@ -95,11 +95,11 @@
         "notes": "Tracks the ready-to-sideload Infuse Plus build from the IPA Vault source (the official dayanch96/InfusePlus repo publishes the tweak as .deb only). Current Infuse 8.5 builds require iOS 18 or newer; upstream also publishes an iOS 16-era 7.x build that is not tracked here. Shares com.firecore.infuse with a sideloaded stock Infuse - install one at a time."
       },
       "health": {
-        "downloadReachable": null,
-        "detail": "not checked for this download",
-        "statusSince": "",
-        "lastCheckedAt": "",
-        "checkedURL": "",
+        "downloadReachable": true,
+        "detail": "HTTP 200",
+        "statusSince": "2026-10-28",
+        "lastCheckedAt": "2026-10-28T04:23:28Z",
+        "checkedURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
         "lastUpdatedAt": "2026-10-26"
       }
     },

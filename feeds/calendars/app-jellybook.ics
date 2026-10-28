@@ -4,34 +4,34 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:JellyBook releases
 BEGIN:VEVENT
-UID:jellybook-1.4.1@omnisource
-DTSTAMP:20260909T000000Z
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-SUMMARY:JellyBook v1.4.1
-DESCRIPTION:JellyBook 1.4.1 | JellyBook-Release\n\nSorry for the error in t
- he previous version 😅\n## What's Changed\n* chore: clarifications by @K
- ara-Zor-El in https://github.com/JellyBookOrg/JellyBook/pull/223\n* fix: f
- ix auth headers by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBo
- ok/pull/225\n\n\n**Full Changelog**: https://github.com/JellyBookOrg/Jelly
- Book/compare/v1.4.0...v1.4.1\n\n<details>\n<summary>SHA1</summary>\n<ul>\n
- <li><code>JellyBook-Debug-arm32.apk</code>: <code>ebbaf6954023d544454e208d
- 0252ac8b677cf2bc</code></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: 
- <code>f89c75aaf7debf647a6862fd401209aee4417110</code></li>\n<li><code>Jell
- yBook-Debug-x86_64.apk</code>: <code>393f2b232e60c20e339be08f2b0fe0311ef06
- 694</code></li>\n<li><code>JellyBook-Debug.aab</code>: <code>924fa1c6f3407
- 2205884366522c428e394f62ec7</code></li>\n<li><code>JellyBook-Debug.apk</co
- de>: <code>29f8f3b49a9704745947251d24dfee5ed17eb67e</code></li>\n<li><code
- >JellyBook-Debug.ipa</code>: <code>2ead28016efc584defd6ea6d7e6c9f9cd9627aa
- 6</code></li>\n<li><code>JellyBook-Release-arm32.apk</code>: <code>0587957
- d7a109283f0b31cc4bd8d634a6f9cff06</code></li>\n<li><code>JellyBook-Release
- -arm64.apk</code>: <code>48568af90caa5e67387b35ab7567f356ac8f43cc</code></
- li>\n<li><code>JellyBook-Release-x86_64.apk</code>: <code>0f3230be1ced4c74
- f7483e08ec08a247fc3fe650</code></li>\n<li><code>JellyBook-Release.aab</cod
- e>: <code>f3256e5c70f8bd09cbadc6f142cbb5949966a2d6</code></li>\n<li><code>
- JellyBook-Release.apk</code>: <code>030e3ec3aece59a66340f7784c3165650a27d4
- dc</code></li>\n<li><code>JellyBook-Release.ipa</code>: <code>f3a3c8b10b75
- 38442b65a97f037f6e42a43deba3</code></li>\n</ul>\n</details>
+UID:jellybook-1.4.2@omnisource
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:JellyBook v1.4.2
+DESCRIPTION:JellyBook 1.4.2 | JellyBook-Release\n\nThis version focuses on 
+ decreasing the file size on android binaries to allow for publishing on Iz
+ zyOnDroid\n\n<details>\n<summary>SHA1</summary>\n<ul>\n<li><code>JellyBook
+ -Debug-arm32.apk</code>: <code>8ea51485a330eb19147da4fe5f892523c5fd4a9a</c
+ ode></li>\n<li><code>JellyBook-Debug-arm64.apk</code>: <code>48dea27e5af4f
+ 372fccc96b4bb58de932d6af516</code></li>\n<li><code>JellyBook-Debug-x86_64.
+ apk</code>: <code>dbfb3e72a61e27a8eb5d5910929e3bfe6873292e</code></li>\n<l
+ i><code>JellyBook-Debug.aab</code>: <code>8f989dfea51a878345b8f57c14592386
+ 979b0b5d</code></li>\n<li><code>JellyBook-Debug.apk</code>: <code>1a5db273
+ a5dafd2fe6510442faa300367fbd3d1d</code></li>\n<li><code>JellyBook-Debug.ip
+ a</code>: <code>a2702bb3e6cda621e457a19d3208b77ce3267fd0</code></li>\n<li>
+ <code>JellyBook-Release-arm32.apk</code>: <code>a23eff532089af251f03fa8e8c
+ eaf98464d59bd8</code></li>\n<li><code>JellyBook-Release-arm64.apk</code>: 
+ <code>d1899ba806f1fa4799c87cfcf57d2246b5df1f9a</code></li>\n<li><code>Jell
+ yBook-Release-x86_64.apk</code>: <code>5cfa1e2ce050b27545f8a6c154f57e127ce
+ f2417</code></li>\n<li><code>JellyBook-Release.aab</code>: <code>02a8c8613
+ d7c9bf69ee48a6eebda41955e62e6c6</code></li>\n<li><code>JellyBook-Release.a
+ pk</code>: <code>36a171908d1da594b8c3b848d97377748f9583b2</code></li>\n<li
+ ><code>JellyBook-Release.ipa</code>: <code>9f1069ee1fc1c10a827cf101773bff1
+ 9838719ff</code></li>\n</ul>\n</details>\n\n## What's Changed\n* chore: re
+ duce file size by @Kara-Zor-El in https://github.com/JellyBookOrg/JellyBoo
+ k/pull/229\n\n\n**Full Changelog**: https://github.com/JellyBookOrg/JellyB
+ ook/compare/v1.4.1...v1.4.2
 URL:https://raynmahbub.github.io/OmniSource/feeds/jellybook.json
 END:VEVENT
 END:VCALENDAR

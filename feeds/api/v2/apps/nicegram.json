@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-28",
-  "feedVersion": "d7c9246bd8b6",
+  "feedVersion": "44fd8a2ce79e",
   "app": {
     "id": "nicegram",
     "name": "Nicegram",
     "developer": "Nicegram (Appvillis UAB)",
     "subtitle": "Independent Telegram client: multi-account, AI, privacy",
     "bundleIdentifier": "app.nicegram",
-    "version": "2.6.4",
-    "versionDate": "2026-10-19",
+    "version": "2.6.5",
+    "versionDate": "2026-10-26",
     "description": "Nicegram is an independent, open-source messaging client built on the Telegram API (not affiliated with Telegram): manage unlimited accounts on one device, hidden accounts and chats (Double Bottom), built-in AI assistant and in-chat translation, voice-call recording in Saved Messages, quick replies and templates, pre-recorded video messages, a non-custodial Web3 wallet and escrow tools. Official distribution: App Store, TestFlight, and unsigned GitHub-release IPAs signed per the official install guide; this entry tracks the official nicegram/Nicegram-iOS release builds.",
     "shortDescription": "Independent Telegram client: multi-account, AI, privacy",
     "category": "social",
@@ -18,11 +18,11 @@
     ],
     "icon": "https://raynmahbub.github.io/OmniSource/assets/Nicegram.webp",
     "screenshots": [],
-    "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
-    "size": 111869672,
+    "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+    "size": 111878018,
     "source": "nicegram/Nicegram-iOS",
     "sourceURL": "https://github.com/nicegram/Nicegram-iOS",
-    "checksum": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8",
+    "checksum": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
     "checksumPublished": false,
     "minOSVersion": "15.0",
     "status": "stable",
@@ -32,23 +32,72 @@
     "health": {
       "reachable": true,
       "detail": "HTTP 200",
-      "updatedAt": "2026-10-19"
+      "updatedAt": "2026-10-26"
     }
   },
   "newest": {
-    "version": "2.6.4",
-    "date": "2026-10-19",
-    "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
-    "size": 111869672,
-    "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8"
+    "version": "2.6.5",
+    "date": "2026-10-26",
+    "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+    "size": 111878018,
+    "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e"
   },
   "versions": [
+    {
+      "version": "2.6.5",
+      "date": "2026-10-26",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+      "size": 111878018,
+      "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e"
+    },
     {
       "version": "2.6.4",
       "date": "2026-10-19",
       "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-725/Nicegram.ipa",
       "size": 111869672,
       "sha256": "8079e8cbd39ddc93be16a44915fd61b5495896ecb081b88c26a6104cdaa9b6b8"
+    },
+    {
+      "version": "2.6.3",
+      "date": "2026-10-09",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-721/Nicegram.ipa",
+      "size": 105049734,
+      "sha256": "2dd5d4d11128787e84d29ef3e0f940e4be380351277e238cfcc4060f88998b8f"
+    },
+    {
+      "version": "2.6.2",
+      "date": "2026-10-05",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-718/Nicegram.ipa",
+      "size": 104977076,
+      "sha256": "9cf0aca0b07a5c9f4f6809c80b5494d59016fe8d58d327ba60b5fa9915520b27"
+    },
+    {
+      "version": "2.6.1",
+      "date": "2026-09-07",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-713/Nicegram.ipa",
+      "size": 126339077,
+      "sha256": "2e884638cdbf264ef472449f83d244d5e8e32766fef7b29f76109db788f614cb"
+    },
+    {
+      "version": "2.5.9",
+      "date": "2026-08-19",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-710/Nicegram.ipa",
+      "size": 125014421,
+      "sha256": "22f9f6dfb5a08ab6d53abe032972e361c34ff8da4e0e48d88918bddf63851427"
+    },
+    {
+      "version": "2.5.8",
+      "date": "2026-07-20",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-708/Nicegram.ipa",
+      "size": 124219565,
+      "sha256": "3470b8aa8dc05fc11e20f6283eb4d0fa7bb0a3266662332981c29950f4ec10ab"
+    },
+    {
+      "version": "2.5.7",
+      "date": "2026-07-15",
+      "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-707/Nicegram.ipa",
+      "size": 124219521,
+      "sha256": "838f21a1b845fd6c0aec9871c429e5e8ce9ade36c07b9233bfa22bf4baec9898"
     }
   ],
   "verification": {

@@ -5,8 +5,116 @@
     <link>https://raynmahbub.github.io/OmniSource/</link>
     <description>Recorded releases in this catalog selection.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://raynmahbub.github.io/OmniSource/feeds/filtered/category-utilities.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Saber v1.37.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
+      <guid isPermaLink="false">saber-1.37.0</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Saber 1.37.0 | Saber_v1.37.0
+
+## External links
+
+[<img src='https://github.com/adil192/saber/blob/main/assets_raw/badges/google-play-badge.svg'
+    alt='Get it on Google Play'
+    height=50>][google_play]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/f-droid-badge.svg"
+    alt="Get it on F-Droid"
+    height=50>][f-droid]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/app-store-badge.svg"
+    alt="Download on the App Store"
+    height=50>][app_store]&nbsp;[<img src="https://github.com/adil192/saber/blob/main/assets_raw/badges/flathub-badge.svg"
+    alt="Download on Flathub"
+    height=50>][flathub]
+
+For other downloads, scroll down and find the relevant file under "Assets".
+
+[f-droid]: https://f-droid.org/packages/com.adilhanney.saber/
+[flathub]: https://flathub.org/apps/details/com.adilhanney.saber
+[google_play]: https://play.google.com/store/apps/details?id=com.adilhanney.saber
+[app_store]: https://apps.apple.com/us/app/saber/id1671523739
+[releases]: https://github.com/adil192/saber/releases
+
+## Changelog
+
+- You can now move strokes and images between pages by @Lavish883 and @QubaB in https://github.com/saber-notes/saber/pull/1829
+- Improved the titlebar on Windows by @airon-main in https://github.com/saber-notes/saber/pull/1763
+- Home screen transitions are now faster.
+- Code cleanup.
+- @airon-main made their first contribution in https://github.com/saber-notes/saber/pull/1763
+- @Lavish883 made their first contribution in https://github.com/saber-notes/saber/pull/1829
+- Full changelog: https://github.com/saber-notes/saber/compare/v1.36.4...v1.37.0]]></description>
+      <enclosure url="https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber_v1.37.0.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Reynard v0.19.0</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
+      <guid isPermaLink="false">reynard-0.19.0</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Reynard 0.19.0 | Reynard
+
+## Changes
+
+**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.18.0...0.19.0
+
+### New Features
+- Added support for game controllers.
+- You can now import and export your bookmarks, history, and add-ons:
+  - Bookmarks can be imported from and exported to other browsers as an HTML file.
+  - History can be imported from Safari or Google Takeout (Chrome), and exported in Safari's format.
+  - Add-ons can be imported from and exported to another Reynard install.
+
+### Bug Fixes & Improvements
+- Webpages that fail to load now show an error page explaining what went wrong, with options to try again or go back.
+- You can now right-click a Favorite site on the homepage using a pointer device to reveal its context menu.
+- Fixed an issue where pull to refresh would occasionally get stuck, with the refresh spinner appearing indefinitely.
+- Fixed numerous UI issues.
+
+### Engine
+
+Updated Gecko to [158.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_1_RELEASE) (released Oct 20, 2026).]]></description>
+      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa" length="0" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Conduit v4.2.2</title>
+      <link>https://raynmahbub.github.io/OmniSource/feeds/conduit.json</link>
+      <guid isPermaLink="false">conduit-4.2.2</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Conduit 4.2.2 | conduit
+
+## What's Changed
+* Support Open WebUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850
+* Fix four reported bugs: Direct next to Hermes, MCP tool images, channel thread scrolling, default filters by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/870
+* fix/feat: Improve handling for video files in OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pull/869
+* Open the Android assistant on a ready new chat, and keep it after a reboot by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/872
+* Mark chats unread from the chat list and show web unread marks in the app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/874
+* Share screenshots and Files documents to Conduit on iOS with their real contents by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/875
+* Load chat videos on tap, stop resending generated videos, and fix older chats with videos saved as images by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/876
+* Keep server dictation text when stop is tapped while it is transcribing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/873
+* Make the progressive-replacement cadence test independent of timing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/877
+* Close the sidebar when a share opens chat on a phone by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/878
+* List a server under its new address once its old one is edited by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/884
+* Offer the reasoning-effort picker to every model, send it on explicit opt-in by @michaw23 in https://github.com/cogwheel0/conduit/pull/871
+* Share an image from Safari's long-press menu to Conduit as the image by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/885
+* Keep long-message context menu actions visible on iOS by @kapily in https://github.com/cogwheel0/conduit/pull/881
+* Share responses from the ellipsis menu by @kapily in https://github.com/cogwheel0/conduit/pull/882
+* Name a server by its new address on Chat data controls and Personal connections by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/887
+* Name a Hermes connection after its new host when its URL is edited by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/889
+* Copy the response version on screen by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/888
+* Remember which folders are open by saving each toggle to Open WebUI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/886
+* Ask before an Open WebUI function moves the chat to another model by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/890
+* Support Open WebUI 0.12.4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/891
+* Make the chat export share tests wait for staging instead of timing by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/894
+* Go back to the chat list from a chat, channel or folder on Android by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/892
+* Keep everything said in server dictation, to the last word by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/893
+
+## New Contributors
+* @dalgibbard made their first contribution in https://github.com/cogwheel0/conduit/pull/869
+* @michaw23 made their first contribution in https://github.com/cogwheel0/conduit/pull/871
+* @kapily made their first contribution in https://github.com/cogwheel0/conduit/pull/881
+
+**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v4.2.1...v4.2.2]]></description>
+      <enclosure url="https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa" length="0" type="application/octet-stream" />
+    </item>
     <item>
       <title>Saber v1.36.4</title>
       <link>https://raynmahbub.github.io/OmniSource/feeds/saber.json</link>
@@ -687,88 +795,6 @@ This is a minor release that fixes issues found in 0.17.0. For the complete list
 
 Allows official Dopamine to be injected by TrollFools into third-party plugins to provide custom backgrounds, automatic jailbreak countdowns, and other extended features.]]></description>
       <enclosure url="https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Reynard v0.17.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/reynard.json</link>
-      <guid isPermaLink="false">reynard-0.17.0</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Reynard 0.17.0 | Reynard
-
-## Changes
-
-**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0
-
-### Improvements
-- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.
-
-### New Features
-- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.
-- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.
-
-### Bug Fixes
-- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.
-- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.
-- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.
-- Fixed several UI issues.
-
-### Engine
-
-Updated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).]]></description>
-      <enclosure url="https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa" length="0" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Table Habit v1.27.13</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/tablehabit.json</link>
-      <guid isPermaLink="false">tablehabit-1.27.13</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[Table Habit 1.27.13 | mhabit-unsigned
-
-# Released: v1.27.13+202
-
-> Includes updates since the previous stable release, v1.27.9+198.
-
-## ✨ Features
-
-- Add adaptive, collapsible side navigation with an edge style on newer Apple
-  systems (#667)
-  - Preserve navigation state, search, selection, and page actions across
-    layout changes
-- Apply app theme colors and custom palettes to the side navigation (#668)
-- Let users show or hide navigation destinations in the top toolbar when the
-  Apple sidebar is collapsed (#671)
-- Adapt navigation and content safe areas for iPhone Duo and compact-height
-  layouts (#674)
-- Scroll Habits and Today to the top when reselecting the active root tab
-  (#675)
-  - Return nested pages to the tab's root before scrolling on a subsequent tap
-  - Respect reduced motion preferences and pages that prevent back navigation
-
-## 🐛 Fixes
-
-- Improve adaptive interaction styling, keyboard focus, and action-menu
-  behavior (#669)
-- Keep search filters available across layout changes (#669)
-- Align theme labels and Markdown typography (#669)
-- Refresh habit and group views as soon as synced changes are applied, while
-  preserving sync progress and in-progress edits (#672)
-- Keep neutral action colors consistent across app bars, dialogs, search,
-  sidebars, and group actions, and restore modal blur after nested navigation
-  (#673)
-- Keep system status and navigation bars visible while the app launches
-
-## 🌐 Localization
-
-- Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.
-
-## 🧹 Others
-
-- Pin Apple build and submission workflows to Xcode 27.0 (#674)
-- Raise the minimum supported macOS version to 12.0 (#674)
-- Centralize generated-code formatting in the Melos workflow (#674)
-
-[Full Changelog](https://github.com/FriesI23/mhabit/compare/v1.27.9+198...v1.27.13+202)]]></description>
-      <enclosure url="https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa" length="0" type="application/octet-stream" />
     </item>
     <item>
       <title>AppStore++ v2.3.15</title>
@@ -1513,24 +1539,6 @@ Even in the best tested code, mistakes slip through. Sorry for such a hasty upda
 
 Fixed crashes.]]></description>
       <enclosure url="https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa" length="3889341" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>unc0ver v5.2.0</title>
-      <link>https://raynmahbub.github.io/OmniSource/feeds/unc0ver.json</link>
-      <guid isPermaLink="false">unc0ver-5.2.0</guid>
-      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      <description><![CDATA[unc0ver 5.2.0 | unc0ver_5.2.0
-
-Last updated at: 06/09/2020
-
-06/09/2020 - v5.2.0 was released for production with the following changes:
-
-### ⚠️ Support development with https://phonerebel.com ⚠️
-
-- Enable iOS 13.5.5~b1 support
-- Fix a logic bug in disabling auto updates
-- Update bundled Cydia to fix crashes on iOS 13.5 with Hardware Keyboard enabled]]></description>
-      <enclosure url="https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa" length="43235739" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

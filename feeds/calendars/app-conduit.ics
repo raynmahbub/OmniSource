@@ -4,6 +4,42 @@ PRODID:-//OmniSource//Release calendar//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Conduit releases
 BEGIN:VEVENT
+UID:conduit-4.2.2@omnisource
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Conduit v4.2.2
+DESCRIPTION:Conduit 4.2.2 | conduit\n\n## What's Changed\n* Support Open We
+ bUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850\
+ n* Fix four reported bugs: Direct next to Hermes\, MCP tool images\, chann
+ el thread scrolling\, default filters by @cogwheel0 in https://github.com/
+ cogwheel0/conduit/pull/870\n* fix/feat: Improve handling for video files i
+ n OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pu
+ ll/869\n* Open the Android assistant on a ready new chat\, and keep it aft
+ er a reboot by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/872
+ \n* Mark chats unread from the chat list and show web unread marks in the 
+ app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/874\n* Shar
+ e screenshots and Files documents to Conduit on iOS with their real conten
+ ts by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/875\n* Load 
+ chat videos on tap\, stop resending generated videos\, and fix older chats
+  with videos saved as images by @cogwheel0 in https://github.com/cogwheel0
+ /conduit/pull/876\n* Keep server dictation text when stop is tapped while 
+ it is transcribing by @cogwheel0 in https://github.com/cogwheel0/conduit/p
+ ull/873\n* Make the progressive-replacement cadence test independent of ti
+ ming by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/877\n* Clo
+ se the sidebar when a share opens chat on a phone by @cogwheel0 in https:/
+ /github.com/cogwheel0/conduit/pull/878\n* List a server under its new addr
+ ess once its old one is edited by @cogwheel0 in https://github.com/cogwhee
+ l0/conduit/pull/884\n* Offer the reasoning-effort picker to every model\, 
+ send it on explicit opt-in by @michaw23 in https://github.com/cogwheel0/co
+ nduit/pull/871\n* Share an image from Safari's long-press menu to Conduit 
+ as the image by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/88
+ 5\n* Keep long-message context menu actions visible on iOS by @kapily in h
+ ttps://github.com/cogwheel0/conduit/pull/881\n* Share responses from the e
+ llipsis menu by @kapily in https://gi
+URL:https://raynmahbub.github.io/OmniSource/feeds/conduit.json
+END:VEVENT
+BEGIN:VEVENT
 UID:conduit-4.2.1@omnisource
 DTSTAMP:20261016T000000Z
 DTSTART;VALUE=DATE:20261016
