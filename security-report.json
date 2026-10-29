@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T11:23:28Z",
+  "generatedAt": "2026-10-29T10:42:53Z",
   "verdict": "pass",
   "summary": {
     "apps": 128,
@@ -9,13 +9,13 @@
     "hashesMissing": 13,
     "hashesInvalid": 0,
     "duplicateBinaries": 0,
-    "downloadsFailing": 3,
+    "downloadsFailing": 5,
     "downloadsUnknown": 0,
     "provenanceOfficial": 107,
     "provenanceCommunity": 21,
     "provenanceUnknown": 0
   },
-  "downloadSnapshotAt": "2026-10-28T10:44:41Z",
+  "downloadSnapshotAt": "2026-10-29T08:07:14Z",
   "hashes": {
     "apps": 128,
     "sha256": 115,
@@ -78,8 +78,6 @@
       "hanami",
       "helium",
       "infuseplus",
-      "inkillerplus",
-      "iqface",
       "ish",
       "itorrent",
       "itransmission",
@@ -169,6 +167,8 @@
     "failing": [
       "glow",
       "ime",
+      "inkillerplus",
+      "iqface",
       "messenger-flow"
     ],
     "unknown": []
@@ -190,6 +190,18 @@
       "severity": "medium",
       "check": "download-unreachable",
       "id": "ime",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "inkillerplus",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "iqface",
       "detail": "last recorded health probe could not reach the download; a retry may succeed"
     },
     {
