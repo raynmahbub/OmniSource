@@ -4,7 +4,7 @@
   "feedVersion": "4714f967d8e7",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-29T10:42:53Z",
+    "generatedAt": "2026-10-30T10:43:27Z",
     "verdict": "pass",
     "summary": {
       "apps": 128,
@@ -13,13 +13,13 @@
       "hashesMissing": 13,
       "hashesInvalid": 0,
       "duplicateBinaries": 0,
-      "downloadsFailing": 5,
+      "downloadsFailing": 6,
       "downloadsUnknown": 0,
       "provenanceOfficial": 107,
       "provenanceCommunity": 21,
       "provenanceUnknown": 0
     },
-    "downloadSnapshotAt": "2026-10-29T08:07:14Z",
+    "downloadSnapshotAt": "2026-10-30T06:14:28Z",
     "hashes": {
       "apps": 128,
       "sha256": 115,
@@ -134,7 +134,6 @@
         "spotiflac",
         "spotube",
         "statusmagic",
-        "stikdebug",
         "stiknes",
         "streamyfin",
         "swiftgram",
@@ -173,7 +172,8 @@
         "ime",
         "inkillerplus",
         "iqface",
-        "messenger-flow"
+        "messenger-flow",
+        "stikdebug"
       ],
       "unknown": []
     },
@@ -212,6 +212,12 @@
         "severity": "medium",
         "check": "download-unreachable",
         "id": "messenger-flow",
+        "detail": "last recorded health probe could not reach the download; a retry may succeed"
+      },
+      {
+        "severity": "medium",
+        "check": "download-unreachable",
+        "id": "stikdebug",
         "detail": "last recorded health probe could not reach the download; a retry may succeed"
       },
       {
