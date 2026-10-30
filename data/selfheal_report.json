@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T08:07:15Z",
-  "issues": 10,
+  "generatedAt": "2026-10-30T06:14:28Z",
+  "issues": 11,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 5,
+    "replace": 6,
     "rebuild": 5
   },
   "plans": [
@@ -66,6 +66,18 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "stikdebug",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
       "action": "replace",
       "autoFixable": false
     },
