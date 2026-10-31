@@ -1,12 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T02:04:27Z",
-  "issues": 13,
-  "autoFixable": 2,
+  "generatedAt": "2026-10-31T08:41:18Z",
+  "issues": 11,
+  "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
     "replace": 6,
-    "retry": 2,
     "rebuild": 5
   },
   "plans": [
@@ -69,30 +68,6 @@
       "expectedSha256": "",
       "action": "replace",
       "autoFixable": false
-    },
-    {
-      "type": "broken_download",
-      "slug": "ryukgram-ig410",
-      "severity": "high",
-      "detail": "<urlopen error timed out>",
-      "transient": true,
-      "fallbacks": [],
-      "fallbackProbes": [],
-      "expectedSha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
-      "action": "retry",
-      "autoFixable": true
-    },
-    {
-      "type": "broken_download",
-      "slug": "ryukgram-sidebyside",
-      "severity": "high",
-      "detail": "<urlopen error timed out>",
-      "transient": true,
-      "fallbacks": [],
-      "fallbackProbes": [],
-      "expectedSha256": "ec78b8b46427c2812639c3735ecb1c4bae5bbda4edbaba7a107b3e8b418880c5",
-      "action": "retry",
-      "autoFixable": true
     },
     {
       "type": "broken_download",
