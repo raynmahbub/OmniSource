@@ -207,7 +207,22 @@
             }
           ],
           "sha256": "21f13c65ccfd8cd6796df303820d8fbd436488645a5571bf9fae55ec1084b074",
-          "downloads": 2045
+          "downloads": 2045,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "21f13c65ccfd8cd6796df303820d8fbd436488645a5571bf9fae55ec1084b074",
+            "url": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
+            "bundleIdentifier": "com.kodjodevf.mangayomi",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSDocumentUsageDescription": "Mangayomi needs access to your files to create and restore backups.",
+                "NSFaceIDUsageDescription": "Mangayomi needs to authenticate using Face ID.",
+                "NSPhotoLibraryUsageDescription": "Mangayomi needs access to your photo library to save and restore backups."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

@@ -51,7 +51,20 @@
             }
           ],
           "downloads": 567909,
-          "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee"
+          "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
+            "url": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
+            "bundleIdentifier": "org.coolstar.odyssey",
+            "minOSVersion": "13.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryUsageDescription": "For selecting a custom theme image"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

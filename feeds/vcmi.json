@@ -231,7 +231,18 @@
             }
           ],
           "sha256": "dd4313a76d79a125ed5405cd0603c34f8ed4155dba22695f1f24a39a7104875c",
-          "downloads": 3796
+          "downloads": 3796,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "dd4313a76d79a125ed5405cd0603c34f8ed4155dba22695f1f24a39a7104875c",
+            "url": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
+            "bundleIdentifier": "eu.vcmi.vcmiclient",
+            "minOSVersion": "12.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

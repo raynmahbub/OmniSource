@@ -63,7 +63,20 @@
             }
           ],
           "downloads": 238019,
-          "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be"
+          "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
+            "url": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
+            "bundleIdentifier": "com.avangelista.CarTube",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {
+                "NSMicrophoneUsageDescription": "Used for voice search, etc."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

@@ -87,7 +87,23 @@
             }
           ],
           "sha256": "a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c",
-          "downloads": 650
+          "downloads": 650,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c",
+            "url": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa",
+            "bundleIdentifier": "io.bluewallet.bluewallet",
+            "minOSVersion": "15.6",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "In order to quickly scan the recipient's address, we need your permission to use the camera to scan their QR Code.",
+                "NSFaceIDUsageDescription": "In order to use FaceID for authentication when performing sensitive actions, we need your permission.",
+                "NSPhotoLibraryAddUsageDescription": "Your authorization is required to save this image.",
+                "NSPhotoLibraryUsageDescription": "In order to import an image for scanning, we need your permission to access your photo library."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

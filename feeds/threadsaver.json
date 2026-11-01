@@ -49,7 +49,30 @@
               "mimeType": null,
               "installable": true
             }
-          ]
+          ],
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "ddf0df5dc4ba2ee88f7d90dbfc2624f12c766c3f5dc3547c5264c4714079ef13",
+            "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-453.0-ThreadSaver.ipa",
+            "bundleIdentifier": "com.burbn.barcelona",
+            "minOSVersion": "16.3",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "Threads uses Apple Music access to connect your account and add songs you discover to your music library.",
+                "NSCameraUsageDescription": "Threads uses your camera to do things like help you take photos when posting.",
+                "NSContactsUsageDescription": "This helps you and others find your friends and more.",
+                "NSLocationAlwaysAndWhenInUseUsageDescription": "Select \"Always Allow\" to make some features work. You can change this anytime in Settings.",
+                "NSLocationAlwaysUsageDescription": "Select \"Always Allow\" to make some features work. You can change this anytime in Settings.",
+                "NSLocationUsageDescription": "Select ok to make some features work. You can change this anytime in Settings.",
+                "NSLocationWhenInUseUsageDescription": "Your location will be used to show places nearby, allowing you to tag a place on your post.",
+                "NSMicrophoneUsageDescription": "Threads uses your microphone to do things like help you record audio when posting.",
+                "NSMotionUsageDescription": "This makes some features work. You can always change this later in Settings.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+                "NSPhotoLibraryUsageDescription": "This lets you share photos from your library and save photos to your Camera Roll."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

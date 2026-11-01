@@ -75,7 +75,20 @@
             }
           ],
           "downloads": 11415,
-          "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589"
+          "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
+            "url": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
+            "bundleIdentifier": "stream.yattee.app",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Need camera access to take pictures"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

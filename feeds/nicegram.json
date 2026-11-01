@@ -63,7 +63,31 @@
             }
           ],
           "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
-          "downloads": 41
+          "downloads": 41,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
+            "url": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+            "bundleIdentifier": "app.nicegram",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "We need this so that you can take and share photos and videos.",
+                "NSContactsUsageDescription": "Nicegram stores your contacts heavily encrypted in the cloud to let you connect with your friends across all your devices.",
+                "NSFaceIDUsageDescription": "You can use Face ID to unlock the app.",
+                "NSLocationAlwaysUsageDescription": "When you send your location to your friends, Nicegram needs access to show them a map. You also need this to send locations from an Apple Watch.",
+                "NSLocationWhenInUseUsageDescription": "When you send your location to your friends, Nicegram needs access to show them a map.",
+                "NSMicrophoneUsageDescription": "We need this so that you can record and share voice messages and videos with sound.",
+                "NSMotionUsageDescription": "When you send your location to your friends, Nicegram needs access to show them a map.",
+                "NSPhotoLibraryAddUsageDescription": "We use access to your photo library so you can attach and send photos and videos from your device in chats.",
+                "NSPhotoLibraryUsageDescription": "We use access to your photo library so you can attach and send photos and videos from your device in chats.",
+                "NSSiriUsageDescription": "You can use Siri to send messages.",
+                "NSSpeechRecognitionUsageDescription": "We need this to transcribe audio messages on your request.",
+                "NSUserTrackingUsageDescription": "We would like to access your advertising ID in order to accurately identify the source of app installation and provide you with a high quality service"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "2.6.4",

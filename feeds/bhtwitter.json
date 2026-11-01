@@ -87,7 +87,32 @@
             }
           ],
           "downloads": 18439,
-          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981"
+          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+            "url": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+            "bundleIdentifier": "com.atebits.Tweetie2",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "X uses bluetooth to discover Cast-enabled devices near you.",
+                "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+                "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+                "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+                "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+                "NSLocalNetworkUsageDescription": "X uses the local network to discover Cast-enabled devices on your WiFi network.",
+                "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+                "NSPhotoLibraryUsageDescription": "Easily add photos on X.",
+                "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+                "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

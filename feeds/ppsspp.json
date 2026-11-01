@@ -159,7 +159,24 @@
             }
           ],
           "sha256": "822c7042311ff47710c9148c8edb5aab649cf85ce6ba96b9e8190feb91f45a51",
-          "downloads": 13608
+          "downloads": 13608,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "822c7042311ff47710c9148c8edb5aab649cf85ce6ba96b9e8190feb91f45a51",
+            "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+            "bundleIdentifier": "org.ppsspp.ppsspp",
+            "minOSVersion": "11.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Your camera may be used to emulate Go!Cam, a camera accessory",
+                "NSLocalNetworkUsageDescription": "Your local network needs to be accessed by PPSSPP for network multiplayer support.",
+                "NSLocationWhenInUseUsageDescription": "Your location may be used to emulate Go!Explore, a GPS accessory",
+                "NSMicrophoneUsageDescription": "Your microphone may be used to emulate Go!Cam/Talkman, a microphone accessory",
+                "NSPhotoLibraryUsageDescription": "Access to your photos is needed to allow setting a background image."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

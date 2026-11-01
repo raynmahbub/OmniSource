@@ -195,7 +195,18 @@
             }
           ],
           "sha256": "e9538c2a3a7acc1d6d3d97ab69b6bddcf6bc5763dcd520139c8450ce8604fc3c",
-          "downloads": 1174
+          "downloads": 1174,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "e9538c2a3a7acc1d6d3d97ab69b6bddcf6bc5763dcd520139c8450ce8604fc3c",
+            "url": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa",
+            "bundleIdentifier": "nl.jknaapen.fladder",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

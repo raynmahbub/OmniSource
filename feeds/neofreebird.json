@@ -111,7 +111,30 @@
             }
           ],
           "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
-          "downloads": 1813
+          "downloads": 1813,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+            "url": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+            "bundleIdentifier": "com.atebits.Tweetie2",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+                "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+                "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+                "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+                "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+                "NSPhotoLibraryUsageDescription": "Allow access to share photos from your camera roll.",
+                "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+                "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

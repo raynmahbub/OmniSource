@@ -87,7 +87,27 @@
             }
           ],
           "sha256": "06fecba278332f59a9e2896f133bb3ec0346bfeb1c30f36efefe3443cc7803ec",
-          "downloads": 15
+          "downloads": 15,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "06fecba278332f59a9e2896f133bb3ec0346bfeb1c30f36efefe3443cc7803ec",
+            "url": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
+            "bundleIdentifier": "app.cogwheel.conduit",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Conduit uses the camera to take photos or videos you choose to share in chats. For example, you can snap a photo of a document and attach it to a message.",
+                "NSLocalNetworkUsageDescription": "Conduit uses your local network to connect to model providers and configured MCP tool servers.",
+                "NSLocationAlwaysAndWhenInUseUsageDescription": "Conduit uses your location to keep location-aware chats and prompts up to date. When enabled, your current location may be sent to and stored with your account on your connected server.",
+                "NSLocationWhenInUseUsageDescription": "Conduit uses your location to keep location-aware chats and prompts up to date. When enabled, your current location may be sent to and stored with your account on your connected server.",
+                "NSMicrophoneUsageDescription": "Conduit uses the microphone for voice messages, voice-to-text, and active voice calls. During a voice call, the microphone may remain active while Conduit waits for or speaks a response; audio is discarded unless Conduit is listening for your speech.",
+                "NSPersonalVoiceUsageDescription": "Conduit can use your Personal Voice for on-device text-to-speech when you choose it in audio settings.",
+                "NSPhotoLibraryUsageDescription": "Conduit needs access to your photo library so you can select existing images or videos to share in chats. For example, you can pick a screenshot to include in a conversation.",
+                "NSSpeechRecognitionUsageDescription": "Conduit uses on-device speech recognition so you can dictate messages hands‑free. Your speech is converted to text on your device when available."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "4.2.1",

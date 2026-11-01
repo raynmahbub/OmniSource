@@ -63,7 +63,20 @@
             }
           ],
           "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
-          "downloads": 288
+          "downloads": 288,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+            "url": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+            "bundleIdentifier": "org.torproject.orbot",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Needed to read bridge addresses from displayed QR codes."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

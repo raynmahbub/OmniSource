@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-11-01",
   "totals": {
     "apps": 128,
-    "verified": 107,
-    "communityVerified": 18,
-    "unverified": 3,
-    "hashVerified": 0,
+    "verified": 105,
+    "communityVerified": 13,
+    "unverified": 10,
+    "hashVerified": 110,
     "hashRecorded": 115,
     "official": 107,
     "communityBuilds": 21,
     "unknownProvenance": 0,
-    "avgTrustScore": 6.64,
+    "avgTrustScore": 7.8,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -25,13 +25,22 @@
       "name": "3105",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa",
+        "version": "2.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "239cd9a10ad91bdd708bd84e1b75d6e8416a95d2b1e46e34e5e80cc58c324991",
+        "size": 4604223,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "YangJiiii/3105",
@@ -39,27 +48,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "aidoku",
       "name": "Aidoku",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+        "version": "0.9",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+        "size": 14753154,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Aidoku/Aidoku",
@@ -67,27 +85,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "airtroller",
       "name": "AirTroller",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa",
+        "version": "1.1.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
+        "size": 782388,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "sourcelocation/AirTroller",
@@ -95,27 +122,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa",
-      "trustScore": 6.5,
-      "trustBadge": "Community"
+      "trustScore": 8.0,
+      "trustBadge": "Trusted"
     },
     {
       "app": "animationspeed",
       "name": "Animation Speed",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa",
+        "version": "1.0.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
+        "size": 96650,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "DevelopCubeLab/AnimationSpeed",
@@ -123,27 +159,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa",
-      "trustScore": 6.5,
-      "trustBadge": "Community"
+      "trustScore": 8.0,
+      "trustBadge": "Trusted"
     },
     {
       "app": "animegen",
       "name": "AnimeGen",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa",
+        "version": "3.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "408234cf531e68c8aaf94c67fd8952e14e9f9d33379a4a09932c7c2482bfc9a7",
+        "size": 3026218,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "cranci1/AnimeGen",
@@ -151,27 +196,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/cranci1/AnimeGen/releases/download/v3.0.0/AnimeGen.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "anxreader",
       "name": "Anx Reader",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
+        "version": "1.14.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a79bd247859d6a04dae81490aa7d8d970a830af7201415f4ec6aa370b74ae69b",
+        "size": 28677588,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Anxcye/anx-reader",
@@ -179,27 +233,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "anymex",
       "name": "AnymeX",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-iOS-v3.2.0.ipa",
+        "version": "3.2.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "2f354bd40d7abba9ac078696401951a390d840ff2749a27780c8919757c5b396",
+        "size": 80589346,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "RyanYuuki/AnymeX",
@@ -207,27 +270,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-iOS-v3.2.0.ipa",
-      "trustScore": 7.2,
-      "trustBadge": "Community"
+      "trustScore": 8.7,
+      "trustBadge": "Trusted"
     },
     {
       "app": "apollo",
       "name": "Apollo",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
+        "version": "4.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
+        "size": 97618297,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Apollo-Reborn/Apollo-Reborn",
@@ -235,27 +307,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
-      "trustScore": 8.0,
-      "trustBadge": "Trusted"
+      "trustScore": 9.5,
+      "trustBadge": "Verified"
     },
     {
       "app": "appstoreplusplus",
       "name": "AppStore++",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
+        "version": "2.3.15",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
+        "size": 11078209,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "CokePokes/AppStorePlus-TrollStore",
@@ -263,27 +344,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "batteryinfo",
       "name": "Battery Info",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
+        "version": "1.2.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
+        "size": 346882,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "DevelopCubeLab/BatteryInfo",
@@ -291,27 +381,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "battman",
       "name": "Battman",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
+        "version": "1.1.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
+        "size": 1685904,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Torrekie/Battman",
@@ -319,27 +418,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "bhinstagram",
       "name": "BHInstagram",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
+        "version": "1.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "33cfd88c5f9ea965b8d116567c7c725e17a2ed3994a7fd934911180b9dffb453",
+        "size": 228416558,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "BandarHL/BHInstagram",
@@ -347,27 +455,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "bhtwitter",
       "name": "BHTwitter",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+        "version": "4.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+        "size": 167001383,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "BandarHL/BHTwitter",
@@ -375,27 +492,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "bluewallet",
       "name": "BlueWallet",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa",
+        "version": "8.0.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c",
+        "size": 29811150,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "BlueWallet/BlueWallet",
@@ -403,27 +529,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "bootstrap",
       "name": "Bootstrap",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa",
+        "version": "2.2.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
+        "size": 55704386,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "roothide/Bootstrap",
@@ -431,27 +566,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "byetunes",
       "name": "ByeTunes",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
+        "version": "2.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
+        "size": 15631495,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "EduAlexxis/ByeTunes",
@@ -459,27 +603,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "caperfhud",
       "name": "CAPerfHUD",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa",
+        "version": "1.0.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
+        "size": 1058266,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "bomberfish/CAPerfHUDSwift",
@@ -487,27 +640,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "cartube",
       "name": "CarTube",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
+        "version": "1.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "84256ae4820e9e5d5dcc44e43ea2f7ac4bdff06a6e209fdbc8fffef8a927c4be",
+        "size": 574441,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Avangelista/CarTube",
@@ -515,27 +677,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Avangelista/CarTube/releases/download/1.3/CarTube.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "cercube",
       "name": "Cercube for YouTube",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
+        "version": "6.4.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
+        "size": 2056048,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "Cercube (cercube.com - official sideload source altstore.cercube.com, jailbreak repo apt.cercube.com)",
@@ -543,27 +714,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (altstore)"
       ],
       "downloadURL": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64.deb",
-      "trustScore": 4.8,
-      "trustBadge": "Experimental"
+      "trustScore": 6.2,
+      "trustBadge": "Community"
     },
     {
       "app": "chan",
       "name": "Chan",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
+        "version": "1.2.9",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "f3cf8c3d81958fb140b462a795514d2643b4800e9c641a3b24ffd1ebffb650e6",
+        "size": 32697918,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "moffatman/chan",
@@ -571,27 +751,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "chatsen",
       "name": "Chatsen",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
+        "version": "1.1.107",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
+        "size": 10009593,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "chatsen/chatsen",
@@ -599,27 +788,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "conduit",
       "name": "Conduit",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
+        "version": "4.2.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "06fecba278332f59a9e2896f133bb3ec0346bfeb1c30f36efefe3443cc7803ec",
+        "size": 45348117,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "cogwheel0/conduit",
@@ -627,27 +825,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
-      "trustScore": 8.2,
-      "trustBadge": "Trusted"
+      "trustScore": 9.7,
+      "trustBadge": "Verified"
     },
     {
       "app": "cosmos",
       "name": "Cosmos Music Player",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa",
+        "version": "1.2.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "e8e2862e1b3a900e96569faf87c9c3e02d90b2c5b52ad854f6710d0ea36c91e9",
+        "size": 12056869,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "clquwu/Cosmos-Music-Player",
@@ -655,27 +862,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/clquwu/Cosmos-Music-Player/releases/download/1.2.5/Cosmos-Music-Player.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "cowabunga",
       "name": "Cowabunga",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+        "version": "10.3.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "49f6ef56a97acf72e3390cc5fc7d281fb7adf8ab817b74511ff381b0e0bd019c",
+        "size": 16288960,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "leminlimez/Cowabunga",
@@ -683,27 +899,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "delta",
       "name": "Delta",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+        "version": "1.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
+        "size": 87734964,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "RileyTestut/Delta",
@@ -711,55 +936,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
-    },
-    {
-      "app": "dolphinish",
-      "name": "DolphiniOS",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "OatmealDome/dolphin-ios",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "catalog attributes the source to the project's release channel (github-release)"
-      ],
-      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "dopamine",
       "name": "Dopamine",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+        "version": "3.0.12",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
+        "size": 55420784,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "opa334/Dopamine",
@@ -767,27 +973,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "dopamine-roothide",
       "name": "Dopamine (RootHide)",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+        "version": "3.0.12-28",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+        "size": 55497406,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "roothide/Dopamine-roothide",
@@ -795,27 +1010,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "dynamiccow",
       "name": "DynamicCow",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
+        "version": "1.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
+        "size": 915515,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "matteozappia/DynamicCow",
@@ -823,27 +1047,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
-      "trustScore": 6.5,
-      "trustBadge": "Community"
+      "trustScore": 8.0,
+      "trustBadge": "Trusted"
     },
     {
       "app": "eclipse",
       "name": "Eclipse",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+        "version": "2.3.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
+        "size": 36182081,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Soupy-dev/Eclipse",
@@ -851,27 +1084,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "enablequic",
       "name": "EnableQUIC",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa",
+        "version": "1.2.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "9eb4fbce1a75780893d2bc36c8d39c645f1551ad4807e82135e1b3a64cf255a9",
+        "size": 362372,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "DevelopCubeLab/EnableQUIC",
@@ -879,27 +1121,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/DevelopCubeLab/EnableQUIC/releases/download/1.2.4/EnableQUIC_1.2.4.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "escapeos",
       "name": "EscapeOS",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
+        "version": "0.1.8",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
+        "size": 7307240,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "pwnapplehat/EscapeOS",
@@ -907,27 +1158,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "feather",
       "name": "Feather",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
+        "version": "2.9.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea",
+        "size": 14241853,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "claration/Feather",
@@ -935,27 +1195,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/claration/feather/releases/download/v2.9.0/Feather.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "fladder",
       "name": "Fladder",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa",
+        "version": "0.11.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "e9538c2a3a7acc1d6d3d97ab69b6bddcf6bc5763dcd520139c8450ce8604fc3c",
+        "size": 41137245,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "DonutWare/Fladder",
@@ -963,27 +1232,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/DonutWare/Fladder/releases/download/v0.11.1/Fladder-iOS-0.11.1.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "gopeed",
       "name": "Gopeed",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
+        "version": "1.9.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "3f024956a28c27e20bb28bee519c0236b46ba496770a3ce368c20b093b1b20fa",
+        "size": 27488140,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "GopeedLab/gopeed",
@@ -991,27 +1269,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "hanami",
       "name": "Hanami",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
+        "version": "0.28.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
+        "size": 6305751,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "oolxg/Hanami",
@@ -1019,27 +1306,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "helium",
       "name": "Helium",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa",
+        "version": "3.2.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "120a6c1002885d6c3ac1b8dbbe62cc91b66c8bd79955f3034a191dec93fc77fd",
+        "size": 4168281,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "leminlimez/Helium",
@@ -1047,14 +1343,14 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/leminlimez/Helium/releases/download/v3.2.5/Helium.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "inkillerplus",
@@ -1089,13 +1385,22 @@
       "name": "iSH",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
+        "version": "813",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "f2d389ca859d380e2f53259a245340e22c64dba68db73f5977f75a3464e1ee3d",
+        "size": 4602446,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "ish-app/ish",
@@ -1103,27 +1408,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "itorrent",
       "name": "iTorrent",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+        "version": "2.2.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
+        "size": 24288935,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "XITRIX/iTorrent",
@@ -1131,27 +1445,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "itransmission",
       "name": "iTransmission",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa",
+        "version": "1.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ded952869d151799271a31534f0d3ac2de18399171fba0c4351132eecf82bd48",
+        "size": 3718662,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "alexsvitlov/iTransmission",
@@ -1159,27 +1482,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "jellify",
       "name": "Jellify",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+        "version": "1.3.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
+        "size": 41451346,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Jellify-Music/App",
@@ -1187,27 +1519,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "jellybook",
       "name": "JellyBook",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.2/JellyBook-Release.ipa",
+        "version": "1.4.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "b2a8b05afab6c2e4eb76f1c2f2c45d91082bd6f0779d87dcd59097625caba0d8",
+        "size": 14674453,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "JellyBookOrg/JellyBook",
@@ -1215,27 +1556,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.2/JellyBook-Release.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ksign",
       "name": "Ksign",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Nyasami/Ksign/releases/download/v1.6/Ksign.ipa",
+        "version": "1.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "57fbab135bdcd584faf095099f0913df634ce17081bc164ce82f3d91e3978483",
+        "size": 16394645,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Nyasami/Ksign",
@@ -1243,27 +1593,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.6/Ksign.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "lara",
       "name": "Lara",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
+        "version": "0.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
+        "size": 5474210,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "rooootdev/lara",
@@ -1271,27 +1630,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
-      "trustScore": 6.5,
-      "trustBadge": "Community"
+      "trustScore": 8.0,
+      "trustBadge": "Trusted"
     },
     {
       "app": "livecontainer",
       "name": "LiveContainer",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+        "version": "3.8.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "b6fea95e30083382e29ffef88fa1aaa40b5069e1112e5307d490dab04648bba6",
+        "size": 4707271,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "LiveContainer/LiveContainer",
@@ -1299,27 +1667,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "mame4ios",
       "name": "MAME4iOS",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
+        "version": "2022.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
+        "size": 52332306,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "yoshisuga/MAME4iOS",
@@ -1327,27 +1704,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "mangayomi",
       "name": "Mangayomi",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
+        "version": "0.9.9",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "21f13c65ccfd8cd6796df303820d8fbd436488645a5571bf9fae55ec1084b074",
+        "size": 114603425,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "kodjodevf/mangayomi",
@@ -1355,27 +1741,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "manicemu",
       "name": "Manic EMU",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
+        "version": "2.0.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "b670b1c1c538325d82ff2c74ebacd97c9fb338af6dc8516cccbfade882147b71",
+        "size": 288525117,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Manic-EMU/ManicEMU",
@@ -1383,27 +1778,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "maxmusic",
       "name": "MaxMusic",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
+        "version": "9.37.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
+        "size": 106518711,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Mark02-2012/MaxMusic",
@@ -1411,27 +1815,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
-      "trustScore": 8.4,
-      "trustBadge": "Trusted"
+      "trustScore": 9.9,
+      "trustBadge": "Verified"
     },
     {
       "app": "minivmac",
       "name": "Mini vMac",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
+        "version": "2.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4",
+        "size": 668434,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "zydeco/minivmac4ios",
@@ -1439,27 +1852,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
-      "trustScore": 6.5,
-      "trustBadge": "Community"
+      "trustScore": 8.0,
+      "trustBadge": "Trusted"
     },
     {
       "app": "monal",
       "name": "Monal",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
+        "version": "6.4.24",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941",
+        "size": 39970806,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "monal-im/Monal",
@@ -1467,27 +1889,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
+      "trustScore": 9.0,
+      "trustBadge": "Verified"
     },
     {
       "app": "spotiflac",
       "name": "Mornye",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+        "version": "5.2.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+        "size": 35645397,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mornyeapp/Mornye",
@@ -1495,27 +1926,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "muffinstore",
       "name": "MuffinStore",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa",
+        "version": "1.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
+        "size": 126091,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mineek/MuffinStore",
@@ -1523,27 +1963,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "mugunghwa",
       "name": "Mugunghwa",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
+        "version": "3.0.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "df6d6273ccb7bb77d4de9426822f68b343890ea180992fdecffe822706c9f636",
+        "size": 3889341,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "s8ngyu/Mugunghwa",
@@ -1551,27 +2000,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/s8ngyu/Mugunghwa/releases/download/3.0.2/Mugunghwa.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "neofreebird",
       "name": "NeoFreeBird",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+        "version": "7.2.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+        "size": 259047406,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "NeoFreeBird/app",
@@ -1579,27 +2037,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "nicegram",
       "name": "Nicegram",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
+        "version": "2.6.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "5b8ad2764b075be84b701ec87419476cc0db473d841a846115cc36df19ea274e",
+        "size": 111878018,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "nicegram/Nicegram-iOS",
@@ -1607,27 +2074,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-727/Nicegram.ipa",
-      "trustScore": 7.8,
-      "trustBadge": "Trusted"
+      "trustScore": 9.3,
+      "trustBadge": "Verified"
     },
     {
       "app": "nuvio",
       "name": "Nuvio",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.5-beta/nuvio-0.6.5-full-release.ipa",
+        "version": "0.6.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "599eff1327f1018e65f0f577f1d3e6070833dc3d291589105dfa173ef7b41d7e",
+        "size": 67965485,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "NuvioMedia/NuvioMobile",
@@ -1635,27 +2111,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.5-beta/nuvio-0.6.5-full-release.ipa",
-      "trustScore": 8.4,
-      "trustBadge": "Trusted"
+      "trustScore": 9.9,
+      "trustBadge": "Verified"
     },
     {
       "app": "odyssey",
       "name": "Odyssey",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
+        "version": "1.4.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "69e4196f1ba567c89adfec43c744aa8840ccb001b20c9fdb4f1e59e4257a6fee",
+        "size": 27204395,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Odyssey-Team/Odyssey",
@@ -1663,27 +2148,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "onionbrowser",
       "name": "Onion Browser",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
+        "version": "3.4.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
+        "size": 42254891,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "OnionBrowser/OnionBrowser",
@@ -1691,27 +2185,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "nebuloiptv",
       "name": "Onside TV",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+        "version": "3.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
+        "size": 51168260,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mongoosemonke504/OnsideTV",
@@ -1719,27 +2222,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "orbot",
       "name": "Orbot",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
+        "version": "1.14.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "03323e1d57814adb6d8e4d3d69fb70c8bb8c6343a5d736c4b79973751b0862db",
+        "size": 51331248,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "guardianproject/orbot-apple",
@@ -1747,27 +2259,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/guardianproject/orbot-apple/releases/download/v1.14.0/Orbot.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "otraku",
       "name": "Otraku",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
+        "version": "1.13.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+        "size": 10342358,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "lotusprey/otraku",
@@ -1775,27 +2296,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "pikatorrent",
       "name": "PikaTorrent",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
+        "version": "0.15.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
+        "size": 38053348,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "G-Ray/pikatorrent",
@@ -1803,27 +2333,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "pocketposter",
       "name": "Pocket Poster",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
+        "version": "3.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "0306c349a4292ca3c40647a48bf8959f4b8d9fa7793cab444d2f79f23d4aaaf7",
+        "size": 13686800,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "leminlimez/Pocket-Poster",
@@ -1831,27 +2370,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ppsspp",
       "name": "PPSSPP",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+        "version": "1.20.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "822c7042311ff47710c9148c8edb5aab649cf85ce6ba96b9e8190feb91f45a51",
+        "size": 31124277,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "hrydgard/ppsspp",
@@ -1859,27 +2407,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "provenance",
       "name": "Provenance",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+        "version": "3.3.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
+        "size": 1076407494,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Provenance-Emu/Provenance",
@@ -1887,27 +2444,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "purekfd",
       "name": "PureKFD",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
+        "version": "6.0.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
+        "size": 10806164,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Lrdsnow/PureKFD",
@@ -1915,27 +2481,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "qbitconnect",
       "name": "qBitConnect",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa",
+        "version": "1.6.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "683361416e6816c167f4dd72b5d4742a59c3a10faaa0823f8c5ec0754ba941c4",
+        "size": 11798221,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "RajnishOne/qbitconnect",
@@ -1943,27 +2518,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "qbitcontrol",
       "name": "qBitControl",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa",
+        "version": "1.4.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "4a218f22120e5251fac7383c36169adbbf0503453aac339cc5573df4bb6dc6c3",
+        "size": 4777720,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Michael-128/qBitControl",
@@ -1971,27 +2555,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "qbitcontroller",
       "name": "qBitController",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-ios.ipa",
+        "version": "2.2.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "1b4acd90d9fcf81ec093eaa7530cad1479f53ffd5ff2c2e0ad348462ae77a383",
+        "size": 18243979,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Bartuzen/qBitController",
@@ -1999,27 +2592,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-ios.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "raintweak",
       "name": "RainTweak",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
+        "version": "1.2.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
+        "size": 107065935,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "codeberg-release",
       "publisher": "raincord/RainTweak (Codeberg)",
@@ -2027,27 +2629,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (codeberg-release)"
       ],
       "downloadURL": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
-      "trustScore": 6.5,
-      "trustBadge": "Community"
+      "trustScore": 8.0,
+      "trustBadge": "Trusted"
     },
     {
       "app": "redditfilter",
       "name": "RedditFilter",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
+        "version": "2025.37.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
+        "size": 137114565,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "level3tjg/RedditFilter",
@@ -2055,27 +2666,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "reynard",
       "name": "Reynard",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+        "version": "0.19.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "929719d1e0f2548ef1a18b5bf96002622d8df215d3dd3ff58205049657815407",
+        "size": 111139976,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "minh-ton/reynard-browser",
@@ -2083,27 +2703,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
-      "trustScore": 7.8,
-      "trustBadge": "Trusted"
+      "trustScore": 9.3,
+      "trustBadge": "Verified"
     },
     {
       "app": "ryukgram-ig410",
       "name": "RyukGram (IG 410)",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
+        "version": "410.1.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
+        "size": 267074754,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
@@ -2111,27 +2740,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (altstore)"
       ],
       "downloadURL": "https://source.ryuksign.com/ipas/959abf1407579dbd3f46.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ryukgram-sidebyside",
       "name": "RyukGram Side by Side",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
+        "version": "449.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ec78b8b46427c2812639c3735ecb1c4bae5bbda4edbaba7a107b3e8b418880c5",
+        "size": 269519729,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "Ryuk / RyukSign (source.ryuksign.com)",
@@ -2139,27 +2777,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (altstore)"
       ],
       "downloadURL": "https://source.ryuksign.com/ipas/9680da5f9b755d9fc8b0.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "saber",
       "name": "Saber",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber_v1.37.0.ipa",
+        "version": "1.37.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "9b77a04e4fd92ee4c9585c6d3faab4279ea0308e696093b2b8473fbec26cb3a0",
+        "size": 37262448,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "saber-notes/saber",
@@ -2167,27 +2814,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber_v1.37.0.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "sameboy",
       "name": "SameBoy",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
+        "version": "1.0.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "4ec51175711b1bf123aeb86a7e711ed069104867a7f8008e775e3cae5cbdd188",
+        "size": 3178122,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "LIJI32/SameBoy",
@@ -2195,27 +2851,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "secondhand",
       "name": "SecondHand",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa",
+        "version": "1.3.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "5ea276d7c5230b4eb17dd03fae0b23333d505a05dd82c08ae2a66f46b75d9ec0",
+        "size": 2786937,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "leminlimez/SecondHand",
@@ -2223,27 +2888,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/leminlimez/SecondHand/releases/download/1.3.1/SecondHand.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "serotonin",
       "name": "Serotonin",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
+        "version": "1.2.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "3382bb80b113cba0cd641ed6cc8e00234d37fca51882a9aff524ee6829af2b2b",
+        "size": 14986482,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "SerotoninApp/Serotonin",
@@ -2251,27 +2925,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/SerotoninApp/Serotonin/releases/download/1.2.1/Serotonin.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "sidestore",
       "name": "SideStore",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
+        "version": "0.7.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "e334f86e6ceeab2e0d886c07611246533f474bb18838cf13ebc09ed1f0d622b5",
+        "size": 27770821,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "SideStore/SideStore",
@@ -2279,27 +2962,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "snmessenger",
       "name": "SNMessenger",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
+        "version": "517.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
+        "size": 74865911,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "NguyenASang/SNMessenger",
@@ -2307,27 +2999,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "sora",
       "name": "Sora",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
+        "version": "1.3.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
+        "size": 3112338,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "cranci1/Sora",
@@ -2335,27 +3036,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "spotube",
       "name": "Spotube",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
+        "version": "5.1.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
+        "size": 34853093,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "team-spotube/spotube",
@@ -2363,27 +3073,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "statusmagic",
       "name": "StatusMagic",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa",
+        "version": "1.0.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
+        "size": 1218528,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Avangelista/StatusMagic",
@@ -2391,14 +3110,14 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "stikdebug",
@@ -2433,13 +3152,22 @@
       "name": "StikNES",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
+        "version": "2.0.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
+        "size": 7141231,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "StikEMU/StikNES-2.0",
@@ -2447,27 +3175,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "streamyfin",
       "name": "Streamyfin",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
+        "version": "0.55.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
+        "size": 73761532,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "streamyfin/streamyfin",
@@ -2475,27 +3212,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
-      "trustScore": 7.5,
-      "trustBadge": "Trusted"
+      "trustScore": 9.0,
+      "trustBadge": "Verified"
     },
     {
       "app": "synkplay",
       "name": "Synkplay",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
+        "version": "0.26.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "179399acdc36f6410cd40357de1ab3d2d9812f6f97da6c6c68184adcbed1126e",
+        "size": 94047950,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "yuroyami/syncplay-mobile",
@@ -2503,27 +3249,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "tablehabit",
       "name": "Table Habit",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
+        "version": "1.27.15",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
+        "size": 15128625,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "FriesI23/mhabit",
@@ -2531,27 +3286,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "taurine",
       "name": "Taurine",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
+        "version": "1.1.7",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
+        "size": 32244737,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Odyssey-Team/Taurine",
@@ -2559,27 +3323,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "thunder",
       "name": "Thunder",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa",
+        "version": "0.8.6",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "d5f28944d00224afc600ce8a34bdcb8503c380d5b0ec891d98ef71dec4e8541d",
+        "size": 17830940,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "thunder-app/thunder",
@@ -2587,27 +3360,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/thunder-app/thunder/releases/download/0.8.6/thunder-v0.8.6.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "trollfools",
       "name": "TrollFools",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
+        "version": "4.4-257",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
+        "size": 6213777,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Lessica/TrollFools",
@@ -2615,27 +3397,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "trollinstallerx",
       "name": "TrollInstallerX",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
+        "version": "1.0.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "7107251c6db1ca5536526d00d902956f4e7d1c9159d085ab5aed332dd097734e",
+        "size": 6889214,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "alfiecg24/TrollInstallerX",
@@ -2643,14 +3434,14 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ttkillerplus",
@@ -2663,7 +3454,16 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://ikghd.site/ipa/TikTok_47.4_TTKillerPlus_2.3.ipa",
+        "version": "47.4.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ef955d87ab5c057177d69b024c48e2e536913cb087c162999ccfd4d821949a16",
+        "size": 489770030,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "iKarwan (repo.ikghd.me)",
@@ -2685,13 +3485,22 @@
       "name": "TwitchAdBlock",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+        "version": "31.7",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+        "size": 197800481,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "gunnerkidBT/TwitchAdBlock",
@@ -2699,27 +3508,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
-      "trustScore": 7.4,
-      "trustBadge": "Community"
+      "trustScore": 8.9,
+      "trustBadge": "Trusted"
     },
     {
       "app": "unc0ver",
       "name": "unc0ver",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
+        "version": "5.2.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "bb2d455c130d07b7c81bd548a66eb3ceecea047c14ca8021040716651b4d3234",
+        "size": 43235739,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "pwn20wndstuff/Undecimus",
@@ -2727,27 +3545,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/pwn20wndstuff/Undecimus/releases/download/v5.2.0/unc0ver_5.2.0.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "utm",
       "name": "UTM",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+        "version": "5.0.8",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
+        "size": 150556413,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "utmapp/UTM",
@@ -2755,27 +3582,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "vcmi",
       "name": "VCMI",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
+        "version": "1.7.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "dd4313a76d79a125ed5405cd0603c34f8ed4155dba22695f1f24a39a7104875c",
+        "size": 28187923,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "vcmi/vcmi",
@@ -2783,27 +3619,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "vibecontainers",
       "name": "VibeContainers",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa",
+        "version": "1.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
+        "size": 8948447,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "GenericCoding/VibeContainers",
@@ -2811,27 +3656,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "voyager",
       "name": "Voyager",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
+        "version": "2.49.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "584dae7a9738908def30873c016b1dd5e26f15187cd201a7d95386682c6a46a9",
+        "size": 8232319,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "aeharding/voyager",
@@ -2839,27 +3693,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "wdbfontoverwrite",
       "name": "WDBFontOverwrite",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
+        "version": "1.10.8",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
+        "size": 5348316,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "ginsudev/WDBFontOverwrite",
@@ -2867,27 +3730,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "winston",
       "name": "Winston",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
+        "version": "1.1.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
+        "size": 50003343,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "lo-cafe/winston",
@@ -2895,55 +3767,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
-    },
-    {
-      "app": "xenios",
-      "name": "XeniOS",
-      "status": "VERIFIED",
-      "provenance": "official",
-      "hash_verified": false,
-      "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
-        "origin": "unconfirmed"
-      },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
-      "method": "github-release",
-      "publisher": "xenios-jp/XeniOS",
-      "checks": {
-        "metadata": true,
-        "urls": true,
-        "fileAvailable": true,
-        "hashVerified": false
-      },
-      "reasons": [
-        "catalog attributes the source to the project's release channel (github-release)"
-      ],
-      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "yattee",
       "name": "Yattee",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
+        "version": "1.5.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "92523775ad4b7c114ab79a23cf150d86cc5dc59a16f9006e6a4c31d8c463a589",
+        "size": 20792685,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "yattee/yattee",
@@ -2951,27 +3804,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ytkace",
       "name": "YTKACE",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+        "version": "21.42.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+        "size": 138006169,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "itzzace/ytkace",
@@ -2979,27 +3841,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
     },
     {
       "app": "zeus",
       "name": "Zeus",
       "status": "VERIFIED",
       "provenance": "official",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
+        "version": "13.2.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
+        "size": 79812840,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "ZeusLN/zeus",
@@ -3007,14 +3878,54 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog attributes the source to the project's release channel (github-release)"
       ],
       "downloadURL": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
-      "trustScore": 7.0,
-      "trustBadge": "Community"
+      "trustScore": 8.5,
+      "trustBadge": "Trusted"
+    },
+    {
+      "app": "dolphinish",
+      "name": "DolphiniOS",
+      "status": "UNVERIFIED",
+      "provenance": "official",
+      "hash_verified": false,
+      "digestEvidence": {
+        "status": "recorded",
+        "checkedAt": "",
+        "origin": "unconfirmed"
+      },
+      "transparencyEvidence": {
+        "url": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+        "version": "5.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "8460c194f0b24ab3a15594e800e1533cb14e90e0aa51527b3609c7ac0f9745c2",
+        "size": 17963367,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "bundle ID mismatch",
+        "checkedAt": "2026-11-01"
+      },
+      "method": "github-release",
+      "publisher": "OatmealDome/dolphin-ios",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": false
+      },
+      "reasons": [
+        "failed or unknown check: integrity mismatch"
+      ],
+      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+      "trustScore": 4.0,
+      "trustBadge": "Experimental"
     },
     {
       "app": "glow",
@@ -3083,7 +3994,16 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
+        "version": "8.5.9",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "77975cfdb47c11e271f6e5a49647b2b0a75584e451fd5f20c6700b8fdcec77c6",
+        "size": 99818620,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
@@ -3133,13 +4053,22 @@
       "name": "MaxTube",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
+        "version": "21.31.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
+        "size": 133357787,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "Ashreq/ashstore-repo",
@@ -3147,13 +4076,13 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
-      "trustScore": 5.0,
+      "trustScore": 6.5,
       "trustBadge": "Community"
     },
     {
@@ -3195,7 +4124,16 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Messenger-585.0.0-MSGPlusX.ipa",
+        "version": "585.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "cda83293201b0755e6f9058b6a89b2490044c7d115035a277b111340618f20f0",
+        "size": 126239167,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
@@ -3223,7 +4161,16 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
+        "version": "8.84.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ebf631e0b830f5dd54574cbd7d3919f0b019ac5a346892217063038b7a231eeb",
+        "size": 227577628,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
@@ -3243,7 +4190,7 @@
     {
       "app": "ryukgram",
       "name": "RyukGram",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -3251,8 +4198,20 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-RyukGram.ipa",
+        "version": "453.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "fde60d77982bdb5359bfac98ce2045e11f8b1586c793a7f354c8ff673c0017b4",
+        "size": 359614397,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "size mismatch",
+        "checkedAt": "2026-11-01"
+      },
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checks": {
@@ -3262,16 +4221,16 @@
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: integrity mismatch"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-RyukGram.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 4.0,
+      "trustBadge": "Experimental"
     },
     {
       "app": "sparkle",
       "name": "Sparkle",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -3279,8 +4238,20 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
+        "version": "453.0.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "67966385bd98adc8863f92d15441ce8ebef644b8e49fdf63fbf7e39bed9dbc23",
+        "size": 351776283,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "bundle ID mismatch",
+        "checkedAt": "2026-11-01"
+      },
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checks": {
@@ -3290,16 +4261,16 @@
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: integrity mismatch"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-Sparkle.ipa",
-      "trustScore": 5.3,
-      "trustBadge": "Community"
+      "trustScore": 3.4,
+      "trustBadge": "Experimental"
     },
     {
       "app": "swiftgram",
       "name": "Swiftgram",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -3307,8 +4278,20 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.1.1-TF-MxGram.ipa",
+        "version": "13.1.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "eb8b9afd8996d0d346a051014b8881ac02ced9a2523e547f9367a541deea3de2",
+        "size": 86204831,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "bundle ID mismatch",
+        "checkedAt": "2026-11-01"
+      },
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checks": {
@@ -3318,16 +4301,16 @@
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: integrity mismatch"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Swiftgram-13.1.1-TF-MxGram.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 4.0,
+      "trustBadge": "Experimental"
     },
     {
       "app": "telegram-mxgram",
       "name": "Telegram MxGram",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -3335,8 +4318,20 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
+        "version": "13.1.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a3852810e31d3896316303b97c18b7f153b198cf5723f57373dc071e1a340c92",
+        "size": 88831869,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "bundle ID mismatch",
+        "checkedAt": "2026-11-01"
+      },
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checks": {
@@ -3346,10 +4341,10 @@
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: integrity mismatch"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Telegram-13.1.1-MxGram.ipa",
-      "trustScore": 4.2,
+      "trustScore": 2.2,
       "trustBadge": "Experimental"
     },
     {
@@ -3363,7 +4358,16 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Threads-453.0-ThreadSaver.ipa",
+        "version": "453.0",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "ddf0df5dc4ba2ee88f7d90dbfc2624f12c766c3f5dc3547c5264c4714079ef13",
+        "size": 230659970,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
@@ -3383,7 +4387,7 @@
     {
       "app": "turrit-mxgram",
       "name": "Turrit MxGram",
-      "status": "COMMUNITY VERIFIED",
+      "status": "UNVERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -3391,8 +4395,20 @@
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
+      "transparencyEvidence": {
+        "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-MxGram.ipa",
+        "version": "1.5.7",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a3e3f887781ca05c387561e59323c4834ffae7f7e14c9458a4b8d06c32028fc2",
+        "size": 109989682,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "bundle ID mismatch",
+        "checkedAt": "2026-11-01"
+      },
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checks": {
@@ -3402,24 +4418,33 @@
         "hashVerified": false
       },
       "reasons": [
-        "catalog lists a community source (altstore); the project and IPA publisher may differ"
+        "failed or unknown check: integrity mismatch"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Turrit-1.5.7-MxGram.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 4.0,
+      "trustBadge": "Experimental"
     },
     {
       "app": "uprovid",
       "name": "uProVid",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
+        "version": "21.39.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
+        "size": 147923687,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "raynmahbub/OmniSource (Tweak Factory)",
@@ -3427,27 +4452,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.4/ASJTube-1.4_21.39.4.ipa",
-      "trustScore": 3.8,
-      "trustBadge": "Experimental"
+      "trustScore": 5.2,
+      "trustBadge": "Community"
     },
     {
       "app": "uyouenhanced",
       "name": "uYouEnhanced",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
+        "version": "21.14.4",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
+        "size": 135840058,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "manual-mirror",
       "publisher": "Community build of arichornlover/uYouEnhanced, mirrored on archive.org",
@@ -3455,30 +4489,42 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (manual-mirror); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
-      "trustScore": 5.0,
+      "trustScore": 6.5,
       "trustBadge": "Community"
     },
     {
-      "app": "youmod",
-      "name": "YouMod",
-      "status": "COMMUNITY VERIFIED",
-      "provenance": "community",
+      "app": "xenios",
+      "name": "XeniOS",
+      "status": "UNVERIFIED",
+      "provenance": "official",
       "hash_verified": false,
       "digestEvidence": {
         "status": "recorded",
         "checkedAt": "",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
-      "integrityFailure": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
+        "version": "2.0.1",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "61de6cfc9cf05389161272ceaa70d46662dab77de40ab11fdda3d4a2221621a7",
+        "size": 46253576,
+        "matchesRecordedAtCheck": false,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": {
+        "detail": "bundle ID mismatch",
+        "checkedAt": "2026-11-01"
+      },
       "method": "github-release",
-      "publisher": "mrdrvt99/YouProEXTRA",
+      "publisher": "xenios-jp/XeniOS",
       "checks": {
         "metadata": true,
         "urls": true,
@@ -3486,10 +4532,47 @@
         "hashVerified": false
       },
       "reasons": [
+        "failed or unknown check: integrity mismatch"
+      ],
+      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
+      "trustScore": 4.0,
+      "trustBadge": "Experimental"
+    },
+    {
+      "app": "youmod",
+      "name": "YouMod",
+      "status": "COMMUNITY VERIFIED",
+      "provenance": "community",
+      "hash_verified": true,
+      "digestEvidence": {
+        "status": "matched",
+        "checkedAt": "2026-11-01",
+        "origin": "unconfirmed"
+      },
+      "transparencyEvidence": {
+        "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
+        "version": "21.43.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
+        "size": 131824994,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
+      "integrityFailure": null,
+      "method": "github-release",
+      "publisher": "mrdrvt99/YouProEXTRA",
+      "checks": {
+        "metadata": true,
+        "urls": true,
+        "fileAvailable": true,
+        "hashVerified": true
+      },
+      "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
-      "trustScore": 5.5,
+      "trustScore": 7.0,
       "trustBadge": "Community"
     },
     {
@@ -3497,13 +4580,22 @@
       "name": "YouPro",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.43.5_1.3.1.ipa",
+        "version": "21.43.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "9cc1220f35811424dd253dc9ce6005cb154c03fb503be3d53faf6886e2f53bf2",
+        "size": 131707413,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
@@ -3511,13 +4603,13 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.43.5_1.3.1.ipa",
-      "trustScore": 7.5,
+      "trustScore": 8.9,
       "trustBadge": "Trusted"
     },
     {
@@ -3525,13 +4617,22 @@
       "name": "YouTube Plus",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
+        "version": "21.43.5",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "9dda50a09f21b999d036dd00d5e128211b79a3576b1bf1617a00f51fa37fd911",
+        "size": 150260037,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
@@ -3539,27 +4640,36 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
-      "trustScore": 6.8,
-      "trustBadge": "Community"
+      "trustScore": 8.3,
+      "trustBadge": "Trusted"
     },
     {
       "app": "ytkp",
       "name": "YTKillerPlus",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
+        "version": "21.38.3",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
+        "size": 143635824,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mrdrvt99/YouProEXTRA",
@@ -3567,13 +4677,13 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
-      "trustScore": 5.0,
+      "trustScore": 6.5,
       "trustBadge": "Community"
     },
     {
@@ -3581,13 +4691,22 @@
       "name": "YTMusicUltimate",
       "status": "COMMUNITY VERIFIED",
       "provenance": "community",
-      "hash_verified": false,
+      "hash_verified": true,
       "digestEvidence": {
-        "status": "recorded",
-        "checkedAt": "",
+        "status": "matched",
+        "checkedAt": "2026-11-01",
         "origin": "unconfirmed"
       },
-      "transparencyEvidence": null,
+      "transparencyEvidence": {
+        "url": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa39/YTMusicUltimate_9.43.2_2.4.1.ipa",
+        "version": "9.43.2",
+        "lastHashedAt": "2026-11-01",
+        "sha256": "755040db9227441242ebc05f134b05ed15fd49409bee3282bb2a9b0bf8254bfc",
+        "size": 106337834,
+        "matchesRecordedAtCheck": true,
+        "sameVersionDifferentDigest": false,
+        "sameURLDifferentDigest": false
+      },
       "integrityFailure": null,
       "method": "github-release",
       "publisher": "mrdrvt99/YTMusicUltimate",
@@ -3595,14 +4714,14 @@
         "metadata": true,
         "urls": true,
         "fileAvailable": true,
-        "hashVerified": false
+        "hashVerified": true
       },
       "reasons": [
         "catalog lists a community source (github-release); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa39/YTMusicUltimate_9.43.2_2.4.1.ipa",
-      "trustScore": 6.0,
-      "trustBadge": "Community"
+      "trustScore": 7.5,
+      "trustBadge": "Trusted"
     }
   ]
 }

@@ -49,7 +49,27 @@
               "mimeType": null,
               "installable": true
             }
-          ]
+          ],
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "ebf631e0b830f5dd54574cbd7d3919f0b019ac5a346892217063038b7a231eeb",
+            "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/SoundCloud-8.84.0-NexaSC.ipa",
+            "bundleIdentifier": "com.soundcloud.TouchApp",
+            "minOSVersion": "16.4",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothPeripheralUsageDescription": "SoundCloud would like to use bluetooth.",
+                "NSCameraUsageDescription": "bla-bla-bla",
+                "NSLocalNetworkUsageDescription": "SoundCloud uses the local network to discover Cast-enabled devices on your WiFi network.",
+                "NSMicrophoneUsageDescription": "SoundCloud would like to use the microphone.",
+                "NSPhotoLibraryAddUsageDescription": "SoundCloud would like to access the photos library.",
+                "NSPhotoLibraryUsageDescription": "SoundCloud would like to store a photo.",
+                "NSSiriUsageDescription": "SoundCloud would like to use Siri",
+                "NSUserTrackingUsageDescription": "This helps us personalize your tracks and show ads that match your energy."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

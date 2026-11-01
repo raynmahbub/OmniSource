@@ -123,7 +123,18 @@
             }
           ],
           "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
-          "downloads": 3236
+          "downloads": 3236,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "0c02f3de181df9c77a03bfa8326449feddf66bc1b1508f65ffde6b86eb72cd89",
+            "url": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
+            "bundleIdentifier": "com.pikatorrent.PikaTorrent",
+            "minOSVersion": "13.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

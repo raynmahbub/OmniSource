@@ -49,7 +49,27 @@
               "mimeType": null,
               "installable": true
             }
-          ]
+          ],
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "77975cfdb47c11e271f6e5a49647b2b0a75584e451fd5f20c6700b8fdcec77c6",
+            "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
+            "bundleIdentifier": "com.firecore.infuse",
+            "minOSVersion": "18.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos.",
+                "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
+                "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
+                "NSCameraUsageDescription": "Used for scanning QR codes",
+                "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled",
+                "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
+                "NSMicrophoneUsageDescription": "Used for pairing with external devices",
+                "NSPhotoLibraryAddUsageDescription": "Used for saving QR code"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

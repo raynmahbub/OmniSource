@@ -64,6 +64,19 @@
           ],
           "downloads": 17430,
           "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "77d5b23737ff1c0cac3bcb020096720d215bcc6a3d1cdb37c28835876ab3370c",
+            "url": "https://github.com/Avangelista/StatusMagic/releases/download/1.0.2/StatusMagic.ipa",
+            "bundleIdentifier": "com.avangelista.StatusMagic",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "Tap \"OK\" to continue."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          },
           "maxOSVersion": "16.1.2"
         }
       ],

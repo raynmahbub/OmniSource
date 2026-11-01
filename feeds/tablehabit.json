@@ -147,7 +147,18 @@
             }
           ],
           "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
-          "downloads": 138
+          "downloads": 138,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
+            "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
+            "bundleIdentifier": "io.github.friesi23.mhabit",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

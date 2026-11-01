@@ -51,7 +51,22 @@
             }
           ],
           "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
-          "downloads": 298
+          "downloads": 298,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "6ce08753c8fce21b5f461832209c1982234b38d9b86e00a338fa09728436a1e7",
+            "url": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.4/OnionBrowser.ipa",
+            "bundleIdentifier": "com.miketigas.OnionBrowser",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Needed to read bridge addresses from displayed QR codes.",
+                "NSFaceIDUsageDescription": "Needed, if you want to unlock the app with Face ID.",
+                "NSPhotoLibraryAddUsageDescription": "Needed to store the selected image to your photos."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

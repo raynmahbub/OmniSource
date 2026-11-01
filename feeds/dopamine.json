@@ -63,7 +63,20 @@
             }
           ],
           "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
-          "downloads": 49374
+          "downloads": 49374,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "aa77b06a6b607c356cdf3416b3062480e21db8bedd2297d0c092aa66a1bc08bc",
+            "url": "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+            "bundleIdentifier": "com.opa334.Dopamine",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryUsageDescription": "Dopamine needs to access your photo library to support picking a boot logo"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
