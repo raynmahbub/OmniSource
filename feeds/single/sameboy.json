@@ -98,7 +98,21 @@
             }
           ],
           "sha256": "4ec51175711b1bf123aeb86a7e711ed069104867a7f8008e775e3cae5cbdd188",
-          "downloads": 596
+          "downloads": 596,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "4ec51175711b1bf123aeb86a7e711ed069104867a7f8008e775e3cae5cbdd188",
+            "url": "https://github.com/LIJI32/SameBoy/releases/download/v1.0.4/sameboy_ios_v1.0.4.ipa",
+            "bundleIdentifier": "com.github.liji32.sameboy.ios",
+            "minOSVersion": "",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "SameBoy needs to access your device's camera to emulate the Game Boy Camera",
+                "NSPhotoLibraryAddUsageDescription": "SameBoy needs access to save Game Boy Printer images to your photo library"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

@@ -110,7 +110,20 @@
             }
           ],
           "downloads": 40539,
-          "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b"
+          "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b",
+            "url": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
+            "bundleIdentifier": "com.example.mame4ios",
+            "minOSVersion": "13.4",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "We need bluetooth for steam controllers"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

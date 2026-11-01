@@ -62,7 +62,24 @@
             }
           ],
           "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
-          "downloads": 187
+          "downloads": 187,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+            "url": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+            "bundleIdentifier": "tv.twitch",
+            "minOSVersion": "16.4",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Twitch needs permission to access the camera on this device to stream live video and change your profile image.",
+                "NSLocalNetworkUsageDescription": "Twitch uses the local network to discover Cast-enabled devices on your WiFi network.",
+                "NSMicrophoneUsageDescription": "Twitch needs permission to access the microphone on this device to stream live video.",
+                "NSPhotoLibraryAddUsageDescription": "Twitch needs permission to write to your photo library in order to save images.",
+                "NSUserTrackingUsageDescription": "Your iOS advertising ID and device data will be used to support creators and provide a personal ad experience."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "31.7",

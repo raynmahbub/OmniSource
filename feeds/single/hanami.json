@@ -50,7 +50,20 @@
             }
           ],
           "downloads": 2029,
-          "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55"
+          "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "37d4e85e1c602bfac7e8382d8744b59d98da9159ed0c907d28d202b5ae6d5c55",
+            "url": "https://github.com/oolxg/Hanami/releases/download/v0.28.2/Hanami.ipa",
+            "bundleIdentifier": "moe.mkpwnz.Hanami",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSFaceIDUsageDescription": ""
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

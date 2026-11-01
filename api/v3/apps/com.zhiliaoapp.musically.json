@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "TTKillerPlus",
     "bundleIdentifier": "com.zhiliaoapp.musically",
@@ -41,7 +41,55 @@
             "mimeType": null,
             "installable": true
           }
-        ]
+        ],
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "ef955d87ab5c057177d69b024c48e2e536913cb087c162999ccfd4d821949a16",
+          "url": "https://ikghd.site/ipa/TikTok_47.4_TTKillerPlus_2.3.ipa",
+          "bundleIdentifier": "com.zhiliaoapp.musically",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
+              "NSBluetoothAlwaysUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+              "NSBluetoothPeripheralUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+              "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
+              "NSCameraUsageDescription": "You'll be able to record video.",
+              "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+              "NSFaceIDUsageDescription": "We'll use this to unlock features that require added security.",
+              "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+              "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+              "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
+              "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+              "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+              "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+            },
+            "entitlements": [
+              "application-identifier",
+              "aps-environment",
+              "com.apple.developer.applesignin",
+              "com.apple.developer.associated-domains",
+              "com.apple.developer.declared-age-range",
+              "com.apple.developer.group-session",
+              "com.apple.developer.in-app-payments",
+              "com.apple.developer.kernel.extended-virtual-addressing",
+              "com.apple.developer.kernel.increased-memory-limit",
+              "com.apple.developer.networking.multicast",
+              "com.apple.developer.networking.wifi-info",
+              "com.apple.developer.pass-type-identifiers",
+              "com.apple.developer.payment-pass-provisioning",
+              "com.apple.developer.siri",
+              "com.apple.developer.storekit.request-data",
+              "com.apple.developer.team-identifier",
+              "com.apple.developer.usernotifications.communication",
+              "com.apple.developer.usernotifications.time-sensitive",
+              "com.apple.security.application-groups",
+              "get-task-allow",
+              "keychain-access-groups"
+            ]
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

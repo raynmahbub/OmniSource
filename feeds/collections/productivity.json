@@ -51,7 +51,22 @@
             }
           ],
           "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
-          "downloads": 3590
+          "downloads": 3590,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+            "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+            "bundleIdentifier": "app.aidoku.Aidoku",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+                "NSLocalNetworkUsageDescription": "Aidoku needs permission to connect to local Komga and Kavita servers",
+                "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -190,7 +205,32 @@
             }
           ],
           "downloads": 18439,
-          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981"
+          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+            "url": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+            "bundleIdentifier": "com.atebits.Tweetie2",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "X uses bluetooth to discover Cast-enabled devices near you.",
+                "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+                "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+                "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+                "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+                "NSLocalNetworkUsageDescription": "X uses the local network to discover Cast-enabled devices on your WiFi network.",
+                "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+                "NSPhotoLibraryUsageDescription": "Easily add photos on X.",
+                "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+                "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -493,7 +533,18 @@
             }
           ],
           "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
-          "downloads": 138
+          "downloads": 138,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "9222921fded7da24546a966a41d18e6588508dcfd7878b7e7e7734a18086ff6f",
+            "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/mhabit-unsigned.ipa",
+            "bundleIdentifier": "io.github.friesi23.mhabit",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

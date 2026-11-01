@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "EscapeOS",
     "bundleIdentifier": "com.ipaside.escapeos",
@@ -67,7 +67,18 @@
           }
         ],
         "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
-        "downloads": 239
+        "downloads": 239,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "d374147e22605b09bc85b84551704ed0725bb3ac2179c8edc0af9f9ec2ce6269",
+          "url": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.1.8/EscapeOS-0.1.8.ipa",
+          "bundleIdentifier": "com.ipaside.escapeos",
+          "minOSVersion": "18.0",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

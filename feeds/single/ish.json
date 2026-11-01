@@ -62,7 +62,23 @@
             }
           ],
           "sha256": "f2d389ca859d380e2f53259a245340e22c64dba68db73f5977f75a3464e1ee3d",
-          "downloads": 2748
+          "downloads": 2748,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "f2d389ca859d380e2f53259a245340e22c64dba68db73f5977f75a3464e1ee3d",
+            "url": "https://github.com/ish-app/ish/releases/download/builds/813/iSH.ipa",
+            "bundleIdentifier": "app.ish.iSH",
+            "minOSVersion": "11.0",
+            "appPermissions": {
+              "privacy": {
+                "NSLocalNetworkUsageDescription": "This is required for connecting to localhost and using the ping command.",
+                "NSLocationAlwaysAndWhenInUseUsageDescription": "Programs running in iSH will be allowed to track your location in the background.",
+                "NSLocationAlwaysUsageDescription": "Programs running in iSH will be allowed to track your location in the background.",
+                "NSLocationWhenInUseUsageDescription": "Programs running in iSH will be allowed to see your location."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

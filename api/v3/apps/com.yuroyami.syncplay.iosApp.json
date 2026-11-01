@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Synkplay",
     "bundleIdentifier": "com.yuroyami.syncplay.iosApp",
@@ -67,7 +67,20 @@
           }
         ],
         "sha256": "179399acdc36f6410cd40357de1ab3d2d9812f6f97da6c6c68184adcbed1126e",
-        "downloads": 578
+        "downloads": 578,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "179399acdc36f6410cd40357de1ab3d2d9812f6f97da6c6c68184adcbed1126e",
+          "url": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
+          "bundleIdentifier": "com.yuroyami.syncplay.iosApp",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Synkplay hosts a watch-party server on your local network so nearby devices can join it."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

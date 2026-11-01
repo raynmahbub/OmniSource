@@ -51,6 +51,19 @@
           ],
           "downloads": 137391,
           "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "96e5321593046b58a3732d4a27ba229fafb52b17c36b4e3ba17d9c2f7b83bb74",
+            "url": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
+            "bundleIdentifier": "com.zeph.DynamicCoww",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "In order to reset the plist file to its initial state in case of file corruption DynamicCow needs access sandbox."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          },
           "maxOSVersion": "16.1.2"
         }
       ],

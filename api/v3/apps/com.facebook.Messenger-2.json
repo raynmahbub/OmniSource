@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "SNMessenger",
     "bundleIdentifier": "com.facebook.Messenger",
@@ -91,7 +91,36 @@
           }
         ],
         "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
-        "downloads": 1230
+        "downloads": 1230,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
+          "url": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
+          "bundleIdentifier": "com.facebook.Messenger",
+          "minOSVersion": "15.1",
+          "appPermissions": {
+            "privacy": {
+              "NSAppleMusicUsageDescription": "This lets you play Apple Music tracks, add tracks to your music library, and more.",
+              "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
+              "NSBluetoothPeripheralUsageDescription": "This makes some features work with bluetooth accessories.",
+              "NSCalendarsUsageDescription": "This will let Messenger sync events you're hosting or attending to your calendar.",
+              "NSCalendarsWriteOnlyAccessUsageDescription": "This will let Messenger sync events you're hosting or attending to your calendar.",
+              "NSCameraUsageDescription": "Messenger uses your device’s camera so you can do things like take photos, record and stream videos, make video calls, and create and use filters and effects.",
+              "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+              "NSFaceIDUsageDescription": "Messenger uses Face ID to unlock the app.",
+              "NSLocationAlwaysAndWhenInUseUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+              "NSLocationAlwaysUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+              "NSLocationUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+              "NSLocationWhenInUseUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+              "NSMicrophoneUsageDescription": "Messenger uses your device’s microphone so you can do things like record video with sound, make voice and video calls, and create voice messages.",
+              "NSPhotoLibraryAddUsageDescription": "This lets you do things like save to your camera roll and enables other features for photos and videos.",
+              "NSPhotoLibraryUsageDescription": "Messenger uses your device’s photo library from your camera roll so you can do things like share photos and videos.",
+              "NSSiriUsageDescription": "This lets you use Siri to do things like make calls and read messages.",
+              "NSSpeechRecognitionUsageDescription": "Messenger will use speech recognition to generate captions as people speak."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

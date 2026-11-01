@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "StikNES",
     "bundleIdentifier": "com.stik.StikNES",
@@ -43,7 +43,20 @@
           }
         ],
         "downloads": 12545,
-        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c"
+        "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "8e5dd12d74fdae624bad0b9ee26c0ee246bb28d138756f636193f792c923755c",
+          "url": "https://github.com/StikEMU/StikNES-2.0/releases/download/v2.0.2/StikNES.ipa",
+          "bundleIdentifier": "com.stik.StikNES",
+          "minOSVersion": "17.0",
+          "appPermissions": {
+            "privacy": {
+              "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to import images for customization."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

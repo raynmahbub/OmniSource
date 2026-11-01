@@ -74,7 +74,20 @@
             }
           ],
           "sha256": "683361416e6816c167f4dd72b5d4742a59c3a10faaa0823f8c5ec0754ba941c4",
-          "downloads": 564
+          "downloads": 564,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "683361416e6816c167f4dd72b5d4742a59c3a10faaa0823f8c5ec0754ba941c4",
+            "url": "https://github.com/RajnishOne/qbitconnect/releases/download/v1.6.6/qBitConnect.ipa",
+            "bundleIdentifier": "com.bluematter.qbitconnect",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSLocalNetworkUsageDescription": "This app needs access to your local network to connect to qBittorrent servers on your network."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

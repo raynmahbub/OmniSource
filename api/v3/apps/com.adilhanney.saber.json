@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Saber",
     "bundleIdentifier": "com.adilhanney.saber",
@@ -151,7 +151,21 @@
           }
         ],
         "sha256": "9b77a04e4fd92ee4c9585c6d3faab4279ea0308e696093b2b8473fbec26cb3a0",
-        "downloads": 17
+        "downloads": 17,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "9b77a04e4fd92ee4c9585c6d3faab4279ea0308e696093b2b8473fbec26cb3a0",
+          "url": "https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber_v1.37.0.ipa",
+          "bundleIdentifier": "com.adilhanney.saber",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSCameraUsageDescription": "Take photos to add to your notes",
+              "NSPhotoLibraryUsageDescription": "Include your photos in your notes"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       },
       {
         "version": "1.36.4",

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "JellyBook",
     "bundleIdentifier": "com.KaraWilson.JellyBook",
@@ -175,7 +175,20 @@
           }
         ],
         "sha256": "b2a8b05afab6c2e4eb76f1c2f2c45d91082bd6f0779d87dcd59097625caba0d8",
-        "downloads": 9
+        "downloads": 9,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "b2a8b05afab6c2e4eb76f1c2f2c45d91082bd6f0779d87dcd59097625caba0d8",
+          "url": "https://github.com/JellyBookOrg/JellyBook/releases/download/v1.4.2/JellyBook-Release.ipa",
+          "bundleIdentifier": "com.KaraWilson.JellyBook",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSPhotoLibraryUsageDescription": "Allow user to upload images to their server or local device to change ebook covers"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       },
       {
         "version": "1.4.1",

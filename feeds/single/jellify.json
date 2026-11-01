@@ -110,7 +110,20 @@
             }
           ],
           "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
-          "downloads": 190
+          "downloads": 190,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "b0937e6c807a9b478e184b306f6efcaf62454410ea863ffac1b4d664395b2ae4",
+            "url": "https://github.com/Jellify-Music/App/releases/download/1.3.0/Jellify-1.3.0.ipa",
+            "bundleIdentifier": "com.cosmonautical.jellify",
+            "minOSVersion": "16.4",
+            "appPermissions": {
+              "privacy": {
+                "NSLocalNetworkUsageDescription": "Jellify uses the local network to connect to Jellyfin and stream music"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

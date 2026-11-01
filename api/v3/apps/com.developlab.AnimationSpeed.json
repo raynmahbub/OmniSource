@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Animation Speed",
     "bundleIdentifier": "com.developlab.AnimationSpeed",
@@ -55,7 +55,18 @@
           }
         ],
         "downloads": 3795,
-        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595"
+        "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "df0423974a26a71a7e35b60fa80a11f32a536830eaf043d8e91cf83a54ce6595",
+          "url": "https://github.com/DevelopCubeLab/AnimationSpeed/releases/download/1.0.1/AnimationSpeed_1.0.1.tipa",
+          "bundleIdentifier": "com.developlab.AnimationSpeed",
+          "minOSVersion": "12.2",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

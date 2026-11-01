@@ -50,7 +50,20 @@
             }
           ],
           "downloads": 42527,
-          "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7"
+          "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "33220d81d2583c6d674222ce6d8db3d8d0987a52d2624b489367e1514aebdbf7",
+            "url": "https://github.com/sourcelocation/AirTroller/releases/download/1.1.1/AirTroller-1.1.1.tipa",
+            "bundleIdentifier": "net.sourceloc.AirTroller",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryUsageDescription": "Well, you've clicked this button to select photos, what did you exoect?"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

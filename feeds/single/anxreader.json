@@ -158,7 +158,21 @@
             }
           ],
           "sha256": "a79bd247859d6a04dae81490aa7d8d970a830af7201415f4ec6aa370b74ae69b",
-          "downloads": 1801
+          "downloads": 1801,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "a79bd247859d6a04dae81490aa7d8d970a830af7201415f4ec6aa370b74ae69b",
+            "url": "https://github.com/Anxcye/anx-reader/releases/download/v1.14.0/Anx-Reader-ios-1.14.0-unsigned.ipa",
+            "bundleIdentifier": "com.anxcye.anxReader",
+            "minOSVersion": "15.2",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryAddUsageDescription": "We need access to your photo library to save images.",
+                "NSPhotoLibraryUsageDescription": "We need access to your photo library to save images."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

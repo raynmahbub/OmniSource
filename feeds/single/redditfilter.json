@@ -74,7 +74,27 @@
             }
           ],
           "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-          "downloads": 6641
+          "downloads": 6641,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
+            "url": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
+            "bundleIdentifier": "com.reddit.Reddit",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCalendarsUsageDescription": "Reddit needs access to your calendar to operate the community calendar widget.",
+                "NSCameraUsageDescription": "Use your camera to record videos. See our Privacy Policy for more information.",
+                "NSFaceIDUsageDescription": "Reddit needs access to Face ID to unlock your Vault.",
+                "NSLocationWhenInUseUsageDescription": "Reddit needs access to your location to show you communities and content in your area.",
+                "NSMicrophoneUsageDescription": "Reddit needs access to your microphone to post videos with audio.",
+                "NSPhotoLibraryAddUsageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos.",
+                "NSPhotoLibraryUsageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos.",
+                "NSUserTrackingUsageDescription": "This allows Reddit to provide you with a better ads experience."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

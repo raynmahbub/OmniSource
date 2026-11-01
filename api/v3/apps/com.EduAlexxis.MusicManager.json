@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "ByeTunes",
     "bundleIdentifier": "com.EduAlexxis.MusicManager",
@@ -43,7 +43,21 @@
           }
         ],
         "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
-        "downloads": 1160
+        "downloads": 1160,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "255147243f05d35ae94e7f01a9c7c8bda7ef7b1ef0542a1008c9355c3045034f",
+          "url": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.6/ByeTunes.v2.6.-.Version.fix.ipa",
+          "bundleIdentifier": "com.EduAlexxis.MusicManager",
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Used to find your device's RemotePairing tunnel service on the local network when connecting over LocalDevVPN.",
+              "NSLocationWhenInUseUsageDescription": "Used only to keep downloads running while the app is in the background. Your location is never stored or shared."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Mornye",
     "bundleIdentifier": "com.zarz.mornye",
@@ -103,7 +103,22 @@
           }
         ],
         "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
-        "downloads": 1466
+        "downloads": 1466,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "e17e309d014059c6a3f57772964da73a1c0b5463205f5c6aba72df20fd6d2587",
+          "url": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+          "bundleIdentifier": "com.zarz.mornye",
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "privacy": {
+              "NSCalendarsUsageDescription": "Add a concert to your calendar after you review and save it.",
+              "NSLocalNetworkUsageDescription": "Connect to your music servers and network storage to browse and play your music.",
+              "NSPhotoLibraryUsageDescription": "Mornye needs access to save album artwork"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

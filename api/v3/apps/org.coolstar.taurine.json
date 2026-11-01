@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Taurine",
     "bundleIdentifier": "org.coolstar.taurine",
@@ -43,7 +43,18 @@
           }
         ],
         "downloads": 766378,
-        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf"
+        "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf",
+          "url": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
+          "bundleIdentifier": "org.coolstar.taurine",
+          "minOSVersion": "14.0",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

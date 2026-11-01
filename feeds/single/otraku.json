@@ -98,7 +98,20 @@
             }
           ],
           "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
-          "downloads": 31
+          "downloads": 31,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "6d1a09c1a70494ce5660c737856a85e755290cb9a9a0c8a706ceb9cd83d6ac07",
+            "url": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.1-ios17%2B.ipa",
+            "bundleIdentifier": "com.otraku.app",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryAddUsageDescription": "This app needs permission to save media to your library."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

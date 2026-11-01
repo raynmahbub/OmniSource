@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "AppStore++",
     "bundleIdentifier": "com.cokepokes.AppStorePlus",
@@ -55,7 +55,20 @@
           }
         ],
         "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
-        "downloads": 28456
+        "downloads": 28456,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "0fedb3241f6f8830803182f74add916fb8ddfc2328940baa6be9d0e8663f6627",
+          "url": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.15-7/AppStorePlus-v2.3.15-7.tipa",
+          "bundleIdentifier": "com.cokepokes.AppStorePlus",
+          "minOSVersion": "12.0",
+          "appPermissions": {
+            "privacy": {
+              "NSUserTrackingUsageDescription": "AppStore++ uses the advertising identifier to deliver and verify rewarded ads and to register developer test devices."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

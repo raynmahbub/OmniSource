@@ -98,7 +98,20 @@
             }
           ],
           "sha256": "599eff1327f1018e65f0f577f1d3e6070833dc3d291589105dfa173ef7b41d7e",
-          "downloads": 1372
+          "downloads": 1372,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "599eff1327f1018e65f0f577f1d3e6070833dc3d291589105dfa173ef7b41d7e",
+            "url": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.5-beta/nuvio-0.6.5-full-release.ipa",
+            "bundleIdentifier": "com.nuvio.media",
+            "minOSVersion": "16.1",
+            "appPermissions": {
+              "privacy": {
+                "NSLocalNetworkUsageDescription": "Nuvio connects to media servers on your local network."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "0.6.4",

@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Apollo",
     "bundleIdentifier": "com.christianselig.Apollo",
@@ -139,7 +139,25 @@
           }
         ],
         "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
-        "downloads": 672
+        "downloads": 672,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "33d40ea86bbf52f8f91c154dd33d2834ab86bc302397fb7e80fdcfb9147a4a45",
+          "url": "https://github.com/Apollo-Reborn/Apollo-Reborn/releases/download/v1.15.11_4.0.0/Apollo-Reborn-4.0.0.ipa",
+          "bundleIdentifier": "com.christianselig.Apollo",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSCameraUsageDescription": "Used to take photos to upload for sharing.",
+              "NSFaceIDUsageDescription": "Unlock Apollo when re-opening in order to prevent unauthorized access.",
+              "NSLocationWhenInUseUsageDescription": "Checked once to calculate sunset/sunrise times for the location.",
+              "NSMotionUsageDescription": "Detect rotations in Media Viewer and offer corresponding options.",
+              "NSPhotoLibraryAddUsageDescription": "Save media to photo library.",
+              "NSPhotoLibraryUsageDescription": "Used to save media or to select images to upload for sharing."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       },
       {
         "version": "3.9.0",

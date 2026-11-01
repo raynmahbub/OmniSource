@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "UTM",
     "bundleIdentifier": "com.utmapp.UTM",
@@ -139,7 +139,24 @@
           }
         ],
         "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
-        "downloads": 5861
+        "downloads": 5861,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
+          "url": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+          "bundleIdentifier": "com.utmapp.UTM",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+              "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+              "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+              "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+              "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

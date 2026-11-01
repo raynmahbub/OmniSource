@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Eclipse",
     "bundleIdentifier": "app.Eclipse.Soupy",
@@ -43,7 +43,22 @@
           }
         ],
         "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
-        "downloads": 122
+        "downloads": 122,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "729fc73d39ffdbf1c6694debdbc4ac8350afcbf6cc87634358568c590bb7ac5b",
+          "url": "https://github.com/Soupy-dev/Eclipse/releases/download/v2.3.0/Eclipse-unsigned-v2.3.0-20261020-090254.ipa",
+          "bundleIdentifier": "app.Eclipse.Soupy",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSFaceIDUsageDescription": "Eclipse uses Face ID to unlock a PIN-protected profile without typing its PIN. Authentication happens entirely on this device; Eclipse never receives or stores your biometric data.",
+              "NSLocalNetworkUsageDescription": "Eclipse connects to media add-ons you configure on your local network.",
+              "NSPhotoLibraryAddUsageDescription": "Eclipse can save images you choose, including reader images and media stills, to your photo library."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

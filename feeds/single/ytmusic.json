@@ -50,7 +50,27 @@
             }
           ],
           "sha256": "755040db9227441242ebc05f134b05ed15fd49409bee3282bb2a9b0bf8254bfc",
-          "downloads": 64
+          "downloads": 64,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "755040db9227441242ebc05f134b05ed15fd49409bee3282bb2a9b0bf8254bfc",
+            "url": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa39/YTMusicUltimate_9.43.2_2.4.1.ipa",
+            "bundleIdentifier": "com.google.ios.youtubemusic",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+                "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
+                "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
+                "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
+                "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "9.42.2",

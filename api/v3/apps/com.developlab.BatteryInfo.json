@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Battery Info",
     "bundleIdentifier": "com.developlab.BatteryInfo",
@@ -43,7 +43,18 @@
           }
         ],
         "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
-        "downloads": 8558
+        "downloads": 8558,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "ba602ebc25ff74e4c990efc6506a0c5efe5b61e95dd81ce9f96193c8cce67905",
+          "url": "https://github.com/DevelopCubeLab/BatteryInfo/releases/download/1.2.2/com.developlab.batteryinfo_1.2.2.tipa",
+          "bundleIdentifier": "com.developlab.BatteryInfo",
+          "minOSVersion": "12.2",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

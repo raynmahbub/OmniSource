@@ -50,7 +50,22 @@
             }
           ],
           "downloads": 13662,
-          "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d"
+          "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "bad4a80643562390487ad5a375e518bca0781c679f645bb23482bcd592c7a73d",
+            "url": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
+            "bundleIdentifier": "lo.cafe.winston",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSDocumentsFolderUsageDescription": "Winston needs access to your documents to save/import themes.",
+                "NSFaceIDUsageDescription": "Uses FaceID to lock and unlock Winston",
+                "NSPhotoLibraryUsageDescription": "Winston needs access to your library to be able to download images."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

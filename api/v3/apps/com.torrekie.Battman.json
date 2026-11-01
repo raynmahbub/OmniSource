@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Battman",
     "bundleIdentifier": "com.torrekie.Battman",
@@ -127,7 +127,18 @@
           }
         ],
         "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
-        "downloads": 419
+        "downloads": 419,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "854463a5f47a39530fcbd2868612b5fa3eef4c6c9b43240b4ebc676901f44f35",
+          "url": "https://github.com/Torrekie/Battman/releases/download/v1.1.0/Battman.tipa",
+          "bundleIdentifier": "com.torrekie.Battman",
+          "minOSVersion": "12.0",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

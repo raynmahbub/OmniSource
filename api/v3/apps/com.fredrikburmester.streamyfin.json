@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Streamyfin",
     "bundleIdentifier": "com.fredrikburmester.streamyfin",
@@ -91,7 +91,26 @@
           }
         ],
         "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
-        "downloads": 150
+        "downloads": 150,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "94db7d9bbfe655674ce9f48d429d4dd47a2b83061aa98bd829edb9ef1c737ea1",
+          "url": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-ios.ipa",
+          "bundleIdentifier": "com.fredrikburmester.streamyfin",
+          "minOSVersion": "16.4",
+          "appPermissions": {
+            "privacy": {
+              "NSCameraUsageDescription": "Allow Streamyfin to access the camera to scan QR codes for TV login.",
+              "NSLocalNetworkUsageDescription": "The app needs access to your local network to connect to your Jellyfin server.",
+              "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Streamyfin to access your location",
+              "NSLocationAlwaysUsageDescription": "Allow Streamyfin to access your location",
+              "NSLocationWhenInUseUsageDescription": "Streamyfin uses your location to detect your home WiFi network for automatic local server switching.",
+              "NSMicrophoneUsageDescription": "The app needs access to your microphone.",
+              "NSMotionUsageDescription": "Allow Streamyfin to detect your current motion activity"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       },
       {
         "version": "0.55.0",

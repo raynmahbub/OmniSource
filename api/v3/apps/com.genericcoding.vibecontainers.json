@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "VibeContainers",
     "bundleIdentifier": "com.genericcoding.vibecontainers",
@@ -43,7 +43,20 @@
           }
         ],
         "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
-        "downloads": 906
+        "downloads": 906,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "b6a1b4d42353500060eb1a890cc5350cc4bdbd5e331a1310930bd8eb814509bb",
+          "url": "https://github.com/GenericCoding/VibeContainers/releases/download/v1.0/VibeContainers-1.0-unsigned.ipa",
+          "bundleIdentifier": "com.genericcoding.vibecontainers",
+          "minOSVersion": "17.0",
+          "appPermissions": {
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "VibeContainers can serve the folder you choose over HTTP so other devices on your Wi-Fi can browse it."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

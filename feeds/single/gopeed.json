@@ -398,7 +398,20 @@
             }
           ],
           "sha256": "3f024956a28c27e20bb28bee519c0236b46ba496770a3ce368c20b093b1b20fa",
-          "downloads": 28225
+          "downloads": 28225,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "3f024956a28c27e20bb28bee519c0236b46ba496770a3ce368c20b093b1b20fa",
+            "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
+            "bundleIdentifier": "com.gopeed.gopeed",
+            "minOSVersion": "13.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryUsageDescription": "Photos can be shared to and used in this app"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

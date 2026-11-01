@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Delta",
     "bundleIdentifier": "com.rileytestut.Delta",
@@ -43,7 +43,22 @@
           }
         ],
         "downloads": 73471,
-        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e"
+        "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
+          "url": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+          "bundleIdentifier": "com.rileytestut.Delta",
+          "minOSVersion": "14.0",
+          "appPermissions": {
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Delta uses the local network to communicate with AltServer and enable JIT.",
+              "NSMicrophoneUsageDescription": "Delta uses your microphone to emulate the Nintendo DS microphone.",
+              "NSPhotoLibraryUsageDescription": "Press \"OK\" to allow Delta to use images from your Photo Library as game artwork."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

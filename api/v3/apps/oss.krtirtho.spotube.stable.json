@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Spotube",
     "bundleIdentifier": "oss.krtirtho.spotube.stable",
@@ -211,7 +211,22 @@
           }
         ],
         "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
-        "downloads": 20194
+        "downloads": 20194,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "9ec07f5ff1302567075b3c02cb3a4baac5fa475a65f71a3878f2d78744ba7bc0",
+          "url": "https://github.com/team-spotube/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
+          "bundleIdentifier": "oss.krtirtho.spotube.stable",
+          "minOSVersion": "14.0",
+          "appPermissions": {
+            "privacy": {
+              "NSCameraUsageDescription": "This app require access to the device camera",
+              "NSMicrophoneUsageDescription": "This app does not require access to the device microphone",
+              "NSPhotoLibraryUsageDescription": "This app require access to the photo library"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

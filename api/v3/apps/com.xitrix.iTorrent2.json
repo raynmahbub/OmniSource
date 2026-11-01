@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "iTorrent",
     "bundleIdentifier": "com.xitrix.iTorrent2",
@@ -67,7 +67,20 @@
           }
         ],
         "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
-        "downloads": 21224
+        "downloads": 21224,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "50457a89299bd62836ca1eb1ae0a5adbe097454c58ce67605bbe6710c37193d7",
+          "url": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "bundleIdentifier": "com.xitrix.iTorrent2",
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "iTorrent uses the local network to discover playback devices and cast video on your network."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

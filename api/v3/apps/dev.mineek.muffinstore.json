@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "MuffinStore",
     "bundleIdentifier": "dev.mineek.muffinstore",
@@ -43,7 +43,18 @@
           }
         ],
         "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
-        "downloads": 16700
+        "downloads": 16700,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "af8afb433ce4822a2307b09fa4ad0b0f12c3ca5d8876f9e58ab2f65dd9783a00",
+          "url": "https://github.com/mineek/MuffinStore/releases/download/1.3/MuffinStore_v1.3.tipa",
+          "bundleIdentifier": "dev.mineek.muffinstore",
+          "minOSVersion": "",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

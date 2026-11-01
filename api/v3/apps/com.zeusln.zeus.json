@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Zeus",
     "bundleIdentifier": "com.zeusln.zeus",
@@ -115,7 +115,30 @@
           }
         ],
         "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
-        "downloads": 186
+        "downloads": 186,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "caa3fc1c755d0ec9d0eb5714d78a6e26b0eaf35abdfc85279fef54352ced7336",
+          "url": "https://github.com/ZeusLN/zeus/releases/download/v13.2.3/zeus-v13.2.3.ipa",
+          "bundleIdentifier": "com.zeusln.zeus",
+          "minOSVersion": "15.1",
+          "appPermissions": {
+            "privacy": {
+              "NSAppleMusicUsageDescription": "Not Used",
+              "NSBluetoothAlwaysUsageDescription": "Not Used",
+              "NSBluetoothPeripheralUsageDescription": "Not Used",
+              "NSCalendarsUsageDescription": "Not Used",
+              "NSCameraUsageDescription": "ZEUS would like permission to use your camera to scan QR codes",
+              "NSFaceIDUsageDescription": "FaceID is used to login to ZEUS",
+              "NSLocationWhenInUseUsageDescription": "Not Used",
+              "NSMotionUsageDescription": "Not Used",
+              "NSPhotoLibraryAddUsageDescription": "ZEUS would like permission to save QR codes to your photo library",
+              "NSPhotoLibraryUsageDescription": "ZEUS would like permission to load QR codes from your photo library",
+              "NSSpeechRecognitionUsageDescription": "Not Used"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

@@ -62,7 +62,21 @@
             }
           ],
           "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
-          "downloads": 509
+          "downloads": 509,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "b258794c5f34317eb9f725081537f3f8cbeadb0f950dba25d058f23640ff2bcd",
+            "url": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
+            "bundleIdentifier": "com.chatsen.chatsen",
+            "minOSVersion": "13.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Chatsen requests access to your camera so you can attach photos and videos to your messages.",
+                "NSPhotoLibraryUsageDescription": "Chatsen requests access to your photo library so you can attach photos and videos to your messages."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

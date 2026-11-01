@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Sora",
     "bundleIdentifier": "me.cranci.sulfur",
@@ -43,7 +43,18 @@
           }
         ],
         "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
-        "downloads": 2249
+        "downloads": 2249,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "8bcdf430a58fb2aa55e9b841266a6aff731af7623fcbb90a8bc4654a10d7c1ce",
+          "url": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
+          "bundleIdentifier": "me.cranci.sulfur",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

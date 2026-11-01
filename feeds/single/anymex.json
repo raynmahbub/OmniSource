@@ -182,7 +182,21 @@
             }
           ],
           "sha256": "2f354bd40d7abba9ac078696401951a390d840ff2749a27780c8919757c5b396",
-          "downloads": 37
+          "downloads": 37,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "2f354bd40d7abba9ac078696401951a390d840ff2749a27780c8919757c5b396",
+            "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-iOS-v3.2.0.ipa",
+            "bundleIdentifier": "com.ryan.anymex",
+            "minOSVersion": "13.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryAddUsageDescription": "This app needs access to save backup files to your photo library",
+                "NSPhotoLibraryUsageDescription": "This app needs access to photo library to save backup files"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "3.1.9",

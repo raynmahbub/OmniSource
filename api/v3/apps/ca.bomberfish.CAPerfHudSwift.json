@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "CAPerfHUD",
     "bundleIdentifier": "ca.bomberfish.CAPerfHudSwift",
@@ -43,7 +43,18 @@
           }
         ],
         "downloads": 3427,
-        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530"
+        "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "8ad15dec66f392dc31dd2e5fed94b978a09255400fbdd8cae0b2ae509f34c530",
+          "url": "https://github.com/bomberfish/CAPerfHUDSwift/releases/download/v1.0.2/CAPerfHUDSwift.tipa",
+          "bundleIdentifier": "ca.bomberfish.CAPerfHudSwift",
+          "minOSVersion": "14.0",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

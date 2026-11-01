@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Manic EMU",
     "bundleIdentifier": "com.aoshuang.manicemu",
@@ -43,7 +43,25 @@
           }
         ],
         "sha256": "b670b1c1c538325d82ff2c74ebacd97c9fb338af6dc8516cccbfade882147b71",
-        "downloads": 21276
+        "downloads": 21276,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "b670b1c1c538325d82ff2c74ebacd97c9fb338af6dc8516cccbfade882147b71",
+          "url": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
+          "bundleIdentifier": "com.aoshuang.manicemu",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSBluetoothAlwaysUsageDescription": "Manic EMU requires the use of Bluetooth functionality to enable communication features for certain games.",
+              "NSCameraUsageDescription": "Camera access required to capture photos for custom game covers in Manic EMU",
+              "NSLocalNetworkUsageDescription": "Manic EMU needs access to your local network to find and connect with other devices for online gaming.",
+              "NSMicrophoneUsageDescription": "Microphone access required for full Nintendo DS game functionality in Manic EMU",
+              "NSPhotoLibraryAddUsageDescription": "Manic EMU requires photo library access to save game screenshots and create custom game covers",
+              "NSPhotoLibraryUsageDescription": "Manic EMU requires photo library access to save screenshots and select images for game covers"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],

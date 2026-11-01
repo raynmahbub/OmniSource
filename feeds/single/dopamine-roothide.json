@@ -62,7 +62,20 @@
             }
           ],
           "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
-          "downloads": 1014
+          "downloads": 1014,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "fb93f83424862956dc6a2916c1b8646a9267a03d942b3e783820e1fd8cee51ba",
+            "url": "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa",
+            "bundleIdentifier": "com.opa334.Dopamine-roothide",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSPhotoLibraryUsageDescription": "Dopamine needs to access your photo library to support picking a boot logo"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

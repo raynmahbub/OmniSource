@@ -86,7 +86,24 @@
             }
           ],
           "sha256": "f3cf8c3d81958fb140b462a795514d2643b4800e9c641a3b24ffd1ebffb650e6",
-          "downloads": 640
+          "downloads": 640,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "f3cf8c3d81958fb140b462a795514d2643b4800e9c641a3b24ffd1ebffb650e6",
+            "url": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
+            "bundleIdentifier": "com.moffatman.chan",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Camera permissions are necessary to capture images",
+                "NSFaceIDUsageDescription": "Face ID is used to secure access to Chance",
+                "NSMicrophoneUsageDescription": "Microphone permissions are necessary to capture videos",
+                "NSPhotoLibraryAddUsageDescription": "Photo library modification permission is needed to save images directly",
+                "NSPhotoLibraryUsageDescription": "Photo library permissions are necessary to select images"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

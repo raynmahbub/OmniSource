@@ -63,7 +63,29 @@
             }
           ],
           "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
-          "downloads": 14835
+          "downloads": 14835,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "2aaf7fe05cbe86a5d8c5c012c4b87a688d68fd160f53cca1f486d2e7d0f70f8c",
+            "url": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+            "bundleIdentifier": "org.provenance-emu.provenance",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "Provenance uses Bluetooth to support game controllers.",
+                "NSCameraUsageDescription": "Used for album artwork.",
+                "NSFileProviderDomainUsageDescription": "Provenance uses file provider for loading ROMs.",
+                "NSLocalNetworkUsageDescription": "RetroArch needs access to Wi-Fi networks for enhanced emulated Wi-Fi network features.",
+                "NSLocationUsageDescription": "Some games may use location data to enhance emulated location gameplay features",
+                "NSLocationWhenInUseUsageDescription": "Some games may use location data to enhance emulated location gameplay features",
+                "NSMicrophoneUsageDescription": "Provenance uses the microphone for systems that support audio input (eg. Famicom, Nintendo DS, 3DS).",
+                "NSMotionUsageDescription": "Provenance uses your device's accelerometer and gyroscope to emulate the portable consoles' built-in accelerometer and gyroscope.",
+                "NSPhotoLibraryAddUsageDescription": "Provenance can set custom artworks from your photos or save screenshots to the Photo Library.",
+                "NSPhotoLibraryUsageDescription": "Provenance can set custom artworks from your photos or save screenshots to the Photo Library."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -258,7 +280,24 @@
             }
           ],
           "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
-          "downloads": 5861
+          "downloads": 5861,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "4875a1ec869278fb173b37467388ea627bfa6d95f1d64501bc41bb86dd7d53b2",
+            "url": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+            "bundleIdentifier": "com.utmapp.UTM",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+                "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+                "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+                "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+                "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

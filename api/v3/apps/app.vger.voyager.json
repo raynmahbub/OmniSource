@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Voyager",
     "bundleIdentifier": "app.vger.voyager",
@@ -163,7 +163,23 @@
           }
         ],
         "sha256": "584dae7a9738908def30873c016b1dd5e26f15187cd201a7d95386682c6a46a9",
-        "downloads": 853
+        "downloads": 853,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "584dae7a9738908def30873c016b1dd5e26f15187cd201a7d95386682c6a46a9",
+          "url": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
+          "bundleIdentifier": "app.vger.voyager",
+          "minOSVersion": "15.0",
+          "appPermissions": {
+            "privacy": {
+              "NSCameraUsageDescription": "Attach photo to a new post",
+              "NSFaceIDUsageDescription": "Optional setting to check face ID when opening app",
+              "NSMicrophoneUsageDescription": "Attach video to a new post",
+              "NSPhotoLibraryAddUsageDescription": "Save photos to device"
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

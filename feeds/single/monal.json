@@ -98,7 +98,25 @@
             }
           ],
           "sha256": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941",
-          "downloads": 16
+          "downloads": 16,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "28907c1e1b0bba092180a4d0189d9fe0ff258b12d51441f19b515a24cc9a0941",
+            "url": "https://github.com/monal-im/Monal/releases/download/Build_iOS_1102/Monal.ipa",
+            "bundleIdentifier": "G7YU7X7KRJ.SworIM",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Monal allows users to take photos and upload to a conversation",
+                "NSLocationUsageDescription": "Monal uses your location when you send a location message in a conversation.",
+                "NSLocationWhenInUseUsageDescription": "Monal uses your location when you send a location message in a conversation.",
+                "NSMicrophoneUsageDescription": "Monal uses the microphone to transmit your voice in audio messages or calls.",
+                "NSPhotoLibraryAddUsageDescription": "Monal allows users to save photos received in conversations.",
+                "NSPhotoLibraryUsageDescription": "Monal allows users to upload photos to recipients in a conversation"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "6.4.23",

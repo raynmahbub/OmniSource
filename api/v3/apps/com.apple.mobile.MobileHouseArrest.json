@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "3105",
     "bundleIdentifier": "com.apple.mobile.MobileHouseArrest",
@@ -43,7 +43,21 @@
           }
         ],
         "sha256": "239cd9a10ad91bdd708bd84e1b75d6e8416a95d2b1e46e34e5e80cc58c324991",
-        "downloads": 40826
+        "downloads": 40826,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "239cd9a10ad91bdd708bd84e1b75d6e8416a95d2b1e46e34e5e80cc58c324991",
+          "url": "https://github.com/YangJiiii/3105/releases/download/v2.0/3105-2.0-build8-20260914-125906-unsigned.ipa",
+          "bundleIdentifier": "com.apple.mobile.MobileHouseArrest",
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "privacy": {
+              "NSDocumentsFolderUsageDescription": "3105 needs access to documents.",
+              "NSPhotoLibraryUsageDescription": "3105 needs access to photos for wallpaper customization."
+            }
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

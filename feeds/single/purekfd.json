@@ -74,7 +74,21 @@
             }
           ],
           "downloads": 20239,
-          "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763"
+          "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
+            "url": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
+            "bundleIdentifier": "uwu.lrdsnow.purekfdiOS",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "unsandbox",
+                "NSDocumentsFolderUsageDescription": "PureKFD uses the documents folder to store App Data"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],

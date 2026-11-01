@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "Onside TV",
     "bundleIdentifier": "tv.onside.app",
@@ -43,7 +43,18 @@
           }
         ],
         "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
-        "downloads": 874
+        "downloads": 874,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "a34ccc3372295e5243c2784770d77e398452789e72d59d7c00daf10914db0f90",
+          "url": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+          "bundleIdentifier": "tv.onside.app",
+          "minOSVersion": "26",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [

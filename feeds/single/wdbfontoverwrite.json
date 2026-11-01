@@ -51,6 +51,19 @@
           ],
           "downloads": 70789,
           "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec",
+            "url": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
+            "bundleIdentifier": "com.ginsudev.WDBFontOverwrite",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "WDBFontOverwrite"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          },
           "maxOSVersion": "16.1.2"
         }
       ],

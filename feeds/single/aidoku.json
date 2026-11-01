@@ -50,7 +50,22 @@
             }
           ],
           "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
-          "downloads": 3590
+          "downloads": 3590,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "473e28cda194e57434f2a9e3ad26abbc8f9c18784047eb0e931a51b47df8970c",
+            "url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+            "bundleIdentifier": "app.aidoku.Aidoku",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+                "NSLocalNetworkUsageDescription": "Aidoku needs permission to connect to local Komga and Kavita servers",
+                "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [

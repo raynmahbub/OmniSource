@@ -87,7 +87,32 @@
             }
           ],
           "downloads": 18439,
-          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981"
+          "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "941cccecc23eb8e6b3f6d80a6cf1b6280fa612753c29faef769b3d94ab91b981",
+            "url": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+            "bundleIdentifier": "com.atebits.Tweetie2",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "X uses bluetooth to discover Cast-enabled devices near you.",
+                "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+                "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+                "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+                "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+                "NSLocalNetworkUsageDescription": "X uses the local network to discover Cast-enabled devices on your WiFi network.",
+                "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+                "NSPhotoLibraryUsageDescription": "Easily add photos on X.",
+                "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+                "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -191,7 +216,18 @@
             }
           ],
           "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
-          "downloads": 11221
+          "downloads": 11221,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "24c43c66579fcbf8735176b8465b58d20d0b92524e5b32ed64c60993d76ec8f5",
+            "url": "https://github.com/roothide/Bootstrap/releases/download/2.2.1/Bootstrap.tipa",
+            "bundleIdentifier": "com.roothide.Bootstrap",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -292,7 +328,27 @@
               "mimeType": null,
               "installable": true
             }
-          ]
+          ],
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "77975cfdb47c11e271f6e5a49647b2b0a75584e451fd5f20c6700b8fdcec77c6",
+            "url": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Infuse-8.5.9-Infuse-Plus.ipa",
+            "bundleIdentifier": "com.firecore.infuse",
+            "minOSVersion": "18.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos.",
+                "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
+                "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
+                "NSCameraUsageDescription": "Used for scanning QR codes",
+                "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled",
+                "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
+                "NSMicrophoneUsageDescription": "Used for pairing with external devices",
+                "NSPhotoLibraryAddUsageDescription": "Used for saving QR code"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -519,6 +575,17 @@
           ],
           "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
           "downloads": 21121,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "c8ba0fec11137d36732108afa8cb3da1947779745bc368ba7e78f1af993298a2",
+            "url": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
+            "bundleIdentifier": "com.roooot.lara",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          },
           "maxOSVersion": "26.0.1"
         }
       ],
@@ -619,7 +686,27 @@
             }
           ],
           "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
-          "downloads": 5260
+          "downloads": 5260,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
+            "url": "https://github.com/Mark02-2012/MaxMusic/releases/download/MaxMusic_9.37.2_2.4.1_%2893%29/MaxMusic_2.4.1_9.37.2.ipa",
+            "bundleIdentifier": "com.google.ios.youtubemusic",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+                "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
+                "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
+                "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
+                "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "9.36.1",
@@ -806,7 +893,28 @@
             }
           ],
           "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
-          "downloads": 633
+          "downloads": 633,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "8d4fe82447fe35056ebc9a2962b9ce531fd581926f471c4bca88146fc5aae22f",
+            "url": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -1005,7 +1113,30 @@
             }
           ],
           "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
-          "downloads": 1813
+          "downloads": 1813,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "678515cf44d1392acb737c34f845080ce6e2cad39edf2f0a1439eb49a7ecc538",
+            "url": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-Twitter_7.2.0_12.33.ipa",
+            "bundleIdentifier": "com.atebits.Tweetie2",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+                "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+                "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+                "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+                "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+                "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+                "NSPhotoLibraryUsageDescription": "Allow access to share photos from your camera roll.",
+                "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+                "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -1132,7 +1263,21 @@
             }
           ],
           "downloads": 20239,
-          "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763"
+          "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "3b77e7d90e9611e2eeae3b9051918b638df01eb15822f42c50308147607cc763",
+            "url": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
+            "bundleIdentifier": "uwu.lrdsnow.purekfdiOS",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "unsandbox",
+                "NSDocumentsFolderUsageDescription": "PureKFD uses the documents folder to store App Data"
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -1247,7 +1392,31 @@
             }
           ],
           "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
-          "downloads": 5876
+          "downloads": 5876,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "98225b128f99c0ac0ffe810ddcb781c73f01da4ce56dbf640a52cf84df0d6549",
+            "url": "https://github.com/ra1ncord/RainTweak/releases/download/v1.2.0/RainTweak.ipa",
+            "bundleIdentifier": "com.hammerandchisel.discord",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
+                "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
+                "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
+                "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
+                "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+                "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
+                "NSLocationAlwaysUsageDescription": "To enable services that require location",
+                "NSLocationWhenInUseUsageDescription": "To enable services that require location",
+                "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
+                "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
+                "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
+                "NSUserTrackingUsageDescription": "Allowing tracking helps us show you Quests for games you play or are interested in. You can opt out anytime in your iOS settings."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -1370,7 +1539,27 @@
             }
           ],
           "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
-          "downloads": 6641
+          "downloads": 6641,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3",
+            "url": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
+            "bundleIdentifier": "com.reddit.Reddit",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSCalendarsUsageDescription": "Reddit needs access to your calendar to operate the community calendar widget.",
+                "NSCameraUsageDescription": "Use your camera to record videos. See our Privacy Policy for more information.",
+                "NSFaceIDUsageDescription": "Reddit needs access to Face ID to unlock your Vault.",
+                "NSLocationWhenInUseUsageDescription": "Reddit needs access to your location to show you communities and content in your area.",
+                "NSMicrophoneUsageDescription": "Reddit needs access to your microphone to post videos with audio.",
+                "NSPhotoLibraryAddUsageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos.",
+                "NSPhotoLibraryUsageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos.",
+                "NSUserTrackingUsageDescription": "This allows Reddit to provide you with a better ads experience."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -1615,7 +1804,36 @@
             }
           ],
           "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
-          "downloads": 1230
+          "downloads": 1230,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "e0a10b3c3593d077e65e8f541f77e1b27a79b5cfb76630082402201476918834",
+            "url": "https://github.com/NguyenASang/SNMessenger/releases/download/v2.0.0/Messenger_517.0.0.SNMessenger.v2.0.0-2.ipa",
+            "bundleIdentifier": "com.facebook.Messenger",
+            "minOSVersion": "15.1",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you play Apple Music tracks, add tracks to your music library, and more.",
+                "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
+                "NSBluetoothPeripheralUsageDescription": "This makes some features work with bluetooth accessories.",
+                "NSCalendarsUsageDescription": "This will let Messenger sync events you're hosting or attending to your calendar.",
+                "NSCalendarsWriteOnlyAccessUsageDescription": "This will let Messenger sync events you're hosting or attending to your calendar.",
+                "NSCameraUsageDescription": "Messenger uses your device’s camera so you can do things like take photos, record and stream videos, make video calls, and create and use filters and effects.",
+                "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+                "NSFaceIDUsageDescription": "Messenger uses Face ID to unlock the app.",
+                "NSLocationAlwaysAndWhenInUseUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+                "NSLocationAlwaysUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+                "NSLocationUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+                "NSLocationWhenInUseUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+                "NSMicrophoneUsageDescription": "Messenger uses your device’s microphone so you can do things like record video with sound, make voice and video calls, and create voice messages.",
+                "NSPhotoLibraryAddUsageDescription": "This lets you do things like save to your camera roll and enables other features for photos and videos.",
+                "NSPhotoLibraryUsageDescription": "Messenger uses your device’s photo library from your camera roll so you can do things like share photos and videos.",
+                "NSSiriUsageDescription": "This lets you use Siri to do things like make calls and read messages.",
+                "NSSpeechRecognitionUsageDescription": "Messenger will use speech recognition to generate captions as people speak."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -1717,6 +1935,17 @@
           ],
           "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
           "downloads": 4809,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "226ed42d93a48766a0bddd2362a27f0ec5042d84c6f6a3ffa95942d7a0653fb3",
+            "url": "https://github.com/Lessica/TrollFools/releases/download/v4.4-257/TrollFools_4.4-257.tipa",
+            "bundleIdentifier": "wiki.qaq.TrollFools",
+            "minOSVersion": "14.0",
+            "appPermissions": {
+              "privacy": {}
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          },
           "maxOSVersion": "17.0"
         }
       ],
@@ -1815,7 +2044,55 @@
               "mimeType": null,
               "installable": true
             }
-          ]
+          ],
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "ef955d87ab5c057177d69b024c48e2e536913cb087c162999ccfd4d821949a16",
+            "url": "https://ikghd.site/ipa/TikTok_47.4_TTKillerPlus_2.3.ipa",
+            "bundleIdentifier": "com.zhiliaoapp.musically",
+            "minOSVersion": "15.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
+                "NSBluetoothAlwaysUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+                "NSBluetoothPeripheralUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+                "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
+                "NSCameraUsageDescription": "You'll be able to record video.",
+                "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+                "NSFaceIDUsageDescription": "We'll use this to unlock features that require added security.",
+                "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+                "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+                "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
+                "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+                "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+                "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+              },
+              "entitlements": [
+                "application-identifier",
+                "aps-environment",
+                "com.apple.developer.applesignin",
+                "com.apple.developer.associated-domains",
+                "com.apple.developer.declared-age-range",
+                "com.apple.developer.group-session",
+                "com.apple.developer.in-app-payments",
+                "com.apple.developer.kernel.extended-virtual-addressing",
+                "com.apple.developer.kernel.increased-memory-limit",
+                "com.apple.developer.networking.multicast",
+                "com.apple.developer.networking.wifi-info",
+                "com.apple.developer.pass-type-identifiers",
+                "com.apple.developer.payment-pass-provisioning",
+                "com.apple.developer.siri",
+                "com.apple.developer.storekit.request-data",
+                "com.apple.developer.team-identifier",
+                "com.apple.developer.usernotifications.communication",
+                "com.apple.developer.usernotifications.time-sensitive",
+                "com.apple.security.application-groups",
+                "get-task-allow",
+                "keychain-access-groups"
+              ]
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -1949,7 +2226,24 @@
             }
           ],
           "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
-          "downloads": 187
+          "downloads": 187,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "39f08a1cde74f27ce726ed517d536165f55e5320a3d785b43193010f1c7a0cda",
+            "url": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.7-0.1.15/tv.twitch-31.7-TwitchAdBlock-0.1.15.ipa",
+            "bundleIdentifier": "tv.twitch",
+            "minOSVersion": "16.4",
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "Twitch needs permission to access the camera on this device to stream live video and change your profile image.",
+                "NSLocalNetworkUsageDescription": "Twitch uses the local network to discover Cast-enabled devices on your WiFi network.",
+                "NSMicrophoneUsageDescription": "Twitch needs permission to access the microphone on this device to stream live video.",
+                "NSPhotoLibraryAddUsageDescription": "Twitch needs permission to write to your photo library in order to save images.",
+                "NSUserTrackingUsageDescription": "Your iOS advertising ID and device data will be used to support creators and provide a personal ad experience."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "31.7",
@@ -2299,7 +2593,28 @@
           ],
           "size": 135840058,
           "minOSVersion": "16.0",
-          "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb"
+          "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "a504baed9952f4e352b4f21906bb6bb1fc199d43a4a724eee2a2eab40c287bcb",
+            "url": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "16.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -2439,7 +2754,28 @@
             }
           ],
           "sha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
-          "downloads": 22
+          "downloads": 22,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
+            "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youmod-ipa2/YouMod_21.43.5_2.0.0.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [],
@@ -2573,7 +2909,28 @@
             }
           ],
           "sha256": "9cc1220f35811424dd253dc9ce6005cb154c03fb503be3d53faf6886e2f53bf2",
-          "downloads": 25
+          "downloads": 25,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "9cc1220f35811424dd253dc9ce6005cb154c03fb503be3d53faf6886e2f53bf2",
+            "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/youproextra-ipa2/YouProExtra_21.43.5_1.3.1.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "21.24.3",
@@ -2734,7 +3091,28 @@
             }
           ],
           "sha256": "9dda50a09f21b999d036dd00d5e128211b79a3576b1bf1617a00f51fa37fd911",
-          "downloads": 74
+          "downloads": 74,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "9dda50a09f21b999d036dd00d5e128211b79a3576b1bf1617a00f51fa37fd911",
+            "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.43.5_6.0b2.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "21.33.6",
@@ -3023,7 +3401,28 @@
             }
           ],
           "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
-          "downloads": 296
+          "downloads": 296,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "a7bd1ab52d34254df33b5f2479b7969bfcd538fc0bf10fb61a0f8cf13f83180f",
+            "url": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -3163,7 +3562,28 @@
             }
           ],
           "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
-          "downloads": 749
+          "downloads": 749,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "72575d6a80aef206c72cbb63136fe292e29e5bfef223f593d96a697f03343895",
+            "url": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytkp-ipa1/YTKillerPlus_21.38.3_6.1.ipa",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                "NSCameraUsageDescription": "This lets you create videos using the app.",
+                "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         }
       ],
       "screenshotURLs": [
@@ -3303,7 +3723,27 @@
             }
           ],
           "sha256": "755040db9227441242ebc05f134b05ed15fd49409bee3282bb2a9b0bf8254bfc",
-          "downloads": 64
+          "downloads": 64,
+          "ipaInspection": {
+            "at": "2026-11-01",
+            "sha256": "755040db9227441242ebc05f134b05ed15fd49409bee3282bb2a9b0bf8254bfc",
+            "url": "https://github.com/mrdrvt99/YTMusicUltimate/releases/download/ytmu-ipa39/YTMusicUltimate_9.43.2_2.4.1.ipa",
+            "bundleIdentifier": "com.google.ios.youtubemusic",
+            "minOSVersion": "17.0",
+            "appPermissions": {
+              "privacy": {
+                "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+                "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+                "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
+                "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+                "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
+                "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
+                "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
+                "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+              }
+            },
+            "note": "Packaged declarations only; entitlements are not code-signature verified."
+          }
         },
         {
           "version": "9.42.2",

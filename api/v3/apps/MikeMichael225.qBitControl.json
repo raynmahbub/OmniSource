@@ -1,7 +1,7 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "4714f967d8e7",
+  "feedVersion": "071b350e76f5",
   "data": {
     "name": "qBitControl",
     "bundleIdentifier": "MikeMichael225.qBitControl",
@@ -43,7 +43,18 @@
           }
         ],
         "sha256": "4a218f22120e5251fac7383c36169adbbf0503453aac339cc5573df4bb6dc6c3",
-        "downloads": 884
+        "downloads": 884,
+        "ipaInspection": {
+          "at": "2026-11-01",
+          "sha256": "4a218f22120e5251fac7383c36169adbbf0503453aac339cc5573df4bb6dc6c3",
+          "url": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa",
+          "bundleIdentifier": "MikeMichael225.qBitControl",
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "privacy": {}
+          },
+          "note": "Packaged declarations only; entitlements are not code-signature verified."
+        }
       }
     ],
     "screenshotURLs": [],
