@@ -1,14 +1,14 @@
 {
   "apiVersion": "3.0.0",
   "schemaVersion": 3,
-  "feedVersion": "071b350e76f5",
+  "feedVersion": "a7f81130b9df",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-11-01",
+    "generatedAt": "2026-11-02",
     "totals": {
       "sources": 128,
-      "healthy": 83,
-      "degraded": 42,
+      "healthy": 82,
+      "degraded": 43,
       "unavailable": 3,
       "unknown": 0
     },
@@ -16,7 +16,7 @@
       "status": "degraded",
       "lastBuild": "2026-10-28",
       "appsTotal": 128,
-      "appsHealthy": 83,
+      "appsHealthy": 82,
       "appsFailing": 5
     },
     "providers": [
@@ -48,7 +48,7 @@
       {
         "provider": "github",
         "apps": 110,
-        "healthy": 69,
+        "healthy": 68,
         "unavailable": 0,
         "lastResolvedFrom": {
           "3105": "github:YangJiiii/3105",
@@ -77,7 +77,6 @@
           "mangayomi": "github:kodjodevf/mangayomi",
           "manicemu": "github:Manic-EMU/ManicEMU",
           "maxmusic": "github:Mark02-2012/MaxMusic",
-          "maxtube": "github:Ashreq/ashstore-repo",
           "monal": "github:monal-im/Monal",
           "spotiflac": "github:mornyeapp/Mornye",
           "mugunghwa": "github:s8ngyu/Mugunghwa",
@@ -142,6 +141,7 @@
           "lara": "github:rooootdev/lara",
           "livecontainer": "github:LiveContainer/LiveContainer",
           "mame4ios": "github:yoshisuga/MAME4iOS",
+          "maxtube": "github:Ashreq/ashstore-repo",
           "minivmac": "github:zydeco/minivmac4ios",
           "muffinstore": "github:mineek/MuffinStore",
           "pikatorrent": "github:G-Ray/pikatorrent",
@@ -3218,109 +3218,6 @@
             "at": "2026-10-28T04:23:28Z",
             "reachable": true,
             "latencyMs": 287,
-            "detail": "HTTP 200"
-          }
-        ]
-      },
-      {
-        "id": "maxtube",
-        "app": "maxtube",
-        "name": "MaxTube",
-        "source": "Ashreq/ashstore-repo",
-        "sourceURL": "https://github.com/Ashreq/ashstore-repo",
-        "type": "github",
-        "status": "healthy",
-        "reachable": true,
-        "latency": 322,
-        "latencyMs": 322,
-        "checkedAt": "2026-10-28T04:23:28Z",
-        "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
-        "lastUpdate": "2026-08-03",
-        "valid": true,
-        "detail": "HTTP 200",
-        "history": [
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 209,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-19",
-            "reachable": true,
-            "latencyMs": 307,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 161,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 105,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 237,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-20",
-            "reachable": true,
-            "latencyMs": 222,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 234,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 278,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-21",
-            "reachable": true,
-            "latencyMs": 146,
-            "detail": "HTTP 302"
-          },
-          {
-            "at": "2026-10-27T08:13:47Z",
-            "reachable": true,
-            "latencyMs": 354,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-27T14:49:03Z",
-            "reachable": true,
-            "latencyMs": 225,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-27T19:51:41Z",
-            "reachable": true,
-            "latencyMs": 410,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-27T23:33:14Z",
-            "reachable": true,
-            "latencyMs": 390,
-            "detail": "HTTP 200"
-          },
-          {
-            "at": "2026-10-28T04:23:28Z",
-            "reachable": true,
-            "latencyMs": 322,
             "detail": "HTTP 200"
           }
         ]
@@ -11149,6 +11046,109 @@
             "at": "2026-10-28T04:23:28Z",
             "reachable": true,
             "latencyMs": 289,
+            "detail": "HTTP 200"
+          }
+        ]
+      },
+      {
+        "id": "maxtube",
+        "app": "maxtube",
+        "name": "MaxTube",
+        "source": "Ashreq/ashstore-repo",
+        "sourceURL": "https://github.com/Ashreq/ashstore-repo",
+        "type": "github",
+        "status": "degraded",
+        "reachable": true,
+        "latency": 322,
+        "latencyMs": 322,
+        "checkedAt": "2026-10-28T04:23:28Z",
+        "checkedURL": "https://github.com/Ashreq/ashstore-repo/releases/download/v1.0.8/YTPlusM_21.31.3_5.2.2.tg%40tubevault.ipa",
+        "lastUpdate": "2026-08-03",
+        "valid": true,
+        "detail": "HTTP 200",
+        "history": [
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 209,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-19",
+            "reachable": true,
+            "latencyMs": 307,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 161,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 105,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 237,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-20",
+            "reachable": true,
+            "latencyMs": 222,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 234,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 278,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-21",
+            "reachable": true,
+            "latencyMs": 146,
+            "detail": "HTTP 302"
+          },
+          {
+            "at": "2026-10-27T08:13:47Z",
+            "reachable": true,
+            "latencyMs": 354,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-27T14:49:03Z",
+            "reachable": true,
+            "latencyMs": 225,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-27T19:51:41Z",
+            "reachable": true,
+            "latencyMs": 410,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-27T23:33:14Z",
+            "reachable": true,
+            "latencyMs": 390,
+            "detail": "HTTP 200"
+          },
+          {
+            "at": "2026-10-28T04:23:28Z",
+            "reachable": true,
+            "latencyMs": 322,
             "detail": "HTTP 200"
           }
         ]
