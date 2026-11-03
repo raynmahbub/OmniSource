@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T08:41:18Z",
-  "issues": 11,
+  "generatedAt": "2026-11-03T19:10:45Z",
+  "issues": 14,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 6,
+    "replace": 9,
     "rebuild": 5
   },
   "plans": [
@@ -78,6 +78,42 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "youmod",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "2a97e8a625ecd72d1fc128cabd43afe89a7c49f05d03cc7e92efa40ece539a28",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "youpro",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "9cc1220f35811424dd253dc9ce6005cb154c03fb503be3d53faf6886e2f53bf2",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "ytlite",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "9dda50a09f21b999d036dd00d5e128211b79a3576b1bf1617a00f51fa37fd911",
       "action": "replace",
       "autoFixable": false
     },
