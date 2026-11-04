@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T19:10:45Z",
-  "issues": 14,
+  "generatedAt": "2026-11-04T15:10:13Z",
+  "issues": 19,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 9,
+    "replace": 14,
     "rebuild": 5
   },
   "plans": [
@@ -71,6 +71,30 @@
     },
     {
       "type": "broken_download",
+      "slug": "ryukgram",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "sparkle",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
       "slug": "stikdebug",
       "severity": "high",
       "detail": "HTTP 404",
@@ -78,6 +102,42 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "telegram-mxgram",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "threadsaver",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "turrit-mxgram",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
       "action": "replace",
       "autoFixable": false
     },
