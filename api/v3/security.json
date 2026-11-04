@@ -4,7 +4,7 @@
   "feedVersion": "a7f81130b9df",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-11-03T11:38:29Z",
+    "generatedAt": "2026-11-04T11:51:48Z",
     "verdict": "pass",
     "summary": {
       "apps": 128,
@@ -13,13 +13,13 @@
       "hashesMissing": 13,
       "hashesInvalid": 0,
       "duplicateBinaries": 0,
-      "downloadsFailing": 6,
+      "downloadsFailing": 9,
       "downloadsUnknown": 0,
       "provenanceOfficial": 107,
       "provenanceCommunity": 21,
       "provenanceUnknown": 0
     },
-    "downloadSnapshotAt": "2026-11-03T03:37:34Z",
+    "downloadSnapshotAt": "2026-11-04T06:52:14Z",
     "hashes": {
       "apps": 128,
       "sha256": 115,
@@ -159,11 +159,8 @@
         "winston",
         "xenios",
         "yattee",
-        "youmod",
-        "youpro",
         "ytkace",
         "ytkp",
-        "ytlite",
         "ytmusic",
         "zeus"
       ],
@@ -173,7 +170,10 @@
         "inkillerplus",
         "iqface",
         "messenger-flow",
-        "stikdebug"
+        "stikdebug",
+        "youmod",
+        "youpro",
+        "ytlite"
       ],
       "unknown": []
     },
@@ -218,6 +218,24 @@
         "severity": "medium",
         "check": "download-unreachable",
         "id": "stikdebug",
+        "detail": "last recorded health probe could not reach the download; a retry may succeed"
+      },
+      {
+        "severity": "medium",
+        "check": "download-unreachable",
+        "id": "youmod",
+        "detail": "last recorded health probe could not reach the download; a retry may succeed"
+      },
+      {
+        "severity": "medium",
+        "check": "download-unreachable",
+        "id": "youpro",
+        "detail": "last recorded health probe could not reach the download; a retry may succeed"
+      },
+      {
+        "severity": "medium",
+        "check": "download-unreachable",
+        "id": "ytlite",
         "detail": "last recorded health probe could not reach the download; a retry may succeed"
       },
       {
