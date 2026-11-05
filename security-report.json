@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T11:51:48Z",
+  "generatedAt": "2026-11-05T11:53:12Z",
   "verdict": "pass",
   "summary": {
     "apps": 128,
@@ -9,13 +9,13 @@
     "hashesMissing": 13,
     "hashesInvalid": 0,
     "duplicateBinaries": 0,
-    "downloadsFailing": 9,
+    "downloadsFailing": 19,
     "downloadsUnknown": 0,
     "provenanceOfficial": 107,
     "provenanceCommunity": 21,
     "provenanceUnknown": 0
   },
-  "downloadSnapshotAt": "2026-11-04T06:52:14Z",
+  "downloadSnapshotAt": "2026-11-05T09:04:54Z",
   "hashes": {
     "apps": 128,
     "sha256": 115,
@@ -47,7 +47,6 @@
       "animegen",
       "anxreader",
       "anymex",
-      "apollo",
       "appstoreplusplus",
       "batteryinfo",
       "battman",
@@ -76,12 +75,10 @@
       "fladder",
       "gopeed",
       "hanami",
-      "helium",
       "infuseplus",
       "ish",
       "itorrent",
       "itransmission",
-      "jellify",
       "jellybook",
       "ksign",
       "lara",
@@ -116,7 +113,6 @@
       "raintweak",
       "redditfilter",
       "reynard",
-      "ryukgram",
       "ryukgram-ig410",
       "ryukgram-sidebyside",
       "saber",
@@ -126,7 +122,6 @@
       "sidestore",
       "snmessenger",
       "sora",
-      "sparkle",
       "spotiflac",
       "spotube",
       "statusmagic",
@@ -136,17 +131,13 @@
       "synkplay",
       "tablehabit",
       "taurine",
-      "telegram-mxgram",
-      "threadsaver",
       "thunder",
       "trollfools",
       "trollinstallerx",
       "ttkillerplus",
-      "turrit-mxgram",
       "twitchadblock",
       "unc0ver",
       "uprovid",
-      "utm",
       "uyouenhanced",
       "vcmi",
       "vibecontainers",
@@ -156,19 +147,28 @@
       "xenios",
       "yattee",
       "ytkace",
-      "ytkp",
       "ytmusic",
       "zeus"
     ],
     "failing": [
+      "apollo",
       "glow",
+      "helium",
       "ime",
       "inkillerplus",
       "iqface",
+      "jellify",
       "messenger-flow",
+      "ryukgram",
+      "sparkle",
       "stikdebug",
+      "telegram-mxgram",
+      "threadsaver",
+      "turrit-mxgram",
+      "utm",
       "youmod",
       "youpro",
+      "ytkp",
       "ytlite"
     ],
     "unknown": []
@@ -183,7 +183,19 @@
     {
       "severity": "medium",
       "check": "download-unreachable",
+      "id": "apollo",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
       "id": "glow",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "helium",
       "detail": "last recorded health probe could not reach the download; a retry may succeed"
     },
     {
@@ -207,13 +219,55 @@
     {
       "severity": "medium",
       "check": "download-unreachable",
+      "id": "jellify",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
       "id": "messenger-flow",
       "detail": "last recorded health probe could not reach the download; a retry may succeed"
     },
     {
       "severity": "medium",
       "check": "download-unreachable",
+      "id": "ryukgram",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "sparkle",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
       "id": "stikdebug",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "telegram-mxgram",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "threadsaver",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "turrit-mxgram",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "utm",
       "detail": "last recorded health probe could not reach the download; a retry may succeed"
     },
     {
@@ -226,6 +280,12 @@
       "severity": "medium",
       "check": "download-unreachable",
       "id": "youpro",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "ytkp",
       "detail": "last recorded health probe could not reach the download; a retry may succeed"
     },
     {
