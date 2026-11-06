@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T17:33:19Z",
-  "issues": 19,
+  "generatedAt": "2026-11-06T18:57:57Z",
+  "issues": 22,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 14,
+    "replace": 17,
     "rebuild": 5
   },
   "plans": [
@@ -71,6 +71,30 @@
     },
     {
       "type": "broken_download",
+      "slug": "msgplusx",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "nexasc",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
       "slug": "ryukgram",
       "severity": "high",
       "detail": "HTTP 404",
@@ -102,6 +126,18 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "060cbf9287be8e5ebacb45f31f7ce5e81ec9538f971c521badd9cefa4a970039",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "swiftgram",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
       "action": "replace",
       "autoFixable": false
     },
