@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T18:57:57Z",
-  "issues": 22,
+  "generatedAt": "2026-11-08T06:57:23Z",
+  "issues": 23,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 17,
+    "replace": 18,
     "rebuild": 5
   },
   "plans": [
@@ -156,6 +156,18 @@
     {
       "type": "broken_download",
       "slug": "threadsaver",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "ttkillerplus",
       "severity": "high",
       "detail": "HTTP 404",
       "transient": false,
