@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T10:53:18Z",
+  "generatedAt": "2026-11-08T11:03:26Z",
   "verdict": "pass",
   "summary": {
     "apps": 128,
@@ -9,13 +9,13 @@
     "hashesMissing": 13,
     "hashesInvalid": 0,
     "duplicateBinaries": 0,
-    "downloadsFailing": 17,
+    "downloadsFailing": 18,
     "downloadsUnknown": 0,
     "provenanceOfficial": 107,
     "provenanceCommunity": 21,
     "provenanceUnknown": 0
   },
-  "downloadSnapshotAt": "2026-11-07T04:56:21Z",
+  "downloadSnapshotAt": "2026-11-08T06:57:23Z",
   "hashes": {
     "apps": 128,
     "sha256": 115,
@@ -134,7 +134,6 @@
       "thunder",
       "trollfools",
       "trollinstallerx",
-      "ttkillerplus",
       "twitchadblock",
       "unc0ver",
       "uprovid",
@@ -166,6 +165,7 @@
       "swiftgram",
       "telegram-mxgram",
       "threadsaver",
+      "ttkillerplus",
       "turrit-mxgram",
       "youmod",
       "youpro",
@@ -256,6 +256,12 @@
       "severity": "medium",
       "check": "download-unreachable",
       "id": "threadsaver",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "ttkillerplus",
       "detail": "last recorded health probe could not reach the download; a retry may succeed"
     },
     {
