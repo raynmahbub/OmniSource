@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T06:57:23Z",
-  "issues": 23,
+  "generatedAt": "2026-11-09T20:57:43Z",
+  "issues": 24,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 18,
+    "replace": 19,
     "rebuild": 5
   },
   "plans": [
@@ -54,6 +54,18 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "maxmusic",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "ac9e50e355d6911d01ec31dd405b7ca361490499b91cb68c988fe72427b34413",
       "action": "replace",
       "autoFixable": false
     },
