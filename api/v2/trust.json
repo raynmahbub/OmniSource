@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "totals": {
     "apps": 128,
     "verified": 105,
-    "communityVerified": 13,
-    "unverified": 10,
+    "communityVerified": 14,
+    "unverified": 9,
     "hashVerified": 110,
     "hashRecorded": 115,
     "official": 107,
     "communityBuilds": 21,
     "unknownProvenance": 0,
-    "avgTrustScore": 7.8,
+    "avgTrustScore": 7.82,
     "trustLevels": [
       "Verified",
       "Trusted",
@@ -4190,7 +4190,7 @@
     {
       "app": "ryukgram",
       "name": "RyukGram",
-      "status": "UNVERIFIED",
+      "status": "COMMUNITY VERIFIED",
       "provenance": "community",
       "hash_verified": false,
       "digestEvidence": {
@@ -4208,10 +4208,7 @@
         "sameVersionDifferentDigest": false,
         "sameURLDifferentDigest": false
       },
-      "integrityFailure": {
-        "detail": "size mismatch",
-        "checkedAt": "2026-11-02"
-      },
+      "integrityFailure": null,
       "method": "altstore",
       "publisher": "927tx/IPA-Vault",
       "checks": {
@@ -4221,11 +4218,11 @@
         "hashVerified": false
       },
       "reasons": [
-        "failed or unknown check: integrity mismatch"
+        "catalog lists a community source (altstore); the project and IPA publisher may differ"
       ],
       "downloadURL": "https://pub-dd800571175348b6a2745b3396360028.r2.dev/Instagram-453.0.0-RyukGram.ipa",
-      "trustScore": 4.0,
-      "trustBadge": "Experimental"
+      "trustScore": 6.0,
+      "trustBadge": "Community"
     },
     {
       "app": "sparkle",

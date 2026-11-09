@@ -826,13 +826,13 @@
   },
   "analyticsHistory": [
     {
-      "date": "2026-11-02",
+      "date": "2026-11-09",
       "apps": 128,
       "sources": 111,
       "verified": 105,
       "deadLinks": 3,
       "newThisWeek": 0,
-      "updatedThisWeek": 20
+      "updatedThisWeek": 0
     }
   ],
   "animationspeed": {
@@ -12799,8 +12799,8 @@
       "expectedSize": 226667533,
       "ok": false,
       "detail": "verification unavailable: HTTP Error 404: Not Found",
-      "at": "2026-11-02",
-      "durationMs": 223
+      "at": "2026-11-09",
+      "durationMs": 293
     },
     "integrity": {
       "verified": true,
@@ -14211,8 +14211,8 @@
       "expectedSize": 148174542,
       "ok": false,
       "detail": "verification unavailable: HTTP Error 404: Not Found",
-      "at": "2026-11-02",
-      "durationMs": 144
+      "at": "2026-11-09",
+      "durationMs": 169
     },
     "integrity": {
       "verified": true,
@@ -14745,8 +14745,8 @@
       "expectedSize": 273276588,
       "ok": false,
       "detail": "verification unavailable: HTTP Error 404: Not Found",
-      "at": "2026-11-02",
-      "durationMs": 327
+      "at": "2026-11-09",
+      "durationMs": 376
     },
     "releaseDates": [
       "2026-10-14",
@@ -14982,8 +14982,8 @@
       "expectedSize": 241651824,
       "ok": false,
       "detail": "verification unavailable: HTTP Error 404: Not Found",
-      "at": "2026-11-02",
-      "durationMs": 249
+      "at": "2026-11-09",
+      "durationMs": 294
     },
     "releaseDates": [
       "2026-10-18",
@@ -20529,8 +20529,8 @@
       "expectedSize": 125027873,
       "ok": false,
       "detail": "verification unavailable: HTTP Error 404: Not Found",
-      "at": "2026-11-02",
-      "durationMs": 263
+      "at": "2026-11-09",
+      "durationMs": 171
     },
     "lastError": "all sources failed: altstore:https://raw.githubusercontent.com/927tx/IPA-Vault/main/ipavaultsource.json error: feed no longer contains tracked app 'com.facebook.Messenger.flow'"
   },
@@ -30078,43 +30078,10 @@
       "expectedSha256": null,
       "expectedSha512": null,
       "expectedSize": 359508400,
-      "ipaInspection": {
-        "bundleIdentifier": "com.burbn.instagram",
-        "expectedBundleIdentifier": "com.burbn.instagram",
-        "status": "match",
-        "infoPath": "Payload/Instagram.app/Info.plist",
-        "version": "453.0.0",
-        "build": "1099096960",
-        "minOSVersion": "15.0",
-        "privacyUsageDescriptions": {
-          "NSAppleMusicUsageDescription": "Instagram uses this to connect your Apple Music account so you can add music to your content.",
-          "NSBluetoothAlwaysUsageDescription": "This allows your phone to find and connect to the glasses using a Bluetooth connection.",
-          "NSCalendarsUsageDescription": "This will let Instagram sync events to your calendar.",
-          "NSCalendarsWriteOnlyAccessUsageDescription": "This will let Instagram sync events to your calendar.",
-          "NSCameraUsageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
-          "NSContactsUsageDescription": "Instagram will use your contacts to suggest people and things you care about, and offer a better service. Your contacts will be periodically synced and securely stored on Instagram’s servers.",
-          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Instagram.",
-          "NSFocusStatusUsageDescription": "This allows Instagram to check to see if you’ve been missing notifications from friends. You can always change this later in settings.",
-          "NSLocalNetworkUsageDescription": "Used to discover and connect to compatible streaming devices on your Wi-Fi network.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
-          "NSLocationUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
-          "NSLocationWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
-          "NSMicrophoneUsageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
-          "NSPhotoLibraryUsageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
-          "NSSpeechRecognitionUsageDescription": "Instagram uses speech recognition to turn what you say into text, so you can speak a message instead of typing it.",
-          "NSUserTrackingUsageDescription": "This helps Instagram personalize ads we show you."
-        },
-        "declaredEntitlements": null,
-        "entitlementsNote": "Not present in a readable packaged plist"
-      },
-      "size": 359614397,
-      "sha256": "fde60d77982bdb5359bfac98ce2045e11f8b1586c793a7f354c8ff673c0017b4",
-      "sha512": "54738756609628c2f3327940070a397cefde559f215a5b73dfccf04097b5e2a63d72e0f91dfcd30b9513065caa8649c04e9261096123c7dd29e54d055150bb25",
       "ok": false,
-      "detail": "size mismatch",
-      "at": "2026-11-02",
-      "durationMs": 7239
+      "detail": "verification unavailable: HTTP Error 404: Not Found",
+      "at": "2026-11-09",
+      "durationMs": 165
     },
     "releaseDates": [
       "2026-10-13",
@@ -35407,8 +35374,8 @@
       "expectedSize": 13543234,
       "ok": false,
       "detail": "verification unavailable: HTTP Error 404: Not Found",
-      "at": "2026-11-02",
-      "durationMs": 281
+      "at": "2026-11-09",
+      "durationMs": 284
     }
   },
   "stiknes": {
