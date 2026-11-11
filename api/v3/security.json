@@ -4,7 +4,7 @@
   "feedVersion": "02d65d871574",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-11-10T12:08:20Z",
+    "generatedAt": "2026-11-11T11:41:38Z",
     "verdict": "pass",
     "summary": {
       "apps": 128,
@@ -13,13 +13,13 @@
       "hashesMissing": 13,
       "hashesInvalid": 0,
       "duplicateBinaries": 0,
-      "downloadsFailing": 19,
+      "downloadsFailing": 20,
       "downloadsUnknown": 0,
       "provenanceOfficial": 107,
       "provenanceCommunity": 21,
       "provenanceUnknown": 0
     },
-    "downloadSnapshotAt": "2026-11-10T11:33:10Z",
+    "downloadSnapshotAt": "2026-11-11T06:56:34Z",
     "hashes": {
       "apps": 128,
       "sha256": 115,
@@ -81,7 +81,6 @@
         "gopeed",
         "hanami",
         "helium",
-        "infuseplus",
         "ish",
         "itorrent",
         "itransmission",
@@ -157,6 +156,7 @@
       "failing": [
         "glow",
         "ime",
+        "infuseplus",
         "inkillerplus",
         "iqface",
         "maxmusic",
@@ -194,6 +194,12 @@
         "severity": "medium",
         "check": "download-unreachable",
         "id": "ime",
+        "detail": "last recorded health probe could not reach the download; a retry may succeed"
+      },
+      {
+        "severity": "medium",
+        "check": "download-unreachable",
+        "id": "infuseplus",
         "detail": "last recorded health probe could not reach the download; a retry may succeed"
       },
       {
