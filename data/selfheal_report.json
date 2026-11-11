@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T20:57:43Z",
-  "issues": 24,
+  "generatedAt": "2026-11-11T00:11:19Z",
+  "issues": 25,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
-    "replace": 19,
+    "replace": 20,
     "rebuild": 5
   },
   "plans": [
@@ -30,6 +30,18 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "965277f575e815f78445d0c3387e402695b336e154017f1f86c1955e83b163c9",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "infuseplus",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "",
       "action": "replace",
       "autoFixable": false
     },
