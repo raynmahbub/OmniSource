@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T11:41:38Z",
+  "generatedAt": "2026-11-12T12:13:15Z",
   "verdict": "pass",
   "summary": {
     "apps": 128,
@@ -9,13 +9,13 @@
     "hashesMissing": 13,
     "hashesInvalid": 0,
     "duplicateBinaries": 0,
-    "downloadsFailing": 20,
+    "downloadsFailing": 21,
     "downloadsUnknown": 0,
     "provenanceOfficial": 107,
     "provenanceCommunity": 21,
     "provenanceUnknown": 0
   },
-  "downloadSnapshotAt": "2026-11-11T06:56:34Z",
+  "downloadSnapshotAt": "2026-11-12T10:42:55Z",
   "hashes": {
     "apps": 128,
     "sha256": 115,
@@ -58,7 +58,6 @@
       "byetunes",
       "caperfhud",
       "cartube",
-      "cercube",
       "chan",
       "chatsen",
       "conduit",
@@ -150,6 +149,7 @@
       "zeus"
     ],
     "failing": [
+      "cercube",
       "glow",
       "ime",
       "infuseplus",
@@ -180,6 +180,12 @@
     "total": 128
   },
   "findings": [
+    {
+      "severity": "medium",
+      "check": "download-unreachable",
+      "id": "cercube",
+      "detail": "last recorded health probe could not reach the download; a retry may succeed"
+    },
     {
       "severity": "medium",
       "check": "download-unreachable",
