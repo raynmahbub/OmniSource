@@ -1,14 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T00:11:19Z",
-  "issues": 25,
+  "generatedAt": "2026-11-12T02:43:41Z",
+  "issues": 26,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
+    "repair": 1,
     "replace": 20,
     "rebuild": 5
   },
   "plans": [
+    {
+      "type": "broken_download",
+      "slug": "cercube",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [
+        "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+        "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb"
+      ],
+      "fallbackProbes": [
+        {
+          "url": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+          "ok": false,
+          "status": 404,
+          "latency_ms": 657,
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb",
+          "ok": false,
+          "status": 404,
+          "latency_ms": 653,
+          "error": "HTTP 404"
+        }
+      ],
+      "expectedSha256": "90466884cd675c6753df4bb90af063e8252539b22f403120710b576ef33d5d35",
+      "action": "repair",
+      "autoFixable": false
+    },
     {
       "type": "broken_download",
       "slug": "glow",
@@ -300,5 +331,14 @@
       "autoFixable": false
     }
   ],
-  "suggestedPatches": []
+  "suggestedPatches": [
+    {
+      "slug": "cercube",
+      "field": "downloadURL",
+      "replaceWith": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
+      "reason": "HTTP 404",
+      "reviewRequired": true,
+      "digestVerified": false
+    }
+  ]
 }
