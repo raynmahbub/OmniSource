@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09",
+  "generatedAt": "2026-11-16",
   "totals": {
     "sources": 128,
-    "healthy": 82,
-    "degraded": 43,
+    "healthy": 80,
+    "degraded": 45,
     "unavailable": 3,
     "unknown": 0
   },
@@ -12,7 +12,7 @@
     "status": "degraded",
     "lastBuild": "2026-10-28",
     "appsTotal": 128,
-    "appsHealthy": 82,
+    "appsHealthy": 80,
     "appsFailing": 5
   },
   "providers": [
@@ -44,7 +44,7 @@
     {
       "provider": "github",
       "apps": 110,
-      "healthy": 68,
+      "healthy": 66,
       "unavailable": 0,
       "lastResolvedFrom": {
         "3105": "github:YangJiiii/3105",
@@ -56,7 +56,6 @@
         "byetunes": "github:EduAlexxis/ByeTunes",
         "caperfhud": "github:bomberfish/CAPerfHUDSwift",
         "chan": "github:moffatman/chan",
-        "chatsen": "github:chatsen/chatsen",
         "conduit": "github:cogwheel0/conduit",
         "cosmos": "github:clquwu/Cosmos-Music-Player",
         "cowabunga": "github:leminlimez/Cowabunga",
@@ -103,7 +102,6 @@
         "uprovid": "manual",
         "utm": "github:utmapp/UTM",
         "uyouenhanced": "manual",
-        "vcmi": "github:vcmi/vcmi",
         "vibecontainers": "github:GenericCoding/VibeContainers",
         "voyager": "github:aeharding/voyager",
         "wdbfontoverwrite": "github:ginsudev/WDBFontOverwrite",
@@ -125,6 +123,7 @@
         "bluewallet": "github:BlueWallet/BlueWallet",
         "bootstrap": "github:roothide/Bootstrap",
         "cartube": "github:Avangelista/CarTube",
+        "chatsen": "github:chatsen/chatsen",
         "delta": "github:RileyTestut/Delta",
         "dolphinish": "github:OatmealDome/dolphin-ios",
         "enablequic": "github:DevelopCubeLab/EnableQUIC",
@@ -155,6 +154,7 @@
         "stiknes": "github:StikEMU/StikNES-2.0",
         "thunder": "github:thunder-app/thunder",
         "trollinstallerx": "github:alfiecg24/TrollInstallerX",
+        "vcmi": "github:vcmi/vcmi",
         "xenios": "github:xenios-jp/XeniOS",
         "yattee": "github:yattee/yattee"
       }
@@ -1202,109 +1202,6 @@
           "at": "2026-10-28T04:23:28Z",
           "reachable": true,
           "latencyMs": 287,
-          "detail": "HTTP 200"
-        }
-      ]
-    },
-    {
-      "id": "chatsen",
-      "app": "chatsen",
-      "name": "Chatsen",
-      "source": "chatsen/chatsen",
-      "sourceURL": "https://github.com/chatsen/chatsen",
-      "type": "github",
-      "status": "healthy",
-      "reachable": true,
-      "latency": 318,
-      "latencyMs": 318,
-      "checkedAt": "2026-10-28T04:23:28Z",
-      "checkedURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
-      "lastUpdate": "2026-08-12",
-      "valid": true,
-      "detail": "HTTP 200",
-      "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 189,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 242,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 200,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 239,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 222,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 211,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 232,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 262,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 142,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-27T08:13:47Z",
-          "reachable": true,
-          "latencyMs": 488,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-27T14:49:03Z",
-          "reachable": true,
-          "latencyMs": 184,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-27T19:51:41Z",
-          "reachable": true,
-          "latencyMs": 382,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-27T23:33:14Z",
-          "reachable": true,
-          "latencyMs": 355,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-28T04:23:28Z",
-          "reachable": true,
-          "latencyMs": 318,
           "detail": "HTTP 200"
         }
       ]
@@ -7339,109 +7236,6 @@
       ]
     },
     {
-      "id": "vcmi",
-      "app": "vcmi",
-      "name": "VCMI",
-      "source": "vcmi/vcmi",
-      "sourceURL": "https://github.com/vcmi/vcmi",
-      "type": "github",
-      "status": "healthy",
-      "reachable": true,
-      "latency": 289,
-      "latencyMs": 289,
-      "checkedAt": "2026-10-28T04:23:28Z",
-      "checkedURL": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
-      "lastUpdate": "2026-08-15",
-      "valid": true,
-      "detail": "HTTP 200",
-      "history": [
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 245,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-19",
-          "reachable": true,
-          "latencyMs": 198,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 163,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 95,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 192,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-20",
-          "reachable": true,
-          "latencyMs": 244,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 188,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 246,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-21",
-          "reachable": true,
-          "latencyMs": 110,
-          "detail": "HTTP 302"
-        },
-        {
-          "at": "2026-10-27T08:13:47Z",
-          "reachable": true,
-          "latencyMs": 277,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-27T14:49:03Z",
-          "reachable": true,
-          "latencyMs": 115,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-27T19:51:41Z",
-          "reachable": true,
-          "latencyMs": 355,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-27T23:33:14Z",
-          "reachable": true,
-          "latencyMs": 363,
-          "detail": "HTTP 200"
-        },
-        {
-          "at": "2026-10-28T04:23:28Z",
-          "reachable": true,
-          "latencyMs": 289,
-          "detail": "HTTP 200"
-        }
-      ]
-    },
-    {
       "id": "vibecontainers",
       "app": "vibecontainers",
       "name": "VibeContainers",
@@ -9600,6 +9394,109 @@
           "at": "2026-10-28T04:23:28Z",
           "reachable": true,
           "latencyMs": 290,
+          "detail": "HTTP 200"
+        }
+      ]
+    },
+    {
+      "id": "chatsen",
+      "app": "chatsen",
+      "name": "Chatsen",
+      "source": "chatsen/chatsen",
+      "sourceURL": "https://github.com/chatsen/chatsen",
+      "type": "github",
+      "status": "degraded",
+      "reachable": true,
+      "latency": 318,
+      "latencyMs": 318,
+      "checkedAt": "2026-10-28T04:23:28Z",
+      "checkedURL": "https://github.com/chatsen/chatsen/releases/download/1.1.107%2B107/iOS.ipa",
+      "lastUpdate": "2026-08-12",
+      "valid": true,
+      "detail": "HTTP 200",
+      "history": [
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 189,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 242,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 200,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 239,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 222,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 211,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 232,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 262,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 142,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-27T08:13:47Z",
+          "reachable": true,
+          "latencyMs": 488,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-27T14:49:03Z",
+          "reachable": true,
+          "latencyMs": 184,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-27T19:51:41Z",
+          "reachable": true,
+          "latencyMs": 382,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-27T23:33:14Z",
+          "reachable": true,
+          "latencyMs": 355,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 318,
           "detail": "HTTP 200"
         }
       ]
@@ -13102,6 +12999,109 @@
           "at": "2026-10-28T04:23:28Z",
           "reachable": true,
           "latencyMs": 330,
+          "detail": "HTTP 200"
+        }
+      ]
+    },
+    {
+      "id": "vcmi",
+      "app": "vcmi",
+      "name": "VCMI",
+      "source": "vcmi/vcmi",
+      "sourceURL": "https://github.com/vcmi/vcmi",
+      "type": "github",
+      "status": "degraded",
+      "reachable": true,
+      "latency": 289,
+      "latencyMs": 289,
+      "checkedAt": "2026-10-28T04:23:28Z",
+      "checkedURL": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
+      "lastUpdate": "2026-08-15",
+      "valid": true,
+      "detail": "HTTP 200",
+      "history": [
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 245,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-19",
+          "reachable": true,
+          "latencyMs": 198,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 163,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 95,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 192,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-20",
+          "reachable": true,
+          "latencyMs": 244,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 188,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 246,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-21",
+          "reachable": true,
+          "latencyMs": 110,
+          "detail": "HTTP 302"
+        },
+        {
+          "at": "2026-10-27T08:13:47Z",
+          "reachable": true,
+          "latencyMs": 277,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-27T14:49:03Z",
+          "reachable": true,
+          "latencyMs": 115,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-27T19:51:41Z",
+          "reachable": true,
+          "latencyMs": 355,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-27T23:33:14Z",
+          "reachable": true,
+          "latencyMs": 363,
+          "detail": "HTTP 200"
+        },
+        {
+          "at": "2026-10-28T04:23:28Z",
+          "reachable": true,
+          "latencyMs": 289,
           "detail": "HTTP 200"
         }
       ]
