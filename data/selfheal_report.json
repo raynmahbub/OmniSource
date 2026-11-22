@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T18:15:35Z",
-  "issues": 26,
+  "generatedAt": "2026-11-22T23:44:00Z",
+  "issues": 27,
   "autoFixable": 0,
   "appliedFixes": 0,
   "byAction": {
     "repair": 1,
-    "replace": 20,
+    "replace": 21,
     "rebuild": 5
   },
   "plans": [
@@ -25,14 +25,14 @@
           "url": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm.deb",
           "ok": false,
           "status": 404,
-          "latency_ms": 142,
+          "latency_ms": 216,
           "error": "HTTP 404"
         },
         {
           "url": "https://apt.cercube.com/files/com.cercube.ios_6.4.2_iphoneos-arm64e.deb",
           "ok": false,
           "status": 404,
-          "latency_ms": 145,
+          "latency_ms": 224,
           "error": "HTTP 404"
         }
       ],
@@ -157,6 +157,18 @@
       "fallbacks": [],
       "fallbackProbes": [],
       "expectedSha256": "",
+      "action": "replace",
+      "autoFixable": false
+    },
+    {
+      "type": "broken_download",
+      "slug": "ryukgram-ig410",
+      "severity": "high",
+      "detail": "HTTP 404",
+      "transient": false,
+      "fallbacks": [],
+      "fallbackProbes": [],
+      "expectedSha256": "5e365019d7bf29b3a4ee3064b45f86876c878c52c960daa370b2092328871f9d",
       "action": "replace",
       "autoFixable": false
     },
