@@ -4,7 +4,7 @@
   "feedVersion": "4fde3281d6ba",
   "data": {
     "schemaVersion": 1,
-    "generatedAt": "2026-11-22T12:17:21Z",
+    "generatedAt": "2026-11-23T14:03:04Z",
     "verdict": "pass",
     "summary": {
       "apps": 128,
@@ -13,13 +13,13 @@
       "hashesMissing": 13,
       "hashesInvalid": 0,
       "duplicateBinaries": 0,
-      "downloadsFailing": 21,
+      "downloadsFailing": 22,
       "downloadsUnknown": 0,
       "provenanceOfficial": 107,
       "provenanceCommunity": 21,
       "provenanceUnknown": 0
     },
-    "downloadSnapshotAt": "2026-11-22T10:47:30Z",
+    "downloadSnapshotAt": "2026-11-23T06:06:05Z",
     "hashes": {
       "apps": 128,
       "sha256": 115,
@@ -115,7 +115,6 @@
         "raintweak",
         "redditfilter",
         "reynard",
-        "ryukgram-ig410",
         "ryukgram-sidebyside",
         "saber",
         "sameboy",
@@ -164,6 +163,7 @@
         "msgplusx",
         "nexasc",
         "ryukgram",
+        "ryukgram-ig410",
         "sparkle",
         "stikdebug",
         "swiftgram",
@@ -248,6 +248,12 @@
         "severity": "medium",
         "check": "download-unreachable",
         "id": "ryukgram",
+        "detail": "last recorded health probe could not reach the download; a retry may succeed"
+      },
+      {
+        "severity": "medium",
+        "check": "download-unreachable",
+        "id": "ryukgram-ig410",
         "detail": "last recorded health probe could not reach the download; a retry may succeed"
       },
       {
